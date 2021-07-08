@@ -1,0 +1,27 @@
+:::::: {.Exercise-container}
+::: {.Exercise data-latex=""}
+
+Exprimez les valeurs numériques suivantes en notation réelle ou en notation scientifique
+:::
+
+| notation réelle |   notation scientifique  |
+| :-------------: | :----------------------: |
+|    $17.9915$    |                          |
+|                 |    $3.756 \cdot 10^{4}$  |
+|   $0.00034159$  |                          |
+|                 |   $13.365 \cdot 10^{-5}$ |
+|                 |  $103.351 \cdot 10 ^{2}$ |
+|   $14896.546$   |                          |
+
+::::::
+
+::: {.Answer data-latex=""}
+
+- $17.9915$ = $1.79915 \cdot 10^{1}$
+- $37560$ = $3.756 \cdot 10^{4}$
+- $0.00034159$ = $3.4159 \cdot 10^{-4}$
+- $0.00013365$ = $13.365 \cdot 10^{-5}$
+- $10335.1$ = $103.351 \cdot 10 ^{2}$
+- $14896.546$ = $1.4896546 \cdot 10^{4}$
+
+:::

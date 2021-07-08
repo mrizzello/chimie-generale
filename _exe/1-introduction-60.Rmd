@@ -1,0 +1,31 @@
+::: {.Exercise data-latex=""}
+
+- Quelle est votre taille dans les unités suivantes ?
+  - [m]
+  - [mm]
+  - [nm]
+  - [km]
+
+- Quelle est votre poids dans les unités suivantes ?
+  - [kg]
+  - [g]
+  - [mg]
+  - [tonne]
+
+:::
+
+::: {.Answer data-latex=""}
+
+- Quelle est votre taille dans les unités suivantes ?
+  - $1.85$ [m]
+  - $1.85 \cdot 10^3$ [mm]
+  - $1.85 \cdot 10^9$ [nm]
+  - $1.85 \cdot 10^{-3}$ [km]
+
+- Quelle est votre poids dans les unités suivantes ?
+  - $75$ [kg]
+  - $7.5 \cdot 10^4$ [g]
+  - $7.5 \cdot 10^7$ [mg]
+  - $7.5 \cdot 10^{-2}$ [tonne]
+
+:::

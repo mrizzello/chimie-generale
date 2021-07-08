@@ -1,0 +1,20 @@
+\widowpenalty10000
+\clubpenalty10000
+
+\usepackage{booktabs}
+\usepackage{amsthm}
+\usepackage{gensymb}
+\usepackage[version=4]{mhchem}
+
+\usepackage[answerdelayed,lastexercise]{exercise}
+\renewcommand{\ExerciseName}{Exercice}
+\renewcommand{\AnswerName}{Solution de l'exercice}
+
+\usepackage{tcolorbox}
+
+\makeatletter
+\def\thm@space@setup{%
+  \thm@preskip=8pt plus 2pt minus 4pt
+  \thm@postskip=\thm@preskip
+}
+\makeatother

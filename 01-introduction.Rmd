@@ -1,0 +1,150 @@
+# Introduction
+
+::: {.tcolorbox data-latex=""}
+**Chimie**  
+La chimie est la science qui étudie la composition, les propriétés et les transformations de la matière.
+:::
+
+Comme celle énoncée ci-dessus, les définitions de la chimie incluent généralement les termes: matière, composition, propriété et transformation.
+
+**La matière est tout ce qui a une masse et qui occupe l'espace.** Tous les objets que nous voyons autour de nous sont constitués de matière. Les gaz qui constituent l'atmosphère, même si ils sont invisibles, sont de la matière. Ils occupent l'espace et ils ont une masse.
+
+Le terme **composition** se réfère aux composants d'un échantillon de matière. L'air que nous respirons est un mélange composé d'environ $3/4$ d'azote et $1/4$ d'oxygène et la formule chimique de l'eau H~2~O nous indique qu'elle est composée d'hydrogène et d'oxygène.
+
+Les **propriétés** sont des caractéristiques qui nous permettent de distinguer un échantillon de matière d'un autre échantillon. Un morceau de fer fondra à 1538 °C, alors qu'un glaçon fondra à 0 °C.
+
+## Propriétés et transformations
+
+Pour étudier la matière, nous allons nous intéresser à deux types de **propriétés** et aux deux types de **transformations** que la matière peut subir.
+
+### Propriétés physiques
+
+Les propriétés physiques sont des caractéristiques qui ne changent pas la composition de la matière (la couleur, la densité, le point de fusion, le point d'ébullition, la dureté, etc.).
+
+### Propriétés chimiques
+
+Les propriétés chimiques sont des caractéristiques qui changent la composition de la matière. Elles décrivent la façon dont une substance peut se transformer pour former d'autres substances (l'inflammabilité, la corrosivité, la réactivité avec des acides, etc.).
+
+### Transformations physiques
+
+Lors d'une **transformation physique**, la matière change son apparence physique, mais pas sa composition. On retrouve la même substance avant et après la transformation. L'évaporation de l'eau est une transformation physique. Lorsque l'eau s'évapore, elle passe de l'état liquide à l'état gazeux, mais elle est toujours constituée de molécules d'eau.
+
+$$
+\text{eau à l'état liquide }\ \xrightarrow{\text{évaporation}}\ \text{eau à l'état gazeux}
+$$
+
+### Transformations chimiques
+
+Lors d'une **transformation chimique**, la matière est transformée en une autre substance dont la composition est différente. La composition de la matière est différente avant et après la transformation. La combustion du papier est une transformation chimique. Le papier et l'oxygène de l'air réagissent ensemble pour former du dioxyde de carbone et de l'eau.
+
+$$
+\text{papier}\ +\ \text{oxygène} \ \xrightarrow{\text{combustion}} \ \text{dioxyde de carbone} + \text{eau}
+$$
+Les transformations chimiques sont ce que nous appellerons plus tard des **réactions chimiques**.
+
+```{r, child=c('_exe/1-introduction-10.Rmd')}
+```
+
+## Système de mesure
+
+La chimie est une science qui se base sur des résultats expérimentaux ou des théories qui ont pour point de départ l’observation. La plupart de ces observations sont faites de manières **quantitatives** : ce sont des mesures.
+
+Un système de mesure universel, le Système International (SI) a été adopté en 1960 par la Conférence Générale des Poids et Mesures. Le SI comporte sept unités de base.
+
+Table: (\#tab:tab-SIunits) Unités de base du Système International.
+
+| Unité SI          | Symbole | Grandeur                                   |
+| ----------------- | :-----: | ------------------------------------------ |
+| le **mètre**      | m       | unité de longueur                          |
+| la **seconde**    | s       | unité de temps                             |
+| le **kilogramme** | kg      | unité de masse                             |
+| l'**ampère**      | A       | unité d’intensité des courants électriques |
+| le **kelvin**     | K       | unité de température                       |
+| la **candela**    | cd      | unité d’intensité lumineuse                |
+| la **mole**       | mol     | unité de quantité de matière               |
+
+## Les puissances de 10
+
+Dans le domaine des sciences expérimentales, il est très commode d’exprimer une valeur numérique, souvent très grande ou très petite sous forme d’un produit de deux facteurs: un nombre compris entre 1 et 10 et une puissance de 10. Cette notation est appelée **notation scientifique**.
+
+Rappel :
+
+\begin{equation*}
+\begin{split}
+	1 &= 10^0\\
+	10 &= 10^1\\
+	100 &= 10^2\\
+	1000 &= 10^3\\
+	10000 &= 10^4
+\end{split}
+\qquad
+\begin{split}
+	\\
+	0.1 &= 10^{-1}\\
+	0.01 &= 10^{-2}\\
+	0.001 &= 10^{-3}\\
+	0.0001 &= 10^{-4}
+\end{split}
+\end{equation*}
+
+Exemples de notation scientifique :
+
+\begin{equation*}
+\begin{split}
+	4564 &= 4.564\cdot10^3\\
+	212575000000 &= 2.12575\cdot10^{11}\\
+	0.000007567 &= 7.567\cdot10^{-6}\\
+	0.00000000000000785 &= 7.85\cdot10^{-15}\\
+\end{split}
+\end{equation*}
+
+Deux relations importantes à retenir :
+
+\begin{equation*}
+\begin{split}
+	10^a \cdot 10^b = 10^{(a+b)}
+\end{split}
+\qquad
+\begin{split}
+	\frac{10^a}{10^b} = 10^{(a-b)}
+\end{split}
+\end{equation*}
+
+```{r, child=c('_exe/1-introduction-20.Rmd')}
+```
+
+## Multiples des unités
+
+Multiples et sous-multiples décimaux des unités du système international (SI) :
+
+|   Facteur  | Préfixe SI | Symbole SI |  Facteur  | Préfixe SI | Symbole SI |
+| :--------: | :--------: | :--------: | :-------: | :--------: | :--------: |
+|  $10^{-1}$ |    déci    |      d     |    $10$   |    déca    |     da     |
+|  $10^{-2}$ |    centi   |      c     |  $10^{2}$ |    hecto   |      h     |
+|  $10^{-3}$ |    milli   |      m     |  $10^{3}$ |    kilo    |      k     |
+|  $10^{-6}$ |    micro   |    $\mu$   |  $10^{6}$ |    mega    |      M     |
+|  $10^{-9}$ |    nano    |      n     |  $10^{9}$ |    giga    |      G     |
+| $10^{-12}$ |    pico    |      p     | $10^{12}$ |    téra    |      T     |
+| $10^{-15}$ |    femto   |      f     | $10^{15}$ |    péta    |      P     |
+| $10^{-18}$ |    atto    |      a     | $10^{18}$ |     exa    |      E     |
+
+```{r, child=c('_exe/1-introduction-30.Rmd')}
+```
+
+## Exercices supplémentaires
+
+```{r, child=c('_exe/1-introduction-40.Rmd')}
+```
+
+```{r, child=c('_exe/1-introduction-50.Rmd')}
+```
+
+```{r, child=c('_exe/1-introduction-60.Rmd')}
+```
+
+```{r, echo=FALSE}
+if (knitr::is_latex_output()) {
+  knitr::asis_output('\\section{Solutions des exercices}')
+  knitr::asis_output('\\shipoutAnswer')
+}
+```

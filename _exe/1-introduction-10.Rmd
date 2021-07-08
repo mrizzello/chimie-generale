@@ -1,0 +1,34 @@
+::: {.Exercise data-latex=""}
+
+En essayant de caractériser une substance, un chimiste observe les propriétés suivantes:
+
+- La substance est un métal blanc argenté brillant.
+- La substance fond à 649° C et bout à 1105° C.
+- La densité de la substance à 20° C est de 1.738 [g/cm$^3$].
+- La substance brûle au contact de l'air, produisant une lumière blanche intense.
+- La substance réagit avec le chlore pour donner un solide blanc cassant.
+- La substance peut être martelée en feuilles minces ou étirée en fils.
+- La substance est un bon conducteur de l'électricité.
+
+Lesquelles de ces caractéristiques sont des propriétés physiques, et lesquelles sont des propriétés chimiques?
+
+:::
+
+::: {.Answer data-latex=""}
+
+- La substance est un métal blanc argenté brillant.  
+  **propriété physique**
+- La substance fond à 649° C et bout à 1105° C.  
+  **propriété physique**
+- La densité de la substance à 20° C est de 1.738 [g/cm$^3$].  
+  **propriété physique**
+- La substance brûle au contact de l'air, produisant une lumière blanche intense.  
+  **propriété chimique**
+- La substance réagit avec le chlore pour donner un solide blanc cassant.  
+  **propriété chimique**
+- La substance peut être martelée en feuilles minces ou étirée en fils.  
+  **propriété physique**
+- La substance est un bon conducteur de l'électricité.  
+  **propriété physique**
+
+:::

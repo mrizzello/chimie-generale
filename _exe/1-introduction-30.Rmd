@@ -1,0 +1,30 @@
+::: {.Exercise data-latex=""}
+
+Répondez aux questions suivantes :
+
+a. Combien de milligrammes y a-t-il dans un kilogrammes ?
+b. Combien de nanomètres y a-t-il dans un mètres ?
+c. Combien y a-t-il de kilogrammes dans un microgramme ?
+d. Combien y a-t-il de microlitres dans un millilitre ?
+
+Effectuez chacune des conversions d'unités suivantes :
+
+e. $8.43$ [cm] en millimètres.
+f. $2.41 \cdot 10^{2}$ [cm] en mètres.
+g. $294.5$ [nm] en centimètres.
+h. $1.445 \cdot 10^{4}$ [m] en kilomètres.
+
+:::
+
+::: {.Answer data-latex=""}
+
+a. $10^{6}$ [mg]
+b. $10^{9}$  [nm]
+c. $10^{-9}$  [kg]
+d. $10^{3}$  [$\mu$l]
+e. $84.3$ [mm]
+f. $2.41$ [m]
+g. $2.945\cdot10^{-5}$ [cm]
+h. $14.45$ [km]
+
+:::

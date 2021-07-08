@@ -1,0 +1,18 @@
+---
+title: "Cours de chimie générale"
+author: "M. Michele Rizzello"
+date: "`r format(Sys.time(), '%d.%m.%Y')`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+description: "Cours de chimie générale | Maturité gymnasiale | Gymnase de Nyon-la Côte"
+lang: fr
+mainfont: Optima
+papersize: a4
+fontsize: 11pt
+geometry: margin=1in
+---
+
+# Préambule {-}
