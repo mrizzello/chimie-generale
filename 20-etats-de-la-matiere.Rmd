@@ -1,0 +1,26 @@
+# Les états de la matière
+
+::: {.objectives data-latex=""}
+
+- Distinguer les trois états de la matière.
+- Décrire les propriétés macroscopiques et submicroscopiques de chaque état.
+- Identifier et décrire chaque changement d'état.
+- Connaître les facteurs qui influencent les points d'ébullition et de fusion.
+- Interpréter une courbe de changements d’états.
+
+:::
+
+## Les représentations en chimie
+
+Nous allons considérer la matière de trois points de vue différents :
+
+- **point de vue macroscopique**  
+	Le domaine de la matière que l'on peut voir, sentir ou toucher.
+- **point de vue submicroscopique**  
+	Le domaine de la matière que l'on ne peut pas voir (atomes, molecules, etc.).
+- **point de vue symbolique**  
+	Le domaine qu'on utilise pour représenter "mathématiquement" la matière (équations, symboles, formules, etc.).
+
+![Les trois niveaux de représentation de la chimie](images/Johnstone.png){width=50%}
+
+Les propriétés macroscopiques sont régies par ce qu'il se passe au niveau submicroscopique.

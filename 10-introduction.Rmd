@@ -39,7 +39,7 @@ $$\textrm{papier}\ +\ \textrm{oxygène} \ \xrightarrow{\textrm{combustion}} \ \t
 
 Les transformations chimiques sont ce que nous appellerons plus tard des **réactions chimiques**.
 
-```{r, child=c('_exe/1-introduction-10.Rmd')}
+```{r, child=c('exe/introduction-10.Rmd')}
 ```
 
 ## Système de mesure
@@ -107,12 +107,12 @@ Deux relations importantes à retenir :
 \end{split}
 \end{equation*}
 
-```{r, child=c('_exe/1-introduction-20.Rmd')}
+```{r, child=c('exe/introduction-20.Rmd')}
 ```
 
 ## Multiples des unités
 
-Multiples et sous-multiples décimaux des unités du système international (SI) :
+Table: (\#tab:tab-SImultiples) Multiples et sous-multiples décimaux des unités du système international (SI).
 
 |   Facteur  | Préfixe SI | Symbole SI |  Facteur  | Préfixe SI | Symbole SI |
 | :--------: | :--------: | :--------: | :-------: | :--------: | :--------: |
@@ -125,18 +125,18 @@ Multiples et sous-multiples décimaux des unités du système international (SI)
 | $10^{-15}$ |    femto   |      f     | $10^{15}$ |    péta    |      P     |
 | $10^{-18}$ |    atto    |      a     | $10^{18}$ |     exa    |      E     |
 
-```{r, child=c('_exe/1-introduction-30.Rmd')}
+```{r, child=c('exe/introduction-30.Rmd')}
 ```
 
 ## Exercices supplémentaires
 
-```{r, child=c('_exe/1-introduction-40.Rmd')}
+```{r, child=c('exe/introduction-40.Rmd')}
 ```
 
-```{r, child=c('_exe/1-introduction-50.Rmd')}
+```{r, child=c('exe/introduction-50.Rmd')}
 ```
 
-```{r, child=c('_exe/1-introduction-60.Rmd')}
+```{r, child=c('exe/introduction-60.Rmd')}
 ```
 
 ```{r, echo=FALSE}

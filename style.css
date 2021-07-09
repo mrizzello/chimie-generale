@@ -13,7 +13,7 @@ pre code {
   white-space: inherit;
 }
 
-.tcolorbox, .Exercise, .Answer {
+.tcolorbox, .Exercise, .Answer, .objectives {
   background-color: #f5f5f5;
   border: 2px solid #333;
   padding: 0.85em 0.85em 0;
@@ -40,5 +40,16 @@ pre code {
 }
 
 .Answer-button{
+  color: #482880;
+  border: 1px solid #482880;
+  border-radius: 0.67rem;
+  background-color: #fff;
+  padding: 0.67rem;
   margin-bottom: 0.85rem;
+}
+
+.objectives {
+  background-color: inherit;
+  border: 1px solid #482880;
+  border-radius: 0.67rem;
 }
