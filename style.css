@@ -53,3 +53,13 @@ pre code {
   border: 1px solid #482880;
   border-radius: 0.67rem;
 }
+
+.center-blocks{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.center-blocks .figure{
+  flex-grow: 1;
+  text-align: center;
+}
