@@ -6,7 +6,7 @@ Complétez le tableau suivant en décrivant le changement d'état. Le tableau a 
 :::
 
 |                     | Changement d'état          | libère ou absorbe de la chaleur |
-| ------------------- | -------------------------- | ------------------------------ |
+| ------------------- | :------------------------: | :----------------------------: |
 | condensation        |                            | libère                         |
 | sublimation         |                            |                                |
 | vaporisation        | liquide $\rightarrow$ gaz  |                                |
