@@ -13,7 +13,7 @@ pre code {
   white-space: inherit;
 }
 
-.figure{
+.figure, .center{
   text-align: center;
 }
 
