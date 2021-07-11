@@ -16,5 +16,3 @@ papersize: a4
 fontsize: 11pt
 geometry: margin=1in
 ---
-
-# Préambule {-}

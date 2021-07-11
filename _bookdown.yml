@@ -3,3 +3,8 @@ language:
   ui:
     chapter_name: "Chapitre "
 delete_merged_file: true
+rmd_files:
+  - "index.Rmd"
+  - "chapitres/00-preambule.Rmd"
+  - "chapitres/10-introduction.Rmd"
+  - "chapitres/20-etats-de-la-matiere.Rmd"
