@@ -5,6 +5,8 @@ date: "`r format(Sys.time(), '%d.%m.%Y')`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
+classoption:
+  - openany
 link-citations: yes
 github-repo: rstudio/bookdown-demo
 description: "Cours de chimie générale | Maturité gymnasiale | Gymnase de Nyon-la Côte"

@@ -21,11 +21,7 @@ Nous allons considérer la matière de trois points de vue différents :
 - **point de vue symbolique**  
 	Le domaine qu'on utilise pour représenter "mathématiquement" la matière (équations, symboles, formules, etc.).
 
-::: {.center-blocks}
-
 ![Les trois niveaux de représentation de la chimie](images/Johnstone.png){width=50%}
-
-:::
 
 Les propriétés macroscopiques sont régies par ce qu'il se passe au niveau submicroscopique.
 
@@ -39,11 +35,7 @@ La matière se trouve généralement sous trois formes physiques appelées état
 | **liquide** | Les liquides ont un volume défini mais ils adoptent la forme de leur contenant. | Les particules sont proches et se déplacent lentement aléatoirement.                                 |
 |   **gaz**   | Les gaz occupent tout le volume et la forme de leur contenant.                  | Les particules sont séparées par de grandes distances et se déplacent très rapidement aléatoirement. |
 
-::: {.center-blocks}
-
 ![Les différents états de la matière du point de vue macroscopique et submicroscopique](images/solide-liquide-gaz.png){width=50%}
-
-:::
 
 ## Mouvement thermique et forces intermoléculaires
 
@@ -58,11 +50,7 @@ Il existe des forces d'attraction qui rassemblent les particules qui constituent
 
 Les trois états de la matière sont le résultat de l'**équilibre** entre les **forces intermoléculaires** et l'**énergie thermique**.
 
-::: {.center-blocks}
-
 ![Équilibre entre forces intermoléculaires et énergie thermique](images/mvt-thermique.png){width=67%}
-
-:::
 
 Lorsque les forces intermoléculaires sont fortes et l'énergie thermique faible, la substance aura tendance à se trouver à l'état solide. Lorsque les forces intermoléculaires sont faibles et l'énergie thermique forte, la substance aura tendance à se trouver à l'état gazeux. L'état liquide résulte d'une équivalence entre forces intermoléculaires et énergie thermique.
 
@@ -85,36 +73,19 @@ On peut modifier l'état d'une substance en lui fournissant ou lui retirant de l
 - Le **point de fusion** est la température à laquelle une substance passe de l'état solide à l'état liquide.
 - Le **point d'ébullition** est la température à laquelle une substance passe de l'état liquide à l'état gazeux.
 
-::: {.center-blocks}
-
-![Les noms des changements d'état](images/chgt-etats.png){width=50%}
-
-:::
+![Les noms des changements d'état](images/chgt-etats.png){width=45%}
 
 L'**évaporation** est la transformation d'un liquide en vapeur sans ébullition. Il peut y avoir vaporisation sans ébullition de la matière.
-
-\newpage
 
 ```{r, child=c('exe/etats-matiere-10.Rmd')}
 ```
 
-\newpage
-
 ```{r, child=c('exe/etats-matiere-20.Rmd')}
 ```
 
-```{r, child=c('exe/etats-matiere-30.Rmd')}
-```
-
-<!-- \input{_exo/_tex/2-etats-matiere-3.tex} -->
-
 ## Les courbes de changement d'état
 
-::: {.center-blocks}
-
 ![Courbe de chauffage de l'eau](images/courbe-chgt-etat.png){width=50%}
-
-:::
 
 Imaginons que l'on chauffe un bloc de glace en partant d'une température de -40° C. On place un thermomètre dans notre expérimentation et on note la température.
 
@@ -138,15 +109,80 @@ Nous avons vu qu’il est possible de liquéfier un gaz à pression ambiante en 
 
 Ce genre d’informations est résumé sur un **diagramme de phases** qui donne les conditions (pression et température) d’existence des différentes phases d’une substance donnée.
 
-::: {.center-blocks}
+![Diagramme de phases de l'eau et du CO~2~ (Les échelles ne sont pas régulières)](images/diagramme-phases-eau-CO2.png)
 
-![Diagramme de phases de l'eau](images/diagramme-phases-eau.png)
+\newpage
 
-![Diagramme de phases du CO~2~](images/diagramme-phases-CO2.png)
+```{r, child=c('exe/etats-matiere-30.Rmd')}
+```
 
-:::
+## L'état liquide
 
-<!--
-\caption{Exemples de diagrammes de phases\\(les échelles ne sont pas régulières).}
-\input{_exo/_tex/2-etats-matiere-phases-1.tex}
--->
+Au niveau submicroscopique, les particules qui forment les liquides suivent des mouvements aléatoires constants. Elles peuvent être ordonnées sur de courtes portions, mais cela ne dure pas très longtemps.
+
+![Tension superficielle](images/tension-surface.png){width=25%}
+
+Les forces intermoléculaires ont des effets différents sur une particule à la surface que sur une particule dans le corps du liquide.
+
+- Une particule à l'intérieur du liquide est attirée par d'autres particules dans toutes les directions.
+- Une particule en surface n'est attirée dans le corps du liquide que par les côtés et en dessous, mais pas au-dessus.
+
+Cette attraction inégale fait que le liquide a un volume propre et ne se disperse pas. Ce phénomène est appelé **tension superficielle**.
+
+La **viscosité** est la résistance à l'écoulement d'un liquide. Elle dépend des forces intermoléculaires et de la température. Les liquides ayant des forces intermoléculaires fortes ont tendance à avoir une viscosité élevée.
+
+La **capillarité** est la tendance qu'a un liquide à monter le long d'un tube étroit. Elle est causée par la compétition entre les forces intermoléculaires dans le liquide et les forces d'attraction entre le liquide et la paroi du tube.
+
+![La capillarité](images/capillarity.png){width=50%}
+
+## L'état solide
+
+Au niveau submicroscopique, les solides peuvent être de deux types - amorphe ou cristallin.
+
+![Solide amorphe (Verre) - Solide cristallin (Quartz)](images/amorphous.png){width=50%}
+
+### Les solides amorphes
+
+Les particules formant les solides amorphes ne sont pas ordonnées sur de grandes portions de l'espace. Leur structure est irrégulière et ressemble plus à la structure d'un liquide qui serait figé.
+
+Les solides amorphes n'ont pas un point de fusion distinct. Ils deviennent simplement plus souple lorsque la température augmente. Le verre, le caoutchouc ou le beurre sont des exemples de solides amorphes.
+
+### Les solides cristallins
+
+Les particules formant les solides cristallins sont assemblées les unes par rapport aux autres de façon régulière sur de vastes portions de l'espace. Cette structure tridimensionnelle est appelée **réseau cristallin**.
+
+Une **maille** est un volume de cristal, qui, lorsqu'il est répété dans les trois dimensions de l'espace, permet d'obtenir le cristal tout entier.
+
+![3 mailles de réseaux cristallins classiques (CFC: cubique à face centrées, CC: cubique centré, HC: hexagonal compact)](images/metaux.png){width=55%}
+
+### Allotropes
+
+L'**allotropie** est la propriété qu'ont certains corps à former des cristaux de différentes formes, appelés **allotropes** de cette substance. Par exemple, le diamant, le graphite et les fullerènes sont des formes allotropiques du carbone: formés du même élément mais dont la structure cristalline est différente.
+
+![Trois formes allotropiques du carbone (graphite, diamant, fullerène)](images/allotropes.png){width=67%}
+
+\newpage
+
+## Exercices supplémentaires
+
+```{r, child=c('exe/etats-matiere-40.Rmd')}
+```
+
+```{r, child=c('exe/etats-matiere-50.Rmd')}
+```
+
+```{r, child=c('exe/etats-matiere-60.Rmd')}
+```
+
+\newpage
+
+```{r, child=c('exe/etats-matiere-70.Rmd')}
+```
+
+\newpage
+
+```{r, echo=FALSE}
+if (knitr::is_latex_output()) {
+  knitr::asis_output('\\section{Solutions des exercices} \\shipoutAnswer')
+}
+```

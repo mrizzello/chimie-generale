@@ -1,0 +1,41 @@
+::: {.Exercise data-latex=""}
+
+On refroidit un liquide, tout en mesurant régulièrement sa température. Voici les résultats obtenu :
+
+- Temps (en min) : 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+- Température (en °C) : 20, 15, 10, 5, 5, 5, 5, 5, 0, -5
+
+1. Tracez le graphique représentant l’évolution de la température du liquide en fonction du temps lors de son refroidissement.
+
+:::{.center data-latex=""}
+
+![](images/graph-cyclohexane.png){width=75%}
+
+:::
+
+2. Quel changement d’état à lieu ici ?  
+3. Délimitez, sur le graphique, le début et la fin du changement d'état et indiquez les états physiques observés.
+4. Ce liquide est-il de l’eau?  
+5. En vous aidant des informations ci-dessous, déterminez quelle est la substance refroidie.  
+  Température de solidification  
+  - Acide lactique & 17° C
+  - Anéthole & 20° C
+  - Cyclohexane & 5° C\\
+6. Quelle est la température de fusion du cyclohexane ? Justifiez.  
+
+:::
+
+::: {.Answer data-latex=""}
+
+:::{.center data-latex=""}
+
+![](images/graph-cyclohexane-corr.png){width=67%}
+
+:::
+
+2. La solidification
+4. Non, car l'eau solidifie à 0° C.
+5. Le cyclohexane, température de solidification = 5° C.
+6. 5° C, température de fusion = température de solidification.
+
+:::

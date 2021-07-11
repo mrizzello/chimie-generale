@@ -1,0 +1,29 @@
+:::::: {.Exercise-container}
+::: {.Exercise data-latex=""}
+
+Connaissant les points de fusion et d'ébullition des substances suivantes, donnez l'état physique de la substance à température ambiante (25° C).
+
+:::
+
+| substance | point de fusion | point d'ébullition | état physique à 25° C |
+| --------- | --------------- | ------------------ | --------------------- |
+| eau       | 0° C            | 100° C             |                       |
+| méthane   | -182° C         | -162° C            |                       |
+| fer       | 1535° C         | 2750° C            |                       |
+| mercure   | -39° C          | 357° C             |                       |
+| oxygène   | -218° C         | -183° C            |                       |
+| or        | 1063° C         | 2856° C            |                       |
+
+
+::::::
+
+::: {.Answer data-latex=""}
+
+- eau : liquide
+- méthane : gaz
+- fer : solide
+- mercure : liquide
+- oxygène : gaz |
+- or : solide
+
+:::

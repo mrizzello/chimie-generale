@@ -1,0 +1,20 @@
+::: {.Exercise data-latex=""}
+
+1. Pourquoi en montagne le point d’ébullition de l’eau diminue-t-il par rapport à celui observé au niveau de la mer ?  
+2. Expliquez ce que sont les bulles qui apparaissent lorsque l’eau bout.  
+3. Qu'est-ce que la condensation ? Citez un exemple de la vie pratique où vous pouvez observer de la condensation.  
+4. Pourquoi met-on du sel sur les routes en hiver ?  
+&nbsp;  
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. En montagne la pression atmosphérique est plus basse ce qui abaisse le point d’ébullition de l’eau.  
+2. Les bulles, visibles à l’intérieur du liquide, sont des bulles de vapeur d’eau.  
+3. Passage de l'eau de l'état gazeux à l'état liquide. Rosée du matin, buée sur les vitres, gouttelettes d'eau sur une boisson sortie du réfrigérateur, ...  
+4. Les impuretés abaissent le point de fusion d'une substance. Le sel abaisse le point de fusion de l'eau, ainsi elle gèlera à une température inférieure à 0° C.
+
+\newpage
+
+:::

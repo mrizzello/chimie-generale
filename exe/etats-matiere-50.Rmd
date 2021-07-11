@@ -1,0 +1,28 @@
+:::::: {.Exercise-container}
+::: {.Exercise data-latex=""}
+
+Complétez le tableau suivant en décrivant le changement d'état. Le tableau a été partiellement complété pour vous aider.
+
+:::
+
+|                     | Changement d'état          | libère ou absorbe de la chaleur |
+| ------------------- | -------------------------- | ------------------------------ |
+| condensation        |                            | libère                         |
+| sublimation         |                            |                                |
+| vaporisation        | liquide $\rightarrow$ gaz  |                                |
+| fusion              |                            | absorbe                        |
+| solidification      |                            |                                |
+| sublimation inverse |                            |                                |
+
+::::::
+
+::: {.Answer data-latex=""}
+
+- condensation / gaz $\rightarrow$ liquide / libère
+- sublimation / solide $\rightarrow$ gaz / absorbe
+- vaporisation / liquide $\rightarrow$ gaz / absorbe
+- fusion / solide $\rightarrow$ liquide / absorbe
+- solidification / liquide $\rightarrow$ solide / libère
+- sublimation inverse / gaz $\rightarrow$ solide / libère
+
+:::
