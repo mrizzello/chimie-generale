@@ -1,0 +1,21 @@
+::: {.Exercise data-latex=""}
+
+Indiquez si les échantillons suivants sont des mélanges homogènes ou hétérogènes.
+
+1. Un morceau de marbre
+2. Un velouté de légumes
+3. Du ciment
+4. Un cheeseburger
+5. Une infusion de thé
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. mélange hétérogène
+2. mélange homogène
+3. mélange homogène
+4. mélange hétérogène
+5. mélange homogène
+
+:::

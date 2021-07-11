@@ -1,0 +1,228 @@
+# Mélanges et corps purs
+
+::: {.objectives data-latex=""}
+
+- Identifier les corps simples et composés.
+- Identifier les mélanges homogènes et hétérogènes.
+- Savoir choisir la méthode de séparation adaptée à un mélange.
+
+:::
+
+La première question que se pose un chimiste à propos d'un échantillon de matière inconnu est de savoir s'il s'agit d'une substance pure ou d'un mélange. Chaque échantillon de matière est l'un ou l'autre.
+
+Lorsque nous parlons d'une substance pure, nous parlons de quelque chose qui ne contient qu'un seul type de matière. Il peut s'agir d'un seul élément ou d'un seul composé, mais chaque échantillon de cette substance que vous examinez doit contenir exactement la "même chose" et avoir les mêmes propriétés. Si nous prenons deux ou plusieurs substances pures et que nous les mélangeons, nous parlerons naturellement d'un mélange.
+
+Selon la nature des particules qui la compose, la matière peut être classée en trois types : les **corps purs simples**, les **corps purs composés** et les **mélanges**.
+
+## Corps pur simple
+
+::: {.tcolorbox data-latex=""}
+
+**Corps pur simple**  
+Un corps pur simple est constitué d'atomes d'un seul élément.
+
+:::
+
+Un corps pur simple est le type le plus simple de composition de la matière. Il s'agit d'un **assemblage d'atomes d'un seul élément** avec des propriétés physiques et chimiques uniques.
+
+Chaque élément a un nom comme le silicium, l'oxygène ou le cuivre. Un morceau de silicium ne contient que des atomes de silicium et un morceau de cuivre ne contient que des atomes de cuivre. Les **propriétés macroscopiques** d'un morceau de silicium, comme la couleur ou la densité, sont différentes de celles d'un morceau de cuivre, car les **propriétés submicroscopiques** des atomes de silicium sont différentes de celles des atomes de cuivre.
+
+## Corps pur composé
+
+::: {.tcolorbox data-latex=""}
+
+**Corps pur composé**  
+Un corps pur composé est constitué de deux ou plusieurs éléments différents qui sont liés ensemble chimiquement.
+
+:::
+
+Les particules qui forment un corps pur composé sont des atomes qui sont liés ensemble suite à une réaction chimique. Ces atomes ne sont pas simplement mélangés ensemble.
+
+Par exemple, l'eau (H~2~O) est un corps pur composé constitué de deux éléments, l'hydrogène et l'oxygène. Ces éléments sont combinés d'une manière très spécifique, deux atomes d'hydrogène pour un atome d'oxygène (d'où H~2~O). Plusieurs composés contiennent de l'hydrogène et de l'oxygène, mais un seul a ce rapport spécifique de 2 pour 1, c'est l'eau.
+
+Un corps pur composé a des propriétés physiques et chimiques différentes de celles des éléments qui le composent.
+
+![Corps purs et corps composés](images/corps-purs-corps-composes.png){width=67%}
+
+## Les mélanges
+
+::: {.tcolorbox data-latex=""}
+
+**Mélange**  
+Ensemble résultant de l'union de substances différentes sans transformation chimique
+
+:::
+
+Un mélange est constitué de deux ou plusieurs substances (corps pur simples ou composés) qui sont physiquement mêlées, mais non liées chimiquement.
+
+Les mélanges peuvent être **homogène** ou **hétérogène**. Ces deux termes sont introduits pour qualifier ce qui peut être différencié à l'oeil.
+
+### Les mélanges hétérogènes
+
+::: {.tcolorbox data-latex=""}
+
+**Mélange hétérogène**  
+Un mélange est hétérogène si on peut distinguer ses différents constituants à l'oeil nu.
+
+:::
+
+La composition des mélanges hétérogènes varie d'un endroit à l'autre de la matière. Par exemple, si l'on met du sucre dans un bocal, que l'on ajoute du sable et que l'on agite le bocal, le mélange n'aura pas la même composition quelque soit l'endroit du bocal.
+
+### Les mélanges homogènes
+
+::: {.tcolorbox data-latex=""}
+
+**Mélange homogène**  
+Un mélange est homogène si on ne peut pas distinguer ses différents constituants à l'oeil nu.
+
+:::
+
+Les mélanges homogènes ont une composition uniforme. Chaque partie d'un mélange a la même composition que n'importe quelle autre partie du même mélange. Si l'on dissout du sucre dans l'eau en mélangeant bien, le mélange sera le même, quelque soit l'endroit que l'on goûtera.
+
+- L'air est un mélange homogène composé de plusieurs gaz, principalement l'azote et l'oxygène.
+- L'eau de mer est un mélange homogène composé principalement d'eau et de chlorure de sodium (sel).
+- L'essence est un mélange homogène composé d'une dizaine de substances.
+
+![Résumé de la classification de la matière](images/schema-matiere.png){width=67%}
+
+```{r, child=c('exe/melanges-corps-purs-10.Rmd')}
+```
+
+```{r, child=c('exe/melanges-corps-purs-20.Rmd')}
+```
+
+### Les dispersions
+
+Les dispersions sont des mélanges homogènes dans lequel les particules en suspension sont si petites que le mélange semble parfaitement homogène à l'oeil nu. Cependant, à l'aide d'instruments d'observation, on pourra distinguer les différentes substances qui constituent les dispersions.
+
+Les mélanges homogènes pourront à leur tour être classés en solutions, en colloïdes ou en suspensions, en fonction de la taille de leurs particules. Chaque particule peut être une macromolécule unique ou un agrégat de nombreux atomes, ions ou molécules.
+
+- **Les solutions** (0.1 à 2 [nm])  
+  La dissolution d'une substance dans une autre forme une solution. Un mélange homogène dans lequel les particules sont individuellement réparties de manière uniforme dans la substance dispersante.
+- **Les colloïdes** (2 à 500 [nm])
+  La substance dispersée est répartie dans la substance dispersante. Les particules sont plus grandes que des molécules simples mais trop petites pour se déposer.
+- **Les suspensions** (500 à 1000 [nm])  
+  Les particules sont d'abord en suspension mais se déposent progressivement par décantation.
+
+Une phase représente chaque partie homogène dont est constitué une dispersion. Dans une dispersion une phase peut être dispersante et l'autre dispersée. Les dispersions sont communément classées selon l'état physique des substances dispersée et dispersante.
+
+| phase dispersée | phase dispersante | suspensions et colloïdes                 |
+| :-------------: | :---------------: | ---------------------------------------- |
+|       gaz       |        gaz        | mélange toujours homogène (solution)     |
+|     liquide     |        gaz        | brouillard, laque pour cheveux           |
+|      solide     |        gaz        | fumée, nuage, poussière                  |
+|       gaz       |      liquide      | crème fouettée, soda, mousse à raser     |
+|     liquide     |      liquide      | lait, mayonnaise, crème solaire          |
+|      solide     |      liquide      | peinture, sang, boue                     |
+|       gaz       |       solide      | polystyrène, pierre ponce                |
+|     liquide     |       solide      | agar-agar, gelatine                      |
+|      solide     |       solide      | roches naturelles, plâtre, ciment, béton |
+
+## Méthodes de séparation
+
+Les constituants d’un mélange ont des **propriétés physiques** différentes. On peut exploiter ces différences pour séparer les différents constituants.
+
+Les techniques décrites ne dépendent que des propriétés physiques des constituants. Il n'y a pas de transformation chimiques qui se produit.
+
+### L'attraction magnétique
+
+L'**attraction magnétique**, ou **aimantation**, utilise les différences de **propriétés magnétiques**. Elle permet de séparer un mélange de substances magnétiques et non-magnétiques.
+
+Un mélange de limaille de fer et de poudre de soufre peut être séparé en utilisant un aimant. Cette technique est utilisée dans les déchetteries pour séparer les matériaux magnétiques des matériaux non-magnétiques.
+
+\newpage
+
+### La filtration
+
+La filtration est basée sur la **différence de taille des particules**. Elle est souvent utilisée pour séparer un solide d'un liquide. Le liquide s'écoule à travers les petits trous dans le filtre alors que le solide est retenu.
+
+![Filtration par gravité](images/filtration.png){width=33%}
+
+Dans la filtration sous vide, on diminue la pression au-dessous du filtre ce qui accélère l'écoulement du liquide.
+
+### La vaporisation
+
+La vaporisation est basée sur les **différences de points d'ébullition**. Cette technique est utilisée pour séparer des solides dissous dans un solvant.
+
+Lorsque le mélange contenant les matières solides dissoutes est chauffé, le solvant (liquide) vaporise progressivement et le soluté (solide) solidifie dans le récipient.
+
+![Vaporisation](images/evaporation.png){width=33%}
+
+Le terme **évaporation** est utilisé lorsque l'eau est le liquide qui vaporise.
+
+\newpage
+
+### La dissolution sélective
+
+La dissolution sélective est basée sur les **différences de solubilité**.
+
+Cette technique permet de séparer deux solides en ajoutant un solvant dans lequel un seul solide se dissout. Ensuite, il faut filtrer le mélange et vaporiser le solvant afin de récupérer les deux solides.
+
+![Dissolution sélective](images/dissolution-selective.png){width=100%}
+
+### La sublimation
+
+![Sublimation](images/sublimation.png){width=28%}
+
+La sublimation est une technique de séparation dans laquelle une substance dans un mélange est directement transformée à l'état gazeux sans passer par l'état liquide. Par chauffage, la matière solide sublime et se solidifie à nouveau lorsque les vapeurs entrent en contact avec une surface froide.
+
+Certains composés solides, tels que l'iode, le camphre, le naphtalène, l'acétanilide, l'acide benzoïque, peuvent être purifiés par sublimation à pression normale. D'autres composés, comme par exemple la caféine, devront être sublimés par chauffage sous pression réduite.
+
+\newpage
+
+### La distillation
+
+![Distillation simple](images/distillation.png){width=40%}
+
+La distillation est la principale méthode de séparation des mélanges constitués de liquides. Elle est basée sur la **différence des températures d’ébullition** des constituants du mélange.
+
+La solution est chauffée de sorte que le liquide ayant le point d'ébullition le plus bas se transforme en vapeur. La vapeur s'élève alors, et se dirige vers le condenseur, où elle est refroidie. La vapeur condense alors en un liquide appelé distillat.
+
+### La chromatographie
+
+La chromatographie est basée sur le fait que les composants d'un mélange ont plus ou moins tendance à être retenus sur une surface solide.
+
+Cette méthode se compose d'une partie statique (phase stationnaire) et d'une partie mobile (phase mobile). La phase mobile se déplace à travers la phase stationnaire. On injecte le mélange à séparer dans la phase mobile afin qu'il se déplace avec cette dernière dans la phase stationnaire. Les constituants du mélange ayant des affinités différentes avec les deux phases vont se déplacer plus ou moins vite et ainsi être séparés.
+
+![Chromatographie sur colonne](images/chromatographie.png){width=67%}
+
+\newpage
+
+### L'extraction
+
+![Extraction](images/extraction.png){width=50%}
+
+L'extraction est basée sur les **différences de solubilités**.
+
+On utilise généralement deux solvants ayant une polarité différente, comme l'eau et un solvant organique. Les différentes substances vont migrer dans le solvant dans lequel elles ont la plus grande solubilité.
+
+### La sédimentation et la décantation
+
+![Sédimentation](images/sedimentation.png){width=40%}
+
+La **sédimentation** est un processus dans lequel on laisse couler des particules lourdes insolubles dans un liquide par gravitation. Le liquide clair obtenu est ensuite transféré dans un autre récipient, sans déranger les particules sédimentées. Ce transfert s'appelle la **décantation**.
+
+La sédimentation et la décantation peuvent également être utilisées pour séparer un mélange de liquides lorsqu'ils ne sont pas miscibles.
+
+La **centrifugation** utilise la force centrifuge pour accélérer la sédimentation. Les composants plus denses migrent loin de l'axe de la centrifugeuse, tandis que les composants moins denses du mélange migrent vers l'axe.
+
+\newpage
+
+```{r, child=c('exe/melanges-corps-purs-30.Rmd')}
+```
+
+## Exercices supplémentaires
+
+```{r, child=c('exe/melanges-corps-purs-40.Rmd')}
+```
+
+```{r, child=c('exe/melanges-corps-purs-50.Rmd')}
+```
+
+\newpage
+
+```{r, echo=FALSE}
+if (knitr::is_latex_output()) {
+  knitr::asis_output('\\section{Solutions des exercices} \\shipoutAnswer')
+}
+```

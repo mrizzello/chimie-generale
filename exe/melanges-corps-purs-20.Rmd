@@ -1,0 +1,21 @@
+::: {.Exercise data-latex=""}
+
+Indiquez si les échantillons suivants sont des corps purs, des mélanges homogènes ou des mélanges hétérogènes.
+
+1. L'eau distillée
+2. L'essence
+3. Le sable
+4. Le vin
+5. L'air
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. H~2~O - corps pur
+2. hydrocarbures - mélange homogène
+3. débris de roches - mélange hétérogène
+4. eau + alcool - mélange homogène
+5. azote + oxygène - mélange homogène
+
+:::

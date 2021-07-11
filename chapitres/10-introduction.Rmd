@@ -1,8 +1,10 @@
 # Introduction
 
 ::: {.tcolorbox data-latex=""}
+
 **Chimie**  
 La chimie est la science qui étudie la composition, les propriétés et les transformations de la matière.
+
 :::
 
 Comme celle énoncée ci-dessus, les définitions de la chimie incluent généralement les termes: matière, composition, propriété et transformation.

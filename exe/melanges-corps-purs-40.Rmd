@@ -1,0 +1,23 @@
+::: {.Exercise data-latex=""}
+
+Indiquez si chaque échantillon de matière indiqué est un corps pur, un corps composé, un mélange homogène ou un mélange hétérogène.
+
+1. une cuillère en argent  
+2. un pain au chocolat  
+3. un glaçon  
+4. une poutre en bois  
+5. de l'encre rouge  
+6. du jus d'orange pressé  
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. corps pur simple
+2. mélange hétérogène
+3. corps purs composé
+4. mélange hétérogène
+5. mélange homogène
+6. mélange hétérogène
+
+:::

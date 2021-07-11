@@ -1,0 +1,19 @@
+::: {.Exercise data-latex=""}
+
+Proposer une méthode de séparation par laquelle les mélanges suivants peuvent être séparés.
+
+1. de la limaille de fer et des copeaux de bois  
+2. des éclats de verre et du saccharose (sucre de canne)  
+3. de l'eau et de l'huile d'olive  
+4. des paillettes d'or et de l'eau  
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. attraction magnétique
+2. dissolution sélective ou recristallisation
+3. sédimentation - décantation
+4. filtration
+
+:::

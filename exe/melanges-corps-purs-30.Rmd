@@ -1,0 +1,17 @@
+::: {.Exercise data-latex=""}
+
+Quelle méthode de séparation est employée dans chacune des procédures suivantes ?
+
+1. Verser un mélange de pâtes cuites et d'eau bouillante dans une passoire.  
+2. L'élimination des impuretés colorées dans le sucre brun pour en faire du sucre raffiné.  
+3. La récupération du sel de table dans des bassins de faible profondeur après évaporation de l'eau de mer, sous l'action combinée du soleil et du vent.  
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. Filtration
+2. Cristallisation
+3. Vaporisation / Évaporation
+
+:::
