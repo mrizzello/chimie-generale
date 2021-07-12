@@ -2,6 +2,7 @@
 ::: {.Exercise data-latex=""}
 
 Exprimez les valeurs numériques suivantes en notation réelle ou en notation scientifique
+
 :::
 
 | notation réelle |   notation scientifique  |

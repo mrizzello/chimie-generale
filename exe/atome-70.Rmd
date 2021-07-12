@@ -1,0 +1,35 @@
+::: {.Exercise data-latex=""}
+
+De par la définition de l'unité de masse atomique, un seul atome de carbone 12 a une masse de 12 [uma]. Calculez la masse en grammes d'une mole d'atomes de carbone 12.
+
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+$$ \begin{split}
+	\text{1 atome de } ^{12}C &\\
+	1 [uma] &\longrightarrow 1.661\cdot10^{-24} [g]\\
+	12 [uma] &\longrightarrow m [g]
+	\end{split}
+	\qquad\qquad
+	\begin{split}
+		m &= \dfrac{12 [uma] \cdot 1.661 \cdot 10^{-24} [g]}{1 [uma]}\\
+		&= 1.9932\cdot 10^{-23} [g]		
+	\end{split} $$
+
+$$ \begin{split}
+		\text{1 mole d'atomes de }^{12}C &\\
+		\text{1 [atome] de }^{12}C &\longrightarrow 1.9932\cdot 10^{-23} [g]\\
+		\quad 6.022\cdot 10^{23} [atome] &\longrightarrow M [g]\\
+	\end{split}
+	\qquad\qquad
+	\begin{split}
+	M &= \dfrac{6.022\cdot 10^{23} \cdot 1.9932\cdot 10^{-23} [g]}{1 [atome]}\\
+	&= 12 [g]
+	\end{split} $$
+
+Une mole d'atomes de carbone 12 a une masse de 12 [g].
+
+:::

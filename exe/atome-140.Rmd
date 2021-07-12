@@ -1,0 +1,15 @@
+::: {.Exercise data-latex=""}
+
+- Donnez le symbole chimique complet de l'atome dont le nombre de masse est de 112 et le numéro atomique égal à 48.  
+\vspace{\stretch{1}}
+- Donnez le nombre de chacune des particules qui le composent.  
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+- $_{48}^{112}Cd$
+- 48 protons, 64 neutrons et 48 électrons
+
+:::

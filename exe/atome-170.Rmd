@@ -1,0 +1,20 @@
+::: {.Exercise data-latex=""}
+
+Quelle serait la masse atomique d'un l'élément si cet élément était composé de trois isotopes avec les abondances relatives suivantes?
+
+- 30.00 % à 37.00 [uma]
+- 50.00 % à 38.00 [uma]
+- 20.00 % à 40.00 [uma]
+
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+$$ \begin{split}
+		m_a & = 0.3 \cdot 37.00 [uma] + 0.5 \cdot 38.00 [uma] + 0.2 \cdot 40.00 [uma]\\
+		&= 38.1 [uma]
+\end{split} $$
+
+:::

@@ -1,0 +1,28 @@
+::: {.Exercise data-latex=""}
+
+- Calculer le nombre d'atomes de magnésium contenus dans 35.2 g de magnésium.  
+\vspace{\stretch{1}}
+- Quelle est la masse de 2.2 $\cdot 10^{23}$ atomes de Pt?  
+\vspace{\stretch{1}}
+- Combien de grammes de calcium (Ca) faut-il pour obtenir 3.40 moles de calcium?  
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. $$ \begin{split}
+		n &= \dfrac{m}{M} = \dfrac{35.2~[g]}{24.31~[g/mol]} = 1.45~[mol] \\
+		N &= n \cdot N_{A} = 1.45~[mol] \cdot 6.022\cdot10^{23} = 8.73\cdot10^{23}~[atomes]
+		\end{split} $$
+
+2. $$ \begin{split}
+		n &= \dfrac{N}{N_{A}} = \dfrac{2.2\cdot10^{23}}{6.022\cdot10^{23}} = 0.37~[mol] \\
+		m &= n \cdot M = 0.37[mol] \cdot 195.08[g/mol] = 72[g]
+		\end{split} $$
+
+3. $$ \begin{split}
+		m &= n \cdot M = 3.4[mol] \cdot 40.08[g/mol] = 136[g]
+		\end{split} $$
+
+:::

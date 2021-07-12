@@ -1,0 +1,22 @@
+::: {.Exercise data-latex=""}
+
+Le diamètre d'un atome de carbone est de 1.54 [angström] (1 [angström] = $10^{-10}$ [m]).
+
+- Exprimer ce diamètre en picomètres, en nanomètres.
+\vspace{\stretch{1}}
+- Combien d'atomes de carbone pourraient être alignés côte à côte sur la largeur d'un trait de crayon de 0.20 mm de large ?
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1.54 [angström] = $1.54\cdot10^{-10}$ [m]  
+
+$$ 1.54\cdot10^{-10} \text{ [m] } \cdot \frac{ 10^{12}\text{ [pm] }}{1\text{ [m] }} = 1.54\cdot10^{2} \text{ [pm] } = 154 \text{ [pm] } $$
+
+$$ 1.54\cdot10^{-10} \text{ [m] } \cdot \frac{ 10^{9}\text{ [nm] }}{1\text{ [m] }} = 1.54\cdot10^{-1} \text{ [nm] } = 0.154 \text{ [nm] } $$
+
+$$ \frac{0.2\cdot10^{-3} \text{ [m] }}{1.54\cdot10^{-10} \text{ [m/atome] }} = 1.3\cdot10^6 \text{ [atome] } $$
+
+:::

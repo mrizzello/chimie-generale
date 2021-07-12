@@ -1,0 +1,32 @@
+:::::: {.Exercise-container}
+::: {.Exercise data-latex=""}
+
+Calculez la masse du proton, du neutron et de l'électron en unité de masse atomique [uma].
+
+:::
+
+| particule |    masse en [kg]     | masse en [uma] |
+| :-------: | :------------------: | :------------: |
+|   proton  | $1.672\cdot10^{-27}$ |                |
+|  neutron  | $1.674\cdot10^{-27}$ |                |
+|  électron | $9.109\cdot10^{-31}$ |                |
+
+\vspace{\stretch{1}}
+
+::::::
+
+::: {.Answer data-latex=""}
+
+Exemple pour le proton :
+
+$$ \begin{split}
+  1~[uma] &\rightarrow 1,661\cdot10^{-27}~[kg] \\
+  x~[uma] &\rightarrow 1,672\cdot10^{-27}~[kg] \\
+  x &= \frac{1,672\cdot10^{-27}}{1,661\cdot10^{-27}} = 1.007
+  \end{split} $$
+
+- proton : 1.007
+- neutron : 1.008
+- électron : $5.484\cdot10^{-4}$
+
+:::

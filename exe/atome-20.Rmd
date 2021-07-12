@@ -1,0 +1,40 @@
+::: {.Exercise data-latex=""}
+
+1. Calculez, en gramme, la masse d'une molécule d'eau, en considérant que chaque atome d'hydrogène possède 1 proton et 1 électron (mais aucun neutron) et que le noyau d'un atome d'oxygène comporte 8 protons, 8 neutrons et 8 électrons.
+\vspace{\stretch{1}}
+2. Combien y a-t-il de molécules d'eau dans 1 [ml] d'eau (1 [ml] d'eau = 1 [g] d'eau) ?
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+$$ \begin{split}
+	m_{H} &= 1 \cdot m_{p} + 1 \cdot m_{e}\\
+		  &= 1.672\cdot10^{-27}\text{ [kg] } + 9.109\cdot10^{-31}\text{ [kg] }\\
+		  &= 1.672\cdot10^{-27}\text{ [kg] }\\
+	m_{O} &= 8 \cdot m_{p} + 8 \cdot m_{n} + 8 \cdot m_{e}\\
+		  &= 8 \cdot 1.672\cdot10^{-27}\text{ [kg] } + 8 \cdot 1.674\cdot10^{-27}\text{ [kg] } + 8 \cdot 9.109\cdot10^{-31}\text{ [kg] }\\
+		  &= 2.678\cdot10^{-26}\text{ [kg] }\\
+	m_{H_{2}O} &= 2 \cdot m_{H} + 1 \cdot m_{O}\\
+		  &= 2 \cdot 1.672\cdot10^{-27}\text{ [kg] } + 2.678\cdot10^{-26}\text{ [kg] }\\
+		  &= 3.012\cdot10^{-26}\text{ [kg] } = 3.012\cdot10^{-23} \text{ [g] pour une molécule}
+\end{split} $$
+
+1 [ml] d'eau = 1 [g] d'eau
+
+$$ \begin{split}
+	& \text{en utilisant la règle de trois : } \\
+	1 \text{ molécule} &\rightarrow 3.012\cdot10^{-23} \text{ [g] }\\
+	n \text{ molécules} &\rightarrow 1 \text{ [g] }\\
+	n &= \frac{1}{3.012\cdot10^{-23}}\\
+	  &= 3.320\cdot10^{22} \text{ [molécules]}
+\end{split}
+\qquad
+\begin{split}
+	& \text{en utilisant une division simple : } \\
+	n &= \frac{1\text{ [g] }}{ 3.012\cdot10^{-23} \text{ [g/molécule] } } \\
+	&= 3.320\cdot10^{22} \text{ [molécules]}
+\end{split} $$
+
+:::

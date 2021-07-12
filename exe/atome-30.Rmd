@@ -1,0 +1,34 @@
+:::::: {.Exercise-container}
+::: {.Exercise data-latex=""}
+
+Dans les deux tableaux suivants, indiquez quelles espèces sont des isotopes d'un même élément. De quels éléments s'agit-il?
+
+:::
+
+| espèce | électrons | protons | neutrons |
+| :----: | :-------: | :-----: | :------: |
+|    A   |     6     |    6    |     6    |
+|    B   |     5     |    5    |     6    |
+|    C   |     6     |    6    |     7    |
+|    D   |     7     |    7    |     7    |
+|    E   |     6     |    6    |     8    |
+
+
+| espèce | électrons | protons | neutrons |
+| :----: | :-------: | :-----: | :------: |
+|    F   |     7     |    7    |     6    |
+|    G   |     6     |    6    |     6    |
+|    H   |     9     |    9    |     7    |
+|    I   |     7     |    7    |     7    |
+|    J   |     7     |    7    |     8    |
+
+::::::
+
+::: {.Answer data-latex=""}
+
+- tableau 1 : A, C, E - 6 protons = Carbone.
+- tableau 2 : F, I, J - 7 protons = Azote.
+
+\newpage
+
+:::

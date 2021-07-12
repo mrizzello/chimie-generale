@@ -1,0 +1,15 @@
+::: {.Exercise data-latex=""}
+
+Sur la base des résultats des deux exercices ci-dessus, identifiez la relation entre les valeurs numériques de la masse d'un atome en [uma] et la masse d'une mole d'atomes en [g/mol].
+
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+La masse en grammes par mole d’une substance est numériquement égale à son poids en unités de masse atomique.
+
+$$ \underbrace{\{masse\;atomique\}}_\text{[uma]}\;=\;\underbrace{\{masse\;molaire\}}_\text{[g/mol]}	$$
+
+:::

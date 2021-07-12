@@ -1,0 +1,22 @@
+:::::: {.Exercise-container}
+::: {.Exercise data-latex=""}
+
+Complétez le tableau ci dessous, indiquant la masse molaire du composé en [g/mol] et le nombre de moles contenues dans 1[g] de cet élément.
+
+:::
+
+| substance | masse molaire en [g/mol] | moles contenues dans 1[g] |
+| :-------: | :----------------------: | :-----------------------: |
+|     Fe    |                          |                           |
+|     Pb    |                          |                           |
+|     Mg    |                          |                           |
+
+::::::
+
+::: {.Answer data-latex=""}
+
+- Fe - 55.85 [g/mol]  - 1[g] / 55.85[g/mol] = 0.018 [mol]  
+- Pb - 207.2 [g/mol] - 1[g] / 207.2[g/mol] = 0.005 [mol]  
+- Mg - 24.31 [g/mol] - 1[g] / 24.31[g/mol] = 0.041 [mol]
+
+:::

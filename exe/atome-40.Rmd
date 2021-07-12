@@ -1,0 +1,22 @@
+:::::: {.Exercise-container}
+::: {.Exercise data-latex=""}
+
+Complétez le tableau ci dessous pour chaque isotope considéré.
+
+:::
+
+|   symbole    |  A  | protons | neutrons | électrons | nom de l'isotope |
+| :----------: | :-: | :-----: | :------: | :-------: | :--------------: |
+| $_{6}^{14}C$ |     |         |          |           |                  |
+| $_{3}^{7}Li$ |     |         |          |           |                  |
+| $_{9}^{19}F$ |     |         |          |           |                  |
+
+::::::
+
+::: {.Answer data-latex=""}
+
+- $_{6}^{14}C$ : 14 / 6 / 8 / 6 / carbone 14  
+- $_{3}^{7}Li$ : 7 / 3 / 4 / 3 / lithium 7  
+- $_{9}^{19}F$ : 19 / 9 / 10 / 9 / fluor 19
+
+:::

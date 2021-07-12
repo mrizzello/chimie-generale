@@ -70,10 +70,10 @@ On peut modifier l'état d'une substance en lui fournissant ou lui retirant de l
 
 **Les changements d'état sont des transformations physiques.** Lors d'un changement d'état une substance change la façon dont ses atomes ou molécules sont organisées sans changer les particules elles-mêmes.
 
+![Les noms des changements d'état](images/chgt-etats.png){width=45%}
+
 - Le **point de fusion** est la température à laquelle une substance passe de l'état solide à l'état liquide.
 - Le **point d'ébullition** est la température à laquelle une substance passe de l'état liquide à l'état gazeux.
-
-![Les noms des changements d'état](images/chgt-etats.png){width=45%}
 
 L'**évaporation** est la transformation d'un liquide en vapeur sans ébullition. Il peut y avoir vaporisation sans ébullition de la matière.
 
@@ -109,12 +109,14 @@ Nous avons vu qu’il est possible de liquéfier un gaz à pression ambiante en 
 
 Ce genre d’informations est résumé sur un **diagramme de phases** qui donne les conditions (pression et température) d’existence des différentes phases d’une substance donnée.
 
-![Diagramme de phases de l'eau et du CO~2~ (Les échelles ne sont pas régulières)](images/diagramme-phases-eau-CO2.png)
-
 \newpage
+
+![Diagramme de phases de l'eau et du CO~2~ (Les échelles ne sont pas régulières)](images/diagramme-phases-eau-CO2.png)
 
 ```{r, child=c('exe/etats-matiere-30.Rmd')}
 ```
+
+\newpage
 
 ## L'état liquide
 
@@ -139,7 +141,7 @@ La **capillarité** est la tendance qu'a un liquide à monter le long d'un tube 
 
 Au niveau submicroscopique, les solides peuvent être de deux types - amorphe ou cristallin.
 
-![Solide amorphe (Verre) - Solide cristallin (Quartz)](images/amorphous.png){width=50%}
+![Solide amorphe (Verre) - Solide cristallin (Quartz)](images/amorphous.png){width=45%}
 
 ### Les solides amorphes
 
@@ -153,13 +155,13 @@ Les particules formant les solides cristallins sont assemblées les unes par rap
 
 Une **maille** est un volume de cristal, qui, lorsqu'il est répété dans les trois dimensions de l'espace, permet d'obtenir le cristal tout entier.
 
-![3 mailles de réseaux cristallins classiques (CFC: cubique à face centrées, CC: cubique centré, HC: hexagonal compact)](images/metaux.png){width=55%}
+![3 mailles de réseaux cristallins classiques (CFC: cubique à face centrées, CC: cubique centré, HC: hexagonal compact)](images/metaux.png){width=45%}
 
 ### Allotropes
 
 L'**allotropie** est la propriété qu'ont certains corps à former des cristaux de différentes formes, appelés **allotropes** de cette substance. Par exemple, le diamant, le graphite et les fullerènes sont des formes allotropiques du carbone: formés du même élément mais dont la structure cristalline est différente.
 
-![Trois formes allotropiques du carbone (graphite, diamant, fullerène)](images/allotropes.png){width=67%}
+![Trois formes allotropiques du carbone (graphite, diamant, fullerène)](images/allotropes.png){width=45%}
 
 \newpage
 

@@ -1,0 +1,23 @@
+:::::: {.Exercise-container}
+::: {.Exercise data-latex=""}
+
+Calculer la masse atomique du chlore à l'aide des données suivantes :
+
+:::
+
+|    isotope     | masse atomique | abondance |
+| :------------: | -------------: | --------: |
+| $_{17}^{35}Cl$ |   34.969 [uma] |    75.77% |
+| $_{17}^{37}Cl$ |   36.966 [uma] |    24.23% |
+
+::::::
+
+::: {.Answer data-latex=""}
+
+$$ \begin{split}
+	MA_{Cl} &=  MA_{Cl^{35}} \cdot Abd_{Cl^{35}} + MA_{Cl^{37}} \cdot Abd_{Cl^{37}}\\
+		&= 34.969~[uma] \cdot 0.7577 + 36.966~[uma] \cdot 0.2423\\
+		&= 35.45 [uma]
+	\end{split} $$
+
+:::

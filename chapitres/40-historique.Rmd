@@ -1,0 +1,81 @@
+# Historique
+
+Selon le modèle du **Big Bang**, l'Univers est né il y a environ 14 milliards d'années lors d'une explosion cataclysmique. Cette explosion marque le début de l'espace, du temps, de la matière et de l'expansion de l'Univers. Quelques milliardièmes de seconde après le Big Bang, l'univers était constitué d'une sorte de soupe primordiale extrêmement chaude et dense des particules les plus fondamentales. L'univers se refroidit sous la barre des 1013 degrés et ces particules fondamentales commencent à s'assembler pour former protons et neutrons. Entre une et trois secondes après le Big Bang apparaît l'époque de la nucléosynthèse primordiale qui va durer environ 3 minutes. C’est à ce moment que se produit la formation de noyaux atomiques à partir des protons et neutrons qui étaient jusque-là libres.
+
+## Les origines de la matière
+
+Le processus par lequel des éléments chimiques sont créés est appelé **nucléosynthèse**. On distingue plusieurs types de nucléosynthèses:
+
+- **la nucléosynthèse primordiale**  
+  Le Big Bang a créé toute la matière et l'énergie de l'Univers. L'hydrogène et l'hélium sont créés dans les instants qui suivent le Big Bang.
+
+- **la nucléosynthèse stellaire**  
+  De petites étoiles fusionnent l'hydrogène en hélium, puis fusionnent l'hélium en carbone et en azote. Dans le coeur de plus grandes étoiles les éléments plus lourds sont formés comme le calcium, l'oxygène, le silicium, le soufre ou le fer.
+
+- **la nucléosynthèse explosive**  
+  L'explosion de supernovas crée et disperse un grand nombre d'éléments plus lourds que le fer. Lors de ces explosions la matière est dispersée dans l'univers.
+
+- **la nucléosynthèse interstellaire**  
+  La matière créée lors du Big Bang ou dans les étoiles est bombardée en permanence par les rayons cosmiques. Ce bombardement mène à des réactions de fission nucléaire qui créent à nouveau des éléments plus légers comme le lithium, le bore et ou béryllium.
+
+\newpage
+
+![Chronologie du cosmos](images/timeline-cosmos.png){width=80%}
+
+## Le modèle atomique
+
+Autour du 5 siècle avant JC, le philosophe grec **Démocrite** est le premier à décrire le concept d'**atome** (atomos signifie indivisible en grec). Pour Démocrite, l'atome est éternel, constant, invisible et indivisible. Il est la plus petite unité et le bloc de construction de toute matière.
+
+Les philosophes **Platon** et **Aristote** s'opposèrent fortement à l'idée de Démocrite, affirmant que la matière avait une structure continue que l'on pouvait diviser à l'infini. Il faudra attendre près de 2000 ans pour que la science puisse prouver que Démocrite avait raison!
+
+Au début du 19e siècle, **John Dalton** (1766-1844) développe ce qui est maintenant considéré comme le fondement de la théorie atomique moderne. Dalton base sa théorie sur 5 hypothèses:
+
+- La matière est faite de très petites particules appelées **atomes** qui ne peuvent pas être subdivisés ou détruits.
+- Tous les atomes d'un même élément sont identiques.
+- Les atomes d'éléments différents ont des masses différentes.
+- Les atomes peuvent se combiner entre eux pour former des composés.
+- Une réaction chimique est une modification de l'arrangement d'un groupe d'atomes.
+
+En 1897, le physicien britannique **Joseph John Thomson** (1856-1940) découvre l'**électron**, une très petite particule chargée négativement. L'expérience menée par Thomson l'a conduit à la conclusion que l'électron est une particule constituante de l'atome. Comme les atomes sont électriquement neutres, de la matière chargée positivement doit exister. Thomson propose un nouveau modèle de l'atome. Il est constitué d'une masse de matière de charge positive avec des électrons de charge négative coincés dedans. Ce modèle est appelé le modèle pain de raisin (plum pudding).
+
+![Schéma du tube cathodique de Thomson](images/exp-thomson.png){width=40%}
+
+En 1911, le physicien britannique **Ernest Rutherford** (1871-1937) fait une découverte importante. Il bombarde une feuille d'or extrêmement fine avec des particules alpha. Les particules alpha sont des particules radioactives chargées positivement.
+
+![Bombardement de la feuille d'or](images/exp-rutherford.png){width=40%}
+
+Selon le modèle de Thomson, toutes les particules alpha devaient passer à travers la feuille d'or sans entrave. La plupart des particules ont effectivement passé à travers la feuille, mais  certaines rebondissaient comme si elles avaient frappé un objet massif positif. Rutherford conclu que la charge positive et la plupart de la masse de l'atome sont concentrées dans un très petit volume: le **noyau**. Rutherford a proposé un nouveau modèle de l'atome appelé modèle planétaire, avec un noyau au centre et des électrons gravitant autour du noyau comme les planètes autour du soleil.
+
+![Comparaison des modèles de Thomson et de Rutherford](images/exp-thomson-rutherford.png){width=40%}
+
+En 1913, le physicien danois **Niels Henrik David Bohr** (1885-1962), propose un nouveau modèle de l'atome. Selon ce modèle, les électrons peuvent se déplacer sur des orbites à une distance spécifique du noyau, car l'énergie qu'ils possèdent n'est pas continue mais quantifiée.
+
+En 1932, le physicien **James Chadwick** (1891-1974) découvre la troisième particule subatomique, le **neutron**. Un neutron a une masse très proche de celle du proton mais il n’a pas de charge électrique.
+
+Deux même charges se repoussent mutuellement. Donc, si tous les protons dans le noyau se repoussent, pourquoi le noyau n'éclate-t-il pas tout simplement? **C'est la force nucléaire**. La force nucléaire est une force qui s'exerce entre protons et neutrons. Les neutrons stabilisent le noyau car ils ajoutent de l’attraction nucléaire sans provoquer de répulsion électrique.
+
+![Le modèle standard](images/modeles-atomiques-cloud.png){width=25%}
+
+Le modèle du nuage électronique a été développé en 1925 par **Erwin Schrödinger** (1887-1961) et **Werner Heisenberg** (1901-1976). Le **nuage électronique** représente la probabilité de trouver un électron dans une région de l'espace autour du noyau. Le nuage est plus dense aux endroits où la probabilité de trouver un électron est plus élevée.
+
+La notion de probabilité a été introduite car on ne peut pas connaître simultanément la position et la vitesse d'un électron.
+
+On peut faire une analogie entre le nuage électronique et l'hélice d'un avion. Quand le moteur de l'avion est arrêté, on peut voir les pales de l'hélice. Quand le moteur est allumé, les pales de l'hélices se déplacent si rapidement qu'on ne voit qu'une trace circulaire. Vous savez que les pales se trouvent quelque part dans la trace, mais à un instant donné, vous ne pouvez pas connaître précisément la position d'une pale.
+
+Développé au début des années 1970, le **modèle standard** est le modèle actuellement accepté. Il a permis d'expliquer avec succès presque tous les résultats expérimentaux et de prédire avec précision une grande variété de phénomènes.
+
+![Évolution du modèle atomique](images/modeles-atomiques-evol-3.png){width=75%}
+
+Chaque modèle a ses mérites mais un modèle est, au mieux, une solution temporaire. Les modèles sont des sujets de recherche et changent avec le temps. Parfois, les anciens modèles sont mis de côté, mais ils conservent leur pouvoir explicatif et restent utiles.
+
+Dans le cadre de ce cours, nous utiliseront le modèle de Bohr. Ce modèle nous permettra de décrire les différents sujets et phénomènes auxquels nous seront confrontés.
+
+\newpage
+
+## Échelle des tailles
+
+La taille d'un atome est difficile à mesurer car les atomes n'ont pas une limite extérieure bien définie. Cependant, on sait que leur taille est d'environ 0.1 [nm] jusqu'à 0.215 [nm] pour les plus gros. Les longueurs d'onde de la lumière visible à l'oeil humain se situent entre 400 [nm] à 700 [nm], ce qui est trop grand pour pouvoir voir les atomes avec un procédé utilisant la lumière visible.
+
+![Tailles relatives approximatives en mètres](images/ordre-grandeur-ex.png){width=100%}
+
+Voir les atomes nécessite une variété d'instruments de pointe qui utilisent différents types de particules ou de rayonnements. Les rayons X, les neutrons et les électrons fournissent des informations complémentaires. Ces techniques permettent de se représenter de manière indirecte ce à quoi peut ressembler un atome.

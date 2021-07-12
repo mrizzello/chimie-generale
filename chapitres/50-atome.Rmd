@@ -1,0 +1,261 @@
+# L'atome
+
+::: {.tcolorbox data-latex=""}
+
+**Atome**  
+Un atome est la plus petite particule d'un élément qui conserve encore les propriétés de cet élément.
+
+:::
+
+L'atome est formé d'un nuage d'électrons gravitant autour d'un petit noyau extrêmement dense. Le noyau atomique contient les protons qui sont chargés positivement et les neutrons qui ne sont pas chargés. Les électrons, qui sont chargés négativement, se déplacent autour du noyau sur des trajectoires complexes, qui forment le nuage électronique.
+
+**Un atome est principalement constitué de vide**. Plus de 99\% de la masse de l'atome se trouve dans le noyau.
+
+Imaginons que l'on agrandisse un atome à la taille d'un stade. Le noyau se trouverait sur le rond central du terrain et il aurait la taille d'une tête d'épingle. Les électrons seraient alors à la place des spectateurs et chacun aurait la taille d'un grain de poussière !
+
+![Taille et structure de l'atome](images/ordre-grandeur-atome.png){width=33%}
+
+## Particules subatomiques
+
+La matière est formée d'atomes et les atomes sont formés de particules subatomiques, les **protons**, les **neutrons** et les **électrons**.
+
+Les mêmes particules subatomiques constituent tous les atomes. La seule chose qui varie d'un élément à l'autre est le nombre des particules subatomiques.
+
+Table: (#tab:particules-subatomiques) Les particules subatomiques.
+
+| particule | symbole |   charge [Coulomb]   | charge relative |       masse [kg]      |   masse relative  |
+| --------- | :-----: | :------------------: | :-------------: | :-------------------: | :---------------: |
+| proton    | $p^{+}$ |  $+1.6\cdot10^{-19}$ |        +1       |  $1.672\cdot10^{-27}$ |         1         |
+| neutron   |  $n^{}$ |           0          |        0        |  $1.674\cdot10^{-27}$ |     $\approx$ 1   |
+| électron  | $e^{-}$ |  $-1.6\cdot10^{-19}$ |        -1       |  $9.109\cdot10^{-31}$ |  $\frac{1}{1836}$ |
+
+Le proton porte une unité de charge positive, l'électron porte une unité de charge négative, et le neutron n'est pas chargé, il est électriquement neutre.
+
+Un électron est 1836 fois plus léger qu'un proton, mais son influence est très grande car il porte une charge électrique équivalente à celle d'un proton.
+
+**L'atome est électriquement neutre.** Comment un atome peut-il être neutre si il contient des protons chargés positivement et des électrons chargés négativement? La réponse est qu'**il y a un nombre égal de protons et d'électrons** de sorte que les charges positives et négatives s'annulent.
+
+```{r, child=c('exe/atome-10.Rmd')}
+```
+
+```{r, child=c('exe/atome-20.Rmd')}
+```
+
+\newpage
+
+## Les éléments
+
+::: {.tcolorbox data-latex=""}
+
+**Élément**  
+Un élément regroupe tous les atomes qui ont le même nombre de protons.
+
+:::
+
+On connaît actuellement 118 éléments différents. Ils sont classés dans le tableau périodique des éléments. Ce sont les briques de base de tous les **corps purs simples** et les **corps purs composés**.
+
+Quelle est la différence entre deux atomes de deux éléments différents? Leur nombre de protons.
+
+- Tous les atomes contenant **un proton** dans leur noyau sont des atomes d'**hydrogène**.
+- Tous les atomes contenant **deux protons** dans leur noyau sont des atomes d'**hélium**.
+- Tous les atomes contenant **trois protons** dans leur noyau sont des atomes de **lithium**.
+-  ...
+
+### Les symboles et les noms
+
+Dans le but de simplifier l'écriture, on représente les éléments chimiques par des symboles qui sont une lettre majuscule correspondant à l'initiale du nom de l'élément. Dans de nombreux cas, l'initiale seule ne suffit pas. On utilise alors une seconde lettre minuscule.
+
+| symbole | nom       | origine                        |
+| :-----: | --------- | ------------------------------ |
+|    H    | hydrogène | qui forme de l'eau             |
+|    He   | hélium    | de Hélios, dieu grec du soleil |
+|    Li   | lithium   | de Lithos, pierre en grec      |
+|    Be   | béryllium | de béryl, un minerai           |
+|    B    | bore      | de borax, un minerai           |
+|    C    | carbone   | de Carbonis, charbon en grec   |
+|    N    | azote     | qui n'entretient pas la vie    |
+|    O    | oxygène   | qui forme des acides           |
+|    F    | fluor     | de fluere, s'écouler en latin  |
+|    Ne   | néon      | de Neos, nouveau en grec       |
+
+Lorsque l'on représente un atome d'un élément chimique, il est souvent pratique également d'indiquer son numéro atomique **Z**. On écrit ce nombre en index en bas et à gauche du symbole.
+
+$$ _{1}H \quad _{17}Cl \quad _{82}Pb $$
+
+## Les isotopes
+
+::: {.tcolorbox data-latex=""}
+
+**Isotopes**  
+Atomes qui ont le même nombre de protons mais un nombre différent de neutrons.
+
+:::
+
+Les noyaux de tous les atomes contiennent des protons et des neutrons. Les neutrons qui accompagnent les protons d'un noyau rendent celui-ci plus ou moins lourd sans changer la charge de l'ensemble de l'atome. Le rôle des neutrons est d'assurer la stabilité du noyau atomique.
+
+**Tous les atomes d'un même élément ont le même nombre de protons mais leur nombre de neutrons peut varier**. En effet, pour un même élément, il existe des atomes qui possèdent un nombre variable de neutrons.
+
+Il existe des tables qui indiquent la liste des isotopes naturels stables et radioactifs pour chaque élément.
+
+![Table des isotopes simplifiée](images/isotopes-table.png){width=80%}
+
+```{r, child=c('exe/atome-30.Rmd')}
+```
+
+Dans la notation chimique, pour désigner un isotope, on indiquera le nombre de masse A de l'atome en exposant en haut et à gauche du symbol.
+
+$$ \begin{split}
+  _{Z}^{A}X
+  \end{split}
+  \qquad
+  \begin{split}
+  & \text{X : symbole de l'élément} \\
+	& \text{A : nombre de masse de l'atome $\rightarrow$ protons + neutrons} \\
+	& \text{Z : numéro atomique de l'élément $\rightarrow$ protons}
+  \end{split} $$
+
+$_{6}^{12}C$ et $_{6}^{13}C$ sont deux isotopes de l'élément carbone.On les nomme carbone 12 et carbone 13.
+
+$_{92}^{234}U$, $_{92}^{235}U$ et $_{92}^{238}U$ sont les isotopes naturels de l'élément uranium.
+
+```{r, child=c('exe/atome-40.Rmd')}
+```
+
+## L'unité de masse atomique
+
+Les masses du protons et du neutrons sont d'environ $1.672\cdot10^{-27}$ [kg] et la masse de l'électron est 1836 fois plus petite. Parce qu'il est peu pratique de travailler avec ces très petites masses exprimées en notation scientifique, les chimistes ont développé leur propre système de mesure de la  masse d'un atome.
+
+L'**unité de masse atomique (uma)** est une unité de mesure standard, utilisée pour mesurer la masse des atomes. Par convention, un atome de carbone 12, qui contient six protons et six neutrons a une masse de 12 [uma] exactement. Une unité de masse atomique est définie comme $\frac{1}{12}$ de la masse cet atome.
+
+$$ 1 [uma] \simeq 1,660 \cdot 10^{-27} [kg] $$
+
+```{r, child=c('exe/atome-50.Rmd')}
+```
+
+## La masse atomique
+
+::: {.tcolorbox data-latex=""}
+
+**Masse atomique**  
+La masse atomique d’un élément est la moyenne des masses de ses isotopes pondérée par leur abondance relative.
+
+:::
+
+La plupart des éléments sont présents dans la nature sous forme d'un mélange d'isotopes. On appelle **abondance isotopique** le pourcentage de chacun des isotopes présents dans l'élément considéré.
+
+On peut déterminer la masse atomique d'un élément, en additionnant les masses de ses isotopes multipliées par leurs abondances relatives.
+
+```{r, child=c('exe/atome-60.Rmd')}
+```
+
+## La mole et le nombre d'Avogadro
+
+Même les plus petits échantillons que nous traitons dans un laboratoire contiennent de gigantesques quantités d'atomes. Ne pouvant pas prendre les atomes, ou molécules, un par un avec des pincettes, les chimistes ont donc mis au point un système d'unité de comptage.
+
+Dans la vie quotidienne, nous sommes familiers avec des unités de comptage comme la dizaine, la douzaine, la vingtaine, etc. En chimie, l'unité de comptage est la **mole**.
+
+::: {.tcolorbox data-latex=""}
+
+**La mole**  
+Une mole contient exactement $6.02214076\cdot10^{23}$ entités élémentaires.
+
+:::
+
+Des techniques telles que la spectrométrie de masse, qui permettent de compter très précisément les atomes, ont été utilisées pour déterminer ce nombre. Ce nombre, noté $N_A$, est appelé **nombre d'Avogadro** et dans le cadre de ce cours nous allons arrondir ce nombre à $6.022\:\cdot\:10^{23}$.
+
+Table: (#tab:unites-de-comptage) Unités de comptage.
+
+|   unité   | nombre d'entités             | exemple                        |
+| :-------: | :--------------------------: | :----------------------------- |
+|   paire   | 2 entités                    | une paire de chaussures        |
+|  dizaine  | 10 entités                   | une dizaine de pommes          |
+|  douzaine | 12 entités                   | une douzaine d'oranges         |
+| vingtaine | 20 entités                   | une vingtaine de personnes     |
+|    mole   | $6.022\cdot10^{23}$ entités  | une mole d'atomes de potassium |
+
+Une mole d'atomes, une mole de molécules, ou une mole de quoi que ce soit contiennent toutes $6.022\cdot10^{23}$ objets.
+
+```{r, child=c('exe/atome-70.Rmd')}
+```
+
+```{r, child=c('exe/atome-80.Rmd')}
+```
+
+```{r, child=c('exe/atome-90.Rmd')}
+```
+
+\newpage
+
+## La masse molaire atomique
+
+![Relation entre unité de masse atomique et masse molaire.](images/uma-masse-molaire.png){width=67%}
+
+::: {.tcolorbox data-latex=""}
+
+**Masse molaire atomique**  
+La masse molaire atomique d'un élément est la masse en grammes d'une mole d'atomes de l'élément.
+
+:::
+
+La définition de la masse molaire nous permet d'exprimer la relation suivante:
+
+$$ \begin{split}
+  \text{M} = \frac{\text{m}}{\text{n}}
+\end{split}
+\qquad
+\begin{split}
+	&\text{m : masse de substance en [g]}\\
+	&\text{n : quantité de matière en [mol]}\\
+	&\text{M : masse molaire en [g/mol]}
+\end{split} $$
+
+$$ M = \frac{m}{n} \qquad \text{ ou } \qquad n = \frac{m}{M} \qquad \text{ ou } \qquad m = n \cdot M $$
+
+```{r, child=c('exe/atome-100.Rmd')}
+```
+
+\newpage
+
+## Exercices supplémentaires
+
+```{r, child=c('exe/atome-110.Rmd')}
+```
+
+```{r, child=c('exe/atome-120.Rmd')}
+```
+
+```{r, child=c('exe/atome-130.Rmd')}
+```
+
+```{r, child=c('exe/atome-140.Rmd')}
+```
+
+```{r, child=c('exe/atome-150.Rmd')}
+```
+
+\newpage
+
+```{r, child=c('exe/atome-160.Rmd')}
+```
+
+```{r, child=c('exe/atome-170.Rmd')}
+```
+
+```{r, child=c('exe/atome-180.Rmd')}
+```
+
+\newpage
+
+```{r, child=c('exe/atome-190.Rmd')}
+```
+
+```{r, child=c('exe/atome-200.Rmd')}
+```
+
+\newpage
+
+```{r, echo=FALSE}
+if (knitr::is_latex_output()) {
+  knitr::asis_output('\\section{Solutions des exercices} \\shipoutAnswer')
+}
+```

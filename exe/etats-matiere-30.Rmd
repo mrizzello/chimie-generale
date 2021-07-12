@@ -1,10 +1,15 @@
 ::: {.Exercise data-latex=""}
 
 1. Quelle est la pression minimale pour que le CO~2~ liquide puisse exister ?  
+\vspace{\stretch{1}}
 2. Quelle doit alors être la température ?  
+\vspace{\stretch{1}}
 3. Que représente le point triple ?  
+\vspace{\stretch{1}}
 4. Que se passe-t-il si on prend de l’eau à 0.005 [atm] et –200° C et qu’on augmente la température jusqu’à 300° C ?  
+\vspace{\stretch{1}}
 5. Même question pour le CO~2~.  
+\vspace{\stretch{1}}
 
 :::
 

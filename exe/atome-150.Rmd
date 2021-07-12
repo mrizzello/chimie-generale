@@ -1,0 +1,17 @@
+::: {.Exercise data-latex=""}
+
+Soit un atome de sodium 23. Qu'obtiendrait-on ...
+
+- si on pouvait lui ajouter un proton ?  
+\vspace{\stretch{1}}
+- si on pouvait lui ajouter un neutron ?  
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+- du magnésium 24.
+- un autre isotope du sodium
+
+:::

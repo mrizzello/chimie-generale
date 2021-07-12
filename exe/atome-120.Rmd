@@ -1,0 +1,17 @@
+::: {.Exercise data-latex=""}
+
+Le magnésium a trois isotopes dont les nombres de masse sont 24, 25 et 26.
+
+- Donnez le symbole chimique complet (exposant et indice) pour chaque isotope.  
+\vspace{\stretch{1}}
+- Combien de neutrons sont contenus dans un atome de chaque isotope ?  
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+- $_{12}^{24}Mg$, $_{12}^{25}Mg$ et $_{12}^{26}Mg$  
+- 12 neutrons, 13 neutrons et 14 neutrons  
+
+:::

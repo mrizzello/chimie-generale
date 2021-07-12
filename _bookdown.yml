@@ -9,3 +9,5 @@ rmd_files:
   - "chapitres/10-introduction.Rmd"
   - "chapitres/20-etats-de-la-matiere.Rmd"
   - "chapitres/30-melanges-corps-purs.Rmd"
+  - "chapitres/40-historique.Rmd"
+  - "chapitres/50-atome.Rmd"

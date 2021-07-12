@@ -3,6 +3,7 @@ bookdown::gitbook:
   config:
     sharing: null
     toc:
+      collapse: section
       before: |
         <li><a href="./">Cours de chimie générale</a></li>
       after: |

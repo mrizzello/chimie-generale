@@ -1,0 +1,64 @@
+::: {.Exercise data-latex=""}
+
+- Combien de mole d'atomes de carbone contiennent 6 [g] de carbone 12?  
+\vspace{\stretch{1}}
+- Combien d'atomes sont contenus dans 97.6 [g] de platine?  
+\vspace{\stretch{1}}
+- Combien d'atomes contient un échantillon de chrome ayant une masse de 13 [g]?  
+\vspace{\stretch{1}}
+- Combien de moles d'argent représentent 9.02 $\cdot 10^{23}$ molécules d'argent?  
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. $$ \begin{split}
+			1 \text{ [mol] de C } &\longrightarrow 12 [g]\\
+			n \text{ [mol] de C } &\longrightarrow 6 [g]\\
+			n = \dfrac{6 [g] \cdot 1 [mol]}{12 [g]} &= 0.5 [mol]
+		\end{split}
+		\qquad
+		\begin{split}
+		n = \dfrac{m}{M} = \dfrac{6[g]}{12[g/mol]} = 0.5 [mol]
+	\end{split} $$
+
+2. $$ \begin{split}
+			1 \text{ [mol] de Pt } &\longrightarrow 195 [g]\\
+			n \text{ [mol] de Pt } &\longrightarrow 97.6 [g]\\
+			n = \dfrac{97.6 [g] \cdot 1 [mol]}{195 [g]} &= 0.5 [mol]
+		\end{split}
+		\qquad
+		\begin{split}
+		n = \dfrac{m}{M} = \dfrac{97.6[g]}{195[g/mol]} = 0.5 [mol]
+	\end{split} $$
+
+  $$ \begin{split}
+  1 \text{ [mol] de Pt } &\longrightarrow 6.022^\cdot10^{23} [atome]\\
+  0.5 \text{ [mol] de Pt } &\longrightarrow n [atome]\\
+  n = \dfrac{0.5 [mol] \cdot 6.022^\cdot10^{23} [atome]}{1 [mol]} &= 3.011^\cdot10^{23} [atome]
+  \end{split} $$
+
+3. $$ \begin{split}
+		1 \text{ [mol] de Cr } &\longrightarrow 52 [g]\\
+		n \text{ [mol] de Cr } &\longrightarrow 13 [g]\\
+		n = \dfrac{13 [g] \cdot 1 [mol]}{52 [g]} &= 0.25 [mol]
+		\end{split}
+		\qquad
+		\begin{split}
+		n = \dfrac{m}{M} = \dfrac{13[g]}{52[g/mol]} &= 0.25 [mol]
+	\end{split} $$
+
+  $$ \begin{split}
+  1 \text{ [mol] de Cr } &\longrightarrow 6.022^\cdot10^{23} [atome]\\
+  0.25 \text{ [mol] de Cr } &\longrightarrow n [atome]\\
+  n = \dfrac{0.25 [mol] \cdot 6.022^\cdot10^{23} [atome]}{1 [mol]} &= 1.51^\cdot10^{23} [atome]
+  \end{split} $$
+
+4. $$ \begin{split}
+		1 \text{ [mol] de Ag } &\longrightarrow 6.022^\cdot10^{23} [molecule]\\
+		n \text{ [mol] de Ag } &\longrightarrow 9.02^\cdot10^{23} [molecule]\\
+		n &= \dfrac{9.02^\cdot10^{23} [molecule] \cdot 1[mol]}{6.022^\cdot10^{23} [molecule]} = 1.51 [mol]
+	\end{split} $$
+
+:::

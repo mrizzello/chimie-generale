@@ -1,10 +1,13 @@
 ::: {.Exercise data-latex=""}
 
 1. Pourquoi en montagne le point d’ébullition de l’eau diminue-t-il par rapport à celui observé au niveau de la mer ?  
+\vspace{\stretch{1}}
 2. Expliquez ce que sont les bulles qui apparaissent lorsque l’eau bout.  
+\vspace{\stretch{1}}
 3. Qu'est-ce que la condensation ? Citez un exemple de la vie pratique où vous pouvez observer de la condensation.  
+\vspace{\stretch{1}}
 4. Pourquoi met-on du sel sur les routes en hiver ?  
-&nbsp;  
+\vspace{\stretch{1}}
 
 :::
 
