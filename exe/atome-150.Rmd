@@ -2,16 +2,16 @@
 
 Soit un atome de sodium 23. Qu'obtiendrait-on ...
 
-- si on pouvait lui ajouter un proton ?  
+1. si on pouvait lui ajouter un proton ?  
 \vspace{\stretch{1}}
-- si on pouvait lui ajouter un neutron ?  
+2. si on pouvait lui ajouter un neutron ?  
 \vspace{\stretch{1}}
 
 :::
 
 ::: {.Answer data-latex=""}
 
-- du magnésium 24.
-- un autre isotope du sodium
+1. du magnésium 24.
+2. un autre isotope du sodium
 
 :::

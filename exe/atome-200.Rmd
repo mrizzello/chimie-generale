@@ -1,12 +1,19 @@
 ::: {.Exercise data-latex=""}
 
-- Combien de mole d'atomes de carbone contiennent 6 [g] de carbone 12?  
+Combien de mole d'atomes de carbone contiennent 6 [g] de carbone 12?
+
 \vspace{\stretch{1}}
-- Combien d'atomes sont contenus dans 97.6 [g] de platine?  
+
+Combien d'atomes sont contenus dans 97.6 [g] de platine?
+
 \vspace{\stretch{1}}
-- Combien d'atomes contient un échantillon de chrome ayant une masse de 13 [g]?  
+
+Combien d'atomes contient un échantillon de chrome ayant une masse de 13 [g]?
+
 \vspace{\stretch{1}}
-- Combien de moles d'argent représentent 9.02 $\cdot 10^{23}$ molécules d'argent?  
+
+Combien de moles d'argent représentent 9.02 $\cdot 10^{23}$ molécules d'argent?
+
 \vspace{\stretch{1}}
 
 :::

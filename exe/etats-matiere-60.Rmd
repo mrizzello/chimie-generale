@@ -19,11 +19,16 @@ Connaissant les points de fusion et d'ébullition des substances suivantes, donn
 
 ::: {.Answer data-latex=""}
 
-- eau : liquide
-- méthane : gaz
-- fer : solide
-- mercure : liquide
-- oxygène : gaz |
-- or : solide
+eau : liquide
+
+méthane : gaz
+
+fer : solide
+
+mercure : liquide
+
+oxygène : gaz
+
+or : solide
 
 :::

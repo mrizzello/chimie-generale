@@ -2,9 +2,9 @@
 
 Le diamètre d'un atome de carbone est de 1.54 [angström] (1 [angström] = $10^{-10}$ [m]).
 
-- Exprimer ce diamètre en picomètres, en nanomètres.
+1. Exprimer ce diamètre en picomètres, en nanomètres.
 \vspace{\stretch{1}}
-- Combien d'atomes de carbone pourraient être alignés côte à côte sur la largeur d'un trait de crayon de 0.20 mm de large ?
+2. Combien d'atomes de carbone pourraient être alignés côte à côte sur la largeur d'un trait de crayon de 0.20 mm de large ?
 \vspace{\stretch{1}}
 
 :::

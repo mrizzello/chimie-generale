@@ -2,11 +2,11 @@
 
 Vous portez à votre doigt un anneau d'or pur qui pèse 31,6 [g].
 
-- Combien de moles d'atomes d'or sont contenues dans cet anneau?  
+1. Combien de moles d'atomes d'or sont contenues dans cet anneau?  
 \vspace{\stretch{1}}
-- Combien d'atomes d'or sont contenus dans cet anneau?  
+2. Combien d'atomes d'or sont contenus dans cet anneau?  
 \vspace{\stretch{1}}
-- Combien de protons sont contenus dans cet anneau?  
+3. Combien de protons sont contenus dans cet anneau?  
 \vspace{\stretch{1}}
 
 :::

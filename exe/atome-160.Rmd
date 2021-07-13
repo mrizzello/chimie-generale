@@ -2,18 +2,18 @@
 
 Chacun des symboles chimiques ci-dessous représente un élément différent. Identifiez l'élément représenté et donnez le nombre de protons, de neutrons et d'électrons de chacun:
 
-- $^{74}_{33}X$  
-- $^{127}_{53}X$  
-- $^{152}_{63}X$  
-- $^{209}_{83}X$  
+1. $^{74}_{33}X$  
+2. $^{127}_{53}X$  
+3. $^{152}_{63}X$  
+4. $^{209}_{83}X$  
 
 :::
 
 ::: {.Answer data-latex=""}
 
-- $^{74}_{33}As$ : 33 $p^+$, 41 $n$, 33 $e^-$  
-- $^{127}_{53}I$ : 53 $p^+$, 74 $n$, 53 $e^-$  
-- $^{152}_{63}Eu$ : 63 $p^+$, 89 $n$, 63 $e^-$  
-- $^{209}_{83}Bi$ : 83 $p^+$, 126 $n$, 83 $e^-$  
+1. $^{74}_{33}As$ : 33 $p^+$, 41 $n$, 33 $e^-$  
+2. $^{127}_{53}I$ : 53 $p^+$, 74 $n$, 53 $e^-$  
+3. $^{152}_{63}Eu$ : 63 $p^+$, 89 $n$, 63 $e^-$  
+4. $^{209}_{83}Bi$ : 83 $p^+$, 126 $n$, 83 $e^-$  
 
 :::

@@ -109,8 +109,6 @@ Nous avons vu qu’il est possible de liquéfier un gaz à pression ambiante en 
 
 Ce genre d’informations est résumé sur un **diagramme de phases** qui donne les conditions (pression et température) d’existence des différentes phases d’une substance donnée.
 
-\newpage
-
 ![Diagramme de phases de l'eau et du CO~2~ (Les échelles ne sont pas régulières)](images/diagramme-phases-eau-CO2.png)
 
 ```{r, child=c('exe/etats-matiere-30.Rmd')}

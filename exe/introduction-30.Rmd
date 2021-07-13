@@ -2,29 +2,31 @@
 
 Répondez aux questions suivantes :
 
-a. Combien de milligrammes y a-t-il dans un kilogrammes ?
-b. Combien de nanomètres y a-t-il dans un mètres ?
-c. Combien y a-t-il de kilogrammes dans un microgramme ?
-d. Combien y a-t-il de microlitres dans un millilitre ?
+1. Combien de milligrammes y a-t-il dans un kilogrammes ?
+2. Combien de nanomètres y a-t-il dans un mètres ?
+3. Combien y a-t-il de kilogrammes dans un microgramme ?
+4. Combien y a-t-il de microlitres dans un millilitre ?
 
 Effectuez chacune des conversions d'unités suivantes :
 
-e. $8.43$ [cm] en millimètres.
-f. $2.41 \cdot 10^{2}$ [cm] en mètres.
-g. $294.5$ [nm] en centimètres.
-h. $1.445 \cdot 10^{4}$ [m] en kilomètres.
+5. $8.43$ [cm] en millimètres.
+6. $2.41 \cdot 10^{2}$ [cm] en mètres.
+7. $294.5$ [nm] en centimètres.
+8. $1.445 \cdot 10^{4}$ [m] en kilomètres.
 
 :::
 
 ::: {.Answer data-latex=""}
 
-a. $10^{6}$ [mg]
-b. $10^{9}$  [nm]
-c. $10^{-9}$  [kg]
-d. $10^{3}$  [$\mu$l]
-e. $84.3$ [mm]
-f. $2.41$ [m]
-g. $2.945\cdot10^{-5}$ [cm]
-h. $14.45$ [km]
+1. $10^{6}$ [mg]
+2. $10^{9}$  [nm]
+3. $10^{-9}$  [kg]
+4. $10^{3}$  [$\mu$l]
+5. $84.3$ [mm]
+6. $2.41$ [m]
+7. $2.945\cdot10^{-5}$ [cm]
+8. $14.45$ [km]
+
+\newpage
 
 :::

@@ -1,10 +1,15 @@
 ::: {.Exercise data-latex=""}
 
-- Calculer le nombre d'atomes de magnésium contenus dans 35.2 g de magnésium.  
+Calculer le nombre d'atomes de magnésium contenus dans 35.2 g de magnésium.
+
 \vspace{\stretch{1}}
-- Quelle est la masse de 2.2 $\cdot 10^{23}$ atomes de Pt?  
+
+Quelle est la masse de 2.2 $\cdot 10^{23}$ atomes de Pt?
+
 \vspace{\stretch{1}}
-- Combien de grammes de calcium (Ca) faut-il pour obtenir 3.40 moles de calcium?  
+
+Combien de grammes de calcium (Ca) faut-il pour obtenir 3.40 moles de calcium?
+
 \vspace{\stretch{1}}
 
 :::

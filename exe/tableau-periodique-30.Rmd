@@ -2,22 +2,22 @@
 
 Déterminer quelle sera la charge des atomes correspondant aux description suivante:
 
-- Un atome ayant perdu deux électrons  
-- Un atome ayant gagné un électron  
-- Un atome ayant perdu trois électrons  
-- Un atome ayant gagné deux électrons  
-- Un atome ayant perdu un électron  
-- Un atome ayant gagné trois électrons  
+1. Un atome ayant perdu deux électrons  
+2. Un atome ayant gagné un électron  
+3. Un atome ayant perdu trois électrons  
+4. Un atome ayant gagné deux électrons  
+5. Un atome ayant perdu un électron  
+6. Un atome ayant gagné trois électrons  
 
 :::
 
 ::: {.Answer data-latex=""}
 
-- 0 - (2e-) = +2
-- 0 + (1e-) = -1
-- 0 - (3e-) = +3
-- 0 + (2e-) = -2
-- 0 - (1e-) = +1
-- 0 + (3e-) = -3
+1. 0 - (2e-) = +2
+2. 0 + (1e-) = -1
+3. 0 - (3e-) = +3
+4. 0 + (2e-) = -2
+5. 0 - (1e-) = +1
+6. 0 + (3e-) = -3
 
 :::

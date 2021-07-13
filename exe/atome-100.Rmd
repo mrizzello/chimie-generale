@@ -15,8 +15,10 @@ Complétez le tableau ci dessous, indiquant la masse molaire du composé en [g/m
 
 ::: {.Answer data-latex=""}
 
-- Fe - 55.85 [g/mol]  - 1[g] / 55.85[g/mol] = 0.018 [mol]  
-- Pb - 207.2 [g/mol] - 1[g] / 207.2[g/mol] = 0.005 [mol]  
-- Mg - 24.31 [g/mol] - 1[g] / 24.31[g/mol] = 0.041 [mol]
+Fe - 55.85 [g/mol]  - 1[g] / 55.85[g/mol] = 0.018 [mol]
+
+Pb - 207.2 [g/mol] - 1[g] / 207.2[g/mol] = 0.005 [mol]
+
+Mg - 24.31 [g/mol] - 1[g] / 24.31[g/mol] = 0.041 [mol]
 
 :::

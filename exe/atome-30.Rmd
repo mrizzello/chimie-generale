@@ -26,8 +26,9 @@ Dans les deux tableaux suivants, indiquez quelles espèces sont des isotopes d'u
 
 ::: {.Answer data-latex=""}
 
-- tableau 1 : A, C, E - 6 protons = Carbone.
-- tableau 2 : F, I, J - 7 protons = Azote.
+tableau 1 : A, C, E - 6 protons = Carbone.
+
+tableau 2 : F, I, J - 7 protons = Azote.
 
 \newpage
 

@@ -18,11 +18,16 @@ Complétez le tableau suivant en décrivant le changement d'état. Le tableau a 
 
 ::: {.Answer data-latex=""}
 
-- condensation / gaz $\rightarrow$ liquide / libère
-- sublimation / solide $\rightarrow$ gaz / absorbe
-- vaporisation / liquide $\rightarrow$ gaz / absorbe
-- fusion / solide $\rightarrow$ liquide / absorbe
-- solidification / liquide $\rightarrow$ solide / libère
-- sublimation inverse / gaz $\rightarrow$ solide / libère
+condensation / gaz $\rightarrow$ liquide / libère
+
+sublimation / solide $\rightarrow$ gaz / absorbe
+
+vaporisation / liquide $\rightarrow$ gaz / absorbe
+
+fusion / solide $\rightarrow$ liquide / absorbe
+
+solidification / liquide $\rightarrow$ solide / libère
+
+sublimation inverse / gaz $\rightarrow$ solide / libère
 
 :::

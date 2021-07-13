@@ -2,25 +2,25 @@
 
 Indiquez si les transformations suivantes sont des transformations physiques ou chimiques:
 
-a. Une boîte de conserve qui rouille.  
-b. L'ébullition d'une tasse d'eau.  
-c. La digestion d'une barre chocolatée.  
-d. Une explosion de nitroglycérine.  
-e. Le ternissement lent d'une fourchette en argent à l'air.  
+1. Une boîte de conserve qui rouille.  
+2. L'ébullition d'une tasse d'eau.  
+3. La digestion d'une barre chocolatée.  
+4. Une explosion de nitroglycérine.  
+5. Le ternissement lent d'une fourchette en argent à l'air.  
 
 :::
 
 ::: {.Answer data-latex=""}
 
-a. Une boîte de conserve qui rouille.  
+1. Une boîte de conserve qui rouille.  
   **transformation chimique**
-b. L'ébullition d'une tasse d'eau.  
+2. L'ébullition d'une tasse d'eau.  
   **transformation physique**
-c. La digestion d'une barre chocolatée.  
+3. La digestion d'une barre chocolatée.  
   **transformation chimique**
-d. Une explosion de nitroglycérine.  
+4. Une explosion de nitroglycérine.  
   **transformation chimique**
-e. Le ternissement lent d'une fourchette en argent à l'air.  
+5. Le ternissement lent d'une fourchette en argent à l'air.  
   **transformation chimique**
 
 :::

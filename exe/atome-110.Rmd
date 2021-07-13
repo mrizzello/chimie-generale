@@ -2,18 +2,18 @@
 
 Combien de protons, de neutrons et d'électrons sont contenus dans un atome de:
 
-- $^{197}\text{Au}$  
+1. $^{197}\text{Au}$  
 \vspace{\stretch{1}}
-- strontium 90  
+2. strontium 90  
 \vspace{\stretch{1}}
 
 :::
 
 ::: {.Answer data-latex=""}
 
-- Z de l'or = 79  
+1. Z de l'or = 79  
   Un atome de $^{197}Au$ a 79 protons, 79 électrons, et 197-79 = 118 neutrons.  
-- Z du strontium = 38  
+2. Z du strontium = 38  
   L'isotope strontium 90 a 38 protons, 38 électrons et 90-38 = 52 neutrons.  
 
 :::

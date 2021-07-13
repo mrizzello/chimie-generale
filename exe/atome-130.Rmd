@@ -16,10 +16,13 @@ Complétez le tableau suivant pour retrouver l'isotope considéré à chaque lig
 
 ::: {.Answer data-latex=""}
 
-- $_{7}^{13}N$ | 13 | 7 | 6 | azote 13  
-- $_{8}^{16}O$ | 16 | 8 | 8 | oxygène 16  
-- $_{8}^{17}O$ | 17 | 8 | 9 | oxygène 17  
-- $_{7}^{15}N$ | 15 | 7 | 8 | azote 15  
+$_{7}^{13}N$ | 13 | 7 | 6 | azote 13
+
+$_{8}^{16}O$ | 16 | 8 | 8 | oxygène 16
+
+$_{8}^{17}O$ | 17 | 8 | 9 | oxygène 17
+
+$_{7}^{15}N$ | 15 | 7 | 8 | azote 15
 
 \newpage
 
