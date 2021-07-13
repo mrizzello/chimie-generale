@@ -7,7 +7,7 @@ bookdown::gitbook:
       before: |
         <li><a href="./">Cours de chimie générale</a></li>
       after: |
-        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+        <li><a href="https://github.com/rstudio/bookdown" target="blank">Publié à l'aide de bookdown</a></li>
     edit: null
     download: ["pdf", "epub"]
   includes:

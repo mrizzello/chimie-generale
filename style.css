@@ -17,9 +17,16 @@ pre code {
   text-align: center;
 }
 
-.caption{
+p.caption, table caption{
   font-style: italic;
   font-weight: bold;
+  color: #777;s
+}
+
+.caption em{
+  display: block;
+  font-weight: normal;
+  font-size: 0.85em;
 }
 
 .tcolorbox, .Exercise, .Answer, .objectives {

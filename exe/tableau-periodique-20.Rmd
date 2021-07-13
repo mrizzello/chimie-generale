@@ -1,0 +1,18 @@
+:::::: {.Exercise-container}
+::: {.Exercise data-latex=""}
+
+Dessinez la structure de Lewis des éléments des trois premières périodes.
+
+:::
+
+|                I                |     II     |     II    |    IV    |     V     |    VI    |   VII  |   VII  |
+| :-----------------------------: | :--------: | :-------: | :------: | :-------: | :------: | :----: | :----: |
+|            Hydrogène            |            |           |          |           |          |        | Hélium |
+| ![](images/1px.png){height=4em} |            |           |          |           |          |        |        |
+|             Lithium             |  Béryllium |    Bore   |  Carbone |   Azote   |  Oxygène |  Fluor |  Néon  |
+| ![](images/1px.png){height=4em} |            |           |          |           |          |        |        |
+|              Sodium             |  Magnésium | Aluminium | Silicium | Phosphore |  Soufre  | Chlore |  Argon |
+| ![](images/1px.png){height=4em} |            |           |          |           |          |        |        |
+
+
+::::::

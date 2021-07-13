@@ -1,0 +1,20 @@
+::: {.Exercise data-latex=""}
+
+A l'aide du tableau périodique, indiquez quel sera l'ion stable formé par les éléments suivants : Na, Mg, Cl, K, Al, S, Ca, Ga.
+
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+- Na : $Na^+$
+- Mg : $Mg^{2+}$
+- Cl : $Cl^-$
+- K : $K^+$
+- Al : $Al^{3+}$
+- S : $S^{2-}$
+- Ca : $Ca^{2+}$
+- Ga : $Ga^{3+}$
+
+:::

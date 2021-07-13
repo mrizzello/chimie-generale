@@ -1,0 +1,28 @@
+:::::: {.Exercise-container}
+::: {.Exercise data-latex=""}
+
+A l'aide des diagrammes suivants, déterminez la configuration électronique de l'atome de carbone et celle de l'atome de sodium :
+
+:::
+
+| atome de carbone                          | atome de sodium                           |
+| :---------------------------------------- | :---------------------------------------- |
+| ![](images/energy-level-2.png){width=40%} | ![](images/energy-level-2.png){width=40%} |
+| nombre d'électrons :                      | nombre d'électrons :                      |
+| structure électronique :                  | structure électronique :                  |
+
+::::::
+
+::: {.Answer data-latex=""}
+
+- atome de carbone  
+  ![](images/energy-level-2-2.png){width=33%}
+  - nombre d'électrons : **6**
+  - structure électronique : $1s^2 2s^2 2p^2$
+
+- atome de sodium  
+  ![](images/energy-level-2-3.png){width=33%}
+  - nombre d'électrons : **11**
+  - structure électronique : $1s^2 2s^2 2p^6 3s^1$
+
+:::

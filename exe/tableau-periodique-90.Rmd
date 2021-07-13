@@ -1,0 +1,7 @@
+::: {.Exercise data-latex=""}
+
+Dessinez le symbole de Lewis de chacun des éléments suivants : Al, Br, Ar, Ca.
+
+\vspace{\stretch{1}}
+
+:::

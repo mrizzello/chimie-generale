@@ -1,0 +1,23 @@
+::: {.Exercise data-latex=""}
+
+Déterminer quelle sera la charge des atomes correspondant aux description suivante:
+
+- Un atome ayant perdu deux électrons  
+- Un atome ayant gagné un électron  
+- Un atome ayant perdu trois électrons  
+- Un atome ayant gagné deux électrons  
+- Un atome ayant perdu un électron  
+- Un atome ayant gagné trois électrons  
+
+:::
+
+::: {.Answer data-latex=""}
+
+- 0 - (2e-) = +2
+- 0 + (1e-) = -1
+- 0 - (3e-) = +3
+- 0 + (2e-) = -2
+- 0 - (1e-) = +1
+- 0 + (3e-) = -3
+
+:::

@@ -1,0 +1,38 @@
+::: {.Exercise data-latex=""}
+
+Représenter sous leur forme symbolique les ions stables formés par les éléments des périodes n°2 et n°3.
+
+1. Donnez le symbole des éléments suivants :
+  Magnésium, Potassium, Fer, Cuivre  
+  \vspace{\stretch{1}}
+2. Quel est le nom des éléments suivants :
+  C, Cl, Au, Sb  
+  \vspace{\stretch{1}}
+3. Dans quelle période se trouvent les éléments suivants :
+  He, Ge, Rb, I  
+  \vspace{\stretch{1}}
+4. Dans quel groupe se trouvent les éléments suivants :
+  Soufre, Iode, Ca, Sn  
+  \vspace{\stretch{1}}
+5. Proposez le symbole d'un élément correspondant à chacune des descriptions suivantes :
+  - un halogène
+  - un non-métal
+  - un métal alcalin
+  - un élément de transition
+  - un gaz rare
+  - un métal alcalino-terreux
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. Donnez le symbole des éléments suivants :  
+  Magnésium : Mg / Potassium : K / Fer : Fe / Cuivre : Cu
+2. Quel est le nom des éléments suivants :  
+  C : Carbone- 	Cl : Chlore / Au : Or / Sb : Antimoine
+3. Dans quelle période se trouvent les éléments suivants :  
+  He : 1 / Ge : 4 / Rb : 5 / I : 5
+4. Dans quel groupe se trouvent les éléments suivants :  
+  Soufre : VI / Iode : VII / Ca : II / Sn : IV
+
+:::

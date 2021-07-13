@@ -1,0 +1,19 @@
+::: {.Exercise data-latex=""}
+
+Donnez le nom et le symbole des éléments qui correspondent aux descriptions suivantes.
+
+- 27 protons dans le noyau de chaque atome  
+- 50 électrons dans chaque atome neutre  
+- 18 électrons dans chaque cation +2  
+- 10 électrons dans chaque anion -1  
+
+:::
+
+::: {.Answer data-latex=""}
+
+- Cobalt / Co
+- Étain / Sn
+- Calcium / Ca
+- Fluor / F
+
+:::

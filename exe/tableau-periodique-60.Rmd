@@ -1,0 +1,19 @@
+::: {.Exercise data-latex=""}
+
+Pour chaque descritpion ci-dessous, déterminez la charge de l'atome, indiquez si l'élément est un cation ou un anion et donnez son symbole.
+
+- un atome de magnésium avec 12 protons et 10 électrons  
+- un atome de fluor avec 9 protons et 10 électrons  
+- un atome de lithium avec 3 protons et 2 électrons  
+- un atome de soufre avec 16 protons et 18 électrons  
+
+:::
+
+::: {.Answer data-latex=""}
+
+- +2, cation, $Mg^{+2}$
+- -1, anion, $F^-$
+- +1, cation $Li^+$
+- -2, anion, $S^{-2}$
+
+:::

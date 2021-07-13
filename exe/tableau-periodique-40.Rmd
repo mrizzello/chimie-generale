@@ -1,0 +1,16 @@
+:::::: {.Exercise-container}
+::: {.Exercise data-latex=""}
+
+Représenter sous leur forme symbolique les ions stables formés par les éléments des périodes n°2 et n°3.
+
+:::
+
+|                I                |     II     |     II    |    IV    |     V     |    VI    |   VII  |   VII  |
+| :-----------------------------: | :--------: | :-------: | :------: | :-------: | :------: | :----: | :----: |
+|             Lithium             |  Béryllium |    Bore   |  Carbone |   Azote   |  Oxygène |  Fluor |  Néon  |
+| ![](images/1px.png){height=3em} |            |           |          |           |          |        |        |
+|              Sodium             |  Magnésium | Aluminium | Silicium | Phosphore |  Soufre  | Chlore |  Argon |
+| ![](images/1px.png){height=3em} |            |           |          |           |          |        |        |
+
+
+::::::

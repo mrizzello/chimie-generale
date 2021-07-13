@@ -1,0 +1,334 @@
+# Le tableau périodique
+
+::: {.objectives data-latex=""}
+
+- Prédire la structure électronique d'un élément grâce au tableau périodique.
+- Représenter en structure de Lewis les différents éléments.
+- Prédire l'ion stable que formera un élément.
+
+:::
+
+A la fin du 18ème siècle, Lavoisier a compilé une liste des 23 éléments connus à l'époque. En 1870, on en connaissait 65, et 88 en 1925. Aujourd'hui, on en dénombre 118.
+
+Les chimistes ont regroupé les éléments de sorte à ce qu'ils n'aient pas à mémoriser individuellement les propriétés de chaque élément. Dans leurs tentatives de classification, plusieurs chercheurs ont remarqué des récurrences, ou périodes, dans leur classification.
+
+## La classification périodique
+
+En 1871, le chimiste russe **Dmitri Mendeleev** (1836-1907) a présenté le premier **tableau périodique**. Il a classé les éléments par masse atomique croissante et il a ensuite organisé les éléments avec des propriétés chimiques similaires dans la même colonne.
+
+Plus tard, le tableau périodique moderne a été introduit. Il classe les éléments par numéro atomique et non par masse atomique, mais le principe est le même que le classement de Mendeleev.
+
+Chaque case du tableau représente un élément différent et contient au moins trois informations:
+
+- le symbole de l'élément
+- le numéro atomique de l'élément
+- la masse atomique de l'élément
+
+![Une case du tableau périodique](images/tpe-case.png){width=67%}
+
+Le tableau périodique contient souvent des informations supplémentaires sur les éléments, il peut contenir des couleurs différentes ou il peut être écrit dans différentes langues, mais la structure de base du tableau reste la même.
+
+### Métaux, non-métaux, métalloïdes
+
+Si aujourd'hui, 86 métaux sont présents dans le tableau de Mendeleïev, seuls sept d'entre eux étaient connus et isolés jusqu’au Moyen Age :
+
+- l’or, (6000 av. J.-C.)
+- le cuivre, (4000 av. J.-C.)
+- l’argent, (3500 av. J.-C.)
+- le plomb, (3500 av. J.-C.)
+- l’étain, (3000 av. J.-C.)
+- le fer, (1500 av. J.-C.)
+- le mercure, (750 av. J.-C.)
+
+Les **métaux** sont solides à température et pression ambiante, à l'exception du mercure qui est liquide. Ils ont une apparence brillante et sont de bons conducteurs de la chaleur et de l'électricité. Ils sont malléables et ductiles.
+
+Les éléments B, Si, Ge, As, Sb, Te, Po et At sont appelés **métalloïdes**. Les métalloïdes ont les propriétés des métaux et des non-métaux. Leurs propriétés électriques inhabituelles sont employée dans l'industrie des semi-conducteurs et en fabrication informatique.
+
+Le reste des éléments, à droite des métalloïdes, sont appelés **non-métaux**. Les non-métaux ont des propriétés qui sont souvent opposées à celles des métaux. Certains sont des gaz, ils sont de mauvais conducteurs de la chaleur et de l'électricité, ils ne sont ni malléables, ni ductiles.
+
+### Les groupes
+
+Les **colonnes** du tableau périodique sont appelées **groupes** ou **familles**.
+
+Chaque groupe est désigné avec un chiffre romain. Les groupes qui sont désigné avec un A sont appelés les **éléments de groupe principal**, les groupes qui sont désigné avec un B sont appelés les **éléments de transition**.
+
+Les **éléments de transition internes** ont été décalés dans le tableau périodique afin de rendre ce dernier plus compact.
+
+Table: (#tab:noms-groupes-courants) Noms de quelques groupes couramment employés.
+
+| Groupe | nom                           | éléments               |
+| :----: | :---------------------------- | :--------------------- |
+|    I   | métaux alcalins               | Li, Na, K, Rb, Cs, Fr  |
+|   II   | métaux alcalino-terreux       | Be, Mg, Ca, Sr, Ba, Ra |
+|   VI   | chalcogènes                   | O, S, Se, Te, Po       |
+|   VII  | halogènes                     | F, Cl, Br, I, At       |
+|  VIII  | les gaz rares (ou gaz nobles) | He, Ne, Ar, Kr, Xe, Rn |
+
+### Les périodes
+
+Les **lignes** du tableau périodique sont appelées **périodes** et chacune est désignée par un nombre de 1 à 7.
+
+On peut regrouper les éléments par période, mais les propriétés chimiques des éléments d'une même période seront différentes. Le classement par période est représentatif de la configuration électronique.
+
+![Le vocabulaire du tableau périodique](images/tpe-empty.png){width=50%}
+
+## Interactions rayonnement-matière
+
+Les atomes sont trop petits pour être visibles, on ne peut donc les étudier que de manière indirecte. Les électrons qui gravitent autour du noyau ont des comportements qui ne peuvent pas être décrits par les lois de la physique classique mais la physique ondulatoire permet de les décrire de manière satisfaisante. Les électrons et la lumière sont alors représentés par des phénomènes ondulatoires.
+
+### Les ondes électromagnétiques
+
+Une onde est une perturbation de l'état physique d'un milieu qui se propage. Elle transporte de l'énergie sans transporter de matière. Par exemple, lorsqu'on lance un caillou dans l'eau, la surface de l'eau est modifiée et des vagues apparaissent à sa surface; lorsque l'on frappe dans ses mains, cette variation de pression de propage dans l'air ambiant; quand on frotte une corde de violon avec un archet, on peut voir la corde vibrer et l'entendre grâce à la propagation de la vibration dans l'air.
+
+Les ondes qui vont nous intéresser dans le cadre de ce cours sont les **ondes électromagnétiques**. Une onde électromagnétique est une perturbation du champ électromagnétique qui se propage. Elle a la particularité de se propager aussi bien dans un milieu matériel que dans le vide. Les ondes radio, les ondes lumineuses ou les rayons X sont des exemples d'onde électromagnétique.
+
+![Champs électrique (E) et magnétique (B) d'une onde électromagnétique. _crédit : wikimedia/SuperManu_](images/onde-electromagnetique.png){width=50%}
+
+Il s'avère que ces rayonnements permettent d'analyser des objets tels que les atomes et leurs électrons. L'analyse du rayonnement émis ou absorbé par la matière s'appelle la **spectroscopie**.
+
+### Le spectre électromagnétique
+
+Le spectre électromagnétique regroupe l'ensemble de toutes les ondes électromagnétiques en fonction de leur longueur d'onde et de leur fréquence.
+
+![Domaines du spectre électromagnétique. _crédit : wikimedia/Benjamin ABEL_](images/domaine-spectre-electromagnetique.png){width=95%}
+
+Les ondes électromagnétiques sont classées en différentes catégories selon leur longueur d'onde. Les plus connues sont celles de la lumière visible (entre 400 et 750 [nm], environ) mais il existe d'autres rayonnements que l'oeil ne perçoit pas.
+
+### Interactions rayonnement-matière
+
+Nous sommes régulièrement confrontés à des interactions entre la matière (les atomes) et un rayonnement électromagnétique. Par exemple, un morceau de fer chauffé va émettre un rayonnement électromagnétique différent selon la température à laquelle il est porté. On peut aussi voir l'absorption de rayonnement comme lors d'une radiographie au rayons X. Les os absorbent les rayons X alors que les tissus mous (peau, graisse, muscles) sont quasiment transparents aux rayons X.
+
+Des ondes électromagnétiques peuvent être absorbées par un électron augmentant ainsi son niveau d'énergie au-delà de son **état fondamental**. Toutefois, un électron n'absorbera une onde que si celle-ci lui permet d'atteindre un niveau d'énergie bien précis. On parlera alors de **transition électronique** et si l'électron évolue vers un état d'énergie plus élevé, on parlera d'**excitation électronique**.
+
+Un électron qui se trouve dans un état d'énergie supérieure à celle de l'état fondamental va avoir tendance à évoluer vers un état d'énergie plus faible avec l'émission d'une onde électromagnétique. L'électron va donc perdre de l’énergie en éjectant un photon qui possède exactement la différence d'énergie entre les deux états.
+
+![Différence entre spectres d'absorption et d'émission](images/absorption-emission.png){width=67%}
+
+L'électron absorbe de l'énergie tout en restant au sein de l'atome et finira
+toujours par la réémettre sous forme d'une onde électromagnétique. La mesure de ces quantités de lumière émises ou absorbées forment le principe de base de la spectroscopie.
+
+## Les orbitales atomiques
+
+Dans les années 1900 Schrödinger développe un modèle atomique plus évolué en utilisant la mécanique quantique, le **modèle standard**.
+
+Ce modèle introduit une description mathématique du mouvement de l'électron appelée **orbitale atomique**. Une orbitale représente un volume de l'espace dans lequel la probabilité de trouver un électron est élevée.
+
+Table: (#tab:couches-sous-couches-orbitales) Résumé des couches, sous-couches et orbitales.
+
+| couche | sous-couche | orbitales | électrons | total électrons |
+| :----: | :---------: | :-------: | :-------: | :-------------: |
+|  **1** |      s      |     1     |     2     |      **2**      |
+|        |             |           |           |                 |
+|  **2** |      s      |     1     |     2     |      **8**      |
+|        |      p      |     3     |     6     |                 |
+|        |             |           |           |                 |
+|  **3** |      s      |     1     |     2     |      **18**     |
+|        |      p      |     3     |     6     |                 |
+|        |      d      |     5     |     10    |                 |
+|        |             |           |           |                 |
+|  **4** |      s      |     1     |     2     |      **32**     |
+|        |      p      |     3     |     6     |                 |
+|        |      d      |     5     |     10    |                 |
+|        |      f      |     7     |     14    |                 |
+
+
+Selon ce modèle, les électrons d'un atome gravitent autour de l'atome à des niveaux d'énergie différents. Ces niveaux sont appelés **couches** et sont situés à différentes distances du noyau. Les couches sont numérotées de 1 à 7 et plus le numéro de la couche est petit, plus la couche est proche du noyau.
+
+Dans une couche les électrons sont distribués en **sous-couches** d'énergie légèrement différentes. On note les sous-couches avec les lettres s, p, d, f et chacune représente une forme d'orbitale différente.
+
+![Formes des orbitales s, p et d. _crédit : wikimedia/haade_](images/orb-3d.jpeg){width=67%}
+
+Les électrons d'une sous-couche peuvent être répartis dans des volumes  d'énergie égale appelés orbitales. Il y a une orbitale pour une sous-couche _s_, trois orbitales pour une _p_, cinq pour une _d_, sept pour un _f_. Une orbitale ne peut être occupée que par deux électrons.
+
+### La configuration électronique
+
+La manière dont les électrons sont répartis dans les différentes orbitales peut être représenté par un **diagramme des orbitales atomiques**. Dans ce type de diagramme, les orbitales sont représentées par des cases dans lesquels on place les électrons à disposition. L'orbitale 1s a le niveau d'énergie le plus bas et est la plus proche du noyau.
+
+On utilise ce diagramme pour prédire les liaisons qui se produisent entre deux atomes et pour montrer pourquoi certains éléments se comportent de la même façon.
+
+![Diagramme énergétique des orbitales atomiques.](images/energy-level.png){width=25%}
+
+### Déterminer une configuration électronique
+
+![Ordre de remplissage des orbitales (#fig:energy-order)](images/energy-level-order.png){width=25%}
+
+En connaissant le nombre d'électrons contenus dans un atome, on peut remplir ce diagramme en respectant certaines règles:
+
+- Les électrons sont placés dans la sous-couche disponible de plus basse énergie.
+- On peut placer au maximum 2 électrons dans une orbitale (exclusion de Pauli).
+- La figure \@ref(fig:energy-order) donne l'ordre de remplissage des orbitales (principe Aufbau).
+- Si plusieurs orbitales de même énergie sont disponibles, on remplit le plus d'orbitales possibles avant d'apparier les électrons.
+
+Une fois le diagramme rempli, on en déduit la configuration électronique de l'atome pour le niveau de plus basse énergie.
+
+La **configuration électronique** d'un atome est une notation abrégée de la répartition des électrons dans les différentes couches et sous-couches électroniques.
+
+\newpage
+
+```{r, child=c('exe/tableau-periodique-10.Rmd')}
+```
+
+Pour simplifier la notation de la configuration électronique, on indique que les électrons de la dernière couche électronique. On remplace les autres couches par le symbole du gaz rare le plus proche entre crochets.  Par exemple, la structure électronique du chlore (Cl) :
+
+$$ \underbrace{1s^{2}~2s^{2}~2p^{6}}_{\text{Néon}}~3s^{2}~3p^{5} \text{ devient } [Ne]~3s^{2}~3p^{5} $$
+
+Table: (#tab:conf-elec-premieres-periodes) Configuration électronique des deux premières périodes.
+
+| Groupe | Elément | Conf. électronique                | Elément | Conf. électronique                 |
+| :----: | :-----: | :-------------------------------- | :-----: | :--------------------------------- |
+|   IA   |    Li   | [He] $2s^{1}$                     |    Na   | [Ne] $3s^{1}$                      |
+|   IIA  |    Be   | [He] $2s^{2}$                     |    Mg   | [Ne] $3s^{2}$                      |
+|  IIIA  |    B    | [He] $2s^{2}~2p^{1}$              |    Al   | [Ne] $3s^{2}~3p^{1}$               |
+|   IVA  |    C    | [He] $2s^{2}~2p^{2}$              |    Si   | [Ne] $3s^{2}~3p^{2}$               |
+|   VA   |    N    | [He] $2s^{2}~2p^{3}$              |    P    | [Ne] $3s^{2}~3p^{3}$               |
+|   VIA  |    O    | [He] $2s^{2}~2p^{4}$              |    S    | [Ne] $3s^{2}~3p^{4}$               |
+|  VIIA  |    F    | [He] $2s^{2}~2p^{5}$              |    Cl   | [Ne] $3s^{2}~3p^{5}$               |
+|  VIIIA |    Ne   | [He] $2s^{2}~2p^{6} \equiv$ [Ne]  |    Ar   | [He] $3s^{2}~3p^{6} \equiv $ [Ar]  |
+
+La configuration électronique du niveau de plus basse énergie est appelée **état fondamental**. Les configurations dont la distribution des électrons est différente de l'état fondamental sont appelées **états excités**.
+
+![Tableau périodique et diagramme des orbitales atomiques](images/energy-level-5.png){width=33%}
+
+![Les orbitales atomiques dans le tableau périodique](images/tpe-orbitals.png){width=50%}
+
+## Les électrons de valence
+
+::: {.tcolorbox data-latex=""}
+
+**Les électrons de valence**  
+Les électrons de valence sont les électrons de la dernière couche électronique d'un atome.
+
+:::
+
+Lorsqu'un chimiste étudie une réaction, il étudie les électrons transféré entre les acteurs de la réaction. Les électrons dont le niveau d'énergie est le plus éloigné du noyau seront retenus de manière moins forte. Ce sont donc ces électrons qui seront impliqués dans les réactions.
+
+![Répartition électronique des trois premières périodes](images/configuration-electronique.png){width=75%}
+
+Le chimiste américain **G. N. Lewis** (1875-1946) a proposé un moyen simple de représenter les électrons de valence d'un atome. C'est ce qu'on appelle la **structure de Lewis**.
+
+On utilise les règles suivantes pour dessiner la structure de Lewis d'un atome:
+
+- Le nombre d'électrons valence est égal au numéro du groupe (IA à VIIIA).
+- On place un point à la fois sur chacun des quatre côtés du symbole d'élément.
+- On continue d'ajouter des points, en les appariant, jusqu'à ce que tous les électrons de valence soient utilisés.
+
+Table: (#tab:structure-lewis-groupe-principal) Structure de Lewis des éléments du groupe principal (c = célibataire, p = paire).
+
+|                     I                    |                    II                    |                    II                    |                    IV                    |                     V                    |                    VI                    |                    VII                   |                    VII                   |
+| :--------------------------------------: | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: |
+| ![](images/lewis-dots-1c.png){width=3em} | ![](images/lewis-dots-2c.png){width=3em} | ![](images/lewis-dots-3c.png){width=3em} | ![](images/lewis-dots-4c.png){width=3em} | ![](images/lewis-dots-1p3c.png){width=3em} | ![](images/lewis-dots-2p2c.png){width=3em} | ![](images/lewis-dots-3p1c.png){width=3em} | ![](images/lewis-dots-4p.png){width=3em} |
+|                    1c                    |                    2c                    |                    3c                    |                    4c                    |                   1p 3c                  |                   2p 2c                  |                   3p 1c                  |                    4p                    |
+
+
+```{r, child=c('exe/tableau-periodique-20.Rmd')}
+```
+
+## La règle de l'octet
+
+Les gaz rares (groupe VIIIA) sont très peu réactifs car ils ont une très grande stabilité électronique.
+
+Ceci est dû au fait que leur couche électronique de valence est complètement remplie avec **huit électrons**, à l'exception de l'hélium, qui en a deux.
+
+Cette observation a conduit à une règle connue sous le nom de **règle de l'octet**.
+
+::: {.tcolorbox data-latex=""}
+
+**Règle de l'octet**  
+Les atomes ont tendance à gagner, perdre, ou partager des électrons pour avoir huit électrons dans leur couche de valence.
+
+:::
+
+Le remplissage complet de la couche électronique de valence est le moteur des réactions chimiques.
+
+## Les ions
+
+::: {.tcolorbox data-latex=""}
+
+**Ion**  
+Un ion est un atome ou un groupe d'atomes qui a gagné ou perdu un ou plusieurs électrons.
+
+:::
+
+### Le cation ou la perte d'électrons
+
+Les atomes qui **perdent** un ou plusieurs électrons ont un excédent de charge positive et sont appelés **cations**.
+
+Prenons, par exemple, le sodium. Son numéro atomique est égal à 11, il contient 11 protons et comme l'atome est neutre, il contient également 11 électrons. Avec un électron en moins, l'atome est constitué de 11 protons et 10 électrons. Il a donc une charge positive en excès. il devient un cation. On écrira le cation sodium **Na^+^**.
+
+$$ \begin{split}
+		Na \rightarrow Na^+ + 1e^-
+	\end{split}
+	\qquad
+	\begin{split}
+		11\:p^{+}\:+\:10\:e^{-}\:=\:\text{1 charge positive}\:=\:+1
+	\end{split} $$
+
+Les atomes qui ont des configurations électroniques équivalentes sont appelés **isoélectroniques**. Le cation sodium est isoélectronique avec le néon.
+
+### L'anion ou le gain d'électrons
+
+Les atomes qui **gagnent** un ou plusieurs électrons ont un excédent de charge négative et sont appelés **anions**.
+
+Prenons, par exemple, le chlore. Son numéro atomique est égal à 17, il contient 17 protons et 17 électrons. Avec un électron en plus, l'atome est constitué de 17 protons et 18 électrons. Il a donc une charge négative en excès. il devient un anion. On écrira l'anion chlore **Cl^-^**.
+
+$$ \begin{split}
+		Cl + 1e^- \rightarrow Cl^-
+	\end{split}
+	\qquad
+	\begin{split}
+		17\:p^{+}\:+\:18\:e^{-}\:=\:\text{1 charge négative}\:=\: -1
+	\end{split} $$
+
+L'anion chlore est isoélectronique avec l'argon.
+
+```{r, child=c('exe/tableau-periodique-30.Rmd')}
+```
+
+### Les ions stables - groupe A
+
+Le gain ou la perte de un, deux, ou parfois même trois électrons est possible, mais en général, un atome ne perd ou ne gagne pas plus de trois électrons.
+
+La règle de l'octet nous indique qu'un atome avec huit électrons dans sa couche électronique de valence devient énergétiquement stable. Les **ions stables** formés par les atomes sont donc ceux qui confirment la règle de l'octet.
+
+Dans le tableau périodique, les chiffres romains des groupes A indiquent le nombre d'électrons de valence de chaque élément. On peut utiliser la position d'un élément dans le tableau pour déterminer quel sera l'ion stable formé par cet élément.
+
+```{r, child=c('exe/tableau-periodique-40.Rmd')}
+```
+
+### Les ions des éléments de transition - groupe B
+
+Déterminer l'ion stable formé par les métaux de transition est plus difficile car ces éléments ne gagneront ou ne perderont pas toujours le même nombre d'électrons.
+
+Les éléments de transition ne respectent pas la règle de l'octet, mais une autre règle appelée la **règle des 18 électrons**. Nous n'aborderons pas cette règle dans le cadre de ce cours.
+
+\newpage
+
+## Exercices supplémentaires
+
+```{r, child=c('exe/tableau-periodique-50.Rmd')}
+```
+
+```{r, child=c('exe/tableau-periodique-60.Rmd')}
+```
+
+```{r, child=c('exe/tableau-periodique-70.Rmd')}
+```
+
+\newpage
+
+```{r, child=c('exe/tableau-periodique-80.Rmd')}
+```
+
+```{r, child=c('exe/tableau-periodique-90.Rmd')}
+```
+
+```{r, child=c('exe/tableau-periodique-100.Rmd')}
+```
+
+\newpage
+
+```{r, echo=FALSE}
+if (knitr::is_latex_output()) {
+  knitr::asis_output('\\section{Solutions des exercices} \\shipoutAnswer')
+}
+```
