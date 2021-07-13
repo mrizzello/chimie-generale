@@ -2,10 +2,10 @@
 
 Indiquez si les transformations suivantes sont des transformations physiques ou chimiques et indiquez quelle est la propriété observée:
 
-a. Un clou en fer attiré par un aimant.
-b. Un morceau de papier s'enflamme spontanément lorsque la température atteint 232° C.
-c. Une statue de bronze développe un revêtement vert (patine) au fil du temps.
-d. Un morceau de bois flotte sur l'eau.
+a. Un clou en fer attiré par un aimant.  
+b. Un morceau de papier s'enflamme spontanément lorsque la température atteint 232° C.  
+c. Une statue de bronze développe un revêtement vert (patine) au fil du temps.  
+d. Un morceau de bois flotte sur l'eau.  
 
 :::
 

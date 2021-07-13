@@ -135,6 +135,8 @@ Table: (\#tab:tab-SImultiples) Multiples et sous-multiples décimaux des unités
 ```{r, child=c('exe/introduction-40.Rmd')}
 ```
 
+\newpage
+
 ```{r, child=c('exe/introduction-50.Rmd')}
 ```
 
