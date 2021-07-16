@@ -2,7 +2,7 @@
 
 ::: {.tcolorbox data-latex=""}
 
-**Atome**  
+**Atome**
 Un atome est la plus petite particule d'un élément qui conserve encore les propriétés de cet élément.
 
 :::
@@ -13,7 +13,9 @@ L'atome est formé d'un nuage d'électrons gravitant autour d'un petit noyau ext
 
 Imaginons que l'on agrandisse un atome à la taille d'un stade. Le noyau se trouverait sur le rond central du terrain et il aurait la taille d'une tête d'épingle. Les électrons seraient alors à la place des spectateurs et chacun aurait la taille d'un grain de poussière !
 
-![Taille et structure de l'atome](images/ordre-grandeur-atome.png){width=33%}
+```{r ordre-grandeur-atome,echo=FALSE,out.width="33%",fig.show="hold",fig.align="center",fig.cap="Taille et structure de l'atome"}
+knitr::include_graphics(c("images/ordre-grandeur-atome.png"))
+```
 
 ## Particules subatomiques
 
@@ -47,7 +49,7 @@ Un électron est 1836 fois plus léger qu'un proton, mais son influence est trè
 
 ::: {.tcolorbox data-latex=""}
 
-**Élément**  
+**Élément**
 Un élément regroupe tous les atomes qui ont le même nombre de protons.
 
 :::
@@ -86,7 +88,7 @@ $$ _{1}H \quad _{17}Cl \quad _{82}Pb $$
 
 ::: {.tcolorbox data-latex=""}
 
-**Isotopes**  
+**Isotopes**
 Atomes qui ont le même nombre de protons mais un nombre différent de neutrons.
 
 :::
@@ -97,7 +99,9 @@ Les noyaux de tous les atomes contiennent des protons et des neutrons. Les neutr
 
 Il existe des tables qui indiquent la liste des isotopes naturels stables et radioactifs pour chaque élément.
 
-![Table des isotopes simplifiée](images/isotopes-table.png){width=80%}
+```{r isotopes-table,echo=FALSE,out.width="80%",fig.show="hold",fig.align="center",fig.cap="Table des isotopes simplifiée"}
+knitr::include_graphics(c("images/isotopes-table.png"))
+```
 
 ```{r, child=c('exe/atome-30.Rmd')}
 ```
@@ -136,7 +140,7 @@ $$ 1 [uma] \simeq 1,660 \cdot 10^{-27} [kg] $$
 
 ::: {.tcolorbox data-latex=""}
 
-**Masse atomique**  
+**Masse atomique**
 La masse atomique d’un élément est la moyenne des masses de ses isotopes pondérée par leur abondance relative.
 
 :::
@@ -156,7 +160,7 @@ Dans la vie quotidienne, nous sommes familiers avec des unités de comptage comm
 
 ::: {.tcolorbox data-latex=""}
 
-**La mole**  
+**La mole**
 Une mole contient exactement $6.02214076\cdot10^{23}$ entités élémentaires.
 
 :::
@@ -188,11 +192,13 @@ Une mole d'atomes, une mole de molécules, ou une mole de quoi que ce soit conti
 
 ## La masse molaire atomique
 
-![Relation entre unité de masse atomique et masse molaire.](images/uma-masse-molaire.png){width=67%}
+```{r uma-masse-molaire,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Relation entre unité de masse atomique et masse molaire."}
+knitr::include_graphics(c("images/uma-masse-molaire.png"))
+```
 
 ::: {.tcolorbox data-latex=""}
 
-**Masse molaire atomique**  
+**Masse molaire atomique**
 La masse molaire atomique d'un élément est la masse en grammes d'une mole d'atomes de l'élément.
 
 :::

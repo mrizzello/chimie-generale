@@ -42,7 +42,9 @@ Par exemple, l'eau (H~2~O) est un corps pur composé constitué de deux élémen
 
 Un corps pur composé a des propriétés physiques et chimiques différentes de celles des éléments qui le composent.
 
-![Corps purs et corps composés](images/corps-purs-corps-composes.png){width=67%}
+```{r corps-purs-corps-composes,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Corps purs et corps composés"}
+knitr::include_graphics(c("images/corps-purs-corps-composes.png"))
+```
 
 ## Les mélanges
 
@@ -83,7 +85,9 @@ Les mélanges homogènes ont une composition uniforme. Chaque partie d'un mélan
 - L'eau de mer est un mélange homogène composé principalement d'eau et de chlorure de sodium (sel).
 - L'essence est un mélange homogène composé d'une dizaine de substances.
 
-![Résumé de la classification de la matière](images/schema-matiere.png){width=67%}
+```{r schema-matiere,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Résumé de la classification de la matière"}
+knitr::include_graphics(c("images/schema-matiere.png"))
+```
 
 ```{r, child=c('exe/melanges-corps-purs-10.Rmd')}
 ```
@@ -136,7 +140,9 @@ Un mélange de limaille de fer et de poudre de soufre peut être séparé en uti
 
 La filtration est basée sur la **différence de taille des particules**. Elle est souvent utilisée pour séparer un solide d'un liquide. Le liquide s'écoule à travers les petits trous dans le filtre alors que le solide est retenu.
 
-![Filtration par gravité](images/filtration.png){width=33%}
+```{r filtration,echo=FALSE,out.width="33%",fig.show="hold",fig.align="center",fig.cap="Filtration par gravité"}
+knitr::include_graphics(c("images/filtration.png"))
+```
 
 Dans la filtration sous vide, on diminue la pression au-dessous du filtre ce qui accélère l'écoulement du liquide.
 
@@ -146,7 +152,9 @@ La vaporisation est basée sur les **différences de points d'ébullition**. Cet
 
 Lorsque le mélange contenant les matières solides dissoutes est chauffé, le solvant (liquide) vaporise progressivement et le soluté (solide) solidifie dans le récipient.
 
-![Vaporisation](images/evaporation.png){width=33%}
+```{r evaporation,echo=FALSE,out.width="33%",fig.show="hold",fig.align="center",fig.cap="Vaporisation"}
+knitr::include_graphics(c("images/evaporation.png"))
+```
 
 Le terme **évaporation** est utilisé lorsque l'eau est le liquide qui vaporise.
 
@@ -158,11 +166,15 @@ La dissolution sélective est basée sur les **différences de solubilité**.
 
 Cette technique permet de séparer deux solides en ajoutant un solvant dans lequel un seul solide se dissout. Ensuite, il faut filtrer le mélange et vaporiser le solvant afin de récupérer les deux solides.
 
-![Dissolution sélective](images/dissolution-selective.png){width=100%}
+```{r dissolution-selective,echo=FALSE,out.width="100%",fig.show="hold",fig.align="center",fig.cap="Dissolution sélective"}
+knitr::include_graphics(c("images/dissolution-selective.png"))
+```
 
 ### La sublimation
 
-![Sublimation](images/sublimation.png){width=28%}
+```{r sublimation,echo=FALSE,out.width="28%",fig.show="hold",fig.align="center",fig.cap="Sublimation"}
+knitr::include_graphics(c("images/sublimation.png"))
+```
 
 La sublimation est une technique de séparation dans laquelle une substance dans un mélange est directement transformée à l'état gazeux sans passer par l'état liquide. Par chauffage, la matière solide sublime et se solidifie à nouveau lorsque les vapeurs entrent en contact avec une surface froide.
 
@@ -172,7 +184,9 @@ Certains composés solides, tels que l'iode, le camphre, le naphtalène, l'acét
 
 ### La distillation
 
-![Distillation simple](images/distillation.png){width=40%}
+```{r distillation,echo=FALSE,out.width="40%",fig.show="hold",fig.align="center",fig.cap="Distillation simple"}
+knitr::include_graphics(c("images/distillation.png"))
+```
 
 La distillation est la principale méthode de séparation des mélanges constitués de liquides. Elle est basée sur la **différence des températures d’ébullition** des constituants du mélange.
 
@@ -184,13 +198,17 @@ La chromatographie est basée sur le fait que les composants d'un mélange ont p
 
 Cette méthode se compose d'une partie statique (phase stationnaire) et d'une partie mobile (phase mobile). La phase mobile se déplace à travers la phase stationnaire. On injecte le mélange à séparer dans la phase mobile afin qu'il se déplace avec cette dernière dans la phase stationnaire. Les constituants du mélange ayant des affinités différentes avec les deux phases vont se déplacer plus ou moins vite et ainsi être séparés.
 
-![Chromatographie sur colonne](images/chromatographie.png){width=67%}
+```{r chromatographie,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Chromatographie sur colonne"}
+knitr::include_graphics(c("images/chromatographie.png"))
+```
 
 \newpage
 
 ### L'extraction
 
-![Extraction](images/extraction.png){width=50%}
+```{r extraction,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Extraction"}
+knitr::include_graphics(c("images/extraction.png"))
+```
 
 L'extraction est basée sur les **différences de solubilités**.
 
@@ -198,7 +216,9 @@ On utilise généralement deux solvants ayant une polarité différente, comme l
 
 ### La sédimentation et la décantation
 
-![Sédimentation](images/sedimentation.png){width=40%}
+```{r sedimentation,echo=FALSE,out.width="40%",fig.show="hold",fig.align="center",fig.cap="Sédimentation"}
+knitr::include_graphics(c("images/sedimentation.png"))
+```
 
 La **sédimentation** est un processus dans lequel on laisse couler des particules lourdes insolubles dans un liquide par gravitation. Le liquide clair obtenu est ensuite transféré dans un autre récipient, sans déranger les particules sédimentées. Ce transfert s'appelle la **décantation**.
 

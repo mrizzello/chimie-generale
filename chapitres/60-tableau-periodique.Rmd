@@ -24,7 +24,9 @@ Chaque case du tableau représente un élément différent et contient au moins 
 - le numéro atomique de l'élément
 - la masse atomique de l'élément
 
-![Une case du tableau périodique](images/tpe-case.png){width=67%}
+```{r tpe-case,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Une case du tableau périodique"}
+knitr::include_graphics(c("images/tpe-case.png"))
+```
 
 Le tableau périodique contient souvent des informations supplémentaires sur les éléments, il peut contenir des couleurs différentes ou il peut être écrit dans différentes langues, mais la structure de base du tableau reste la même.
 
@@ -70,7 +72,9 @@ Les **lignes** du tableau périodique sont appelées **périodes** et chacune es
 
 On peut regrouper les éléments par période, mais les propriétés chimiques des éléments d'une même période seront différentes. Le classement par période est représentatif de la configuration électronique.
 
-![Le vocabulaire du tableau périodique](images/tpe-empty.png){width=50%}
+```{r tpe-empty,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Le vocabulaire du tableau périodique"}
+knitr::include_graphics(c("images/tpe-empty.png"))
+```
 
 ## Interactions rayonnement-matière
 
@@ -82,7 +86,9 @@ Une onde est une perturbation de l'état physique d'un milieu qui se propage. El
 
 Les ondes qui vont nous intéresser dans le cadre de ce cours sont les **ondes électromagnétiques**. Une onde électromagnétique est une perturbation du champ électromagnétique qui se propage. Elle a la particularité de se propager aussi bien dans un milieu matériel que dans le vide. Les ondes radio, les ondes lumineuses ou les rayons X sont des exemples d'onde électromagnétique.
 
-![Champs électrique (E) et magnétique (B) d'une onde électromagnétique. _crédit : wikimedia/SuperManu_](images/onde-electromagnetique.png){width=50%}
+```{r onde-electromagnetique,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Champs électrique (E) et magnétique (B) d'une onde électromagnétique. \_crédit : wikimedia/SuperManu\_"}
+knitr::include_graphics(c("images/onde-electromagnetique.png"))
+```
 
 Il s'avère que ces rayonnements permettent d'analyser des objets tels que les atomes et leurs électrons. L'analyse du rayonnement émis ou absorbé par la matière s'appelle la **spectroscopie**.
 
@@ -90,7 +96,9 @@ Il s'avère que ces rayonnements permettent d'analyser des objets tels que les a
 
 Le spectre électromagnétique regroupe l'ensemble de toutes les ondes électromagnétiques en fonction de leur longueur d'onde et de leur fréquence.
 
-![Domaines du spectre électromagnétique. _crédit : wikimedia/Benjamin ABEL_](images/domaine-spectre-electromagnetique.png){width=95%}
+```{r domaine-spectre-electromagnetique,echo=FALSE,out.width="95%",fig.show="hold",fig.align="center",fig.cap="Domaines du spectre électromagnétique. \_crédit : wikimedia/Benjamin ABEL\_"}
+knitr::include_graphics(c("images/domaine-spectre-electromagnetique.png"))
+```
 
 Les ondes électromagnétiques sont classées en différentes catégories selon leur longueur d'onde. Les plus connues sont celles de la lumière visible (entre 400 et 750 [nm], environ) mais il existe d'autres rayonnements que l'oeil ne perçoit pas.
 
@@ -102,7 +110,9 @@ Des ondes électromagnétiques peuvent être absorbées par un électron augment
 
 Un électron qui se trouve dans un état d'énergie supérieure à celle de l'état fondamental va avoir tendance à évoluer vers un état d'énergie plus faible avec l'émission d'une onde électromagnétique. L'électron va donc perdre de l’énergie en éjectant un photon qui possède exactement la différence d'énergie entre les deux états.
 
-![Différence entre spectres d'absorption et d'émission](images/absorption-emission.png){width=67%}
+```{r absorption-emission,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Différence entre spectres d'absorption et d'émission"}
+knitr::include_graphics(c("images/absorption-emission.png"))
+```
 
 L'électron absorbe de l'énergie tout en restant au sein de l'atome et finira
 toujours par la réémettre sous forme d'une onde électromagnétique. La mesure de ces quantités de lumière émises ou absorbées forment le principe de base de la spectroscopie.
@@ -136,7 +146,9 @@ Selon ce modèle, les électrons d'un atome gravitent autour de l'atome à des n
 
 Dans une couche les électrons sont distribués en **sous-couches** d'énergie légèrement différentes. On note les sous-couches avec les lettres s, p, d, f et chacune représente une forme d'orbitale différente.
 
-![Formes des orbitales s, p et d. _crédit : wikimedia/haade_](images/orb-3d.jpeg){width=67%}
+```{r orb-3d,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Formes des orbitales s, p et d. \_crédit : wikimedia/haade\_"}
+knitr::include_graphics(c("images/orb-3d.jpeg"))
+```
 
 Les électrons d'une sous-couche peuvent être répartis dans des volumes  d'énergie égale appelés orbitales. Il y a une orbitale pour une sous-couche _s_, trois orbitales pour une _p_, cinq pour une _d_, sept pour un _f_. Une orbitale ne peut être occupée que par deux électrons.
 
@@ -146,17 +158,21 @@ La manière dont les électrons sont répartis dans les différentes orbitales p
 
 On utilise ce diagramme pour prédire les liaisons qui se produisent entre deux atomes et pour montrer pourquoi certains éléments se comportent de la même façon.
 
-![Diagramme énergétique des orbitales atomiques.](images/energy-level.png){width=25%}
+```{r energy-level,echo=FALSE,out.width="25%",fig.show="hold",fig.align="center",fig.cap="Diagramme énergétique des orbitales atomiques."}
+knitr::include_graphics(c("images/energy-level.png"))
+```
 
 ### Déterminer une configuration électronique
 
-![Ordre de remplissage des orbitales (#fig:energy-order)](images/energy-level-order.png){width=25%}
+```{r energy-level-order,echo=FALSE,out.width="25%",fig.show="hold",fig.align="center",fig.cap="Ordre de remplissage des orbitales."}
+knitr::include_graphics(c("images/energy-level-order.png"))
+```
 
 En connaissant le nombre d'électrons contenus dans un atome, on peut remplir ce diagramme en respectant certaines règles:
 
 - Les électrons sont placés dans la sous-couche disponible de plus basse énergie.
 - On peut placer au maximum 2 électrons dans une orbitale (exclusion de Pauli).
-- La figure \@ref(fig:energy-order) donne l'ordre de remplissage des orbitales (principe Aufbau).
+- La figure \@ref(fig:energy-level-order) donne l'ordre de remplissage des orbitales (principe Aufbau).
 - Si plusieurs orbitales de même énergie sont disponibles, on remplit le plus d'orbitales possibles avant d'apparier les électrons.
 
 Une fois le diagramme rempli, on en déduit la configuration électronique de l'atome pour le niveau de plus basse énergie.
@@ -187,22 +203,28 @@ Table: (#tab:conf-elec-premieres-periodes) Configuration électronique des deux 
 
 La configuration électronique du niveau de plus basse énergie est appelée **état fondamental**. Les configurations dont la distribution des électrons est différente de l'état fondamental sont appelées **états excités**.
 
-![Tableau périodique et diagramme des orbitales atomiques](images/energy-level-5.png){width=33%}
+```{r energy-level-5,echo=FALSE,out.width="33%",fig.show="hold",fig.align="center",fig.cap="Tableau périodique et diagramme des orbitales atomiques."}
+knitr::include_graphics(c("images/energy-level-5.png"))
+```
 
-![Les orbitales atomiques dans le tableau périodique](images/tpe-orbitals.png){width=50%}
+```{r tpe-orbitals,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Les orbitales atomiques dans le tableau périodique."}
+knitr::include_graphics(c("images/tpe-orbitals.png"))
+```
 
 ## Les électrons de valence
 
 ::: {.tcolorbox data-latex=""}
 
-**Les électrons de valence**  
+**Les électrons de valence**
 Les électrons de valence sont les électrons de la dernière couche électronique d'un atome.
 
 :::
 
 Lorsqu'un chimiste étudie une réaction, il étudie les électrons transféré entre les acteurs de la réaction. Les électrons dont le niveau d'énergie est le plus éloigné du noyau seront retenus de manière moins forte. Ce sont donc ces électrons qui seront impliqués dans les réactions.
 
-![Répartition électronique des trois premières périodes](images/configuration-electronique.png){width=75%}
+```{r configuration-electronique,echo=FALSE,out.width="75%",fig.show="hold",fig.align="center",fig.cap="Répartition électronique des trois premières périodes."}
+knitr::include_graphics(c("images/configuration-electronique.png"))
+```
 
 Le chimiste américain **G. N. Lewis** (1875-1946) a proposé un moyen simple de représenter les électrons de valence d'un atome. C'est ce qu'on appelle la **structure de Lewis**.
 
@@ -233,7 +255,7 @@ Cette observation a conduit à une règle connue sous le nom de **règle de l'oc
 
 ::: {.tcolorbox data-latex=""}
 
-**Règle de l'octet**  
+**Règle de l'octet**
 Les atomes ont tendance à gagner, perdre, ou partager des électrons pour avoir huit électrons dans leur couche de valence.
 
 :::
@@ -244,7 +266,7 @@ Le remplissage complet de la couche électronique de valence est le moteur des r
 
 ::: {.tcolorbox data-latex=""}
 
-**Ion**  
+**Ion**
 Un ion est un atome ou un groupe d'atomes qui a gagné ou perdu un ou plusieurs électrons.
 
 :::
