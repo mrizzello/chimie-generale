@@ -1,0 +1,48 @@
+:::::: {.Exercise data-latex=""}
+
+Pour chaque proposition ci-dessous :
+
+-  Complétez le schéma avec la structure de Lewis des atomes et les liaisons formées.
+-  Donnez la formule brute de chaque composé.
+
+::: {.multicols data-latex="{3}"}
+
+1. &nbsp;&nbsp;&nbsp; $Br \quad Br$
+
+2. &nbsp;&nbsp;&nbsp; $O \quad C \quad O$
+
+3. &nbsp;&nbsp;&nbsp; $N \quad N$
+
+:::
+
+\vspace{\stretch{1}}
+
+::: {.multicols data-latex="{3}"}
+
+4. &nbsp;&nbsp;&nbsp; $H \quad Cl$
+
+5. &nbsp;&nbsp;&nbsp; $H \quad C \quad N$
+
+6. &nbsp;&nbsp;&nbsp; $H \quad O \quad Cl$  
+
+:::
+
+\vspace{\stretch{1}}
+
+::::::
+
+:::::: {.Answer data-latex=""}
+
+![](./images/mol2D/Br2.png){width=6em} $Br_2$
+
+![](./images/mol2D/CO2.png){width=6em} $CO_2$
+
+![](./images/mol2D/N2.png){width=6em} $N_2$
+
+![](./images/mol2D/HCl.png){width=6em} $HCl$
+
+![](./images/mol2D/HCN.png){width=6em} $HCN$
+
+![](./images/mol2D/HClO.png){width=6em} $HClO$
+
+::::::

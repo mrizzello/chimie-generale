@@ -1,0 +1,230 @@
+# Les liaisons chimiques
+
+::: {.objectives data-latex=""}
+
+-  Identifier les différents types de liaison.
+-  Expliquer le concept d'électronégativité.
+-  Reconnaître les ions que contient une molécule selon sa formule brute.
+-  Déduire la signification d'une formule brute.
+
+:::
+
+En observant le monde autour de nous, on découvre qu'il est composé principalement de corps purs composés et de mélanges de corps purs composés: la roche, les sols, le pétrole, les arbres et le corps humain sont tous des mélanges complexes de composés chimiques liant différents types d'atomes ensemble. **Seuls les gaz rares se trouvent dans la nature sous forme d'atomes isolés.**
+
+Pourquoi les atomes se lient entre eux ? Deux atomes liés ensemble forment un système physique dont l'énergie potentielle est plus basse que celle de deux atomes non liés. La nature cherche à minimiser l'énergie d'un système, les atomes ont donc tendance à former des liaisons. **Les atomes se trouvent dans un état plus stables quand ils participent à une liaison que quand ils sont isolés.**
+
+**Les forces** qui maintiennent les atomes ensemble dans une molécule sont appelées **liaisons chimiques** (ou liaisons intramoléculaires).
+
+On divise les liaisons chimiques en trois familles différentes:
+
+-  la **liaison ionique**
+-  la **liaison covalente**
+-  la **liaison métallique**
+
+## L'électronégativité
+
+::: {.tcolorbox data-latex=""}
+
+**Électronégativité**  
+L'électronégativité est la capacité d'un atome à attirer les électrons de liaison.
+
+:::
+
+Plus l'électronégativité d'un élément est élevée, plus il aura tendance à attirer à lui les électrons dans une liaison. **L'électronégativité de chaque élément est indiquée dans votre tableau périodique des éléments.**
+
+Les liaisons sont rarement purement ioniques ou purement covalentes, dans la plupart des substances les liaisons formées se situent quelque part entre la liaison ionique et la liaison covalente.
+
+En se basant sur la différence d'électronégativité ($\Delta$E) entre deux atomes on peut connaître le type de liaison que vont former ces deux atomes.
+
+```{r deltaE,echo=FALSE,out.width="85%",fig.show="hold",fig.align="center",fig.cap="Intervalles de $\\Delta$E pour déterminer le type de liaison"}
+knitr::include_graphics(c("images/deltaE.png"))
+```
+
+**L'électronégativité de chaque élément est indiquée dans votre tableau périodique des éléments.**
+
+```{r, child=c('exe/liaisons-10.Rmd')}
+```
+
+\newpage
+
+## La liaison ionique | métal - non-métal
+
+La liaison ionique est le résultat du transfert d'un ou plusieurs électrons depuis un métal vers un non-métal afin de satisfaire **la règle de l'octet**. Essayons de former une molécule avec du sodium et du chlore.
+
+- Le sodium a tendance à perdre un électron de valence pour former le cation $Na^{+}$
+- Le chlore a tendance à gagner un électron de valence pour former l'anion $Cl^{-}$
+
+Le sodium et le chlore ont tous les deux un intérêt à former une liaison. L'atome de sodium va perdre un électron qui sera récupéré par l'atome de chlore. Ils compléteront tous les deux leur couche de valence avec huit électrons.
+
+```{r NaCl-diagram,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Liaison ionique entre chlore et sodium"}
+knitr::include_graphics(c("images/NaCl-diagram.png"))
+```
+
+Deux atomes de sodium réagiront de la même manière avec deux atomes de chlore formant deux molécules de chlorure de sodium. Trois atomes de sodium réagiront avec trois atomes de chlore formant trois molécules de chlorure de sodium, et ainsi de suite... Si l'on fait réagir une mole d'atomes de sodium avec une mole d'atomes de chlore, nous obtiendront une mole de molécules de chlorure de sodium.
+
+Un échantillon de chlorure de sodium ($NaCl$) est constitué d'un très grand nombre de cations $Na^+$ et d'anions $Cl^-$. Ces ions forment un réseau tridimensionnel, appelé **réseau ionique**. L'ensemble est **électriquement neutre** car le nombre de cations $Na^+$ est égal au nombre d'anions $Cl^-$. Pour un cation $Na^+$, on aura un anion $Cl^-$, on écrira donc la **formule brute** $NaCl$.
+
+\newpage
+
+Le nombre relatif de cations et d'anions n'est pas toujours le même. Prenons par exemple le chlorure de magnésium, $CaF_2$. Il y a deux fois plus d'anions $F^-$ que de cations $Ca^{2+}$, on écrira donc la formule brute $CaF_2$.
+
+```{r CaF2-diagram,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Liaison ionique entre calcium et fluor"}
+knitr::include_graphics(c("images/CaF2-diagram.png"))
+```
+
+```{r NaClCaF2,echo=FALSE,out.width="25%",,fig.show='hold',fig.align='center',fig.cap="Réseaux ioniques formés par $NaCl$ et $CaF_2$."}
+knitr::include_graphics(c("images/NaCl-crystal.png","images/CaF2-crystal.png"))
+```
+
+```{r, child=c('exe/liaisons-20.Rmd')}
+```
+
+## La liaison covalente | non-métal - non-métal
+
+::: {.tcolorbox data-latex=""}
+
+**Liaison covalente**  
+Une liaison covalente est le partage d'une ou plusieurs paires d'électrons.
+
+:::
+
+Considérons deux atomes d'hydrogène qui s'approchent l'un de l'autre. Tous les deux ont un seul électron, et chacun a besoin d'un électron supplémentaire pour avoir la même configuration électronique que l'hélium.
+
+Dans cette situation, les électrons de liaison sont **partagés**. C'est une **liaison covalente** qui maintient les atomes ensemble.
+
+```{r H2-bond,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Formation de $H_2$"}
+knitr::include_graphics(c("images/H2-bond.png"))
+```
+
+- Au point 1, les atomes sont éloignés. La distance est trop grande pour que les forces d'attraction et de répulsion puissent agir.
+- Au point 2, la distance entre les atomes est suffisante pour que chaque noyau commence à attirer l'électron de l'autre atome. Ces attractions augmentent quand la distance diminue et abaissent l'énergie du système.
+- Au point 3 (minimum d'énergie potentielle), l'attraction maximum est atteinte par rapport à la répulsion et le système atteint son minimum d'énergie.
+- Au point 4, s'il était atteint, les atomes seraient trop proches et les répulsions pousseraient les noyaux vers le point 3.
+
+**Une liaison covalente résulte de l'équilibre entre l'attraction de particules de charges opposées et la répulsion de particules de même charge.**
+
+$$ H \cdot \quad + \quad \cdot H \quad \longrightarrow \quad H-H $$
+
+La formation d'une liaison covalente se traduit par une plus grande densité électronique entre les deux noyaux. Les deux atomes d'hydrogène remplissent leur couche de valence avec les électrons qu'ils se prêtent mutuellement.
+
+Dans de nombreuses molécules, pour atteindre un octet complet, les atomes vont partager plus d'une paire d'électrons célibataires. Une liaison covalente peut être **simple**, **double** ou **triple**, selon le nombre de paires d'électrons partagés.
+
+```{r liaisons-multiples,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Exemples de liaisons covalentes simples, doubles et triples"}
+knitr::include_graphics(c("images/liaisons-multiples.png"))
+```
+
+\newpage
+
+```{r, child=c('exe/liaisons-30.Rmd')}
+```
+
+### La covalence de coordination
+
+::: {.tcolorbox data-latex=""}
+
+**Covalence de coordination**  
+
+Une covalence de coordination est une liaison covalente où deux électrons partagés proviennent du même atome.
+
+:::
+
+La **covalence de coordination** est un cas particulier de la liaison covalente. Dans le cas de la liaison covalente simple, chaque atome fournit un électron. Dans le cas, de la covalence de coordination, un des deux atomes fournit les deux électrons.
+
+$$ \underset{\text{covalence normale}}{A \cdot \quad + \quad \cdot B \quad \longrightarrow \quad A - B} $$
+
+$$ \underset{\text{covalence de coordination}}{A | \quad + \quad B \quad \longrightarrow \quad A \rightarrow | B} $$
+
+\newpage
+
+Par exemple, l'acide hypochloreux est constitué de liaisons covalentes normales. Les trois autres acides utilisent les doublets de l'atome de chlore pour former des covalences de coordinations.
+
+```{r covalences-coordination,echo=FALSE,out.width="85%",fig.show="hold",fig.align="center",fig.cap="Exemples de covalences de coordination ($SO$, $SO_2$, $SO_3$, $HClO$, $HClO_2$, $HClO_3$, $HClO_4$ )."}
+ knitr::include_graphics(c("images/covalences-coordination.png"))
+ ```
+
+## La liaison métallique | métal - métal
+
+```{r metallic-bonding,echo=FALSE,out.width="28%",fig.show="hold",fig.align="center",fig.cap="Modèle de la liaison métallique"}
+ knitr::include_graphics(c("images/metallic-bonding.png"))
+ ```
+
+Les métaux ne réagissent pas vraiment avec d'autres métaux pour former des composés. Les métaux se combinent pour former des **alliages**, c'est-à-dire un **mélange homogène** d'un métal dans un autre.
+
+Le modèle de la **liaison métallique** propose que tous les atomes du métal partagent leurs électrons de valence pour former un "océan" d'électrons. Les électrons externes sont libres de se déplacer dans tout l'échantillon. Les noyaux sont positionnés dans cet océan de manière ordonnée à des endroits précis. La forme de l'échantillon est maintenue par l'attraction électrostatique entre les cations métalliques (charge positive) et les électrons de valence mobiles (charge négative).
+
+La capacité qu'ont les électrons de valence de se déplacer dans tout l'échantillon donne au métal ses propriétés physiques.
+
+-  Les solides métalliques sont de bons **conducteurs de l'électricité et de la chaleur**.
+-  Ils sont **malléables** (Ils peuvent être martelé en feuilles très minces).
+-  Ils sont **ductiles** (Ils peuvent être étirés en fils très fins).
+
+### Les alliages
+
+Un alliage est un mélange homogène entre un métal de base et un ou plusieurs autres éléments, qui peuvent être des métaux ou non-métaux. L'alliage de métaux est l'un des principaux moyens de modifier les propriétés des éléments métalliques purs. Par exemple, l'or pur est trop mou pour être utilisé en orfèvrerie, mais les alliages d'or sont plus adaptés.
+
+Table: (#tab:exemples-alliages-communs) Exemples d'alliages communs.
+
+|  métal | composition                                          | alliages         |
+| :----: | :--------------------------------------------------- | :--------------- |
+|   fer  | fer + carbone (moins de 2% en masse de carbone)      | fonte            |
+|        | fer + carbone (2% à 7% en masse de carbone)          | acier            |
+|        | fer + carbone + nickel + chrome                      | acier inoxydable |
+| cuivre | cuivre + étain                                       | bronze           |
+|        | cuivre + zinc                                        | laiton           |
+|   or   | or + argent + cuivre                                 | or jaune         |
+|        | or + nickel + recouvert d'une fine couche de rhodium | or blanc         |
+
+## La molécule
+
+::: {.tcolorbox data-latex=""}
+
+**Molécule**  
+Une molécule est un groupe d'au moins deux atomes liés par une/des liaison(s) chimique(s).
+
+:::
+
+Les molécules sont composées d'atomes. On les représente par une formule, en indiquant les symboles des atomes qui les composent et leur nombre. Cette formule est appelée **formule brute**.
+
+- $NaCl$ : 1 atome de sodium et 1 atome de chlore  
+- $O_2$ : 2 atomes d'oxygène  
+- $H_2O$ : 2 atomes d'hydrogène et 1 atome d'oxygène
+
+Lorsqu'un atome n'est présent qu'une seule fois dans la molécule, on n'indique pas l'indice 1. La formule brute de l'eau s'écrira donc H~2~O et non H2O.
+
+Si l'on considère plusieurs molécules, on l'indique par un facteur placé devant la formule brute:
+
+- 2 $NaCl$ : 2 molécules de $NaCl$  
+- 3 $O_2$ : 3 molécules de $O_2$  
+- 4 $H_2O$ : 4 molécules de $H_2O$
+
+\newpage
+
+## Exercices supplémentaires
+
+```{r, child=c('exe/liaisons-40.Rmd')}
+```
+
+```{r, child=c('exe/liaisons-50.Rmd')}
+```
+
+```{r, child=c('exe/liaisons-60.Rmd')}
+```
+
+```{r, child=c('exe/liaisons-70.Rmd')}
+```
+
+\newpage
+
+```{r, child=c('exe/liaisons-80.Rmd')}
+```
+
+```{r, child=c('exe/liaisons-90.Rmd')}
+```
+
+\newpage
+
+```{r, echo=FALSE}
+if (knitr::is_latex_output()) {
+  knitr::asis_output('\\section{Solutions des exercices} \\shipoutAnswer')
+}
+```

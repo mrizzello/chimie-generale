@@ -1,0 +1,35 @@
+:::::: {.Exercise data-latex=""}
+
+Prédire la formule brute des composés ioniques formés avec les paires d'éléments suivants :
+
+::: {.multicols data-latex="{4}"}
+
+Aluminium et Fluor
+
+Potassium et Soufre
+
+Sodium et Oxygène
+
+Magnésium et azote
+
+:::
+
+\vspace{\stretch{1}}
+
+::::::
+
+:::::: {.Answer data-latex=""}
+
+::: {.multicols data-latex="{4}"}
+
+$AlF_3$
+
+$K_2S$
+
+$Na_2O$
+
+$Mg_3N_2$
+
+:::
+
+::::::

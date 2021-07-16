@@ -1,0 +1,46 @@
+:::::: {.Exercise data-latex=""}
+
+Pour chaque liaison représentée ci-dessous :
+
+- Indiquez quel est le type de liaisons.
+- Indiquez quel est l'atome le plus électronégatif.
+
+::: {.multicols data-latex="{4}"}
+
+$B—F$
+
+$Cl—Cl$
+
+$Se—O$
+
+$H—I$
+
+:::
+
+\vspace{\stretch{1}}
+
+::::::
+
+:::::: {.Answer data-latex=""}
+
+::: {.multicols data-latex="{4}"}
+
+$B—F$  
+$\Delta E = 4 - 2 = 2$  
+électrovalence (B)
+
+$Cl—Cl$  
+$\Delta E = 0$  
+covalence pure (-)
+
+$Se—O$  
+$\Delta E = 3.4 - 2.6 = 0.8$  
+covalence polaire (Se)
+
+$H—I$  
+$\Delta E = 2.7 - 2.2 = 0.5$  
+covalence polaire (H)
+
+:::
+
+::::::

@@ -1,6 +1,17 @@
 \widowpenalty10000
 \clubpenalty10000
 
+\usepackage{tcolorbox}
+\newtcolorbox{objectives}{
+  standard jigsaw,
+  opacityback=0,
+  colframe=black,
+  boxrule=1pt}
+
+\renewcommand{\arraystretch}{1.5}
+
+\usepackage{multicol}
+
 \usepackage{booktabs}
 \usepackage{amsthm}
 \usepackage{gensymb}
@@ -9,13 +20,6 @@
 \usepackage[answerdelayed,lastexercise]{exercise}
 \renewcommand{\ExerciseName}{Exercice}
 \renewcommand{\AnswerName}{Solution de l'exercice}
-
-\usepackage{tcolorbox}
-\newtcolorbox{objectives}{
-  standard jigsaw,
-  opacityback=0,
-  colframe=black,
-  boxrule=1pt}
 
 \usepackage{fancyhdr}
 \setlength{\headheight}{14pt}

@@ -1,0 +1,30 @@
+:::::: {.Exercise-container}
+::: {.Exercise data-latex=""}
+
+Pour chacun des composés suivants, indiquez l'électronégativité de chaque atome  ($E_1$, $E_2$), la différence d'électronégativité ($\Delta E$) et le type de liaison formée.
+
+:::
+
+|     | composé  | $E_1$ | $E_2$ | $\Delta E$  | type de liaison |
+| :-: | :------- | :---: | :---: | :---------: | :-------------: |
+|  a  | $CaCl_2$ |       |       |             |                 |
+|  b  | $H_2O$   |       |       |             |                 |
+|  c  | $LiBr$   |       |       |             |                 |
+|  d  | $N_2$    |       |       |             |                 |
+|  e  | $CH_4$   |       |       |             |                 |
+
+::::::
+
+::: {.Answer data-latex=""}
+
+a. $CaCl_2$ : 1.0 / 3.1 / 2.1 / électrovalence
+
+b. $H_2O$ : 2.2 / 3.4 / 1.2 / covalence polaire
+
+c. $LiBr$ : 1.0 / 3.0 / 2 / électrovalence
+
+d. $N_2$ : 2.9 / 2.9 / 0 / covalence pure
+
+e. $CH_4$ : 2.5 / 2.2 / 0.3 / covalence polaire
+
+:::

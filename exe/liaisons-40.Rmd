@@ -1,0 +1,19 @@
+:::::: {.Exercise data-latex=""}
+
+À l'aide de la représentation de Lewis montrez les pertes et gains d'électrons qui mènent à la formation des composés ci-dessous.
+
+::: {.multicols data-latex="{4}"}
+
+$MgO$
+
+$Na_2O$
+
+$CaCl_2$
+
+$AlBr_3$
+
+:::
+
+\vspace{\stretch{1}}
+
+::::::

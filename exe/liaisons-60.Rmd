@@ -1,0 +1,27 @@
+:::::: {.Exercise-container}
+::: {.Exercise data-latex=""}
+
+Complétez le tableau suivant selon l'exemple donné en première ligne:
+
+:::
+
+|     |     |   cation  |     |  anion | molécule formée |
+| :-: | :-: | :-------: | :-: | :----: | :-------------: |
+|  a  |  1  | $Mg^{2+}$ |  2  | $Br^-$ |     $MgBr_2$    |
+|  b  |     |           |     |        |     $AlF_3$     |
+|  c  |     | $Ca^{2+}$ |     |        |    $Ca_3P_2$    |
+|  d  |  3  |   $Na^+$  |  1  |        |                 |
+
+::::::
+
+::: {.Answer data-latex=""}
+
+a. 1 $Mg^{2+}$ / 2 $Br^{-}$ / $MgBr_2$
+
+b. 1 $Al^{3+}$ / 3 $F^-$ / $AlF_3$
+
+c. 3 $Ca^{2+}$ / 2 $P^{3-}$ / $Ca_3P_2$
+
+d. 3 $Na^+$ / 1 $P^{3-}$ /  $Na_3P$
+
+:::

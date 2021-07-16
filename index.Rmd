@@ -9,7 +9,7 @@ classoption:
   - openany
 link-citations: yes
 github-repo: rstudio/bookdown-demo
-description: "Cours de chimie générale | Maturité gymnasiale | Gymnase de Nyon-la Côte"
+description: "Support du cours de chimie générale | Maturité gymnasiale | Gymnase de Nyon-la Côte"
 lang: fr
 mainfont: Optima
 papersize: a4

@@ -1,0 +1,24 @@
+:::::: {.Exercise-container}
+::: {.Exercise data-latex=""}
+
+Remplissez le tableau suivant avec les molécules formées par les ions proposés.
+
+:::
+
+| anion/cation | $Na^+$ | $Ca^{2+}$ | $Al^{3+}$ |
+| :----------: | :----: | :-------: | :-------: |
+|   $Cl^{-}$   | $NaCl$ |           |           |
+|   $O^{2-}$   |        |           |           |
+|   $P^{3-}$   |        |           |           |
+
+::::::
+
+::: {.Answer data-latex=""}
+
+$NaCl$ / $CaCl_2$ / $AlCl_3$
+
+$Na_2O$ / $CaO$ / $Al_2O_3$
+
+$Na_3P$ / $Ca_3P_2$ / $AlP$
+
+:::

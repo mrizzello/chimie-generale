@@ -12,3 +12,4 @@ rmd_files:
   - "chapitres/40-historique.Rmd"
   - "chapitres/50-atome.Rmd"
   - "chapitres/60-tableau-periodique.Rmd"
+  - "chapitres/70-liaisons.Rmd"

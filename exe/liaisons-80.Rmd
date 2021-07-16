@@ -1,0 +1,26 @@
+:::::: {.Exercise-container}
+::: {.Exercise data-latex=""}
+
+Indiquez le type de liaison qui forment les composés suivants:
+
+:::
+
+|     | composé               | formule | type de liaison |
+| :-: | :-------------------- | :-----: | :-------------: |
+|  a  | le fer                |   $Fe$  |                 |
+|  b  | le chlorure de sodium |  $NaCl$ |                 |
+|  c  | l'eau                 |  $H_2O$ |                 |
+|  d  | l'oxygène             |   $O_2$  |                 |
+|  e  | l'argon               |   $Ar$  |                 |
+
+::::::
+
+::: {.Answer data-latex=""}
+
+a. liaison métallique
+b. électrovalence
+c. covalence polaire
+d. covalence pure
+e. pas de liaison (gaz rare)
+
+:::

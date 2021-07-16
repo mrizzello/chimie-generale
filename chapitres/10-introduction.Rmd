@@ -68,8 +68,7 @@ Dans le domaine des sciences expérimentales, il est très commode d’exprimer 
 
 Rappel :
 
-\begin{equation*}
-\begin{split}
+$$ \begin{split}
 	1 &= 10^0\\
 	10 &= 10^1\\
 	100 &= 10^2\\
@@ -83,31 +82,26 @@ Rappel :
 	0.01 &= 10^{-2}\\
 	0.001 &= 10^{-3}\\
 	0.0001 &= 10^{-4}
-\end{split}
-\end{equation*}
+\end{split} $$
 
 Exemples de notation scientifique :
 
-\begin{equation*}
-\begin{split}
+$$ \begin{split}
 	4564 &= 4.564\cdot10^3\\
 	212575000000 &= 2.12575\cdot10^{11}\\
 	0.000007567 &= 7.567\cdot10^{-6}\\
 	0.00000000000000785 &= 7.85\cdot10^{-15}\\
-\end{split}
-\end{equation*}
+\end{split} $$
 
 Deux relations importantes à retenir :
 
-\begin{equation*}
-\begin{split}
+$$ \begin{split}
 	10^a \cdot 10^b = 10^{(a+b)}
 \end{split}
 \qquad
 \begin{split}
 	\frac{10^a}{10^b} = 10^{(a-b)}
-\end{split}
-\end{equation*}
+\end{split} $$
 
 ```{r, child=c('exe/introduction-20.Rmd')}
 ```

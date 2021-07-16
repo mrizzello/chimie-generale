@@ -1,0 +1,33 @@
+:::::: {.Exercise-container}
+::: {.Exercise data-latex=""}
+
+Pour chacun des couples suivants, indiquez le cation, l'anion et donnez la formule brute du composé formé.
+
+:::
+
+|     |           |         | cation | anion | formule brute |
+| :-: | :-------- | :------ | :----: | :---: | :-----------: |
+|  a  | Lithium   | Fluor   |        |       |               |
+|  b  | Strontium | Iode    |        |       |               |
+|  c  | Bore      | Fluor   |        |       |               |
+|  d  | Magnésium | Oxygène |        |       |               |
+|  e  | Lithium   | Azote   |        |       |               |
+|  f  | Aluminium | Oxygène |        |       |               |
+
+::::::
+
+::: {.Answer data-latex=""}
+
+a. $Li^+$ / $F^-$ / $LiF$
+
+b. $Sr^{2+}$ / $I^{-}$ / $SrI_2$
+
+c. $B^{3+}$ / $F^-$ / $BF3$
+
+d. $Mg^{2+}$ / $O^{2-}$ / $MgO$
+
+e. $Li^+$ / $N^{3-}$ / $Li_3N$
+
+f. $Al^{3+}$ / $O^{2-}$ / $Al_2O_3$
+
+:::
