@@ -2,7 +2,7 @@
 
 ::: {.tcolorbox data-latex=""}
 
-**Chimie**  
+**Chimie**
 La chimie est la science qui étudie la composition, les propriétés et les transformations de la matière.
 
 :::
@@ -31,13 +31,13 @@ Les propriétés chimiques sont des caractéristiques qui changent la compositio
 
 Lors d'une **transformation physique**, la matière change son apparence physique, mais pas sa composition. On retrouve la même substance avant et après la transformation. L'évaporation de l'eau est une transformation physique. Lorsque l'eau s'évapore, elle passe de l'état liquide à l'état gazeux, mais elle est toujours constituée de molécules d'eau.
 
-$$ \textrm{eau à l'état liquide }\ \xrightarrow{\textrm{évaporation}}\ \textrm{eau à l'état gazeux} $$
+$$ \underset{\text{évaporation}}{\text{eau à l'état liquide} \ \longrightarrow \ \text{eau à l'état gazeux}} $$
 
 ### Transformations chimiques
 
 Lors d'une **transformation chimique**, la matière est transformée en une autre substance dont la composition est différente. La composition de la matière est différente avant et après la transformation. La combustion du papier est une transformation chimique. Le papier et l'oxygène de l'air réagissent ensemble pour former du dioxyde de carbone et de l'eau.
 
-$$ \textrm{papier}\ +\ \textrm{oxygène} \ \xrightarrow{\textrm{combustion}} \ \textrm{dioxyde de carbone} + \textrm{eau} $$
+$$ \underset{\text{combustion}}{\text{papier}\ +\ \text{oxygène} \ \longrightarrow \ \text{dioxyde de carbone} + \text{eau}} $$
 
 Les transformations chimiques sont ce que nous appellerons plus tard des **réactions chimiques**.
 
@@ -121,6 +121,8 @@ Table: (\#tab:tab-SImultiples) Multiples et sous-multiples décimaux des unités
 | $10^{-15}$ |    femto   |      f     | $10^{15}$ |    péta    |      P     |
 | $10^{-18}$ |    atto    |      a     | $10^{18}$ |     exa    |      E     |
 
+\newpage
+
 ```{r, child=c('exe/introduction-30.Rmd')}
 ```
 
@@ -128,8 +130,6 @@ Table: (\#tab:tab-SImultiples) Multiples et sous-multiples décimaux des unités
 
 ```{r, child=c('exe/introduction-40.Rmd')}
 ```
-
-\newpage
 
 ```{r, child=c('exe/introduction-50.Rmd')}
 ```

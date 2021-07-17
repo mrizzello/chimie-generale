@@ -2,12 +2,18 @@
 
 Indiquez si chaque échantillon de matière indiqué est un corps pur, un corps composé, un mélange homogène ou un mélange hétérogène.
 
-1. une cuillère en argent  
-2. un pain au chocolat  
-3. un glaçon  
-4. une poutre en bois  
-5. de l'encre rouge  
-6. du jus d'orange pressé  
+1. une cuillère en argent
+\vspace{\stretch{1}}
+2. un pain au chocolat
+\vspace{\stretch{1}}
+3. un glaçon
+\vspace{\stretch{1}}
+4. une poutre en bois
+\vspace{\stretch{1}}
+5. de l'encre rouge
+\vspace{\stretch{1}}
+6. du jus d'orange pressé
+\vspace{\stretch{1}}
 
 :::
 

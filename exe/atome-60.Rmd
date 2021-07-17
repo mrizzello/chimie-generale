@@ -12,6 +12,8 @@ Calculer la masse atomique du chlore à l'aide des données suivantes :
 
 ::::::
 
+\vspace{\stretch{1}}
+
 ::: {.Answer data-latex=""}
 
 $$ \begin{split}

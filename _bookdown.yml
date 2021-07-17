@@ -5,7 +5,6 @@ language:
 delete_merged_file: true
 rmd_files:
   - "index.Rmd"
-  - "chapitres/00-preambule.Rmd"
   - "chapitres/10-introduction.Rmd"
   - "chapitres/20-etats-de-la-matiere.Rmd"
   - "chapitres/30-melanges-corps-purs.Rmd"

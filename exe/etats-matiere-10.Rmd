@@ -1,65 +1,47 @@
 ::: {.Exercise data-latex=""}
 
-Lequel(s) des énoncés suivants décrit ce qui se passe lorsque des particules d'eau gèlent?
-
-- Elles gagnent de l'énergie et de l'espace pour se déplacer.
-- Elles gagnent de l'énergie et se décomposent en atomes d'hydrogène et d'oxygène.
-- Elles perdent de l'énergie et s'échappent dans l'atmosphère.
-- Elles perdent de l'énergie et de l'espace pour se déplacer.
-
-Lequel(s) des énoncés suivants décrit le mieux le comportement des particules dans un gaz?
-
-- Éloignées et se déplaçant lentement.
-- Rapprochées et immobiles.
-- Rapprochées et en vibration.
-- Très éloignés et se déplaçant très rapidement.
-
-Lequel(s) des énoncés suivants est vrai pour gaz qui condense?
-
-- Le gaz libère de l'énergie thermique.
-- La température du gaz augmente.
-- Les particules de gaz perdent de leur liberté de mouvement.
-- Les particules de gaz diminuent en taille.
-
-Lequel(s) des énoncés suivants est vrai pour un liquide passant à l'état gazeux?
-
-- La température du liquide reste constante.
-- Les particules de liquide gagnent en liberté de mouvement.
-- Les particules de liquide augmentent en taille.
-- Le liquide libère de l'énergie thermique.
-
-Lequel(s) des énoncés suivants est vrai pour un liquide passant à l'état solide?
-
-- Le liquide libère de l'énergie thermique.
-- Les particules de liquide diminuent en taille.
-- La température reste constante.
-- Les particules de liquide augmentent leur liberté de mouvement.
+1. Lequel(s) des énoncés suivants décrit ce qui se passe lorsque des particules d'eau gèlent ?
+    a. Elles gagnent de l'énergie et de l'espace pour se déplacer.
+    b. Elles gagnent de l'énergie et se décomposent en atomes d'hydrogène et d'oxygène.
+    c. Elles perdent de l'énergie et s'échappent dans l'atmosphère.
+    d. Elles perdent de l'énergie et de l'espace pour se déplacer.
+2. Lequel(s) des énoncés suivants décrit le mieux le comportement des particules dans un gaz ?
+    a. Éloignées et se déplaçant lentement.
+    b. Rapprochées et immobiles.
+    c. Rapprochées et en vibration.
+    d. Très éloignés et se déplaçant très rapidement.
+3. Lequel(s) des énoncés suivants est vrai pour gaz qui condense ?
+    a. Le gaz libère de l'énergie thermique.
+    b. La température du gaz augmente.
+    c. Les particules de gaz perdent de leur liberté de mouvement.
+    d. Les particules de gaz diminuent en taille.
+4. Lequel(s) des énoncés suivants est vrai pour un liquide passant à l'état gazeux ?
+    a. La température du liquide reste constante.
+    b. Les particules de liquide gagnent en liberté de mouvement.
+    c. Les particules de liquide augmentent en taille.
+    d. Le liquide libère de l'énergie thermique.
+5. Lequel(s) des énoncés suivants est vrai pour un liquide passant à l'état solide ?
+    a. Le liquide libère de l'énergie thermique.
+    b. Les particules de liquide diminuent en taille.
+    c. La température reste constante.
+    d. Les particules de liquide augmentent leur liberté de mouvement.
 
 :::
 
 ::: {.Answer data-latex=""}
 
-Lequel(s) des énoncés suivants décrit ce qui se passe lorsque des particules d'eau gèlent?
-
-- **Elles perdent de l'énergie et de l'espace pour se déplacer.**
-
-Lequel(s) des énoncés suivants décrit le mieux le comportement des particules dans un gaz?
-
-- **Très éloignés et se déplaçant très rapidement.**
-
-Lequel(s) des énoncés suivants est vrai pour gaz qui condense?
-
-- **Le gaz libère de l'énergie thermique.**
-- **Les particules de gaz perdent de leur liberté de mouvement.**
-
-Lequel(s) des énoncés suivants est vrai pour un liquide passant à l'état gazeux?
-
-- **La température du liquide reste constante.**
-- **Les particules de liquide gagnent en liberté de mouvement.**
-
-Lequel(s) des énoncés suivants est vrai pour un liquide passant à l'état solide?
-
-- **Le liquide libère de l'énergie thermique.**
-- **La température reste constante.**
+1. Lequel(s) des énoncés suivants décrit ce qui se passe lorsque des particules d'eau gèlent?
+    d. **Elles perdent de l'énergie et de l'espace pour se déplacer.**
+2. Lequel(s) des énoncés suivants décrit le mieux le comportement des particules dans un gaz?
+    d. **Très éloignés et se déplaçant très rapidement.**
+3. Lequel(s) des énoncés suivants est vrai pour gaz qui condense?
+    a. **Le gaz libère de l'énergie thermique.**
+    c. **Les particules de gaz perdent de leur liberté de mouvement.**
+4. Lequel(s) des énoncés suivants est vrai pour un liquide passant à l'état gazeux?
+    a. **La température du liquide reste constante.**
+    d. **Les particules de liquide gagnent en liberté de mouvement.**
+5. Lequel(s) des énoncés suivants est vrai pour un liquide passant à l'état solide?
+    a. **Le liquide libère de l'énergie thermique.**
+    c. **La température reste constante.**
 
 :::

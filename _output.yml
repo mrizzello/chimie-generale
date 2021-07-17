@@ -4,6 +4,7 @@ bookdown::gitbook:
     sharing: null
     toc:
       collapse: section
+      scroll_highlight: yes
       before: |
         <li><a href="./">Cours de chimie générale</a></li>
       after: |
@@ -13,6 +14,7 @@ bookdown::gitbook:
   includes:
       in_header: ./html/mathjax-mhchem.html
       after_body: ./html/exercices.html
+  toc_depth: 3
 bookdown::pdf_book:
   includes:
     in_header: preamble.tex

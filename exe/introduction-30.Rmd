@@ -3,16 +3,27 @@
 Répondez aux questions suivantes :
 
 1. Combien de milligrammes y a-t-il dans un kilogrammes ?
-2. Combien de nanomètres y a-t-il dans un mètres ?
+\vspace{\stretch{1}}
+
+2. Combien de nanomètres y a-t-il dans un mètre ?
+\vspace{\stretch{1}}
+
 3. Combien y a-t-il de kilogrammes dans un microgramme ?
+\vspace{\stretch{1}}
+
 4. Combien y a-t-il de microlitres dans un millilitre ?
+\vspace{\stretch{1}}
 
 Effectuez chacune des conversions d'unités suivantes :
 
 5. $8.43$ [cm] en millimètres.
+\vspace{\stretch{1}}
 6. $2.41 \cdot 10^{2}$ [cm] en mètres.
+\vspace{\stretch{1}}
 7. $294.5$ [nm] en centimètres.
+\vspace{\stretch{1}}
 8. $1.445 \cdot 10^{4}$ [m] en kilomètres.
+\vspace{\stretch{1}}
 
 :::
 

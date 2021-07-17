@@ -1,20 +1,24 @@
 ::: {.Exercise data-latex=""}
 
-- Quelle est votre taille dans les unités suivantes ?  
-&nbsp;
-  - [m]  
-  - [mm]  
-  - [nm]  
-  - [km]  
+- Quelle est votre taille dans les unités suivantes ?
+  - [m]
+  \vspace{\stretch{1}}
+  - [mm]
+  \vspace{\stretch{1}}
+  - [nm]
+  \vspace{\stretch{1}}
+  - [km]
+  \vspace{\stretch{1}}
 
-&nbsp;
-
-- Quelle est votre poids dans les unités suivantes ?  
-&nbsp;
-  - [kg]  
-  - [g]  
-  - [mg]  
-  - [tonne]  
+- Quelle est votre poids dans les unités suivantes ?
+  - [kg]
+  \vspace{\stretch{1}}
+  - [g]
+  \vspace{\stretch{1}}
+  - [mg]
+  \vspace{\stretch{1}}
+  - [tonne]
+  \vspace{\stretch{1}}
 
 :::
 

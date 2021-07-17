@@ -23,12 +23,6 @@ p.caption, table caption{
   color: #777;s
 }
 
-.caption em{
-  display: block;
-  font-weight: normal;
-  font-size: 0.85em;
-}
-
 .tcolorbox, .Exercise, .Answer, .objectives {
   background-color: #f5f5f5;
   border: 2px solid #333;

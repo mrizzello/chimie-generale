@@ -2,16 +2,19 @@
 
 Un coton imbibé d’éther mis en contact sur la peau provoque une sensation de froid. On sait, par ailleurs, que l’éther passe facilement de l’état liquide à l’état gazeux.
 
-1. Quel nom donne-t-on à ce changement d’état ?  
-2. Quelle conclusion (scientifique) peut-on mettre en relation avec la sensation de froid mentionné ?  
+1. Quel nom donne-t-on à ce changement d’état ?
+&nbsp;
+
+2. Quelle conclusion (scientifique) peut-on mettre en relation avec la sensation de froid mentionné ?
+&nbsp;
 
 :::
 
 ::: {.Answer data-latex=""}
 
-1. Quel nom donne-t-on à ce changement d’état ?  
+1. Quel nom donne-t-on à ce changement d’état ?
   **La vaporisation**
-2. Quelle conclusion (scientifique) peut-on mettre en relation avec la sensation de froid mentionné ?  
+2. Quelle conclusion (scientifique) peut-on mettre en relation avec la sensation de froid mentionné ?
   **L'éther absorbe la chaleur du corps pour vaporiser, d'où la sensation de froid.**
 
 :::

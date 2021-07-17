@@ -18,7 +18,7 @@ Selon la nature des particules qui la compose, la matière peut être classée e
 
 ::: {.tcolorbox data-latex=""}
 
-**Corps pur simple**  
+**Corps pur simple**
 Un corps pur simple est constitué d'atomes d'un seul élément.
 
 :::
@@ -31,7 +31,7 @@ Chaque élément a un nom comme le silicium, l'oxygène ou le cuivre. Un morceau
 
 ::: {.tcolorbox data-latex=""}
 
-**Corps pur composé**  
+**Corps pur composé**
 Un corps pur composé est constitué de deux ou plusieurs éléments différents qui sont liés ensemble chimiquement.
 
 :::
@@ -50,7 +50,7 @@ knitr::include_graphics(c("images/corps-purs-corps-composes.png"))
 
 ::: {.tcolorbox data-latex=""}
 
-**Mélange**  
+**Mélange**
 Ensemble résultant de l'union de substances différentes sans transformation chimique
 
 :::
@@ -63,7 +63,7 @@ Les mélanges peuvent être **homogène** ou **hétérogène**. Ces deux termes 
 
 ::: {.tcolorbox data-latex=""}
 
-**Mélange hétérogène**  
+**Mélange hétérogène**
 Un mélange est hétérogène si on peut distinguer ses différents constituants à l'oeil nu.
 
 :::
@@ -74,7 +74,7 @@ La composition des mélanges hétérogènes varie d'un endroit à l'autre de la 
 
 ::: {.tcolorbox data-latex=""}
 
-**Mélange homogène**  
+**Mélange homogène**
 Un mélange est homogène si on ne peut pas distinguer ses différents constituants à l'oeil nu.
 
 :::
@@ -101,11 +101,11 @@ Les dispersions sont des mélanges homogènes dans lequel les particules en susp
 
 Les mélanges homogènes pourront à leur tour être classés en solutions, en colloïdes ou en suspensions, en fonction de la taille de leurs particules. Chaque particule peut être une macromolécule unique ou un agrégat de nombreux atomes, ions ou molécules.
 
-- **Les solutions** (0.1 à 2 [nm])  
+- **Les solutions** (0.1 à 2 [nm])
   La dissolution d'une substance dans une autre forme une solution. Un mélange homogène dans lequel les particules sont individuellement réparties de manière uniforme dans la substance dispersante.
 - **Les colloïdes** (2 à 500 [nm])
   La substance dispersée est répartie dans la substance dispersante. Les particules sont plus grandes que des molécules simples mais trop petites pour se déposer.
-- **Les suspensions** (500 à 1000 [nm])  
+- **Les suspensions** (500 à 1000 [nm])
   Les particules sont d'abord en suspension mais se déposent progressivement par décantation.
 
 Une phase représente chaque partie homogène dont est constitué une dispersion. Dans une dispersion une phase peut être dispersante et l'autre dispersée. Les dispersions sont communément classées selon l'état physique des substances dispersée et dispersante.
@@ -122,6 +122,8 @@ Une phase représente chaque partie homogène dont est constitué une dispersion
 |     liquide     |       solide      | agar-agar, gelatine                      |
 |      solide     |       solide      | roches naturelles, plâtre, ciment, béton |
 
+\newpage
+
 ## Méthodes de séparation
 
 Les constituants d’un mélange ont des **propriétés physiques** différentes. On peut exploiter ces différences pour séparer les différents constituants.
@@ -134,41 +136,45 @@ L'**attraction magnétique**, ou **aimantation**, utilise les différences de **
 
 Un mélange de limaille de fer et de poudre de soufre peut être séparé en utilisant un aimant. Cette technique est utilisée dans les déchetteries pour séparer les matériaux magnétiques des matériaux non-magnétiques.
 
-\newpage
-
 ### La filtration
-
-La filtration est basée sur la **différence de taille des particules**. Elle est souvent utilisée pour séparer un solide d'un liquide. Le liquide s'écoule à travers les petits trous dans le filtre alors que le solide est retenu.
 
 ```{r filtration,echo=FALSE,out.width="33%",fig.show="hold",fig.align="center",fig.cap="Filtration par gravité"}
 knitr::include_graphics(c("images/filtration.png"))
 ```
 
+La filtration est basée sur la **différence de taille des particules**. Elle est souvent utilisée pour séparer un solide d'un liquide. Le liquide s'écoule à travers les petits trous dans le filtre alors que le solide est retenu.
+
 Dans la filtration sous vide, on diminue la pression au-dessous du filtre ce qui accélère l'écoulement du liquide.
 
+\newpage
+
 ### La vaporisation
+
+```{r evaporation,echo=FALSE,out.width="25%",fig.show="hold",fig.align="center",fig.cap="Vaporisation"}
+knitr::include_graphics(c("images/evaporation.png"))
+```
 
 La vaporisation est basée sur les **différences de points d'ébullition**. Cette technique est utilisée pour séparer des solides dissous dans un solvant.
 
 Lorsque le mélange contenant les matières solides dissoutes est chauffé, le solvant (liquide) vaporise progressivement et le soluté (solide) solidifie dans le récipient.
 
-```{r evaporation,echo=FALSE,out.width="33%",fig.show="hold",fig.align="center",fig.cap="Vaporisation"}
-knitr::include_graphics(c("images/evaporation.png"))
-```
-
 Le terme **évaporation** est utilisé lorsque l'eau est le liquide qui vaporise.
 
-\newpage
-
 ### La dissolution sélective
+
+\vspace{\stretch{1}}
+
+```{r dissolution-selective,echo=FALSE,out.width="85%",fig.show="hold",fig.align="center",fig.cap="Dissolution sélective"}
+knitr::include_graphics(c("images/dissolution-selective.png"))
+```
+
+\vspace{\stretch{1}}
 
 La dissolution sélective est basée sur les **différences de solubilité**.
 
 Cette technique permet de séparer deux solides en ajoutant un solvant dans lequel un seul solide se dissout. Ensuite, il faut filtrer le mélange et vaporiser le solvant afin de récupérer les deux solides.
 
-```{r dissolution-selective,echo=FALSE,out.width="100%",fig.show="hold",fig.align="center",fig.cap="Dissolution sélective"}
-knitr::include_graphics(c("images/dissolution-selective.png"))
-```
+\newpage
 
 ### La sublimation
 
@@ -179,8 +185,6 @@ knitr::include_graphics(c("images/sublimation.png"))
 La sublimation est une technique de séparation dans laquelle une substance dans un mélange est directement transformée à l'état gazeux sans passer par l'état liquide. Par chauffage, la matière solide sublime et se solidifie à nouveau lorsque les vapeurs entrent en contact avec une surface froide.
 
 Certains composés solides, tels que l'iode, le camphre, le naphtalène, l'acétanilide, l'acide benzoïque, peuvent être purifiés par sublimation à pression normale. D'autres composés, comme par exemple la caféine, devront être sublimés par chauffage sous pression réduite.
-
-\newpage
 
 ### La distillation
 
@@ -194,19 +198,17 @@ La solution est chauffée de sorte que le liquide ayant le point d'ébullition l
 
 ### La chromatographie
 
-La chromatographie est basée sur le fait que les composants d'un mélange ont plus ou moins tendance à être retenus sur une surface solide.
-
-Cette méthode se compose d'une partie statique (phase stationnaire) et d'une partie mobile (phase mobile). La phase mobile se déplace à travers la phase stationnaire. On injecte le mélange à séparer dans la phase mobile afin qu'il se déplace avec cette dernière dans la phase stationnaire. Les constituants du mélange ayant des affinités différentes avec les deux phases vont se déplacer plus ou moins vite et ainsi être séparés.
-
 ```{r chromatographie,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Chromatographie sur colonne"}
 knitr::include_graphics(c("images/chromatographie.png"))
 ```
 
-\newpage
+La chromatographie est basée sur le fait que les composants d'un mélange ont plus ou moins tendance à être retenus sur une surface solide.
+
+Cette méthode se compose d'une partie statique (phase stationnaire) et d'une partie mobile (phase mobile). La phase mobile se déplace à travers la phase stationnaire. On injecte le mélange à séparer dans la phase mobile afin qu'il se déplace avec cette dernière dans la phase stationnaire. Les constituants du mélange ayant des affinités différentes avec les deux phases vont se déplacer plus ou moins vite et ainsi être séparés.
 
 ### L'extraction
 
-```{r extraction,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Extraction"}
+```{r extraction,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Extraction"}
 knitr::include_graphics(c("images/extraction.png"))
 ```
 
@@ -214,9 +216,11 @@ L'extraction est basée sur les **différences de solubilités**.
 
 On utilise généralement deux solvants ayant une polarité différente, comme l'eau et un solvant organique. Les différentes substances vont migrer dans le solvant dans lequel elles ont la plus grande solubilité.
 
+\newpage
+
 ### La sédimentation et la décantation
 
-```{r sedimentation,echo=FALSE,out.width="40%",fig.show="hold",fig.align="center",fig.cap="Sédimentation"}
+```{r sedimentation,echo=FALSE,out.width="33%",fig.show="hold",fig.align="center",fig.cap="Sédimentation"}
 knitr::include_graphics(c("images/sedimentation.png"))
 ```
 
@@ -226,10 +230,10 @@ La sédimentation et la décantation peuvent également être utilisées pour s�
 
 La **centrifugation** utilise la force centrifuge pour accélérer la sédimentation. Les composants plus denses migrent loin de l'axe de la centrifugeuse, tandis que les composants moins denses du mélange migrent vers l'axe.
 
-\newpage
-
 ```{r, child=c('exe/melanges-corps-purs-30.Rmd')}
 ```
+
+\newpage
 
 ## Exercices supplémentaires
 

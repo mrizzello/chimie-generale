@@ -14,11 +14,11 @@
 
 Nous allons considérer la matière de trois points de vue différents :
 
-- **point de vue macroscopique**  
+- **point de vue macroscopique**
 	Le domaine de la matière que l'on peut voir, sentir ou toucher.
-- **point de vue submicroscopique**  
+- **point de vue submicroscopique**
 	Le domaine de la matière que l'on ne peut pas voir (atomes, molecules, etc.).
-- **point de vue symbolique**  
+- **point de vue symbolique**
 	Le domaine qu'on utilise pour représenter "mathématiquement" la matière (équations, symboles, formules, etc.).
 
 ```{r Johnstone,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Les trois niveaux de représentation de la chimie"}
@@ -66,24 +66,26 @@ En général, chaque état de la matière, solide, liquide ou gaz, peut se trans
 
 On peut modifier l'état d'une substance en lui fournissant ou lui retirant de l'énergie thermique:
 
-**Lorsque la température augmente**  
+**Lorsque la température augmente**
 - L'énergie thermique augmente.
 - Les particules se déplacent plus rapidement et se libèrent des forces d'attraction.
 
-**Lorsque la température diminue**  
+**Lorsque la température diminue**
 - L'énergie thermique diminue.
 - Les particules se déplacent moins rapidement et les forces d'attraction les rassemblent.
 
 **Les changements d'état sont des transformations physiques.** Lors d'un changement d'état une substance change la façon dont ses atomes ou molécules sont organisées sans changer les particules elles-mêmes.
 
-```{r chgt-etats,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Les noms des changements d'état"}
-knitr::include_graphics(c("images/chgt-etats.png"))
-```
-
 - Le **point de fusion** est la température à laquelle une substance passe de l'état solide à l'état liquide.
 - Le **point d'ébullition** est la température à laquelle une substance passe de l'état liquide à l'état gazeux.
 
 L'**évaporation** est la transformation d'un liquide en vapeur sans ébullition. Il peut y avoir vaporisation sans ébullition de la matière.
+
+\newpage
+
+```{r chgt-etats,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Les noms des changements d'état"}
+knitr::include_graphics(c("images/chgt-etats.png"))
+```
 
 ```{r, child=c('exe/etats-matiere-10.Rmd')}
 ```
@@ -93,7 +95,7 @@ L'**évaporation** est la transformation d'un liquide en vapeur sans ébullition
 
 ## Les courbes de changement d'état
 
-```{r courbe-chgt-etat,echo=FALSE,out.width="25%",fig.show="hold",fig.align="center",fig.cap="Courbe de chauffage de l'eau"}
+```{r courbe-chgt-etat,echo=FALSE,out.width="40%",fig.show="hold",fig.align="center",fig.cap="Courbe de chauffage de l'eau"}
 knitr::include_graphics(c("images/courbe-chgt-etat.png"))
 ```
 
@@ -102,11 +104,11 @@ Imaginons que l'on chauffe un bloc de glace en partant d'une température de -40
 - En chauffant, on apporte de l'énergie thermique au système. La glace se réchauffe et sa température augmente.
 - Une fois que la glace atteint 0° C, **la température cesse d'augmenter** et la glace commence à fondre pour former de l'eau liquide.
 - En continuant de chauffer, plus de glace se transforme en eau, mais la température reste la même.
-- Une fois que la glace a complètement fondu, la chaleur apportée chauffe l'eau liquide.  
+- Une fois que la glace a complètement fondu, la chaleur apportée chauffe l'eau liquide.
 	La température recommence à augmenter.
 - Une fois que l'eau liquide atteint 100° C, **la température cesse d'augmenter** et l'eau commence à vaporiser pour former de la vapeur d'eau.
 - En continuant de chauffer, plus d'eau liquide se transforme en vapeur d'eau, mais la température reste la même.
-- Une fois que l'eau s'est complètement vaporisée, la chaleur apportée chauffe la vapeur d'eau.  
+- Une fois que l'eau s'est complètement vaporisée, la chaleur apportée chauffe la vapeur d'eau.
 	La température recommence à augmenter.
 
 Un changement de température et un changement d'état ne se produisent pas en même temps. Quand une substance absorbe ou libère de l'énergie, soit c'est la température qui change, soit c'est son état. En d'autres termes, **la température d'une substance ne change pas au cours d'un changement d'état.**
@@ -132,7 +134,7 @@ knitr::include_graphics(c("images/diagramme-phases-eau-CO2.png"))
 
 Au niveau submicroscopique, les particules qui forment les liquides suivent des mouvements aléatoires constants. Elles peuvent être ordonnées sur de courtes portions, mais cela ne dure pas très longtemps.
 
-```{r tension-surface,echo=FALSE,out.width="25%",fig.show="hold",fig.align="center",fig.cap="Tension superficielle"}
+```{r tension-surface,echo=FALSE,out.width="33%",fig.show="hold",fig.align="center",fig.cap="Tension superficielle"}
 knitr::include_graphics(c("images/tension-surface.png"))
 ```
 
@@ -147,9 +149,11 @@ La **viscosité** est la résistance à l'écoulement d'un liquide. Elle dépend
 
 La **capillarité** est la tendance qu'a un liquide à monter le long d'un tube étroit. Elle est causée par la compétition entre les forces intermoléculaires dans le liquide et les forces d'attraction entre le liquide et la paroi du tube.
 
-```{r capillarity,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="La capillarité"}
+```{r capillarity,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="La capillarité"}
 knitr::include_graphics(c("images/capillarity.png"))
 ```
+
+\newpage
 
 ## L'état solide
 
@@ -171,7 +175,7 @@ Les particules formant les solides cristallins sont assemblées les unes par rap
 
 Une **maille** est un volume de cristal, qui, lorsqu'il est répété dans les trois dimensions de l'espace, permet d'obtenir le cristal tout entier.
 
-```{r metaux,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="3 mailles de réseaux cristallins classiques (CFC: cubique à face centrées, CC: cubique centré, HC: hexagonal compact)"}
+```{r metaux,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="3 mailles de réseaux cristallins classiques (CFC: cubique à face centrées, CC: cubique centré, HC: hexagonal compact)"}
 knitr::include_graphics(c("images/metaux.png"))
 ```
 
@@ -182,8 +186,6 @@ L'**allotropie** est la propriété qu'ont certains corps à former des cristaux
 ```{r allotropes,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Trois formes allotropiques du carbone (graphite, diamant, fullerène)"}
 knitr::include_graphics(c("images/allotropes.png"))
 ```
-
-\newpage
 
 ## Exercices supplémentaires
 

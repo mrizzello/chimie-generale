@@ -34,13 +34,15 @@ Le tableau périodique contient souvent des informations supplémentaires sur le
 
 Si aujourd'hui, 86 métaux sont présents dans le tableau de Mendeleïev, seuls sept d'entre eux étaient connus et isolés jusqu’au Moyen Age :
 
-- l’or, (6000 av. J.-C.)
-- le cuivre, (4000 av. J.-C.)
-- l’argent, (3500 av. J.-C.)
-- le plomb, (3500 av. J.-C.)
-- l’étain, (3000 av. J.-C.)
-- le fer, (1500 av. J.-C.)
-- le mercure, (750 av. J.-C.)
+| élément | découverte     |
+| :------ | :------------- |
+| or      | 6000 av. J.-C. |
+| cuivre  | 4000 av. J.-C. |
+| argent  | 3500 av. J.-C. |
+| plomb   | 3500 av. J.-C. |
+| étain   | 3000 av. J.-C. |
+| fer     | 1500 av. J.-C. |
+| mercure | 750 av. J.-C.  |
 
 Les **métaux** sont solides à température et pression ambiante, à l'exception du mercure qui est liquide. Ils ont une apparence brillante et sont de bons conducteurs de la chaleur et de l'électricité. Ils sont malléables et ductiles.
 
@@ -72,9 +74,11 @@ Les **lignes** du tableau périodique sont appelées **périodes** et chacune es
 
 On peut regrouper les éléments par période, mais les propriétés chimiques des éléments d'une même période seront différentes. Le classement par période est représentatif de la configuration électronique.
 
-```{r tpe-empty,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Le vocabulaire du tableau périodique"}
+```{r tpe-empty,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Le vocabulaire du tableau périodique"}
 knitr::include_graphics(c("images/tpe-empty.png"))
 ```
+
+\newpage
 
 ## Interactions rayonnement-matière
 
@@ -86,7 +90,7 @@ Une onde est une perturbation de l'état physique d'un milieu qui se propage. El
 
 Les ondes qui vont nous intéresser dans le cadre de ce cours sont les **ondes électromagnétiques**. Une onde électromagnétique est une perturbation du champ électromagnétique qui se propage. Elle a la particularité de se propager aussi bien dans un milieu matériel que dans le vide. Les ondes radio, les ondes lumineuses ou les rayons X sont des exemples d'onde électromagnétique.
 
-```{r onde-electromagnetique,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Champs électrique (E) et magnétique (B) d'une onde électromagnétique. \_crédit : wikimedia/SuperManu\_"}
+```{r onde-electromagnetique,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Champs électrique (E) et magnétique (B) d'une onde électromagnétique. crédit : wikimedia/SuperManu"}
 knitr::include_graphics(c("images/onde-electromagnetique.png"))
 ```
 
@@ -96,7 +100,7 @@ Il s'avère que ces rayonnements permettent d'analyser des objets tels que les a
 
 Le spectre électromagnétique regroupe l'ensemble de toutes les ondes électromagnétiques en fonction de leur longueur d'onde et de leur fréquence.
 
-```{r domaine-spectre-electromagnetique,echo=FALSE,out.width="95%",fig.show="hold",fig.align="center",fig.cap="Domaines du spectre électromagnétique. \_crédit : wikimedia/Benjamin ABEL\_"}
+```{r domaine-spectre-electromagnetique,echo=FALSE,out.width="95%",fig.show="hold",fig.align="center",fig.cap="Domaines du spectre électromagnétique. crédit : wikimedia/Benjamin ABEL"}
 knitr::include_graphics(c("images/domaine-spectre-electromagnetique.png"))
 ```
 
@@ -146,7 +150,7 @@ Selon ce modèle, les électrons d'un atome gravitent autour de l'atome à des n
 
 Dans une couche les électrons sont distribués en **sous-couches** d'énergie légèrement différentes. On note les sous-couches avec les lettres s, p, d, f et chacune représente une forme d'orbitale différente.
 
-```{r orb-3d,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Formes des orbitales s, p et d. \_crédit : wikimedia/haade\_"}
+```{r orb-3d,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Formes des orbitales s, p et d. crédit : wikimedia/haade"}
 knitr::include_graphics(c("images/orb-3d.jpeg"))
 ```
 
@@ -222,7 +226,7 @@ Les électrons de valence sont les électrons de la dernière couche électroniq
 
 Lorsqu'un chimiste étudie une réaction, il étudie les électrons transféré entre les acteurs de la réaction. Les électrons dont le niveau d'énergie est le plus éloigné du noyau seront retenus de manière moins forte. Ce sont donc ces électrons qui seront impliqués dans les réactions.
 
-```{r configuration-electronique,echo=FALSE,out.width="75%",fig.show="hold",fig.align="center",fig.cap="Répartition électronique des trois premières périodes."}
+```{r configuration-electronique,echo=FALSE,out.width="100%",fig.show="hold",fig.align="center",fig.cap="Répartition électronique des trois premières périodes."}
 knitr::include_graphics(c("images/configuration-electronique.png"))
 ```
 
@@ -244,6 +248,8 @@ Table: (#tab:structure-lewis-groupe-principal) Structure de Lewis des éléments
 
 ```{r, child=c('exe/tableau-periodique-20.Rmd')}
 ```
+
+\newpage
 
 ## La règle de l'octet
 
