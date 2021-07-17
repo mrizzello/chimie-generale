@@ -90,9 +90,12 @@ Une onde est une perturbation de l'état physique d'un milieu qui se propage. El
 
 Les ondes qui vont nous intéresser dans le cadre de ce cours sont les **ondes électromagnétiques**. Une onde électromagnétique est une perturbation du champ électromagnétique qui se propage. Elle a la particularité de se propager aussi bien dans un milieu matériel que dans le vide. Les ondes radio, les ondes lumineuses ou les rayons X sont des exemples d'onde électromagnétique.
 
-```{r onde-electromagnetique,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Champs électrique (E) et magnétique (B) d'une onde électromagnétique. crédit : wikimedia/SuperManu"}
+```{r onde-electromagnetique,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Champs électrique (E) et magnétique (B) d'une onde électromagnétique."}
 knitr::include_graphics(c("images/onde-electromagnetique.png"))
 ```
+::: {.credit data-latex=""}
+crédit : wikimedia/SuperManu
+:::
 
 Il s'avère que ces rayonnements permettent d'analyser des objets tels que les atomes et leurs électrons. L'analyse du rayonnement émis ou absorbé par la matière s'appelle la **spectroscopie**.
 
@@ -100,9 +103,13 @@ Il s'avère que ces rayonnements permettent d'analyser des objets tels que les a
 
 Le spectre électromagnétique regroupe l'ensemble de toutes les ondes électromagnétiques en fonction de leur longueur d'onde et de leur fréquence.
 
-```{r domaine-spectre-electromagnetique,echo=FALSE,out.width="95%",fig.show="hold",fig.align="center",fig.cap="Domaines du spectre électromagnétique. crédit : wikimedia/Benjamin ABEL"}
+```{r domaine-spectre-electromagnetique,echo=FALSE,out.width="95%",fig.show="hold",fig.align="center",fig.cap="Domaines du spectre électromagnétique."}
 knitr::include_graphics(c("images/domaine-spectre-electromagnetique.png"))
 ```
+
+::: {.credit data-latex=""}
+crédit : wikimedia/Benjamin ABEL
+:::
 
 Les ondes électromagnétiques sont classées en différentes catégories selon leur longueur d'onde. Les plus connues sont celles de la lumière visible (entre 400 et 750 [nm], environ) mais il existe d'autres rayonnements que l'oeil ne perçoit pas.
 
@@ -150,9 +157,13 @@ Selon ce modèle, les électrons d'un atome gravitent autour de l'atome à des n
 
 Dans une couche les électrons sont distribués en **sous-couches** d'énergie légèrement différentes. On note les sous-couches avec les lettres s, p, d, f et chacune représente une forme d'orbitale différente.
 
-```{r orb-3d,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Formes des orbitales s, p et d. crédit : wikimedia/haade"}
+```{r orb-3d,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Formes des orbitales s, p et d."}
 knitr::include_graphics(c("images/orb-3d.jpeg"))
 ```
+
+::: {.credit data-latex=""}
+crédit : wikimedia/haade
+:::
 
 Les électrons d'une sous-couche peuvent être répartis dans des volumes  d'énergie égale appelés orbitales. Il y a une orbitale pour une sous-couche _s_, trois orbitales pour une _p_, cinq pour une _d_, sept pour un _f_. Une orbitale ne peut être occupée que par deux électrons.
 
