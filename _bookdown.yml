@@ -5,10 +5,10 @@ language:
 delete_merged_file: true
 rmd_files:
   - "index.Rmd"
-  # - "chapitres/10-introduction.Rmd"
-  # - "chapitres/20-etats-de-la-matiere.Rmd"
-  # - "chapitres/30-melanges-corps-purs.Rmd"
-  # - "chapitres/40-historique.Rmd"
-  # - "chapitres/50-atome.Rmd"
+  - "chapitres/10-introduction.Rmd"
+  - "chapitres/20-etats-de-la-matiere.Rmd"
+  - "chapitres/30-melanges-corps-purs.Rmd"
+  - "chapitres/40-historique.Rmd"
+  - "chapitres/50-atome.Rmd"
   - "chapitres/60-tableau-periodique.Rmd"
-  # - "chapitres/70-liaisons.Rmd"
+  - "chapitres/70-liaisons.Rmd"

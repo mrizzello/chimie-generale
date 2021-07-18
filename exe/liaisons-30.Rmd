@@ -31,18 +31,38 @@ Pour chaque proposition ci-dessous :
 
 ::::::
 
-:::::: {.Answer data-latex=""}
+::::::::: {.Answer data-latex=""}
 
-![](./images/mol2D/Br2.png){width=6em} $Br_2$
+::: {.multicols data-latex="{3}"}
 
-![](./images/mol2D/CO2.png){width=6em} $CO_2$
+![](images/mol2D/Br2.png){height=3em}
 
-![](./images/mol2D/N2.png){width=6em} $N_2$
+$Br_2$
 
-![](./images/mol2D/HCl.png){width=6em} $HCl$
+![](images/mol2D/CO2.png){height=3em}
 
-![](./images/mol2D/HCN.png){width=6em} $HCN$
+$CO_2$
 
-![](./images/mol2D/HClO.png){width=6em} $HClO$
+![](images/mol2D/N2.png){height=3em}
+
+$N_2$
+
+:::
+
+::: {.multicols data-latex="{3}"}
+
+![](images/mol2D/HCl.png){height=3em}
+
+$HCl$
+
+![](images/mol2D/HCN.png){height=3em}
+
+$HCN$
+
+![](images/mol2D/HClO.png){height=3em}
+
+$HClO$
+
+:::
 
 ::::::
