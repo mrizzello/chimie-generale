@@ -35,33 +35,21 @@ Pour chaque proposition ci-dessous :
 
 ::: {.multicols data-latex="{3}"}
 
-![](images/mol2D/Br2.png){height=3em}
+![](images/mol2D/Br2.jpg){height=3em} $Br_2$
 
-$Br_2$
+![](images/mol2D/CO2.jpg){height=3em} $CO_2$
 
-![](images/mol2D/CO2.png){height=3em}
-
-$CO_2$
-
-![](images/mol2D/N2.png){height=3em}
-
-$N_2$
+![](images/mol2D/N2.jpg){height=3em} $N_2$
 
 :::
 
 ::: {.multicols data-latex="{3}"}
 
-![](images/mol2D/HCl.png){height=3em}
+![](images/mol2D/HCl.jpg){height=3em} $HCl$
 
-$HCl$
+![](images/mol2D/HCN.jpg){height=3em} $HCN$
 
-![](images/mol2D/HCN.png){height=3em}
-
-$HCN$
-
-![](images/mol2D/HClO.png){height=3em}
-
-$HClO$
+![](images/mol2D/HClO.jpg){height=3em} $HClO$
 
 :::
 
