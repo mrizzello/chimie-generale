@@ -1,0 +1,62 @@
+:::::: {.Exercise-container}
+::: {.Exercise data-latex=""}
+
+Complétez le tableau ci dessous, calculant la masse molaire du composé en [g/mol] et le nombre de moles contenues dans 3.5[g] de ce composé.
+
+:::
+
+|     | substance       | masse molaire en [g/mol] | moles contenues dans 3.5[g] |
+| :-: | :-------------- | :----------------------: | :-------------------------: |
+|  1  | $NaOH$          |                          |                             |
+|  2  | $H_2O$          |                          |                             |
+|  3  | $MgCl_2$        |                          |                             |
+|  4  | $H_3PO_4$       |                          |                             |
+|  5  | $Al_2(SO_4)_3$  |                          |                             |
+|  6  | $(NH_4)_2SO_4$  |                          |                             |
+
+
+::::::
+
+:::::: {.Answer data-latex=""}
+
+::: {.multicols data-latex="{2}"}
+
+1. $NaOH$
+
+$23 + 16 + 1 = 40 [g/mol]$
+
+$3.5 [g] / 40 [g/mol] = 0.09 [mol]$
+
+2. $H_2O$
+
+$2 \cdot 1 + 16  = 18 [g/mol]$
+
+$3.5 [g] / 18 [g/mol] = 0.19 [mol]$
+
+3. $MgCl_2$
+
+$24 + 2 \cdot 35.5 = 95$
+
+$3.5 [g] / 95 [g/mol] = 0.04 [mol]$
+
+4. $H_3PO_4$
+
+$3 \cdot 1 + 31 + 4 \cdot 16 = 98$
+
+$3.5 [g] / 98 [g/mol] = 0.04 [mol]$
+
+5. $Al_2(SO_4)_3$
+
+$2 \cdot 27 + 3 \cdot 32 + 12 \cdot 16 = 342$
+
+$3.5 [g] / 342 [g/mol] = 0.010 [mol]$
+
+6. $(NH_4)_2SO_4$
+
+$2 \cdot 14 + 8 \cdot 1 + 1 \cdot 32 + 4 \cdot 16 = 152$
+
+$3.5 [g] / 152 [g/mol] = 0.02 [mol]$
+
+:::
+
+::::::

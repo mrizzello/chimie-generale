@@ -1,0 +1,31 @@
+:::::: {.Exercise data-latex=""}
+
+A l'aide de la méthode VSEPR, dessinez la formule développée des molécules proposées ci-dessous et indiquez les angles de liaison.
+
+::: {.multicols data-latex="{4}"}
+
+$NH_3$
+
+$SO_3$
+
+$H_2O$
+
+:::
+
+\vspace{\stretch{1}}
+
+::::::
+
+:::::: {.Answer data-latex=""}
+
+::: {.multicols data-latex="{4}"}
+
+![](exe/molecules-10-NH3.png){width=6em}
+
+![](exe/molecules-10-SO3.png){width=6em}
+
+![](exe/molecules-10-H2O.png){width=6em}
+
+:::
+
+::::::

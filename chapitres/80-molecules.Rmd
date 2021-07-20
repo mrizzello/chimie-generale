@@ -1,0 +1,297 @@
+# Molécules
+
+::: {.objectives data-latex=""}
+
+- Calculer la masse réelle d'une molécule à partir des masses atomiques des atomes qui la composent.
+- Calculer le nombre de moles/molécules que contient une masse donnée d'un composé.
+- Dessiner la formule développée d'une molécule avec ses covalences et électrovalences.
+- Expliquer le concept de polarité et identifier une molécule polaire.
+- Expliquer le concept de liaison intermoléculaire.
+- Identifier les différents types de liaisons intermoléculaires.
+
+:::
+
+De nombreuses substances existent sous la forme de deux ou plusieurs atomes reliés entre eux de manière si forte qu'ils se comportent comme une seule particule. Ces combinaisons de plusieurs atomes sont appelées molécules. De manière similaire à un atome, une molécule est la plus petite partie d'une substance qui possède les propriétés physiques et chimiques de cette substance. Cependant, une molécule est composée de plus d'un atome.
+
+::: {.tcolorbox data-latex=""}
+
+**Molécule**  
+Une molécule est un groupe d'au moins deux atomes liés par une/des liaison(s) chimique(s).
+
+:::
+
+## La formule brute
+
+Les molécules sont composées d'atomes. On les représente par une formule, en indiquant les symboles des atomes qui les composent et leur nombre. Cette formule est appelée **formule brute**. La formule brute donne le nombre d'atomes des différents éléments qui forment un composé, exprimés avec les plus petits nombres entiers possibles.
+
+- $NaCl$ : 1 atome de sodium et 1 atome de chlore  
+- $O_2$ : 2 atomes d'oxygène  
+- $H_2O$ : 2 atomes d'hydrogène et 1 atome d'oxygène
+
+Lorsqu'un atome n'est présent qu'une seule fois dans la molécule, on n'indique pas l'indice 1. La formule brute de l'eau s'écrira donc H~2~O et non H~2~O~1~, et on écrira CO~2~ et non C~1~O~2~.
+
+Si l'on considère plusieurs molécules, on l'indique par un facteur placé devant la formule brute:
+
+- 2 $NaCl$ : 2 molécules de $NaCl$  
+- 3 $O_2$ : 3 molécules de $O_2$  
+- 4 $H_2O$ : 4 molécules de $H_2O$
+
+La formule brute d'un composé est également utilisée comme abréviation du nom du composé.
+
+## La formule développée
+
+Les formules brutes ne donnent aucune information sur la structure ou la géométrie du composé. Elle ne permet pas d'indiquer comment les atomes sont reliés entre eux par des liaisons chimiques ou comment ils sont disposés dans l'espace. Comprendre comment les atomes d'une molécule sont disposés et comment ils sont liés entre eux est très important pour expliquer les caractéristiques physiques et chimique d'un composé.
+
+**La formule développée** identifie l'emplacement des atomes ainsi que leurs liaisons au sein d'une molécule. On utilise la représentation de Lewis pour dessiner les atomes des différents éléments qui sont reliés par des lignes qui représentent les liaisons chimiques.
+
+```{r methanol-formulas,echo=FALSE,out.width="100%",fig.show='hold',fig.align='center',fig.cap="La molécule de méthanol."}
+knitr::include_graphics(c("images/methanol-formulas.png"))
+```
+
+La première étape pour dessiner une molécule est de convertir sa formule brute en structure de Lewis.
+
+### Dessiner les liaisons ioniques des composés binaires
+
+- On dessine la structure de Lewis des atomes en plaçant l'élément le plus électronégatif à droite.
+- On dessine autant de cations et d'anions nécessaires à apparier tous les électrons célibataires de chaque élément.
+- On transfère les électrons des cations aux anions.
+- On dessine les paires nouvellement créées et on ajoute les charges négatives ou positives.
+
+|                      $NaCl$                     |                     $MgBr_2$                     |                     $AlF_3$                     |
+| :---------------------------------------------: | :----------------------------------------------: | :---------------------------------------------: |
+| ![](images/dessin-ioniques-NaCl.png){width=9em} | ![](images/dessin-ioniques-MgBr2.png){width=9em} | ![](images/dessin-ioniques-AlF3.png){width=9em} |
+
+### Dessiner les liaisons covalentes des composés binaires
+
+- On dessine la structure de Lewis des atomes en plaçant l'élément le plus électronégatif à droite.
+- On dessine autant d'atomes nécessaires à apparier tous les électrons célibataires de chaque élément.
+- On dessine les liaisons nouvellement créées et on ajoute les charges partielles si il y lieu.
+- Plusieurs liaisons covalentes doubles ou triples peuvent être nécessaires.
+- On peut utiliser les paires libres pour former des liaisons par covalence de coordination.
+- On dessine les liaisons nouvellement créées et on ajoute les charges partielles si il y lieu.
+
+|                     $H_2O$                     |                     $NH_3$                     |                     $CH_4$                     |
+| :--------------------------------------------: | :--------------------------------------------: | :--------------------------------------------: |
+| ![](images/dessin-covalentes-H2O.png){width=9em} | ![](images/dessin-covalentes-NH3.png){width=9em} | ![](images/dessin-covalentes-CH4.png){width=9em} |
+
+### Dessiner les composés binaires covalents avec un atome central
+
+Cette méthode, appelée VSEPR, s'applique aux molécules ayant un atome central. Elle est basée sur le fait que les liaisons et les paires libres vont s'organiser autour d'un atome central de façon à minimiser leurs répulsions.
+
+On commence par définir le **nombre stérique**, NS.
+
+$$ \begin{split}
+    NS = m + n
+  \end{split}
+  \qquad
+  \begin{split}
+    &\text{avec} \\
+    &\text{m: nombre d'atomes liés à l'atome central} \\
+    &\text{n: nombre de paires libres de l'atome central}
+  \end{split} $$
+
+Ensuite, à chaque valeur de NS correspond une géométrie de molécule.
+
+Table: (\#tab:tab-vsepr) Géométries VSEPR.
+
+|  NS |          nom         | angles de liaisons |           représentation           |                exemple               |
+| :-: | :------------------: | :----------------: | :--------------------------------: | :----------------------------------: |
+|  2  |       linéaire       |        180°        | ![](images/vsepr-1.png){width=4em} | ![](images/mol3D/CO2.png){width=6em} |
+|  3  |    trigonale plan    |        120°        | ![](images/vsepr-2.png){width=4em} | ![](images/mol3D/BF3.png){width=6em} |
+|  4  |       tétraèdre      |       109.5°       | ![](images/vsepr-3.png){width=4em} | ![](images/mol3D/CH4.png){width=6em} |
+|  5  | bipyramide trigonale |     120° et 90°    | ![](images/vsepr-4.png){width=4em} | ![](images/mol3D/PH5.png){width=6em} |
+
+Il existe des géométries pour des valeurs de NS supérieures à 5, mais elles ne sont pas représentées dans ce tableau.
+
+```{r, child=c('exe/molecules-10.Rmd')}
+```
+
+\newpage
+
+### Dessiner les composés ternaires
+
+- De gauche à droite, dessiner le modèle de Lewis de chacun des éléments présents dans la molécule.
+    - Dessiner d'abord les éléments de la colonne I, II ou III.
+    - Dessiner ensuite autant d'oxygène qu'il y a d'électrons libres dans la première colonne.
+    - Dessiner ensuite les éléments autre que l'oxygène.
+    - Dessiner ensuite les oxygènes restants.
+- Dessiner les covalences ou électrovalences selon les différences d'électronégativité.
+
+```{r, child=c('exe/molecules-20.Rmd')}
+```
+
+## Les ions polyatomiques
+
+Les ions $Na^+$, $Mg^{2+}$ ou $Cl^–$ sont **monoatomique**, ce qui signifie qu'ils sont constitué d'un seul atome ionisé. Il existe des ions **polyatomiques**, tels que $NH4^+$ (ion ammonium) ou $SO4^{2–}$ (ion sulfate). Ils se composent d'atomes liés par des covalences mais ils portent une charge positive ou négative.
+
+|             ion hydroxyle            |              ion nitrite              |              ion carbonate             |              ion ammonium             |
+| :----------------------------------: | :-----------------------------------: | :------------------------------------: | :-----------------------------------: |
+|                $OH^–$                |                $NO_2^–$                |               $CO_3^{2–}$               |                $NH_4^+$                |
+| ![](images/mol2D/OH-.png){width=6em} | ![](images/mol2D/NO2-.png){width=6em} | ![](images/mol2D/CO32-.png){width=6em} | ![](images/mol2D/NH4+.png){width=5em} |
+
+Quand un ion polyatomique est présent plusieurs fois dans une molécule, on l'indique dans la formule brute par des parenthèses et un indice comme dans les exemples : $Ca(OH)_2$, $Ba(NO_3)_2$, $Ca(HCO_3)_2$.
+
+\newpage
+
+```{r, child=c('exe/molecules-30.Rmd')}
+```
+
+## La masse molaire moléculaire
+
+::: {.tcolorbox data-latex=""}
+
+**Masse molaire moléculaire**  
+La masse molaire d'un composé est la masse en grammes d'une mole de molécules de ce composé.
+
+:::
+
+Une molécule de $CH_4$ contient ...  
+- 1 atome de carbone et  
+- 4 atomes d'hydrogène.
+
+Donc, une mole de molécules de $CH_4$ contient ...  
+- 1 mole d'atomes de carbone et  
+- 4 moles d'atomes d'hydrogène.
+
+La masse d'une mole de méthane peut être trouvée en additionnant les masses molaires atomiques du carbone et de l'hydrogène présents dans la molécule:
+
+$$ \begin{split}
+  \text{Masse de 1 [mol] de carbone} &= 12.01 [g] \\[0.5em]
+  \text{Masse de 4 [mol] d'hydrogène} &= 4.032 [g] \quad (4 \cdot 1.008 [g]) \\[1em]
+  \text{Masse de 1 [mol] de $CH_4$} &= 16.04 [g]
+  \end{split} $$
+
+\newpage
+
+```{r, child=c('exe/molecules-40.Rmd')}
+```
+
+## La polarité
+
+La différence d'électronégativité entre les éléments chimiques qui composent une molécule induit une répartition dans l'espace de charges négatives et positives créant ainsi **un dipôle** (ou un multipôle). C'est-à-dire, un couple de charges de signe opposé distantes d'une longueur non nulle. C'est l'équivalent d'un minuscule aimant. On représente un dipôle par une flèche avec une base en croix et dont la flèche pointe vers l'atome le plus électronégatif.
+
+Un dipôle peut se créer entre deux ions dans une liaison ionique ou entre des atomes dans une liaison covalente. Plus la différence d'électronégativité est grande, plus le moment dipolaire est important. La distance entre les charges et la géométrie de la molécule sont des facteurs qui influencent l'intensité du **moment dipolaire**. Le moment dipolaire est une mesure de la **polarité d'une molécule**.
+
+```{r dipole-0,echo=FALSE,out.width="60%",fig.show="hold",fig.align="center",fig.cap="Variation de l'intensité du dipôle"}
+knitr::include_graphics(c("images/dipole-0.png"))
+```
+
+La polarité a une influence sur la réactivité chimique des molécules mais également sur certaines propriétés physiques comme la solubilité ou les températures de fusion et d'ébullition.
+
+### Molécules polaires
+
+Mathématiquement, les moments dipolaires sont des vecteurs. Ils possèdent une intensité, une direction et un sens. Pour des molécules qui comportent plusieurs covalences polaires, on calcule le moment dipolaire net comme la somme vectorielle des moments dipolaires des différentes liaisons.
+
+\newpage
+
+```{r dipole-1,echo=FALSE,out.width="60%",fig.show="hold",fig.align="center",fig.cap="Dipôle résultant de l'addition des polarités des liaisons"}
+knitr::include_graphics(c("images/dipole-1.png"))
+```
+
+L'ammoniac ($NH_3$), l'eau ($H_2O$) et le fluorure d'hydrogène ($HF$) sont des molécules polaires. Dans ces molécules une charge partielle négative est portée par les atomes d'azote, d'oxygène ou de fluor car ces atomes sont plus électronégatifs que l'hydrogène alors que ce dernier porte une charge partielle positive.
+
+Les molécules polaires vont se comporter comme de petits aimants. Elles s'alignent les unes par rapport aux autres. L'extrémité négative d'une molécule attirant l'extrémité positive d'une autre molécule. De la même manière, les molécules polaires sont attirées par les ions. L'extrémité négative d'une molécule polaire sera attirée par un cation et l'extrémité positive sera attirée par un anion. Si elles sont placées dans un champs électrique, les molécules polaires vont s'orienter de manière préférentielle.
+
+```{r dipole-3,echo=FALSE,out.width="60%",fig.show="hold",fig.align="center",fig.cap="Comportement des molécules polaires"}
+knitr::include_graphics(c("images/dipole-3.png"))
+```
+
+### Molécules non-polaires
+
+On dit des molécules qui ne contiennent pas de liaisons polaires qu'elles sont **non polaires**, comme par exemple, les molécules diatomiques formées de deux atomes d'un même élément. Les électrons de liaisons sont partagés équitablement entre les deux atomes. Cependant, ce ne sont pas le seul type de molécules non polaires.
+
+Certaines molécules sont symétriques. La symétrie de ces molécules peut les rendre non polaires bien qu'elles contiennent des liaisons polaires. Les polarités de chaque liaison s'annulent à cause de la géométrie de la molécule.
+
+\newpage
+
+```{r dipole-4,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Molécules non polaires"}
+knitr::include_graphics(c("images/dipole-4.png"))
+```
+
+## Forces intermoléculaires
+
+Les **forces intermoléculaires** sont les forces qui agissent entre les molécules ou les atomes et les maintiennent rapprochés les uns des autres.
+
+Dans les gaz, les forces intermoléculaires sont négligeables. Les molécules de gaz se déplacent indépendamment les unes des autres. Dans les liquides et les solides, par contre, les forces intermoléculaires sont suffisamment fortes pour maintenir les molécules proches les unes des autres. Plus les forces intermoléculaires sont fortes au sein d'une substance et plus les points de fusion et d'ébullition de la substance sont élevés. Ces forces sont également appelées forces de Van der Waals et peuvent être de trois types.
+
+### Les forces de dispersion (ou forces de London)
+
+Ce sont des forces d'attraction de **courte durée** dues au mouvement constant des électrons au sein des molécules.
+
+Dans le cas d'une molécule non polaire, en moyenne dans le temps, les électrons sont répartis uniformément dans la molécule. Par contre, de manière instantanée, il peut y avoir plus d'électrons à une extrémité de la molécule qu'à l'autre. À cet instant, la molécule présente une polarité de courte durée. Les électrons des molécules voisines sont attirés par l'extrémité positive de la molécule polarisée, ce qui entraîne une polarisation de la molécule voisine et la création d'une force d'attraction. Toutes les molécules subissent des forces de dispersion de London.
+
+```{r forces-london,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Apparition des forces de dispersion"}
+knitr::include_graphics(c("images/forces-london.png"))
+```
+
+### Les interactions dipôle-dipôle
+
+Ce sont les forces d'attraction entre les pôles positifs et négatifs des molécules polaires.
+
+Les molécules polaires présentent un moment dipolaire net **permanent**. Les extrémités positives et négatives de différentes molécules sont attirées l'une vers l'autre par ce que l'on appelle une interaction dipôle-dipôle.
+
+```{r dipole-dipole,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Molécules polaires et interaction dipôle-dipôle."}
+knitr::include_graphics(c("images/dipole-dipole.png"))
+```
+
+### La liaison hydrogène (ou pont hydrogène)
+
+C'est la force d'attraction entre un atome d'hydrogène lié à un atome électronégatif et un autre atome électronégatif voisin.
+
+La liaison hydrogène est un type particulier d'interaction dipôle-dipôle. Les liaisons O-H, N-H et F-H sont très polaires. Il en résulte des attractions remarquablement fortes. L'eau, en particulier, est capable de former un vaste réseau tridimensionnel de liaisons hydrogène car chaque molécule possède deux hydrogènes et un atome électronégatif voisin.
+
+```{r eau-liaison-hydrogene,echo=FALSE,out.width="25%",fig.show="hold",fig.align="center",fig.cap="Liaison hydrogène au sein de molécules d'eau"}
+knitr::include_graphics(c("images/ice-0.png", "images/ice-tetra.png", "images/ice.png"))
+```
+
+Les forces intermoléculaires influencent les propriétés d'une substance par leurs interactions entre molécules. Mais ces mêmes forces peuvent également agir entre différentes parties d'une même molécule. Ces interactions peuvent par exemple influencer la forme de macro-molécules biologiques comme les protéines et les acides nucléiques.
+
+```{r dna,echo=FALSE,out.width="100%",fig.show="hold",fig.align="center",fig.cap="Paires de bases, liaisons hydrogène et ADN."}
+knitr::include_graphics(c("images/dna.png"))
+```
+
+Table: (#tab:comparatif-intermoleculaires) Comparatif des forces intermoléculaires.
+
+| Interaction                | Intensité             | Caractéristiques                  |
+| :------------------------- | :-------------------- | :-------------------------------- |
+| Liaisons hydrogène         | moyenne (8–40 kJ/mol) | entre liaisons O-H, N-H et/ou F-H |
+| Interactions dipôle-dipôle | faible (14 kJ/mol)    | entre molécules polaires          |
+| Forces de dispersion       | faible (2–10 kJ/mol)  | entre toutes molécules            |
+
+## Exercices supplémentaires
+
+```{r, child=c('exe/molecules-50.Rmd')}
+```
+
+```{r, child=c('exe/molecules-60.Rmd')}
+```
+
+\newpage
+
+```{r, child=c('exe/molecules-70.Rmd')}
+```
+
+```{r, child=c('exe/molecules-80.Rmd')}
+```
+
+```{r, child=c('exe/molecules-90.Rmd')}
+```
+
+\newpage
+
+```{r, child=c('exe/molecules-100.Rmd')}
+```
+
+```{r, child=c('exe/molecules-110.Rmd')}
+```
+
+```{r, child=c('exe/molecules-120.Rmd')}
+```
+
+\newpage
+
+```{r, echo=FALSE}
+if (knitr::is_latex_output()) {
+  knitr::asis_output('\\section{Solutions des exercices} \\shipoutAnswer')
+}
+```

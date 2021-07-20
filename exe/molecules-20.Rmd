@@ -1,0 +1,13 @@
+:::::: {.Exercise data-latex=""}
+
+Dessinez la formule développée à l'aide du schéma fourni pour les composés $KNO_2$ et $CaCO_3$
+
+::: {.multicols data-latex="{2}"}
+
+![](exe/formule-developpee.png){width=48%}
+
+![](exe/formule-developpee.png){width=48%}
+
+:::
+
+::::::

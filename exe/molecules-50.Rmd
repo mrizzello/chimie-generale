@@ -1,0 +1,40 @@
+:::::: {.Exercise-container}
+::: {.Exercise data-latex=""}
+
+Indiquez le nombre d'atomes de chaque élément présent dans les formules ci-dessous:
+
+:::
+
+| formule         |                  éléments                  |
+| :-------------- | :----------------------------------------: |
+| $SrCl_2$        | ![](images/1px.png){width=12em,height=1px} |
+| $KNO_3$         |                                            |
+| $NH_4Cl$        |                                            |
+| $Ca_3(PO_4)_2$  |                                            |
+| $Mg(NO_2)_2$    |                                            |
+| $Al_2(SO_4)_3$  |                                            |
+| $CH_3COOH$      |                                            |
+
+::::::
+
+:::::: {.Answer data-latex=""}
+
+::: {.multicols data-latex="{2}"}
+
+$SrCl_2$ :  1xSr / 2xCl
+
+$KNO_3$ : 1xK / 1xN / 3xO
+
+$NH_4Cl$ :  1xN / 4xH / 1xCl
+
+$Ca_3(PO_4)_2$ : 3xCa / 2xP / 8xO
+
+$Mg(NO_2)_2$ :  1xMg / 2xN / 4xO
+
+$Al_2(SO_4)_3$ : 2xAl / 3xS / 12xO
+
+$CH_3COOH$ :  2xC / 4xH / 2xO
+
+:::
+
+::::::

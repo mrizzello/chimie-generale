@@ -12,3 +12,4 @@ rmd_files:
   - "chapitres/50-atome.Rmd"
   - "chapitres/60-tableau-periodique.Rmd"
   - "chapitres/70-liaisons.Rmd"
+  - "chapitres/80-molecules.Rmd"

@@ -1,0 +1,18 @@
+::: {.Exercise data-latex=""}
+
+Si un échantillon de propane, $C_3H_8$, contient un total de $6.0 \cdot 10^{23}$ atomes de carbone, combien de molécules de propane sont présentes dans l'échantillon?
+
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+$$ \begin{split}
+  1 [molecule] \text{ de } C_3H_8 & \longrightarrow 3 [atome] \text{ de }  C \\
+  n [molecule] \text{ de } C_3H_8 & \longrightarrow 6.0 \cdot 10^{23} [atome] \text{ de } C
+  \end{split} $$
+
+$$ n = \frac{6.0 \cdot 10^{23} [atome] \cdot 1 [molecule]}{3 [atome]} = 2.0 \cdot 10^{23} [molecule] $$
+
+:::

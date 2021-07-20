@@ -2,7 +2,8 @@
 
 ::: {.objectives data-latex=""}
 
--  Identifier les différents types de liaison.
+-  Expliquer le concept de liaison chimique.
+-  Identifier les différents types de liaisons chimiques.
 -  Expliquer le concept d'électronégativité.
 -  Reconnaître les ions que contient une molécule selon sa formule brute.
 -  Déduire la signification d'une formule brute.
@@ -174,31 +175,6 @@ Table: (#tab:exemples-alliages-communs) Exemples d'alliages communs.
 |   or   | or + argent + cuivre                                 | or jaune         |
 |        | or + nickel + recouvert d'une fine couche de rhodium | or blanc         |
 
-## La molécule
-
-::: {.tcolorbox data-latex=""}
-
-**Molécule**  
-Une molécule est un groupe d'au moins deux atomes liés par une/des liaison(s) chimique(s).
-
-:::
-
-Les molécules sont composées d'atomes. On les représente par une formule, en indiquant les symboles des atomes qui les composent et leur nombre. Cette formule est appelée **formule brute**.
-
-- $NaCl$ : 1 atome de sodium et 1 atome de chlore  
-- $O_2$ : 2 atomes d'oxygène  
-- $H_2O$ : 2 atomes d'hydrogène et 1 atome d'oxygène
-
-Lorsqu'un atome n'est présent qu'une seule fois dans la molécule, on n'indique pas l'indice 1. La formule brute de l'eau s'écrira donc H~2~O et non H2O.
-
-Si l'on considère plusieurs molécules, on l'indique par un facteur placé devant la formule brute:
-
-- 2 $NaCl$ : 2 molécules de $NaCl$  
-- 3 $O_2$ : 3 molécules de $O_2$  
-- 4 $H_2O$ : 4 molécules de $H_2O$
-
-\newpage
-
 ## Exercices supplémentaires
 
 ```{r, child=c('exe/liaisons-40.Rmd')}
@@ -207,13 +183,13 @@ Si l'on considère plusieurs molécules, on l'indique par un facteur placé deva
 ```{r, child=c('exe/liaisons-50.Rmd')}
 ```
 
+\newpage
+
 ```{r, child=c('exe/liaisons-60.Rmd')}
 ```
 
 ```{r, child=c('exe/liaisons-70.Rmd')}
 ```
-
-\newpage
 
 ```{r, child=c('exe/liaisons-80.Rmd')}
 ```

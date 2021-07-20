@@ -1,0 +1,30 @@
+:::::: {.Exercise-container}
+::: {.Exercise data-latex=""}
+
+Complétez le tableau en indiquant quel cation et quel anion forment les molécules ci-dessous ainsi que leur nombre:
+
+:::
+
+| formule        | cation | anion |
+| :------------- | :----: | :---: |
+| $NaNO_2$       |        |       |
+| $H_2SO_4$      |        |       |
+| $CaS_2O_3$     |        |       |
+| $Li_2CO_3$     |        |       |
+| $Mg_3(PO_4)_2$ |        |       |
+
+::::::
+
+::: {.Answer data-latex=""}
+
+$NaNO_2$ / 1 $Na^+$ / 1 $NO_2^-$
+
+$H_2SO_4$ / 2 $H^+$ / $SO_4^{2-}$
+
+$CaS_2O_3$ / $Ca^{2+}$ / $S_2O_3^{2-}$
+
+$Li_2CO_3$ / 2 $Li^+$ / $CO3^{2-}$
+
+$Mg_3(PO_4)_2$ / 3 $Mg^{2+}$ & 2 $PO4^{3-}$
+
+:::

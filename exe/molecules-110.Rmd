@@ -1,0 +1,33 @@
+:::::: {.Exercise data-latex=""}
+
+Pour chacun des composés suivants, dessinez la formule développée (notation de Lewis) du composé et indiquez le type de liaison impliqué.
+
+::: {.multicols data-latex="{4}"}
+
+$NaCl$
+
+$MgCl_2$
+
+$Br_2$
+
+$N_2$
+
+:::
+
+\vspace{\stretch{1}}
+
+::: {.multicols data-latex="{4}"}
+
+$HCl$
+
+$H_2O$
+
+$PCl_5$
+
+$LiBr$
+
+:::
+
+\vspace{\stretch{1}}
+
+::::::

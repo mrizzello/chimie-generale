@@ -1,0 +1,37 @@
+:::::: {.Exercise-container}
+::: {.Exercise data-latex=""}
+
+Calculez la masse molaire moléculaire des composés suivants.
+
+:::
+
+| formule         | masse molaire |
+| :-------------- | :-----------: |
+| $SrCl_2$        |               |
+| $KNO_3$         |               |
+| $NH_4Cl$        |               |
+| $Ca_3(PO_4)_2$  |               |
+| $Mg(NO_2)_2$    |               |
+| $CH_3COOH$      |               |
+
+::::::
+
+:::::: {.Answer data-latex=""}
+
+::: {.multicols data-latex="{2}"}
+
+$SrCl_2$ : 158.5 [g/mol]
+
+$KNO_3$ : 101 [g/mol]
+
+$NH_4Cl$ : 53.5 [g/mol]
+
+$Ca_3(PO_4)_2$ : 310 [g/mol]
+
+$Mg(NO_2)_2$ : 116 [g/mol]
+
+$CH_3COOH$ : 60 [g/mol]
+
+:::
+
+::::::

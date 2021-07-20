@@ -1,0 +1,36 @@
+:::::: {.Exercise-container}
+::: {.Exercise data-latex=""}
+
+Complétez le tableau en indiquant quel cation et quel anion forment les molécules ci-dessous ainsi que leur nombre:
+
+:::
+
+| formule        |  cation  |     anion     | formule       |   cation  |    anion   |
+| :------------- | :------: | :-----------: | :------------ | :-------: | :--------: |
+| $Fe(OH)_2$     |          |               | $K_2SO_3$     |           |            |
+| $Ca(MnO_4)_2$  |          |               |               | $Fe^{3+}$ | 3 $NO_3^–$ |
+|                | 3 $Li^+$ | 3 $PO_4^{3–}$ | $CH_3COONH_4$ |           |            |
+
+::::::
+
+:::::: {.Answer data-latex=""}
+
+::: {.multicols data-latex="{2}"}
+
+$Fe(OH)_2$ : $Fe^{2+}$ / 2 $OH^–$
+
+$K_2SO_3$ : 2 $K^+$ / $SO_3^{2–}$
+
+$Ca(MnO_4)_2$ : $Ca^{2+}$ / 2 $MnO_4^–$
+
+$Fe(NO_3)_3$ : $Fe^{3+}$ / 3 $NO_3^–$
+
+$Li_3PO_4$ : 3 $Li^+$ / $PO_4^{3–}$
+
+$CH_3COONH_4$ : $NH_4^+$ / $CH_3COO^–$
+
+:::
+
+\newpage
+
+::::::
