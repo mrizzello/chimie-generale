@@ -1,0 +1,65 @@
+:::::: {.Exercise data-latex=""}
+
+Si ils sont solubles, écrire les équations de dissociation des composés suivants :
+
+::: {.multicols data-latex="{2}"}
+
+$\ce{KBr}$
+
+$\ce{AgNO3}$
+
+$\ce{MgCO3}$
+
+$\ce{AgOH}$
+
+$\ce{Ba(OH)2}$
+
+$\ce{HCl}$
+
+$\ce{Al3PO4}$
+
+$\ce{Fe2(SO4)3}$
+
+$\ce{(NH4)3PO4}$
+
+$\ce{Cu(NO3)2}$
+
+$\ce{K2SO4}$
+
+$\ce{H3PO4}$
+
+:::
+
+::::::
+
+:::::: {.Answer data-latex=""}
+
+::: {.multicols data-latex="{2}"}
+
+$\ce{KBr ->C[H2O] K^{+} + Br^{-} }$
+
+$\ce{AgNO3 ->C[H2O] Ag^{+} + NO3^{-} }$
+
+$\ce{MgCO3 ->C[H2O] Mg^{2+} + CO3^{2-} }$
+
+$\ce{AgOH ->C[H2O] AgOH v }$
+
+$\ce{Ba(OH)2 ->C[H2O] Ba^{2+} + 2OH^{-} }$
+
+$\ce{HCl ->C[H2O] H^{+} + Cl^{-}}$
+
+$\ce{Al3PO4 ->C[H2O] Al3PO4 v }$
+
+$\ce{Fe2(SO4)3 ->C[H2O] 2Fe^{3+} + 3SO4^{2-} }$
+
+$\ce{(NH4)3PO4 ->C[H2O] 3NH4^{+} + PO4^{3-} }$
+
+$\ce{Cu(NO3)2 ->C[H2O] Cu^{2+} + 2NO3^{-} }$
+
+$\ce{K2SO4 ->C[H2O] 2K^{+} + SO4^{2-} }$
+
+$\ce{H3PO4 ->C[H2O] 3H^{+} + PO4^{3-} }$
+
+:::
+
+::::::

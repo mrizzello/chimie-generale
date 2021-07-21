@@ -14,3 +14,4 @@ rmd_files:
   - "chapitres/70-liaisons.Rmd"
   - "chapitres/80-molecules.Rmd"
   - "chapitres/90-nomenclature.Rmd"
+  - "chapitres/100-solutions-electrolytes.Rmd"

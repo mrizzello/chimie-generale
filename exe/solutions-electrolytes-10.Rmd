@@ -1,0 +1,25 @@
+::: {.Exercise data-latex=""}
+
+Si ils sont solubles, écrire les équations de dissociation des composés suivants :
+
+1. $KNO_3$
+
+2. $Na_2SO_4$
+
+3. $BaCO_3$
+
+4. $H_3PO_4$
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. $\ce{KNO3 ->C[H2O] K^{+} + NO3^{-} }$
+
+2. $\ce{Na2SO4 ->C[H2O] 2 Na^{+} + SO4^{2-} }$
+
+3. $\ce{BaCO3 ->C[H2O] BaCO3 v }$
+
+4. $\ce{H3PO4 ->C[H2O] 3 H^{+} + PO4^{3-} }$
+
+:::

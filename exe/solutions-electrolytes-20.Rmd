@@ -1,0 +1,33 @@
+:::::: {.Exercise-container}
+::: {.Exercise data-latex=""}
+
+Indiquez si les composés suivants sont des électrolytes ou non électrolytes :
+
+:::
+
+|     | composé                  |     |     | justification |
+| --- | ------------------------ | :-: | :-: | ------------- |
+| 1   | $Ca(NO_3)_2$             | oui | non |               |
+| 2   | $H_2SO_4$                | oui | non |               |
+| 3   | $CaCO_3$                 | oui | non |               |
+| 4   | $HF$                     | oui | non |               |
+| 5   | $NaOH$                   | oui | non |               |
+| 6   | $C_6H_{12}O_6$ (glucose) | oui | non |               |
+
+::::::
+
+::: {.Answer data-latex=""}
+
+1. $Ca(NO_3)_2$ : oui > composé ionique dissocié
+
+2. $H_2SO_4$ : oui > acide soluble
+
+3. $CaCO_3$ : non > insoluble
+
+4. $HF$ : oui > acide soluble
+
+5. $NaOH$ : oui > composé ionique dissocié
+
+6. $C_6H_{12}O_6$ (glucose) : non > molécules non dissociées
+
+:::

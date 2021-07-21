@@ -1,0 +1,221 @@
+# Solutions et électrolytes
+
+::: {.objectives data-latex=""}
+
+- Expliquer les notions de solubilité et de saturation, et de quoi elles dépendent.
+- Prédire si une molécule est soluble.
+- Donner l'équation de dissociation d'une molécule.
+- Identifier ce qu'est un électrolyte.
+
+:::
+
+## Définitions
+
+### Les solutions
+
+::: {.tcolorbox data-latex=""}
+
+**Solution**  
+Une solution est un mélange homogène composé d'un solvant et d'un ou plusieurs solutés.
+
+:::
+
+- **Le soluté**: composé le moins abondant d'une solution.
+- **Le solvant**: composé le plus abondant d'une solution.
+
+On dit que le soluté est **dissous** dans le solvant. La solution est translucide et laisse donc passer la lumière.
+
+Par exemple, lorsque l'on mélange une cuillère de sucre dans un verre d'eau, les cristaux de sucre disparaissent parce qu'ils se **dissolvent** dans l'eau. Le sucre est le soluté et l'eau est le solvant. Une solution liquide dans laquelle le solvant est l'eau est appelée **solution aqueuse**.
+
+Le soluté n'est pas forcément solide et le solvant n'est pas forcément liquide.
+
+\newpage
+
+Table: (\#tab:types-solution-etats-matiere) Types de solution selon les différents états de la matière.
+
+|  soluté | solvant | exemple                                 | état de la solution |
+| :-----: | :-----: | --------------------------------------- | :-----------------: |
+|   gaz   |   gaz   | air (oxygène et azote)                  |         gaz         |
+| liquide |   gaz   | vapeur d'eau dans l'air                 |         gaz         |
+|  solide |   gaz   | neige carbonique dans l'air             |         gaz         |
+|   gaz   | liquide | boisson gazeuse (gaz carbonique et eau) |       liquide       |
+| liquide | liquide | antigel (glycérol et eau)               |       liquide       |
+|  solide | liquide | eau de mer (sels et eau)                |       liquide       |
+|   gaz   |  solide | hydrogène dans le palladium             |        solide       |
+| liquide |  solide | mercure dans l'or                       |        solide       |
+|  solide |  solide | laiton (zinc et cuivre)                 |        solide       |
+
+### La dissolution
+
+::: {.tcolorbox data-latex=""}
+
+**Dissolution**  
+La dissolution est le processus par lequel un soluté forme une solution dans un solvant.
+
+:::
+
+Lorsqu'un soluté est capable de se dissoudre dans un solvant, on dit qu'il est **soluble**. Lors de la dissolution, les ions ou les molécules de soluté se répartissent uniformément dans toute la solution et ne décantent pas avec le temps.
+
+Au contraire, lorsqu'un composé ne se dissout pas dans un solvant, on dit qu'il est **insoluble**. Les constituants d'un composé insoluble restent associés les uns aux autres et gardent leur état solide.
+
+#### Dissolution moléculaire
+
+Un grain de sucre (saccharose, C~12~H~22~O~11~) est un petit cristal formé de molécules dont toutes les liaisons internes sont des **liaisons covalentes**.
+
+Lorsque ce cristal est placé dans l'eau, des **ponts hydrogène** se forment entre l'eau et les molécules de C~12~H~22~O~11~ ce qui affaibli les liaisons intermoléculaires et les molécules se détachent du cristal pour former la solution. Les liaisons moléculaires ne sont pas rompues et chaque molécule reste entière.
+
+#### Dissolution ionique
+
+Un grain de sel de cuisine (chlorure de sodium, NaCl) est un petit cristal formé de ions Na^+^ et Cl^-^ liés par des **liaisons ioniques**.
+Lorsque ce cristal est placé dans l'eau, les liaisons ioniques sont rompues et les ions se retrouvent isolés dans la solution. Chaque ion est entouré de molécules d'eau. On dit qu'il est **hydraté**.
+
+```{r ionique-moleculaire,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Dissolution de composés moléculaire et ionique"}
+knitr::include_graphics(c("images/dissolution-1.png", "images/dissolution-2.png"))
+```
+
+#### Les facteurs influençant la dissolution
+
+- la quantité de soluté par rapport à la quantité de solvant,
+- la nature du soluté (qui se ressemble se dissout),
+- la nature du solvant (qui se ressemble se dissout),
+- la température.
+
+### La solubilité et la saturation
+
+A une température donnée, il existe une limite à la quantité de soluté qui peut se dissoudre dans une quantité de solvant. Cette limite est appelée **solubilité**. Une fois cette limite atteinte, la solution est appelée **solution saturée**, en dessous de cette limite, c'est une **solution non saturée**.
+
+::: {.tcolorbox data-latex=""}
+
+**La solubilité**  
+La solubilité d'un composé est la quantité maximale de soluté qui peut être dissous dans un solvant à une température donnée.
+
+:::
+
+- **Question** : Quel est la solubilité de \ce{NaCl}?
+- **Réponse** : La solubilité de \ce{NaCl} est de 36 [g] pour 100 [ml] à 25\celsius.
+
+Cela veut dire que l'on peut dissoudre **au maximum** 36 grammes de NaCl dans 100 [ml] d'eau à 25\celsius. Une fois cette limite atteinte, si l'on ajoute du NaCl à la solution, il ne se dissoudra pas. La solution est **saturée**.
+
+Sous certaines conditions, la limite de solubilité peut être dépassée et plus de soluté peut être dissous. Une telle solution sera appelée **solution sursaturée**. Les solutions sursaturées ne sont pas stables. L'ajout d'un **germe cristallin**, un petit cristal de soluté, entraînera la cristallisation de l'excès de soluté.
+
+```{r solubilite-saturation,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Solubilité et saturation"}
+knitr::include_graphics(c("images/solution.png"))
+```
+
+### La cristallisation
+
+::: {.tcolorbox data-latex=""}
+
+**Cristallisation**  
+La cristallisation est le processus par lequel un soluté forme un solide cristallin à partir d'une solution.
+
+:::
+
+**La cristallisation est le phénomène inverse de la dissolution.** Le soluté se sépare de la solution et redevient solide. Les particules de soluté occupent des emplacements définis et de manière périodique sur une grande portion de l'espace. Ils forment des **cristaux**.
+
+**Si la cristallisation a lieu lentement :**  
+La croissance des cristaux est régulière. Les cristaux sont de grande taille et de pureté élevée.
+
+**Si la cristallisation a lieu rapidement :**  
+La croissance des cristaux est irrégulière. Les cristaux sont de petite taille. Ils forment une poudre finement divisée que l'on appelle **précipité**. **La précipitation** est souvent le résultat d'une réaction chimique et se produit instantanément.
+
+La **recristallisation** est une méthode de séparation utilisée en chimie. En dissolvant un mélange dans un solvant approprié, on peut récupérer le soluté désiré en le faisant cristalliser lentement. Le composé formera des cristaux purs, laissant les impuretés indésirables en solution.
+
+## Dissociation ionique
+
+Lorsqu'un composé ionique est plongé dans l'eau, les molécules d'eau, polaires, orientent leurs pôles négatifs vers les cations, et leurs pôles positifs vers les anions. La dissociation ionique est également appelée dissociation électrolytique.
+
+L'eau diminue drastiquement l'attraction entre anions et cations. Les molécules d’eau qui entourent les ions écartent ces derniers les uns des autres. Le cristal s'effondre et les ions, indépendants les uns des autres, sont dispersés dans la solution.
+
+```{r dissociation,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Dissociation d'un composé ionique"}
+knitr::include_graphics(c("images/dissociation.png"))
+```
+
+**Une solution est électriquement neutre : le nombre de charges positives est égal au nombre de charges négatives.**
+
+### Équations de dissociation
+
+Par convention, la dissociation dans l'eau d'un composé ionique $C_nA_m$ s'écrit :
+
+$$ \ce{C_nA_m ->C[H2O] n C^{m+} + m A^{n-}} $$
+
+Par exemple:
+$$ \begin{split}
+  & \ce{NaCl ->C[H2O] Na^{+} + Cl^{-} } \\
+  & \ce{K2CO3 ->C[H2O] 2 K^{+} + CO3^{2-} }
+  \end{split}
+  \qquad
+  \begin{split}
+  \ce{Al2(SO4)3 ->C[H2O] 2 Al^{3+} + 3 SO_{4}^{2-} } \\
+  \ce{AgCl ->C[H2O] AgCl v } \\
+  \text{\scriptsize (AgCl n'est pas soluble dans l'eau)}
+  \end{split} $$
+
+- On écrit la formule brute du soluté.
+- On dessine une flèche avec, au dessus, la formule brute du solvant. La flèche va dans le sens de la dissociation.
+- On écrit la formule brute des ions libérés **avec leur quantité**.
+
+Pour déterminer si un composé est soluble ou non, on se réfère à une table de solubilité. Cette table nous indique la solubilité de certains composés pour une température. Pour un composé non soluble, on ajoutera une flèche vers le bas à côté du composé dans l'équation de dissociation.
+
+```{r, child=c('exe/solutions-electrolytes-10.Rmd')}
+```
+
+A noter:
+
+-  Les **acides** sont solubles dans l'eau et se dissocient (au moins partiellement).
+-  La solubilité des **sels** et des **hydroxydes** est indiquée par la table de solubilité.
+-  Les **oxydes** ne sont pas solubles dans l'eau mais réagissent avec elle.
+
+\newpage
+
+### Électrolyte
+
+Expérimentalement, on remarque qu'une solution d'eau pure ne conduit que très peu le courant électrique. Si l'on dissout du chlorure de sodium (NaCl) dans l'eau, la solution devient conductrice alors que si l'on dissout du sucre (saccharose), la conductivité de l'eau ne change pas.
+
+```{r conduction-solutions,echo=FALSE,out.width="25%",fig.show="hold",fig.align="center",fig.cap="Conduction électrique des solutions (eau pure, solution de NaCl, solution de saccharose)"}
+knitr::include_graphics(c("images/electrolyte-1.png","images/electrolyte-2.png","images/electrolyte-3.png"))
+```
+
+-  L'eau n'est pas conductrice. La conductivité de l'eau provient des substances dissoutes dans l'eau, pas de l'eau elle-même.
+-  Les substances qui se dissolvent dans l'eau ne rendent pas toutes la solution conductrice.
+
+::: {.tcolorbox data-latex=""}
+
+**Électrolyte**  
+Un électrolyte est une substance qui se dissocie en ions en solution et forme une solution conductrice d'électricité.
+
+:::
+
+```{r electrolyte-2b,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Conductivité des solutions ioniques"}
+knitr::include_graphics(c("images/electrolyte-2b.png"))
+```
+
+Lorsque l'on impose une tension aux bornes d'une solution ionique, les ions se mettent en mouvement. Parce que les ions portent une charge électrique d'une électrode à l'autre, on obtient un courant électrique appelé **courant ionique**. La solution ionique devient alors conductrice. Un tel composé est appelé **électrolyte**.
+
+A l'inverse, une solution sucrée ne conduit pas l'électricité car le saccharose reste sous la forme de molécule neutre et ne se dissocie pas. Le saccharose n'est donc pas un électrolyte.
+
+Le courant électrique dans la solution est dû au déplacement des cations dans un sens et au déplacement des anions dans le sens contraire. C'est un déplacement de charges et non un déplacement d'électrons seuls.
+
+```{r, child=c('exe/solutions-electrolytes-20.Rmd')}
+```
+
+\vspace{\stretch{1}}
+
+```{r dissociation-resume,echo=FALSE,out.width="80%",fig.show="hold",fig.align="center",fig.cap="Résumé dissolution-dissociation"}
+knitr::include_graphics(c("images/dissociation-resume.png"))
+```
+
+\newpage
+
+## Exercices supplémentaires
+
+```{r, child=c('exe/solutions-electrolytes-30.Rmd')}
+```
+
+\newpage
+
+```{r, echo=FALSE}
+if (knitr::is_latex_output()) {
+  knitr::asis_output('\\section{Solutions des exercices} \\shipoutAnswer')
+}
+```
