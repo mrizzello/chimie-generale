@@ -1,0 +1,27 @@
+::: {.Exercise data-latex=""}
+
+Donnez la formule brute et le nom de tous les oxydes, hydroxydes, hydracides, oxacides et sels formés en choisissant une combinaison de deux ions proposés ci-dessous:
+
+$OH^-$, $Fe^{3+}$, $O^{2-}$, $Ca^{2+}$, $PO_4^{3-}$, $Cl^-$, $H^+$
+
+:::
+
+::: {.Answer data-latex=""}
+
+- oxydes
+    - $Fe_2O_3$ oxyde de fer (III)
+    - $CaO$ oxyde de calcium
+- hydroxydes
+    - $Fe(OH)_3$ hydroxyde fer (III)
+    - $Ca(OH)_2$ hydroxyde de calcium
+- hydracides
+    - $HCl$ acide chlorhydrique
+- oxacides
+    - $H_3PO_4$ acide phosphorique
+- sels
+    - $FeCl_3$ chlorure de fer (III)
+    - $CaCl_2$ chlorure de calcium
+    - $FePO_4$ phosphate de fer (III)
+    - $Ca_3(PO_4)_2$ phosphate de calcium
+
+:::

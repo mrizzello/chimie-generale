@@ -1,0 +1,263 @@
+# Nomenclature minérale
+
+::: {.objectives data-latex=""}
+
+- Classer un composé donné dans une des grandes familles de composés.
+- Donner la formule brute d’un composé à partir de son nom.
+- Donner le nom d’un composé à partir de sa formule brute.
+
+:::
+
+Les noms et formules chimiques des composés sont des outils essentiels en chimie. Le système permettant de nommer les substances chimiques est appelé **nomenclature**.
+
+Il y a plus de 50 millions de substances connues et essayer de les nommer avec des noms indépendants serait une tâche désespérément complexe. Certaines substances connues depuis longtemps comme l'eau (H~2~O) ou l'ammoniac (NH~3~) ont des **noms communs**, mais la plupart des molécules ont un **nom systématique** unique provenant d'une série de règles. Le nom systématique contient les informations sur la composition du composé.
+
+Ces règles sont dictées par la nomenclature de l'IUPAC (International Union of Pure and Applied Chemistry) et sont un langage international et compréhensible par tous les chimistes.
+
+## Ions
+
+### Anions monoatomiques
+
+Les noms des anions sont obtenus à partir des noms des éléments, en ajoutant le suffixe "**ure**".
+
+|        |              |        |             |          |             |          |             |
+| :----: | ------------ | :----: | ----------- | :------: | ----------- | :------: | :---------: |
+| $Cl^-$ | chlor**ure** | $Br^-$ | brom**ure** | $S^{2-}$ | sulf**ure** | $N^{3-}$ | nitr**ure** |
+
+A noter:
+
+- L'anion $O^{2-}$ fait exception à cette règle, on l'appelle **oxyde**.
+- L'anion $P^{3-}$ est l'ion **phosphure** et non phosphorure.
+- L'anion $S^{2-}$ est l'ion **sulfure** et non soufrure.
+- L'anion $N^{3-}$ est l'ion **nitrure** et non azoture.
+
+\newpage
+
+### Cations monoatomiques
+
+Les cations métalliques sont nommés par les noms des éléments.
+
+::: {.multicols data-latex="{3}"}
+
+$Na^+$ : cation sodium
+
+$Mg^{2+}$ : cation magnésium
+
+$Al^{3+}$ : cation alluminium
+
+$Ca^{2+}$ : cation calcium
+
+:::
+
+Lorsque l'atome d'un élément métallique peut donner lieu à différents cations, il faut mentionner le **nombre d'oxydation** après le nom du métal, en chiffre romain entre parenthèses.
+
+::: {.multicols data-latex="{3}"}
+
+$Cu^+$ : cation cuivre **(I)**
+
+$Cu^{2+}$ : cation cuivre **(II)**
+
+$Fe^{2+}$ : cation fer **(II)**
+
+$Fe^{3+}$ : cation fer **(III)**
+
+:::
+
+### Ions polyatomiques
+
+|               |             |                |             |             |              |            |            |
+| :------------ | ----------- | :------------- | ----------- | :---------- | ------------ | :--------- | ---------- |
+| $BO_3^{3-}$   | borate      | $CrO_4^{2-}$   | chromate    | $ClO^{-}$   | hypochlorite | $IO^{-}$   | hypoiodite |
+| $NO_2^{-}$    | nitrite     | $Cr_2O_7^{2-}$ | dichromate  | $ClO_2^{-}$ | chlorite     | $IO_2^{-}$ | iodite     |
+| $NO_3^{-}$    | nitrate     | $CO_3^{2-}$    | carbonate   | $ClO_3^{-}$ | chlorate     | $IO_3^{-}$ | iodate     |
+| $PO_3^{3-}$   | phosphite   | $CN^{-}$       | cyanure     | $ClO_4^{-}$ | perchlorate  | $IO_4^{-}$ | periodate  |
+| $PO_4^{3-}$   | phosphate   | $OCN^{-}$      | cyanate     | $BrO^{-}$   | hypobromite  |            |            |
+| $SO_3^{2-}$   | sulfite     | $SCN^{-}$      | thiocyanate | $BrO_2^{-}$ | bromite      |            |            |
+| $SO_4^{2-}$   | sulfate     | $HCOO^{-}$     | formiate    | $BrO_3^{-}$ | bromate      | $H_3O^{+}$ | hydronium  |
+| $S_2O_3^{2-}$ | thiosulfate | $CH_3COO^{-}$  | acétate     | $BrO_4^{-}$ | perbromate   | $NH_4^{+}$ | ammonium   |
+
+A noter:
+
+- Deux **ions organiques** sont indiqués dans la liste des ions polyatomiques, le formiate ($HCOO^-$) et l'acétate ($CH3COO^-$). Il s'agit de deux ions qui appartiennent au domaine de la chimie organique et leur ordre de lecture est inversé.
+
+$$ \underset{\text{formiate de sodium}}{HCOONa} \qquad \underset{\text{acétate de sodium}}{CH_3COONa} $$
+
+Dans la liste des ions polyatomiques la plupart des ions sont des anions. Deux cations à connaître : l'ion hydronium ($H_3O^+$) et l'ion ammonium ($NH_4^+$).
+
+## Corps simples
+
+Les corps purs simples sont généralement nommés par le nom de l'élément qui les compose (ex. : fer, cuivre, zinc, ...).
+
+Certains éléments atteignent une configuration électronique stable en formant des molécules diatomiques. Ces **molécules diatomiques** (deux atomes) sont dites homonucléaires (un seul type d'atome) et sont les suivantes :
+
+|       |                 |       |               |        |              |        |             |
+| :---: | --------------- | :---: | ------------- | :----: | ------------ | :----: | ----------- |
+| $H_2$ | **di**hydrogène | $O_2$ | **di**oxygène |  $F_2$ | **di**fluor  | $Br_2$ | **di**brome |
+|       |                 | $N_2$ | **di**azote   | $Cl_2$ | **di**chlore |  $I_2$ | **di**iode  |
+
+
+Les formes allotropiques d'un élément sont généralement nommées par leur nom courant et non systématique, comme par exemple le carbone peut être appelé diamant, graphite, graphène ou fullerène selon la forme sous laquelle il se trouve.
+
+|       |           |       |           |       |                 |
+| :---: | --------- | :---: | --------- | :---: | --------------- |
+| $O_2$ | dioxygène | $S_2$ | disoufre  | $S_6$ | hexasoufre      |
+| $O_3$ | ozone     | $S_3$ | trisoufre | $S_8$ | cyclooctasoufre |
+
+## Composés binaires
+
+Les composés binaires renferment des atomes de deux éléments différents dans des proportions bien définies. On peut les classer en deux groupes :
+
+-  les composés ioniques, contenant au moins une liaison ionique,
+-  les composés covalents (ou molécules), ne contenant pas de liaison ionique,
+
+### Composés binaires covalents | non-métal - non-métal
+
+Table: (\#tab:prefixes-numeriques-grecs) Table des préfixes numériques grecs.
+
+|      |     |       |     |       |     |       |     |      |     |
+| ---- | :-: | ----- | :-: | ----- | :-: | ----- | :-: | ---- | :-: |
+| mono |  1  | tri   |  3  | penta |  5  | hepta |  7  | nona |  9  |
+| di   |  2  | tetra |  4  | hexa  |  6  | octa  |  8  | deca |  10 |
+
+L'élément le plus électronégatif est nommé en premier. Les proportions des constituants s'expriment par les préfixes "**di**", "**tri**", "**tetra**", "**penta**". Le préfixe "**mono**" n'est utilisé que pour éviter toute ambiguïté, comme pour le monoxyde de carbone, par exemple. On ajoute les préfixes aux constituants sans espaces ni tirets.
+
+|          |                               |          |                                  |
+| :------: | ----------------------------- | :------: | -------------------------------- |
+|   $CO$   | **mono**xyde de carbone       |  $CO_2$  | **di**oxyde de carbone           |
+|  $NO_2$  | **di**oxyde d'azote           |  $N_2O$  | oxyde de **di**azote             |
+| $N_2O_4$ | **tetra**oxyde de **di**azote | $P_2O_5$ | **pent**oxyde de **di**phosphore |
+
+### Composés binaires ioniques | métal - non-métal
+
+**Les composés ioniques se lisent de droite à gauche et le cation est indiqué en premier dans la formule brute.**
+
+L'élément le plus électronégatif est placé d'abord en ajoutant le suffixe "**ure**", puis le nom du métal.
+
+|          |                           |         |                        |
+| :------: | ------------------------- | :-----: | ---------------------- |
+|   $KBr$  | brom**ure** de potassium  |  $CaS$  | sulf**ure** de calcium |
+| $MgCl_2$ | chlor**ure** de magnésium | $CaI_2$ | iod**ure** de calcium  |
+
+Pour les métaux présentant plusieurs degrés d'oxydation, le nom du métal est suivi du chiffre romain indiquant le degré d'oxydation.
+
+|          |                                |          |                                 |
+| :------: | ------------------------------ | :------: | ------------------------------- |
+|  $CuCl$  | chlor**ure** de cuivre **(I)** | $CuCl_2$ | chlor**ure** de cuivre **(II)** |
+| $FeCl_2$ | chlor**ure** de fer **(II)**   | $FeCl_3$ | chlor**ure** de fer **(III)**   |
+
+Exception pour les composés binaires contenant de l'oxygène: ces composés porteront le nom de **oxydes**.
+
+|       |                     |         |                             |
+| :---: | ------------------- | :-----: | --------------------------- |
+| $BaO$ | **oxyde** de barium | $PbO_2$ | **oxyde** de plomb **(IV)** |
+
+### Acides binaires | H - non-métal
+
+Certaines molécules binaires contenant de l'hydrogène sont gazeuses. Généralement, la formule brute de ces molécules **commence par H**. Une fois ces molécules dissoutes dans l'eau elles deviennent des **hydracides**. Pour les nommer, on utilisera la racine du nom de l'élément suivie du suffixe "**hydrique**".
+
+|        | gazeux               | en solution aqueuse |
+| :----: | -------------------- | ------------------- |
+|  $HF$  | fluorure d'hydrogène | acide fluorhydrique |
+|  $HCl$ | chlorure d'hydrogène | acide chlorhydrique |
+|  $HBr$ | bromure d'hydrogène  | acide bromhydrique  |
+|  $HI$  | iodure d'hydrogène   | acide iodhydrique   |
+| $H_2S$ | sulfure d'hydrogène  | acide sulfhydrique  |
+|  $HCN$ | cyanure d'hydrogène  | acide cyanhydrique  |
+
+A noter:
+
+$NH_3$ est un gaz dont le nom commun est **ammoniac**. Lorsqu'il est en solution aqueuse il est appelé **ammoniaque**.
+
+## Composés ternaires
+
+Les composés ternaires renferment des atomes de trois éléments différents dans des proportions bien définies. On peut les classer en trois groupes :
+
+- les hydroxydes, contenant l'anion $OH^-$,
+- les oxacides, contenant le cation $H^+$ et un anion polyatomique,
+- les sels, composés ionique formé d'ions monoatomiques et polyatomiques.
+
+### Les hydroxydes
+
+Les hydroxydes sont des composés chimiques contenant l'anion $OH^-$. Généralement, la formule brute de ces composés se **termine par OH**. La règle de nommage suit la règle des composés binaires ioniques. On nommera ces composés : hydroxyde de "nom du cation".
+
+|             |                            |              |                              |
+| :---------: | -------------------------- | :----------: | ---------------------------- |
+|    $NaOH$   | **hydroxyde** de sodium    |  $Ca(OH)_2$  | **hydroxyde** de calcium     |
+| $Fe(OH)_3$  | **hydroxyde** de fer (III) |  $Cu(OH)_2$  | **hydroxyde** de cuivre (II) |
+
+### Les oxacides
+
+Les oxacides sont des molécules formées de trois éléments, capables de libérer des ions $H^+$ et contentant un anion polyatomique. Généralement, la formule brute de ces molécules **commence par H**. Le nom de ces acides est basé sur le nom de l'élément central suivi de la terminaison "**ique**" ou "**eux**".
+
+Si il existe plus de deux acides, on utilise les préfixes "**hypo**" et "**per**" pour les distinguer.
+
+- anion **-ite** $\longrightarrow$ acide **-eux**
+- anion **-ate** $\longrightarrow$ acide **-ique**
+
+\newpage
+
+Table: (oxacides) Les oxacides.
+
+|   acide   |    anion    |                  | nom                    |
+| :-------: | :---------: | ---------------- | ---------------------- |
+|  $HNO_2$  |  $NO_2^{-}$ | nitr**ite**      | acide nitr**eux**      |
+|  $HNO_3$  |  $NO_3^{-}$ | nitr**ate**      | acide nitr**ique**     |
+| $H_3PO_3$ | $PO_3^{3-}$ | phosph**ite**    | acide phosphor**eux**  |
+| $H_3PO_4$ | $PO_4^{3-}$ | phosph**ate**    | acide phosphor**ique** |
+| $H_2SO_3$ | $SO_3^{2-}$ | sulf**ite**      | acide sulfur**eux**    |
+| $H_2SO_4$ | $SO_4^{2-}$ | sulf**ate**      | acide sulfur**ique**   |
+| $H_2CO_3$ | $CO_3^{2-}$ | carbon**ate**    | acide carbon**ique**   |
+|   $HClO$  |  $ClO^{-}$  | hypochlor**ite** | acide hypochlor**eux** |
+|  $HClO_2$ | $ClO_2^{-}$ | chlor**ite**     | acide chlor**eux**     |
+|  $HClO_3$ | $ClO_3^{-}$ | chlor**ate**     | acide chlor**ique**    |
+|  $HClO_4$ | $ClO_4^{-}$ | perchlor**ate**  | acide perchlor**ique** |
+
+### Les sels ternaires et quaternaires
+
+Les sels ternaires et quaternaires sont des composés ioniques formés d'ions monoatomiques et/ou polyatomiques.
+
+La règle de nommage des sels suit la règle de nommage des composés binaires ioniques. On lit la formule brute de droite à gauche en indiquant d'abord le nom de l'anion puis le nom du cation avec un "de" entre les deux.
+
+|            |                        |             |                        |
+| :--------: | ---------------------- | :---------: | ---------------------- |
+| $NH_4NO_3$ | nitrate d'ammonium     |   $CuSO_4$  | sulfate de cuivre (II) |
+|  $FePO_4$  | phosphate de fer (III) | $CH_3COONa$ | acétate de sodium      |
+
+#### Les sels acides
+
+Les sels acides sont des sels qui contiennent le cation $H^+$ en plus d'un cation mono ou polyatomique. Leur nom est le nom du sel précédé du préfixe **hydrogéno** ou **dihydrogéno** selon le nombre de cations hydrogène présents dans la molécule.
+
+|     anion    |    acide    | nom                                |
+| :----------: | :---------: | ---------------------------------- |
+| $HPO_4^{2-}$ | $Na_2HPO_4$ | **hydrogénophosphate** de sodium   |
+|  $H_2PO_4^-$ | $NaH_2PO_4$ | **dihydrogénophosphate** de sodium |
+|   $HCO_3^-$  |  $NaHCO_3$  | **hydrogénocarbonate** de sodium   |
+|   $HSO_4^-$  |  $NaHSO_4$  | **hydrogénosulfate** de sodium     |
+
+## Exercices supplémentaires
+
+```{r, child=c('exe/nomenclature-10.Rmd')}
+```
+
+```{r, child=c('exe/nomenclature-20.Rmd')}
+```
+
+```{r, child=c('exe/nomenclature-30.Rmd')}
+```
+
+```{r, child=c('exe/nomenclature-40.Rmd')}
+```
+
+```{r, child=c('exe/nomenclature-50.Rmd')}
+```
+
+```{r, child=c('exe/nomenclature-60.Rmd')}
+```
+
+\newpage
+
+```{r, echo=FALSE}
+if (knitr::is_latex_output()) {
+  knitr::asis_output('\\section{Solutions des exercices} \\shipoutAnswer')
+}
+```

@@ -13,3 +13,4 @@ rmd_files:
   - "chapitres/60-tableau-periodique.Rmd"
   - "chapitres/70-liaisons.Rmd"
   - "chapitres/80-molecules.Rmd"
+  - "chapitres/90-nomenclature.Rmd"

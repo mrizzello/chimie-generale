@@ -1,0 +1,44 @@
+:::::: {.Exercise-container}
+::: {.Exercise data-latex=""}
+
+Complétez le tableau suivant, avec le nom ou la formule brute de **l'oxyde** proposé:
+
+:::
+
+|  formule | nom                   | formule | nom                |
+| :------: | --------------------- | :-----: | ------------------ |
+|  $K_2O$  |                       |         | trioxyde de soufre |
+| $P_2O_5$ |                       |  $CaO$  |                    |
+|          | oxyde de chrome (III) |         | oxyde de magnésium |
+|  $SiO_2$ |                       |   $CO$  |                    |
+|  $CO_2$  |                       |         | oxyde de diazote   |
+
+::::::
+
+:::::: {.Answer data-latex=""}
+
+::: {.multicols data-latex="{2}"}
+
+$K_2O$ oxyde de potassium
+
+$P_2O_5$ pentoxyde de diphosphore
+
+$Cr_2O_3$ oxyde de chrome (III)
+
+$SiO_2$ dioxyde de silicium
+
+$CO_2$ dioxyde de carbone
+
+$SO_3$ trioxyde de soufre
+
+$CaO$ oxyde de calcium
+
+$MgO$ oxyde de magnésium
+
+$CO$ monoxyde de carbone
+
+$N_2O$ oxyde de diazote
+
+:::
+
+::::::

@@ -1,0 +1,75 @@
+:::::: {.Exercise-container}
+::: {.Exercise data-latex=""}
+
+Complétez le tableau suivant, avec le nom ou la formule brute de **l'ion** proposé:
+
+:::
+
+|  formule  | nom              |    formule    | nom                |  formule  | nom               |
+| :-------: | ---------------- | :-----------: | ------------------ | :-------: | ----------------- |
+|           | nitrure          |               | cation cobalt (II) |           | cation potassium  |
+|           | sulfure          |               | borate             |           | phosphite         |
+|           | cation magnésium |  $ClO_3^{-}$  |                    |  $I^{-}$  |                   |
+|           | ammonium         |               | bromure            | $Al^{3+}$ |                   |
+|           | oxyde            |    $F^{-}$    |                    |           | sulfite           |
+| $Sr^{2+}$ |                  |               | thiosulfate        |           | cation cuivre (I) |
+|  $Cl^{-}$ |                  |               | cation fer (III)   |           | phosphure         |
+| $Mn^{4+}$ |                  | $CH_3COO^{-}$ |                    |           | nitrate           |
+
+::::::
+
+:::::: {.Answer data-latex=""}
+
+::: {.multicols data-latex="{3}"}
+
+$N^{3-}$ nitrure
+
+$S^{2-}$ sulfure
+
+$Mg^{2+}$ cation magnésium
+
+$NH_4^{+}$ ammonium
+
+$O^{2-}$ oxyde
+
+$Sr^{2+}$ cation strontium
+
+$Cl^{-}$ chlorure
+
+$Mn^{4+}$ cation manganèse (IV)
+
+$Co^{2+}$ cation cobalt (II)
+
+$BO_3^{3-}$ borate
+
+$ClO_3^{-}$ chlorate
+
+$Br^{-}$ bromure
+
+$F^{-}$ fluorure
+
+$S_2O_3^{2-}$ thiosulfate
+
+$Fe^{3+}$ cation fer (III)
+
+$CH_3COO^{-}$ acétate
+
+$K^{+}$ cation potassium
+
+$PO_3^{3-}$ phosphite
+
+$I^{-}$ iodure
+
+$Al^{3+}$ cation aluminium
+
+$SO_3^{2-}$ sulfite
+
+$Cu^{+}$ cation cuivre (I)
+
+$P^{3-}$ phosphure
+
+$NO_3^{-}$ nitrate
+
+:::
+
+::::::

@@ -1,0 +1,40 @@
+:::::: {.Exercise-container}
+::: {.Exercise data-latex=""}
+
+Complétez le tableau suivant, avec le nom ou la formule brute de **l'hydroxyde** proposé:
+
+:::
+
+|   formule   | nom                     | formule | nom                     |
+| :---------: | ----------------------- | :-----: | ----------------------- |
+|             | hydroxyde de cuivre (I) |         | hydroxyde de plomb (II) |
+| $Al(OH)_3$  |                         |         | hydroxyde de potassium  |
+|             | hydroxyde de calcium    |         | hydroxyde de magnésium  |
+| $Fe(OH)_3$  |                         |         | hydroxyde de sodium     |
+
+
+::::::
+
+:::::: {.Answer data-latex=""}
+
+::: {.multicols data-latex="{2}"}
+
+$CuOH$ hydroxyde de cuivre (I)
+
+$Al(OH)_3$ hydroxyde d'aluminium
+
+$Ca(OH)_2$ hydroxyde de calcium
+
+$Fe(OH)_3$ hydroxyde de fer (III)
+
+$Pb(OH)_2$ hydroxyde de plomb (II)
+
+$KOH$ hydroxyde de potassium
+
+$Mg(OH)_2$ hydroxyde de magnésium
+
+$NaOH$ hydroxyde de sodium
+
+:::
+
+::::::

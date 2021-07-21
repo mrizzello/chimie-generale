@@ -1,0 +1,54 @@
+:::::: {.Exercise-container}
+::: {.Exercise data-latex=""}
+
+Complétez le tableau suivant, avec le nom ou la formule brute du **sel** proposé:
+
+:::
+
+|  formule | nom                   |  formule | nom                  |   formule  | nom                 |
+| :------: | --------------------- | :------: | -------------------- | :--------: | ------------------- |
+| $CaCO_3$ |                       |  $Ag_3N$ |                      |            | fluorure de sodium  |
+|  $KNO_3$ |                       |  $NaBr$  |                      | $Na_3PO_4$ |                     |
+|          | sulfate de fer (II)   |          | bromure d'étain (II) |   $NaCl$   |                     |
+|          | sulfate de magnésium  | $FeCl_3$ |                      |            | chlorure de calcium |
+|          | flurorure d'antomoine |          | iodure d'argent      |            | cyanure de sodium   |
+
+::::::
+
+:::::: {.Answer data-latex=""}
+
+::: {.multicols data-latex="{3}"}
+
+$CaCO_3$ carbonate de calcium
+
+$KNO_3$ nitrate de potassium
+
+$FeSO_4$ sulfate de fer (II)
+
+$MgSO_4$ sulfate de magnésium
+
+$SbF_3$ flurorure d'antomoine
+
+$Ag_3N$ nitrure d'argent
+
+$NaBr$ bromure de sodium
+
+$SnBr_2$ bromure d'étain (II)
+
+$FeCl_3$ chlorure de fer (III)
+
+$AgI$ iodure d'argent
+
+$NaF$ fluorure de sodium
+
+$Na_3PO_4$ phosphate de sodium
+
+$NaCl$ chlorure de sodium
+
+$CaCl_2$ chlorure de calcium
+
+$NaCN$ cyanure de sodium
+
+:::
+
+::::::

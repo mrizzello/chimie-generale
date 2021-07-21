@@ -1,0 +1,41 @@
+:::::: {.Exercise-container}
+::: {.Exercise data-latex=""}
+
+Complétez le tableau suivant, avec le nom ou la formule brute de **l'acide** proposé:
+
+:::
+
+|  formule  | nom               | formule | nom                 |
+| :-------: | ----------------- | :-----: | ------------------- |
+|           | acide phosphoreux |         | acide fluorhydrique |
+| $H_3PO_4$ |                   |         | acide nitrique      |
+| $H_2CO_3$ |                   |  $H_2S$ |                     |
+| $H_2SO_3$ |                   |         | acide chlorique     |
+
+::::::
+
+:::::: {.Answer data-latex=""}
+
+::: {.multicols data-latex="{2}"}
+
+$H_3PO_3$ acide phosphoreux
+
+$H_3PO_4$ acide phosphorique
+
+$H_2CO_3$ acide carbonique
+
+$H_2SO_3$ acide sulfureux
+
+$HF$ acide fluorhydrique
+
+$HNO_3$ acide nitrique
+
+$H_2S$ acide sulfhydrique
+
+$HClO_3$ acide chlorique
+
+:::
+
+\newpage
+
+::::::
