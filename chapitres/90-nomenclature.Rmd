@@ -196,7 +196,7 @@ Si il existe plus de deux acides, on utilise les préfixes "**hypo**" et "**per*
 
 \newpage
 
-Table: (oxacides) Les oxacides.
+Table: (\#tab:oxacides) Les oxacides.
 
 |   acide   |    anion    |                  | nom                    |
 | :-------: | :---------: | ---------------- | ---------------------- |
