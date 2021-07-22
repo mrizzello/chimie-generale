@@ -137,7 +137,7 @@ knitr::include_graphics(c("images/dissociation.png"))
 
 Par convention, la dissociation dans l'eau d'un composé ionique $C_nA_m$ s'écrit :
 
-$$ \ce{C_nA_m ->C[H2O] n C^{m+} + m A^{n-}} $$
+$$ \ce{C_{n}A_{m} ->C[H2O] n C^{m+} + m A^{n-}} $$
 
 Par exemple:
 $$ \begin{split}
