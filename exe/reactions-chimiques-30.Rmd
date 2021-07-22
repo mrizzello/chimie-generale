@@ -1,0 +1,33 @@
+::: {.Exercise data-latex=""}
+
+Equilibrez les réactions chimiques suivantes :
+
+1. $\quad \ce{Fe} \quad + \quad \ce{O2} \quad \ce{->} \quad \ce{Fe2O3}$
+
+2. $\quad \ce{CaCl2} \quad + \quad \ce{H2SO4} \quad \ce{->} \quad \ce{CaSO4} \quad + \quad \ce{HCl}$
+
+3. $\quad \ce{C} \quad + \quad \ce{SO2} \quad \ce{->} \quad \ce{CS2} \quad + \quad \ce{CO}$
+
+4. $\quad \ce{NiCl2} \quad + \quad \ce{KOH} \quad \ce{->}  \quad \ce{Ni(OH)2} \quad + \quad \ce{KCl}$
+
+5. $\quad \ce{CH3OH} \quad + \quad \ce{O2} \quad \ce{->} \quad \ce{CO2} \quad + \quad \ce{H2O}$
+
+6. $\quad \ce{HNO3} \quad + \quad \ce{Be(OH)2} \quad \ce{->} \quad \ce{Be(NO3)2} \quad + \quad \ce{H2O}$
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. $\ce{4Fe + 3O2 -> 2Fe2O3}$
+
+2. $\ce{CaCl2 + H2SO4 -> CaSO4 + 2HCl}$
+
+3. $\ce{5C + 2SO2 -> CS2 + 4CO}$
+
+4. $\ce{NiCl2 + 2KOH -> Ni(OH)2 + 2KCl}$
+
+5. $\ce{2CH3OH + 3O2 -> 2CO2 + 4H2O}$
+
+6. $\ce{2HNO3 + Be(OH)2 -> Be(NO3)2 + 2H2O}$
+
+:::

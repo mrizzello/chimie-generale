@@ -15,3 +15,4 @@ rmd_files:
   - "chapitres/80-molecules.Rmd"
   - "chapitres/90-nomenclature.Rmd"
   - "chapitres/100-solutions-electrolytes.Rmd"
+  - "chapitres/110-reactions-chimiques.Rmd"

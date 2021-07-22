@@ -1,0 +1,28 @@
+::: {.Exercise data-latex=""}
+
+Pour chacune des phrases suivantes:
+
+- Ecrire l'équation chimique décrite par la phrase.
+- Indiquer si l'équation obtenue est équilibrée.
+- Équilibrez les équations qui ne sont pas équilibrées.
+
+1. L'acide chlorhydrique réagit avec l'hydroxyde de sodium pour former du chlorure de sodium et de l'eau.
+\vspace{\stretch{1}}
+2. En faisant réagir de l'oxyde de fer (III) avec de l'acide nitrique, on obtient du nitrate de fer (III) et de l'eau.
+\vspace{\stretch{1}}
+3. Le silicium est obtenu par la réaction du dioxyde de silicium avec le carbone, formant également du monoxyde de carbone.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. $\ce{HCl + NaOH -> NaCl + H2O}$ équation équilibrée
+
+2. $\ce{Fe2O3 + HNO3 -> Fe(NO3)3 + H2O}$ équation non équilibrée  
+$\ce{Fe2O3 + 6HNO3 -> 2Fe(NO3)3 + 3H2O}$ équation équilibrée
+
+3. $\ce{SiO2 + C -> Si + CO}$ équation non équilibrée  
+$\ce{SiO2 + 2C -> Si + 2CO}$ équation équilibrée
+
+:::
