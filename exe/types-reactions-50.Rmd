@@ -1,0 +1,17 @@
+::: {.Exercise data-latex=""}
+
+Pour chaque ligne des exemples ci-dessus, écrire l'équation de la réaction équilibrée entre l'acide et la base correspondantes. Ecrire également les réactions ionique et ionique réduite.
+
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. $\ce{HCl + NaOH -> NaCl + H2O}$
+
+2. $\ce{HNO3 + KOH -> KNO3 + H2O}$
+
+3. $\ce{H2SO4 + Ca(OH)2 -> CaSO4 + 2H2O}$
+
+:::

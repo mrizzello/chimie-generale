@@ -1,0 +1,27 @@
+::: {.Exercise data-latex=""}
+
+Complétez et équilibrez les équations de précipitation suivantes :
+
+1. $\qquad \ce{ZnCl2} \quad + \quad \ce{NaOH} \quad \ce{->} \quad \underline{\hspace{6em}} \quad + \quad \underline{\hspace{6em}}$
+
+2. $\qquad \ce{Al(NO3)3} \quad + \quad \ce{Ba(OH)2} \quad \ce{->} \quad \underline{\hspace{6em}} \quad + \quad \underline{\hspace{6em}}$
+
+3. $\qquad \ce{FeSO4} \quad + \quad \ce{KCl} \quad \ce{->} \quad \underline{\hspace{6em}} \quad + \quad \underline{\hspace{6em}}$
+
+4. $\qquad \ce{K2S} \quad + \quad \ce{Ni(NO3)2} \quad \ce{->} \quad \underline{\hspace{6em}} \quad + \quad \underline{\hspace{6em}}$
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. $\ce{ZnCl2 + 2NaOH -> Zn(OH)2 v + 2NaCl}$
+
+2. $\ce{ 2Al(NO3)3 + 3Ba(OH)2 -> 2Al(OH)3 v + 3Ba(NO3)2}$
+
+3. $\ce{FeSO4 + 2KCl -> K2SO4 + FeCl2}$ (mélange)
+
+4. $\ce{K2S + Ni(NO3)2 -> NiS v + 2KNO3}$
+
+\newpage
+
+:::

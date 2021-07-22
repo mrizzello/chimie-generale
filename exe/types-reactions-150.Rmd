@@ -1,0 +1,26 @@
+::: {.Exercise data-latex=""}
+
+On mélange une solution d'hydroxyde de potassium avec une solution d'acide phosphorique.
+
+1. Donnez l'équation globale équilibrée de la réaction.
+
+\vspace{2em}
+
+2. Le bleu de bromothymol est un indicateur acide-base. Il prend la couleur jaune en milieu acide et bleue en milieu basique. Quelle sera la couleur de la solution finale si :
+
+    a. On ajoute autant de molécules de KOH que de molécules de H~3~PO~4~ :
+    b. On ajoute 3 fois plus de molécules de KOH que de molécules de H~3~PO~4~ :
+    c. On ajoute 6 fois plus de molécules de KOH que de molécules de H~3~PO~4~ :
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. $\ce{ 3 KOH + H3PO4 -> K3PO4 + 3 H2O }$
+
+2.  
+    a. jaune
+    b. vert (ni jaune, ni bleu)
+    c. bleu
+
+:::

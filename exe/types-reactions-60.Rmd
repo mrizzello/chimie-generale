@@ -1,0 +1,28 @@
+:::::: {.Exercise-container}
+::: {.Exercise data-latex=""}
+
+Soit la réaction de neutralisation équilibrée:
+
+$$ \ce{HCl + NaOH -> NaCl + H2O} $$
+
+Pour chacun des cas ci-dessous, indiquez quel sera l'acidité et le pH de la solution finale, si on fait réagir :
+
+:::
+
+|                                                           | acidité |  pH |
+| --------------------------------------------------------- | :-----: | :-: |
+| autant de molécules de HCl que de molécules de NaOH       |         |     |
+| 2 fois plus de molécules de HCl que de molécules de NaOH  |         |     |
+| 2 fois moins de molécules de HCl que de molécules de NaOH |         |     |
+
+::::::
+
+::: {.Answer data-latex=""}
+
+autant de molécules de HCl que de molécules de NaOH / neutre / pH = 7
+
+2 fois plus de molécules de HCl que de molécules de NaOH / acide / pH < 7
+
+2 fois moins de molécules de HCl que de molécules de NaOH / basique / pH > 7
+
+:::

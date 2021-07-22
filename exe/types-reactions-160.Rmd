@@ -1,0 +1,26 @@
+::: {.Exercise data-latex=""}
+
+Le **sulfate de baryum** est un composé utilisé en radiologie médicale comme agent de contraste pour l'exploration du tube digestif. C'est une substance injectable ou ingérable qui améliore la visualisation des organes explorés. Un ami médecin vient vous trouver pour vous demander de lui préparer du sulfate de baryum pour une radiographie.
+
+1. Choisissez deux réactifs permettant d'obtenir comme produit	le sulfate de baryum.
+
+\vspace{\stretch{1}}
+
+2. Donnez les équations globale, ionique et ionique réduite de la réaction.
+
+\vspace{\stretch{2}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+équation globale :  
+$\ce{Ba(OH)2 + Na2SO4 -> BaSO4 v + 2 NaOH}$
+
+équation ionique :  
+$\ce{Ba^{2+} + 2 OH^{–} + 2 Na^{+} + SO4^{2–} -> BaSO4 v + 2 Na^{+} + 2 OH^{–}}$
+
+équation ionique réduite :  
+$\ce{Ba^{2+} + SO4^{2–} -> BaSO4 v}$
+
+:::

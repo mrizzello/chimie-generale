@@ -1,0 +1,21 @@
+::: {.Exercise data-latex=""}
+
+Choisissez deux réactifs, un acide et un hydroxyde, permettant d'obtenir comme produit le **phosphate de baryum**. Donnez les équations globale, ionique et ionique réduite.
+
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+équation globale :  
+$\ce{3 Ba(OH)2 + 2 H3PO4 -> Ba3(PO4)2 v + 6 H2O}$
+
+équation ionique :  
+$\ce{3Ba^{2+} + 6 OH^{–} + 6 H^{+} + 2PO4^{3–} -> Ba3(PO4)2 v + 6 H2O}$
+
+équations ioniques réduites :  
+$\ce{3Ba^{2+} + 2PO4^{3–} -> Ba3(PO4)2 v}$ précipitation  
+$\ce{6 OH^{–} + 6 H^{+} -> 6 H2O}$ neutralisation
+
+:::

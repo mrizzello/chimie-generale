@@ -1,0 +1,25 @@
+::: {.Exercise data-latex=""}
+
+Equilibrez les équations suivantes et indiquez si il s'agit d'une réaction de combinaison ou de décomposition.
+
+1. $\qquad \ce{NaNO3} \qquad \ce{->} \qquad \ce{NaNO2} \qquad + \qquad \ce{O2}$
+
+2. $\qquad \ce{C2H2} \qquad \ce{+} \qquad \ce{H2} \qquad \ce{->} \qquad \ce{C2H6}$
+
+3. $\qquad \ce{HI} \qquad \ce{->} \qquad \ce{H2} \qquad + \qquad \ce{I2}$
+
+4. $\qquad \ce{NO} \qquad \ce{+} \qquad \ce{O2} \qquad \ce{->} \qquad \ce{N2O4}$
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. $\ce{2NaNO3 -> 2NaNO2 + O2}$ décomposition
+
+2. $\ce{C2H2 + 2H2 -> C2H6}$ combinaison
+
+3. $\ce{2HI -> H2 + I2}$ décomposition
+
+4. $\ce{2NO + O2 -> N2O4}$ combinaison
+
+:::

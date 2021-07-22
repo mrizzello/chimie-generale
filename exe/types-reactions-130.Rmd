@@ -1,0 +1,25 @@
+::: {.Exercise data-latex=""}
+
+Complétez et équilibrez les équations de précipitation suivantes :
+
+1. $\qquad \underline{\hspace{6em}} \quad + \quad \underline{\hspace{6em}} \quad \ce{->} \quad \ce{PbSO4} \quad + \quad \ce{LiNO3}$
+
+2. $\qquad \underline{\hspace{6em}} \quad + \quad \underline{\hspace{6em}} \quad \ce{->} \quad \ce{KCl} \quad + \quad \ce{ZnS}$
+
+3. $\qquad \underline{\hspace{6em}} \quad + \quad \underline{\hspace{6em}} \quad \ce{->} \quad \ce{Fe2S3} \quad + \quad \ce{KNO3}$
+
+4. $\qquad \underline{\hspace{6em}} \quad + \quad \underline{\hspace{6em}} \quad \ce{->} \quad \ce{NaNO3} \quad + \quad \ce{BaSO4}$
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. $\ce{Pb(NO3)2 + Li2SO4 -> PbSO4 v + 2LiNO3}$
+
+2. $\ce{K2S + ZnCl2 -> 2KCl + ZnS v}$
+
+3. $\ce{2Fe(NO3)3 + 3K2S -> Fe2S3 v + 6KNO3}$
+
+4. $\ce{Na2SO4 + Ba(NO3)2 -> 2NaNO3 + BaSO4 v}$
+
+:::

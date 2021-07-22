@@ -1,0 +1,17 @@
+::: {.Exercise data-latex=""}
+
+Complétez et équilibrez les équations de combinaison suivantes.
+
+1. $\ce{K} \qquad + \qquad \ce{Cl2} \qquad \ce{->} \qquad\underline{\hspace{1.5cm}}$
+
+2. $\ce{Al} \qquad + \qquad \ce{Br2} \qquad \ce{->} \qquad\underline{\hspace{1.5cm}}$
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. $\ce{2K + Cl2 -> 2KCl }$
+
+2. $\ce{2 Al + 3 Br2 -> 2 AlBr3 }$
+
+:::

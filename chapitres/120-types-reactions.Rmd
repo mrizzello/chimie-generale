@@ -1,0 +1,296 @@
+# Types de réaction
+
+::: {.objectives data-latex=""}
+
+- Identifier les différents types de réactions.
+- Compléter et équilibrer une équation de réaction.
+- Expliquer la notion d'acidité, de basicité et de neutralité, d'indicateur coloré et de pH.
+
+:::
+
+## Réactions de combinaison
+
+Une réaction de combinaison est une réaction dans laquelle deux ou plusieurs réactifs forment un seul produit.
+
+$$ A\ +\ B\ \longrightarrow\ C $$
+
+Par exemple:
+
+$$ \begin{split}
+  \ce{C + O2 -> CO2}
+  \end{split}
+  \qquad
+  \begin{split}
+  \ce{N2 + 3H2 -> 2NH3}
+  \end{split} $$
+
+Si un élément a plusieurs nombres d'oxydation possibles, on écrira une équation pour chaque nombre d'oxydation.
+
+$$ \begin{split}
+  \ce{2Fe + O2 -> 2FeO} \quad (\ce{Fe^{2+}}) \\
+  \ce{4Fe + 3O2 -> 2Fe2O3} \quad (\ce{Fe^{3+}})
+  \end{split} $$
+
+```{r, child=c('exe/types-reactions-10.Rmd')}
+```
+
+## Réactions de décomposition
+
+Une réaction de décomposition est une réaction dans laquelle un seul réactif forme deux ou plusieurs produits.
+
+$$ A\ \longrightarrow\ B\ +\ C $$
+
+Par exemple:
+
+$$ \begin{split}
+  & \ce{2KClO3 -> 2KCl + 3O2} \\
+  & \ce{2H2O -> 2H2 + O2}
+  \end{split}
+  \qquad
+  \begin{split}
+  & \ce{MgCl2 -> Mg + Cl2} \\
+  & \ce{2NaHCO3 -> Na2CO3 + H2O + CO2}
+  \end{split} $$
+
+```{r, child=c('exe/types-reactions-20.Rmd')}
+```
+
+## Réactions de dissociation
+
+**RAPPEL :** La dissociation correspond à la séparation en ions d'un composé ionique. Ce n'est pas réellement une réaction chimique, mais elle peut être représentée par une équation chimique.
+
+$$ \ce{Ca3(PO4)2 ->C[H2O] 3Ca^{2+} + 2PO4^{3-}} $$
+
+## Réactions de précipitation
+
+```{r precipitation-0,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Représentation moléculaire d'une réaction de précipitation"}
+knitr::include_graphics(c("images/precipitation-0.png"))
+```
+
+Une réaction de précipitation forme un composé insoluble (un précipité) à partir du mélange des deux composés solubles.
+
+Les réactions de précipitation se produisent généralement en solution aqueuse.
+
+"Une solution aqueuse de **chlorure de potassium** réagit avec une solution aqueuse de **nitrate d'argent** pour former un **précipité** blanc de **chlorure d'argent** et du **nitrate de potassium**."
+
+- équation globale de la réaction :
+
+$$ \ce{KCl + AgNO3 -> AgCl v + KNO3} $$
+
+Les réactifs et les produits sont écrits sous leur forme non-dissociée et on indique par une flèche vers le bas si un produit précipite.
+
+- équation ionique de la réaction :
+
+$$ \ce{K^{+} + Cl^{–} + Ag^{+} + NO3^{–} -> AgCl v + K^{+} + NO3^{–}} $$
+
+Les réactifs et les produits sont écrits sous leur forme dissociée.
+
+Les ions K^+^ et NO~3~^–^ apparaissent des deux côtés de l'équation. Ils ne réagissent pas et ils maintiennent la neutralité électrique de la solution. Ils sont appelés **ions spectateurs**.
+
+- équation ionique réduite :
+
+$$ \ce{Ag^{+} + Cl^{–} -> AgCl v} $$
+
+Les ions spectateurs ne sont pas indiqués. On indique uniquement les espèces qui sont réellement impliquées dans la réaction.
+
+```{r, child=c('exe/types-reactions-30.Rmd')}
+```
+
+### Résoudre une réaction de précipitation
+
+
+- Ecrire les ions formant les réactifs (sans s'occuper de leur nombre).
+- "Croiser" les ions pour former les molécules de produits.
+- Equilibrer l'équation globale à l'aide des nombres stoechiométriques.
+- Déterminer quel est le précipité, à l'aide de la table des solubilités.
+
+```{r, child=c('exe/types-reactions-40.Rmd')}
+```
+
+Si, en mélangeant deux composés ioniques solubles, **aucun précipité ne se forme**, il n'y a pas de réaction de précipitation. C'est simplement un **mélange homogène** de deux solutions. Par exemple, dans l'équation:
+
+$$ \ce{CaCl2 + Na2SO4 -> CaSO4 + 2NaCl} $$
+
+Il ne se forme pas de précipité. Il n'y a donc pas de réaction. Le mélange de ces deux solutions sera un mélange de ions Ca^2+^, Na^+^, SO~4~^2–^ et Cl^–^ dans l'eau.
+
+## Réactions de neutralisation
+
+Une réaction de neutralisation est une réaction dans laquelle un acide réagit avec un hydroxyde pour former un sel et de l'eau.
+
+$$ \text{acide} + \text{hydroxyde} \longrightarrow \text{sel} + \text{eau} $$
+
+-  **acide** : composé qui libère des **ions H^+^** lorsqu'il est dissout dans l'eau.
+-  **hydroxyde** : composé qui libère des **ions OH^-^** lorsqu'il est dissout dans l'eau.
+
+Par exemple :
+
+$$ \begin{split}
+  & \ce{HCl ->C[H2O] H^{+} + Cl^{–}} \\
+  & \ce{HNO3 ->C[H2O] H^{+} + NO3^{–}} \\
+  & \ce{H2SO4 ->C[H2O] 2H^{+} + SO4^{2–}}
+  \end{split}
+  \qquad
+  \begin{split}
+   & \ce{NaOH ->C[H2O] Na^{+} + OH^{–}} \\
+   & \ce{KOH ->C[H2O] K^{+} + OH^{–}} \\
+   & \ce{Ca(OH)2 ->C[H2O] Ca^{2+} + 2OH^{–}}
+ \end{split} $$
+
+```{r, child=c('exe/types-reactions-50.Rmd')}
+```
+
+Les hydroxydes font partie d'une catégorie de composés que l'on appelle **les bases**. Les bases ont la capacité de réagir avec un acide pour le **neutraliser**, c'est-à-dire le rendre neutre, non corrosif.
+
+**Mais attention!** Les bases sont aussi dangereuses, si ce n'est plus, que les acides. Et un acide a également la capacité de neutraliser une base.
+
+### Notion d'acidité
+
+On peut mesurer l'acidité ou la basicité de n'importe qu'elle solution aqueuse à l'aide du pH.
+
+::: {.tcolorbox data-latex=""}
+
+**pH**  
+Le pH mesure le caractère acide ou basique d'une solution.
+
+:::
+
+L'échelle de pH varie de 0 à 14.
+
+-  Une solution **acide** a un pH **inférieur à 7**.
+-  Une solution **basique** (alcaline) a un pH **supérieur à 7**.
+-  Une solution neutre a un pH **égal à 7**. C'est le pH de l'eau pure.
+
+```{r pH-echelle,echo=FALSE,out.width="90%",fig.show="hold",fig.align="center",fig.cap="Echelle de pH"}
+knitr::include_graphics(c("images/pH-echelle.png"))
+```
+
+\newpage
+
+```{r, child=c('exe/types-reactions-60.Rmd')}
+```
+
+En regardant une solution, on ne peut pas dire si il s'agit d'une solution acide, basique ou neutre. Certains composés ont la propriété de changer de couleur selon qu'ils se trouvent en milieu acide ou basique. On appelle ces composés des **indicateurs acide-base**.
+
+Table: (\#tab:indicateur-acide-base) Indicateur acide-base.
+
+| composé                   | couleur acide | couleur basique |
+| ------------------------- | :-----------: | :-------------: |
+| Bleu de bromothymol (BBT) |     jaune     |       bleu      |
+| Rouge de phénol           |     jaune     |      rouge      |
+| Rouge neutre              |     rouge     |      jaune      |
+
+## Réactions de combustion
+
+Une réaction de combustion est une réaction dans laquelle un réactif se combine avec l'oxygène. On distingue deux grandes familles de combustions.
+
+- **Combustion lente**: sans flamme, par exemple lors de la formation de la rouille.
+- **Combustion vive**: avec flamme, c'est la réaction qui a lieu, par exemple, dans un feu de cheminée.
+
+### Combustion organique
+
+Une **combustion organique** est une réaction de combustion vive où un **hydrocarbure** se combine avec l'oxygène pour former du dioxyde de carbone et de l'eau, avec dégagement de chaleur et de lumière (une flamme).
+
+$$ \text{hydrocarbure } + \text{ dioxygène } \longrightarrow \text{ dioxyde de carbone } + \text{ eau} $$
+
+$$ \ce{C_{n}H_{m}}\ +\ \ce{O2} \longrightarrow\ \ce{CO2}\ +\ \ce{H2O} $$
+
+- Un **hydrocarbure** est un composé formé uniquement de carbone et d'hydrogène.
+- Lorsque la réaction mène au dioxyde de carbone (\ce{CO2}), on parle de **combustion complète**.
+
+Exemples de combustions organiques complètes:
+
+$$ \begin{split}
+  \ce{CH4 + 2O2 -> CO2 + 2H2O} \\
+  \text{combustion du méthane}
+  \end{split}
+  \qquad
+  \begin{split}
+  \ce{C3H8 + 5O2 -> 3CO2 + 4H2O} \\
+	\text{combustion du propane}
+  \end{split} $$
+
+```{r, child=c('exe/types-reactions-70.Rmd')}
+```
+
+## Résumé des types de réactions
+
+**Réactions de combinaison** $\ce{A + B -> C}$
+
+\vspace{\stretch{1}}
+
+**Réactions de décomposition** $\ce{A -> B + C}$
+
+\vspace{\stretch{1}}
+
+**Réactions de précipitation** \ce{AB + CD -> AD v + BC}
+
+Equation globale : $\ce{KCl + AgNO3 -> AgCl v + KNO3}$
+
+Equation ionique : $\ce{K^{+} + Cl^{–} + Ag^{+} + NO3^{–} -> AgCl v + K^{+} + NO3^{–}}$
+
+Equation ionique réduite : $\ce{Ag^{+} + Cl^{–} -> AgCl v}$
+
+\vspace{\stretch{1}}
+
+**Réactions de neutralisation** acide + hydroxyde $\ce{->}$ sel + eau
+
+Equation globale : $\ce{HCl + NaOH -> NaCl + H2O}$
+
+Equation ionique : $\ce{H^{+} + Cl^{–} + Na^{+} + OH^{–} -> Na^{+} + Cl^{–} + H2O}$
+
+Equation ionique réduite : $\ce{H^{+} + OH^{–} -> H2O}$
+
+\vspace{\stretch{1}}
+
+**Combustion organique** $\ce{C_{n}H_{m} + O2 -> CO2 + H2O}$
+
+\vspace{\stretch{1}}
+
+**Réaction de dissociation** $\ce{C_{n}A_{m} ->C[H2O] n C^{m+} + m A^{n-}}$
+
+\vspace{\stretch{1}}
+
+\newpage
+
+## Exercices supplémentaires
+
+```{r, child=c('exe/types-reactions-80.Rmd')}
+```
+
+```{r, child=c('exe/types-reactions-90.Rmd')}
+```
+
+```{r, child=c('exe/types-reactions-100.Rmd')}
+```
+
+```{r, child=c('exe/types-reactions-110.Rmd')}
+```
+
+```{r, child=c('exe/types-reactions-120.Rmd')}
+```
+
+```{r, child=c('exe/types-reactions-130.Rmd')}
+```
+
+```{r, child=c('exe/types-reactions-140.Rmd')}
+```
+
+```{r, child=c('exe/types-reactions-150.Rmd')}
+```
+
+```{r, child=c('exe/types-reactions-160.Rmd')}
+```
+
+```{r, child=c('exe/types-reactions-170.Rmd')}
+```
+
+```{r, child=c('exe/types-reactions-180.Rmd')}
+```
+
+\newpage
+
+```{r, echo=FALSE}
+if (knitr::is_latex_output()) {
+  knitr::asis_output('\\section{Solutions des exercices} \\shipoutAnswer')
+}
+```

@@ -1,0 +1,25 @@
+::: {.Exercise data-latex=""}
+
+Complétez et équilibrez les équations de neutralisation suivantes :
+
+1. $\qquad \ce{Ca(OH)2} \quad + \quad \ce{H3PO4} \quad \ce{->}  \quad \underline{\hspace{6em}} \quad + \quad \underline{\hspace{6em}}$
+
+2. $\qquad \ce{H2SO4} \quad + \quad \ce{NH4OH} \quad \ce{->}  \quad \underline{\hspace{6em}} \quad + \quad \underline{\hspace{6em}}$
+
+3. $\qquad \underline{\hspace{6em}} \quad + \quad \underline{\hspace{6em}} \quad \ce{->}  \quad \ce{KNO3} \quad + \quad \ce{H2O}$
+
+4. $\qquad \underline{\hspace{6em}} \quad + \quad \underline{\hspace{6em}} \quad \ce{->}  \quad \ce{Na2SO3} \quad + \quad \ce{H2O}$
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. $\ce{3 Ca(OH)2 + 2 H3PO4 -> Ca3(PO4)2 v + 6 H2O}$ (précipitation)
+
+2. $\ce{H2SO4 + 2NH4OH -> (NH4)2SO4 + 2 H2O}$
+
+3. $\ce{HNO3 + KOH -> KNO3 + H2O}$
+
+4. $\ce{H2SO4 + 2 NaOH -> Na2SO3 + 2 H2O}$
+
+:::

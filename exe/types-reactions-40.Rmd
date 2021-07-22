@@ -1,0 +1,21 @@
+::: {.Exercise data-latex=""}
+
+Complétez et équilibrez les équations de précipitation suivantes:
+
+1. $\qquad \ce{CoCl2} \quad + \quad \ce{Na2CO3} \quad \ce{->} \quad \underline{\hspace{6em}} \quad + \quad \underline{\hspace{6em}}$
+
+2. $\qquad \ce{CrCl3} \quad + \quad \ce{NH4OH} \quad \ce{->} \quad \underline{\hspace{6em}} \quad + \quad \underline{\hspace{6em}}$
+
+3. $\qquad \ce{CuSO4} \quad + \quad \ce{NaOH} \quad \ce{->} \quad \underline{\hspace{6em}} \quad + \quad \underline{\hspace{6em}}$
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. $\ce{CoCl2 + Na2CO3 -> CoCO3 v + 2 NaCl}$
+
+2. $\ce{CrCl3 + 3NH4OH -> Cr(OH)3 v + 3 NH4Cl}$
+
+3. $\ce{CuSO4 + 2 NaOH -> Na2SO4 + Cu(OH)2 v}$
+
+:::

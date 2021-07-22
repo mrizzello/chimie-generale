@@ -1,0 +1,25 @@
+::: {.Exercise data-latex=""}
+
+Donnez l'équation de combinaison équilibrée correspondant à chaque couple d'espèces proposés.
+
+1. silicium + azote $\ce{->}$
+
+2. cuivre (I) + oxygène $\ce{->}$
+
+3. cuivre (II) + oxygène $\ce{->}$
+
+4. aluminium + azote $\ce{->}$
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. $\ce{ 3Si + 2N2 -> Si3N4}$
+
+2. $\ce{ 4Cu + O2 -> 2Cu2O}$
+
+3. $\ce{ 2Cu + O2 -> 2CuO}$
+
+4. $\ce{ 2Al + N2 -> 2AlN}$
+
+:::

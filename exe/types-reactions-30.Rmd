@@ -1,0 +1,26 @@
+::: {.Exercise data-latex=""}
+
+Considérons deux solutions aqueuses. La première contient du **nitrate de plomb II** et la seconde contient de l'**iodure de sodium**. Ces deux solutions sont transparentes et incolores, cependant, lorsqu'on les mélange, on obtient un précipité jaune intense.
+
+![](images/precipitation.png){width=33%}
+
+- Ecrivez l'équation globale équilibrée de la réaction qui se produit.
+- Identifiez quel est le solide jaune.
+- Ecrivez les équations ionique et ionique réduite de la réaction.
+
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+équation globale:  
+$\ce{Pb(NO3)2 + 2NaI -> PbI2 v + 2NaNO3}$
+
+équation ionique:  
+$\ce{Pb^{2+} + 2 NO3^{–} + 2 Na^{+} + 2 I^{–} -> PbI2 v + 2Na^{+} + 2 NO3^{–}}$
+
+équation ionique réduite:  
+$\ce{Pb^{2+} + 2 I^{–} -> PbI2 v}$
+
+:::

@@ -1,0 +1,28 @@
+::: {.Exercise data-latex=""}
+
+Pour chaque équation de précipitation de l'exercice précédent, écrire les équations ionique et ionique réduite.
+
+1. &nbsp;
+
+2. &nbsp;
+
+3. &nbsp;
+
+4. &nbsp;
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. $\qquad \ce{Zn^{2+} + 2Cl^{–} + 2Na^{+} + 2OH^{–} -> Zn(OH)2 v + 2Na^{+} + 2Cl^{–}}$  
+  $\qquad \ce{Zn^{2+} + 2OH^{–} -> Zn(OH)2 v}$
+
+2. $\qquad \ce{ 2Al^{3+} + 6NO3^{–} + 3Ba^{2+} + 6OH^{–} -> 2Al(OH)3 v + 3Ba^{–} + 6NO3^{–}}$  
+  $\qquad \ce{ 2Al^{3+} + 6OH^{–} -> 2Al(OH)3 v}$
+
+3. mélange, pas de réaction
+
+4. $\qquad \ce{2K^{+} + S^{2–} + Ni^{2+} + 2NO3^{–} -> NiS v + 2K^{+} + NO3^{–}}$  
+  $\qquad \ce{S^{2–} + Ni^{2+} -> NiS v}$
+
+:::

@@ -1,0 +1,13 @@
+::: {.Exercise data-latex=""}
+
+L'octane (C~8~H~18~) est le constituant principal de l'essence. Ecrivez et équilibrez la réaction de combustion complète qui a lieu dans un moteur à essence.
+
+$$ \underline{\hspace{6em}} \qquad + \qquad \underline{\hspace{6em}} \qquad \ce{->} \qquad \underline{\hspace{6em}} \qquad + \qquad \underline{\hspace{6em}} $$
+
+:::
+
+::: {.Answer data-latex=""}
+
+$$ \ce{C8H18 + 25/2O2 -> 8CO2 + 9H2O} $$
+
+:::

@@ -1,0 +1,13 @@
+::: {.Exercise data-latex=""}
+
+Les bruleurs des chaudières utilisent généralement la combustion du butane (C~4~H~10~) pour produire la chaleur nécessaire au chauffage d'une maison. Complétez et équilibrez l'équation de combustion complète du butane:
+
+$$ \ce{C4H10} \qquad + \qquad \underline{\qquad\qquad} \qquad \longrightarrow \qquad \underline{\qquad\qquad} \qquad + \qquad \underline{\qquad\qquad} $$
+
+:::
+
+::: {.Answer data-latex=""}
+
+$$ \ce{C4H10 + 13/2O2 -> 4CO2 + 5H2O} $$
+
+:::
