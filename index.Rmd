@@ -7,7 +7,6 @@ output: bookdown::gitbook
 documentclass: book
 classoption:
   - openany
-link-citations: yes
 github-repo: rstudio/bookdown-demo
 description: "Support du cours de chimie générale | Maturité gymnasiale | Gymnase de Nyon-la Côte"
 lang: fr
@@ -15,6 +14,9 @@ mainfont: Optima
 papersize: a4
 fontsize: 11pt
 geometry: margin=1in
+bibliography: references.bib
+biblio-style: apalike
+link-citations: yes
 ---
 
 # Préambule {-}

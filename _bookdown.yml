@@ -18,3 +18,4 @@ rmd_files:
   - "chapitres/110-reactions-chimiques.Rmd"
   - "chapitres/120-types-reactions.Rmd"
   - "chapitres/130-stoechiometrie.Rmd"
+  - "chapitres/00-references.Rmd"
