@@ -31,33 +31,31 @@ p.caption, table caption{
 
 .tcolorbox, .Exercise, .Answer, .objectives {
   background-color: #f5f5f5;
-  border: 2px solid #333;
+  border: 1px solid #333;
   padding: 0.85em 0.85em 0;
   margin-bottom: 0.85rem;
 }
 
 .Exercise {
   background-color: inherit;
-  border: 1px solid #482880;
+  border-color: #666;
 }
 
 .Exercise .Label {
   font-size: 2rem;
-  color: #482880;
   font-weight: bold;
   margin-bottom: 0.85rem;
-  border-bottom: 1px solid #482880;
+  border-bottom: 1px solid #666;
 }
 
 .Answer {
   display: none;
-  background-color: #f5f0ff;
-  border: 1px solid #482880;
+  background-color: #fafafa;
 }
 
 .Answer-button{
-  color: #482880;
-  border: 1px solid #482880;
+  color: #333;
+  border: 1px solid #333;
   border-radius: 0.67rem;
   background-color: #fff;
   padding: 0.67rem;
@@ -65,8 +63,6 @@ p.caption, table caption{
 }
 
 .objectives {
-  color: #482880;
   background-color: inherit;
-  border: 1px solid #482880;
   border-radius: 0.67rem;
 }

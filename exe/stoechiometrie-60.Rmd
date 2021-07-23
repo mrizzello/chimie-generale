@@ -1,0 +1,45 @@
+::: {.Exercise data-latex=""}
+
+Soit l'équation chimique équilibrée de la réaction suivante :
+
+$$ \ce{ 2\:S{}_{(s)} + 3\:O2{}_{(g)} -> 2\:SO3{}_{(g)} } $$
+
+Calculez les quantités de réactifs (en grammes) nécessaires à la formation de 92.07 grammes de trioxyde de soufre.
+
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+$$ \begin{split}
+	n_{SO_{3}} &= \frac{m_{SO_{3}}}{M_{SO_{3}}} \\
+	&= \frac{92.07\ [g]}{80.06\ [g/mol]} \\
+	&= 1.15\ [mol]
+	\end{split} $$
+
+$$ \begin{split}
+  2\ [mol]\ S &\rightarrow\ 2\ [mol]\ SO_{3} \\
+  x\ [mol]\ S &\rightarrow\ 1.15\ [mol]\ SO_{3} \\
+  x &= 1.15\ [mol]
+  \end{split}
+	\qquad
+	\begin{split}
+	m_{S} &= n_{S} \cdot M_{S} \\
+  &= 1.15\ [mol] \cdot 32.06\ [g/mol] \\
+  &= 36.87\ [g] \text{ de} S
+  \end{split} $$
+
+$$ \begin{split}
+	3\ [mol]\ O_2 &\rightarrow\ 2\ [mol]\ SO_{3} \\
+	x\ [mol]\ O_2 &\rightarrow\ 1.15\ [mol]\ SO_{3} \\
+	x &= 1.73\ [mol]
+	\end{split}
+	\qquad
+	\begin{split}
+	m_{O_{2}} &= n_{O_{2}} \cdot M_{O_{2}} \\
+	&= 1.73\ [mol] \cdot 32\ [g/mol] \\
+	&= 55.36\ [g] \text{ de} O_{2}
+  \end{split} $$
+
+:::

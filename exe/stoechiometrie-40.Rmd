@@ -1,0 +1,62 @@
+::: {.Exercise data-latex=""}
+
+Soit l'équation équilibrée de la réaction ci-dessous :
+
+$$ \ce{C6H6 + Br2 -> C6H5Br + HBr} $$
+
+1. En considérant un rendement de 100%, quelle masse de C~6~H~5~Br peut-on obtenir si on fait réagir 42.1 [g] de C~6~H~6~ avec 73 [g] de dibrome ?
+
+\vspace{\stretch{1}}
+
+2. On réalise cette réaction en laboratoire et on obtient 63.6 [g] de C~6~H~5~Br. Quel est alors le rendement de la réaction ?
+
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+$$ \ce{C6H6 + Br2 -> C6H5Br + HBr} $$
+
+Calcul des quantités de matière :
+
+$$ \begin{split}
+		M_{\ce{C6H6}} &= 78.108\:[g/mol] \\
+		M_{\ce{Br2}} &= 159.8\:[g/mol] \\
+		M_{\ce{C6H5Br}} &= 157\:[g/mol]
+	\end{split}
+	\qquad
+	\begin{split}
+		n_{\ce{C6H6}} &= \frac{m_{\ce{C6H6}}}{M_{\ce{C6H6}}} = \frac{42.1\:[g]}{78.108\:[g/mol]} = 0.539\:[mol] \\
+		n_{\ce{Br2}} &= \frac{m_{\ce{Br2}}}{M_{\ce{Br2}}} = \frac{73\:[g]}{159.8\:[g/mol]} = 0.457\:[mol]
+	\end{split} $$
+
+Calcul du réactif limitant :
+
+$$ \begin{split}
+			\text{cond. stœchio. : }\frac{n_{\ce{C6H6}}}{n_{\ce{Br2}}} = \frac{1}{1} = 1
+		\end{split}
+		\qquad
+		\begin{split}
+			\text{réaction : }\frac{n_{\ce{C6H6}}}{n_{\ce{Br2}}} = \frac{0.539}{0.457} = 1.18
+		\end{split}
+		\qquad
+		\begin{split}
+			\ce{Br2} \Rightarrow\text{ limitant}
+		\end{split} $$
+
+Calcul de la masse de \ce{C6H5Br} formée :
+
+$$ \begin{split}
+			n_{\ce{C6H5Br}} = n_{\ce{Br2}} = 0.457\:[mol]
+		\end{split}
+		\qquad
+		\begin{split}
+			m_{\ce{C6H5Br}} &= n_{\ce{C6H5Br}} \cdot M_{\ce{C6H5Br}} \\
+			&= 0.457\:[mol] \cdot 157\:[g/mol]\\
+			&= 71.75\:[g]
+		\end{split} $$
+
+$$ \eta = \frac{\text{quantité de produit obtenue}}{\text{quantité de produit calculée}} = \frac{63.6\:[g]}{71.75\:[g]} = 0.886 = 88.5\:[\%] $$
+
+:::

@@ -1,0 +1,139 @@
+# Calculs stœchiométriques
+
+::: {.objectives data-latex=""}
+
+- Déterminer les quantités de matière de réactifs et de produits impliqués dans une réaction par des calculs stœchiométriques.
+- Déterminer le réactif limitant et le réactif en excès pour une réaction et des quantités de réactifs données.
+- Déterminer le rendement d'une réaction.
+- Effectuer des calculs stœchiométriques en tenant compte du rendement de la réaction.
+
+:::
+
+## La stœchiométrie
+
+Il est possible de tirer des renseignements **quantitatifs** d’une équation chimique et de déterminer les masses de substances qui participent à une réaction. Ces calculs sont basés sur la loi de conservation de la masse et portent le nom de **calculs stœchiométriques**. Le terme stœchiométrie dérive de deux mots grecs : stoikheîon (élément) et métron (mesure).  La stœchiométrie exprime donc les relations entre les quantités des réactifs et des produits.
+
+L'équation chimique équilibrée de la réaction entre le sodium métallique et le chlore gazeux, est la suivante :
+
+$$ \ce{ 2 Na{}_{(s)} + Cl2{}_{(g)} -> 2 NaCl{}_{(s)} } $$
+
+Cette équation nous indique que deux atomes de sodium réagissent avec une molécule de dichlore gazeux pour donner deux molécules de chlorure de sodium. Comme les chimistes ne parlent généralement pas des réactions chimiques en termes d'atomes ou de molécules individuels, il est beaucoup plus courant de décrire la stœchiométrie d'une réaction en termes de moles.
+
+Nous choisissons arbitrairement de faire réagir totalement une mole de dichlore dans cette réaction. De combien de sodium allons-nous avoir besoin ? Et combien de chlorure de sodium pouvons-nous espérer produire ?
+
+Une mole de dichlore pèse 70.9 [g], nous savons donc qu'il nous faudra préparer 70.9 [g] de chlore gazeux.
+
+|           |  2  | $Na$ |  +  |  1  |  $Cl_2$  | $\ce{->}$  |  2  | $NaCl$ |
+| --------- | :-: | :--: | :-: | :-: | :------: | :--------: | :-: | :----: |
+| n [mol]   |     |      |     |     |   **1**  |            |     |        |
+| M [g/mol] |     |      |     |     | **70.9** |            |     |        |
+| m [g]     |     |      |     |     | **70.9** |            |     |        |
+
+En prenant une mole de dichlore, il faudra deux moles de sodium métallique pour que la réaction soit totale. La masse molaire du sodium étant de 23 [g/mol], il nous faudra préparer 46 [g] de sodium métallique.
+
+|           |  2  |    $Na$   |  +  |  1  | $Cl_2$ | $\ce{->}$  |  2  | $NaCl$ |
+| --------- | :-: | :-------: | :-: | :-: | :----: | :--------: | :-: | :----: |
+| n [mol]   |     |   **2**   |     |     |    1   |            |     |        |
+| M [g/mol] |     | **23.00** |     |     |  70.9  |            |     |        |
+| m [g]     |     | **46.00** |     |     |  70.9  |            |     |        |
+
+Dans le cas d'une réaction totale, en faisant réagir une mole de dichlore et deux moles de sodium, on obtient 2 moles de chlorure de sodium. La masse molaire du chlorure de sodium étant de 58.45 [g/mol], il faudra nous attendre à former 116.9 [g] de chlorure de sodium.
+
+|           |  2  |  $Na$ |  +  |  1  | $Cl_2$ | $\ce{->}$  |  2  |   $NaCl$  |
+| --------- | :-: | :---: | :-: | :-: | :----: | :--------: | :-: | :-------: |
+| n [mol]   |     |   2   |     |     |    1   |            |     |   **2**   |
+| M [g/mol] |     | 23.00 |     |     |  70.9  |            |     | **58.45** |
+| m [g]     |     | 46.00 |     |     |  70.9  |            |     | **116.9** |
+
+La quantité de matière avant la réaction est égale à la quantité de matière après la réaction (46 [g] + 70.9 [g] = 116.9 [g]). La loi de conservation de la masse est respectée (ouf!).
+
+```{r, child=c('exe/stoechiometrie-10.Rmd')}
+```
+
+\newpage
+
+```{r, child=c('exe/stoechiometrie-20.Rmd')}
+```
+
+## Conditions stœchiométriques et réactif limitant
+
+Dans des conditions qui consistent à mélanger les réactifs en respectant les proportions de l'équation équilibrée, on dit que la réaction a lieu dans les **conditions stœchiométriques**.
+
+Dans la pratique, on choisit généralement de mettre un excès d'un des réactifs pour s'assurer que la réaction soit complète et que la réaction directe soit favorisée. Une réaction se termine lorsqu'un des réactifs est complètement consommé. Le reste de l'autre (ou des autres) réactif(s) n'a plus rien pour réagir, il en reste donc une partie :
+
+- Le réactif qui est entièrement consommé est appelé **réactif limitant**. Il fixe une limite à la quantité de produits qui peuvent se former.
+- Le réactif qui n'est pas entièrement consommé est appelé **réactif en excès**.
+
+Les quantités de produits formés lors d'une réaction dépendent de la quantité du réactif limitant. Plus aucun produit ne peut se former lorsque le réactif limitant est épuisé.
+
+L'équation chimique équilibrée de la réaction entre l'aluminium métallique et le brome gazeux, est la suivante :
+
+$$ \ce{ 2 Al{}_{(s)} + 3 Br2{}_{(g)} -> 2 AlBr3{}_{(s)} } $$
+
+Imaginons de faire réagir 2 moles d'aluminium avec 6 moles de dibrome dans cette réaction.
+
+|               |  2  | $\ce{Al}$  |  +  |  3  | $\ce{Br2}$  | $\ce{->}$  |  2  | $\ce{AlBr3}$  |
+| ------------- | :-: | :--------: | :-: | :-: | :---------: | :--------: | :-: | :-----------: |
+| n [mol] avant |     |      2     |     |     |      6      |            |     |               |
+| n [mol] réagi |     |      2     |     |     |      3      |            |     |               |
+| n [mol] après |     |      0     |     |     |    **3**    |            |     |               |
+
+
+
+-  Le réactif limitant est l'aluminium.
+-  Le réactif en excès sera le dibrome et il en restera 3 moles qui n'auront pas réagit.
+-  La réaction formera 2 moles de bromure d'aluminium dû à la quantité de réactif limitant.
+
+Imaginons maintenant de faire réagir 5 moles d'aluminium avec 3 moles de dibrome dans cette réaction.
+
+|               |  2  | $\ce{Al}$  |  +  |  3  | $\ce{Br2}$  | $\ce{->}$  |  2  | $\ce{AlBr3}$  |
+| ------------- | :-: | :--------: | :-: | :-: | :---------: | :--------: | :-: | :-----------: |
+| n [mol] avant |     |      5     |     |     |      3      |            |     |               |
+| n [mol] réagi |     |      2     |     |     |      3      |            |     |               |
+| n [mol] après |     |    **3**   |     |     |      0      |            |     |               |
+
+- Le réactif limitant est le dibrome.
+- Le réactif en excès sera l'aluminium et il en restera 3 moles qui n'auront pas réagit.
+- La réaction formera 2 moles de bromure d'aluminium dû à la quantité de réactif limitant.
+
+```{r, child=c('exe/stoechiometrie-30.Rmd')}
+```
+
+## Le rendement d'une réaction
+
+Lorsque nous utilisons les calculs stœchiométriques pour prédire les quantités dans une réaction, nos résultats sont basés sur l'hypothèse que tout se passe dans la réalité exactement comme décrit par l'équation chimique. Malheureusement, ce n'est pas toujours le cas. Il existe différents facteurs qui entraînent une perte dans les quantités de produits obtenus. Ces facteurs peuvent être non seulement humains, mais aussi chimiques ou techniques.
+
+On définit donc le rendement d'une réaction comme le rapport entre la quantité de produit calculée et la quantité de produit réellement obtenue.
+
+$$ \eta = \frac{\text{quantité de produit obtenue}}{\text{quantité de produit calculée}} $$
+
+$\eta$ : exprimé en pourcentage massique ou molaire [%]
+
+\newpage
+
+```{r, child=c('exe/stoechiometrie-40.Rmd')}
+```
+
+## Exercices supplémentaires
+
+```{r, child=c('exe/stoechiometrie-50.Rmd')}
+```
+
+\newpage
+
+```{r, child=c('exe/stoechiometrie-60.Rmd')}
+```
+
+```{r, child=c('exe/stoechiometrie-70.Rmd')}
+```
+
+```{r, child=c('exe/stoechiometrie-80.Rmd')}
+```
+
+\newpage
+
+```{r, echo=FALSE}
+if (knitr::is_latex_output()) {
+  knitr::asis_output('\\section{Solutions des exercices} \\shipoutAnswer')
+}
+```

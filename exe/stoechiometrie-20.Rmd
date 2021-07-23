@@ -1,0 +1,49 @@
+::: {.Exercise data-latex=""}
+
+L'électrolyse de l'eau est un procédé électrochimique qui décompose l'eau en dioxygène et dihydrogène gazeux grâce à un courant électrique.
+
+1. Quelle masse d'eau est nécessaire pour produire 12 [g] de dihydrogène par électrolyse ?
+
+\vspace{\stretch{1}}
+
+2. Quelle masse de dioxygène sera alors produite ?
+
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+$$ \ce{2 H2O -> 2 H2 + O2} $$
+
+1. $$ \begin{split}
+  n_{H_{2}} &= \frac{m_{H_{2}}}{M_{H_{2}}} \\
+  &= \frac{12\ [g]}{2.02\ [g/mol]} \\
+  &= 5.94\ [mol]
+  \end{split}
+  \qquad
+  \begin{split}
+  2\ [mol]\ H_2O &\rightarrow\ 2\ [mol]\ H_2 \\
+  x\ [mol]\ H_2O &\rightarrow\ 5.94\ [mol]\ Cl_2 \\
+  x &= 5.94\ [mol]
+  \end{split}
+  \qquad
+  \begin{split}
+  m_{H_2O} &= n_{H_2O} \cdot M_{H_2O} \\
+  &= 5.94\ [mol] \cdot 18.02\ [g/mol] \\
+  &= 107\ [g] \text{ d'} H_2O
+  \end{split} $$
+
+2. $$ \begin{split}
+  2\ [mol]\ H_2 &\rightarrow\ 1\ [mol]\ O_2 \\
+  5.94\ [mol]\ H_2 &\rightarrow\ x\ [mol]\ O_2 \\
+  x &= 2.97\ [mol]
+  \end{split}
+  \qquad
+  \begin{split}
+  m_{O_2} &= n_{O_2} \cdot M_{O_2} \\
+  &= 2.97\ [mol] \cdot 32\ [g/mol] \\
+  &= 95\ [g] \text{ de } O_2
+  \end{split} $$
+
+:::

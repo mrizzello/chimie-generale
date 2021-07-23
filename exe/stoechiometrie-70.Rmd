@@ -1,0 +1,45 @@
+::: {.Exercise data-latex=""}
+
+Soit l'équation chimique équilibrée de la réaction suivante :
+
+$$ \ce{ 4\:MgS{}_{(aq)} + 2\:SnBr4{}_{(aq)} -> 4\:MgBr2{}_{(aq)} + Sn2S4{}_{(s)} v } $$
+
+Calculez les quantités de réactifs (en grammes) nécessaires à la formation de 84.1 grammes de sulfure de étain (IV).
+
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+$$ \begin{split}
+	n_{Sn_2S_4} &= \frac{m_{Sn_2S_4}}{M_{Sn_2S_4}} \\
+	&= \frac{84.1\ [g]}{365.64\ [g/mol]} \\
+	&= 0.23\ [mol]
+	\end{split} $$
+
+$$ \begin{split}
+  4\ [mol]\ MgS &\rightarrow\ 1\ [mol]\ Sn_2S_4 \\
+  x\ [mol]\ MgS &\rightarrow\ 0.23\ [mol]\ Sn_2S_4 \\
+  x &= 0.92\ [mol]
+  \end{split}
+	\qquad
+	\begin{split}
+	m_{MgS} &= n_{MgS} \cdot M_{MgS} \\
+  &= 0.92\ [mol] \cdot 56.37\ [g/mol] \\
+  &= 51.86\ [g] \text{ de} MgS
+  \end{split} $$
+
+$$ \begin{split}
+	2\ [mol]\ SnBr_4 &\rightarrow\ 1\ [mol]\ Sn_2S_4 \\
+	x\ [mol]\ SnBr_4 &\rightarrow\ 0.23\ [mol]\ Sn_2S_4 \\
+	x &= 0.46\ [mol]
+	\end{split}
+	\qquad
+	\begin{split}
+	m_{SnBr_4} &= n_{SnBr_4} \cdot M_{SnBr_4} \\
+	&= 0.46\ [mol] \cdot 438.3\ [g/mol] \\
+	&= 201.62\ [g] \text{ de} SnBr_4
+  \end{split} $$
+
+:::

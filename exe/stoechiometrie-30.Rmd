@@ -1,0 +1,60 @@
+::: {.Exercise data-latex=""}
+
+L'ammoniac réagit avec le dioxygène pour former du monoxyde d'azote et de l'eau selon la réaction :
+
+$$ \ce{NH3} \quad + \quad \ce{O2} \quad -> \quad \ce{NO} \quad + \quad \ce{H2O} $$
+
+1. Équilibrez la réaction.
+2. On fait réagir 0.2 [mol] de $\ce{NH3}$ avec 0.1 [mol] de $\ce{O2}$.
+    a. Quel est le réactif limitant ?
+
+    \vspace{\stretch{1}}
+
+    b. Quelle masse de \ce{NO} sera formée ?
+
+    \vspace{\stretch{1}}
+
+    c. Quelle masse du réactif en excès restera-t-il après la réaction ?
+
+    \vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. $$ \ce{4 NH3 + 5 O2 -> 4 NO + 6 H2O} $$
+
+a. $$ \begin{split}
+			\text{cond. stœchio. : }\frac{n_{\ce{NH3}}}{n_{\ce{O2}}} = \frac{4}{5} = 0.8
+		\end{split}
+		\qquad
+		\begin{split}
+			\text{réaction : }\frac{n_{\ce{NH3}}}{n_{\ce{O2}}} = \frac{0.2}{0.1} = 2
+		\end{split}
+		\qquad
+		\begin{split}
+			\ce{O2} \Rightarrow\text{ limitant}
+		\end{split} $$
+
+b. $$ \begin{split}
+			n_{\ce{NO}} = \frac{0.1 \cdot 4}{5} = 0.08\:[mol]
+		\end{split}
+		\qquad
+		\begin{split}
+			m_{\ce{NO}} &= n_{\ce{NO}} \cdot M_{\ce{NO}} \\
+			&= 0.08\:[mol] \cdot 30.01\:[g/mol] \\
+			&= 2.4\:[g]
+		\end{split} $$
+
+c. $$ \begin{split}
+			n_{\ce{NH3}} &= \frac{0.1 \cdot 4}{5} = 0.08\:[mol] \text{ (consommé)} \\
+			n_{\ce{NH3}} &= 0.2 - 0.08 = 0.12\:[mol] \text{ (excès)}
+		\end{split}
+		\qquad
+		\begin{split}
+			m_{\ce{NH3}} &= n_{\ce{NH3}} \cdot M_{\ce{NH3}} \\
+			&= 0.12\:[mol] \cdot 17.034\:[g/mol] \\
+			&= 2.04\:[g]
+		\end{split} $$
+
+:::

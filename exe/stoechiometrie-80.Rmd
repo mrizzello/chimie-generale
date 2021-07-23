@@ -1,0 +1,33 @@
+::: {.Exercise data-latex=""}
+
+Soit la réaction chimique non équilibrée ci-dessous :
+
+$$ \underline{\hspace{1em}}\ \ce{Al} {}_{(s)} +  \underline{\hspace{1em}}\ \ce{Br2} {}_{(g)} \ce{->}  \underline{\hspace{1em}}\ \ce{AlBr3} {}_{(s)} $$
+
+1. Équilibrez l'équation de la réaction.
+2. Déterminez le réactif limitant de la réaction sachant que l'on fait réagir 0.85 moles d'aluminium et 1.92 moles de dibrome.
+
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+$$ 2\: \ce{Al} {}_{(s)} + 3\: \ce{Br2} {}_{(g)} -> 2\: \ce{AlBr3} {}_{(s)} $$
+
+2. $$ \begin{split}
+  		&\text{conditions stœchiométriques: }\\
+  		&\frac{n_{\ce{Al}}}{n_{\ce{Br2}}} = \frac{2}{3} = 0.67
+  	\end{split}
+  	\qquad
+  	\begin{split}
+  		&\text{conditions réactionnelles: }\\
+  		&\frac{n_{\ce{Al}}}{n_{\ce{Br2}}} = \frac{0.85}{1.92} = 0.44
+  	\end{split}
+    \qquad
+  	\begin{split}
+  		\Rightarrow \ &\ce{Al} \text{ limitant} \\
+  		&\ce{Br2} \text{ excès} \\
+  	\end{split} $$
+
+:::

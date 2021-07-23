@@ -1,0 +1,45 @@
+::: {.Exercise data-latex=""}
+
+Soit l'équation chimique équilibrée de la réaction suivante :
+
+$$ \ce{ 2\:HgO{}_{(s)} -> 2\:Hg{}_{(l)} + O2{}_{(g)} } $$
+
+Combien de grammes de chaque produit seront formées lors de la réaction de 255.59 grammes d'oxyde de mercure (II).
+
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+$$ \begin{split}
+	n_{HgO} &= \frac{m_{HgO}}{M_{HgO}} \\
+	&= \frac{255.59\ [g]}{216.6\ [g/mol]} \\
+	&= 1.18\ [mol]
+	\end{split} $$
+
+$$ \begin{split}
+  2\ [mol]\ HgO &\rightarrow\ 2\ [mol]\ Hg \\
+  1.18\ [mol]\ HgO &\rightarrow\ x\ [mol]\ Hg \\
+  x &= 1.18\ [mol]
+  \end{split}
+	\qquad
+	\begin{split}
+	m_{Hg} &= n_{Hg} \cdot M_{Hg} \\
+  &= 1.18\ [mol] \cdot 200.6\ [g/mol] \\
+  &= 236.71\ [g] \text{ d'} Hg
+  \end{split} $$
+
+$$ \begin{split}
+  2\ [mol]\ HgO &\rightarrow\ 1\ [mol]\ O_2 \\
+  1.18\ [mol]\ HgO &\rightarrow\ x\ [mol]\ O_2 \\
+  x &= 0.59\ [mol]
+  \end{split}
+	\qquad
+	\begin{split}
+	m_{O_{2}} &= n_{O_{2}} \cdot M_{O_{2}} \\
+  &= 0.59\ [mol] \cdot 32\ [g/mol] \\
+  &= 18.88\ [g] \text{ d'} O_{2}
+  \end{split} $$
+
+:::
