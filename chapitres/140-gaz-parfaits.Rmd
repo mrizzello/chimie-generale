@@ -1,0 +1,154 @@
+# Les gaz parfaits
+
+::: {.objectives data-latex=""}
+
+- Utiliser la théorie cinétique pour expliquer le comportement des gaz et la pression.
+- Convertir les différentes unités de pression.
+- Utilisez la loi des gaz parfaits pour calculer la pression, la température, le volume ou le nombre de moles d'un gaz parfait.
+- Utilisez la loi des gaz parfaits dans les calculs stœchiométriques impliquant des réactifs ou des produits gazeux.
+
+:::
+
+## La théorie cinétique des gaz
+
+Les gaz se comportent très différemment des liquides et des solides. Par exemple, les gaz ont une faible densité et sont compressibles. En revanche, les liquides et les solides sont beaucoup plus denses et beaucoup moins compressibles. De plus, les gaz subissent une expansion ou une contraction beaucoup plus importantes lors de changements de la température.
+
+La théorie cinétique des gaz est un groupe d'hypothèses qui expliquent le comportement et les propriétés observables des gaz :
+
+- Les gaz sont formés de particules microscopiques. L'espace occupé par les particules est beaucoup plus petit que l'espace entre les particules. La majeure partie du volume occupé par un gaz est le vide.
+
+- Les particules se déplacent sans cesse en ligne droite dans toutes les directions.
+
+- Ces particules entrent sans cesse en collision et frappent les parois du récipient qui les renferme. Toutes les collisions se produisent sans perte d’énergie (collision élastique).
+
+- L'énergie cinétique moyenne des particules de gaz est proportionnelle à la température en Kelvin. Plus les particules bougent rapidement, plus leur énergie cinétique augmente, plus la température augmente.
+
+\newpage
+
+```{r theorie-cinetique,echo=FALSE,out.width="20%",fig.show="hold",fig.align="center",fig.cap="Illustration du modèle de la théorie cinétique des gaz"}
+knitr::include_graphics(c("images/theorie-cinetique.png"))
+```
+
+Un gaz qui obéit à toutes les hypothèses de la théorie cinétique est appelé gaz parfait (ou idéal). Dans la pratique, il n'existe pas de gaz parfaitement idéal. Dans le cas de pressions très élevées, ou à des températures très basses,  ces hypothèses ne sont plus vérifiées. Cependant, en règle générale, la plupart des gaz réels présentent un comportement presque idéal dans des conditions normales.
+
+Un échantillon de gaz peut être caractérisé par quatre variables :
+
+- le volume _V_,
+- la température _T_,
+- la pression _P_,
+- et la quantité de matière _n_ (nombre de moles).
+
+Puisque la température et la pression varient d'un endroit à l'autre sur la planète, des conditions d'étude semblables sont nécessaires afin que les scientifiques puissent comparer leurs résultats et puissent établir des lois physiques. Les scientifiques ont dû établir des normes quant aux conditions d'étude des gaz. Un ensemble de conditions a donc été établi, les **CNTP** et les **CATP** :
+
+|                                                     | Température |          Pression          |
+| --------------------------------------------------- | :---------: | :------------------------: |
+| Conditions **Normales** de Température et Pression  | 273 [K]     |  $1.013 \cdot 10^{5}$ [Pa] |
+| Conditions **Ambiantes** de Température et Pression | 298 [K]     |        $10^{5}$ [Pa]       |
+
+## Les lois simples des gaz
+
+Dans le cas de gaz parfaits, les lois simples des gaz mettent en relation deux variables qui décrivent les gaz alors que deux autres variables sont maintenues constantes.
+
+|                                 |                  |                          |
+| :-----------------------------: | ---------------- | ------------------------ |
+|   $P1 \cdot V1 = P2 \cdot V2$   | T et n constants | Loi de Boyle-Mariotte    |
+| $\frac{V1}{n1} = \frac{V2}{n2}$ | P et T constants | Loi d'Avogadro           |
+| $\frac{P1}{n1} = \frac{P2}{n2}$ | V et T constants | Loi 1 et loi 2 combinées |
+| $\frac{V1}{T1} = \frac{V2}{T2}$ | P et n constants | Loi de Charles           |
+| $\frac{P1}{T1} = \frac{P2}{T2}$ | V et n constants | Loi de Gay-Lussac        |
+
+En combinant les lois simples des gaz, on peut établir une relation qui permet de comparer les variables après qu'un gaz ait subi des changements, en comparant une situation initiale (1) avec une situation finale (2).
+
+$$
+\frac{P_1 \cdot V_1}{n_1 \cdot T_1} = \frac{P_2 \cdot V_2}{n_2 \cdot T_2} \qquad \text{(loi générale des gaz)}
+$$
+
+```{r, child=c('exe/gaz-parfaits-10.Rmd')}
+```
+
+```{r, child=c('exe/gaz-parfaits-20.Rmd')}
+```
+
+\newpage
+
+### Les unités des gaz
+
+#### Le volume
+
+L'unité SI de volume est le mètre cube [$m^3$]. Depuis 1964, le mot "litre" $[l]$ peut être utilisé \textbf{comme un nom spécial donné au décimètre cube}. Bien qu’en dehors du système international (SI) d’unités, le litre est couramment utilisé pour caractériser un volume.
+
+$$
+\begin{split}
+  1\ \left[m^3\right] = 1000\ \left[dm^3\right] = 1000\ \left[l\right]
+\end{split}
+\qquad\qquad
+\begin{split}
+	1\ \left[l\right] = 1\ \left[dm^3\right] = 10^{-3}\ \left[m^3\right]
+\end{split}
+$$
+
+#### La température
+
+Le kelvin est l'unité SI de la température thermodynamique. Le degré Celsius est également utilisé et peut exprimer une différence de température, mais lorsque l'on exprime une température absolue, on utilisera le kelvin.
+
+$$
+T_{{\mathrm{Kelvin}}}=T_{{\mathrm {Celsius}}} + 273.15
+$$
+
+#### La pression
+
+Le "pascal" (symbole Pa) est l’unité de pression définie par la 14e Conférence Générale des Poids et Mesures de 1971. Le "pascal" est exprimé comme une force d'un newton exercée sur une surface d'un mètre carré ou comme un kilogramme par mètre par seconde carré (unités SI).
+
+$$
+1\ \left[Pa\right] = 1\ \left[\frac{N}{m^2}\right] = 1\ \left[\frac{kg \cdot s}{m^2}\right]
+$$
+
+Il existe de multiples unités de pression en dehors du système international :
+
+$$
+1.013 \cdot 10^{5}\ \left[Pa\right] =
+1 \left[atm\right] =
+1.013 \left[bar\right] =
+760 \left[mmHg\right]
+$$
+
+## La loi des gaz parfaits
+
+La loi générale des gaz permet de comparer les caractéristiques d'un gaz entre une situation initiale et une situation finale. Toutefois, cette formule n'est pas utile lorsqu'on veut déterminer les caractéristiques d'un gaz à un moment précis. La loi des gaz parfaits combine les lois simples des gaz en une seule expression.
+
+$$
+P \cdot V = n \cdot R \cdot T
+$$
+
+- P : pression en $\left[Pa\right]$
+- V : volume en $\left[m^3\right]$
+- n : quantité de matière en $\left[mol\right]$
+- T : température absolue en $\left[K\right]$
+- R = **8.314** $\left[\frac{J}{mol \cdot K}\right]$ (constante des gaz parfaits)
+
+Avec cette relation, nous pouvons convertir le volume d'un gaz en quantité de matière en connaissant la pression et le température. Le volume, la pression et la température d'un gaz sont plus faciles à mesurer que la masse, et la masse molaire du gaz n'intervient pas.
+
+```{r, child=c('exe/gaz-parfaits-30.Rmd')}
+```
+
+\newpage
+
+## Exercices supplémentaires
+
+```{r, child=c('exe/gaz-parfaits-40.Rmd')}
+```
+
+```{r, child=c('exe/gaz-parfaits-50.Rmd')}
+```
+
+```{r, child=c('exe/gaz-parfaits-60.Rmd')}
+```
+
+
+\newpage
+
+```{r, echo=FALSE}
+if (knitr::is_latex_output()) {
+  knitr::asis_output('\\section{Solutions des exercices} \\shipoutAnswer')
+}
+```

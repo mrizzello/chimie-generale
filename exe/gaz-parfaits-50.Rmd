@@ -1,0 +1,23 @@
+::: {.Exercise data-latex=""}
+
+Quelle est la masse d’un litre d’ammoniac (NH~3~) aux CNTP ?
+
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+$$
+\begin{split}
+	P \cdot V &= n \cdot R \cdot T \\
+	\Rightarrow n &= \frac{P \cdot V}{R \cdot T}
+\end{split}
+\qquad
+\begin{split}
+	n_{\ce{NH3}} &= \frac{1.013 \cdot 10^{5}\ [Pa] \cdot 10^{-3}\ [m^3]}{8.314 \left[\frac{J}{mol \cdot K}\right] \cdot 273.15\ [K]} = 0.045\ [mol] \\[1em]
+	m_{\ce{NH3}} &= n_{\ce{NH3}} \cdot M_{\ce{NH3}} = 0.045\ [mol] \cdot 17.034\ \left[\frac{g}{mol}\right] = 0.767\ [g]
+\end{split}
+$$
+
+:::

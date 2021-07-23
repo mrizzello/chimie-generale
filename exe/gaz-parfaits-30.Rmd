@@ -1,0 +1,52 @@
+::: {.Exercise data-latex=""}
+
+1. Calculez le volume d'une mole de gaz aux CNTP.
+
+\vspace{\stretch{1}}
+
+2. Calculez le volume d'une mole de gaz aux conditions de température et de pression à l'endroit où vous vous trouvez.
+
+\vspace{\stretch{1}}
+
+3. On cherche à déterminer la valeur de la constante des gaz parfaits. Pour ce faire, à une température de 16\celsius\ et une pression de 748 [mmHg], on mesure que $5.164 \cdot 10^{-2}$ [mol] d'un gaz occupent un volume de 1245 [ml]. Calculez quelle est la valeur de la constante et indiquez de quel gaz il s'agit.
+
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. $$
+\begin{split}
+	P \cdot V = n \cdot R \cdot T
+\end{split}
+\qquad
+\begin{split}
+	\Rightarrow V &= \frac{n \cdot R \cdot T}{P} \\
+	&= \frac{1\ [mol] \cdot 8.314 \left[\frac{J}{mol \cdot K}\right] \cdot 273\ [K]}{1.013 \cdot 10^{5}\ [Pa]} \\
+	&= 0.0224\ [m^3] = 22.4\ [l]
+\end{split}
+$$
+
+2. $$
+\begin{split}
+	\Rightarrow V &= \frac{n \cdot R \cdot T}{P}
+	= \frac{1\ [mol] \cdot 8.314 \left[\frac{J}{mol \cdot K}\right] \cdot 292\ [K]}{1.013 \cdot 10^{5}\ [Pa]} \\
+	&= 0.0239\ [m^3] = 23.9\ [l]
+\end{split}
+$$
+
+3. $$
+\begin{split}
+	748\ [mmHg] &= 9.973 \cdot 10^{4}\ [Pa]\\[0.33em]
+	1245\ [ml] &= 1.245 \cdot 10{-3}\ [m^3]\\[0.33em]
+	16\celsius\ &= 289.15\ [K]\\
+\end{split}
+\qquad
+\begin{split}
+	R = \frac{P \cdot V}{n \cdot T} &= \frac{9.973 \cdot 10^{4}\ [Pa] \cdot 1.245 \cdot 10{-3}\ [m^3]}{5.164 \cdot 10^{-2}\ [mol] \cdot 289.15\ [K]}\\[0.33em]
+	&= 8.315 \cong 8.314 \left[\frac{J}{mol \cdot K}\right]
+\end{split}
+$$
+
+:::

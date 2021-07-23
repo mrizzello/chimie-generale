@@ -1,0 +1,39 @@
+::: {.Exercise data-latex=""}
+
+On remplit un ballon-sonde météorologique avec 500 [l] d'hélium à 25° C et une pression de 120 [kPa]. Le ballon s'élève à une altitude de 1850 [m], où la pression est de 80 [kPa] et la température de 0° C. Quel sera le volume du ballon par rapport à son volume initial?
+
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+$$
+\frac{P_1 \cdot V_1}{n_1 \cdot T_1} = \frac{P_2 \cdot V_2}{n_2 \cdot T_2}
+$$
+
+$$
+\begin{split}
+	P_1 &= 120\ [kPa]\\
+	V_1 &= 500\ [l]\\
+	T_1 &= 298\ [K]\\
+	n_1 &= n_2
+\end{split}
+\qquad
+\begin{split}
+	P_2 &= 80\ [kPa]\\
+	V_2 &=\ ?\ [l]\\
+	T_2 &= 273\ [K]\\
+	n_2 &= n_1
+\end{split}
+$$
+
+$$
+\begin{split}
+	V_2 &= \frac{P_1 \cdot V_1 \cdot T_2}{T_1 \cdot P_2} \\
+	&= \frac{120\ [kPa] \cdot 500\ [l] \cdot 273\ [K]}{298\ [K] \cdot 80\ [kPa]} \\
+	&= 687\ [l]
+\end{split}
+$$
+
+:::

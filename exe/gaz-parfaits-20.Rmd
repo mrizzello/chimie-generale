@@ -1,0 +1,40 @@
+::: {.Exercise data-latex=""}
+
+Un ballon, qui contient 18.2 [g] de diazote gazeux à 20° C occupe un volume de 16 [l] à une pression de 99.3 [kPa]. Quelle sera la pression si la température augmente à 50° C, que le volume diminue à 5 [l] et qu'on ajoute 12.8 [g] de dioxygène?
+
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+$$
+\begin{split}
+	P_1 &= 99.3\ [kPa]\\
+	V_1 &= 16\ [l]\\
+	T_1 &= 293\ [K]\\
+	n_1 &= 0.65\ [mol]
+\end{split}
+\qquad
+\begin{split}
+	P_2 &= ?\ [kPa]\\
+	V_2 &=\ 5\ [l]\\
+	T_2 &= 323\ [K]\\
+	n_2 &= 0.65 + 0.4\ [mol]\\
+	&= 1.05\ [mol]
+\end{split}
+$$
+
+$$
+\begin{split}
+	\frac{P_1 \cdot V_1}{n_1 \cdot T_1} = \frac{P_2 \cdot V_2}{n_2 \cdot T_2}
+\end{split}
+\qquad
+\begin{split}
+	\Rightarrow P_2 &= \frac{P_1 \cdot V_1 \cdot n_2 \cdot T_2}{n_1 \cdot T_1 \cdot V_2} \\
+	&= \frac{99.3\ [kPa] \cdot 16\ [l] \cdot 1.05\ [mol] \cdot 323\ [K]}{0.65\ [mol] \cdot 293\ [K] \cdot 5\ [l]} \\
+	&= 565.86\ [kPa]
+\end{split}
+$$
+
+:::

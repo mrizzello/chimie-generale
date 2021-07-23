@@ -1,0 +1,40 @@
+::: {.Exercise data-latex=""}
+
+Un bon vide obtenu dans un appareil de laboratoire correspond à 10^-6^ [mmHg] de pression à 25° C. Calculer le nombre de molécules de gaz par cm^3^ dans ces conditions.
+
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+$$
+\begin{split}
+	P \cdot V &= n \cdot R \cdot T \\
+	\Rightarrow n &= \frac{P \cdot V}{R \cdot T}
+\end{split}
+$$
+
+$$
+\begin{split}
+	P &= 10^{-6}\ [mmHg] = 1.333 \cdot 10^{-4}\ [Pa] \\
+	T &= 25 \celsius = 298.15\ [K] \\
+	V &= 1\ [m^3] \text{ (arbitrairement)}
+\end{split}
+\qquad
+\begin{split}
+	n_{\ce{gaz}} &= \frac{1.333 \cdot 10^{-4}\ [Pa] \cdot 1\ [m^3]}{8.314 \left[\frac{J}{mol \cdot K}\right] \cdot 298.15\ [K]} \\[1em]
+	& = 5.378 \cdot 10^{-8}\ [mol]
+\end{split}
+$$
+
+$$
+\begin{split}
+	\Rightarrow\ & 5.378 \cdot 10^{-8}\ [mol] \text{ de gaz dans 1 [$m^3$]} \\
+	=\ & 3.238 \cdot 10^{16} \text{ [\textit{molécules}] dans 1 [$m^3$]} \\
+	=\ & 3.238 \cdot 10^{10} \text{ [\textit{molécules}] dans 1 [$cm^3$]} \\
+	& \text{plus de 32 milliards de molécules dans 1 [$cm^3$]}
+\end{split}
+$$
+
+:::
