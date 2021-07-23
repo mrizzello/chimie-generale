@@ -13,7 +13,7 @@ $$ \underline{\hspace{1em}}\ \ce{Al} {}_{(s)} +  \underline{\hspace{1em}}\ \ce{B
 
 ::: {.Answer data-latex=""}
 
-$$ 2\: \ce{Al} {}_{(s)} + 3\: \ce{Br2} {}_{(g)} -> 2\: \ce{AlBr3} {}_{(s)} $$
+$$ 2\: \ce{Al} {}_{(s)} + 3\: \ce{Br2} {}_{(g)} \ce{->} 2\: \ce{AlBr3} {}_{(s)} $$
 
 2. $$ \begin{split}
   		&\text{conditions stœchiométriques: }\\
