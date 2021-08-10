@@ -2,7 +2,7 @@
 
 ::: {.tcolorbox data-latex=""}
 
-**Atome**
+**Atome**  
 Un atome est la plus petite particule d'un élément qui conserve encore les propriétés de cet élément.
 
 :::
@@ -49,7 +49,7 @@ Un électron est 1836 fois plus léger qu'un proton, mais son influence est trè
 
 ::: {.tcolorbox data-latex=""}
 
-**Élément**
+**Élément**  
 Un élément regroupe tous les atomes qui ont le même nombre de protons.
 
 :::
@@ -90,7 +90,7 @@ $$ _{1}H \quad _{17}Cl \quad _{82}Pb $$
 
 ::: {.tcolorbox data-latex=""}
 
-**Isotopes**
+**Isotopes**  
 Atomes qui ont le même nombre de protons mais un nombre différent de neutrons.
 
 :::
@@ -142,7 +142,7 @@ $$ 1 [uma] \simeq 1,660 \cdot 10^{-27} [kg] $$
 
 ::: {.tcolorbox data-latex=""}
 
-**Masse atomique**
+**Masse atomique**  
 La masse atomique d’un élément est la moyenne des masses de ses isotopes pondérée par leur abondance relative.
 
 :::
@@ -200,7 +200,7 @@ knitr::include_graphics(c("images/uma-masse-molaire.png"))
 
 ::: {.tcolorbox data-latex=""}
 
-**Masse molaire atomique**
+**Masse molaire atomique**  
 La masse molaire atomique d'un élément est la masse en grammes d'une mole d'atomes de l'élément.
 
 :::

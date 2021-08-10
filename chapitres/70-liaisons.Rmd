@@ -41,7 +41,7 @@ En se basant sur la différence d'électronégativité ($\Delta$E) entre deux at
 knitr::include_graphics(c("images/deltaE.png"))
 ```
 
-**L'électronégativité de chaque élément est indiquée dans votre tableau périodique des éléments.**
+**L'électronégativité de chaque élément est indiquée dans votre tableau périodique des éléments.**  
 
 ```{r, child=c('exe/liaisons-10.Rmd')}
 ```
@@ -102,7 +102,7 @@ knitr::include_graphics(c("images/H2-bond.png"))
 - Au point 3 (minimum d'énergie potentielle), l'attraction maximum est atteinte par rapport à la répulsion et le système atteint son minimum d'énergie.
 - Au point 4, s'il était atteint, les atomes seraient trop proches et les répulsions pousseraient les noyaux vers le point 3.
 
-**Une liaison covalente résulte de l'équilibre entre l'attraction de particules de charges opposées et la répulsion de particules de même charge.**
+**Une liaison covalente résulte de l'équilibre entre l'attraction de particules de charges opposées et la répulsion de particules de même charge.**  
 
 $$ H \cdot \quad + \quad \cdot H \quad \longrightarrow \quad H-H $$
 

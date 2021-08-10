@@ -66,11 +66,11 @@ En général, chaque état de la matière, solide, liquide ou gaz, peut se trans
 
 On peut modifier l'état d'une substance en lui fournissant ou lui retirant de l'énergie thermique:
 
-**Lorsque la température augmente**
+**Lorsque la température augmente**  
 - L'énergie thermique augmente.
 - Les particules se déplacent plus rapidement et se libèrent des forces d'attraction.
 
-**Lorsque la température diminue**
+**Lorsque la température diminue**  
 - L'énergie thermique diminue.
 - Les particules se déplacent moins rapidement et les forces d'attraction les rassemblent.
 

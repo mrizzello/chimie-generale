@@ -129,7 +129,7 @@ L'élément le plus électronégatif est nommé en premier. Les proportions des 
 
 ### Composés binaires ioniques | métal - non-métal
 
-**Les composés ioniques se lisent de droite à gauche et le cation est indiqué en premier dans la formule brute.**
+**Les composés ioniques se lisent de droite à gauche et le cation est indiqué en premier dans la formule brute.**  
 
 L'élément le plus électronégatif est placé d'abord en ajoutant le suffixe "**ure**", puis le nom du métal.
 

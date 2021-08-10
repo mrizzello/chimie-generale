@@ -57,7 +57,7 @@ La collision entre les réactifs (atomes, ions ou molécules) fournit l'énergie
 knitr::include_graphics(c("images/collision.png"))
 ```
 
-**Plus la probabilité de collision est grande, plus la vitesse de réaction est élevée.**
+**Plus la probabilité de collision est grande, plus la vitesse de réaction est élevée.**  
 
 Certaines réactions sont rapides alors que d'autres sont lentes. Différents facteurs peuvent influencer la vitesse d'une réaction:
 
@@ -71,7 +71,7 @@ Certaines réactions sont rapides alors que d'autres sont lentes. Différents fa
 
 Au XVIIIe siècle, Antoine Laurent Lavoisier (1743-1794), a établi un principe important basé sur ses expériences. Il affirme que la masse totale des produits de la réaction est égale à la masse totale des réactifs. Cette déclaration est connue comme **le principe de conservation de la masse**.
 
-**Rien ne se perd, rien ne se crée, tout se transforme.**
+**Rien ne se perd, rien ne se crée, tout se transforme.**  
 
 Il y a une égale quantité de matière avant et après une réaction, aucun atome n'apparaît et aucun atome ne disparaît. On a toujours les mêmes atomes mais combinés de façon différente.
 
@@ -185,7 +185,7 @@ $$ \begin{split}
 
 Cette réaction est possible, mais elle n'est pas spontanée. Elle nécessite un apport d'énergie constant.
 
-**Une réaction spontanée dans un sens n'est généralement pas spontanée dans l'autre sens.**
+**Une réaction spontanée dans un sens n'est généralement pas spontanée dans l'autre sens.**  
 
 ### Réaction réversible
 

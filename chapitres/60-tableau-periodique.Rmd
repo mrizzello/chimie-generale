@@ -230,7 +230,7 @@ knitr::include_graphics(c("images/tpe-orbitals.png"))
 
 ::: {.tcolorbox data-latex=""}
 
-**Les électrons de valence**
+**Les électrons de valence**  
 Les électrons de valence sont les électrons de la dernière couche électronique d'un atome.
 
 :::
@@ -272,7 +272,7 @@ Cette observation a conduit à une règle connue sous le nom de **règle de l'oc
 
 ::: {.tcolorbox data-latex=""}
 
-**Règle de l'octet**
+**Règle de l'octet**  
 Les atomes ont tendance à gagner, perdre, ou partager des électrons pour avoir huit électrons dans leur couche de valence.
 
 :::
@@ -283,7 +283,7 @@ Le remplissage complet de la couche électronique de valence est le moteur des r
 
 ::: {.tcolorbox data-latex=""}
 
-**Ion**
+**Ion**  
 Un ion est un atome ou un groupe d'atomes qui a gagné ou perdu un ou plusieurs électrons.
 
 :::

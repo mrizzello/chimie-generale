@@ -2,7 +2,7 @@
 
 ::: {.tcolorbox data-latex=""}
 
-**Chimie**
+**Chimie**  
 La chimie est la science qui étudie la composition, les propriétés et les transformations de la matière.
 
 :::

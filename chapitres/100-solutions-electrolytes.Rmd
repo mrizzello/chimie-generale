@@ -131,7 +131,7 @@ L'eau diminue drastiquement l'attraction entre anions et cations. Les molécules
 knitr::include_graphics(c("images/dissociation.png"))
 ```
 
-**Une solution est électriquement neutre : le nombre de charges positives est égal au nombre de charges négatives.**
+**Une solution est électriquement neutre : le nombre de charges positives est égal au nombre de charges négatives.**  
 
 ### Équations de dissociation
 

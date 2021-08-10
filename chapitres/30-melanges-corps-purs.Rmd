@@ -18,7 +18,7 @@ Selon la nature des particules qui la compose, la matière peut être classée e
 
 ::: {.tcolorbox data-latex=""}
 
-**Corps pur simple**
+**Corps pur simple**  
 Un corps pur simple est constitué d'atomes d'un seul élément.
 
 :::
@@ -31,7 +31,7 @@ Chaque élément a un nom comme le silicium, l'oxygène ou le cuivre. Un morceau
 
 ::: {.tcolorbox data-latex=""}
 
-**Corps pur composé**
+**Corps pur composé**  
 Un corps pur composé est constitué de deux ou plusieurs éléments différents qui sont liés ensemble chimiquement.
 
 :::
@@ -50,7 +50,7 @@ knitr::include_graphics(c("images/corps-purs-corps-composes.png"))
 
 ::: {.tcolorbox data-latex=""}
 
-**Mélange**
+**Mélange**  
 Ensemble résultant de l'union de substances différentes sans transformation chimique
 
 :::
@@ -63,7 +63,7 @@ Les mélanges peuvent être **homogène** ou **hétérogène**. Ces deux termes 
 
 ::: {.tcolorbox data-latex=""}
 
-**Mélange hétérogène**
+**Mélange hétérogène**  
 Un mélange est hétérogène si on peut distinguer ses différents constituants à l'oeil nu.
 
 :::
@@ -74,7 +74,7 @@ La composition des mélanges hétérogènes varie d'un endroit à l'autre de la 
 
 ::: {.tcolorbox data-latex=""}
 
-**Mélange homogène**
+**Mélange homogène**  
 Un mélange est homogène si on ne peut pas distinguer ses différents constituants à l'oeil nu.
 
 :::
