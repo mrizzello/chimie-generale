@@ -2,7 +2,7 @@
 
 L'ammoniac réagit avec le dioxygène pour former du monoxyde d'azote et de l'eau selon la réaction :
 
-$$ \ce{NH3} \quad + \quad \ce{O2} \quad -> \quad \ce{NO} \quad + \quad \ce{H2O} $$
+$$ \ce{NH3} \quad + \quad \ce{O2} \quad \ce{->} \quad \ce{NO} \quad + \quad \ce{H2O} $$
 
 1. Équilibrez la réaction.
 2. On fait réagir 0.2 [mol] de $\ce{NH3}$ avec 0.1 [mol] de $\ce{O2}$.

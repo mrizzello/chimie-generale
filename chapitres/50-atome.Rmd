@@ -162,7 +162,7 @@ Dans la vie quotidienne, nous sommes familiers avec des unités de comptage comm
 
 ::: {.tcolorbox data-latex=""}
 
-**La mole**
+**La mole**  
 Une mole contient exactement $6.02214076\cdot10^{23}$ entités élémentaires.
 
 :::

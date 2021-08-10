@@ -45,10 +45,13 @@ Puisque la température et la pression varient d'un endroit à l'autre sur la pl
 | Conditions **Normales** de Température et Pression  | 273 [K]     |  $1.013 \cdot 10^{5}$ [Pa] |
 | Conditions **Ambiantes** de Température et Pression | 298 [K]     |        $10^{5}$ [Pa]       |
 
+\newpage
+
 ## Les lois simples des gaz
 
 Dans le cas de gaz parfaits, les lois simples des gaz mettent en relation deux variables qui décrivent les gaz alors que deux autres variables sont maintenues constantes.
 
+<!--
 |                                 |                  |                          |
 | :-----------------------------: | ---------------- | ------------------------ |
 |   $P1 \cdot V1 = P2 \cdot V2$   | T et n constants | Loi de Boyle-Mariotte    |
@@ -56,6 +59,17 @@ Dans le cas de gaz parfaits, les lois simples des gaz mettent en relation deux v
 | $\frac{P1}{n1} = \frac{P2}{n2}$ | V et T constants | Loi 1 et loi 2 combinées |
 | $\frac{V1}{T1} = \frac{V2}{T2}$ | P et n constants | Loi de Charles           |
 | $\frac{P1}{T1} = \frac{P2}{T2}$ | V et n constants | Loi de Gay-Lussac        |
+-->
+
+$$
+\begin{aligned}
+P1 \cdot V1 &= P2 \cdot V2 & \text{T et n constants (Loi de Boyle-Mariotte)} \\[1em]
+\frac{V1}{n1} &= \frac{V2}{n2} & \text{P et T constants (Loi d'Avogadro)} \\[1em]
+\frac{P1}{n1} &= \frac{P2}{n2} & \text{V et T constants (Loi 1 et loi 2 combinées)} \\[1em]
+\frac{V1}{T1} &= \frac{V2}{T2} & \text{P et n constants (Loi de Charles)} \\[1em]
+\frac{P1}{T1} &= \frac{P2}{T2} & \text{V et n constants (Loi de Gay-Lussac)}
+\end{aligned}
+$$
 
 En combinant les lois simples des gaz, on peut établir une relation qui permet de comparer les variables après qu'un gaz ait subi des changements, en comparant une situation initiale (1) avec une situation finale (2).
 
