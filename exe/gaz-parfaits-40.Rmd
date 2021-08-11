@@ -16,8 +16,8 @@ $$
 \end{split}
 \qquad\qquad
 \begin{split}
-	P_{35\celsius} &= \frac{1.7\ [atm] \cdot 308.15\ [K]}{283.15\ [K]} = 1.85\ [atm] \\[1em]
-	P_{-10\celsius} &= \frac{1.7\ [atm] \cdot 263.15\ [K]}{283.15\ [K]} = 1.58\ [atm]
+	P_{35°\ C} &= \frac{1.7\ [atm] \cdot 308.15\ [K]}{283.15\ [K]} = 1.85\ [atm] \\[1em]
+	P_{-10°\ C} &= \frac{1.7\ [atm] \cdot 263.15\ [K]}{283.15\ [K]} = 1.58\ [atm]
 \end{split}
 $$
 

@@ -18,7 +18,7 @@ $$
 $$
 \begin{split}
 	P &= 10^{-6}\ [mmHg] = 1.333 \cdot 10^{-4}\ [Pa] \\
-	T &= 25 \celsius = 298.15\ [K] \\
+	T &= 25°\ C = 298.15\ [K] \\
 	V &= 1\ [m^3] \text{ (arbitrairement)}
 \end{split}
 \qquad
