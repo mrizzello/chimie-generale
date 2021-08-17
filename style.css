@@ -66,3 +66,10 @@ p.caption, table caption{
   background-color: inherit;
   border-radius: 0.67rem;
 }
+
+#refs .csl-entry {
+  display: list-item;
+  list-style-type: "\1F4D8";
+  list-style-position: inside;
+  margin-bottom: 2rem;
+}
