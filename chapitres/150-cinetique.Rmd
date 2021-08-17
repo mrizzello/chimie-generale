@@ -1,3 +1,51 @@
 # Vitesses de réaction
 
-En cours de rédaction ...
+::: {.objectives data-latex=""}
+
+- Exprimer et déterminer la vitesse d'une réaction chimique.
+- Identifier les facteurs qui influencent la vitesse de réaction.
+
+:::
+
+La **cinétique chimique** est l'étude de la vitesse à laquelle les réactions se produisent. De nombreuses réactions se produisent presque instantanément comme les combustions ou la photosynthèse tandis que d'autres se déroulent sur plusieurs jours comme l'oxydation du fer, voire des millions d'années comme la conversion du diamant en graphite.
+
+Connaître la vitesse d'une réaction peut être primordial : la rapidité d'action d'un médicament peut faire la différence entre la vie et la mort et le temps nécessaire à la synthèse d'un produit peut faire la différence entre gains et pertes commerciales.
+
+Si une équation équilibrée est essentielle pour effectuer des calculs stœchiométriques, elle ne nous dit rien sur la vitesse à laquelle la réaction se déroule. Toutes les réactions ont des vitesses différentes dans des conditions différentes et des règles ont été établies afin de pouvoir exprimer ces vitesses.
+
+::: {.tcolorbox data-latex=""}
+
+**Vitesse de réaction**  
+La vitesse de réaction est la variation de la quantité de réactifs ou de produits en fonction du temps.
+
+:::
+
+Considérons l'équation générale qui représente une réaction chimique :
+
+$$
+\text{réactifs} \rightarrow \text{produits}
+$$
+
+Une réaction chimique se déroule de manière progressive. En observant dans le temps la diminution de la quantité de réactifs ou l'augmentation de la quantité de produits, nous pouvons suivre l'évolution d'une réaction. Au début, il n'y a que des particules de réactifs et pas de particules de produits. Par la suite, les particules de produits apparaissent au fur qu'elles sont formées et les particules de réactifs disparaissent au fur et à mesure qu'elles sont consommées. Mesurer la vitesse d'une réaction c'est mesurer les changements de quantité de réactifs ou de produits par unité de temps.
+
+\newpage
+
+Mesurer la vitesse de réaction de formation des produits :
+
+$$
+\begin{split}
+\text{Vitesse de réaction} &= \frac{\text{Variation de quantité de produits}}{\text{Intervalle de temps}} \\
+&= \frac{|\text{produits}|_{t2} - |\text{produits}|_{t1}}{\Delta t}
+\end{split}
+$$
+
+Mesurer la vitesse de réaction de consommation des réactifs :
+
+$$
+\begin{split}
+\text{Vitesse de réaction} &= \frac{\text{Variation de quantité de réactifs}}{\text{Intervalle de temps}} \\
+&= - \frac{|\text{réactifs}|_{t2} - |\text{réactifs}|_{t1}}{\Delta t}
+\end{split}
+$$
+
+Par convention, on exprime les vitesses de réaction par des valeurs positives. Comme la quantité de réactifs diminue au cours d'une réaction, la variation est donc négative et il faut tenir compte du signe négatif dans la vitesse de consommation des réactifs.
