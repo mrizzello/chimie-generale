@@ -20,9 +20,9 @@ On refroidit un liquide, tout en mesurant régulièrement sa température. Voici
 \vspace{\stretch{1}}
 5. En vous aidant des informations ci-dessous, déterminez quelle est la substance refroidie.  
   Température de solidification  
-  - Acide lactique & 17° C
-  - Anéthole & 20° C
-  - Cyclohexane & 5° C
+  - Acide lactique : 17° C
+  - Anéthole : 20° C
+  - Cyclohexane : 5° C
 \vspace{\stretch{1}}
 6. Quelle est la température de fusion du cyclohexane ? Justifiez.  
 \vspace{\stretch{1}}
