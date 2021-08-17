@@ -7,7 +7,7 @@ output: bookdown::gitbook
 documentclass: book
 classoption:
   - openany
-github-repo: rstudio/bookdown-demo
+github-repo: "mrizzello/chimie-generale"
 description: "Support du cours de chimie générale | Maturité gymnasiale | Gymnase de Nyon-la Côte"
 lang: fr
 mainfont: Optima

@@ -18,16 +18,16 @@ Indiquez si les composés suivants sont des électrolytes ou non électrolytes :
 
 ::: {.Answer data-latex=""}
 
-1. $Ca(NO_3)_2$ : oui > composé ionique dissocié
+1. $Ca(NO_3)_2$ : oui $\rightarrow$ composé ionique dissocié
 
-2. $H_2SO_4$ : oui > acide soluble
+2. $H_2SO_4$ : oui $\rightarrow$ acide soluble
 
-3. $CaCO_3$ : non > insoluble
+3. $CaCO_3$ : non $\rightarrow$ insoluble
 
-4. $HF$ : oui > acide soluble
+4. $HF$ : oui $\rightarrow$ acide soluble
 
-5. $NaOH$ : oui > composé ionique dissocié
+5. $NaOH$ : oui $\rightarrow$ composé ionique dissocié
 
-6. $C_6H_{12}O_6$ (glucose) : non > molécules non dissociées
+6. $C_6H_{12}O_6$ (glucose) : non $\rightarrow$ molécules non dissociées
 
 :::

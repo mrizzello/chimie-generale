@@ -1,0 +1,47 @@
+::: {.Exercise data-latex=""}
+
+Calculer le titre et la molarité des solutions suivantes:
+
+a. 1.2 [g] d'hydroxyde de sodium dans 25 [ml] de solution  
+\vspace{\stretch{1}}
+b. 3.43 [g] d'hydroxyde de barium dans 2.5 [l] de solution  
+\vspace{\stretch{1}}
+c. 1.47 [g] d'acide phosphorique dans 40 [ml] de solution  
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+a. $$
+\begin{split}
+  T_{NaOH} &= \frac{m_{NaOH}}{V_{sol}} = \frac{1.2\ [g]}{25 \cdot 10^{-3}\ [l]} \\
+  &= 48\ [g/l] \\
+  n_{NaOH} &= \frac{m_{NaOH}}{M_{NaOH}} = \frac{1.2\ [g]}{40.008\ [g/mol]} \\
+  &= 3 \cdot 10^{-2}\ [mol] \\
+  C_{NaOH} &= \frac{n_{NaOH}}{V_{sol}} = \frac{3 \cdot 10^{-2}\ [mol]}{25 \cdot 10^{-3}\ [l]} \\
+  &= 1.2\ [M]
+\end{split}
+$$
+b. $$
+\begin{split}
+  T_{Ba(OH)2} &= \frac{m_{Ba(OH)2}}{V_{sol}} = \frac{3.43\ [g]}{2.5\ [l]} \\
+  &= 1.372\ [g/l] \\
+  n_{Ba(OH)2} &= \frac{m_{Ba(OH)2}}{M_{Ba(OH)2}} = \frac{3.43\ [g]}{171.316\ [g/mol]} \\
+  &= 2 \cdot 10^{-2}\ [mol] \\
+  C_{Ba(OH)2} &= \frac{n_{Ba(OH)2}}{V_{sol}} = \frac{2 \cdot 10^{-2}\ [mol]}{2.5\ [l]} \\
+  &= 8 \cdot 10^{-3}\ [M] \\
+\end{split}
+$$
+c. $$
+\begin{split}
+  T_{H_3PO_4} &= \frac{m_{H_3PO_4}}{V_{sol}} = \frac{1.47\ [g]}{40 \cdot 10^{-3}\ [l]} \\
+  &= 36.75\ [g/l] \\
+  n_{H_3PO_4} &= \frac{m_{H_3PO_4}}{M_{H_3PO_4}} = \frac{1.47\ [g]}{97.994\ [g/mol]} \\
+  &= 1.5 \cdot 10^{-2}\ [mol] \\
+  C_{H_3PO_4} &= \frac{n_{H_3PO_4}}{V_{sol}} = \frac{1.5 \cdot 10^{-2}\ [mol]}{40 \cdot 10^{-3}\ [l]} \\
+  &= 0.375\ [M] \\
+\end{split}
+$$
+
+:::

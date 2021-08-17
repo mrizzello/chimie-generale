@@ -1,0 +1,54 @@
+::: {.Exercise data-latex=""}
+
+1. En supposant une dissociation complète, calculez le nombre de moles de cations et d'anions contenus dans chacune des solutions suivantes :
+
+- 20 [ml] de NaCl 0.1 [M]  
+\vspace{\stretch{1}}
+- 30 [ml] de CaCl~2~ 0.3 [M]  
+\vspace{\stretch{1}}
+- 50 [ml] de Al~2~(SO~4~)~3~ 0.2 [M]  
+\vspace{\stretch{1}}
+
+2. On mélange les 3 échantillons. Calculez la molarité de chaque ion dans la solution finale.  
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1.
+    a. $$
+    \begin{split}
+      NaCl &\ce{->} Na^+ + Cl^- \\
+      n_{Na^+} &= C_{NaCl} \cdot V_{NaCl} = 0.1\ [M] \cdot 20 \cdot 10^{-3}\ [l] \\
+      &= 0.002\ [mol] \\
+      n_{Cl^-} &= n_{Na^+} = 0.002\ [mol]
+    \end{split}
+    $$
+    b. $$
+    \begin{split}
+      CaCl_2 &\ce{->} Ca^{2+} + 2\ Cl^- \\
+      n_{Ca^{2+}} &= C_{CaCl_2} \cdot V_{CaCl_2} = 0.3\ [M] \cdot 30 \cdot 10^{-3}\ [l] \\
+      &= 0.009\ [mol] \\
+      n_{Cl^-} &= 2 \cdot n_{Ca^{2+}} = 0.018\ [mol]
+    \end{split}
+    $$
+    c. $$
+    \begin{split}
+      Al_2(SO_4)_3 &\ce{->} 2\ Al^{3+} + 3\ SO_4^{2-} \\
+      n_{Al^{3+}} &= 2 \cdot C_{Al_2(SO_4)_3} \cdot V_{Al_2(SO_4)_3} = 2 \cdot 0.2\ [M] \cdot 50 \cdot 10^{-3}\ [l] \\
+      &= 0.02\ [mol] \\
+      n_{SO_4^{2-}} &= 3 \cdot C_{Al_2(SO_4)_3} \cdot V_{Al_2(SO_4)_3} = 3 \cdot 0.2\ [M] \cdot 50 \cdot 10^{-3}\ [l] \\
+      &= 0.03\ [mol]
+    \end{split}
+    $$
+2. $$
+    \begin{split}
+    V_{final} &= 20\ [ml] + 30\ [ml] + 50\ [ml] = 100\ [ml] = 0.1\ [l] \\
+    |Na^+| &= \frac{0.002\ [mol]}{0.1\ [l]} = 0.02\ [M] \\
+    |Cl^-| &= \frac{0.002\ [mol] + 0.018\ [mol]]}{0.1\ [l]} = 0.2\ [M] \\
+    |Al^{3+}| &= \frac{0.02\ [mol]}{0.1\ [l]} = 0.2\ [M] \\
+    |SO_4^{2-}| &= \frac{0.03\ [mol]}{0.1\ [l]} = 0.3\ [M] \\
+    \end{split}
+   $$
+:::

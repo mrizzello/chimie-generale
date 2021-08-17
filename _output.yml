@@ -1,7 +1,6 @@
 bookdown::gitbook:
   css: style.css
   config:
-    sharing: null
     toc:
       collapse: section
       scroll_highlight: yes
@@ -11,6 +10,16 @@ bookdown::gitbook:
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Publié à l'aide de bookdown</a></li>
     edit: null
     download: ["pdf", "epub"]
+    sharing:
+      github: true
+      facebook: false
+      twitter: false
+      linkedin: false
+      weibo: false
+      instapaper: false
+      vk: false
+      whatsapp: false
+      all: null
   includes:
       in_header: ./html/mathjax-mhchem.html
       after_body: ./html/exercices.html
