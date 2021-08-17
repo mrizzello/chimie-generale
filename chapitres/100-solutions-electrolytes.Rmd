@@ -201,15 +201,135 @@ Le courant électrique dans la solution est dû au déplacement des cations dans
 
 \vspace{\stretch{1}}
 
-```{r dissociation-resume,echo=FALSE,out.width="80%",fig.show="hold",fig.align="center",fig.cap="Résumé dissolution-dissociation"}
+```{r dissociation-resume,echo=FALSE,out.width="100%",fig.show="hold",fig.align="center",fig.cap="Résumé dissolution-dissociation"}
 knitr::include_graphics(c("images/dissociation-resume.png"))
 ```
 
 \newpage
 
-## Exercices supplémentaires
+## La concentration
+
+En chimie, la plupart des réactions ont lieu en solution. Il est donc important de connaître les quantités de réactifs (solutés) que l'on fait réagir. Pour connaître ces quantités, le chimiste utilise la **concentration**.
+
+::: {.tcolorbox data-latex=""}
+
+**Concentration**  
+La concentration d’une solution est le rapport entre la quantité de soluté et la quantité totale d’une solution.
+
+:::
+
+La composition d'une solution est toujours donnée par une **grandeur intensive**, c'est-à-dire qu'elle ne dépend ni du volume, ni de la masse, ni de la quantité de matière de l’échantillon.
+
+La concentration d'une solution peut être définie de différentes manières (concentration molaire, concentration massique, fraction molaire, pourcentage massique, pourcentages volumiques, ...). Nous en décrirons deux, la **molarité** et le **titre**.
+
+### La molarité (concentration molaire)
+
+La concentration molaire (ou molarité) d’un soluté est le nombre de moles de soluté par unité de volume de solution.
+
+$$
+\begin{split}
+  C = \frac{n}{V}
+\end{split}
+\qquad
+\begin{split}
+  n &\text{ : Nombre de moles de soluté en [mol]} \\
+  V &\text{ : Volume de solution en [l]} \\
+  C &\text{ : Concentration du soluté en [mol/l] ou [M]}
+\end{split}
+$$
+
+En chimie, la concentration molaire d'une espèce A est notée entre deux barres verticales, **|A|**. Par exemple, une concentration en acide sulfurique (H~2~SO~4~) de 0.5 [mol/l] sera notée:
+
+$$ |H_2SO_4| = 0.5\ [M] \text{ ou } [mol/l] $$
 
 ```{r, child=c('exe/solutions-electrolytes-30.Rmd')}
+```
+
+\newpage
+
+### Le titre (concentration massique)
+
+La concentration massique (ou titre) d’un soluté est la masse de soluté par unité de volume de solution.
+
+$$
+\begin{split}
+  T = \frac{m}{V}
+\end{split}
+\qquad
+\begin{split}
+  m &\text{ : Masse de soluté en [g]} \\
+  V &\text{ : Volume de solution en [l]} \\
+  T &\text{ : Titre du soluté en [g/l]}
+\end{split}
+$$
+
+Puisque $n = \frac{m}{M}$, alors
+
+$$
+\begin{split}
+  T = C \cdot M
+\end{split}
+\qquad
+\begin{split}
+  T &\text{ : Titre du soluté en [g/l]} \\
+  C &\text{ : Concentration de la solution en [mol/l]} \\
+  M &\text{ : Masse molaire du soluté [g/mol]}
+\end{split}
+$$
+
+### Préparation des solutions
+
+```{r fiole,echo=FALSE,out.width="20%",fig.show="hold",fig.align="center",fig.cap="Fioles jaugées"}
+knitr::include_graphics(c("images/fiole.png"))
+```
+
+Beaucoup des réactifs utilisés en chimie sont sous forme de solution. Ces solutions doivent être achetées ou préparées. Pour de nombreuses applications, la concentration de la solution et sa méthode de préparation doivent être aussi précises que possible.
+
+Les béchers ou erlenmeyers gradués ne sont pas utilisés pour la préparation de solutions précises. Les indications de volume sur ces instruments sont plus décoratives que quantitatives. On utilisera une **fiole jaugée** (ou ballon jaugé) pour préparer une solution.
+
+Une fiole jaugée est un ballon en verre à fond plat avec un col étroit. Le col présente une ligne de calibration unique indiquant un volume précis pour une température donnée.
+
+Les ballons jaugés sont fabriqués dans des tailles différentes pouvant contenir différents volumes (25 ml, 50 ml, 100 ml, ...).
+
+Pour préparer une solution en laboratoire, généralement, le volume et la concentration de la solution sont donnés.
+
+\newpage
+
+#### Préparation par dissolution
+
+On peut préparer une solution par **dissolution**, c'est-à-dire en dissolvant le soluté dans le solvant. Les étapes sont les suivantes:
+
+```{r preparation-1,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Préparation d'une solution par dissolution"}
+knitr::include_graphics(c("images/preparation-1.png"))
+```
+
+- Peser le soluté.
+- Remplir la fiole jaugée à moitié avec de l'eau distillée.
+- Transférer le soluté dans la fiole et dissoudre.
+- Compléter jusqu'au trait de jauge avec de l'eau distillée.
+
+#### Préparation par dilution
+
+Les solutions utilisées en laboratoire sont souvent achetées ou préparées sous forme de solutions concentrées (appelées **solutions stock**). A partir de ces solutions, on peut obtenir des solutions de concentrations plus faibles en ajoutant du solvant. Ce procédé est appelé **dilution**.
+
+```{r preparation-2,echo=FALSE,out.width="33%",fig.show="hold",fig.align="center",fig.cap="Préparation d'une solution par dilution"}
+knitr::include_graphics(c("images/preparation-2.png"))
+```
+
+Lors d'une dilution, **le volume de solution augmente mais la quantité de soluté reste la même**. On peut généraliser le calcul lors de la dissolution d'une solution par la relation suivante :
+
+$$
+C_1 \cdot V_1 = C_2 \cdot V_2
+$$
+
+\newpage
+
+```{r, child=c('exe/solutions-electrolytes-40.Rmd')}
+```
+
+## Exercices supplémentaires
+
+```{r, child=c('exe/solutions-electrolytes-50.Rmd')}
 ```
 
 \newpage

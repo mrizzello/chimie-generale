@@ -1,0 +1,22 @@
+::: {.Exercise data-latex=""}
+
+A quel volume doit-on diluer 50 [ml] de H~2~SO~4~ 3.5 [M] pour obtenir une solution de H~2~SO~4~ 2 [M]?
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+$$
+\begin{split}
+  C_1 \cdot V_1 = C_2 \cdot V_2
+\end{split}
+\qquad
+\begin{split}
+  V_2 &= \frac{C_1 \cdot V_1}{C_2} \\
+  &= \frac{3.5\ [M] \cdot 50 \cdot 10^{-3}\ [l] }{2\ [M]} \\
+  &= 0.0875\ [l] = 87.5\ [ml]
+\end{split}
+$$
+
+:::
