@@ -1,0 +1,29 @@
+::: {.Exercise data-latex=""}
+
+Ecrivez l'expression de la vitesse de réaction pour chacune des réactions suivantes en fonction de chaque réactif et produit :
+
+1. $4\ NH_3 + 3\ O_2 \rightarrow 2\ N_2 + 6\ H_2O$
+\vspace{\stretch{1}}
+2. $2\ O_3 \rightarrow 3\ O_2$
+\vspace{\stretch{1}}
+3. $CO_2 + 2\ H_2O \rightarrow CH_4 + 2\ O_2$
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. $$
+\text{vitesse} = - \frac{\Delta |NH_3|}{4 \cdot \Delta t} = - \frac{\Delta |O_2|}{3 \cdot \Delta t} = \frac{\Delta |N_2|}{2 \cdot \Delta t} = \frac{\Delta |H_2O|}{6 \cdot \Delta t}
+$$
+
+2. $$
+\text{vitesse} = - \frac{\Delta |O_3|}{2 \cdot \Delta t} = \frac{\Delta |O_2|}{3 \cdot \Delta t}
+$$
+
+3. $$
+\text{vitesse} = - \frac{\Delta |CO_2|}{\Delta t} = - \frac{\Delta |H_2O|}{2 \cdot \Delta t} = \frac{\Delta |CH_4|}{\Delta t} = \frac{\Delta |O_2|}{2 \cdot \Delta t}
+$$
+
+
+:::

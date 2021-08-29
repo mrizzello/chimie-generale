@@ -1,0 +1,27 @@
+::: {.Exercise data-latex=""}
+
+Lors de la formation du méthane à partir de CO~2~ et d'eau :
+
+$$ CO_2 + 2\ H_2O \rightarrow CH_4 + 2\ O_2 $$
+
+En laboratoire, un chimiste mesure que la vitesse de formation de CH~4~ est de 0.27 $\left[\frac{mol}{l \cdot s}\right]$.
+
+1. A quelle vitesse le CO~2~ est-il consommée ?
+\vspace{\stretch{1}}
+
+2. A quelle vitesse le dioxygène se forme-t-il ?
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+$$
+\text{vitesse} = - \frac{\Delta |CO_2|}{\Delta t} = - \frac{\Delta |H_2O|}{2 \cdot \Delta t} = \frac{\Delta |CH_4|}{\Delta t} = \frac{\Delta |O_2|}{2 \cdot \Delta t} = 0.27 \left[\frac{mol}{l \cdot s}\right]
+$$
+
+1. $v_{CO_2} = v_{CH_4} = 0.27 \left[\frac{mol}{l \cdot s}\right]$
+
+2. $v_{O_2} = 2 \cdot v_{CH_4} = 0.54 \left[\frac{mol}{l \cdot s}\right]$
+
+:::

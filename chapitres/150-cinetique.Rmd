@@ -11,8 +11,6 @@ La **cinétique chimique** est l'étude de la vitesse à laquelle les réactions
 
 Connaître la vitesse d'une réaction peut être primordial : la rapidité d'action d'un médicament peut faire la différence entre la vie et la mort et le temps nécessaire à la synthèse d'un produit peut faire la différence entre gains et pertes commerciales.
 
-Si une équation équilibrée est essentielle pour effectuer des calculs stœchiométriques, elle ne nous dit rien sur la vitesse à laquelle la réaction se déroule. Toutes les réactions ont des vitesses différentes dans des conditions différentes et des règles ont été établies afin de pouvoir exprimer ces vitesses.
-
 ::: {.tcolorbox data-latex=""}
 
 **Vitesse de réaction**  
@@ -20,32 +18,125 @@ La vitesse de réaction est la variation de la quantité de réactifs ou de prod
 
 :::
 
+Si une équation équilibrée est essentielle pour effectuer des calculs stœchiométriques, elle ne nous dit rien sur la vitesse à laquelle la réaction se déroule. Toutes les réactions ont des vitesses différentes dans des conditions différentes et des règles ont été établies afin de pouvoir exprimer ces vitesses.
+
 Considérons l'équation générale qui représente une réaction chimique :
 
 $$
 \text{réactifs} \rightarrow \text{produits}
 $$
 
-Une réaction chimique se déroule de manière progressive. En observant dans le temps la diminution de la quantité de réactifs ou l'augmentation de la quantité de produits, nous pouvons suivre l'évolution d'une réaction. Au début, il n'y a que des particules de réactifs et pas de particules de produits. Par la suite, les particules de produits apparaissent au fur qu'elles sont formées et les particules de réactifs disparaissent au fur et à mesure qu'elles sont consommées. Mesurer la vitesse d'une réaction c'est mesurer les changements de quantité de réactifs ou de produits par unité de temps.
+Une réaction chimique se déroule de manière progressive. En observant dans le temps la diminution de la quantité de réactifs ou l'augmentation de la quantité de produits, nous pouvons suivre l'évolution d'une réaction. Au début, il n'y a que des particules de réactifs et pas de particules de produits. Par la suite, les particules de produits apparaissent au fur qu'elles sont formées et les particules de réactifs disparaissent au fur et à mesure qu'elles sont consommées.
 
 \newpage
 
-Mesurer la vitesse de réaction de formation des produits :
+```{r vitesse-reaction-1-a,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Variation des quantités de substances en fonction du temps"}
+knitr::include_graphics(c("images/vitesse-reaction-1-a.png"))
+```
+
+Mesurer la vitesse d'une réaction c'est mesurer les changements de quantité de réactifs ou de produits par unité de temps.
+
+$$
+\text{Vitesse de réaction} = \frac{\Delta \text{concentration}}{\Delta \text{temps}}
+$$
 
 $$
 \begin{split}
-\text{Vitesse de réaction} &= \frac{\text{Variation de quantité de produits}}{\text{Intervalle de temps}} \\
-&= \frac{|\text{produits}|_{t2} - |\text{produits}|_{t1}}{\Delta t}
+\text{vitesse} &= - \frac{\Delta |\text{réactifs}|}{\Delta \text{temps}} \\[1em]
+\Delta \text{temps} &= t_2 - t_1 \\
+\Delta |\text{réactifs}| &= |\text{réactifs}|_2 - |\text{réactifs}|_1 \\[1em]
+(\text{signe négatif} &\Rightarrow \text{consommation})
+\end{split}
+\qquad
+\begin{split}
+\text{vitesse} &= + \frac{\Delta |\text{produits}|}{\Delta \text{temps}} \\[1em]
+\Delta \text{temps} &= t_2 - t_1 \\
+\Delta |\text{produits}| &= |\text{produits}|_2 - |\text{produits}|_1 \\[1em]
+(\text{signe négatif} &\Rightarrow \text{production})
 \end{split}
 $$
 
-Mesurer la vitesse de réaction de consommation des réactifs :
+La quantité de réactifs diminue toujours avec le temps, le terme $\Delta |\text{réactifs}|$ sera toujours plus petit que zéro. Comme on exprime les vitesses de réaction par des valeur positives, la vitesse de consommation d'un réactif est précédée d'un signe négatif pour que la vitesse soit positive.
+
+## Exprimer la vitesse d'une réaction
+
+Il faut également tenir compte des proportions des réactifs et des produits lorsque l'on exprime une vitesse de réaction. Prenons une réaction dans laquelle les coefficients stœchiométriques sont différents :
+
+$$
+A + 3\ B \rightarrow 2\ D
+$$
+
+La concentration de B diminue trois fois plus vite que la concentration de A et la concentration de D, deux fois plus vite. On peut donc généraliser l'influence des coefficients stœchiométriques. En considérant la réaction générique suivante :
+
+$$
+a\ A + b\ B \rightarrow c\ C + d\ D
+$$
+
+\newpage
+
+On peut écrire : 
+
+$$
+\text{vitesse} = - \frac{\Delta |A|}{a \cdot \Delta t} = - \frac{\Delta |B|}{b \cdot \Delta t} = \frac{\Delta |C|}{c \cdot \Delta t} = \frac{\Delta |D|}{d \cdot \Delta t}
+$$
+
+```{r, child=c('exe/cinetique-10.Rmd')}
+```
+
+```{r, child=c('exe/cinetique-20.Rmd')}
+```
+
+\newpage
+
+La plupart des réactions ralentissent au fur et à mesure que les réactifs sont consommés. La vitesse réelle d'une réaction varie continuellement avec l'avancement de la réaction. On peut donc définir la **vitesse instantanée** d'une réaction comme la pente de la tangente à la courbe de concentration en fonction du temps à n'importe quel instant.
+
+```{r vitesse-reaction-1-b,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Détermination graphique de la vitesse instantanée"}
+knitr::include_graphics(c("images/vitesse-reaction-1-b.png"))
+```
+
+La vitesse instantanée mesurée au début de la réaction (t = 0) est appelée **vitesse initiale**.
+
+## Lois cinétiques
+
+Il n’existe pas de loi générale qui donne la vitesse d’une réaction en fonction de la concentration. Chaque réaction est un cas particulier dont la vitesse dépend de différents facteurs. La théorie des collisions permet d’expliquer intuitivement que la vitesse d’une réaction dépend de la concentration (ou de la pression) et de la température. Si la concentration des réactifs augmente, le nombre de chocs augmente aussi ainsi que le nombre de chocs efficaces. La réaction est donc favorisée et se déroule plus rapidement.
+
+## Influence de la concentration (loi de vitesse)
+
+La loi de vitesse de réaction permet d'exprimer quantitativement l'influence de la concentration sur la vitesse de réaction. En considérant la réaction générique suivante, à une température donnée :
+
+$$
+a\ A + b\ B \rightarrow c\ C + d\ D
+$$
+
+La loi des vitesses de réaction s'exprime de la façon suivante:
 
 $$
 \begin{split}
-\text{Vitesse de réaction} &= \frac{\text{Variation de quantité de réactifs}}{\text{Intervalle de temps}} \\
-&= - \frac{|\text{réactifs}|_{t2} - |\text{réactifs}|_{t1}}{\Delta t}
+\text{v} = k \cdot |A|^m \cdot |B|^n
+\end{split}
+\qquad\qquad
+\begin{split}
+v &\text{ : vitesse de la réaction en } [mol \cdot l^{-1} \cdot s^{-1}] \\
+k &\text{ : constante de vitesse} \\
+|A|, |B| &\text{ : concentration des réactifs en } [mol \cdot l^{-1}] \\
+m, n &\text{ : ordres partiels de la réaction} \\
+m+n &\text{ : ordre global de la réaction}
 \end{split}
 $$
 
-Par convention, on exprime les vitesses de réaction par des valeurs positives. Comme la quantité de réactifs diminue au cours d'une réaction, la variation est donc négative et il faut tenir compte du signe négatif dans la vitesse de consommation des réactifs.
+Les différents termes de la loi de vitesse (constante de vitesse et ordres de réaction) doivent être déterminés par l'expérience.
+
+- k est une constante de proportionnalité et est spécifique à la réaction étudiée pour une température donnée.
+- La valeur de cette constante varie en fonction des conditions de température, pression, surface de contact, etc, et ses unités dépendent de la somme des ordres partiels.
+- Une constante de vitesse plus petite indique une réaction plus lente, tandis qu'une constante de vitesse plus grande indique une réaction plus rapide.
+- **L’ordre global de la réaction est égal à la somme des ordres partiels.**
+- Les ordres partiels peuvent être entiers ou fractionnaires.
+- Il n’existe aucune relation entre les ordres partiels et les coefficients stoechiométriques de la réaction.
+
+\newpage
+
+```{r, echo=FALSE}
+if (knitr::is_latex_output()) {
+  knitr::asis_output('\\section{Solutions des exercices} \\shipoutAnswer')
+}
+```
