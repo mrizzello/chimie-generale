@@ -148,7 +148,7 @@ $$ \begin{split}
   \begin{split}
   \ce{Al2(SO4)3 ->C[H2O] 2 Al^{3+} + 3 SO_{4}^{2-} } \\
   \ce{AgCl ->C[H2O] AgCl v } \\
-  \text{\scriptsize (AgCl n'est pas soluble dans l'eau)}
+  {\scriptsize \text{(AgCl n'est pas soluble dans l'eau)}}
   \end{split} $$
 
 - On écrit la formule brute du soluté.
