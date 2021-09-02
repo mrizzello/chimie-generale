@@ -26,15 +26,20 @@ $$
 \text{réactifs} \rightarrow \text{produits}
 $$
 
-Une réaction chimique se déroule de manière progressive. En observant dans le temps la diminution de la quantité de réactifs ou l'augmentation de la quantité de produits, nous pouvons suivre l'évolution d'une réaction. Au début, il n'y a que des particules de réactifs et pas de particules de produits. Par la suite, les particules de produits apparaissent au fur qu'elles sont formées et les particules de réactifs disparaissent au fur et à mesure qu'elles sont consommées.
+Une réaction chimique se déroule de manière progressive. On peut suivre l'évolution d'une réaction en observant la diminution de la quantité de réactifs ou l'augmentation de la quantité de produits dans le temps. Au début, il n'y a que des particules de réactifs et pas de particules de produits. Par la suite, les particules de produits apparaissent au fur qu'elles sont formées et les particules de réactifs disparaissent au fur et à mesure qu'elles sont consommées.
 
-\newpage
+## Exprimer la vitesse d'une réaction
+
+Mesurer la vitesse d'une réaction c'est mesurer les changements de quantité de réactifs ou de produits par unité de temps. Il existe différentes façons de déterminer la vitesse d'une réaction. La méthode choisie dépendra généralement des réactifs et des produits impliqués, et de la facilité avec laquelle il est possible de mesurer leurs changements. On peut mesurer :
+
+- la masse, la vitesse sera alors exprimée en g/s ou g/min (par exemple),
+- le volume, la vitesse sera alors exprimée en cm^3^/s ou cm^3^/min (par exemple),
+- la quantité de matière, la vitesse sera alors exprimée en mol/s ou mol/min (par exemple),
+- la concentration, la vitesse sera alors exprimée en mol&middot;l^-1^&middot;s^-1^ ou mol&middot;l^-1^&middot;min^-1^ (par exemple),
 
 ```{r vitesse-reaction-1-a,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Variation des quantités de substances en fonction du temps"}
 knitr::include_graphics(c("images/vitesse-reaction-1-a.png"))
 ```
-
-Mesurer la vitesse d'une réaction c'est mesurer les changements de quantité de réactifs ou de produits par unité de temps.
 
 $$
 \text{Vitesse de réaction} = \frac{\Delta \text{concentration}}{\Delta \text{temps}}
@@ -52,13 +57,11 @@ $$
 \text{vitesse} &= + \frac{\Delta |\text{produits}|}{\Delta \text{temps}} \\[1em]
 \Delta \text{temps} &= t_2 - t_1 \\
 \Delta |\text{produits}| &= |\text{produits}|_2 - |\text{produits}|_1 \\[1em]
-(\text{signe négatif} &\Rightarrow \text{production})
+(\text{signe positif} &\Rightarrow \text{production})
 \end{split}
 $$
 
 La quantité de réactifs diminue toujours avec le temps, le terme $\Delta |\text{réactifs}|$ sera toujours plus petit que zéro. Comme on exprime les vitesses de réaction par des valeur positives, la vitesse de consommation d'un réactif est précédée d'un signe négatif pour que la vitesse soit positive.
-
-## Exprimer la vitesse d'une réaction
 
 Il faut également tenir compte des proportions des réactifs et des produits lorsque l'on exprime une vitesse de réaction. Prenons une réaction dans laquelle les coefficients stœchiométriques sont différents :
 
@@ -66,13 +69,15 @@ $$
 A + 3\ B \rightarrow 2\ D
 $$
 
-La concentration de B diminue trois fois plus vite que la concentration de A et la concentration de D, deux fois plus vite. On peut donc généraliser l'influence des coefficients stœchiométriques. En considérant la réaction générique suivante :
+La concentration de B diminue trois fois plus vite que la concentration de A et la concentration de D, deux fois plus vite. On peut donc généraliser l'influence des coefficients stœchiométriques.
+
+\newpage
+
+En considérant la réaction générique suivante :
 
 $$
 a\ A + b\ B \rightarrow c\ C + d\ D
 $$
-
-\newpage
 
 On peut écrire : 
 
@@ -88,7 +93,7 @@ $$
 
 \newpage
 
-La plupart des réactions ralentissent au fur et à mesure que les réactifs sont consommés. La vitesse réelle d'une réaction varie continuellement avec l'avancement de la réaction. On peut donc définir la **vitesse instantanée** d'une réaction comme la pente de la tangente à la courbe de concentration en fonction du temps à n'importe quel instant.
+La plupart des réactions ralentissent au fur et à mesure que les réactifs sont consommés. La **vitesse instantanée** d'une réaction varie continuellement avec l'avancement de la réaction. On peut donc définir la vitesse instantanée d'une réaction comme la pente de la tangente à la courbe de concentration en fonction du temps à n'importe quel instant.
 
 ```{r vitesse-reaction-1-b,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Détermination graphique de la vitesse instantanée"}
 knitr::include_graphics(c("images/vitesse-reaction-1-b.png"))
@@ -98,15 +103,19 @@ La vitesse instantanée mesurée au début de la réaction (t = 0) est appelée 
 
 ## Lois cinétiques
 
-Il n’existe pas de loi générale qui donne la vitesse d’une réaction en fonction de la concentration. Chaque réaction est un cas particulier dont la vitesse dépend de différents facteurs. La théorie des collisions permet d’expliquer intuitivement que la vitesse d’une réaction dépend de la concentration (ou de la pression) et de la température. Si la concentration des réactifs augmente, le nombre de chocs augmente aussi ainsi que le nombre de chocs efficaces. La réaction est donc favorisée et se déroule plus rapidement.
+Il n’existe pas de loi générale qui donne la vitesse d’une réaction en fonction de la concentration. Chaque réaction est un cas particulier dont la vitesse dépend de différents facteurs. La théorie des collisions permet d’expliquer intuitivement que la vitesse d’une réaction dépend de la concentration (ou de la pression) et de la température. On peut dire de manière générale que **plus la fréquence des collisions entre réactifs est élevée, plus la vitesse de réaction est augmente**. Si la concentration des réactifs augmente, le nombre de chocs augmente aussi ainsi que le nombre de chocs efficaces.
 
-## Influence de la concentration (loi de vitesse)
+L'influence de la concentration et de la température concerne avant tout les réactions qui ont lieu en solution ou à l’état gazeux (homogène). Pour les réactions en milieux hétérogènes (solide-gaz, solide-liquide), la vitesse dépend surtout de la surface de contact.
+
+### Influence de la concentration (loi de vitesse)
 
 La loi de vitesse de réaction permet d'exprimer quantitativement l'influence de la concentration sur la vitesse de réaction. En considérant la réaction générique suivante, à une température donnée :
 
 $$
 a\ A + b\ B \rightarrow c\ C + d\ D
 $$
+
+\newpage
 
 La loi des vitesses de réaction s'exprime de la façon suivante:
 
@@ -124,14 +133,31 @@ m+n &\text{ : ordre global de la réaction}
 \end{split}
 $$
 
-Les différents termes de la loi de vitesse (constante de vitesse et ordres de réaction) doivent être déterminés par l'expérience.
-
-- k est une constante de proportionnalité et est spécifique à la réaction étudiée pour une température donnée.
-- La valeur de cette constante varie en fonction des conditions de température, pression, surface de contact, etc, et ses unités dépendent de la somme des ordres partiels.
-- Une constante de vitesse plus petite indique une réaction plus lente, tandis qu'une constante de vitesse plus grande indique une réaction plus rapide.
+- k est une constante spécifique à la réaction étudiée et est déterminée expérimentalement.
+- Une constante de vitesse plus petite indique une réaction plus lente, une constante de vitesse plus grande indique une réaction plus rapide.
+- Les ordres partiels peuvent être entiers ou fractionnaires et sont déterminés expérimentalement.
 - **L’ordre global de la réaction est égal à la somme des ordres partiels.**
-- Les ordres partiels peuvent être entiers ou fractionnaires.
-- Il n’existe aucune relation entre les ordres partiels et les coefficients stoechiométriques de la réaction.
+
+### Influence de la température (loi d'Arrhénius)
+
+La température a généralement un effet important sur la vitesse de réaction. De manière empirique, on dit qu'autour de la température ambiante, une augmentation de 10° C double la vitesse de réaction.
+
+La relation entre la constante de vitesse d'une réaction et la température peut être exprimée par la loi d'Arrhénius :
+
+$$
+\begin{split}
+k = A \cdot e^{\frac{-E_a}{R \cdot T}}
+\end{split}
+\qquad\qquad
+\begin{split}
+k &\text{ : constante de vitesse} \\
+T &\text{ : température en } [K] \\
+R &\text{ : constante des gaz parfaits en } [J \cdot mol^{-1} \cdot K^{-1}] \\
+E_a &\text{ : énergie d'activation en } [J/mol]
+\end{split}
+$$
+
+
 
 \newpage
 

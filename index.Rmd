@@ -35,3 +35,5 @@ Ce projet est ouvert aux contributions et aux suggestions. Si vous souhaitez par
 
 ![Creative Commons License](images/by-nc-sa.png)  
 Cet ouvrage est placé sous licence Creative Commons [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr). 
+
+En tant que ressource éducative libre, vous pouvez modifier ou distribuer ce document selon les conditions énoncées par la licence Creative Commons. Développé à l'origine dans le cadre du cours de chimie générale pour l'obtention du certificat de maturité gymnasiale du gymnase de Nyon - la Côte.
