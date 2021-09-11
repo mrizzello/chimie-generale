@@ -26,4 +26,4 @@ rmd_files:
   # - "chapitres/190-electrochimie.Rmd"
   # - "chapitres/200-thermochimie.Rmd"
   # - "chapitres/210-chimie-organique.Rmd"
-  # - "chapitres/00-references.Rmd"
+  - "chapitres/00-references.Rmd"
