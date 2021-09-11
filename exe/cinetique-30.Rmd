@@ -1,0 +1,30 @@
+::: {.Exercise data-latex=""}
+
+La réaction $A + B \rightarrow C$
+
+obéit à la loi de vitesse suivante : $v = k \cdot |A| \cdot |B|^2$
+
+1. Si la concentration de A est doublée, comment la vitesse change-t-elle ? La constante de vitesse changera-t-elle ?
+\vspace{\stretch{1}}
+2. Quels sont les ordres partiels de A et de B ? Quel est l'ordre global de la réaction ?
+\vspace{\stretch{1}}
+3. En considérant la seconde comme unité de temps, quelles est l'unité de la constante de vitesse ?
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. 
+    a. Si la concentration de A est doublée, la vitesse de réaction double.
+    b. La constante de vitesse ne changera pas (puisqu'elle est constante).
+2. 
+    a. Ordre partiel de A = 1. Ordre partiel de B = 2. 
+    b. Ordre global de la réaction = 1 + 2 = 3.
+3. $$
+\begin{split}
+v\ [\frac{mol}{s}] &= k\ [?] \cdot |A|\ [\frac{mol}{l}] \cdot |B|^2 \ [\frac{mol^2}{l^2}] \\
+[?] &= [\frac{mol}{s}] \cdot [\frac{l}{mol}] \cdot [\frac{l^2}{mol^2}] = [\frac{l^3}{s \cdot mol^2}]
+\end{split}
+$$
+:::

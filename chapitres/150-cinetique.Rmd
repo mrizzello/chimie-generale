@@ -101,9 +101,21 @@ knitr::include_graphics(c("images/vitesse-reaction-1-b.png"))
 
 La vitesse instantanée mesurée au début de la réaction (t = 0) est appelée **vitesse initiale**.
 
+## Énergie d'activation
+
+Il existe une barrière d'énergie entre les réactifs et les produits qui doit être surmontée pour qu'une réaction ait lieu. La hauteur de cette barrière représente la quantité d'énergie que doivent posséder les particules pour que des collisions efficaces se produisent. Cette quantité d'énergie est appelée **énergie d'activation** (E~a~). La valeur de l'énergie d'activation détermine la vitesse de réaction.
+
+```{r chaleur-Ea-1,echo=FALSE,out.width="33%",fig.show="hold",fig.align="center",fig.cap="Profil énergétique et énergie d'activation"}
+knitr::include_graphics(c("images/chaleur-Ea-1.png"))
+```
+
+Plusieurs actions peuvent être menées pour aider les réactifs à franchir cette barrière énergétique et ainsi accélérer une réaction.
+
 ## Lois cinétiques
 
-Il n’existe pas de loi générale qui donne la vitesse d’une réaction en fonction de la concentration. Chaque réaction est un cas particulier dont la vitesse dépend de différents facteurs. La théorie des collisions permet d’expliquer intuitivement que la vitesse d’une réaction dépend de la concentration (ou de la pression) et de la température. On peut dire de manière générale que **plus la fréquence des collisions entre réactifs est élevée, plus la vitesse de réaction est augmente**. Si la concentration des réactifs augmente, le nombre de chocs augmente aussi ainsi que le nombre de chocs efficaces.
+Il n’existe pas de loi générale qui donne la vitesse d’une réaction en fonction de la concentration. Chaque réaction est un cas particulier dont la vitesse dépend de différents facteurs (état physique des réactifs, concentration, température et présence de catalyseurs).
+
+La théorie des collisions permet d’expliquer intuitivement que la vitesse d’une réaction dépend de la concentration (ou de la pression) et de la température. On peut dire de manière générale que **plus la fréquence des collisions entre réactifs est élevée, plus la vitesse de réaction est augmente**.
 
 L'influence de la concentration et de la température concerne avant tout les réactions qui ont lieu en solution ou à l’état gazeux (homogène). Pour les réactions en milieux hétérogènes (solide-gaz, solide-liquide), la vitesse dépend surtout de la surface de contact.
 
@@ -115,13 +127,11 @@ $$
 a\ A + b\ B \rightarrow c\ C + d\ D
 $$
 
-\newpage
-
 La loi des vitesses de réaction s'exprime de la façon suivante:
 
 $$
 \begin{split}
-\text{v} = k \cdot |A|^m \cdot |B|^n
+v = k \cdot |A|^m \cdot |B|^n
 \end{split}
 \qquad\qquad
 \begin{split}
@@ -138,6 +148,11 @@ $$
 - Les ordres partiels peuvent être entiers ou fractionnaires et sont déterminés expérimentalement.
 - **L’ordre global de la réaction est égal à la somme des ordres partiels.**
 
+```{r, child=c('exe/cinetique-30.Rmd')}
+```
+
+\newpage
+
 ### Influence de la température (loi d'Arrhénius)
 
 La température a généralement un effet important sur la vitesse de réaction. De manière empirique, on dit qu'autour de la température ambiante, une augmentation de 10° C double la vitesse de réaction.
@@ -151,15 +166,51 @@ k = A \cdot e^{\frac{-E_a}{R \cdot T}}
 \qquad\qquad
 \begin{split}
 k &\text{ : constante de vitesse} \\
-T &\text{ : température en } [K] \\
+A &\text{ : facteur empirique en rapport avec le nombre de collisions par seconde } \\
+E_a &\text{ : énergie d'activation en } [J/mol] \\
 R &\text{ : constante des gaz parfaits en } [J \cdot mol^{-1} \cdot K^{-1}] \\
-E_a &\text{ : énergie d'activation en } [J/mol]
+T &\text{ : température en } [K]
 \end{split}
 $$
 
+### Les catalyseurs
 
+Un autre facteur permettant d'influencer la vitesse d'une réaction est l'ajout d'un catalyseur.
+
+::: {.tcolorbox data-latex=""}
+
+**Catalyseur**  
+Un catalyseur est une substance qui accélère une réaction chimique mais qui n'est pas consommé dans la transformation.
+
+:::
+
+Un catalyseur n'affecte pas le niveau d'énergie des réactifs ou des produits. Il augmente la vitesse de réaction :  
+- soit en abaissant l'énergie d'activation,  
+- soit en orientant les réactifs de manière appropriée.
+
+Le catalyseur est utilisé en faible quantité et n'apparaît pas dans l'équation du bilan de la réaction.
+
+Par exemple, des métaux tels que le nickel, le palladium et le platine catalysent l'hydrogénation des liaisons doubles carbone-carbone des huiles végétales pour produire de la margarine. Sans le métal catalyseur, la réaction ne se produit pas.
+
+```{r catalyse-H2,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Hydrogénation de liaisons doubles carbone-carbone"}
+knitr::include_graphics(c("images/catalyse-H2.png"))
+```
+
+On distingue différents types de catalyseurs:
+
+- Les catalyseurs homogènes - qui se trouve dans la même phase que les réactifs,
+- les catalyseurs hétérogènes - qui se trouvent dans une phase différente que les réactifs,
+- les catalyseurs enzymatiques - lorsque le catalyseur est une enzyme (biochimie),
+- l'auto-catalyse - lorsqu'un des produits de la réaction est le catalyseur de la réaction.
 
 \newpage
+
+Dans le domaine de l'industrie, les exemples de catalyseurs sont très nombreux. Dans le domaine du vivant, on pourra citer :
+
+- La levure qu'on ajoute au pain et qui catalyse de la levée du pain.
+- Certaines plantes carnivores produisent des substances qui accélèrent leur digestion.
+- Les réactions chimiques qui se déroulent dans le corps humain dépendent principalement de catalyseurs enzymatiques.
+- Les zéolithes (aluminosilicates cristallins) pour leur réseau micro-poreux à l'intérieur duquel se déroulent certaines réactions catalytiques.
 
 ```{r, echo=FALSE}
 if (knitr::is_latex_output()) {
