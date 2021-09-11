@@ -30,12 +30,12 @@ Une réaction chimique se déroule de manière progressive. On peut suivre l'év
 
 ## Exprimer la vitesse d'une réaction
 
-Mesurer la vitesse d'une réaction c'est mesurer les changements de quantité de réactifs ou de produits par unité de temps. Il existe différentes façons de déterminer la vitesse d'une réaction. La méthode choisie dépendra généralement des réactifs et des produits impliqués, et de la facilité avec laquelle il est possible de mesurer leurs changements. On peut mesurer :
+Mesurer la vitesse d'une réaction c'est mesurer les changements de quantité de réactifs ou de produits par unité de temps. Il existe différentes façons de déterminer la vitesse d'une réaction. La méthode choisie dépendra généralement des réactifs et des produits impliqués et de la facilité avec laquelle il est possible de mesurer leurs changements. On peut mesurer :
 
-- la masse, la vitesse sera alors exprimée en g/s ou g/min (par exemple),
-- le volume, la vitesse sera alors exprimée en cm^3^/s ou cm^3^/min (par exemple),
-- la quantité de matière, la vitesse sera alors exprimée en mol/s ou mol/min (par exemple),
-- la concentration, la vitesse sera alors exprimée en mol&middot;l^-1^&middot;s^-1^ ou mol&middot;l^-1^&middot;min^-1^ (par exemple),
+- la **masse** - la vitesse sera alors exprimée en g/s ou g/min (p. ex.),
+- le **volume** - la vitesse sera alors exprimée en cm^3^/s ou cm^3^/min (p. ex.),
+- la **quantité de matière** - la vitesse sera alors exprimée en mol/s ou mol/min (p. ex.),
+- la **concentration** - la vitesse sera alors exprimée en mol&middot;l^-1^&middot;s^-1^ ou mol&middot;l^-1^&middot;min^-1^ (p. ex.).
 
 ```{r vitesse-reaction-1-a,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Variation des quantités de substances en fonction du temps"}
 knitr::include_graphics(c("images/vitesse-reaction-1-a.png"))
@@ -63,7 +63,7 @@ $$
 
 La quantité de réactifs diminue toujours avec le temps, le terme $\Delta |\text{réactifs}|$ sera toujours plus petit que zéro. Comme on exprime les vitesses de réaction par des valeur positives, la vitesse de consommation d'un réactif est précédée d'un signe négatif pour que la vitesse soit positive.
 
-Il faut également tenir compte des proportions des réactifs et des produits lorsque l'on exprime une vitesse de réaction. Prenons une réaction dans laquelle les coefficients stœchiométriques sont différents :
+Il faut également tenir compte des proportions des réactifs et des produits lorsqu'on exprime une vitesse de réaction. Prenons une réaction dans laquelle les coefficients stœchiométriques sont différents :
 
 $$
 A + 3\ B \rightarrow 2\ D
