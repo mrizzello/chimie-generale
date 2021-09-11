@@ -198,19 +198,24 @@ knitr::include_graphics(c("images/catalyse-H2.png"))
 
 On distingue différents types de catalyseurs:
 
-- Les catalyseurs homogènes - qui se trouve dans la même phase que les réactifs,
-- les catalyseurs hétérogènes - qui se trouvent dans une phase différente que les réactifs,
-- les catalyseurs enzymatiques - lorsque le catalyseur est une enzyme (biochimie),
-- l'auto-catalyse - lorsqu'un des produits de la réaction est le catalyseur de la réaction.
+- Les catalyseurs **homogènes** - le catalyseur se trouve dans la même phase que les réactifs.
+- Les catalyseurs **hétérogènes** - le catalyseur se trouve dans une phase différente que les réactifs.
+- Les catalyseurs **enzymatiques** - le catalyseur est une enzyme (biochimie).
+- L'**auto-catalyse** - un des produits de la réaction est le catalyseur de la réaction.
 
 \newpage
 
-Dans le domaine de l'industrie, les exemples de catalyseurs sont très nombreux. Dans le domaine du vivant, on pourra citer :
+Les enzymes sont des catalyseurs naturels responsables d'innombrables réactions biochimiques essentielles. De nombreux procédés chimiques industriels se basent également sur les réactions catalysées et la fabrication de catalyseurs est elle-même un processus industriel.
 
-- La levure qu'on ajoute au pain et qui catalyse de la levée du pain.
-- Certaines plantes carnivores produisent des substances qui accélèrent leur digestion.
-- Les réactions chimiques qui se déroulent dans le corps humain dépendent principalement de catalyseurs enzymatiques.
-- Les zéolithes (aluminosilicates cristallins) pour leur réseau micro-poreux à l'intérieur duquel se déroulent certaines réactions catalytiques.
+Table: (\#tab:tab-catalyseurs) Exemples de procédés catalytiques et leurs catalyseurs
+
+| procédé | catalyseur |
+| ------- | ------- |
+| synthèse de l'ammoniac | fer |
+| fabrication d'acide sulfurique | oxyde d'azote (II), platine |
+| craquage du pétrole | zéolites |
+| hydrogénation d'hydrocarbures insaturés | nickel, platine ou palladium |
+| oxydation d'hydrocarbures dans les gaz d'échappement | oxyde de cuivre (II), oxyde de vanadium (V), platine, palladium |
 
 ```{r, echo=FALSE}
 if (knitr::is_latex_output()) {
