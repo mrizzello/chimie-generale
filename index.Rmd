@@ -21,7 +21,7 @@ link-citations: yes
 
 # Préambule {-}
 
-**Cours de chimie Générale** édité par le gymnase de Nyon la Côte.
+**Cours de chimie Générale** édité par les enseignants du gymnase de Nyon la Côte.
 
 Ce manuel fournit aux étudiants (OS et DF) les connaissances de base nécessaires en chimie pour l'obtention du certificat de maturité gymnasiale. Il sert de support de cours pour l'accompagnement des leçons et des travaux pratiques proposés en classe.
 
