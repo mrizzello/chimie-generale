@@ -23,8 +23,8 @@ obéit à la loi de vitesse suivante : $v = k \cdot |A| \cdot |B|^2$
     b. Ordre global de la réaction = 1 + 2 = 3.
 3. $$
 \begin{split}
-v\ [\frac{mol}{s}] &= k\ [?] \cdot |A|\ [\frac{mol}{l}] \cdot |B|^2 \ [\frac{mol^2}{l^2}] \\
-[?] &= [\frac{mol}{s}] \cdot [\frac{l}{mol}] \cdot [\frac{l^2}{mol^2}] = [\frac{l^3}{s \cdot mol^2}]
+v\ [\frac{mol}{l \cdot s}] &= k\ [?] \cdot |A|\ [\frac{mol}{l}] \cdot |B|^2 \ [\frac{mol^2}{l^2}] \\
+[?] &= [\frac{mol}{l \cdot s}] \cdot [\frac{l}{mol}] \cdot [\frac{l^2}{mol^2}] = [\frac{l^2}{s \cdot mol^2}]
 \end{split}
 $$
 :::
