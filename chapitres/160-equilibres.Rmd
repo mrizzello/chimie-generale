@@ -1,3 +1,197 @@
-# Les équilibres chimiques
+# L'équilibre chimique
 
-En cours de rédaction ...
+::: {.objectives data-latex=""}
+
+- Expliquer la notion d'équilibre chimique et comment elle est liée aux vitesses de réaction.
+- Écrire l'expression de la constante d'équilibre associée à une équation chimique.
+- Prédire le sens d'une réaction à partir de la constante d'équilibre et des concentrations des réactifs et produits.
+- Calculer les concentrations d'équilibre à partir de la constante d'équilibre et de concentrations.
+- Utiliser le principe de Le Châtelier pour prévoir l'évolution d'un système chimique à l'équilibre.
+
+:::
+
+Dans le cas d'une **réaction irréversible**, les réactifs sont consommés et les produits sont produits. C'est ce que nous avons appelé la **réaction directe**. Dans le cas d'une **réaction réversible**, les produits peuvent également être consommés pour produire des réactifs. C'est ce que nous avons appelé la **réaction indirecte**. Un **équilibre chimique** est un état de la réaction dans lequel les réactions directe et indirecte se produisent à la même vitesse et où les concentrations des réactifs et des produits ne varient pas avec le temps.
+
+::: {.tcolorbox data-latex=""}
+
+**Équilibre chimique**  
+​Un équilibre chimique est un état dans lequel la vitesse de la réaction directe est égale à celle de la réaction indirecte.
+
+:::
+
+Considérons par exemple la décomposition du tétroxyde de diazote (N~2~O~4~) en dioxyde d'azote (NO~2~). Ce processus, comme beaucoup de réactions chimiques, est réversible :
+
+$$
+  N_2O_4\ {}_{(g)} \leftrightharpoons 2\ NO_2\ {}_{(g)}
+$$
+
+N~2~O~4~ est un gaz incolore, alors que NO~2~ est un gaz de couleur brun orangé.
+
+Pour étudier cet équilibre, nous allons considérer la cinétique de la réaction. Les réactions directe et indirecte s'effectuent en une seule étape, nous pouvons donc écrire les lois de vitesse de chaque réaction :
+
+$$
+\begin{split}
+  v_{directe} = k_{directe} \cdot |N_2O_4|
+\end{split}
+\qquad
+\text{ et }
+\qquad
+\begin{split}
+  v_{indirecte} = k_{indirecte} \cdot |NO_2|^2
+\end{split}
+$$
+
+```{r equilibres-concentrations-1,echo=FALSE,out.width="33%",fig.show="hold",fig.align="center",fig.cap="Profiles de la concentration en fonction du temps de la réaction directe et indirecte"}
+knitr::include_graphics(c("images/equilibres-concentrations-1a.png","images/equilibres-concentrations-1b.png"))
+```
+
+Le terme équilibre est généralement employé pour décrire un état sans changement. Ce type d'équilibre est un état d'**équilibre statique** puisqu'il caractérise l'état d'un système immobile. Cependant, un système à l'équilibre n'est pas toujours sans changement, comme, justement, un équilibre chimique.
+
+À l'échelle macroscopique, on ne voit pas de changement alors qu'à l'échelle sub-microscopique les réactions directes et indirectes continuent d'avoir lieu. **Les vitesses directe et indirecte sont non-nulles et égales**.
+
+```{r equilibres-vitesses-1,echo=FALSE,out.width="33%",fig.show="hold",fig.align="center",fig.cap="Profiles de la vitesse de réaction en fonction du temps de la réaction directe et indirecte"}
+knitr::include_graphics(c("images/equilibres-vitesses-1a.png","images/equilibres-vitesses-1b.png"))
+```
+
+Un état d'équilibre chimique est appelé état d'**équilibre dynamique** car, bien que les concentrations de réactifs et de produits ne varient pas avec le temps, les réactions directe et indirecte continuent de se produire.
+
+## Le quotient de réaction
+
+Au milieu du XIX^e^ siècle, Cato Guldberg et Peter Waage ont étudié les équilibres chimiques d'une grande variété de réactions. Ils ont observé qu'à température constante, dans un mélange à l'équilibre de réactifs et de produits, quelles que soient les concentrations initiales, le quotient de réaction a une valeur constante.
+
+Le **quotient de réaction** (Q~r~) est une grandeur qui permet de caractériser un système chimique. Il est défini comme le quotient du produit des concentrations des produits et du produit des concentrations des réactifs, chaque concentration étant portée à une puissance égale au coefficient stœchiométrique correspondant de l'équation chimique équilibrée. Cette grandeur nous donne une information sur les quantités relatives de produits et de réactifs lors d'une réaction à un instant _t_.
+
+Considérons un système chimique à l'équilibre, dont les espèces sont toutes dissoutes dans l'eau et dont l'équation de la réaction est la suivante :
+
+$$
+  a\ A_{(aq)} + b\ B_{(aq)} \leftrightharpoons c\ C_{(aq)} + d\ D_{(aq)}
+$$
+
+Par définition, le quotient de réaction de cette transformation s'écrit :
+
+$$
+  Q_{r}(t) = \frac{|C|_{(t)}^{c} \cdot |D|_{(t)}^{d}}{|A|_{(t)}^{a} \cdot |B|_{(t)}^{b}}
+$$
+
+Les concentrations des espèces dissoutes sont exprimées en mole par litre (mol/l).
+
+## La constante d'équilibre
+
+À l'équilibre, les concentrations des réactifs et des produits ne varient plus ce qui implique que le quotient de réaction ne varie plus, lui non plus. Il devient constant. On appellera la valeur de Q~r~ à l'équilibre, **constante d'équilibre** (K~e~).
+
+$$
+  Q_{r}(eq) = K_{e} = \frac{|C|_{(eq)}^{c} \cdot |D|_{(eq)}^{d}}{|A|_{(eq)}^{a} \cdot |B|_{(eq)}^{b}}
+$$
+
+- Comme le quotient de réaction, la constante d'équilibre n'a pas de dimension et s'exprime sans unité.
+- On ne tient pas compte des substances à l'état solide et liquide dans l'expression de Q~r~ et de K~e~ (seuls les espèces dissoutes et les gaz).
+- Une constante d'équilibre élevée (K~e~ > 10^3^) indique que les produits sont favorisés à l'équilibre.
+- Une constante d'équilibre faible (K~e~ < 10^-3^) indique que les réactifs sont favorisés à l'équilibre.
+- K~e~ ne dépend que de la température.
+
+La valeur de K~e~ peut donc être calculée lorsque l'on a mesuré les concentrations des réactifs et produits à l'équilibre pour une température donnée. Pour simplifier l'écriture, à l'équilibre, on pourra écrire :
+
+$$
+  K_{e} = \frac{|C|^{c} \cdot |D|^{d}}{|A|^{a} \cdot |B|^{b}}
+$$
+
+## Évolution spontanée et principe de Le Châtelier
+
+Le **principe de Le Châtelier** permet de prédire le sens de la réaction qui sera favorisé lorsqu'on modifie les conditions d'un système à l'équilibre.
+
+> "Lorsque les modifications extérieures apportées à un système physico-chimique en équilibre provoquent une évolution vers un nouvel état d'équilibre, l'évolution s'oppose aux perturbations qui l'ont engendrée et en modère l'effet."
+>
+> --- Henry Louis Le Châtelier
+
+Dit autrement : si on modifie les conditions d'un système en équilibre, il réagit de façon à s'opposer aux changements qu'on lui impose jusqu'à l'établissement d'un nouvel état d'équilibre.
+
+Pour modifier un équilibre, on peut agir sur différents facteurs :
+
+- L'addition d'un réactif ou d'un produit.
+- L'élimination d'un réactif ou d'un produit.
+- Un changement de volume ou de pression du système  
+_(pour les systèmes contenant des réactifs et des produits gazeux)_.
+- Un changement de température.
+
+### Ajout/élimination d'un réactif ou d'un produit
+
+Prenons en exemple la réaction du diazote avec le dihydrogène gazeux pour former l'ammoniac gazeux.
+
+$$
+N_2\ _{(g)} + 3\ H_2(g)\ _{(g)} \leftrightharpoons 2\ NH_3\ _{(g)}
+$$
+
+Selon le principe de Le Châtelier :
+
+- L'ajout d'un réactif ou l'élimination d'un produit entraîne un déplacement de l'équilibre vers la droite.
+- L'ajout d'un produit ou l'élimination d'un réactif entraîne un déplacement de l'équilibre vers la gauche.
+
+```{r equilibres-concentrations-2,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Effet de l'ajout/élimination de réactifs ou de produits sur le sens de la réaction"}
+knitr::include_graphics(c("images/equilibres-concentrations-2a.png","images/equilibres-concentrations-2b.png"))
+```
+
+- Lorsqu'on ajoute une substance, la réaction déplace l'équilibre de manière à consommer une partie de cette substance.
+- Lorsqu'on élimine une substance, la réaction déplace l'équilibre de manière à produire d'avantage de cette substance.
+
+L'ajout ou le retrait d'une espèce d'une réaction à l'équilibre ne change pas la valeur de la constante d'équilibre K~e~. Le rapport des concentrations rejoindra la même valeur qu'avant la modification.
+
+### Influence du volume et de la pression
+
+Prenons en exemple la décomposition du tétroxyde de diazote (N~2~O~4~) en dioxyde d'azote (NO~2~).
+
+$$
+  N_2O_4\ {}_{(g)} \leftrightharpoons 2\ NO_2\ {}_{(g)}
+$$
+
+Imaginons un cylindre fermé avec un piston mobile comme couvercle. L'équilibre ci-dessus se produit à l'intérieur du cylindre. En déplaçant le piston, on change le volume du système et on modifie les concentrations des réactifs et des produits. Si nous poussons sur le piston, l'équilibre sera perturbé et se déplacera dans la direction qui minimise l'effet de cette perturbation.
+
+```{r equilibres-pressions-1,echo=FALSE,out.width="75%",fig.show="hold",fig.align="center",fig.cap="Effet de la diminution du volume (augmentation de la pression) sur l'équilibre"}
+knitr::include_graphics(c("images/equilibres-pressions-1.png"))
+```
+
+La réaction globale présente moins de moles de gaz du côté des produits. L'équilibre sera donc déplacé vers la gauche.
+
+**RAPPEL :**
+
+- Une augmentation du volume diminue la pression ($V \uparrow$ - $P \downarrow$).
+- Une diminution du volume augmente la pression ($V \downarrow$ - $P \uparrow$).
+
+En résumé :
+
+**Une diminution du volume de la réaction favorise la réaction (directe ou indirecte) qui diminue le nombre total de moles de gaz**.
+
+**Une augmentation du volume de la réaction favorise la réaction (directe ou indirecte) qui augmente le nombre total de moles de gaz**.
+
+Si le même nombre de moles de gaz sont de chaque côté de l'équation chimique, une variation de volume (ou de pression) n'aura pas d'influence sur l'équilibre chimique.
+
+### Influence de la température
+
+Un changement de concentration ou de volume peut déplacer un équilibre chimique mais il ne change pas la valeur de la constante d'équilibre. La température, par contre, influence un état d'équilibre chimique car elle modifie la valeur de la constante d'équilibre.
+
+Dans la réaction suivante, le sens direct est endothermique (la réaction absorbe de la chaleur).
+
+$$
+  \text{chaleur} + N_2O_4\ {}_{(g)} \leftrightharpoons 2\ NO_2\ {}_{(g)}
+$$
+
+Si nous considérons la chaleur comme un réactif, nous pouvons appliquer le principe de Le Châtelier pour prédire dans quel sens sera déplacé l'équilibre si nous ajoutons ou retirons de la chaleur.
+
+L'augmentation de la température (apport de chaleur) déplacera la réaction dans le sens direct, car la chaleur apparaît du côté du réactif. La diminution de la température (retrait de chaleur) déplacera la réaction dans le sens indirect.
+
+En résumé :
+
+**Une augmentation de la température favorise le sens endothermique (direct ou indirect) d'un équilibre chimique.**
+
+**Une diminution de la température favorise le sens exothermique (direct ou indirect) d'un équilibre chimique.**
+
+```{r equilibres-temperature-1,echo=FALSE,out.width="75%",fig.show="hold",fig.align="center",fig.cap="Effet de la diminution du volume (augmentation de la pression) sur l'équilibre"}
+knitr::include_graphics(c("images/equilibres-temperature-1.png"))
+```
+
+### Effet d'un catalyseur sur un équilibre chimique
+
+Un catalyseur accélère une réaction en abaissant l'énergie d'activation de la réaction. Cependant il abaisse l'énergie d'activation de la réaction directe ainsi que de la réaction indirecte, et ceci dans la même mesure. La présence d'un catalyseur ne modifie donc pas la constante d'équilibre, ni ne modifie les quantités de matières de réactifs et de produits.
+
+**L'ajout d'un catalyseur à une réaction ne modifie pas un équilibre chimique.**
+
+Si un catalyseur est ajouté à un mélange réactionnel qui n'est pas à l'équilibre le mélange atteindra l'équilibre plus rapidement.
