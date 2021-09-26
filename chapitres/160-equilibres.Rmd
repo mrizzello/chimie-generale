@@ -84,7 +84,6 @@ $$
 $$
 
 - Comme le quotient de réaction, la constante d'équilibre n'a pas de dimension et s'exprime sans unité.
-- On ne tient pas compte des substances à l'état solide et liquide dans l'expression de Q~r~ et de K~e~ (seuls les espèces dissoutes et les gaz).
 - Une constante d'équilibre élevée (K~e~ > 10^3^) indique que les produits sont favorisés à l'équilibre.
 - Une constante d'équilibre faible (K~e~ < 10^-3^) indique que les réactifs sont favorisés à l'équilibre.
 - K~e~ ne dépend que de la température.
@@ -94,6 +93,78 @@ La valeur de K~e~ peut donc être calculée lorsque l'on a mesuré les concentra
 $$
   K_{e} = \frac{|C|^{c} \cdot |D|^{d}}{|A|^{a} \cdot |B|^{b}}
 $$
+
+### Équilibre homogène et hétérogène
+
+Lorsque toutes les substances participant à la réaction sont dans la même phase, on parlera d'**équilibre homogène** et lorsque toutes les substances participant à la réaction sont dans des phases différentes, on parlera d'**équilibre hétérogène**.
+
+**Lors du calcul des constantes d'équilibre, les solides et les liquides purs ne sont pas pris en compte car leur concentration ne change pas au cours de la réaction.**
+
+### Constantes d'équilibre et phase gazeuse
+
+Nous avons exprimé jusqu'à présent les constantes d'équilibre en utilisant la concentration. Cependant, pour les réactions en phase gazeuse, nous pouvons exprimer les constantes d'équilibre en utilisant les pressions partielles des gaz impliqués.
+
+D'après la loi des gaz parfaits, la pression d'un gaz est directement proportionnelle à sa concentration (pour un volume et une température constants). Dans un mélange de gaz, la pression partielle d'un gaz composant le mélange est la pression avec laquelle il contribue à la pression totale.
+
+Nous respirons un air qui est composé de 4/5 de diazote (N~2~) et de 1/5 de dioxygène (O~2~). Le diazote est responsable pour 4/5 de la pression atmosphérique que nous subissons et le dioxygène en est responsable pour 1/5. Il en est de même pour la pression dans les pneus de votre vélo.
+
+$$
+  a\ A_{(g)} + b\ B_{(g)} \leftrightharpoons c\ C_{(g)} + d\ D_{(g)}
+$$
+
+$$
+  K_{e} = \frac{P_C^{c} \cdot P_D^{d}}{P_A^{a} \cdot P_B^{b}}
+$$
+
+```{r, child=c('exe/equilibres-10.Rmd')}
+```
+
+## Équilibres chimiques et stœchiométrie
+
+En cherchant à mesurer la constante d'équilibre de la décomposition de l'iodure d'hydrogène, on remplit un ballon sous vide de 2 [l] avec 0.2 [mol] de $HI$ gazeux et on laisse la réaction se dérouler à 453° C.
+
+$$
+  2\ HI\ _{(g)} \leftrightharpoons H_2\ _{(g)} + I_2\ _{(g)}
+$$
+
+À l'équilibre, on mesure une concentration en iodure d'hydrogène, $|HI|_{eq}$ = 0.078 [M].
+
+On commence par calculer la concentration initiale en iodure d'hydrogène, $|HI|_{0}$.
+
+$$
+  |HI|_0 = \frac{0.2\ [mol]}{2\ [l]} = 0.1\ [M]
+$$
+
+On peut ensuite établir un tableau des variations :
+
+| Concentrations [M] | $2\ HI\ _{(g)}$ | $\leftrightharpoons$ | $H_2\ _{(g)}$ | $I_2\ _{(g)}$ |
+| -----------------: | :-------------: | :------------------: | :-----------: | :-----------: |
+| initiale           |       0.1       |                      |       0       |       0       |
+| variation          |      - 2x       |                      |      + x      |      + x      |
+| équilibre          |    0.1 - 2x     |                      |       x       |       x       |
+
+On connaît la valeur de la concentration de $HI$ à l'équilibre. On peut donc résoudre l'équation pour x :
+
+$$
+  |HI|_{eq} = 0.1\ [M] - 2 \cdot x = 0.078\ [M] \quad \rightarrow \quad x = 0.011\ [M]
+$$
+
+Par conséquent, les concentrations à l'équilibre sont :
+
+$$
+  |H_2|_{eq} = |I_2|_{eq} = 0.011\ [M] \quad \text{et} \quad |HI|_{eq} = 0.078\ [M]
+$$
+
+On peut donc calculer la valeur de la constante d'équilibre de la réaction à 453° C.
+
+$$
+  K_{e} = \frac{|H_2|_{eq} \cdot |I_2|_{eq}}{|HI|_{eq}^2} = \frac{0.011 \cdot 0.011}{0.078^2} = 0.02\ [-]\ \text{à 453° C}
+$$
+
+\clearpage
+
+```{r, child=c('exe/equilibres-20.Rmd')}
+```
 
 ## Évolution spontanée et principe de Le Châtelier
 
@@ -113,12 +184,14 @@ Pour modifier un équilibre, on peut agir sur différents facteurs :
 _(pour les systèmes contenant des réactifs et des produits gazeux)_.
 - Un changement de température.
 
+\clearpage
+
 ### Ajout/élimination d'un réactif ou d'un produit
 
 Prenons en exemple la réaction du diazote avec le dihydrogène gazeux pour former l'ammoniac gazeux.
 
 $$
-N_2\ _{(g)} + 3\ H_2(g)\ _{(g)} \leftrightharpoons 2\ NH_3\ _{(g)}
+N_2\ _{(g)} + 3\ H_2\ _{(g)} \leftrightharpoons 2\ NH_3\ _{(g)}
 $$
 
 Selon le principe de Le Châtelier :
@@ -144,6 +217,8 @@ $$
 $$
 
 Imaginons un cylindre fermé avec un piston mobile comme couvercle. L'équilibre ci-dessus se produit à l'intérieur du cylindre. En déplaçant le piston, on change le volume du système et on modifie les concentrations des réactifs et des produits. Si nous poussons sur le piston, l'équilibre sera perturbé et se déplacera dans la direction qui minimise l'effet de cette perturbation.
+
+\clearpage
 
 ```{r equilibres-pressions-1,echo=FALSE,out.width="75%",fig.show="hold",fig.align="center",fig.cap="Effet de la diminution du volume (augmentation de la pression) sur l'équilibre"}
 knitr::include_graphics(c("images/equilibres-pressions-1.png"))
@@ -178,6 +253,8 @@ Si nous considérons la chaleur comme un réactif, nous pouvons appliquer le pri
 
 L'augmentation de la température (apport de chaleur) déplacera la réaction dans le sens direct, car la chaleur apparaît du côté du réactif. La diminution de la température (retrait de chaleur) déplacera la réaction dans le sens indirect.
 
+\clearpage
+
 En résumé :
 
 **Une augmentation de la température favorise le sens endothermique (direct ou indirect) d'un équilibre chimique.**
@@ -195,3 +272,17 @@ Un catalyseur accélère une réaction en abaissant l'énergie d'activation de l
 **L'ajout d'un catalyseur à une réaction ne modifie pas un équilibre chimique.**
 
 Si un catalyseur est ajouté à un mélange réactionnel qui n'est pas à l'équilibre le mélange atteindra l'équilibre plus rapidement.
+
+```{r, child=c('exe/equilibres-30.Rmd')}
+```
+
+\clearpage
+
+```{r, child=c('exe/equilibres-40.Rmd')}
+```
+
+```{r, echo=FALSE}
+if (knitr::is_latex_output()) {
+  knitr::asis_output('\\section{Solutions des exercices} \\shipoutAnswer')
+}
+```

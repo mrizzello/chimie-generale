@@ -1,0 +1,24 @@
+::: {.Exercise data-latex=""}
+
+$$
+  C\ _{(s)} + 2\ H_2\ _{(g)} \leftrightharpoons CH_4\ _{(g)} + \text{chaleur}
+$$
+
+Quels sont les effets des changements énoncés ci-dessous sur cet équilibre chimique  ?
+
+a. Une augmentation de température. (justifiez)
+\vspace{\stretch{1}}
+b. Une augmentation de la pression en diminuant le volume. (justifiez)
+\vspace{\stretch{1}}
+c. Permettre au CH~4~ de s'échapper en continu du réacteur abritant la réaction. (justifiez)
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+a. L'équilibre favorise la production de réactifs en favorisant le sens exothermique de la réaction.
+b. L'équilibre favorise la production de produits pour diminuer le nombre totale de moles de gaz.
+c. L'équilibre favorise la production de produits de manière à produire plus de CH~4~.
+
+:::
