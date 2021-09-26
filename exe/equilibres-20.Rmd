@@ -1,0 +1,76 @@
+::: {.Exercise data-latex=""}
+
+On étudie la réaction entre l'ammoniac et le dioxygène
+
+$$
+  4\ NH_3\ _{(g)} + 7\ O_2\ _{(g)} \leftrightharpoons 2\ N_2O_4\ _{(g)} + 6\ H_2O\ _{(g)}
+$$
+
+On remplit un ballon avec 2.4 [M] de NH~3~ et 2.4 [M] de O~2~ à une température donnée. La réaction se déroule et à l'équilibre on mesure une concentration en N~2~O~4~ égale à 0.134 [M]. Calculer K~e~.
+
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+$$
+\begin{split}
+  \text{Concentrations [M]} &\\
+  \text{initiale} &\\
+  \text{variation} &\\
+  \text{équilibre} &
+\end{split}
+\quad
+\begin{split}
+  4\ NH_3\ _{(g)} &\\
+  2.4 &\\
+  -4\ x &\\
+  2.4 - 4x &
+\end{split}
+\quad
+\begin{split}
+  7\ O_2\ _{(g)} &\\
+  2.4 &\\
+  -7\ x &\\
+  2.4 - 7x &
+\end{split}
+\quad
+\begin{split}
+  \leftrightharpoons &\\
+  ~ &\\
+  ~ &\\
+  ~ &
+\end{split}
+\quad
+\begin{split}
+  2\ N_2O_4\ _{(g)}\\
+  0 &\\
+  +2\ x &\\
+  2x &
+\end{split}
+\quad
+\begin{split}
+  6\ H_2O\ _{(g)}\\
+  0 &\\
+  +6\ x &\\
+  6x &
+\end{split}
+$$
+
+$$
+  \begin{split}
+  |N_2O_4|_{eq} &= 2x = 0.134\ [M] \\
+  \Rightarrow x &= 0.067\ [M] \\
+  |NH_3|_{eq} &= 2.4 – 4x = 2.4 – 4 \cdot 0.067 = 2.13\ [M] \\ 
+  |O_2|_{eq} &= 2.4 – 7x = 2.4 – 7 \cdot 0.067 = 1.93\ [M] \\ 
+  |H_2O|_{eq} &= 6x = 6 \cdot 0.067 = 0.402\ [M]
+  \end{split}
+$$
+
+$$
+  K_{e} = \frac{|N_2O_4|^{2}_{eq} \cdot |H_2O|^{6}_{eq}}{|NH_3|^{4}_{eq} \cdot |O_2|^{7}_{eq}}
+  = \frac{(0.134)^2 \cdot (0.402)^{6}}{(2.13)^{4} \cdot (1.93)^{7}} = 3.69 \cdot 10^{−8}\ [-]
+$$
+
+:::

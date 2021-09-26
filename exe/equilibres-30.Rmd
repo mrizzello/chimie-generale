@@ -1,0 +1,21 @@
+::: {.Exercise data-latex=""}
+
+$$
+  2\ SO_2\ _{(g)} + O_2\ _{(g)} \leftrightharpoons 2\ SO_3\ _{(g)} + \text{chaleur}
+$$
+
+Dans la réaction ci-dessus, on favorise le rendement en SO~3~ :
+
+a. lorsque l'on augmente ou abaisse la pression ? (justifiez)
+\vspace{\stretch{1}}
+b. lorsque l'on augmente ou abaisse la température ? (justifiez)
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+a. L'équilibre est favorisé à droite en augmentant la pression pour réduire le nombre total de moles de gaz.
+b. L'équilibre est favorisé à droite en abaissant la température pour favoriser le sens exothermique.
+
+:::
