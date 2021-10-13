@@ -174,7 +174,7 @@ Le **principe de Le Châtelier** permet de prédire le sens de la réaction qui 
 >
 > --- Henry Louis Le Châtelier
 
-Dit autrement : si on modifie les conditions d'un système en équilibre, il réagit de façon à s'opposer aux changements qu'on lui impose jusqu'à l'établissement d'un nouvel état d'équilibre.
+Dit autrement : si on modifie les conditions d'un système à l'équilibre, il réagit de façon à s'opposer aux changements qu'on lui impose jusqu'à l'établissement d'un nouvel état d'équilibre.
 
 Pour modifier un équilibre, on peut agir sur différents facteurs :
 
