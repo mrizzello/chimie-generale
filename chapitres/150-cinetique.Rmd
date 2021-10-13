@@ -1,7 +1,9 @@
-# Vitesses de réaction
+# Cinétique chimique
 
 ::: {.objectives data-latex=""}
 
+- Esquisser le graphique de la variation de la concentration des réactifs et/ou produits en fonction du temps.
+- Expliquer les notions de vitesse moyenne, vitesse instantanée et vitesse initiale.
 - Exprimer et déterminer la vitesse d'une réaction chimique.
 - Identifier les facteurs qui influencent la vitesse de réaction.
 
