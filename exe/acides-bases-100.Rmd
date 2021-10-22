@@ -1,0 +1,15 @@
+::: {.Exercise data-latex=""}
+
+a. Quelle est la concentration des ions H~3~O^+^ dans une solution d'acide nitrique 0.01 [M] ?
+\vspace{\stretch{1}}
+b. Qu’en sera-t-il de la concentration en H~3~O^+^ dans une solution d'acide nitreux 0.01 [M] ?
+_(une réponse qualitative suffit)_
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+Answer
+
+:::

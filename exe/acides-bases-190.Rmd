@@ -1,0 +1,14 @@
+::: {.Exercise data-latex=""}
+
+a. Quelle masse de $\ce{HCl}$ faut-il dissoudre dans 100 mL d'eau distillée pour obtenir un pH de 1.3 ?
+\vspace{\stretch{1}}
+b. Que devient ce pH si l'on ajoute encore 100 mL d'eau à cette solution ?
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+Answer
+
+:::

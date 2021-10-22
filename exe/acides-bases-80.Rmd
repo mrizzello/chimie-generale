@@ -1,0 +1,20 @@
+::: {.Exercise data-latex=""}
+
+Donnez la base la plus forte dans chacune des paires ci-dessous :
+
+a. $\ce{NO3-}$ et $\ce{Br-}$
+\vspace{\stretch{1}}
+b. $\ce{NO2-}$ et $\ce{NO3-}$
+\vspace{\stretch{1}}
+c. $\ce{CN-}$ et $\ce{ClO-}$
+\vspace{\stretch{1}}
+d. $\ce{F-}$ et $\ce{ClO2-}$
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+Answer
+
+:::

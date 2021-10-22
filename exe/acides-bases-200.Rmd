@@ -1,0 +1,12 @@
+::: {.Exercise data-latex=""}
+
+On ajoute 250 mL d'eau à 20 mL d'une solution de base forte, de pH = 12. Quel sera le pH de la solution obtenue ?
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+Answer
+
+:::

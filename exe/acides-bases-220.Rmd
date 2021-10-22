@@ -1,0 +1,12 @@
+::: {.Exercise data-latex=""}
+
+Calculez le pH d'une solution de $\ce{KOH}$ $2 \cdot 10^{-3}$ M.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+Answer
+
+:::

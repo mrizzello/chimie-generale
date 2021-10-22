@@ -1,0 +1,12 @@
+::: {.Exercise data-latex=""}
+
+Calculez la concentration des ions H~3~O^+^ dans une solution de LiOH 0.025 [M].
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+Answer
+
+:::

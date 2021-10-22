@@ -1,0 +1,20 @@
+::: {.Exercise data-latex=""}
+
+Pour chaque réaction et selon la définition de Brønsted-Lowry, déterminez l’acide, la base, l’acide conjugué et la base conjuguée. 
+
+a. $\ce{H2CO3(aq) + H2O(l) <=> H3O+(aq) + HCO3-(aq)}$
+\vspace{\stretch{1}}
+b. $\ce{C5H5N(aq) + H2O(l) <=> OH-(aq) + C5H5NH+(aq)}$
+\vspace{\stretch{1}}
+c. $\ce{CH3NH2(aq) + H2O(l) <=> CH3NH3+(aq) + OH-(aq)}$
+\vspace{\stretch{1}}
+d. $\ce{HBr(aq) + H2O(l) <=> H3O+(aq) + Br-(aq)}$
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+Answer
+
+:::

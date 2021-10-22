@@ -1,0 +1,20 @@
+::: {.Exercise data-latex=""}
+
+Indiquez si chacun des ions suivants est une base faible, un acide faible ou un ion inerte :
+
+a. $\ce{NO3-}$
+\vspace{\stretch{1}}
+b. $\ce{NO2-}$
+\vspace{\stretch{1}}
+c. $\ce{Ca^{2+}}$
+\vspace{\stretch{1}}
+d. $\ce{CH3NH3+}$
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+Answer
+
+:::

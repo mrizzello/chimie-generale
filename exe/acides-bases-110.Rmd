@@ -1,0 +1,12 @@
+::: {.Exercise data-latex=""}
+
+En considérant que les deux protons de l'acide sulfurique sont entièrement dissociés, quelle est la concentration des H~3~O^+^ et de OH^-^ dans une solution d'acide sulfurique 0.005 [M].
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+Answer
+
+:::

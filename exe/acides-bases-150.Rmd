@@ -1,0 +1,12 @@
+::: {.Exercise data-latex=""}
+
+Calculez le pH d'une solution d'hydroxyde de potassium 0.001 [M].
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+Answer
+
+:::

@@ -1,0 +1,12 @@
+::: {.Exercise data-latex=""}
+
+Quel volume d'eau faut-il ajouter à 25 mL d'une solution de $\ce{HNO3}$ de pH = 2.5 pour amener ce pH à 3 ?
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+Answer
+
+:::

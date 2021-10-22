@@ -1,0 +1,16 @@
+::: {.Exercise data-latex=""}
+
+Donnez les équations montrant la nature acide et la nature basique d’une solution aqueuse des ampholytes suivants : 
+
+a. $\ce{H2PO4-}$
+\vspace{\stretch{1}}
+b. $\ce{HCO3-}$
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+Answer
+
+:::

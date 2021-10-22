@@ -1,0 +1,20 @@
+::: {.Exercise data-latex=""}
+
+Calculez le pH des solutions suivantes :
+
+a. $\ce{HI}$ 0.025 [mol/L].
+\vspace{\stretch{1}}
+b. $\ce{Ca(OH)2}$ 0.003 [mol/L].
+\vspace{\stretch{1}}
+c. $\ce{NaOH}$ 2 [g/L].
+\vspace{\stretch{1}}
+d. 0.315 mg de $\ce{HNO3}$ dans 10 mL de solution
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+Answer
+
+:::
