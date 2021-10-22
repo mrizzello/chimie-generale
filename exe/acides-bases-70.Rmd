@@ -1,0 +1,20 @@
+::: {.Exercise data-latex=""}
+
+Classez les solutions données par ordre croissant selon leur concentration en ion hydronium :
+
+a. $\ce{HCl}$ 0.10 [mol/L]
+\vspace{\stretch{1}}
+b. $\ce{HF}$ 0.10 [mol/L]
+\vspace{\stretch{1}}
+c. $\ce{HClO}$ 0.10 [mol/L]
+\vspace{\stretch{1}}
+d. $\ce{CH3COOH}$ 0.10 [mol/L]
+
+
+:::
+
+::: {.Answer data-latex=""}
+
+Answer
+
+:::

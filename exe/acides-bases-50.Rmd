@@ -1,0 +1,16 @@
+::: {.Exercise data-latex=""}
+
+Soit les deux acides suivants et leur constante d’acidité :
+
+- $\ce{HF}$, $K_a = 3.5 \cdot 10^{-4}$
+- $\ce{HClO}$, $K_a = 2.9 \cdot 10^{-8}$
+
+Indiquez si la base conjuguée la plus forte est \ce{F-} ou \ce{ClO-}.
+
+:::
+
+::: {.Answer data-latex=""}
+
+Answer
+
+:::

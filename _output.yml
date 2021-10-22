@@ -9,7 +9,7 @@ bookdown::gitbook:
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Publié à l'aide de bookdown</a></li>
     edit: null
-    download: ["pdf", "epub"]
+    download: ["pdf"]
     sharing:
       github: true
       facebook: false
@@ -29,4 +29,3 @@ bookdown::pdf_book:
     in_header: preamble.tex
   latex_engine: xelatex
   keep_tex: yes
-bookdown::epub_book: default

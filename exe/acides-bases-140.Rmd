@@ -1,0 +1,16 @@
+::: {.Exercise data-latex=""}
+
+Calculez la concentration d'une solution :
+
+a. de $\ce{HNO3}$ de pH 1.6.
+\vspace{\stretch{1}}
+b. obtenue en diluant 5 fois une solution de $\ce{HCl}$ initialement au pH 3.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+Answer
+
+:::

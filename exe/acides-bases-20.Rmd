@@ -1,0 +1,20 @@
+::: {.Exercise data-latex=""}
+
+Écrivez la formule de la base conjuguée de chaque acide suivant :
+
+a. $\ce{HCl}$
+\vspace{\stretch{1}}
+b. $\ce{H2SO3}$
+\vspace{\stretch{1}}
+c. $\ce{CH3COOH}$
+\vspace{\stretch{1}}
+d. $\ce{HF}$
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+Answer
+
+:::

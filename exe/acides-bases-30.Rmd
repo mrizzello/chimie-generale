@@ -1,0 +1,20 @@
+::: {.Exercise data-latex=""}
+
+Écrivez la formule de l'acide conjugué de chacune des bases suivantes :
+
+a. $\ce{ClO4-}$
+\vspace{\stretch{1}}
+b. $\ce{NH3}$
+\vspace{\stretch{1}}
+c. $\ce{HSO4-}$
+\vspace{\stretch{1}}
+d. $\ce{CO3^{2-}}$
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+Answer
+
+:::

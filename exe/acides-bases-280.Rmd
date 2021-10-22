@@ -1,0 +1,12 @@
+::: {.Exercise data-latex=""}
+
+Déterminez la concentration en OH^-^, le pH et le pOH d'une solution de carbonate 0.125 mol/L.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+Answer
+
+:::

@@ -1,0 +1,12 @@
+::: {.Exercise data-latex=""}
+
+Déterminez la concentration en OH^-^ et le pH d'une solution de méthylamine ($\ce{CH3NH2}$) 0.33 mol/L.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+Answer
+
+:::

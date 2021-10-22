@@ -1,0 +1,12 @@
+::: {.Exercise data-latex=""}
+
+Une solution d’acide faible $\ce{HA}$ 0.100 mol/L a un pH de 4.25. Déterminez la valeur de la constante d’acidité.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+Answer
+
+:::

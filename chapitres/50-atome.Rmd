@@ -138,6 +138,43 @@ $$ 1 [uma] \simeq 1,660 \cdot 10^{-27} [kg] $$
 ```{r, child=c('exe/atome-50.Rmd')}
 ```
 
+### Le défaut de masse
+
+On sait que des charges électriques semblables se repoussent entre-elles. Comment se fait-il que le noyau de l'atome, composé entre autres de protons chargé positivement, n'éclate-t-il pas sous l'effet des forces des répulsions électriques ? Ce sont les neutrons qui maintiennent la cohésion du noyau en exerçant une force d'attraction qui permet de lier fortement les nucléons (protons et neutrons) entre eux. Cette force est appelée **force nucléaire forte** et assure la stabilité du noyau atomique.
+
+En mesurant la masse d'un noyau stable et en calculant la masse des nucléons qui forment ce noyau, on remarque que ces masses sont différentes. **La masse du noyau est plus petite que la somme des masses des nucléons**. C'est ce qu'on appelle **le défaut de masse**. Cette différence de masse est transformée en énergie de cohésion pour maintenir les nucléons ensemble. Maintenir un noyau stable n'est donc pas "gratuit".
+
+Le défaut de masse est défini de la manière suivante :
+
+$$
+\Delta m = m_{\text{nucléons}} - m_{\text{noyau}}
+$$
+
+avec :
+
+- $\Delta m$ : défaut de masse en [uma]  
+- $m_{\text{nucléons}}$ : somme des masses des nucléons ($m_p + m_n$) en [uma]  
+- $m_{\text{noyau}}$ : masse mesurée du noyau en [uma]
+
+\clearpage
+
+Depuis le début du 20^e^ siècle, nous savons que, sous certaines conditions, une masse $m$ peut se transformer en énergie $E$, et vice versa. C'est le célèbre $E = m \cdot c^2$ d'Albert Einstein.
+
+$$
+E = m \cdot c^2 \qquad \text{ou} \qquad \Delta E = \Delta m \cdot c^2 \qquad \text{donc} \qquad \Delta m = \frac{\Delta E}{c^2}
+$$
+
+avec :
+
+- $\Delta E$ : Énergie de cohésion en [J]  
+- $\Delta m$ : défaut de masse en [kg]  
+- $c$ : vitesse de la lumière en [m/s] ($299\ 792\ 458$ [m/s] $\approx 3 \cdot 10^8$ [m/s] )
+
+```{r, child=c('exe/atome-55.Rmd')}
+```
+
+\clearpage
+
 ## La masse atomique
 
 ::: {.tcolorbox data-latex=""}
@@ -153,6 +190,8 @@ On peut déterminer la masse atomique d'un élément, en additionnant les masses
 
 ```{r, child=c('exe/atome-60.Rmd')}
 ```
+
+\clearpage
 
 ## La mole et le nombre d'Avogadro
 
@@ -187,7 +226,7 @@ Une mole d'atomes, une mole de molécules, ou une mole de quoi que ce soit conti
 ```{r, child=c('exe/atome-80.Rmd')}
 ```
 
-\newpage
+\clearpage
 
 ```{r, child=c('exe/atome-90.Rmd')}
 ```
@@ -222,7 +261,7 @@ $$ M = \frac{m}{n} \qquad \text{ ou } \qquad n = \frac{m}{M} \qquad \text{ ou } 
 ```{r, child=c('exe/atome-100.Rmd')}
 ```
 
-\newpage
+\clearpage
 
 ## Exercices supplémentaires
 

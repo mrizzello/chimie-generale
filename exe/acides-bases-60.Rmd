@@ -1,0 +1,30 @@
+::: {.Exercise data-latex=""}
+
+Déterminez si chacun des composés ci-dessous est un acide ou une base fort(e) ou faible. Pour les acides ou les bases faibles, donnez également la constante K~a~ ou K~b~ :
+
+a. $\ce{HNO3}$
+\vspace{\stretch{1}}
+b. $\ce{Ca(OH)2}$
+\vspace{\stretch{1}}
+c. $\ce{HClO4}$
+\vspace{\stretch{1}}
+d. $\ce{HBr}$
+\vspace{\stretch{1}}
+e. $\ce{CH3COOH}$
+\vspace{\stretch{1}}
+f. $\ce{KOH}$
+\vspace{\stretch{1}}
+h. $\ce{CO3^{2-}}$
+\vspace{\stretch{1}}
+h. $\ce{H3PO4}$
+\vspace{\stretch{1}}
+i. $\ce{HCO3-}$
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+Answer
+
+:::

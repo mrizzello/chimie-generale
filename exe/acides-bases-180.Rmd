@@ -1,0 +1,16 @@
+::: {.Exercise data-latex=""}
+
+Calculez la concentration des solutions suivantes :
+
+a. $\ce{HCl}$ de pH = 4.
+\vspace{\stretch{1}}
+b. $\ce{KOH}$ de pH = 12.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+Answer
+
+:::

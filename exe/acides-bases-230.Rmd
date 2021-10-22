@@ -1,0 +1,12 @@
+::: {.Exercise data-latex=""}
+
+Calculez la concentration d'une solution de $\ce{Ca(OH)2}$ de pH = 9.3.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+Answer
+
+:::

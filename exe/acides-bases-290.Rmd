@@ -1,0 +1,12 @@
+::: {.Exercise data-latex=""}
+
+Une solution d'une base faible à 0.135 mol/L a un pH de 11.23. Déterminez la valeur de la constante de basicité.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+Answer
+
+:::

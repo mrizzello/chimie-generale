@@ -1,0 +1,12 @@
+::: {.Exercise data-latex=""}
+
+Calculez le pH d'une solution de $\ce{HClO2}$ 0.100 mol/L avec K~a~ = $1.1 \cdot 10^{-2}$ M.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+Answer
+
+:::
