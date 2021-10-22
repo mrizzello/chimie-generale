@@ -34,16 +34,18 @@ En 1923, au regard du transfert d'ions H^+^ qui a lieu lors d'une réaction acid
 
 Il est utile de noter qu'un ion H^+^ est un atome d'hydrogène sans son électron, soit un simple proton.
 
+\clearpage
+
 Ainsi, HCl est un acide puisqu'il transfère un proton à l'eau :
 
 $$
-\ce{\underset{\text{donneur de proton}}{\ce{HCl(aq)}} + \underset{\text{accepteur de proton}}{\ce{H2O(l)}} -> H3O+ + Cl-}
+\ce{$\underset{\text{donneur de proton}}{\ce{HCl(aq)}}$ + $\underset{\text{accepteur de proton}}{\ce{H2O(l)}}$ -> H3O+ + Cl-}
 $$
 
 Aussi NH~3~ est une base puisqu'elle accepte un proton provenant de l'eau :
 
 $$
-\ce{\underset{\text{accepteur de proton}}{\ce{NH3(aq)}} + \underset{\text{donneur de proton}}{\ce{H2O(l)}} -> NH4+ + OH-}
+\ce{$\underset{\text{accepteur de proton}}{\ce{NH3(aq)}}$ + $\underset{\text{donneur de proton}}{\ce{H2O(l)}}$ -> NH4+ + OH-}
 $$
 
 Selon la définition de Brønsted-Lowry, un acide et une base seront toujours présents simultanément.
@@ -333,12 +335,12 @@ Il est plus difficile de calculer le pH d'une solution d'acide faible car |H~3~O
 Prenons l'exemple d'une solution d'acide cyanhydrique HCN 0.100 mol/L, un **acide faible**, dont on souhaite déterminer le pH.
 
 $$
-\ce{HCN(aq) + H2O(l) <=> H3O+(aq) + CN-(aq)} \qquad \text{avec } K_a = 4.9·10^{-10}
+\ce{HCN(aq) + H2O(l) <=> H3O+(aq) + CN^{-}(aq)} \qquad \text{avec } K_a = 4.9·10^{-10}
 $$
 
 Les conditions initiales, les variations et les conditions d'équilibre peuvent être synthétisées dans le tableau ci-dessous.
 
-|             | $\ce{HCN(aq)}$ | $\ce{H3O+(aq)}$ | $\ce{CN-(aq)}$ |
+|             | $\ce{HCN(aq)}$ | $\ce{H3O+(aq)}$ | $\ce{CN^{-}(aq)}$ |
 |:------------|:--------------:|:---------------:|:--------------:|
 | Poportions  |       1        |        1        |       1        |
 | C~initiale~ |     0.100      |   **≈0.000**    |     0.000      |
