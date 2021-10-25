@@ -1,0 +1,21 @@
+::: {.Exercise data-latex=""}
+
+Un chimiste souhaite obtenir une solution tampon à pH = 4.3. Il peut choisir parmi les acides suivants (et leurs sels sodiques) :
+
+a. acide chloracétique : $K_a = 1.35 \cdot 10^{-3}\ M$
+b. acide propanoïque : $K_a = 1.3 \cdot 10^{-5}\ M$
+c. acide benzoïque : $K_a = 6.4 \cdot 10^{-5}\ M$
+d. acide hypochloreux : $K_a = 3.5 \cdot 10^{-8} M$
+
+Lequel de ces acides préférera-t-il pour préparer sa solution tampon ?
+\vspace{\stretch{1}}
+Proposez des molarités d’acide et de sel qui permettront de la préparer.  
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+Answer
+
+:::

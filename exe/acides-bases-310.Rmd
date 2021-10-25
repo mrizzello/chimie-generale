@@ -1,0 +1,17 @@
+::: {.Exercise data-latex=""}
+
+Calculez le pH des solutions d’acides polyprotiques suivantes :
+
+a. $\ce{H3PO4}$ 0.350 [M]
+\vspace{\stretch{1}}
+b. $\ce{H2SO4}$ 0.125 [M]
+\vspace{\stretch{1}}
+
+
+:::
+
+::: {.Answer data-latex=""}
+
+Answer
+
+:::

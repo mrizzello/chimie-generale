@@ -1,0 +1,18 @@
+::: {.Exercise data-latex=""}
+
+On effectue le titrage de 25 mL d’une solution de $\ce{HCl}$ 0.15 [M] par $\ce{NaOH}$ 0.1 [M]. Calculez le point équivalent et donnez son pH.
+\vspace{\stretch{1}}
+Calculez le pH de départ.
+\vspace{\stretch{1}}
+Calculez le pH après l’addition de 5 mL de $\ce{NaOH}$ 0.1 [M].
+\vspace{\stretch{1}}
+Calculez le pH après l’addition de 42.5 mL de $\ce{NaOH}$ 0.1 [M].
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+Answer
+
+:::

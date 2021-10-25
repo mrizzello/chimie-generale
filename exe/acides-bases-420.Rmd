@@ -1,0 +1,20 @@
+::: {.Exercise data-latex=""}
+
+Un échantillon de 40 mL d’une solution de $\ce{HNO2}$ 0.100 [M] est titré par une solution de $\ce{KOH}$ 0.200 [M]. Calculez
+
+a. Le volume nécessaire pour atteindre le point d’équivalence
+\vspace{\stretch{1}}
+b. Le pH après l’ajout de 5,00 mL de la solution de KOH
+\vspace{\stretch{1}}
+c. Le pH au point de demi-équivalence
+\vspace{\stretch{1}}
+d. Le pH au point d’équivalence
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+Answer
+
+:::
