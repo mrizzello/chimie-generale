@@ -1,0 +1,20 @@
+::: {.Exercise data-latex=""}
+
+Parmi les solutions suivantes, laquelle est une solution tampon ? Justifiez.
+
+a. $\ce{HNO2}$ 0.100 [M] et $\ce{HCl}$ 0.100 [M]
+\vspace{\stretch{1}}
+b. $\ce{HNO2}$ 0.100 [M] et $\ce{NaNO2}$ 0.100 [M]
+\vspace{\stretch{1}}
+c. $\ce{HNO2}$ 0.100 [M] et $\ce{NaCl}$ 0.100 [M]
+\vspace{\stretch{1}}
+d. $\ce{HNO3}$ 0.100 [M] et $\ce{NaNO3}$ 0.100 [M]
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+Answer
+
+:::

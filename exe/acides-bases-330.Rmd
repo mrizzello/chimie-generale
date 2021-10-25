@@ -1,0 +1,12 @@
+::: {.Exercise data-latex=""}
+
+Calculez le pH d’une solution tampon constituée d’une solution de $\ce{HF}$ 0.15 [M] et de $\ce{NaF}$ 0.15 [M].
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+Answer
+
+:::

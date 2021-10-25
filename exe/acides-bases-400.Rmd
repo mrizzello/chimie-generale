@@ -1,0 +1,18 @@
+::: {.Exercise data-latex=""}
+
+Un échantillon de 50 mL d’une solution de $\ce{NaOH}$ 0.200 [M] est titré par une solution de $\ce{HNO3}$ 0.200 [M]. Calculez
+
+a. Le pH après l’ajout de 30 mL d’acide nitrique
+\vspace{\stretch{1}}
+b. Le pH au point d’équivalence
+\vspace{\stretch{1}}
+c. Le pH après l’ajout de 60 mL d’acide nitrique
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+Answer
+
+:::

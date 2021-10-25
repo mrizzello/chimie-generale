@@ -1,0 +1,12 @@
+::: {.Exercise data-latex=""}
+
+Calculez le pH d’une solution tampon constituée d’une solution de $\ce{HCN}$ 0.250 [M] et de $\ce{KCN}$ 0.170 [M]. Utilisez la méthode basée sur l’équilibre et la méthode basée sur l’équation de Henderson-Hasselbalch.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+Answer
+
+:::

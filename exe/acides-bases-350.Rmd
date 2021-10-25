@@ -1,0 +1,16 @@
+::: {.Exercise data-latex=""}
+
+Un tampon contient un acide faible HA (dont le pK~a~ est de 4.82) et sa base conjuguée A^-^. Le pH du tampon est de 4.25. Parmi les énoncés suivants concernant les concentrations relatives de l’acide et de la base conjuguée dans la solution tampon, lequel est vrai ?
+
+a. [HA]>[A-]
+b. [HA]=[A-]
+c. [HA]<[A-]
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+Answer
+
+:::

@@ -1,0 +1,22 @@
+::: {.Exercise data-latex=""}
+
+Soit la courbe de dosage suivante :
+
+![](images/acides-bases-ex-1.png){width=100%}
+
+a. Choisissez parmi les indicateurs colorés suivants le plus adapté pour réaliser un dosage simple sans courbe de pH  
+![](images/acides-bases-ex-2.png){width=67%}
+
+\clearpage
+
+b. Déterminez le volume équivalent et calculez la concentration de la solution inconnue.
+\vspace{\stretch{1}}
+c. Donnez le pK~b~ de $\ce{NH3}$ et calculez le pK~a~ de son acide conjugué.
+\vspace{\stretch{1}}
+:::
+
+::: {.Answer data-latex=""}
+
+Answer
+
+:::

@@ -1,0 +1,16 @@
+::: {.Exercise data-latex=""}
+
+a. Calculez le pH d'une solution $\ce{HNO2}$ 0.5 mol/L et $\ce{KNO2}$ 0.1 mol/L.
+\vspace{\stretch{1}}
+b. Sachant qu'une solution $\ce{HNO2}$ 0.5 mol/L a un pH de 1.8, votre résultat vous paraît-il cohérent ? Justifiez.
+\vspace{\stretch{1}}
+c. Calculez le pH si l'on ajoute 0.5 g de $\ce{NO2-}$ dans 20 mL de solution tampon.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+Answer
+
+:::

@@ -1,0 +1,12 @@
+::: {.Exercise data-latex=""}
+
+Écrivez les équations d’ionisation en trois étapes de l’acide phosphorique et donnez les constantes d’équilibre correspondantes. 
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+Answer
+
+:::

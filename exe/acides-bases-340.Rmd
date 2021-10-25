@@ -1,0 +1,12 @@
+::: {.Exercise data-latex=""}
+
+Calculez le pH d’une solution tampon constituée d’une solution de $\ce{NH3}$ 0.12 [M] et de $\ce{NH4Cl}$ 0.18 [M].
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+Answer
+
+:::
