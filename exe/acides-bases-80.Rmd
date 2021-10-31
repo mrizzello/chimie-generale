@@ -15,6 +15,14 @@ d. $\ce{F-}$ et $\ce{ClO2-}$
 
 ::: {.Answer data-latex=""}
 
-Answer
+a. $\ce{NO3-}$ et $\ce{Br-}$ \tabto{8em} Bases inertes car provenant toutes deux d'acides forts.
+\vspace{1em}
+b. $\ce{NO2-}$ et $\ce{NO3-}$ \tabto{8em} $\ce{NO2-}$ car $\ce{NO3-}$ est inerte (ions spectateur).
+\vspace{1em}
+c. $\ce{CN-}$ et $\ce{ClO-}$ \tabto{8em} $\ce{CN-}$ est plus forte que $\ce{ClO-}$  
+\tabto{8em} car $K_b(\ce{CN-}) > K_b(\ce{ClO-})$ ou $K_a(\ce{HCN}) < K_b(\ce{HClO})$
+\vspace{1em}
+d. $\ce{F-}$ et $\ce{ClO2-}$ \tabto{8em} $\ce{F-}$ est une base plus forte que $\ce{ClO2-}$  
+\tabto{8em} (idem)
 
 :::

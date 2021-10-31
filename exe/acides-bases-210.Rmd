@@ -7,6 +7,8 @@ Calculez le pH d'une solution de $\ce{HClO4}$ $2 \cdot 10^{-3}$ M.
 
 ::: {.Answer data-latex=""}
 
-Answer
+$$
+pH = - log(|\ce{H3O+}|) = - log(2 \cdot 10^{-3}) \cong 2.7
+$$
 
 :::

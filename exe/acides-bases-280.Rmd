@@ -7,6 +7,55 @@ Déterminez la concentration en OH^-^, le pH et le pOH d'une solution de carbona
 
 ::: {.Answer data-latex=""}
 
-Answer
+$$
+\ce{CO3^{2-} + H2O <=> HCO3- + OH-}
+$$
+$$
+\begin{split}
+&\ce{CO3^{2-}}\\
+C_i &= 0.125\ [M] \\
+\Delta C &= - x\ [M] \\
+C_f &= 0.125 - x\ [M] \\
+\end{split}
+\qquad
+\begin{split}
+&\ce{HCO3-}\\
+C_i &= 0\ [M] \\
+\Delta C &= + x\ [M] \\
+C_f &= x\ [M] \\
+\end{split}
+\qquad
+\begin{split}
+&\ce{OH-}\\
+C_i &= 0\ [M] \\
+\Delta C &= + x\ [M] \\
+C_f &= x\ [M] \\
+\end{split}
+$$
+$$
+K_b = \frac{|\ce{HCO3-}| \cdot |\ce{OH-}|}{|\ce{CO3^{2-}}|} = \frac{x \cdot x}{0.125 - x}
+$$
+On approxime en négligeant le x : 
+$$
+\begin{split}
+K_b = \frac{x \cdot x}{0.125 - \cancel{x}} = \frac{x^2}{0.125} = 1.8 \cdot 10^{-4}
+\end{split}
+\qquad
+\begin{split}
+\Rightarrow x &= \sqrt{1.8 \cdot 10^{-4} \cdot 0.125} \\
+  &= 0.0047\ [M]
+\end{split}
+$$
+L'approximation est valide : $\frac{0.0047}{0.125} \cdot 100\% \cong 3.83\% < 5\%$
+$$
+\begin{split}
+|\ce{OH-}| = x = 0.0047\ [M] 
+\end{split}
+\qquad
+\begin{split}
+pOH &= - \log(|\ce{OH-}|) = - \log(0.0047) = 2.32 \\
+pH &= 14 - pOH = 14 - 2.32 = 11.68
+\end{split}
+$$
 
 :::

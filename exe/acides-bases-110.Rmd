@@ -7,6 +7,29 @@ En considérant que les deux protons de l'acide sulfurique sont entièrement dis
 
 ::: {.Answer data-latex=""}
 
-Answer
+$$
+\begin{split}
+\ce{H2SO4 + 2 H2O <=> 2 H3O+ + SO4^{2-}}
+\end{split}
+\qquad
+\begin{split}
+C_{initial}^{\ce{H2SO4}} &= 0.005\ [M] \\[1em]
+C_{final}^{\ce{H2SO4}} &= 0\ [M]
+\end{split}
+\qquad
+\begin{split}
+C_{initial}^{\ce{H3O+}} &= 0\ [M] \\[1em]
+C_{final}^{\ce{H3O+}} &= 0.010\ [M]
+\end{split}
+$$
+$$
+\begin{split}
+|\ce{H3O+}| = 10^{-2}\ [M]
+\end{split}
+\quad \text{et} \quad
+\begin{split}
+|\ce{OH-}| = \frac{10^{-14}}{10^{-2}} = 10^{-12}\ [M]
+\end{split}
+$$
 
 :::

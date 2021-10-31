@@ -15,6 +15,9 @@ d. $\ce{CO3^{2-}}$
 
 ::: {.Answer data-latex=""}
 
-Answer
+a. $\ce{HClO4}$
+b. $\ce{NH4+}$
+c. $\ce{H2SO4}$
+d. $\ce{HCO3-}$
 
 :::

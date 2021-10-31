@@ -11,6 +11,15 @@ b. obtenue en diluant 10 fois une solution de $\ce{HCl}$ initialement au pH 2 ?
 
 ::: {.Answer data-latex=""}
 
-Answer
+a. $$
+\begin{split}
+|\ce{H3O+}| = 0.002\ [M]
+\end{split}
+\quad
+\begin{split}
+pH = - \log(0.002) \cong 2.7
+\end{split}
+$$
+b. pH = 3 (échelle logarithmique)
 
 :::

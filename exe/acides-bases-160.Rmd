@@ -7,6 +7,16 @@ Calculez la concentration d'une solution de $\ce{NaOH}$ de pH = 9.3.
 
 ::: {.Answer data-latex=""}
 
-Answer
+$$
+\begin{split}
+|\ce{H3O+}| = 10^{-9.3}
+\end{split}
+\qquad
+\begin{split}
+|\ce{OH-}| &= \frac{10^{-14}}{|\ce{H3O+}|} \\
+  &= \frac{10^{-14}}{10^{-9.3}} = 10^{-4.7} = 2 \cdot 10^{-5}\ [M] \\
+|\ce{NaOH}| &= |\ce{OH-}| = 2 \cdot 10^{-5}\ [M] \quad \text{(base forte)}
+\end{split}
+$$
 
 :::

@@ -7,6 +7,80 @@ Calculez le pH d'une solution de $\ce{HClO2}$ 0.100 mol/L avec K~a~ = $1.1 \cdot
 
 ::: {.Answer data-latex=""}
 
-Answer
+$$
+\ce{HClO2 + H2O <=> H3O+ + ClO2-}
+$$
+$$
+\begin{split}
+&\ce{HClO2}\\
+C_i &= 0.100\ [M] \\
+\Delta C &= - x\ [M] \\
+C_f &= 0.100 - x\ [M] \\
+\end{split}
+\qquad
+\begin{split}
+&\ce{H3O+}\\
+C_i &= 0\ [M] \\
+\Delta C &= + x\ [M] \\
+C_f &= x\ [M] \\
+\end{split}
+\qquad
+\begin{split}
+&\ce{ClO2-}\\
+C_i &= 0\ [M] \\
+\Delta C &= + x\ [M] \\
+C_f &= x\ [M] \\
+\end{split}
+$$
+$$
+K_a = \frac{|\ce{H3O+}| \cdot |\ce{ClO2-}|}{|\ce{HClO2}|} = \frac{x \cdot x}{0.100-x} = \frac{x^2}{0.100-x}
+$$
+On approxime en négligeant le x : 
+$$
+\begin{split}
+K_a = \frac{x^2}{0.100-\cancel{x}} = \frac{x^2}{0.100}
+\end{split}
+\qquad
+\begin{split}
+\Rightarrow 1.1 \cdot 10^{-2} &= \frac{x^2}{0.100} \\
+x &= \sqrt{1.1 \cdot 10^{-2} \cdot 0.100} \\
+&= 3.32 \cdot 10^{-2}\ [mol/L]
+\end{split}
+$$
+L'approximation n'est pas valide : $\frac{0.033}{0.100} \cdot 100\% = 33\% > 5\%$
+
+Sans appliquer d'approxomation :
+$$
+\begin{split}
+K_a = \frac{x^2}{0.100-x}
+\end{split}
+\qquad
+\begin{split}
+\Rightarrow 1.1 \cdot 10^{-2} &= \frac{x^2}{0.100-x} \\
+1.1 \cdot 10^{-2} \cdot (0.100-x) &= x^2 \\
+0.0011 - 0.011 \cdot x &= x^2 \\
+x^2 + 0.011 \cdot x - 0.0011 &= 0
+\end{split}
+$$
+Après résolution :
+$$
+\begin{split}
+x = 0.028\ [M]
+\end{split}
+\qquad\qquad
+\begin{split}
+x = \cancel{-0.039}\ [M] \quad \text{non valable}
+\end{split}
+$$
+$$
+\begin{split}
+|\ce{H3O+}| = x = 0.028\ [M]
+\end{split}
+\qquad\qquad
+\begin{split}
+pH &= - \log(|\ce{H3O+}|) \\
+ &= - \log(0.028) \cong 1.55
+\end{split}
+$$
 
 :::

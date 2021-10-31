@@ -12,6 +12,166 @@ b. $\ce{H2SO4}$ 0.125 [M]
 
 ::: {.Answer data-latex=""}
 
-Answer
+a. $$
+\ce{H3PO4 + H2O <=> H2PO4- + H3O+}
+$$
+$$
+\begin{split}
+&\ce{H3PO4}\\
+C_i &= 0.350\ [M] \\
+\Delta C &= - x\ [M] \\
+C_f &= 0.350 - x\ [M] \\
+\end{split}
+\qquad
+\begin{split}
+&\ce{H2PO4-}\\
+C_i &= 0\ [M] \\
+\Delta C &= + x\ [M] \\
+C_f &= x\ [M] \\
+\end{split}
+\qquad
+\begin{split}
+&\ce{H3O+}\\
+C_i &= 0\ [M] \\
+\Delta C &= + x\ [M] \\
+C_f &= x\ [M] \\
+\end{split}
+$$
+$$
+K_{a1} = \frac{|\ce{H2PO4-}| \cdot |\ce{H3O+}|}{|\ce{H3PO4}|} = \frac{x \cdot x}{0.350 - x}
+$$
+On approxime en négligeant le x :
+$$
+\begin{split}
+K_{a1} = \frac{x \cdot x}{0.350 - \cancel{x}} = \frac{x^2}{0.350} = 7.5 \cdot 10^{-3}
+\end{split}
+\qquad
+\begin{split}
+\Rightarrow x &= \sqrt{7.5 \cdot 10^{-3} \cdot 0.350} \\
+  &= 0.051\ [M]
+\end{split}
+$$
+L'approximation n'est pas valide : $\frac{0.051}{0.350} \cdot 100\% \cong 14.57\% > 5\%$
 
+Sans appliquer d'approxomation :
+$$
+\begin{split}
+K_{a1} = \frac{x^2}{0.350-x}
+\end{split}
+\qquad
+\begin{split}
+\Rightarrow 7.5 \cdot 10^{-3} &= \frac{x^2}{0.350-x} \\
+7.5 \cdot 10^{-3} \cdot (0.350-x) &= x^2 \\
+2.625 \cdot 10^{-3} - 7.5 \cdot 10^{-3} \cdot x &= x^2 \\
+x^2 + 7.5 \cdot 10^{-3} \cdot x - 2.625 \cdot 10^{-3} &= 0
+\end{split}
+$$
+Après résolution :
+$$
+\begin{split}
+x = 0.0476\ [M]
+\end{split}
+\qquad\qquad
+\begin{split}
+x = \cancel{-0.055}\ [M] \quad \text{non valable}
+\end{split}
+$$
+$$
+\ce{H2PO4- + H2O <=> HPO4^{2-} + H3O+}
+$$
+$$
+\begin{split}
+&\ce{H2PO4-}\\
+C_i &= 0.0476\ [M] \\
+\Delta C &= - x\ [M] \\
+C_f &= 0.0476 - x\ [M] \\
+\end{split}
+\qquad
+\begin{split}
+&\ce{HPO4^{2-}}\\
+C_i &= 0\ [M] \\
+\Delta C &= + x\ [M] \\
+C_f &= x\ [M] \\
+\end{split}
+\qquad
+\begin{split}
+&\ce{H3O+}\\
+C_i &= 0.0476\ [M] \\
+\Delta C &= + x\ [M] \\
+C_f &= 0.0476 + x\ [M] \\
+\end{split}
+$$
+$$
+K_{a2} = \frac{|\ce{HPO4^{2-}}| \cdot |\ce{H3O+}|}{|\ce{H2PO4-}|} = \frac{x \cdot (0.0476 + x)}{0.0476 - x}
+$$
+On approxime en négligeant le x : 
+$$
+\begin{split}
+K_{a2} = \frac{x \cdot (0.0476 + \cancel{x})}{0.0476 - \cancel{x}} = = \frac{x \cdot 0.0476}{0.0476}
+\end{split}
+\qquad
+\begin{split}
+\Rightarrow 6.2 \cdot 10^{-8} &= \frac{x \cdot 0.0476}{0.0476} \\
+x &= 6.2 \cdot 10^{-8} [mol/L]
+\end{split}
+$$
+L'approximation est valide : $\frac{6.2 \cdot 10^{-8}}{0.0476} \cdot 100\% \approx 0\% < 5\%$
+$$
+\begin{split}
+|\ce{H3O+}|_{total} &= 0.0476\ [M] + \cancel{6.2 \cdot 10^{-8}} \quad \text{(négligeable)} \\
+&= 0.0476\ [M] \\
+pH &= - \log(|\ce{H3O+}|) = - \log(0.0476) = 1.32
+\end{split}
+$$
+b. $$
+\ce{H2SO4 + H2O <=> HSO4- + H3O+}
+$$
+Première protonation, acide fort, $|\ce{H3O+}| = 0.125\ [M]$.
+
+Seconde protonation, acide faible.
+$$
+\ce{HSO4- + H2O <=> SO4^{2-} + H3O+}
+$$
+$$
+\begin{split}
+&\ce{HSO4-}\\
+C_i &= 0.125\ [M] \\
+\Delta C &= - x\ [M] \\
+C_f &= 0.125 - x\ [M] \\
+\end{split}
+\qquad
+\begin{split}
+&\ce{SO4^{2-}}\\
+C_i &= 0\ [M] \\
+\Delta C &= + x\ [M] \\
+C_f &= x\ [M] \\
+\end{split}
+\qquad
+\begin{split}
+&\ce{H3O+}\\
+C_i &= 0.125\ [M] \\
+\Delta C &= + x\ [M] \\
+C_f &= 0.125 + x\ [M] \\
+\end{split}
+$$
+$$
+K_{a2} = \frac{|\ce{SO4^{2-}}| \cdot |\ce{H3O+}|}{|\ce{HSO4-}|} = \frac{x \cdot (0.125 + x)}{0.125 - x} = 1.2 \cdot 10^{-2}
+$$
+Après résolution :
+$$
+\begin{split}
+x = 0.0102\ [M]
+\end{split}
+\qquad\qquad
+\begin{split}
+x = \cancel{-0.147}\ [M] \quad \text{non valable}
+\end{split}
+$$
+$$
+\begin{split}
+|\ce{H3O+}|_{total} &= 0.125\ [M] + 0.0102\ [M] \\
+&= 0.1352\ [M] \\
+pH &= - \log(|\ce{H3O+}|) = - \log(0.1352) = 0.869
+\end{split}
+$$
 :::

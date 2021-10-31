@@ -7,6 +7,36 @@ Une solution d’acide faible $\ce{HA}$ 0.100 mol/L a un pH de 4.25. Déterminez
 
 ::: {.Answer data-latex=""}
 
-Answer
+$$
+|\ce{H3O+}| = 10^{-pH} = 10^{-4.5} \cong 5.6 \cdot 10^{-5}\ [M]
+$$
+$$
+\ce{HA + H2O <=> A- + H3O+}
+$$
+$$
+\begin{split}
+&\ce{HA}\\
+C_i &= 0.100\ [M] \\
+\Delta C &= - 5.6 \cdot 10^{-5}\ [M] \\
+C_f &\approx 0.100\ [M] \\
+\end{split}
+\qquad
+\begin{split}
+&\ce{A-}\\
+C_i &= 0\ [M] \\
+\Delta C &= + 5.6 \cdot 10^{-5}\ [M] \\
+C_f &= 5.6 \cdot 10^{-5}\ [M] \\
+\end{split}
+\qquad
+\begin{split}
+&\ce{ClO2-}\\
+C_i &= 0\ [M] \\
+\Delta C &= + 5.6 \cdot 10^{-5}\ [M] \\
+C_f &= 5.6 \cdot 10^{-5}\ [M] \\
+\end{split}
+$$
+$$
+K_a = \frac{|\ce{H3O+}| \cdot |\ce{A-}|}{|\ce{HA}|} = \frac{5.6 \cdot 10^{-5} \cdot 5.6 \cdot 10^{-5}}{0.100} \cong 3.1 \cdot 10^{-8}\ [M]
+$$
 
 :::

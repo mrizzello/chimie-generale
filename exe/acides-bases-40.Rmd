@@ -11,6 +11,17 @@ b. $\ce{HCO3-}$
 
 ::: {.Answer data-latex=""}
 
-Answer
+a. $$
+\begin{split}
+  \ce{$\underset{\text{acide}}{\ce{H2PO4-}}$ + H2O <=> HPO4^{2-} + H3O+} \\
+  \ce{$\underset{\text{base}}{\ce{H2PO4-}}$ + H2O <=> H3PO4 + OH-} \\
+\end{split}
+$$
+b. $$
+\begin{split}
+  \ce{$\underset{\text{acide}}{\ce{HCO3-}}$ + H2O <=> CO3^{2-} + H3O+} \\
+  \ce{$\underset{\text{base}}{\ce{HCO3-}}$ + H2O <=> H2CO3 + OH-} \\
+\end{split}
+$$
 
 :::

@@ -9,6 +9,19 @@ b. Que devient ce pH si l'on ajoute encore 100 mL d'eau à cette solution ?
 
 ::: {.Answer data-latex=""}
 
-Answer
+a. $$
+\begin{split}
+|\ce{HCl}| &= |\ce{H3O+}| = 10^{-1.3}\ [M] = 5.01 \cdot 10^{-2}\ [M] \\
+n_{\ce{HCl}} &= C \cdot V = 5.01 \cdot 10^{-2}\ [mol/L] \cdot 10^{-1}\ [L] = 5.01 \cdot 10^{-3}\ [mol] \\
+m_{\ce{HCl}} &= n \cdot M = 5.01 \cdot 10^{-3}\ [mol] \cdot 36.45\ [g/mol] \cong 0.182\ [g]
+\end{split}
+$$
+b. Cela revient à diluer 2 fois.
+$$
+\begin{split}
+|\ce{HCl}| &= |\ce{H3O+}| = \frac{5 \cdot 10^{-2}\ [mol/L]}{2} = 2.5 \cdot 10^{-2}\ [M] \\
+pH &= - \log(|\ce{H3O+}|) = - \log(2.5 \cdot 10^{-2}) \cong 1.6
+\end{split}
+$$
 
 :::

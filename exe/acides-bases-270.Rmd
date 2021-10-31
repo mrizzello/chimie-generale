@@ -7,6 +7,55 @@ Déterminez la concentration en OH^-^ et le pH d'une solution de méthylamine ($
 
 ::: {.Answer data-latex=""}
 
-Answer
+$$
+\ce{CH3NH2 + H2O <=> CH3NH3+ + OH-}
+$$
+$$
+\begin{split}
+&\ce{CH3NH2}\\
+C_i &= 0.33\ [M] \\
+\Delta C &= - x\ [M] \\
+C_f &= 0.33 - x\ [M] \\
+\end{split}
+\qquad
+\begin{split}
+&\ce{CH3NH3+}\\
+C_i &= 0\ [M] \\
+\Delta C &= + x\ [M] \\
+C_f &= x\ [M] \\
+\end{split}
+\qquad
+\begin{split}
+&\ce{OH-}\\
+C_i &= 0\ [M] \\
+\Delta C &= + x\ [M] \\
+C_f &= x\ [M] \\
+\end{split}
+$$
+$$
+K_b = \frac{|\ce{CH3NH3+}| \cdot |\ce{OH-}|}{|\ce{CH3NH2}|} = \frac{x \cdot x}{0.33 - x}
+$$
+On approxime en négligeant le x :
+$$
+\begin{split}
+K_b = \frac{x \cdot x}{0.33 - \cancel{x}} = \frac{x^2}{0.33} = 4.4 \cdot 10^{-4}
+\end{split}
+\qquad
+\begin{split}
+\Rightarrow x &= \sqrt{4.4 \cdot 10^{-4} \cdot 0.33} \\
+  &= 0.012\ [M]
+\end{split}
+$$
+L'approximation est valide : $\frac{0.012}{0.33} \cdot 100\% \cong 3.65\% < 5\%$
+$$
+\begin{split}
+|\ce{OH-}| = x = 0.012\ [M] 
+\end{split}
+\qquad
+\begin{split}
+pOH &= - \log(|\ce{OH-}|) = - \log(0.012) = 1.92 \\
+pH &= 14 - pOH = 14 - 1.92 = 12.08
+\end{split}
+$$
 
 :::

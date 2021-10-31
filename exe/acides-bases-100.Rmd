@@ -10,6 +10,9 @@ _(une réponse qualitative suffit)_
 
 ::: {.Answer data-latex=""}
 
-Answer
+a. $\ce{HNO3}$ acide fort donc $|\ce{H3O+}| = 0.01\ [M]$
+\vspace{1em}
+b. $\ce{HNO2}$ acide plus faible donc $|\ce{H3O+}| < 0.01\ [M]$
+\vspace{1em}
 
 :::

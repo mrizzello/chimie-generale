@@ -11,6 +11,8 @@ b. $\ce{KOH}$ de pH = 12.
 
 ::: {.Answer data-latex=""}
 
-Answer
+a. $|\ce{HCl}| = 10^{-4}\ [M]$
+\vspace{1em}
+b. $|\ce{H3O+}| = 10^{-12}\ [M]$ et $|\ce{KOH}| = |\ce{OH-}| = 10^{-2}\ [M]$
 
 :::
