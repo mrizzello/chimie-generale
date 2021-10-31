@@ -7,6 +7,46 @@ Une solution d'une base faible à 0.135 mol/L a un pH de 11.23. Déterminez la v
 
 ::: {.Answer data-latex=""}
 
-Answer
+$$
+\begin{split}
+|\ce{OH-}| &= 10^{-pOH} \\
+ &= 10^{-2.77} \\
+ &= 0.0017\ [M]
+\end{split}
+\qquad
+\begin{split}
+&\text{avec} \\
+pOH &= 14 - pH \\
+  &= 14 - 11.23 = 2.77
+\end{split}
+$$
+$$
+\ce{B + H2O <=> BH+ + OH-}
+$$
+$$
+\begin{split}
+&\ce{B}\\
+C_i &= 0.135\ [M] \\
+\Delta C &= - x\ [M] \\
+C_f &\approx 0.135\ [M] \\
+\end{split}
+\qquad
+\begin{split}
+&\ce{BH+}\\
+C_i &= 0\ [M] \\
+\Delta C &= + x\ [M] \\
+C_f &= 0.0017\ [M] \\
+\end{split}
+\qquad
+\begin{split}
+&\ce{OH-}\\
+C_i &= 0\ [M] \\
+\Delta C &= + x\ [M] \\
+C_f &= 0.0017\ [M] \\
+\end{split}
+$$
+$$
+K_b = \frac{|\ce{BH+}| \cdot |\ce{OH-}|}{|\ce{B}|} = \frac{0.0017 \cdot 0.0017}{0.135} = 2.14 \cdot 10^{-5}
+$$
 
 :::

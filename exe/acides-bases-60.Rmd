@@ -14,7 +14,7 @@ e. $\ce{CH3COOH}$
 \vspace{\stretch{1}}
 f. $\ce{KOH}$
 \vspace{\stretch{1}}
-h. $\ce{CO3^{2-}}$
+g. $\ce{CO3^{2-}}$
 \vspace{\stretch{1}}
 h. $\ce{H3PO4}$
 \vspace{\stretch{1}}
@@ -25,6 +25,24 @@ i. $\ce{HCO3-}$
 
 ::: {.Answer data-latex=""}
 
-Answer
+a. $\ce{HNO3}$ \tabto{8em} acide fort
+\vspace{1em}
+b. $\ce{Ca(OH)2}$ \tabto{8em} base forte
+\vspace{1em}
+c. $\ce{HClO4}$ \tabto{8em} acide fort
+\vspace{1em}
+d. $\ce{HBr}$ \tabto{8em} acide fort
+\vspace{1em}
+e. $\ce{CH3COOH}$ \tabto{8em} acide faible \tabto{16em} $K_a = \frac{|\ce{CH3COO-}| \cdot |\ce{H3O+}|}{|\ce{CH3COOH}|}$
+\vspace{1em}
+f. $\ce{KOH}$ \tabto{8em} base forte
+\vspace{1em}
+g. $\ce{CO3^{2-}}$ \tabto{8em} base faible \tabto{16em} $K_b = \frac{|\ce{HCO3-}| \cdot |\ce{OH-}|}{|\ce{CO3^{2-}}|}$
+\vspace{1em}
+h. $\ce{H3PO4}$ \tabto{8em} acide faible \tabto{16em} $K_a = \frac{|\ce{H2PO4-}| \cdot |\ce{H3O+}|}{|\ce{H3PO4}|}$
+\vspace{1em}
+i. $\ce{HCO3-}$ \tabto{8em} acide faible \tabto{16em} $K_a = \frac{|\ce{CO3^{2-}}| \cdot |\ce{H3O+}|}{|\ce{HCO3-}|}$  
+\vspace{1em}
+\tabto{8em} base faible \tabto{16em} $K_b = \frac{|\ce{H2CO3}| \cdot |\ce{OH-}|}{|\ce{HCO3-}|}$
 
 :::

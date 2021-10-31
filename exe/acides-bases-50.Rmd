@@ -2,8 +2,8 @@
 
 Soit les deux acides suivants et leur constante d’acidité :
 
-- $\ce{HF}$, $K_a = 3.5 \cdot 10^{-4}$
-- $\ce{HClO}$, $K_a = 2.9 \cdot 10^{-8}$
+a. $\ce{HF}$, $K_a = 3.5 \cdot 10^{-4}$
+b. $\ce{HClO}$, $K_a = 2.9 \cdot 10^{-8}$
 
 Indiquez si la base conjuguée la plus forte est \ce{F-} ou \ce{ClO-}.
 
@@ -11,6 +11,12 @@ Indiquez si la base conjuguée la plus forte est \ce{F-} ou \ce{ClO-}.
 
 ::: {.Answer data-latex=""}
 
-Answer
+$$
+\begin{split}
+  \ce{HF} \Rightarrow \quad K_a = \frac{|\ce{H3O+}| \cdot |\ce{F-}|}{|\ce{HF}|} &= 3.5 \cdot 10^{-4} \\
+  \ce{HClO} \Rightarrow \quad K_a = \frac{|\ce{H3O+}| \cdot |\ce{ClO-}|}{|\ce{HClO}|} &= 2.9 \cdot 10^{-8} \lll 3.5 \cdot 10^{-4}
+\end{split}
+$$
+$\ce{HClO}$ est un acide plus faible que $\ce{HF}$ car $\ce{HClO}$ s'ionise (se dissocie) très peu (|$\ce{HClO}$| élevée). Par conséquent, $\ce{ClO-}$ sera **une base conjuguée plus forte** que $\ce{F-}$.
 
 :::

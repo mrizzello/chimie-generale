@@ -9,12 +9,23 @@ b. $\ce{HF}$ 0.10 [mol/L]
 c. $\ce{HClO}$ 0.10 [mol/L]
 \vspace{\stretch{1}}
 d. $\ce{CH3COOH}$ 0.10 [mol/L]
-
+\vspace{\stretch{1}}
 
 :::
 
 ::: {.Answer data-latex=""}
 
-Answer
+a. $\ce{HCl}$ 0.10 [mol/L] \tabto{12em} acide fort complètement ionisé (dissocié), |$\ce{H3O+}$| = 0.1 [M]
+\vspace{1em}
+b. $\ce{HF}$ 0.10 [mol/L] \tabto{12em} $K_{a1} = 3.5 \cdot 10^{-4}$
+\vspace{1em}
+c. $\ce{HClO}$ 0.10 [mol/L] \tabto{12em} $K_{a2} = 2.9 \cdot 10^{-8}$
+\vspace{1em}
+d. $\ce{CH3COOH}$ 0.10 [mol/L] \tabto{12em} $K_{a3} = 1.8 \cdot 10^{-5}$
+\vspace{1em}
+
+Plus le K~a~ est grand, plus la force de l'acide est élevée et donc plus il est ionisé (et plus |$\ce{H3O+}$| est élevée).
+
+Classement par ordre croissant : $\ce{HClO}$ < $\ce{CH3COOH}$ < $\ce{HF}$ < $\ce{HCl}$ 
 
 :::

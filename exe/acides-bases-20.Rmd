@@ -15,6 +15,9 @@ d. $\ce{HF}$
 
 ::: {.Answer data-latex=""}
 
-Answer
+a. $\ce{Cl-}$
+b. $\ce{HSO3-}$
+c. $\ce{CH3COO-}$
+d. $\ce{F-}$
 
 :::

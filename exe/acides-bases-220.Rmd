@@ -7,6 +7,8 @@ Calculez le pH d'une solution de $\ce{KOH}$ $2 \cdot 10^{-3}$ M.
 
 ::: {.Answer data-latex=""}
 
-Answer
+$$
+pH = 14 + log(|\ce{OH-}|) = 14 + log(2 \cdot 10^{-3}) \cong 11.3
+$$
 
 :::

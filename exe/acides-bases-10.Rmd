@@ -15,6 +15,9 @@ d. $\ce{HBr(aq) + H2O(l) <=> H3O+(aq) + Br-(aq)}$
 
 ::: {.Answer data-latex=""}
 
-Answer
+a. $$ \ce{$\underset{\text{acide}}{\ce{H2CO3(aq)}}$ + $\underset{\text{base}}{\ce{H2O(l)}}$ <=> $\underset{\text{acide conjugué}}{\ce{H3O+(aq)}}$ + $\underset{\text{base conjuguée}}{\ce{HCO3-(aq)}}$} $$
+b. $$ \ce{$\underset{\text{base}}{\ce{C5H5N(aq)}}$ + $\underset{\text{acide}}{\ce{H2O(l)}}$ <=> $\underset{\text{base conjuguée}}{\ce{OH-(aq)}}$ + $\underset{\text{acide conjugué}}{\ce{C5H5NH+(aq)}}$} $$
+c. $$ \ce{$\underset{\text{base}}{\ce{CH3NH2(aq)}}$ + $\underset{\text{acide}}{\ce{H2O(l)}}$ <=> $\underset{\text{acide conjugué}}{\ce{CH3NH3+(aq)}}$ + $\underset{\text{base conjuguée}}{\ce{OH-(aq)}}$} $$
+d. $$ \ce{$\underset{\text{acide}}{\ce{HBr(aq)}}$ + $\underset{\text{base}}{\ce{H2O(l)}}$ <=> $\underset{\text{acide conjugué}}{\ce{H3O+(aq)}}$ + $\underset{\text{base conjuguée}}{\ce{Br-(aq)}}$} $$
 
 :::
