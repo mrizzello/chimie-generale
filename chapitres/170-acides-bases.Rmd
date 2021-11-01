@@ -256,7 +256,7 @@ En général, à 25°C :
 knitr::include_graphics(c("images/echelle-pH-1.png"))
 ```
 
-Table: (\#tab:echelle-pH-1) Concentrations en [[M]] de H^+^ et OH^-^ pour différentes valeurs de pH.
+Table: (\#tab:echelle-pH-1) Concentrations en [M] de H^+^ et OH^-^ pour différentes valeurs de pH.
 
 |     pH     |    1    |    2    |    3    |    4    |   5    |   6    |   7    |   8    |   9    |   10    |   11    |   12    |   13    |
 |:----------:|:-------:|:-------:|:-------:|:-------:|:------:|:------:|:------:|:------:|:------:|:-------:|:-------:|:-------:|:-------:|

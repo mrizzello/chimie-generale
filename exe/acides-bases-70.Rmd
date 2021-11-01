@@ -27,5 +27,5 @@ d. $\ce{CH3COOH}$ 0.10 [mol/L] \tabto{12em} $K_{a3} = 1.8 \cdot 10^{-5}$
 Plus le K~a~ est grand, plus la force de l'acide est élevée et donc plus il est ionisé (et plus |$\ce{H3O+}$| est élevée).
 
 Classement par ordre croissant : $\ce{HClO}$ < $\ce{CH3COOH}$ < $\ce{HF}$ < $\ce{HCl}$ 
-
+\clearpage
 :::
