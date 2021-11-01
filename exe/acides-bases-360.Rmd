@@ -6,7 +6,70 @@ Calculez le pH d’une solution tampon constituée d’une solution de $\ce{HCN}
 :::
 
 ::: {.Answer data-latex=""}
+Méthode basée sur l'équilibre :
+$$
+\ce{HCN + H2O <=> H3O+ + CN-}
+$$
+$$
+\begin{split}
+&\ce{HCN}\\
+C_i &= 0.250\ [M] \\
+\Delta C &= - x\ [M] \\
+C_f &= 0.250 - x\ [M] \\
+\end{split}
+\qquad
+\begin{split}
+&\ce{H3O+}\\
+C_i &= 0\ [M] \\
+\Delta C &= + x\ [M] \\
+C_f &= x\ [M] \\
+\end{split}
+\qquad
+\begin{split}
+&\ce{CN-}\\
+C_i &= 0.170\ [M] \\
+\Delta C &= + x\ [M] \\
+C_f &= 0.170 + x\ [M] \\
+\end{split}
+$$
+$$
+K_a = \frac{|\ce{CN-}| \cdot |\ce{H3O+}|}{|\ce{HCN}|} = \frac{x \cdot (0.170 + x)}{0.250 - x}
+$$
+On approxime en négligeant le x : 
+$$
+\begin{split}
+K_a &= \frac{x \cdot (0.170 + \cancel{x})}{0.250 - \cancel{x}} = \frac{0.170 \cdot x}{0.250} = 4.9 \cdot 10^{-10} \\
+x &= 4.9 \cdot 10^{-10} \cdot \frac{0.250}{0.170} = 7.2 \cdot 10^{-10}\ [M]
+\end{split}
+$$
+L'approximation est valide : $\frac{7.2 \cdot 10^{-10}}{0.250} \cdot 100\% \cong 2.88 \cdot 10^{-7}\% < 5\%$
+$$
+\begin{split}
+|\ce{H3O+}| = x = 7.1 \cdot 10^{-10}\ [M]
+\end{split}
+\qquad\qquad
+\begin{split}
+pH &= - \log(|\ce{H3O+}|) \\
+ &= - \log(7.2 \cdot 10^{-10}) \cong 9.142
+\end{split}
+$$
 
-Answer
+Méthode basée sur l’équation de Henderson-Hasselbalch :
 
+$$
+\begin{split}
+  pH = pK_a + \log(\frac{|\ce{A-}|}{|\ce{HA}|})
+\end{split}
+\qquad
+\begin{split}
+  \ce{HA} \Rightarrow &\ \ce{HCN} \\
+  \ce{A-} \Rightarrow &\ \ce{CN-} \\
+  K_a = &\ 4.9 \cdot 10^{-10}
+\end{split}
+\qquad
+\begin{split}
+  pH &= pK_a + \log(\frac{|\ce{CN-}|}{|\ce{HCN}|}) \\
+  &= - \log(4.9 \cdot 10^{-10}) + \log(\frac{0.17}{0.25}) = 9.143 \\
+\end{split}
+$$
 :::

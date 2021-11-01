@@ -15,6 +15,97 @@ d. Le pH au point d’équivalence
 
 ::: {.Answer data-latex=""}
 
-Answer
+$$
+\begin{split}
+\ce{HNO2} &\Rightarrow \text{acide faible} \\
+\ce{KOH} &\Rightarrow \text{base forte}
+\end{split}
+$$
 
+a. $$
+\begin{split}
+C_a \cdot V_a &= C_b \cdot V_b \\
+\Rightarrow V_b &= \frac{C_a \cdot V_a}{C_b}
+\end{split}
+\qquad
+\begin{split}
+V_b &= \frac{0.100\ [M] \cdot 0.04\ [L]}{0.200\ [M]} \\
+&= 0.020\ [L] = 20\ [mL]
+\end{split}
+$$
+
+b. $$
+pH = pK_a + \log(\frac{n_b}{n_a^*}) \text{ avec } pK_a = 3.34
+$$
+$$
+\begin{split}
+n_b &= 0.200\ [M] \cdot 5 \cdot 10^{-3}\ [L] = 0.001\ [mol] \\
+n_a^* &= n_a - n_b = 0.004\ [mol] - 0.001\ [mol] = 0.003\ [mol]
+\end{split}
+$$
+$$
+pH = 3.34 + \log{\frac{0.001}{0.003}} = 2.86
+$$
+
+c. Au point de demi-équivalence : $pH = pK_a = 3.34$
+
+d. Tout l'acide est converti en sa base conjuguée.
+$$
+\begin{split}
+n_{\ce{HNO2}} &= 0.004\ [mol] = n_{\ce{NO2-}} {}_{converti} \\
+|\ce{NO2-}| &= \frac{0.004\ [mol]}{0.06\ [L]} = 0.067\ [M]
+\end{split}
+$$
+$$
+\ce{NO2- + H2O <=> HNO2 + OH-}
+$$
+$$
+\begin{split}
+&\ce{NO2-}\\
+C_i &= 0.067\ [M] \\
+\Delta C &= - x\ [M] \\
+C_f &= 0.067 - x\ [M] \\
+\end{split}
+\qquad
+\begin{split}
+&\ce{HNO2}\\
+C_i &= 0\ [M] \\
+\Delta C &= + x\ [M] \\
+C_f &= x\ [M] \\
+\end{split}
+\qquad
+\begin{split}
+&\ce{OH-}\\
+C_i &= 0\ [M] \\
+\Delta C &= + x\ [M] \\
+C_f &= x\ [M] \\
+\end{split}
+$$
+$$
+\begin{split}
+pK_b &= 14 - pK_a = 14 - 3.34 = 10.66 \\
+K_b &= 10^{-pK_b} 10^{-10.66} = 2.19 \cdot 10^{-11} \\
+\end{split}
+$$
+$$
+K_b = \frac{|\ce{HNO2}| \cdot |\ce{OH-}|}{|\ce{NO2-}|} = \frac{x \cdot x}{0.067 - x}
+$$
+On approxime en négligeant le x : 
+$$
+\begin{split}
+K_b &= \frac{x \cdot \cancel{x}}{0.067 - \cancel{x}} = \frac{x^2}{0.067} = 2.19 \cdot 10^{-11} \\
+x &= \sqrt{2.19 \cdot 10^{-11} \cdot 0.067} = 1.21 \cdot 10^{-6}\ [M]
+\end{split}
+$$
+L'approximation est valide : $\frac{1.21 \cdot 10^{-6}}{0.067} \cdot 100\% \cong 0.002\% < 5\%$
+$$
+\begin{split}
+|\ce{OH-}| = x = 1.21 \cdot 10^{-6}\ [M] 
+\end{split}
+\qquad
+\begin{split}
+pOH &= - \log(|\ce{OH-}|) = - \log(1.21 \cdot 10^{-6}) = 5.92 \\
+pH &= 14 - pOH = 14 - 5.92 = 8.08
+\end{split}
+$$
 :::

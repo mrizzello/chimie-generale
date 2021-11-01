@@ -1,18 +1,74 @@
 ::: {.Exercise data-latex=""}
 
-On effectue le titrage de 25 mL d’une solution de $\ce{HCl}$ 0.15 [M] par $\ce{NaOH}$ 0.1 [M]. Calculez le point équivalent et donnez son pH.
+On effectue le titrage de 25 mL d’une solution de $\ce{HCl}$ 0.15 [M] par $\ce{NaOH}$ 0.1 [M].
+a. Calculez le point équivalent et donnez son pH.
 \vspace{\stretch{1}}
-Calculez le pH de départ.
+b. Calculez le pH de départ.
 \vspace{\stretch{1}}
-Calculez le pH après l’addition de 5 mL de $\ce{NaOH}$ 0.1 [M].
+c. Calculez le pH après l’addition de 5 mL de $\ce{NaOH}$ 0.1 [M].
 \vspace{\stretch{1}}
-Calculez le pH après l’addition de 42.5 mL de $\ce{NaOH}$ 0.1 [M].
+d. Calculez le pH après l’addition de 42.5 mL de $\ce{NaOH}$ 0.1 [M].
 \vspace{\stretch{1}}
 
 :::
 
 ::: {.Answer data-latex=""}
 
-Answer
+$$
+\begin{split}
+\ce{NaOH} &\Rightarrow \text{base forte} \\
+\ce{HCl} &\Rightarrow \text{acide fort}
+\end{split}
+$$
+
+a. $$
+\begin{split}
+C_a \cdot V_a &= C_b \cdot V_b \\
+\Rightarrow V_b &= \frac{C_a \cdot V_a}{C_b}
+\end{split}
+\qquad
+\begin{split}
+V_b &= \frac{0.15\ [M] \cdot 0.025\ [L]}{0.10\ [M]} \\
+&= 0.0375\ [L]
+\end{split}
+$$
+
+Neutralisation d'un acide fort par une base forte : pH = 7.
+
+b. $$
+pH = - \log(|H3O+|) = - \log(0.15) = 0.82
+$$
+
+c. $$
+\begin{split}
+n_{a} &= C_{a} \cdot V_{a} = 0.15\ [M] \cdot 0.025\ [L] = 0.00375\ [mol] \\
+n_{b} &= C_{b} \cdot V_{b} = 0.10\ [M] \cdot 0.005\ [L] = 0.0005\ [mol]
+\end{split}
+$$
+$$
+\begin{split}
+n_{a}^* &= n_{a} - n_{b} = 0.00325\ [mol] \\
+C_{a}^* &= \frac{n_{a}^*}{V_{total}} = \frac{0.00325\ [mol]}{0.03\ [L]} = 0.125\ [M]
+\end{split}
+$$
+$$
+pH = - \log(C_{a}^*) = 0.90
+$$
+
+d. $$
+\begin{split}
+n_{a} &= 0.00375\ [mol] \\
+n_{b} &= C_{b} \cdot V_{b} = 0.10\ [M] \cdot 0.0425\ [L] = 0.00425\ [mol]
+\end{split}
+$$
+$$
+\begin{split}
+n_{b}^* &= n_{b} - n_{a} = 0.0005\ [mol] \\
+C_{b}^* &= \frac{n_{b}^*}{V_{total}} = \frac{0.0005\ [mol]}{0.0675\ [L]} = 0.0074\ [M]
+\end{split}
+$$
+$$
+pH = 14 + \log(C_{b}^*) = 11.87
+$$
 
 :::
