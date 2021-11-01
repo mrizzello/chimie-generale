@@ -13,6 +13,54 @@ c. Le pH après l’ajout de 60 mL d’acide nitrique
 
 ::: {.Answer data-latex=""}
 
-Answer
+$$
+\begin{split}
+\ce{NaOH} &\Rightarrow \text{base forte} \\
+\ce{HNO3} &\Rightarrow \text{acide fort}
+\end{split}
+\qquad
+\begin{split}
+|\ce{NaOH}| &= |\ce{OH-}| = 0.200\ [M] \\
+|\ce{HNO3}| &= |\ce{H3O+}| = 0.200\ [M]
+\end{split}
+$$
+
+a. $$
+\begin{split}
+n_{\ce{NaOH}(i)} &= C \cdot V = 0.200\ [M] \cdot 0.05\ [L] = 0.01\ [mol] \\
+n_{\ce{HNO3}(i)} &= C \cdot V = 0.200\ [M] \cdot 0.03\ [L] = 0.006\ [mol]
+\end{split}
+$$
+$$
+\begin{split}
+n_{\ce{NaOH}(f)} &= 0.01\ [mol] - 0.006\ [mol] \\
+  &= 0.004\ [mol]
+\end{split}
+\qquad
+\begin{split}
+C_{b}^{*} = \frac{n}{V} = \frac{0.004\ [mol]}{0.08\ [L]} = 0.05\ [M]
+\end{split}
+$$
+$$
+pH = 14 + \log(C_{b}^{*}) = 12.70
+$$
+
+b. Neutralisation d'une base forte par un acide fort : pH = 7.
+
+c. $$
+\begin{split}
+n_{\ce{HNO3}(f)} &= C \cdot V = 0.2\ [mol/L] \cdot 0.06\ [L] \\
+  &= 0.012\ [mol]
+\end{split}
+\qquad
+\begin{split}
+n_{a}^{*} &= n_{\ce{HNO3}} - n_{\ce{NaOH}} = 0.002\ [mol] \\
+C_{a}^{*} &= \frac{n_{a}^{*}}{V_{total}} = \frac{0.002\ [mol]}{0.11\ [L]} = 0.018\ [M]
+\end{split}
+$$
+$$
+pH = - \log(C_{a}^{*}) = 1.74
+$$
+
 
 :::

@@ -4,13 +4,102 @@ a. Calculez le pH d'une solution $\ce{HNO2}$ 0.5 mol/L et $\ce{KNO2}$ 0.1 mol/L.
 \vspace{\stretch{1}}
 b. Sachant qu'une solution $\ce{HNO2}$ 0.5 mol/L a un pH de 1.8, votre résultat vous paraît-il cohérent ? Justifiez.
 \vspace{\stretch{1}}
-c. Calculez le pH si l'on ajoute 0.5 g de $\ce{NO2-}$ dans 20 mL de solution tampon.
+c. Calculez le pH si l'on ajoute 0.3 g de $\ce{NaOH}$ dans 20 mL de solution tampon.
 \vspace{\stretch{1}}
 
 :::
 
 ::: {.Answer data-latex=""}
 
-Answer
+a. Méthode basée sur l'équilibre :
+$$
+\ce{HNO2 + H2O <=> H3O+ + NO2-}
+$$
+$$
+\begin{split}
+&\ce{HNO2}\\
+C_i &= 0.5\ [M] \\
+\Delta C &= - x\ [M] \\
+C_f &= 0.5 - x\ [M] \\
+\end{split}
+\qquad
+\begin{split}
+&\ce{H3O+}\\
+C_i &= 0\ [M] \\
+\Delta C &= + x\ [M] \\
+C_f &= x\ [M] \\
+\end{split}
+\qquad
+\begin{split}
+&\ce{NO2-}\\
+C_i &= 0.1\ [M] \\
+\Delta C &= + x\ [M] \\
+C_f &= 0.1 + x\ [M] \\
+\end{split}
+$$
+$$
+K_a = \frac{|\ce{NO2-}| \cdot |\ce{H3O+}|}{|\ce{HNO2}|} = \frac{x \cdot (0.1 + x)}{0.5 - x}
+$$
+On approxime en négligeant le x : 
+$$
+\begin{split}
+K_a &= \frac{x \cdot (0.1 + \cancel{x})}{0.5 - \cancel{x}} = \frac{0.1 \cdot x}{0.5} = 4.6 \cdot 10^{-4} \\
+x &= 4.6 \cdot 10^{-4} \cdot \frac{0.5}{0.1} = 2.3 \cdot 10^{-3}\ [M]
+\end{split}
+$$
+L'approximation est valide : $\frac{2.3 \cdot 10^{-3}}{0.5} \cdot 100\% \cong 0.46\% < 5\%$
+$$
+\begin{split}
+|\ce{H3O+}| = x = 2.3 \cdot 10^{-3}\ [M]
+\end{split}
+\qquad\qquad
+\begin{split}
+pH &= - \log(|\ce{H3O+}|) \\
+ &= - \log(2.3 \cdot 10^{-3}) \cong 2.6
+\end{split}
+$$
 
+Méthode basée sur l’équation de Henderson-Hasselbalch :
+
+$$
+\begin{split}
+  pH = pK_a + \log(\frac{|\ce{A-}|}{|\ce{HA}|})
+\end{split}
+\qquad
+\begin{split}
+  \ce{HA} \Rightarrow &\ \ce{HNO2} \\
+  \ce{A-} \Rightarrow &\ \ce{NO2-} \\
+  K_a = &\ 4.6 \cdot 10^{-4}
+\end{split}
+\qquad
+\begin{split}
+  pH &= pK_a + \log(\frac{|\ce{NO2-}|}{|\ce{HNO2}|}) \\
+  &= - \log(4.6 \cdot 10^{-4}) + \log(\frac{0.1}{0.5}) = 2.6 \\
+\end{split}
+$$
+
+b. Oui, une solution tampon sera moins acide que la solution acide.
+
+c. $$
+\begin{split}
+M_{\ce{NaOH}} = 40.008\ [g/mol]
+\end{split}
+\qquad
+\begin{split}
+n_{\ce{NaOH}} &= \frac{m_{\ce{NaOH}}}{M_{\ce{NaOH}}} = \frac{0.3\ [g]}{40.008\ [g/mol]} = 0.0075\ [mol] \\
+|\ce{NaOH}| &= \frac{n_{\ce{NaOH}}}{V_{solution}} = \frac{0.0075\ [mol]}{0.020\ [L]} = 0.375\ [M]
+\end{split}
+$$
+$$
+\begin{split}
+|\ce{HNO2}| &= 0.5 - 0.375 = 0.125\ [M] \\
+|\ce{NO2-}| &= 0.1 + 0.375 = 0.475\ [M]
+\end{split}
+$$
+$$
+\begin{split}
+  pH &= pK_a + \log(\frac{|\ce{NO2-}|}{|\ce{HNO2}|}) \\
+  &= - \log(4.6 \cdot 10^{-4}) + \log(\frac{0.475}{0.125}) = 3.92 \\
+\end{split}
+$$
 :::

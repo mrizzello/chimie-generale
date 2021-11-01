@@ -7,6 +7,76 @@ Calculez le pH d’une solution résultant du mélange de 60.0 [mL] de $\ce{HCOO
 
 ::: {.Answer data-latex=""}
 
-Answer
+$$
+\begin{split}
+  |\ce{HCOOH}| &= \frac{0.06\ [L] \cdot 0.250\ [mol/L]}{0.075\ [L]} = 0.200\ [mol/L] \\
+  |\ce{HCOO-}| &= \frac{0.015\ [L] \cdot 0.500\ [mol/L]}{0.075\ [L]} = 0.100\ [mol/L]
+\end{split}
+$$
+Méthode basée sur l'équilibre :
+$$
+\ce{HCOOH + H2O <=> H3O+ + HCOO-}
+$$
+$$
+\begin{split}
+&\ce{HCOOH}\\
+C_i &= 0.200\ [M] \\
+\Delta C &= - x\ [M] \\
+C_f &= 0.200 - x\ [M] \\
+\end{split}
+\qquad
+\begin{split}
+&\ce{H3O+}\\
+C_i &= 0\ [M] \\
+\Delta C &= + x\ [M] \\
+C_f &= x\ [M] \\
+\end{split}
+\qquad
+\begin{split}
+&\ce{HCOO-}\\
+C_i &= 0.100\ [M] \\
+\Delta C &= + x\ [M] \\
+C_f &= 0.100 + x\ [M] \\
+\end{split}
+$$
+$$
+K_a = \frac{|\ce{HCOO-}| \cdot |\ce{H3O+}|}{|\ce{HCOOH}|} = \frac{x \cdot (0.100 + x)}{0.200 - x}
+$$
+On approxime en négligeant le x : 
+$$
+\begin{split}
+K_a &= \frac{x \cdot (0.100 + \cancel{x})}{0.200 - \cancel{x}} = \frac{0.100 \cdot x}{0.200} = 1.8 \cdot 10^{-4} \\
+x &= 1.8 \cdot 10^{-4} \cdot \frac{0.200}{0.100} = 3.6 \cdot 10^{-4}\ [M]
+\end{split}
+$$
+L'approximation est valide : $\frac{3.6 \cdot 10^{-4}}{0.200} \cdot 100\% \cong 0.18\% < 5\%$
+$$
+\begin{split}
+|\ce{H3O+}| = x = 3.6 \cdot 10^{-4}\ [M]
+\end{split}
+\qquad\qquad
+\begin{split}
+pH &= - \log(|\ce{H3O+}|) \\
+ &= - \log(3.6 \cdot 10^{-4}) \cong 3.44
+\end{split}
+$$
 
+Méthode basée sur l’équation de Henderson-Hasselbalch :
+
+$$
+\begin{split}
+  pH = pK_a + \log(\frac{|\ce{A-}|}{|\ce{HA}|})
+\end{split}
+\qquad
+\begin{split}
+  \ce{HA} \Rightarrow &\ \ce{HCOOH} \\
+  \ce{A-} \Rightarrow &\ \ce{HCOO-} \\
+  K_a = &\ 1.8 \cdot 10^{-4}
+\end{split}
+\qquad
+\begin{split}
+  pH &= pK_a + \log(\frac{|\ce{HCOO-}|}{|\ce{HCOOH}|}) \\
+  &= - \log(1.8 \cdot 10^{-4}) + \log(\frac{0.100}{0.200}) = 3.44 \\
+\end{split}
+$$
 :::

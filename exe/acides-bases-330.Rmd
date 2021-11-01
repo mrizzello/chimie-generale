@@ -6,7 +6,71 @@ Calculez le pH d’une solution tampon constituée d’une solution de $\ce{HF}$
 :::
 
 ::: {.Answer data-latex=""}
+Méthode basée sur l'équilibre :
 
-Answer
+$$
+\ce{HF + H2O <=> H3O+ + F-}
+$$
+$$
+\begin{split}
+&\ce{HF}\\
+C_i &= 0.15\ [M] \\
+\Delta C &= - x\ [M] \\
+C_f &= 0.15 - x\ [M] \\
+\end{split}
+\qquad
+\begin{split}
+&\ce{H3O+}\\
+C_i &= 0\ [M] \\
+\Delta C &= + x\ [M] \\
+C_f &= x\ [M] \\
+\end{split}
+\qquad
+\begin{split}
+&\ce{F-}\\
+C_i &= 0.15\ [M] \\
+\Delta C &= + x\ [M] \\
+C_f &= 0.15 + x\ [M] \\
+\end{split}
+$$
+$$
+K_a = \frac{|\ce{F-}| \cdot |\ce{H3O+}|}{|\ce{HF}|} = \frac{(0.15 + x) \cdot x}{0.15 - x}
+$$
+On approxime en négligeant le x : 
+$$
+\begin{split}
+K_a &= \frac{(0.15 + \cancel{x}) \cdot x}{0.15 - \cancel{x}} = \frac{0.15 \cdot x}{0.15} = 3.5 \cdot 10^{-4} \\
+x &= 3.5 \cdot 10^{-4}\ [M]
+\end{split}
+$$
+L'approximation est valide : $\frac{3.5 \cdot 10^{-4}}{0.15} \cdot 100\% \cong 0.23\% < 5\%$
+$$
+\begin{split}
+|\ce{H3O+}| = x = 3.5 \cdot 10^{-4}\ [M]
+\end{split}
+\qquad\qquad
+\begin{split}
+pH &= - \log(|\ce{H3O+}|) \\
+ &= - \log(3.5 \cdot 10^{-4}) \cong 3.46
+\end{split}
+$$
 
+Méthode basée sur l’équation de Henderson-Hasselbalch :
+
+$$
+\begin{split}
+  pH = pK_a + \log(\frac{|\ce{A-}|}{|\ce{HA}|})
+\end{split}
+\qquad
+\begin{split}
+  \ce{HA} \Rightarrow &\ \ce{HF} \\
+  \ce{A-} \Rightarrow &\ \ce{F-} \\
+  K_a = &\ 3.5 \cdot 10^{-4}
+\end{split}
+\qquad
+\begin{split}
+  pH &= pK_a + \log(\frac{|\ce{F-}|}{|\ce{HF}|}) \\
+  &= - \log(3.5 \cdot 10^{-4}) + \log(\frac{0.15}{0.15}) = 3.46 \\
+\end{split}
+$$
 :::
