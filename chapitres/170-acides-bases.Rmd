@@ -116,7 +116,7 @@ La force d'un acide ou d'une base est déterminée par le degré de dissociation
 |                   ACIDE FORT                   |                  BASE FORTE                   |
 |:----------------------------------------------:|:---------------------------------------------:|
 | $\ce{HA(aq) + H2O(l) -> H3O+(aq) + A^{-}(aq)}$ | $\ce{B(aq) + H2O(l) -> BH+(aq) + OH^{-}(aq)}$ |
-|   ![](images/acides-forts-1.png){width=45%}    |   ![](images/bases-fortes-1.png){width=45%}   |
+|   ![](images/acides-forts-1.png){width=25%}    |   ![](images/bases-fortes-1.png){width=25%}   |
 |         $\ce{HCl}, \ce{HBr}, \ce{HI},$         |       $\ce{LiOH}, \ce{NaOH}, \ce{KOH},$       |
 |            $\ce{HNO3}, \ce{HClO4}$             |  $\ce{Sr(OH)2}, \ce{Ca(OH)2}, \ce{Ba(OH)2}$   |
 
@@ -125,7 +125,7 @@ Avec une ionisation complète, il s'ensuit que pour un monoacide fort (particule
 |                  ACIDE FAIBLE                   |                  BASE FAIBLE                   |
 |:-----------------------------------------------:|:----------------------------------------------:|
 | $\ce{HA(aq) + H2O(l) <=> H3O+(aq) + A^{-}(aq)}$ | $\ce{B(aq) + H2O(l) <=> BH+(aq) + OH^{-}(aq)}$ |
-|   ![](images/acides-faibles-1.png){width=45%}   |   ![](images/bases-faibles-1.png){width=45%}   |
+|   ![](images/acides-faibles-1.png){width=25%}   |   ![](images/bases-faibles-1.png){width=25%}   |
 
 Dans le cas d'un acide faible partiellement ionisé : |HA| >>> |H3O^+^|. Dans le cas d'une base faible partiellement ionisé : |B| >>> |OH^-^|.
 
@@ -133,9 +133,10 @@ Il est à noter que **plus un acide est fort, plus sa base conjuguée sera faibl
 
 De plus, de nombreuses bases faibles contiennent un atome d'azote puisque la paire libre peut agir comme un accepteur de proton.
 
-```{r acides-bases-3,echo=FALSE,out.width="90%",fig.show="hold",fig.align="center",fig.cap="Exemple de base faible azotée."}
+```{r acides-bases-3,echo=FALSE,out.width="80%",fig.show="hold",fig.align="center",fig.cap="Exemple de base faible azotée."}
 knitr::include_graphics(c("images/acides-bases-3.png"))
 ```
+\clearpage
 
 ## Constante d'acidité K~a~ et constante de basicité K~b~
 
