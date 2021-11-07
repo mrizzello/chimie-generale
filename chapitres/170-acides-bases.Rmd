@@ -207,7 +207,7 @@ En résumé :
 
 |                           |                                            |
 |:--------------------------|:------------------------------------------:|
-| Dans de l'eau pure        | $|\ce{H3O+}| = |\ce{OH-}| = 10^{-7} [[M]]$ |
+| Dans de l'eau pure        | $|\ce{H3O+}| = |\ce{OH-}| = 10^{-7} [M]$ |
 | Dans une solution acide   |         $|\ce{H3O+}| > |\ce{OH-}|$         |
 | Dans une solution basique |         $|\ce{H3O+}| < |\ce{OH-}|$         |
 
@@ -237,7 +237,7 @@ $$
 Si l'on reprend l'exemple du jus d'orange cité ci-dessus on obtient :
 
 $$
-pH = - \log(0.00025\ [[M]]) = 3.60
+pH = - \log(0.00025\ [M]) = 3.60
 $$
 
 _Remarque : la valeur du pH doit posséder autant de décimales qu'il y a de chiffres significatifs dans la valeur de la concentration._
