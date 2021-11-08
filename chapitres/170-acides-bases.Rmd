@@ -231,13 +231,13 @@ Les valeurs de ces concentrations (exprimées en [M]) sont très petites dans le
 Le pH (pour potentiel hydrogène) est défini comme le logarithme négatif de la concentration molaire des ions H~3~O^+^, exprimée en [M] :
 
 $$
-pH = - \log(|\ce{H3O+}|)
+pH = - \log |\ce{H3O+}|
 $$
 
 Si l'on reprend l'exemple du jus d'orange cité ci-dessus on obtient :
 
 $$
-pH = - \log(0.00025\ [M]) = 3.60
+pH = - \log 0.00025\ [M] = 3.60
 $$
 
 _Remarque : la valeur du pH doit posséder autant de décimales qu'il y a de chiffres significatifs dans la valeur de la concentration._
@@ -387,7 +387,7 @@ $$
 Finalement, on calcule le pH :
 
 $$
-pH = - \log(|\ce{H3O+}|) = - \log(7 \cdot 10^{-6}) = 5.15\ [-]
+pH = - \log |\ce{H3O+}| = - \log 7 \cdot 10^{-6} = 5.15\ [-]
 $$
 
 \clearpage
@@ -449,7 +449,7 @@ $$
 Finalement, on calcule le pH en prenant $|\ce{OH-}| = 1.90 \cdot 10^{-3}$ [M] :
 
 $$
-pH = 14 - pOH = 14 - \log(|\ce{OH-}|) = 14 - \log(1.90 \cdot 10^{-3}) = 11.279\ [-]
+pH = 14 - pOH = 14 - \log |\ce{OH-}| = 14 - \log 1.90 \cdot 10^{-3} = 11.279\ [-]
 $$
 
 ```{r, child=c('exe/acides-bases-250.Rmd')}
@@ -598,7 +598,7 @@ $$
 Finalement, on calcule le pH en prenant $|\ce{H3O+}| = 3.5 \cdot 10^{-5}$ [M] :
 
 $$
-pH = - \log(|\ce{H3O+}|) = - \log(3.6 \cdot 10^{-5}) = 4.44\ [-]
+pH = - \log |\ce{H3O+}| = - \log 3.6 \cdot 10^{-5} = 4.44\ [-]
 $$
 
 A titre de comparaison :
@@ -632,11 +632,11 @@ En utilisant les propriétés des logarithmes dans le but de généraliser la fo
 
 $$
 \begin{split}
-\log(|\ce{H3O+}|) &= \log(K_a \cdot \frac{|\ce{HA}|}{|\ce{A-}|}) \\
-\log(|\ce{H3O+}|) &= \log(K_a) + \log(\frac{|\ce{HA}|}{|\ce{A-}|}) \\
-- \log(|\ce{H3O+}|) &= - \log(K_a) - \log(\frac{|\ce{HA}|}{|\ce{A-}|}) \\
-- \log(|\ce{H3O+}|) &= - \log(K_a) + \log(\frac{|\ce{A-}|}{|\ce{HA}|}) \\
-pH &= pK_a + \log(\frac{|\ce{A-}|}{|\ce{HA}|})
+\log |\ce{H3O+}| &= \log K_a \cdot \frac{|\ce{HA}|}{|\ce{A-}|} \\
+\log |\ce{H3O+}| &= \log K_a + \log \frac{|\ce{HA}|}{|\ce{A-}|} \\
+- \log |\ce{H3O+}| &= - \log K_a - \log \frac{|\ce{HA}|}{|\ce{A-}|} \\
+- \log |\ce{H3O+}| &= - \log K_a + \log \frac{|\ce{A-}|}{|\ce{HA}|} \\
+pH &= pK_a + \log \frac{|\ce{A-}|}{|\ce{HA}|}
 \end{split}
 $$
 
@@ -645,7 +645,7 @@ Cette équation fonctionne dans le cas où l’approximation de x est valable (s
 Dans le cas d’une solution tampon d’une base faible en présence de son acide conjugué, il suffit de calculer le pK~a~ à partir du pK~b~ selon l’équation :
 
 $$
-pK_a + pK_b = 14 \quad \text{avec } pK_b = - \log(K_b)
+pK_a + pK_b = 14 \quad \text{avec } pK_b = - \log K_b
 $$
 
 ```{r, child=c('exe/acides-bases-330.Rmd')}
@@ -679,7 +679,7 @@ Par conséquent :
 
 $$
 \begin{split}
-pK_b = - \log(K_b) = 4.74
+pK_b = - \log K_b = 4.74
 \end{split}
 \qquad\text{et}\qquad
 \begin{split}
@@ -688,7 +688,7 @@ pKa = 14 – 4.74 = 9.26
 $$
 
 $$
-pH = pK_a + \log(\frac{|\ce{A-}|}{|\ce{HA}|}) = 9.26 + \log(\frac{0.25}{0.40}) = 9.06
+pH = pK_a + \log \frac{|\ce{A-}|}{|\ce{HA}|} = 9.26 + \log \frac{0.25}{0.40} = 9.06
 $$
 
 \clearpage
@@ -714,7 +714,7 @@ $$
 $$
 
 $$
-pH = pK_a + \log(\frac{|\ce{A-}|}{|\ce{HA}|}) = 9.26 + \log(\frac{0.15}{0.50}) = 8.74
+pH = pK_a + \log \frac{|\ce{A-}|}{|\ce{HA}|} = 9.26 + \log \frac{0.15}{0.50} = 8.74
 $$
 
 On remarquera que l’addition de $\ce{HCl}$ n’a que faiblement diminué la valeur du pH. L’abaissement du pH est cohérent avec le fait qu’un acide fort a été ajouté.
@@ -771,14 +771,14 @@ knitr::include_graphics(c("images/acides-bases-6a.png"))
 **Avant l'ajout de base**, seul l'acide fort est présent dans le bécher. Ainsi, le calcul du pH sera :
 
 $$
-pH = - \log(C_a)
+pH = - \log C_a
 $$
 
 **Avant le point équivalent**, seul l'acide influencera le pH, mais celui-ci étant dilué, il faudra calculer sa concentration exacte :
 
 $$
 \begin{split}
-pH = - \log(C_a^{*})
+pH = - \log C_a^{*}
 \end{split}
 \qquad
 \begin{split}
@@ -792,7 +792,7 @@ $$
 
 $$
 \begin{split}
-pH = 14 + \log(C_b^{*})
+pH = 14 + \log C_b^{*}
 \end{split}
 \qquad
 \begin{split}
@@ -819,14 +819,14 @@ knitr::include_graphics(c("images/acides-bases-6b.png"))
 **Avant l'ajout d’acide**, seule la base forte est présente dans le bécher. Ainsi, le calcul du pH sera :
 
 $$
-pH = 14 + \log(C_b)
+pH = 14 + \log C_b
 $$
 
 **Avant le point équivalent**, seule la base forte influencera la valeur du pH, mais celle-ci étant diluée, il faudra également calculer sa concentration exacte :
 
 $$
 \begin{split}
-pH = 14 + \log(C_b^{*})
+pH = 14 + \log C_b^{*}
 \end{split}
 \qquad
 \begin{split}
@@ -840,7 +840,7 @@ $$
 
 $$
 \begin{split}
-pH = - \log(C_a^{*})
+pH = - \log C_a^{*}
 \end{split}
 \qquad
 \begin{split}
@@ -865,7 +865,7 @@ knitr::include_graphics(c("images/acides-bases-6c.png"))
 **Avant ajout de base**, seul l'acide faible est présent dans le bécher. Ainsi, le calcul du pH sera :
 
 $$
-pH = - \log(|\ce{H3O+}|)
+pH = - \log |\ce{H3O+}|
 $$
 
 La concentration en hydronium se calcule à l’aide d’un tableau d’équilibre (ou tableau de variation, voir pH des acides faibles).
@@ -873,7 +873,7 @@ La concentration en hydronium se calcule à l’aide d’un tableau d’équilib
 **Avant le point équivalent**, nous observons une zone particulière. En effet, l'acide et la base conjuguée étant tous deux présents, nous aurons affaire à une **solution tampon** et le calcul sera donc :
 
 $$
-pH = pKa + \log(\frac{|A^-|}{|HA^*|}) \text{ ou simplement } pH = pKa + \log{\frac{n_b}{n_a^*}}
+pH = pKa + \log \frac{|A^-|}{|HA^*|} \text{ ou simplement } pH = pKa + \log{\frac{n_b}{n_a^*}}
 $$
 
 Puisque le volume contenant la base et l'acide est le même. Le nombre de moles d'acide faible restant et de base conjuguée créé devra être calculé :
@@ -893,7 +893,7 @@ Un point particulier sera observé dans cette partie de la courbe, soit le momen
 **Au point équivalent**, le pH observé ne sera pas neutre car le sel contient la base conjuguée de l'acide faible titré qui influencera le pH. Celui-ci sera donc un peu basique. Au point d’équivalence, tout l’acide faible est converti en sa base conjuguée et le calcul du pH sera :
 
 $$
-pH = 14 + \log(|\ce{OH-}|)
+pH = 14 + \log |\ce{OH-}|
 $$
 
 La concentration en $\ce{OH-}$ se calcule à l’aide d’un tableau d’équilibre (ou tableau de variation, voir pH des bases faibles) en prenant comme concentration initiale en base faible, la concentration initiale en acide faible.
@@ -901,7 +901,7 @@ La concentration en $\ce{OH-}$ se calcule à l’aide d’un tableau d’équili
 **Après le point équivalent**, seule la base forte influencera le pH (car la contribution du sel est négligeable face à la base forte), mais celle-ci étant diluée, il faudra également calculer sa concentration exacte :
 
 $$
-pH = 14 + \log(C_b^*)
+pH = 14 + \log C_b^*
 $$
 
 $$
