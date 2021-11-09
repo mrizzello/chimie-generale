@@ -120,7 +120,7 @@ $$
 \begin{split}
 |\ce{H3O+}|_{total} &= 0.0476\ [M] + \cancel{6.2 \cdot 10^{-8}} \quad \text{(négligeable)} \\
 &= 0.0476\ [M] \\
-pH &= - \log(|\ce{H3O+}|) = - \log(0.0476) = 1.32
+pH &= - \log |\ce{H3O+}| = - \log 0.0476 = 1.32
 \end{split}
 $$
 b. $$
@@ -171,7 +171,7 @@ $$
 \begin{split}
 |\ce{H3O+}|_{total} &= 0.125\ [M] + 0.0102\ [M] \\
 &= 0.1352\ [M] \\
-pH &= - \log(|\ce{H3O+}|) = - \log(0.1352) = 0.869
+pH &= - \log |\ce{H3O+}| = - \log 0.1352 = 0.869
 \end{split}
 $$
 :::

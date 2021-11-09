@@ -78,8 +78,8 @@ $$
 \end{split}
 \qquad\qquad
 \begin{split}
-pH &= - \log(|\ce{H3O+}|) \\
- &= - \log(0.028) \cong 1.55
+pH &= - \log |\ce{H3O+}| \\
+ &= - \log 0.028 \cong 1.55
 \end{split}
 $$
 

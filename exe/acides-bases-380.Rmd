@@ -54,8 +54,8 @@ $$
 \end{split}
 \qquad\qquad
 \begin{split}
-pH &= - \log(|\ce{H3O+}|) \\
- &= - \log(2.3 \cdot 10^{-3}) \cong 2.6
+pH &= - \log |\ce{H3O+}| \\
+ &= - \log 2.3 \cdot 10^{-3} \cong 2.6
 \end{split}
 $$
 
@@ -63,7 +63,7 @@ Méthode basée sur l’équation de Henderson-Hasselbalch :
 
 $$
 \begin{split}
-  pH = pK_a + \log(\frac{|\ce{A-}|}{|\ce{HA}|})
+  pH = pK_a + \log \frac{|\ce{A-}|}{|\ce{HA}|}
 \end{split}
 \qquad
 \begin{split}
@@ -73,8 +73,8 @@ $$
 \end{split}
 \qquad
 \begin{split}
-  pH &= pK_a + \log(\frac{|\ce{NO2-}|}{|\ce{HNO2}|}) \\
-  &= - \log(4.6 \cdot 10^{-4}) + \log(\frac{0.1}{0.5}) = 2.6 \\
+  pH &= pK_a + \log \frac{|\ce{NO2-}|}{|\ce{HNO2}|} \\
+  &= - \log 4.6 \cdot 10^{-4} + \log \frac{0.1}{0.5} = 2.6 \\
 \end{split}
 $$
 
@@ -98,8 +98,8 @@ $$
 $$
 $$
 \begin{split}
-  pH &= pK_a + \log(\frac{|\ce{NO2-}|}{|\ce{HNO2}|}) \\
-  &= - \log(4.6 \cdot 10^{-4}) + \log(\frac{0.475}{0.125}) = 3.92 \\
+  pH &= pK_a + \log \frac{|\ce{NO2-}|}{|\ce{HNO2}|} \\
+  &= - \log 4.6 \cdot 10^{-4} + \log \frac{0.475}{0.125} = 3.92 \\
 \end{split}
 $$
 :::

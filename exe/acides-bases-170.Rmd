@@ -16,10 +16,10 @@ d. 0.315 mg de $\ce{HNO3}$ dans 10 mL de solution
 ::: {.Answer data-latex=""}
 
 a. $$
-pH = - \log(0.025) \cong 1.6
+pH = - \log 0.025 \cong 1.6
 $$
 b. $$
-pH = 14 + \log(0.003) \cong 11.5
+pH = 14 + \log 0.003 \cong 11.5
 $$
 c. $$
 \begin{split}
@@ -31,7 +31,7 @@ d. $$
 \begin{split}
   n_{\ce{HNO3}} &= \frac{0.315 \cdot 10^{-3}\ [g]}{63\ [g/mol]} = 5 \cdot 10^{-6}\ [mol] \\
   |\ce{HNO3}| &= \frac{n}{V} = \frac{5 \cdot 10^{-6}\ [mol]}{10 \cdot 10^{-3}\ [L]} = 5 \cdot 10^{-4}\ [M] \\
-  pH &= - \log(|\ce{H3O+}|) = - \log(5 \cdot 10^{-4}) \cong 3.301
+  pH &= - \log |\ce{H3O+}| = - \log 5 \cdot 10^{-4} \cong 3.301
  \end{split}
 $$
 

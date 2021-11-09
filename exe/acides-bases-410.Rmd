@@ -36,7 +36,7 @@ $$
 Neutralisation d'un acide fort par une base forte : pH = 7.
 
 b. $$
-pH = - \log(|H3O+|) = - \log(0.15) = 0.82
+pH = - \log |H3O+| = - \log 0.15 = 0.82
 $$
 
 c. $$
@@ -52,7 +52,7 @@ C_{a}^* &= \frac{n_{a}^*}{V_{total}} = \frac{0.00325\ [mol]}{0.03\ [L]} = 0.125\
 \end{split}
 $$
 $$
-pH = - \log(C_{a}^*) = 0.90
+pH = - \log C_{a}^* = 0.90
 $$
 
 d. $$

@@ -28,7 +28,7 @@ d. pk_a = 7.5
 
 2. $$
 \begin{split}
-  pH = pK_a + \log(\frac{|\ce{A-}|}{|\ce{HA}|})
+  pH = pK_a + \log \frac{|\ce{A-}|}{|\ce{HA}|}
 \end{split}
 \qquad
 \begin{split}
@@ -39,12 +39,12 @@ d. pk_a = 7.5
 $$
 $$
 \begin{split}
-  pH &= pK_a + \log(\frac{|\ce{C6H5COO-}|}{|\ce{C6H5COOH}|}) \\
-  4.3 &= 4.2 + \log(\frac{|\ce{C6H5COO-}|}{|\ce{C6H5COOH}|})
+  pH &= pK_a + \log \frac{|\ce{C6H5COO-}|}{|\ce{C6H5COOH}|} \\
+  4.3 &= 4.2 + \log \frac{|\ce{C6H5COO-}|}{|\ce{C6H5COOH}|}
 \end{split}
 \qquad
 \begin{split}
-  \log(\frac{|\ce{C6H5COO-}|}{|\ce{C6H5COOH}|}) &= 0.1 \\
+  \log \frac{|\ce{C6H5COO-}|}{|\ce{C6H5COOH}|} &= 0.1 \\
   \frac{|\ce{C6H5COO-}|}{|\ce{C6H5COOH}|} &= 10^{0.1} = 1.26 \\
   \Rightarrow |\ce{C6H5COO-}| &= 1.26 \cdot |\ce{C6H5COOH}|
 \end{split}

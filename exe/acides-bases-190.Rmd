@@ -20,7 +20,7 @@ b. Cela revient à diluer 2 fois.
 $$
 \begin{split}
 |\ce{HCl}| &= |\ce{H3O+}| = \frac{5 \cdot 10^{-2}\ [mol/L]}{2} = 2.5 \cdot 10^{-2}\ [M] \\
-pH &= - \log(|\ce{H3O+}|) = - \log(2.5 \cdot 10^{-2}) \cong 1.6
+pH &= - \log |\ce{H3O+}| = - \log 2.5 \cdot 10^{-2} \cong 1.6
 \end{split}
 $$
 

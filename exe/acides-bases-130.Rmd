@@ -17,7 +17,7 @@ a. $$
 \end{split}
 \quad
 \begin{split}
-pH = - \log(0.002) \cong 2.7
+pH = - \log 0.002 \cong 2.7
 \end{split}
 $$
 b. pH = 3 (échelle logarithmique)
