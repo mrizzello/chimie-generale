@@ -53,7 +53,7 @@ $$
 \end{split}
 \qquad
 \begin{split}
-pOH &= - \log(|\ce{OH-}|) = - \log(0.0047) = 2.32 \\
+pOH &= - \log |\ce{OH-}| = - \log 0.0047 = 2.32 \\
 pH &= 14 - pOH = 14 - 2.32 = 11.68
 \end{split}
 $$

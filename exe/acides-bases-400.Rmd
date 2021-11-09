@@ -59,7 +59,7 @@ C_{a}^{*} &= \frac{n_{a}^{*}}{V_{total}} = \frac{0.002\ [mol]}{0.11\ [L]} = 0.01
 \end{split}
 $$
 $$
-pH = - \log(C_{a}^{*}) = 1.74
+pH = - \log C_{a}^{*} = 1.74
 $$
 
 \clearpage

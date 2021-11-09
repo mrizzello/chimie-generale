@@ -35,7 +35,7 @@ V_b &= \frac{0.100\ [M] \cdot 0.04\ [L]}{0.200\ [M]} \\
 $$
 
 b. $$
-pH = pK_a + \log(\frac{n_b}{n_a^*}) \text{ avec } pK_a = 3.34
+pH = pK_a + \log \frac{n_b}{n_a^*} \text{ avec } pK_a = 3.34
 $$
 $$
 \begin{split}
@@ -104,7 +104,7 @@ $$
 \end{split}
 \qquad
 \begin{split}
-pOH &= - \log(|\ce{OH-}|) = - \log(1.21 \cdot 10^{-6}) = 5.92 \\
+pOH &= - \log |\ce{OH-}| = - \log 1.21 \cdot 10^{-6} = 5.92 \\
 pH &= 14 - pOH = 14 - 5.92 = 8.08
 \end{split}
 $$

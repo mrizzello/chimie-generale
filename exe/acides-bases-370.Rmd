@@ -56,8 +56,8 @@ $$
 \end{split}
 \qquad\qquad
 \begin{split}
-pH &= - \log(|\ce{H3O+}|) \\
- &= - \log(3.6 \cdot 10^{-4}) \cong 3.44
+pH &= - \log |\ce{H3O+}| \\
+ &= - \log 3.6 \cdot 10^{-4} \cong 3.44
 \end{split}
 $$
 
@@ -65,7 +65,7 @@ Méthode basée sur l’équation de Henderson-Hasselbalch :
 
 $$
 \begin{split}
-  pH = pK_a + \log(\frac{|\ce{A-}|}{|\ce{HA}|})
+  pH = pK_a + \log \frac{|\ce{A-}|}{|\ce{HA}|}
 \end{split}
 \qquad
 \begin{split}
@@ -75,8 +75,8 @@ $$
 \end{split}
 \qquad
 \begin{split}
-  pH &= pK_a + \log(\frac{|\ce{HCOO-}|}{|\ce{HCOOH}|}) \\
-  &= - \log(1.8 \cdot 10^{-4}) + \log(\frac{0.100}{0.200}) = 3.44 \\
+  pH &= pK_a + \log \frac{|\ce{HCOO-}|}{|\ce{HCOOH}|} \\
+  &= - \log 1.8 \cdot 10^{-4} + \log \frac{0.100}{0.200} = 3.44 \\
 \end{split}
 $$
 :::

@@ -50,7 +50,7 @@ $$
 \end{split}
 \qquad
 \begin{split}
-pOH &= - \log(|\ce{OH-}|) = - \log(1.2 \cdot 10^{-5}) = 4.92 \\
+pOH &= - \log |\ce{OH-}| = - \log 1.2 \cdot 10^{-5} = 4.92 \\
 pH &= 14 - pOH = 14 - 4.92 = 9.08
 \end{split}
 $$
@@ -58,7 +58,7 @@ $$
 Méthode basée sur l’équation de Henderson-Hasselbalch :
 $$
 \begin{split}
-  pH = pK_a + \log(\frac{|\ce{A-}|}{|\ce{HA}|})
+  pH = pK_a + \log \frac{|\ce{A-}|}{|\ce{HA}|}
 \end{split}
 \qquad
 \begin{split}
@@ -69,8 +69,8 @@ $$
 \end{split}
 \qquad
 \begin{split}
-  pH &= pK_a + \log(\frac{|\ce{NH3}|}{|\ce{NH4+}|}) \\
-  &= 9.26 + \log(\frac{0.12}{0.18}) = 9.08 \\
+  pH &= pK_a + \log \frac{|\ce{NH3}|}{|\ce{NH4+}|} \\
+  &= 9.26 + \log \frac{0.12}{0.18} = 9.08 \\
 \end{split}
 $$
 :::
