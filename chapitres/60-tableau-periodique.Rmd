@@ -2,9 +2,16 @@
 
 ::: {.objectives data-latex=""}
 
-- Prédire la structure électronique d'un élément grâce au tableau périodique.
-- Représenter en structure de Lewis les différents éléments.
-- Prédire l'ion stable que formera un élément.
+- Décrire comment les éléments sont organisés dans le tableau périodique donnant lieu à des périodes et des groupes.
+- Décrire les caractéristiques ondulatoires de la lumière (fréquence, la longueur d'onde et énergie) et les régions générales du spectre électromagnétique.
+- Décrire comment la matière interagit avec les rayonnements électromagnétiques et mène aux spectres d'absorption et d'émission.
+- Repérer les éléments sur le tableau périodique et les classer en métaux, non-métaux ou métalloïdes.
+- Décrire la répartition des électrons en couches, sous-couches et orbitales autour du noyau atomique.
+- Prédire la structure électronique d’un élément grâce au tableau périodique.
+- Identifier les électrons de valence d'un atome et leurs correspondance avec les différents groupes du tableau périodique.
+- Représenter la structure de Lewis d'un atome donné.
+- Définir les termes ions, cations et anions.
+- Utiliser la régle de l'octet pour prédire l’ion stable que formera un élément du bloc principal.
 
 :::
 
@@ -17,6 +24,8 @@ Les chimistes ont regroupé les éléments de sorte à ce qu'ils n'aient pas à 
 En 1871, le chimiste russe **Dmitri Mendeleev** (1836-1907) a présenté le premier **tableau périodique**. Il a classé les éléments par masse atomique croissante et il a ensuite organisé les éléments avec des propriétés chimiques similaires dans la même colonne.
 
 Plus tard, le tableau périodique moderne a été introduit. Il classe les éléments par numéro atomique et non par masse atomique, mais le principe est le même que le classement de Mendeleev.
+
+\clearpage
 
 Chaque case du tableau représente un élément différent et contient au moins trois informations:
 

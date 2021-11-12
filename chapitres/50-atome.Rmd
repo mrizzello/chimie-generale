@@ -1,5 +1,16 @@
 # L'atome
 
+::: {.objectives data-latex=""}
+
+- Décrire la structure de l'atome en termes de protons, de neutrons et d'électrons.
+- Décrire les charges électriques et les masses relatives des protons, des neutrons et des électrons.
+- Utiliser les symboles chimiques ainsi que le numéro atomique et le nombre de masse pour exprimer la composition subatomique des isotopes.
+- Définir l'unité de masse atomique. Décrire et calculer le défaut de masse.
+- Convertir un nombre en moles et vice versa en utilisant le nombre d'Avogadro.
+- Calculer la masse atomique d'un élément, en uma ou en g/mol, à partir des masses de ses isotopes et de leurs abondances naturelles. 
+
+:::
+
 ::: {.tcolorbox data-latex=""}
 
 **Atome**  
