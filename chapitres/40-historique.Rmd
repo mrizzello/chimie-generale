@@ -1,5 +1,12 @@
 # Historique
 
+::: {.objectives data-latex=""}
+
+- Décrire le processus par lequel les éléments chimiques ont été créés.
+- Décrire les expériences clés et les principales hypothèses qui ont conduit à la découverte du modèle atomique.
+
+:::
+
 Selon le modèle du **Big Bang**, l'Univers est né il y a environ 14 milliards d'années lors d'une explosion cataclysmique. Cette explosion marque le début de l'espace, du temps, de la matière et de l'expansion de l'Univers. Quelques milliardièmes de seconde après le Big Bang, l'univers était constitué d'une sorte de soupe primordiale extrêmement chaude et dense des particules les plus fondamentales. L'univers se refroidit sous la barre des 1013 degrés et ces particules fondamentales commencent à s'assembler pour former protons et neutrons. Entre une et trois secondes après le Big Bang apparaît l'époque de la nucléosynthèse primordiale qui va durer environ 3 minutes. C’est à ce moment que se produit la formation de noyaux atomiques à partir des protons et neutrons qui étaient jusque-là libres.
 
 ## Les origines de la matière
@@ -74,7 +81,7 @@ On peut faire une analogie entre le nuage électronique et l'hélice d'un avion.
 
 Développé au début des années 1970, le **modèle standard** est le modèle actuellement accepté. Il a permis d'expliquer avec succès presque tous les résultats expérimentaux et de prédire avec précision une grande variété de phénomènes.
 
-```{r modeles-atomiques-evol-3,echo=FALSE,out.width="25%",fig.show="hold",fig.align="center",fig.cap="Évolution du modèle atomique"}
+```{r modeles-atomiques-evol-3,echo=FALSE,out.width="85%",fig.show="hold",fig.align="center",fig.cap="Évolution du modèle atomique"}
 knitr::include_graphics(c("images/modeles-atomiques-evol-3.png"))
 ```
 
