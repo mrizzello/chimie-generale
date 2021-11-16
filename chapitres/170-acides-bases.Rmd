@@ -479,28 +479,31 @@ Certains acides, comme l’acide sulfurique (H~2~SO~4~) ou encore l’acide phos
 Par exemple, l’acide carbonique se dissocie en 2 temps :
 
 $$
-\ce{H2CO3(aq) + H2O(l) <=> HCO3^{-}(aq) + H3O+(aq)} \qquad \text{avec } K_{a1} = 4.3 \cdot 10^{-7} 
-$$
-
-$$
-\ce{HCO3^{-}(aq) + H2O(l) <=> CO3^{2-}(aq) + H3O+(aq)} \qquad \text{avec } K_{a2} = 4.6 \cdot 10^{-11}
+\begin{split}
+\ce{H2CO3(aq) + H2O(l) <=>[K_{a1}][4.3 $\cdot$ 10^{-7}] &HCO3^{-}(aq) + H3O+(aq)} \\
+\ce{&HCO3^{-}(aq) + H2O(l) <=>[K_{a2}][4.6 $\cdot$ 10^{-11}] CO3^{2-}(aq) + H3O+(aq)}
+\end{split}
 $$
 
 On remarque que la base conjuguée $\ce{HCO3-}$ de la première réaction devient l’acide de la deuxième réaction. Pour un polyacide faible typique, on a K~a1~ > K~a2~ > K~a3~ ...
 
 Les problèmes de calcul de pH de solutions contenant un polyacide se simplifient du fait que seule une des réactions contribue notablement à la formation de H~3~O^+^. De plus, la quantité de H~3~O^+^ produite à la première étape empêche la deuxième étape de produire davantage d’ion hydronium, selon le principe de Le Chatelier.
 
+```{r acides-faibles-2,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Dissociation de l'acide carbonique."}
+knitr::include_graphics(c("images/acides-faibles-2.png"))
+```
+
 On pourra donc traiter les polyacides comme des monoacides, en ne prenant en compte que les protons libérés par le premier équilibre de déprotonation qui aura la plus grande constante d'équilibre K~a~. Dans le cas particulier de l'acide sulfurique, le premier proton est entièrement libéré mais la deuxième déprotonation est non négligeable. Les deux déprotonations devront être prises en compte.
 
-Écrivez les équations d’ionisation en trois étapes de l’acide phosphorique et donnez les constantes d’équilibre correspondantes.
+\clearpage
 
 ```{r, child=c('exe/acides-bases-300.Rmd')}
 ```
 
-\clearpage
-
 ```{r, child=c('exe/acides-bases-310.Rmd')}
 ```
+
+\clearpage
 
 ## Les solutions tampons
 
@@ -514,8 +517,6 @@ knitr::include_graphics(c("images/acides-bases-4.png"))
 ::: {.credit data-latex=""}
 Image tirée du livre : Principe de chimie de Nivaldo Tro
 :::
-
-\clearpage
 
 Si l’on ajoute une base forte (NaOH par exemple) à ce tampon, l’acide acétique neutralisera l’ajout de cette base :
 
@@ -539,10 +540,10 @@ Le pH variera donc peu, pour autant que la quantité d’acide ajoutée ne soit 
 
 Par conséquent, les solutions tampons stabilisent le pH en fournissant source et piège à protons.
 
+\clearpage
+
 ```{r, child=c('exe/acides-bases-320.Rmd')}
 ```
-
-\clearpage
 
 ### pH des solutions tampons
 
