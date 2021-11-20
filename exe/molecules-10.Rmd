@@ -18,7 +18,7 @@ $H_2O$
 
 :::::: {.Answer data-latex=""}
 
-::: {.multicols data-latex="{4}"}
+::: {.multicols data-latex="{3}"}
 
 ![](exe/molecules-10-NH3.png){width=6em}
 

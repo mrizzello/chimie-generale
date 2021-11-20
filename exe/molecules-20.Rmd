@@ -4,9 +4,9 @@ Dessinez la formule développée à l'aide du schéma fourni pour les composés 
 
 ::: {.multicols data-latex="{2}"}
 
-![](exe/formule-developpee.png){width=48%}
+![](exe/formule-developpee.png){width=40%}
 
-![](exe/formule-developpee.png){width=48%}
+![](exe/formule-developpee.png){width=40%}
 
 :::
 
