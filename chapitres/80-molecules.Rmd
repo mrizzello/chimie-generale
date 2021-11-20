@@ -74,6 +74,33 @@ La première étape pour dessiner une molécule est de convertir sa formule brut
 | :--------------------------------------------: | :--------------------------------------------: | :--------------------------------------------: |
 | ![](images/dessin-covalentes-H2O.png){width=9em} | ![](images/dessin-covalentes-NH3.png){width=9em} | ![](images/dessin-covalentes-CH4.png){width=9em} |
 
+### Dessiner les composés ternaires
+
+- De gauche à droite, dessiner le modèle de Lewis de chacun des éléments présents dans la molécule.
+    - Dessiner d'abord les éléments de la colonne I, II ou III.
+    - Dessiner ensuite autant d'oxygène qu'il y a d'électrons libres dans la première colonne.
+    - Dessiner ensuite les éléments autre que l'oxygène.
+    - Dessiner ensuite les oxygènes restants.
+- Dessiner les covalences ou électrovalences selon les différences d'électronégativité.
+
+```{r, child=c('exe/molecules-20.Rmd')}
+```
+
+## Les ions polyatomiques
+
+Les ions $Na^+$, $Mg^{2+}$ ou $Cl^–$ sont **monoatomique**, ce qui signifie qu'ils sont constitué d'un seul atome ionisé. Il existe des ions **polyatomiques**, tels que $NH4^+$ (ion ammonium) ou $SO4^{2–}$ (ion sulfate). Ils se composent d'atomes liés par des covalences mais ils portent une charge positive ou négative.
+
+|             ion hydroxyle            |              ion nitrite              |              ion carbonate             |              ion ammonium             |
+| :----------------------------------: | :-----------------------------------: | :------------------------------------: | :-----------------------------------: |
+|                $OH^–$                |                $NO_2^–$                |               $CO_3^{2–}$               |                $NH_4^+$                |
+| ![](images/mol2D/OH-.png){width=6em} | ![](images/mol2D/NO2-.png){width=6em} | ![](images/mol2D/CO32-.png){width=6em} | ![](images/mol2D/NH4+.png){width=5em} |
+
+Quand un ion polyatomique est présent plusieurs fois dans une molécule, on l'indique dans la formule brute par des parenthèses et un indice comme dans les exemples : $Ca(OH)_2$, $Ba(NO_3)_2$, $Ca(HCO_3)_2$.
+
+
+```{r, child=c('exe/molecules-30.Rmd')}
+```
+
 ### Dessiner les composés binaires covalents avec un atome central
 
 Cette méthode, appelée VSEPR, s'applique aux molécules ayant un atome central. Elle est basée sur le fait que les liaisons et les paires libres vont s'organiser autour d'un atome central de façon à minimiser leurs répulsions.
@@ -106,36 +133,6 @@ Il existe des géométries pour des valeurs de NS supérieures à 5, mais elles 
 ```{r, child=c('exe/molecules-10.Rmd')}
 ```
 
-\newpage
-
-### Dessiner les composés ternaires
-
-- De gauche à droite, dessiner le modèle de Lewis de chacun des éléments présents dans la molécule.
-    - Dessiner d'abord les éléments de la colonne I, II ou III.
-    - Dessiner ensuite autant d'oxygène qu'il y a d'électrons libres dans la première colonne.
-    - Dessiner ensuite les éléments autre que l'oxygène.
-    - Dessiner ensuite les oxygènes restants.
-- Dessiner les covalences ou électrovalences selon les différences d'électronégativité.
-
-```{r, child=c('exe/molecules-20.Rmd')}
-```
-
-## Les ions polyatomiques
-
-Les ions $Na^+$, $Mg^{2+}$ ou $Cl^–$ sont **monoatomique**, ce qui signifie qu'ils sont constitué d'un seul atome ionisé. Il existe des ions **polyatomiques**, tels que $NH4^+$ (ion ammonium) ou $SO4^{2–}$ (ion sulfate). Ils se composent d'atomes liés par des covalences mais ils portent une charge positive ou négative.
-
-|             ion hydroxyle            |              ion nitrite              |              ion carbonate             |              ion ammonium             |
-| :----------------------------------: | :-----------------------------------: | :------------------------------------: | :-----------------------------------: |
-|                $OH^–$                |                $NO_2^–$                |               $CO_3^{2–}$               |                $NH_4^+$                |
-| ![](images/mol2D/OH-.png){width=6em} | ![](images/mol2D/NO2-.png){width=6em} | ![](images/mol2D/CO32-.png){width=6em} | ![](images/mol2D/NH4+.png){width=5em} |
-
-Quand un ion polyatomique est présent plusieurs fois dans une molécule, on l'indique dans la formule brute par des parenthèses et un indice comme dans les exemples : $Ca(OH)_2$, $Ba(NO_3)_2$, $Ca(HCO_3)_2$.
-
-\newpage
-
-```{r, child=c('exe/molecules-30.Rmd')}
-```
-
 ## La masse molaire moléculaire
 
 ::: {.tcolorbox data-latex=""}
@@ -161,8 +158,6 @@ $$ \begin{split}
   \text{Masse de 1 [mol] de $CH_4$} &= 16.04 [g]
   \end{split} $$
 
-\newpage
-
 ```{r, child=c('exe/molecules-40.Rmd')}
 ```
 
@@ -182,8 +177,6 @@ La polarité a une influence sur la réactivité chimique des molécules mais é
 
 Mathématiquement, les moments dipolaires sont des vecteurs. Ils possèdent une intensité, une direction et un sens. Pour des molécules qui comportent plusieurs covalences polaires, on calcule le moment dipolaire net comme la somme vectorielle des moments dipolaires des différentes liaisons.
 
-\newpage
-
 ```{r dipole-1,echo=FALSE,out.width="60%",fig.show="hold",fig.align="center",fig.cap="Dipôle résultant de l'addition des polarités des liaisons"}
 knitr::include_graphics(c("images/dipole-1.png"))
 ```
@@ -201,8 +194,6 @@ knitr::include_graphics(c("images/dipole-3.png"))
 On dit des molécules qui ne contiennent pas de liaisons polaires qu'elles sont **non polaires**, comme par exemple, les molécules diatomiques formées de deux atomes d'un même élément. Les électrons de liaisons sont partagés équitablement entre les deux atomes. Cependant, ce ne sont pas le seul type de molécules non polaires.
 
 Certaines molécules sont symétriques. La symétrie de ces molécules peut les rendre non polaires bien qu'elles contiennent des liaisons polaires. Les polarités de chaque liaison s'annulent à cause de la géométrie de la molécule.
-
-\newpage
 
 ```{r dipole-4,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Molécules non polaires"}
 knitr::include_graphics(c("images/dipole-4.png"))
@@ -263,10 +254,10 @@ Table: (#tab:comparatif-intermoleculaires) Comparatif des forces intermoléculai
 ```{r, child=c('exe/molecules-50.Rmd')}
 ```
 
+\newpage
+
 ```{r, child=c('exe/molecules-60.Rmd')}
 ```
-
-\newpage
 
 ```{r, child=c('exe/molecules-70.Rmd')}
 ```
@@ -274,13 +265,15 @@ Table: (#tab:comparatif-intermoleculaires) Comparatif des forces intermoléculai
 ```{r, child=c('exe/molecules-80.Rmd')}
 ```
 
+\newpage
+
 ```{r, child=c('exe/molecules-90.Rmd')}
 ```
 
-\newpage
-
 ```{r, child=c('exe/molecules-100.Rmd')}
 ```
+
+\newpage
 
 ```{r, child=c('exe/molecules-110.Rmd')}
 ```

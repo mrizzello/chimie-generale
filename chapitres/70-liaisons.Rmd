@@ -22,70 +22,12 @@ On divise les liaisons chimiques en trois familles différentes:
 -  la **liaison covalente**
 -  la **liaison métallique**
 
-## L'électronégativité
-
-::: {.tcolorbox data-latex=""}
-
-**Électronégativité**  
-L'électronégativité est la capacité d'un atome à attirer les électrons de liaison.
-
-:::
-
-Plus l'électronégativité d'un élément est élevée, plus il aura tendance à attirer à lui les électrons dans une liaison. **L'électronégativité de chaque élément est indiquée dans votre tableau périodique des éléments.**
-
-Les liaisons sont rarement purement ioniques ou purement covalentes, dans la plupart des substances les liaisons formées se situent quelque part entre la liaison ionique et la liaison covalente.
-
-En se basant sur la différence d'électronégativité ($\Delta$E) entre deux atomes on peut connaître le type de liaison que vont former ces deux atomes.
-
-```{r deltaE,echo=FALSE,out.width="85%",fig.show="hold",fig.align="center",fig.cap="Intervalles de $\\Delta$E pour déterminer le type de liaison"}
-knitr::include_graphics(c("images/deltaE.png"))
-```
-
-**L'électronégativité de chaque élément est indiquée dans votre tableau périodique des éléments.**  
-
-```{r, child=c('exe/liaisons-10.Rmd')}
-```
-
-\newpage
-
-## La liaison ionique | métal - non-métal
-
-La liaison ionique est le résultat du transfert d'un ou plusieurs électrons depuis un métal vers un non-métal afin de satisfaire **la règle de l'octet**. Essayons de former une molécule avec du sodium et du chlore.
-
-- Le sodium a tendance à perdre un électron de valence pour former le cation $Na^{+}$
-- Le chlore a tendance à gagner un électron de valence pour former l'anion $Cl^{-}$
-
-Le sodium et le chlore ont tous les deux un intérêt à former une liaison. L'atome de sodium va perdre un électron qui sera récupéré par l'atome de chlore. Ils compléteront tous les deux leur couche de valence avec huit électrons.
-
-```{r NaCl-diagram,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Liaison ionique entre chlore et sodium"}
-knitr::include_graphics(c("images/NaCl-diagram.png"))
-```
-
-Deux atomes de sodium réagiront de la même manière avec deux atomes de chlore formant deux molécules de chlorure de sodium. Trois atomes de sodium réagiront avec trois atomes de chlore formant trois molécules de chlorure de sodium, et ainsi de suite... Si l'on fait réagir une mole d'atomes de sodium avec une mole d'atomes de chlore, nous obtiendront une mole de molécules de chlorure de sodium.
-
-Un échantillon de chlorure de sodium ($NaCl$) est constitué d'un très grand nombre de cations $Na^+$ et d'anions $Cl^-$. Ces ions forment un réseau tridimensionnel, appelé **réseau ionique**. L'ensemble est **électriquement neutre** car le nombre de cations $Na^+$ est égal au nombre d'anions $Cl^-$. Pour un cation $Na^+$, on aura un anion $Cl^-$, on écrira donc la **formule brute** $NaCl$.
-
-\newpage
-
-Le nombre relatif de cations et d'anions n'est pas toujours le même. Prenons par exemple le chlorure de magnésium, $CaF_2$. Il y a deux fois plus d'anions $F^-$ que de cations $Ca^{2+}$, on écrira donc la formule brute $CaF_2$.
-
-```{r CaF2-diagram,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Liaison ionique entre calcium et fluor"}
-knitr::include_graphics(c("images/CaF2-diagram.png"))
-```
-
-```{r NaClCaF2,echo=FALSE,out.width="25%",,fig.show='hold',fig.align='center',fig.cap="Réseaux ioniques formés par $NaCl$ et $CaF_2$."}
-knitr::include_graphics(c("images/NaCl-crystal.png","images/CaF2-crystal.png"))
-```
-
-```{r, child=c('exe/liaisons-20.Rmd')}
-```
-
 ## La liaison covalente | non-métal - non-métal
 
 ::: {.tcolorbox data-latex=""}
 
 **Liaison covalente**  
-Une liaison covalente est le partage d'une ou plusieurs paires d'électrons.
+Une liaison covalente résulte du **partage** d'une ou plusieurs paires d'électrons entre deux atomes.
 
 :::
 
@@ -113,7 +55,6 @@ Dans de nombreuses molécules, pour atteindre un octet complet, les atomes vont 
 ```{r liaisons-multiples,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Exemples de liaisons covalentes simples, doubles et triples"}
 knitr::include_graphics(c("images/liaisons-multiples.png"))
 ```
-
 \newpage
 
 ```{r, child=c('exe/liaisons-30.Rmd')}
@@ -135,17 +76,56 @@ $$ \underset{\text{covalence normale}}{A \cdot \quad + \quad \cdot B \quad \long
 
 $$ \underset{\text{covalence de coordination}}{A | \quad + \quad B \quad \longrightarrow \quad A \rightarrow | B} $$
 
-\newpage
-
 Par exemple, l'acide hypochloreux est constitué de liaisons covalentes normales. Les trois autres acides utilisent les doublets de l'atome de chlore pour former des covalences de coordinations.
 
 ```{r covalences-coordination,echo=FALSE,out.width="85%",fig.show="hold",fig.align="center",fig.cap="Exemples de covalences de coordination ($SO$, $SO_2$, $SO_3$, $HClO$, $HClO_2$, $HClO_3$, $HClO_4$ )."}
  knitr::include_graphics(c("images/covalences-coordination.png"))
  ```
 
+## La liaison ionique | métal - non-métal
+
+::: {.tcolorbox data-latex=""}
+
+**Liaison ionique**  
+Une liaison ionique résulte du **transfert** d'un ou plusieurs électrons d'un atome à un autre.
+
+:::
+
+La liaison ionique est le résultat du transfert d'un ou plusieurs électrons depuis un métal vers un non-métal afin de satisfaire **la règle de l'octet**. Essayons de former une molécule avec du sodium et du chlore.
+
+- Le sodium a tendance à perdre un électron de valence pour former le cation $Na^{+}$
+- Le chlore a tendance à gagner un électron de valence pour former l'anion $Cl^{-}$
+
+Le sodium et le chlore ont tous les deux un intérêt à former une liaison. L'atome de sodium va perdre un électron qui sera récupéré par l'atome de chlore. Ils compléteront tous les deux leur couche de valence avec huit électrons.
+
+```{r NaCl-diagram,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Liaison ionique entre chlore et sodium"}
+knitr::include_graphics(c("images/NaCl-diagram.png"))
+```
+
+Deux atomes de sodium réagiront de la même manière avec deux atomes de chlore formant deux molécules de chlorure de sodium. Trois atomes de sodium réagiront avec trois atomes de chlore formant trois molécules de chlorure de sodium, et ainsi de suite... Si l'on fait réagir une mole d'atomes de sodium avec une mole d'atomes de chlore, nous obtiendront une mole de molécules de chlorure de sodium.
+
+Un échantillon de chlorure de sodium ($NaCl$) est constitué d'un très grand nombre de cations $Na^+$ et d'anions $Cl^-$. Ces ions forment un réseau tridimensionnel, appelé **réseau ionique**. L'ensemble est **électriquement neutre** car le nombre de cations $Na^+$ est égal au nombre d'anions $Cl^-$. Pour un cation $Na^+$, on aura un anion $Cl^-$, on écrira donc la **formule brute** $NaCl$.
+
+\newpage
+
+```{r CaF2-diagram,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Liaison ionique entre calcium et fluor"}
+knitr::include_graphics(c("images/CaF2-diagram.png"))
+```
+
+Le nombre relatif de cations et d'anions n'est pas toujours le même. Prenons par exemple le chlorure de magnésium, $CaF_2$. Il y a deux fois plus d'anions $F^-$ que de cations $Ca^{2+}$, on écrira donc la formule brute $CaF_2$.
+
+```{r NaClCaF2,echo=FALSE,out.width="25%",,fig.show='hold',fig.align='center',fig.cap="Réseaux ioniques formés par $NaCl$ et $CaF_2$."}
+knitr::include_graphics(c("images/NaCl-crystal.png","images/CaF2-crystal.png"))
+```
+
+```{r, child=c('exe/liaisons-20.Rmd')}
+```
+
+\newpage
+
 ## La liaison métallique | métal - métal
 
-```{r metallic-bonding,echo=FALSE,out.width="28%",fig.show="hold",fig.align="center",fig.cap="Modèle de la liaison métallique"}
+```{r metallic-bonding,echo=FALSE,out.width="20%",fig.show="hold",fig.align="center",fig.cap="Modèle de la liaison métallique"}
  knitr::include_graphics(c("images/metallic-bonding.png"))
  ```
 
@@ -165,15 +145,39 @@ Un alliage est un mélange homogène entre un métal de base et un ou plusieurs 
 
 Table: (#tab:exemples-alliages-communs) Exemples d'alliages communs.
 
-|  métal | composition                                          | alliages         |
-| :----: | :--------------------------------------------------- | :--------------- |
-|   fer  | fer + carbone (moins de 2% en masse de carbone)      | fonte            |
+| métal  | composition                                          | alliages         |
+|:------:|:-----------------------------------------------------|:-----------------|
+|  fer   | fer + carbone (moins de 2% en masse de carbone)      | fonte            |
 |        | fer + carbone (2% à 7% en masse de carbone)          | acier            |
 |        | fer + carbone + nickel + chrome                      | acier inoxydable |
 | cuivre | cuivre + étain                                       | bronze           |
 |        | cuivre + zinc                                        | laiton           |
 |   or   | or + argent + cuivre                                 | or jaune         |
 |        | or + nickel + recouvert d'une fine couche de rhodium | or blanc         |
+
+## L'électronégativité
+
+::: {.tcolorbox data-latex=""}
+
+**Électronégativité**  
+L'électronégativité est la capacité d'un atome à attirer les électrons de liaison.
+
+:::
+
+Plus l'électronégativité d'un élément est élevée, plus il aura tendance à attirer à lui les électrons dans une liaison. **L'électronégativité de chaque élément est indiquée dans votre tableau périodique des éléments.**
+
+Les liaisons sont rarement purement ioniques ou purement covalentes, dans la plupart des substances les liaisons formées se situent quelque part entre la liaison ionique et la liaison covalente.
+
+En se basant sur la différence d'électronégativité ($\Delta$E) entre deux atomes on peut connaître le type de liaison que vont former ces deux atomes.
+
+```{r deltaE,echo=FALSE,out.width="85%",fig.show="hold",fig.align="center",fig.cap="Intervalles de $\\Delta$E pour déterminer le type de liaison"}
+knitr::include_graphics(c("images/deltaE.png"))
+```
+
+**L'électronégativité de chaque élément est indiquée dans votre tableau périodique des éléments.**  
+
+```{r, child=c('exe/liaisons-10.Rmd')}
+```
 
 ## Exercices supplémentaires
 
