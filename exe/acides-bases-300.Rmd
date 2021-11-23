@@ -13,7 +13,7 @@
 \end{split}
 \qquad
 \begin{split}
-K_{a1} = \frac{|\ce{H2PO4-}| \cdot |\ce{H3O+}|}{|\ce{H3PO4}|} = 7.5 \cdot 10^{-3}
+K_{a1} = \frac{|\ce{H2PO4-}| \cdot |\ce{H3O+}|}{|\ce{H3PO4}|} = 11 \cdot 10^{-3}
 \end{split}
 $$
 2. $$
@@ -31,7 +31,7 @@ $$
 \end{split}
 \qquad
 \begin{split}
-K_{a3} = \frac{|\ce{PO4^{3-}}| \cdot |\ce{H3O+}|}{|\ce{HPO4^{2-}}|} = 4.2 \cdot 10^{-13}
+K_{a3} = \frac{|\ce{PO4^{3-}}| \cdot |\ce{H3O+}|}{|\ce{HPO4^{2-}}|} = 4.8 \cdot 10^{-13}
 \end{split}
 $$
 
