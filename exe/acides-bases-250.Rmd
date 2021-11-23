@@ -49,7 +49,7 @@ x &= \sqrt{1.1 \cdot 10^{-2} \cdot 0.100} \\
 $$
 L'approximation n'est pas valide : $\frac{0.033}{0.100} \cdot 100\% = 33\% > 5\%$
 
-Sans appliquer d'approxomation :
+Sans appliquer d'approximation :
 $$
 \begin{split}
 K_a = \frac{x^2}{0.100-x}

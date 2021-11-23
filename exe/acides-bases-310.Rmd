@@ -53,7 +53,7 @@ K_{a1} = \frac{x \cdot x}{0.350 - \cancel{x}} = \frac{x^2}{0.350} = 7.5 \cdot 10
 $$
 L'approximation n'est pas valide : $\frac{0.051}{0.350} \cdot 100\% \cong 14.57\% > 5\%$
 
-Sans appliquer d'approxomation :
+Sans appliquer d'approximation :
 $$
 \begin{split}
 K_{a1} = \frac{x^2}{0.350-x}
@@ -107,7 +107,7 @@ $$
 On approxime en négligeant le x : 
 $$
 \begin{split}
-K_{a2} = \frac{x \cdot (0.0476 + \cancel{x})}{0.0476 - \cancel{x}} = = \frac{x \cdot 0.0476}{0.0476}
+K_{a2} = \frac{x \cdot (0.0476 + \cancel{x})}{0.0476 - \cancel{x}} = \frac{x \cdot 0.0476}{0.0476}
 \end{split}
 \qquad
 \begin{split}
