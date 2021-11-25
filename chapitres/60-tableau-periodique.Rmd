@@ -59,19 +59,21 @@ Les éléments B, Si, Ge, As, Sb, Te, Po et At sont appelés **métalloïdes**. 
 
 Le reste des éléments, à droite des métalloïdes, sont appelés **non-métaux**. Les non-métaux ont des propriétés qui sont souvent opposées à celles des métaux. Certains sont des gaz, ils sont de mauvais conducteurs de la chaleur et de l'électricité, ils ne sont ni malléables, ni ductiles.
 
-```{r tpe-empty,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Le vocabulaire du tableau périodique"}
+```{r tpe-empty,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Le vocabulaire du tableau périodique"}
 knitr::include_graphics(c("images/tpe-empty.png"))
 ```
 
 ### Les périodes
 
-Les **lignes** du tableau périodique sont appelées **périodes** et chacune est désignée par un nombre de 1 à 7.
+Les **lignes** du tableau périodique sont appelées **périodes** et chacune est désignée par un nombre de 1 à 7 (première période, deuxième période, etc.). Le nom de tableau périodique provient du fait que les propriétés reviennent périodiquement à chaque fois qu’on change de ligne.
 
-On peut regrouper les éléments par période, mais les propriétés chimiques des éléments d'une même période seront différentes. Le classement par période est représentatif de la configuration électronique.
+Le tableau périodique regroupe les éléments par période, mais les propriétés chimiques des éléments d'une même période sont différentes. Le classement par période représente l'arrangement des électrons au sein des éléments.
 
 ### Les familles
 
-Les **colonnes** du tableau périodique sont appelées **familles**. Les familles du **groupe principal** sont désignées avec un chiffre romain.
+Les **colonnes** du tableau périodique sont appelées **familles**. Le tableau périodique classe les éléments de sorte que les éléments ayant des propriétés chimiques similaires apparaissent dans la même colonne formant ainsi une famille d'éléments.
+
+Il y a au total 18 familles et il existe différentes manières de les numéroter. Dans votre tableau périodique, les familles du **groupe principal** sont désignées avec un chiffre romain de I à VIII. Vous verrez peut-être d'autres numérotations, l'Union Internationale de Chimie Pure et Appliquée (UICPA) a décidé que le système officiel de numérotation des groupes serait de 1 à 18, de gauche à droite.  De nombreux tableaux périodiques présentent plusieurs systèmes simultanément.
 
 <!-- Les familles qui sont désigné avec un A sont appelés les **éléments de groupe principal**, les familles qui sont désigné avec un B sont appelés les **éléments de transition**. -->
 
