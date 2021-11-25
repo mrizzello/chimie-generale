@@ -44,7 +44,7 @@ Le tableau périodique contient souvent des informations supplémentaires sur le
 Si aujourd'hui, 86 métaux sont présents dans le tableau de Mendeleïev, seuls sept d'entre eux étaient connus et isolés jusqu’au Moyen Age :
 
 | élément | découverte     |
-| :------ | :------------- |
+|:--------|:---------------|
 | or      | 6000 av. J.-C. |
 | cuivre  | 4000 av. J.-C. |
 | argent  | 3500 av. J.-C. |
@@ -59,23 +59,9 @@ Les éléments B, Si, Ge, As, Sb, Te, Po et At sont appelés **métalloïdes**. 
 
 Le reste des éléments, à droite des métalloïdes, sont appelés **non-métaux**. Les non-métaux ont des propriétés qui sont souvent opposées à celles des métaux. Certains sont des gaz, ils sont de mauvais conducteurs de la chaleur et de l'électricité, ils ne sont ni malléables, ni ductiles.
 
-### Les groupes
-
-Les **colonnes** du tableau périodique sont appelées **groupes** ou **familles**.
-
-Chaque groupe est désigné avec un chiffre romain. Les groupes qui sont désigné avec un A sont appelés les **éléments de groupe principal**, les groupes qui sont désigné avec un B sont appelés les **éléments de transition**.
-
-Les **éléments de transition internes** ont été décalés dans le tableau périodique afin de rendre ce dernier plus compact.
-
-Table: (#tab:noms-groupes-courants) Noms de quelques groupes couramment employés.
-
-| Groupe | nom                           | éléments               |
-| :----: | :---------------------------- | :--------------------- |
-|    I   | métaux alcalins               | Li, Na, K, Rb, Cs, Fr  |
-|   II   | métaux alcalino-terreux       | Be, Mg, Ca, Sr, Ba, Ra |
-|   VI   | chalcogènes                   | O, S, Se, Te, Po       |
-|   VII  | halogènes                     | F, Cl, Br, I, At       |
-|  VIII  | les gaz rares (ou gaz nobles) | He, Ne, Ar, Kr, Xe, Rn |
+```{r tpe-empty,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Le vocabulaire du tableau périodique"}
+knitr::include_graphics(c("images/tpe-empty.png"))
+```
 
 ### Les périodes
 
@@ -83,9 +69,23 @@ Les **lignes** du tableau périodique sont appelées **périodes** et chacune es
 
 On peut regrouper les éléments par période, mais les propriétés chimiques des éléments d'une même période seront différentes. Le classement par période est représentatif de la configuration électronique.
 
-```{r tpe-empty,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Le vocabulaire du tableau périodique"}
-knitr::include_graphics(c("images/tpe-empty.png"))
-```
+### Les familles
+
+Les **colonnes** du tableau périodique sont appelées **familles**. Les familles du **groupe principal** sont désignées avec un chiffre romain.
+
+<!-- Les familles qui sont désigné avec un A sont appelés les **éléments de groupe principal**, les familles qui sont désigné avec un B sont appelés les **éléments de transition**. -->
+
+Table: (#tab:noms-groupes-courants) Noms de quelques groupes couramment employés.
+
+| Groupe | nom                           | éléments               |
+|:------:|:------------------------------|:-----------------------|
+|   I    | métaux alcalins               | Li, Na, K, Rb, Cs, Fr  |
+|   II   | métaux alcalino-terreux       | Be, Mg, Ca, Sr, Ba, Ra |
+|   VI   | chalcogènes                   | O, S, Se, Te, Po       |
+|  VII   | halogènes                     | F, Cl, Br, I, At       |
+|  VIII  | les gaz rares (ou gaz nobles) | He, Ne, Ar, Kr, Xe, Rn |
+
+Les **éléments de transition internes** ont été décalés dans le tableau périodique afin de rendre ce dernier plus compact.
 
 \newpage
 
@@ -146,20 +146,20 @@ Ce modèle introduit une description mathématique du mouvement de l'électron a
 Table: (#tab:couches-sous-couches-orbitales) Résumé des couches, sous-couches et orbitales.
 
 | couche | sous-couche | orbitales | électrons | total électrons |
-| :----: | :---------: | :-------: | :-------: | :-------------: |
-|  **1** |      s      |     1     |     2     |      **2**      |
-|        |             |           |           |                 |
-|  **2** |      s      |     1     |     2     |      **8**      |
-|        |      p      |     3     |     6     |                 |
-|        |             |           |           |                 |
-|  **3** |      s      |     1     |     2     |      **18**     |
-|        |      p      |     3     |     6     |                 |
-|        |      d      |     5     |     10    |                 |
-|        |             |           |           |                 |
-|  **4** |      s      |     1     |     2     |      **32**     |
-|        |      p      |     3     |     6     |                 |
-|        |      d      |     5     |     10    |                 |
-|        |      f      |     7     |     14    |                 |
+|:------:|:-----------:|:---------:|:---------:|:---------------:|
+| **1**  |      s      |     1     |     2     |      **2**      |
+|        |             |           |           |                 |
+| **2**  |      s      |     1     |     2     |      **8**      |
+|        |      p      |     3     |     6     |                 |
+|        |             |           |           |                 |
+| **3**  |      s      |     1     |     2     |     **18**      |
+|        |      p      |     3     |     6     |                 |
+|        |      d      |     5     |    10     |                 |
+|        |             |           |           |                 |
+| **4**  |      s      |     1     |     2     |     **32**      |
+|        |      p      |     3     |     6     |                 |
+|        |      d      |     5     |    10     |                 |
+|        |      f      |     7     |    14     |                 |
 
 
 Selon ce modèle, les électrons d'un atome gravitent autour de l'atome à des niveaux d'énergie différents. Ces niveaux sont appelés **couches** et sont situés à différentes distances du noyau. Les couches sont numérotées de 1 à 7 et plus le numéro de la couche est petit, plus la couche est proche du noyau.
@@ -214,16 +214,16 @@ $$ \underbrace{1s^{2}~2s^{2}~2p^{6}}_{\text{Néon}}~3s^{2}~3p^{5} \text{ devient
 
 Table: (#tab:conf-elec-premieres-periodes) Configuration électronique des deux premières périodes.
 
-| Groupe | Elément | Conf. électronique                | Elément | Conf. électronique                 |
-| :----: | :-----: | :-------------------------------- | :-----: | :--------------------------------- |
-|   IA   |    Li   | [He] $2s^{1}$                     |    Na   | [Ne] $3s^{1}$                      |
-|   IIA  |    Be   | [He] $2s^{2}$                     |    Mg   | [Ne] $3s^{2}$                      |
-|  IIIA  |    B    | [He] $2s^{2}~2p^{1}$              |    Al   | [Ne] $3s^{2}~3p^{1}$               |
-|   IVA  |    C    | [He] $2s^{2}~2p^{2}$              |    Si   | [Ne] $3s^{2}~3p^{2}$               |
-|   VA   |    N    | [He] $2s^{2}~2p^{3}$              |    P    | [Ne] $3s^{2}~3p^{3}$               |
-|   VIA  |    O    | [He] $2s^{2}~2p^{4}$              |    S    | [Ne] $3s^{2}~3p^{4}$               |
-|  VIIA  |    F    | [He] $2s^{2}~2p^{5}$              |    Cl   | [Ne] $3s^{2}~3p^{5}$               |
-|  VIIIA |    Ne   | [He] $2s^{2}~2p^{6} \equiv$ [Ne]  |    Ar   | [He] $3s^{2}~3p^{6} \equiv $ [Ar]  |
+| Groupe | Elément | Conf. électronique               | Elément | Conf. électronique                |
+|:------:|:-------:|:---------------------------------|:-------:|:----------------------------------|
+|   IA   |   Li    | [He] $2s^{1}$                    |   Na    | [Ne] $3s^{1}$                     |
+|  IIA   |   Be    | [He] $2s^{2}$                    |   Mg    | [Ne] $3s^{2}$                     |
+|  IIIA  |    B    | [He] $2s^{2}~2p^{1}$             |   Al    | [Ne] $3s^{2}~3p^{1}$              |
+|  IVA   |    C    | [He] $2s^{2}~2p^{2}$             |   Si    | [Ne] $3s^{2}~3p^{2}$              |
+|   VA   |    N    | [He] $2s^{2}~2p^{3}$             |    P    | [Ne] $3s^{2}~3p^{3}$              |
+|  VIA   |    O    | [He] $2s^{2}~2p^{4}$             |    S    | [Ne] $3s^{2}~3p^{4}$              |
+|  VIIA  |    F    | [He] $2s^{2}~2p^{5}$             |   Cl    | [Ne] $3s^{2}~3p^{5}$              |
+| VIIIA  |   Ne    | [He] $2s^{2}~2p^{6} \equiv$ [Ne] |   Ar    | [He] $3s^{2}~3p^{6} \equiv $ [Ar] |
 
 La configuration électronique du niveau de plus basse énergie est appelée **état fondamental**. Les configurations dont la distribution des électrons est différente de l'état fondamental sont appelées **états excités**.
 
@@ -260,10 +260,10 @@ On utilise les règles suivantes pour dessiner la structure de Lewis d'un atome:
 
 Table: (#tab:structure-lewis-groupe-principal) Structure de Lewis des éléments du groupe principal (c = célibataire, p = paire).
 
-|                     I                    |                    II                    |                    II                    |                    IV                    |                     V                    |                    VI                    |                    VII                   |                    VII                   |
-| :--------------------------------------: | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: |
+|                    I                     |                    II                    |                    II                    |                    IV                    |                     V                      |                     VI                     |                    VII                     |                   VII                    |
+|:----------------------------------------:|:----------------------------------------:|:----------------------------------------:|:----------------------------------------:|:------------------------------------------:|:------------------------------------------:|:------------------------------------------:|:----------------------------------------:|
 | ![](images/lewis-dots-1c.png){width=3em} | ![](images/lewis-dots-2c.png){width=3em} | ![](images/lewis-dots-3c.png){width=3em} | ![](images/lewis-dots-4c.png){width=3em} | ![](images/lewis-dots-1p3c.png){width=3em} | ![](images/lewis-dots-2p2c.png){width=3em} | ![](images/lewis-dots-3p1c.png){width=3em} | ![](images/lewis-dots-4p.png){width=3em} |
-|                    1c                    |                    2c                    |                    3c                    |                    4c                    |                   1p 3c                  |                   2p 2c                  |                   3p 1c                  |                    4p                    |
+|                    1c                    |                    2c                    |                    3c                    |                    4c                    |                   1p 3c                    |                   2p 2c                    |                   3p 1c                    |                    4p                    |
 
 
 ```{r, child=c('exe/tableau-periodique-20.Rmd')}
