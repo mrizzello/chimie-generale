@@ -524,7 +524,7 @@ $$
 \ce{OH^{-}(aq) + CH3COOH(aq) <=> H2O(l) + CH3COO^{-}(aq)}
 $$
 
-_On ne considère que l’ion OH-, puisque Na+ est un ion spectateur._
+_On ne considère que l’ion OH^-^, puisque Na^+^ est un ion spectateur._
 
 Le pH variera donc peu, pour autant que la quantité de base ajoutée ne soit pas supérieure à la quantité d’acide présent.
 
@@ -534,7 +534,7 @@ $$
 \ce{H3O+(aq) + CH3COO^{-}(aq) <=> H2O(l) + CH3COOH(aq)}
 $$
 
-_On ne considère que l’ion H3O+, puisque Cl- est un ion spectateur._
+_On ne considère que l’ion H~3~O^+^, puisque Cl^-^ est un ion spectateur._
 
 Le pH variera donc peu, pour autant que la quantité d’acide ajoutée ne soit pas supérieure à la quantité de base présente.
 
