@@ -125,6 +125,13 @@ knitr::include_graphics(c("images/NaCl-crystal.png","images/CaF2-crystal.png"))
 
 ## La liaison métallique | métal - métal
 
+::: {.tcolorbox data-latex=""}
+
+**Liaison métallique**  
+Liaison chimique dans laquelle les électrons mobiles sont partagés entre plusieurs noyaux.
+
+:::
+
 ```{r metallic-bonding,echo=FALSE,out.width="20%",fig.show="hold",fig.align="center",fig.cap="Modèle de la liaison métallique"}
  knitr::include_graphics(c("images/metallic-bonding.png"))
  ```
