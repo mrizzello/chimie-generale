@@ -16,13 +16,13 @@ d. $\ce{HNO3}$ 0.100 [M] et $\ce{NaNO3}$ 0.100 [M]
 ::: {.Answer data-latex=""}
 
 a. $\ce{HNO2}$ 0.100 [M] et $\ce{HCl}$ 0.100 [M]  
-$\ce{Cl-}$ n'est pas le base conjuguée de $\ce{HNO2}$ et est une base inerte.
+$\ce{Cl-}$ n'est pas la base conjuguée de $\ce{HNO2}$ et est une base inerte.
 \vspace{1em}
 b. $\ce{HNO2}$ 0.100 [M] et $\ce{NaNO2}$ 0.100 [M]  
 Solution tampon. Cette solution contient des quantités significatives d'un acide faible et de sa base conjuguée.
 \vspace{1em}
 c. $\ce{HNO2}$ 0.100 [M] et $\ce{NaCl}$ 0.100 [M]  
-$\ce{Cl-}$ n'est pas le base conjuguée de $\ce{HNO2}$ et est une base inerte.
+$\ce{Cl-}$ n'est pas la base conjuguée de $\ce{HNO2}$ et est une base inerte.
 \vspace{1em}
 d. $\ce{HNO3}$ 0.100 [M] et $\ce{NaNO3}$ 0.100 [M]  
 $\ce{HNO3}$ est un acide fort.
