@@ -102,8 +102,8 @@ Le transfert d'électrons caractérise les réaction d'oxydoréduction, il y a d
 
 - L'**oxydation** est une augmentation de l'état d'oxydation (une perte d'électrons).
 - La **réduction** est une diminution de l'état d'oxydation (un gain d'électrons).
-- L'**agent oxydant** est l'espèce qui provoque l'oxydation (accepteur d'électrons).
-- L'**agent réducteur** est l'espèce qui provoque la réduction (donneur d'électrons).
+- L'**oxydant** est l'espèce qui provoque l'oxydation (accepteur d'électrons).
+- Le **réducteur** est l'espèce qui provoque la réduction (donneur d'électrons).
 - L'**espèce oxydée** est l'espèce qui subit l'oxydation (donneur d'électrons).
 - L'**espèce réduite** est l'espèce qui subit la réduction (accepteur d'électrons).
 
@@ -111,12 +111,12 @@ Table: (\#tab:tab-NO-summary) Résumé des termes liés à l'oxydoréduction.
 
 |                           |               |                          |
 |:-------------------------:|:-------------:|:------------------------:|
-|      agent réducteur      | $\Rightarrow$ |      agent oxydant       |
+|         réducteur         | $\Rightarrow$ |         oxydant          |
 |       espèce oxydée       |               |      espèce réduite      |
 |    donne des éléctrons    |               |  accepte des éléctrons   |
 | état d'oxydation augmente |               | état d'oxydation diminue |
 
-Notez que lorsqu'on nomme l'agent oxydant ou réducteur, c'est le composé entier qui est spécifié, et pas seulement l'élément qui subit le changement d'état d'oxydation.
+Notez que lorsqu'on nomme l'oxydant ou le réducteur, c'est le composé entier qui est spécifié, et pas seulement l'élément qui subit le changement d'état d'oxydation.
 
 Dans les exemples vu précédemment: 
 
@@ -126,7 +126,7 @@ $$
 
 |            Na             |               |          Cl~2~           |
 |:-------------------------:|:-------------:|:------------------------:|
-|      agent réducteur      | $\Rightarrow$ |      agent oxydant       |
+|         réducteur         | $\Rightarrow$ |         oxydant          |
 |       espèce oxydée       |               |      espèce réduite      |
 |    donne des éléctrons    |               |  accepte des éléctrons   |
 | état d'oxydation augmente |               | état d'oxydation diminue |
@@ -137,7 +137,7 @@ $$
 
 |           CH~4~           |               |           O~2~           |
 |:-------------------------:|:-------------:|:------------------------:|
-|      agent réducteur      | $\Rightarrow$ |      agent oxydant       |
+|         réducteur         | $\Rightarrow$ |         oxydant          |
 |       espèce oxydée       |               |      espèce réduite      |
 |    donne des éléctrons    |               |  accepte des éléctrons   |
 | état d'oxydation augmente |               | état d'oxydation diminue |
@@ -215,3 +215,73 @@ On peut ensuite équilibrer le chlore, l'oxygène et l'hydrogène :
 $$
 8\ce{H^+(aq) + 6Cl^-(aq) + Sn(s) + 4NO3^-(aq) -> SnCl6^{2-} + 4NO2(g) + 4H2O(l)}
 $$
+
+## Les piles
+
+Lorsque du zinc métallique est placé dans une solution contenant des ions cuivre (II), le Zn est oxydé en ions Zn^2+^ tandis que les ions Cu^2+^ sont réduits en Cu, ou cuivre métallique. Ceci peut être représenté par l'équatin de réaction suivante :
+
+$$
+\ce{Zn(s) + Cu^{2+}(aq) -> Zn^{2+}(aq) + Cu(s)}
+$$
+
+Des électrons sont transférés dans la réaction Zn/Cu2+, mais le système ne génère pas d'énergie électrique car l'oxydant (Cu^2+^) et le réducteur (Zn) se trouvent dans le même bécher. Cependant, si nous séparons physiquement les demi-réactions et les connectons par un circuit externe, les électrons perdus par le zinc produisent un courant électrique lorsqu'ils se déplacent dans le circuit vers les ions cuivre qui les gagnent.
+
+```{r pile-electrique-v2,echo=FALSE,out.width="80%",fig.show="hold",fig.align="center",fig.cap="Schéma simplifié d'une pile Cu/Zn"}
+knitr::include_graphics(c("images/pile-electrique-v2.png"))
+```
+
+### Constitution d’une pile
+
+- Une plaque d’un métal M, appelée électrode, plongeant dans une solution contenant des cations M^n+^ constitue une demi-pile.
+- Une pile est formée par deux demi-piles reliées par un pont salin.
+- Le pont salin permet le passage du courant entre les deux demi-piles en autorisant le déplacement d’ions entre les deux piles.
+
+```{r pile-electrique,echo=FALSE,out.width="80%",fig.show="hold",fig.align="center",fig.cap="Fonctionnement d’une pile Cu/Zn"}
+knitr::include_graphics(c("images/pile-electrique.png"))
+```
+
+### Fonctionnement d’une pile
+
+- **L'anode (-)**
+    - La demi-pile où a lieu l'oxydation est appelée compartiment anodique et toujours représentée à gauche.
+    - Le compartiment anodique consiste en une barre de zinc métallique (l'anode) immergée dans une solution aqueuse de Zn^2+^ (ZnSO4, par exemple).
+    - Le zinc métallique va céder deux électrons qui circuleront dans l'anode. Les ions Zn^2+^ ainsi formés si dissolvent dans la solution.
+- **La cathode (+)**
+    - La demi-pile où a lieu la réduction est appelée compartiment cathodique et toujours représentée à droite.
+    - Le compartiment cathodique consiste en une barre de cuivre métallique (la cathode) immergée dans une solution aqueuse de Cu^2+^ (CuSO4, par exemple).
+    - Les ions Cu^2+^ vont accepter deux électrons qui circuleront dans la cathode. Le cuivre métallique ainsi formé va s'agréger à la cathode.
+- **Signes des électrodes**
+    - La charge des électrodes est déterminée par la source des électrons et la direction du flux d'électrons dans le circuit.
+    - Dans cette pile, les atomes de Zn sont oxydés à l'anode en ions Zn^2+^ et constituent la source d'électrons.
+    - Les ions Zn^2+^ entrent dans le pont sallin tandis que les électrons se déplacent à travers l'anode et le fil.
+    - Les électrons circulent de gauche à droite dans le fil jusqu'à la cathode, où les ions Cu^2+^ présents dans la solution sont réduits en cuivre métallique.
+    - Lorsque la pile fonctionne, les électrons sont continuellement générés à l'anode et consommés à la cathode. Par conséquent, l'anode a un excès d'électrons et la cathode un déficit d'électrons.
+    - L'anode porte le signe négatif.
+    - La cathode porte le signe positif.
+- **Le pont salin**
+    - Une pile ne peut fonctionner que si le circuit est complété par un pont sallin.
+    - Le pont salin est un tube en U inversé contenant des ions spectateurs (NaNO~3~, par exemple) dissous dans un gel qui permet aux ions de diffuser entre les demi-piles.
+    - Lorsque les ions Cu^2+^ se réduisent en cuivre métallique, les ions Na^+^ passent du pont salin à la solution électrolytique.
+    - Lorsque le zinc métallique s'oxyde en ions Zn^2+^, les ions SO~4~^2-^ passent du pont salin à la solution électrolytique.
+
+Le fil électrique et le pont salin complètent le circuit :
+
+- Les électrons se déplacent de gauche à droite à travers le fil.
+- Les anions se déplacent de droite à gauche à travers le pont salin.
+- Les cations se déplacent de gauche à droite à travers le pont salin.
+- **Le sens du courant est l'inverse du sens de déplacement des électrons.**
+
+### Notation simplifiée d'une pile
+
+Il existe une notation abrégée utile qui décrit les composants d'une pile électrique. La notation pour la cellule Zn/Cu^2+^ est la suivante :
+
+$$
+\ce{Zn(s)}\ │\ \ce{Zn^{2+}(aq)}\ ||\ \ce{Cu^{2+}(aq)}\ │\ \ce{Cu(s)}
+$$
+
+
+- Les composants du compartiment anodique sont écrits à gauche et les composants du compartiment cathodiqueà droite.
+- Un double trait vertical indique que les demi-piles sont physiquement séparées.
+- Une ligne verticale simple représente une limite entre deux phases.
+- Si nécessaire, les concentrations des composants dissous sont indiquées entre parenthèses.
+- Les ions du pont salin peuvent figurer dans la notation.
