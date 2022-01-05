@@ -1,0 +1,217 @@
+# Électrochimie
+
+::: {.objectives data-latex=""}
+
+- Objectifs
+
+:::
+
+L'électricité qui alimente en grande partie la société moderne présente de nombreux avantages, mais elle a un sérieux défaut : elle ne peut pas être facilement stockée. L'électricité qui circule dans les lignes électriques est consommée lorsqu'elle est produite, mais pour bien d'autres applications, l'énergie électrique doit être stockée. Dans de tels cas, l'énergie électrique est convertie en énergie chimique, qui peut être stockée et transportée, puis reconvertie en électricité. Les batteries sont les dispositifs les plus utilisés pour stoquer l'énergie électrique sous forme d'énergie chimique. L'électrochimie est le champ d'étude de la chimie qui étudie les relations entre l'électricité et les réactions chimiques.
+
+## Réactions d'oxydoréduction
+
+Nous avons rencontré deux types de réactions qui peuvent se produire lorsque deux solutions d'électrolytes sont mélangées : la précipitation, dans laquelle deux composés ionique échangent des ions, et la neutralisation acide-base, dans laquelle un proton est transféré d'un acide à une base. Dans ce chapitre, nous nous intéressons aux **réactions d'oxydoréduction (ou réactions redox)**.
+
+::: {.tcolorbox data-latex=""}
+
+**Réaction d'oxydoréduction**  
+Réaction chimique dans laquelle des électrons sont transférés d'un réactif à un autre.
+
+:::
+
+Nous avons vu que de nombreuses substances sont des composés ioniques. Le chlorure de sodium, par exemple, peut être obtenu par la réaction du sodium élémentaire et du dichlore :
+
+$$
+\ce{ 2 Na(s) + Cl2(g) -> 2 NaCl(s) }
+$$
+
+Dans cette réaction, le sodium solide (Na), qui contient des atomes de sodium neutres, réagit avec le dichlore, formé de molécules diatomiques (Cl~2~) neutres, pour former le solide ionique NaCl, qui contient les ions Na^+^ et Cl^-^. Une telle réaction, dans lesquelles un ou plusieurs électrons sont transférés, est une exemple de réaction d'oxydoréduction.
+
+### Le nombre d'oxydation
+
+Comment savoir si l'on est en présence d'une réaction d'oxydoréduction ? Le nombre d'oxydation, ou état d'oxydation, permet de suivre les électrons dans une réaction d'oxydoréduction.
+
+::: {.tcolorbox data-latex=""}
+
+**Nombre d'oxydation**  
+Le nombre d'oxydation est la **charge électrique fictive** qu'aurait un atome si les électrons de liaison étaient attribués à l'atome le plus électronégatif.
+<!--Le nombre d'oxydation est la charge qu'aurait un atome si les liaisons qu'il forme étaient toutes ioniques.-->
+
+:::
+
+Le nombre d'oxydation représente le nombre d'électrons que possède un atome dans un composé. Les nombres d'oxydation sont représentés par des nombres entiers, qui peuvent être positifs, négatifs ou nuls. Dans certains cas, l'état d'oxydation peut être une fraction, car il résulte d'une moyenne.
+
+Prenons par exemple les composés covalents suivants :
+
+Table: (\#tab:tab-NO-examples) Exemples de nombres d'oxydation.
+
+|                                             |                                             |                                                |                                      |
+|:-------------------------------------------:|:-------------------------------------------:|:----------------------------------------------:|:------------------------------------:|
+|                 $\ce{H2O}$                  |                 $\ce{CO2}$                  |                 $\ce{NaHSO4}$                  |              $\ce{CH4}$              |
+| ![](images/mol2D/H2O-charge.png){width=6em} | ![](images/mol2D/CO2-charge.png){width=6em} | ![](images/mol2D/NaHSO4-charge.png){width=8em} | ![](images/mol2D/CH4.jpg){width=4em} |
+|                 oxygène: -2                 |                 oxygène: -2                 |                   sodium: +1                   |            hydrogène: +1             |
+|                hydrogène: +1                |                 carbone: +4                 |                 hydrogène: +1                  |             carbone: -4              |
+|                                             |                                             |                  oxygène: -2                   |                                      |
+|                                             |                                             |                   soufre: +6                   |                                      |
+
+
+### Attribuer les nombres d'oxydation
+
+L'application d'une série de règles simples permet d'attribuer les états d'oxydation des atomes de la plupart des composés.
+
+Table: (\#tab:tab-NO-rules) Règles pour l'attribution des nombres d'oxydation.
+
+| Règle                                                        | Exemple                                     |    NO    |
+|:-------------------------------------------------------------|:--------------------------------------------|:--------:|
+| Un atome l'état élémentaire a un nombre d'oxydation de 0.    | $\ce{Na}$, $\ce{Fe}$, $\ce{O2}$, $\ce{Cl2}$ |    0     |
+| Un ion monatomique a un nombre d'oxydation égal à sa charge. | $\ce{Na+}$, $\ce{Ca^{2+}}$, $\ce{Al^{3+}}$  | +1,+2,+3 |
+| L'**hydrogène** a généralement un NO de +1 dans ses composés | toujours, sauf hydrures (H~-~)              |    +1    |
+| L'**oxygène** a généralement un NO de -2 dans ses composés   | toujours, sauf peroxydes (O~-~)             |    -2    |
+| Le **fluor** a généralement un NO de -1 dans ses composés    | toujours, sauf exception                    |    -1    |
+
+Vous trouverez dans le tableau périodique, les nombres d'oxydation courants pour un élément, avec en gras, les nombres d'oxydation les plus stables.
+
+**La somme des nombres d'oxydation de toute espèce chimique doit correspondre à la charge globale de l'espèce.** En d'autres termes, la somme des nombres d'oxydation pour toute molécule doit être égale à zéro et doit être égale à la charge de tout ion polyatomique.
+
+### Distinguer une réaction d'oxydoréduction
+
+Les réactions d'oxydoréduction sont caractérisée par un transfert d'électrons. Dans certains cas, le transfert se fait au sens propre pour former des ions, comme dans la réaction :
+
+$$
+2\overset{0}{\ce{Na}}(s) + \overset{0}{\ce{Cl2}}(g) \ce{->} 2\overset{+1\ -1}{\ce{NaCl}}(s)
+$$
+
+Cependant, le transfert d'électrons est parfois moins évident. Prenons, par exemple, la réaction de combinaison de méthane.
+
+$$
+\overset{-4\ +1}{\ce{CH4}}(g) + 2\overset{0}{\ce{O2}}(g) \ce{->} \overset{+4\ -2}{\ce{CO2}}(g) + 2\overset{+1\ -2}{\ce{H2O}}(g)
+$$
+
+Le nombre d'oxydation est un moyen pratique de mettre en évidence les transferts électrons dans les réactions d'oxydoréduction. Au sein d'une substance, on définit le nombre d'oxydation de chaque atome qui nous indique si l'atome est neutre, riche ou pauvre en électrons. En comparant le nombre d'oxydation d'un atome avant et après une réaction, on peut déterminer si l'atome a gagné ou perdu des électrons.
+
+Dans le cas de la combustion du méthane:
+
+- Le carbone est passé de l'état d'oxydation **-4** à l'état d'oxydation **+4**, il y a eu une perte d'électrons.
+- L'oxygène est passé de l'état d'oxydation **0** à l'état d'oxydation **-2**, il y a eu un gain d'électrons.
+
+### Définitions de termes liés à l'oxydoréduction
+
+Le contexte étant spécifié, nous pouvons maintenant définir certains termes importants liés aux réactions d'oxydoréduction.
+
+Le transfert d'électrons caractérise les réaction d'oxydoréduction, il y a donc un donneur d'électrons et un accepteur d'électrons. Toute réaction d'oxydoréduction est composée de deux demi-réactions : la demi-réaction d'oxydation et la demi-réaction de réduction.
+
+- L'**oxydation** est une augmentation de l'état d'oxydation (une perte d'électrons).
+- La **réduction** est une diminution de l'état d'oxydation (un gain d'électrons).
+- L'**agent oxydant** est l'espèce qui provoque l'oxydation (accepteur d'électrons).
+- L'**agent réducteur** est l'espèce qui provoque la réduction (donneur d'électrons).
+- L'**espèce oxydée** est l'espèce qui subit l'oxydation (donneur d'électrons).
+- L'**espèce réduite** est l'espèce qui subit la réduction (accepteur d'électrons).
+
+Table: (\#tab:tab-NO-summary) Résumé des termes liés à l'oxydoréduction.
+
+|                           |               |                          |
+|:-------------------------:|:-------------:|:------------------------:|
+|      agent réducteur      | $\Rightarrow$ |      agent oxydant       |
+|       espèce oxydée       |               |      espèce réduite      |
+|    donne des éléctrons    |               |  accepte des éléctrons   |
+| état d'oxydation augmente |               | état d'oxydation diminue |
+
+Notez que lorsqu'on nomme l'agent oxydant ou réducteur, c'est le composé entier qui est spécifié, et pas seulement l'élément qui subit le changement d'état d'oxydation.
+
+Dans les exemples vu précédemment: 
+
+$$
+2\overset{0}{\ce{Na}}(s) + \overset{0}{\ce{Cl2}}(g) \ce{->} 2\overset{+1\ -1}{\ce{NaCl}}(s)
+$$
+
+|            Na             |               |          Cl~2~           |
+|:-------------------------:|:-------------:|:------------------------:|
+|      agent réducteur      | $\Rightarrow$ |      agent oxydant       |
+|       espèce oxydée       |               |      espèce réduite      |
+|    donne des éléctrons    |               |  accepte des éléctrons   |
+| état d'oxydation augmente |               | état d'oxydation diminue |
+
+$$
+\overset{-4\ +1}{\ce{CH4}}(g) + 2\overset{0}{\ce{O2}}(g) \ce{->} \overset{+4\ -2}{\ce{CO2}}(g) + 2\overset{+1\ -2}{\ce{H2O}}(g)
+$$
+
+|           CH~4~           |               |           O~2~           |
+|:-------------------------:|:-------------:|:------------------------:|
+|      agent réducteur      | $\Rightarrow$ |      agent oxydant       |
+|       espèce oxydée       |               |      espèce réduite      |
+|    donne des éléctrons    |               |  accepte des éléctrons   |
+| état d'oxydation augmente |               | état d'oxydation diminue |
+
+## Équilibrer les équations d'oxydoréduction
+
+Précédemment, nous avons vu comment équilibrer des équations de réactions en équilibrant le nombre d'atomes de chaque type des deux côtés de la flèche de l'équation. Pour équilibrer des équations d'oxydoréduction, il est également nécessaire d'équilibrer les électrons transférés.
+
+Prenons par exemple, la réaction entre le chrome métallique et le nickel (II) en solution acqueuse :
+
+$$
+\ce{Cr(s) + Ni^{+2}(aq) -> Cr^{+3}(aq) + Ni(s)}
+$$
+
+Bien que cette équation comporte un nombre égal de chaque atome des deux côtés, elle n'est pas équilibrée car il y a une charge de +2 du côté du réactif et une charge de +3 du côté du produit. Pour équilibrer cette équation, nous pouvons la séparer en deux demi-réactions.
+
+$$
+\begin{split}
+\ce{Cr(s) -> Cr^{+3}(aq) + 3e^−} \quad \text{oxydation} \\
+\ce{Ni^{+2}(aq) + 2e^− -> Ni(s)} \quad \text{réduction}
+\end{split}
+$$
+
+Lorsque l'on additionne les demi-réactions pour obtenir la réaction globale, le nombre d'électrons donnés doir annuler le nombre d'électrons acceptés. Les électrons donnés par une espèce sont gagnés par l'autre. Ils ne peuvent pas apparaître dans une équation chimique globale. Par conséquent, avant d'additionner ces deux demi-réactions, nous devons multiplier chaque demi-réaction par un facteur qui équilibre le nombre d'électrons échangés.
+
+$$
+\begin{split}
+2 \times [\ce{Cr(s) -> Cr^{+3}(aq) + 3e^−}] \\
+3 \times [\ce{Ni^{+2}(aq) + 2e^− -> Ni(s)}]
+\end{split}
+$$
+
+On peut ensuite additionner les demi-réactions, pour obtenir l'équation globale équilibrée.
+
+$$
+\begin{split}
+\ce{2\ Cr(s)}&\ce{ -> 2\ Cr^{+3}(aq) + 6e^−} \\
+\ce{3\ Ni^{+2}(aq) + 6e^−}&\ce{ -> 3\ Ni(s)} \\
+\hline
+\ce{2\ Cr(s) + 3\ Ni^{+2}(aq)}&\ce{ -> 2\ Cr^{+3}(aq) + 3\ Ni(s)}
+\end{split}
+$$
+
+De cette manière, l'équation de la réaction est équilibrée en considérant les masses aussi bien que les électrons échangés.
+
+Considérons maintenant une réaction plus complexe :
+
+$$
+\ce{H^+(aq) + Cl^-(aq) + Sn(s) + NO3^-(aq) -> SnCl6^{2-} + NO2(g) + H2O(l)}
+$$
+
+Pour équilibrer cette équation, nous devons d'abord attribuer les états d'oxydation à chaque atome des réactifs et des produits.
+
+$$
+\overset{+1}{\ce{H^+}} + \overset{-1}{\ce{Cl^-}} + \overset{0}{\ce{Sn}} + \overset{+5\ -2}{\ce{NO3-}} \ce{->} \overset{+4\ -1}{\ce{SnCl6^{2-}}} + \overset{+4\ -2}{\ce{NO2}} + \overset{+1\ -2}{\ce{H2O}}
+$$
+
+On note que l'hydrogène, le chlore et l'oxygène ne changent pas d'état d'oxydation, ils ne sont donc pas impliqués dans l'échange d'électrons. Concentrons donc notre attention sur Sn et N :
+
+$$
+\begin{split}
+\ce{Sn -> Sn^{+4} + 4e^−} \quad \text{oxydation} \\
+\ce{N^{+5}(aq) + 1e^− -> N^{+4}} \quad \text{réduction}
+\end{split}
+$$
+
+Chaque atome d'étain va libérer 4 électrons qui seront acceptés un à la fois par l'azote. Cela signifie que nous avons besoin d'un coefficient de 4 pour les espèces contenant de l'azote.
+
+$$
+\ce{H^+(aq) + Cl^-(aq) + Sn(s) + \underline{4}NO3^-(aq) -> SnCl6^{2-} + \underline{4}NO2(g) + H2O(l)}
+$$
+
+On peut ensuite équilibrer le chlore, l'oxygène et l'hydrogène : 
+
+$$
+8\ce{H^+(aq) + 6Cl^-(aq) + Sn(s) + 4NO3^-(aq) -> SnCl6^{2-} + 4NO2(g) + 4H2O(l)}
+$$
