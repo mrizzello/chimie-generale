@@ -73,9 +73,12 @@ Vous trouverez dans le tableau périodique, les nombres d'oxydation courants pou
 
 **La somme des nombres d'oxydation de toute espèce chimique doit correspondre à la charge globale de l'espèce.** En d'autres termes, la somme des nombres d'oxydation pour toute molécule doit être égale à zéro et doit être égale à la charge de tout ion polyatomique.
 
+```{r, child=c('exe/electro-10.Rmd')}
+```
+
 ### Distinguer une réaction d'oxydoréduction
 
-Les réactions d'oxydoréduction sont caractérisée par un transfert d'électrons. Dans certains cas, le transfert se fait au sens propre pour former des ions, comme dans la réaction :
+**Une réaction d'oxydoréduction est caractérisée par un transfert d'électrons**. Dans certains cas, le transfert se fait au sens propre pour former des ions, comme dans la réaction :
 
 $$
 2\overset{0}{\ce{Na}}(s) + \overset{0}{\ce{Cl2}}(g) \ce{->} 2\overset{+1\ -1}{\ce{NaCl}}(s)
@@ -87,14 +90,17 @@ $$
 \overset{-4\ +1}{\ce{CH4}}(g) + 2\overset{0}{\ce{O2}}(g) \ce{->} \overset{+4\ -2}{\ce{CO2}}(g) + 2\overset{+1\ -2}{\ce{H2O}}(g)
 $$
 
-Le nombre d'oxydation est un moyen pratique de mettre en évidence les transferts électrons dans les réactions d'oxydoréduction. Au sein d'une substance, on définit le nombre d'oxydation de chaque atome qui nous indique si l'atome est neutre, riche ou pauvre en électrons. En comparant le nombre d'oxydation d'un atome avant et après une réaction, on peut déterminer si l'atome a gagné ou perdu des électrons.
+**Le nombre d'oxydation est un moyen pratique de mettre en évidence les transferts électrons** dans les réactions d'oxydoréduction. Au sein d'une substance, on définit le nombre d'oxydation de chaque atome qui nous indique si l'atome est neutre, riche ou pauvre en électrons. En comparant le nombre d'oxydation d'un atome avant et après une réaction, on peut déterminer si l'atome a gagné ou perdu des électrons et donc, si on est en présence d'une réaction d'oxydoréduction.
 
 Dans le cas de la combustion du méthane:
 
 - Le carbone est passé de l'état d'oxydation **-4** à l'état d'oxydation **+4**, il y a eu une perte d'électrons.
 - L'oxygène est passé de l'état d'oxydation **0** à l'état d'oxydation **-2**, il y a eu un gain d'électrons.
 
-### Définitions de termes liés à l'oxydoréduction
+```{r, child=c('exe/electro-30.Rmd')}
+```
+
+### Définitions de termes
 
 Le contexte étant spécifié, nous pouvons maintenant définir certains termes importants liés aux réactions d'oxydoréduction.
 
@@ -204,7 +210,7 @@ $$
 \end{split}
 $$
 
-Chaque atome d'étain va libérer 4 électrons qui seront acceptés un à la fois par l'azote. Cela signifie que nous avons besoin d'un coefficient de 4 pour les espèces contenant de l'azote.
+Chaque atome d'étain va libérer 4 électrons qui seront acceptés chacuns par un atome d'azote. Cela signifie que nous avons besoin d'un coefficient de 4 pour les espèces contenant de l'azote.
 
 $$
 \ce{H^+(aq) + Cl^-(aq) + Sn(s) + \underline{4}NO3^-(aq) -> SnCl6^{2-} + \underline{4}NO2(g) + H2O(l)}
@@ -216,6 +222,11 @@ $$
 8\ce{H^+(aq) + 6Cl^-(aq) + Sn(s) + 4NO3^-(aq) -> SnCl6^{2-} + 4NO2(g) + 4H2O(l)}
 $$
 
+Les masses et les électrons échangés sont maintenant équilibrés dans l'équation de la réaction.
+
+```{r, child=c('exe/electro-40.Rmd')}
+```
+
 ## Les piles
 
 Lorsque du zinc métallique est placé dans une solution contenant des ions cuivre (II), le Zn est oxydé en ions Zn^2+^ tandis que les ions Cu^2+^ sont réduits en Cu, ou cuivre métallique. Ceci peut être représenté par l'équatin de réaction suivante :
@@ -224,7 +235,7 @@ $$
 \ce{Zn(s) + Cu^{2+}(aq) -> Zn^{2+}(aq) + Cu(s)}
 $$
 
-Des électrons sont transférés dans la réaction Zn/Cu2+, mais le système ne génère pas d'énergie électrique car l'oxydant (Cu^2+^) et le réducteur (Zn) se trouvent dans le même bécher. Cependant, si nous séparons physiquement les demi-réactions et les connectons par un circuit externe, les électrons perdus par le zinc produisent un courant électrique lorsqu'ils se déplacent dans le circuit vers les ions cuivre qui les gagnent.
+Des électrons sont transférés dans la réaction Zn/Cu^2+^, mais le système ne génère pas d'énergie électrique car l'oxydant (Cu^2+^) et le réducteur (Zn) se trouvent dans le même bécher. Cependant, si nous séparons physiquement les demi-réactions et les connectons par un circuit externe, les électrons perdus par le zinc produisent un courant électrique lorsqu'ils se déplacent dans le circuit vers les ions cuivre qui les gagnent.
 
 ```{r pile-electrique-v2,echo=FALSE,out.width="80%",fig.show="hold",fig.align="center",fig.cap="Schéma simplifié d'une pile Cu/Zn"}
 knitr::include_graphics(c("images/pile-electrique-v2.png"))
@@ -279,9 +290,173 @@ $$
 \ce{Zn(s)}\ │\ \ce{Zn^{2+}(aq)}\ ||\ \ce{Cu^{2+}(aq)}\ │\ \ce{Cu(s)}
 $$
 
-
 - Les composants du compartiment anodique sont écrits à gauche et les composants du compartiment cathodiqueà droite.
 - Un double trait vertical indique que les demi-piles sont physiquement séparées.
 - Une ligne verticale simple représente une limite entre deux phases.
 - Si nécessaire, les concentrations des composants dissous sont indiquées entre parenthèses.
 - Les ions du pont salin peuvent figurer dans la notation.
+
+## Potentiels standards de réduction
+
+Entre l'anode et la cathode, l'intensité de l'attraction exercée sur les électrons est appelée **potentiel électrochimique** (E) ou **force électromotrice** de la pile. L'unité avec laquelle le potentiel électrique est exprimé est le volt [V]. Un des moyens de mesurer ce potentiel électrique est de relier un voltmètre entre les pôles de la pile électrique.
+
+Quelle est la pile qui fournirait le plus d'énergie électrochimique ?
+
+La réaction dans une pile est toujours une réaction d'oxydoréduction qui peut être décomposée en deux demi-réactions. Tout comme il est impossible qu'une seule des demi-réactions se produise indépendamment, il est impossible de mesurer le potentiel d'une seule demi-pile.
+
+Le potentiel électrochimique d'une pile dépend des demi-piles (cathode et anode) qui la composent. Nous pourrions, en principe, établir un tableau des potentiels de pile pour toutes les combinaisons cathode-anode possibles, bien que cette tâche soit ardue.
+
+$$
+\begin{split}
+\ce{Zn(s)}\ │\ \ce{Zn^{2+}(aq)}\ |&|\ \ce{Cu^{2+}(aq)}\ │\ \ce{Cu(s)} \quad E_{pile} = 1.1\ [V] \\
+\ce{Ni(s)}\ │\ \ce{Ni^{2+}(aq)}\ |&|\ \ce{Cu^{2+}(aq)}\ │\ \ce{Cu(s)} \quad E_{pile} = 0.57\ [V] \\
+\ce{Sn(s)}\ │\ \ce{Sn^{2+}(aq)}\ |&|\ \ce{Cu^{2+}(aq)}\ │\ \ce{Cu(s)} \quad E_{pile} = 0.48\ [V] \\
+\ce{Pb(s)}\ │\ \ce{Pb^{2+}(aq)}\ |&|\ \ce{Cu^{2+}(aq)}\ │\ \ce{Cu(s)} \quad E_{pile} = 0.47\ [V] \\
+& ...
+\end{split}
+$$
+
+Cependant, si nous définissons arbitrairement la valeur du potentiel d'une demi-pile particulière comme étant nulle, nous pouvons l'utiliser comme référence pour déterminer les potentiels relatifs des autres demi-piles. C'est l'électrode à hydrogène qui est arbitrairement choisie comme référence.
+
+La demi-pile de référence est une électrode à hydrogène, qui consiste en une électrode de platine traversée par du dihydrogène gazeux (H~2~ ) et immergée dans un acide fort. Ainsi, la demi-réaction de référence est:
+
+$$
+\ce{2 H+(aq) + 2 e^- <=> H2(g)} \qquad E^0 = 0\ [V]
+$$
+
+```{r ESH,echo=FALSE,out.width="25%",fig.show="hold",fig.align="center",fig.cap="Schéma de l'électrode standard à hydrogène."}
+knitr::include_graphics(c("images/ESH.png"))
+```
+
+Dans les conditions standards, avec une pression de H~2~ de 1 [atm] et une concentration de la solution acide de 1 [M], le potentiel de réduction de H^+^ à 25°C (E^0^)est défini comme étant exactement égal à 0 [V]. L'exposant ^0^ désigne les conditions à l'état standard et E^0^ sera nommé **potentiel standard de réduction**.
+
+Avec un électrode de référence, on peut mesurer le potentiel des autres électrodes :
+
+$$
+\begin{split}
+\ce{Zn(s)}\ │\ \ce{Zn^{2+}(aq)\ 1 [M]}\ |&|\ \ce{H^+(aq)\ 1[M]}\ │\ \ce{H2\ (1 [atm])} |\ \ce{Pt(s)} \quad E^0_{Zn^{2+}/Zn} = -0.76\ [V] \\
+\ce{Ni(s)}\ │\ \ce{Ni^{2+}(aq)\ 1 [M]}\ |&|\ \ce{H^+(aq)\ 1[M]}\ │\ \ce{H2\ (1 [atm])} |\ \ce{Pt(s)} \quad E^0_{Ni^{2+}/Ni} = -0.23\ [V] \\
+\ce{Sn(s)}\ │\ \ce{Sn^{2+}(aq)\ 1 [M]}\ |&|\ \ce{H^+(aq)\ 1[M]}\ │\ \ce{H2\ (1 [atm])} |\ \ce{Pt(s)} \quad E^0_{Sn^{2+}/Sn} = -0.14\ [V] \\
+\ce{Pb(s)}\ │\ \ce{Pb^{2+}(aq)\ 1 [M]}\ |&|\ \ce{H^+(aq)\ 1[M]}\ │\ \ce{H2\ (1 [atm])} |\ \ce{Pt(s)} \quad E^0_{Pb^{2+}/Pb} = -0.13\ [V] \\
+& ...
+\end{split}
+$$
+
+On peut ainsi regrouper dans une table les valeurs de potentiel qui correspondent aux demi-réactions de réduction les plus courantes (**table des potentiels standards d’oxydoréduction**).
+
+### Potentiel électrochimique ou force électromotrice (fem)
+
+Une pile convertit l'énergie chimique d'une réaction **spontanée** en énergie cinétique des électrons qui se déplacent dans un circuit électrique. Cette énergie électrique est proportionnelle à la différence de potentiel électrique entre les deux électrodes.
+
+Par convention, le potentiel standard d'une pile, $E^0_{pile}$ est donné par la relation suivante :
+
+$$
+E^0_{pile} = E^0_{cathode} − E^0_{anode}
+$$
+
+Pour la pile Zn/Cu^2+^, pour des concentrations de 1 [M], sous une pression de 1 [atm] et une température de 25°C, le voltmètre nous indiquerai une tension (E~pile~) de 1.1 [V].
+
+$$
+\begin{split}
+E^0_{pile} &= E^0_{Cu/Cu^{2+}} − E^0_{Zn^{2+}/Zn} \\
+  &= 0.34\ [V] − (-0.76\ [V]) = 1.1\ [V]
+\end{split}
+$$
+
+## Potentiels standards et spontanéité
+
+Prenons en exemple deux équations d'oxydoréduction :
+
+$$
+\begin{split}
+\underset{\text{oxydant 1}}{\ce{Cu^{2+}}} + \underset{\text{réducteur 2}}{\ce{Fe}} &\ce{->}
+\underset{\text{réducteur 1}}{\ce{Cu}} + \underset{\text{oxydant 2}}{\ce{Fe^{2+}}} \\
+\underset{\text{oxydant 1}}{\ce{2Ag^{+}}} + \underset{\text{réducteur 2}}{\ce{Cu}} &\ce{->}
+\underset{\text{réducteur 1}}{\ce{2Ag}} + \underset{\text{oxydant 2}}{\ce{Cu^{2+}}}
+\end{split}
+$$
+
+Dans ces réactions, à chaque demi-réaction correspond un réducteur et un oxydant. Ces deux espèces forment ensemble un couple d’oxydoréduction ou **couple rédox**. Par convention, on fait figurer l’oxydant en premier dans le couple rédox.
+
+$$
+  \ce{Cu^{2+}/Cu} \quad\text{ou}\quad \ce{Fe^{2+}/Fe} \quad\text{ou}\quad \ce{Ag^{+}/Ag} \quad\text{ou}\quad \ce{I2/I^{-}} \quad\text{ou}\quad ...
+$$
+
+- Dans un couple où l'oxydant est fort, le réducteur sera un réducteur faible.
+- Dans un couple où le réducteur est fort, l'oxydant du couple sera un oxydant faible.
+- Un couple fortement oxydant est un couple faiblement réducteur et inversement.
+
+**La réaction rédox qui se produit spontanément est celle qui transforme l’oxydant et le réducteur les plus forts en réducteur et oxydant les plus faibles.**
+
+Exemple :
+
+$$
+\ce{Zn(s) + Cu^{2+}(aq) -> Zn^{2+}(aq) + Cu(s)}
+$$
+
+- $\ce{Cu^{2+}}$ est un oxydant plus fort que $\ce{Zn^{2+}}$.
+- $\ce{Zn}$ est un réducteur le plus fort que $\ce{Zn}$.
+
+### Règle du gamma
+
+Cette règle du gamma permet, dès lors que l’on dispose des espèces présentes avant réaction ainsi que leurs potentiels standards, de prévoir si la réaction va avoir lieu de manière spontanée.
+
+```{r gamma-rule,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Illustration de la règle du gamma."}
+knitr::include_graphics(c("images/gamma-rule.png"))
+```
+
+En plaçant les couples sur une échelle par potentiel décroissant, l'oxydant le plus fort (Cu^2+^) réagira avec le réducteur le plus fort (Zn) pour donner le réducteur et l'oxydant les plus faibles (respectivement, Cu et Zn^2+^) :
+
+La réaction :
+
+$$
+\ce{Zn^{2+}(aq) + Cu(s) -> Zn(s) + Cu^{2+}(aq)}
+$$
+
+ne sera donc pas spontanée.
+
+## Électrolyse
+
+Une pile électrochimique produit du courant lorsque la réaction d'oxydoréduction se produit spontanément. À l'inverse, une cellule **électrolytique**, utilise l'énergie électrique pour produire une transformation chimique. L'**électrolyse** consiste à forcer un courant à travers un système chimique pour produire une transformation non spontanée.
+
+```{r pile-recharge,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Pile électrique et cellule électrolytique."}
+knitr::include_graphics(c("images/pile-recharge.png"))
+```
+
+Une source d'énergie externe force les électrons à traverser la pile dans la direction opposée qui a lieu lors de la décharge d'une pile. Cela nécessite un potentiel externe supérieur au voltage founis par la pile électrochimique. Le flux d'électrons étant opposé dans les deux cas, l'anode et la cathode sont inversées. De même, le flux des ions à travers le pont salin est opposé dans les deux systèmes.
+
+Dans une cellule électrolytique:
+
+- L'anode est l'électrode où a lieu l'oxydation.
+- La cathode est l'électrode où a lieu la réduction.
+
+L'électrolyse est une méthode qui permet de provoquer une transformation chimique en faisant passer un courant électrique à travers les réactifs. Elle utilise un courant électrique continu pour provoquer une réaction chimique qui n'est pas spontanée.
+
+Les principaux composants nécessaires pour réaliser une électrolyse :
+
+- Un électrolyte : une solution contenant des ions libres, qui sont porteurs du courant électrique dans l'électrolyte.
+- Une alimentation en courant continu pour fournir l'énergie nécessaire à la réaction d'oxydoréduction.
+- Deux électrodes : deux conducteurs électriques qui constituent l'interface physique entre le circuit électrique et l'électrolyte.
+
+### Électrolyse de l'eau pure
+
+```{r electrolysis-water,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Schéma de l'électrolyse de l'eau pure."}
+knitr::include_graphics(c("images/electrolysis-water.png"))
+```
+
+## Exercices supplémentaires
+
+```{r, child=c('exe/electro-20.Rmd')}
+```
+
+```{r, child=c('exe/electro-50.Rmd')}
+```
+
+
+\newpage
+
+```{r, echo=FALSE}
+if (knitr::is_latex_output()) {
+  knitr::asis_output('\\section{Solutions des exercices} \\shipoutAnswer')
+}
+```

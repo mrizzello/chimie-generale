@@ -1,0 +1,27 @@
+::: {.Exercise data-latex=""}
+
+Équilibrez les électrons échangés et les masses de chacune des équations chimiques suivantes en mettant en évidence le transfert d'électrons.
+
+
+a. __ $\ce{H3BO3}$ $\ce{->}$ __ $\ce{H4B6O11}$ + __ $\ce{H2O}$
+\vspace{1em}
+b. __ $\ce{Cu}$ + __ $\ce{S8}$ $\ce{->}$ __ $\ce{Cu2S}$
+\vspace{1em}
+c. __ $\ce{Cd}$ + __ $\ce{Al(NO3)3}$ $\ce{->}$ __ $\ce{Cd(NO3)2}$ + __ $\ce{Al}$
+\vspace{1em}
+d. __ $\ce{HClO2}$ $\ce{->}$ __ $\ce{ClO2}$ + __ $\ce{HCl}$ + __ $\ce{2 H2O}$
+\vspace{1em}
+e. __ $\ce{Al}$ + __ $\ce{O2}$ + __ $\ce{H2O}$ $\ce{->}$ __ $\ce{Al(OH)3}$
+\vspace{1em}
+
+:::
+
+::: {.Answer data-latex=""}
+
+a. $\ce{6 H3BO3  -> H4B6O11 + 7 H2O}$
+b. $\ce{16 Cu + S8  -> 8 Cu2S}$
+c. $\ce{3 Cd + 2 Al(NO3)3  -> 3 Cd(NO3)2 + 2 Al}$
+d. $\ce{5 HClO2  -> 4 ClO2 + HCl + 2 H2O}$
+e. $\ce{4 Al + 3 O2 + 6 H2O -> 4 Al(OH)3}$
+
+:::
