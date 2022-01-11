@@ -1,0 +1,30 @@
+::: {.Exercise data-latex=""}
+
+Parmi les réactions suivantes, indiquez lesquelles sont des réactions d'oxydoréduction :
+
+a. $\ce{4 Ag + O2 -> 2 Ag2O}$
+\vspace{1em}
+c. $\ce{HI + CsOH -> CsI + H2O}$
+\vspace{1em}
+d. $\ce{Na3PO4 + FeCl3 -> 3 NaCl + FePO4}$
+\vspace{1em}
+b. $\ce{2 Al + 3 CuSO4 -> Al2(SO4)3 + 3 Cu}$
+\vspace{1em}
+e. $\ce{2 NaHCO3 -> Na2CO3 + H2O + CO2}$
+\vspace{1em}
+
+:::
+
+::: {.Answer data-latex=""}
+
+a. $\ce{4 Ag + O2 -> 2 Ag2O}$ **oxydoréduction**  
+$\ce{Ag -> Ag^+ + 1e^-}$  
+$\ce{O + 2e^- -> O^{-2}}$
+b. $\ce{HI + CsOH -> CsI + H2O}$ neutralisation
+c. $\ce{Na3PO4 + FeCl3 -> 3 NaCl + FePO4}$ précipitation
+d. $\ce{2 Al + 3 CuSO4 -> Al2(SO4)3 + 3 Cu}$ **oxydoréduction**  
+$\ce{Al -> Al^{3+} + 3e^-}$  
+$\ce{Cu^{2+} + 2e^- -> Cu}$
+e. $\ce{2 NaHCO3 -> Na2CO3 + H2O + CO2}$ décomposition
+
+:::
