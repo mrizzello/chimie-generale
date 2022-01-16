@@ -1,5 +1,22 @@
 # Les acides et les bases
 
+::: {.objectives data-latex=""}
+
+- Définir les termes acide et base selon Arrhénius et Brønsted-Lowry.
+- Définir le concept d'acides, bases et leurs conjugués.
+- Expliquer la notion de forces des acides et des bases en termes de dissociation.
+- Définir la constante d’acidité K~a~ et de basicité K~b~.
+- Expliquer la notion d'autoprotolyse de l’eau et la relation entre |H~3~O^+^| et |OH^-^|.
+- Définir le pH et son échelle.
+- Calculer le pH des acides forts et des bases fortes.
+- Calculer le pH des acides faibles et des bases faibles.
+- Calculer le pH des acides polyprotiques.
+- Définir une solution tampon et calculer son pH.
+- Calculer les différents points d'une coubre de titrage.
+- Extraire les informations du tracé d'une courbe de titrage.
+
+:::
+
 ## Définitions
 
 ### Définition d'Arrhénius
@@ -34,8 +51,6 @@ En 1923, au regard du transfert d'ions H^+^ qui a lieu lors d'une réaction acid
 
 Il est utile de noter qu'un ion H^+^ est un atome d'hydrogène sans son électron, soit un simple proton.
 
-\clearpage
-
 Ainsi, HCl est un acide puisqu'il transfère un proton à l'eau :
 
 $$
@@ -59,6 +74,7 @@ Gilbert Lewis a proposé une troisième définition des acides et des bases, plu
 ```{r acides-bases-2,echo=FALSE,out.width="33%",fig.show="hold",fig.align="center",fig.cap="Paire libre d'électrons partagée entre l'azote de l'ammoniac et un cation hydrogène"}
 knitr::include_graphics(c("images/acides-bases-2.png"))
 ```
+\clearpage
 
 Le tableau ci-dessous résume les trois définitions acide-base.
 
@@ -69,10 +85,6 @@ Table: (\#tab:acides-bases-definitions) Définitions des acides et des bases.
 | Arrhénius      | libère des ions H^+^ en solution | libère des ions OH^-^ en solution |
 | Brønsted-Lowry |         donneur de H^+^          |         accepteur de H^+^         |
 | Lewis          |   accepteur d'une paire libre    |     donneur d'une paire libre     |
-
-|
-
-\clearpage
 
 Considérons maintenant la réaction suivante :
 
@@ -170,11 +182,14 @@ A nouveau, plus la constante est **petite**, plus l'équilibre est déplacé ver
 ```{r, child=c('exe/acides-bases-50.Rmd')}
 ```
 
+\clearpage
+
 ```{r, child=c('exe/acides-bases-60.Rmd')}
 ```
 
 ```{r, child=c('exe/acides-bases-70.Rmd')}
 ```
+
 \clearpage
 
 ```{r, child=c('exe/acides-bases-80.Rmd')}
@@ -182,6 +197,8 @@ A nouveau, plus la constante est **petite**, plus l'équilibre est déplacé ver
 
 ```{r, child=c('exe/acides-bases-90.Rmd')}
 ```
+
+\clearpage
 
 ## Autoprotolyse de l'eau
 
@@ -222,6 +239,8 @@ En résumé :
 ```{r, child=c('exe/acides-bases-120.Rmd')}
 ```
 
+\clearpage
+
 ## Le pH ou potentiel hydrogène
 
 La concentration des ions H~3~O^+^ dans l'eau nous renseigne sur l'acidité ou la basicité d'une solution.
@@ -249,8 +268,6 @@ En général, à 25°C :
 | pH < 7 | la solution est acide   |
 | pH = 7 | la solution est neutre  |
 | pH > 7 | la solution est basique |
-
-\clearpage
 
 ```{r echelle-pH-1,echo=FALSE,out.width="90%",fig.show="hold",fig.align="center",fig.cap="Échelle de pH"}
 knitr::include_graphics(c("images/echelle-pH-1.png"))
@@ -287,6 +304,8 @@ Pour résumer :
 ```{r, child=c('exe/acides-bases-130.Rmd')}
 ```
 
+\clearpage
+
 ```{r, child=c('exe/acides-bases-140.Rmd')}
 ```
 
@@ -318,13 +337,15 @@ Pour résumer :
 ```{r, child=c('exe/acides-bases-220.Rmd')}
 ```
 
+\clearpage
+
 ```{r, child=c('exe/acides-bases-230.Rmd')}
 ```
 
-\clearpage
-
 ```{r, child=c('exe/acides-bases-240.Rmd')}
 ```
+
+\clearpage
 
 ### pH des acides faibles et des bases faibles
 
@@ -348,8 +369,6 @@ Les conditions initiales, les variations et les conditions d'équilibre peuvent 
 | C~finale~   |    0.100-x     |        x        |         x         |
 
 _On approxime la concentration initiale des ions H~3~O^+^ comme nulle en négligeant la quantité des ions H~3~O^+^ provenant de l'autoprotolyse de l'eau._
-
-\clearpage
 
 La variable x représente la quantité d'acide qui se dissocie. Déterminons maintenant l'expression de la constante d'acidité K~a~ :
 
@@ -389,8 +408,6 @@ Finalement, on calcule le pH :
 $$
 pH = - \log |\ce{H3O+}| = - \log 7 \cdot 10^{-6} = 5.15\ [-]
 $$
-
-\clearpage
 
 #### Exemple d'une base faible
 
@@ -438,8 +455,6 @@ $$
 
 Nous trouvons donc une valeur de |OH^-^| égale à $1.90 \cdot 10^{-3}$ [M].
 
-\clearpage
-
 L'approximation est bien valide puisque $x \lll 0.200$ [M]. **Le rapport entre quantité dissociée et la concentration initiale de base doit être inférieure à 5% pour utiliser l'approximation**. Dans cet exemple, nous avons :
 
 $$
@@ -454,15 +469,14 @@ $$
 
 ```{r, child=c('exe/acides-bases-250.Rmd')}
 ```
-\clearpage
 
 ```{r, child=c('exe/acides-bases-260.Rmd')}
 ```
 
+\clearpage
+
 ```{r, child=c('exe/acides-bases-270.Rmd')}
 ```
-
-\clearpage
 
 ```{r, child=c('exe/acides-bases-280.Rmd')}
 ```
@@ -495,15 +509,13 @@ knitr::include_graphics(c("images/acides-faibles-2.png"))
 
 On pourra donc traiter les polyacides comme des monoacides, en ne prenant en compte que les protons libérés par le premier équilibre de déprotonation qui aura la plus grande constante d'équilibre K~a~. Dans le cas particulier de l'acide sulfurique, le premier proton est entièrement libéré mais la deuxième déprotonation est non négligeable. Les deux déprotonations devront être prises en compte.
 
-\clearpage
-
 ```{r, child=c('exe/acides-bases-300.Rmd')}
 ```
 
+\clearpage
+
 ```{r, child=c('exe/acides-bases-310.Rmd')}
 ```
-
-\clearpage
 
 ## Les solutions tampons
 
@@ -539,8 +551,6 @@ _On ne considère que l’ion H~3~O^+^, puisque Cl^-^ est un ion spectateur._
 Le pH variera donc peu, pour autant que la quantité d’acide ajoutée ne soit pas supérieure à la quantité de base présente.
 
 Par conséquent, les solutions tampons stabilisent le pH en fournissant source et piège à protons.
-
-\clearpage
 
 ```{r, child=c('exe/acides-bases-320.Rmd')}
 ```
@@ -649,24 +659,26 @@ $$
 pK_a + pK_b = 14 \quad \text{avec } pK_b = - \log K_b
 $$
 
+\clearpage
+
 ```{r, child=c('exe/acides-bases-330.Rmd')}
 ```
 
 ```{r, child=c('exe/acides-bases-340.Rmd')}
 ```
 
-\clearpage
-
 ```{r, child=c('exe/acides-bases-350.Rmd')}
 ```
+
+\clearpage
 
 ```{r, child=c('exe/acides-bases-360.Rmd')}
 ```
 
-\clearpage
-
 ```{r, child=c('exe/acides-bases-370.Rmd')}
 ```
+
+\clearpage
 
 ### Addition acide-base à une solution tampon
 
@@ -691,8 +703,6 @@ $$
 $$
 pH = pK_a + \log \frac{|\ce{A-}|}{|\ce{HA}|} = 9.26 + \log \frac{0.25}{0.40} = 9.06
 $$
-
-\clearpage
 
 Quel sera l’effet sur le pH de l’ajout de 0.10 mol de $\ce{HCl}$ à 1 L de tampon ?
 
@@ -720,10 +730,10 @@ $$
 
 On remarquera que l’addition de $\ce{HCl}$ n’a que faiblement diminué la valeur du pH. L’abaissement du pH est cohérent avec le fait qu’un acide fort a été ajouté.
 
+\clearpage
+
 ```{r, child=c('exe/acides-bases-380.Rmd')}
 ```
-
-\clearpage
 
 ### Pouvoir tampon
 
@@ -732,6 +742,8 @@ Le pouvoir tampon d’une solution correspond à la quantité d’acide ou de ba
 La zone de pH dans lequel le tampon fonctionne s’étend de $pH = pKa \pm 1$.
 
 Selon le pH nécessaire, on devra donc choisir un couple dont le pK~a~ se situe proche du pH, des concentrations en acide et base proches et des concentrations importantes pour augmenter le pouvoir tampon.
+
+\clearpage
 
 ```{r, child=c('exe/acides-bases-390.Rmd')}
 ```
@@ -849,6 +861,8 @@ C_a^{*} = \frac{n_a^{*}}{V_{tot}} \qquad \text{avec } n_a^{*} = n_a - n_b = C_a 
 \end{split}
 $$
 
+\clearpage
+
 ### Titrage d’un acide faible par une base forte
 
 **Exemple**
@@ -919,6 +933,8 @@ $$
 
 La courbe observée lorsque l'on ajoute dans une base faible, petit à petit, un acide fort afin d'en effectuer la courbe de pH découle du même raisonnement que celle de la neutralisation d'un acide faible par une base forte que l'on vient de décrire.
 
+\clearpage
+
 ### Titrage d’une polyacide faible par une base forte
 
 La courbe de pH observée lors du titrage d’un acide faible polyprotique par une base forte marque plusieurs sauts de pH, révelant plusieurs points équivalents, correspondant aux réactions de neutralisation des protons relâchés les uns après les autres.
@@ -937,8 +953,6 @@ $$
 \ce{OH^{-}(aq) + HPO4^{2-}(aq) <=> H2O(l) + PO4^{3-}(aq)}
 $$
 
-\clearpage
-
 Les trois constantes d’acidité de l'acide phosphorique étant suffisamment distinctes, les trois réactions auront lieu de façon successive. Le dernier point équivalent n'est pas observable, K~a3~ étant trop proche du K~e~.
 
 ```{r acides-bases-6d,echo=FALSE,out.width="100%",fig.show="hold",fig.align="center",fig.cap=""}
@@ -946,8 +960,6 @@ knitr::include_graphics(c("images/acides-bases-6d.png"))
 ```
 
 Notons qu'il sera également difficile, dans d'autres cas, d'observer le point équivalent lorsqu’un K~a~ se rapprochera trop du pH de départ ou lorsque 2 K~a~ successifs seront trop proches.
-
-\clearpage
 
 ### Méthode des tangentes
 
@@ -959,18 +971,18 @@ knitr::include_graphics(c("images/acides-bases-7.png"))
 
 Une tangente à la courbe est tirée dans la partie qui observe le début de la modification importante de pH. Une parallèle tangente à la courbe également est tirée dans la zone de fin de modification importante de pH. C'est la parallèle se trouvant à équidistance entre les 2 autres droites qui croisera la courbe au point d'inflexion (qui correspond au point d’équivalence).
 
+\clearpage
+
 ```{r, child=c('exe/acides-bases-400.Rmd')}
 ```
-
-\clearpage
 
 ```{r, child=c('exe/acides-bases-410.Rmd')}
 ```
 
+\clearpage
+
 ```{r, child=c('exe/acides-bases-420.Rmd')}
 ```
-
-\clearpage
 
 ```{r, child=c('exe/acides-bases-430.Rmd')}
 ```
