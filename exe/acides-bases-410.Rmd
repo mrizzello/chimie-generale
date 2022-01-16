@@ -37,7 +37,7 @@ $$
 Neutralisation d'un acide fort par une base forte : pH = 7.
 
 b. $$
-pH = - \log |H3O+| = - \log 0.15 = 0.82
+pH = - \log |\ce{H3O+}| = - \log 0.15 = 0.82
 $$
 
 c. $$

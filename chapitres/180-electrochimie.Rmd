@@ -2,7 +2,17 @@
 
 ::: {.objectives data-latex=""}
 
-- Objectifs
+- Attribuer les nombres d'oxydations aux différents éléments d'un composé.
+- Distinguer une réaction d’oxydoréduction.
+- Décrire les différents termes en lien avec les réactions d’oxydoréduction.
+- Équilibrer les équations d’oxydoréduction.
+- Décrire la constitution et le fonctionnement d'une pile électrochimique.
+- Décrire comment sont définis les potentiels standards de réduction.
+- Définir le potentiel électrique d'une pile.
+- Utiliser les potentiels standards pour prédire la spontanéité d'une réaction.
+- Décrire la constitution et le fonctionnement d'une cellule électrolytique.
+- Prédire la réaction d’électrolyse d'un milieu réactionnel.
+- Utiliser la loi de Faraday pour effectuer des calculs stœchiométriques.
 
 :::
 
@@ -25,11 +35,17 @@ $$
 \ce{ 2 Na(s) + Cl2(g) -> 2 NaCl(s) }
 $$
 
-Dans cette réaction, le sodium solide (Na), qui contient des atomes de sodium neutres, réagit avec le dichlore, formé de molécules diatomiques (Cl~2~) neutres, pour former le solide ionique NaCl, qui contient les ions Na^+^ et Cl^-^. Une telle réaction, dans lesquelles un ou plusieurs électrons sont transférés, est une exemple de réaction d'oxydoréduction.
+Dans cette réaction, le sodium solide (Na), qui contient des atomes de sodium neutres, réagit avec le dichlore, formé de molécules diatomiques (Cl~2~) neutres, pour former le solide ionique NaCl, qui contient les ions Na^+^ et Cl^-^. De même, lorsque le calcium élémentaire réagit avec le dibrome il former le solide ionique CaBr~2~, qui contient les ions Ca^2+^ et Br^-^
+
+$$
+\ce{ Ca(s) + Br2(g) -> CaBr2(s) }
+$$
+
+De telles réactions, dans lesquelles un ou plusieurs électrons sont transférés, sont des exemples de réaction d'oxydoréduction.
 
 ### Le nombre d'oxydation
 
-Comment savoir si l'on est en présence d'une réaction d'oxydoréduction ? Le nombre d'oxydation, ou état d'oxydation, permet de suivre les électrons dans une réaction d'oxydoréduction.
+Comment savoir si l'on est en présence d'une réaction d'oxydoréduction ? Le **nombre d'oxydation**, ou état d'oxydation, permet de suivre les électrons dans une réaction d'oxydoréduction.
 
 ::: {.tcolorbox data-latex=""}
 
@@ -54,6 +70,7 @@ Table: (\#tab:tab-NO-examples) Exemples de nombres d'oxydation.
 |                                             |                                             |                  oxygène: -2                   |                                      |
 |                                             |                                             |                   soufre: +6                   |                                      |
 
+Lorsque l'on observe un composé, il n’y a aucun transfert d’électrons; ceux-ci sont partagés. On peut cependant attribuer arbitrairement des nombres d’oxydation comme si les électrons étaient transférés. 
 
 ### Attribuer les nombres d'oxydation
 
@@ -206,11 +223,11 @@ On note que l'hydrogène, le chlore et l'oxygène ne changent pas d'état d'oxyd
 $$
 \begin{split}
 \ce{Sn -> Sn^{+4} + 4e^−} \quad \text{oxydation} \\
-\ce{N^{+5}(aq) + 1e^− -> N^{+4}} \quad \text{réduction}
+\ce{NO3^- + 1e^− -> NO2(g)} \quad \text{réduction}
 \end{split}
 $$
 
-Chaque atome d'étain va libérer 4 électrons qui seront acceptés chacuns par un atome d'azote. Cela signifie que nous avons besoin d'un coefficient de 4 pour les espèces contenant de l'azote.
+Chaque atome d'étain va libérer 4 électrons qui seront acceptés chacuns par un atome d'azote. Cela signifie qu'il faut multiplier par un coefficient de 4 les espèces contenant de l'azote.
 
 $$
 \ce{H^+(aq) + Cl^-(aq) + Sn(s) + \underline{4}NO3^-(aq) -> SnCl6^{2-} + \underline{4}NO2(g) + H2O(l)}
@@ -227,7 +244,9 @@ Les masses et les électrons échangés sont maintenant équilibrés dans l'équ
 ```{r, child=c('exe/electro-40.Rmd')}
 ```
 
-## Les piles
+## Les piles électrochimique
+
+Dans une pile électrochimique, une réaction d’oxydoréduction spontanée permet de produire de l’électricité. Les demi-réactions ont lieu dans deux compartiments séparés que l'on appelle des demi-piles. Les électrodes de ces demi-piles sont reliées par un fil, et les solutions d’électrolytes, par un pont salin.
 
 Lorsque du zinc métallique est placé dans une solution contenant des ions cuivre (II), le Zn est oxydé en ions Zn^2+^ tandis que les ions Cu^2+^ sont réduits en Cu, ou cuivre métallique. Ceci peut être représenté par l'équatin de réaction suivante :
 
@@ -237,7 +256,9 @@ $$
 
 Des électrons sont transférés dans la réaction Zn/Cu^2+^, mais le système ne génère pas d'énergie électrique car l'oxydant (Cu^2+^) et le réducteur (Zn) se trouvent dans le même bécher. Cependant, si nous séparons physiquement les demi-réactions et les connectons par un circuit externe, les électrons perdus par le zinc produisent un courant électrique lorsqu'ils se déplacent dans le circuit vers les ions cuivre qui les gagnent.
 
-```{r pile-electrique-v2,echo=FALSE,out.width="80%",fig.show="hold",fig.align="center",fig.cap="Schéma simplifié d'une pile Cu/Zn"}
+\clearpage
+
+```{r pile-electrique-v2,echo=FALSE,out.width="90%",fig.show="hold",fig.align="center",fig.cap="Schéma simplifié d'une pile Cu/Zn"}
 knitr::include_graphics(c("images/pile-electrique-v2.png"))
 ```
 
@@ -247,9 +268,11 @@ knitr::include_graphics(c("images/pile-electrique-v2.png"))
 - Une pile est formée par deux demi-piles reliées par un pont salin.
 - Le pont salin permet le passage du courant entre les deux demi-piles en autorisant le déplacement d’ions entre les deux piles.
 
-```{r pile-electrique,echo=FALSE,out.width="80%",fig.show="hold",fig.align="center",fig.cap="Fonctionnement d’une pile Cu/Zn"}
+```{r pile-electrique,echo=FALSE,out.width="90%",fig.show="hold",fig.align="center",fig.cap="Fonctionnement d’une pile Cu/Zn"}
 knitr::include_graphics(c("images/pile-electrique.png"))
 ```
+
+\clearpage
 
 ### Fonctionnement d’une pile
 
@@ -298,7 +321,7 @@ $$
 
 ## Potentiels standards de réduction
 
-Entre l'anode et la cathode, l'intensité de l'attraction exercée sur les électrons est appelée **potentiel électrochimique** (E) ou **force électromotrice** de la pile. L'unité avec laquelle le potentiel électrique est exprimé est le volt [V]. Un des moyens de mesurer ce potentiel électrique est de relier un voltmètre entre les pôles de la pile électrique.
+Entre l'anode et la cathode, l'intensité de l'attraction exercée sur les électrons est appelée **potentiel électrochimique** (E~pile~) ou **force électromotrice** de la pile. L'unité avec laquelle le potentiel électrique est exprimé est le volt [V]. Un des moyens de mesurer ce potentiel électrique est de relier un voltmètre entre les pôles de la pile électrique.
 
 Quelle est la pile qui fournirait le plus d'énergie électrochimique ?
 
@@ -342,7 +365,7 @@ $$
 \end{split}
 $$
 
-On peut ainsi regrouper dans une table les valeurs de potentiel qui correspondent aux demi-réactions de réduction les plus courantes (**table des potentiels standards d’oxydoréduction**).
+On peut ainsi regrouper dans une table les valeurs de potentiel qui correspondent aux demi-réactions de réduction les plus courantes (**table des potentiels standards de réduction**).
 
 ### Potentiel électrochimique ou force électromotrice (fem)
 
@@ -417,7 +440,7 @@ ne sera donc pas spontanée.
 
 ## Électrolyse
 
-Une pile électrochimique produit du courant lorsque la réaction d'oxydoréduction se produit spontanément. À l'inverse, une cellule **électrolytique**, utilise l'énergie électrique pour produire une transformation chimique. L'**électrolyse** consiste à forcer un courant à travers un système chimique pour produire une transformation non spontanée.
+Une pile électrochimique produit du courant lorsque la réaction d'oxydoréduction se produit **spontanément**. À l'inverse, une cellule **électrolytique**, utilise l'énergie électrique pour produire une transformation chimique. L'**électrolyse** consiste à forcer un courant à travers un système chimique pour produire une transformation **non spontanée**.
 
 ```{r pile-recharge,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Pile électrique et cellule électrolytique."}
 knitr::include_graphics(c("images/pile-recharge.png"))
@@ -430,7 +453,7 @@ Dans une cellule électrolytique:
 - L'anode est l'électrode où a lieu l'oxydation.
 - La cathode est l'électrode où a lieu la réduction.
 
-L'électrolyse est une méthode qui permet de provoquer une transformation chimique en faisant passer un courant électrique à travers les réactifs. Elle utilise un courant électrique continu pour provoquer une réaction chimique qui n'est pas spontanée.
+L'électrolyse est une méthode qui permet de provoquer une transformation chimique en faisant passer un courant électrique à travers le milieu réactionnel. Elle utilise un courant électrique continu pour provoquer une réaction chimique qui n'est pas spontanée.
 
 Les principaux composants nécessaires pour réaliser une électrolyse :
 
@@ -438,10 +461,89 @@ Les principaux composants nécessaires pour réaliser une électrolyse :
 - Une alimentation en courant continu pour fournir l'énergie nécessaire à la réaction d'oxydoréduction.
 - Deux électrodes : deux conducteurs électriques qui constituent l'interface physique entre le circuit électrique et l'électrolyte.
 
-### Électrolyse de l'eau pure
+### Exemples d'électrolyses de composés purs
 
-```{r electrolysis-water,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Schéma de l'électrolyse de l'eau pure."}
-knitr::include_graphics(c("images/electrolysis-water.png"))
+```{r electrolysis-water-NaCl,echo=FALSE,out.width="49%",fig.show="hold",fig.align="center",fig.cap="Schéma de l'électrolyse de l'eau pure et du chlorure de sodium fondu."}
+knitr::include_graphics(c("images/electrolysis-water.png","images/electrolysis-NaCl.png"))
+```
+
+L’eau doit également contenir des ions qui la rendent conductrice, même si ces ions ne participent pas aux réactions aux électrodes.
+
+### Prédiction des réactions d’électrolyse
+
+Imaginons que nous faisions l'électrolyse d'une solution de chlorure de sodium dans l'eau. Cette solution serait donc le mélange des deux composés subissant l'électrolyse dans le chapitre précédent. Quelles sont les réactions d'oydoréduction qui vont avoir lieu dans ce système ?
+
+```{r electrolysis-water-NaCl-sol,echo=FALSE,out.width="65%",fig.show="hold",fig.align="center",fig.cap="Schéma de l'électrolyse d'une solution de chlorure de sodium."}
+knitr::include_graphics(c("images/electrolysis-NaCl-sol.png"))
+```
+
+Le milieu réactionnel de ce système est composé d'eau (H~2~O), de cations sodium (Na^+^) et de chlorures (Cl^-^). Quatre demi-réactions sont possibles, deux à l'anode et deux à la cathode.
+
+\clearpage
+
+Anode (oxydation):
+
+|                                           |                                  |
+|:-----------------------------------------:|:---------------------------------|
+|     $\ce{2Cl-(aq) -> Cl2(g) + 2 e^-}$     | $E^0_{\ce{Cl2/Cl-}} = 1.36\ [V]$ |
+| $\ce{2H2O(l) -> 4H+(aq) + O2(g) + 4 e^-}$ | $E^0_{\ce{O2/H2O}} = 1.23\ [V]$  |
+
+Cathode (réduction):
+
+|                                            |                                  |
+|:------------------------------------------:|:---------------------------------|
+| $\ce{2H2O(l) + 2 e^- -> 2OH-(aq) + H2(g)}$ | $E^0_{\ce{H2O/H2}} = -0.83\ [V]$ |
+|       $\ce{Na+(aq) + e^- -> Na(s)}$        | $E^0_{\ce{Na+/Na}} = -2.7\ [V]$  |
+
+Quelle que soit la combinaison de demi-réactions à l'anode et à la cathode, elles donnent toutes une valeur négative de différence de potentiel. Cela signifie simplement que la réaction d’électrolyse ne se produit pas spontanément.
+
+**La réaction la plus probable est celle dont la différence de potentiel est la plus faible.** C'est celle qui va en premier lieu et spontanément consommer l'énergie fournie par la source d’électricité.
+
+```{r electrolysis-potentials,echo=FALSE,out.width="25%",fig.show="hold",fig.align="center",fig.cap="Différences de potentiels redox."}
+knitr::include_graphics(c("images/electrolysis-potentials.png"))
+```
+
+De manière théorique, la réaction d’électrolyse favorisée est celle qui réduit l'eau (E^0^ = - 0,83 V) et qui oxyde l'eau (E^0^ = 1.23 V).
+
+$$
+\ce{6 H2O(l) -> 4 H+(aq) + 4 OH-(aq) + 2 H2(g) + O2(g)}
+$$
+
+Toutefois, de manière pratique, différents facteurs viennent influencer les potentiels standard de réaction : 
+
+- différentes interactions à la surface des électrodes élèvent la tension requise pour l’électrolyse,
+- le fait que les réactifs et les produits ne sont pas forcément dans leur état standard.
+
+Ceci implique que dans l’électrolyse d’une solution de NaCl très diluée, c’est O~2~ qui est produit tandis que, dans une solution plus concentrée, c’est presque exclusivement Cl~2~ qui est produit. La réaction globale est la suivante :
+
+$$
+\ce{2 Cl-(aq) + 2 H2O(l) -> 2 OH-(aq) + H2(g) + Cl2(g)}
+$$
+
+### Loi de Faraday
+
+La quantité de réactif consommé ou de produit formé lors d'une électrolyse dépend de la quantité de charge transférée aux électrodes, laquelle dépend de l’intensité du courant électrique utilisé et du temps requis pour l’électrolyse. L’unité de charge électrique est le coulomb (C) et la charge portée par un électron est de $-1.6022 \cdot 10^{-19}$ [C]. Une mole d'électrons repésentent donc une charge totale de 96'485 [C].
+
+Ces considérations nous permettent de définir une relation mathématique qui nous permet déterminer les quantités de réactif consommé et de produits formés à la fin d'une électrolyse en fonction de différents facteurs (loi de Faraday).
+
+$$
+\begin{split}
+m = \frac{M \cdot I \cdot t}{n \cdot 96500}
+\end{split}
+\qquad\qquad
+\begin{split}
+&\text{avec} \\
+&\text{m : masse de la substance [g]} \\
+&\text{n : nombre d'électrons transférés} \\
+&\text{96500 : constante de Faraday [C/mol]} \\
+&\text{t : temps [s]} \\
+&\text{M : masse molaire de la substance [g/mol}
+\end{split}
+$$
+
+\clearpage
+
+```{r, child=c('exe/electro-60.Rmd')}
 ```
 
 ## Exercices supplémentaires
@@ -451,7 +553,6 @@ knitr::include_graphics(c("images/electrolysis-water.png"))
 
 ```{r, child=c('exe/electro-50.Rmd')}
 ```
-
 
 \newpage
 
