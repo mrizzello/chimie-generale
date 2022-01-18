@@ -93,7 +93,7 @@ $$
 On approxime en négligeant le x : 
 $$
 \begin{split}
-K_b &= \frac{x \cdot \cancel{x}}{0.067 - \cancel{x}} = \frac{x^2}{0.067} = 2.19 \cdot 10^{-11} \\
+K_b &= \frac{x \cdot x}{0.067 - \cancel{x}} = \frac{x^2}{0.067} = 2.19 \cdot 10^{-11} \\
 x &= \sqrt{2.19 \cdot 10^{-11} \cdot 0.067} = 1.21 \cdot 10^{-6}\ [M]
 \end{split}
 $$
