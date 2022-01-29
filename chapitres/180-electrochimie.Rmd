@@ -16,11 +16,11 @@
 
 :::
 
-L'électricité qui alimente en grande partie la société moderne présente de nombreux avantages, mais elle a un sérieux défaut : elle ne peut pas être facilement stockée. L'électricité qui circule dans les lignes électriques est consommée lorsqu'elle est produite, mais pour bien d'autres applications, l'énergie électrique doit être stockée. Dans de tels cas, l'énergie électrique est convertie en énergie chimique, qui peut être stockée et transportée, puis reconvertie en électricité. Les batteries sont les dispositifs les plus utilisés pour stoquer l'énergie électrique sous forme d'énergie chimique. L'électrochimie est le champ d'étude de la chimie qui étudie les relations entre l'électricité et les réactions chimiques.
+L'électricité qui circule dans les lignes électriques est consommée lorsqu'elle est produite, mais pour bien d'autres applications, l'énergie électrique doit être stockée. Dans de tels cas, l'énergie électrique est convertie en énergie chimique, qui peut être stockée et transportée, puis reconvertie en électricité. Les batteries sont les dispositifs les plus utilisés pour stoquer l'énergie électrique sous forme d'énergie chimique. L'électrochimie est le champ d'étude de la chimie qui étudie les relations entre l'électricité et les réactions chimiques.
 
 ## Réactions d'oxydoréduction
 
-Nous avons rencontré deux types de réactions qui peuvent se produire lorsque deux solutions d'électrolytes sont mélangées : la précipitation, dans laquelle deux composés ionique échangent des ions, et la neutralisation acide-base, dans laquelle un proton est transféré d'un acide à une base. Dans ce chapitre, nous nous intéressons aux **réactions d'oxydoréduction (ou réactions redox)**.
+Nous avons rencontré deux types de réactions qui peuvent se produire lorsque deux solutions d'électrolytes sont mélangées : la précipitation, dans laquelle deux composés ionique échangent des ions, et la neutralisation acide-base, dans laquelle un proton est transféré d'un acide à une base. Dans ce chapitre, nous nous intéressons aux **réactions d'oxydoréduction (ou réactions oxred)**.
 
 ::: {.tcolorbox data-latex=""}
 
@@ -32,14 +32,10 @@ Réaction chimique dans laquelle des électrons sont transférés d'un réactif 
 Nous avons vu que de nombreuses substances sont des composés ioniques. Le chlorure de sodium, par exemple, peut être obtenu par la réaction du sodium élémentaire et du dichlore :
 
 $$
-\ce{ 2 Na(s) + Cl2(g) -> 2 NaCl(s) }
+\ce{ 2 Na(s) + Cl2(g) -> 2 NaCl(s) } \qquad \qquad \ce{ Ca(s) + Br2(g) -> CaBr2(s) }
 $$
 
 Dans cette réaction, le sodium solide (Na), qui contient des atomes de sodium neutres, réagit avec le dichlore, formé de molécules diatomiques (Cl~2~) neutres, pour former le solide ionique NaCl, qui contient les ions Na^+^ et Cl^-^. De même, lorsque le calcium élémentaire réagit avec le dibrome il former le solide ionique CaBr~2~, qui contient les ions Ca^2+^ et Br^-^
-
-$$
-\ce{ Ca(s) + Br2(g) -> CaBr2(s) }
-$$
 
 De telles réactions, dans lesquelles un ou plusieurs électrons sont transférés, sont des exemples de réaction d'oxydoréduction.
 
@@ -70,8 +66,6 @@ Table: (\#tab:tab-NO-examples) Exemples de nombres d'oxydation.
 |                                             |                                             |                  oxygène: -2                   |                                      |
 |                                             |                                             |                   soufre: +6                   |                                      |
 
-Lorsque l'on observe un composé, il n’y a aucun transfert d’électrons; ceux-ci sont partagés. On peut cependant attribuer arbitrairement des nombres d’oxydation comme si les électrons étaient transférés. 
-
 ### Attribuer les nombres d'oxydation
 
 L'application d'une série de règles simples permet d'attribuer les états d'oxydation des atomes de la plupart des composés.
@@ -86,9 +80,9 @@ Table: (\#tab:tab-NO-rules) Règles pour l'attribution des nombres d'oxydation.
 | L'**oxygène** a généralement un NO de -2 dans ses composés   | toujours, sauf peroxydes (O~-~)             |    -2    |
 | Le **fluor** a généralement un NO de -1 dans ses composés    | toujours, sauf exception                    |    -1    |
 
-Vous trouverez dans le tableau périodique, les nombres d'oxydation courants pour un élément, avec en gras, les nombres d'oxydation les plus stables.
+Un élément peut porter un nombre d'oxydation différent selon l'espèce chimique dans laquelle il se trouve. Vous trouverez dans le tableau périodique, les nombres d'oxydation courants pour un élément, avec en gras, les nombres d'oxydation les plus stables.
 
-**La somme des nombres d'oxydation de toute espèce chimique doit correspondre à la charge globale de l'espèce.** En d'autres termes, la somme des nombres d'oxydation pour toute molécule doit être égale à zéro et doit être égale à la charge de tout ion polyatomique.
+**La somme des nombres d'oxydation de toute espèce chimique doit correspondre à la charge globale de l'espèce.** En d'autres termes, la somme des nombres d'oxydation pour toute molécule doit être égale à zéro et doit être égale à la charge de l'ion polyatomique.
 
 ```{r, child=c('exe/electro-10.Rmd')}
 ```
@@ -119,8 +113,6 @@ Dans le cas de la combustion du méthane:
 
 ### Définitions de termes
 
-Le contexte étant spécifié, nous pouvons maintenant définir certains termes importants liés aux réactions d'oxydoréduction.
-
 Le transfert d'électrons caractérise les réaction d'oxydoréduction, il y a donc un donneur d'électrons et un accepteur d'électrons. Toute réaction d'oxydoréduction est composée de deux demi-réactions : la demi-réaction d'oxydation et la demi-réaction de réduction.
 
 - L'**oxydation** est une augmentation de l'état d'oxydation (une perte d'électrons).
@@ -129,6 +121,8 @@ Le transfert d'électrons caractérise les réaction d'oxydoréduction, il y a d
 - Le **réducteur** est l'espèce qui provoque la réduction (donneur d'électrons).
 - L'**espèce oxydée** est l'espèce qui subit l'oxydation (donneur d'électrons).
 - L'**espèce réduite** est l'espèce qui subit la réduction (accepteur d'électrons).
+
+\clearpage
 
 Table: (\#tab:tab-NO-summary) Résumé des termes liés à l'oxydoréduction.
 
@@ -165,9 +159,34 @@ $$
 |    donne des éléctrons    |               |  accepte des éléctrons   |
 | état d'oxydation augmente |               | état d'oxydation diminue |
 
+
+```{r, child=c('exe/electro-70.Rmd')}
+```
+
+### Couple oxred
+
+Prenons en exemple deux équations d'oxydoréduction :
+
+$$
+\begin{split}
+\underset{\text{oxydant 1}}{\ce{Cu^{2+}}} + \underset{\text{réducteur 2}}{\ce{Fe}} &\ce{->}
+\underset{\text{réducteur 1}}{\ce{Cu}} + \underset{\text{oxydant 2}}{\ce{Fe^{2+}}} \\
+\underset{\text{oxydant 1}}{\ce{2Ag^{+}}} + \underset{\text{réducteur 2}}{\ce{Cu}} &\ce{->}
+\underset{\text{réducteur 1}}{\ce{2Ag}} + \underset{\text{oxydant 2}}{\ce{Cu^{2+}}}
+\end{split}
+$$
+
+Dans ces réactions, à chaque demi-réaction correspond un réducteur et un oxydant. Ces deux espèces forment ensemble un couple d’oxydoréduction ou **couple oxred**. Un couple est un couple oxred si on peut passer d’une espèce à l’autre par transfert d’électrons.
+
+$$
+  \ce{Cu^{2+}/Cu} \quad\text{ou}\quad \ce{Fe^{2+}/Fe} \quad\text{ou}\quad \ce{Ag^{+}/Ag} \quad\text{ou}\quad \ce{I2/I^{-}} \quad\text{ou}\quad ...
+$$
+
+Par convention, on fait figurer l’oxydant en premier dans le couple oxred.
+
 ## Équilibrer les équations d'oxydoréduction
 
-Précédemment, nous avons vu comment équilibrer des équations de réactions en équilibrant le nombre d'atomes de chaque type des deux côtés de la flèche de l'équation. Pour équilibrer des équations d'oxydoréduction, il est également nécessaire d'équilibrer les électrons transférés.
+Précédemment, nous avons vu comment équilibrer des équations de réactions en équilibrant le nombre d'atomes de chaque type des deux côtés de la flèche de l'équation. Pour équilibrer des équations d'oxydoréduction, il est de plus nécessaire d'équilibrer les électrons transférés.
 
 Prenons par exemple, la réaction entre le chrome métallique et le nickel (II) en solution acqueuse :
 
@@ -184,7 +203,7 @@ $$
 \end{split}
 $$
 
-Lorsque l'on additionne les demi-réactions pour obtenir la réaction globale, le nombre d'électrons donnés doir annuler le nombre d'électrons acceptés. Les électrons donnés par une espèce sont gagnés par l'autre. Ils ne peuvent pas apparaître dans une équation chimique globale. Par conséquent, avant d'additionner ces deux demi-réactions, nous devons multiplier chaque demi-réaction par un facteur qui équilibre le nombre d'électrons échangés.
+Lorsque l'on additionne les demi-réactions pour obtenir la réaction globale, le nombre d'électrons donnés doit être égal au nombre d'électrons acceptés. Par conséquent, avant d'additionner ces deux demi-réactions, nous devons multiplier chaque demi-réaction par un facteur qui équilibre le nombre d'électrons échangés.
 
 $$
 \begin{split}
@@ -222,8 +241,8 @@ On note que l'hydrogène, le chlore et l'oxygène ne changent pas d'état d'oxyd
 
 $$
 \begin{split}
-\ce{Sn -> Sn^{+4} + 4e^−} \quad \text{oxydation} \\
-\ce{NO3^- + 1e^− -> NO2(g)} \quad \text{réduction}
+\ce{Sn} & \ce{-> Sn^{+4} + 4e^−} \quad \text{oxydation} \\
+\ce{NO3^- + 1e^−} & \ce{-> NO2(g)} \quad \text{réduction}
 \end{split}
 $$
 
@@ -256,11 +275,11 @@ $$
 
 Des électrons sont transférés dans la réaction Zn/Cu^2+^, mais le système ne génère pas d'énergie électrique car l'oxydant (Cu^2+^) et le réducteur (Zn) se trouvent dans le même bécher. Cependant, si nous séparons physiquement les demi-réactions et les connectons par un circuit externe, les électrons perdus par le zinc produisent un courant électrique lorsqu'ils se déplacent dans le circuit vers les ions cuivre qui les gagnent.
 
-\clearpage
-
 ```{r pile-electrique-v2,echo=FALSE,out.width="90%",fig.show="hold",fig.align="center",fig.cap="Schéma simplifié d'une pile Cu/Zn"}
 knitr::include_graphics(c("images/pile-electrique-v2.png"))
 ```
+
+\clearpage
 
 ### Constitution d’une pile
 
@@ -357,10 +376,10 @@ Avec un électrode de référence, on peut mesurer le potentiel des autres élec
 
 $$
 \begin{split}
-\ce{Zn(s)}\ │\ \ce{Zn^{2+}(aq)\ 1 [M]}\ |&|\ \ce{H^+(aq)\ 1[M]}\ │\ \ce{H2\ (1 [atm])} |\ \ce{Pt(s)} \quad E^0_{Zn^{2+}/Zn} = -0.76\ [V] \\
-\ce{Ni(s)}\ │\ \ce{Ni^{2+}(aq)\ 1 [M]}\ |&|\ \ce{H^+(aq)\ 1[M]}\ │\ \ce{H2\ (1 [atm])} |\ \ce{Pt(s)} \quad E^0_{Ni^{2+}/Ni} = -0.23\ [V] \\
-\ce{Sn(s)}\ │\ \ce{Sn^{2+}(aq)\ 1 [M]}\ |&|\ \ce{H^+(aq)\ 1[M]}\ │\ \ce{H2\ (1 [atm])} |\ \ce{Pt(s)} \quad E^0_{Sn^{2+}/Sn} = -0.14\ [V] \\
-\ce{Pb(s)}\ │\ \ce{Pb^{2+}(aq)\ 1 [M]}\ |&|\ \ce{H^+(aq)\ 1[M]}\ │\ \ce{H2\ (1 [atm])} |\ \ce{Pt(s)} \quad E^0_{Pb^{2+}/Pb} = -0.13\ [V] \\
+\ce{Zn(s)}\ │\ \ce{Zn^{2+}(aq) 1M}\ |&|\ \ce{H^+(aq) 1M}\ │\ \ce{H2\ (1 [atm])} |\ \ce{Pt(s)} \quad E^0_{Zn^{2+}/Zn} = -0.76\ [V] \\
+\ce{Ni(s)}\ │\ \ce{Ni^{2+}(aq) 1M}\ |&|\ \ce{H^+(aq) 1M}\ │\ \ce{H2\ (1 [atm])} |\ \ce{Pt(s)} \quad E^0_{Ni^{2+}/Ni} = -0.23\ [V] \\
+\ce{Sn(s)}\ │\ \ce{Sn^{2+}(aq) 1M}\ |&|\ \ce{H^+(aq) 1M}\ │\ \ce{H2\ (1 [atm])} |\ \ce{Pt(s)} \quad E^0_{Sn^{2+}/Sn} = -0.14\ [V] \\
+\ce{Pb(s)}\ │\ \ce{Pb^{2+}(aq) 1M}\ |&|\ \ce{H^+(aq) 1M}\ │\ \ce{H2\ (1 [atm])} |\ \ce{Pt(s)} \quad E^0_{Pb^{2+}/Pb} = -0.13\ [V] \\
 & ...
 \end{split}
 $$
@@ -387,23 +406,6 @@ E^0_{pile} &= E^0_{Cu/Cu^{2+}} − E^0_{Zn^{2+}/Zn} \\
 $$
 
 ## Potentiels standards et spontanéité
-
-Prenons en exemple deux équations d'oxydoréduction :
-
-$$
-\begin{split}
-\underset{\text{oxydant 1}}{\ce{Cu^{2+}}} + \underset{\text{réducteur 2}}{\ce{Fe}} &\ce{->}
-\underset{\text{réducteur 1}}{\ce{Cu}} + \underset{\text{oxydant 2}}{\ce{Fe^{2+}}} \\
-\underset{\text{oxydant 1}}{\ce{2Ag^{+}}} + \underset{\text{réducteur 2}}{\ce{Cu}} &\ce{->}
-\underset{\text{réducteur 1}}{\ce{2Ag}} + \underset{\text{oxydant 2}}{\ce{Cu^{2+}}}
-\end{split}
-$$
-
-Dans ces réactions, à chaque demi-réaction correspond un réducteur et un oxydant. Ces deux espèces forment ensemble un couple d’oxydoréduction ou **couple rédox**. Par convention, on fait figurer l’oxydant en premier dans le couple rédox.
-
-$$
-  \ce{Cu^{2+}/Cu} \quad\text{ou}\quad \ce{Fe^{2+}/Fe} \quad\text{ou}\quad \ce{Ag^{+}/Ag} \quad\text{ou}\quad \ce{I2/I^{-}} \quad\text{ou}\quad ...
-$$
 
 - Dans un couple où l'oxydant est fort, le réducteur sera un réducteur faible.
 - Dans un couple où le réducteur est fort, l'oxydant du couple sera un oxydant faible.
@@ -437,6 +439,11 @@ $$
 $$
 
 ne sera donc pas spontanée.
+
+\clearpage
+
+```{r, child=c('exe/electro-80.Rmd')}
+```
 
 ## Électrolyse
 
@@ -499,7 +506,7 @@ Quelle que soit la combinaison de demi-réactions à l'anode et à la cathode, e
 
 **La réaction la plus probable est celle dont la différence de potentiel est la plus faible.** C'est celle qui va en premier lieu et spontanément consommer l'énergie fournie par la source d’électricité.
 
-```{r electrolysis-potentials,echo=FALSE,out.width="25%",fig.show="hold",fig.align="center",fig.cap="Différences de potentiels redox."}
+```{r electrolysis-potentials,echo=FALSE,out.width="25%",fig.show="hold",fig.align="center",fig.cap="Différences de potentiels oxred."}
 knitr::include_graphics(c("images/electrolysis-potentials.png"))
 ```
 
