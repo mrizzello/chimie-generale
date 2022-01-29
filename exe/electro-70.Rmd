@@ -1,0 +1,36 @@
+::: {.Exercise data-latex=""}
+
+Pour chacune des combustions ci-dessous, déterminez l’élément oxydant et l'élément réducteur.
+
+a. $\ce{C + O2 -> CO2}$
+
+b. $\ce{2C + O2 -> 2CO}$
+
+:::
+
+::: {.Answer data-latex=""}
+
+$$
+\begin{split}
+\ce{ \overset{0}{\ce{C}} + \overset{0}{\ce{O2}} -> \overset{+4\ -2}{\ce{CO2}} }
+\end{split}
+\qquad
+\begin{split}
+  &\text{le carbone s'oxyde} \\
+  &\text{l'oxygène se réduit}
+\end{split}
+$$
+
+$$
+\begin{split}
+\ce{ 2\overset{0}{\ce{C}} + \overset{0}{\ce{O2}} -> 2\overset{+2\ -2}{\ce{CO}} }
+\end{split}
+\qquad
+\begin{split}
+  &\text{le carbone s'oxyde} \\
+  &\text{l'oxygène se réduit}
+\end{split}
+$$
+
+
+:::

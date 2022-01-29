@@ -3,17 +3,19 @@
 ::: {.objectives data-latex=""}
 
 - Définir les termes acide et base selon Arrhénius et Brønsted-Lowry.
-- Définir le concept d'acides, bases et leurs conjugués.
+- Définir le concept d’acides, bases et leurs conjugués.
 - Expliquer la notion de forces des acides et des bases en termes de dissociation.
-- Définir la constante d’acidité K~a~ et de basicité K~b~.
-- Expliquer la notion d'autoprotolyse de l’eau et la relation entre |H~3~O^+^| et |OH^-^|.
+- Définir la constante d’acidité K<sub>a</sub> et de basicité K<sub>b</sub>.
+- Expliquer la notion d’autoprotolyse de l’eau et la relation entre |H<sub>3</sub>O<sup>+</sup>| et |OH<sup>-</sup>|.
 - Définir le pH et son échelle.
 - Calculer le pH des acides forts et des bases fortes.
 - Calculer le pH des acides faibles et des bases faibles.
 - Calculer le pH des acides polyprotiques.
-- Définir une solution tampon et calculer son pH.
-- Calculer les différents points d'une coubre de titrage.
-- Extraire les informations du tracé d'une courbe de titrage.
+- Définir ce qu'est une solution tampon.
+- Calculer le pH d'une solution tampon.
+- Effectuer des calculs stœchiométriques sur la base d'une neutralisation donnée.
+- Tracer une courbe de titrage en calculant le pH pour différents volumes de solution titrante ajoutés.
+- Extraire les informations du tracé d’une courbe de titrage.
 
 :::
 
