@@ -3,15 +3,15 @@
 Parmi les réactions suivantes, indiquez lesquelles sont des réactions d'oxydoréduction :
 
 a. $\ce{4 Ag + O2 -> 2 Ag2O}$
-\vspace{1em}
+\vspace{\stretch{1}}
 c. $\ce{HI + CsOH -> CsI + H2O}$
-\vspace{1em}
+\vspace{\stretch{1}}
 d. $\ce{Na3PO4 + FeCl3 -> 3 NaCl + FePO4}$
-\vspace{1em}
+\vspace{\stretch{1}}
 b. $\ce{2 Al + 3 CuSO4 -> Al2(SO4)3 + 3 Cu}$
-\vspace{1em}
+\vspace{\stretch{1}}
 e. $\ce{2 NaHCO3 -> Na2CO3 + H2O + CO2}$
-\vspace{1em}
+\vspace{\stretch{1}}
 
 :::
 

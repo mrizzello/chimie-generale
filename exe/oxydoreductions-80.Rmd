@@ -1,0 +1,21 @@
+::: {.Exercise data-latex=""}
+
+Le cuivre élémentaire se transforme en oxyde de cuivre (II), ou vert de gris, en présence d’oxygène. Donnez les demi-équations de réduction et d’oxydation, identifiez l’oxydant et le réducteur et donnez l’équation globale de la réaction.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+Le cuivre s'oxyde. L'oxygène se réduit.
+
+$$
+\begin{split}
+\ce{Cu^{0} ->} & \ce{Cu^{2+} + 2 e^-} \\
+\ce{O^{0} + 2 e^- ->} & \ce{O^{2-}} \\
+\hline
+\ce{2 Cu + O2 ->} & \ce{2 CuO}
+\end{split}
+$$
+
+:::

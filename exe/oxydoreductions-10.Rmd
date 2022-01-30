@@ -1,0 +1,27 @@
+::: {.Exercise data-latex=""}
+
+Déterminez le nombre d'oxydation de chaque élément des espèces suivantes :
+
+a. $\ce{ZnCl2}$
+\vspace{\stretch{1}}
+b. $\ce{SO3}$
+\vspace{\stretch{1}}
+c. $\ce{HNO3}$
+\vspace{\stretch{1}}
+d. $\ce{Cr2O7^{2-}}$
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+a. $\overset{+2\ -1}{\ce{ZnCl2}}$
+\vspace{1em}
+b. $\overset{+6\ -2}{\ce{SO3}}$
+\vspace{1em}
+c. $\overset{+1\ +5\ -2}{\ce{HNO3}}$
+\vspace{1em}
+d. $\overset{+6\ -2}{\ce{Cr2O7^{2-}}}$
+\vspace{1em}
+
+:::

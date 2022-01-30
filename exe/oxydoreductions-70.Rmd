@@ -1,0 +1,17 @@
+::: {.Exercise data-latex=""}
+
+La réaction entre le magnésium et le dioxygène donne de l’oxyde de magnésium. Écrivez l’équation de cette réaction, identifiez l’oxydant et le réducteur.
+
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+$$
+2 \overset{0}{\ce{Mg}} + \overset{0}{\ce{O2}} \rightarrow 2 \overset{+2\ -2}{\ce{MgO}}
+$$
+
+Le magnésium s'oxyde. L'oxygène se réduit.
+
+:::

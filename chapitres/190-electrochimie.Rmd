@@ -2,10 +2,6 @@
 
 ::: {.objectives data-latex=""}
 
-- Attribuer les nombres d'oxydations aux différents éléments d'un composé.
-- Distinguer une réaction d’oxydoréduction.
-- Décrire les différents termes en lien avec les réactions d’oxydoréduction.
-- Équilibrer les équations d’oxydoréduction.
 - Décrire la constitution et le fonctionnement d'une pile électrochimique.
 - Décrire comment sont définis les potentiels standards de réduction.
 - Définir le potentiel électrique d'une pile.
@@ -17,251 +13,6 @@
 :::
 
 L'électricité qui circule dans les lignes électriques est consommée lorsqu'elle est produite, mais pour bien d'autres applications, l'énergie électrique doit être stockée. Dans de tels cas, l'énergie électrique est convertie en énergie chimique, qui peut être stockée et transportée, puis reconvertie en électricité. Les batteries sont les dispositifs les plus utilisés pour stoquer l'énergie électrique sous forme d'énergie chimique. L'électrochimie est le champ d'étude de la chimie qui étudie les relations entre l'électricité et les réactions chimiques.
-
-## Réactions d'oxydoréduction
-
-Nous avons rencontré deux types de réactions qui peuvent se produire lorsque deux solutions d'électrolytes sont mélangées : la précipitation, dans laquelle deux composés ionique échangent des ions, et la neutralisation acide-base, dans laquelle un proton est transféré d'un acide à une base. Dans ce chapitre, nous nous intéressons aux **réactions d'oxydoréduction (ou réactions oxred)**.
-
-::: {.tcolorbox data-latex=""}
-
-**Réaction d'oxydoréduction**  
-Réaction chimique dans laquelle des électrons sont transférés d'un réactif à un autre.
-
-:::
-
-Nous avons vu que de nombreuses substances sont des composés ioniques. Le chlorure de sodium, par exemple, peut être obtenu par la réaction du sodium élémentaire et du dichlore :
-
-$$
-\ce{ 2 Na(s) + Cl2(g) -> 2 NaCl(s) } \qquad \qquad \ce{ Ca(s) + Br2(g) -> CaBr2(s) }
-$$
-
-Dans cette réaction, le sodium solide (Na), qui contient des atomes de sodium neutres, réagit avec le dichlore, formé de molécules diatomiques (Cl~2~) neutres, pour former le solide ionique NaCl, qui contient les ions Na^+^ et Cl^-^. De même, lorsque le calcium élémentaire réagit avec le dibrome il former le solide ionique CaBr~2~, qui contient les ions Ca^2+^ et Br^-^
-
-De telles réactions, dans lesquelles un ou plusieurs électrons sont transférés, sont des exemples de réaction d'oxydoréduction.
-
-### Le nombre d'oxydation
-
-Comment savoir si l'on est en présence d'une réaction d'oxydoréduction ? Le **nombre d'oxydation**, ou état d'oxydation, permet de suivre les électrons dans une réaction d'oxydoréduction.
-
-::: {.tcolorbox data-latex=""}
-
-**Nombre d'oxydation**  
-Le nombre d'oxydation est la **charge électrique fictive** qu'aurait un atome si les électrons de liaison étaient attribués à l'atome le plus électronégatif.
-<!--Le nombre d'oxydation est la charge qu'aurait un atome si les liaisons qu'il forme étaient toutes ioniques.-->
-
-:::
-
-Le nombre d'oxydation représente le nombre d'électrons que possède un atome dans un composé. Les nombres d'oxydation sont représentés par des nombres entiers, qui peuvent être positifs, négatifs ou nuls. Dans certains cas, l'état d'oxydation peut être une fraction, car il résulte d'une moyenne.
-
-Prenons par exemple les composés covalents suivants :
-
-Table: (\#tab:tab-NO-examples) Exemples de nombres d'oxydation.
-
-|                                             |                                             |                                                |                                      |
-|:-------------------------------------------:|:-------------------------------------------:|:----------------------------------------------:|:------------------------------------:|
-|                 $\ce{H2O}$                  |                 $\ce{CO2}$                  |                 $\ce{NaHSO4}$                  |              $\ce{CH4}$              |
-| ![](images/mol2D/H2O-charge.png){width=6em} | ![](images/mol2D/CO2-charge.png){width=6em} | ![](images/mol2D/NaHSO4-charge.png){width=8em} | ![](images/mol2D/CH4.jpg){width=4em} |
-|                 oxygène: -2                 |                 oxygène: -2                 |                   sodium: +1                   |            hydrogène: +1             |
-|                hydrogène: +1                |                 carbone: +4                 |                 hydrogène: +1                  |             carbone: -4              |
-|                                             |                                             |                  oxygène: -2                   |                                      |
-|                                             |                                             |                   soufre: +6                   |                                      |
-
-### Attribuer les nombres d'oxydation
-
-L'application d'une série de règles simples permet d'attribuer les états d'oxydation des atomes de la plupart des composés.
-
-Table: (\#tab:tab-NO-rules) Règles pour l'attribution des nombres d'oxydation.
-
-| Règle                                                        | Exemple                                     |    NO    |
-|:-------------------------------------------------------------|:--------------------------------------------|:--------:|
-| Un atome l'état élémentaire a un nombre d'oxydation de 0.    | $\ce{Na}$, $\ce{Fe}$, $\ce{O2}$, $\ce{Cl2}$ |    0     |
-| Un ion monatomique a un nombre d'oxydation égal à sa charge. | $\ce{Na+}$, $\ce{Ca^{2+}}$, $\ce{Al^{3+}}$  | +1,+2,+3 |
-| L'**hydrogène** a généralement un NO de +1 dans ses composés | toujours, sauf hydrures (H~-~)              |    +1    |
-| L'**oxygène** a généralement un NO de -2 dans ses composés   | toujours, sauf peroxydes (O~-~)             |    -2    |
-| Le **fluor** a généralement un NO de -1 dans ses composés    | toujours, sauf exception                    |    -1    |
-
-Un élément peut porter un nombre d'oxydation différent selon l'espèce chimique dans laquelle il se trouve. Vous trouverez dans le tableau périodique, les nombres d'oxydation courants pour un élément, avec en gras, les nombres d'oxydation les plus stables.
-
-**La somme des nombres d'oxydation de toute espèce chimique doit correspondre à la charge globale de l'espèce.** En d'autres termes, la somme des nombres d'oxydation pour toute molécule doit être égale à zéro et doit être égale à la charge de l'ion polyatomique.
-
-```{r, child=c('exe/electro-10.Rmd')}
-```
-
-### Distinguer une réaction d'oxydoréduction
-
-**Une réaction d'oxydoréduction est caractérisée par un transfert d'électrons**. Dans certains cas, le transfert se fait au sens propre pour former des ions, comme dans la réaction :
-
-$$
-2\overset{0}{\ce{Na}}(s) + \overset{0}{\ce{Cl2}}(g) \ce{->} 2\overset{+1\ -1}{\ce{NaCl}}(s)
-$$
-
-Cependant, le transfert d'électrons est parfois moins évident. Prenons, par exemple, la réaction de combinaison de méthane.
-
-$$
-\overset{-4\ +1}{\ce{CH4}}(g) + 2\overset{0}{\ce{O2}}(g) \ce{->} \overset{+4\ -2}{\ce{CO2}}(g) + 2\overset{+1\ -2}{\ce{H2O}}(g)
-$$
-
-**Le nombre d'oxydation est un moyen pratique de mettre en évidence les transferts électrons** dans les réactions d'oxydoréduction. Au sein d'une substance, on définit le nombre d'oxydation de chaque atome qui nous indique si l'atome est neutre, riche ou pauvre en électrons. En comparant le nombre d'oxydation d'un atome avant et après une réaction, on peut déterminer si l'atome a gagné ou perdu des électrons et donc, si on est en présence d'une réaction d'oxydoréduction.
-
-Dans le cas de la combustion du méthane:
-
-- Le carbone est passé de l'état d'oxydation **-4** à l'état d'oxydation **+4**, il y a eu une perte d'électrons.
-- L'oxygène est passé de l'état d'oxydation **0** à l'état d'oxydation **-2**, il y a eu un gain d'électrons.
-
-```{r, child=c('exe/electro-30.Rmd')}
-```
-
-### Définitions de termes
-
-Le transfert d'électrons caractérise les réaction d'oxydoréduction, il y a donc un donneur d'électrons et un accepteur d'électrons. Toute réaction d'oxydoréduction est composée de deux demi-réactions : la demi-réaction d'oxydation et la demi-réaction de réduction.
-
-- L'**oxydation** est une augmentation de l'état d'oxydation (une perte d'électrons).
-- La **réduction** est une diminution de l'état d'oxydation (un gain d'électrons).
-- L'**oxydant** est l'espèce qui provoque l'oxydation (accepteur d'électrons).
-- Le **réducteur** est l'espèce qui provoque la réduction (donneur d'électrons).
-- L'**espèce oxydée** est l'espèce qui subit l'oxydation (donneur d'électrons).
-- L'**espèce réduite** est l'espèce qui subit la réduction (accepteur d'électrons).
-
-\clearpage
-
-Table: (\#tab:tab-NO-summary) Résumé des termes liés à l'oxydoréduction.
-
-|                           |               |                          |
-|:-------------------------:|:-------------:|:------------------------:|
-|         réducteur         | $\Rightarrow$ |         oxydant          |
-|       espèce oxydée       |               |      espèce réduite      |
-|    donne des éléctrons    |               |  accepte des éléctrons   |
-| état d'oxydation augmente |               | état d'oxydation diminue |
-
-Notez que lorsqu'on nomme l'oxydant ou le réducteur, c'est le composé entier qui est spécifié, et pas seulement l'élément qui subit le changement d'état d'oxydation.
-
-Dans les exemples vu précédemment: 
-
-$$
-2\overset{0}{\ce{Na}}(s) + \overset{0}{\ce{Cl2}}(g) \ce{->} 2\overset{+1\ -1}{\ce{NaCl}}(s)
-$$
-
-|            Na             |               |          Cl~2~           |
-|:-------------------------:|:-------------:|:------------------------:|
-|         réducteur         | $\Rightarrow$ |         oxydant          |
-|       espèce oxydée       |               |      espèce réduite      |
-|    donne des éléctrons    |               |  accepte des éléctrons   |
-| état d'oxydation augmente |               | état d'oxydation diminue |
-
-$$
-\overset{-4\ +1}{\ce{CH4}}(g) + 2\overset{0}{\ce{O2}}(g) \ce{->} \overset{+4\ -2}{\ce{CO2}}(g) + 2\overset{+1\ -2}{\ce{H2O}}(g)
-$$
-
-|           CH~4~           |               |           O~2~           |
-|:-------------------------:|:-------------:|:------------------------:|
-|         réducteur         | $\Rightarrow$ |         oxydant          |
-|       espèce oxydée       |               |      espèce réduite      |
-|    donne des éléctrons    |               |  accepte des éléctrons   |
-| état d'oxydation augmente |               | état d'oxydation diminue |
-
-
-```{r, child=c('exe/electro-70.Rmd')}
-```
-
-### Couple oxred
-
-Prenons en exemple deux équations d'oxydoréduction :
-
-$$
-\begin{split}
-\underset{\text{oxydant 1}}{\ce{Cu^{2+}}} + \underset{\text{réducteur 2}}{\ce{Fe}} &\ce{->}
-\underset{\text{réducteur 1}}{\ce{Cu}} + \underset{\text{oxydant 2}}{\ce{Fe^{2+}}} \\
-\underset{\text{oxydant 1}}{\ce{2Ag^{+}}} + \underset{\text{réducteur 2}}{\ce{Cu}} &\ce{->}
-\underset{\text{réducteur 1}}{\ce{2Ag}} + \underset{\text{oxydant 2}}{\ce{Cu^{2+}}}
-\end{split}
-$$
-
-Dans ces réactions, à chaque demi-réaction correspond un réducteur et un oxydant. Ces deux espèces forment ensemble un couple d’oxydoréduction ou **couple oxred**. Un couple est un couple oxred si on peut passer d’une espèce à l’autre par transfert d’électrons.
-
-$$
-  \ce{Cu^{2+}/Cu} \quad\text{ou}\quad \ce{Fe^{2+}/Fe} \quad\text{ou}\quad \ce{Ag^{+}/Ag} \quad\text{ou}\quad \ce{I2/I^{-}} \quad\text{ou}\quad ...
-$$
-
-Par convention, on fait figurer l’oxydant en premier dans le couple oxred.
-
-## Équilibrer les équations d'oxydoréduction
-
-Précédemment, nous avons vu comment équilibrer des équations de réactions en équilibrant le nombre d'atomes de chaque type des deux côtés de la flèche de l'équation. Pour équilibrer des équations d'oxydoréduction, il est de plus nécessaire d'équilibrer les électrons transférés.
-
-Prenons par exemple, la réaction entre le chrome métallique et le nickel (II) en solution acqueuse :
-
-$$
-\ce{Cr(s) + Ni^{+2}(aq) -> Cr^{+3}(aq) + Ni(s)}
-$$
-
-Bien que cette équation comporte un nombre égal de chaque atome des deux côtés, elle n'est pas équilibrée car il y a une charge de +2 du côté du réactif et une charge de +3 du côté du produit. Pour équilibrer cette équation, nous pouvons la séparer en deux demi-réactions.
-
-$$
-\begin{split}
-\ce{Cr(s) -> Cr^{+3}(aq) + 3e^−} \quad \text{oxydation} \\
-\ce{Ni^{+2}(aq) + 2e^− -> Ni(s)} \quad \text{réduction}
-\end{split}
-$$
-
-Lorsque l'on additionne les demi-réactions pour obtenir la réaction globale, le nombre d'électrons donnés doit être égal au nombre d'électrons acceptés. Par conséquent, avant d'additionner ces deux demi-réactions, nous devons multiplier chaque demi-réaction par un facteur qui équilibre le nombre d'électrons échangés.
-
-$$
-\begin{split}
-2 \times [\ce{Cr(s) -> Cr^{+3}(aq) + 3e^−}] \\
-3 \times [\ce{Ni^{+2}(aq) + 2e^− -> Ni(s)}]
-\end{split}
-$$
-
-On peut ensuite additionner les demi-réactions, pour obtenir l'équation globale équilibrée.
-
-$$
-\begin{split}
-\ce{2\ Cr(s)}&\ce{ -> 2\ Cr^{+3}(aq) + 6e^−} \\
-\ce{3\ Ni^{+2}(aq) + 6e^−}&\ce{ -> 3\ Ni(s)} \\
-\hline
-\ce{2\ Cr(s) + 3\ Ni^{+2}(aq)}&\ce{ -> 2\ Cr^{+3}(aq) + 3\ Ni(s)}
-\end{split}
-$$
-
-De cette manière, l'équation de la réaction est équilibrée en considérant les masses aussi bien que les électrons échangés.
-
-Considérons maintenant une réaction plus complexe :
-
-$$
-\ce{H^+(aq) + Cl^-(aq) + Sn(s) + NO3^-(aq) -> SnCl6^{2-} + NO2(g) + H2O(l)}
-$$
-
-Pour équilibrer cette équation, nous devons d'abord attribuer les états d'oxydation à chaque atome des réactifs et des produits.
-
-$$
-\overset{+1}{\ce{H^+}} + \overset{-1}{\ce{Cl^-}} + \overset{0}{\ce{Sn}} + \overset{+5\ -2}{\ce{NO3-}} \ce{->} \overset{+4\ -1}{\ce{SnCl6^{2-}}} + \overset{+4\ -2}{\ce{NO2}} + \overset{+1\ -2}{\ce{H2O}}
-$$
-
-On note que l'hydrogène, le chlore et l'oxygène ne changent pas d'état d'oxydation, ils ne sont donc pas impliqués dans l'échange d'électrons. Concentrons donc notre attention sur Sn et N :
-
-$$
-\begin{split}
-\ce{Sn} & \ce{-> Sn^{+4} + 4e^−} \quad \text{oxydation} \\
-\ce{NO3^- + 1e^−} & \ce{-> NO2(g)} \quad \text{réduction}
-\end{split}
-$$
-
-Chaque atome d'étain va libérer 4 électrons qui seront acceptés chacuns par un atome d'azote. Cela signifie qu'il faut multiplier par un coefficient de 4 les espèces contenant de l'azote.
-
-$$
-\ce{H^+(aq) + Cl^-(aq) + Sn(s) + \underline{4}NO3^-(aq) -> SnCl6^{2-} + \underline{4}NO2(g) + H2O(l)}
-$$
-
-On peut ensuite équilibrer le chlore, l'oxygène et l'hydrogène : 
-
-$$
-8\ce{H^+(aq) + 6Cl^-(aq) + Sn(s) + 4NO3^-(aq) -> SnCl6^{2-} + 4NO2(g) + 4H2O(l)}
-$$
-
-Les masses et les électrons échangés sont maintenant équilibrés dans l'équation de la réaction.
-
-```{r, child=c('exe/electro-40.Rmd')}
-```
 
 ## Les piles électrochimique
 
@@ -279,8 +30,6 @@ Des électrons sont transférés dans la réaction Zn/Cu^2+^, mais le système n
 knitr::include_graphics(c("images/pile-electrique-v2.png"))
 ```
 
-\clearpage
-
 ### Constitution d’une pile
 
 - Une plaque d’un métal M, appelée électrode, plongeant dans une solution contenant des cations M^n+^ constitue une demi-pile.
@@ -290,7 +39,6 @@ knitr::include_graphics(c("images/pile-electrique-v2.png"))
 ```{r pile-electrique,echo=FALSE,out.width="90%",fig.show="hold",fig.align="center",fig.cap="Fonctionnement d’une pile Cu/Zn"}
 knitr::include_graphics(c("images/pile-electrique.png"))
 ```
-
 \clearpage
 
 ### Fonctionnement d’une pile
@@ -323,6 +71,8 @@ Le fil électrique et le pont salin complètent le circuit :
 - Les anions se déplacent de droite à gauche à travers le pont salin.
 - Les cations se déplacent de gauche à droite à travers le pont salin.
 - **Le sens du courant est l'inverse du sens de déplacement des électrons.**
+
+\clearpage
 
 ### Notation simplifiée d'une pile
 
@@ -442,7 +192,7 @@ ne sera donc pas spontanée.
 
 \clearpage
 
-```{r, child=c('exe/electro-80.Rmd')}
+```{r, child=c('exe/electro-10.Rmd')}
 ```
 
 ## Électrolyse
@@ -468,6 +218,8 @@ Les principaux composants nécessaires pour réaliser une électrolyse :
 - Une alimentation en courant continu pour fournir l'énergie nécessaire à la réaction d'oxydoréduction.
 - Deux électrodes : deux conducteurs électriques qui constituent l'interface physique entre le circuit électrique et l'électrolyte.
 
+\clearpage
+
 ### Exemples d'électrolyses de composés purs
 
 ```{r electrolysis-water-NaCl,echo=FALSE,out.width="49%",fig.show="hold",fig.align="center",fig.cap="Schéma de l'électrolyse de l'eau pure et du chlorure de sodium fondu."}
@@ -486,14 +238,14 @@ knitr::include_graphics(c("images/electrolysis-NaCl-sol.png"))
 
 Le milieu réactionnel de ce système est composé d'eau (H~2~O), de cations sodium (Na^+^) et de chlorures (Cl^-^). Quatre demi-réactions sont possibles, deux à l'anode et deux à la cathode.
 
-\clearpage
-
 Anode (oxydation):
 
 |                                           |                                  |
 |:-----------------------------------------:|:---------------------------------|
 |     $\ce{2Cl-(aq) -> Cl2(g) + 2 e^-}$     | $E^0_{\ce{Cl2/Cl-}} = 1.36\ [V]$ |
 | $\ce{2H2O(l) -> 4H+(aq) + O2(g) + 4 e^-}$ | $E^0_{\ce{O2/H2O}} = 1.23\ [V]$  |
+
+\clearpage
 
 Cathode (réduction):
 
@@ -527,6 +279,8 @@ $$
 \ce{2 Cl-(aq) + 2 H2O(l) -> 2 OH-(aq) + H2(g) + Cl2(g)}
 $$
 
+\clearpage
+
 ### Loi de Faraday
 
 La quantité de réactif consommé ou de produit formé lors d'une électrolyse dépend de la quantité de charge transférée aux électrodes, laquelle dépend de l’intensité du courant électrique utilisé et du temps requis pour l’électrolyse. L’unité de charge électrique est le coulomb (C) et la charge portée par un électron est de $-1.6022 \cdot 10^{-19}$ [C]. Une mole d'électrons repésentent donc une charge totale de 96'485 [C].
@@ -548,18 +302,12 @@ m = \frac{M \cdot I \cdot t}{n \cdot 96500}
 \end{split}
 $$
 
-\clearpage
-
-```{r, child=c('exe/electro-60.Rmd')}
-```
-
-## Exercices supplémentaires
-
 ```{r, child=c('exe/electro-20.Rmd')}
 ```
 
-```{r, child=c('exe/electro-50.Rmd')}
-```
+\clearpage
+
+## Exercices supplémentaires
 
 \newpage
 

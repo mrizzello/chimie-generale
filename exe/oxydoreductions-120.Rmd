@@ -1,0 +1,29 @@
+::: {.Exercise data-latex=""}
+
+Équilibrez les équations et identifiez dans chaque cas l’oxydant et le réducteur :
+
+a. $\ce{ KI + NaClO + H2O -> I2 + NaCl + KOH }$
+\vspace{\stretch{1}}
+b. $\ce{ Sn + HNO3 -> SnO2 + NO2 + H2O }$
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+a. $$
+\begin{split}
+& \ce{2 KI + NaClO + H2O -> I2 + NaCl + 2 KOH} \\
+& \ce{ 2 I^{-1} -> 2 I^{0} + 2 e^-} \quad \text{(oxidation, \ce{KI} est réducteur)} \\
+& \ce{ Cl^{+1} + 2 e^- -> Cl^{-1}} \quad \text{(réduction, \ce{NaClO} est oxydant)}
+\end{split}
+$$
+b. $$
+\begin{split}
+& \ce{ Sn + 4 HNO3 -> SnO2 + 4 NO2 + 2 H2O } \\
+& \ce{ Sn^{0} -> Sn^{+4} + 4 e^-} \quad \text{(oxidation, \ce{Sn} est réducteur)} \\
+& \ce{ 4 N^{+5} + 4 e^- -> 4 N^{+4}} \quad \text{(réduction, \ce{HNO3} est oxydant)}
+\end{split}
+$$  
+
+:::
