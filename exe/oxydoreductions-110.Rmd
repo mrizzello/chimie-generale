@@ -1,0 +1,17 @@
+::: {.Exercise data-latex=""}
+
+Le fer qui se transforme en rouille en présence d’oxygène forme notamment de l’oxyde de fer (III). Donnez les demi-équations de réduction et d’oxydation, identifiez l’oxydant et le réducteur et donnez l’équation globale de la réaction.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+$$
+\begin{split}
+& \ce{4 Fe + 3 O2 -> 3 Fe2O3} \\
+& \ce{ 4 Fe^{0} -> 4 Fe^{+3} + 12 e^-} \quad \text{(oxidation, \ce{Fe} est réducteur)} \\
+& \ce{ 6 O^{0} + 12 e^- -> 6 O^{-2}} \quad \text{(réduction, \ce{O2} est oxydant)}
+\end{split}
+$$  
+
+:::

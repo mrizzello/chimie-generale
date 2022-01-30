@@ -1,0 +1,22 @@
+::: {.Exercise data-latex=""}
+
+Équilibrez l’équation et identifiez l’oxydant et le réducteur :
+
+$$
+\ce{Cu2O -> Cu + CuO}
+$$
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+$$
+\begin{split}
+& \ce{Cu2O -> Cu + CuO} \\
+& \ce{ Cu^{+1} -> Cu^{+2} + 1 e^-} \quad \text{(oxidation, \ce{Cu2O} est réducteur)} \\
+& \ce{ Cu^{+1} + 1 e^- -> Cu^{0}} \quad \text{(réduction, \ce{Cu2O} est oxydant)}
+\end{split}
+$$
+
+:::
