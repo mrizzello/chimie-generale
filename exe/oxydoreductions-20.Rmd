@@ -2,29 +2,59 @@
 
 Parmi les réactions suivantes, indiquez lesquelles sont des réactions d'oxydoréduction :
 
-a. $\ce{4 Ag + O2 -> 2 Ag2O}$
+a. $$
+\ce{4 Ag + O2 -> 2 Ag2O}
+$$
 \vspace{\stretch{1}}
-c. $\ce{HI + CsOH -> CsI + H2O}$
+c. $$
+\ce{HI + CsOH -> CsI + H2O}
+$$
 \vspace{\stretch{1}}
-d. $\ce{Na3PO4 + FeCl3 -> 3 NaCl + FePO4}$
+d. $$
+\ce{Na3PO4 + FeCl3 -> 3 NaCl + FePO4}
+$$
 \vspace{\stretch{1}}
-b. $\ce{2 Al + 3 CuSO4 -> Al2(SO4)3 + 3 Cu}$
+b. $$
+\ce{2 Al + 3 CuSO4 -> Al2(SO4)3 + 3 Cu}
+$$
 \vspace{\stretch{1}}
-e. $\ce{2 NaHCO3 -> Na2CO3 + H2O + CO2}$
+e. $$
+\ce{2 NaHCO3 -> Na2CO3 + H2O + CO2}
+$$
 \vspace{\stretch{1}}
 
 :::
 
 ::: {.Answer data-latex=""}
 
-a. $\ce{4 Ag + O2 -> 2 Ag2O}$ **oxydoréduction**  
-$\ce{Ag -> Ag^+ + 1e^-}$  
-$\ce{O + 2e^- -> O^{-2}}$
-b. $\ce{HI + CsOH -> CsI + H2O}$ neutralisation
-c. $\ce{Na3PO4 + FeCl3 -> 3 NaCl + FePO4}$ précipitation
-d. $\ce{2 Al + 3 CuSO4 -> Al2(SO4)3 + 3 Cu}$ **oxydoréduction**  
-$\ce{Al -> Al^{3+} + 3e^-}$  
-$\ce{Cu^{2+} + 2e^- -> Cu}$
-e. $\ce{2 NaHCO3 -> Na2CO3 + H2O + CO2}$ décomposition
+a. $$
+\begin{split}
+& \ce{4 Ag + O2 -> 2 Ag2O} \quad \text{oxydoréduction} \\
+& \ce{Ag -> Ag^+ + 1e^-} \\
+& \ce{O + 2e^- -> O^{-2}}
+\end{split}
+$$
+b. $$
+\begin{split}
+\ce{HI + CsOH -> CsI + H2O} \quad \text{neutralisation}
+\end{split}
+$$
+c. $$
+\begin{split}
+\ce{Na3PO4 + FeCl3 -> 3 NaCl + FePO4} \quad \text{précipitation}
+\end{split}
+$$
+d. $$
+\begin{split}
+& \ce{2 Al + 3 CuSO4 -> Al2(SO4)3 + 3 Cu} \quad \text{oxydoréduction} \\
+& \ce{Al -> Al^{3+} + 3e^-} \\
+& \ce{Cu^{2+} + 2e^- -> Cu}
+\end{split}
+$$
+e. $$
+\begin{split}
+& \ce{2 NaHCO3 -> Na2CO3 + H2O + CO2} \quad \text{décomposition}
+\end{split}
+$$
 
 :::

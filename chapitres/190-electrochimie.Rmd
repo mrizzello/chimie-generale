@@ -155,43 +155,6 @@ E^0_{pile} &= E^0_{Cu/Cu^{2+}} − E^0_{Zn^{2+}/Zn} \\
 \end{split}
 $$
 
-## Potentiels standards et spontanéité
-
-- Dans un couple où l'oxydant est fort, le réducteur sera un réducteur faible.
-- Dans un couple où le réducteur est fort, l'oxydant du couple sera un oxydant faible.
-- Un couple fortement oxydant est un couple faiblement réducteur et inversement.
-
-**La réaction rédox qui se produit spontanément est celle qui transforme l’oxydant et le réducteur les plus forts en réducteur et oxydant les plus faibles.**
-
-Exemple :
-
-$$
-\ce{Zn(s) + Cu^{2+}(aq) -> Zn^{2+}(aq) + Cu(s)}
-$$
-
-- $\ce{Cu^{2+}}$ est un oxydant plus fort que $\ce{Zn^{2+}}$.
-- $\ce{Zn}$ est un réducteur le plus fort que $\ce{Zn}$.
-
-### Règle du gamma
-
-Cette règle du gamma permet, dès lors que l’on dispose des espèces présentes avant réaction ainsi que leurs potentiels standards, de prévoir si la réaction va avoir lieu de manière spontanée.
-
-```{r gamma-rule,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Illustration de la règle du gamma."}
-knitr::include_graphics(c("images/gamma-rule.png"))
-```
-
-En plaçant les couples sur une échelle par potentiel décroissant, l'oxydant le plus fort (Cu^2+^) réagira avec le réducteur le plus fort (Zn) pour donner le réducteur et l'oxydant les plus faibles (respectivement, Cu et Zn^2+^) :
-
-La réaction :
-
-$$
-\ce{Zn^{2+}(aq) + Cu(s) -> Zn(s) + Cu^{2+}(aq)}
-$$
-
-ne sera donc pas spontanée.
-
-\clearpage
-
 ```{r, child=c('exe/electro-10.Rmd')}
 ```
 

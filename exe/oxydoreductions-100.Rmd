@@ -13,8 +13,8 @@ $$
 $$
 \begin{split}
 & 3 \overset{0}{\ce{Cu}} + 8 \overset{+5}{\ce{HNO3}} \rightarrow 3 \overset{+2\ +5\ }{\ce{Cu(NO3)2}} + 2 \overset{+2\ }{\ce{NO}} + 4 H2O \\
-& \ce{ 3 Cu^{0} -> 3 Cu^{+2} + 6 e^-} \quad \text{(oxidation, \ce{Cu} est réducteur)} \\
-& \ce{ 2 N^{+5} + 6 e^- -> 2 N^{+2}} \quad \text{(réduction, \ce{HNO3} est oxydant)}
+& \ce{ 3 Cu^{0} -> 3 Cu^{+2} + 6 e^-} \quad \text{(oxidation, $\ce{Cu}$ est réducteur)} \\
+& \ce{ 2 N^{+5} + 6 e^- -> 2 N^{+2}} \quad \text{(réduction, $\ce{HNO3}$ est oxydant)}
 \end{split}
 $$  
 

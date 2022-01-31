@@ -2,28 +2,47 @@ p.caption {
   color: #777;
   margin-top: 10px;
 }
+
 p code {
   white-space: inherit;
 }
+
 pre {
   word-break: normal;
   word-wrap: normal;
 }
+
 pre code {
   white-space: inherit;
 }
 
-.figure, .center{
+.figure, .center {
   text-align: center;
 }
 
-p.caption, table caption{
+p.caption, table caption {
   font-style: italic;
   font-weight: bold;
   color: #777;
 }
 
-.credit{
+table,
+.book .book-body .page-wrapper .page-inner section.normal table {
+  display: block;
+  margin: 0 auto 2rem;
+  width: fit-content;
+}
+
+.math.display {
+  display: block;
+  overflow-x: auto;
+}
+
+.math.inline {
+  overflow-x: auto;
+}
+
+.credit {
   text-align: center;
   font-size: 0.8em;
   font-style: italic;
@@ -53,7 +72,7 @@ p.caption, table caption{
   background-color: #fafafa;
 }
 
-.Answer-button{
+.Answer-button {
   color: #333;
   border: 1px solid #333;
   border-radius: 0.67rem;

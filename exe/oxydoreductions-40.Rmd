@@ -3,25 +3,45 @@
 Équilibrez les électrons échangés et les masses de chacune des équations chimiques suivantes en mettant en évidence le transfert d'électrons.
 
 
-a. __ $\ce{CH4}$ + __ $\ce{O2}$ $\ce{->}$ __ $\ce{CO2}$ + __ $\ce{H2O}$
+a. $$
+\underline{\hspace{2em}} \ce{CH4} + \underline{\hspace{2em}} \ce{O2} \ce{->} \underline{\hspace{2em}} \ce{CO2} + \underline{\hspace{2em}} \ce{H2O}
+$$
 \vspace{1em}
-b. __ $\ce{Ag}$ + __ $\ce{O2}$ $\ce{->}$ __ $\ce{Ag2O}$
+b. $$
+\underline{\hspace{2em}} \ce{Ag} + \underline{\hspace{2em}} \ce{O2} \ce{->} \underline{\hspace{2em}} \ce{Ag2O}
+$$
 \vspace{1em}
-c. __ $\ce{H3PO4}$ $\ce{->}$ __ $\ce{H4P2O7}$ + __ $\ce{H2O}$
+c. $$
+\underline{\hspace{2em}} \ce{H3PO4} \ce{->} \underline{\hspace{2em}} \ce{H4P2O7} + \underline{\hspace{2em}} \ce{H2O}
+$$
 \vspace{1em}
-d. __ $\ce{Cr}$ + __ $\ce{O2}$ $\ce{->}$ __ $\ce{Cr2O3}$
+d. $$
+\underline{\hspace{2em}} \ce{Cr} + \underline{\hspace{2em}} \ce{O2} \ce{->} \underline{\hspace{2em}} \ce{Cr2O3}
+$$
 \vspace{1em}
-e. __ $\ce{C}$ + __ $\ce{Cl2}$ $\ce{->}$ __ $\ce{CCl4}$
+e. $$
+\underline{\hspace{2em}} \ce{C} + \underline{\hspace{2em}} \ce{Cl2} \ce{->} \underline{\hspace{2em}} \ce{CCl4}
+$$
 \vspace{1em}
 
 :::
 
 ::: {.Answer data-latex=""}
 
-a. $\ce{CH4 + 2O2 -> CO2 + 2H2O}$
-b. $\ce{4Ag + O2 -> 2Ag2O}$
-c. $\ce{2H3PO4 -> H4P2O7 + H2O}$
-d. $\ce{4Cr + 3O2 -> 2Cr2O3}$
-e. $\ce{C + 2Cl2 -> CCl4}$
+a. $$
+\ce{CH4 + 2O2 -> CO2 + 2H2O}
+$$
+b. $$
+\ce{4Ag + O2 -> 2Ag2O}
+$$
+c. $$
+\ce{2H3PO4 -> H4P2O7 + H2O}
+$$
+d. $$
+\ce{4Cr + 3O2 -> 2Cr2O3}
+$$
+e. $$
+\ce{C + 2Cl2 -> CCl4}
+$$
 
 :::

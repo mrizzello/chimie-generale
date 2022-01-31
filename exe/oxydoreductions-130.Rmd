@@ -14,8 +14,8 @@ $$
 $$
 \begin{split}
 & \ce{K2Cr2O7 + 14 HCl -> 2 KCl + 2 CrCl3 + 7 H2O + 3 Cl2} \\
-& \ce{ 6 Cl^{-1} -> 6 Cl^{0} + 6 e^-} \quad \text{(oxidation, \ce{HCl} est réducteur)} \\
-& \ce{ 2 Cr^{+6} + 6 e^- -> 2 Cr^{+3}} \quad \text{(réduction, \ce{K2Cr2O7} est oxydant)}
+& \ce{ 6 Cl^{-1} -> 6 Cl^{0} + 6 e^-} \quad \text{(oxidation, $\ce{HCl}$ est réducteur)} \\
+& \ce{ 2 Cr^{+6} + 6 e^- -> 2 Cr^{+3}} \quad \text{(réduction, $\ce{K2Cr2O7}$ est oxydant)}
 \end{split}
 $$
 

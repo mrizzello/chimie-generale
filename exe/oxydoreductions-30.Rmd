@@ -2,9 +2,13 @@
 
 Pour chacune des combustions ci-dessous, déterminez l’élément oxydant et l'élément réducteur.
 
-a. $\ce{C + O2 -> CO2}$
+a. $$
+\ce{C + O2 -> CO2}
+$$
 \vspace{\stretch{1}}
-b. $\ce{2C + O2 -> 2CO}$
+b. $$
+\ce{2C + O2 -> 2CO}
+$$
 \vspace{\stretch{1}}
 
 :::
@@ -33,5 +37,5 @@ $$
 \end{split}
 $$
 
-
+\clearpage
 :::
