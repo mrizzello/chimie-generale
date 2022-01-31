@@ -14,8 +14,8 @@ $$
 $$
 \begin{split}
 & \ce{Cu2O -> Cu + CuO} \\
-& \ce{ Cu^{+1} -> Cu^{+2} + 1 e^-} \quad \text{(oxidation, \ce{Cu2O} est réducteur)} \\
-& \ce{ Cu^{+1} + 1 e^- -> Cu^{0}} \quad \text{(réduction, \ce{Cu2O} est oxydant)}
+& \ce{ Cu^{+1} -> Cu^{+2} + 1 e^-} \quad \text{(oxidation, $\ce{Cu2O}$ est réducteur)} \\
+& \ce{ Cu^{+1} + 1 e^- -> Cu^{0}} \quad \text{(réduction, $\ce{Cu2O}$ est oxydant)}
 \end{split}
 $$
 

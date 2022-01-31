@@ -19,17 +19,23 @@ f. $\ce{O2}$
 
 ::: {.Answer data-latex=""}
 
-a. $\overset{+1\ +4\ -2}{\ce{K2CO3}}$
-\vspace{1em}
-b. $\overset{0}{\ce{Fe}}$
-\vspace{1em}
-c. $\overset{+3\ -1}{\ce{AlCl3}}$
-\vspace{1em}
-d. $\overset{+1\ +7\ -2}{\ce{HPO4^{2-}}}$
-\vspace{1em}
-e. $\overset{-3\ +1}{\ce{NH4^+}}$
-\vspace{1em}
-f. $\overset{0}{\ce{O2}}$
-\vspace{1em}
+a. $$
+\overset{+1\ +4\ -2}{\ce{K2CO3}}
+$$
+b. $$
+\overset{0}{\ce{Fe}}
+$$
+c. $$
+\overset{+3\ -1}{\ce{AlCl3}}
+$$
+d. $$
+\overset{+1\ +7\ -2}{\ce{HPO4^{2-}}}
+$$
+e. $$
+\overset{-3\ +1}{\ce{NH4^+}}
+$$
+f. $$
+\overset{0}{\ce{O2}}
+$$
 
 :::
