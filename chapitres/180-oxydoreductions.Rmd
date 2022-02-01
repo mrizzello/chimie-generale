@@ -69,8 +69,8 @@ Table: (\#tab:tab-NO-rules) Règles pour l'attribution des nombres d'oxydation.
 |:-------------------------------------------------------------|:--------------------------------------------|:--------:|
 | Un atome l'état élémentaire a un nombre d'oxydation de 0.    | $\ce{Na}$, $\ce{Fe}$, $\ce{O2}$, $\ce{Cl2}$ |    0     |
 | Un ion monatomique a un nombre d'oxydation égal à sa charge. | $\ce{Na+}$, $\ce{Ca^{2+}}$, $\ce{Al^{3+}}$  | +1,+2,+3 |
-| L'**hydrogène** a généralement un NO de +1 dans ses composés | toujours, sauf hydrures (H~-~)              |    +1    |
-| L'**oxygène** a généralement un NO de -2 dans ses composés   | toujours, sauf peroxydes (O~-~)             |    -2    |
+| L'**hydrogène** a généralement un NO de +1 dans ses composés | toujours, sauf hydrures (H^-^)              |    +1    |
+| L'**oxygène** a généralement un NO de -2 dans ses composés   | toujours, sauf peroxydes (O^-^)             |    -2    |
 | Le **fluor** a généralement un NO de -1 dans ses composés    | toujours, sauf exception                    |    -1    |
 
 Un élément peut porter un nombre d'oxydation différent selon l'espèce chimique dans laquelle il se trouve. Vous trouverez dans le tableau périodique, les nombres d'oxydation courants pour un élément, avec en gras, les nombres d'oxydation les plus stables.
