@@ -5,6 +5,7 @@
 - Attribuer les nombres d'oxydations aux différents éléments d'un composé.
 - Distinguer une réaction d’oxydoréduction.
 - Décrire les différents termes en lien avec les réactions d’oxydoréduction.
+- Déterminer la réaction spontanée entre deux couples oxred.
 - Équilibrer les équations d’oxydoréduction.
 
 :::
@@ -163,7 +164,7 @@ $$
 ```{r, child=c('exe/oxydoreductions-30.Rmd')}
 ```
 
-### Couple oxred
+### Couples oxred
 
 Prenons en exemple deux équations d'oxydoréduction :
 
