@@ -158,6 +158,12 @@ $$
 ```{r, child=c('exe/electro-10.Rmd')}
 ```
 
+```{r, child=c('exe/electro-20.Rmd')}
+```
+
+```{r, child=c('exe/electro-30.Rmd')}
+```
+
 ## Électrolyse
 
 Une pile électrochimique produit du courant lorsque la réaction d'oxydoréduction se produit **spontanément**. À l'inverse, une cellule **électrolytique**, utilise l'énergie électrique pour produire une transformation chimique. L'**électrolyse** consiste à forcer un courant à travers un système chimique pour produire une transformation **non spontanée**.
@@ -265,14 +271,12 @@ m = \frac{M \cdot I \cdot t}{n \cdot 96500}
 \end{split}
 $$
 
-```{r, child=c('exe/electro-20.Rmd')}
+\clearpage
+
+```{r, child=c('exe/electro-40.Rmd')}
 ```
 
 \clearpage
-
-## Exercices supplémentaires
-
-\newpage
 
 ```{r, echo=FALSE}
 if (knitr::is_latex_output()) {

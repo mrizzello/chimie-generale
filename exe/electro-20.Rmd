@@ -1,15 +1,10 @@
-![Électrodéposition](images/electrolysis-spoon.png){width=10em}
-
 ::: {.Exercise data-latex=""}
 
-**Électrodéposition**
+Décrivez les demi-réactions et la réaction globale qui ont lieu dans la pile ci-dessous.
 
-On peut utiliser l’électrolyse pour déposer une couche d'un métal sur un autre métal. L’objet à recouvrir, par exemple une cuillère, est moulé dans un métal bon marché et il est ensuite recouvert d’une mince couche d’un métal plus attrayant, plus résistant à la corrosion et plus coûteux. On imagine le montage ci-dessus.
-
-- Indiquez sur le schéma le sens de déplacement des électrons dans le circuit.
-- Indiquez sur le schéma le sens de déplacement des cations et anions dans la solution.
-- Indiquez sur le schéma l'anode et la cathode.
-- Combien de grammes d’argent se déposent sur la cuillère lors de l’électrolyse de $\ce{AgNO3}$~(aq)~ par un courant électrique de 1.73 [A] pendant 20 minutes ?
+$$
+\ce{Pt(s)}\ │\ \ce{Fe^{2+}(aq), Fe^{3+}(aq)}\ ||\ \ce{Cl^-(aq)}\ │\ \ce{Cl2(g)} |\ \ce{Pt(s)}
+$$
 
 \vspace{\stretch{1}}
 
@@ -17,15 +12,22 @@ On peut utiliser l’électrolyse pour déposer une couche d'un métal sur un au
 
 ::: {.Answer data-latex=""}
 
-- Électrons de gauche à droite.
-- Cations de gauche à droite / anions de droite à gauche.
-- Anode : lame de métal / Cathode : cuillère
+Par convention, l’électrode située à gauche est l’anode, où a lieu l’oxydation. Fe^2+^ est oxydé en Fe^3+^.
+
+$$
+\ce{Fe^{2+}(aq) -> Fe^{3+}(aq) + e^-} \qquad \text{oxydation}
+$$
+
+$$
+\ce{Cl2(g) + 2e^- -> 2 Cl^{-}(aq)} \qquad \text{réduction}
+$$
 
 $$
 \begin{split}
-  m &= \frac{M \cdot I \cdot t}{n \cdot 96500} \\
-  &= \frac{107.9\ [g/mol] \cdot 1.73\ [A] \cdot 1200\ [s]}{1 \cdot 96500\ [C/mol]} \\
-  &= 2.321\ [g]
+\ce{2Fe^{2+} ->} & \ce{2Fe^{3+} + 2 e^-} \\
+\ce{Cl2 + 2 e^- ->} & \ce{2Cl^-} \\
+\hline
+\ce{2Fe^{2+} + Cl2 ->} & \ce{2Fe^{3+} + 2Cl^-}
 \end{split}
 $$
 

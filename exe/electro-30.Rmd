@@ -1,0 +1,7 @@
+::: {.Exercise data-latex=""}
+
+Dessinez un schéma de pile électrique dans laquelle une électrode de cuivre est plongée dans une solution de nitrate de cuivre (II) et une électrode en argent est plongée dans une solution de nitrate d'argent. Écrivez les demi-réaction et la réaction globale. Faites figurer les sens de déplacement des électrons et le sens du courant. Indiquez la f.e.m. obtenue si les conditions correspondent au conditions standards.
+
+\vspace{\stretch{2}}
+
+:::
