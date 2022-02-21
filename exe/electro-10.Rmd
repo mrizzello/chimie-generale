@@ -1,0 +1,37 @@
+::: {.Exercise data-latex=""}
+
+Une pile électrochimique est constituée d'une électrode de Mg dans une solution de Mg(NO~3~)~2~ à 1.0 [M] et d'une électrode de Cd dans une solution de Sn(NO~3~)~2~ à 1.0 [M]. Déterminez les deux demi-réactions et la réaction globale de la pile et calculez le potentiel de cette pile aux conditions standard.
+
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+$$
+\begin{split}
+\ce{Mg^{2+} + 2e^− -> Mg}\ E^0 = −2.37\ [V] \\
+\ce{Sn^{2+} + 2e^− -> Sn}\ E^0 = −0.14\ [V]
+\end{split}
+$$
+
+La demi-réaction de l'étain a un potentiel de réduction plus élevé, Sn^2+^ va oxyder Mg^0^ et se réduire.
+
+$$
+\begin{split}
+\ce{Mg^{0} ->} & \ce{Mg^{2+} + 2 e^-} \\
+\ce{Sn^{2+} + 2 e^- ->} & \ce{Sn} \text{(réduction)}\\
+\hline
+\ce{Mg + Sn^{2+} ->} & \ce{Mg^{2+} + Sn}
+\end{split}
+$$
+
+$$
+\begin{split}
+E^0_{pile} &= E^0_{cathode} − E^0_{anode} \\
+  &= E^0_{\ce{Sn^{2+}/Sn}} − E^0_{\ce{Mg^{2+}/Mg}} \\
+  &= -0.14 - (-2.37) = 2.23\ [V]
+\end{split}
+$$
+
+:::
