@@ -27,7 +27,7 @@
     - une solution de CuSO~4~ et une solution de Br~2~.  
     Non. Br~2~ et Cu^2+^ sont oxydants mais SO~4~^2-^ est très mauvais réducteur.
     - une solution de Hg(NO~3~)~2~ et une solution de Sn(NO~3~)~2~.  
-    Oui, règle de l'oméga.  
+    Oui (règle de l'oméga).  
     $$
     \begin{split}
     \ce{2 NO3^{-} + 4 H+ + 2 e^−} &\ce{-> 2 NO2 + 2 H2O} \\

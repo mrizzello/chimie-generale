@@ -333,6 +333,8 @@ Les masses et les électrons échangés sont maintenant équilibrés dans l'équ
 ```{r, child=c('exe/oxydoreductions-130.Rmd')}
 ```
 
+```{r, child=c('exe/oxydoreductions-150.Rmd')}
+```
 
 \newpage
 
