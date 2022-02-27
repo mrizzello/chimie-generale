@@ -1,3 +1,354 @@
 # Thermochimie
 
-En cours de rédaction ...
+L'énergie est à l'origine de toute transformation physique ou chimique. Aussi bien dans la transformation d'énergie lumineuse en énergie chimique lors de la photosynthèse, ou encore la libération d'énergie sous forme de lumière et de chaleur lors de la combustion d'une bûche, l'énergie rend la vie possible.
+
+La thermodynamique est l'étude de l'énergie et de ses transformations. Dans ce chapitre, nous allons nous concentrer sur la thermochimie, c'est-à-dire les transferts d'énergie, et en particulier de chaleur, au cours des réactions chimiques.
+
+## Énergie
+
+::: {.tcolorbox data-latex=""}
+
+**Énergie**  
+Capacité à fournir un travail ou à transférer de la chaleur.
+
+:::
+
+Contrairement à la matière, l'énergie n'a pas de masse et ne peut être tenue dans nos mains, mais ses effets peuvent être observés et mesurés. L'énergie est une grandeur physique qui caractérise l'état d'un système et qui, de manière globale, est conservée au cours des transformations.  **Le travail** est l'énergie utilisée pour déplacer un objet contre une force et **la chaleur** est l'énergie utilisée pour faire augmenter la température d'un objet.
+
+Un objet peut posséder de l'énergie sous deux formes :
+
+- l'énergie cinétique, qui est l'énergie due au mouvement de l'objet,
+- l'énergie potentielle, qui est l'énergie qu'un objet possède en vertu de sa position par rapport à d'autres objets.
+
+L'unité du Système International de l'énergie est le joule (J) : $1 [J] = 1 [kg \cdot m^2 / s^2] = 1 [N/m]$. Une autre unité d'énergie courante est la calorie (cal), définie comme la quantité d'énergie nécessaire pour augmenter de 1 °C la température de 1 gramme d'eau : **1 [cal] = 4.184 [J]**.
+
+## Système et environnement
+
+Lorsque nous étudions les transferts d'énergie, nous devons nous concentrer sur une partie limitée et bien définie de l'univers. La partie isolée pour être étudiée est appelée **le système**, tout le reste est appelé **l'environnement**. Lorsque l'on étudie les transferts d'énergie qui accompagnent une réaction chimique, les réactifs et les produits constituent le système. Le récipient et tout ce qui se trouve au-delà sont considérés comme l'environnement.
+
+Un système peut être ouvert, fermé ou isolé.
+
+- Un système est **ouvert** s'il permet des échanges d'énergie et de matière avec le milieu extérieur.
+- Un système est **fermé** s'il peut échanger de l'énergie mais pas de matière.
+- Un système est **isolé** s'il ne peut échanger ni matière, ni énergie avec l'extérieur.
+
+L'énergie peut être transférée entre le système et l'environnement sous forme de travail ou de chaleur.
+
+- Le **travail** est l'action d'une force qui agit sur un objet à distance pour le déplacer.
+- La **chaleur** est l'énergie qui est transférée d'un objet plus chaud à un objet plus froid.
+
+## Première loi de la thermodynamique
+
+::: {.tcolorbox data-latex=""}
+
+**Loi de la conservation de l'énergie**  
+Lors d'un changement physique ou chimique, il n'y a pas de création ou de destruction d'énergie.
+
+:::
+
+Au cours d'une transformation l'énergie n'est ni créée ni détruite : elle peut être convertie d'une forme en une autre (travail, chaleur) mais la quantité totale d'énergie reste invariable.
+
+## Réactions exothermiques et endothermiques
+
+Certaines transformations chimiques dégagent de l'énergie alors que d'autres absorbent l'énergie. On parlera alors de réaction exothermique et endothermique.
+
+Lorsqu'un processus se produit au cours duquel le système libère de la chaleur, le processus est dit **exothermique**. La chaleur est transférée du système à l'environnement.
+
+Un processus dans lequel le système absorbe de la chaleur est dit **endothermique**. La chaleur est transférée au système par l'environnement.
+
+En tenant compte de l'énergie échangée dans une équation chimique, on peut les écrire de la façon suivante :
+
+$$
+\begin{split}
+  \text{Réactifs} & \rightarrow \text{Produits} + \text{Énergie} \\
+  \text{Énergie} + \text{Réactifs} & \rightarrow \text{Produits}
+\end{split}
+\quad
+\begin{split}
+  &\text{Réaction exothermique} \\
+  &\text{Réaction endothermique}
+\end{split}
+$$
+
+## L'enthalpie et la variation d'enthalpie
+
+Il existe deux types fondamentaux d'énergie : l'**énergie potentielle** et l'**énergie cinétique**. L'énergie potentielle est une énergie stockée qui attend d'être libérée. L'énergie cinétique, en revanche, est l'énergie transformée en mouvement. Lorsque l'eau tombe d'un barrage et fait tourner une turbine, l'énergie potentielle de l'eau est convertie en énergie cinétique. Une fois que toute l'énergie potentielle a été convertie, il ne se passe plus rien. L'eau au fond du barrage n'a plus d'énergie potentielle et ne subit plus de changement.
+
+Dans les composés chimiques, l'énergie potentielle est contenue dans les forces d'attraction entre les ions ou les atomes qui forment les liaisons et la rupture de ces liaisons nécessite un apport d'énergie. Dans les réactions chimiques, certaines liaisons chimiques des réactifs sont rompues (apport d'énergie) pour que de nouvelles liaisons puissent se former dans les produits (libération d'énergie).
+
+Si les produits de la réaction ont moins d'énergie potentielle que les réactifs, on dit que les produits sont plus stables que les réactifs. Le terme stable est utilisé en chimie pour décrire une substance dont l'énergie potentielle est faible et qui, par conséquent, aura peu tendance à subir d'autres transformations. Le fait qu'une réaction se produise, et la quantité d'énergie ou de chaleur associée à la réaction, dépendent de la différence de quantité d'énergie potentielle contenue dans les réactifs et les produits.
+
+La somme des énergies cinétique et potentielle correspond à l'enthalpie de la substance, $H$.
+
+::: {.tcolorbox data-latex=""}
+
+**Enthalpie - H**  
+Énergie totale d'un système à pression constante. (Exprimée en joules [J]).
+
+:::
+
+Cependant, il est difficile de déterminer expérimentalement l'énergie interne d'une substance. Mesurer des différences d'énergie par la chaleur absorbée ou dégagée lors de transformations est une grandeur plus facilement accessible.
+
+::: {.tcolorbox data-latex=""}
+
+**Variation d'enthalpie - H**  
+Variation de l'énergie totale du système lors d'une transformation, à pression constante.
+
+:::
+
+La chaleur, dégagée ou absorbée, qui est mesurée lorsqu'une réaction est maintenue à pression constante est représentées par le symbole $\Delta H$. Ainsi, la valeur de $\Delta H$ représente le changement d'enthalpie qui se produit au cours d'une réaction. Les termes **enthalpie de réaction** et **chaleur de réaction** sont utilisés pour dénommer cette valeur.
+
+Pour déterminer la variation d'enthalpie, on effectue la différence entre l'enthalpie des produits et celle des réactifs.
+
+$$
+\Delta H = H _{\text{produits}} − H _{\text{réactifs}}
+$$
+
+|          Réaction exothermique           |          Réaction endothermique          |
+|:----------------------------------------:|:----------------------------------------:|
+|            $\Delta H$ négatif            |            $\Delta H$ positif            |
+| ![](images/enthalpie-1-1.png){width=30%} | ![](images/enthalpie-1-2.png){width=30%} |
+
+Si la valeur est positive, la réaction est endothermique alors que si la valeur obtenue est négative, la réaction est exothermique.
+
+Lorsque l'on donne une valeur numérique de chaleur de réaction, il faut spécifier la réaction étudiée. Par exemple, lorsque 2 moles de dihydrogène brûlent pour former 2 moles d'eau à pression constante, le système système libère 483.6 [kJ].
+
+$$
+\ce{2 H2(g) + O2(g) -> 2 H2O(g) } \qquad \Delta H = -483,6\ [kJ]
+$$
+
+Le signe négatif de $\Delta H$ indique que la réaction est exothermique. Le $\Delta H$ est écrit à la fin de l'équation équilibrée, sans spécifier les quantités de produits chimiques impliqués.
+
+## Échanges de chaleur et réactions chimiques
+
+Pourquoi le chlore réagit-il fortement avec de nombreux éléments et composés, mais pas l'azote ? Quelle est la différence entre les molécules de Cl~2~ et les molécules de N~2~ qui explique cette différence de réactivité ? La réponse est que la triple liaison azote-azote est beaucoup plus forte que la liaison simple chlore-chlore et qu'elle ne peut pas être rompue aussi facilement dans les réactions chimiques.
+
+::: {.tcolorbox data-latex=""}
+
+**Énergie de liaison**  
+Quantité d'énergie qui doit être fournie pour rompre une liaison et séparer les atomes d'une mole de molécules à l'état gazeux.
+
+:::
+
+Plus l'énergie de liaison est élevée, plus la liaison entre les atomes ou les ions est stable. La triple liaison du diazote, par exemple, a une énergie de liaison de 946 [kJ/mol], alors que la liaison simple dans le dichlore a une énergie de liaison de 243 [kJ/mol]. La plus grande stabilité de la triple liaison dans N~2~ explique pourquoi les molécules de diazote sont moins réactives que les molécules de Cl~2~.
+
+$$
+\begin{split}
+\ce{N#N -> N + N} \quad \Delta H = +946\ [kJ/mol] \\ 
+\ce{Cl-Cl -> Cl + Cl} \quad \Delta H = +246\ [kJ/mol]
+\end{split}
+$$
+
+Table: (\#tab:tab-energie-liaison) Énergies de liaison moyennes de liaisons communes
+
+|   liaison    | kJ/mol |   liaison   | kJ/mol |  liaison   |                                   kJ/mol                                    |
+|:------------:|:------:|:-----------:|:------:|:----------:|:---------------------------------------------------------------------------:|
+|  $\ce{C-H}$  |  413   | $\ce{N-H}$  |  391   | $\ce{C=C}$ |                                     614                                     |
+|  $\ce{C-C}$  |  347   | $\ce{N-N}$  |  160   | $\ce{C#C}$ |                                     839                                     |
+|  $\ce{C-N}$  |  305   | $\ce{N-Cl}$ |  200   | $\ce{C=O}$ | 745^[Énergie de la liaison $\ce{C=O}$ dans $\ce{CO2}$ est de 799 [kJ/mol].] |
+|  $\ce{C-O}$  |  358   | $\ce{N-O}$  |  201   | $\ce{O=O}$ |                                     498                                     |
+| $\ce{C-Cl}$  |  339   | $\ce{H-H}$  |  432   | $\ce{N=O}$ |                                     607                                     |
+| $\ce{Cl-Cl}$ |  243   | $\ce{O-H}$  |  467   | $\ce{O#N}$ |                                     891                                     |
+| $\ce{H-Cl}$  |  427   | $\ce{O-Cl}$ |  203   | $\ce{N#N}$ |                                     946                                     |
+
+- La rupture de liaisons, un processus qui absorbe de la chaleur, est endothermique.
+- La formation d'une liaison, un processus qui libère de la chaleur, est exothermique.
+
+La quantité d'énergie libérée lors de la formation d'une liaison est égale à la quantié d'énergie abosrbée lors de la rupture de cette liaison. La quantité de chaleur transférée lors d'un changement dans un sens est égale à la quantité de chaleur transférée dans le sens opposé.
+
+$$
+\begin{split}
+\ce{N + N -> N#N} \quad \Delta H = -946\ [kJ/mol] \\ 
+\ce{Cl + Cl -> Cl-Cl} \quad \Delta H = -246\ [kJ/mol]
+\end{split}
+$$
+
+Dans toute réaction chimique, certaines liaisons des réactifs sont rompues et de nouvelles liaisons sont formées dans les produits. La différence entre l'énergie thermique absorbée lors de la rupture des liaisons et l'énergie thermique libérée lors de la formation des liaisons est la chaleur de réaction.
+
+### Bilan énergétique d'une réaction
+
+Lorsque l'énergie totale des liaisons formées dans les produits **est supérieure** à l'énergie totale des liaisons rompues dans les réactifs, il en résulte que de l'énergie est libérée et la réaction est exothermique. Prenons par exemple la combustion d'une mole de méthane.
+
+$$
+\ce{CH4(g) + 2 O2(g) -> CO2(g) + 2 H2O(l)}
+$$
+
+Calculons le $\Delta H$ de la réaction :
+
+$$
+\begin{split}
+  \text{Réactifs}& \\[0.1em]
+  (\ce{C-H}) \times 4 = -413 \cdot 4 &= -1652\ [kJ] \\[0.1em]
+  (\ce{O=O}) \times 2 = -498 \cdot 2 &= -996\ [kJ] \\[0.1em]
+  \hline\\[-1.2em]
+  total &= -2648\ [kJ]
+\end{split}
+\qquad
+\begin{split}
+  \text{Produits}& \\
+  (\ce{C=O}) \times 2 = -799 \cdot 2 &= -1598\ [kJ] \\[0.1em]
+  (\ce{H-O}) \times 4 = -467 \cdot 4 &= -1868\ [kJ] \\[0.1em]
+  \hline\\[-1.2em]
+  total &= -3466\ [kJ]
+\end{split}
+$$
+
+$$
+\begin{split}
+\Delta H &= H _{\text{produits}} − H _{\text{réactifs}} \\
+  &= -3466 -(-2648) = -818\ [kJ]\ \text{(valeur estimée)}
+\end{split}
+$$
+
+La valeur mesurée de la variation d'enthalpie pour la combustion d'une mole de méthane est de 891 [kJ].
+
+Les énergies données dans la table \@ref(tab:tab-energie-liaison) sont des énergies moyennes et peuvent varier en fonction de l'environnement chimique dans lequel se trouve la liaison. Le $\Delta H$ calculé pour une réaction en utilisant les énergies de liaison moyennes peut différer légèrement de la valeur obtenue expérimentalement.
+
+$$
+\ce{CH4(g) + 2 O2(g) -> CO2(g) + 2 H2O(l)} \qquad \Delta H = -891\ [kJ]
+$$
+
+Il est correct de dire :
+
+- La combustion de 1 mole de méthane s'accompagne d'une perte de 891 [kJ].
+- La réaction de 2 moles de dioxygène avec le méthane s'accompagne d'une perte de 891 [kJ].
+- La réaction de 1 mole de dioxygène avec le méthane s'accompagne d'une perte de 446 [kJ].
+- La formation de 1 mole de gaz carbonique par combustion du méthane s'accompagne d'une perte de 891 [kJ].
+- La formation de 1 mole d'eau gazeuse par combustion du méthane s'accompagne d'une perte de 446 [kJ].
+
+On a donc le choix de la substance de référence, mais il faut le mentionner dans l'unité.
+
+\clearpage
+
+```{r, child=c('exe/thermochimie-10.Rmd')}
+```
+
+```{r, child=c('exe/thermochimie-20.Rmd')}
+```
+
+```{r, child=c('exe/thermochimie-30.Rmd')}
+```
+
+\clearpage
+
+## La loi de Hess
+
+On représente généralement une réaction chimique par une équation équilibrée avec des réactifs qui se transforment en produits. Cette représentation est une représentations simplifiée. Dans la majorité des réactions chimiques, les réactifs forment un ou plusieurs intermédiaires qui mènent aux produits. Ainsi, on peut décomposer une réaction en une succession de réactions intermédiaires. C'est ce qu'on appelle un mécanisme réactionnel.
+
+Par exemple, la formation du dioxyde d'azote à partir d'oxyde d'azote et de dioxygène est une réaction qui comporte deux étapes intermédiaires.
+
+$$
+\begin{split}
+\ce{2 NO(g) -> N2O2(g)} \\[0.1em]
+\ce{N2O2(g) + O2 -> 2NO2(g)} \\[0.1em]
+\hline\\[-1.2em]
+\ce{2 NO(g) + O2 -> 2NO2(g)}
+\end{split}
+$$
+
+La variation d'enthalpie lors d'une réaction ne dépend que de l'état initial des réactifs et de l'état final des produits si la transformation s'effectue soit à volume constant, soit à pression constante.
+
+::: {.tcolorbox data-latex=""}
+
+**Loi de Hess**  
+Si une réaction se déroule en plusieurs étapes, la variation d'enthalpie de la réaction est égale à la somme des variations d'enthalpie des différentes étapes. 
+
+:::
+
+L'échange de chaleur lors d'une transformation chimique ne dépend pas du chemin parcouru pour aller de l'état initial à l'état final.
+
+$$
+\begin{split}
+\ce{CH4(g) + 2 O2(g) -> CO2(g) + 2 H2O(g)} \qquad \Delta H &= -802\ kJ \\[0.1em]
+\ce{2 H2O(g) -> 2 H2O(l)} \qquad \Delta H &= -88\ kJ \\[0.1em]
+\hline\\[-1.2em]
+\ce{CH4(g) + 2 O2(g) -> CO2(g) + 2 H2O(l)} \qquad \Delta H &= -891\ kJ
+\end{split}
+$$
+
+```{r enthalpie-2,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Diagramme d'enthalpie de la combustion du méthane."}
+knitr::include_graphics(c("images/Enthalpie-2.png"))
+```
+
+Pour déterminer la chaleur d'une réaction par la loi de Hess, on doit suivre certaines règles.
+
+- Les termes identiques situés du même côté de l'équation s'additionnent.
+- Les termes identiques situés de part et d'autre de l'équation se soustraient.
+- Si on inverse une équation, on doit aussi inverser le signe du $\Delta H$.
+- Si on modifie les coefficients d'une équation chimique en les multipliant ou en les divisant par un facteur commun, on doit aussi multiplier ou diviser la valeur du $\Delta H$ par ce même facteur.
+
+### Enthalpie de formation et enthalpies de réaction
+
+Nous pouvons utiliser la loi de Hess pour calculer les variations d'enthalpie pour un grand nombre de réactions à partir de valeurs référencées dans des tables. Il existe des tableaux de chaleurs de **vaporisation**, de **fusion**, de **combustion**, etc..
+
+Une transformation importante utilisée en thermochimie est la **chaleur de formation** ou **enthalpie de formation**. Elle est représentée par le symboles $\Delta H^{0}_{f}$. L'indice "f" indique la réaction de formation du composé et l'indice "0", indique que cette valeur est mesurée aux conditions standard de température et pression. On parlera de l'**enthalpie standard de formation** d'un composé.
+
+L'**enthalpie de formation** est importante dans la mesure où elle nous permet de calculer une **enthalpie de réaction**.
+
+Prenons, par exemple, la combustion du propane aux conditions standards :
+
+$$
+\ce{C3H8(g) + 5 O2(g) -> 3 CO2(g) + 4 H2O(l)}
+$$
+
+Nous pouvons écrire cette équation comme la somme de trois équations associées aux enthalpies standards de formation :
+
+$$
+\begin{split}
+\ce{C3H8(g) -> 3 C(s) + 4 H2(g)} \qquad \Delta H_1 &= -\Delta H^{0}_{f}(\ce{C3H8(g)}) \\[0.1em]
+\ce{3 C(s) + 3 O2(g) -> 3 CO2(g)} \qquad \Delta H_2 &= 3\cdot\Delta H^{0}_{f}(\ce{CO2(g)}) \\[0.1em]
+\ce{4 H2(g) + 2 O2(g) -> 4 H2O(l)} \qquad \Delta H_3 &= 4\cdot\Delta H^{0}_{f}(\ce{H2O(l)}) \\[0.1em]
+\hline\\[-1.2em]
+\ce{C3H8(g) + 5 O2(g) -> 3 CO2(g) + 4 H2O(l)} \qquad \Delta H^{0} &= \Delta H_1 + \Delta H_2 + \Delta H_3
+\end{split}
+$$
+
+En remplaçant les enthalpies de formation par les valeurs contenues dans les tables : 
+
+$$
+\begin{split}
+\Delta H^{0} &= \Delta H_1 + \Delta H_2 + \Delta H_3 \\
+ &= -\Delta H^{0}_{f}(\ce{C3H8(g)}) + 3\cdot\Delta H^{0}_{f}(\ce{CO2(g)}) + 4\cdot\Delta H^{0}_{f}(\ce{H2O(l)}) \\
+ &= - (−104.6\ [kJ]) + 3 \cdot (−393.5\ [kJ]) + 4 \cdot (−285.8\ [kJ]) \\
+ &= -2219\ [kJ] \\
+\end{split}
+$$
+
+```{r enthalpie-3,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Diagramme d'enthalpie de la combustion du propane."}
+knitr::include_graphics(c("images/Enthalpie-3.png"))
+```
+
+## Calorimétrie
+
+La quantité de chaleur transférée entre le système et son environnement est mesurée par **calorimétrie**.
+
+La **capacité thermique**, ou **chaleur spécifique**, d’une substance (C) indique la capacité de cette substance d'absorber ou de dégager de la chaleur. C'est la quantité de chaleur qu’un gramme d'une substance doit absorber pour élever sa température d’un degré Celsius. Cette grandeur est exprimée en $[J/(K \cdot g)]$. Chaque substance a une capacité thermique qui lui est propre, celle de l'eau est de 4.18 $[J/(K \cdot g)]$.
+
+Plus la capacité thermique d'une substance est élevée, plus il faut la chauffer pour augmenter sa température. Une substance ayant une faible capacité thermique se réchauffe rapidement, mais se refroidit aussi rapidement.
+
+La quantité de chaleur, q, absorbée par une substance est le produit de sa chaleur spécifique (C), de sa masse et de la variation de température :
+
+$$
+\begin{split}
+q = m \cdot C \cdot \Delta T.
+\end{split}
+\qquad
+\begin{split}
+q & \text{: quantité de chaleur}\ [J] \\
+m & \text{: masse}\ [J/(K \cdot g)] \\
+C & \text{: capacité thermique}\ [J/(K \cdot g)] \\
+\Delta T & \text{: différence de température}\ [K]
+\end{split}
+$$
+
+Un calorimètre mesure le changement de température accompagnant un processus. Le changement de température d'un calorimètre dépend de sa capacité thermique, c'est-à-dire de la quantité de chaleur nécessaire pour élever sa température de 1 K.
+
+Si une expérience de calorimétrie est réalisée sous une pression constante, la chaleur transférée fournit une mesure directe de la variation d'enthalpie de la réaction. La calorimétrie à volume constant est réalisée dans un récipient de volume fixe appelé calorimètre à bombe. La chaleur transférée dans des conditions de volume constant est égale à ∆E. Des corrections peuvent être appliquées aux valeurs de ∆E pour donner ∆H.
+
+\clearpage
+
+```{r, echo=FALSE}
+if (knitr::is_latex_output()) {
+  knitr::asis_output('\\section{Solutions des exercices} \\shipoutAnswer')
+}
+```
