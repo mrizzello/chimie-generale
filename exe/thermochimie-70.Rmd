@@ -1,0 +1,54 @@
+::: {.Exercise data-latex=""}
+
+Durant la photosynthèse, les plantes convertissent le dioxyde de carbone et l'eau en glucose ($\ce{C6H12O6}$) selon l'équation équilibrée suivante:
+
+$$
+\ce{6 CO2(g) + 6 H2O(l) -> C6H12O6 + 6 O2(g)}
+$$
+
+Estimez le $\Delta H$ de la réaction en utilisant les énergies de liaisons et indiquez si la réaction est endo- ou exothermique.
+
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+![](images/glucose.png){width=30%}
+
+$$
+\ce{6 CO2(g) + 6 H2O(l) -> C6H12O6 + 6 O2(g)}
+$$
+
+$$
+\begin{split}
+  \text{Réactifs}& \\
+  (\ce{C=O}) \times 12 = 799 \cdot 12 &= 9588\ [kJ] \\
+  (\ce{O-H}) \times 12 = 467 \cdot 12 &= 5604\ [kJ] \\
+  \hline
+  total &= 15192\ [kJ]
+\end{split}
+\qquad
+\begin{split}
+  \text{Produits}& \\
+  (\ce{C-C}) \times 5 = 347 \cdot 5 &= 1735\ [kJ] \\
+  (\ce{C-H}) \times 7 = 413 \cdot 7 &= 2891\ [kJ] \\
+  (\ce{C-O}) \times 7 = 358 \cdot 7 &= 2506\ [kJ] \\
+  (\ce{O-H}) \times 5 = 467 \cdot 5 &= 2335\ [kJ] \\
+  \hline
+  total &= 9467\ [kJ]
+\end{split}
+$$
+
+$$
+\begin{split}
+\Delta H &= \Sigma\ E^{liaison}_{\text{réactifs}} - \Sigma\ E^{liaison}_{\text{produits}} \\
+  &= 15192 - 9467 = +5725\ [kJ]
+\end{split}
+$$
+
+La production d'une mole de glucose par photosynthèse absorbe 5725 [kJ].
+
+La valeur positive indique que la réaction est endothermique.
+
+:::
