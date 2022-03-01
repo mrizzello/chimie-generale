@@ -1,0 +1,39 @@
+::: {.Exercise data-latex=""}
+
+Calculez la quantité de chaleur libérée lors de la combustion de 7.50 g de méthane.
+
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+$$
+\begin{split}
+\ce{CH4(g) + 2 O2(g) -> CO2(g) + 2 H2O(l)}
+\end{split}
+\qquad
+\begin{split}
+M_{\ce{CH4}} &= 1 \cdot 16 + 4 \cdot 1.008 \\
+&= 16.032\ [g/mol]
+\end{split}
+$$
+
+$$
+n_{\ce{CH4}} = \frac{m_{\ce{CH4}}}{M_{\ce{CH4}}} = \frac{7.50\ [g]}{16.032\ [g/mol]} = 0.468\ [mol]
+$$
+
+$$
+\begin{split}
+\Delta H = -891\ [kJ/mol]
+\end{split}
+\qquad
+\begin{split}
+q &= -891\ [kJ/mol] \cdot 0.468\ [mol] \\
+&= -417\ [kJ]
+\end{split}
+$$
+
+La valeur négative indique que la chaleur est dégagée (réaction exothermique).
+
+:::

@@ -1,6 +1,6 @@
 ::: {.Exercise data-latex=""}
 
-Estimer le $\Delta H$, en [kJ/mol], de la réaction entre le dihydrogène et le dioxygène pour former de l'eau et indiquez si la réaction est endo- ou exothermique.
+800 [g] d'eau sont chauffés d'une température de 21°C à 85°C . Quelle quantité de chaleur l'eau a-t-elle absorbée ?
 
 \vspace{\stretch{1}}
 
@@ -9,32 +9,11 @@ Estimer le $\Delta H$, en [kJ/mol], de la réaction entre le dihydrogène et le 
 ::: {.Answer data-latex=""}
 
 $$
-\ce{2 H2(g) + O2(g) -> 2 H2O}
-$$
-
-$$
 \begin{split}
-  \text{Réactifs}& \\
-  (\ce{H-H}) \times 2 = 432 \cdot 2 &= 864\ [kJ] \\
-  (\ce{O=O}) \times 1 = 498 \cdot 1 &= 498\ [kJ] \\
-  \hline
-  total &= 1362\ [kJ]
-\end{split}
-\qquad
-\begin{split}
-  \text{Produits}& \\
-  (\ce{H-O}) \times 4 = 467 \cdot 4 &= 1868\ [kJ] \\
-  \hline
-  total &= 1868\ [kJ]
+q_{\ce{H2O}} &= m_{\ce{H2O}} \cdot C_{\ce{H2O}} \cdot \Delta T_{\ce{H2O}} \\
+ &= 800\ [g] \cdot 4.184 [J/(K \cdot g)] \cdot (85-21) \\
+ &= 214221\ [J] =  214.2\ [kJ]
 \end{split}
 $$
 
-$$
-\begin{split}
-\Delta H &= \Sigma\ E^{liaison}_{\text{réactifs}} - \Sigma\ E^{liaison}_{\text{produits}} \\
-  &= 1362 - 1868 = -506\ [kJ/mol]
-\end{split}
-$$
-
-$\Delta H$ négatif, donc réaction exothermique.
 :::

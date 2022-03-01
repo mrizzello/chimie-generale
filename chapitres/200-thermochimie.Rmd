@@ -15,10 +15,15 @@ Capacité à fournir un travail ou à transférer de la chaleur.
 
 Contrairement à la matière, l'énergie n'a pas de masse et ne peut être tenue dans nos mains, mais ses effets peuvent être observés et mesurés. L'énergie est une grandeur physique qui caractérise l'état d'un système et qui, de manière globale, est conservée au cours des transformations.  **Le travail** est l'énergie utilisée pour déplacer un objet contre une force et **la chaleur** est l'énergie utilisée pour faire augmenter la température d'un objet.
 
-Un objet peut posséder de l'énergie sous deux formes :
+En chimie, le travail est défini comme une transfert d'énergie, résultant d'une transformation.
+
+Un objet peut posséder de l'énergie sous différentes formes :
 
 - l'énergie cinétique, qui est l'énergie due au mouvement de l'objet,
-- l'énergie potentielle, qui est l'énergie qu'un objet possède en vertu de sa position par rapport à d'autres objets.
+- l'énergie potentielle, qui est l'énergie qu'un objet possède en vertu de sa position par rapport à d'autres objets,
+- L'énergie de radiation, qui est l'énergie des ondes électromagnétiques,
+- L'énergie thermique, associée au mouvement aléatoire des atomes et des molécules,
+- L'énergie chimique, stockée dans les liaisons des composés chimiques.
 
 L'unité du Système International de l'énergie est le joule (J) : $1 [J] = 1 [kg \cdot m^2 / s^2] = 1 [N/m]$. Une autre unité d'énergie courante est la calorie (cal), définie comme la quantité d'énergie nécessaire pour augmenter de 1 °C la température de 1 gramme d'eau : **1 [cal] = 4.184 [J]**.
 
@@ -28,14 +33,28 @@ Lorsque nous étudions les transferts d'énergie, nous devons nous concentrer su
 
 Un système peut être ouvert, fermé ou isolé.
 
-- Un système est **ouvert** s'il permet des échanges d'énergie et de matière avec le milieu extérieur.
-- Un système est **fermé** s'il peut échanger de l'énergie mais pas de matière.
-- Un système est **isolé** s'il ne peut échanger ni matière, ni énergie avec l'extérieur.
+|                           |                                                                          |
+|:--------------------------|:-------------------------------------------------------------------------|
+| Un système est **ouvert** | S'il permet des échanges d'énergie et de matière avec l'environnement.   |
+| Un système est **fermé**  | S'il peut échanger de l'énergie mais pas de matière avec l'environnement |
+| Un système est **isolé**  | s'il ne peut échanger ni matière, ni énergie avec l'environnement        |
 
 L'énergie peut être transférée entre le système et l'environnement sous forme de travail ou de chaleur.
 
 - Le **travail** est l'action d'une force qui agit sur un objet à distance pour le déplacer.
 - La **chaleur** est l'énergie qui est transférée d'un objet plus chaud à un objet plus froid.
+
+Presque toutes les réactions chimiques absorbent ou libèrent de l'énergie, généralement sous forme de chaleur.
+
+- La chaleur peut être transmise,  
+  _(d'une substance qui est chaude vers une substance qui est froide.)_
+- La chaleur peut être absorbée.
+- La chaleur peut être libérée.
+
+La température et la chaleur ne sont pas la même chose :
+
+- La **température** est une mesure du degré d'agitation moyen des particules d'une substance.
+- La **chaleur** est la quantité d'énergie qui est transferée lors d'une transformation.
 
 ## Première loi de la thermodynamique
 
@@ -46,7 +65,51 @@ Lors d'un changement physique ou chimique, il n'y a pas de création ou de destr
 
 :::
 
-Au cours d'une transformation l'énergie n'est ni créée ni détruite : elle peut être convertie d'une forme en une autre (travail, chaleur) mais la quantité totale d'énergie reste invariable.
+
+La loi de la conservation de l'énergie stipule que l'énergie totale d'un système isolé est constante. Cela signifie qu'à l'intérieur d'un système isolé, l'énergie peut être modifiée ou transformée, mais qu'elle ne peut pas être créée ou détruite. La quantité totale d'énergie reste invariable.
+
+## Calorimétrie
+
+La quantité de chaleur transférée entre le système et son environnement est mesurée par **calorimétrie**.
+
+La **capacité thermique**, ou **chaleur spécifique**, d’une substance (C) indique la capacité de cette substance d'absorber ou de dégager de la chaleur. C'est la quantité de chaleur qu’un gramme d'une substance doit absorber pour élever sa température d’un degré Celsius. Cette grandeur est exprimée en $[J/(K \cdot g)]$. Chaque substance a une capacité thermique qui lui est propre, celle de l'eau est de 4.184 $[J/(K \cdot g)]$.
+
+Plus la capacité thermique d'une substance est élevée, plus il faut la chauffer pour augmenter sa température. Une substance ayant une faible capacité thermique se réchauffe rapidement, mais se refroidit aussi rapidement.
+
+La quantité de chaleur, $q$, absorbée par une substance est le produit de sa chaleur spécifique, $C$, de sa masse et de la variation de température :
+
+$$
+\begin{split}
+q = m \cdot C \cdot \Delta T.
+\end{split}
+\qquad
+\begin{split}
+q & \text{: quantité de chaleur}\ [J] \\
+m & \text{: masse}\ [J/(K \cdot g)] \\
+C & \text{: capacité thermique}\ [J/(K \cdot g)] \\
+\Delta T & \text{: différence de température}\ [K]
+\end{split}
+$$
+
+```{r, child=c('exe/thermochimie-10.Rmd')}
+```
+
+```{r, child=c('exe/thermochimie-20.Rmd')}
+```
+
+\clearpage
+
+```{r, child=c('exe/thermochimie-30.Rmd')}
+```
+
+### Le calorimètre
+
+Pour mesurer la quantité de chaleur libérée ou absorbée au cours d'une réaction chimique. On utilise un récipient spécial dans un système fermé appelé **calorimètre**.
+
+Le transfert d'énergie thermique accompagnant une réaction chimique est responsable du changement de température qui a lieu dans un calorimètre. Si la réaction libère de la chaleur, la chaleur est absorbée par le calorimètre et sa température augmente. Inversement, si la réaction absorbe de la chaleur, alors la chaleur est transférée du calorimètre au système et la température du calorimètre diminue.
+
+La quantité de chaleur absorbée ou libérée par le calorimètre est égale et de signe opposé à la quantité de chaleur produite ou consommée par la réaction.
+
 
 ## Réactions exothermiques et endothermiques
 
@@ -220,13 +283,13 @@ On a donc le choix de la substance de référence, mais il faut le mentionner da
 
 \clearpage
 
-```{r, child=c('exe/thermochimie-10.Rmd')}
+```{r, child=c('exe/thermochimie-50.Rmd')}
 ```
 
-```{r, child=c('exe/thermochimie-20.Rmd')}
+```{r, child=c('exe/thermochimie-60.Rmd')}
 ```
 
-```{r, child=c('exe/thermochimie-30.Rmd')}
+```{r, child=c('exe/thermochimie-70.Rmd')}
 ```
 
 \clearpage
@@ -317,33 +380,6 @@ $$
 ```{r enthalpie-3,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Diagramme d'enthalpie de la combustion du propane."}
 knitr::include_graphics(c("images/Enthalpie-3.png"))
 ```
-
-## Calorimétrie
-
-La quantité de chaleur transférée entre le système et son environnement est mesurée par **calorimétrie**.
-
-La **capacité thermique**, ou **chaleur spécifique**, d’une substance (C) indique la capacité de cette substance d'absorber ou de dégager de la chaleur. C'est la quantité de chaleur qu’un gramme d'une substance doit absorber pour élever sa température d’un degré Celsius. Cette grandeur est exprimée en $[J/(K \cdot g)]$. Chaque substance a une capacité thermique qui lui est propre, celle de l'eau est de 4.18 $[J/(K \cdot g)]$.
-
-Plus la capacité thermique d'une substance est élevée, plus il faut la chauffer pour augmenter sa température. Une substance ayant une faible capacité thermique se réchauffe rapidement, mais se refroidit aussi rapidement.
-
-La quantité de chaleur, q, absorbée par une substance est le produit de sa chaleur spécifique (C), de sa masse et de la variation de température :
-
-$$
-\begin{split}
-q = m \cdot C \cdot \Delta T.
-\end{split}
-\qquad
-\begin{split}
-q & \text{: quantité de chaleur}\ [J] \\
-m & \text{: masse}\ [J/(K \cdot g)] \\
-C & \text{: capacité thermique}\ [J/(K \cdot g)] \\
-\Delta T & \text{: différence de température}\ [K]
-\end{split}
-$$
-
-Un calorimètre mesure le changement de température accompagnant un processus. Le changement de température d'un calorimètre dépend de sa capacité thermique, c'est-à-dire de la quantité de chaleur nécessaire pour élever sa température de 1 K.
-
-Si une expérience de calorimétrie est réalisée sous une pression constante, la chaleur transférée fournit une mesure directe de la variation d'enthalpie de la réaction. La calorimétrie à volume constant est réalisée dans un récipient de volume fixe appelé calorimètre à bombe. La chaleur transférée dans des conditions de volume constant est égale à ∆E. Des corrections peuvent être appliquées aux valeurs de ∆E pour donner ∆H.
 
 \clearpage
 
