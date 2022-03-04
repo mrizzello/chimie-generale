@@ -2,10 +2,16 @@
 
 ::: {.objectives data-latex=""}
 
-- Expliquer les notions de solubilité et de saturation, et de quoi elles dépendent.
-- Prédire si une molécule est soluble.
-- Donner l'équation de dissociation d'une molécule.
-- Identifier ce qu'est un électrolyte.
+- Définir les termes solution, soluté et solvant.
+- Identifier si un mélange donné est une solution.
+- Définir les conditions d'une solution saturée, insaturée et sursaturée.
+- Identifier et décrire les facteurs qui influencent la solubilité d'une substance.
+- Définir les notions de solubilité et de saturation, et de quoi elles dépendent.
+- Prédire si une molécule est soluble et si elle forme une solution électrolyte.
+- Donner l'équation de dissociation d'un sel.
+- Définir la molarité et le titre.
+- Convertir une molarité en titre et vice-versa.
+- Expliquer comment préparer une solution.
 
 :::
 
