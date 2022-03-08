@@ -1,6 +1,6 @@
 ::: {.Exercise data-latex=""}
 
-Une pile électrochimique est constituée d'une électrode de Mg dans une solution de Mg(NO~3~)~2~ à 1.0 [M] et d'une électrode de Sn dans une solution de Sn(NO~3~)~2~ à 1.0 [M]. Déterminez les deux demi-réactions et la réaction globale de la pile et calculez le potentiel de cette pile aux conditions standard.
+Une pile électrochimique est constituée d'une électrode de Mg dans une solution de Mg(NO~3~)~2~ à 1.0 [M] et d'une électrode de Sn dans une solution de Sn(NO~3~)~2~ à 1.0 [M]. Déterminez les deux demi-réactions et la réaction globale de la pile et calculez le potentiel de cette pile aux conditions standard. (Sn^2+^/Sn : -0.14 [V] et Mg^2+^/Mg : -2.37 [V]).
 
 \vspace{\stretch{1}}
 
