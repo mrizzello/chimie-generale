@@ -325,7 +325,17 @@ knitr::include_graphics(c("images/preparation-2.png"))
 Lors d'une dilution, **le volume de solution augmente mais la quantité de soluté reste la même**. On peut généraliser le calcul lors de la dissolution d'une solution par la relation suivante :
 
 $$
-C_1 \cdot V_1 = C_2 \cdot V_2
+\begin{split}
+C_i \cdot V_i = C_f \cdot V_f
+\end{split}
+\qquad
+\begin{split}
+  & \text{avec} \\
+  C_i & \text{: concentration initiale} \\
+  V_i & \text{: volume initial} \\
+  C_f & \text{: concentration finale} \\
+  V_i & \text{: concentration final}
+\end{split}
 $$
 
 \newpage
