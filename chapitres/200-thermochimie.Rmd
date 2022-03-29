@@ -80,7 +80,7 @@ La quantité de chaleur, $q$, absorbée par une substance est le produit de sa c
 
 $$
 \begin{split}
-q = m \cdot C \cdot \Delta T.
+q = m \cdot C \cdot \Delta T
 \end{split}
 \qquad
 \begin{split}
@@ -167,10 +167,12 @@ $$
 \Delta H = H _{\text{produits}} − H _{\text{réactifs}}
 $$
 
+\clearpage
+
 |          Réaction exothermique           |          Réaction endothermique          |
 |:----------------------------------------:|:----------------------------------------:|
 |            $\Delta H$ négatif            |            $\Delta H$ positif            |
-| ![](images/enthalpie-1-1.png){width=30%} | ![](images/enthalpie-1-2.png){width=30%} |
+| ![](images/enthalpie-1-exo.png){width=30%} | ![](images/enthalpie-1-endo.png){width=30%} |
 
 Si la valeur est positive, la réaction est endothermique alors que si la valeur obtenue est négative, la réaction est exothermique.
 
@@ -281,18 +283,17 @@ Il est correct de dire :
 
 On a donc le choix de la substance de référence, mais il faut le mentionner dans l'unité.
 
-\clearpage
 
 ```{r, child=c('exe/thermochimie-50.Rmd')}
 ```
+
+\clearpage
 
 ```{r, child=c('exe/thermochimie-60.Rmd')}
 ```
 
 ```{r, child=c('exe/thermochimie-70.Rmd')}
 ```
-
-\clearpage
 
 ## La loi de Hess
 
@@ -308,6 +309,8 @@ $$
 \ce{2 NO(g) + O2 -> 2NO2(g)}
 \end{split}
 $$
+
+\clearpage
 
 La variation d'enthalpie lors d'une réaction ne dépend que de l'état initial des réactifs et de l'état final des produits si la transformation s'effectue soit à volume constant, soit à pression constante.
 
@@ -379,6 +382,13 @@ $$
 
 ```{r enthalpie-3,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Diagramme d'enthalpie de la combustion du propane."}
 knitr::include_graphics(c("images/Enthalpie-3.png"))
+```
+
+\clearpage
+
+## Exercices supplémentaires
+
+```{r, child=c('exe/thermochimie-80.Rmd')}
 ```
 
 \clearpage

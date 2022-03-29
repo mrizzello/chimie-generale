@@ -1,0 +1,42 @@
+::: {.Exercise data-latex=""}
+
+Un calorimètre à glace permet de mesurer des quantités de chaleur en déterminant la quantité de glace fondue. Combien de grammes de glace peut-on faire fondre grâce à la chaleur libérée par la combustion de 875 mL de CH~4~ gazeux, mesurés à 25 °C et à 99.7 kPa ?
+
+$$
+\begin{split}
+\ce{CH4(g) + 2 O2(g) -> CO2(g) + 2 H2O(l)} \qquad & \Delta H = - 890.3\ [kJ] \\
+\ce{H2O(s) -> H2O(l)} \qquad & \Delta H_{fusion} = 6.01\ [kJ]
+\end{split}
+$$
+
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+$$
+\ce{CH4(g) + 2 O2(g) -> CO2(g) + 2 H2O(l)} \qquad \Delta H = - 890.3\ [kJ]
+$$
+
+Calcul de la quantité de $\ce{CH4}$ brûlée :
+
+$$
+\begin{split}
+p \cdot V = n \cdot R \cdot T
+\end{split}
+\qquad
+\begin{split}
+\Rightarrow n &= \frac{p \cdot V}{R \cdot T} = \frac{99.7 \cdot 10^{3}\ [Pa] \cdot 8.75 \cdot 10{-4}\ [m^3]}{8.314\ [\frac{J}{K \cdot mol}] \cdot 298.15\ [K]} \\
+ &= 0.0352\ [mol] \text{ de \ce{CH4}}
+\end{split}
+$$
+
+- La combustion de 1 mole de $\ce{CH4}$ va libérer 890.3 [kJ] donc,
+- La combustion de 0.0352 mole de $\ce{CH4}$ va libérer $0.0352\ [mol] \cdot 890.3 [\frac{kJ}{mol}] = 28.49\ [kJ]$.
+
+
+- 6.01 [kJ] feront fondre 18.016 grammes d'eau donc,
+- 28.49 [kJ] feront fondre _85.40_ grammes d'eau.
+
+:::
