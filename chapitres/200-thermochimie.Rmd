@@ -123,8 +123,8 @@ En tenant compte de l'énergie échangée dans une équation chimique, on peut l
 
 $$
 \begin{split}
-  \text{Réactifs} & \rightarrow \text{Produits} + \text{Énergie} \\
-  \text{Énergie} + \text{Réactifs} & \rightarrow \text{Produits}
+  \text{Réactifs} & \rightarrow \text{Produits} + \text{Chaleur} \\
+  \text{Chaleur} + \text{Réactifs} & \rightarrow \text{Produits}
 \end{split}
 \quad
 \begin{split}
