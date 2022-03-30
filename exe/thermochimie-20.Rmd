@@ -10,16 +10,16 @@ Un morceau de métal inconnu pèse 348 [g]. Lorsque le morceau de métal absorbe
 
 $$
 \begin{split}
-q_{\ce{m}} &= m_{\ce{m}} \cdot C_{\ce{m}} \cdot \Delta T_{\ce{m}}
+q_{\ce{m}} &= m_{\ce{m}} \cdot C_{p\ \ce{m}} \cdot \Delta T_{\ce{m}}
 \end{split}
 \qquad \Rightarrow \qquad
 \begin{split}
-C_{\ce{m}} &= \frac{q_{\ce{m}}}{m_{\ce{m}} \cdot \Delta T_{\ce{m}}} \\
+C_{p\ \ce{m}} &= \frac{q_{\ce{m}}}{m_{\ce{m}} \cdot \Delta T_{\ce{m}}} \\
  &= \frac{6.64 \cdot 10^3\ [J]}{348\ [g] \cdot (43.6 - 22.4)} \\
  &= 0.900\ [J/(K \cdot g)] \\
 \end{split}
 $$
 
-Le métal pourrait être de l'aluminium $C_{\ce{Al}} = 0.897\ [J/(K \cdot g)]$.
+Le métal pourrait être de l'aluminium $C_{p\ \ce{Al}} = 0.897\ [J/(K \cdot g)]$.
 
 :::

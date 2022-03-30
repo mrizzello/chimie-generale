@@ -19,13 +19,13 @@ $$
 
 $$
 \begin{split}
-q_{\text{dégagée}} &= m_1 \cdot C_1 \cdot \Delta T_1 \\
+q_{\text{dégagée}} &= m_1 \cdot C_{p\ 1} \cdot \Delta T_1 \\
   &= 35\ [g] \cdot 4.184\ [J/(K \cdot g)] \cdot (T_f - 80) \\
   &= 146.44 \cdot T_f - 11715.2 \\
 \end{split}
 \qquad
 \begin{split}
-q_{\text{absorbée}} &= m_2 \cdot C_2 \cdot \Delta T_2 \\
+q_{\text{absorbée}} &= m_2 \cdot C__{p\ 2} \cdot \Delta T_2 \\
   &= 25\ [g] \cdot 4.184\ [J/(K \cdot g)] \cdot (T_f - 23) \\
   &= 104.6 \cdot T_f - 2405.8 \\
 \end{split}
