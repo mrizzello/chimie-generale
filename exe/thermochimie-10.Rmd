@@ -10,7 +10,7 @@
 
 $$
 \begin{split}
-q_{\ce{H2O}} &= m_{\ce{H2O}} \cdot C_{\ce{H2O}} \cdot \Delta T_{\ce{H2O}} \\
+q_{\ce{H2O}} &= m_{\ce{H2O}} \cdot C_{p\ \ce{H2O}} \cdot \Delta T_{\ce{H2O}} \\
  &= 800\ [g] \cdot 4.184 [J/(K \cdot g)] \cdot (85-21) \\
  &= 214221\ [J] =  214.2\ [kJ]
 \end{split}

@@ -80,13 +80,13 @@ La quantité de chaleur, $q$, absorbée par une substance est le produit de sa c
 
 $$
 \begin{split}
-q = m \cdot C \cdot \Delta T
+q = m \cdot C_p \cdot \Delta T
 \end{split}
 \qquad
 \begin{split}
 q & \text{: quantité de chaleur}\ [J] \\
-m & \text{: masse}\ [J/(K \cdot g)] \\
-C & \text{: capacité thermique}\ [J/(K \cdot g)] \\
+m & \text{: masse}\ [g] \\
+C_p & \text{: capacité thermique}\ [J/(K \cdot g)] \\
 \Delta T & \text{: différence de température}\ [K]
 \end{split}
 $$
