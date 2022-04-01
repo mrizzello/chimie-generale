@@ -18,7 +18,7 @@ $$
   (\ce{H-H}) \times 2 = -432 \cdot 2 &= -864\ [kJ] \\
   (\ce{O=O}) \times 1 = -498 \cdot 1 &= -498\ [kJ] \\
   \hline
-  total &= 1362\ [kJ]
+  total &= -1362\ [kJ]
 \end{split}
 \qquad
 \begin{split}
