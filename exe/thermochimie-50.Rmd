@@ -1,6 +1,6 @@
 ::: {.Exercise data-latex=""}
 
-Estimer le $\Delta H$, en [kJ/mol], de la réaction entre le dihydrogène et le dioxygène pour former de l'eau et indiquez si la réaction est endo- ou exothermique.
+Estimer le $\Delta H$, en [kJ], de la réaction entre le dihydrogène et le dioxygène pour former de l'eau et indiquez si la réaction est endo- ou exothermique.
 
 \vspace{\stretch{1}}
 
@@ -32,7 +32,7 @@ $$
 $$
 \begin{split}
 \Delta H &= \Sigma\ E^{liaison}_{\text{produits}} - \Sigma\ E^{liaison}_{\text{réactifs}} \\
-  &= -1868-(-1362) = -506\ [kJ/mol]
+  &= -1868-(-1362) = -506\ [kJ]
 \end{split}
 $$
 
