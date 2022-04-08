@@ -18,7 +18,7 @@ Complétez et équilibrez les équations de combinaison suivantes.
 
 2. $\ce{O2 + 2 H2 -> 2 H2O}$
 
-3. $\ce{2Al + 6S -> 2Al2S3}$
+3. $\ce{2Al + 3S -> Al2S3}$
 
 4. $\ce{H2 + Cl2 -> 2 HCl}$
 
