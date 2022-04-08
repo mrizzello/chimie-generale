@@ -17,7 +17,7 @@ Pour chaque équation de précipitation de l'exercice précédent, écrire les �
 1. $\qquad \ce{Zn^{2+} + 2Cl^{–} + 2Na^{+} + 2OH^{–} -> Zn(OH)2 v + 2Na^{+} + 2Cl^{–}}$  
   $\qquad \ce{Zn^{2+} + 2OH^{–} -> Zn(OH)2 v}$
 
-2. $\qquad \ce{ 2Al^{3+} + 6NO3^{–} + 3Ba^{2+} + 6OH^{–} -> 2Al(OH)3 v + 3Ba^{–} + 6NO3^{–}}$  
+2. $\qquad \ce{ 2Al^{3+} + 6NO3^{–} + 3Ba^{2+} + 6OH^{–} -> 2Al(OH)3 v + 3Ba^{2+} + 6NO3^{–}}$  
   $\qquad \ce{ 2Al^{3+} + 6OH^{–} -> 2Al(OH)3 v}$
 
 3. mélange, pas de réaction
