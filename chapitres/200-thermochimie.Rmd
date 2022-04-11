@@ -1,5 +1,18 @@
 # Thermochimie
 
+::: {.objectives data-latex=""}
+
+- Définir les notions d'énergie et de travail.
+- Énoncer la loi de la conservation de l'énergie ainsi que la première loi de la thermodynamique.
+- Utilisez la capacité thermique pour calculer des pertes ou des gains de chaleur.
+- Décrire le fonctionnement d'un calorimètre.
+- Définir les notions d'enthalpie et de variation d'enthalpie.
+- Décrire comment la quantité de chaleur d'une réaction est reliée aux quantités de substances.
+- Décrire comment l'enthaplie de réaction est reliée à l'exo/endo-thermie.
+- Utiliser la loi de Hess pour déduire la valeur d'une enthalpie inconnue.
+
+:::
+
 L'énergie est à l'origine de toute transformation physique ou chimique. Aussi bien dans la transformation d'énergie lumineuse en énergie chimique lors de la photosynthèse, ou encore la libération d'énergie sous forme de lumière et de chaleur lors de la combustion d'une bûche, l'énergie rend la vie possible.
 
 La thermodynamique est l'étude de l'énergie et de ses transformations. Dans ce chapitre, nous allons nous concentrer sur la thermochimie, c'est-à-dire les transferts d'énergie, et en particulier de chaleur, au cours des réactions chimiques.
@@ -16,6 +29,8 @@ Capacité à fournir un travail ou à transférer de la chaleur.
 Contrairement à la matière, l'énergie n'a pas de masse et ne peut être tenue dans nos mains, mais ses effets peuvent être observés et mesurés. L'énergie est une grandeur physique qui caractérise l'état d'un système et qui, de manière globale, est conservée au cours des transformations.  **Le travail** est l'énergie utilisée pour déplacer un objet contre une force et **la chaleur** est l'énergie utilisée pour faire augmenter la température d'un objet.
 
 En chimie, le travail est défini comme une transfert d'énergie, résultant d'une transformation.
+
+\clearpage
 
 Un objet peut posséder de l'énergie sous différentes formes :
 
@@ -94,10 +109,10 @@ $$
 ```{r, child=c('exe/thermochimie-10.Rmd')}
 ```
 
+\clearpage
+
 ```{r, child=c('exe/thermochimie-20.Rmd')}
 ```
-
-\clearpage
 
 ```{r, child=c('exe/thermochimie-30.Rmd')}
 ```
@@ -110,6 +125,7 @@ Le transfert d'énergie thermique accompagnant une réaction chimique est respon
 
 La quantité de chaleur absorbée ou libérée par le calorimètre est égale et de signe opposé à la quantité de chaleur produite ou consommée par la réaction.
 
+\clearpage
 
 ## Réactions exothermiques et endothermiques
 
@@ -166,8 +182,6 @@ Pour déterminer la variation d'enthalpie, on effectue la différence entre l'en
 $$
 \Delta H = H _{\text{produits}} − H _{\text{réactifs}}
 $$
-
-\clearpage
 
 |          Réaction exothermique           |          Réaction endothermique          |
 |:----------------------------------------:|:----------------------------------------:|
@@ -230,6 +244,8 @@ $$
 
 Dans toute réaction chimique, certaines liaisons des réactifs sont rompues et de nouvelles liaisons sont formées dans les produits. La différence entre l'énergie thermique absorbée lors de la rupture des liaisons et l'énergie thermique libérée lors de la formation des liaisons est la chaleur de réaction.
 
+\clearpage
+
 ### Bilan énergétique d'une réaction
 
 Lorsque l'énergie totale des liaisons formées dans les produits **est supérieure** à l'énergie totale des liaisons rompues dans les réactifs, il en résulte que de l'énergie est libérée et la réaction est exothermique. Prenons par exemple la combustion d'une mole de méthane.
@@ -283,17 +299,18 @@ Il est correct de dire :
 
 On a donc le choix de la substance de référence, mais il faut le mentionner dans l'unité.
 
+\clearpage
 
 ```{r, child=c('exe/thermochimie-50.Rmd')}
 ```
-
-\clearpage
 
 ```{r, child=c('exe/thermochimie-60.Rmd')}
 ```
 
 ```{r, child=c('exe/thermochimie-70.Rmd')}
 ```
+
+\clearpage
 
 ## La loi de Hess
 
@@ -309,8 +326,6 @@ $$
 \ce{2 NO(g) + O2 -> 2NO2(g)}
 \end{split}
 $$
-
-\clearpage
 
 La variation d'enthalpie lors d'une réaction ne dépend que de l'état initial des réactifs et de l'état final des produits si la transformation s'effectue soit à volume constant, soit à pression constante.
 
@@ -335,6 +350,7 @@ $$
 ```{r enthalpie-2,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Diagramme d'enthalpie de la combustion du méthane."}
 knitr::include_graphics(c("images/Enthalpie-2.png"))
 ```
+\clearpage
 
 Pour déterminer la chaleur d'une réaction par la loi de Hess, on doit suivre certaines règles.
 
@@ -350,6 +366,8 @@ Nous pouvons utiliser la loi de Hess pour calculer les variations d'enthalpie po
 Une transformation importante utilisée en thermochimie est la **chaleur de formation** ou **enthalpie de formation**. Elle est représentée par le symboles $\Delta H^{0}_{f}$. L'indice "f" indique la réaction de formation du composé et l'indice "0", indique que cette valeur est mesurée aux conditions standard de température et pression. On parlera de l'**enthalpie standard de formation** d'un composé.
 
 L'**enthalpie de formation** est importante dans la mesure où elle nous permet de calculer une **enthalpie de réaction**.
+
+\vspace{\stretch{1}}
 
 Prenons, par exemple, la combustion du propane aux conditions standards :
 
@@ -383,8 +401,6 @@ $$
 ```{r enthalpie-3,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Diagramme d'enthalpie de la combustion du propane."}
 knitr::include_graphics(c("images/Enthalpie-3.png"))
 ```
-
-\clearpage
 
 ## Exercices supplémentaires
 
