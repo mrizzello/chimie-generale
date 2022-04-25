@@ -1,4 +1,4 @@
-# Types de réaction
+# Types de réactions
 
 ::: {.objectives data-latex=""}
 
