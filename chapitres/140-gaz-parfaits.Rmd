@@ -85,6 +85,25 @@ $$
 
 \newpage
 
+## La loi des gaz parfaits
+
+La loi générale des gaz permet de comparer les caractéristiques d'un gaz entre une situation initiale et une situation finale. Toutefois, cette formule n'est pas utile lorsqu'on veut déterminer les caractéristiques d'un gaz à un moment précis. La loi des gaz parfaits combine les lois simples des gaz en une seule expression.
+
+$$
+P \cdot V = n \cdot R \cdot T
+$$
+
+- P : pression en $\left[Pa\right]$
+- V : volume en $\left[m^3\right]$
+- n : quantité de matière en $\left[mol\right]$
+- T : température absolue en $\left[K\right]$
+- R = **8.314** $\left[\frac{J}{mol \cdot K}\right]$ (constante des gaz parfaits)
+
+Avec cette relation, nous pouvons convertir le volume d'un gaz en quantité de matière en connaissant la pression et le température. Le volume, la pression et la température d'un gaz sont plus faciles à mesurer que la masse, et la masse molaire du gaz n'intervient pas.
+
+```{r, child=c('exe/gaz-parfaits-30.Rmd')}
+```
+
 ### Les unités des gaz
 
 #### Le volume
@@ -125,25 +144,6 @@ $$
 1.013 \left[bar\right] =
 760 \left[mmHg\right]
 $$
-
-## La loi des gaz parfaits
-
-La loi générale des gaz permet de comparer les caractéristiques d'un gaz entre une situation initiale et une situation finale. Toutefois, cette formule n'est pas utile lorsqu'on veut déterminer les caractéristiques d'un gaz à un moment précis. La loi des gaz parfaits combine les lois simples des gaz en une seule expression.
-
-$$
-P \cdot V = n \cdot R \cdot T
-$$
-
-- P : pression en $\left[Pa\right]$
-- V : volume en $\left[m^3\right]$
-- n : quantité de matière en $\left[mol\right]$
-- T : température absolue en $\left[K\right]$
-- R = **8.314** $\left[\frac{J}{mol \cdot K}\right]$ (constante des gaz parfaits)
-
-Avec cette relation, nous pouvons convertir le volume d'un gaz en quantité de matière en connaissant la pression et le température. Le volume, la pression et la température d'un gaz sont plus faciles à mesurer que la masse, et la masse molaire du gaz n'intervient pas.
-
-```{r, child=c('exe/gaz-parfaits-30.Rmd')}
-```
 
 \newpage
 
