@@ -1,4 +1,5 @@
 book_filename: "chimie-generale"
+output_dir: "docs"
 language:
   ui:
     chapter_name: "Chapitre "
