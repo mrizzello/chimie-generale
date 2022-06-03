@@ -74,7 +74,7 @@ $$
 En combinant les lois simples des gaz, on peut établir une relation qui permet de comparer les variables après qu'un gaz ait subi des changements, en comparant une situation initiale (1) avec une situation finale (2).
 
 $$
-\frac{P_1 \cdot V_1}{n_1 \cdot T_1} = \frac{P_2 \cdot V_2}{n_2 \cdot T_2} \qquad \text{(loi générale des gaz)}
+\frac{P_1 \cdot V_1}{T_1} = \frac{P_2 \cdot V_2}{T_2} \qquad \text{(loi générale des gaz)}
 $$
 
 ```{r, child=c('exe/gaz-parfaits-10.Rmd')}
