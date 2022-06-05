@@ -1,0 +1,48 @@
+\widowpenalty10000
+\clubpenalty10000
+
+\usepackage{tcolorbox}
+\newtcolorbox{objectives}{
+  standard jigsaw,
+  opacityback=0,
+  colframe=black,
+  boxrule=1pt}
+
+\renewcommand{\arraystretch}{1.5}
+
+\usepackage{multicol}
+
+\usepackage{booktabs}
+\usepackage{amsthm}
+\usepackage{cancel}
+\usepackage{gensymb}
+\usepackage[version=4]{mhchem}
+\usepackage{tabto}
+
+\usepackage[answerdelayed,lastexercise]{exercise}
+\renewcommand{\ExerciseName}{Exercice}
+\renewcommand{\AnswerName}{Solution de l'exercice}
+
+\usepackage{fancyhdr}
+\setlength{\headheight}{14pt}
+\pagestyle{fancy}
+\lhead{}
+\chead{}
+\rhead{\leftmark}
+\lfoot{GNLC - 2021/2022}
+\cfoot{}
+\rfoot{\thepage}
+\renewcommand{\headrulewidth}{0.2pt}
+\renewcommand{\footrulewidth}{0.2pt}
+\renewcommand{\chaptermark}[1]{\markboth{\thechapter.\space#1}{}}
+
+\makeatletter
+\def\thm@space@setup{%
+  \thm@preskip=8pt plus 2pt minus 4pt
+  \thm@postskip=\thm@preskip
+}
+\makeatother
+
+\newenvironment{credit}
+  {\vspace{-2em}\begin{center}\begin{footnotesize}\begin{textit}}
+  {\end{textit}\end{footnotesize}\end{center}}
