@@ -28,4 +28,4 @@ rmd_files:
   - "chapitres/200-thermochimie.Rmd"
   # - "chapitres/210-chimie-organique.Rmd"
   # - "chapitres/220-produit-solubilite.Rmd"
-  # - "chapitres/00-references.Rmd"
+  - "chapitres/00-references.Rmd"
