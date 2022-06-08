@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapitre 18 Les réactions d’oxydoréduction | Cours de chimie générale</title>
   <meta name="description" content="Support du cours de chimie générale | Maturité gymnasiale | Gymnase de Nyon-la Côte" />
-  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.26 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapitre 18 Les réactions d’oxydoréduction | Cours de chimie générale" />
   <meta property="og:type" content="book" />
-  
   
   <meta property="og:description" content="Support du cours de chimie générale | Maturité gymnasiale | Gymnase de Nyon-la Côte" />
   <meta name="github-repo" content="mrizzello/chimie-generale" />
@@ -33,8 +32,8 @@
   
 <link rel="prev" href="les-acides-et-les-bases.html"/>
 <link rel="next" href="électrochimie.html"/>
-<script src="libs/header-attrs-2.9/header-attrs.js"></script>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -50,9 +49,10 @@
 
 
 
-
-<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     TeX: { extensions: ["mhchem.js","cancel.js"] },
@@ -89,10 +89,8 @@
 
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Préambule</a></li>
-<li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
-<ul>
-<li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#propriétés-et-transformations"><i class="fa fa-check"></i><b>1.1</b> Propriétés et transformations</a>
-<ul>
+<li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a><ul>
+<li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#propriétés-et-transformations"><i class="fa fa-check"></i><b>1.1</b> Propriétés et transformations</a><ul>
 <li class="chapter" data-level="1.1.1" data-path="introduction.html"><a href="introduction.html#propriétés-physiques"><i class="fa fa-check"></i><b>1.1.1</b> Propriétés physiques</a></li>
 <li class="chapter" data-level="1.1.2" data-path="introduction.html"><a href="introduction.html#propriétés-chimiques"><i class="fa fa-check"></i><b>1.1.2</b> Propriétés chimiques</a></li>
 <li class="chapter" data-level="1.1.3" data-path="introduction.html"><a href="introduction.html#transformations-physiques"><i class="fa fa-check"></i><b>1.1.3</b> Transformations physiques</a></li>
@@ -103,8 +101,7 @@
 <li class="chapter" data-level="1.4" data-path="introduction.html"><a href="introduction.html#multiples-des-unités"><i class="fa fa-check"></i><b>1.4</b> Multiples des unités</a></li>
 <li class="chapter" data-level="1.5" data-path="introduction.html"><a href="introduction.html#exercices-supplémentaires"><i class="fa fa-check"></i><b>1.5</b> Exercices supplémentaires</a></li>
 </ul></li>
-<li class="chapter" data-level="2" data-path="les-états-de-la-matière.html"><a href="les-états-de-la-matière.html"><i class="fa fa-check"></i><b>2</b> Les états de la matière</a>
-<ul>
+<li class="chapter" data-level="2" data-path="les-états-de-la-matière.html"><a href="les-états-de-la-matière.html"><i class="fa fa-check"></i><b>2</b> Les états de la matière</a><ul>
 <li class="chapter" data-level="2.1" data-path="les-états-de-la-matière.html"><a href="les-états-de-la-matière.html#les-représentations-en-chimie"><i class="fa fa-check"></i><b>2.1</b> Les représentations en chimie</a></li>
 <li class="chapter" data-level="2.2" data-path="les-états-de-la-matière.html"><a href="les-états-de-la-matière.html#solide-liquide-et-gaz"><i class="fa fa-check"></i><b>2.2</b> Solide, liquide et gaz</a></li>
 <li class="chapter" data-level="2.3" data-path="les-états-de-la-matière.html"><a href="les-états-de-la-matière.html#mouvement-thermique-et-forces-intermoléculaires"><i class="fa fa-check"></i><b>2.3</b> Mouvement thermique et forces intermoléculaires</a></li>
@@ -112,26 +109,22 @@
 <li class="chapter" data-level="2.5" data-path="les-états-de-la-matière.html"><a href="les-états-de-la-matière.html#les-courbes-de-changement-détat"><i class="fa fa-check"></i><b>2.5</b> Les courbes de changement d’état</a></li>
 <li class="chapter" data-level="2.6" data-path="les-états-de-la-matière.html"><a href="les-états-de-la-matière.html#les-diagrammes-de-phases"><i class="fa fa-check"></i><b>2.6</b> Les diagrammes de phases</a></li>
 <li class="chapter" data-level="2.7" data-path="les-états-de-la-matière.html"><a href="les-états-de-la-matière.html#létat-liquide"><i class="fa fa-check"></i><b>2.7</b> L’état liquide</a></li>
-<li class="chapter" data-level="2.8" data-path="les-états-de-la-matière.html"><a href="les-états-de-la-matière.html#létat-solide"><i class="fa fa-check"></i><b>2.8</b> L’état solide</a>
-<ul>
+<li class="chapter" data-level="2.8" data-path="les-états-de-la-matière.html"><a href="les-états-de-la-matière.html#létat-solide"><i class="fa fa-check"></i><b>2.8</b> L’état solide</a><ul>
 <li class="chapter" data-level="2.8.1" data-path="les-états-de-la-matière.html"><a href="les-états-de-la-matière.html#les-solides-amorphes"><i class="fa fa-check"></i><b>2.8.1</b> Les solides amorphes</a></li>
 <li class="chapter" data-level="2.8.2" data-path="les-états-de-la-matière.html"><a href="les-états-de-la-matière.html#les-solides-cristallins"><i class="fa fa-check"></i><b>2.8.2</b> Les solides cristallins</a></li>
 <li class="chapter" data-level="2.8.3" data-path="les-états-de-la-matière.html"><a href="les-états-de-la-matière.html#allotropes"><i class="fa fa-check"></i><b>2.8.3</b> Allotropes</a></li>
 </ul></li>
 <li class="chapter" data-level="2.9" data-path="les-états-de-la-matière.html"><a href="les-états-de-la-matière.html#exercices-supplémentaires-1"><i class="fa fa-check"></i><b>2.9</b> Exercices supplémentaires</a></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="mélanges-et-corps-purs.html"><a href="mélanges-et-corps-purs.html"><i class="fa fa-check"></i><b>3</b> Mélanges et corps purs</a>
-<ul>
+<li class="chapter" data-level="3" data-path="mélanges-et-corps-purs.html"><a href="mélanges-et-corps-purs.html"><i class="fa fa-check"></i><b>3</b> Mélanges et corps purs</a><ul>
 <li class="chapter" data-level="3.1" data-path="mélanges-et-corps-purs.html"><a href="mélanges-et-corps-purs.html#corps-pur-simple"><i class="fa fa-check"></i><b>3.1</b> Corps pur simple</a></li>
 <li class="chapter" data-level="3.2" data-path="mélanges-et-corps-purs.html"><a href="mélanges-et-corps-purs.html#corps-pur-composé"><i class="fa fa-check"></i><b>3.2</b> Corps pur composé</a></li>
-<li class="chapter" data-level="3.3" data-path="mélanges-et-corps-purs.html"><a href="mélanges-et-corps-purs.html#les-mélanges"><i class="fa fa-check"></i><b>3.3</b> Les mélanges</a>
-<ul>
+<li class="chapter" data-level="3.3" data-path="mélanges-et-corps-purs.html"><a href="mélanges-et-corps-purs.html#les-mélanges"><i class="fa fa-check"></i><b>3.3</b> Les mélanges</a><ul>
 <li class="chapter" data-level="3.3.1" data-path="mélanges-et-corps-purs.html"><a href="mélanges-et-corps-purs.html#les-mélanges-hétérogènes"><i class="fa fa-check"></i><b>3.3.1</b> Les mélanges hétérogènes</a></li>
 <li class="chapter" data-level="3.3.2" data-path="mélanges-et-corps-purs.html"><a href="mélanges-et-corps-purs.html#les-mélanges-homogènes"><i class="fa fa-check"></i><b>3.3.2</b> Les mélanges homogènes</a></li>
 <li class="chapter" data-level="3.3.3" data-path="mélanges-et-corps-purs.html"><a href="mélanges-et-corps-purs.html#les-dispersions"><i class="fa fa-check"></i><b>3.3.3</b> Les dispersions</a></li>
 </ul></li>
-<li class="chapter" data-level="3.4" data-path="mélanges-et-corps-purs.html"><a href="mélanges-et-corps-purs.html#méthodes-de-séparation"><i class="fa fa-check"></i><b>3.4</b> Méthodes de séparation</a>
-<ul>
+<li class="chapter" data-level="3.4" data-path="mélanges-et-corps-purs.html"><a href="mélanges-et-corps-purs.html#méthodes-de-séparation"><i class="fa fa-check"></i><b>3.4</b> Méthodes de séparation</a><ul>
 <li class="chapter" data-level="3.4.1" data-path="mélanges-et-corps-purs.html"><a href="mélanges-et-corps-purs.html#lattraction-magnétique"><i class="fa fa-check"></i><b>3.4.1</b> L’attraction magnétique</a></li>
 <li class="chapter" data-level="3.4.2" data-path="mélanges-et-corps-purs.html"><a href="mélanges-et-corps-purs.html#la-filtration"><i class="fa fa-check"></i><b>3.4.2</b> La filtration</a></li>
 <li class="chapter" data-level="3.4.3" data-path="mélanges-et-corps-purs.html"><a href="mélanges-et-corps-purs.html#la-vaporisation"><i class="fa fa-check"></i><b>3.4.3</b> La vaporisation</a></li>
@@ -144,22 +137,18 @@
 </ul></li>
 <li class="chapter" data-level="3.5" data-path="mélanges-et-corps-purs.html"><a href="mélanges-et-corps-purs.html#exercices-supplémentaires-2"><i class="fa fa-check"></i><b>3.5</b> Exercices supplémentaires</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="historique.html"><a href="historique.html"><i class="fa fa-check"></i><b>4</b> Historique</a>
-<ul>
+<li class="chapter" data-level="4" data-path="historique.html"><a href="historique.html"><i class="fa fa-check"></i><b>4</b> Historique</a><ul>
 <li class="chapter" data-level="4.1" data-path="historique.html"><a href="historique.html#les-origines-de-la-matière"><i class="fa fa-check"></i><b>4.1</b> Les origines de la matière</a></li>
 <li class="chapter" data-level="4.2" data-path="historique.html"><a href="historique.html#le-modèle-atomique"><i class="fa fa-check"></i><b>4.2</b> Le modèle atomique</a></li>
 <li class="chapter" data-level="4.3" data-path="historique.html"><a href="historique.html#échelle-des-tailles"><i class="fa fa-check"></i><b>4.3</b> Échelle des tailles</a></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="latome.html"><a href="latome.html"><i class="fa fa-check"></i><b>5</b> L’atome</a>
-<ul>
+<li class="chapter" data-level="5" data-path="latome.html"><a href="latome.html"><i class="fa fa-check"></i><b>5</b> L’atome</a><ul>
 <li class="chapter" data-level="5.1" data-path="latome.html"><a href="latome.html#particules-subatomiques"><i class="fa fa-check"></i><b>5.1</b> Particules subatomiques</a></li>
-<li class="chapter" data-level="5.2" data-path="latome.html"><a href="latome.html#les-éléments"><i class="fa fa-check"></i><b>5.2</b> Les éléments</a>
-<ul>
+<li class="chapter" data-level="5.2" data-path="latome.html"><a href="latome.html#les-éléments"><i class="fa fa-check"></i><b>5.2</b> Les éléments</a><ul>
 <li class="chapter" data-level="5.2.1" data-path="latome.html"><a href="latome.html#les-symboles-et-les-noms"><i class="fa fa-check"></i><b>5.2.1</b> Les symboles et les noms</a></li>
 </ul></li>
 <li class="chapter" data-level="5.3" data-path="latome.html"><a href="latome.html#les-isotopes"><i class="fa fa-check"></i><b>5.3</b> Les isotopes</a></li>
-<li class="chapter" data-level="5.4" data-path="latome.html"><a href="latome.html#lunité-de-masse-atomique"><i class="fa fa-check"></i><b>5.4</b> L’unité de masse atomique</a>
-<ul>
+<li class="chapter" data-level="5.4" data-path="latome.html"><a href="latome.html#lunité-de-masse-atomique"><i class="fa fa-check"></i><b>5.4</b> L’unité de masse atomique</a><ul>
 <li class="chapter" data-level="5.4.1" data-path="latome.html"><a href="latome.html#le-défaut-de-masse"><i class="fa fa-check"></i><b>5.4.1</b> Le défaut de masse</a></li>
 </ul></li>
 <li class="chapter" data-level="5.5" data-path="latome.html"><a href="latome.html#la-masse-atomique"><i class="fa fa-check"></i><b>5.5</b> La masse atomique</a></li>
@@ -167,29 +156,24 @@
 <li class="chapter" data-level="5.7" data-path="latome.html"><a href="latome.html#la-masse-molaire-atomique"><i class="fa fa-check"></i><b>5.7</b> La masse molaire atomique</a></li>
 <li class="chapter" data-level="5.8" data-path="latome.html"><a href="latome.html#exercices-supplémentaires-3"><i class="fa fa-check"></i><b>5.8</b> Exercices supplémentaires</a></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="le-tableau-périodique.html"><a href="le-tableau-périodique.html"><i class="fa fa-check"></i><b>6</b> Le tableau périodique</a>
-<ul>
-<li class="chapter" data-level="6.1" data-path="le-tableau-périodique.html"><a href="le-tableau-périodique.html#la-classification-périodique"><i class="fa fa-check"></i><b>6.1</b> La classification périodique</a>
-<ul>
+<li class="chapter" data-level="6" data-path="le-tableau-périodique.html"><a href="le-tableau-périodique.html"><i class="fa fa-check"></i><b>6</b> Le tableau périodique</a><ul>
+<li class="chapter" data-level="6.1" data-path="le-tableau-périodique.html"><a href="le-tableau-périodique.html#la-classification-périodique"><i class="fa fa-check"></i><b>6.1</b> La classification périodique</a><ul>
 <li class="chapter" data-level="6.1.1" data-path="le-tableau-périodique.html"><a href="le-tableau-périodique.html#métaux-non-métaux-métalloïdes"><i class="fa fa-check"></i><b>6.1.1</b> Métaux, non-métaux, métalloïdes</a></li>
 <li class="chapter" data-level="6.1.2" data-path="le-tableau-périodique.html"><a href="le-tableau-périodique.html#les-périodes"><i class="fa fa-check"></i><b>6.1.2</b> Les périodes</a></li>
 <li class="chapter" data-level="6.1.3" data-path="le-tableau-périodique.html"><a href="le-tableau-périodique.html#les-familles"><i class="fa fa-check"></i><b>6.1.3</b> Les familles</a></li>
 </ul></li>
-<li class="chapter" data-level="6.2" data-path="le-tableau-périodique.html"><a href="le-tableau-périodique.html#interactions-rayonnement-matière"><i class="fa fa-check"></i><b>6.2</b> Interactions rayonnement-matière</a>
-<ul>
+<li class="chapter" data-level="6.2" data-path="le-tableau-périodique.html"><a href="le-tableau-périodique.html#interactions-rayonnement-matière"><i class="fa fa-check"></i><b>6.2</b> Interactions rayonnement-matière</a><ul>
 <li class="chapter" data-level="6.2.1" data-path="le-tableau-périodique.html"><a href="le-tableau-périodique.html#les-ondes-électromagnétiques"><i class="fa fa-check"></i><b>6.2.1</b> Les ondes électromagnétiques</a></li>
 <li class="chapter" data-level="6.2.2" data-path="le-tableau-périodique.html"><a href="le-tableau-périodique.html#le-spectre-électromagnétique"><i class="fa fa-check"></i><b>6.2.2</b> Le spectre électromagnétique</a></li>
 <li class="chapter" data-level="6.2.3" data-path="le-tableau-périodique.html"><a href="le-tableau-périodique.html#interactions-rayonnement-matière-1"><i class="fa fa-check"></i><b>6.2.3</b> Interactions rayonnement-matière</a></li>
 </ul></li>
-<li class="chapter" data-level="6.3" data-path="le-tableau-périodique.html"><a href="le-tableau-périodique.html#les-orbitales-atomiques"><i class="fa fa-check"></i><b>6.3</b> Les orbitales atomiques</a>
-<ul>
+<li class="chapter" data-level="6.3" data-path="le-tableau-périodique.html"><a href="le-tableau-périodique.html#les-orbitales-atomiques"><i class="fa fa-check"></i><b>6.3</b> Les orbitales atomiques</a><ul>
 <li class="chapter" data-level="6.3.1" data-path="le-tableau-périodique.html"><a href="le-tableau-périodique.html#la-configuration-électronique"><i class="fa fa-check"></i><b>6.3.1</b> La configuration électronique</a></li>
 <li class="chapter" data-level="6.3.2" data-path="le-tableau-périodique.html"><a href="le-tableau-périodique.html#déterminer-une-configuration-électronique"><i class="fa fa-check"></i><b>6.3.2</b> Déterminer une configuration électronique</a></li>
 </ul></li>
 <li class="chapter" data-level="6.4" data-path="le-tableau-périodique.html"><a href="le-tableau-périodique.html#les-électrons-de-valence"><i class="fa fa-check"></i><b>6.4</b> Les électrons de valence</a></li>
 <li class="chapter" data-level="6.5" data-path="le-tableau-périodique.html"><a href="le-tableau-périodique.html#la-règle-de-loctet"><i class="fa fa-check"></i><b>6.5</b> La règle de l’octet</a></li>
-<li class="chapter" data-level="6.6" data-path="le-tableau-périodique.html"><a href="le-tableau-périodique.html#les-ions"><i class="fa fa-check"></i><b>6.6</b> Les ions</a>
-<ul>
+<li class="chapter" data-level="6.6" data-path="le-tableau-périodique.html"><a href="le-tableau-périodique.html#les-ions"><i class="fa fa-check"></i><b>6.6</b> Les ions</a><ul>
 <li class="chapter" data-level="6.6.1" data-path="le-tableau-périodique.html"><a href="le-tableau-périodique.html#le-cation-ou-la-perte-délectrons"><i class="fa fa-check"></i><b>6.6.1</b> Le cation ou la perte d’électrons</a></li>
 <li class="chapter" data-level="6.6.2" data-path="le-tableau-périodique.html"><a href="le-tableau-périodique.html#lanion-ou-le-gain-délectrons"><i class="fa fa-check"></i><b>6.6.2</b> L’anion ou le gain d’électrons</a></li>
 <li class="chapter" data-level="6.6.3" data-path="le-tableau-périodique.html"><a href="le-tableau-périodique.html#les-ions-stables---groupe-a"><i class="fa fa-check"></i><b>6.6.3</b> Les ions stables - groupe A</a></li>
@@ -197,104 +181,85 @@
 </ul></li>
 <li class="chapter" data-level="6.7" data-path="le-tableau-périodique.html"><a href="le-tableau-périodique.html#exercices-supplémentaires-4"><i class="fa fa-check"></i><b>6.7</b> Exercices supplémentaires</a></li>
 </ul></li>
-<li class="chapter" data-level="7" data-path="les-liaisons-chimiques.html"><a href="les-liaisons-chimiques.html"><i class="fa fa-check"></i><b>7</b> Les liaisons chimiques</a>
-<ul>
-<li class="chapter" data-level="7.1" data-path="les-liaisons-chimiques.html"><a href="les-liaisons-chimiques.html#la-liaison-covalente-non-métal---non-métal"><i class="fa fa-check"></i><b>7.1</b> La liaison covalente | non-métal - non-métal</a>
-<ul>
+<li class="chapter" data-level="7" data-path="les-liaisons-chimiques.html"><a href="les-liaisons-chimiques.html"><i class="fa fa-check"></i><b>7</b> Les liaisons chimiques</a><ul>
+<li class="chapter" data-level="7.1" data-path="les-liaisons-chimiques.html"><a href="les-liaisons-chimiques.html#la-liaison-covalente-non-métal---non-métal"><i class="fa fa-check"></i><b>7.1</b> La liaison covalente | non-métal - non-métal</a><ul>
 <li class="chapter" data-level="7.1.1" data-path="les-liaisons-chimiques.html"><a href="les-liaisons-chimiques.html#la-covalence-de-coordination"><i class="fa fa-check"></i><b>7.1.1</b> La covalence de coordination</a></li>
 </ul></li>
 <li class="chapter" data-level="7.2" data-path="les-liaisons-chimiques.html"><a href="les-liaisons-chimiques.html#la-liaison-ionique-métal---non-métal"><i class="fa fa-check"></i><b>7.2</b> La liaison ionique | métal - non-métal</a></li>
-<li class="chapter" data-level="7.3" data-path="les-liaisons-chimiques.html"><a href="les-liaisons-chimiques.html#la-liaison-métallique-métal---métal"><i class="fa fa-check"></i><b>7.3</b> La liaison métallique | métal - métal</a>
-<ul>
+<li class="chapter" data-level="7.3" data-path="les-liaisons-chimiques.html"><a href="les-liaisons-chimiques.html#la-liaison-métallique-métal---métal"><i class="fa fa-check"></i><b>7.3</b> La liaison métallique | métal - métal</a><ul>
 <li class="chapter" data-level="7.3.1" data-path="les-liaisons-chimiques.html"><a href="les-liaisons-chimiques.html#les-alliages"><i class="fa fa-check"></i><b>7.3.1</b> Les alliages</a></li>
 </ul></li>
 <li class="chapter" data-level="7.4" data-path="les-liaisons-chimiques.html"><a href="les-liaisons-chimiques.html#lélectronégativité"><i class="fa fa-check"></i><b>7.4</b> L’électronégativité</a></li>
 <li class="chapter" data-level="7.5" data-path="les-liaisons-chimiques.html"><a href="les-liaisons-chimiques.html#exercices-supplémentaires-5"><i class="fa fa-check"></i><b>7.5</b> Exercices supplémentaires</a></li>
 </ul></li>
-<li class="chapter" data-level="8" data-path="molécules.html"><a href="molécules.html"><i class="fa fa-check"></i><b>8</b> Molécules</a>
-<ul>
+<li class="chapter" data-level="8" data-path="molécules.html"><a href="molécules.html"><i class="fa fa-check"></i><b>8</b> Molécules</a><ul>
 <li class="chapter" data-level="8.1" data-path="molécules.html"><a href="molécules.html#la-formule-brute"><i class="fa fa-check"></i><b>8.1</b> La formule brute</a></li>
-<li class="chapter" data-level="8.2" data-path="molécules.html"><a href="molécules.html#la-formule-développée"><i class="fa fa-check"></i><b>8.2</b> La formule développée</a>
-<ul>
+<li class="chapter" data-level="8.2" data-path="molécules.html"><a href="molécules.html#la-formule-développée"><i class="fa fa-check"></i><b>8.2</b> La formule développée</a><ul>
 <li class="chapter" data-level="8.2.1" data-path="molécules.html"><a href="molécules.html#dessiner-les-liaisons-ioniques-des-composés-binaires"><i class="fa fa-check"></i><b>8.2.1</b> Dessiner les liaisons ioniques des composés binaires</a></li>
 <li class="chapter" data-level="8.2.2" data-path="molécules.html"><a href="molécules.html#dessiner-les-liaisons-covalentes-des-composés-binaires"><i class="fa fa-check"></i><b>8.2.2</b> Dessiner les liaisons covalentes des composés binaires</a></li>
 <li class="chapter" data-level="8.2.3" data-path="molécules.html"><a href="molécules.html#dessiner-les-composés-ternaires"><i class="fa fa-check"></i><b>8.2.3</b> Dessiner les composés ternaires</a></li>
 </ul></li>
-<li class="chapter" data-level="8.3" data-path="molécules.html"><a href="molécules.html#les-ions-polyatomiques"><i class="fa fa-check"></i><b>8.3</b> Les ions polyatomiques</a>
-<ul>
+<li class="chapter" data-level="8.3" data-path="molécules.html"><a href="molécules.html#les-ions-polyatomiques"><i class="fa fa-check"></i><b>8.3</b> Les ions polyatomiques</a><ul>
 <li class="chapter" data-level="8.3.1" data-path="molécules.html"><a href="molécules.html#dessiner-les-composés-binaires-covalents-avec-un-atome-central"><i class="fa fa-check"></i><b>8.3.1</b> Dessiner les composés binaires covalents avec un atome central</a></li>
 </ul></li>
 <li class="chapter" data-level="8.4" data-path="molécules.html"><a href="molécules.html#la-masse-molaire-moléculaire"><i class="fa fa-check"></i><b>8.4</b> La masse molaire moléculaire</a></li>
-<li class="chapter" data-level="8.5" data-path="molécules.html"><a href="molécules.html#la-polarité"><i class="fa fa-check"></i><b>8.5</b> La polarité</a>
-<ul>
+<li class="chapter" data-level="8.5" data-path="molécules.html"><a href="molécules.html#la-polarité"><i class="fa fa-check"></i><b>8.5</b> La polarité</a><ul>
 <li class="chapter" data-level="8.5.1" data-path="molécules.html"><a href="molécules.html#molécules-polaires"><i class="fa fa-check"></i><b>8.5.1</b> Molécules polaires</a></li>
 <li class="chapter" data-level="8.5.2" data-path="molécules.html"><a href="molécules.html#molécules-non-polaires"><i class="fa fa-check"></i><b>8.5.2</b> Molécules non-polaires</a></li>
 </ul></li>
-<li class="chapter" data-level="8.6" data-path="molécules.html"><a href="molécules.html#forces-intermoléculaires"><i class="fa fa-check"></i><b>8.6</b> Forces intermoléculaires</a>
-<ul>
+<li class="chapter" data-level="8.6" data-path="molécules.html"><a href="molécules.html#forces-intermoléculaires"><i class="fa fa-check"></i><b>8.6</b> Forces intermoléculaires</a><ul>
 <li class="chapter" data-level="8.6.1" data-path="molécules.html"><a href="molécules.html#les-forces-de-dispersion-ou-forces-de-london"><i class="fa fa-check"></i><b>8.6.1</b> Les forces de dispersion (ou forces de London)</a></li>
 <li class="chapter" data-level="8.6.2" data-path="molécules.html"><a href="molécules.html#les-interactions-dipôle-dipôle"><i class="fa fa-check"></i><b>8.6.2</b> Les interactions dipôle-dipôle</a></li>
 <li class="chapter" data-level="8.6.3" data-path="molécules.html"><a href="molécules.html#la-liaison-hydrogène-ou-pont-hydrogène"><i class="fa fa-check"></i><b>8.6.3</b> La liaison hydrogène (ou pont hydrogène)</a></li>
 </ul></li>
 <li class="chapter" data-level="8.7" data-path="molécules.html"><a href="molécules.html#exercices-supplémentaires-6"><i class="fa fa-check"></i><b>8.7</b> Exercices supplémentaires</a></li>
 </ul></li>
-<li class="chapter" data-level="9" data-path="nomenclature-minérale.html"><a href="nomenclature-minérale.html"><i class="fa fa-check"></i><b>9</b> Nomenclature minérale</a>
-<ul>
-<li class="chapter" data-level="9.1" data-path="nomenclature-minérale.html"><a href="nomenclature-minérale.html#ions"><i class="fa fa-check"></i><b>9.1</b> Ions</a>
-<ul>
+<li class="chapter" data-level="9" data-path="nomenclature-minérale.html"><a href="nomenclature-minérale.html"><i class="fa fa-check"></i><b>9</b> Nomenclature minérale</a><ul>
+<li class="chapter" data-level="9.1" data-path="nomenclature-minérale.html"><a href="nomenclature-minérale.html#ions"><i class="fa fa-check"></i><b>9.1</b> Ions</a><ul>
 <li class="chapter" data-level="9.1.1" data-path="nomenclature-minérale.html"><a href="nomenclature-minérale.html#anions-monoatomiques"><i class="fa fa-check"></i><b>9.1.1</b> Anions monoatomiques</a></li>
 <li class="chapter" data-level="9.1.2" data-path="nomenclature-minérale.html"><a href="nomenclature-minérale.html#cations-monoatomiques"><i class="fa fa-check"></i><b>9.1.2</b> Cations monoatomiques</a></li>
 <li class="chapter" data-level="9.1.3" data-path="nomenclature-minérale.html"><a href="nomenclature-minérale.html#ions-polyatomiques"><i class="fa fa-check"></i><b>9.1.3</b> Ions polyatomiques</a></li>
 </ul></li>
 <li class="chapter" data-level="9.2" data-path="nomenclature-minérale.html"><a href="nomenclature-minérale.html#corps-simples"><i class="fa fa-check"></i><b>9.2</b> Corps simples</a></li>
-<li class="chapter" data-level="9.3" data-path="nomenclature-minérale.html"><a href="nomenclature-minérale.html#composés-binaires"><i class="fa fa-check"></i><b>9.3</b> Composés binaires</a>
-<ul>
+<li class="chapter" data-level="9.3" data-path="nomenclature-minérale.html"><a href="nomenclature-minérale.html#composés-binaires"><i class="fa fa-check"></i><b>9.3</b> Composés binaires</a><ul>
 <li class="chapter" data-level="9.3.1" data-path="nomenclature-minérale.html"><a href="nomenclature-minérale.html#composés-binaires-covalents-non-métal---non-métal"><i class="fa fa-check"></i><b>9.3.1</b> Composés binaires covalents | non-métal - non-métal</a></li>
 <li class="chapter" data-level="9.3.2" data-path="nomenclature-minérale.html"><a href="nomenclature-minérale.html#composés-binaires-ioniques-métal---non-métal"><i class="fa fa-check"></i><b>9.3.2</b> Composés binaires ioniques | métal - non-métal</a></li>
 <li class="chapter" data-level="9.3.3" data-path="nomenclature-minérale.html"><a href="nomenclature-minérale.html#acides-binaires-h---non-métal"><i class="fa fa-check"></i><b>9.3.3</b> Acides binaires | H - non-métal</a></li>
 </ul></li>
-<li class="chapter" data-level="9.4" data-path="nomenclature-minérale.html"><a href="nomenclature-minérale.html#composés-ternaires"><i class="fa fa-check"></i><b>9.4</b> Composés ternaires</a>
-<ul>
+<li class="chapter" data-level="9.4" data-path="nomenclature-minérale.html"><a href="nomenclature-minérale.html#composés-ternaires"><i class="fa fa-check"></i><b>9.4</b> Composés ternaires</a><ul>
 <li class="chapter" data-level="9.4.1" data-path="nomenclature-minérale.html"><a href="nomenclature-minérale.html#les-hydroxydes"><i class="fa fa-check"></i><b>9.4.1</b> Les hydroxydes</a></li>
 <li class="chapter" data-level="9.4.2" data-path="nomenclature-minérale.html"><a href="nomenclature-minérale.html#les-oxacides"><i class="fa fa-check"></i><b>9.4.2</b> Les oxacides</a></li>
 <li class="chapter" data-level="9.4.3" data-path="nomenclature-minérale.html"><a href="nomenclature-minérale.html#les-sels-ternaires-et-quaternaires"><i class="fa fa-check"></i><b>9.4.3</b> Les sels ternaires et quaternaires</a></li>
 </ul></li>
 <li class="chapter" data-level="9.5" data-path="nomenclature-minérale.html"><a href="nomenclature-minérale.html#exercices-supplémentaires-7"><i class="fa fa-check"></i><b>9.5</b> Exercices supplémentaires</a></li>
 </ul></li>
-<li class="chapter" data-level="10" data-path="solutions-et-électrolytes.html"><a href="solutions-et-électrolytes.html"><i class="fa fa-check"></i><b>10</b> Solutions et électrolytes</a>
-<ul>
-<li class="chapter" data-level="10.1" data-path="solutions-et-électrolytes.html"><a href="solutions-et-électrolytes.html#définitions"><i class="fa fa-check"></i><b>10.1</b> Définitions</a>
-<ul>
+<li class="chapter" data-level="10" data-path="solutions-et-électrolytes.html"><a href="solutions-et-électrolytes.html"><i class="fa fa-check"></i><b>10</b> Solutions et électrolytes</a><ul>
+<li class="chapter" data-level="10.1" data-path="solutions-et-électrolytes.html"><a href="solutions-et-électrolytes.html#définitions"><i class="fa fa-check"></i><b>10.1</b> Définitions</a><ul>
 <li class="chapter" data-level="10.1.1" data-path="solutions-et-électrolytes.html"><a href="solutions-et-électrolytes.html#les-solutions"><i class="fa fa-check"></i><b>10.1.1</b> Les solutions</a></li>
 <li class="chapter" data-level="10.1.2" data-path="solutions-et-électrolytes.html"><a href="solutions-et-électrolytes.html#la-dissolution"><i class="fa fa-check"></i><b>10.1.2</b> La dissolution</a></li>
 <li class="chapter" data-level="10.1.3" data-path="solutions-et-électrolytes.html"><a href="solutions-et-électrolytes.html#la-solubilité-et-la-saturation"><i class="fa fa-check"></i><b>10.1.3</b> La solubilité et la saturation</a></li>
 <li class="chapter" data-level="10.1.4" data-path="solutions-et-électrolytes.html"><a href="solutions-et-électrolytes.html#la-cristallisation"><i class="fa fa-check"></i><b>10.1.4</b> La cristallisation</a></li>
 </ul></li>
-<li class="chapter" data-level="10.2" data-path="solutions-et-électrolytes.html"><a href="solutions-et-électrolytes.html#dissociation-ionique"><i class="fa fa-check"></i><b>10.2</b> Dissociation ionique</a>
-<ul>
+<li class="chapter" data-level="10.2" data-path="solutions-et-électrolytes.html"><a href="solutions-et-électrolytes.html#dissociation-ionique"><i class="fa fa-check"></i><b>10.2</b> Dissociation ionique</a><ul>
 <li class="chapter" data-level="10.2.1" data-path="solutions-et-électrolytes.html"><a href="solutions-et-électrolytes.html#équations-de-dissociation"><i class="fa fa-check"></i><b>10.2.1</b> Équations de dissociation</a></li>
 <li class="chapter" data-level="10.2.2" data-path="solutions-et-électrolytes.html"><a href="solutions-et-électrolytes.html#électrolyte"><i class="fa fa-check"></i><b>10.2.2</b> Électrolyte</a></li>
 </ul></li>
-<li class="chapter" data-level="10.3" data-path="solutions-et-électrolytes.html"><a href="solutions-et-électrolytes.html#la-concentration"><i class="fa fa-check"></i><b>10.3</b> La concentration</a>
-<ul>
+<li class="chapter" data-level="10.3" data-path="solutions-et-électrolytes.html"><a href="solutions-et-électrolytes.html#la-concentration"><i class="fa fa-check"></i><b>10.3</b> La concentration</a><ul>
 <li class="chapter" data-level="10.3.1" data-path="solutions-et-électrolytes.html"><a href="solutions-et-électrolytes.html#la-molarité-concentration-molaire"><i class="fa fa-check"></i><b>10.3.1</b> La molarité (concentration molaire)</a></li>
 <li class="chapter" data-level="10.3.2" data-path="solutions-et-électrolytes.html"><a href="solutions-et-électrolytes.html#le-titre-concentration-massique"><i class="fa fa-check"></i><b>10.3.2</b> Le titre (concentration massique)</a></li>
 <li class="chapter" data-level="10.3.3" data-path="solutions-et-électrolytes.html"><a href="solutions-et-électrolytes.html#préparation-des-solutions"><i class="fa fa-check"></i><b>10.3.3</b> Préparation des solutions</a></li>
 </ul></li>
 <li class="chapter" data-level="10.4" data-path="solutions-et-électrolytes.html"><a href="solutions-et-électrolytes.html#exercices-supplémentaires-8"><i class="fa fa-check"></i><b>10.4</b> Exercices supplémentaires</a></li>
 </ul></li>
-<li class="chapter" data-level="11" data-path="réactions-chimiques.html"><a href="réactions-chimiques.html"><i class="fa fa-check"></i><b>11</b> Réactions chimiques</a>
-<ul>
+<li class="chapter" data-level="11" data-path="réactions-chimiques.html"><a href="réactions-chimiques.html"><i class="fa fa-check"></i><b>11</b> Réactions chimiques</a><ul>
 <li class="chapter" data-level="11.1" data-path="réactions-chimiques.html"><a href="réactions-chimiques.html#réactions-et-transformations-chimiques"><i class="fa fa-check"></i><b>11.1</b> Réactions et transformations chimiques</a></li>
 <li class="chapter" data-level="11.2" data-path="réactions-chimiques.html"><a href="réactions-chimiques.html#la-théorie-des-collisions"><i class="fa fa-check"></i><b>11.2</b> La théorie des collisions</a></li>
 <li class="chapter" data-level="11.3" data-path="réactions-chimiques.html"><a href="réactions-chimiques.html#conservation-de-la-masse"><i class="fa fa-check"></i><b>11.3</b> Conservation de la masse</a></li>
 <li class="chapter" data-level="11.4" data-path="réactions-chimiques.html"><a href="réactions-chimiques.html#équations-chimiques"><i class="fa fa-check"></i><b>11.4</b> Équations chimiques</a></li>
-<li class="chapter" data-level="11.5" data-path="réactions-chimiques.html"><a href="réactions-chimiques.html#écrire-une-équation-chimique"><i class="fa fa-check"></i><b>11.5</b> Écrire une équation chimique</a>
-<ul>
+<li class="chapter" data-level="11.5" data-path="réactions-chimiques.html"><a href="réactions-chimiques.html#écrire-une-équation-chimique"><i class="fa fa-check"></i><b>11.5</b> Écrire une équation chimique</a><ul>
 <li class="chapter" data-level="11.5.1" data-path="réactions-chimiques.html"><a href="réactions-chimiques.html#les-nombres-stoechiométriques"><i class="fa fa-check"></i><b>11.5.1</b> Les nombres stoechiométriques</a></li>
 </ul></li>
-<li class="chapter" data-level="11.6" data-path="réactions-chimiques.html"><a href="réactions-chimiques.html#définitions-thermodynamiques"><i class="fa fa-check"></i><b>11.6</b> Définitions thermodynamiques</a>
-<ul>
+<li class="chapter" data-level="11.6" data-path="réactions-chimiques.html"><a href="réactions-chimiques.html#définitions-thermodynamiques"><i class="fa fa-check"></i><b>11.6</b> Définitions thermodynamiques</a><ul>
 <li class="chapter" data-level="11.6.1" data-path="réactions-chimiques.html"><a href="réactions-chimiques.html#réaction-spontanée"><i class="fa fa-check"></i><b>11.6.1</b> Réaction spontanée</a></li>
 <li class="chapter" data-level="11.6.2" data-path="réactions-chimiques.html"><a href="réactions-chimiques.html#réaction-non-spontanée"><i class="fa fa-check"></i><b>11.6.2</b> Réaction non spontanée</a></li>
 <li class="chapter" data-level="11.6.3" data-path="réactions-chimiques.html"><a href="réactions-chimiques.html#réaction-réversible"><i class="fa fa-check"></i><b>11.6.3</b> Réaction réversible</a></li>
@@ -305,75 +270,61 @@
 </ul></li>
 <li class="chapter" data-level="11.7" data-path="réactions-chimiques.html"><a href="réactions-chimiques.html#exercices-supplémentaires-9"><i class="fa fa-check"></i><b>11.7</b> Exercices supplémentaires</a></li>
 </ul></li>
-<li class="chapter" data-level="12" data-path="types-de-réactions.html"><a href="types-de-réactions.html"><i class="fa fa-check"></i><b>12</b> Types de réactions</a>
-<ul>
+<li class="chapter" data-level="12" data-path="types-de-réactions.html"><a href="types-de-réactions.html"><i class="fa fa-check"></i><b>12</b> Types de réactions</a><ul>
 <li class="chapter" data-level="12.1" data-path="types-de-réactions.html"><a href="types-de-réactions.html#réactions-de-combinaison"><i class="fa fa-check"></i><b>12.1</b> Réactions de combinaison</a></li>
 <li class="chapter" data-level="12.2" data-path="types-de-réactions.html"><a href="types-de-réactions.html#réactions-de-décomposition"><i class="fa fa-check"></i><b>12.2</b> Réactions de décomposition</a></li>
 <li class="chapter" data-level="12.3" data-path="types-de-réactions.html"><a href="types-de-réactions.html#réactions-de-dissociation"><i class="fa fa-check"></i><b>12.3</b> Réactions de dissociation</a></li>
-<li class="chapter" data-level="12.4" data-path="types-de-réactions.html"><a href="types-de-réactions.html#réactions-de-précipitation"><i class="fa fa-check"></i><b>12.4</b> Réactions de précipitation</a>
-<ul>
+<li class="chapter" data-level="12.4" data-path="types-de-réactions.html"><a href="types-de-réactions.html#réactions-de-précipitation"><i class="fa fa-check"></i><b>12.4</b> Réactions de précipitation</a><ul>
 <li class="chapter" data-level="12.4.1" data-path="types-de-réactions.html"><a href="types-de-réactions.html#résoudre-une-réaction-de-précipitation"><i class="fa fa-check"></i><b>12.4.1</b> Résoudre une réaction de précipitation</a></li>
 </ul></li>
-<li class="chapter" data-level="12.5" data-path="types-de-réactions.html"><a href="types-de-réactions.html#réactions-de-neutralisation"><i class="fa fa-check"></i><b>12.5</b> Réactions de neutralisation</a>
-<ul>
+<li class="chapter" data-level="12.5" data-path="types-de-réactions.html"><a href="types-de-réactions.html#réactions-de-neutralisation"><i class="fa fa-check"></i><b>12.5</b> Réactions de neutralisation</a><ul>
 <li class="chapter" data-level="12.5.1" data-path="types-de-réactions.html"><a href="types-de-réactions.html#notion-dacidité"><i class="fa fa-check"></i><b>12.5.1</b> Notion d’acidité</a></li>
 </ul></li>
-<li class="chapter" data-level="12.6" data-path="types-de-réactions.html"><a href="types-de-réactions.html#réactions-de-combustion"><i class="fa fa-check"></i><b>12.6</b> Réactions de combustion</a>
-<ul>
+<li class="chapter" data-level="12.6" data-path="types-de-réactions.html"><a href="types-de-réactions.html#réactions-de-combustion"><i class="fa fa-check"></i><b>12.6</b> Réactions de combustion</a><ul>
 <li class="chapter" data-level="12.6.1" data-path="types-de-réactions.html"><a href="types-de-réactions.html#combustion-organique"><i class="fa fa-check"></i><b>12.6.1</b> Combustion organique</a></li>
 </ul></li>
 <li class="chapter" data-level="12.7" data-path="types-de-réactions.html"><a href="types-de-réactions.html#résumé-des-types-de-réactions"><i class="fa fa-check"></i><b>12.7</b> Résumé des types de réactions</a></li>
 <li class="chapter" data-level="12.8" data-path="types-de-réactions.html"><a href="types-de-réactions.html#exercices-supplémentaires-10"><i class="fa fa-check"></i><b>12.8</b> Exercices supplémentaires</a></li>
 </ul></li>
-<li class="chapter" data-level="13" data-path="calculs-stœchiométriques.html"><a href="calculs-stœchiométriques.html"><i class="fa fa-check"></i><b>13</b> Calculs stœchiométriques</a>
-<ul>
+<li class="chapter" data-level="13" data-path="calculs-stœchiométriques.html"><a href="calculs-stœchiométriques.html"><i class="fa fa-check"></i><b>13</b> Calculs stœchiométriques</a><ul>
 <li class="chapter" data-level="13.1" data-path="calculs-stœchiométriques.html"><a href="calculs-stœchiométriques.html#la-stœchiométrie"><i class="fa fa-check"></i><b>13.1</b> La stœchiométrie</a></li>
 <li class="chapter" data-level="13.2" data-path="calculs-stœchiométriques.html"><a href="calculs-stœchiométriques.html#conditions-stœchiométriques-et-réactif-limitant"><i class="fa fa-check"></i><b>13.2</b> Conditions stœchiométriques et réactif limitant</a></li>
 <li class="chapter" data-level="13.3" data-path="calculs-stœchiométriques.html"><a href="calculs-stœchiométriques.html#le-rendement-dune-réaction"><i class="fa fa-check"></i><b>13.3</b> Le rendement d’une réaction</a></li>
 <li class="chapter" data-level="13.4" data-path="calculs-stœchiométriques.html"><a href="calculs-stœchiométriques.html#exercices-supplémentaires-11"><i class="fa fa-check"></i><b>13.4</b> Exercices supplémentaires</a></li>
 </ul></li>
-<li class="chapter" data-level="14" data-path="les-gaz-parfaits.html"><a href="les-gaz-parfaits.html"><i class="fa fa-check"></i><b>14</b> Les gaz parfaits</a>
-<ul>
+<li class="chapter" data-level="14" data-path="les-gaz-parfaits.html"><a href="les-gaz-parfaits.html"><i class="fa fa-check"></i><b>14</b> Les gaz parfaits</a><ul>
 <li class="chapter" data-level="14.1" data-path="les-gaz-parfaits.html"><a href="les-gaz-parfaits.html#la-théorie-cinétique-des-gaz"><i class="fa fa-check"></i><b>14.1</b> La théorie cinétique des gaz</a></li>
 <li class="chapter" data-level="14.2" data-path="les-gaz-parfaits.html"><a href="les-gaz-parfaits.html#les-lois-simples-des-gaz"><i class="fa fa-check"></i><b>14.2</b> Les lois simples des gaz</a></li>
-<li class="chapter" data-level="14.3" data-path="les-gaz-parfaits.html"><a href="les-gaz-parfaits.html#la-loi-des-gaz-parfaits"><i class="fa fa-check"></i><b>14.3</b> La loi des gaz parfaits</a>
-<ul>
+<li class="chapter" data-level="14.3" data-path="les-gaz-parfaits.html"><a href="les-gaz-parfaits.html#la-loi-des-gaz-parfaits"><i class="fa fa-check"></i><b>14.3</b> La loi des gaz parfaits</a><ul>
 <li class="chapter" data-level="14.3.1" data-path="les-gaz-parfaits.html"><a href="les-gaz-parfaits.html#les-unités-des-gaz"><i class="fa fa-check"></i><b>14.3.1</b> Les unités des gaz</a></li>
 </ul></li>
 <li class="chapter" data-level="14.4" data-path="les-gaz-parfaits.html"><a href="les-gaz-parfaits.html#exercices-supplémentaires-12"><i class="fa fa-check"></i><b>14.4</b> Exercices supplémentaires</a></li>
 </ul></li>
-<li class="chapter" data-level="15" data-path="cinétique-chimique.html"><a href="cinétique-chimique.html"><i class="fa fa-check"></i><b>15</b> Cinétique chimique</a>
-<ul>
+<li class="chapter" data-level="15" data-path="cinétique-chimique.html"><a href="cinétique-chimique.html"><i class="fa fa-check"></i><b>15</b> Cinétique chimique</a><ul>
 <li class="chapter" data-level="15.1" data-path="cinétique-chimique.html"><a href="cinétique-chimique.html#exprimer-la-vitesse-dune-réaction"><i class="fa fa-check"></i><b>15.1</b> Exprimer la vitesse d’une réaction</a></li>
 <li class="chapter" data-level="15.2" data-path="cinétique-chimique.html"><a href="cinétique-chimique.html#énergie-dactivation"><i class="fa fa-check"></i><b>15.2</b> Énergie d’activation</a></li>
-<li class="chapter" data-level="15.3" data-path="cinétique-chimique.html"><a href="cinétique-chimique.html#lois-cinétiques"><i class="fa fa-check"></i><b>15.3</b> Lois cinétiques</a>
-<ul>
+<li class="chapter" data-level="15.3" data-path="cinétique-chimique.html"><a href="cinétique-chimique.html#lois-cinétiques"><i class="fa fa-check"></i><b>15.3</b> Lois cinétiques</a><ul>
 <li class="chapter" data-level="15.3.1" data-path="cinétique-chimique.html"><a href="cinétique-chimique.html#influence-de-la-concentration-loi-de-vitesse"><i class="fa fa-check"></i><b>15.3.1</b> Influence de la concentration (loi de vitesse)</a></li>
 <li class="chapter" data-level="15.3.2" data-path="cinétique-chimique.html"><a href="cinétique-chimique.html#influence-de-la-température-loi-darrhénius"><i class="fa fa-check"></i><b>15.3.2</b> Influence de la température (loi d’Arrhénius)</a></li>
 <li class="chapter" data-level="15.3.3" data-path="cinétique-chimique.html"><a href="cinétique-chimique.html#les-catalyseurs-1"><i class="fa fa-check"></i><b>15.3.3</b> Les catalyseurs</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="16" data-path="léquilibre-chimique.html"><a href="léquilibre-chimique.html"><i class="fa fa-check"></i><b>16</b> L’équilibre chimique</a>
-<ul>
+<li class="chapter" data-level="16" data-path="léquilibre-chimique.html"><a href="léquilibre-chimique.html"><i class="fa fa-check"></i><b>16</b> L’équilibre chimique</a><ul>
 <li class="chapter" data-level="16.1" data-path="léquilibre-chimique.html"><a href="léquilibre-chimique.html#le-quotient-de-réaction"><i class="fa fa-check"></i><b>16.1</b> Le quotient de réaction</a></li>
-<li class="chapter" data-level="16.2" data-path="léquilibre-chimique.html"><a href="léquilibre-chimique.html#la-constante-déquilibre"><i class="fa fa-check"></i><b>16.2</b> La constante d’équilibre</a>
-<ul>
+<li class="chapter" data-level="16.2" data-path="léquilibre-chimique.html"><a href="léquilibre-chimique.html#la-constante-déquilibre"><i class="fa fa-check"></i><b>16.2</b> La constante d’équilibre</a><ul>
 <li class="chapter" data-level="16.2.1" data-path="léquilibre-chimique.html"><a href="léquilibre-chimique.html#équilibre-homogène-et-hétérogène"><i class="fa fa-check"></i><b>16.2.1</b> Équilibre homogène et hétérogène</a></li>
 <li class="chapter" data-level="16.2.2" data-path="léquilibre-chimique.html"><a href="léquilibre-chimique.html#constantes-déquilibre-et-phase-gazeuse"><i class="fa fa-check"></i><b>16.2.2</b> Constantes d’équilibre et phase gazeuse</a></li>
 </ul></li>
 <li class="chapter" data-level="16.3" data-path="léquilibre-chimique.html"><a href="léquilibre-chimique.html#équilibres-chimiques-et-stœchiométrie"><i class="fa fa-check"></i><b>16.3</b> Équilibres chimiques et stœchiométrie</a></li>
-<li class="chapter" data-level="16.4" data-path="léquilibre-chimique.html"><a href="léquilibre-chimique.html#évolution-spontanée-et-principe-de-le-châtelier"><i class="fa fa-check"></i><b>16.4</b> Évolution spontanée et principe de Le Châtelier</a>
-<ul>
+<li class="chapter" data-level="16.4" data-path="léquilibre-chimique.html"><a href="léquilibre-chimique.html#évolution-spontanée-et-principe-de-le-châtelier"><i class="fa fa-check"></i><b>16.4</b> Évolution spontanée et principe de Le Châtelier</a><ul>
 <li class="chapter" data-level="16.4.1" data-path="léquilibre-chimique.html"><a href="léquilibre-chimique.html#ajoutélimination-dun-réactif-ou-dun-produit"><i class="fa fa-check"></i><b>16.4.1</b> Ajout/élimination d’un réactif ou d’un produit</a></li>
 <li class="chapter" data-level="16.4.2" data-path="léquilibre-chimique.html"><a href="léquilibre-chimique.html#influence-du-volume-et-de-la-pression"><i class="fa fa-check"></i><b>16.4.2</b> Influence du volume et de la pression</a></li>
 <li class="chapter" data-level="16.4.3" data-path="léquilibre-chimique.html"><a href="léquilibre-chimique.html#influence-de-la-température"><i class="fa fa-check"></i><b>16.4.3</b> Influence de la température</a></li>
 <li class="chapter" data-level="16.4.4" data-path="léquilibre-chimique.html"><a href="léquilibre-chimique.html#effet-dun-catalyseur-sur-un-équilibre-chimique"><i class="fa fa-check"></i><b>16.4.4</b> Effet d’un catalyseur sur un équilibre chimique</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="17" data-path="les-acides-et-les-bases.html"><a href="les-acides-et-les-bases.html"><i class="fa fa-check"></i><b>17</b> Les acides et les bases</a>
-<ul>
-<li class="chapter" data-level="17.1" data-path="les-acides-et-les-bases.html"><a href="les-acides-et-les-bases.html#définitions-1"><i class="fa fa-check"></i><b>17.1</b> Définitions</a>
-<ul>
+<li class="chapter" data-level="17" data-path="les-acides-et-les-bases.html"><a href="les-acides-et-les-bases.html"><i class="fa fa-check"></i><b>17</b> Les acides et les bases</a><ul>
+<li class="chapter" data-level="17.1" data-path="les-acides-et-les-bases.html"><a href="les-acides-et-les-bases.html#définitions-1"><i class="fa fa-check"></i><b>17.1</b> Définitions</a><ul>
 <li class="chapter" data-level="17.1.1" data-path="les-acides-et-les-bases.html"><a href="les-acides-et-les-bases.html#définition-darrhénius"><i class="fa fa-check"></i><b>17.1.1</b> Définition d’Arrhénius</a></li>
 <li class="chapter" data-level="17.1.2" data-path="les-acides-et-les-bases.html"><a href="les-acides-et-les-bases.html#définition-de-brønsted-lowry"><i class="fa fa-check"></i><b>17.1.2</b> Définition de Brønsted-Lowry</a></li>
 <li class="chapter" data-level="17.1.3" data-path="les-acides-et-les-bases.html"><a href="les-acides-et-les-bases.html#définition-de-lewis"><i class="fa fa-check"></i><b>17.1.3</b> Définition de Lewis</a></li>
@@ -381,21 +332,18 @@
 <li class="chapter" data-level="17.2" data-path="les-acides-et-les-bases.html"><a href="les-acides-et-les-bases.html#forces-des-acides-et-des-bases"><i class="fa fa-check"></i><b>17.2</b> Forces des acides et des bases</a></li>
 <li class="chapter" data-level="17.3" data-path="les-acides-et-les-bases.html"><a href="les-acides-et-les-bases.html#constante-dacidité-ka-et-constante-de-basicité-kb"><i class="fa fa-check"></i><b>17.3</b> Constante d’acidité K<sub>a</sub> et constante de basicité K<sub>b</sub></a></li>
 <li class="chapter" data-level="17.4" data-path="les-acides-et-les-bases.html"><a href="les-acides-et-les-bases.html#autoprotolyse-de-leau"><i class="fa fa-check"></i><b>17.4</b> Autoprotolyse de l’eau</a></li>
-<li class="chapter" data-level="17.5" data-path="les-acides-et-les-bases.html"><a href="les-acides-et-les-bases.html#le-ph-ou-potentiel-hydrogène"><i class="fa fa-check"></i><b>17.5</b> Le pH ou potentiel hydrogène</a>
-<ul>
+<li class="chapter" data-level="17.5" data-path="les-acides-et-les-bases.html"><a href="les-acides-et-les-bases.html#le-ph-ou-potentiel-hydrogène"><i class="fa fa-check"></i><b>17.5</b> Le pH ou potentiel hydrogène</a><ul>
 <li class="chapter" data-level="17.5.1" data-path="les-acides-et-les-bases.html"><a href="les-acides-et-les-bases.html#ph-des-acides-forts-et-des-bases-fortes"><i class="fa fa-check"></i><b>17.5.1</b> pH des acides forts et des bases fortes</a></li>
 <li class="chapter" data-level="17.5.2" data-path="les-acides-et-les-bases.html"><a href="les-acides-et-les-bases.html#ph-des-acides-faibles-et-des-bases-faibles"><i class="fa fa-check"></i><b>17.5.2</b> pH des acides faibles et des bases faibles</a></li>
 <li class="chapter" data-level="17.5.3" data-path="les-acides-et-les-bases.html"><a href="les-acides-et-les-bases.html#ph-des-acides-polyprotiques"><i class="fa fa-check"></i><b>17.5.3</b> pH des acides polyprotiques</a></li>
 </ul></li>
-<li class="chapter" data-level="17.6" data-path="les-acides-et-les-bases.html"><a href="les-acides-et-les-bases.html#les-solutions-tampons"><i class="fa fa-check"></i><b>17.6</b> Les solutions tampons</a>
-<ul>
+<li class="chapter" data-level="17.6" data-path="les-acides-et-les-bases.html"><a href="les-acides-et-les-bases.html#les-solutions-tampons"><i class="fa fa-check"></i><b>17.6</b> Les solutions tampons</a><ul>
 <li class="chapter" data-level="17.6.1" data-path="les-acides-et-les-bases.html"><a href="les-acides-et-les-bases.html#ph-des-solutions-tampons"><i class="fa fa-check"></i><b>17.6.1</b> pH des solutions tampons</a></li>
 <li class="chapter" data-level="17.6.2" data-path="les-acides-et-les-bases.html"><a href="les-acides-et-les-bases.html#équation-de-henderson-hasselbalch"><i class="fa fa-check"></i><b>17.6.2</b> Équation de Henderson-Hasselbalch</a></li>
 <li class="chapter" data-level="17.6.3" data-path="les-acides-et-les-bases.html"><a href="les-acides-et-les-bases.html#addition-acide-base-à-une-solution-tampon"><i class="fa fa-check"></i><b>17.6.3</b> Addition acide-base à une solution tampon</a></li>
 <li class="chapter" data-level="17.6.4" data-path="les-acides-et-les-bases.html"><a href="les-acides-et-les-bases.html#pouvoir-tampon"><i class="fa fa-check"></i><b>17.6.4</b> Pouvoir tampon</a></li>
 </ul></li>
-<li class="chapter" data-level="17.7" data-path="les-acides-et-les-bases.html"><a href="les-acides-et-les-bases.html#titrages-et-courbes-de-ph"><i class="fa fa-check"></i><b>17.7</b> Titrages et courbes de pH</a>
-<ul>
+<li class="chapter" data-level="17.7" data-path="les-acides-et-les-bases.html"><a href="les-acides-et-les-bases.html#titrages-et-courbes-de-ph"><i class="fa fa-check"></i><b>17.7</b> Titrages et courbes de pH</a><ul>
 <li class="chapter" data-level="17.7.1" data-path="les-acides-et-les-bases.html"><a href="les-acides-et-les-bases.html#titrage-dun-acide-fort-par-une-base-forte"><i class="fa fa-check"></i><b>17.7.1</b> Titrage d’un acide fort par une base forte</a></li>
 <li class="chapter" data-level="17.7.2" data-path="les-acides-et-les-bases.html"><a href="les-acides-et-les-bases.html#titrage-dune-base-forte-par-un-acide-fort"><i class="fa fa-check"></i><b>17.7.2</b> Titrage d’une base forte par un acide fort</a></li>
 <li class="chapter" data-level="17.7.3" data-path="les-acides-et-les-bases.html"><a href="les-acides-et-les-bases.html#titrage-dun-acide-faible-par-une-base-forte"><i class="fa fa-check"></i><b>17.7.3</b> Titrage d’un acide faible par une base forte</a></li>
@@ -404,60 +352,48 @@
 <li class="chapter" data-level="17.7.6" data-path="les-acides-et-les-bases.html"><a href="les-acides-et-les-bases.html#méthode-des-tangentes"><i class="fa fa-check"></i><b>17.7.6</b> Méthode des tangentes</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="18" data-path="les-réactions-doxydoréduction.html"><a href="les-réactions-doxydoréduction.html"><i class="fa fa-check"></i><b>18</b> Les réactions d’oxydoréduction</a>
-<ul>
-<li class="chapter" data-level="18.1" data-path="les-réactions-doxydoréduction.html"><a href="les-réactions-doxydoréduction.html#le-nombre-doxydation"><i class="fa fa-check"></i><b>18.1</b> Le nombre d’oxydation</a>
-<ul>
+<li class="chapter" data-level="18" data-path="les-réactions-doxydoréduction.html"><a href="les-réactions-doxydoréduction.html"><i class="fa fa-check"></i><b>18</b> Les réactions d’oxydoréduction</a><ul>
+<li class="chapter" data-level="18.1" data-path="les-réactions-doxydoréduction.html"><a href="les-réactions-doxydoréduction.html#le-nombre-doxydation"><i class="fa fa-check"></i><b>18.1</b> Le nombre d’oxydation</a><ul>
 <li class="chapter" data-level="18.1.1" data-path="les-réactions-doxydoréduction.html"><a href="les-réactions-doxydoréduction.html#attribuer-les-nombres-doxydation"><i class="fa fa-check"></i><b>18.1.1</b> Attribuer les nombres d’oxydation</a></li>
 </ul></li>
 <li class="chapter" data-level="18.2" data-path="les-réactions-doxydoréduction.html"><a href="les-réactions-doxydoréduction.html#distinguer-une-réaction-doxydoréduction"><i class="fa fa-check"></i><b>18.2</b> Distinguer une réaction d’oxydoréduction</a></li>
-<li class="chapter" data-level="18.3" data-path="les-réactions-doxydoréduction.html"><a href="les-réactions-doxydoréduction.html#définitions-de-termes"><i class="fa fa-check"></i><b>18.3</b> Définitions de termes</a>
-<ul>
+<li class="chapter" data-level="18.3" data-path="les-réactions-doxydoréduction.html"><a href="les-réactions-doxydoréduction.html#définitions-de-termes"><i class="fa fa-check"></i><b>18.3</b> Définitions de termes</a><ul>
 <li class="chapter" data-level="18.3.1" data-path="les-réactions-doxydoréduction.html"><a href="les-réactions-doxydoréduction.html#couples-oxred"><i class="fa fa-check"></i><b>18.3.1</b> Couples oxred</a></li>
 </ul></li>
-<li class="chapter" data-level="18.4" data-path="les-réactions-doxydoréduction.html"><a href="les-réactions-doxydoréduction.html#potentiels-standards-et-spontanéité"><i class="fa fa-check"></i><b>18.4</b> Potentiels standards et spontanéité</a>
-<ul>
+<li class="chapter" data-level="18.4" data-path="les-réactions-doxydoréduction.html"><a href="les-réactions-doxydoréduction.html#potentiels-standards-et-spontanéité"><i class="fa fa-check"></i><b>18.4</b> Potentiels standards et spontanéité</a><ul>
 <li class="chapter" data-level="18.4.1" data-path="les-réactions-doxydoréduction.html"><a href="les-réactions-doxydoréduction.html#règle-du-gamma"><i class="fa fa-check"></i><b>18.4.1</b> Règle du gamma</a></li>
 </ul></li>
 <li class="chapter" data-level="18.5" data-path="les-réactions-doxydoréduction.html"><a href="les-réactions-doxydoréduction.html#équilibrer-les-équations-doxydoréduction"><i class="fa fa-check"></i><b>18.5</b> Équilibrer les équations d’oxydoréduction</a></li>
 <li class="chapter" data-level="18.6" data-path="les-réactions-doxydoréduction.html"><a href="les-réactions-doxydoréduction.html#exercices-supplémentaires-13"><i class="fa fa-check"></i><b>18.6</b> Exercices supplémentaires</a></li>
 </ul></li>
-<li class="chapter" data-level="19" data-path="électrochimie.html"><a href="électrochimie.html"><i class="fa fa-check"></i><b>19</b> Électrochimie</a>
-<ul>
-<li class="chapter" data-level="19.1" data-path="électrochimie.html"><a href="électrochimie.html#les-piles-électrochimique"><i class="fa fa-check"></i><b>19.1</b> Les piles électrochimique</a>
-<ul>
+<li class="chapter" data-level="19" data-path="électrochimie.html"><a href="électrochimie.html"><i class="fa fa-check"></i><b>19</b> Électrochimie</a><ul>
+<li class="chapter" data-level="19.1" data-path="électrochimie.html"><a href="électrochimie.html#les-piles-électrochimique"><i class="fa fa-check"></i><b>19.1</b> Les piles électrochimique</a><ul>
 <li class="chapter" data-level="19.1.1" data-path="électrochimie.html"><a href="électrochimie.html#constitution-dune-pile"><i class="fa fa-check"></i><b>19.1.1</b> Constitution d’une pile</a></li>
 <li class="chapter" data-level="19.1.2" data-path="électrochimie.html"><a href="électrochimie.html#fonctionnement-dune-pile"><i class="fa fa-check"></i><b>19.1.2</b> Fonctionnement d’une pile</a></li>
 <li class="chapter" data-level="19.1.3" data-path="électrochimie.html"><a href="électrochimie.html#notation-simplifiée-dune-pile"><i class="fa fa-check"></i><b>19.1.3</b> Notation simplifiée d’une pile</a></li>
 </ul></li>
-<li class="chapter" data-level="19.2" data-path="électrochimie.html"><a href="électrochimie.html#potentiels-standards-de-réduction"><i class="fa fa-check"></i><b>19.2</b> Potentiels standards de réduction</a>
-<ul>
+<li class="chapter" data-level="19.2" data-path="électrochimie.html"><a href="électrochimie.html#potentiels-standards-de-réduction"><i class="fa fa-check"></i><b>19.2</b> Potentiels standards de réduction</a><ul>
 <li class="chapter" data-level="19.2.1" data-path="électrochimie.html"><a href="électrochimie.html#potentiel-électrochimique-ou-force-électromotrice-fem"><i class="fa fa-check"></i><b>19.2.1</b> Potentiel électrochimique ou force électromotrice (fem)</a></li>
 </ul></li>
-<li class="chapter" data-level="19.3" data-path="électrochimie.html"><a href="électrochimie.html#électrolyse"><i class="fa fa-check"></i><b>19.3</b> Électrolyse</a>
-<ul>
+<li class="chapter" data-level="19.3" data-path="électrochimie.html"><a href="électrochimie.html#électrolyse"><i class="fa fa-check"></i><b>19.3</b> Électrolyse</a><ul>
 <li class="chapter" data-level="19.3.1" data-path="électrochimie.html"><a href="électrochimie.html#exemples-délectrolyses-de-composés-purs"><i class="fa fa-check"></i><b>19.3.1</b> Exemples d’électrolyses de composés purs</a></li>
 <li class="chapter" data-level="19.3.2" data-path="électrochimie.html"><a href="électrochimie.html#prédiction-des-réactions-délectrolyse"><i class="fa fa-check"></i><b>19.3.2</b> Prédiction des réactions d’électrolyse</a></li>
 <li class="chapter" data-level="19.3.3" data-path="électrochimie.html"><a href="électrochimie.html#loi-de-faraday"><i class="fa fa-check"></i><b>19.3.3</b> Loi de Faraday</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="20" data-path="thermochimie.html"><a href="thermochimie.html"><i class="fa fa-check"></i><b>20</b> Thermochimie</a>
-<ul>
+<li class="chapter" data-level="20" data-path="thermochimie.html"><a href="thermochimie.html"><i class="fa fa-check"></i><b>20</b> Thermochimie</a><ul>
 <li class="chapter" data-level="20.1" data-path="thermochimie.html"><a href="thermochimie.html#énergie"><i class="fa fa-check"></i><b>20.1</b> Énergie</a></li>
 <li class="chapter" data-level="20.2" data-path="thermochimie.html"><a href="thermochimie.html#système-et-environnement"><i class="fa fa-check"></i><b>20.2</b> Système et environnement</a></li>
 <li class="chapter" data-level="20.3" data-path="thermochimie.html"><a href="thermochimie.html#première-loi-de-la-thermodynamique"><i class="fa fa-check"></i><b>20.3</b> Première loi de la thermodynamique</a></li>
-<li class="chapter" data-level="20.4" data-path="thermochimie.html"><a href="thermochimie.html#calorimétrie"><i class="fa fa-check"></i><b>20.4</b> Calorimétrie</a>
-<ul>
+<li class="chapter" data-level="20.4" data-path="thermochimie.html"><a href="thermochimie.html#calorimétrie"><i class="fa fa-check"></i><b>20.4</b> Calorimétrie</a><ul>
 <li class="chapter" data-level="20.4.1" data-path="thermochimie.html"><a href="thermochimie.html#le-calorimètre"><i class="fa fa-check"></i><b>20.4.1</b> Le calorimètre</a></li>
 </ul></li>
 <li class="chapter" data-level="20.5" data-path="thermochimie.html"><a href="thermochimie.html#réactions-exothermiques-et-endothermiques"><i class="fa fa-check"></i><b>20.5</b> Réactions exothermiques et endothermiques</a></li>
 <li class="chapter" data-level="20.6" data-path="thermochimie.html"><a href="thermochimie.html#lenthalpie-et-la-variation-denthalpie"><i class="fa fa-check"></i><b>20.6</b> L’enthalpie et la variation d’enthalpie</a></li>
-<li class="chapter" data-level="20.7" data-path="thermochimie.html"><a href="thermochimie.html#échanges-de-chaleur-et-réactions-chimiques"><i class="fa fa-check"></i><b>20.7</b> Échanges de chaleur et réactions chimiques</a>
-<ul>
+<li class="chapter" data-level="20.7" data-path="thermochimie.html"><a href="thermochimie.html#échanges-de-chaleur-et-réactions-chimiques"><i class="fa fa-check"></i><b>20.7</b> Échanges de chaleur et réactions chimiques</a><ul>
 <li class="chapter" data-level="20.7.1" data-path="thermochimie.html"><a href="thermochimie.html#bilan-énergétique-dune-réaction"><i class="fa fa-check"></i><b>20.7.1</b> Bilan énergétique d’une réaction</a></li>
 </ul></li>
-<li class="chapter" data-level="20.8" data-path="thermochimie.html"><a href="thermochimie.html#la-loi-de-hess"><i class="fa fa-check"></i><b>20.8</b> La loi de Hess</a>
-<ul>
+<li class="chapter" data-level="20.8" data-path="thermochimie.html"><a href="thermochimie.html#la-loi-de-hess"><i class="fa fa-check"></i><b>20.8</b> La loi de Hess</a><ul>
 <li class="chapter" data-level="20.8.1" data-path="thermochimie.html"><a href="thermochimie.html#enthalpie-de-formation-et-enthalpies-de-réaction"><i class="fa fa-check"></i><b>20.8.1</b> Enthalpie de formation et enthalpies de réaction</a></li>
 </ul></li>
 <li class="chapter" data-level="20.9" data-path="thermochimie.html"><a href="thermochimie.html#exercices-supplémentaires-14"><i class="fa fa-check"></i><b>20.9</b> Exercices supplémentaires</a></li>
@@ -482,8 +418,8 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="les-réactions-doxydoréduction" class="section level1" number="18">
-<h1><span class="header-section-number">Chapitre 18</span> Les réactions d’oxydoréduction</h1>
+<div id="les-réactions-doxydoréduction" class="section level1 hasAnchor">
+<h1><span class="header-section-number">Chapitre 18</span> Les réactions d’oxydoréduction<a href="les-réactions-doxydoréduction.html#les-réactions-doxydoréduction" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <div class="objectives">
 <ul>
 <li>Attribuer les nombres d’oxydations aux différents éléments d’un composé.</li>
@@ -504,8 +440,9 @@ Réaction chimique dans laquelle des électrons sont transférés d’un réacti
 \]</span></p>
 <p>Dans cette réaction, le sodium solide (Na), qui contient des atomes de sodium neutres, réagit avec le dichlore, formé de molécules diatomiques (Cl<sub>2</sub>) neutres, pour former le solide ionique NaCl, qui contient les ions Na<sup>+</sup> et Cl<sup>-</sup>. De même, lorsque le calcium élémentaire réagit avec le dibrome il former le solide ionique CaBr<sub>2</sub>, qui contient les ions Ca<sup>2+</sup> et Br<sup>-</sup></p>
 <p>De telles réactions, dans lesquelles un ou plusieurs électrons sont transférés, sont des exemples de réaction d’oxydoréduction.</p>
-<div id="le-nombre-doxydation" class="section level2" number="18.1">
-<h2><span class="header-section-number">18.1</span> Le nombre d’oxydation</h2>
+
+<div id="le-nombre-doxydation" class="section level2 hasAnchor">
+<h2><span class="header-section-number">18.1</span> Le nombre d’oxydation<a href="les-réactions-doxydoréduction.html#le-nombre-doxydation" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Comment savoir si l’on est en présence d’une réaction d’oxydoréduction ? Le <strong>nombre d’oxydation</strong>, ou état d’oxydation, permet de suivre les électrons dans une réaction d’oxydoréduction.</p>
 <div class="tcolorbox">
 <p><strong>Nombre d’oxydation</strong><br />
@@ -555,8 +492,9 @@ Le nombre d’oxydation est la <strong>charge électrique fictive</strong> qu’
 </tr>
 </tbody>
 </table>
-<div id="attribuer-les-nombres-doxydation" class="section level3" number="18.1.1">
-<h3><span class="header-section-number">18.1.1</span> Attribuer les nombres d’oxydation</h3>
+
+<div id="attribuer-les-nombres-doxydation" class="section level3 hasAnchor">
+<h3><span class="header-section-number">18.1.1</span> Attribuer les nombres d’oxydation<a href="les-réactions-doxydoréduction.html#attribuer-les-nombres-doxydation" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>L’application d’une série de règles simples permet d’attribuer les états d’oxydation des atomes de la plupart des composés.</p>
 <table>
 <caption><span id="tab:tab-NO-rules">Table 18.2: </span> Règles pour l’attribution des nombres d’oxydation.</caption>
@@ -639,10 +577,11 @@ Le nombre d’oxydation est la <strong>charge électrique fictive</strong> qu’
 \]</span></li>
 </ol>
 </div>
+
 </div>
 </div>
-<div id="distinguer-une-réaction-doxydoréduction" class="section level2" number="18.2">
-<h2><span class="header-section-number">18.2</span> Distinguer une réaction d’oxydoréduction</h2>
+<div id="distinguer-une-réaction-doxydoréduction" class="section level2 hasAnchor">
+<h2><span class="header-section-number">18.2</span> Distinguer une réaction d’oxydoréduction<a href="les-réactions-doxydoréduction.html#distinguer-une-réaction-doxydoréduction" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p><strong>Une réaction d’oxydoréduction est caractérisée par un transfert d’électrons</strong>. Dans certains cas, le transfert se fait au sens propre pour former des ions, comme dans la réaction :</p>
 <p><span class="math display">\[
 2\overset{0}{\ce{Na}}(s) + \overset{0}{\ce{Cl2}}(g) \ce{-&gt;} 2\overset{+1\ -1}{\ce{NaCl}}(s)
@@ -715,9 +654,10 @@ Le nombre d’oxydation est la <strong>charge électrique fictive</strong> qu’
 \]</span></li>
 </ol>
 </div>
+
 </div>
-<div id="définitions-de-termes" class="section level2" number="18.3">
-<h2><span class="header-section-number">18.3</span> Définitions de termes</h2>
+<div id="définitions-de-termes" class="section level2 hasAnchor">
+<h2><span class="header-section-number">18.3</span> Définitions de termes<a href="les-réactions-doxydoréduction.html#définitions-de-termes" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Le transfert d’électrons caractérise les réaction d’oxydoréduction, il y a donc un donneur d’électrons et un accepteur d’électrons. Toute réaction d’oxydoréduction est composée de deux demi-réactions : la demi-réaction d’oxydation et la demi-réaction de réduction.</p>
 <ul>
 <li>L’<strong>oxydation</strong> est une augmentation de l’état d’oxydation (une perte d’électrons).</li>
@@ -788,6 +728,7 @@ Le nombre d’oxydation est la <strong>charge électrique fictive</strong> qu’
 </tr>
 </tbody>
 </table>
+
 <p><span class="math display">\[
 \overset{-4\ +1}{\ce{CH4}}(g) + 2\overset{0}{\ce{O2}}(g) \ce{-&gt;} \overset{+4\ -2}{\ce{CO2}}(g) + 2\overset{+1\ -2}{\ce{H2O}}(g)
 \]</span></p>
@@ -866,8 +807,8 @@ Le nombre d’oxydation est la <strong>charge électrique fictive</strong> qu’
 \end{split}
 \]</span></p>
 </div>
-<div id="couples-oxred" class="section level3" number="18.3.1">
-<h3><span class="header-section-number">18.3.1</span> Couples oxred</h3>
+<div id="couples-oxred" class="section level3 hasAnchor">
+<h3><span class="header-section-number">18.3.1</span> Couples oxred<a href="les-réactions-doxydoréduction.html#couples-oxred" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Prenons en exemple deux équations d’oxydoréduction :</p>
 <p><span class="math display">\[
 \begin{split}
@@ -884,8 +825,8 @@ Le nombre d’oxydation est la <strong>charge électrique fictive</strong> qu’
 <p>Par convention, on fait figurer l’oxydant en premier dans le couple oxred.</p>
 </div>
 </div>
-<div id="potentiels-standards-et-spontanéité" class="section level2" number="18.4">
-<h2><span class="header-section-number">18.4</span> Potentiels standards et spontanéité</h2>
+<div id="potentiels-standards-et-spontanéité" class="section level2 hasAnchor">
+<h2><span class="header-section-number">18.4</span> Potentiels standards et spontanéité<a href="les-réactions-doxydoréduction.html#potentiels-standards-et-spontanéité" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>De manière générale, le sens d’une réaction d’oxydoréduction dépend de la force relative des oxydants et des réducteurs qui participent à la réaction. Les expériences faites permettent de classer les couples rédox selon ce critère, de l’oxydant le plus faible à l’oxydant le plus fort ce qui revient à les classer du réducteur le plus fort au réducteur le plus faible (Table des <strong>potentiels standards de réduction</strong>).</p>
 <ul>
 <li>Dans un couple où l’oxydant est fort, le réducteur sera un réducteur faible.</li>
@@ -901,10 +842,10 @@ Le nombre d’oxydation est la <strong>charge électrique fictive</strong> qu’
 <li><span class="math inline">\(\ce{Cu^{2+}}\)</span> est un oxydant plus fort que <span class="math inline">\(\ce{Zn^{2+}}\)</span>.</li>
 <li><span class="math inline">\(\ce{Zn}\)</span> est un réducteur le plus fort que <span class="math inline">\(\ce{Zn}\)</span>.</li>
 </ul>
-<div id="règle-du-gamma" class="section level3" number="18.4.1">
-<h3><span class="header-section-number">18.4.1</span> Règle du gamma</h3>
+<div id="règle-du-gamma" class="section level3 hasAnchor">
+<h3><span class="header-section-number">18.4.1</span> Règle du gamma<a href="les-réactions-doxydoréduction.html#règle-du-gamma" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Cette règle du gamma permet, dès lors que l’on dispose des espèces présentes avant réaction ainsi que leurs potentiels standards, de prévoir si la réaction va avoir lieu de manière spontanée.</p>
-<div class="figure" style="text-align: center"><span id="fig:gamma-rule"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:gamma-rule"></span>
 <img src="images/gamma-rule.png" alt="Illustration de la règle du gamma." width="45%" />
 <p class="caption">
 Figure 18.1: Illustration de la règle du gamma.
@@ -918,8 +859,8 @@ Figure 18.1: Illustration de la règle du gamma.
 <p>ne sera donc pas spontanée.</p>
 </div>
 </div>
-<div id="équilibrer-les-équations-doxydoréduction" class="section level2" number="18.5">
-<h2><span class="header-section-number">18.5</span> Équilibrer les équations d’oxydoréduction</h2>
+<div id="équilibrer-les-équations-doxydoréduction" class="section level2 hasAnchor">
+<h2><span class="header-section-number">18.5</span> Équilibrer les équations d’oxydoréduction<a href="les-réactions-doxydoréduction.html#équilibrer-les-équations-doxydoréduction" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Précédemment, nous avons vu comment équilibrer des équations de réactions en équilibrant le nombre d’atomes de chaque type des deux côtés de la flèche de l’équation. Pour équilibrer des équations d’oxydoréduction, il est de plus nécessaire d’équilibrer les électrons transférés.</p>
 <p>Prenons par exemple, la réaction entre le chrome métallique et le nickel (II) en solution acqueuse :</p>
 <p><span class="math display">\[
@@ -1018,6 +959,7 @@ Figure 18.1: Illustration de la règle du gamma.
 \]</span></li>
 </ol>
 </div>
+
 <div class="Exercise">
 <p>Le cuivre élémentaire se transforme en oxyde de cuivre (II), ou vert de gris, en présence d’oxygène. Donnez les demi-équations de réduction et d’oxydation, identifiez l’oxydant et le réducteur et donnez l’équation globale de la réaction.
 </p>
@@ -1092,9 +1034,10 @@ Figure 18.1: Illustration de la règle du gamma.
 \end{split}
 \]</span></p>
 </div>
+
 </div>
-<div id="exercices-supplémentaires-13" class="section level2" number="18.6">
-<h2><span class="header-section-number">18.6</span> Exercices supplémentaires</h2>
+<div id="exercices-supplémentaires-13" class="section level2 hasAnchor">
+<h2><span class="header-section-number">18.6</span> Exercices supplémentaires<a href="les-réactions-doxydoréduction.html#exercices-supplémentaires-13" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <div class="Exercise">
 <p>Déterminez le nombre d’oxydation de chaque élément des espèces suivantes :</p>
 <ol style="list-style-type: lower-alpha">
@@ -1168,6 +1111,7 @@ Figure 18.1: Illustration de la règle du gamma.
 \]</span></li>
 </ol>
 </div>
+
 <div class="Exercise">
 <p>Le fer qui se transforme en rouille en présence d’oxygène forme notamment de l’oxyde de fer (III). Donnez les demi-équations de réduction et d’oxydation, identifiez l’oxydant et le réducteur et donnez l’équation globale de la réaction.
 </p>
@@ -1327,7 +1271,6 @@ Oui. Règle de l’oméga, réaction spontanée entre les meilleurs oxydant et r
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -1364,6 +1307,10 @@ gitbook.start({
 "text": null
 },
 "download": ["chimie-generale.pdf"],
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "section",
 "scroll_highlight": true
