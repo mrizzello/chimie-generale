@@ -34,9 +34,9 @@ jobs:
          name: docs # optional
          # Destination path
          path: docs # optional
-     - name: Deploy to GitHub Pages
-       uses: Cecilapp/GitHub-Pages-deploy@master
-       env:
-          EMAIL: ${{ secrets.EMAIL }}               # must be a verified email
-          GH_TOKEN: ${{ secrets.GH_PAT }} # https://github.com/settings/tokens
-          BUILD_DIR: docs/                     # "_site/" by default
+     - name: Deploy Gitbook to gh-pages
+       if: github.event_name == 'workflow_dispatch' && github.event.inputs.ghpages
+       uses: JamesIves/github-pages-deploy-action@4.1.5
+       with:
+         branch: gh-pages
+         folder: docs
