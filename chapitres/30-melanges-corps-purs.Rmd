@@ -132,13 +132,17 @@ Les techniques décrites ne dépendent que des propriétés physiques des consti
 
 ### L'attraction magnétique
 
+```{r attraction-magnetique,echo=FALSE,out.width="38%",fig.show="hold",fig.align="center",fig.cap="Séparation par attraction magnétique"}
+knitr::include_graphics(c("images/attraction-magnetique.png"))
+```
+
 L'**attraction magnétique**, ou **aimantation**, utilise les différences de **propriétés magnétiques**. Elle permet de séparer un mélange de substances magnétiques et non-magnétiques.
 
 Un mélange de limaille de fer et de poudre de soufre peut être séparé en utilisant un aimant. Cette technique est utilisée dans les déchetteries pour séparer les matériaux magnétiques des matériaux non-magnétiques.
 
 ### La filtration
 
-```{r filtration,echo=FALSE,out.width="33%",fig.show="hold",fig.align="center",fig.cap="Filtration par gravité"}
+```{r filtration,echo=FALSE,out.width="28%",fig.show="hold",fig.align="center",fig.cap="Filtration par gravité"}
 knitr::include_graphics(c("images/filtration.png"))
 ```
 
