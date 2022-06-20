@@ -18,8 +18,8 @@ jobs:
         run: Rscript -e 'bookdown::render_book("index.Rmd")'
       - uses: actions/upload-artifact@v1
         with:
-          name: docs
-          path: docs/
+          name: _book
+          path: _book/
   
   checkout-and-deploy:
    runs-on: ubuntu-latest
@@ -31,11 +31,11 @@ jobs:
        uses: actions/download-artifact@v1.0.0
        with:
          # Artifact name
-         name: docs # optional
+         name: _book # optional
          # Destination path
-         path: docs # optional
+         path: _book # optional
      - name: Deploy Gitbook to gh-pages
        uses: JamesIves/github-pages-deploy-action@4.1.5
        with:
          branch: gh-pages
-         folder: docs
+         folder: _book
