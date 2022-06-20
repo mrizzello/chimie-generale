@@ -12,7 +12,6 @@ classoption:
 github-repo: "mrizzello/chimie-generale"
 description: "Support du cours de chimie générale | Maturité gymnasiale | Gymnase de Nyon-la Côte"
 lang: fr
-mainfont: Optima
 papersize: a4
 fontsize: 11pt
 geometry: margin=1in
