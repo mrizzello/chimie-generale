@@ -114,13 +114,13 @@ Une phase représente chaque partie homogène dont est constitué une dispersion
 | :-------------: | :---------------: | ---------------------------------------- |
 |       gaz       |        gaz        | mélange toujours homogène (solution)     |
 |     liquide     |        gaz        | brouillard, laque pour cheveux           |
-|      solide     |        gaz        | fumée, nuage, poussière                  |
+|     solide      |        gaz        | fumée, nuage, poussière                  |
 |       gaz       |      liquide      | crème fouettée, soda, mousse à raser     |
 |     liquide     |      liquide      | lait, mayonnaise, crème solaire          |
-|      solide     |      liquide      | peinture, sang, boue                     |
-|       gaz       |       solide      | polystyrène, pierre ponce                |
-|     liquide     |       solide      | agar-agar, gelatine                      |
-|      solide     |       solide      | roches naturelles, plâtre, ciment, béton |
+|     solide      |      liquide      | peinture, sang, boue                     |
+|       gaz       |      solide       | polystyrène, pierre ponce                |
+|     liquide     |      solide       | agar-agar, gelatine                      |
+|     solide      |      solide       | roches naturelles, plâtre, ciment, béton |
 
 \newpage
 
@@ -230,8 +230,28 @@ La sédimentation et la décantation peuvent également être utilisées pour s�
 
 La **centrifugation** utilise la force centrifuge pour accélérer la sédimentation. Les composants plus denses migrent loin de l'axe de la centrifugeuse, tandis que les composants moins denses du mélange migrent vers l'axe.
 
+\newpage
+
 ```{r, child=c('exe/melanges-corps-purs-30.Rmd')}
 ```
+
+### Résumé des méthodes de séparation
+
+| mélange à séparer |   méthode de séparation   | Propriété utilisée                      |
+| :---------------: | :-----------------------: | :-------------------------------------- |
+|   solide/solide   |   attraction magnétique   | un composant est magnétique             |
+|   solide/solide   |   dissolution sélective   | un composant est soluble                |
+|   solide/solide   |        sublimation        | un composant sublime                    |
+|   solide/solide   |      chromatographie      | affinité avec la phase stationnaire     |
+|   solide/solide   |        extraction         | solubilité dans un des solvants         |
+|                   |                           |                                         |
+|  solide/liquide   |        filtration         | taille des particules                   |
+|  solide/liquide   |       vaporisation        | température d'ébullition / volatilité   |
+|  solide/liquide   | sédimentation/décantation | masse volumique / taille des particules |
+|                   |                           |                                         |
+|  liquide/liquide  |       distillation        | température d'ébullition                |
+|  liquide/liquide  |      chromatographie      | affinité avec la phase stationnaire     |
+|  liquide/liquide  |        extraction         | solubilité dans un des solvants         |
 
 \newpage
 
