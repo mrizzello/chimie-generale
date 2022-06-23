@@ -59,7 +59,7 @@ Les éléments B, Si, Ge, As, Sb, Te, Po et At sont appelés **métalloïdes**. 
 
 Le reste des éléments, à droite des métalloïdes, sont appelés **non-métaux**. Les non-métaux ont des propriétés qui sont souvent opposées à celles des métaux. Certains sont des gaz, ils sont de mauvais conducteurs de la chaleur et de l'électricité, ils ne sont ni malléables, ni ductiles.
 
-```{r tpe-empty,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Le vocabulaire du tableau périodique"}
+```{r tpe-empty,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Le vocabulaire du tableau périodique"}
 knitr::include_graphics(c("images/tpe-empty.png"))
 ```
 
@@ -88,8 +88,6 @@ Table: (#tab:noms-groupes-courants) Noms de quelques groupes couramment employé
 |  VIII  | les gaz rares (ou gaz nobles) | He, Ne, Ar, Kr, Xe, Rn |
 
 Les **éléments de transition internes** ont été décalés dans le tableau périodique afin de rendre ce dernier plus compact.
-
-\newpage
 
 ## Interactions rayonnement-matière
 
@@ -275,9 +273,7 @@ Table: (#tab:structure-lewis-groupe-principal) Structure de Lewis des éléments
 
 ## La règle de l'octet
 
-Les gaz rares (groupe VIIIA) sont très peu réactifs car ils ont une très grande stabilité électronique.
-
-Ceci est dû au fait que leur couche électronique de valence est complètement remplie avec **huit électrons**, à l'exception de l'hélium, qui en a deux.
+Les gaz rares (groupe VIIIA) sont très peu réactifs car ils ont une très grande stabilité électronique. Ceci est dû au fait que leur couche électronique de valence est complètement remplie avec **huit électrons**, à l'exception de l'hélium, qui en a deux.
 
 Cette observation a conduit à une règle connue sous le nom de **règle de l'octet**.
 
@@ -299,9 +295,9 @@ Un ion est un atome ou un groupe d'atomes qui a gagné ou perdu un ou plusieurs 
 
 :::
 
-### Le cation ou la perte d'électrons
-
 Les atomes qui **perdent** un ou plusieurs électrons ont un excédent de charge positive et sont appelés **cations**.
+
+### Le cation ou la perte d'électrons
 
 Prenons, par exemple, le sodium. Son numéro atomique est égal à 11, il contient 11 protons et comme l'atome est neutre, il contient également 11 électrons. Avec un électron en moins, l'atome est constitué de 11 protons et 10 électrons. Il a donc une charge positive en excès. il devient un cation. On écrira le cation sodium **Na^+^**.
 
@@ -345,13 +341,13 @@ Dans le tableau périodique, les chiffres romains des groupes A indiquent le nom
 ```{r, child=c('exe/tableau-periodique-40.Rmd')}
 ```
 
+\newpage
+
 ### Les ions des éléments de transition - groupe B
 
 Déterminer l'ion stable formé par les métaux de transition est plus difficile car ces éléments ne gagneront ou ne perderont pas toujours le même nombre d'électrons.
 
 Les éléments de transition ne respectent pas la règle de l'octet, mais une autre règle appelée la **règle des 18 électrons**. Nous n'aborderons pas cette règle dans le cadre de ce cours.
-
-\newpage
 
 ## Exercices supplémentaires
 
@@ -361,10 +357,10 @@ Les éléments de transition ne respectent pas la règle de l'octet, mais une au
 ```{r, child=c('exe/tableau-periodique-60.Rmd')}
 ```
 
+\newpage
+
 ```{r, child=c('exe/tableau-periodique-70.Rmd')}
 ```
-
-\newpage
 
 ```{r, child=c('exe/tableau-periodique-80.Rmd')}
 ```
