@@ -5,12 +5,11 @@ Représenter sous leur forme symbolique les ions stables formés par les éléme
 
 :::
 
-|                I                |     II     |     II    |    IV    |     V     |    VI    |   VII  |   VII  |
-| :-----------------------------: | :--------: | :-------: | :------: | :-------: | :------: | :----: | :----: |
-|             Lithium             |  Béryllium |    Bore   |  Carbone |   Azote   |  Oxygène |  Fluor |  Néon  |
-| ![](images/1px.png){height=3em} |            |           |          |           |          |        |        |
-|              Sodium             |  Magnésium | Aluminium | Silicium | Phosphore |  Soufre  | Chlore |  Argon |
-| ![](images/1px.png){height=3em} |            |           |          |           |          |        |        |
-
+|                I                |               II                |               II                |               IV                |                V                |               VI                |               VII               |               VII               |
+| :-----------------------------: | :-----------------------------: | :-----------------------------: | :-----------------------------: | :-----------------------------: | :-----------------------------: | :-----------------------------: | :-----------------------------: |
+|             Lithium             |            Béryllium            |              Bore               |             Carbone             |              Azote              |             Oxygène             |              Fluor              |              Néon               |
+| ![](images/1px.png){height=4em} | ![](images/1px.png){height=4em} | ![](images/1px.png){height=4em} | ![](images/1px.png){height=4em} | ![](images/1px.png){height=4em} | ![](images/1px.png){height=4em} | ![](images/1px.png){height=4em} | ![](images/1px.png){height=4em} |
+|             Sodium              |            Magnésium            |            Aluminium            |            Silicium             |            Phosphore            |             Soufre              |             Chlore              |              Argon              |
+| ![](images/1px.png){height=4em} | ![](images/1px.png){height=4em} | ![](images/1px.png){height=4em} | ![](images/1px.png){height=4em} | ![](images/1px.png){height=4em} | ![](images/1px.png){height=4em} | ![](images/1px.png){height=4em} | ![](images/1px.png){height=4em} |
 
 ::::::
