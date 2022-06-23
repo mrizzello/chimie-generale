@@ -876,6 +876,14 @@ La chimie est la science qui étudie la composition, les propriétés et les tra
 
   });
 </script>
+<script type="text/javascript">
+  $(document).ready(function () {
+    $(".normal table").each(function (i, el) {
+      let parent = $("<div>").attr("style", "overflow-x:auto");
+      $(el).wrap(parent);
+    });
+  });
+</script>
             </section>
 
           </div>

@@ -1112,6 +1112,14 @@ C_i \cdot V_i = C_f \cdot V_f
 
   });
 </script>
+<script type="text/javascript">
+  $(document).ready(function () {
+    $(".normal table").each(function (i, el) {
+      let parent = $("<div>").attr("style", "overflow-x:auto");
+      $(el).wrap(parent);
+    });
+  });
+</script>
             </section>
 
           </div>

@@ -838,6 +838,14 @@ Figure 16.5: Effet de la diminution du volume (augmentation de la pression) sur 
 
   });
 </script>
+<script type="text/javascript">
+  $(document).ready(function () {
+    $(".normal table").each(function (i, el) {
+      let parent = $("<div>").attr("style", "overflow-x:auto");
+      $(el).wrap(parent);
+    });
+  });
+</script>
             </section>
 
           </div>
