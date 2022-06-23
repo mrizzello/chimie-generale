@@ -22,7 +22,9 @@ bookdown::gitbook:
       all: null
   includes:
       in_header: ./html/mathjax-mhchem.html
-      after_body: ./html/exercices.html
+      after_body:
+        - ./html/exercices.html
+        - ./html/tables.html
   toc_depth: 3
 bookdown::pdf_book:
   includes:
