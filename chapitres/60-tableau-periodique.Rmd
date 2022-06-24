@@ -44,7 +44,7 @@ Le tableau périodique contient souvent des informations supplémentaires sur le
 Si aujourd'hui, 86 métaux sont présents dans le tableau de Mendeleïev, seuls sept d'entre eux étaient connus et isolés jusqu’au Moyen Age :
 
 | élément | découverte     |
-|:--------|:---------------|
+| :------ | :------------- |
 | or      | 6000 av. J.-C. |
 | cuivre  | 4000 av. J.-C. |
 | argent  | 3500 av. J.-C. |
@@ -80,7 +80,7 @@ Il y a au total 18 familles et il existe différentes manières de les numérote
 Table: (#tab:noms-groupes-courants) Noms de quelques groupes couramment employés.
 
 | Groupe | nom                           | éléments               |
-|:------:|:------------------------------|:-----------------------|
+| :----: | :---------------------------- | :--------------------- |
 |   I    | métaux alcalins               | Li, Na, K, Rb, Cs, Fr  |
 |   II   | métaux alcalino-terreux       | Be, Mg, Ca, Sr, Ba, Ra |
 |   VI   | chalcogènes                   | O, S, Se, Te, Po       |
@@ -91,24 +91,27 @@ Les **éléments de transition internes** ont été décalés dans le tableau p�
 
 ## Interactions rayonnement-matière
 
-Les atomes sont trop petits pour être visibles, on ne peut donc les étudier que de manière indirecte. Les électrons qui gravitent autour du noyau ont des comportements qui ne peuvent pas être décrits par les lois de la physique classique mais la physique ondulatoire permet de les décrire de manière satisfaisante. Les électrons et la lumière sont alors représentés par des phénomènes ondulatoires.
+Une onde est une perturbation de l'état physique d'un milieu qui se propage. Elle transporte de l'énergie sans transporter de matière. Par exemple, lorsqu'on lance un caillou dans l'eau, la surface de l'eau est modifiée et des vagues apparaissent à sa surface; lorsque l'on frappe dans ses mains, cette variation de pression de propage dans l'air ambiant; quand on frotte une corde de violon avec un archet, on peut voir la corde vibrer et l'entendre grâce à la propagation de la vibration dans l'air.
+
+Les objets quantiques, comme la lumière et les électrons, ont la particularité de se comporter **à la fois** comme des ondes ou des particules. Un électron a, par exemple, une masse et une charge électrique. Il peut être défini comme une particule. Alors que si on laisse cet électron se déplacer librement sans l'observer, il aura les caractéristiques d'une onde. Pour expliquer la structure et le comportement des atomes, il est nécessaire de considérer que les particules ont des propriétés ondulatoires.
 
 ### Les ondes électromagnétiques
 
-Une onde est une perturbation de l'état physique d'un milieu qui se propage. Elle transporte de l'énergie sans transporter de matière. Par exemple, lorsqu'on lance un caillou dans l'eau, la surface de l'eau est modifiée et des vagues apparaissent à sa surface; lorsque l'on frappe dans ses mains, cette variation de pression de propage dans l'air ambiant; quand on frotte une corde de violon avec un archet, on peut voir la corde vibrer et l'entendre grâce à la propagation de la vibration dans l'air.
+Les ondes qui vont nous intéresser pour décrire les électrons sont les **ondes électromagnétiques**. Une onde électromagnétique est une perturbation du champ électromagnétique qui se propage. Elle a la particularité de se propager aussi bien dans un milieu matériel que dans le vide. Les ondes radio, les ondes lumineuses ou les rayons X sont des exemples d'onde électromagnétique.
 
-Les ondes qui vont nous intéresser dans le cadre de ce cours sont les **ondes électromagnétiques**. Une onde électromagnétique est une perturbation du champ électromagnétique qui se propage. Elle a la particularité de se propager aussi bien dans un milieu matériel que dans le vide. Les ondes radio, les ondes lumineuses ou les rayons X sont des exemples d'onde électromagnétique.
+### Longueur d'onde, fréquence et vitesse
 
-```{r onde-electromagnetique,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Champs électrique (E) et magnétique (B) d'une onde électromagnétique."}
-knitr::include_graphics(c("images/onde-electromagnetique.png"))
+Si on dessine un faisceau lumineux sous la forme d'une onde, nous appellerons **longueur d'onde**, la distance entre deux crêtes (ou entre deux creux ou entre deux positions identiques sur l'onde). Si on considère que cette onde se déplace de gauche à droite et si on compte le nombre de crêtes qui passent par un point particulier chaque seconde, on obtient la **fréquence**.
+
+```{r ondes-electromagnetiques,echo=FALSE,out.width="75%",fig.show="hold",fig.align="center",fig.cap="Longueur d'onde, fréquence et énergie"}
+knitr::include_graphics(c("images/ondes-electromagnetiques.png"))
 ```
-::: {.credit data-latex=""}
-crédit : wikimedia/SuperManu
-:::
 
-Il s'avère que ces rayonnements permettent d'analyser des objets tels que les atomes et leurs électrons. L'analyse du rayonnement émis ou absorbé par la matière s'appelle la **spectroscopie**.
+La longuer d'onde est exprimée en nanomètre, nm, pour les ondes lumineuses. La fréquence est exprimée en Hertz, Hz, le nombre de cycles par seconde. Longueur d'onde et fréquence sont inversément proportionnelles. Plus la longueur d'onde est élevée, plus la fréquence est basse. Plus la longueur d'onde est petite, plus la fréquence est élevée.
 
 ### Le spectre électromagnétique
+
+L'analyse du rayonnement émis ou absorbé par la matière s'appelle la **spectroscopie**.
 
 Le spectre électromagnétique regroupe l'ensemble de toutes les ondes électromagnétiques en fonction de leur longueur d'onde et de leur fréquence.
 
@@ -122,6 +125,18 @@ crédit : wikimedia/Benjamin ABEL
 
 Les ondes électromagnétiques sont classées en différentes catégories selon leur longueur d'onde. Les plus connues sont celles de la lumière visible (entre 400 et 750 [nm], environ) mais il existe d'autres rayonnements que l'oeil ne perçoit pas.
 
+Table: (#tab:domaine-spectre-visible) Domaine du spectre visible.
+
+| couleur | longueur d'onde [nm] | fréquence [10^14^ Hz] | énergie [eV] |
+| :------ | :------------------: | :-------------------: | :----------: |
+| violet  |         400          |         7.50          |     3.10     |
+| bleu    |         450          |         6.66          |     2.75     |
+| cyan    |         500          |         5.99          |     2.48     |
+| vert    |         550          |         5.45          |     2.25     |
+| jaune   |         580          |         5.16          |     2.14     |
+| orange  |         600          |         5.00          |     2.06     |
+| rouge   |         650          |         4.62          |     1.91     |
+
 ### Interactions rayonnement-matière
 
 Nous sommes régulièrement confrontés à des interactions entre la matière (les atomes) et un rayonnement électromagnétique. Par exemple, un morceau de fer chauffé va émettre un rayonnement électromagnétique différent selon la température à laquelle il est porté. On peut aussi voir l'absorption de rayonnement comme lors d'une radiographie au rayons X. Les os absorbent les rayons X alors que les tissus mous (peau, graisse, muscles) sont quasiment transparents aux rayons X.
@@ -130,7 +145,7 @@ Des ondes électromagnétiques peuvent être absorbées par un électron augment
 
 Un électron qui se trouve dans un état d'énergie supérieure à celle de l'état fondamental va avoir tendance à évoluer vers un état d'énergie plus faible avec l'émission d'une onde électromagnétique. L'électron va donc perdre de l’énergie en éjectant un photon qui possède exactement la différence d'énergie entre les deux états.
 
-```{r absorption-emission,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Différence entre spectres d'absorption et d'émission"}
+```{r absorption-emission,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Différence entre spectres d'absorption et d'émission"}
 knitr::include_graphics(c("images/absorption-emission.png"))
 ```
 
@@ -146,16 +161,13 @@ Ce modèle introduit une description mathématique du mouvement de l'électron a
 Table: (#tab:couches-sous-couches-orbitales) Résumé des couches, sous-couches et orbitales.
 
 | couche | sous-couche | orbitales | électrons | total électrons |
-|:------:|:-----------:|:---------:|:---------:|:---------------:|
+| :----: | :---------: | :-------: | :-------: | :-------------: |
 | **1**  |      s      |     1     |     2     |      **2**      |
-|        |             |           |           |                 |
 | **2**  |      s      |     1     |     2     |      **8**      |
 |        |      p      |     3     |     6     |                 |
-|        |             |           |           |                 |
 | **3**  |      s      |     1     |     2     |     **18**      |
 |        |      p      |     3     |     6     |                 |
 |        |      d      |     5     |    10     |                 |
-|        |             |           |           |                 |
 | **4**  |      s      |     1     |     2     |     **32**      |
 |        |      p      |     3     |     6     |                 |
 |        |      d      |     5     |    10     |                 |
@@ -166,7 +178,7 @@ Selon ce modèle, les électrons d'un atome gravitent autour de l'atome à des n
 
 Dans une couche les électrons sont distribués en **sous-couches** d'énergie légèrement différentes. On note les sous-couches avec les lettres s, p, d, f et chacune représente une forme d'orbitale différente.
 
-```{r orb-3d,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Formes des orbitales s, p et d."}
+```{r orb-3d,echo=FALSE,out.width="90%",fig.show="hold",fig.align="center",fig.cap="Formes des orbitales s, p et d."}
 knitr::include_graphics(c("images/orb-3d.jpeg"))
 ```
 
@@ -182,9 +194,11 @@ La manière dont les électrons sont répartis dans les différentes orbitales p
 
 On utilise ce diagramme pour prédire les liaisons qui se produisent entre deux atomes et pour montrer pourquoi certains éléments se comportent de la même façon.
 
-```{r energy-level,echo=FALSE,out.width="25%",fig.show="hold",fig.align="center",fig.cap="Diagramme énergétique des orbitales atomiques."}
+```{r energy-level,echo=FALSE,out.width="40%",fig.show="hold",fig.align="center",fig.cap="Diagramme énergétique des orbitales atomiques."}
 knitr::include_graphics(c("images/energy-level.png"))
 ```
+
+\newpage
 
 ### Déterminer une configuration électronique
 
@@ -199,11 +213,7 @@ En connaissant le nombre d'électrons contenus dans un atome, on peut remplir ce
 - La figure \@ref(fig:energy-level-order) donne l'ordre de remplissage des orbitales (principe Aufbau).
 - Si plusieurs orbitales de même énergie sont disponibles, on remplit le plus d'orbitales possibles avant d'apparier les électrons.
 
-Une fois le diagramme rempli, on en déduit la configuration électronique de l'atome pour le niveau de plus basse énergie.
-
-La **configuration électronique** d'un atome est une notation abrégée de la répartition des électrons dans les différentes couches et sous-couches électroniques.
-
-\newpage
+Une fois le diagramme rempli, on en déduit la configuration électronique de l'atome pour le niveau de plus basse énergie. La **configuration électronique** d'un atome est une notation abrégée de la répartition des électrons dans les différentes couches et sous-couches électroniques.
 
 ```{r, child=c('exe/tableau-periodique-10.Rmd')}
 ```
@@ -215,7 +225,7 @@ $$ \underbrace{1s^{2}~2s^{2}~2p^{6}}_{\text{Néon}}~3s^{2}~3p^{5} \text{ devient
 Table: (#tab:conf-elec-premieres-periodes) Configuration électronique des deux premières périodes.
 
 | Groupe | Elément | Conf. électronique               | Elément | Conf. électronique                |
-|:------:|:-------:|:---------------------------------|:-------:|:----------------------------------|
+| :----: | :-----: | :------------------------------- | :-----: | :-------------------------------- |
 |   IA   |   Li    | [He] $2s^{1}$                    |   Na    | [Ne] $3s^{1}$                     |
 |  IIA   |   Be    | [He] $2s^{2}$                    |   Mg    | [Ne] $3s^{2}$                     |
 |  IIIA  |    B    | [He] $2s^{2}~2p^{1}$             |   Al    | [Ne] $3s^{2}~3p^{1}$              |
@@ -227,12 +237,8 @@ Table: (#tab:conf-elec-premieres-periodes) Configuration électronique des deux 
 
 La configuration électronique du niveau de plus basse énergie est appelée **état fondamental**. Les configurations dont la distribution des électrons est différente de l'état fondamental sont appelées **états excités**.
 
-```{r energy-level-5,echo=FALSE,out.width="33%",fig.show="hold",fig.align="center",fig.cap="Tableau périodique et diagramme des orbitales atomiques."}
-knitr::include_graphics(c("images/energy-level-5.png"))
-```
-
-```{r tpe-orbitals,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Les orbitales atomiques dans le tableau périodique."}
-knitr::include_graphics(c("images/tpe-orbitals.png"))
+```{r energy-level-5,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Les orbitales atomiques et le tableau périodique."}
+knitr::include_graphics(c("images/energy-level-5.png","images/tpe-orbitals.png"))
 ```
 
 ## Les électrons de valence
@@ -261,15 +267,14 @@ On utilise les règles suivantes pour dessiner la structure de Lewis d'un atome:
 Table: (#tab:structure-lewis-groupe-principal) Structure de Lewis des éléments du groupe principal (c = célibataire, p = paire).
 
 |                    I                     |                    II                    |                    II                    |                    IV                    |                     V                      |                     VI                     |                    VII                     |                   VII                    |
-|:----------------------------------------:|:----------------------------------------:|:----------------------------------------:|:----------------------------------------:|:------------------------------------------:|:------------------------------------------:|:------------------------------------------:|:----------------------------------------:|
+| :--------------------------------------: | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: | :----------------------------------------: | :----------------------------------------: | :----------------------------------------: | :--------------------------------------: |
 | ![](images/lewis-dots-1c.png){width=3em} | ![](images/lewis-dots-2c.png){width=3em} | ![](images/lewis-dots-3c.png){width=3em} | ![](images/lewis-dots-4c.png){width=3em} | ![](images/lewis-dots-1p3c.png){width=3em} | ![](images/lewis-dots-2p2c.png){width=3em} | ![](images/lewis-dots-3p1c.png){width=3em} | ![](images/lewis-dots-4p.png){width=3em} |
 |                    1c                    |                    2c                    |                    3c                    |                    4c                    |                   1p 3c                    |                   2p 2c                    |                   3p 1c                    |                    4p                    |
 
+\newpage
 
 ```{r, child=c('exe/tableau-periodique-20.Rmd')}
 ```
-
-\newpage
 
 ## La règle de l'octet
 
@@ -341,13 +346,13 @@ Dans le tableau périodique, les chiffres romains des groupes A indiquent le nom
 ```{r, child=c('exe/tableau-periodique-40.Rmd')}
 ```
 
-\newpage
-
 ### Les ions des éléments de transition - groupe B
 
 Déterminer l'ion stable formé par les métaux de transition est plus difficile car ces éléments ne gagneront ou ne perderont pas toujours le même nombre d'électrons.
 
 Les éléments de transition ne respectent pas la règle de l'octet, mais une autre règle appelée la **règle des 18 électrons**. Nous n'aborderons pas cette règle dans le cadre de ce cours.
+
+\newpage
 
 ## Exercices supplémentaires
 
