@@ -94,10 +94,10 @@ Les chiffres 2 devant le dioxygène et l'eau sont appelés **nombres stoechiomé
 
 L'état dans lequel se trouvent les réactifs et les produits peut être indiqué entre parenthèses en indice de la formule brute du composé.
 
-- (s) solide
-- (l) liquide
-- (g) gaz
-- (aq) solution aqueuse
+- solide : (s)
+- liquide : (l)
+- gaz : (g)
+- solution aqueuse : (aq)
 
 ## Écrire une équation chimique
 
