@@ -1,16 +1,75 @@
-# Les liaisons chimiques
+# Molécules et liaisons chimiques
 
 ::: {.objectives data-latex=""}
 
 -  Expliquer le concept de liaison chimique.
 -  Identifier les différents types de liaisons chimiques.
 -  Expliquer le concept d'électronégativité.
--  Reconnaître les ions que contient une molécule selon sa formule brute.
--  Déduire la signification d'une formule brute.
+-  Reconnaître les ions que contient une molécule dans sa formule brute.
+-  Dessiner la formule développée d'une molécule avec ses covalences et électrovalences.
+-  Calculer la masse réelle d'une molécule à partir des masses atomiques des atomes qui la composent.
+-  Calculer le nombre de moles/molécules que contient une masse donnée d'un composé.
 
 :::
 
 En observant le monde autour de nous, on découvre qu'il est composé principalement de corps purs composés et de mélanges de corps purs composés: la roche, les sols, le pétrole, les arbres et le corps humain sont tous des mélanges complexes de composés chimiques liant différents types d'atomes ensemble. **Seuls les gaz rares se trouvent dans la nature sous forme d'atomes isolés.**
+
+## Les molécules
+
+De nombreuses substances existent sous la forme de deux ou plusieurs atomes reliés entre eux de manière si forte qu'ils se comportent comme une seule particule. Ces combinaisons de plusieurs atomes sont appelées molécules. De manière similaire à un atome, une molécule est la plus petite partie d'une substance qui possède les propriétés physiques et chimiques de cette substance. Cependant, une molécule est composée de plus d'un atome.
+
+::: {.tcolorbox data-latex=""}
+
+**Molécule**  
+Une molécule est un groupe d'au moins deux atomes liés par une/des liaison(s) chimique(s).
+
+:::
+
+Les chimistes utilisent des formules chimiques pour exprimer la composition des espèces chimiques à l'aide de symboles.
+
+### La formule brute
+
+Les molécules sont composées d'atomes. On les représente par une formule, en indiquant les symboles des atomes qui les composent et leur nombre. Cette formule est appelée **formule brute**. La formule brute donne le nombre d'atomes des différents éléments qui forment un composé, exprimés avec les plus petits nombres entiers possibles.
+
+- $NaCl$ : 1 atome de sodium et 1 atome de chlore  
+- $O_2$ : 2 atomes d'oxygène  
+- $H_2O$ : 2 atomes d'hydrogène et 1 atome d'oxygène
+
+Lorsqu'un atome n'est présent qu'une seule fois dans la molécule, on n'indique pas l'indice 1. La formule brute de l'eau s'écrira donc H~2~O et non H~2~O~1~, et on écrira CO~2~ et non C~1~O~2~.
+
+## La masse molaire moléculaire
+
+::: {.tcolorbox data-latex=""}
+
+**Masse molaire moléculaire**  
+La masse molaire d'un composé est la masse en grammes d'une mole de molécules de ce composé.
+
+:::
+
+Une molécule de $CH_4$ contient 1 atome de carbone et 4 atomes d'hydrogène.
+
+Donc, une mole de molécules de $CH_4$ contient 1 mole d'atomes de carbone et 4 moles d'atomes d'hydrogène.
+
+La masse d'une mole de méthane peut être trouvée en additionnant les masses molaires atomiques du carbone et de l'hydrogène présents dans la molécule:
+
+$$ \begin{split}
+  \text{Masse de 1 [mol] de carbone} &= 12.01 [g] \\
+  \text{Masse de 4 [mol] d'hydrogène} &= 4.032 [g] \quad (4 \cdot 1.008 [g]) \\
+  \hline
+  \text{Masse de 1 [mol] de $CH_4$} &= 16.04 [g]
+  \end{split} $$
+
+### La formule développée
+
+La formule brute ne permet pas d'indiquer comment les atomes sont reliés entre eux par des liaisons chimiques ou comment ils sont disposés dans l'espace. Comprendre comment les atomes d'une molécule sont disposés et comment ils sont liés entre eux permet d'expliquer les caractéristiques physiques et chimique d'un composé.
+
+**La formule développée** identifie l'emplacement des atomes ainsi que leurs liaisons au sein d'une molécule. On utilise la représentation de Lewis pour dessiner les atomes des différents éléments qui sont reliés par des lignes qui représentent les liaisons chimiques.
+
+```{r methanol-formulas,echo=FALSE,out.width="100%",fig.show='hold',fig.align='center',fig.cap="La molécule de méthanol."}
+knitr::include_graphics(c("images/methanol-formulas.png"))
+```
+
+## Les liaisons chimiques
 
 Pourquoi les atomes se lient entre eux ? Deux atomes liés ensemble forment un système physique dont l'énergie potentielle est plus basse que celle de deux atomes non liés. La nature cherche à minimiser l'énergie d'un système, les atomes ont donc tendance à former des liaisons. **Les atomes se trouvent dans un état plus stables quand ils participent à une liaison que quand ils sont isolés.**
 
@@ -22,7 +81,85 @@ On divise les liaisons chimiques en trois familles différentes:
 -  la **liaison covalente**
 -  la **liaison métallique**
 
-## La liaison covalente | non-métal - non-métal
+### L'électronégativité
+
+::: {.tcolorbox data-latex=""}
+
+**Électronégativité**  
+L'électronégativité est la capacité d'un atome à attirer les électrons de liaison.
+
+:::
+
+Plus l'électronégativité d'un élément est élevée, plus il aura tendance à attirer à lui les électrons dans une liaison. **L'électronégativité de chaque élément est indiquée dans votre tableau périodique des éléments.**
+
+Les liaisons sont rarement purement ioniques ou purement covalentes, dans la plupart des substances les liaisons formées se situent quelque part entre la liaison ionique et la liaison covalente.
+
+En se basant sur la différence d'électronégativité ($\Delta$E) entre deux atomes on peut connaître le type de liaison que vont former ces deux atomes.
+
+```{r deltaE,echo=FALSE,out.width="85%",fig.show="hold",fig.align="center",fig.cap="Intervalles de $\\Delta$E pour déterminer le type de liaison"}
+knitr::include_graphics(c("images/deltaE.png"))
+```
+
+**L'électronégativité de chaque élément est indiquée dans votre tableau périodique des éléments.**  
+
+### La liaison ionique | métal - non-métal
+
+::: {.tcolorbox data-latex=""}
+
+**Liaison ionique**  
+Une liaison ionique résulte du **transfert** d'un ou plusieurs électrons d'un atome à un autre.
+
+:::
+
+La liaison ionique est le résultat du transfert d'un ou plusieurs électrons depuis un métal vers un non-métal afin de satisfaire **la règle de l'octet**. Essayons de former une molécule avec du sodium et du chlore.
+
+- Le sodium a tendance à perdre un électron de valence pour former le cation $Na^{+}$
+- Le chlore a tendance à gagner un électron de valence pour former l'anion $Cl^{-}$
+
+Le sodium et le chlore ont tous les deux un intérêt à former une liaison. L'atome de sodium va perdre un électron qui sera récupéré par l'atome de chlore. Ils compléteront tous les deux leur couche de valence avec huit électrons.
+
+```{r NaCl-diagram,echo=FALSE,out.width="60%",fig.show="hold",fig.align="center",fig.cap="Liaison ionique entre chlore et sodium"}
+knitr::include_graphics(c("images/NaCl-diagram.png"))
+```
+
+Deux atomes de sodium réagiront de la même manière avec deux atomes de chlore formant deux molécules de chlorure de sodium. Trois atomes de sodium réagiront avec trois atomes de chlore formant trois molécules de chlorure de sodium, et ainsi de suite... Si l'on fait réagir une mole d'atomes de sodium avec une mole d'atomes de chlore, nous obtiendront une mole de molécules de chlorure de sodium.
+
+Un échantillon de chlorure de sodium ($NaCl$) est constitué d'un très grand nombre de cations $Na^+$ et d'anions $Cl^-$. Ces ions forment un réseau tridimensionnel, appelé **réseau ionique**. L'ensemble est **électriquement neutre** car le nombre de cations $Na^+$ est égal au nombre d'anions $Cl^-$. Pour un cation $Na^+$, on aura un anion $Cl^-$, on écrira donc la **formule brute** $NaCl$.
+
+\newpage
+
+```{r CaF2-diagram,echo=FALSE,out.width="60%",fig.show="hold",fig.align="center",fig.cap="Liaison ionique entre calcium et fluor"}
+knitr::include_graphics(c("images/CaF2-diagram.png"))
+```
+
+Le nombre relatif de cations et d'anions n'est pas toujours le même. Prenons par exemple le chlorure de magnésium, $CaF_2$. Il y a deux fois plus d'anions $F^-$ que de cations $Ca^{2+}$, on écrira donc la formule brute $CaF_2$.
+
+```{r NaClCaF2,echo=FALSE,out.width="25%",,fig.show='hold',fig.align='center',fig.cap="Réseaux ioniques formés par $NaCl$ et $CaF_2$."}
+knitr::include_graphics(c("images/NaCl-crystal.png","images/CaF2-crystal.png"))
+```
+
+```{r, child=c('exe/liaisons-20.Rmd')}
+```
+
+\newpage
+
+#### Dessiner les liaisons ioniques des composés binaires
+
+- On dessine la structure de Lewis des atomes en plaçant l'élément le plus électronégatif à droite.
+- On dessine autant de cations et d'anions nécessaires à apparier tous les électrons célibataires de chaque élément.
+- On transfère les électrons des cations aux anions.
+- On dessine les paires nouvellement créées et on ajoute les charges négatives ou positives.
+
+|                      $NaCl$                     |                     $MgBr_2$                     |                     $AlF_3$                     |
+| :---------------------------------------------: | :----------------------------------------------: | :---------------------------------------------: |
+| ![](images/dessin-ioniques-NaCl.png){width=9em} | ![](images/dessin-ioniques-MgBr2.png){width=9em} | ![](images/dessin-ioniques-AlF3.png){width=9em} |
+
+```{r, child=c('exe/liaisons-70.Rmd')}
+```
+
+\newpage
+
+### La liaison covalente | non-métal - non-métal
 
 ::: {.tcolorbox data-latex=""}
 
@@ -55,7 +192,18 @@ Dans de nombreuses molécules, pour atteindre un octet complet, les atomes vont 
 ```{r liaisons-multiples,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Exemples de liaisons covalentes simples, doubles et triples"}
 knitr::include_graphics(c("images/liaisons-multiples.png"))
 ```
-\newpage
+#### Dessiner les liaisons covalentes des composés binaires
+
+- On dessine la structure de Lewis des atomes en plaçant l'élément le plus électronégatif à droite.
+- On dessine autant d'atomes nécessaires à apparier tous les électrons célibataires de chaque élément.
+- On dessine les liaisons nouvellement créées et on ajoute les charges partielles si il y lieu.
+- Plusieurs liaisons covalentes doubles ou triples peuvent être nécessaires.
+- On peut utiliser les paires libres pour former des liaisons par covalence de coordination.
+- On dessine les liaisons nouvellement créées et on ajoute les charges partielles si il y lieu.
+
+|                     $H_2O$                     |                     $NH_3$                     |                     $CH_4$                     |
+| :--------------------------------------------: | :--------------------------------------------: | :--------------------------------------------: |
+| ![](images/dessin-covalentes-H2O.png){width=9em} | ![](images/dessin-covalentes-NH3.png){width=9em} | ![](images/dessin-covalentes-CH4.png){width=9em} |
 
 ```{r, child=c('exe/liaisons-30.Rmd')}
 ```
@@ -78,52 +226,42 @@ $$ \underset{\text{covalence de coordination}}{A | \quad + \quad B \quad \longri
 
 Par exemple, l'acide hypochloreux est constitué de liaisons covalentes normales. Les trois autres acides utilisent les doublets de l'atome de chlore pour former des covalences de coordinations.
 
-```{r covalences-coordination,echo=FALSE,out.width="85%",fig.show="hold",fig.align="center",fig.cap="Exemples de covalences de coordination ($SO$, $SO_2$, $SO_3$, $HClO$, $HClO_2$, $HClO_3$, $HClO_4$ )."}
+```{r covalences-coordination,echo=FALSE,out.width="85%",fig.show="hold",fig.align="center",fig.cap="Exemples de covalences de coordination."}
  knitr::include_graphics(c("images/covalences-coordination.png"))
  ```
 
-## La liaison ionique | métal - non-métal
+On dessinera les covalence de coordination en déplaçant le doublet sur l'atome qui le reçoit et en remplaçant le traît de liaison par une flèche.
 
-::: {.tcolorbox data-latex=""}
+### Les ions polyatomiques
 
-**Liaison ionique**  
-Une liaison ionique résulte du **transfert** d'un ou plusieurs électrons d'un atome à un autre.
+Les ions $Na^+$, $Mg^{2+}$ ou $Cl^–$ sont **monoatomique**, ce qui signifie qu'ils sont constitué d'un seul atome ionisé. Il existe des ions **polyatomiques**, tels que $NH4^+$ ou $SO4^{2–}$. Ils se composent d'atomes liés par des covalences mais ils portent une charge positive ou négative.
 
-:::
+|             ion hydroxyle            |              ion nitrite              |              ion carbonate             |              ion ammonium             |
+| :----------------------------------: | :-----------------------------------: | :------------------------------------: | :-----------------------------------: |
+|                $OH^–$                |                $NO_2^–$                |               $CO_3^{2–}$               |                $NH_4^+$                |
+| ![](images/mol2D/OH-.png){width=6em} | ![](images/mol2D/NO2-.png){width=6em} | ![](images/mol2D/CO32-.png){width=6em} | ![](images/mol2D/NH4+.png){width=5em} |
 
-La liaison ionique est le résultat du transfert d'un ou plusieurs électrons depuis un métal vers un non-métal afin de satisfaire **la règle de l'octet**. Essayons de former une molécule avec du sodium et du chlore.
+Quand un ion polyatomique est présent plusieurs fois dans une molécule, on l'indique dans la formule brute par des parenthèses et un indice comme dans les exemples : $Ca(OH)_2$, $Ba(NO_3)_2$, $Ca(HCO_3)_2$.
 
-- Le sodium a tendance à perdre un électron de valence pour former le cation $Na^{+}$
-- Le chlore a tendance à gagner un électron de valence pour former l'anion $Cl^{-}$
 
-Le sodium et le chlore ont tous les deux un intérêt à former une liaison. L'atome de sodium va perdre un électron qui sera récupéré par l'atome de chlore. Ils compléteront tous les deux leur couche de valence avec huit électrons.
-
-```{r NaCl-diagram,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Liaison ionique entre chlore et sodium"}
-knitr::include_graphics(c("images/NaCl-diagram.png"))
+```{r, child=c('exe/molecules-30.Rmd')}
 ```
 
-Deux atomes de sodium réagiront de la même manière avec deux atomes de chlore formant deux molécules de chlorure de sodium. Trois atomes de sodium réagiront avec trois atomes de chlore formant trois molécules de chlorure de sodium, et ainsi de suite... Si l'on fait réagir une mole d'atomes de sodium avec une mole d'atomes de chlore, nous obtiendront une mole de molécules de chlorure de sodium.
+### Dessiner les composés ternaires
 
-Un échantillon de chlorure de sodium ($NaCl$) est constitué d'un très grand nombre de cations $Na^+$ et d'anions $Cl^-$. Ces ions forment un réseau tridimensionnel, appelé **réseau ionique**. L'ensemble est **électriquement neutre** car le nombre de cations $Na^+$ est égal au nombre d'anions $Cl^-$. Pour un cation $Na^+$, on aura un anion $Cl^-$, on écrira donc la **formule brute** $NaCl$.
+- De gauche à droite, dessiner le modèle de Lewis de chacun des éléments présents dans la molécule.
+    - Dessiner d'abord les éléments de la colonne I, II ou III.
+    - Dessiner ensuite autant d'oxygène qu'il y a d'électrons libres dans la première colonne.
+    - Dessiner ensuite les éléments autre que l'oxygène.
+    - Dessiner ensuite les oxygènes restants.
+- Dessiner les covalences ou électrovalences selon les différences d'électronégativité.
 
-\newpage
-
-```{r CaF2-diagram,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Liaison ionique entre calcium et fluor"}
-knitr::include_graphics(c("images/CaF2-diagram.png"))
-```
-
-Le nombre relatif de cations et d'anions n'est pas toujours le même. Prenons par exemple le chlorure de magnésium, $CaF_2$. Il y a deux fois plus d'anions $F^-$ que de cations $Ca^{2+}$, on écrira donc la formule brute $CaF_2$.
-
-```{r NaClCaF2,echo=FALSE,out.width="25%",,fig.show='hold',fig.align='center',fig.cap="Réseaux ioniques formés par $NaCl$ et $CaF_2$."}
-knitr::include_graphics(c("images/NaCl-crystal.png","images/CaF2-crystal.png"))
-```
-
-```{r, child=c('exe/liaisons-20.Rmd')}
+```{r, child=c('exe/molecules-20.Rmd')}
 ```
 
 \newpage
 
-## La liaison métallique | métal - métal
+### La liaison métallique | métal - métal
 
 ::: {.tcolorbox data-latex=""}
 
@@ -132,7 +270,7 @@ Liaison chimique dans laquelle les électrons mobiles sont partagés entre plusi
 
 :::
 
-```{r metallic-bonding,echo=FALSE,out.width="20%",fig.show="hold",fig.align="center",fig.cap="Modèle de la liaison métallique"}
+```{r metallic-bonding,echo=FALSE,out.width="40%",fig.show="hold",fig.align="center",fig.cap="Modèle de la liaison métallique"}
  knitr::include_graphics(c("images/metallic-bonding.png"))
  ```
 
@@ -162,53 +300,62 @@ Table: (#tab:exemples-alliages-communs) Exemples d'alliages communs.
 |   or   | or + argent + cuivre                                 | or jaune         |
 |        | or + nickel + recouvert d'une fine couche de rhodium | or blanc         |
 
-## L'électronégativité
-
-::: {.tcolorbox data-latex=""}
-
-**Électronégativité**  
-L'électronégativité est la capacité d'un atome à attirer les électrons de liaison.
-
-:::
-
-Plus l'électronégativité d'un élément est élevée, plus il aura tendance à attirer à lui les électrons dans une liaison. **L'électronégativité de chaque élément est indiquée dans votre tableau périodique des éléments.**
-
-Les liaisons sont rarement purement ioniques ou purement covalentes, dans la plupart des substances les liaisons formées se situent quelque part entre la liaison ionique et la liaison covalente.
-
-En se basant sur la différence d'électronégativité ($\Delta$E) entre deux atomes on peut connaître le type de liaison que vont former ces deux atomes.
-
-```{r deltaE,echo=FALSE,out.width="85%",fig.show="hold",fig.align="center",fig.cap="Intervalles de $\\Delta$E pour déterminer le type de liaison"}
-knitr::include_graphics(c("images/deltaE.png"))
-```
-
-**L'électronégativité de chaque élément est indiquée dans votre tableau périodique des éléments.**  
+## Exercices supplémentaires
 
 ```{r, child=c('exe/liaisons-10.Rmd')}
 ```
 
-## Exercices supplémentaires
-
 ```{r, child=c('exe/liaisons-40.Rmd')}
-```
-
-```{r, child=c('exe/liaisons-50.Rmd')}
 ```
 
 \newpage
 
-```{r, child=c('exe/liaisons-60.Rmd')}
+```{r, child=c('exe/liaisons-50.Rmd')}
 ```
 
-```{r, child=c('exe/liaisons-70.Rmd')}
+```{r, child=c('exe/liaisons-60.Rmd')}
 ```
 
 ```{r, child=c('exe/liaisons-80.Rmd')}
 ```
 
+\newpage
+
 ```{r, child=c('exe/liaisons-90.Rmd')}
 ```
 
+```{r, child=c('exe/molecules-40.Rmd')}
+```
+
+```{r, child=c('exe/molecules-50.Rmd')}
+```
+
 \newpage
+
+```{r, child=c('exe/molecules-60.Rmd')}
+```
+
+```{r, child=c('exe/molecules-70.Rmd')}
+```
+
+```{r, child=c('exe/molecules-80.Rmd')}
+```
+
+\newpage
+
+```{r, child=c('exe/molecules-90.Rmd')}
+```
+
+```{r, child=c('exe/molecules-100.Rmd')}
+```
+
+\newpage
+
+```{r, child=c('exe/molecules-110.Rmd')}
+```
+
+```{r, child=c('exe/molecules-120.Rmd')}
+```
 
 ```{r, echo=FALSE}
 if (knitr::is_latex_output()) {
