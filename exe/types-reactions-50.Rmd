@@ -8,10 +8,10 @@ Pour chaque ligne des exemples ci-dessus, écrire l'équation de la réaction é
 
 ::: {.Answer data-latex=""}
 
-1. $\ce{HCl + NaOH -> NaCl + H2O}$
+1. $$\ce{HCl + NaOH -> NaCl + H2O}$$
 
-2. $\ce{HNO3 + KOH -> KNO3 + H2O}$
+2. $$\ce{HNO3 + KOH -> KNO3 + H2O}$$
 
-3. $\ce{H2SO4 + Ca(OH)2 -> CaSO4 + 2H2O}$
+3. $$\ce{H2SO4 + Ca(OH)2 -> CaSO4 + 2H2O}$$
 
 :::

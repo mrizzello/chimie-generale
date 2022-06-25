@@ -175,7 +175,7 @@ Table: (\#tab:indicateur-acide-base) Indicateur acide-base.
 
 | composé                   | couleur acide | couleur basique |
 | ------------------------- | :-----------: | :-------------: |
-| Bleu de bromothymol (BBT) |     jaune     |       bleu      |
+| Bleu de bromothymol (BBT) |     jaune     |      bleu       |
 | Rouge de phénol           |     jaune     |      rouge      |
 | Rouge neutre              |     rouge     |      jaune      |
 
@@ -214,41 +214,20 @@ $$ \begin{split}
 
 ## Résumé des types de réactions
 
-**Réactions de combinaison** $\ce{A + B -> C}$
-
-\vspace{\stretch{1}}
-
-**Réactions de décomposition** $\ce{A -> B + C}$
-
-\vspace{\stretch{1}}
-
-**Réactions de précipitation** \ce{AB + CD -> AD v + BC}
-
-Equation globale : $\ce{KCl + AgNO3 -> AgCl v + KNO3}$
-
-Equation ionique : $\ce{K^{+} + Cl^{–} + Ag^{+} + NO3^{–} -> AgCl v + K^{+} + NO3^{–}}$
-
-Equation ionique réduite : $\ce{Ag^{+} + Cl^{–} -> AgCl v}$
-
-\vspace{\stretch{1}}
-
-**Réactions de neutralisation** acide + hydroxyde $\ce{->}$ sel + eau
-
-Equation globale : $\ce{HCl + NaOH -> NaCl + H2O}$
-
-Equation ionique : $\ce{H^{+} + Cl^{–} + Na^{+} + OH^{–} -> Na^{+} + Cl^{–} + H2O}$
-
-Equation ionique réduite : $\ce{H^{+} + OH^{–} -> H2O}$
-
-\vspace{\stretch{1}}
-
-**Combustion organique** $\ce{C_{n}H_{m} + O2 -> CO2 + H2O}$
-
-\vspace{\stretch{1}}
-
-**Réaction de dissociation** $\ce{C_{n}A_{m} ->C[H2O] n C^{m+} + m A^{n-}}$
-
-\vspace{\stretch{1}}
+|                                 |                                                                      |
+| :------------------------------ | :------------------------------------------------------------------- |
+| **Réactions de combinaison**    | $\ce{A + B -> C}$                                                    |
+| **Réactions de décomposition**  | $\ce{A -> B + C}$                                                    |
+| **Réactions de précipitation**  | $\ce{AB + CD -> AD v + BC}$                                          |
+| Equation globale                | $\ce{KCl + AgNO3 -> AgCl v + KNO3}$                                  |
+| Equation ionique                | $\ce{K^{+} + Cl^{–} + Ag^{+} + NO3^{–} -> AgCl v + K^{+} + NO3^{–}}$ |
+| Equation ionique réduite        | $\ce{Ag^{+} + Cl^{–} -> AgCl v}$                                     |
+| **Réactions de neutralisation** | acide + hydroxyde $\ce{->}$ sel + eau                                |
+| Equation globale                | $\ce{HCl + NaOH -> NaCl + H2O}$                                      |
+| Equation ionique                | $\ce{H^{+} + Cl^{–} + Na^{+} + OH^{–} -> Na^{+} + Cl^{–} + H2O}$     |
+| Equation ionique réduite        | $\ce{H^{+} + OH^{–} -> H2O}$                                         |
+| **Combustion organique**        | $\ce{C_{n}H_{m} + O2 -> CO2 + H2sO}$                                 |
+| **Réaction de dissociation**    | $\ce{C_{n}A_{m} ->C[H2O] n C^{m+} + m A^{n-}}$                       |
 
 \newpage
 

@@ -15,12 +15,12 @@ Considérons deux solutions aqueuses. La première contient du **nitrate de plom
 ::: {.Answer data-latex=""}
 
 équation globale:  
-$\ce{Pb(NO3)2 + 2NaI -> PbI2 v + 2NaNO3}$
+$$\ce{Pb(NO3)2 + 2NaI -> PbI2 v + 2NaNO3}$$
 
 équation ionique:  
-$\ce{Pb^{2+} + 2 NO3^{–} + 2 Na^{+} + 2 I^{–} -> PbI2 v + 2Na^{+} + 2 NO3^{–}}$
+$$\ce{Pb^{2+} + 2 NO3^{–} + 2 Na^{+} + 2 I^{–} -> PbI2 v + 2Na^{+} + 2 NO3^{–}}$$
 
 équation ionique réduite:  
-$\ce{Pb^{2+} + 2 I^{–} -> PbI2 v}$
+$$\ce{Pb^{2+} + 2 I^{–} -> PbI2 v}$$
 
 :::
