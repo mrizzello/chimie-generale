@@ -552,8 +552,8 @@ $$
 
 La courbe observée lorsque l'on ajoute dans un acide fort, petit à petit, une base forte en relevant le pH en fonction du volume est la suivante :
 
-```{r acides-bases-6a,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap=""}
-knitr::include_graphics(c("images/acides-bases-6a.png"))
+```{r acides-bases-6a,echo=FALSE,out.width="65%",fig.show="hold",fig.align="center",fig.cap="Neutralisation d'un acide fort par une base forte"}
+knitr::include_graphics(c("images/courbes-titration-acide-fort.png"))
 ```
 
 **Avant l'ajout de base**, seul l'acide fort est présent dans le bécher. Ainsi, le calcul du pH sera :
@@ -600,8 +600,8 @@ $$
 
 La courbe observée lorsque l'on ajoute dans une base forte, petit à petit, un acide fort en relevant le pH en fonction du volume est la suivante :
 
-```{r acides-bases-6b,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap=""}
-knitr::include_graphics(c("images/acides-bases-6b.png"))
+```{r acides-bases-6b,echo=FALSE,out.width="65%",fig.show="hold",fig.align="center",fig.cap="Neutralisation d'une base forte par un acide fort"}
+knitr::include_graphics(c("images/courbes-titration-base-forte.png"))
 ```
 
 **Avant l'ajout d’acide**, seule la base forte est présente dans le bécher. Ainsi, le calcul du pH sera :
@@ -648,8 +648,8 @@ $$
 
 La courbe observée lorsque l'on ajoute dans un acide faible, petit à petit, une base forte en relevant le pH en fonction du volume est la suivante :
 
-```{r acides-bases-6c,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap=""}
-knitr::include_graphics(c("images/acides-bases-6c.png"))
+```{r acides-bases-6c,echo=FALSE,out.width="65%",fig.show="hold",fig.align="center",fig.cap="Neutralisation d'un acide faible par une base forte"}
+knitr::include_graphics(c("images/courbes-titration-acide-faible.png"))
 ```
 
 **Avant ajout de base**, seul l'acide faible est présent dans le bécher. Ainsi, le calcul du pH sera :
