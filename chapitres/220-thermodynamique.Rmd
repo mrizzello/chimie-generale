@@ -1,0 +1,189 @@
+# Thermodynamique
+
+::: {.objectives data-latex=""}
+
+- Objectifs
+
+:::
+
+La thermodynamique est l'étude de l'énergie et de ses transformations. Dans le chapitre sur la thermochimie, nous nous sommes concentrés sur les transferts de chaleur au cours des réactions chimiques. Nous allons développer d'autres aspects des transferts d'énergie dans ce chapitre.
+
+Nous avons appelé **transformation spontanée**, une transformation qui se produit dans des conditions spécifiques (température, pression et concentration). Une transformation qui ne se produit pas dans des conditions spécifiques est dite **non spontanée**. Nous avons également vu qu'une transformation spontanée dans une direction n'est pas spontanée dans la direction inverse.
+
+Les réactions qui entraînent une diminution de l'énergie d'un système sont souvent spontanées.
+
+$$
+\begin{split}
+    \ce{CH4(g) + 2O2(g) -> CO2(g) + 2H2O(l)} &\qquad \Delta H^{o} = -890.4 [kJ/mol] \\
+    \ce{H^+(aq) + OH^-(aq) -> H2O(l)} &\qquad \Delta H^{o} = -56.2 [kJ/mol]
+\end{split}
+$$
+
+Sur la base de ces exemples et de ceux que nous avons vu dans le chapiitre sur le thermochimie, nous pourrions conclure que les réactions exothermiques ont tendance à être spontanées. Cependant, lorsque la glace fond, le processus est endothermique et spontané.
+
+$$
+\ce{H2O(s) -> H2O(l)} \qquad \Delta H^{o} = +6.01 [kJ/mol]
+$$
+
+Cet exemple montre que le signe de $\Delta H$ seul ne permet pas de prédire la spontanéité d'une réaction. la thermodynamique nous permettra de déterminer si une transformation est spontanée ou non pour des conditions données.
+
+Table: (\#tab:spontane-non-spontane-exemples) Exemples de transformations spontanées et non spontanées.
+
+| Spontané                                                                                                        | Non spontané                                                                                  |
+| :-------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------- |
+| La glace fond à température ambiante                                                                            | La glace solidifie à température ambiante.                                                    |
+| Le sodium métallique réagit violemment avec l'eau pour produire de l'hydroxyde de sodium et du gaz d'hydrogène. | L'hydroxyde de sodium réagit avec l'hydrogène pour produire du sodium métallique et de l'eau. |
+| La corrosion du fer à température ambiante                                                                      | La transformation de la rouille en fer métallique à température ambiante.                     |
+
+## Entropie (S)
+
+::: {.tcolorbox data-latex=""}
+
+**Entropie - S**  
+Mesure du degré de désordre d'un système.  
+(Exprimée en joules par Kelvin [J/K]).
+
+:::
+
+**Plus le désordre est grand, plus l'entropie est élevée.**
+
+Les solides sont plus ordonnés que les liquides et les liquides sont plus désordonnés les gaz. On peut classer les états de la matière par ordre d'entropie :
+
+$$
+solides < liquides < gaz
+$$
+
+## Deuxième loi de la thermodynamique
+
+::: {.tcolorbox data-latex=""}
+
+**Deuxième loi de la thermodynamique**  
+L'entropie de l'univers entier augmentera toujours avec le temps.
+
+:::
+
+Supposons que vous construisiez un chateau de cartes. Le processus n'est pas spontané car vous allez dépenser de l'énergie pour bâtir le chateau. Les cartes sont arrangées au dessus de la table, l'énergie potentielle du système est élevée. Les cartes sont disposées dans des positions très spécifiques, le degré de désordre de votre chateau est bas.
+
+Un courant d'air fait voler votre chateau de cartes par terre. Le processus est spontané car les cartes ont pris leurs nouvelles positions toute seules. Les cartes sont disposées à plat sur la table, l'énergie potentielle du système est plus basse. Les cartes sont disposées aléatoirement sur la table, le degré de désordre de votre chateau est élevé.
+
+Un processus spontané suit donc naturellement deux tendances : 
+
+- Le système évolue spontanément vers un état d'énergie plus faible.
+- Le système évolue spontanément vers un état plus désordonné.
+
+Cela signifie que chaque processus aura tendence à évoluer spontanément vers un plus grand désordre. Le désordre est beaucoup plus probable que l'ordre. Cela s'applique également aux réactions chimiques.
+
+## Troisième loi de la thermodynamique
+
+Comme elle est une mesure du désordre, l'entropie doit être nulle dans un système parfaitement régulier et sans désordre. Une substance cristalline au zéro absolu de température, où les mouvements atomique et moléculaire cessent, est considérée d'ordre parfait.
+
+::: {.tcolorbox data-latex=""}
+
+**Troisième loi de la thermodynamique**  
+L'entropie d'une substance pure et parfaitement cristalline est nulle à 0 K.
+
+:::
+
+La troisième loi de la thermodynamique permet de déterminer l'entropie d'une substance à partir de données expérimentales. On transfère lentement de la chaleur à une substance qui se trouve à 0 K et on mesure sa température.
+
+## Variation d'entropie ($\Delta S$)
+
+Pour un système qui subit une transfromation entre un état initial et un état final, on peut définir la différence d'entropie entre ces deux états ($\Delta S$).
+
+En général, l'entropie augmente dans les cas suivants :
+
+- Une substance est chauffée.
+- Les solides fondent et deviennent liquides.
+- Les solides ou les liquides vaporisent pour produire des gaz.
+- Les solides ou les liquides se dissolvent dans un solvant pour former des solutions.
+- Une réaction chimique provoque une augmentation du nombre de particules du système.
+
+Au cours d'une réaction spontanée, le système devient plus désordonné après qu'avant la réaction, donc $\Delta S > 0$. La nature "préfère" les valeur de $\Delta S$ positives contrairement aux valeurs $\Delta H$ qui sont généralement négatives (exothermiques).
+
+### Entropie molaire standard ($S^o$) et entropie de réaction ($\Delta S^o$)
+
+Si l'on considère 4 particules de gaz et 4 moles de particules de gaz, le degré de désordre possible sera plus grand lorsque les particules seront plus nombreuses. La valeur de l'entropie dépend donc de la quantité de matière (propriété extensive). Afin de travailler avec des valeur d'entropie de référence, on introduit l'**entropie molaire standard**.
+
+::: {.tcolorbox data-latex=""}
+
+**Entropie molaire standard - $S^o$**  
+L'entropie molaire standard ($S^o$) est l'entropie de 1 mole d'une substance aux conditions standards.  
+(Exprimée en joules par mole et par Kelvin [J/(mol K)]).
+
+:::
+
+Les entropies molaires standard ($S^{o}$) servent surtout à calculer les variations d'entropie standard ($\Delta S^{o}$) des réactions chimiques. On peut relier la variation d'entropie aux entropies des réactifs et des produits de la même manière que pour les enthalpies de formation.
+
+$$
+\Delta S^o = \sum n_p \cdot S^{o}_{(produits)} - \sum n_r \cdot S^{o}_{(reactifs)}
+$$
+
+$n_p$ et $n_r$ sont les coéfficients stoechiométriques des réactifs et produits de la réaction dont on effectue le calcul.
+
+## Énergie libre ($G$) et variation d'énergie libre ($\Delta G$)
+
+Pour exprimer la spontanéité d'une transformation, nous introduisons une fonction thermodynamique appelée **énergie libre de Gibbs** (G) ou simplement **énergie libre**.
+
+$$
+G = H - T \cdot S
+$$
+
+La **variation de l'énergie libre** ($\Delta G$), d'un système pour une réaction :
+
+$$
+\Delta G = \Delta H - T \cdot \Delta S
+$$
+
+Pour prédire la spontanéité d'une transformation chimique ou physique, il faut connaître à la fois la variation d'enthalpie ($\Delta H$) mais également la variation d'entropie ($\Delta S$) associées à la transformation. Pour que cette relation soit vérifiée, deux conditions sont nécessaires :
+
+- La température reste constante tout au long de la réaction.
+- La pression reste constante tout au long de la réaction.
+
+Cette relation nous permet de prédire la spontanéité d'une réaction lorsqu'on connaît la variation d'enthalpie, la variation d'entropie et la température. 
+
+Table: (\#tab:spontaneite-dG) Spontanéité d'une réaction selon le signe de $\Delta G$.
+
+|                |                                              |                           |
+| :------------: | :------------------------------------------- | :------------------------ |
+| $\Delta G < 0$ | Réaction est spontanée dans le sens direct   | **Réaction exergonique**  |
+| $\Delta G > 0$ | Réaction est spontanée dans le sens indirect | **Réaction endergonique** |
+| $\Delta G = 0$ | Le système est à l'équilibre                 |                           |
+
+## Énergie libre standard de réaction ($\Delta G^o$)
+
+Tout comme pour l'enthalpie et l'entropie, afin de travailler avec des valeur de référence, on introduit l'**énergie libre standard de réaction**. L'énergie libre standard de réaction ($\Delta G^o$) est la variation d'énergie libre pour une réaction lorsqu'elle se produit dans des conditions d'état standard, c'est-à-dire lorsque des réactifs dans leur état standard sont convertis en produits dans leur état standard. La relation précédente devient : 
+
+$$
+\Delta G^o = \Delta H^o - T \cdot \Delta S^o
+$$
+
+## Énergie libre et équilibre chimique
+
+Les réactifs et les produits d'une réaction sont presque toujours dans un état différent de leur état standard. Pour déterminer si une réaction est spontanée, il faut donc tenir compte des concentrations et/ou des pressions des espèces impliquées. Il est possible de connaître $\Delta G^o$ à partir de tables, mais il faut connaître $\Delta G$ pour déterminer la spontanéité.
+
+La thermodynamique nous apprend que la relation entre $\Delta G$ et $\Delta G^o$ est la suivante :
+
+$$
+\Delta G = \Delta G^o + RT \cdot ln(Q)
+$$
+
+où $R$ est la constante des gaz parfaits, T est la température en kelvin et Q est le quotient de réaction.
+
+Par définition, à l'équilibre, $\Delta G = 0$ et $Q = K$ (K est la constante d'équilibre). Ainsi :
+
+$$
+\begin{split}
+0 &= \Delta G^o + RT \cdot ln(K) \\
+\Rightarrow \Delta G^o &= - RT \cdot ln(K)
+\end{split}
+$$
+
+Table: (\#tab:spontaneite-dG-K) Relation entre constante d'équilibre (K) et énergie libre standard de réaction ($\Delta G^o$).
+
+|  $K$  | $ln(K)$ | $\Delta G^o$ | Résultat à l'équilibre                  |
+| :---: | :-----: | :----------: | :-------------------------------------- |
+|  > 1  | positif |   négatif    | Les produits sont favorisés             |
+|  = 1  |   nul   |     nul      | Ni produits, ni réactifs sont favorisés |
+|  < 1  | négatif |   positif    | Les réactifs sont favorisés             |
+
+Selon cette équation, plus K est grand, plus $\Delta G^o$ est négatif. Cette équation permet de déterminer la constante d'équilibre d'une réaction si l'on connaît la variation de l'énergie libre standard, et vice versa.
