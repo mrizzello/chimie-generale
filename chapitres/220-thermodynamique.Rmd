@@ -2,7 +2,12 @@
 
 ::: {.objectives data-latex=""}
 
-- Objectifs
+- Définir les notions d'entropie et de variation d'entropie.
+- Énoncer les deuxième et troisième lois de la thermodynamique.
+- Calculer l'entropie d'une réaction à partir des entropies molaires standards.
+- Appliquer la loi de Gibbs pour déterminer la spontanéité d'une réaction.
+- Appliquer la loi de Gibbs pour effectuer des calculs d'énergie libre standard de réaction.
+- Décrire comment énergie libre est reliée à l'équilibre chimique.
 
 :::
 
@@ -63,6 +68,10 @@ L'entropie de l'univers entier augmentera toujours avec le temps.
 :::
 
 Supposons que vous construisiez un chateau de cartes. Le processus n'est pas spontané car vous allez dépenser de l'énergie pour bâtir le chateau. Les cartes sont arrangées au dessus de la table, l'énergie potentielle du système est élevée. Les cartes sont disposées dans des positions très spécifiques, le degré de désordre de votre chateau est bas.
+
+```{r cards-castle,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Deuxième loi de la thermodynamique"}
+knitr::include_graphics(c("images/cards-castle.png"))
+```
 
 Un courant d'air fait voler votre chateau de cartes par terre. Le processus est spontané car les cartes ont pris leurs nouvelles positions toute seules. Les cartes sont disposées à plat sur la table, l'énergie potentielle du système est plus basse. Les cartes sont disposées aléatoirement sur la table, le degré de désordre de votre chateau est élevé.
 
@@ -141,7 +150,7 @@ Pour prédire la spontanéité d'une transformation chimique ou physique, il fau
 
 Cette relation nous permet de prédire la spontanéité d'une réaction lorsqu'on connaît la variation d'enthalpie, la variation d'entropie et la température. 
 
-Table: (\#tab:spontaneite-dG) Spontanéité d'une réaction selon le signe de $\Delta G$.
+Table: (\#tab:spontaneiteDG) Spontanéité d'une réaction selon le signe de $\Delta G$.
 
 |                |                                              |                           |
 | :------------: | :------------------------------------------- | :------------------------ |
@@ -178,7 +187,11 @@ $$
 \end{split}
 $$
 
-Table: (\#tab:spontaneite-dG-K) Relation entre constante d'équilibre (K) et énergie libre standard de réaction ($\Delta G^o$).
+```{r dG-profile,echo=FALSE,out.width="75%",fig.show="hold",fig.align="center",fig.cap="Énergie libre standard et transformation spontanée"}
+knitr::include_graphics(c("images/dG-profile.png"))
+```
+
+Table: (\#tab:spontaneiteDGK) Relation entre constante d'équilibre (K) et énergie libre standard de réaction ($\Delta G^o$).
 
 |  $K$  | $ln(K)$ | $\Delta G^o$ | Résultat à l'équilibre                  |
 | :---: | :-----: | :----------: | :-------------------------------------- |
