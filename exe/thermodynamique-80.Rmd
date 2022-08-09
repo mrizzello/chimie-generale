@@ -1,0 +1,40 @@
+::: {.Exercise data-latex=""}
+
+Calculez $\Delta G^o$ à 298 K de la réaction suivante :
+
+$$ \ce{4 HCl(g) + O2(g) -> 2 Cl2(g) + 2 H2O(g)} $$
+
+a. En utilisant l'équation de Gibbs :
+$$
+\Delta S^o = -128.8\ [J/K] \qquad \Delta H^o = -114.4\ [kJ]
+$$
+\vspace{\stretch{1}}
+b. En utilisant les énergies libres standard de formation :
+$$
+\begin{split}
+& \Delta G^o_f(\ce{HCl(g)}) = -95.3\ [kJ/mol] \quad \Delta G^o_f(\ce{O2(g)}) = 0\ [kJ/mol] \\
+& \Delta G^o_f(\ce{Cl2(g)}) = 0\ [kJ/mol] \quad \Delta G^o_f(\ce{H2O(g)}) = -228.6\ [kJ/mol]
+\end{split}
+$$
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+a. $$
+\begin{split}
+\Delta G^o &= \Delta H^o - T \cdot \Delta S^o \\
+ &= -114.4\ [kJ] - 298\ [K] \cdot (-0.1288)\ [kJ/K] \\
+ &= -114.4\ [kJ] + 38.4\ [kJ] = -76\ [kJ]
+\end{split}
+$$
+b. $$
+\begin{split}
+\Delta G^o &= [2 \Delta G^o_f(\ce{Cl2(g)}) + 2 \Delta G^o_f(\ce{H2O(g)})] - [4 \Delta G^o_f(\ce{HCl(g)}) + \Delta G^o_f(\ce{O2(g)})] \\
+ &= [2 \cdot 0\ [kJ/mol] + 2 \cdot (-228.6)\ [kJ/mol]] - [4 \cdot (-95.3)\ [kJ/mol] + 1 \cdot 0\ [kJ/mol]] \\
+ &= (-457.2 + 381.2) [kJ] = -76\ [kJ]
+\end{split}
+$$
+
+:::
