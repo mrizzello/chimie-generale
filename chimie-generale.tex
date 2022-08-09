@@ -130,7 +130,7 @@
 
 \title{Cours de chimie générale}
 \author{M. Michele Rizzello \and Mme Émilie Pittet}
-\date{02.07.2022}
+\date{09.08.2022}
 
 \begin{document}
 \maketitle
@@ -16696,5 +16696,688 @@ p \cdot V = n \cdot R \cdot T
 \clearpage
 
 \section{Solutions des exercices} \shipoutAnswer
+
+\hypertarget{thermodynamique}{%
+\chapter{Thermodynamique}\label{thermodynamique}}
+
+\begin{objectives}
+
+\begin{itemize}
+\tightlist
+\item
+  Définir les notions d'entropie et de variation d'entropie.
+\item
+  Énoncer les deuxième et troisième lois de la thermodynamique.
+\item
+  Calculer l'entropie d'une réaction à partir des entropies molaires standards.
+\item
+  Appliquer la loi de Gibbs pour déterminer la spontanéité d'une réaction.
+\item
+  Appliquer la loi de Gibbs pour effectuer des calculs d'énergie libre standard de réaction.
+\item
+  Décrire comment énergie libre est reliée à l'équilibre chimique.
+\end{itemize}
+
+
+\end{objectives}
+
+La thermodynamique est l'étude de l'énergie et de ses transformations. Dans le chapitre sur la thermochimie, nous nous sommes concentrés sur les transferts de chaleur au cours des réactions chimiques. Nous allons développer d'autres aspects des transferts d'énergie dans ce chapitre.
+
+Nous avons appelé \textbf{transformation spontanée}, une transformation qui se produit dans des conditions spécifiques (température, pression et concentration). Une transformation qui ne se produit pas dans des conditions spécifiques est dite \textbf{non spontanée}. Nous avons également vu qu'une transformation spontanée dans une direction n'est pas spontanée dans la direction inverse.
+
+Les réactions qui entraînent une diminution de l'énergie d'un système sont souvent spontanées.
+
+\[
+\begin{split}
+    \ce{CH4(g) + 2O2(g) -> CO2(g) + 2H2O(l)} &\qquad \Delta H^{o} = -890.4 [kJ/mol] \\
+    \ce{H^+(aq) + OH^-(aq) -> H2O(l)} &\qquad \Delta H^{o} = -56.2 [kJ/mol]
+\end{split}
+\]
+
+Nous pourrions conclure que les réactions exothermiques ont tendance à être spontanées. Cependant, ça n'est pas toujours le cas. Par exemple, lorsque la glace fond, le processus est endothermique et spontané.
+
+\[
+\ce{H2O(s) -> H2O(l)} \qquad \Delta H^{o} = +6.01 [kJ/mol]
+\]
+
+Cet exemple montre que le signe de \(\Delta H\) seul ne permet pas de prédire la spontanéité d'une réaction. la thermodynamique nous permettra de déterminer si une transformation est spontanée ou non pour des conditions données.
+
+\clearpage
+
+\begin{longtable}[]{@{}ll@{}}
+\caption{\label{tab:spontane-non-spontane-exemples} Exemples de transformations spontanées et non spontanées.}\tabularnewline
+\toprule
+\begin{minipage}[b]{0.47\columnwidth}\raggedright
+Spontané\strut
+\end{minipage} & \begin{minipage}[b]{0.47\columnwidth}\raggedright
+Non spontané\strut
+\end{minipage}\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+\begin{minipage}[b]{0.47\columnwidth}\raggedright
+Spontané\strut
+\end{minipage} & \begin{minipage}[b]{0.47\columnwidth}\raggedright
+Non spontané\strut
+\end{minipage}\tabularnewline
+\midrule
+\endhead
+\begin{minipage}[t]{0.47\columnwidth}\raggedright
+La glace fond à température ambiante.\strut
+\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright
+La glace solidifie à température ambiante.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.47\columnwidth}\raggedright
+Le sodium métallique réagit avec l'eau pour former de l'hydroxyde de sodium et du dihydrogène.\strut
+\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright
+L'hydroxyde de sodium réagit avec l'hydrogène pour produire du sodium métallique et de l'eau.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.47\columnwidth}\raggedright
+La corrosion du fer à température ambiante.\strut
+\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright
+La transformation de la rouille en fer métallique à température ambiante.\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+\hypertarget{lentropie-s}{%
+\section{L'entropie (S)}\label{lentropie-s}}
+
+\begin{tcolorbox}
+\textbf{Entropie - S}\\
+Mesure du degré de désordre d'un système. (Exprimée en joules par Kelvin {[}J/K{]}).
+
+\end{tcolorbox}
+
+\textbf{Plus le désordre est grand, plus l'entropie est élevée.}
+
+\begin{Exercise}
+
+Classez les états de la matière par ordre d'entropie croissant :
+
+\vspace{\stretch{1}}
+
+
+\end{Exercise}
+
+\begin{Answer}
+Les solides sont plus ordonnés que les liquides et les liquides sont plus désordonnés les gaz.
+
+\[
+solides < liquides < gaz
+\]
+
+\end{Answer}
+
+\hypertarget{la-deuxiuxe8me-loi-de-la-thermodynamique}{%
+\section{La deuxième loi de la thermodynamique}\label{la-deuxiuxe8me-loi-de-la-thermodynamique}}
+
+\begin{tcolorbox}
+\textbf{Deuxième loi de la thermodynamique}\\
+L'entropie de l'univers entier augmentera toujours avec le temps.
+
+\end{tcolorbox}
+
+Supposons que vous construisiez un chateau de cartes. Le processus n'est pas spontané car vous allez dépenser de l'énergie pour bâtir le chateau. Les cartes sont arrangées au dessus de la table, l'énergie potentielle du système est élevée. Les cartes sont disposées dans des positions très spécifiques, le degré de désordre de votre chateau est bas.
+
+Un courant d'air fait voler votre chateau de cartes par terre. Le processus est spontané car les cartes ont pris leurs nouvelles positions toute seules. Les cartes sont disposées à plat sur la table, l'énergie potentielle du système est plus basse. Les cartes sont disposées aléatoirement sur la table, le degré de désordre de votre chateau est élevé.
+
+\clearpage
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.4\linewidth]{images/cards-castle} 
+
+}
+
+\caption{Deuxième loi de la thermodynamique}\label{fig:cards-castle}
+\end{figure}
+
+Un processus spontané suit donc naturellement deux tendances :
+
+\begin{itemize}
+\tightlist
+\item
+  Le système évolue spontanément vers un état d'énergie plus faible.
+\item
+  Le système évolue spontanément vers un état plus désordonné.
+\end{itemize}
+
+Cela signifie que chaque processus aura tendence à évoluer spontanément vers un plus grand désordre. Le désordre est beaucoup plus probable que l'ordre. Cela s'applique également aux réactions chimiques.
+
+\hypertarget{la-troisiuxe8me-loi-de-la-thermodynamique}{%
+\section{La troisième loi de la thermodynamique}\label{la-troisiuxe8me-loi-de-la-thermodynamique}}
+
+Comme elle est une mesure du désordre, l'entropie doit être nulle dans un système parfaitement régulier et sans désordre. Une substance cristalline au zéro absolu de température, où les mouvements atomique et moléculaire cessent, est considérée d'ordre parfait.
+
+\begin{tcolorbox}
+\textbf{Troisième loi de la thermodynamique}\\
+L'entropie d'une substance pure et parfaitement cristalline est nulle à 0 K.
+
+\end{tcolorbox}
+
+La troisième loi de la thermodynamique permet de déterminer l'entropie d'une substance à partir de données expérimentales. On transfère lentement de la chaleur à une substance qui se trouve à 0 K et on mesure sa température.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.9\linewidth]{images/entropie-graph} 
+
+}
+
+\caption{Entropies du dihydrogène et du chlorométhane en fonction de la température.}\label{fig:entropie-graph}
+\end{figure}
+
+\hypertarget{la-variation-dentropie-delta-s}{%
+\section{\texorpdfstring{La variation d'entropie (\(\Delta S\))}{La variation d'entropie (\textbackslash Delta S)}}\label{la-variation-dentropie-delta-s}}
+
+Pour un système qui subit une transfromation entre un état initial et un état final, on peut définir la différence d'entropie entre ces deux états (\(\Delta S\)).
+
+En général, l'entropie augmente dans les cas suivants :
+
+\begin{itemize}
+\tightlist
+\item
+  Une substance est chauffée.
+\item
+  Les solides fondent et deviennent liquides.
+\item
+  Les solides ou les liquides vaporisent pour produire des gaz.
+\item
+  Les solides ou les liquides se dissolvent dans un solvant pour former des solutions.
+\item
+  Une réaction chimique provoque une augmentation du nombre de particules du système.
+\end{itemize}
+
+Au cours d'une réaction spontanée, le système devient plus désordonné après qu'avant la réaction, donc \(\Delta S > 0\). La nature ``préfère'' les valeur de \(\Delta S\) positives contrairement aux valeurs \(\Delta H\) qui sont généralement négatives (exothermiques).
+
+\begin{Exercise}
+
+Déterminez si l'entropie augmente ou diminue pour les réactions suivantes en justifiant votre réponse :
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\tightlist
+\item
+  \[ \ce{2 CO(g) + O2(g) -> 2 CO2(g)} \]
+  \vspace{\stretch{1}}
+\item
+  \[ \ce{H2O(l) -> H2O(g)} \]
+  \vspace{\stretch{1}}
+\item
+  \[ \ce{Na2CO3(s) -> Na2O(s) +CO2(g)} \]
+  \vspace{\stretch{1}}
+\end{enumerate}
+
+
+\end{Exercise}
+
+\begin{Answer}
+
+Les solides sont plus ordonnés que les liquides et les liquides sont plus désordonnés les gaz.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\tightlist
+\item
+  \[ \ce{2 CO(g) + O2(g) -> 2 CO2(g)} \quad S \Downarrow, \Delta S > 0 \]\\
+  L'entropie diminue car il y a moins de molécules de gaz de produits et un produit est créé à partir de deux réactifs.
+\item
+  \[ \ce{H2O(l) -> H2O(g)} \quad S \Uparrow, \Delta S < 0 \]\\
+  L'entropie augmente car l'eau subit un changement de phase de liquide à gazeux.
+\item
+  \[ \ce{Na2CO3(s) -> Na2O(s) +CO2(g)} \quad S \Uparrow, \Delta S < 0 \]\\
+  L'entropie augmente car il y a deux molécules du côté des produits dont l'une est un gaz.
+\end{enumerate}
+
+
+\end{Answer}
+
+\hypertarget{lentropie-molaire-standard-so-et-lentropie-de-ruxe9action-delta-so}{%
+\subsection{\texorpdfstring{L'entropie molaire standard (\(S^o\)) et l'entropie de réaction (\(\Delta S^o\))}{L'entropie molaire standard (S\^{}o) et l'entropie de réaction (\textbackslash Delta S\^{}o)}}\label{lentropie-molaire-standard-so-et-lentropie-de-ruxe9action-delta-so}}
+
+Si l'on considère 4 particules de gaz et 4 moles de particules de gaz, le degré de désordre possible sera plus grand lorsque les particules seront plus nombreuses. La valeur de l'entropie dépend donc de la quantité de matière (propriété extensive). Afin de travailler avec des valeur d'entropie de référence, on introduit l'\textbf{entropie molaire standard}.
+
+\begin{tcolorbox}
+\textbf{Entropie molaire standard - \(S^o\)}\\
+L'entropie molaire standard (\(S^o\)) est l'entropie de 1 mole d'une substance aux conditions standards.\\
+(Exprimée en joules par mole et par Kelvin {[}J/(mol K){]}).
+
+\end{tcolorbox}
+
+\clearpage
+
+Les entropies molaires standard (\(S^{o}\)) servent surtout à calculer les variations d'entropie standard (\(\Delta S^{o}\)) des réactions chimiques. On peut relier la variation d'entropie aux entropies des réactifs et des produits de la même manière que pour les enthalpies de formation.
+
+\[
+\Delta S^o = \sum n_p \cdot S^{o}(produits) - \sum n_r \cdot S^{o}(reactifs)
+\]
+
+\(n_p\) et \(n_r\) sont les coéfficients stoechiométriques des réactifs et produits de la réaction dont on effectue le calcul.
+
+\begin{Exercise}
+Calculez la variation d'entropie standard (\(\Delta S^o\)) de la réaction suivante :
+
+\[ \ce{2 CO(g) + O2(g) -> 2CO2(g)} \]
+
+Sachant que :
+
+\end{Exercise}
+
+\begin{longtable}[]{@{}cc@{}}
+\toprule
+Substance & \(S^o\ [J/(mol \cdot K)]\)\tabularnewline
+\midrule
+\endhead
+\(\ce{CO2(g)}\) & 213.64\tabularnewline
+\(\ce{CO(g)}\) & 197.91\tabularnewline
+\(\ce{O2(g)}\) & 205.3\tabularnewline
+\bottomrule
+\end{longtable}
+
+\vspace{\stretch{1}}
+
+\begin{Answer}
+\[ \ce{2 CO(g) + O2(g) -> 2CO2(g)} \]
+
+\[
+\begin{split}
+\Delta S^o &= 2\ [mol] \cdot S^o(CO_2) - ( 2\ [mol] \cdot S^o(CO) + S^o(O_2) ) \\
+&= 2\ [\cancel{mol}] \cdot 213.64 [J/(\cancel{mol} \cdot K)] - ( 2\ [\cancel{mol}] \cdot 197.91\ [J/(\cancel{mol} \cdot K)] + 205.3\ [J/(\cancel{mol} \cdot K)] ) \\
+&= -173.84\ [J/K]
+\end{split}
+\]
+
+La variation d'entropie indique que la réaction évolue vers un plus grand désordre. Ceci est correct car il y a moins de molécules dans les produits que dans les réactifs.
+
+\end{Answer}
+
+\hypertarget{luxe9nergie-libre-g-et-la-variation-duxe9nergie-libre-delta-g}{%
+\section{\texorpdfstring{L'énergie libre (\(G\)) et la variation d'énergie libre (\(\Delta G\))}{L'énergie libre (G) et la variation d'énergie libre (\textbackslash Delta G)}}\label{luxe9nergie-libre-g-et-la-variation-duxe9nergie-libre-delta-g}}
+
+Pour exprimer la spontanéité d'une transformation, nous introduisons une fonction thermodynamique appelée \textbf{énergie libre de Gibbs} (G) ou simplement \textbf{énergie libre}. L'énergie libre de Gibbs (G) d'un système est une mesure de la quantité d'énergie utilisable qui peut être fournie par ce système.
+
+\[
+G = H - T \cdot S
+\]
+
+Comme pour les autres grandeurs thermodynamiques, on peut définir une \textbf{variation d'énergie libre} (\(\Delta G\)). La variation de l'énergie libre d'un système se mesure lorsqu'un système passe d'un état initial à un état final. Dans le cas d'une réaction chimique, lorsque les réactifs se transforment en produits. Cette valeur nous indique l'énergie maximale utilisable libérée (ou absorbée) lors de la réaction.
+
+\[
+\Delta G = \Delta H - T \cdot \Delta S
+\]
+
+En outre, son signe (positif ou négatif) nous indique si une réaction se produira spontanément, c'est-à-dire sans apport d'énergie.
+
+\clearpage
+
+Pour prédire la spontanéité d'une transformation chimique ou physique, il faut connaître à la fois la variation d'enthalpie (\(\Delta H\)) mais également la variation d'entropie (\(\Delta S\)) associées à la transformation. Pour que cette relation soit vérifiée, deux conditions sont nécessaires :
+
+\begin{itemize}
+\tightlist
+\item
+  La température reste constante tout au long de la réaction.
+\item
+  La pression reste constante tout au long de la réaction.
+\end{itemize}
+
+Cette relation nous permet de prédire la spontanéité d'une réaction lorsqu'on connaît la variation d'enthalpie, la variation d'entropie et la température.
+
+\begin{longtable}[]{@{}cll@{}}
+\caption{\label{tab:spontaneitedHdS} Spontanéité d'une réaction selon le signe de \(\Delta G\).}\tabularnewline
+\toprule
+\endhead
+\(\Delta G < 0\) & Réaction \textbf{spontanée} & \textbf{Réaction exergonique}\tabularnewline
+\(\Delta G > 0\) & Réaction \textbf{non spontanée} & \textbf{Réaction endergonique}\tabularnewline
+\(\Delta G = 0\) & Le système est à l'équilibre &\tabularnewline
+\bottomrule
+\end{longtable}
+
+\hypertarget{luxe9nergie-libre-standard-de-ruxe9action-delta-go}{%
+\section{\texorpdfstring{L'énergie libre standard de réaction (\(\Delta G^o\))}{L'énergie libre standard de réaction (\textbackslash Delta G\^{}o)}}\label{luxe9nergie-libre-standard-de-ruxe9action-delta-go}}
+
+Tout comme pour l'enthalpie et l'entropie, afin de travailler avec des valeur de référence, on introduit l'\textbf{énergie libre standard de réaction}. L'énergie libre standard de réaction (\(\Delta G^o\)) est la variation d'énergie libre pour une réaction lorsqu'elle se produit dans les conditions standard, c'est-à-dire lorsque des réactifs dans leur état standard sont convertis en produits dans leur état standard. La relation précédente devient :
+
+\[
+\Delta G^o = \Delta H^o - T \cdot \Delta S^o
+\]
+
+\begin{Exercise}
+
+Utilisez l'équation de Gibbs pour déterminer la variation d'énergie libre standard, à 25 °C, des réactions suivantes.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\tightlist
+\item
+  \[
+  \begin{split}
+  & \ce{2 NO(g) + O2(g) -> 2 NO2(g)} \\
+  & \Delta H^o = -114.1 [kJ] \text{ et } \Delta S^o = -146.2 [J/K]
+  \end{split}
+  \]
+  \vspace{\stretch{1}}
+\item
+  \[
+  \begin{split}
+  & \ce{2 CO(g) + 2 NH3(g) -> C2H6(g) + 2 NO(g)} \\
+  & \Delta H^o = 409 kJ [kJ] \text{ et } \Delta S^o = -129.1 [J/K]
+  \end{split}
+  \]
+  \vspace{\stretch{1}}
+\end{enumerate}
+
+
+\end{Exercise}
+
+\begin{Answer}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\tightlist
+\item
+  \[
+  \begin{split}
+  \Delta G^o &= \Delta H^o - T \cdot \Delta S^o \\
+  &= -114.1\ [kJ] - 298.15 \cdot (-0.1462\ [kJ/K]) \\
+  &= -70.5\ [kJ] \quad \text{(Réaction spontanée)}
+  \end{split}
+  \]
+\item
+  \[
+  \begin{split}
+  \Delta G^o &= \Delta H^o - T \cdot \Delta S^o \\
+  &= 409\ [kJ] - 298.15 \cdot (-0.1291\ [kJ/K]) \\
+  &= 447.5\ [kJ] \quad \text{(Réaction non spontanée)}
+  \end{split}
+  \]
+\end{enumerate}
+
+
+\end{Answer}
+
+\clearpage
+
+Les énergies libres standard de formation (\(\Delta G^o_f\)) sont des valeurs que l'on peut trouver dans des tables et qui permettent de calculer l'énergie libre standard d'une réaction en utilisant la relation suivante :
+
+\[
+\Delta G^o = \sum n_p \cdot G^{o}_f(produits) - \sum n_r \cdot G^{o}_f(reactifs)
+\]
+
+\begin{Exercise}
+
+Calculez \(\Delta G^o\) à 298 K de la réaction suivante :
+
+\[ \ce{4 HCl(g) + O2(g) -> 2 Cl2(g) + 2 H2O(g)} \]
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\tightlist
+\item
+  En utilisant l'équation de Gibbs :
+  \[
+  \Delta S^o = -128.8\ [J/K] \qquad \Delta H^o = -114.4\ [kJ]
+  \]
+  \vspace{\stretch{1}}
+\item
+  En utilisant les énergies libres standard de formation :
+  \[
+  \begin{split}
+  & \Delta G^o_f(\ce{HCl(g)}) = -95.3\ [kJ/mol] \quad \Delta G^o_f(\ce{O2(g)}) = 0\ [kJ/mol] \\
+  & \Delta G^o_f(\ce{Cl2(g)}) = 0\ [kJ/mol] \quad \Delta G^o_f(\ce{H2O(g)}) = -228.6\ [kJ/mol]
+  \end{split}
+  \]
+  \vspace{\stretch{1}}
+\end{enumerate}
+
+
+\end{Exercise}
+
+\begin{Answer}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\tightlist
+\item
+  \[
+  \begin{split}
+  \Delta G^o &= \Delta H^o - T \cdot \Delta S^o \\
+   &= -114.4\ [kJ] - 298\ [K] \cdot (-0.1288)\ [kJ/K] \\
+   &= -114.4\ [kJ] + 38.4\ [kJ] = -76\ [kJ]
+  \end{split}
+  \]
+\item
+  \[
+  \begin{split}
+  \Delta G^o &= [2 \Delta G^o_f(\ce{Cl2(g)}) + 2 \Delta G^o_f(\ce{H2O(g)})] - [4 \Delta G^o_f(\ce{HCl(g)}) + \Delta G^o_f(\ce{O2(g)})] \\
+   &= [2 \cdot 0\ [kJ/mol] + 2 \cdot (-228.6)\ [kJ/mol]] - [4 \cdot (-95.3)\ [kJ/mol] + 1 \cdot 0\ [kJ/mol]] \\
+   &= (-457.2 + 381.2) [kJ] = -76\ [kJ]
+  \end{split}
+  \]
+\end{enumerate}
+
+
+\end{Answer}
+
+\clearpage
+
+\hypertarget{luxe9nergie-libre-et-uxe9quilibre-chimique}{%
+\section{L'énergie libre et équilibre chimique}\label{luxe9nergie-libre-et-uxe9quilibre-chimique}}
+
+Les réactifs et les produits d'une réaction sont presque toujours dans un état différent de leur état standard. Pour déterminer si une réaction est spontanée, il faut donc tenir compte des concentrations et/ou des pressions des espèces impliquées. Il est possible de connaître \(\Delta G^o\) à partir de tables, mais il faut connaître \(\Delta G\) pour déterminer la spontanéité.
+
+La thermodynamique nous apprend que la relation entre \(\Delta G\) et \(\Delta G^o\) est la suivante :
+
+\[
+\Delta G = \Delta G^o + RT \cdot ln(Q)
+\]
+
+où \(R\) est la constante des gaz parfaits, T est la température en kelvin et Q est le quotient de réaction.
+
+Par définition, à l'équilibre, \(\Delta G = 0\) et \(Q = K\) (K est la constante d'équilibre). Ainsi :
+
+\[
+0 = \Delta G^o + RT \cdot ln(K) \quad \Rightarrow \quad \Delta G^o = - RT \cdot ln(K)
+\]
+
+\begin{longtable}[]{@{}cccl@{}}
+\caption{\label{tab:spontaneiteDGK} Relation entre constante d'équilibre (K) et énergie libre standard de réaction (\(\Delta G^o\)).}\tabularnewline
+\toprule
+\(K\) & \(ln(K)\) & \(\Delta G^o\) & Résultat à l'équilibre\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+\(K\) & \(ln(K)\) & \(\Delta G^o\) & Résultat à l'équilibre\tabularnewline
+\midrule
+\endhead
+\textgreater{} 1 & positif & négatif & Les produits sont favorisés\tabularnewline
+= 1 & nul & nul & Ni produits, ni réactifs sont favorisés\tabularnewline
+\textless{} 1 & négatif & positif & Les réactifs sont favorisés\tabularnewline
+\bottomrule
+\end{longtable}
+
+Selon cette équation, plus K est grand, plus \(\Delta G^o\) est négatif. Cette équation permet de déterminer la constante d'équilibre d'une réaction si l'on connaît la variation de l'énergie libre standard, et vice versa.
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{images/dG-profile} 
+
+}
+
+\caption{Énergie libre standard et transformation spontanée}\label{fig:dG-profile}
+\end{figure}
+
+\clearpage
+
+\begin{Exercise}
+
+Déterminez la valeur de la constante d'équilibre, à 25 °C, de la réaction suivante :
+
+\[
+\ce{2 NO2(g) <=> N2O4(g)}
+\]
+
+Avec
+\[
+\begin{split}
+\Delta G^o_f[\ce{N2O4(g)}] = 97.82\ [kJ/mol]
+\end{split}
+\qquad
+\begin{split}
+\Delta G^o_f[\ce{NO2(g)}] = 51.30\ [kJ/mol]
+\end{split}
+\]
+
+\vspace{\stretch{1}}
+
+
+\end{Exercise}
+
+\begin{Answer}
+\[
+\ce{2 NO2(g) <=> N2O4(g)}
+\]
+
+\[
+\begin{split}
+\Delta G^o &= \Delta G^o_f[\ce{N2O4(g)}] - 2 \cdot \Delta G^o_f[\ce{NO2(g)}] \\
+&= 97.82\ [\frac{kJ}{mol}] - 2 \cdot 51.30\ [\frac{kJ}{mol}] \\
+&= -4.78\ [kJ/mol]
+\end{split}
+\]
+
+\[
+\begin{split}
+\Delta G^o &= - RT \cdot ln(K) \\
+ln(K) &= \frac{- \Delta G^o}{RT} = \frac{- (-4780\ [J/mol])}{8.314\ [J/(mol \cdot K)] \cdot 298.15\ [K]} = 1.93 \\
+K &= e^{1.93} = 6.9
+\end{split}
+\]
+
+\end{Answer}
+
+\hypertarget{exercices-suppluxe9mentaires-14}{%
+\section{Exercices supplémentaires}\label{exercices-suppluxe9mentaires-14}}
+
+\begin{Exercise}
+
+Dans chacun des cas suivants, prédisez s'il y aura une augmentation ou une diminution de l'entropie du système. Si vous ne pouvez pas prédire, expliquez pourquoi.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\tightlist
+\item
+  La synthèse de l'ammoniac.\\
+  \[ \ce{N2(g) + 3 H2(g) -> 2 NH3(g)} \]
+\item
+  La préparation d'une solution de saccharose (sucre de table).\\
+  \[ \ce{C12H22O11(s) + H2O(l) -> C12H22O11(aq)} \]
+\item
+  L'évaporation à sec d'une solution aqueuse d'urée.
+  \[ \ce{CO(NH2)2(aq) -> CO(NH2)2(s)} \]
+\end{enumerate}
+
+
+\end{Exercise}
+
+\begin{Answer}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\tightlist
+\item
+  Quatre moles de réactifs gazeux donnent deux moles de produits gazeux. Deux moles de gaz sont perdues.\\
+  \[ S \Downarrow, \Delta S > 0 \]
+\item
+  Les molécules de saccharose sont très ordonnées à l'état solide. Elles sont distribuées au hasard dans la solution aqueuse.\\
+  \[ S \Uparrow, \Delta S < 0 \]
+\item
+  L'eau s'évapore et se converti en gaz. \(S \Uparrow, \Delta S < 0\)\\
+  L'urée passe d'une distribution aléatoire dans la solution à un solide très ordonné. \(S \Downarrow, \Delta S > 0\)\\
+  Sans autre information, on ne peut pas dire si l'entropie du système augmente ou diminue.
+\end{enumerate}
+
+
+\end{Answer}
+
+\clearpage
+
+\begin{Exercise}
+Calculez la variation d'entropie standard (\(\Delta S^o\)) de la réaction suivante :
+
+\[ \ce{4 HCl(g) + O2(g) -> 2 Cl2(g) + 2 H2O(g)} \]
+
+\end{Exercise}
+
+Sachant que :
+
+\begin{longtable}[]{@{}cc@{}}
+\toprule
+Substance & \(S^o\ [J/(mol \cdot K)]\)\tabularnewline
+\midrule
+\endhead
+\(\ce{HCl(g)}\) & 186.8\tabularnewline
+\(\ce{O2(g)}\) & 205.0\tabularnewline
+\(\ce{Cl2(g)}\) & 223.0\tabularnewline
+\(\ce{H2O(g)}\) & 188.7\tabularnewline
+\bottomrule
+\end{longtable}
+
+\vspace{\stretch{1}}
+
+\begin{Answer}
+\[ \ce{4 HCl(g) + O2(g) -> 2 Cl2(g) + 2 H2O(g)} \]
+
+\[
+\begin{split}
+\Delta S^o &= (2\ [mol] \cdot S^o(Cl_2) + 2\ [mol] \cdot S^o(H_2O) ) - ( 4\ [mol] \cdot S^o(HCl) + S^o(O_2) ) \\
+&= (2\ [mol] \cdot 223.0\ [J/(mol \cdot K)] + 2\ [mol] \cdot 188.7\ [J/(mol \cdot K)] ) \\
+& \qquad - ( 4\ [mol] \cdot 186.8\ [J/(mol \cdot K)] + 205.0\ [J/(mol \cdot K)] ) \\
+&= -128.8\ [J/K]
+\end{split}
+\]
+
+\(\Delta S^o\) est négatif, l'entropie diminue.
+
+\end{Answer}
+
+\section{Solutions des exercices} \shipoutAnswer
+
+\hypertarget{bibliographie}{%
+\chapter*{Bibliographie}\label{bibliographie}}
+\addcontentsline{toc}{chapter}{Bibliographie}
+
+\hypertarget{refs}{}
+\leavevmode\hypertarget{ref-brown1997chemistry}{}%
+Brown, Theodore L, Harold Eugene LeMay, Bruce Edward Bursten, et Linda S Brunauer. 1997. \emph{Chemistry: the central science}. Vol. 13. Prentice Hall Englewood Cliffs, NJ.
+
+\leavevmode\hypertarget{ref-burdgelooseleafforchemistry}{}%
+Burdge, Julia. 2019. \emph{Loose Leaf for Chemistry}. McGraw-Hill Education.
+
+\leavevmode\hypertarget{ref-conover2009chemistry}{}%
+Conover, Wheeler. 2009. «~Chemistry, (by Stephen S. Zumdahl and Susan A. Zumdahl)~». ACS Publications.
+
+\leavevmode\hypertarget{ref-gnv2005chimie}{}%
+\emph{Cour de chimie générale}. 2005. Gymnase de Nyon.
+
+\leavevmode\hypertarget{ref-hill2002chimie}{}%
+Hill, John William. 2002. \emph{Chimie des solutions}. Éditions du Renouveau pédagogique,
+
+\leavevmode\hypertarget{ref-mcmurry2013fundamentals}{}%
+McMurry, John E, Carl A Hoeger, Virginia E Peterson, et David S Ballantine. 2013. \emph{Fundamentals of General, Organic, and Biological Chemistry: Pearson New International Edition}. Pearson Higher Ed.
+
+\leavevmode\hypertarget{ref-LandoltBourqui2010}{}%
+Peter Landolt, Fabien Bourqui. 2019. \emph{Chimie, Notions fondamentales SII}. McGraw-Hill Education.
+
+\leavevmode\hypertarget{ref-rebstein2007chimie}{}%
+Rebstein, Martine, et Chantal Soerensen. 2007. \emph{Chimie: préparation au bac et à la maturité}. PPUR presses polytechniques.
+
+\leavevmode\hypertarget{ref-rebstein2011chimie}{}%
+---------. 2011. \emph{Chimie avancée: préparation au bac et à la maturité}. PPUR Presses polytechniques.
+
+\leavevmode\hypertarget{ref-silberberg2017chemistry}{}%
+Silberberg, Martin. 2017. \emph{Chemistry: the molecular nature of matter and change with advanced topics}. McGraw-Hill Education.
+
+\leavevmode\hypertarget{ref-tro2015principes}{}%
+Tro, N. J. 2015. \emph{Principes de Chimie Générale: Une Approche Moléculaire}. ERPI sciences. Pearson Education Canada.
 
 \end{document}
