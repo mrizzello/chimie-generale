@@ -1,0 +1,35 @@
+::: {.Exercise data-latex=""}
+
+Calculez la variation d'entropie standard ($\Delta S^o$) de la réaction suivante :
+
+$$ \ce{4 HCl(g) + O2(g) -> 2 Cl2(g) + 2 H2O(g)} $$
+
+:::
+
+Sachant que :
+
+|   Substance   | $S^o\ [J/(mol \cdot K)]$ |
+| :-----------: | :----------------------: |
+| $\ce{HCl(g)}$ |          186.8           |
+| $\ce{O2(g)}$  |          205.0           |
+| $\ce{Cl2(g)}$ |          223.0           |
+| $\ce{H2O(g)}$ |          188.7           |
+
+\vspace{\stretch{1}}
+
+::: {.Answer data-latex=""}
+
+$$ \ce{4 HCl(g) + O2(g) -> 2 Cl2(g) + 2 H2O(g)} $$
+
+$$
+\begin{split}
+\Delta S^o &= (2\ [mol] \cdot S^o(Cl_2) + 2\ [mol] \cdot S^o(H_2O) ) - ( 4\ [mol] \cdot S^o(HCl) + S^o(O_2) ) \\
+&= (2\ [mol] \cdot 223.0\ [J/(mol \cdot K)] + 2\ [mol] \cdot 188.7\ [J/(mol \cdot K)] ) \\
+& \qquad - ( 4\ [mol] \cdot 186.8\ [J/(mol \cdot K)] + 205.0\ [J/(mol \cdot K)] ) \\
+&= -128.8\ [J/K]
+\end{split}
+$$
+
+$\Delta S^o$ est négatif, l'entropie diminue.
+
+:::

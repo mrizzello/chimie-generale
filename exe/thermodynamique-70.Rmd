@@ -1,0 +1,46 @@
+::: {.Exercise data-latex=""}
+
+Déterminez la valeur de la constante d'équilibre, à 25 °C, de la réaction suivante : 
+
+$$
+\ce{2 NO2(g) <=> N2O4(g)}
+$$
+
+Avec 
+$$
+\begin{split}
+\Delta G^o_f[\ce{N2O4(g)}] = 97.82\ [kJ/mol]
+\end{split}
+\qquad
+\begin{split}
+\Delta G^o_f[\ce{NO2(g)}] = 51.30\ [kJ/mol]
+\end{split}
+$$
+
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+$$
+\ce{2 NO2(g) <=> N2O4(g)}
+$$
+
+$$
+\begin{split}
+\Delta G^o &= \Delta G^o_f[\ce{N2O4(g)}] - 2 \cdot \Delta G^o_f[\ce{NO2(g)}] \\
+&= 97.82\ [\frac{kJ}{mol}] - 2 \cdot 51.30\ [\frac{kJ}{mol}] \\
+&= -4.78\ [kJ/mol]
+\end{split}
+$$
+
+$$
+\begin{split}
+\Delta G^o &= - RT \cdot ln(K) \\
+ln(K) &= \frac{- \Delta G^o}{RT} = \frac{- (-4780\ [J/mol])}{8.314\ [J/(mol \cdot K)] \cdot 298.15\ [K]} = 1.93 \\
+K &= e^{1.93} = 6.9
+\end{split}
+$$
+
+:::

@@ -1,0 +1,24 @@
+::: {.Exercise data-latex=""}
+
+Dans chacun des cas suivants, prédisez s'il y aura une augmentation ou une diminution de l'entropie du système. Si vous ne pouvez pas prédire, expliquez pourquoi.
+
+a. La synthèse de l'ammoniac.  
+$$ \ce{N2(g) + 3 H2(g) -> 2 NH3(g)} $$
+b. La préparation d'une solution de saccharose (sucre de table).  
+$$ \ce{C12H22O11(s) + H2O(l) -> C12H22O11(aq)} $$
+c. L'évaporation à sec d'une solution aqueuse d'urée.
+$$ \ce{CO(NH2)2(aq) -> CO(NH2)2(s)} $$
+
+:::
+
+::: {.Answer data-latex=""}
+
+a. Quatre moles de réactifs gazeux donnent deux moles de produits gazeux. Deux moles de gaz sont perdues.  
+$$ S \Downarrow, \Delta S > 0 $$
+b. Les molécules de saccharose sont très ordonnées à l'état solide. Elles sont distribuées au hasard dans la solution aqueuse.  
+$$ S \Uparrow, \Delta S < 0 $$
+c. L'eau s'évapore et se converti en gaz. $S \Uparrow, \Delta S < 0$  
+L'urée passe d'une distribution aléatoire dans la solution à un solide très ordonné. $S \Downarrow, \Delta S > 0$  
+Sans autre information, on ne peut pas dire si l'entropie du système augmente ou diminue.
+
+:::

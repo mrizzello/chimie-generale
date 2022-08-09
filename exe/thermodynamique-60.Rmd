@@ -1,0 +1,39 @@
+::: {.Exercise data-latex=""}
+
+Utilisez l'équation de Gibbs pour déterminer la variation d'énergie libre standard, à 25 °C, des réactions suivantes.
+
+a. $$
+\begin{split}
+& \ce{2 NO(g) + O2(g) -> 2 NO2(g)} \\
+& \Delta H^o = -114.1 [kJ] \text{ et } \Delta S^o = -146.2 [J/K]
+\end{split}
+$$
+\vspace{\stretch{1}}
+b. $$
+\begin{split}
+& \ce{2 CO(g) + 2 NH3(g) -> C2H6(g) + 2 NO(g)} \\
+& \Delta H^o = 409 kJ [kJ] \text{ et } \Delta S^o = -129.1 [J/K]
+\end{split}
+$$
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+a. $$
+\begin{split}
+\Delta G^o &= \Delta H^o - T \cdot \Delta S^o \\
+&= -114.1\ [kJ] - 298.15 \cdot (-0.1462\ [kJ/K]) \\
+&= -70.5\ [kJ] \quad \text{(Réaction spontanée)}
+\end{split}
+$$
+b. $$
+\begin{split}
+\Delta G^o &= \Delta H^o - T \cdot \Delta S^o \\
+&= 409\ [kJ] - 298.15 \cdot (-0.1291\ [kJ/K]) \\
+&= 447.5\ [kJ] \quad \text{(Réaction non spontanée)}
+\end{split}
+$$
+
+:::

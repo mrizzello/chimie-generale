@@ -1,0 +1,17 @@
+::: {.Exercise data-latex=""}
+
+Classez les états de la matière par ordre d'entropie croissant :
+
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+Les solides sont plus ordonnés que les liquides et les liquides sont plus désordonnés les gaz.
+
+$$
+solides < liquides < gaz
+$$
+
+:::
