@@ -15,11 +15,11 @@ c. $$ \ce{Na2CO3(s) -> Na2O(s) +CO2(g)} $$
 
 Les solides sont plus ordonnés que les liquides et les liquides sont plus désordonnés les gaz.
 
-a. $$ \ce{2 CO(g) + O2(g) -> 2 CO2(g)} \quad S \Downarrow, \Delta S > 0 $$  
+a. $$ \ce{2 CO(g) + O2(g) -> 2 CO2(g)} \quad S \Downarrow $$  
 L'entropie diminue car il y a moins de molécules de gaz de produits et un produit est créé à partir de deux réactifs.
-b. $$ \ce{H2O(l) -> H2O(g)} \quad S \Uparrow, \Delta S < 0 $$  
+b. $$ \ce{H2O(l) -> H2O(g)} \quad S \Uparrow $$  
 L'entropie augmente car l'eau subit un changement de phase de liquide à gazeux.
-c. $$ \ce{Na2CO3(s) -> Na2O(s) +CO2(g)} \quad S \Uparrow, \Delta S < 0 $$  
+c. $$ \ce{Na2CO3(s) -> Na2O(s) +CO2(g)} \quad S \Uparrow $$  
 L'entropie augmente car il y a deux molécules du côté des produits dont l'une est un gaz.
 
 :::
