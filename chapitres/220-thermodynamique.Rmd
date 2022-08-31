@@ -190,7 +190,7 @@ $$
 Les énergies libres standard de formation ($\Delta G^o_f$) sont des valeurs que l'on peut trouver dans des tables et qui permettent de calculer l'énergie libre standard d'une réaction en utilisant la relation suivante :
 
 $$
-\Delta G^o = \sum n_p \cdot G^{o}_f(produits) - \sum n_r \cdot G^{o}_f(reactifs)
+\Delta G^o = \sum n_p \cdot \Delta G^{o}_f(produits) - \sum n_r \cdot \Delta G^{o}_f(reactifs)
 $$
 
 ```{r, child=c('exe/thermodynamique-80.Rmd')}
