@@ -19,21 +19,24 @@ Vous allez estimez la température à laquelle cet équilibre commence à favori
 
 ::: {.Answer data-latex=""}
 
-1. $$
+1.  
+$$
 \begin{split}
 \ce{\Delta H^o &= [\Delta H^o_f(\ce{CaO}) + \Delta H^o_f(\ce{CO2})] - [\Delta H^o_f(\ce{CaCO3})]} \\
 &= [(-634.9\ [kJ/mol]) + (-393.51\ [kJ/mol])] - (-1220.0\ [kJ/mol]) \\
 &= 191.59\ [kJ/mol]
 \end{split}
 $$
-2. $$
+2.  
+$$
 \begin{split}
 \ce{\Delta S^o &= [S^o_f(\ce{CaO}) + S^o_f(\ce{CO2})] - [S^o_f(\ce{CaCO3})]} \\
 &= (38.1\ [J/(K \cdot mol)] + 213.8\ [J/(K \cdot mol)]) - (110.0\ [J/(K \cdot mol)])]) \\
 &= 141.9\ [J/(K \cdot mol)] = 0.1419\ [kJ/(K \cdot mol)]
 \end{split}
 $$
-3. $$
+3.  
+$$
 \begin{split}
 \Delta G^o &= \Delta H^o - T \cdot \Delta S^o \\
 &= 191.59\ [kJ/mol] - (298\ [K] \cdot 0.1419\ [kJ/(K \cdot mol)] ) \\
@@ -41,7 +44,8 @@ $$
 \end{split}
 $$
 4. Aux conditions standards, la réaction favorise les réactifs car l'énergie libre standard est supérieure à zéro.
-5. $$
+5.  
+$$
 \begin{split}
 \Delta G^o &= \Delta H^o - T \cdot \Delta S^o \\
 \text{à l'équilibre } \Delta G^o &= 0 \\
@@ -54,7 +58,8 @@ T &= \frac{\Delta H^o}{\Delta S^o} \\
 &= 1350\ [K] \quad (1077\ [°C])
 \end{split}
 $$ 
-6. $$
+6.  
+$$
 \begin{split}
 \Delta G^o &= \Delta H^o - T \cdot \Delta S^o \\
 &= 191.59\ [kJ/mol] - (1355\ [K] \cdot 0.1419\ [kJ/(K \cdot mol)] ) \\
