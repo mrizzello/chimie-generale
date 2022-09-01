@@ -1,0 +1,67 @@
+::: {.Exercise data-latex=""}
+
+L'oxyde de calcium (\ce{CaO}), également appelé chaux vive, est une substance qui est utilisée dans de nombreuses applications industrielles. On peut le préparer par décomposition à haute températureen du calcaire (\ce{CaCO3}), selon l'équation :
+
+$$ \ce{CaCO3(s) <=> CaO(s) + CO2(g)} $$
+
+La réaction est réversible et, sous certaines conditions, le \ce{CaO} et le \ce{CO2} se recombinent pour former à nouveau du \ce{CaCO3}. Pour éviter que cela ne se produise, le \ce{CO2} est éliminé à mesure qu'il se forme, favorisant la réaction directe.
+
+Vous allez estimez la température à laquelle cet équilibre commence à favoriser les produits pour maximiser la production de\ce{CaO}. (**Table des propriétés thermodynamiques standard : https://bit.ly/GNLC-TPTS**)
+
+1. Calculez la variation d'enthalpie standard de la réaction :  \vspace{\stretch{1}}
+2. Calculez la variation d'entropie standard de la réaction :  \vspace{\stretch{1}}
+3. À l'aide de la relation de Gibbs, calculez l'énergie libre standard de la réaction :  \vspace{\stretch{1}}
+4. Aux conditions standards, la réaction favorise-t-elle les produits ou les réactifs ? (Justifiez votre réponse).  \vspace{\stretch{1}}
+5. Calculez à quelle température la réaction atteint un équilibre entre produits et réactifs.  \vspace{\stretch{1}}
+6. Calculez l'énergie libre de la réaction à une température de 5° supérieure à cette température.  \vspace{\stretch{1}}
+7. Dans ces conditions, la réaction favorise-t-elle les produits ou les réactifs ? (Justifiez votre réponse).  \vspace{\stretch{1}}
+:::
+
+::: {.Answer data-latex=""}
+
+1. $$
+\begin{split}
+\ce{\Delta H^o &= [\Delta H^o_f(\ce{CaO}) + \Delta H^o_f(\ce{CO2})] - [\Delta H^o_f(\ce{CaCO3})]} \\
+&= [(-634.9\ [kJ/mol]) + (-393.51\ [kJ/mol])] - (-1220.0\ [kJ/mol]) \\
+&= 191.59\ [kJ/mol]
+\end{split}
+$$
+2. $$
+\begin{split}
+\ce{\Delta S^o &= [S^o_f(\ce{CaO}) + S^o_f(\ce{CO2})] - [S^o_f(\ce{CaCO3})]} \\
+&= (38.1\ [J/(K \cdot mol)] + 213.8\ [J/(K \cdot mol)]) - (110.0\ [J/(K \cdot mol)])]) \\
+&= 141.9\ [J/(K \cdot mol)] = 0.1419\ [kJ/(K \cdot mol)]
+\end{split}
+$$
+3. $$
+\begin{split}
+\Delta G^o &= \Delta H^o - T \cdot \Delta S^o \\
+&= 191.59\ [kJ/mol] - (298\ [K] \cdot 0.1419\ [kJ/(K \cdot mol)] ) \\
+&= 149.3\ [kJ/mol]
+\end{split}
+$$
+4. Aux conditions standards, la réaction favorise les réactifs car l'énergie libre standard est supérieure à zéro.
+5. $$
+\begin{split}
+\Delta G^o &= \Delta H^o - T \cdot \Delta S^o \\
+\text{à l'équilibre } \Delta G^o &= 0 \\
+\Rightarrow 0 &= \Delta H^o - T \cdot \Delta S^o \\
+\end{split}
+\qquad
+\begin{split}
+T &= \frac{\Delta H^o}{\Delta S^o} \\
+&= \frac{191.59\ [kJ/mol]}{0.1419\ [kJ/(K \cdot mol)]} \\
+&= 1350\ [K] \quad (1077\ [°C])
+\end{split}
+$$ 
+6. $$
+\begin{split}
+\Delta G^o &= \Delta H^o - T \cdot \Delta S^o \\
+&= 191.59\ [kJ/mol] - (1355\ [K] \cdot 0.1419\ [kJ/(K \cdot mol)] ) \\
+&= -0.68\ [kJ/mol]
+\end{split}
+$$
+7. Dans ces conditions, la réaction favorise les produits car l'énergie libre standard est inférieure à zéro.
+
+Dans cet exemple, les valeurs standards de $\Delta H^o$ et $\Delta S^o$ sont utilisées pour calculer le $\Delta G^o$ à des températures beaucoup plus élevées. Cette approche ne nous donne pas une valeur précise pour $\Delta G^o$ car $\Delta H^o$ et $\Delta S^o$ changent avec la température, mais c'est une estimation raisonnablement convenable.
+:::

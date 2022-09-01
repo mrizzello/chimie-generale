@@ -245,6 +245,11 @@ knitr::include_graphics(c("images/dG-profile.png"))
 ```{r, child=c('exe/thermodynamique-50.Rmd')}
 ```
 
+\clearpage
+
+```{r, child=c('exe/thermodynamique-90.Rmd')}
+```
+
 ```{r, echo=FALSE}
 if (knitr::is_latex_output()) {
   knitr::asis_output('\\section{Solutions des exercices} \\shipoutAnswer')
