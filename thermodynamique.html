@@ -861,10 +861,10 @@ K &amp;= e^{1.93} = 6.9
 <div class="Answer">
 <ol style="list-style-type: lower-alpha">
 <li>Quatre moles de réactifs gazeux donnent deux moles de produits gazeux. Deux moles de gaz sont perdues.<br />
-<span class="math display">\[ S \Downarrow, \Delta S &gt; 0 \]</span></li>
+<span class="math display">\[ S \Downarrow, \text{l&#39;entropie diminue} \]</span></li>
 <li>Les molécules de saccharose sont très ordonnées à l’état solide. Elles sont distribuées au hasard dans la solution aqueuse.<br />
-<span class="math display">\[ S \Uparrow, \Delta S &lt; 0 \]</span></li>
-<li>L’eau s’évapore et se converti en gaz. <span class="math inline">\(S \Uparrow, \Delta S &lt; 0\)</span><br />
+<span class="math display">\[ S \Uparrow, \text{l&#39;entropie augmente} \]</span></li>
+<li>L’eau s’évapore et se converti en gaz. <span class="math inline">\(S \Uparrow, \text{l&#39;entropie augmente} &lt; 0\)</span><br />
 L’urée passe d’une distribution aléatoire dans la solution à un solide très ordonné. <span class="math inline">\(S \Downarrow, \Delta S &gt; 0\)</span><br />
 Sans autre information, on ne peut pas dire si l’entropie du système augmente ou diminue.</li>
 </ol>
@@ -913,6 +913,70 @@ Sans autre information, on ne peut pas dire si l’entropie du système augmente
 \end{split}
 \]</span></p>
 <p><span class="math inline">\(\Delta S^o\)</span> est négatif, l’entropie diminue.</p>
+</div>
+
+<div class="Exercise">
+<p>L’oxyde de calcium (), également appelé chaux vive, est une substance qui est utilisée dans de nombreuses applications industrielles. On peut le préparer par décomposition à haute températureen du calcaire (), selon l’équation :</p>
+<p><span class="math display">\[ \ce{CaCO3(s) &lt;=&gt; CaO(s) + CO2(g)} \]</span></p>
+<p>La réaction est réversible et, sous certaines conditions, le  et le  se recombinent pour former à nouveau du . Pour éviter que cela ne se produise, le  est éliminé à mesure qu’il se forme, favorisant la réaction directe.</p>
+<p>Vous allez estimez la température à laquelle cet équilibre commence à favoriser les produits pour maximiser la production de. (<strong>Table des propriétés thermodynamiques standard : <a href="https://bit.ly/GNLC-TPTS" class="uri">https://bit.ly/GNLC-TPTS</a></strong>)</p>
+<ol style="list-style-type: decimal">
+<li>Calculez la variation d’enthalpie standard de la réaction : </li>
+<li>Calculez la variation d’entropie standard de la réaction : </li>
+<li>À l’aide de la relation de Gibbs, calculez l’énergie libre standard de la réaction : </li>
+<li>Aux conditions standards, la réaction favorise-t-elle les produits ou les réactifs ? (Justifiez votre réponse). </li>
+<li>Calculez à quelle température la réaction atteint un équilibre entre produits et réactifs. </li>
+<li>Calculez l’énergie libre de la réaction à une température de 5° supérieure à cette température. </li>
+<li>Dans ces conditions, la réaction favorise-t-elle les produits ou les réactifs ? (Justifiez votre réponse). </li>
+</ol>
+</div>
+<div class="Answer">
+<ol style="list-style-type: decimal">
+<li><span class="math display">\[
+\begin{split}
+\ce{\Delta H^o &amp;= [\Delta H^o_f(\ce{CaO}) + \Delta H^o_f(\ce{CO2})] - [\Delta H^o_f(\ce{CaCO3})]} \\
+&amp;= [(-634.9\ [kJ/mol]) + (-393.51\ [kJ/mol])] - (-1220.0\ [kJ/mol]) \\
+&amp;= 191.59\ [kJ/mol]
+\end{split}
+\]</span></li>
+<li><span class="math display">\[
+\begin{split}
+\ce{\Delta S^o &amp;= [S^o_f(\ce{CaO}) + S^o_f(\ce{CO2})] - [S^o_f(\ce{CaCO3})]} \\
+&amp;= (38.1\ [J/(K \cdot mol)] + 213.8\ [J/(K \cdot mol)]) - (110.0\ [J/(K \cdot mol)])]) \\
+&amp;= 141.9\ [J/(K \cdot mol)] = 0.1419\ [kJ/(K \cdot mol)]
+\end{split}
+\]</span></li>
+<li><span class="math display">\[
+\begin{split}
+\Delta G^o &amp;= \Delta H^o - T \cdot \Delta S^o \\
+&amp;= 191.59\ [kJ/mol] - (298\ [K] \cdot 0.1419\ [kJ/(K \cdot mol)] ) \\
+&amp;= 149.3\ [kJ/mol]
+\end{split}
+\]</span></li>
+<li>Aux conditions standards, la réaction favorise les réactifs car l’énergie libre standard est supérieure à zéro.</li>
+<li><span class="math display">\[
+\begin{split}
+\Delta G^o &amp;= \Delta H^o - T \cdot \Delta S^o \\
+\text{à l&#39;équilibre } \Delta G^o &amp;= 0 \\
+\Rightarrow 0 &amp;= \Delta H^o - T \cdot \Delta S^o \\
+\end{split}
+\qquad
+\begin{split}
+T &amp;= \frac{\Delta H^o}{\Delta S^o} \\
+&amp;= \frac{191.59\ [kJ/mol]}{0.1419\ [kJ/(K \cdot mol)]} \\
+&amp;= 1350\ [K] \quad (1077\ [°C])
+\end{split}
+\]</span></li>
+<li><span class="math display">\[
+\begin{split}
+\Delta G^o &amp;= \Delta H^o - T \cdot \Delta S^o \\
+&amp;= 191.59\ [kJ/mol] - (1355\ [K] \cdot 0.1419\ [kJ/(K \cdot mol)] ) \\
+&amp;= -0.68\ [kJ/mol]
+\end{split}
+\]</span></li>
+<li>Dans ces conditions, la réaction favorise les produits car l’énergie libre standard est inférieure à zéro.</li>
+</ol>
+<p>Dans cet exemple, les valeurs standards de <span class="math inline">\(\Delta H^o\)</span> et <span class="math inline">\(\Delta S^o\)</span> sont utilisées pour calculer le <span class="math inline">\(\Delta G^o\)</span> à des températures beaucoup plus élevées. Cette approche ne nous donne pas une valeur précise pour <span class="math inline">\(\Delta G^o\)</span> car <span class="math inline">\(\Delta H^o\)</span> et <span class="math inline">\(\Delta S^o\)</span> changent avec la température, mais c’est une estimation raisonnablement convenable.</p>
 </div>
 
 </div>
