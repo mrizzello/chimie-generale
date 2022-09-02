@@ -149,7 +149,7 @@ $$
 \end{split}
 $$
 
-## L'enthalpie et la variation d'enthalpie
+## L'enthalpie ($H$) et la variation d'enthalpie ($\Delta H$)
 
 Il existe deux types fondamentaux d'énergie : l'**énergie potentielle** et l'**énergie cinétique**. L'énergie potentielle est une énergie stockée qui attend d'être libérée. L'énergie cinétique, en revanche, est l'énergie transformée en mouvement. Lorsque l'eau tombe d'un barrage et fait tourner une turbine, l'énergie potentielle de l'eau est convertie en énergie cinétique. Une fois que toute l'énergie potentielle a été convertie, il ne se passe plus rien. L'eau au fond du barrage n'a plus d'énergie potentielle et ne subit plus de changement.
 
@@ -161,7 +161,7 @@ La somme des énergies cinétique et potentielle correspond à l'enthalpie de la
 
 ::: {.tcolorbox data-latex=""}
 
-**Enthalpie - H**  
+**Enthalpie - $H$**  
 Énergie totale d'un système à pression constante. (Exprimée en joules [J]).
 
 :::
@@ -170,14 +170,14 @@ Cependant, il est difficile de déterminer expérimentalement l'énergie interne
 
 ::: {.tcolorbox data-latex=""}
 
-**Variation d'enthalpie - H**  
+**Variation d'enthalpie - $\Delta H$**  
 Variation de l'énergie totale du système lors d'une transformation, à pression constante.
 
 :::
 
 La chaleur, dégagée ou absorbée, qui est mesurée lorsqu'une réaction est maintenue à pression constante est représentées par le symbole $\Delta H$. Ainsi, la valeur de $\Delta H$ représente le changement d'enthalpie qui se produit au cours d'une réaction. Les termes **enthalpie de réaction** et **chaleur de réaction** sont utilisés pour dénommer cette valeur.
 
-Pour déterminer la variation d'enthalpie, on effectue la différence entre l'enthalpie des produits et celle des réactifs.
+De manière générale, pour déterminer la variation d'enthalpie, on effectue la différence entre l'enthalpie des produits et celle des réactifs.
 
 $$
 \Delta H = H _{\text{produits}} − H _{\text{réactifs}}
@@ -311,6 +311,25 @@ On a donc le choix de la substance de référence, mais il faut le mentionner da
 ```
 
 \clearpage
+
+## La variation d'enthalpie standard ($\Delta H^o$)
+
+Les réactions pouvant se dérouler dans des conditions de température et de pression très variables, on défini une référence commune en utilisant les conditions standard. On considérera que les réactifs et les produits se trouvent dans leur état aux conditions standard.
+
+- température : 298 K (25°C)
+- pression : 1 bar (100 kPa)
+- concentration : 1 [mol/l] dans le cas de solutions
+
+De cette manière, on peut définir la variation d'enthalpie standard de toute réaction à l'aide des variations d'enthalpies standard de formation des réactifs et des produits.
+
+$$
+\Delta H^o = \sum n_p \cdot \Delta H^{o}_f(produits) - \sum n_r \cdot \Delta H^{o}_f(reactifs)
+$$
+
+$n_p$ et $n_r$ sont les coéfficients stoechiométriques des réactifs et produits de la réaction étudiée.
+
+```{r, child=c('exe/thermochimie-90.Rmd')}
+```
 
 ## La loi de Hess
 
