@@ -92,3 +92,7 @@ table,
   list-style-position: inside;
   margin-bottom: 2rem;
 }
+
+i.fa.fa-file-pdf-o{
+  color: red;
+}
