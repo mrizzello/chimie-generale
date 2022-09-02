@@ -130,7 +130,7 @@
 
 \title{Cours de chimie générale}
 \author{M. Michele Rizzello \and Mme Émilie Pittet}
-\date{01.09.2022}
+\date{02.09.2022}
 
 \begin{document}
 \maketitle
@@ -16216,8 +16216,8 @@ En tenant compte de l'énergie échangée dans une équation chimique, on peut l
 \end{split}
 \]
 
-\hypertarget{lenthalpie-et-la-variation-denthalpie}{%
-\section{L'enthalpie et la variation d'enthalpie}\label{lenthalpie-et-la-variation-denthalpie}}
+\hypertarget{lenthalpie-h-et-la-variation-denthalpie-delta-h}{%
+\section{\texorpdfstring{L'enthalpie (\(H\)) et la variation d'enthalpie (\(\Delta H\))}{L'enthalpie (H) et la variation d'enthalpie (\textbackslash Delta H)}}\label{lenthalpie-h-et-la-variation-denthalpie-delta-h}}
 
 Il existe deux types fondamentaux d'énergie : l'\textbf{énergie potentielle} et l'\textbf{énergie cinétique}. L'énergie potentielle est une énergie stockée qui attend d'être libérée. L'énergie cinétique, en revanche, est l'énergie transformée en mouvement. Lorsque l'eau tombe d'un barrage et fait tourner une turbine, l'énergie potentielle de l'eau est convertie en énergie cinétique. Une fois que toute l'énergie potentielle a été convertie, il ne se passe plus rien. L'eau au fond du barrage n'a plus d'énergie potentielle et ne subit plus de changement.
 
@@ -16228,7 +16228,7 @@ Si les produits de la réaction ont moins d'énergie potentielle que les réacti
 La somme des énergies cinétique et potentielle correspond à l'enthalpie de la substance, \(H\).
 
 \begin{tcolorbox}
-\textbf{Enthalpie - H}\\
+\textbf{Enthalpie - \(H\)}\\
 Énergie totale d'un système à pression constante. (Exprimée en joules {[}J{]}).
 
 \end{tcolorbox}
@@ -16236,14 +16236,14 @@ La somme des énergies cinétique et potentielle correspond à l'enthalpie de la
 Cependant, il est difficile de déterminer expérimentalement l'énergie interne d'une substance. Mesurer des différences d'énergie par la chaleur absorbée ou dégagée lors de transformations est une grandeur plus facilement accessible.
 
 \begin{tcolorbox}
-\textbf{Variation d'enthalpie - H}\\
+\textbf{Variation d'enthalpie - \(\Delta H\)}\\
 Variation de l'énergie totale du système lors d'une transformation, à pression constante.
 
 \end{tcolorbox}
 
 La chaleur, dégagée ou absorbée, qui est mesurée lorsqu'une réaction est maintenue à pression constante est représentées par le symbole \(\Delta H\). Ainsi, la valeur de \(\Delta H\) représente le changement d'enthalpie qui se produit au cours d'une réaction. Les termes \textbf{enthalpie de réaction} et \textbf{chaleur de réaction} sont utilisés pour dénommer cette valeur.
 
-Pour déterminer la variation d'enthalpie, on effectue la différence entre l'enthalpie des produits et celle des réactifs.
+De manière générale, pour déterminer la variation d'enthalpie, on effectue la différence entre l'enthalpie des produits et celle des réactifs.
 
 \[
 \Delta H = H _{\text{produits}} − H _{\text{réactifs}}
@@ -16532,6 +16532,94 @@ La valeur positive indique que la réaction est endothermique.
 \end{Answer}
 
 \clearpage
+
+\hypertarget{la-variation-denthalpie-standard-delta-ho}{%
+\section{\texorpdfstring{La variation d'enthalpie standard (\(\Delta H^o\))}{La variation d'enthalpie standard (\textbackslash Delta H\^{}o)}}\label{la-variation-denthalpie-standard-delta-ho}}
+
+Les réactions pouvant se dérouler dans des conditions de température et de pression très variables, on défini une référence commune en utilisant les conditions standard. On considérera que les réactifs et les produits se trouvent dans leur état aux conditions standard.
+
+\begin{itemize}
+\tightlist
+\item
+  température : 298 K (25°C)
+\item
+  pression : 1 bar (100 kPa)
+\item
+  concentration : 1 {[}mol/l{]} dans le cas de solutions
+\end{itemize}
+
+De cette manière, on peut définir la variation d'enthalpie standard de toute réaction à l'aide des variations d'enthalpies standard de formation des réactifs et des produits.
+
+\[
+\Delta H^o = \sum n_p \cdot \Delta H^{o}_f(produits) - \sum n_r \cdot \Delta H^{o}_f(reactifs)
+\]
+
+\(n_p\) et \(n_r\) sont les coéfficients stoechiométriques des réactifs et produits de la réaction étudiée.
+
+\begin{Exercise}
+
+À l'aide de la table d'enthalpie de formation ci-dessous, calculez la différence d'enthalpie des réactions suivantes :
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \ce{3H2_{(g)} + O3_{(g)} -> 3H2O_{(g)}}
+  \vspace{\stretch{1}}
+\item
+  \ce{2NO_{(g)} + O2_{(g)} -> 2NO2_{(g)}}
+  \vspace{\stretch{1}}
+\item
+  \ce{N2O_{(g)} + NO2_{(g)} -> 3NO_{(g)}}
+  \vspace{\stretch{1}}
+\end{enumerate}
+
+
+\end{Exercise}
+
+\begin{longtable}[]{@{}lclc@{}}
+\toprule
+Substance & \(\Delta H^o_f\ [kJ/mol]\) & Substance & \(\Delta H^o_f\ [kJ/mol]\)\tabularnewline
+\midrule
+\endhead
+\ce{H2_{(g)}} & 0 & \ce{N2_{(g)}} & 0\tabularnewline
+\ce{O2_{(g)}} & 0 & \ce{N_{(g)}} & 472.704\tabularnewline
+\ce{O3_{(g)}} & 142.7 & \ce{NO_{(g)}} & 90.25\tabularnewline
+\ce{H2O_{(g)}} & -241.82 & \ce{NO2_{(g)}} & 33.2\tabularnewline
+\ce{H2O_{(l)}} & -285.83 & \ce{N2O_{(g)}} & 81.6\tabularnewline
+\bottomrule
+\end{longtable}
+
+\begin{Answer}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \[
+  \begin{split}
+  \Delta H^o &= [3 \cdot (-241.82)] - [3 \cdot 0 + 1 \cdot 142.7] \\
+  &= -868\ [kJ/mol]
+  \end{split}
+  \]
+\item
+  \[
+  \begin{split}
+  \Delta H^o &= [2 \cdot 33.2] - [2 \cdot 90.25 + 1 \cdot 0] \\
+  &= -114\ [kJ/mol]
+  \end{split}
+  \]
+\item
+  \ce{N2O_{(g)} + NO2_{(g)} -> 3NO_{(g)}}
+
+  \[
+  \begin{split}
+  \Delta H^o &= [3 \cdot 90.25] - [1 \cdot 81.6 + 1 \cdot 33.2] \\
+  &= 156\ [kJ/mol]
+  \end{split}
+  \]
+\end{enumerate}
+
+
+\end{Answer}
 
 \hypertarget{la-loi-de-hess}{%
 \section{La loi de Hess}\label{la-loi-de-hess}}
@@ -16952,7 +17040,7 @@ Les entropies molaires standard (\(S^{o}\)) servent surtout à calculer les vari
 \Delta S^o = \sum n_p \cdot S^{o}(produits) - \sum n_r \cdot S^{o}(reactifs)
 \]
 
-\(n_p\) et \(n_r\) sont les coéfficients stoechiométriques des réactifs et produits de la réaction dont on effectue le calcul.
+\(n_p\) et \(n_r\) sont les coéfficients stoechiométriques des réactifs et produits de la réaction étudiée.
 
 \begin{Exercise}
 Calculez la variation d'entropie standard (\(\Delta S^o\)) de la réaction suivante :
@@ -17469,6 +17557,9 @@ Conover, Wheeler. 2009. «~Chemistry, (by Stephen S. Zumdahl and Susan A. Zumdah
 
 \leavevmode\hypertarget{ref-hill2002chimie}{}%
 Hill, John William. 2002. \emph{Chimie des solutions}. Éditions du Renouveau pédagogique,
+
+\leavevmode\hypertarget{ref-hill1988chimie}{}%
+Hill, JW, RH Petrucci, TW McCreary, et SS Perry. 1988. \emph{Chimie des solutions (ERPi)}. 2e édn.
 
 \leavevmode\hypertarget{ref-mcmurry2013fundamentals}{}%
 McMurry, John E, Carl A Hoeger, Virginia E Peterson, et David S Ballantine. 2013. \emph{Fundamentals of General, Organic, and Biological Chemistry: Pearson New International Edition}. Pearson Higher Ed.
