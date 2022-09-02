@@ -136,7 +136,7 @@ $$
 \Delta S^o = \sum n_p \cdot S^{o}(produits) - \sum n_r \cdot S^{o}(reactifs)
 $$
 
-$n_p$ et $n_r$ sont les coéfficients stoechiométriques des réactifs et produits de la réaction dont on effectue le calcul.
+$n_p$ et $n_r$ sont les coéfficients stoechiométriques des réactifs et produits de la réaction étudiée.
 
 ```{r, child=c('exe/thermodynamique-30.Rmd')}
 ```
