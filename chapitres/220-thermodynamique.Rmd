@@ -143,11 +143,15 @@ $n_p$ et $n_r$ sont les coéfficients stoechiométriques des réactifs et produi
 
 ## L'énergie libre ($G$) et la variation d'énergie libre ($\Delta G$)
 
-Pour exprimer la spontanéité d'une transformation, nous introduisons une fonction thermodynamique appelée **énergie libre de Gibbs** (G) ou simplement **énergie libre**. L'énergie libre de Gibbs (G) d'un système est une mesure de la quantité d'énergie utilisable qui peut être fournie par ce système. 
+Pour exprimer la spontanéité d'une transformation, nous introduisons une fonction thermodynamique appelée **énergie libre de Gibbs** (G) ou simplement **énergie libre**.
+
+Le travail fourni par une réaction chimique peut changer le volume ou la pression d'un système. L'énergie libre de Gibbs (G) mesure de la quantité d'énergie disponible qui peut être fournie par ce système sans changer ni le volume, ni la pression du système.
 
 $$
 G = H - T \cdot S
 $$
+
+Le travail électrique fourni par une pile électrique en créant une différence de potentiel entre les deux électrodes est un exemple de travail qui ne change pas la pression et le volume du système.
 
 Comme pour les autres grandeurs thermodynamiques, on peut définir une **variation d'énergie libre** ($\Delta G$). La variation de l'énergie libre d'un système se mesure lorsqu'un système passe d'un état initial à un état final. Dans le cas d'une réaction chimique, lorsque les réactifs se transforment en produits. Cette valeur nous indique l'énergie maximale utilisable libérée (ou absorbée) lors de la réaction.
 
