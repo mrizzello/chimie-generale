@@ -1,12 +1,12 @@
 ::: {.Exercise data-latex=""}
 
-L'oxyde de calcium (\ce{CaO}), également appelé chaux vive, est une substance qui est utilisée dans de nombreuses applications industrielles. On peut le préparer par décomposition à haute températureen du calcaire (\ce{CaCO3}), selon l'équation :
+L'oxyde de calcium ($\ce{CaO}$), également appelé chaux vive, est une substance qui est utilisée dans de nombreuses applications industrielles. On peut le préparer par décomposition à haute températureen du calcaire ($\ce{CaCO3}$), selon l'équation :
 
 $$ \ce{CaCO3(s) <=> CaO(s) + CO2(g)} $$
 
-La réaction est réversible et, sous certaines conditions, le \ce{CaO} et le \ce{CO2} se recombinent pour former à nouveau du \ce{CaCO3}. Pour éviter que cela ne se produise, le \ce{CO2} est éliminé à mesure qu'il se forme, favorisant la réaction directe.
+La réaction est réversible et, sous certaines conditions, le $\ce{CaO}$ et le $\ce{CO2}$ se recombinent pour former à nouveau du $\ce{CaCO3}$. Pour éviter que cela ne se produise, le $\ce{CO2}$ est éliminé à mesure qu'il se forme, favorisant la réaction directe.
 
-Vous allez estimez la température à laquelle cet équilibre commence à favoriser les produits pour maximiser la production de\ce{CaO}. ([**Table des propriétés thermodynamiques standard**](https://bit.ly/GNLC-TPTS))
+Vous allez estimez la température à laquelle cet équilibre commence à favoriser les produits pour maximiser la production de $\ce{CaO}$. ([**Table des propriétés thermodynamiques standard**](https://bit.ly/GNLC-TPTS))
 
 1. Calculez la variation d'enthalpie standard de la réaction :  \vspace{\stretch{1}}
 2. Calculez la variation d'entropie standard de la réaction :  \vspace{\stretch{1}}
