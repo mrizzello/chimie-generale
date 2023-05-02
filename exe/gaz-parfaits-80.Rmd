@@ -1,0 +1,45 @@
+::: {.Exercise data-latex=""}
+
+Près du niveau de la mer, l'air sec a la composition suivante par unité de volume:
+
+- $\ce{N2}$ : 78.08 %
+- $\ce{O2}$ : 20.94 %
+- $\ce{Ar}$ : 0.93 %
+- $\ce{CO2}$  : 0.05 %
+
+La pression atmosphérique est de 101.3 [kPa]. Calculez :
+
+a. La pression partielle de chaque gaz;
+\vspace{\stretch{1}}
+b. La concentration de chaque gaz en moles par litre à 0 °C et à pression atmosphérique.
+\vspace{\stretch{1}}
+:::
+
+::: {.Answer data-latex=""}
+
+a. $$
+\begin{split}
+	P_{\ce{N2}} &= 0.7808 \cdot 1.013\ [kPa] = 0.79\ [kPa] \\
+	P_{\ce{O2}} &= 0.2094 \cdot 1.013\ [kPa] = 0.21\ [kPa] \\
+	P_{\ce{Ar}} &= 0.0093 \cdot 1.013\ [kPa] = 0.0094\ [kPa] \\
+	P_{\ce{CO2}} &= 0.0005 \cdot 1.013\ [kPa] = 0.0005\ [kPa]
+\end{split}
+$$
+b. 0 °C et pression atmosphérique (=CNTP), 1 mole de gaz occupe 22.4 litres.  
+
+$$
+\begin{split}
+22.4\ [L/mol] \Rightarrow \frac{1}{22.4}\ [mol/L] = 0.045\ [mol/L]
+\end{split}
+$$
+
+$$
+\begin{split}
+	C_{\ce{N2}} &= 0.7808 \cdot 0.045\ [mol/L] = 3.5 \cdot 10^{-2}\ [mol/L] \\
+	C_{\ce{O2}} &= 0.2094 \cdot 0.045\ [mol/L] = 9 \cdot 10^{-3}\ [mol/L] \\
+	C_{\ce{Ar}} &= 0.0093 \cdot 0.045\ [mol/L] = 4 \cdot 10^{-4}\ [mol/L] \\
+	C_{\ce{CO2}} &= 0.0005 \cdot 0.045\ [mol/L] = 2.25 \cdot 10^{-5}\ [mol/L]
+\end{split}
+$$
+
+:::

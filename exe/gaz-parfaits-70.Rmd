@@ -1,0 +1,25 @@
+::: {.Exercise data-latex=""}
+
+Un mélange de gaz rares contient 4.46 [mol] de néon, 0.74 [mol] d'argon et 2.15 [mol] de xénon. Calculez les pressions partielles de chaque gaz si la pression totale est de 200 [kPa] à une température donnée.
+
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+$$
+\begin{split}
+	\chi_{Ne} &= \frac{n_{Ne}}{n_{Ne}+n_{Ar}+n_{Xe}} = \frac{4.46}{4.46+0.74+2.15} = 0.61 \\
+	\chi_{Ar} &= \frac{n_{Ar}}{n_{Ne}+n_{Ar}+n_{Xe}} = \frac{0.74}{4.46+0.74+2.15} = 0.1 \\
+	\chi_{Xe} &= \frac{n_{Xe}}{n_{Ne}+n_{Ar}+n_{Xe}} = \frac{2.15}{4.46+0.74+2.15} = 0.29\\
+\end{split}
+\qquad
+\begin{split}
+	P_{Ne} &= 0.61 \cdot 200\ [kPa] = 122\ [kPa] \\
+	P_{Ar} &= 0.1 \cdot 200\ [kPa] = 20\ [kPa] \\
+	P_{Xe} &= 0.29 \cdot 200\ [kPa] = 58\ [kPa] \\
+\end{split}
+$$
+
+:::
