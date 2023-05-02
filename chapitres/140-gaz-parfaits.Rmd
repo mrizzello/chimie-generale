@@ -145,12 +145,60 @@ $$
 760 \left[mmHg\right]
 $$
 
-\newpage
+## La loi des pressions partielles
+
+Jusqu'à maintenant, nous n'avons traité que des substances gazeuses pures. Cependant, on est souvent amené à étudier des mélanges de gaz. Dans ce cas, la loi des pressions partielles nous permet de connaître la relation entre la pression totale et la pression partielle de chaque gaz constituant le mélange.
+
+Selon cette loi :
+
+::: {.tcolorbox data-latex=""}
+
+La pression totale d'un mélange de gaz est égale à la somme des pressions partielles de chaque gaz constituant le mélange.
+
+:::
+
+Soit deux gaz, A et B, contenus dans un volume V. La pression totale $P_T$ est le résultat des collisions des deux types de molécules sur la paroi du contenant. Les collisions entre les molécules de gaz sont négligeables par rapport aux collisions des molécules avec la paroi du contenant. Chaque gaz exerce une pression partielle indépendante en fonction de sa concentration et de sa température dans le mélange.
+
+La loi des gaz parfaits nous permet de connaître la pression exercée par chaque gaz :
+
+$$
+\begin{split}
+  P_A = \frac{n_A \cdot RT }{V}
+\end{split}
+\qquad\text{et}\qquad
+\begin{split}
+  P_B = \frac{n_B \cdot RT }{V}
+\end{split}
+$$
+
+La pression totale d'un mélange de gaz est donnée par la relation suivante :
+
+$$
+P_T = P_A + P_B + P_C + ...
+$$
+
+Dans notre mélange, A et B :
+
+$$
+\begin{split}
+P_T = P_A + P_B
+\end{split}
+\qquad\qquad
+\begin{split}
+  P_T &= \frac{n_A \cdot RT }{V} + \frac{n_B \cdot RT }{V} \\
+  &= \frac{RT }{V} \cdot (n_A + n_B)
+\end{split}
+$$
+
+```{r, child=c('exe/gaz-parfaits-70.Rmd')}
+```
 
 ## Exercices supplémentaires
 
 ```{r, child=c('exe/gaz-parfaits-40.Rmd')}
 ```
+
+\newpage
 
 ```{r, child=c('exe/gaz-parfaits-50.Rmd')}
 ```
@@ -158,6 +206,8 @@ $$
 ```{r, child=c('exe/gaz-parfaits-60.Rmd')}
 ```
 
+```{r, child=c('exe/gaz-parfaits-80.Rmd')}
+```
 
 \newpage
 
