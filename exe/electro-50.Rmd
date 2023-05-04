@@ -1,0 +1,24 @@
+::: {.Exercise data-latex=""}
+
+Déterminez le potentiel électrique d'une pile Daniell dont |Zn^2+^| = 1.5 M et |Cu^2+^| = 0.5 M à 25°C.
+
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+$$
+\begin{split}
+  & \ce{Cu^{2+} + Zn_{(s)} -> Cu_{(s)} + Zn^{2+}} \\
+  Q &= \frac{|Zn^{2+}|}{|Cu^{2+}|} = \frac{1.5\ [M]}{0.5\ [M]} = 3
+\end{split}
+\qquad
+\begin{split}
+  \Delta E &= \Delta E^{0} - \frac{RT}{nF} \cdot \ln{Q} \\
+  &= 1.103\ [V] - \frac{8.314\ [J \cdot mol^{-1} \cdot K^{-1}] \cdot 298.15\ [K]}{2 \cdot 96500\ [C]} \\
+  &= 1.090\ [V]
+\end{split}
+$$
+
+:::

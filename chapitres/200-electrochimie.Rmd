@@ -164,6 +164,60 @@ $$
 ```{r, child=c('exe/electro-30.Rmd')}
 ```
 
+\clearpage
+
+## Effet de la concentration sur la force électromotrice d'une pile
+
+La plupart des mesures et calculs faisant intervenir des piles ont lieu dans des conditions non standard. La force électromotrice d'une pile varie en fonction de la concentration des solutions.
+
+**Qualitativement**, la fem d'une pile :
+
+- augmente si on augmente la concentration d'un réactif et
+- diminue si on augmente la concentration d'un produit.
+
+```{r nernst-illustration,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center"}
+knitr::include_graphics(c("images/nernst-illustration.png"))
+```
+
+|              | $|\ce{Cu^{2+}}|$ | $|\ce{Zn^{2+}}|$ |                            |
+| -----------: | ---------------: | ---------------: | -------------------------: |
+| Non standard |            1.5 M |          0.075 M | $E_{pile} = 1.142 [V]$     |
+|     Standard |              1 M |              1 M | $E^{0}_{pile} = 1.103 [V]$ |
+| Non standard |          0.075 M |            1.5 M | $E_{pile} = 1.064 [V]$     |
+
+Lors de l'utilisation d'une pile, |Cu^2+^| diminue et |Zn^2+^| augmente ce qui entraîne une diminution régulière de la tension aux bornes de la pile, jusqu'à ce qu'elle ne soit plus suffisante pour alimenter l'appareil.
+
+Les fabricants de piles cherchent à maximiser la tension. S'il fabrique une pile de Daniell, il va plutôt utiliser une solution qui ne contient pas d'ions Zn^2+^, ni d'ions susceptibles d'interférer avec la réaction. Une solution de NaCl, par exemple, est un bon choix (pile saline).
+
+**Quantitativement**, la force électromotrice (tension) d'une pile en fonction des concentrations peut être calculée grâce à l'équation de Nernst qui découle directement de la thermodynamique.
+
+$$
+\Delta E = \Delta E^{0} - \frac{RT}{nF} \cdot \ln{Q}
+$$
+
+avec :
+
+- $\Delta E$ : tension aux bornes de la pile [V]
+- $\Delta E^{0}$ : tension aux bornes de la pile aux conditions standard [V]
+- R : constante des gaz parfaits [J/mol K]
+- T : température absolue [K]
+- n : nombre de moles d'électrons échangés aux cours de la réaction
+- F : charge d'une mole d'électrons [C] (= 96500 [C])
+- Q : quotient réactionnel
+
+\clearpage
+
+```{r, child=c('exe/electro-50.Rmd')}
+```
+
+La différence de potentiel de la pile devient nulle lorsque l'équilibre est atteint. La réaction s'arrête et la pile est complètement déchargée. À ce moment, la valeur du quotient réactionnel ($Q$) est égale à la valeur de la constante d'équilibre ($K_e$). On a alors :
+
+$$
+\Delta E = \Delta E^{0} - \frac{RT}{nF} \cdot \ln{Q} = \Delta E^{0} - \frac{RT}{nF} \cdot \ln{K_{e}}
+$$
+
+\clearpage
+
 ## Électrolyse
 
 Une pile électrochimique produit du courant lorsque la réaction d'oxydoréduction se produit **spontanément**. À l'inverse, une cellule **électrolytique**, utilise l'énergie électrique pour produire une transformation chimique. L'**électrolyse** consiste à forcer un courant à travers un système chimique pour produire une transformation **non spontanée**.
@@ -210,7 +264,7 @@ Le milieu réactionnel de ce système est composé d'eau (H~2~O), de cations sod
 Anode (oxydation):
 
 |                                           |                                  |
-|:-----------------------------------------:|:---------------------------------|
+| :---------------------------------------: | :------------------------------- |
 |     $\ce{2Cl-(aq) -> Cl2(g) + 2 e^-}$     | $E^0_{\ce{Cl2/Cl-}} = 1.36\ [V]$ |
 | $\ce{2H2O(l) -> 4H+(aq) + O2(g) + 4 e^-}$ | $E^0_{\ce{O2/H2O}} = 1.23\ [V]$  |
 
@@ -219,7 +273,7 @@ Anode (oxydation):
 Cathode (réduction):
 
 |                                            |                                  |
-|:------------------------------------------:|:---------------------------------|
+| :----------------------------------------: | :------------------------------- |
 | $\ce{2H2O(l) + 2 e^- -> 2OH-(aq) + H2(g)}$ | $E^0_{\ce{H2O/H2}} = -0.83\ [V]$ |
 |       $\ce{Na+(aq) + e^- -> Na(s)}$        | $E^0_{\ce{Na+/Na}} = -2.7\ [V]$  |
 
