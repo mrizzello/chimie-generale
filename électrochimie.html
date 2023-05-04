@@ -460,11 +460,12 @@ div.csl-indent {
 <ul>
 <li class="chapter" data-level="20.2.1" data-path="électrochimie.html"><a href="électrochimie.html#potentiel-électrochimique-ou-force-électromotrice-fem"><i class="fa fa-check"></i><b>20.2.1</b> Potentiel électrochimique ou force électromotrice (fem)</a></li>
 </ul></li>
-<li class="chapter" data-level="20.3" data-path="électrochimie.html"><a href="électrochimie.html#électrolyse"><i class="fa fa-check"></i><b>20.3</b> Électrolyse</a>
+<li class="chapter" data-level="20.3" data-path="électrochimie.html"><a href="électrochimie.html#effet-de-la-concentration-sur-la-force-électromotrice-dune-pile"><i class="fa fa-check"></i><b>20.3</b> Effet de la concentration sur la force électromotrice d’une pile</a></li>
+<li class="chapter" data-level="20.4" data-path="électrochimie.html"><a href="électrochimie.html#électrolyse"><i class="fa fa-check"></i><b>20.4</b> Électrolyse</a>
 <ul>
-<li class="chapter" data-level="20.3.1" data-path="électrochimie.html"><a href="électrochimie.html#exemples-délectrolyses-de-composés-purs"><i class="fa fa-check"></i><b>20.3.1</b> Exemples d’électrolyses de composés purs</a></li>
-<li class="chapter" data-level="20.3.2" data-path="électrochimie.html"><a href="électrochimie.html#prédiction-des-réactions-délectrolyse"><i class="fa fa-check"></i><b>20.3.2</b> Prédiction des réactions d’électrolyse</a></li>
-<li class="chapter" data-level="20.3.3" data-path="électrochimie.html"><a href="électrochimie.html#loi-de-faraday"><i class="fa fa-check"></i><b>20.3.3</b> Loi de Faraday</a></li>
+<li class="chapter" data-level="20.4.1" data-path="électrochimie.html"><a href="électrochimie.html#exemples-délectrolyses-de-composés-purs"><i class="fa fa-check"></i><b>20.4.1</b> Exemples d’électrolyses de composés purs</a></li>
+<li class="chapter" data-level="20.4.2" data-path="électrochimie.html"><a href="électrochimie.html#prédiction-des-réactions-délectrolyse"><i class="fa fa-check"></i><b>20.4.2</b> Prédiction des réactions d’électrolyse</a></li>
+<li class="chapter" data-level="20.4.3" data-path="électrochimie.html"><a href="électrochimie.html#loi-de-faraday"><i class="fa fa-check"></i><b>20.4.3</b> Loi de Faraday</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="21" data-path="thermochimie.html"><a href="thermochimie.html"><i class="fa fa-check"></i><b>21</b> Thermochimie</a>
@@ -729,8 +730,91 @@ E^0_{pile} &amp;= E^0_{cathode} − E^0_{anode} \\
 </div>
 </div>
 </div>
-<div id="électrolyse" class="section level2 hasAnchor" number="20.3">
-<h2><span class="header-section-number">20.3</span> Électrolyse<a href="électrochimie.html#électrolyse" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="effet-de-la-concentration-sur-la-force-électromotrice-dune-pile" class="section level2 hasAnchor" number="20.3">
+<h2><span class="header-section-number">20.3</span> Effet de la concentration sur la force électromotrice d’une pile<a href="électrochimie.html#effet-de-la-concentration-sur-la-force-électromotrice-dune-pile" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>La plupart des mesures et calculs faisant intervenir des piles ont lieu dans des conditions non standard. La force électromotrice d’une pile varie en fonction de la concentration des solutions.</p>
+<p><strong>Qualitativement</strong>, la fem d’une pile :</p>
+<ul>
+<li>augmente si on augmente la concentration d’un réactif et</li>
+<li>diminue si on augmente la concentration d’un produit.</li>
+</ul>
+<p><img src="images/nernst-illustration.png" width="50%" style="display: block; margin: auto;" /></p>
+<table>
+<colgroup>
+<col width="17%" />
+<col width="22%" />
+<col width="22%" />
+<col width="37%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="right"></th>
+<th align="right"><span class="math inline">\(|\ce{Cu^{2+}}|\)</span></th>
+<th align="right"><span class="math inline">\(|\ce{Zn^{2+}}|\)</span></th>
+<th align="right"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">Non standard</td>
+<td align="right">1.5 M</td>
+<td align="right">0.075 M</td>
+<td align="right"><span class="math inline">\(E_{pile} = 1.142 [V]\)</span></td>
+</tr>
+<tr class="even">
+<td align="right">Standard</td>
+<td align="right">1 M</td>
+<td align="right">1 M</td>
+<td align="right"><span class="math inline">\(E^{0}_{pile} = 1.103 [V]\)</span></td>
+</tr>
+<tr class="odd">
+<td align="right">Non standard</td>
+<td align="right">0.075 M</td>
+<td align="right">1.5 M</td>
+<td align="right"><span class="math inline">\(E_{pile} = 1.064 [V]\)</span></td>
+</tr>
+</tbody>
+</table>
+<p>Lors de l’utilisation d’une pile, |Cu<sup>2+</sup>| diminue et |Zn<sup>2+</sup>| augmente ce qui entraîne une diminution régulière de la tension aux bornes de la pile, jusqu’à ce qu’elle ne soit plus suffisante pour alimenter l’appareil.</p>
+<p>Les fabricants de piles cherchent à maximiser la tension. S’il fabrique une pile de Daniell, il va plutôt utiliser une solution qui ne contient pas d’ions Zn<sup>2+</sup>, ni d’ions susceptibles d’interférer avec la réaction. Une solution de NaCl, par exemple, est un bon choix (pile saline).</p>
+<p><strong>Quantitativement</strong>, la force électromotrice (tension) d’une pile en fonction des concentrations peut être calculée grâce à l’équation de Nernst qui découle directement de la thermodynamique.</p>
+<p><span class="math display">\[
+\Delta E = \Delta E^{0} - \frac{RT}{nF} \cdot \ln{Q}
+\]</span></p>
+<p>avec :</p>
+<ul>
+<li><span class="math inline">\(\Delta E\)</span> : tension aux bornes de la pile [V]</li>
+<li><span class="math inline">\(\Delta E^{0}\)</span> : tension aux bornes de la pile aux conditions standard [V]</li>
+<li>R : constante des gaz parfaits [J/mol K]</li>
+<li>T : température absolue [K]</li>
+<li>n : nombre de moles d’électrons échangés aux cours de la réaction</li>
+<li>F : charge d’une mole d’électrons [C] (= 96500 [C])</li>
+<li>Q : quotient réactionnel</li>
+</ul>
+<div class="Exercise">
+<p>Déterminez le potentiel électrique d’une pile Daniell dont |Zn<sup>2+</sup>| = 1.5 M et |Cu<sup>2+</sup>| = 0.5 M à 25°C.</p>
+</div>
+<div class="Answer">
+<p><span class="math display">\[
+\begin{split}
+  &amp; \ce{Cu^{2+} + Zn_{(s)} -&gt; Cu_{(s)} + Zn^{2+}} \\
+  Q &amp;= \frac{|Zn^{2+}|}{|Cu^{2+}|} = \frac{1.5\ [M]}{0.5\ [M]} = 3
+\end{split}
+\qquad
+\begin{split}
+  \Delta E &amp;= \Delta E^{0} - \frac{RT}{nF} \cdot \ln{Q} \\
+  &amp;= 1.103\ [V] - \frac{8.314\ [J \cdot mol^{-1} \cdot K^{-1}] \cdot 298.15\ [K]}{2 \cdot 96500\ [C]} \\
+  &amp;= 1.090\ [V]
+\end{split}
+\]</span></p>
+</div>
+<p>La différence de potentiel de la pile devient nulle lorsque l’équilibre est atteint. La réaction s’arrête et la pile est complètement déchargée. À ce moment, la valeur du quotient réactionnel (<span class="math inline">\(Q\)</span>) est égale à la valeur de la constante d’équilibre (<span class="math inline">\(K_e\)</span>). On a alors :</p>
+<p><span class="math display">\[
+\Delta E = \Delta E^{0} - \frac{RT}{nF} \cdot \ln{Q} = \Delta E^{0} - \frac{RT}{nF} \cdot \ln{K_{e}}
+\]</span></p>
+</div>
+<div id="électrolyse" class="section level2 hasAnchor" number="20.4">
+<h2><span class="header-section-number">20.4</span> Électrolyse<a href="électrochimie.html#électrolyse" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Une pile électrochimique produit du courant lorsque la réaction d’oxydoréduction se produit <strong>spontanément</strong>. À l’inverse, une cellule <strong>électrolytique</strong>, utilise l’énergie électrique pour produire une transformation chimique. L’<strong>électrolyse</strong> consiste à forcer un courant à travers un système chimique pour produire une transformation <strong>non spontanée</strong>.</p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:pile-recharge"></span>
 <img src="images/pile-recharge.png" alt="Pile électrique et cellule électrolytique." width="67%" />
@@ -751,8 +835,8 @@ Figure 20.4: Pile électrique et cellule électrolytique.
 <li>Une alimentation en courant continu pour fournir l’énergie nécessaire à la réaction d’oxydoréduction.</li>
 <li>Deux électrodes : deux conducteurs électriques qui constituent l’interface physique entre le circuit électrique et l’électrolyte.</li>
 </ul>
-<div id="exemples-délectrolyses-de-composés-purs" class="section level3 hasAnchor" number="20.3.1">
-<h3><span class="header-section-number">20.3.1</span> Exemples d’électrolyses de composés purs<a href="électrochimie.html#exemples-délectrolyses-de-composés-purs" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="exemples-délectrolyses-de-composés-purs" class="section level3 hasAnchor" number="20.4.1">
+<h3><span class="header-section-number">20.4.1</span> Exemples d’électrolyses de composés purs<a href="électrochimie.html#exemples-délectrolyses-de-composés-purs" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:electrolysis-water-NaCl"></span>
 <img src="images/electrolysis-water.png" alt="Schéma de l'électrolyse de l'eau pure et du chlorure de sodium fondu." width="49%" /><img src="images/electrolysis-NaCl.png" alt="Schéma de l'électrolyse de l'eau pure et du chlorure de sodium fondu." width="49%" />
 <p class="caption">
@@ -761,8 +845,8 @@ Figure 20.5: Schéma de l’électrolyse de l’eau pure et du chlorure de sodiu
 </div>
 <p>L’eau doit également contenir des ions qui la rendent conductrice, même si ces ions ne participent pas aux réactions aux électrodes.</p>
 </div>
-<div id="prédiction-des-réactions-délectrolyse" class="section level3 hasAnchor" number="20.3.2">
-<h3><span class="header-section-number">20.3.2</span> Prédiction des réactions d’électrolyse<a href="électrochimie.html#prédiction-des-réactions-délectrolyse" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="prédiction-des-réactions-délectrolyse" class="section level3 hasAnchor" number="20.4.2">
+<h3><span class="header-section-number">20.4.2</span> Prédiction des réactions d’électrolyse<a href="électrochimie.html#prédiction-des-réactions-délectrolyse" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Imaginons que nous faisions l’électrolyse d’une solution de chlorure de sodium dans l’eau. Cette solution serait donc le mélange des deux composés subissant l’électrolyse dans le chapitre précédent. Quelles sont les réactions d’oydoréduction qui vont avoir lieu dans ce système ?</p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:electrolysis-water-NaCl-sol"></span>
 <img src="images/electrolysis-NaCl-sol.png" alt="Schéma de l'électrolyse d'une solution de chlorure de sodium." width="65%" />
@@ -774,8 +858,8 @@ Figure 20.6: Schéma de l’électrolyse d’une solution de chlorure de sodium.
 <p>Anode (oxydation):</p>
 <table>
 <colgroup>
-<col width="55%" />
-<col width="44%" />
+<col width="56%" />
+<col width="43%" />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -827,8 +911,8 @@ Figure 20.7: Différences de potentiels oxred.
 \ce{2 Cl-(aq) + 2 H2O(l) -&gt; 2 OH-(aq) + H2(g) + Cl2(g)}
 \]</span></p>
 </div>
-<div id="loi-de-faraday" class="section level3 hasAnchor" number="20.3.3">
-<h3><span class="header-section-number">20.3.3</span> Loi de Faraday<a href="électrochimie.html#loi-de-faraday" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="loi-de-faraday" class="section level3 hasAnchor" number="20.4.3">
+<h3><span class="header-section-number">20.4.3</span> Loi de Faraday<a href="électrochimie.html#loi-de-faraday" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>La quantité de réactif consommé ou de produit formé lors d’une électrolyse dépend de la quantité de charge transférée aux électrodes, laquelle dépend de l’intensité du courant électrique utilisé et du temps requis pour l’électrolyse. L’unité de charge électrique est le coulomb (C) et la charge portée par un électron est de <span class="math inline">\(-1.6022 \cdot 10^{-19}\)</span> [C]. Une mole d’électrons repésentent donc une charge totale de 96’485 [C].</p>
 <p>Ces considérations nous permettent de définir une relation mathématique qui nous permet déterminer les quantités de réactif consommé et de produits formés à la fin d’une électrolyse en fonction de différents facteurs (loi de Faraday).</p>
 <p><span class="math display">\[

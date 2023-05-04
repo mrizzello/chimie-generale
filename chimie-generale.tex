@@ -121,7 +121,7 @@
 \renewcommand{\AnswerName}{Solution de l'exercice}
 
 \usepackage{fancyhdr}
-\setlength{\headheight}{14pt}
+\setlength{\headheight}{15pt}
 \pagestyle{fancy}
 \lhead{}
 \chead{}
@@ -158,7 +158,7 @@
 
 \title{Cours de chimie générale}
 \author{M. Michele Rizzello \and Mme Émilie Pittet}
-\date{03.05.2023}
+\date{04.05.2023}
 
 \begin{document}
 \maketitle
@@ -15985,6 +15985,110 @@ Dessinez un schéma de pile électrique dans laquelle une électrode de cuivre e
 
 \end{Exercise}
 
+\clearpage
+
+\hypertarget{effet-de-la-concentration-sur-la-force-uxe9lectromotrice-dune-pile}{%
+\section{Effet de la concentration sur la force électromotrice d'une pile}\label{effet-de-la-concentration-sur-la-force-uxe9lectromotrice-dune-pile}}
+
+La plupart des mesures et calculs faisant intervenir des piles ont lieu dans des conditions non standard. La force électromotrice d'une pile varie en fonction de la concentration des solutions.
+
+\textbf{Qualitativement}, la fem d'une pile :
+
+\begin{itemize}
+\tightlist
+\item
+  augmente si on augmente la concentration d'un réactif et
+\item
+  diminue si on augmente la concentration d'un produit.
+\end{itemize}
+
+\begin{center}\includegraphics[width=0.5\linewidth]{images/nernst-illustration} \end{center}
+
+\begin{longtable}[]{@{}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1714}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2286}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2286}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3714}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedleft
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+\(|\ce{Cu^{2+}}|\)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+\(|\ce{Zn^{2+}}|\)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+\end{minipage} \\
+\midrule()
+\endhead
+Non standard & 1.5 M & 0.075 M & \(E_{pile} = 1.142 [V]\) \\
+Standard & 1 M & 1 M & \(E^{0}_{pile} = 1.103 [V]\) \\
+Non standard & 0.075 M & 1.5 M & \(E_{pile} = 1.064 [V]\) \\
+\bottomrule()
+\end{longtable}
+
+Lors de l'utilisation d'une pile, \textbar Cu\textsuperscript{2+}\textbar{} diminue et \textbar Zn\textsuperscript{2+}\textbar{} augmente ce qui entraîne une diminution régulière de la tension aux bornes de la pile, jusqu'à ce qu'elle ne soit plus suffisante pour alimenter l'appareil.
+
+Les fabricants de piles cherchent à maximiser la tension. S'il fabrique une pile de Daniell, il va plutôt utiliser une solution qui ne contient pas d'ions Zn\textsuperscript{2+}, ni d'ions susceptibles d'interférer avec la réaction. Une solution de NaCl, par exemple, est un bon choix (pile saline).
+
+\textbf{Quantitativement}, la force électromotrice (tension) d'une pile en fonction des concentrations peut être calculée grâce à l'équation de Nernst qui découle directement de la thermodynamique.
+
+\[
+\Delta E = \Delta E^{0} - \frac{RT}{nF} \cdot \ln{Q}
+\]
+
+avec :
+
+\begin{itemize}
+\tightlist
+\item
+  \(\Delta E\) : tension aux bornes de la pile {[}V{]}
+\item
+  \(\Delta E^{0}\) : tension aux bornes de la pile aux conditions standard {[}V{]}
+\item
+  R : constante des gaz parfaits {[}J/mol K{]}
+\item
+  T : température absolue {[}K{]}
+\item
+  n : nombre de moles d'électrons échangés aux cours de la réaction
+\item
+  F : charge d'une mole d'électrons {[}C{]} (= 96500 {[}C{]})
+\item
+  Q : quotient réactionnel
+\end{itemize}
+
+\clearpage
+
+\begin{Exercise}
+
+Déterminez le potentiel électrique d'une pile Daniell dont \textbar Zn\textsuperscript{2+}\textbar{} = 1.5 M et \textbar Cu\textsuperscript{2+}\textbar{} = 0.5 M à 25°C.
+
+\vspace{\stretch{1}}
+
+\end{Exercise}
+
+\begin{Answer}
+\[
+\begin{split}
+  & \ce{Cu^{2+} + Zn_{(s)} -> Cu_{(s)} + Zn^{2+}} \\
+  Q &= \frac{|Zn^{2+}|}{|Cu^{2+}|} = \frac{1.5\ [M]}{0.5\ [M]} = 3
+\end{split}
+\qquad
+\begin{split}
+  \Delta E &= \Delta E^{0} - \frac{RT}{nF} \cdot \ln{Q} \\
+  &= 1.103\ [V] - \frac{8.314\ [J \cdot mol^{-1} \cdot K^{-1}] \cdot 298.15\ [K]}{2 \cdot 96500\ [C]} \\
+  &= 1.090\ [V]
+\end{split}
+\]
+
+\end{Answer}
+
+La différence de potentiel de la pile devient nulle lorsque l'équilibre est atteint. La réaction s'arrête et la pile est complètement déchargée. À ce moment, la valeur du quotient réactionnel (\(Q\)) est égale à la valeur de la constante d'équilibre (\(K_e\)). On a alors :
+
+\[
+\Delta E = \Delta E^{0} - \frac{RT}{nF} \cdot \ln{Q} = \Delta E^{0} - \frac{RT}{nF} \cdot \ln{K_{e}}
+\]
+
+\clearpage
+
 \hypertarget{uxe9lectrolyse}{%
 \section{Électrolyse}\label{uxe9lectrolyse}}
 
@@ -16060,8 +16164,8 @@ Le milieu réactionnel de ce système est composé d'eau (H\textsubscript{2}O), 
 Anode (oxydation):
 
 \begin{longtable}[]{@{}
-  >{\centering\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5584}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.4416}}@{}}
+  >{\centering\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5616}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.4384}}@{}}
 \toprule()
 \endhead
 \(\ce{2Cl-(aq) -> Cl2(g) + 2 e^-}\) & \(E^0_{\ce{Cl2/Cl-}} = 1.36\ [V]\) \\
@@ -16074,8 +16178,8 @@ Anode (oxydation):
 Cathode (réduction):
 
 \begin{longtable}[]{@{}
-  >{\centering\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5641}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.4359}}@{}}
+  >{\centering\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5676}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.4324}}@{}}
 \toprule()
 \endhead
 \(\ce{2H2O(l) + 2 e^- -> 2OH-(aq) + H2(g)}\) & \(E^0_{\ce{H2O/H2}} = -0.83\ [V]\) \\
