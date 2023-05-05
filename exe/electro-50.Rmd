@@ -16,8 +16,8 @@ $$
 \qquad
 \begin{split}
   \Delta E &= \Delta E^{0} - \frac{RT}{nF} \cdot \ln{Q} \\
-  &= 1.103\ [V] - \frac{8.314\ [J \cdot mol^{-1} \cdot K^{-1}] \cdot 298.15\ [K]}{2 \cdot 96500\ [C]} \\
-  &= 1.090\ [V]
+  &= 1.103\ [V] - \frac{8.314\ [J \cdot mol^{-1} \cdot K^{-1}] \cdot 298.15\ [K]}{2 \cdot 96500\ [C]} \cdot \ln{3} \\
+  &= 1.089\ [V]
 \end{split}
 $$
 
