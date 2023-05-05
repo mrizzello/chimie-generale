@@ -213,8 +213,19 @@ avec :
 La différence de potentiel de la pile devient nulle lorsque l'équilibre est atteint. La réaction s'arrête et la pile est complètement déchargée. À ce moment, la valeur du quotient réactionnel ($Q$) est égale à la valeur de la constante d'équilibre ($K_e$). On a alors :
 
 $$
-\Delta E = \Delta E^{0} - \frac{RT}{nF} \cdot \ln{Q} = \Delta E^{0} - \frac{RT}{nF} \cdot \ln{K_{e}}
+\Delta E = \Delta E^{0} - \frac{RT}{nF} \cdot \ln{Q} = \Delta E^{0} - \frac{RT}{nF} \cdot \ln{K_{e}} = 0
 $$
+
+$$
+\begin{split}
+\ln{K_{e}} &= \Delta E^{0} \cdot \frac{nF}{RT} \\
+K_{e} &= e^{\frac{\Delta E^{0}\cdot nF}{RT}} \\
+\end{split}
+$$
+
+On peut ainsi avoir accès à la valeur de la constante d'un équilibre rédox d'une réaction à partir de la mesure de la tension standard aux borne d'une pile ou en mesurant une différence de potentiel dans un processus biologique par exemple.
+
+\vspace{\stretch{1}}
 
 \clearpage
 
