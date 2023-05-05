@@ -803,15 +803,22 @@ E^0_{pile} &amp;= E^0_{cathode} − E^0_{anode} \\
 \qquad
 \begin{split}
   \Delta E &amp;= \Delta E^{0} - \frac{RT}{nF} \cdot \ln{Q} \\
-  &amp;= 1.103\ [V] - \frac{8.314\ [J \cdot mol^{-1} \cdot K^{-1}] \cdot 298.15\ [K]}{2 \cdot 96500\ [C]} \\
-  &amp;= 1.090\ [V]
+  &amp;= 1.103\ [V] - \frac{8.314\ [J \cdot mol^{-1} \cdot K^{-1}] \cdot 298.15\ [K]}{2 \cdot 96500\ [C]} \cdot \ln{3} \\
+  &amp;= 1.089\ [V]
 \end{split}
 \]</span></p>
 </div>
 <p>La différence de potentiel de la pile devient nulle lorsque l’équilibre est atteint. La réaction s’arrête et la pile est complètement déchargée. À ce moment, la valeur du quotient réactionnel (<span class="math inline">\(Q\)</span>) est égale à la valeur de la constante d’équilibre (<span class="math inline">\(K_e\)</span>). On a alors :</p>
 <p><span class="math display">\[
-\Delta E = \Delta E^{0} - \frac{RT}{nF} \cdot \ln{Q} = \Delta E^{0} - \frac{RT}{nF} \cdot \ln{K_{e}}
+\Delta E = \Delta E^{0} - \frac{RT}{nF} \cdot \ln{Q} = \Delta E^{0} - \frac{RT}{nF} \cdot \ln{K_{e}} = 0
 \]</span></p>
+<p><span class="math display">\[
+\begin{split}
+\ln{K_{e}} &amp;= \Delta E^{0} \cdot \frac{nF}{RT} \\
+K_{e} &amp;= e^{\frac{\Delta E^{0}\cdot nF}{RT}} \\
+\end{split}
+\]</span></p>
+<p>On peut ainsi avoir accès à la valeur de la constante d’un équilibre rédox d’une réaction à partir de la mesure de la tension standard aux borne d’une pile ou en mesurant une différence de potentiel dans un processus biologique par exemple.</p>
 </div>
 <div id="électrolyse" class="section level2 hasAnchor" number="20.4">
 <h2><span class="header-section-number">20.4</span> Électrolyse<a href="électrochimie.html#électrolyse" class="anchor-section" aria-label="Anchor link to header"></a></h2>

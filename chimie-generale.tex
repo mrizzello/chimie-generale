@@ -158,7 +158,7 @@
 
 \title{Cours de chimie générale}
 \author{M. Michele Rizzello \and Mme Émilie Pittet}
-\date{04.05.2023}
+\date{05.05.2023}
 
 \begin{document}
 \maketitle
@@ -16074,8 +16074,8 @@ Déterminez le potentiel électrique d'une pile Daniell dont \textbar Zn\textsup
 \qquad
 \begin{split}
   \Delta E &= \Delta E^{0} - \frac{RT}{nF} \cdot \ln{Q} \\
-  &= 1.103\ [V] - \frac{8.314\ [J \cdot mol^{-1} \cdot K^{-1}] \cdot 298.15\ [K]}{2 \cdot 96500\ [C]} \\
-  &= 1.090\ [V]
+  &= 1.103\ [V] - \frac{8.314\ [J \cdot mol^{-1} \cdot K^{-1}] \cdot 298.15\ [K]}{2 \cdot 96500\ [C]} \cdot \ln{3} \\
+  &= 1.089\ [V]
 \end{split}
 \]
 
@@ -16084,8 +16084,19 @@ Déterminez le potentiel électrique d'une pile Daniell dont \textbar Zn\textsup
 La différence de potentiel de la pile devient nulle lorsque l'équilibre est atteint. La réaction s'arrête et la pile est complètement déchargée. À ce moment, la valeur du quotient réactionnel (\(Q\)) est égale à la valeur de la constante d'équilibre (\(K_e\)). On a alors :
 
 \[
-\Delta E = \Delta E^{0} - \frac{RT}{nF} \cdot \ln{Q} = \Delta E^{0} - \frac{RT}{nF} \cdot \ln{K_{e}}
+\Delta E = \Delta E^{0} - \frac{RT}{nF} \cdot \ln{Q} = \Delta E^{0} - \frac{RT}{nF} \cdot \ln{K_{e}} = 0
 \]
+
+\[
+\begin{split}
+\ln{K_{e}} &= \Delta E^{0} \cdot \frac{nF}{RT} \\
+K_{e} &= e^{\frac{\Delta E^{0}\cdot nF}{RT}} \\
+\end{split}
+\]
+
+On peut ainsi avoir accès à la valeur de la constante d'un équilibre rédox d'une réaction à partir de la mesure de la tension standard aux borne d'une pile ou en mesurant une différence de potentiel dans un processus biologique par exemple.
+
+\vspace{\stretch{1}}
 
 \clearpage
 
