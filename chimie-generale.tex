@@ -114,6 +114,8 @@
 \usepackage{cancel}
 \usepackage{gensymb}
 \usepackage[version=4]{mhchem}
+\usepackage{siunitx}
+\sisetup{exponent-product = \cdot}
 \usepackage{tabto}
 
 \usepackage[answerdelayed,lastexercise]{exercise}
@@ -158,7 +160,7 @@
 
 \title{Cours de chimie générale}
 \author{M. Michele Rizzello \and Mme Émilie Pittet}
-\date{05.05.2023}
+\date{06.05.2023}
 
 \begin{document}
 \maketitle
@@ -11128,6 +11130,75 @@ Quels sont les effets des changements énoncés ci-dessous sur cet équilibre ch
 
 \end{Answer}
 
+\hypertarget{exercices-suppluxe9mentaires-12}{%
+\section{Exercices supplémentaires}\label{exercices-suppluxe9mentaires-12}}
+
+\begin{Exercise}
+
+De l'oxychlorure d'azote pur (\(\ce{NOCl}\)) gazeux est chauffé à 240°C dans un récipient de 1 L et donne lieu à l'équilibre chimique suivant :
+
+\[
+\ce{2 NOCl_{(g)} <=> 2 NO_{(g)} + Cl_{2(g)}}
+\]
+
+À l'équilibre, la pression totale est de 1 atm et la pression du \(\ce{NOCl}\) est de 0.64 atm.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\tightlist
+\item
+  Calculer les pressions partielles de \ce{NO} et de \ce{Cl2} dans le système.
+  \vspace{\stretch{1}}
+\item
+  Calculer la constante d'équilibre K.
+  \vspace{\stretch{1}}
+\end{enumerate}
+
+\end{Exercise}
+
+\begin{Answer}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\tightlist
+\item
+  \[
+  \begin{split}
+  P_{Tot} &= P_{\ce{NOCl}} + P_{\ce{NO}} + P_{\ce{Cl2}} \\
+  P_{\ce{NO}} + P_{\ce{Cl2}} &= P_{Tot} - P_{\ce{NOCl}} \\
+  &= 1\ [atm] - 0.64\ [atm] = 0.36\ [atm]
+  \end{split}
+  \qquad
+  \begin{split}
+  \frac{n_{\ce{NO}}}{n_{\ce{Cl2}}} &= \frac{2}{1} \\
+  P_{\ce{NO}} &= 2 \cdot P_{\ce{Cl2}}
+  \end{split}
+  \]
+\end{enumerate}
+
+\[
+\begin{split}
+P_{\ce{NO}} &= \frac{2}{3} \cdot 0.36\ [atm] = 0.24\ [atm] \\
+P_{\ce{Cl2}} &= \frac{1}{3} \cdot 0.36\ [atm] = 0.12\ [atm]
+\end{split}
+\]
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  \[
+  \begin{split}
+  K = \frac{P_{\ce{NO}}^2 \cdot P_{\ce{Cl2}} }{P_{\ce{NOCl}}^2} = \frac{(0.24)^2\ [atm] \cdot 0.12\ [atm]}{(0.64)^2\ [atm]} = 0.017\ [-]
+  \end{split}
+  \]
+\end{enumerate}
+
+\end{Answer}
+
+\clearpage
+
 \section{Solutions des exercices} \shipoutAnswer
 
 \hypertarget{les-acides-et-les-bases}{%
@@ -15369,8 +15440,8 @@ Le cuivre s'oxyde. L'oxygène se réduit.
 
 \clearpage
 
-\hypertarget{exercices-suppluxe9mentaires-12}{%
-\section{Exercices supplémentaires}\label{exercices-suppluxe9mentaires-12}}
+\hypertarget{exercices-suppluxe9mentaires-13}{%
+\section{Exercices supplémentaires}\label{exercices-suppluxe9mentaires-13}}
 
 \begin{Exercise}
 
@@ -17143,8 +17214,8 @@ En remplaçant les enthalpies de formation par les valeurs contenues dans les ta
 \caption{Diagramme d'enthalpie de la combustion du propane.}\label{fig:enthalpie-3}
 \end{figure}
 
-\hypertarget{exercices-suppluxe9mentaires-13}{%
-\section{Exercices supplémentaires}\label{exercices-suppluxe9mentaires-13}}
+\hypertarget{exercices-suppluxe9mentaires-14}{%
+\section{Exercices supplémentaires}\label{exercices-suppluxe9mentaires-14}}
 
 \begin{Exercise}
 
@@ -17769,8 +17840,8 @@ K &= e^{1.93} = 6.9
 
 \end{Answer}
 
-\hypertarget{exercices-suppluxe9mentaires-14}{%
-\section{Exercices supplémentaires}\label{exercices-suppluxe9mentaires-14}}
+\hypertarget{exercices-suppluxe9mentaires-15}{%
+\section{Exercices supplémentaires}\label{exercices-suppluxe9mentaires-15}}
 
 \begin{Exercise}
 
