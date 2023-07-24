@@ -143,7 +143,7 @@
 \makeatother
 
 \newenvironment{credit}
-  {\vspace{-2em}\begin{center}\begin{footnotesize}\begin{textit}}
+  {\vspace{-1em}\begin{center}\begin{footnotesize}\begin{textit}}
   {\end{textit}\end{footnotesize}\end{center}}
 \ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
@@ -160,7 +160,7 @@
 
 \title{Cours de chimie générale}
 \author{M. Michele Rizzello \and Mme Émilie Pittet}
-\date{17.07.2023}
+\date{24.07.2023}
 
 \begin{document}
 \maketitle
@@ -10092,7 +10092,7 @@ Près du niveau de la mer, l'air sec a la composition suivante par unité de vol
   \(\ce{CO2}\) : 0.05 \%
 \end{itemize}
 
-La pression atmosphérique est de 101.3 {[}kPa{]}. Calculez :
+La pression atmosphérique est de 1.013 {[}kPa{]}. Calculez :
 
 \begin{enumerate}
 \def\labelenumi{\alph{enumi}.}
@@ -10165,7 +10165,7 @@ La pression atmosphérique est de 101.3 {[}kPa{]}. Calculez :
 
 \end{objectives}
 
-La \textbf{cinétique chimique} est l'étude de la vitesse à laquelle les réactions se produisent. De nombreuses réactions se produisent presque instantanément comme les combustions ou la photosynthèse tandis que d'autres se déroulent sur plusieurs jours comme l'oxydation du fer, voire des millions d'années comme la conversion du diamant en graphite.
+La \textbf{cinétique chimique} est l'étude de la vitesse à laquelle les réactions se produisent. De nombreuses réactions se produisent presque instantanément comme les combustions ou la photosynthèse tandis que d'autres se déroulent sur plusieurs jours comme l'oxydation du fer, voire des millions d'années comme la conversion du graphite en diamant.
 
 Connaître la vitesse d'une réaction peut être primordial : la rapidité d'action d'un médicament peut faire la différence entre la vie et la mort et le temps nécessaire à la synthèse d'un produit peut faire la différence entre gains et pertes commerciales.
 
@@ -10183,7 +10183,7 @@ Considérons l'équation générale qui représente une réaction chimique :
 \text{réactifs} \rightarrow \text{produits}
 \]
 
-Une réaction chimique se déroule de manière progressive. On peut suivre l'évolution d'une réaction en observant la diminution de la quantité de réactifs ou l'augmentation de la quantité de produits dans le temps. Au début, il n'y a que des particules de réactifs et pas de particules de produits. Par la suite, les particules de produits apparaissent au fur qu'elles sont formées et les particules de réactifs disparaissent au fur et à mesure qu'elles sont consommées.
+Une réaction chimique se déroule de manière progressive. On peut suivre l'évolution d'une réaction en observant la diminution de la quantité de réactifs ou l'augmentation de la quantité de produits dans le temps. Au début, il n'y a que des particules de réactifs et pas de particules de produits. Par la suite, les particules de produits apparaissent au fur et à mesure qu'elles sont formées et les particules de réactifs disparaissent au fur et à mesure qu'elles sont consommées.
 
 \hypertarget{exprimer-la-vitesse-dune-ruxe9action}{%
 \section{Exprimer la vitesse d'une réaction}\label{exprimer-la-vitesse-dune-ruxe9action}}
@@ -10239,7 +10239,7 @@ Il faut également tenir compte des proportions des réactifs et des produits lo
 A + 3\ B \rightarrow 2\ D
 \]
 
-La concentration de B diminue trois fois plus vite que la concentration de A et la concentration de D, deux fois plus vite. On peut donc généraliser l'influence des coefficients stœchiométriques.
+La concentration de B diminue trois fois plus vite que la concentration de A. La concentration de D augmente deux fois plus vite que celle de A ne diminue. On peut donc généraliser l'influence des coefficients stœchiométriques.
 
 \newpage
 
@@ -10369,7 +10369,7 @@ Plusieurs actions peuvent être menées pour aider les réactifs à franchir cet
 
 Il n'existe pas de loi générale qui donne la vitesse d'une réaction en fonction de la concentration. Chaque réaction est un cas particulier dont la vitesse dépend de différents facteurs (état physique des réactifs, concentration, température et présence de catalyseurs).
 
-La théorie des collisions permet d'expliquer intuitivement que la vitesse d'une réaction dépend de la concentration (ou de la pression) et de la température. On peut dire de manière générale que \textbf{plus la fréquence des collisions entre réactifs est élevée, plus la vitesse de réaction est augmente}.
+La théorie des collisions permet d'expliquer intuitivement que la vitesse d'une réaction dépend de la concentration (ou de la pression) et de la température. On peut dire de manière générale que \textbf{plus la fréquence des collisions entre réactifs est élevée, plus la vitesse de réaction augmente}.
 
 L'influence de la concentration et de la température concerne avant tout les réactions qui ont lieu en solution ou à l'état gazeux (homogène). Pour les réactions en milieux hétérogènes (solide-gaz, solide-liquide), la vitesse dépend surtout de la surface de contact.
 
@@ -11043,7 +11043,7 @@ En résumé :
 
 }
 
-\caption{Effet de la diminution du volume (augmentation de la pression) sur l'équilibre}\label{fig:equilibres-temperature-1}
+\caption{Effet de l'ajout ou le retrait de chaleur sur l'équilibre}\label{fig:equilibres-temperature-1}
 \end{figure}
 
 \hypertarget{effet-dun-catalyseur-sur-un-uxe9quilibre-chimique}{%
@@ -11615,7 +11615,7 @@ De manière similaire, reprenons l'équation d'ionisation d'une \textbf{base fai
 Puisqu'il s'agit d'une réaction réversible, il est possible de donner la constante d'équilibre de cette réaction d'ionisation, qui n'est rien d'autre que la \textbf{constante de basicité (K\textsubscript{b})}~:
 
 \[
-K_b = \frac{|\ce{BH+}| \cdot |\ce{OH-}|}{|\ce{B}|} =  \frac{|\ce{H+}| \cdot |\ce{A-}|}{|\ce{HA}|}
+K_b = \frac{|\ce{BH+}| \cdot |\ce{OH-}|}{|\ce{B}|}
 \]
 
 A nouveau, plus la constante est \textbf{petite}, plus l'équilibre est déplacé vers la \textbf{gauche} et donc plus la base est \textbf{faible}.
@@ -12544,7 +12544,7 @@ Il faut ajouter \(79\ [mL] - 25\ [mL] = 54\ [mL]\) d'eau.
 \hypertarget{ph-des-acides-faibles-et-des-bases-faibles}{%
 \section{pH des acides faibles et des bases faibles}\label{ph-des-acides-faibles-et-des-bases-faibles}}
 
-Il est plus difficile de calculer le pH d'une solution d'acide faible car \textbar H\textsubscript{3}O\textsuperscript{+}\textbar{} ≠ Ca ou \textbar OH\textsuperscript{-}\textbar{} ≠ Cb dans le cas d'une base faible. Pour calculer \textbar H\textsubscript{3}O\textsuperscript{+}\textbar, ou \textbar OH\textsuperscript{-}\textbar, il est nécessaire de résoudre un problème d'équilibre.
+Il est plus difficile de calculer le pH d'une solution d'acide faible car \(|H_{3}O^{+}| \neq Ca\) ou \(|OH^{-}| \neq Cb\) dans le cas d'une base faible. Pour calculer \textbar H\textsubscript{3}O\textsuperscript{+}\textbar, ou \textbar OH\textsuperscript{-}\textbar, il est nécessaire de résoudre un problème d'équilibre.
 
 \hypertarget{exemple-dun-acide-faible}{%
 \subsection{Exemple d'un acide faible}\label{exemple-dun-acide-faible}}
@@ -12598,7 +12598,7 @@ x &= \sqrt{4.9 \cdot 10^{-10} \cdot 0.100} = 7 \cdot 10^{-6}\ [M]
 
 Nous trouvons donc une valeur de \textbar H\textsubscript{3}O\textsuperscript{+}\textbar{} égale à \(7 \cdot 10^{-6}\) {[}M{]}.
 
-L'approximation est bien valide puisque \(x \lll 0.100\) {[}M{]}. \textbf{Le rapport entre quantité dissociée et la concentration initiale d'acide doit être inférieure à 5\% pour utiliser l'approximation}. Dans cet exemple, nous avons~:
+L'approximation est bien valide puisque \(x \lll 0.100\) {[}M{]}. \textbf{Le rapport entre la quantité dissociée et la concentration initiale d'acide doit être inférieur à 5\% pour utiliser l'approximation}. Dans cet exemple, nous avons~:
 
 \[
 \frac{7 \cdot 10^{-6}}{0.100} = 0.007\%
@@ -12662,7 +12662,7 @@ x &= \sqrt{1.8 \cdot 10^{-5} \cdot 0.200} = 1.90 \cdot 10^{-3}\ [M]
 
 Nous trouvons donc une valeur de \textbar OH\textsuperscript{-}\textbar{} égale à \(1.90 \cdot 10^{-3}\) {[}M{]}.
 
-L'approximation est bien valide puisque \(x \lll 0.200\) {[}M{]}. \textbf{Le rapport entre quantité dissociée et la concentration initiale de base doit être inférieure à 5\% pour utiliser l'approximation}. Dans cet exemple, nous avons~:
+L'approximation est bien valide puisque \(x \lll 0.200\) {[}M{]}. \textbf{Le rapport entre la quantité protonnée et la concentration initiale de base doit être inférieur à 5\% pour utiliser l'approximation}. Dans cet exemple, nous avons~:
 
 \[
 \frac{1.90 \cdot 10^{-3}}{0.200} = 0.95\%
@@ -13283,6 +13283,8 @@ Le pH variera donc peu, pour autant que la quantité d'acide ajoutée ne soit pa
 
 Par conséquent, les solutions tampons stabilisent le pH en fournissant source et piège à protons.
 
+\clearpage
+
 \begin{Exercise}
 
 Parmi les solutions suivantes, laquelle est une solution tampon~? Justifiez.
@@ -13382,13 +13384,13 @@ x = 1.8 \cdot 10^{-5} \cdot 2 = 3.6 \cdot 10^{-5}\ [mol/L]
 \end{split}
 \]
 
-L'approximation est bien valide puisque \(x \lll 0.200\) {[}M{]}. \textbf{Le rapport entre quantité dissociée et la concentration initiale de base doit être inférieure à 5\% pour utiliser l'approximation}. Dans cet exemple, nous avons~:
+L'approximation est bien valide puisque \(x \lll 0.100\) {[}M{]}. \textbf{Le rapport entre la quantité dissociée et la concentration initiale de base doit être inférieur à 5\% pour utiliser l'approximation}. Dans cet exemple, nous avons~:
 
 \[
 \frac{3.6 \cdot 10^{-5}}{0.200} = 0.018\%
 \]
 
-Finalement, on calcule le pH en prenant \(|\ce{H3O+}| = 3.5 \cdot 10^{-5}\) {[}M{]}~:
+Finalement, on calcule le pH en prenant \(|\ce{H3O+}| = 3.6 \cdot 10^{-5}\) {[}M{]}~:
 
 \[
 pH = - \log |\ce{H3O+}| = - \log 3.6 \cdot 10^{-5} = 4.44\ [-]
@@ -13439,15 +13441,15 @@ pH &= pK_a + \log \frac{|\ce{A-}|}{|\ce{HA}|}
 \end{split}
 \]
 
-Cette équation fonctionne dans le cas où l'approximation de x est valable (si \(\ce{|H3O+|}/\ce{|HA|} < 5\%\)).
+L'équation de Henderson-Hasselbalch est acceptable avec les concentrations initiales dans le cas où l'approximation de x est valable (si \(\ce{|H3O+|}/\ce{|HA|} < 5\%\)). Dans le cas contraire, il faut recalculer précisément les concentrations \(\ce{|HA|}\) et \(\ce{|A^-|}\).
+
+En règle générale, nous allons limiter la validiter de l'équation de Henderson-Hasselbalch aux solutions dont les concentrations sont au moins 100 fois supérieures à leurs valeurs de \(K_a\).
 
 Dans le cas d'une solution tampon d'une base faible en présence de son acide conjugué, il suffit de calculer le pK\textsubscript{a} à partir du pK\textsubscript{b} selon l'équation~:
 
 \[
 pK_a + pK_b = 14 \quad \text{avec } pK_b = - \log K_b
 \]
-
-\clearpage
 
 \begin{Exercise}
 Calculez le pH d'une solution tampon constituée d'une solution de \(\ce{HF}\) 0.15 {[}M{]} et de \(\ce{NaF}\) 0.15 {[}M{]}.
@@ -13603,6 +13605,8 @@ Méthode basée sur l'équation de Henderson-Hasselbalch :
 
 \end{Answer}
 
+\clearpage
+
 \begin{Exercise}
 
 Un tampon contient un acide faible HA (dont le pK\textsubscript{a} est de 4.82) et sa base conjuguée A\textsuperscript{-}. Le pH du tampon est de 4.25. Parmi les énoncés suivants concernant les concentrations relatives de l'acide et de la base conjuguée dans la solution tampon, lequel est vrai~?
@@ -13625,8 +13629,6 @@ Un tampon contient un acide faible HA (dont le pK\textsubscript{a} est de 4.82) 
 Quand l'acide et sa base conjuguée sont présents en mêmes quantités, pH = pK\textsubscript{a}. Ici, le pH est plus acide (4.25 \textless{} 4.82) ce qui signifie que \textbar HA\textbar{} \textgreater{} \textbar A\textsuperscript{-}\textbar.
 
 \end{Answer}
-
-\clearpage
 
 \begin{Exercise}
 Calculez le pH d'une solution tampon constituée d'une solution de \(\ce{HCN}\) 0.250 {[}M{]} et de \(\ce{KCN}\) 0.170 {[}M{]}. Utilisez la méthode basée sur l'équilibre et la méthode basée sur l'équation de Henderson-Hasselbalch.
@@ -13703,6 +13705,8 @@ Méthode basée sur l'équation de Henderson-Hasselbalch :
 \]
 
 \end{Answer}
+
+\clearpage
 
 \begin{Exercise}
 Calculez le pH d'une solution résultant du mélange de 60.0 {[}mL{]} de \(\ce{HCOOH}\) 0.250 {[}M{]} et de 15 {[}mL{]} de \(\ce{HCOONa}\) 0.500 {[}M{]}.
@@ -13785,8 +13789,6 @@ Méthode basée sur l'équation de Henderson-Hasselbalch :
 \]
 
 \end{Answer}
-
-\clearpage
 
 \hypertarget{addition-acide-base-uxe0-une-solution-tampon}{%
 \subsection{Addition acide-base à une solution tampon}\label{addition-acide-base-uxe0-une-solution-tampon}}
@@ -14111,7 +14113,7 @@ La courbe observée lorsque l'on ajoute dans un acide fort, petit à petit, une 
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.65\linewidth]{images/courbes-titration-acide-fort} 
+{\centering \includegraphics[width=0.6\linewidth]{images/courbes-titration-acide-fort} 
 
 }
 
@@ -14165,7 +14167,7 @@ La courbe observée lorsque l'on ajoute dans une base forte, petit à petit, un 
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.65\linewidth]{images/courbes-titration-base-forte} 
+{\centering \includegraphics[width=0.6\linewidth]{images/courbes-titration-base-forte} 
 
 }
 
