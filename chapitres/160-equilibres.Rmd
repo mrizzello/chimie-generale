@@ -261,7 +261,7 @@ En résumé :
 
 **Une diminution de la température favorise le sens exothermique (direct ou indirect) d'un équilibre chimique.**
 
-```{r equilibres-temperature-1,echo=FALSE,out.width="75%",fig.show="hold",fig.align="center",fig.cap="Effet de la diminution du volume (augmentation de la pression) sur l'équilibre"}
+```{r equilibres-temperature-1,echo=FALSE,out.width="75%",fig.show="hold",fig.align="center",fig.cap="Effet de l'ajout ou le retrait de chaleur sur l'équilibre"}
 knitr::include_graphics(c("images/equilibres-temperature-1.png"))
 ```
 

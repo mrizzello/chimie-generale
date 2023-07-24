@@ -7,7 +7,7 @@ Près du niveau de la mer, l'air sec a la composition suivante par unité de vol
 - $\ce{Ar}$ : 0.93 %
 - $\ce{CO2}$  : 0.05 %
 
-La pression atmosphérique est de 101.3 [kPa]. Calculez :
+La pression atmosphérique est de 1.013 [kPa]. Calculez :
 
 a. La pression partielle de chaque gaz;
 \vspace{\stretch{1}}
