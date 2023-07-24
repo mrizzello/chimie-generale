@@ -9,7 +9,7 @@
 
 :::
 
-La **cinétique chimique** est l'étude de la vitesse à laquelle les réactions se produisent. De nombreuses réactions se produisent presque instantanément comme les combustions ou la photosynthèse tandis que d'autres se déroulent sur plusieurs jours comme l'oxydation du fer, voire des millions d'années comme la conversion du diamant en graphite.
+La **cinétique chimique** est l'étude de la vitesse à laquelle les réactions se produisent. De nombreuses réactions se produisent presque instantanément comme les combustions ou la photosynthèse tandis que d'autres se déroulent sur plusieurs jours comme l'oxydation du fer, voire des millions d'années comme la conversion du graphite en diamant.
 
 Connaître la vitesse d'une réaction peut être primordial : la rapidité d'action d'un médicament peut faire la différence entre la vie et la mort et le temps nécessaire à la synthèse d'un produit peut faire la différence entre gains et pertes commerciales.
 
@@ -28,7 +28,7 @@ $$
 \text{réactifs} \rightarrow \text{produits}
 $$
 
-Une réaction chimique se déroule de manière progressive. On peut suivre l'évolution d'une réaction en observant la diminution de la quantité de réactifs ou l'augmentation de la quantité de produits dans le temps. Au début, il n'y a que des particules de réactifs et pas de particules de produits. Par la suite, les particules de produits apparaissent au fur qu'elles sont formées et les particules de réactifs disparaissent au fur et à mesure qu'elles sont consommées.
+Une réaction chimique se déroule de manière progressive. On peut suivre l'évolution d'une réaction en observant la diminution de la quantité de réactifs ou l'augmentation de la quantité de produits dans le temps. Au début, il n'y a que des particules de réactifs et pas de particules de produits. Par la suite, les particules de produits apparaissent au fur et à mesure qu'elles sont formées et les particules de réactifs disparaissent au fur et à mesure qu'elles sont consommées.
 
 ## Exprimer la vitesse d'une réaction
 
@@ -71,7 +71,7 @@ $$
 A + 3\ B \rightarrow 2\ D
 $$
 
-La concentration de B diminue trois fois plus vite que la concentration de A et la concentration de D, deux fois plus vite. On peut donc généraliser l'influence des coefficients stœchiométriques.
+La concentration de B diminue trois fois plus vite que la concentration de A. La concentration de D augmente deux fois plus vite que celle de A ne diminue. On peut donc généraliser l'influence des coefficients stœchiométriques.
 
 \newpage
 
@@ -117,7 +117,7 @@ Plusieurs actions peuvent être menées pour aider les réactifs à franchir cet
 
 Il n’existe pas de loi générale qui donne la vitesse d’une réaction en fonction de la concentration. Chaque réaction est un cas particulier dont la vitesse dépend de différents facteurs (état physique des réactifs, concentration, température et présence de catalyseurs).
 
-La théorie des collisions permet d’expliquer intuitivement que la vitesse d’une réaction dépend de la concentration (ou de la pression) et de la température. On peut dire de manière générale que **plus la fréquence des collisions entre réactifs est élevée, plus la vitesse de réaction est augmente**.
+La théorie des collisions permet d’expliquer intuitivement que la vitesse d’une réaction dépend de la concentration (ou de la pression) et de la température. On peut dire de manière générale que **plus la fréquence des collisions entre réactifs est élevée, plus la vitesse de réaction augmente**.
 
 L'influence de la concentration et de la température concerne avant tout les réactions qui ont lieu en solution ou à l’état gazeux (homogène). Pour les réactions en milieux hétérogènes (solide-gaz, solide-liquide), la vitesse dépend surtout de la surface de contact.
 

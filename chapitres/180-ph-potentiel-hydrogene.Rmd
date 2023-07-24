@@ -10,7 +10,7 @@
 - Calculer le pH d'une solution tampon.
 - Effectuer des calculs stœchiométriques sur la base d'une neutralisation donnée.
 - Tracer une courbe de titrage en calculant le pH pour différents volumes de solution titrante ajoutés.
-- Extraire les informations du tracé d’une courbe de titrage.
+- Extraire les informations du tracé d'une courbe de titrage.
 
 :::
 
@@ -124,7 +124,7 @@ Pour résumer :
 
 ## pH des acides faibles et des bases faibles
 
-Il est plus difficile de calculer le pH d'une solution d'acide faible car |H~3~O^+^| ≠ Ca ou |OH^-^| ≠ Cb dans le cas d'une base faible. Pour calculer |H~3~O^+^|, ou |OH^-^|, il est nécessaire de résoudre un problème d'équilibre.
+Il est plus difficile de calculer le pH d'une solution d'acide faible car $|H_{3}O^{+}| \neq Ca$ ou $|OH^{-}| \neq Cb$ dans le cas d'une base faible. Pour calculer |H~3~O^+^|, ou |OH^-^|, il est nécessaire de résoudre un problème d'équilibre.
 
 ### Exemple d'un acide faible
 
@@ -172,7 +172,7 @@ $$
 
 Nous trouvons donc une valeur de |H~3~O^+^| égale à $7 \cdot 10^{-6}$ [M].
 
-L'approximation est bien valide puisque $x \lll 0.100$ [M]. **Le rapport entre quantité dissociée et la concentration initiale d'acide doit être inférieure à 5% pour utiliser l'approximation**. Dans cet exemple, nous avons :
+L'approximation est bien valide puisque $x \lll 0.100$ [M]. **Le rapport entre la quantité dissociée et la concentration initiale d'acide doit être inférieur à 5% pour utiliser l'approximation**. Dans cet exemple, nous avons :
 
 $$
 \frac{7 \cdot 10^{-6}}{0.100} = 0.007\%
@@ -230,7 +230,7 @@ $$
 
 Nous trouvons donc une valeur de |OH^-^| égale à $1.90 \cdot 10^{-3}$ [M].
 
-L'approximation est bien valide puisque $x \lll 0.200$ [M]. **Le rapport entre quantité dissociée et la concentration initiale de base doit être inférieure à 5% pour utiliser l'approximation**. Dans cet exemple, nous avons :
+L'approximation est bien valide puisque $x \lll 0.200$ [M]. **Le rapport entre la quantité protonnée et la concentration initiale de base doit être inférieur à 5% pour utiliser l'approximation**. Dans cet exemple, nous avons :
 
 $$
 \frac{1.90 \cdot 10^{-3}}{0.200} = 0.95\%
@@ -263,9 +263,9 @@ $$
 
 ## pH des acides polyprotiques
 
-Certains acides, comme l’acide sulfurique (H~2~SO~4~) ou encore l’acide phosphorique ($\ce{H3PO4}$) peuvent céder plus d’un proton. On les appelle des **polyacides**. Un polyacide se dissocie toujours de façon graduelle, **soit un proton à la fois**.
+Certains acides, comme l'acide sulfurique (H~2~SO~4~) ou encore l'acide phosphorique ($\ce{H3PO4}$) peuvent céder plus d'un proton. On les appelle des **polyacides**. Un polyacide se dissocie toujours de façon graduelle, **soit un proton à la fois**.
 
-Par exemple, l’acide carbonique se dissocie en 2 temps :
+Par exemple, l'acide carbonique se dissocie en 2 temps :
 
 $$
 \begin{split}
@@ -274,9 +274,9 @@ $$
 \end{split}
 $$
 
-On remarque que la base conjuguée $\ce{HCO3-}$ de la première réaction devient l’acide de la deuxième réaction. Pour un polyacide faible typique, on a K~a1~ > K~a2~ > K~a3~ ...
+On remarque que la base conjuguée $\ce{HCO3-}$ de la première réaction devient l'acide de la deuxième réaction. Pour un polyacide faible typique, on a K~a1~ > K~a2~ > K~a3~ ...
 
-Les problèmes de calcul de pH de solutions contenant un polyacide se simplifient du fait que seule une des réactions contribue notablement à la formation de H~3~O^+^. De plus, la quantité de H~3~O^+^ produite à la première étape empêche la deuxième étape de produire davantage d’ion hydronium, selon le principe de Le Chatelier.
+Les problèmes de calcul de pH de solutions contenant un polyacide se simplifient du fait que seule une des réactions contribue notablement à la formation de H~3~O^+^. De plus, la quantité de H~3~O^+^ produite à la première étape empêche la deuxième étape de produire davantage d'ion hydronium, selon le principe de Le Chatelier.
 
 ```{r acides-faibles-2,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Dissociation de l'acide carbonique."}
 knitr::include_graphics(c("images/acides-faibles-2.png"))
@@ -294,9 +294,9 @@ On pourra donc traiter les polyacides comme des monoacides, en ne prenant en com
 
 ## Les solutions tampons
 
-Une solution tampon est une solution qui contient, en **quantités importantes et similaires**, un **acide faible** et sa **base conjuguée** (ou vice-versa). L’avantage de telles solutions est qu’elles sont capables de neutraliser l’ajout d’acide et/ou de base, résistant ainsi à de grande variation de pH. Par exemple, le sang contient un mélange d’acide carbonique ($\ce{H2CO3}$) et de sa base conjuguée, l’hydrogénocarbonate ($\ce{HCO3-}$), rendant ainsi son pH quasi constant, ce qui est vital pour nos cellules.
+Une solution tampon est une solution qui contient, en **quantités importantes et similaires**, un **acide faible** et sa **base conjuguée** (ou vice-versa). L'avantage de telles solutions est qu'elles sont capables de neutraliser l'ajout d'acide et/ou de base, résistant ainsi à de grande variation de pH. Par exemple, le sang contient un mélange d'acide carbonique ($\ce{H2CO3}$) et de sa base conjuguée, l'hydrogénocarbonate ($\ce{HCO3-}$), rendant ainsi son pH quasi constant, ce qui est vital pour nos cellules.
 
-Pour illustrer ce phénomène, prenons l’exemple d’un tampon préparé à l’aide d’acide acétique ($\ce{CH3COOH}$) et d’acétate de sodium ($\ce{CH3COONa}$), sa base conjuguée, dissous dans de l’eau.
+Pour illustrer ce phénomène, prenons l'exemple d'un tampon préparé à l'aide d'acide acétique ($\ce{CH3COOH}$) et d'acétate de sodium ($\ce{CH3COONa}$), sa base conjuguée, dissous dans de l'eau.
 
 ```{r acides-bases-4,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Formation d'une solution tampon"}
 knitr::include_graphics(c("images/acides-bases-4.png"))
@@ -305,44 +305,46 @@ knitr::include_graphics(c("images/acides-bases-4.png"))
 Image tirée du livre : Principe de chimie de Nivaldo Tro
 :::
 
-Si l’on ajoute une base forte (NaOH par exemple) à ce tampon, l’acide acétique neutralisera l’ajout de cette base :
+Si l'on ajoute une base forte (NaOH par exemple) à ce tampon, l'acide acétique neutralisera l'ajout de cette base :
 
 $$
 \ce{OH^{-}(aq) + CH3COOH(aq) <=> H2O(l) + CH3COO^{-}(aq)}
 $$
 
-_On ne considère que l’ion OH^-^, puisque Na^+^ est un ion spectateur._
+_On ne considère que l'ion OH^-^, puisque Na^+^ est un ion spectateur._
 
-Le pH variera donc peu, pour autant que la quantité de base ajoutée ne soit pas supérieure à la quantité d’acide présent.
+Le pH variera donc peu, pour autant que la quantité de base ajoutée ne soit pas supérieure à la quantité d'acide présent.
 
-De la même manière, si l’on ajoute un acide fort (HCl par exemple) à ce tampon, l’anion acétate neutralisera l’ajout de cet acide :
+De la même manière, si l'on ajoute un acide fort (HCl par exemple) à ce tampon, l'anion acétate neutralisera l'ajout de cet acide :
 
 $$
 \ce{H3O+(aq) + CH3COO^{-}(aq) <=> H2O(l) + CH3COOH(aq)}
 $$
 
-_On ne considère que l’ion H~3~O^+^, puisque Cl^-^ est un ion spectateur._
+_On ne considère que l'ion H~3~O^+^, puisque Cl^-^ est un ion spectateur._
 
-Le pH variera donc peu, pour autant que la quantité d’acide ajoutée ne soit pas supérieure à la quantité de base présente.
+Le pH variera donc peu, pour autant que la quantité d'acide ajoutée ne soit pas supérieure à la quantité de base présente.
 
 Par conséquent, les solutions tampons stabilisent le pH en fournissant source et piège à protons.
+
+\clearpage
 
 ```{r, child=c('exe/acides-bases-320.Rmd')}
 ```
 
 ### pH des solutions tampons
 
-Jusqu’à présent, nous avons appris à calculer le pH de solutions contenant soit un acide faible seul, soit une base faible seule. Voyons maintenant comment calculer le pH des solutions tampons contenant les deux à la fois.
+Jusqu'à présent, nous avons appris à calculer le pH de solutions contenant soit un acide faible seul, soit une base faible seule. Voyons maintenant comment calculer le pH des solutions tampons contenant les deux à la fois.
 
 **Exemple**
 
-Prenons une solution tampon formée à partir d’acide acétique 0.200 [M] et d’acétate de sodium 0.100 [M]. L’acide acétique se dissocie selon l’équation ci-dessous :
+Prenons une solution tampon formée à partir d'acide acétique 0.200 [M] et d'acétate de sodium 0.100 [M]. L'acide acétique se dissocie selon l'équation ci-dessous :
 
 $$
 \ce{CH3COOH(aq) + H2O(l) <=> H3O+(aq) + CH3COO^{-}(aq)} \qquad \text{avec } K_a = 1.8 \cdot 10^{-5}
 $$
 
-Les conditions initiales, les variations et les conditions d’équilibre peuvent être synthétisées dans le tableau ci-dessous.
+Les conditions initiales, les variations et les conditions d'équilibre peuvent être synthétisées dans le tableau ci-dessous.
 
 |             | $\ce{ CH3COOH}$ | $\ce{H3O+}$ | $\ce{CH3COO-}$ |
 |:------------|:---------------:|:-----------:|:--------------:|
@@ -351,19 +353,19 @@ Les conditions initiales, les variations et les conditions d’équilibre peuven
 | $\Delta$C   |       -x        |     +x      |       +x       |
 | C~finale~   |     0.200-x     |      x      |    0.100+x     |
 
-Déterminons maintenant l’expression de la constante d’acidité K~a~ :
+Déterminons maintenant l'expression de la constante d'acidité K~a~ :
 
 $$
 K_a = \frac{|\ce{H3O+}| \cdot |\ce{CH3COO-}|}{|\ce{CH3COOH}|} =  \frac{x \cdot (0.100 + x)}{(0.200 - x)}
 $$
 
-Comme K~a~ est faible, on peut négliger la quantité d’acide dissocié. On peut donc simplifier la constante :
+Comme K~a~ est faible, on peut négliger la quantité d'acide dissocié. On peut donc simplifier la constante :
 
 $$
 K_a =  \frac{x \cdot (0.100 + \cancel{x})}{(0.200 - \cancel{x})} = \frac{x \cdot 0.100}{0.200} = \frac{x}{2}
 $$
 
-En substituant K~a~ par sa valeur, on obtient une équation qu’il suffit de résoudre pour déterminer la valeur de x :
+En substituant K~a~ par sa valeur, on obtient une équation qu'il suffit de résoudre pour déterminer la valeur de x :
 
 $$
 \begin{split}
@@ -375,13 +377,13 @@ x = 1.8 \cdot 10^{-5} \cdot 2 = 3.6 \cdot 10^{-5}\ [mol/L]
 \end{split}
 $$
 
-L'approximation est bien valide puisque $x \lll 0.200$ [M]. **Le rapport entre quantité dissociée et la concentration initiale de base doit être inférieure à 5% pour utiliser l'approximation**. Dans cet exemple, nous avons :
+L'approximation est bien valide puisque $x \lll 0.100$ [M]. **Le rapport entre la quantité dissociée et la concentration initiale de base doit être inférieur à 5% pour utiliser l'approximation**. Dans cet exemple, nous avons :
 
 $$
 \frac{3.6 \cdot 10^{-5}}{0.200} = 0.018\%
 $$
 
-Finalement, on calcule le pH en prenant $|\ce{H3O+}| = 3.5 \cdot 10^{-5}$ [M] :
+Finalement, on calcule le pH en prenant $|\ce{H3O+}| = 3.6 \cdot 10^{-5}$ [M] :
 
 $$
 pH = - \log |\ce{H3O+}| = - \log 3.6 \cdot 10^{-5} = 4.44\ [-]
@@ -389,20 +391,20 @@ $$
 
 A titre de comparaison :
 
-- Le pH d’une solution de $\ce{CH3COOH}$ 0.200 mol/L est de **2.72** ;
-- Le pH d’une solution de $\ce{CH3COONa}$ 0.100 mol/L est de **8.9** ;
+- Le pH d'une solution de $\ce{CH3COOH}$ 0.200 mol/L est de **2.72** ;
+- Le pH d'une solution de $\ce{CH3COONa}$ 0.100 mol/L est de **8.9** ;
 
-Ce résultat s’explique par le fait que la dissociation de l’acide acétique sera amoindrie par la présence de l’ion acétate. En effet, ce dernier déplacera l’équilibre vers la gauche, selon le principe de Le Chatelier. Le pH de la solution tampon sera donc moins acide.
+Ce résultat s'explique par le fait que la dissociation de l'acide acétique sera amoindrie par la présence de l'ion acétate. En effet, ce dernier déplacera l'équilibre vers la gauche, selon le principe de Le Chatelier. Le pH de la solution tampon sera donc moins acide.
 
 ### Équation de Henderson-Hasselbalch
 
-Généralisons l’exemple précédent :
+Généralisons l'exemple précédent :
 
 $$
 \ce{HA(aq) + H2O(l) <=> H3O+(aq) + A^{-}(aq)}
 $$
 
-En isolant la concentration en H~3~O^+^ dans la constante d’acidité, on obtient :
+En isolant la concentration en H~3~O^+^ dans la constante d'acidité, on obtient :
 
 $$
 \begin{split}
@@ -426,15 +428,15 @@ pH &= pK_a + \log \frac{|\ce{A-}|}{|\ce{HA}|}
 \end{split}
 $$
 
-Cette équation fonctionne dans le cas où l’approximation de x est valable (si $\ce{|H3O+|}/\ce{|HA|} < 5\%$).
+L'équation de Henderson-Hasselbalch est acceptable avec les concentrations initiales dans le cas où l'approximation de x est valable (si $\ce{|H3O+|}/\ce{|HA|} < 5\%$). Dans le cas contraire, il faut recalculer précisément les concentrations $\ce{|HA|}$ et $\ce{|A^-|}$.
 
-Dans le cas d’une solution tampon d’une base faible en présence de son acide conjugué, il suffit de calculer le pK~a~ à partir du pK~b~ selon l’équation :
+En règle générale, nous allons limiter la validiter de l'équation de Henderson-Hasselbalch aux solutions dont les concentrations sont au moins 100 fois supérieures à leurs valeurs de $K_a$.
+
+Dans le cas d'une solution tampon d'une base faible en présence de son acide conjugué, il suffit de calculer le pK~a~ à partir du pK~b~ selon l'équation :
 
 $$
 pK_a + pK_b = 14 \quad \text{avec } pK_b = - \log K_b
 $$
-
-\clearpage
 
 ```{r, child=c('exe/acides-bases-330.Rmd')}
 ```
@@ -442,18 +444,18 @@ $$
 ```{r, child=c('exe/acides-bases-340.Rmd')}
 ```
 
+\clearpage
+
 ```{r, child=c('exe/acides-bases-350.Rmd')}
 ```
-
-\clearpage
 
 ```{r, child=c('exe/acides-bases-360.Rmd')}
 ```
 
+\clearpage
+
 ```{r, child=c('exe/acides-bases-370.Rmd')}
 ```
-
-\clearpage
 
 ### Addition acide-base à une solution tampon
 
@@ -461,7 +463,7 @@ Une solution tampon a la propriété d'avoir un pH stable du fait de sa faculté
 
 **Exemple**
 
-Prenons l’exemple du tampon $\ce{NH3}$ 0.25 mol/L et $\ce{NH4Cl}$ 0.40 mol/L avec un $K_b = 1.8 \cdot 10^{-5}$.
+Prenons l'exemple du tampon $\ce{NH3}$ 0.25 mol/L et $\ce{NH4Cl}$ 0.40 mol/L avec un $K_b = 1.8 \cdot 10^{-5}$.
 
 Par conséquent :
 
@@ -479,7 +481,7 @@ $$
 pH = pK_a + \log \frac{|\ce{A-}|}{|\ce{HA}|} = 9.26 + \log \frac{0.25}{0.40} = 9.06
 $$
 
-Quel sera l’effet sur le pH de l’ajout de 0.10 mol de $\ce{HCl}$ à 1 L de tampon ?
+Quel sera l'effet sur le pH de l'ajout de 0.10 mol de $\ce{HCl}$ à 1 L de tampon ?
 
 HCl est un acide fort entièrement dissocié :
 
@@ -503,7 +505,7 @@ $$
 pH = pK_a + \log \frac{|\ce{A-}|}{|\ce{HA}|} = 9.26 + \log \frac{0.15}{0.50} = 8.74
 $$
 
-On remarquera que l’addition de $\ce{HCl}$ n’a que faiblement diminué la valeur du pH. L’abaissement du pH est cohérent avec le fait qu’un acide fort a été ajouté.
+On remarquera que l'addition de $\ce{HCl}$ n'a que faiblement diminué la valeur du pH. L'abaissement du pH est cohérent avec le fait qu'un acide fort a été ajouté.
 
 \clearpage
 
@@ -512,9 +514,9 @@ On remarquera que l’addition de $\ce{HCl}$ n’a que faiblement diminué la va
 
 ### Pouvoir tampon
 
-Le pouvoir tampon d’une solution correspond à la quantité d’acide ou de base d’un système qui peut être absorbée sans qu’il y ait de variation significative du pH. Un tampon, dont le pouvoir tampon est élevé, contient les éléments constitutifs du tampon en grandes quantités. Il peut ainsi absorber une quantité relativement importante d’acide ou de base en n’étant soumis qu’à une faible variation de pH.
+Le pouvoir tampon d'une solution correspond à la quantité d'acide ou de base d'un système qui peut être absorbée sans qu'il y ait de variation significative du pH. Un tampon, dont le pouvoir tampon est élevé, contient les éléments constitutifs du tampon en grandes quantités. Il peut ainsi absorber une quantité relativement importante d'acide ou de base en n'étant soumis qu'à une faible variation de pH.
 
-La zone de pH dans lequel le tampon fonctionne s’étend de $pH = pKa \pm 1$.
+La zone de pH dans lequel le tampon fonctionne s'étend de $pH = pKa \pm 1$.
 
 Selon le pH nécessaire, on devra donc choisir un couple dont le pK~a~ se situe proche du pH, des concentrations en acide et base proches et des concentrations importantes pour augmenter le pouvoir tampon.
 
@@ -527,7 +529,7 @@ Selon le pH nécessaire, on devra donc choisir un couple dont le pK~a~ se situe 
 
 ## Titrages et courbes de pH
 
-Un titrage acide-base consiste à ajouter lentement une solution acide (ou basique) de concentration connue à une solution basique (ou acide) de concentration inconnue. C’est une technique de dosage basée sur les réactions de neutralisation. En effet, il est possible de mettre en évidence le moment où la quantité de base est stœchiométriquement égale à la quantité d’acide. On parle alors de point d’équivalence. Ce point peut être mis en évidence à l’aide de pH-mètre mais également à l’aide d’indicateur coloré (substance qui change de couleur en fonction selon le pH).
+Un titrage acide-base consiste à ajouter lentement une solution acide (ou basique) de concentration connue à une solution basique (ou acide) de concentration inconnue. C'est une technique de dosage basée sur les réactions de neutralisation. En effet, il est possible de mettre en évidence le moment où la quantité de base est stœchiométriquement égale à la quantité d'acide. On parle alors de point d'équivalence. Ce point peut être mis en évidence à l'aide de pH-mètre mais également à l'aide d'indicateur coloré (substance qui change de couleur en fonction selon le pH).
 
 ```{r acides-bases-5,echo=FALSE,out.width="100%",fig.show="hold",fig.align="center",fig.cap="Titrage acide-base et courbe de titrage"}
 knitr::include_graphics(c("images/acides-bases-5.png"))
@@ -536,13 +538,13 @@ knitr::include_graphics(c("images/acides-bases-5.png"))
 Image tirée du livre : Principe de chimie de Nivaldo Tro
 :::
 
-Le pH varie donc tout au long d’un titrage. Une courbe de titrage (ou courbe de pH) est un graphique sur lequel on reporte la valeur du pH tout au long du titrage. La courbe de la figure 3 illustre un titrage d’une solution inconnue de HCl par une solution connue de NaOH. Comme prévu, au départ, le pH est acide puisqu’il correspond à la solution de HCl. Le pH augmente avec l’ajout de NaOH car ce dernier neutralise l’acide. Au point d’équivalence, le HCl a été entièrement neutralisé et un petit ajout supplémentaire de NaOH fait fortement augmenter le pH (puisque désormais, il y a un excès de base).
+Le pH varie donc tout au long d'un titrage. Une courbe de titrage (ou courbe de pH) est un graphique sur lequel on reporte la valeur du pH tout au long du titrage. La courbe de la figure 3 illustre un titrage d'une solution inconnue de HCl par une solution connue de NaOH. Comme prévu, au départ, le pH est acide puisqu'il correspond à la solution de HCl. Le pH augmente avec l'ajout de NaOH car ce dernier neutralise l'acide. Au point d'équivalence, le HCl a été entièrement neutralisé et un petit ajout supplémentaire de NaOH fait fortement augmenter le pH (puisque désormais, il y a un excès de base).
 
 La forme de la courbe de titrage est influencée par de nombreux paramètres que nous expliquerons ici.
 
 \clearpage
 
-### Titrage d’un acide fort par une base forte
+### Titrage d'un acide fort par une base forte
 
 **Exemple**
 
@@ -552,7 +554,7 @@ $$
 
 La courbe observée lorsque l'on ajoute dans un acide fort, petit à petit, une base forte en relevant le pH en fonction du volume est la suivante :
 
-```{r acides-bases-6a,echo=FALSE,out.width="65%",fig.show="hold",fig.align="center",fig.cap="Neutralisation d'un acide fort par une base forte"}
+```{r acides-bases-6a,echo=FALSE,out.width="60%",fig.show="hold",fig.align="center",fig.cap="Neutralisation d'un acide fort par une base forte"}
 knitr::include_graphics(c("images/courbes-titration-acide-fort.png"))
 ```
 
@@ -590,7 +592,7 @@ $$
 
 \clearpage
 
-### Titrage d’une base forte par un acide fort
+### Titrage d'une base forte par un acide fort
 
 **Exemple**
 
@@ -600,11 +602,11 @@ $$
 
 La courbe observée lorsque l'on ajoute dans une base forte, petit à petit, un acide fort en relevant le pH en fonction du volume est la suivante :
 
-```{r acides-bases-6b,echo=FALSE,out.width="65%",fig.show="hold",fig.align="center",fig.cap="Neutralisation d'une base forte par un acide fort"}
+```{r acides-bases-6b,echo=FALSE,out.width="60%",fig.show="hold",fig.align="center",fig.cap="Neutralisation d'une base forte par un acide fort"}
 knitr::include_graphics(c("images/courbes-titration-base-forte.png"))
 ```
 
-**Avant l'ajout d’acide**, seule la base forte est présente dans le bécher. Ainsi, le calcul du pH sera :
+**Avant l'ajout d'acide**, seule la base forte est présente dans le bécher. Ainsi, le calcul du pH sera :
 
 $$
 pH = 14 + \log C_b
@@ -638,7 +640,7 @@ $$
 
 \clearpage
 
-### Titrage d’un acide faible par une base forte
+### Titrage d'un acide faible par une base forte
 
 **Exemple**
 
@@ -658,7 +660,7 @@ $$
 pH = - \log |\ce{H3O+}|
 $$
 
-La concentration en hydronium se calcule à l’aide d’un tableau d’équilibre (ou tableau de variation, voir pH des acides faibles).
+La concentration en hydronium se calcule à l'aide d'un tableau d'équilibre (ou tableau de variation, voir pH des acides faibles).
 
 **Avant le point équivalent**, nous observons une zone particulière. En effet, l'acide et la base conjuguée étant tous deux présents, nous aurons affaire à une **solution tampon** et le calcul sera donc :
 
@@ -680,13 +682,13 @@ $$
 
 Un point particulier sera observé dans cette partie de la courbe, soit le moment où la quantité de base conjuguée créée sera exactement équivalente à la quantité d'acide faible restant. On de point de demi-équivalence et on aura alors **pH = pK~a~**.
 
-**Au point équivalent**, le pH observé ne sera pas neutre car le sel contient la base conjuguée de l'acide faible titré qui influencera le pH. Celui-ci sera donc un peu basique. Au point d’équivalence, tout l’acide faible est converti en sa base conjuguée et le calcul du pH sera :
+**Au point équivalent**, le pH observé ne sera pas neutre car le sel contient la base conjuguée de l'acide faible titré qui influencera le pH. Celui-ci sera donc un peu basique. Au point d'équivalence, tout l'acide faible est converti en sa base conjuguée et le calcul du pH sera :
 
 $$
 pH = 14 + \log |\ce{OH-}|
 $$
 
-La concentration en $\ce{OH-}$ se calcule à l’aide d’un tableau d’équilibre (ou tableau de variation, voir pH des bases faibles) en prenant comme concentration initiale en base faible, la concentration initiale en acide faible.
+La concentration en $\ce{OH-}$ se calcule à l'aide d'un tableau d'équilibre (ou tableau de variation, voir pH des bases faibles) en prenant comme concentration initiale en base faible, la concentration initiale en acide faible.
 
 **Après le point équivalent**, seule la base forte influencera le pH (car la contribution du sel est négligeable face à la base forte), mais celle-ci étant diluée, il faudra également calculer sa concentration exacte :
 
@@ -704,15 +706,15 @@ n_b^* = n_b - n_a = C_b \cdot V_b - C_a \cdot V_a
 \end{split}
 $$
 
-### Titrage d’une base faible par un acide fort
+### Titrage d'une base faible par un acide fort
 
 La courbe observée lorsque l'on ajoute dans une base faible, petit à petit, un acide fort afin d'en effectuer la courbe de pH découle du même raisonnement que celle de la neutralisation d'un acide faible par une base forte que l'on vient de décrire.
 
 \clearpage
 
-### Titrage d’une polyacide faible par une base forte
+### Titrage d'une polyacide faible par une base forte
 
-La courbe de pH observée lors du titrage d’un acide faible polyprotique par une base forte marque plusieurs sauts de pH, révelant plusieurs points équivalents, correspondant aux réactions de neutralisation des protons relâchés les uns après les autres.
+La courbe de pH observée lors du titrage d'un acide faible polyprotique par une base forte marque plusieurs sauts de pH, révelant plusieurs points équivalents, correspondant aux réactions de neutralisation des protons relâchés les uns après les autres.
 
 Dans le cas de l'acide phosphorique, on devrait relever trois points équivalents correspondants aux trois réactions successives de neutralisation :
 
@@ -728,13 +730,13 @@ $$
 \ce{OH^{-}(aq) + HPO4^{2-}(aq) <=> H2O(l) + PO4^{3-}(aq)}
 $$
 
-Les trois constantes d’acidité de l'acide phosphorique étant suffisamment distinctes, les trois réactions auront lieu de façon successive. Le dernier point équivalent n'est pas observable, K~a3~ étant trop proche du K~e~.
+Les trois constantes d'acidité de l'acide phosphorique étant suffisamment distinctes, les trois réactions auront lieu de façon successive. Le dernier point équivalent n'est pas observable, K~a3~ étant trop proche du K~e~.
 
 ```{r acides-bases-6d,echo=FALSE,out.width="100%",fig.show="hold",fig.align="center",fig.cap=""}
 knitr::include_graphics(c("images/acides-bases-6d.png"))
 ```
 
-Notons qu'il sera également difficile, dans d'autres cas, d'observer le point équivalent lorsqu’un K~a~ se rapprochera trop du pH de départ ou lorsque 2 K~a~ successifs seront trop proches.
+Notons qu'il sera également difficile, dans d'autres cas, d'observer le point équivalent lorsqu'un K~a~ se rapprochera trop du pH de départ ou lorsque 2 K~a~ successifs seront trop proches.
 
 ### Méthode des tangentes
 
@@ -744,7 +746,7 @@ Afin de déterminer graphiquement un point équivalent sur une courbe de pH, on 
 knitr::include_graphics(c("images/acides-bases-7.png"))
 ```
 
-Une tangente à la courbe est tirée dans la partie qui observe le début de la modification importante de pH. Une parallèle tangente à la courbe également est tirée dans la zone de fin de modification importante de pH. C'est la parallèle se trouvant à équidistance entre les 2 autres droites qui croisera la courbe au point d'inflexion (qui correspond au point d’équivalence).
+Une tangente à la courbe est tirée dans la partie qui observe le début de la modification importante de pH. Une parallèle tangente à la courbe également est tirée dans la zone de fin de modification importante de pH. C'est la parallèle se trouvant à équidistance entre les 2 autres droites qui croisera la courbe au point d'inflexion (qui correspond au point d'équivalence).
 
 \clearpage
 

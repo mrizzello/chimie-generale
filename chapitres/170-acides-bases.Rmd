@@ -175,7 +175,7 @@ $$
 Puisqu'il s'agit d'une réaction réversible, il est possible de donner la constante d'équilibre de cette réaction d'ionisation, qui n'est rien d'autre que la **constante de basicité (K~b~)** :
 
 $$
-K_b = \frac{|\ce{BH+}| \cdot |\ce{OH-}|}{|\ce{B}|} =  \frac{|\ce{H+}| \cdot |\ce{A-}|}{|\ce{HA}|}
+K_b = \frac{|\ce{BH+}| \cdot |\ce{OH-}|}{|\ce{B}|}
 $$
 
 A nouveau, plus la constante est **petite**, plus l'équilibre est déplacé vers la **gauche** et donc plus la base est **faible**.
