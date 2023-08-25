@@ -21,11 +21,19 @@ Pour étudier la matière, nous allons nous intéresser à deux types de **propr
 
 ### Propriétés physiques
 
-Les propriétés physiques sont des caractéristiques qui ne changent pas la composition de la matière (la couleur, la densité, le point de fusion, le point d'ébullition, la dureté, etc.).
+Les propriétés physiques sont des caractéristiques qui ne changent pas la composition de la matière.
+
+Exemples de propriétés physiques :
+
+Masse, volume, densité, couleur, température, point de fusion, point d'ébullition, magnétisme, conductivité, élasticité, ductilité, viscosité, opacité, dureté.
 
 ### Propriétés chimiques
 
-Les propriétés chimiques sont des caractéristiques qui changent la composition de la matière. Elles décrivent la façon dont une substance peut se transformer pour former d'autres substances (l'inflammabilité, la corrosivité, la réactivité avec des acides, etc.).
+Les propriétés chimiques sont des caractéristiques qui changent la composition de la matière. Elles décrivent la façon dont une substance peut se transformer pour former d'autres substances.
+
+Exemples de propriétés chimiques :
+
+Inflammabilité, oxydation, corrosivité, décomposition, réactivité, toxicité.
 
 ### Transformations physiques
 
