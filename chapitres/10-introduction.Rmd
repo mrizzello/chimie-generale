@@ -41,16 +41,26 @@ Lors d'une **transformation physique**, la matière change son apparence physiqu
 
 $$ \underset{\text{évaporation}}{\text{eau à l'état liquide} \ \longrightarrow \ \text{eau à l'état gazeux}} $$
 
+Exemples de transformations physiques :
+
+Fusion, solidification, vaporisation, condensation, sublimation,&nbsp;...
+
 ### Transformations chimiques
 
 Lors d'une **transformation chimique**, la matière est transformée en une autre substance dont la composition est différente. La composition de la matière est différente avant et après la transformation. La combustion du papier est une transformation chimique. Le papier et l'oxygène de l'air réagissent ensemble pour former du dioxyde de carbone et de l'eau.
 
 $$ \underset{\text{combustion}}{\text{papier}\ +\ \text{oxygène} \ \longrightarrow \ \text{dioxyde de carbone} + \text{eau}} $$
 
+Exemples de transformations chimiques :
+
+Combustion, oxydation, fermentation, photosynthèse, décomposition, neutralisation, digestion,&nbsp;...
+
 Les transformations chimiques sont ce que nous appellerons plus tard des **réactions chimiques**.
 
 ```{r, child=c('exe/introduction-10.Rmd')}
 ```
+
+\clearpage
 
 ## Système de mesure
 
@@ -100,6 +110,8 @@ $$ \begin{split}
 	0.000007567 &= 7.567\cdot10^{-6}\\
 	0.00000000000000785 &= 7.85\cdot10^{-15}\\
 \end{split} $$
+
+\clearpage
 
 Deux relations importantes à retenir :
 
