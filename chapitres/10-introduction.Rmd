@@ -162,6 +162,20 @@ Table: (\#tab:tab-SImultiples) Multiples et sous-multiples décimaux des unités
 ```{r, child=c('exe/introduction-70.Rmd')}
 ```
 
+```{r, child=c('exe/introduction-80.Rmd')}
+```
+
+\newpage
+
+```{r, child=c('exe/introduction-90.Rmd')}
+```
+
+```{r, child=c('exe/introduction-100.Rmd')}
+```
+
+```{r, child=c('exe/introduction-110.Rmd')}
+```
+
 \newpage
 
 ```{r, echo=FALSE}
