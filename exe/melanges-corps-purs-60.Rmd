@@ -1,0 +1,82 @@
+::: {.Exercise data-latex=""}
+
+Identifiez les types et les états de la matière à partir des diagrammes de particules suivants :
+
+:::::: {.multicols data-latex="{3}"}
+
+a. ![](images/melanges-corps-purs-60-a.png){width=15%}  
+$\Box$&nbsp;solide  
+$\Box$&nbsp;liquide  
+$\Box$&nbsp;gaz
+
+b. ![](images/melanges-corps-purs-60-b.png){width=15%}  
+$\Box$&nbsp;solide  
+$\Box$&nbsp;liquide  
+$\Box$&nbsp;gaz
+
+c. ![](images/melanges-corps-purs-60-c.png){width=15%}  
+$\Box$&nbsp;solide  
+$\Box$&nbsp;liquide  
+$\Box$&nbsp;gaz
+
+d. ![](images/melanges-corps-purs-60-d.png){width=15%}  
+$\Box$&nbsp;corps&nbsp;simple  
+$\Box$&nbsp;corps&nbsp;composé  
+$\Box$&nbsp;mél.&nbsp;homogène  
+$\Box$&nbsp;mél.&nbsp;hétérogène
+
+\columnbreak
+
+e. ![](images/melanges-corps-purs-60-e.png){width=15%}  
+$\Box$&nbsp;solide  
+$\Box$&nbsp;liquide  
+$\Box$&nbsp;gaz
+
+f. ![](images/melanges-corps-purs-60-f.png){width=15%}  
+$\Box$&nbsp;solide  
+$\Box$&nbsp;liquide  
+$\Box$&nbsp;gaz
+
+g. ![](images/melanges-corps-purs-60-g.png){width=15%}  
+$\Box$&nbsp;corps&nbsp;simple  
+$\Box$&nbsp;corps&nbsp;composé  
+$\Box$&nbsp;mél.&nbsp;homogène  
+$\Box$&nbsp;mél.&nbsp;hétérogène
+
+h. ![](images/melanges-corps-purs-60-h.png){width=15%}  
+$\Box$&nbsp;corps&nbsp;simple  
+$\Box$&nbsp;corps&nbsp;composé  
+$\Box$&nbsp;mél.&nbsp;homogène  
+$\Box$&nbsp;mél.&nbsp;hétérogène
+
+\columnbreak
+
+i. ![](images/melanges-corps-purs-60-i.png){width=15%}  
+$\Box$&nbsp;solide  
+$\Box$&nbsp;liquide  
+$\Box$&nbsp;gaz
+
+j. ![](images/melanges-corps-purs-60-j.png){width=15%}  
+$\Box$&nbsp;corps&nbsp;simple  
+$\Box$&nbsp;corps&nbsp;composé  
+$\Box$&nbsp;mél.&nbsp;homogène  
+$\Box$&nbsp;mél.&nbsp;hétérogène
+
+::::::
+
+:::
+
+::: {.Answer data-latex=""}
+
+a. gaz
+b. liquide
+c. solide
+d. mélange hétérogène
+e. gaz
+f. solide
+g. mélange hétérogène
+h. mélange homogène
+i. liquide
+j. mélange homogène
+
+:::

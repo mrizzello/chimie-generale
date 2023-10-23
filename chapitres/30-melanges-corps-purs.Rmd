@@ -261,6 +261,11 @@ La **centrifugation** utilise la force centrifuge pour accélérer la sédimenta
 
 ## Exercices supplémentaires
 
+```{r, child=c('exe/melanges-corps-purs-60.Rmd')}
+```
+
+\newpage
+
 ```{r, child=c('exe/melanges-corps-purs-40.Rmd')}
 ```
 
