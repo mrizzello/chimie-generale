@@ -1,0 +1,30 @@
+::: {.Exercise data-latex=""}
+
+Les dimensions d'une feuille de papier A4 sont de 21.0 cm par 29.7 cm.
+
+- Donner les dimensions d'une feuille A4 en mètre.
+\vspace{3em}
+- Calculer l'aire de la surface d'une feuille en cm^2^ avec un nombre cohérent de chiffres significatifs.
+\vspace{3em}
+- Calculer le périmètre d'une feuille.
+\vspace{3em}
+
+
+:::
+
+::: {.Answer data-latex=""}
+
+- Donner les dimensions d'une feuille A4 en mètre.
+$$
+21.0\ [cm] = 0.21\ [m] \text{ et } 29.7\ [cm] = 0.297\ [m]
+$$
+- Calculer l'aire de la surface d'une feuille en cm^2^ avec un nombre cohérent de chiffres significatifs.
+$$
+A = 21.0 \cdot 29.7 = 623.7\ [cm^2] ≅ 623\ [cm^2]
+$$
+- Calculer le périmètre d'une feuille.
+$$
+P = 2 \cdot 21.0\ [cm] + 2 \cdot 29.7\ [cm] = 101.4\ [cm]
+$$
+
+:::

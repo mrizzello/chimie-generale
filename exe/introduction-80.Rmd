@@ -1,0 +1,43 @@
+::: {.Exercise data-latex=""}
+
+Déterminer le nombre de chiffre significatifs des nombres suivants:
+
+:::::: {.multicols data-latex="{4}"}
+
+a. $4567$
+b. $0.0034$
+c. $\num{3.234e-2}$
+d. $0.100$
+e. $102$
+f. $0.9909020$
+g. $10$
+h. $\num{1.0174e3}$
+i. $1.02$
+j. $\num{3.89e3}$
+k. $\num{3.89e-2}$
+l. $9.8700$
+
+::::::
+
+:::
+
+::: {.Answer data-latex=""}
+
+:::::: {.multicols data-latex="{4}"}
+
+a. $4567$ (4)
+b. $0.0034$ (2)
+c. $\num{3.234e-2}$ (4)
+d. $0.100$ (3)
+e. $102$ (3)
+f. $0.9909020$ (7)
+g. $10$ (1 ou 2)
+h. $\num{1.0174e3}$ (4)
+i. $1.02$ (3)
+j. $\num{3.89e3}$ (3)
+k. $\num{3.89e-2}$ (3)
+l. $9.8700$ (5)
+
+::::::
+
+:::

@@ -1,0 +1,24 @@
+::: {.Exercise data-latex=""}
+Complétez le tableau suivant (pour 3 chiffres significatifs) :
+:::
+
+| Nombre (x chif. sign.) | 3 chif. sign. |    Not. scient. |
+| ---------------------: | ------------: | --------------: |
+|         $27302551.329$ |    $27300000$ |                 |
+|            $18595.389$ |               |                 |
+|                        |      $104000$ |                 |
+|                        |        $1.04$ |          $1.04$ |
+|               $12.135$ |        $12.1$ |                 |
+|                        |    $0.000136$ | $\num{1.36e-4}$ |
+
+::: {.Answer data-latex=""}
+
+Nombre (x chif. sign.) \tabto{11em} 3 chif. sign. \tabto{20em}  Not. scient.  
+$27302551.329$ \tabto{11em} $27300000$ \tabto{20em} $\num{2.73e7}$  
+$18595.389$ \tabto{11em} $18600$ \tabto{20em} $\num{1.86e4}$  
+$103950$ \tabto{11em} $104000$ \tabto{20em} $\num{1.04e5}$  
+$1.04123$ \tabto{11em} $1.04$ \tabto{20em} $1.04$  
+$12.135$ \tabto{11em} $12.1$ \tabto{20em} $\num{1.21e1}$  
+$0.000135846$ \tabto{11em} $0.000136$ \tabto{20em} $\num{1.36e-4}$
+
+:::

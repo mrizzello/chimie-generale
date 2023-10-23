@@ -1,13 +1,298 @@
 \babel@toc {french}{}
-\contentsline {chapter}{Préambule}{3}{chapter*.2}%
-\contentsline {chapter}{\numberline {1}Introduction}{4}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Propriétés et transformations}{4}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}Propriétés physiques}{4}{subsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2}Propriétés chimiques}{4}{subsection.1.1.2}%
-\contentsline {subsection}{\numberline {1.1.3}Transformations physiques}{5}{subsection.1.1.3}%
-\contentsline {subsection}{\numberline {1.1.4}Transformations chimiques}{5}{subsection.1.1.4}%
-\contentsline {section}{\numberline {1.2}Système de mesure}{6}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Les puissances de 10}{6}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Multiples des unités}{7}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Exercices supplémentaires}{9}{section.1.5}%
-\contentsline {section}{\numberline {1.6}Solutions des exercices}{11}{section.1.6}%
+\contentsline {chapter}{Préambule}{6}{chapter*.2}%
+\contentsline {chapter}{\numberline {1}Introduction}{7}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Propriétés et transformations}{7}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Propriétés physiques}{7}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Propriétés chimiques}{7}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Transformations physiques}{8}{subsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.1.4}Transformations chimiques}{8}{subsection.1.1.4}%
+\contentsline {section}{\numberline {1.2}Système de mesure}{9}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Les puissances de 10}{9}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Multiples des unités}{10}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Exercices supplémentaires}{12}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Solutions des exercices}{15}{section.1.6}%
+\contentsline {chapter}{\numberline {2}Les états de la matière}{18}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Les représentations en chimie}{18}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Solide, liquide et gaz}{19}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Mouvement thermique et forces intermoléculaires}{19}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Les changements d'état}{20}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Les courbes de changement d'état}{22}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Les diagrammes de phases}{22}{section.2.6}%
+\contentsline {section}{\numberline {2.7}L'état liquide}{24}{section.2.7}%
+\contentsline {section}{\numberline {2.8}L'état solide}{25}{section.2.8}%
+\contentsline {subsection}{\numberline {2.8.1}Les solides amorphes}{25}{subsection.2.8.1}%
+\contentsline {subsection}{\numberline {2.8.2}Les solides cristallins}{25}{subsection.2.8.2}%
+\contentsline {subsection}{\numberline {2.8.3}Allotropes}{25}{subsection.2.8.3}%
+\contentsline {section}{\numberline {2.9}Exercices supplémentaires}{26}{section.2.9}%
+\contentsline {section}{\numberline {2.10}Solutions des exercices}{29}{section.2.10}%
+\contentsline {chapter}{\numberline {3}Mélanges et corps purs}{31}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Corps pur simple}{31}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Corps pur composé}{32}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Les mélanges}{32}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Les mélanges hétérogènes}{32}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Les mélanges homogènes}{33}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Les dispersions}{34}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Méthodes de séparation}{35}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}L'attraction magnétique}{35}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}La filtration}{35}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}La vaporisation}{36}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}La dissolution sélective}{36}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.4.5}La sublimation}{37}{subsection.3.4.5}%
+\contentsline {subsection}{\numberline {3.4.6}La distillation}{37}{subsection.3.4.6}%
+\contentsline {subsection}{\numberline {3.4.7}La chromatographie}{38}{subsection.3.4.7}%
+\contentsline {subsection}{\numberline {3.4.8}L'extraction}{38}{subsection.3.4.8}%
+\contentsline {subsection}{\numberline {3.4.9}La sédimentation et la décantation}{39}{subsection.3.4.9}%
+\contentsline {subsection}{\numberline {3.4.10}Résumé des méthodes de séparation}{40}{subsection.3.4.10}%
+\contentsline {section}{\numberline {3.5}Exercices supplémentaires}{41}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Solutions des exercices}{42}{section.3.6}%
+\contentsline {chapter}{\numberline {4}Historique}{43}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Les origines de la matière}{43}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Le modèle atomique}{44}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Échelle des tailles}{47}{section.4.3}%
+\contentsline {chapter}{\numberline {5}L'atome}{48}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Particules subatomiques}{49}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Les éléments}{50}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Les symboles et les noms}{50}{subsection.5.2.1}%
+\contentsline {section}{\numberline {5.3}Les isotopes}{51}{section.5.3}%
+\contentsline {section}{\numberline {5.4}L'unité de masse atomique}{52}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Le défaut de masse}{53}{subsection.5.4.1}%
+\contentsline {section}{\numberline {5.5}La masse atomique}{55}{section.5.5}%
+\contentsline {section}{\numberline {5.6}La mole et le nombre d'Avogadro}{56}{section.5.6}%
+\contentsline {section}{\numberline {5.7}La masse molaire atomique}{57}{section.5.7}%
+\contentsline {section}{\numberline {5.8}Exercices supplémentaires}{58}{section.5.8}%
+\contentsline {section}{\numberline {5.9}Solutions des exercices}{61}{section.5.9}%
+\contentsline {chapter}{\numberline {6}Le tableau périodique}{68}{chapter.6}%
+\contentsline {section}{\numberline {6.1}La classification périodique}{68}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Métaux, non-métaux, métalloïdes}{69}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Les périodes}{70}{subsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.1.3}Les familles}{70}{subsection.6.1.3}%
+\contentsline {section}{\numberline {6.2}Interactions rayonnement-matière}{70}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Les ondes électromagnétiques}{71}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Longueur d'onde, fréquence et vitesse}{71}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Le spectre électromagnétique}{71}{subsection.6.2.3}%
+\contentsline {subsection}{\numberline {6.2.4}Interactions rayonnement-matière}{72}{subsection.6.2.4}%
+\contentsline {section}{\numberline {6.3}Les orbitales atomiques}{73}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}La configuration électronique}{73}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Déterminer une configuration électronique}{75}{subsection.6.3.2}%
+\contentsline {section}{\numberline {6.4}Les électrons de valence}{77}{section.6.4}%
+\contentsline {section}{\numberline {6.5}La règle de l'octet}{78}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Les ions}{78}{section.6.6}%
+\contentsline {subsection}{\numberline {6.6.1}Le cation ou la perte d'électrons}{78}{subsection.6.6.1}%
+\contentsline {subsection}{\numberline {6.6.2}L'anion ou le gain d'électrons}{79}{subsection.6.6.2}%
+\contentsline {subsection}{\numberline {6.6.3}Les ions stables - groupe A}{79}{subsection.6.6.3}%
+\contentsline {subsection}{\numberline {6.6.4}Les ions des éléments de transition - groupe B}{80}{subsection.6.6.4}%
+\contentsline {section}{\numberline {6.7}Exercices supplémentaires}{81}{section.6.7}%
+\contentsline {section}{\numberline {6.8}Solutions des exercices}{83}{section.6.8}%
+\contentsline {chapter}{\numberline {7}Molécules et liaisons chimiques}{85}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Les molécules}{85}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}La formule brute}{85}{subsection.7.1.1}%
+\contentsline {section}{\numberline {7.2}La masse molaire moléculaire}{86}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}La formule développée}{86}{subsection.7.2.1}%
+\contentsline {section}{\numberline {7.3}Les liaisons chimiques}{87}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}L'électronégativité}{87}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}La liaison ionique \textbar {} métal - non-métal}{88}{subsection.7.3.2}%
+\contentsline {subsubsection}{\numberline {7.3.2.1}Dessiner les liaisons ioniques des composés binaires}{90}{subsubsection.7.3.2.1}%
+\contentsline {subsection}{\numberline {7.3.3}La liaison covalente \textbar {} non-métal - non-métal}{91}{subsection.7.3.3}%
+\contentsline {subsubsection}{\numberline {7.3.3.1}Dessiner les liaisons covalentes des composés binaires}{91}{subsubsection.7.3.3.1}%
+\contentsline {subsection}{\numberline {7.3.4}La covalence de coordination}{93}{subsection.7.3.4}%
+\contentsline {subsection}{\numberline {7.3.5}Les ions polyatomiques}{93}{subsection.7.3.5}%
+\contentsline {subsection}{\numberline {7.3.6}Dessiner les composés ternaires}{94}{subsection.7.3.6}%
+\contentsline {subsection}{\numberline {7.3.7}La liaison métallique \textbar {} métal - métal}{95}{subsection.7.3.7}%
+\contentsline {subsection}{\numberline {7.3.8}Les alliages}{95}{subsection.7.3.8}%
+\contentsline {section}{\numberline {7.4}Exercices supplémentaires}{96}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Solutions des exercices}{102}{section.7.5}%
+\contentsline {chapter}{\numberline {8}Géométrie moléculaire et polarité}{107}{chapter.8}%
+\contentsline {section}{\numberline {8.1}La théorie VSEPR}{107}{section.8.1}%
+\contentsline {section}{\numberline {8.2}La polarité}{109}{section.8.2}%
+\contentsline {subsection}{\numberline {8.2.1}Molécules polaires}{109}{subsection.8.2.1}%
+\contentsline {subsection}{\numberline {8.2.2}Molécules non-polaires}{110}{subsection.8.2.2}%
+\contentsline {section}{\numberline {8.3}Forces intermoléculaires}{110}{section.8.3}%
+\contentsline {subsection}{\numberline {8.3.1}Les forces de dispersion (ou forces de London)}{110}{subsection.8.3.1}%
+\contentsline {subsection}{\numberline {8.3.2}Les interactions dipôle-dipôle}{111}{subsection.8.3.2}%
+\contentsline {subsection}{\numberline {8.3.3}La liaison hydrogène (ou pont hydrogène)}{111}{subsection.8.3.3}%
+\contentsline {subsection}{\numberline {8.3.4}Résumé des forces intermoléculaires}{112}{subsection.8.3.4}%
+\contentsline {section}{\numberline {8.4}Solutions des exercices}{113}{section.8.4}%
+\contentsline {chapter}{\numberline {9}Nomenclature minérale}{114}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Ions}{114}{section.9.1}%
+\contentsline {subsection}{\numberline {9.1.1}Anions monoatomiques}{114}{subsection.9.1.1}%
+\contentsline {subsection}{\numberline {9.1.2}Cations monoatomiques}{115}{subsection.9.1.2}%
+\contentsline {subsection}{\numberline {9.1.3}Ions polyatomiques}{115}{subsection.9.1.3}%
+\contentsline {section}{\numberline {9.2}Corps simples}{115}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Composés binaires}{116}{section.9.3}%
+\contentsline {subsection}{\numberline {9.3.1}Composés binaires covalents \textbar {} non-métal - non-métal}{116}{subsection.9.3.1}%
+\contentsline {subsection}{\numberline {9.3.2}Composés binaires ioniques \textbar {} métal - non-métal}{116}{subsection.9.3.2}%
+\contentsline {subsection}{\numberline {9.3.3}Acides binaires \textbar {} H - non-métal}{117}{subsection.9.3.3}%
+\contentsline {section}{\numberline {9.4}Composés ternaires}{117}{section.9.4}%
+\contentsline {subsection}{\numberline {9.4.1}Les hydroxydes}{118}{subsection.9.4.1}%
+\contentsline {subsection}{\numberline {9.4.2}Les oxacides}{118}{subsection.9.4.2}%
+\contentsline {subsection}{\numberline {9.4.3}Les sels ternaires et quaternaires}{119}{subsection.9.4.3}%
+\contentsline {subsubsection}{\numberline {9.4.3.1}Les sels acides}{119}{subsubsection.9.4.3.1}%
+\contentsline {section}{\numberline {9.5}Exercices supplémentaires}{120}{section.9.5}%
+\contentsline {section}{\numberline {9.6}Solutions des exercices}{122}{section.9.6}%
+\contentsline {chapter}{\numberline {10}Solutions et électrolytes}{124}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Définitions}{124}{section.10.1}%
+\contentsline {subsection}{\numberline {10.1.1}Les solutions}{124}{subsection.10.1.1}%
+\contentsline {subsection}{\numberline {10.1.2}La dissolution}{125}{subsection.10.1.2}%
+\contentsline {subsubsection}{\numberline {10.1.2.1}Dissolution moléculaire}{125}{subsubsection.10.1.2.1}%
+\contentsline {subsubsection}{\numberline {10.1.2.2}Dissolution ionique}{125}{subsubsection.10.1.2.2}%
+\contentsline {subsubsection}{\numberline {10.1.2.3}Les facteurs influençant la dissolution}{125}{subsubsection.10.1.2.3}%
+\contentsline {subsection}{\numberline {10.1.3}La solubilité et la saturation}{126}{subsection.10.1.3}%
+\contentsline {subsection}{\numberline {10.1.4}La cristallisation}{127}{subsection.10.1.4}%
+\contentsline {section}{\numberline {10.2}Dissociation ionique}{127}{section.10.2}%
+\contentsline {subsection}{\numberline {10.2.1}Équations de dissociation}{127}{subsection.10.2.1}%
+\contentsline {subsection}{\numberline {10.2.2}Électrolyte}{129}{subsection.10.2.2}%
+\contentsline {section}{\numberline {10.3}La concentration}{131}{section.10.3}%
+\contentsline {subsection}{\numberline {10.3.1}La molarité (concentration molaire)}{131}{subsection.10.3.1}%
+\contentsline {subsection}{\numberline {10.3.2}Le titre (concentration massique)}{132}{subsection.10.3.2}%
+\contentsline {subsection}{\numberline {10.3.3}Préparation des solutions}{132}{subsection.10.3.3}%
+\contentsline {subsubsection}{\numberline {10.3.3.1}Préparation par dissolution}{133}{subsubsection.10.3.3.1}%
+\contentsline {subsubsection}{\numberline {10.3.3.2}Préparation par dilution}{133}{subsubsection.10.3.3.2}%
+\contentsline {section}{\numberline {10.4}Exercices supplémentaires}{134}{section.10.4}%
+\contentsline {section}{\numberline {10.5}Solutions des exercices}{136}{section.10.5}%
+\contentsline {chapter}{\numberline {11}Réactions chimiques}{139}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Réactions et transformations chimiques}{139}{section.11.1}%
+\contentsline {section}{\numberline {11.2}La théorie des collisions}{140}{section.11.2}%
+\contentsline {section}{\numberline {11.3}Conservation de la masse}{140}{section.11.3}%
+\contentsline {section}{\numberline {11.4}Équations chimiques}{141}{section.11.4}%
+\contentsline {section}{\numberline {11.5}Écrire une équation chimique}{141}{section.11.5}%
+\contentsline {subsection}{\numberline {11.5.1}Les nombres stoechiométriques}{142}{subsection.11.5.1}%
+\contentsline {section}{\numberline {11.6}Définitions thermodynamiques}{144}{section.11.6}%
+\contentsline {subsection}{\numberline {11.6.1}Réaction spontanée}{144}{subsection.11.6.1}%
+\contentsline {subsection}{\numberline {11.6.2}Réaction non spontanée}{144}{subsection.11.6.2}%
+\contentsline {subsection}{\numberline {11.6.3}Réaction réversible}{144}{subsection.11.6.3}%
+\contentsline {subsection}{\numberline {11.6.4}Réaction irréversible}{145}{subsection.11.6.4}%
+\contentsline {subsection}{\numberline {11.6.5}Réaction exothermique}{145}{subsection.11.6.5}%
+\contentsline {subsection}{\numberline {11.6.6}Réaction endothermique}{145}{subsection.11.6.6}%
+\contentsline {subsection}{\numberline {11.6.7}Les catalyseurs}{145}{subsection.11.6.7}%
+\contentsline {section}{\numberline {11.7}Exercices supplémentaires}{146}{section.11.7}%
+\contentsline {section}{\numberline {11.8}Solutions des exercices}{148}{section.11.8}%
+\contentsline {chapter}{\numberline {12}Types de réactions}{149}{chapter.12}%
+\contentsline {section}{\numberline {12.1}Réactions de combinaison}{149}{section.12.1}%
+\contentsline {section}{\numberline {12.2}Réactions de décomposition}{150}{section.12.2}%
+\contentsline {section}{\numberline {12.3}Réactions de dissociation}{150}{section.12.3}%
+\contentsline {section}{\numberline {12.4}Réactions de précipitation}{150}{section.12.4}%
+\contentsline {subsection}{\numberline {12.4.1}Résoudre une réaction de précipitation}{152}{subsection.12.4.1}%
+\contentsline {section}{\numberline {12.5}Réactions de neutralisation}{152}{section.12.5}%
+\contentsline {subsection}{\numberline {12.5.1}Notion d'acidité}{153}{subsection.12.5.1}%
+\contentsline {section}{\numberline {12.6}Réactions de combustion}{154}{section.12.6}%
+\contentsline {subsection}{\numberline {12.6.1}Combustion organique}{154}{subsection.12.6.1}%
+\contentsline {section}{\numberline {12.7}Résumé des types de réactions}{155}{section.12.7}%
+\contentsline {section}{\numberline {12.8}Exercices supplémentaires}{156}{section.12.8}%
+\contentsline {section}{\numberline {12.9}Solutions des exercices}{159}{section.12.9}%
+\contentsline {chapter}{\numberline {13}Calculs stœchiométriques}{163}{chapter.13}%
+\contentsline {section}{\numberline {13.1}La stœchiométrie}{163}{section.13.1}%
+\contentsline {section}{\numberline {13.2}Conditions stœchiométriques et réactif limitant}{165}{section.13.2}%
+\contentsline {section}{\numberline {13.3}Le rendement d'une réaction}{166}{section.13.3}%
+\contentsline {section}{\numberline {13.4}Exercices supplémentaires}{167}{section.13.4}%
+\contentsline {section}{\numberline {13.5}Solutions des exercices}{169}{section.13.5}%
+\contentsline {chapter}{\numberline {14}Les gaz parfaits}{173}{chapter.14}%
+\contentsline {section}{\numberline {14.1}La théorie cinétique des gaz}{173}{section.14.1}%
+\contentsline {section}{\numberline {14.2}Les lois simples des gaz}{175}{section.14.2}%
+\contentsline {section}{\numberline {14.3}La loi des gaz parfaits}{176}{section.14.3}%
+\contentsline {subsection}{\numberline {14.3.1}Les unités des gaz}{176}{subsection.14.3.1}%
+\contentsline {subsubsection}{\numberline {14.3.1.1}Le volume}{176}{subsubsection.14.3.1.1}%
+\contentsline {subsubsection}{\numberline {14.3.1.2}La température}{176}{subsubsection.14.3.1.2}%
+\contentsline {subsubsection}{\numberline {14.3.1.3}La pression}{177}{subsubsection.14.3.1.3}%
+\contentsline {section}{\numberline {14.4}La loi des pressions partielles}{177}{section.14.4}%
+\contentsline {section}{\numberline {14.5}Exercices supplémentaires}{178}{section.14.5}%
+\contentsline {section}{\numberline {14.6}Solutions des exercices}{180}{section.14.6}%
+\contentsline {chapter}{\numberline {15}Cinétique chimique}{183}{chapter.15}%
+\contentsline {section}{\numberline {15.1}Exprimer la vitesse d'une réaction}{184}{section.15.1}%
+\contentsline {section}{\numberline {15.2}Énergie d'activation}{186}{section.15.2}%
+\contentsline {section}{\numberline {15.3}Lois cinétiques}{186}{section.15.3}%
+\contentsline {subsection}{\numberline {15.3.1}Influence de la concentration (loi de vitesse)}{187}{subsection.15.3.1}%
+\contentsline {subsection}{\numberline {15.3.2}Influence de la température (loi d'Arrhénius)}{188}{subsection.15.3.2}%
+\contentsline {subsection}{\numberline {15.3.3}Les catalyseurs}{188}{subsection.15.3.3}%
+\contentsline {section}{\numberline {15.4}Solutions des exercices}{189}{section.15.4}%
+\contentsline {chapter}{\numberline {16}L'équilibre chimique}{191}{chapter.16}%
+\contentsline {section}{\numberline {16.1}Le quotient de réaction}{192}{section.16.1}%
+\contentsline {section}{\numberline {16.2}La constante d'équilibre}{193}{section.16.2}%
+\contentsline {subsection}{\numberline {16.2.1}Équilibre homogène et hétérogène}{193}{subsection.16.2.1}%
+\contentsline {subsection}{\numberline {16.2.2}Constantes d'équilibre et phase gazeuse}{193}{subsection.16.2.2}%
+\contentsline {section}{\numberline {16.3}Équilibres chimiques et stœchiométrie}{194}{section.16.3}%
+\contentsline {section}{\numberline {16.4}Évolution spontanée et principe de Le Châtelier}{196}{section.16.4}%
+\contentsline {subsection}{\numberline {16.4.1}Ajout/élimination d'un réactif ou d'un produit}{197}{subsection.16.4.1}%
+\contentsline {subsection}{\numberline {16.4.2}Influence du volume et de la pression}{197}{subsection.16.4.2}%
+\contentsline {subsection}{\numberline {16.4.3}Influence de la température}{198}{subsection.16.4.3}%
+\contentsline {subsection}{\numberline {16.4.4}Effet d'un catalyseur sur un équilibre chimique}{199}{subsection.16.4.4}%
+\contentsline {section}{\numberline {16.5}Exercices supplémentaires}{200}{section.16.5}%
+\contentsline {section}{\numberline {16.6}Solutions des exercices}{201}{section.16.6}%
+\contentsline {chapter}{\numberline {17}Les acides et les bases}{203}{chapter.17}%
+\contentsline {section}{\numberline {17.1}Définitions}{203}{section.17.1}%
+\contentsline {subsection}{\numberline {17.1.1}Définition d'Arrhénius}{203}{subsection.17.1.1}%
+\contentsline {subsection}{\numberline {17.1.2}Définition de Brønsted-Lowry}{204}{subsection.17.1.2}%
+\contentsline {subsection}{\numberline {17.1.3}Définition de Lewis}{204}{subsection.17.1.3}%
+\contentsline {section}{\numberline {17.2}Forces des acides et des bases}{207}{section.17.2}%
+\contentsline {section}{\numberline {17.3}Constante d'acidité K\textsubscript {a} et constante de basicité K\textsubscript {b}}{208}{section.17.3}%
+\contentsline {section}{\numberline {17.4}Autoprotolyse de l'eau}{211}{section.17.4}%
+\contentsline {section}{\numberline {17.5}Solutions des exercices}{213}{section.17.5}%
+\contentsline {chapter}{\numberline {18}Le pH ou potentiel hydrogène}{216}{chapter.18}%
+\contentsline {section}{\numberline {18.1}pH des acides forts et des bases fortes}{218}{section.18.1}%
+\contentsline {section}{\numberline {18.2}pH des acides faibles et des bases faibles}{223}{section.18.2}%
+\contentsline {subsection}{\numberline {18.2.1}Exemple d'un acide faible}{223}{subsection.18.2.1}%
+\contentsline {subsection}{\numberline {18.2.2}Exemple d'une base faible}{224}{subsection.18.2.2}%
+\contentsline {section}{\numberline {18.3}pH des acides polyprotiques}{227}{section.18.3}%
+\contentsline {section}{\numberline {18.4}Les solutions tampons}{229}{section.18.4}%
+\contentsline {subsection}{\numberline {18.4.1}pH des solutions tampons}{230}{subsection.18.4.1}%
+\contentsline {subsection}{\numberline {18.4.2}Équation de Henderson-Hasselbalch}{231}{subsection.18.4.2}%
+\contentsline {subsection}{\numberline {18.4.3}Addition acide-base à une solution tampon}{234}{subsection.18.4.3}%
+\contentsline {subsection}{\numberline {18.4.4}Pouvoir tampon}{235}{subsection.18.4.4}%
+\contentsline {section}{\numberline {18.5}Titrages et courbes de pH}{237}{section.18.5}%
+\contentsline {subsection}{\numberline {18.5.1}Titrage d'un acide fort par une base forte}{238}{subsection.18.5.1}%
+\contentsline {subsection}{\numberline {18.5.2}Titrage d'une base forte par un acide fort}{239}{subsection.18.5.2}%
+\contentsline {subsection}{\numberline {18.5.3}Titrage d'un acide faible par une base forte}{240}{subsection.18.5.3}%
+\contentsline {subsection}{\numberline {18.5.4}Titrage d'une base faible par un acide fort}{241}{subsection.18.5.4}%
+\contentsline {subsection}{\numberline {18.5.5}Titrage d'une polyacide faible par une base forte}{242}{subsection.18.5.5}%
+\contentsline {subsection}{\numberline {18.5.6}Méthode des tangentes}{243}{subsection.18.5.6}%
+\contentsline {section}{\numberline {18.6}Solutions des exercices}{248}{section.18.6}%
+\contentsline {chapter}{\numberline {19}Les réactions d'oxydoréduction}{262}{chapter.19}%
+\contentsline {section}{\numberline {19.1}Le nombre d'oxydation}{263}{section.19.1}%
+\contentsline {subsection}{\numberline {19.1.1}Attribuer les nombres d'oxydation}{264}{subsection.19.1.1}%
+\contentsline {section}{\numberline {19.2}Distinguer une réaction d'oxydoréduction}{265}{section.19.2}%
+\contentsline {section}{\numberline {19.3}Définitions de termes}{266}{section.19.3}%
+\contentsline {subsection}{\numberline {19.3.1}Couples oxred}{267}{subsection.19.3.1}%
+\contentsline {section}{\numberline {19.4}Potentiels standards et spontanéité}{268}{section.19.4}%
+\contentsline {subsection}{\numberline {19.4.1}Règle du gamma}{268}{subsection.19.4.1}%
+\contentsline {section}{\numberline {19.5}Équilibrer les équations d'oxydoréduction}{268}{section.19.5}%
+\contentsline {section}{\numberline {19.6}Exercices supplémentaires}{272}{section.19.6}%
+\contentsline {section}{\numberline {19.7}Solutions des exercices}{274}{section.19.7}%
+\contentsline {chapter}{\numberline {20}Électrochimie}{278}{chapter.20}%
+\contentsline {section}{\numberline {20.1}Les piles électrochimique}{278}{section.20.1}%
+\contentsline {subsection}{\numberline {20.1.1}Constitution d'une pile}{279}{subsection.20.1.1}%
+\contentsline {subsection}{\numberline {20.1.2}Fonctionnement d'une pile}{280}{subsection.20.1.2}%
+\contentsline {subsection}{\numberline {20.1.3}Notation simplifiée d'une pile}{281}{subsection.20.1.3}%
+\contentsline {section}{\numberline {20.2}Potentiels standards de réduction}{281}{section.20.2}%
+\contentsline {subsection}{\numberline {20.2.1}Potentiel électrochimique ou force électromotrice (fem)}{282}{subsection.20.2.1}%
+\contentsline {section}{\numberline {20.3}Effet de la concentration sur la force électromotrice d'une pile}{284}{section.20.3}%
+\contentsline {section}{\numberline {20.4}Électrolyse}{286}{section.20.4}%
+\contentsline {subsection}{\numberline {20.4.1}Exemples d'électrolyses de composés purs}{287}{subsection.20.4.1}%
+\contentsline {subsection}{\numberline {20.4.2}Prédiction des réactions d'électrolyse}{287}{subsection.20.4.2}%
+\contentsline {subsection}{\numberline {20.4.3}Loi de Faraday}{289}{subsection.20.4.3}%
+\contentsline {section}{\numberline {20.5}Solutions des exercices}{291}{section.20.5}%
+\contentsline {chapter}{\numberline {21}Thermochimie}{293}{chapter.21}%
+\contentsline {section}{\numberline {21.1}Énergie}{293}{section.21.1}%
+\contentsline {section}{\numberline {21.2}Système et environnement}{294}{section.21.2}%
+\contentsline {section}{\numberline {21.3}Première loi de la thermodynamique}{295}{section.21.3}%
+\contentsline {section}{\numberline {21.4}Calorimétrie}{295}{section.21.4}%
+\contentsline {subsection}{\numberline {21.4.1}Le calorimètre}{296}{subsection.21.4.1}%
+\contentsline {section}{\numberline {21.5}Réactions exothermiques et endothermiques}{297}{section.21.5}%
+\contentsline {section}{\numberline {21.6}L'enthalpie (\(H\)) et la variation d'enthalpie (\(\mitDelta H\))}{297}{section.21.6}%
+\contentsline {section}{\numberline {21.7}Échanges de chaleur et réactions chimiques}{298}{section.21.7}%
+\contentsline {subsection}{\numberline {21.7.1}Bilan énergétique d'une réaction}{300}{subsection.21.7.1}%
+\contentsline {section}{\numberline {21.8}La variation d'enthalpie standard (\(\mitDelta H^o\))}{302}{section.21.8}%
+\contentsline {section}{\numberline {21.9}La loi de Hess}{302}{section.21.9}%
+\contentsline {subsection}{\numberline {21.9.1}Enthalpie de formation et enthalpies de réaction}{304}{subsection.21.9.1}%
+\contentsline {section}{\numberline {21.10}Exercices supplémentaires}{305}{section.21.10}%
+\contentsline {section}{\numberline {21.11}Solutions des exercices}{306}{section.21.11}%
+\contentsline {chapter}{\numberline {22}Thermodynamique}{309}{chapter.22}%
+\contentsline {section}{\numberline {22.1}L'entropie (S)}{310}{section.22.1}%
+\contentsline {section}{\numberline {22.2}La deuxième loi de la thermodynamique}{310}{section.22.2}%
+\contentsline {section}{\numberline {22.3}La troisième loi de la thermodynamique}{311}{section.22.3}%
+\contentsline {section}{\numberline {22.4}La variation d'entropie (\(\mitDelta S\))}{312}{section.22.4}%
+\contentsline {subsection}{\numberline {22.4.1}L'entropie molaire standard (\(S^o\)) et l'entropie de réaction (\(\mitDelta S^o\))}{312}{subsection.22.4.1}%
+\contentsline {section}{\numberline {22.5}L'énergie libre (\(G\)) et la variation d'énergie libre (\(\mitDelta G\))}{313}{section.22.5}%
+\contentsline {section}{\numberline {22.6}L'énergie libre standard de réaction (\(\mitDelta G^o\))}{314}{section.22.6}%
+\contentsline {section}{\numberline {22.7}L'énergie libre et équilibre chimique}{316}{section.22.7}%
+\contentsline {section}{\numberline {22.8}Exercices supplémentaires}{317}{section.22.8}%
+\contentsline {section}{\numberline {22.9}Solutions des exercices}{320}{section.22.9}%
+\contentsline {chapter}{Bibliographie}{324}{chapter*.3}%
