@@ -21,7 +21,8 @@ bookdown::gitbook:
       whatsapp: false
       all: null
   includes:
-      in_header: ./html/mathjax-mhchem.html
+      in_header:
+        - ./html/mathjax-mhchem.html
       after_body:
         - ./html/exercices.html
         - ./html/tables.html
