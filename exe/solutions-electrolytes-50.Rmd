@@ -16,7 +16,7 @@ $\ce{Ba(OH)2}$
 
 $\ce{HCl}$
 
-$\ce{Al3PO4}$
+$\ce{AlPO4}$
 
 $\ce{Fe2(SO4)3}$
 
@@ -40,7 +40,7 @@ $\ce{KBr ->C[H2O] K^{+} + Br^{-} }$
 
 $\ce{AgNO3 ->C[H2O] Ag^{+} + NO3^{-} }$
 
-$\ce{MgCO3 ->C[H2O] Mg^{2+} + CO3^{2-} }$
+$\ce{MgCO3 ->C[H2O] MgCO3 v }$
 
 $\ce{AgOH ->C[H2O] AgOH v }$
 
