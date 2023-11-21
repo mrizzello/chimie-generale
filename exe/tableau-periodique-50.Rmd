@@ -1,7 +1,5 @@
 ::: {.Exercise data-latex=""}
 
-Représenter sous leur forme symbolique les ions stables formés par les éléments des périodes n°2 et n°3.
-
 1. Donnez le symbole des éléments suivants :
   Magnésium, Potassium, Fer, Cuivre  
   \vspace{\stretch{1}}
