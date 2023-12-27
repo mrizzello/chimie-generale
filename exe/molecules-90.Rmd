@@ -1,6 +1,6 @@
 ::: {.Exercise data-latex=""}
 
-1. Quelle est la masse molaire du saccharose, \ce{C12H22O11} ?
+1. Quelle est la masse molaire du saccharose, $\ce{C12H22O11}$ ?
 \vspace{\stretch{1}}
 
 2. Un morceau de sucre contient 5g de saccharose. Combien de moles de saccharose sont contenues dans un morceau de sucre ?

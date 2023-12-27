@@ -4,7 +4,7 @@ Dessinez la formule développée des composés ci-dessous.
 
 ::: {.multicols data-latex="{2}"}
 
-$Na_2SO4$
+$Na_2SO_4$
 
 $LiClO_4$
 
