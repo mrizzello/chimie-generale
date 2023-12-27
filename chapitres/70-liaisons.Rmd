@@ -228,7 +228,7 @@ Par exemple, l'acide hypochloreux est constitué de liaisons covalentes normales
 
 ```{r covalences-coordination,echo=FALSE,out.width="85%",fig.show="hold",fig.align="center",fig.cap="Exemples de covalences de coordination."}
  knitr::include_graphics(c("images/covalences-coordination.png"))
- ```
+```
 
 On dessinera les covalence de coordination en déplaçant le doublet sur l'atome qui le reçoit et en remplaçant le traît de liaison par une flèche.
 
@@ -272,7 +272,7 @@ Liaison chimique dans laquelle les électrons mobiles sont partagés entre plusi
 
 ```{r metallic-bonding,echo=FALSE,out.width="40%",fig.show="hold",fig.align="center",fig.cap="Modèle de la liaison métallique"}
  knitr::include_graphics(c("images/metallic-bonding.png"))
- ```
+```
 
 Les métaux ne réagissent pas vraiment avec d'autres métaux pour former des composés. Les métaux se combinent pour former des **alliages**, c'est-à-dire un **mélange homogène** d'un métal dans un autre.
 
