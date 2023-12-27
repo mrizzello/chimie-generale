@@ -234,7 +234,7 @@ On dessinera les covalence de coordination en déplaçant le doublet sur l'atome
 
 ### Les ions polyatomiques
 
-Les ions $Na^+$, $Mg^{2+}$ ou $Cl^–$ sont **monoatomique**, ce qui signifie qu'ils sont constitué d'un seul atome ionisé. Il existe des ions **polyatomiques**, tels que $NH4^+$ ou $SO4^{2–}$. Ils se composent d'atomes liés par des covalences mais ils portent une charge positive ou négative.
+Les ions $Na^+$, $Mg^{2+}$ ou $Cl^–$ sont **monoatomique**, ce qui signifie qu'ils sont constitué d'un seul atome ionisé. Il existe des ions **polyatomiques**, tels que $NH_4^+$ ou $SO_4^{2–}$. Ils se composent d'atomes liés par des covalences mais ils portent une charge positive ou négative.
 
 |             ion hydroxyle            |              ion nitrite              |              ion carbonate             |              ion ammonium             |
 | :----------------------------------: | :-----------------------------------: | :------------------------------------: | :-----------------------------------: |
