@@ -9,7 +9,7 @@ Complétez le tableau en indiquant quel cation et quel anion forment les molécu
 |:--------------|:--------:|:-------------:|:--------------|:---------:|:----------:|
 | $Fe(OH)_2$    |          |               | $K_2SO_3$     |           |            |
 | $Ca(MnO_4)_2$ |          |               |               | $Fe^{3+}$ | 3 $NO_3^–$ |
-|               | 3 $Li^+$ | 3 $PO_4^{3–}$ | $CH_3COONH_4$ |           |            |
+|               | 3 $Li^+$ |   $PO_4^{3–}$ | $CH_3COONH_4$ |           |            |
 
 ::::::
 
