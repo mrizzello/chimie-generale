@@ -14,7 +14,7 @@ Magnésium et azote
 
 :::
 
-\vspace{\stretch{1}}
+\vspace{6em}
 
 ::::::
 
