@@ -197,6 +197,8 @@ knitr::include_graphics(c("images/allotropes.png"))
 ```{r, child=c('exe/etats-matiere-50.Rmd')}
 ```
 
+\newpage
+
 ```{r, child=c('exe/etats-matiere-60.Rmd')}
 ```
 

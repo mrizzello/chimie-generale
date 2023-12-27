@@ -54,6 +54,8 @@ Un électron est 1834 fois plus léger qu'un proton, mais son influence est trè
 ```{r, child=c('exe/atome-10.Rmd')}
 ```
 
+\newpage
+
 ```{r, child=c('exe/atome-20.Rmd')}
 ```
 

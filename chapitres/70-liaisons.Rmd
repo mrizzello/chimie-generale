@@ -288,6 +288,8 @@ La capacité qu'ont les électrons de valence de se déplacer dans tout l'échan
 
 Un alliage est un mélange homogène entre un métal de base et un ou plusieurs autres éléments, qui peuvent être des métaux ou non-métaux. L'alliage de métaux est l'un des principaux moyens de modifier les propriétés des éléments métalliques purs. Par exemple, l'or pur est trop mou pour être utilisé en orfèvrerie, mais les alliages d'or sont plus adaptés.
 
+\newpage
+
 Table: (#tab:exemples-alliages-communs) Exemples d'alliages communs.
 
 | métal  | composition                                          | alliages         |
