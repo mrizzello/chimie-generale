@@ -229,7 +229,7 @@ knitr::include_graphics(c("images/chaleur-2.png"))
 
 ```{r catalyseur,echo=FALSE,out.width="33%",fig.show="hold",fig.align="center",fig.cap="Profil énergétique d'une réaction avec catalyseur"}
  knitr::include_graphics(c("images/catalyseur.png"))
- ```
+```
 
 Un catalyseurs permet de modifier la vitesse d'une réaction sans faire partie des réactifs ou des produits. Le catalyseur ne participe pas à la réaction; on le retrouve intact à la fin de celle-ci.
 
