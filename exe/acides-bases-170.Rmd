@@ -19,7 +19,7 @@ a. $$
 pH = - \log 0.025 \cong 1.6
 $$
 b. $$
-pH = 14 + \log 0.003 \cong 11.5
+|\ce{OH^-}| = 2 \cdot |\ce{Ca(OH)2}| = 0.006 \Rightarrow pH = 14 + \log(0.006) = 11.78
 $$
 c. $$
 \begin{split}

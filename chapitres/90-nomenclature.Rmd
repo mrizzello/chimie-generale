@@ -66,19 +66,19 @@ $Fe^{3+}$ : cation fer **(III)**
 ### Ions polyatomiques
 
 |               |             |                |             |             |              |            |            |
-| :------------ | ----------- | :------------- | ----------- | :---------- | ------------ | :--------- | ---------- |
+| :---- | ----------- | :--------- | ----------- | :--------- | ------------ | :---- | ---------- |
 | $BO_3^{3-}$   | borate      | $CrO_4^{2-}$   | chromate    | $ClO^{-}$   | hypochlorite | $IO^{-}$   | hypoiodite |
 | $NO_2^{-}$    | nitrite     | $Cr_2O_7^{2-}$ | dichromate  | $ClO_2^{-}$ | chlorite     | $IO_2^{-}$ | iodite     |
 | $NO_3^{-}$    | nitrate     | $CO_3^{2-}$    | carbonate   | $ClO_3^{-}$ | chlorate     | $IO_3^{-}$ | iodate     |
 | $PO_3^{3-}$   | phosphite   | $CN^{-}$       | cyanure     | $ClO_4^{-}$ | perchlorate  | $IO_4^{-}$ | periodate  |
-| $PO_4^{3-}$   | phosphate   | $OCN^{-}$      | cyanate     | $BrO^{-}$   | hypobromite  |            |            |
+| $PO_4^{3-}$   | phosphate   | $OCN^{-}$      | cyanate     | $BrO^{-}$   | hypobromite  | $OH^{-}$   | hydroxyde  |
 | $SO_3^{2-}$   | sulfite     | $SCN^{-}$      | thiocyanate | $BrO_2^{-}$ | bromite      |            |            |
 | $SO_4^{2-}$   | sulfate     | $HCOO^{-}$     | formiate    | $BrO_3^{-}$ | bromate      | $H_3O^{+}$ | hydronium  |
 | $S_2O_3^{2-}$ | thiosulfate | $CH_3COO^{-}$  | acétate     | $BrO_4^{-}$ | perbromate   | $NH_4^{+}$ | ammonium   |
 
 A noter:
 
-- Deux **ions organiques** sont indiqués dans la liste des ions polyatomiques, le formiate ($HCOO^-$) et l'acétate ($CH3COO^-$). Il s'agit de deux ions qui appartiennent au domaine de la chimie organique et leur ordre de lecture est inversé.
+- Deux **ions organiques** sont indiqués dans la liste des ions polyatomiques, le formiate ($HCOO^-$) et l'acétate ($CH_3COO^-$). Il s'agit de deux ions qui appartiennent au domaine de la chimie organique et leur ordre de lecture est inversé.
 
 $$ \underset{\text{formiate de sodium}}{HCOONa} \qquad \underset{\text{acétate de sodium}}{CH_3COONa} $$
 
@@ -92,8 +92,8 @@ Certains éléments atteignent une configuration électronique stable en formant
 
 |       |                 |       |               |        |              |        |             |
 | :---: | --------------- | :---: | ------------- | :----: | ------------ | :----: | ----------- |
-| $H_2$ | **di**hydrogène | $O_2$ | **di**oxygène |  $F_2$ | **di**fluor  | $Br_2$ | **di**brome |
-|       |                 | $N_2$ | **di**azote   | $Cl_2$ | **di**chlore |  $I_2$ | **di**iode  |
+| $H_2$ | **di**hydrogène | $O_2$ | **di**oxygène | $F_2$  | **di**fluor  | $Br_2$ | **di**brome |
+|       |                 | $N_2$ | **di**azote   | $Cl_2$ | **di**chlore | $I_2$  | **di**iode  |
 
 
 Les formes allotropiques d'un élément sont généralement nommées par leur nom courant et non systématique, comme par exemple le carbone peut être appelé diamant, graphite, graphène ou fullerène selon la forme sous laquelle il se trouve.
@@ -114,10 +114,10 @@ Les composés binaires renferment des atomes de deux éléments différents dans
 
 Table: (\#tab:prefixes-numeriques-grecs) Table des préfixes numériques grecs.
 
-|      |     |       |     |       |     |       |     |      |     |
-| ---- | :-: | ----- | :-: | ----- | :-: | ----- | :-: | ---- | :-: |
-| mono |  1  | tri   |  3  | penta |  5  | hepta |  7  | nona |  9  |
-| di   |  2  | tetra |  4  | hexa  |  6  | octa  |  8  | deca |  10 |
+|      |       |       |       |       |       |       |       |      |       |
+| ---- | :---: | ----- | :---: | ----- | :---: | ----- | :---: | ---- | :---: |
+| mono |   1   | tri   |   3   | penta |   5   | hepta |   7   | nona |   9   |
+| di   |   2   | tetra |   4   | hexa  |   6   | octa  |   8   | deca |  10   |
 
 L'élément le plus électronégatif est nommé en premier. Les proportions des constituants s'expriment par les préfixes "**di**", "**tri**", "**tetra**", "**penta**". Le préfixe "**mono**" n'est utilisé que pour éviter toute ambiguïté, comme pour le monoxyde de carbone, par exemple. On ajoute les préfixes aux constituants sans espaces ni tirets.
 
@@ -135,7 +135,7 @@ L'élément le plus électronégatif est placé d'abord en ajoutant le suffixe "
 
 |          |                           |         |                        |
 | :------: | ------------------------- | :-----: | ---------------------- |
-|   $KBr$  | brom**ure** de potassium  |  $CaS$  | sulf**ure** de calcium |
+|  $KBr$   | brom**ure** de potassium  |  $CaS$  | sulf**ure** de calcium |
 | $MgCl_2$ | chlor**ure** de magnésium | $CaI_2$ | iod**ure** de calcium  |
 
 Pour les métaux présentant plusieurs degrés d'oxydation, le nom du métal est suivi du chiffre romain indiquant le degré d'oxydation.
@@ -158,11 +158,11 @@ Certaines molécules binaires contenant de l'hydrogène sont gazeuses. Général
 |        | gazeux               | en solution aqueuse |
 | :----: | -------------------- | ------------------- |
 |  $HF$  | fluorure d'hydrogène | acide fluorhydrique |
-|  $HCl$ | chlorure d'hydrogène | acide chlorhydrique |
-|  $HBr$ | bromure d'hydrogène  | acide bromhydrique  |
+| $HCl$  | chlorure d'hydrogène | acide chlorhydrique |
+| $HBr$  | bromure d'hydrogène  | acide bromhydrique  |
 |  $HI$  | iodure d'hydrogène   | acide iodhydrique   |
 | $H_2S$ | sulfure d'hydrogène  | acide sulfhydrique  |
-|  $HCN$ | cyanure d'hydrogène  | acide cyanhydrique  |
+| $HCN$  | cyanure d'hydrogène  | acide cyanhydrique  |
 
 A noter:
 
@@ -180,10 +180,10 @@ Les composés ternaires renferment des atomes de trois éléments différents da
 
 Les hydroxydes sont des composés chimiques contenant l'anion $OH^-$. Généralement, la formule brute de ces composés se **termine par OH**. La règle de nommage suit la règle des composés binaires ioniques. On nommera ces composés : hydroxyde de "nom du cation".
 
-|             |                            |              |                              |
-| :---------: | -------------------------- | :----------: | ---------------------------- |
-|    $NaOH$   | **hydroxyde** de sodium    |  $Ca(OH)_2$  | **hydroxyde** de calcium     |
-| $Fe(OH)_3$  | **hydroxyde** de fer (III) |  $Cu(OH)_2$  | **hydroxyde** de cuivre (II) |
+|            |                            |            |                              |
+| :--------: | -------------------------- | :--------: | ---------------------------- |
+|   $NaOH$   | **hydroxyde** de sodium    | $Ca(OH)_2$ | **hydroxyde** de calcium     |
+| $Fe(OH)_3$ | **hydroxyde** de fer (III) | $Cu(OH)_2$ | **hydroxyde** de cuivre (II) |
 
 ### Les oxacides
 
@@ -200,17 +200,17 @@ Table: (\#tab:oxacides) Les oxacides.
 
 |   acide   |    anion    |                  | nom                    |
 | :-------: | :---------: | ---------------- | ---------------------- |
-|  $HNO_2$  |  $NO_2^{-}$ | nitr**ite**      | acide nitr**eux**      |
-|  $HNO_3$  |  $NO_3^{-}$ | nitr**ate**      | acide nitr**ique**     |
+|  $HNO_2$  | $NO_2^{-}$  | nitr**ite**      | acide nitr**eux**      |
+|  $HNO_3$  | $NO_3^{-}$  | nitr**ate**      | acide nitr**ique**     |
 | $H_3PO_3$ | $PO_3^{3-}$ | phosph**ite**    | acide phosphor**eux**  |
 | $H_3PO_4$ | $PO_4^{3-}$ | phosph**ate**    | acide phosphor**ique** |
 | $H_2SO_3$ | $SO_3^{2-}$ | sulf**ite**      | acide sulfur**eux**    |
 | $H_2SO_4$ | $SO_4^{2-}$ | sulf**ate**      | acide sulfur**ique**   |
 | $H_2CO_3$ | $CO_3^{2-}$ | carbon**ate**    | acide carbon**ique**   |
-|   $HClO$  |  $ClO^{-}$  | hypochlor**ite** | acide hypochlor**eux** |
-|  $HClO_2$ | $ClO_2^{-}$ | chlor**ite**     | acide chlor**eux**     |
-|  $HClO_3$ | $ClO_3^{-}$ | chlor**ate**     | acide chlor**ique**    |
-|  $HClO_4$ | $ClO_4^{-}$ | perchlor**ate**  | acide perchlor**ique** |
+|  $HClO$   |  $ClO^{-}$  | hypochlor**ite** | acide hypochlor**eux** |
+| $HClO_2$  | $ClO_2^{-}$ | chlor**ite**     | acide chlor**eux**     |
+| $HClO_3$  | $ClO_3^{-}$ | chlor**ate**     | acide chlor**ique**    |
+| $HClO_4$  | $ClO_4^{-}$ | perchlor**ate**  | acide perchlor**ique** |
 
 ### Les sels ternaires et quaternaires
 
@@ -220,19 +220,19 @@ La règle de nommage des sels suit la règle de nommage des composés binaires i
 
 |            |                        |             |                        |
 | :--------: | ---------------------- | :---------: | ---------------------- |
-| $NH_4NO_3$ | nitrate d'ammonium     |   $CuSO_4$  | sulfate de cuivre (II) |
+| $NH_4NO_3$ | nitrate d'ammonium     |  $CuSO_4$   | sulfate de cuivre (II) |
 |  $FePO_4$  | phosphate de fer (III) | $CH_3COONa$ | acétate de sodium      |
 
 #### Les sels acides
 
 Les sels acides sont des sels qui contiennent le cation $H^+$ en plus d'un cation mono ou polyatomique. Leur nom est le nom du sel précédé du préfixe **hydrogéno** ou **dihydrogéno** selon le nombre de cations hydrogène présents dans la molécule.
 
-|     anion    |    acide    | nom                                |
+|    anion     |    acide    | nom                                |
 | :----------: | :---------: | ---------------------------------- |
 | $HPO_4^{2-}$ | $Na_2HPO_4$ | **hydrogénophosphate** de sodium   |
-|  $H_2PO_4^-$ | $NaH_2PO_4$ | **dihydrogénophosphate** de sodium |
-|   $HCO_3^-$  |  $NaHCO_3$  | **hydrogénocarbonate** de sodium   |
-|   $HSO_4^-$  |  $NaHSO_4$  | **hydrogénosulfate** de sodium     |
+| $H_2PO_4^-$  | $NaH_2PO_4$ | **dihydrogénophosphate** de sodium |
+|  $HCO_3^-$   |  $NaHCO_3$  | **hydrogénocarbonate** de sodium   |
+|  $HSO_4^-$   |  $NaHSO_4$  | **hydrogénosulfate** de sodium     |
 
 ## Exercices supplémentaires
 

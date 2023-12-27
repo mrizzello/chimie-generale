@@ -332,7 +332,7 @@ m = \frac{M \cdot I \cdot t}{n \cdot 96500}
 &\text{n : nombre d'électrons transférés} \\
 &\text{96500 : constante de Faraday [C/mol]} \\
 &\text{t : temps [s]} \\
-&\text{M : masse molaire de la substance [g/mol}
+&\text{M : masse molaire de la substance [g/mol]}
 \end{split}
 $$
 

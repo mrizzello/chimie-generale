@@ -2,16 +2,17 @@
 
 ::: {.objectives data-latex=""}
 
-- Décrire comment les éléments sont organisés dans le tableau périodique donnant lieu à des périodes et des groupes.
+- Décrire comment les éléments sont organisés dans le tableau périodique donnant lieu à des périodes, des familles et des groupes.
 - Décrire les caractéristiques ondulatoires de la lumière (fréquence, la longueur d'onde et énergie) et les régions générales du spectre électromagnétique.
+- Décrire la relation entre la longueur d'onde, la fréquence et l'énergie d'une onde électromagnétique.
 - Décrire comment la matière interagit avec les rayonnements électromagnétiques et mène aux spectres d'absorption et d'émission.
 - Repérer les éléments sur le tableau périodique et les classer en métaux, non-métaux ou métalloïdes.
 - Décrire la répartition des électrons en couches, sous-couches et orbitales autour du noyau atomique.
-- Prédire la structure électronique d’un élément grâce au tableau périodique.
+- Prédire les configurations électroniques complète et simplifiée d'un élément grâce au tableau périodique.
 - Identifier les électrons de valence d'un atome et leurs correspondance avec les différents groupes du tableau périodique.
 - Représenter la structure de Lewis d'un atome donné.
 - Définir les termes ions, cations et anions.
-- Utiliser la régle de l'octet pour prédire l’ion stable que formera un élément du bloc principal.
+- Utiliser la règle de l'octet pour prédire l'ion stable que formera un élément du bloc principal.
 
 :::
 
@@ -41,7 +42,7 @@ Le tableau périodique contient souvent des informations supplémentaires sur le
 
 ### Métaux, non-métaux, métalloïdes
 
-Si aujourd'hui, 86 métaux sont présents dans le tableau de Mendeleïev, seuls sept d'entre eux étaient connus et isolés jusqu’au Moyen Age :
+Si aujourd'hui, 86 métaux sont présents dans le tableau de Mendeleïev, seuls sept d'entre eux étaient connus et isolés jusqu'au Moyen Age :
 
 | élément | découverte     |
 | :------ | :------------- |
@@ -65,7 +66,7 @@ knitr::include_graphics(c("images/tpe-empty.png"))
 
 ### Les périodes
 
-Les **lignes** du tableau périodique sont appelées **périodes** et chacune est désignée par un nombre de 1 à 7 (première période, deuxième période, etc.). Le nom de tableau périodique provient du fait que les propriétés reviennent périodiquement à chaque fois qu’on change de ligne.
+Les **lignes** du tableau périodique sont appelées **périodes** et chacune est désignée par un nombre de 1 à 7 (première période, deuxième période, etc.). Le nom de tableau périodique provient du fait que les propriétés reviennent périodiquement à chaque fois qu'on change de ligne.
 
 Le tableau périodique regroupe les éléments par période, mais les propriétés chimiques des éléments d'une même période sont différentes. Le classement par période représente l'arrangement des électrons au sein des éléments.
 
@@ -99,7 +100,7 @@ Les objets quantiques, comme la lumière et les électrons, ont la particularit�
 
 Les ondes qui vont nous intéresser pour décrire les électrons sont les **ondes électromagnétiques**. Une onde électromagnétique est une perturbation du champ électromagnétique qui se propage. Elle a la particularité de se propager aussi bien dans un milieu matériel que dans le vide. Les ondes radio, les ondes lumineuses ou les rayons X sont des exemples d'onde électromagnétique.
 
-### Longueur d'onde, fréquence et vitesse
+### Longueur d'onde, fréquence et énergie
 
 Si on dessine un faisceau lumineux sous la forme d'une onde, nous appellerons **longueur d'onde**, la distance entre deux crêtes (ou entre deux creux ou entre deux positions identiques sur l'onde). Si on considère que cette onde se déplace de gauche à droite et si on compte le nombre de crêtes qui passent par un point particulier chaque seconde, on obtient la **fréquence**.
 
@@ -143,7 +144,7 @@ Nous sommes régulièrement confrontés à des interactions entre la matière (l
 
 Des ondes électromagnétiques peuvent être absorbées par un électron augmentant ainsi son niveau d'énergie au-delà de son **état fondamental**. Toutefois, un électron n'absorbera une onde que si celle-ci lui permet d'atteindre un niveau d'énergie bien précis. On parlera alors de **transition électronique** et si l'électron évolue vers un état d'énergie plus élevé, on parlera d'**excitation électronique**.
 
-Un électron qui se trouve dans un état d'énergie supérieure à celle de l'état fondamental va avoir tendance à évoluer vers un état d'énergie plus faible avec l'émission d'une onde électromagnétique. L'électron va donc perdre de l’énergie en éjectant un photon qui possède exactement la différence d'énergie entre les deux états.
+Un électron qui se trouve dans un état d'énergie supérieure à celle de l'état fondamental va avoir tendance à évoluer vers un état d'énergie plus faible avec l'émission d'une onde électromagnétique. L'électron va donc perdre de l'énergie en éjectant un photon qui possède exactement la différence d'énergie entre les deux états.
 
 ```{r absorption-emission,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Différence entre spectres d'absorption et d'émission"}
 knitr::include_graphics(c("images/absorption-emission.png"))
