@@ -2,12 +2,12 @@
 
 ::: {.objectives data-latex=""}
 
-- Décrire le processus par lequel les éléments chimiques ont été créés.
-- Décrire les expériences clés et les principales hypothèses qui ont conduit à la découverte du modèle atomique.
+- Décrire les processus par lesquels les éléments chimiques ont été créés.
+- Décrire les expériences clés qui ont conduit à la découverte du modèle atomique.
 
 :::
 
-Selon le modèle du **Big Bang**, l'Univers est né il y a environ 14 milliards d'années lors d'une explosion cataclysmique. Cette explosion marque le début de l'espace, du temps, de la matière et de l'expansion de l'Univers. Quelques milliardièmes de seconde après le Big Bang, l'univers était constitué d'une sorte de soupe primordiale extrêmement chaude et dense des particules les plus fondamentales. L'univers se refroidit sous la barre des 1013 degrés et ces particules fondamentales commencent à s'assembler pour former protons et neutrons. Entre une et trois secondes après le Big Bang apparaît l'époque de la nucléosynthèse primordiale qui va durer environ 3 minutes. C’est à ce moment que se produit la formation de noyaux atomiques à partir des protons et neutrons qui étaient jusque-là libres.
+Selon le modèle du **Big Bang**, l'Univers est né il y a environ 14 milliards d'années lors d'une explosion cataclysmique. Cette explosion marque le début de l'espace, du temps, de la matière et de l'expansion de l'Univers. Quelques milliardièmes de seconde après le Big Bang, l'univers était constitué d'une sorte de soupe primordiale extrêmement chaude et dense des particules les plus fondamentales. L'univers se refroidit sous la barre des 1013 degrés et ces particules fondamentales commencent à s'assembler pour former protons et neutrons. Entre une et trois secondes après le Big Bang apparaît l'époque de la nucléosynthèse primordiale qui va durer environ 3 minutes. C'est à ce moment que se produit la formation de noyaux atomiques à partir des protons et neutrons qui étaient jusque-là libres.
 
 ## Les origines de la matière
 
@@ -57,7 +57,9 @@ En 1911, le physicien britannique **Ernest Rutherford** (1871-1937) fait une dé
 knitr::include_graphics(c("images/exp-rutherford.png"))
 ```
 
-Selon le modèle de Thomson, toutes les particules alpha devaient passer à travers la feuille d'or sans entrave. La plupart des particules ont effectivement passé à travers la feuille, mais  certaines rebondissaient comme si elles avaient frappé un objet massif positif. Rutherford conclu que la charge positive et la plupart de la masse de l'atome sont concentrées dans un très petit volume: le **noyau**. Rutherford a proposé un nouveau modèle de l'atome appelé modèle planétaire, avec un noyau au centre et des électrons gravitant autour du noyau comme les planètes autour du soleil.
+Selon le modèle de Thomson, toutes les particules alpha devaient passer à travers la feuille d'or sans entrave. Cette hypothèse reposait sur l'idée que les électrons, chargé négativement, étaient suffisamment nombreux et répartis de manière égale dans l'atome pour neutraliser la charge positive. Ainsi, la collision des particules alpha avec les électrons aurait dû être minime, et la trajectoire des particules aurait été relativement droite à travers la feuille d'or.
+
+La plupart des particules ont effectivement passé à travers la feuille, mais  certaines rebondissaient comme si elles avaient frappé un objet massif positif. Rutherford conclu que la charge positive et la plupart de la masse de l'atome sont concentrées dans un très petit volume: le **noyau**. Rutherford a proposé un nouveau modèle de l'atome appelé modèle planétaire, avec un noyau au centre et des électrons gravitant autour du noyau comme les planètes autour du soleil.
 
 ```{r exp-thomson-rutherford,echo=FALSE,out.width="40%",fig.show="hold",fig.align="center",fig.cap="Comparaison des modèles de Thomson et de Rutherford"}
 knitr::include_graphics(c("images/exp-thomson-rutherford.png"))
@@ -65,27 +67,29 @@ knitr::include_graphics(c("images/exp-thomson-rutherford.png"))
 
 En 1913, le physicien danois **Niels Henrik David Bohr** (1885-1962), propose un nouveau modèle de l'atome. Selon ce modèle, les électrons peuvent se déplacer sur des orbites à une distance spécifique du noyau, car l'énergie qu'ils possèdent n'est pas continue mais quantifiée.
 
-En 1932, le physicien **James Chadwick** (1891-1974) découvre la troisième particule subatomique, le **neutron**. Un neutron a une masse très proche de celle du proton mais il n’a pas de charge électrique.
+En 1932, le physicien **James Chadwick** (1891-1974) découvre la troisième particule subatomique, le **neutron**. Un neutron a une masse très proche de celle du proton mais il n'a pas de charge électrique.
 
-Deux même charges se repoussent mutuellement. Donc, si tous les protons dans le noyau se repoussent, pourquoi le noyau n'éclate-t-il pas tout simplement? **C'est la force nucléaire**. La force nucléaire est une force qui s'exerce entre protons et neutrons. Les neutrons stabilisent le noyau car ils ajoutent de l’attraction nucléaire sans provoquer de répulsion électrique.
+Deux même charges se repoussent mutuellement. Donc, si tous les protons dans le noyau se repoussent, pourquoi le noyau n'éclate-t-il pas tout simplement? **C'est la force nucléaire**. La force nucléaire est une force qui s'exerce entre protons et neutrons. Les neutrons stabilisent le noyau car ils ajoutent de l'attraction nucléaire sans provoquer de répulsion électrique.
 
-```{r modeles-atomiques-cloud,echo=FALSE,out.width="25%",fig.show="hold",fig.align="center",fig.cap="Le modèle standard"}
+```{r modeles-atomiques-cloud,echo=FALSE,out.width="25%",fig.show="hold",fig.align="center",fig.cap="Le modèle de Schrödinger"}
 knitr::include_graphics(c("images/modeles-atomiques-cloud.png"))
 ```
 
 Le modèle du nuage électronique a été développé en 1925 par **Erwin Schrödinger** (1887-1961) et **Werner Heisenberg** (1901-1976). Le **nuage électronique** représente la probabilité de trouver un électron dans une région de l'espace autour du noyau. Le nuage est plus dense aux endroits où la probabilité de trouver un électron est plus élevée.
 
-La notion de probabilité a été introduite car on ne peut pas connaître simultanément la position et la vitesse d'un électron.
+\newpage
 
-On peut faire une analogie entre le nuage électronique et l'hélice d'un avion. Quand le moteur de l'avion est arrêté, on peut voir les pales de l'hélice. Quand le moteur est allumé, les pales de l'hélices se déplacent si rapidement qu'on ne voit qu'une trace circulaire. Vous savez que les pales se trouvent quelque part dans la trace, mais à un instant donné, vous ne pouvez pas connaître précisément la position d'une pale.
-
-Développé au début des années 1970, le **modèle standard** est le modèle actuellement accepté. Il a permis d'expliquer avec succès presque tous les résultats expérimentaux et de prédire avec précision une grande variété de phénomènes.
+La notion de probabilité a été introduite car on ne peut pas connaître préciséement et simultanément la position et la vitesse d'un électron. Le principe d'incertitude d'Heisenberg énonce que plus nous cherchons à préciser la position d'une particule, moins nous pouvons connaître avec précision sa quantité de mouvement, et inversement.
 
 ```{r modeles-atomiques-evol-3,echo=FALSE,out.width="85%",fig.show="hold",fig.align="center",fig.cap="Évolution du modèle atomique"}
 knitr::include_graphics(c("images/modeles-atomiques-evol-3.png"))
 ```
 
+On peut faire une analogie entre le nuage électronique et l'hélice d'un avion. Quand le moteur de l'avion est arrêté, on peut voir les pales de l'hélice. Quand le moteur est allumé, les pales de l'hélices se déplacent si rapidement qu'on ne voit qu'une trace circulaire. Vous savez que les pales se trouvent quelque part dans la trace, mais à un instant donné, vous ne pouvez pas connaître précisément la position d'une pale.
+
 Chaque modèle a ses mérites mais un modèle est, au mieux, une solution temporaire. Les modèles sont des sujets de recherche et changent avec le temps. Parfois, les anciens modèles sont mis de côté, mais ils conservent leur pouvoir explicatif et restent utiles.
+
+Développé au début des années 1970, le **modèle standard** est le modèle actuellement accepté. Il a permis d'expliquer avec succès presque tous les résultats expérimentaux et de prédire avec précision une grande variété de phénomènes.
 
 Dans le cadre de ce cours, nous utiliseront le modèle de Bohr. Ce modèle nous permettra de décrire les différents sujets et phénomènes auxquels nous seront confrontés.
 

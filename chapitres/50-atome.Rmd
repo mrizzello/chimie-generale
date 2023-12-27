@@ -4,10 +4,13 @@
 
 - Décrire la structure de l'atome en termes de protons, de neutrons et d'électrons.
 - Décrire les charges électriques et les masses relatives des protons, des neutrons et des électrons.
+- Calculez la masse d'un atome à partir de sa composition subatomique.
 - Utiliser les symboles chimiques ainsi que le numéro atomique et le nombre de masse pour exprimer la composition subatomique des isotopes.
-- Définir l'unité de masse atomique. Décrire et calculer le défaut de masse.
-- Convertir un nombre en moles et vice versa en utilisant le nombre d'Avogadro.
+- Définir l'unité de masse atomique.
+- Décrire et calculer le défaut de masse.
+- Calculez la masse d'un atome à partir de sa composition subatomique.
 - Calculer la masse atomique d'un élément, en uma ou en g/mol, à partir des masses de ses isotopes et de leurs abondances naturelles. 
+- Convertir une quantité en moles et vice versa en utilisant le nombre d'Avogadro.
 
 :::
 
@@ -36,15 +39,15 @@ Les mêmes particules subatomiques constituent tous les atomes. La seule chose q
 
 Table: (#tab:particules-subatomiques) Les particules subatomiques.
 
-| particule | symbole |   charge [Coulomb]   | charge relative |       masse [kg]      |   masse relative  |
-| --------- | :-----: | :------------------: | :-------------: | :-------------------: | :---------------: |
-| proton    | $p^{+}$ |  $+1.6\cdot10^{-19}$ |        +1       |  $1.672\cdot10^{-27}$ |         1         |
-| neutron   |  $n^{}$ |           0          |        0        |  $1.674\cdot10^{-27}$ |     $\approx$ 1   |
-| électron  | $e^{-}$ |  $-1.6\cdot10^{-19}$ |        -1       |  $9.109\cdot10^{-31}$ |  $\frac{1}{1836}$ |
+| particule | symbole |  charge [Coulomb]   | charge relative |      masse [kg]      |  masse relative  |
+| --------- | :-----: | :-----------------: | :-------------: | :------------------: | :--------------: |
+| proton    | $p^{+}$ | $+1.6\cdot10^{-19}$ |       +1        | $1.673\cdot10^{-27}$ |        1         |
+| neutron   | $n^{}$  |          0          |        0        | $1.675\cdot10^{-27}$ |   $\approx$ 1    |
+| électron  | $e^{-}$ | $-1.6\cdot10^{-19}$ |       -1        | $9.12\cdot10^{-31}$  | $\frac{1}{1834}$ |
 
 Le proton porte une unité de charge positive, l'électron porte une unité de charge négative, et le neutron n'est pas chargé, il est électriquement neutre.
 
-Un électron est 1836 fois plus léger qu'un proton, mais son influence est très grande car il porte une charge électrique équivalente à celle d'un proton.
+Un électron est 1834 fois plus léger qu'un proton, mais son influence est très grande car il porte une charge électrique équivalente à celle d'un proton.
 
 **L'atome est électriquement neutre.** Comment un atome peut-il être neutre si il contient des protons chargés positivement et des électrons chargés négativement? La réponse est qu'**il y a un nombre égal de protons et d'électrons** de sorte que les charges positives et négatives s'annulent.
 
@@ -81,15 +84,15 @@ Dans le but de simplifier l'écriture, on représente les éléments chimiques p
 | symbole | nom       | origine                        |
 | :-----: | --------- | ------------------------------ |
 |    H    | hydrogène | qui forme de l'eau             |
-|    He   | hélium    | de Hélios, dieu grec du soleil |
-|    Li   | lithium   | de Lithos, pierre en grec      |
-|    Be   | béryllium | de béryl, un minerai           |
+|   He    | hélium    | de Hélios, dieu grec du soleil |
+|   Li    | lithium   | de Lithos, pierre en grec      |
+|   Be    | béryllium | de béryl, un minerai           |
 |    B    | bore      | de borax, un minerai           |
 |    C    | carbone   | de Carbonis, charbon en grec   |
 |    N    | azote     | qui n'entretient pas la vie    |
 |    O    | oxygène   | qui forme des acides           |
 |    F    | fluor     | de fluere, s'écouler en latin  |
-|    Ne   | néon      | de Neos, nouveau en grec       |
+|   Ne    | néon      | de Neos, nouveau en grec       |
 
 Lorsque l'on représente un atome d'un élément chimique, il est souvent pratique également d'indiquer son numéro atomique **Z**. On écrit ce nombre en index en bas et à gauche du symbole.
 
@@ -221,13 +224,13 @@ Des techniques telles que la spectrométrie de masse, qui permettent de compter 
 
 Table: (#tab:unites-de-comptage) Unités de comptage.
 
-|   unité   | nombre d'entités             | exemple                        |
-| :-------: | :--------------------------: | :----------------------------- |
-|   paire   | 2 entités                    | une paire de chaussures        |
-|  dizaine  | 10 entités                   | une dizaine de pommes          |
-|  douzaine | 12 entités                   | une douzaine d'oranges         |
-| vingtaine | 20 entités                   | une vingtaine de personnes     |
-|    mole   | $6.022\cdot10^{23}$ entités  | une mole d'atomes de potassium |
+|   unité   |      nombre d'entités       | exemple                        |
+| :-------: | :-------------------------: | :----------------------------- |
+|   paire   |          2 entités          | une paire de chaussures        |
+|  dizaine  |         10 entités          | une dizaine de pommes          |
+| douzaine  |         12 entités          | une douzaine d'oranges         |
+| vingtaine |         20 entités          | une vingtaine de personnes     |
+|   mole    | $6.022\cdot10^{23}$ entités | une mole d'atomes de potassium |
 
 Une mole d'atomes, une mole de molécules, ou une mole de quoi que ce soit contiennent toutes $6.022\cdot10^{23}$ objets.
 

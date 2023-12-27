@@ -48,7 +48,7 @@ $\ce{Ba(OH)2 ->C[H2O] Ba^{2+} + 2OH^{-} }$
 
 $\ce{HCl ->C[H2O] H^{+} + Cl^{-}}$
 
-$\ce{Al3PO4 ->C[H2O] Al3PO4 v }$
+$\ce{AlPO4 ->C[H2O] AlPO4 v }$
 
 $\ce{Fe2(SO4)3 ->C[H2O] 2Fe^{3+} + 3SO4^{2-} }$
 
