@@ -16,8 +16,8 @@ jobs:
         run: Rscript -e 'install.packages(c("rmarkdown","bookdown","tinytex"))'
       - name: Install tinytex
         run: Rscript -e 'tinytex::install_tinytex()'
-      - name: Install tcolorbox
-        run: tlmgr install tcolorbox
+      - name: Install latex packages
+        run: tlmgr install tcolorbox tabto
       - name: Render Book
         run: Rscript -e 'rmarkdown::render_site(encoding="UTF-8")'
       - uses: actions/upload-artifact@v1
