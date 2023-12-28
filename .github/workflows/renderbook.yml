@@ -17,7 +17,7 @@ jobs:
       - name: Install tinytex
         run: Rscript -e 'tinytex::install_tinytex()'
       - name: Install latex packages
-        run: tlmgr install tcolorbox tabto
+        run: tlmgr install tcolorbox tabto-ltx
       - name: Render Book
         run: Rscript -e 'rmarkdown::render_site(encoding="UTF-8")'
       - uses: actions/upload-artifact@v1
