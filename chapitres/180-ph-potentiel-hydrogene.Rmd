@@ -529,7 +529,7 @@ Selon le pH nécessaire, on devra donc choisir un couple dont le pK~a~ se situe 
 
 ## Titrages et courbes de pH
 
-Un titrage acide-base consiste à ajouter lentement une solution acide (ou basique) de concentration connue à une solution basique (ou acide) de concentration inconnue. C'est une technique de dosage basée sur les réactions de neutralisation. En effet, il est possible de mettre en évidence le moment où la quantité de base est stœchiométriquement égale à la quantité d'acide. On parle alors de point d'équivalence. Ce point peut être mis en évidence à l'aide de pH-mètre mais également à l'aide d'indicateur coloré (substance qui change de couleur en fonction selon le pH).
+Un titrage acide-base consiste à ajouter lentement une solution acide (ou basique) de concentration connue à une solution basique (ou acide) de concentration inconnue. C'est une technique de dosage basée sur les réactions de neutralisation. En effet, il est possible de mettre en évidence le moment où la quantité de base est stœchiométriquement égale à la quantité d'acide. On parle alors de point d'équivalence. Ce point peut être mis en évidence à l'aide de pH-mètre mais également à l'aide d'indicateur coloré (substance qui change de couleur en fonction du pH).
 
 ```{r acides-bases-5,echo=FALSE,out.width="100%",fig.show="hold",fig.align="center",fig.cap="Titrage acide-base et courbe de titrage"}
 knitr::include_graphics(c("images/acides-bases-5.png"))

@@ -97,8 +97,8 @@ La solubilité d'un composé est la quantité maximale de soluté qui peut être
 
 :::
 
-- **Question** : Quel est la solubilité de \ce{NaCl} ?
-- **Réponse** : La solubilité de \ce{NaCl} est de 36 [g] pour 100 [ml] à 25\celsius.
+- **Question** : Quelle est la solubilité de $\ce{NaCl}$ ?
+- **Réponse** : La solubilité de $\ce{NaCl}$ est de 36 [g] pour 100 [ml] à 25\celsius.
 
 Cela veut dire que l'on peut dissoudre **au maximum** 36 grammes de NaCl dans 100 [ml] d'eau à 25\celsius. Une fois cette limite atteinte, si l'on ajoute du NaCl à la solution, il ne se dissoudra pas. La solution est **saturée**.
 

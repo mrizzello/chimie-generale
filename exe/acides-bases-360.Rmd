@@ -1,6 +1,6 @@
 ::: {.Exercise data-latex=""}
 
-Calculez le pH d’une solution tampon constituée d’une solution de $\ce{HCN}$ 0.250 [M] et de $\ce{KCN}$ 0.170 [M]. Utilisez la méthode basée sur l’équilibre et la méthode basée sur l’équation de Henderson-Hasselbalch.
+Calculez le pH d'une solution tampon constituée d'une solution de $\ce{HCN}$ 0.250 [M] et de $\ce{KCN}$ 0.170 [M]. Utilisez la méthode basée sur l'équilibre et la méthode basée sur l'équation de Henderson-Hasselbalch.
 \vspace{\stretch{1}}
 
 :::
@@ -38,11 +38,11 @@ $$
 On approxime en négligeant le x : 
 $$
 \begin{split}
-K_a &= \frac{x \cdot (0.170 + \cancel{x})}{0.250 - \cancel{x}} = \frac{0.170 \cdot x}{0.250} = 4.9 \cdot 10^{-10} \\
-x &= 4.9 \cdot 10^{-10} \cdot \frac{0.250}{0.170} = 7.2 \cdot 10^{-10}\ [M]
+K_a &= \frac{x \cdot (0.170 + \cancel{x})}{0.250 - \cancel{x}} = \frac{0.170 \cdot x}{0.250} = 6.0 \cdot 10^{-10} \\
+x &= 6.0 \cdot 10^{-10} \cdot \frac{0.250}{0.170} = 8.8 \cdot 10^{-10}\ [M]
 \end{split}
 $$
-L'approximation est valide : $\frac{7.2 \cdot 10^{-10}}{0.250} \cdot 100\% \cong 2.88 \cdot 10^{-7}\% < 5\%$
+L'approximation est valide : $\frac{8.8 \cdot 10^{-10}}{0.250} \cdot 100\% \cong 3.52 \cdot 10^{-7}\% < 5\%$
 $$
 \begin{split}
 |\ce{H3O+}| = x = 7.1 \cdot 10^{-10}\ [M]
@@ -50,11 +50,11 @@ $$
 \qquad\qquad
 \begin{split}
 pH &= - \log |\ce{H3O+}| \\
- &= - \log 7.2 \cdot 10^{-10} \cong 9.142
+ &= - \log 8.8 \cdot 10^{-10} \cong 9.056
 \end{split}
 $$
 
-Méthode basée sur l’équation de Henderson-Hasselbalch :
+Méthode basée sur l'équation de Henderson-Hasselbalch :
 
 $$
 \begin{split}
@@ -64,12 +64,12 @@ $$
 \begin{split}
   \ce{HA} \Rightarrow &\ \ce{HCN} \\
   \ce{A-} \Rightarrow &\ \ce{CN-} \\
-  K_a = &\ 4.9 \cdot 10^{-10}
+  K_a = &\ 6.0 \cdot 10^{-10}
 \end{split}
 \qquad
 \begin{split}
   pH &= pK_a + \log \frac{|\ce{CN-}|}{|\ce{HCN}|} \\
-  &= - \log 4.9 \cdot 10^{-10} + \log \frac{0.17}{0.25} = 9.143 \\
+  &= - \log 6.0 \cdot 10^{-10} + \log \frac{0.17}{0.25} = 9.054 \\
 \end{split}
 $$
 :::
