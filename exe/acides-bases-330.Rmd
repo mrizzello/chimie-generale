@@ -39,19 +39,19 @@ $$
 On approxime en négligeant le x : 
 $$
 \begin{split}
-K_a &= \frac{(0.15 + \cancel{x}) \cdot x}{0.15 - \cancel{x}} = \frac{0.15 \cdot x}{0.15} = 3.5 \cdot 10^{-4} \\
-x &= 3.5 \cdot 10^{-4}\ [M]
+K_a &= \frac{(0.15 + \cancel{x}) \cdot x}{0.15 - \cancel{x}} = \frac{0.15 \cdot x}{0.15} = 6.8 \cdot 10^{-4} \\
+x &= 6.8 \cdot 10^{-4}\ [M]
 \end{split}
 $$
-L'approximation est valide : $\frac{3.5 \cdot 10^{-4}}{0.15} \cdot 100\% \cong 0.23\% < 5\%$
+L'approximation est valide : $\frac{6.8 \cdot 10^{-4}}{0.15} \cdot 100\% \cong 0.45\% < 5\%$
 $$
 \begin{split}
-|\ce{H3O+}| = x = 3.5 \cdot 10^{-4}\ [M]
+|\ce{H3O+}| = x = 6.8 \cdot 10^{-4}\ [M]
 \end{split}
 \qquad\qquad
 \begin{split}
 pH &= - \log |\ce{H3O+}| \\
- &= - \log 3.5 \cdot 10^{-4} \cong 3.46
+ &= - \log 6.8 \cdot 10^{-4} \cong 3.17
 \end{split}
 $$
 
@@ -65,12 +65,12 @@ $$
 \begin{split}
   \ce{HA} \Rightarrow &\ \ce{HF} \\
   \ce{A-} \Rightarrow &\ \ce{F-} \\
-  K_a = &\ 3.5 \cdot 10^{-4}
+  K_a = &\ 6.8 \cdot 10^{-4}
 \end{split}
 \qquad
 \begin{split}
   pH &= pK_a + \log \frac{|\ce{F-}|}{|\ce{HF}|} \\
-  &= - \log 3.5 \cdot 10^{-4} + \log \frac{0.15}{0.15} = 3.46 \\
+  &= - \log 6.8 \cdot 10^{-4} + \log \frac{0.15}{0.15} = 3.17 \\
 \end{split}
 $$
 :::
