@@ -1,6 +1,6 @@
 ## Support du cours de chimie générale
 
-Ce dépôt contient le support du cours de chimie générale (niveau gymnasial) élaboré par les enseignants du gymnase de Nyon - la Côte.
+Ce dépôt contient le support du cours de chimie générale (niveau gymnasial) élaboré par les enseignants du gymnase d'Etoy.
 
 ### Licence
 

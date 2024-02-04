@@ -12,7 +12,7 @@ documentclass: book
 classoption:
   - openany
 github-repo: "mrizzello/chimie-generale"
-description: "Support du cours de chimie générale | Maturité gymnasiale | Gymnase de Nyon-la Côte"
+description: "Support du cours de chimie générale | Maturité gymnasiale | Gymnase d'Etoy"
 lang: fr
 papersize: a4
 fontsize: 11pt
@@ -24,7 +24,7 @@ link-citations: yes
 
 # Préambule {-}
 
-**Cours de chimie Générale** édité par les enseignants du gymnase de Nyon la Côte.
+**Cours de chimie Générale** édité par les enseignants du gymnase d'Etoy.
 
 Ce manuel fournit aux étudiants (OS et DF) les connaissances de base nécessaires en chimie pour l'obtention du certificat de maturité gymnasiale. Il sert de support de cours pour l'accompagnement des leçons et des travaux pratiques proposés en classe.
 
@@ -39,4 +39,4 @@ Ce projet est ouvert aux contributions et aux suggestions. Si vous souhaitez par
 ![Creative Commons License](images/by-nc-sa.png)
 Cet ouvrage est placé sous licence Creative Commons [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr).
 
-En tant que ressource éducative libre, vous pouvez modifier ou distribuer ce document selon les conditions énoncées par la licence Creative Commons. Développé à l'origine dans le cadre du cours de chimie générale pour l'obtention du certificat de maturité gymnasiale du gymnase de Nyon - la Côte.
+En tant que ressource éducative libre, vous pouvez modifier ou distribuer ce document selon les conditions énoncées par la licence Creative Commons. Développé à l'origine dans le cadre du cours de chimie générale pour l'obtention du certificat de maturité gymnasiale du gymnase d'Etoy.
