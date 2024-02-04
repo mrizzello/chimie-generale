@@ -3,7 +3,7 @@
 ::: {.objectives data-latex=""}
 
 - Utiliser la méthode VSEPR pour déterminer la géométrie d'une molécule.
-- Utiliser la méthode VSEPR pour des angles de liaison.
+- Utiliser la méthode VSEPR pour déterminer des angles de liaison.
 - Expliquer le concept de polarité et identifier une molécule polaire.
 - Expliquer le concept de liaison intermoléculaire.
 - Identifier les différents types de liaisons intermoléculaires.
