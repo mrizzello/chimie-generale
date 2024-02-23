@@ -1,6 +1,6 @@
 ::: {.Exercise data-latex=""}
 
-Utilisez l'équation de Gibbs pour déterminer la variation d'énergie libre standard, à 25 °C, des réactions suivantes.
+Utilisez l'équation de Gibbs pour déterminer la variation d'énergie libre standard, à 25°C, des réactions suivantes.
 
 a. $$
 \begin{split}

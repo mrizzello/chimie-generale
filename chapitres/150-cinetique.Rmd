@@ -157,7 +157,7 @@ $$
 
 ### Influence de la température (loi d'Arrhénius)
 
-La température a généralement un effet important sur la vitesse de réaction. De manière empirique, on dit qu'autour de la température ambiante, une augmentation de 10° C double la vitesse de réaction.
+La température a généralement un effet important sur la vitesse de réaction. De manière empirique, on dit qu'autour de la température ambiante, une augmentation de 10°C double la vitesse de réaction.
 
 La relation entre la constante de vitesse d'une réaction et la température peut être exprimée par la loi d'Arrhénius :
 

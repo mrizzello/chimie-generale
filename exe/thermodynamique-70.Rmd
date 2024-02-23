@@ -1,6 +1,6 @@
 ::: {.Exercise data-latex=""}
 
-Déterminez la valeur de la constante d'équilibre, à 25 °C, de la réaction suivante : 
+Déterminez la valeur de la constante d'équilibre, à 25°C, de la réaction suivante : 
 
 $$
 \ce{2 NO2(g) <=> N2O4(g)}

@@ -1,6 +1,6 @@
 ::: {.Exercise data-latex=""}
 
-Un calorimètre à glace permet de mesurer des quantités de chaleur en déterminant la quantité de glace fondue. Combien de grammes de glace peut-on faire fondre grâce à la chaleur libérée par la combustion de 875 mL de CH~4~ gazeux, mesurés à 25 °C et à 99.7 kPa ?
+Un calorimètre à glace permet de mesurer des quantités de chaleur en déterminant la quantité de glace fondue. Combien de grammes de glace peut-on faire fondre grâce à la chaleur libérée par la combustion de 875 mL de CH~4~ gazeux, mesurés à 25°C et à 99.7 kPa ?
 
 $$
 \begin{split}

@@ -40,7 +40,7 @@ Un objet peut posséder de l'énergie sous différentes formes :
 - L'énergie thermique, associée au mouvement aléatoire des atomes et des molécules,
 - L'énergie chimique, stockée dans les liaisons des composés chimiques.
 
-L'unité du Système International de l'énergie est le joule (J) : $1 [J] = 1 [kg \cdot m^2 / s^2] = 1 [N/m]$. Une autre unité d'énergie courante est la calorie (cal), définie comme la quantité d'énergie nécessaire pour augmenter de 1 °C la température de 1 gramme d'eau : **1 [cal] = 4.184 [J]**.
+L'unité du Système International de l'énergie est le joule (J) : $1 [J] = 1 [kg \cdot m^2 / s^2] = 1 [N/m]$. Une autre unité d'énergie courante est la calorie (cal), définie comme la quantité d'énergie nécessaire pour augmenter de 1°C la température de 1 gramme d'eau : **1 [cal] = 4.184 [J]**.
 
 ## Système et environnement
 

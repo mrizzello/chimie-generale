@@ -13,7 +13,7 @@ Comme celle énoncée ci-dessus, les définitions de la chimie incluent généra
 
 Le terme **composition** se réfère aux composants d'un échantillon de matière. L'air que nous respirons est un mélange composé d'environ 80% d'azote et 20% d'oxygène et la formule chimique de l'eau H~2~O nous indique qu'elle est composée d'hydrogène et d'oxygène.
 
-Les **propriétés** sont des caractéristiques qui nous permettent de distinguer un échantillon de matière d'un autre échantillon. Un morceau de fer fondra à 1538 °C, alors qu'un glaçon fondra à 0 °C.
+Les **propriétés** sont des caractéristiques qui nous permettent de distinguer un échantillon de matière d'un autre échantillon. Un morceau de fer fondra à 1538°C, alors qu'un glaçon fondra à 0°C.
 
 ## Propriétés et transformations
 

@@ -62,7 +62,7 @@ Lorsque les forces intermoléculaires sont fortes et l'énergie thermique faible
 
 ## Les changements d'état
 
-En général, chaque état de la matière, solide, liquide ou gaz, peut se transformer en l'un des deux autres états. Ces transformations sont appelées **changements d'état**. Par exemple, l'eau peut subir deux changement d'état : elle fond à 0° C et bout à 100° C. Toutes les substances sont susceptibles de subir un changement d'état. Le fer fond à 1535° C et bout 2750° C.
+En général, chaque état de la matière, solide, liquide ou gaz, peut se transformer en l'un des deux autres états. Ces transformations sont appelées **changements d'état**. Par exemple, l'eau peut subir deux changement d'état : elle fond à 0°C et bout à 100°C. Toutes les substances sont susceptibles de subir un changement d'état. Le fer fond à 1535°C et bout 2750°C.
 
 On peut modifier l'état d'une substance en lui fournissant ou lui retirant de l'énergie thermique:
 
@@ -101,14 +101,14 @@ knitr::include_graphics(c("images/chgt-etats.png"))
 knitr::include_graphics(c("images/courbe-chgt-etat.png"))
 ```
 
-Imaginons que l'on chauffe un bloc de glace en partant d'une température de -40° C. On place un thermomètre dans notre expérimentation et on note la température.
+Imaginons que l'on chauffe un bloc de glace en partant d'une température de -40°C. On place un thermomètre dans notre expérimentation et on note la température.
 
 - En chauffant, on apporte de l'énergie thermique au système. La glace se réchauffe et sa température augmente.
-- Une fois que la glace atteint 0° C, **la température cesse d'augmenter** et la glace commence à fondre pour former de l'eau liquide.
+- Une fois que la glace atteint 0°C, **la température cesse d'augmenter** et la glace commence à fondre pour former de l'eau liquide.
 - En continuant de chauffer, plus de glace se transforme en eau, mais la température reste la même.
 - Une fois que la glace a complètement fondu, la chaleur apportée chauffe l'eau liquide.
 	La température recommence à augmenter.
-- Une fois que l'eau liquide atteint 100° C, **la température cesse d'augmenter** et l'eau commence à vaporiser pour former de la vapeur d'eau.
+- Une fois que l'eau liquide atteint 100°C, **la température cesse d'augmenter** et l'eau commence à vaporiser pour former de la vapeur d'eau.
 - En continuant de chauffer, plus d'eau liquide se transforme en vapeur d'eau, mais la température reste la même.
 - Une fois que l'eau s'est complètement vaporisée, la chaleur apportée chauffe la vapeur d'eau.
 	La température recommence à augmenter.
