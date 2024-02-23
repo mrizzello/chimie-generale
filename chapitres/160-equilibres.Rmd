@@ -121,7 +121,7 @@ $$
 
 ## Équilibres chimiques et stœchiométrie
 
-En cherchant à mesurer la constante d'équilibre de la décomposition de l'iodure d'hydrogène, on remplit un ballon sous vide de 2 [l] avec 0.2 [mol] de $HI$ gazeux et on laisse la réaction se dérouler à 453° C.
+En cherchant à mesurer la constante d'équilibre de la décomposition de l'iodure d'hydrogène, on remplit un ballon sous vide de 2 [l] avec 0.2 [mol] de $HI$ gazeux et on laisse la réaction se dérouler à 453°C.
 
 $$
   2\ HI\ _{(g)} \leftrightharpoons H_2\ _{(g)} + I_2\ _{(g)}
@@ -155,10 +155,10 @@ $$
   |H_2|_{eq} = |I_2|_{eq} = 0.011\ [M] \quad \text{et} \quad |HI|_{eq} = 0.078\ [M]
 $$
 
-On peut donc calculer la valeur de la constante d'équilibre de la réaction à 453° C.
+On peut donc calculer la valeur de la constante d'équilibre de la réaction à 453°C.
 
 $$
-  K_{e} = \frac{|H_2|_{eq} \cdot |I_2|_{eq}}{|HI|_{eq}^2} = \frac{0.011 \cdot 0.011}{0.078^2} = 0.02\ [-]\ \text{à 453° C}
+  K_{e} = \frac{|H_2|_{eq} \cdot |I_2|_{eq}}{|HI|_{eq}^2} = \frac{0.011 \cdot 0.011}{0.078^2} = 0.02\ [-]\ \text{à 453°C}
 $$
 
 \clearpage
