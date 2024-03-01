@@ -9,7 +9,7 @@
 - Définir les notions de solubilité et de saturation, et de quoi elles dépendent.
 - Prédire si une molécule est soluble et si elle forme une solution électrolyte.
 - Donner l'équation de dissociation d'un sel.
-- Définir la molarité et le titre.
+- Définir la concentration, la molarité et le titre.
 - Convertir une molarité en titre et vice-versa.
 - Expliquer comment préparer une solution.
 
