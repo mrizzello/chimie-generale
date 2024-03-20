@@ -334,7 +334,7 @@ C_i \cdot V_i = C_f \cdot V_f
   C_i & \text{: concentration initiale} \\
   V_i & \text{: volume initial} \\
   C_f & \text{: concentration finale} \\
-  V_i & \text{: concentration final}
+  V_f & \text{: concentration final}
 \end{split}
 $$
 
