@@ -43,7 +43,7 @@ $Na^+$ : cation sodium
 
 $Mg^{2+}$ : cation magnésium
 
-$Al^{3+}$ : cation alluminium
+$Al^{3+}$ : cation aluminium
 
 $Ca^{2+}$ : cation calcium
 
