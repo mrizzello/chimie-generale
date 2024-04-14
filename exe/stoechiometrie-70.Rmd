@@ -4,7 +4,7 @@ Soit l'équation chimique équilibrée de la réaction suivante :
 
 $$ \ce{ 4\:MgS{}_{(aq)} + 2\:SnBr4{}_{(aq)} -> 4\:MgBr2{}_{(aq)} + Sn2S4{}_{(s)} v } $$
 
-Calculez les quantités de réactifs (en grammes) nécessaires à la formation de 84.1 grammes de sulfure de étain (IV).
+Calculez les quantités de réactifs (en grammes) nécessaires à la formation de 84.1 grammes de sulfure d'étain (IV).
 
 \vspace{\stretch{1}}
 

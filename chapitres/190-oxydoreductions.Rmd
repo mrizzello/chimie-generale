@@ -66,9 +66,9 @@ L'application d'une série de règles simples permet d'attribuer les états d'ox
 
 Table: (\#tab:tab-NO-rules) Règles pour l'attribution des nombres d'oxydation.
 
-| Règle                                                        | Exemple                                     |    NO    |
+| Règles                                                        | Exemples                                     |    NO    |
 |:-------------------------------------------------------------|:--------------------------------------------|:--------:|
-| Un atome l'état élémentaire a un nombre d'oxydation de 0.    | $\ce{Na}$, $\ce{Fe}$, $\ce{O2}$, $\ce{Cl2}$ |    0     |
+| Un atome à l'état élémentaire a un nombre d'oxydation de 0.    | $\ce{Na}$, $\ce{Fe}$, $\ce{O2}$, $\ce{Cl2}$ |    0     |
 | Un ion monatomique a un nombre d'oxydation égal à sa charge. | $\ce{Na+}$, $\ce{Ca^{2+}}$, $\ce{Al^{3+}}$  | +1,+2,+3 |
 | L'**hydrogène** a généralement un NO de +1 dans ses composés | toujours, sauf hydrures (H^-^)              |    +1    |
 | L'**oxygène** a généralement un NO de -2 dans ses composés   | toujours, sauf peroxydes (O^-^)             |    -2    |

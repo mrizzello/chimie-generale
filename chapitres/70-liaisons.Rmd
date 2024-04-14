@@ -196,10 +196,10 @@ knitr::include_graphics(c("images/liaisons-multiples.png"))
 
 - On dessine la structure de Lewis des atomes en plaçant l'élément le plus électronégatif à droite.
 - On dessine autant d'atomes nécessaires à apparier tous les électrons célibataires de chaque élément.
-- On dessine les liaisons nouvellement créées et on ajoute les charges partielles si il y lieu.
+- On dessine les liaisons nouvellement créées et on ajoute les charges partielles s'il y a lieu.
 - Plusieurs liaisons covalentes doubles ou triples peuvent être nécessaires.
 - On peut utiliser les paires libres pour former des liaisons par covalence de coordination.
-- On dessine les liaisons nouvellement créées et on ajoute les charges partielles si il y lieu.
+- On dessine les liaisons nouvellement créées et on ajoute les charges partielles s'il y a lieu.
 
 |                     $H_2O$                     |                     $NH_3$                     |                     $CH_4$                     |
 | :--------------------------------------------: | :--------------------------------------------: | :--------------------------------------------: |
@@ -230,7 +230,7 @@ Par exemple, l'acide hypochloreux est constitué de liaisons covalentes normales
  knitr::include_graphics(c("images/covalences-coordination.png"))
 ```
 
-On dessinera les covalence de coordination en déplaçant le doublet sur l'atome qui le reçoit et en remplaçant le traît de liaison par une flèche.
+On dessinera les covalence de coordination en déplaçant le doublet sur l'atome qui le reçoit et en remplaçant le trait de liaison par une flèche.
 
 ### Les ions polyatomiques
 

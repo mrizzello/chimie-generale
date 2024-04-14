@@ -24,7 +24,7 @@ $$ \ce{2 H2O -> 2 H2 + O2} $$
   \qquad
   \begin{split}
   2\ [mol]\ H_2O &\rightarrow\ 2\ [mol]\ H_2 \\
-  x\ [mol]\ H_2O &\rightarrow\ 5.94\ [mol]\ Cl_2 \\
+  x\ [mol]\ H_2O &\rightarrow\ 5.94\ [mol]\ H_2 \\
   x &= 5.94\ [mol]
   \end{split}
   \qquad
