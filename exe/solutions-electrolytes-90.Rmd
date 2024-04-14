@@ -1,0 +1,47 @@
+::: {.Exercise data-latex=""}
+
+1. Quelle est la molarité d'une solution préparée par dissolution de 12.5 [g] de \ce{NaHCO3} dans 350.0 [mL] d'eau ?
+\vspace{\stretch{1}}
+2. Combien de grammes de soluté y a-t-il dans 1.50 [L] de NaOH 0.25 [M] ?
+\vspace{\stretch{1}}
+3. Quelle est le titre d'une solution préparée par dissolution de 2.5 [mol] de \ce{HCl} dans 500.0 [mL] d'eau ?
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. $$
+\begin{split}
+	M_{\ce{NaHCO3}} &= 84.018\ [g/mol] \\
+	\Rightarrow n_{\ce{NaHCO3}} &= \frac{12.5\ [g]}{84.018\ [g/mol]} = 0.149\ [mol]
+\end{split}
+\qquad
+\begin{split}
+	C = \frac{n}{V} = \frac{0.149\ [mol]}{0.350\ [L]} = 0.426\ [M]
+\end{split}
+$$
+2. $$
+\begin{split}
+	C &= \frac{n}{V} \quad \Rightarrow \quad n = C \cdot V\\
+	n &= 0.25\ [M] \cdot 1.50\ [L] = 0.375\ [mol]
+\end{split}
+\qquad
+\begin{split}
+	M_{\ce{NaOH}} &= 40.008\ [g/mol] \\
+	m_{\ce{NaOH}} &= n_{\ce{NaOH}} \cdot M_{\ce{NaOH}} \\
+	&= 0.375\ [mol] \cdot 40.008\ [g/mol] = 15.01\ [g]
+\end{split}
+$$
+3. $$
+\begin{split}
+	C &= \frac{n}{V} = \frac{2.5\ [mol]}{0.5\ [L]} = 5\ [M]
+\end{split}
+\qquad
+\begin{split}
+	M_{\ce{HCl}} &= 36.458\ [g/mol] \\
+	T &= C \cdot M \\
+	&= 5\ [mol/L] \cdot 36.458\ [g/mol] = 182.29\ [g/L]
+\end{split}
+$$
+:::
