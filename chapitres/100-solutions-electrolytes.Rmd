@@ -348,12 +348,20 @@ $$
 ```{r, child=c('exe/solutions-electrolytes-50.Rmd')}
 ```
 
+```{r, child=c('exe/solutions-electrolytes-80.Rmd')}
+```
+
+\newpage
+
 ```{r, child=c('exe/solutions-electrolytes-60.Rmd')}
 ```
 
 \newpage
 
 ```{r, child=c('exe/solutions-electrolytes-70.Rmd')}
+```
+
+```{r, child=c('exe/solutions-electrolytes-90.Rmd')}
 ```
 
 \newpage
