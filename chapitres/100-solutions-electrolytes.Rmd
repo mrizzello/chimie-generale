@@ -11,7 +11,7 @@
 - Donner l'équation de dissociation d'un sel.
 - Définir la concentration, la molarité et le titre.
 - Convertir une molarité en titre et vice-versa.
-- Expliquer comment préparer une solution.
+- Expliquer comment préparer une solution par dissolution ou par dilution.
 
 :::
 
