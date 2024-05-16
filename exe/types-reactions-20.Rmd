@@ -4,7 +4,7 @@ Complétez et équilibrez les équations de décomposition suivantes.
 
 1. $$\ce{Al2O3} \quad \ce{->} \quad \underline{\hspace{6em}} \quad + \quad \underline{\hspace{1.5cm}}$$
 
-2. $$\ce{NaN3} \quad \ce{->} \quad \underline{\hspace{1.5cm}} \quad + \quad \underline{\hspace{1.5cm}}$$
+2. $$\ce{HgO} \quad \ce{->} \quad \underline{\hspace{1.5cm}} \quad + \quad \underline{\hspace{1.5cm}}$$
 
 :::
 
@@ -12,6 +12,6 @@ Complétez et équilibrez les équations de décomposition suivantes.
 
 1. $$\ce{2 Al2O3 -> 4 Al + 3 O2}$$
 
-2. $$\ce{2 NaN3 -> 2 Na + 3 N2}$$
+2. $$\ce{2 HgO -> 2 Hg + O2}$$
 
 :::
