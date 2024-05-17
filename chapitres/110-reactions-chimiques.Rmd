@@ -2,9 +2,10 @@
 
 ::: {.objectives data-latex=""}
 
-- Interpréter la symbolique des réactions chimiques.
+- Expliquer la symbolique des réactions chimiques.
 - Expliquer la loi de conservation de la masse.
 - Équilibrer une réaction chimique.
+- Définir les termes utilisés par la chimie thermodynamique.
 
 :::
 
