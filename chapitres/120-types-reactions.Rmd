@@ -226,7 +226,7 @@ $$ \begin{split}
 | Equation globale                | $\ce{HCl + NaOH -> NaCl + H2O}$                                      |
 | Equation ionique                | $\ce{H^{+} + Cl^{–} + Na^{+} + OH^{–} -> Na^{+} + Cl^{–} + H2O}$     |
 | Equation ionique réduite        | $\ce{H^{+} + OH^{–} -> H2O}$                                         |
-| **Combustion organique**        | $\ce{C_{n}H_{m} + O2 -> CO2 + H2sO}$                                 |
+| **Combustion organique**        | $\ce{C_{n}H_{m} + O2 -> CO2 + H2O}$                                 |
 | **Réaction de dissociation**    | $\ce{C_{n}A_{m} ->C[H2O] n C^{m+} + m A^{n-}}$                       |
 
 \newpage
