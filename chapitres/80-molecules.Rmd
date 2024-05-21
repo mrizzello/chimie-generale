@@ -120,7 +120,7 @@ La liaison hydrogène est un type particulier d'interaction dipôle-dipôle. Les
 
 \newpage
 
-```{r eau-liaison-hydrogene,echo=FALSE,out.width="25%",fig.show="hold",fig.align="center",fig.cap="Liaison hydrogène au sein de molécules d'eau"}
+```{r eau-liaison-hydrogene,echo=FALSE,out.width="25%",fig.show="hold",fig.align="center",fig.cap="La liaison hydrogène entre les molécules d'eau"}
 knitr::include_graphics(c("images/ice-0.png", "images/ice-tetra.png", "images/ice.png"))
 ```
 
