@@ -112,6 +112,30 @@ knitr::include_graphics(c("images/ondes-electromagnetiques.png"))
 
 La longuer d'onde est exprimée en nanomètre, nm, pour les ondes lumineuses. La fréquence est exprimée en Hertz, Hz, le nombre de cycles par seconde. Longueur d'onde et fréquence sont inversément proportionnelles. Plus la longueur d'onde est élevée, plus la fréquence est basse. Plus la longueur d'onde est petite, plus la fréquence est élevée.
 
+\clearpage
+
+La relation de Planck permet de mettre en relation la fréquence et l'énergie d'un photon selon l'équation : 
+
+$$
+\begin{split}
+E = h \cdot \nu
+\end{split}
+\qquad
+\text{ou}
+\qquad
+\begin{split}
+E = h \cdot \frac{c}{\lambda}
+\end{split}
+\qquad
+\begin{split}
+E & \text{ : énergie du photon, en } [J] \\
+h & \text{ : constante de Planck, } 6.63 \cdot 10^{-34}\ [J \cdot s] \\
+\nu & \text{ : fréquence, en } [Hz] \\
+\lambda & \text{ : longueur d'onde, en } [m] \\
+c & \text{ : vitesse de la lumière, } 3 \cdot 10^{5}\ [m \cdot s^{-1}]
+\end{split}
+$$
+
 ### Le spectre électromagnétique
 
 L'analyse du rayonnement émis ou absorbé par la matière s'appelle la **spectroscopie**.
@@ -140,6 +164,8 @@ Table: (#tab:domaine-spectre-visible) Domaine du spectre visible.
 | orange  |         600          |         5.00          |     2.06     |
 | rouge   |         650          |         4.62          |     1.91     |
 
+\clearpage
+
 ### Interactions rayonnement-matière
 
 Nous sommes régulièrement confrontés à des interactions entre la matière (les atomes) et un rayonnement électromagnétique. Par exemple, un morceau de fer chauffé va émettre un rayonnement électromagnétique différent selon la température à laquelle il est porté. On peut aussi voir l'absorption de rayonnement comme lors d'une radiographie au rayons X. Les os absorbent les rayons X alors que les tissus mous (peau, graisse, muscles) sont quasiment transparents aux rayons X.
@@ -160,6 +186,8 @@ toujours par la réémettre sous forme d'une onde électromagnétique. La mesure
 Dans les années 1900 Schrödinger développe un modèle atomique plus évolué en utilisant la mécanique quantique, le **modèle standard**.
 
 Ce modèle introduit une description mathématique du mouvement de l'électron appelée **orbitale atomique**. Une orbitale représente un volume de l'espace dans lequel la probabilité de trouver un électron est élevée.
+
+\clearpage
 
 Table: (#tab:couches-sous-couches-orbitales) Résumé des couches, sous-couches et orbitales.
 
@@ -191,6 +219,8 @@ crédit : wikimedia/haade
 
 Les électrons d'une sous-couche peuvent être répartis dans des volumes  d'énergie égale appelés orbitales. Il y a une orbitale pour une sous-couche _s_, trois orbitales pour une _p_, cinq pour une _d_, sept pour un _f_. Une orbitale ne peut être occupée que par deux électrons.
 
+\clearpage
+
 ### La configuration électronique
 
 La manière dont les électrons sont répartis dans les différentes orbitales peut être représenté par un **diagramme des orbitales atomiques**. Dans ce type de diagramme, les orbitales sont représentées par des cases dans lesquels on place les électrons à disposition. L'orbitale 1s a le niveau d'énergie le plus bas et est la plus proche du noyau.
@@ -200,8 +230,6 @@ On utilise ce diagramme pour prédire les liaisons qui se produisent entre deux 
 ```{r energy-level,echo=FALSE,out.width="40%",fig.show="hold",fig.align="center",fig.cap="Diagramme énergétique des orbitales atomiques."}
 knitr::include_graphics(c("images/energy-level.png"))
 ```
-
-\newpage
 
 ### Déterminer une configuration électronique
 
@@ -217,6 +245,8 @@ En connaissant le nombre d'électrons contenus dans un atome, on peut remplir ce
 - Si plusieurs orbitales de même énergie sont disponibles, on remplit le plus d'orbitales possibles avant d'apparier les électrons.
 
 Une fois le diagramme rempli, on en déduit la configuration électronique de l'atome pour le niveau de plus basse énergie. La **configuration électronique** d'un atome est une notation abrégée de la répartition des électrons dans les différentes couches et sous-couches électroniques.
+
+\clearpage
 
 ```{r, child=c('exe/tableau-periodique-10.Rmd')}
 ```
@@ -261,6 +291,8 @@ knitr::include_graphics(c("images/configuration-electronique.png"))
 
 Le chimiste américain **G. N. Lewis** (1875-1946) a proposé un moyen simple de représenter les électrons de valence d'un atome. C'est ce qu'on appelle la **structure de Lewis**.
 
+\clearpage
+
 On utilise les règles suivantes pour dessiner la structure de Lewis d'un atome:
 
 - Le nombre d'électrons de valence est égal au numéro du groupe (I à VIII).
@@ -274,10 +306,10 @@ Table: (#tab:structure-lewis-groupe-principal) Structure de Lewis des éléments
 | ![](images/lewis-dots-1c.png){width=3em} | ![](images/lewis-dots-2c.png){width=3em} | ![](images/lewis-dots-3c.png){width=3em} | ![](images/lewis-dots-4c.png){width=3em} | ![](images/lewis-dots-1p3c.png){width=3em} | ![](images/lewis-dots-2p2c.png){width=3em} | ![](images/lewis-dots-3p1c.png){width=3em} | ![](images/lewis-dots-4p.png){width=3em} |
 |                    1c                    |                    2c                    |                    3c                    |                    4c                    |                   1p 3c                    |                   2p 2c                    |                   3p 1c                    |                    4p                    |
 
-\newpage
-
 ```{r, child=c('exe/tableau-periodique-20.Rmd')}
 ```
+
+\clearpage
 
 ## La règle de l'octet
 
