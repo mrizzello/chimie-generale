@@ -63,7 +63,7 @@ $$
 
 ## pH des acides forts et des bases fortes
 
-On se souvient que dans le cas d'un monoacide fort, on a **|H~3~O^+^| = C~acide~**. Pour les acides polyprotiques, seul H~2~SO~4~ se comporte comme un acide fort et ce, uniquement pour son premier H^+. Pour les monobases fortes, on a **|OH^-^| = C~base~**.
+On se souvient que dans le cas d'un monoacide fort, on a **|H~3~O^+^| = C~acide~**. Pour les acides polyprotiques, seul H~2~SO~4~ se comporte comme un acide fort et ce, uniquement pour son premier H^+^. Pour les monobases fortes, on a **|OH^-^| = C~base~**.
 
 Le calcul des pH est facilité si l'on généralise l'usage des logarithmes, ce que l'on fait lorsque l'on utilise la lettre "p" comme préfixe, et qui signifie alors "-log".
 
@@ -719,15 +719,15 @@ La courbe de pH observée lors du titrage d'un acide faible polyprotique par une
 Dans le cas de l'acide phosphorique, on devrait relever trois points équivalents correspondants aux trois réactions successives de neutralisation :
 
 $$
-\ce{OH^{-}(aq) + H3PO4(aq) <=> H2O(l) + H2PO4-(aq)}
+\ce{OH^{-}_{(aq)} + H3PO4_{(aq)} <=> H2O_{(l)} + H2PO4^{-}_{(aq)}}
 $$
 
 $$
-\ce{OH^{-}(aq) + H2PO4-(aq) <=> H2O(l) + HPO4^{2-}(aq)}
+\ce{OH^{-}_{(aq)} + H2PO4^{-}_{(aq)} <=> H2O_{(l)} + HPO4^{2-}_{(aq)}}
 $$
 
 $$
-\ce{OH^{-}(aq) + HPO4^{2-}(aq) <=> H2O(l) + PO4^{3-}(aq)}
+\ce{OH^{-}_{(aq)} + HPO4^{2-}_{(aq)} <=> H2O_{(l)} + PO4^{3-}_{(aq)}}
 $$
 
 Les trois constantes d'acidité de l'acide phosphorique étant suffisamment distinctes, les trois réactions auront lieu de façon successive. Le dernier point équivalent n'est pas observable, K~a3~ étant trop proche du K~e~.

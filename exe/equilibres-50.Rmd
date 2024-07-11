@@ -10,7 +10,7 @@ $$
 
 a. Calculer les pressions partielles de \ce{NO} et de \ce{Cl2} dans le système.
 \vspace{\stretch{1}}
-b.  Calculer la constante d'équilibre K.
+b.  Calculer la constante d'équilibre K~p~.
 \vspace{\stretch{1}}
 
 :::
@@ -39,7 +39,7 @@ $$
 
 b. $$
 \begin{split}
-K = \frac{P_{\ce{NO}}^2 \cdot P_{\ce{Cl2}} }{P_{\ce{NOCl}}^2} = \frac{(0.24)^2\ [atm] \cdot 0.12\ [atm]}{(0.64)^2\ [atm]} = 0.017\ [-]
+K_{p} = \frac{P_{\ce{NO}}^2 \cdot P_{\ce{Cl2}} }{P_{\ce{NOCl}}^2} = \frac{(0.24)^2\ [atm] \cdot 0.12\ [atm]}{(0.64)^2\ [atm]} = 0.017\ [-]
 \end{split}
 $$
 

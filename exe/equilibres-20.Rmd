@@ -6,7 +6,7 @@ $$
   4\ NH_3\ _{(g)} + 7\ O_2\ _{(g)} \leftrightharpoons 2\ N_2O_4\ _{(g)} + 6\ H_2O\ _{(g)}
 $$
 
-On remplit un ballon avec 2.4 [M] de NH~3~ et 2.4 [M] de O~2~ à une température donnée. La réaction se déroule et à l'équilibre on mesure une concentration en N~2~O~4~ égale à 0.134 [M]. Calculer K~e~.
+On remplit un ballon avec 2.4 [M] de NH~3~ et 2.4 [M] de O~2~ à une température donnée. La réaction se déroule et à l'équilibre on mesure une concentration en N~2~O~4~ égale à 0.134 [M]. Calculer K~c~.
 
 \vspace{\stretch{1}}
 
@@ -69,7 +69,7 @@ $$
 $$
 
 $$
-  K_{e} = \frac{|N_2O_4|^{2}_{eq} \cdot |H_2O|^{6}_{eq}}{|NH_3|^{4}_{eq} \cdot |O_2|^{7}_{eq}}
+  K_{c} = \frac{|N_2O_4|^{2}_{eq} \cdot |H_2O|^{6}_{eq}}{|NH_3|^{4}_{eq} \cdot |O_2|^{7}_{eq}}
   = \frac{(0.134)^2 \cdot (0.402)^{6}}{(2.13)^{4} \cdot (1.93)^{7}} = 3.69 \cdot 10^{−8}\ [-]
 $$
 
