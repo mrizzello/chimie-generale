@@ -15,7 +15,7 @@ Dans le cas d'une **réaction irréversible**, les réactifs sont consommés et 
 ::: {.tcolorbox data-latex=""}
 
 **Équilibre chimique**  
-​Un équilibre chimique est un état dans lequel la vitesse de la réaction directe est égale à celle de la réaction indirecte.
+Un équilibre chimique est un état dans lequel la vitesse de la réaction directe est égale à celle de la réaction indirecte.
 
 :::
 
@@ -77,21 +77,21 @@ Les concentrations des espèces dissoutes sont exprimées en mole par litre (mol
 
 ## La constante d'équilibre
 
-À l'équilibre, les concentrations des réactifs et des produits ne varient plus ce qui implique que le quotient de réaction ne varie plus, lui non plus. Il devient constant. On appellera la valeur de Q~r~ à l'équilibre, **constante d'équilibre** (K~e~).
+À l'équilibre, les concentrations des réactifs et des produits ne varient plus ce qui implique que le quotient de réaction ne varie plus, lui non plus. Il devient constant. On appellera la valeur de Q~r~ à l'équilibre, **constante d'équilibre** (K~c~).
 
 $$
-  Q_{r}(eq) = K_{e} = \frac{|C|_{(eq)}^{c} \cdot |D|_{(eq)}^{d}}{|A|_{(eq)}^{a} \cdot |B|_{(eq)}^{b}}
+  Q_{r}(eq) = K_{c} = \frac{|C|_{(eq)}^{c} \cdot |D|_{(eq)}^{d}}{|A|_{(eq)}^{a} \cdot |B|_{(eq)}^{b}}
 $$
 
 - Comme le quotient de réaction, la constante d'équilibre n'a pas de dimension et s'exprime sans unité.
-- Une constante d'équilibre élevée (K~e~ > 10^3^) indique que les produits sont favorisés à l'équilibre.
-- Une constante d'équilibre faible (K~e~ < 10^-3^) indique que les réactifs sont favorisés à l'équilibre.
-- K~e~ ne dépend que de la température.
+- Une constante d'équilibre élevée (K~c~ > 10^3^) indique que les produits sont favorisés à l'équilibre.
+- Une constante d'équilibre faible (K~c~ < 10^-3^) indique que les réactifs sont favorisés à l'équilibre.
+- K~c~ ne dépend que de la température.
 
-La valeur de K~e~ peut donc être calculée lorsque l'on a mesuré les concentrations des réactifs et produits à l'équilibre pour une température donnée. Pour simplifier l'écriture, à l'équilibre, on pourra écrire :
+La valeur de K~c~ peut donc être calculée lorsque l'on a mesuré les concentrations des réactifs et produits à l'équilibre pour une température donnée. Pour simplifier l'écriture, à l'équilibre, on pourra écrire :
 
 $$
-  K_{e} = \frac{|C|^{c} \cdot |D|^{d}}{|A|^{a} \cdot |B|^{b}}
+  K_{c} = \frac{|C|^{c} \cdot |D|^{d}}{|A|^{a} \cdot |B|^{b}}
 $$
 
 ### Équilibre homogène et hétérogène
@@ -113,7 +113,7 @@ $$
 $$
 
 $$
-  K_{e} = \frac{P_C^{c} \cdot P_D^{d}}{P_A^{a} \cdot P_B^{b}}
+  K_{c} = \frac{P_C^{c} \cdot P_D^{d}}{P_A^{a} \cdot P_B^{b}}
 $$
 
 ```{r, child=c('exe/equilibres-10.Rmd')}
@@ -158,7 +158,7 @@ $$
 On peut donc calculer la valeur de la constante d'équilibre de la réaction à 453°C.
 
 $$
-  K_{e} = \frac{|H_2|_{eq} \cdot |I_2|_{eq}}{|HI|_{eq}^2} = \frac{0.011 \cdot 0.011}{0.078^2} = 0.02\ [-]\ \text{à 453°C}
+  K_{c} = \frac{|H_2|_{eq} \cdot |I_2|_{eq}}{|HI|_{eq}^2} = \frac{0.011 \cdot 0.011}{0.078^2} = 0.02\ [-]\ \text{à 453°C}
 $$
 
 \clearpage
@@ -206,7 +206,7 @@ knitr::include_graphics(c("images/equilibres-concentrations-2a.png","images/equi
 - Lorsqu'on ajoute une substance, la réaction déplace l'équilibre de manière à consommer une partie de cette substance.
 - Lorsqu'on élimine une substance, la réaction déplace l'équilibre de manière à produire d'avantage de cette substance.
 
-L'ajout ou le retrait d'une espèce d'une réaction à l'équilibre ne change pas la valeur de la constante d'équilibre K~e~. Le rapport des concentrations rejoindra la même valeur qu'avant la modification.
+L'ajout ou le retrait d'une espèce d'une réaction à l'équilibre ne change pas la valeur de la constante d'équilibre K~c~. Le rapport des concentrations rejoindra la même valeur qu'avant la modification.
 
 ### Influence du volume et de la pression
 
