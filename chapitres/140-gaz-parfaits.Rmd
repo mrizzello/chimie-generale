@@ -147,7 +147,9 @@ $$
 
 ## La loi des pressions partielles
 
-Jusqu'à maintenant, nous n'avons traité que des substances gazeuses pures. Cependant, on est souvent amené à étudier des mélanges de gaz. Dans ce cas, la loi des pressions partielles nous permet de connaître la relation entre la pression totale et la pression partielle de chaque gaz constituant le mélange.
+Jusqu'à maintenant, nous n'avons traité que des substances gazeuses pures. Cependant, on est souvent amené à étudier des mélanges de gaz. Nous respirons un air qui est composé de 4/5 de diazote (N~2~) et de 1/5 de dioxygène (O~2~). Le diazote est responsable pour 4/5 de la pression atmosphérique que nous subissons et le dioxygène en est responsable pour 1/5. Il en est de même pour la pression dans les pneus de votre vélo.
+
+Dans le cas d'un mélange de gaz, la loi des pressions partielles nous permet de connaître la relation entre la pression totale et la pression partielle de chaque gaz constituant le mélange.
 
 Selon cette loi :
 
