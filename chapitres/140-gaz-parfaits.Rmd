@@ -42,8 +42,8 @@ Puisque la température et la pression varient d'un endroit à l'autre sur la pl
 
 |                                                     | Température |          Pression          |
 | --------------------------------------------------- | :---------: | :------------------------: |
-| Conditions **Normales** de Température et Pression  | 273 [K]     |  $1.013 \cdot 10^{5}$ [Pa] |
-| Conditions **Ambiantes** de Température et Pression | 298 [K]     |        $10^{5}$ [Pa]       |
+| Conditions **Normales** de Température et Pression  | 273.15 [K]     |  $1.013 \cdot 10^{5}$ [Pa] |
+| Conditions **Ambiantes** de Température et Pression | 298.15 [K]     |        $1$ [bar]       |
 
 \newpage
 
