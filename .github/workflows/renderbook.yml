@@ -20,7 +20,7 @@ jobs:
         run: tlmgr install tcolorbox tabto-ltx
       - name: Render Book
         run: Rscript -e 'rmarkdown::render_site(encoding="UTF-8")'
-      - uses: actions/upload-artifact@v1
+      - uses: actions/upload-artifact@v4
         with:
           name: _book
           path: _book/
