@@ -80,7 +80,7 @@ Les concentrations des espèces dissoutes sont exprimées en mole par litre (mol
 À l'équilibre, les concentrations des réactifs et des produits ne varient plus ce qui implique que le quotient de réaction ne varie plus, lui non plus. Il devient constant. On appellera la valeur de Q~r~ à l'équilibre, **constante d'équilibre** (K).
 
 $$
-  Q_{r}(eq) = K = \frac{|C|_{(eq)}^{c} \cdot |D|_{(eq)}^{d}}{|A|_{(eq)}^{a} \cdot |B|_{(eq)}^{b}}
+  K = Q_{r}(eq) = \frac{|C|_{(eq)}^{c} \cdot |D|_{(eq)}^{d}}{|A|_{(eq)}^{a} \cdot |B|_{(eq)}^{b}}
 $$
 
 - Comme le quotient de réaction, la constante d'équilibre n'a pas de dimension et s'exprime sans unité.
