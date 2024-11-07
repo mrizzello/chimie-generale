@@ -1,0 +1,37 @@
+::: {.Exercise data-latex=""}
+
+Ecrivez l'expression de la constante d'équilibre pour les réactions suivantes.
+
+
+1. $\ce{CaCO3_{(s)} <=> CaO_{(s)} + CO2_{(g)}}$
+\vspace{\stretch{1}}
+2. $\ce{2 NOCl_{(g)} <=> 2 NO_{(g)} + Cl2_{(g)}}$
+\vspace{\stretch{1}}
+3. $\ce{Fe(OH)3_{(s)} <=> Fe^{3+}_{(aq)} + 3 OH^-_{(aq)}}$
+\vspace{\stretch{1}}
+4. $\ce{NH3_{(aq)} + H2O_{(l)} <=> NH4+_{(aq)} + OH^-_{(aq)}}$
+\vspace{\stretch{1}}
+5. $\ce{PbCl2_{(s)} <=> Pb^{2+}_{(aq)} + 2 Cl^-_{(aq)}}$
+\vspace{\stretch{1}}
+6. $\ce{H2_{(g)} + I2_{(s)} <=> 2 HI_{(g)}}$
+\vspace{\stretch{1}}
+7. $\ce{2 NaHCO3_{(s)} <=> Na2CO3_{(s)} + CO2_{(g)} + H2O_{(g)}}$
+\vspace{\stretch{1}}
+8. $\ce{Ag2CO3_{(s)} <=> 2 Ag+_{(aq)} + CO3^{2-}_{(aq)}}$
+\vspace{\stretch{1}}
+
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. $$ K = |\ce{CO2}| $$
+2. $$ K = \frac{|\ce{NO}|^2 \cdot |\ce{Cl2}|}{|\ce{NOCl}|^2} $$
+3. $$ K = |\ce{Fe^{3+}}| \cdot |\ce{OH^-}|^3 $$
+4. $$ K = \frac{|\ce{NH4+}| \cdot |\ce{OH^-}|}{|\ce{NH3}|} $$
+5. $$ K = |\ce{Pb^{2+}}| \cdot |\ce{Cl^-}|^2 $$
+6. $$ K = \frac{|\ce{HI}|^2}{|\ce{H2}|} $$
+7. $$ K = |\ce{CO2}| \cdot |\ce{H2O}| $$
+8. $$ K = |\ce{Ag+}|^2 \cdot |\ce{CO3^{2-}}| $$
+
+:::

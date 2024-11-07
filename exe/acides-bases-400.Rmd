@@ -62,5 +62,5 @@ $$
 pH = - \log C_{a}^{*} = 1.74
 $$
 
-\clearpage
+\newpage
 :::

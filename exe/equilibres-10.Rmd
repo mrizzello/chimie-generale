@@ -1,6 +1,6 @@
 ::: {.Exercise data-latex=""}
 
-Ecrivez l'expression de la constante d'équilibre pour les réactions suivantes. Dans chaque cas, indiquez si la réaction est homogène ou hétérogène.
+Ecrivez l'expression de la constante d'équilibre (K~c~ ou K~p~) pour les réactions suivantes. Dans chaque cas, indiquez si la réaction est homogène ou hétérogène.
 
 1. $3\ NO\ _{(g)} \leftrightharpoons N_2O\ _{(g)} +  NO_2\ _{(g)}$
 \vspace{\stretch{1}}
@@ -19,13 +19,11 @@ Ecrivez l'expression de la constante d'équilibre pour les réactions suivantes.
 
 ::: {.Answer data-latex=""}
 
-1. $$ K_{c} = \frac{|N_2O| \cdot |NO_2|}{|NO|^{3}} \qquad \text{(homogène)} $$
-2. $$ K_{c} = \frac{|CS_2| \cdot |H_2|^{4}}{|CH_4| \cdot |H_2S|^{2}} \qquad \text{(homogène)} $$
+1. $$ K_{p} = \frac{P_{\ce{N2O}} \cdot P_{\ce{NO2}}}{P_{\ce{NO}}^{3}} \qquad \text{(homogène)} $$
+2. $$ K_{p} = \frac{P_{\ce{CS2}} \cdot P_{\ce{H2}}^{4}}{P_{\ce{CH4}} \cdot P_{\ce{H2S}}^{2}} \qquad \text{(homogène)} $$
 3. $$ K_{c} = \frac{|H^+| \cdot |F^-|}{|HF|} \qquad \text{(homogène)} $$
-4. $$ K_{c} = |CO_2| \cdot |H_2O| = P_{CO_2} \cdot P_{H_2O} \qquad \text{(homogène)} $$
+4. $$ K_{p} = P_{CO_2} \cdot P_{H_2O} \qquad \text{(homogène)} $$
 5. $$ K_{c} = |H^+| \cdot |OH^-| \qquad \text{(hétérogène)} $$
 6. $$ K_{c} = \frac{|Ag^+|^{2}}{|Zn^{2+}|} \qquad \text{(hétérogène)} $$
-
-\clearpage
 
 :::

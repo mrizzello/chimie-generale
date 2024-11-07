@@ -26,7 +26,7 @@ En 1871, le chimiste russe **Dmitri Mendeleev** (1836-1907) a présenté le prem
 
 Plus tard, le tableau périodique moderne a été introduit. Il classe les éléments par numéro atomique et non par masse atomique, mais le principe est le même que le classement de Mendeleev.
 
-\clearpage
+\newpage
 
 Chaque case du tableau représente un élément différent et contient au moins trois informations:
 
@@ -112,7 +112,7 @@ knitr::include_graphics(c("images/ondes-electromagnetiques.png"))
 
 La longuer d'onde est exprimée en nanomètre, nm, pour les ondes lumineuses. La fréquence est exprimée en Hertz, Hz, le nombre de cycles par seconde. Longueur d'onde et fréquence sont inversément proportionnelles. Plus la longueur d'onde est élevée, plus la fréquence est basse. Plus la longueur d'onde est petite, plus la fréquence est élevée.
 
-\clearpage
+\newpage
 
 La relation de Planck permet de mettre en relation la fréquence et l'énergie d'un photon selon l'équation : 
 
@@ -164,7 +164,7 @@ Table: (#tab:domaine-spectre-visible) Domaine du spectre visible.
 | orange  |         600          |         5.00          |     2.06     |
 | rouge   |         650          |         4.62          |     1.91     |
 
-\clearpage
+\newpage
 
 ### Interactions rayonnement-matière
 
@@ -187,7 +187,7 @@ Dans les années 1900 Schrödinger développe un modèle atomique plus évolué 
 
 Ce modèle introduit une description mathématique du mouvement de l'électron appelée **orbitale atomique**. Une orbitale représente un volume de l'espace dans lequel la probabilité de trouver un électron est élevée.
 
-\clearpage
+\newpage
 
 Table: (#tab:couches-sous-couches-orbitales) Résumé des couches, sous-couches et orbitales.
 
@@ -219,7 +219,7 @@ crédit : wikimedia/haade
 
 Les électrons d'une sous-couche peuvent être répartis dans des volumes  d'énergie égale appelés orbitales. Il y a une orbitale pour une sous-couche _s_, trois orbitales pour une _p_, cinq pour une _d_, sept pour un _f_. Une orbitale ne peut être occupée que par deux électrons.
 
-\clearpage
+\newpage
 
 ### La configuration électronique
 
@@ -246,7 +246,7 @@ En connaissant le nombre d'électrons contenus dans un atome, on peut remplir ce
 
 Une fois le diagramme rempli, on en déduit la configuration électronique de l'atome pour le niveau de plus basse énergie. La **configuration électronique** d'un atome est une notation abrégée de la répartition des électrons dans les différentes couches et sous-couches électroniques.
 
-\clearpage
+\newpage
 
 ```{r, child=c('exe/tableau-periodique-10.Rmd')}
 ```
@@ -291,7 +291,7 @@ knitr::include_graphics(c("images/configuration-electronique.png"))
 
 Le chimiste américain **G. N. Lewis** (1875-1946) a proposé un moyen simple de représenter les électrons de valence d'un atome. C'est ce qu'on appelle la **structure de Lewis**.
 
-\clearpage
+\newpage
 
 On utilise les règles suivantes pour dessiner la structure de Lewis d'un atome:
 
@@ -309,7 +309,7 @@ Table: (#tab:structure-lewis-groupe-principal) Structure de Lewis des éléments
 ```{r, child=c('exe/tableau-periodique-20.Rmd')}
 ```
 
-\clearpage
+\newpage
 
 ## La règle de l'octet
 

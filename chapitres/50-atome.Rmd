@@ -172,7 +172,7 @@ avec :
 - $m_{\text{nucléons}}$ : somme des masses des nucléons ($m_p + m_n$) en [uma]  
 - $m_{\text{noyau}}$ : masse mesurée du noyau en [uma]
 
-\clearpage
+\newpage
 
 Depuis le début du 20^e^ siècle, nous savons que, sous certaines conditions, une masse $m$ peut se transformer en énergie $E$, et vice versa. C'est le célèbre $E = m \cdot c^2$ d'Albert Einstein.
 
@@ -189,7 +189,7 @@ avec :
 ```{r, child=c('exe/atome-55.Rmd')}
 ```
 
-\clearpage
+\newpage
 
 ## La masse atomique
 
@@ -207,7 +207,7 @@ On peut déterminer la masse atomique d'un élément, en additionnant les masses
 ```{r, child=c('exe/atome-60.Rmd')}
 ```
 
-\clearpage
+\newpage
 
 ## La mole et le nombre d'Avogadro
 
@@ -242,7 +242,7 @@ Une mole d'atomes, une mole de molécules, ou une mole de quoi que ce soit conti
 ```{r, child=c('exe/atome-80.Rmd')}
 ```
 
-\clearpage
+\newpage
 
 ```{r, child=c('exe/atome-90.Rmd')}
 ```
@@ -277,7 +277,7 @@ $$ M = \frac{m}{n} \qquad \text{ ou } \qquad n = \frac{m}{M} \qquad \text{ ou } 
 ```{r, child=c('exe/atome-100.Rmd')}
 ```
 
-\clearpage
+\newpage
 
 ## Exercices supplémentaires
 

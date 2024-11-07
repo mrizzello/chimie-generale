@@ -77,22 +77,27 @@ Les concentrations des espèces dissoutes sont exprimées en mole par litre (mol
 
 ## La constante d'équilibre
 
-À l'équilibre, les concentrations des réactifs et des produits ne varient plus ce qui implique que le quotient de réaction ne varie plus, lui non plus. Il devient constant. On appellera la valeur de Q~r~ à l'équilibre, **constante d'équilibre** (K~c~).
+À l'équilibre, les concentrations des réactifs et des produits ne varient plus ce qui implique que le quotient de réaction ne varie plus, lui non plus. Il devient constant. On appellera la valeur de Q~r~ à l'équilibre, **constante d'équilibre** (K).
 
 $$
-  Q_{r}(eq) = K_{c} = \frac{|C|_{(eq)}^{c} \cdot |D|_{(eq)}^{d}}{|A|_{(eq)}^{a} \cdot |B|_{(eq)}^{b}}
+  Q_{r}(eq) = K = \frac{|C|_{(eq)}^{c} \cdot |D|_{(eq)}^{d}}{|A|_{(eq)}^{a} \cdot |B|_{(eq)}^{b}}
 $$
 
 - Comme le quotient de réaction, la constante d'équilibre n'a pas de dimension et s'exprime sans unité.
-- Une constante d'équilibre élevée (K~c~ > 10^3^) indique que les produits sont favorisés à l'équilibre.
-- Une constante d'équilibre faible (K~c~ < 10^-3^) indique que les réactifs sont favorisés à l'équilibre.
-- K~c~ ne dépend que de la température.
+- Une constante d'équilibre élevée (K > 10^3^) indique que les produits sont favorisés à l'équilibre.
+- Une constante d'équilibre faible (K < 10^-3^) indique que les réactifs sont favorisés à l'équilibre.
+- K ne dépend que de la température.
 
-La valeur de K~c~ peut donc être calculée lorsque l'on a mesuré les concentrations des réactifs et produits à l'équilibre pour une température donnée. Pour simplifier l'écriture, à l'équilibre, on pourra écrire :
+La valeur de K peut donc être calculée lorsque l'on a mesuré les concentrations des réactifs et produits à l'équilibre pour une température donnée. Pour simplifier l'écriture, à l'équilibre, on pourra écrire :
 
 $$
-  K_{c} = \frac{|C|^{c} \cdot |D|^{d}}{|A|^{a} \cdot |B|^{b}}
+  K = \frac{|C|^{c} \cdot |D|^{d}}{|A|^{a} \cdot |B|^{b}}
 $$
+
+```{r, child=c('exe/equilibres-60.Rmd')}
+```
+
+\newpage
 
 ### Équilibre homogène et hétérogène
 
@@ -100,7 +105,8 @@ Lorsque toutes les substances participant à la réaction sont dans la même pha
 
 **Lors du calcul des constantes d'équilibre, les solides et les liquides purs ne sont pas pris en compte car leur concentration ne change pas au cours de la réaction.**
 
-\clearpage
+```{r, child=c('exe/equilibres-70.Rmd')}
+```
 
 ### Constantes d'équilibre et phase gazeuse
 
@@ -117,7 +123,7 @@ $$
 Si nous connaissons les pressions partielles de chaque composant à l'équilibre, alors l'expression de la constante d'équilibre pour cette réaction peut-être expimée par la relation suivante :
 
 $$
-  K_{p} = \frac{P_C^{c} \cdot P_D^{d}}{P_A^{a} \cdot P_B^{b}}
+  K = \frac{P_C^{c} \cdot P_D^{d}}{P_A^{a} \cdot P_B^{b}}
 $$
 
 avec :
@@ -126,8 +132,21 @@ avec :
 - P~B~ : pression partielle du gaz B dans le système.
 - ...
 
+### Formalisme littéral
+
+Pour exprimer la constante d'équilibre :
+
+- nous utiliserons $K_c$ lorsque la constante d'équilibre est exprimée à partir de concentrations
+- nous utiliserons $K_p$ lorsque la constante d'équilibre est exprimée à partir des pressions partielles.
+
+| Concentrations, $K_c$ | Pressions partielles, $K_p$ |
+| :------------: | :------------------: |
+|     $K_c = \frac{|C|^{c} \cdot |D|^{d}}{|A|^{a} \cdot |B|^{b}}$      |        $K_p = \frac{P_C^{c} \cdot P_D^{d}}{P_A^{a} \cdot P_B^{b}}$         |
+
 ```{r, child=c('exe/equilibres-10.Rmd')}
 ```
+
+\newpage
 
 ## Équilibres chimiques et stœchiométrie
 
@@ -149,9 +168,9 @@ On peut ensuite établir un tableau des variations :
 
 | Concentrations [M] | $2\ HI\ _{(g)}$ | $\leftrightharpoons$ | $H_2\ _{(g)}$ | $I_2\ _{(g)}$ |
 | -----------------: | :-------------: | :------------------: | :-----------: | :-----------: |
-| initiale           |       0.1       |                      |       0       |       0       |
-| variation          |      - 2x       |                      |      + x      |      + x      |
-| équilibre          |    0.1 - 2x     |                      |       x       |       x       |
+|           initiale |       0.1       |                      |       0       |       0       |
+|          variation |      - 2x       |                      |      + x      |      + x      |
+|          équilibre |    0.1 - 2x     |                      |       x       |       x       |
 
 On connaît la valeur de la concentration de $HI$ à l'équilibre. On peut donc résoudre l'équation pour x :
 
@@ -171,7 +190,7 @@ $$
   K_{c} = \frac{|H_2|_{eq} \cdot |I_2|_{eq}}{|HI|_{eq}^2} = \frac{0.011 \cdot 0.011}{0.078^2} = 0.02\ [-]\ \text{à 453°C}
 $$
 
-\clearpage
+\newpage
 
 ```{r, child=c('exe/equilibres-20.Rmd')}
 ```
@@ -194,7 +213,7 @@ Pour modifier un équilibre, on peut agir sur différents facteurs :
 _(pour les systèmes contenant des réactifs et des produits gazeux)_.
 - Un changement de température.
 
-\clearpage
+\newpage
 
 ### Ajout/élimination d'un réactif ou d'un produit
 
@@ -228,7 +247,7 @@ $$
 
 Imaginons un cylindre fermé avec un piston mobile comme couvercle. L'équilibre ci-dessus se produit à l'intérieur du cylindre. En déplaçant le piston, on change le volume du système et on modifie les concentrations des réactifs et des produits. Si nous poussons sur le piston, l'équilibre sera perturbé et se déplacera dans la direction qui minimise l'effet de cette perturbation.
 
-\clearpage
+\newpage
 
 ```{r equilibres-pressions-1,echo=FALSE,out.width="75%",fig.show="hold",fig.align="center",fig.cap="Effet de la diminution du volume (augmentation de la pression) sur l'équilibre"}
 knitr::include_graphics(c("images/equilibres-pressions-1.png"))
@@ -263,7 +282,7 @@ Si nous considérons la chaleur comme un réactif, nous pouvons appliquer le pri
 
 L'augmentation de la température (apport de chaleur) déplacera la réaction dans le sens direct, car la chaleur apparaît du côté du réactif. La diminution de la température (retrait de chaleur) déplacera la réaction dans le sens indirect.
 
-\clearpage
+\newpage
 
 En résumé :
 
@@ -286,17 +305,22 @@ Si un catalyseur est ajouté à un mélange réactionnel qui n'est pas à l'équ
 ```{r, child=c('exe/equilibres-30.Rmd')}
 ```
 
-\clearpage
+\newpage
 
 ```{r, child=c('exe/equilibres-40.Rmd')}
 ```
 
 ## Exercices supplémentaires
 
+```{r, child=c('exe/equilibres-80.Rmd')}
+```
+
+\newpage
+
 ```{r, child=c('exe/equilibres-50.Rmd')}
 ```
 
-\clearpage
+\newpage
 
 ```{r, echo=FALSE}
 if (knitr::is_latex_output()) {

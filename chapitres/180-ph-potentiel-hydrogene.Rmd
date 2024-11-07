@@ -32,7 +32,7 @@ $$
 
 _Remarque : la valeur du pH doit posséder autant de décimales qu'il y a de chiffres significatifs dans la valeur de la concentration._
 
-\clearpage
+\newpage
 
 En général, à 25°C :
 
@@ -59,7 +59,7 @@ $$
 |\ce{H3O+}| = 10^{-pH}
 $$
 
-\clearpage
+\newpage
 
 ## pH des acides forts et des bases fortes
 
@@ -79,7 +79,7 @@ Pour résumer :
 ```{r, child=c('exe/acides-bases-130.Rmd')}
 ```
 
-\clearpage
+\newpage
 
 ```{r, child=c('exe/acides-bases-140.Rmd')}
 ```
@@ -90,7 +90,7 @@ Pour résumer :
 ```{r, child=c('exe/acides-bases-160.Rmd')}
 ```
 
-\clearpage
+\newpage
 
 ```{r, child=c('exe/acides-bases-170.Rmd')}
 ```
@@ -101,7 +101,7 @@ Pour résumer :
 ```{r, child=c('exe/acides-bases-190.Rmd')}
 ```
 
-\clearpage
+\newpage
 
 ```{r, child=c('exe/acides-bases-200.Rmd')}
 ```
@@ -112,7 +112,7 @@ Pour résumer :
 ```{r, child=c('exe/acides-bases-220.Rmd')}
 ```
 
-\clearpage
+\newpage
 
 ```{r, child=c('exe/acides-bases-230.Rmd')}
 ```
@@ -120,7 +120,7 @@ Pour résumer :
 ```{r, child=c('exe/acides-bases-240.Rmd')}
 ```
 
-\clearpage
+\newpage
 
 ## pH des acides faibles et des bases faibles
 
@@ -248,7 +248,7 @@ $$
 ```{r, child=c('exe/acides-bases-260.Rmd')}
 ```
 
-\clearpage
+\newpage
 
 ```{r, child=c('exe/acides-bases-270.Rmd')}
 ```
@@ -259,7 +259,7 @@ $$
 ```{r, child=c('exe/acides-bases-290.Rmd')}
 ```
 
-\clearpage
+\newpage
 
 ## pH des acides polyprotiques
 
@@ -287,7 +287,7 @@ On pourra donc traiter les polyacides comme des monoacides, en ne prenant en com
 ```{r, child=c('exe/acides-bases-300.Rmd')}
 ```
 
-\clearpage
+\newpage
 
 ```{r, child=c('exe/acides-bases-310.Rmd')}
 ```
@@ -327,7 +327,7 @@ Le pH variera donc peu, pour autant que la quantité d'acide ajoutée ne soit pa
 
 Par conséquent, les solutions tampons stabilisent le pH en fournissant source et piège à protons.
 
-\clearpage
+\newpage
 
 ```{r, child=c('exe/acides-bases-320.Rmd')}
 ```
@@ -444,7 +444,7 @@ $$
 ```{r, child=c('exe/acides-bases-340.Rmd')}
 ```
 
-\clearpage
+\newpage
 
 ```{r, child=c('exe/acides-bases-350.Rmd')}
 ```
@@ -452,7 +452,7 @@ $$
 ```{r, child=c('exe/acides-bases-360.Rmd')}
 ```
 
-\clearpage
+\newpage
 
 ```{r, child=c('exe/acides-bases-370.Rmd')}
 ```
@@ -507,7 +507,7 @@ $$
 
 On remarquera que l'addition de $\ce{HCl}$ n'a que faiblement diminué la valeur du pH. L'abaissement du pH est cohérent avec le fait qu'un acide fort a été ajouté.
 
-\clearpage
+\newpage
 
 ```{r, child=c('exe/acides-bases-380.Rmd')}
 ```
@@ -520,12 +520,12 @@ La zone de pH dans lequel le tampon fonctionne s'étend de $pH = pKa \pm 1$.
 
 Selon le pH nécessaire, on devra donc choisir un couple dont le pK~a~ se situe proche du pH, des concentrations en acide et base proches et des concentrations importantes pour augmenter le pouvoir tampon.
 
-\clearpage
+\newpage
 
 ```{r, child=c('exe/acides-bases-390.Rmd')}
 ```
 
-\clearpage
+\newpage
 
 ## Titrages et courbes de pH
 
@@ -542,7 +542,7 @@ Le pH varie donc tout au long d'un titrage. Une courbe de titrage (ou courbe de 
 
 La forme de la courbe de titrage est influencée par de nombreux paramètres que nous expliquerons ici.
 
-\clearpage
+\newpage
 
 ### Titrage d'un acide fort par une base forte
 
@@ -590,7 +590,7 @@ C_b^{*} = \frac{n_b^{*}}{V_{tot}} \qquad \text{avec } n_b^{*} = n_b - n_a = C_b 
 \end{split}
 $$
 
-\clearpage
+\newpage
 
 ### Titrage d'une base forte par un acide fort
 
@@ -638,7 +638,7 @@ C_a^{*} = \frac{n_a^{*}}{V_{tot}} \qquad \text{avec } n_a^{*} = n_a - n_b = C_a 
 \end{split}
 $$
 
-\clearpage
+\newpage
 
 ### Titrage d'un acide faible par une base forte
 
@@ -710,7 +710,7 @@ $$
 
 La courbe observée lorsque l'on ajoute dans une base faible, petit à petit, un acide fort afin d'en effectuer la courbe de pH découle du même raisonnement que celle de la neutralisation d'un acide faible par une base forte que l'on vient de décrire.
 
-\clearpage
+\newpage
 
 ### Titrage d'une polyacide faible par une base forte
 
@@ -748,7 +748,7 @@ knitr::include_graphics(c("images/acides-bases-7.png"))
 
 Une tangente à la courbe est tirée dans la partie qui observe le début de la modification importante de pH. Une parallèle tangente à la courbe également est tirée dans la zone de fin de modification importante de pH. C'est la parallèle se trouvant à équidistance entre les 2 autres droites qui croisera la courbe au point d'inflexion (qui correspond au point d'équivalence).
 
-\clearpage
+\newpage
 
 ```{r, child=c('exe/acides-bases-400.Rmd')}
 ```
@@ -756,7 +756,7 @@ Une tangente à la courbe est tirée dans la partie qui observe le début de la 
 ```{r, child=c('exe/acides-bases-410.Rmd')}
 ```
 
-\clearpage
+\newpage
 
 ```{r, child=c('exe/acides-bases-420.Rmd')}
 ```
@@ -764,7 +764,7 @@ Une tangente à la courbe est tirée dans la partie qui observe le début de la 
 ```{r, child=c('exe/acides-bases-430.Rmd')}
 ```
 
-\clearpage
+\newpage
 
 ```{r, echo=FALSE}
 if (knitr::is_latex_output()) {

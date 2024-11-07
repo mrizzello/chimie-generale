@@ -29,7 +29,7 @@ Dans cette réaction, le sodium solide (Na), qui contient des atomes de sodium n
 
 De telles réactions, dans lesquelles un ou plusieurs électrons sont transférés, sont des exemples de réaction d'oxydoréduction.
 
-\clearpage
+\newpage
 
 ## Le nombre d'oxydation
 
@@ -58,7 +58,7 @@ Table: (\#tab:tab-NO-examples) Exemples de nombres d'oxydation.
 |                                             |                                             |                  oxygène: -2                   |                                      |
 |                                             |                                             |                   soufre: +6                   |                                      |
 
-\clearpage
+\newpage
 
 ### Attribuer les nombres d'oxydation
 
@@ -81,7 +81,7 @@ Un élément peut porter un nombre d'oxydation différent selon l'espèce chimiq
 ```{r, child=c('exe/oxydoreductions-10.Rmd')}
 ```
 
-\clearpage
+\newpage
 
 ## Distinguer une réaction d'oxydoréduction
 
@@ -107,7 +107,7 @@ Dans le cas de la combustion du méthane:
 ```{r, child=c('exe/oxydoreductions-20.Rmd')}
 ```
 
-\clearpage
+\newpage
 
 ## Définitions de termes
 
@@ -144,7 +144,7 @@ $$
 |    donne des éléctrons    |               |  accepte des éléctrons   |
 | état d'oxydation augmente |               | état d'oxydation diminue |
 
-\clearpage
+\newpage
 
 $$
 \overset{-4\ +1}{\ce{CH4}}(g) + 2\overset{0}{\ce{O2}}(g) \ce{->} \overset{+4\ -2}{\ce{CO2}}(g) + 2\overset{+1\ -2}{\ce{H2O}}(g)
@@ -301,7 +301,7 @@ Les masses et les électrons échangés sont maintenant équilibrés dans l'équ
 ```{r, child=c('exe/oxydoreductions-40.Rmd')}
 ```
 
-\clearpage
+\newpage
 
 ```{r, child=c('exe/oxydoreductions-80.Rmd')}
 ```
@@ -312,7 +312,7 @@ Les masses et les électrons échangés sont maintenant équilibrés dans l'équ
 ```{r, child=c('exe/oxydoreductions-100.Rmd')}
 ```
 
-\clearpage
+\newpage
 
 ## Exercices supplémentaires
 
@@ -322,7 +322,7 @@ Les masses et les électrons échangés sont maintenant équilibrés dans l'équ
 ```{r, child=c('exe/oxydoreductions-60.Rmd')}
 ```
 
-\clearpage
+\newpage
 
 ```{r, child=c('exe/oxydoreductions-110.Rmd')}
 ```

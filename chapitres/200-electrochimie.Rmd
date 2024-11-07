@@ -39,7 +39,7 @@ knitr::include_graphics(c("images/pile-electrique-v2.png"))
 ```{r pile-electrique,echo=FALSE,out.width="90%",fig.show="hold",fig.align="center",fig.cap="Fonctionnement d’une pile Cu/Zn"}
 knitr::include_graphics(c("images/pile-electrique.png"))
 ```
-\clearpage
+\newpage
 
 ### Fonctionnement d’une pile
 
@@ -72,7 +72,7 @@ Le fil électrique et le pont salin complètent le circuit :
 - Les cations se déplacent de gauche à droite à travers le pont salin.
 - **Le sens du courant est l'inverse du sens de déplacement des électrons.**
 
-\clearpage
+\newpage
 
 ### Notation simplifiée d'une pile
 
@@ -164,7 +164,7 @@ $$
 ```{r, child=c('exe/electro-30.Rmd')}
 ```
 
-\clearpage
+\newpage
 
 ## Effet de la concentration sur la force électromotrice d'une pile
 
@@ -205,7 +205,7 @@ avec :
 - F : charge d'une mole d'électrons [C] (= 96500 [C])
 - Q : quotient réactionnel
 
-\clearpage
+\newpage
 
 ```{r, child=c('exe/electro-50.Rmd')}
 ```
@@ -227,7 +227,7 @@ On peut ainsi avoir accès à la valeur de la constante d'un équilibre rédox d
 
 \vspace{\stretch{1}}
 
-\clearpage
+\newpage
 
 ## Électrolyse
 
@@ -252,7 +252,7 @@ Les principaux composants nécessaires pour réaliser une électrolyse :
 - Une alimentation en courant continu pour fournir l'énergie nécessaire à la réaction d'oxydoréduction.
 - Deux électrodes : deux conducteurs électriques qui constituent l'interface physique entre le circuit électrique et l'électrolyte.
 
-\clearpage
+\newpage
 
 ### Exemples d'électrolyses de composés purs
 
@@ -279,7 +279,7 @@ Anode (oxydation):
 |     $\ce{2Cl-(aq) -> Cl2(g) + 2 e^-}$     | $E^0_{\ce{Cl2/Cl-}} = 1.36\ [V]$ |
 | $\ce{2H2O(l) -> 4H+(aq) + O2(g) + 4 e^-}$ | $E^0_{\ce{O2/H2O}} = 1.23\ [V]$  |
 
-\clearpage
+\newpage
 
 Cathode (réduction):
 
@@ -313,7 +313,7 @@ $$
 \ce{2 Cl-(aq) + 2 H2O(l) -> 2 OH-(aq) + H2(g) + Cl2(g)}
 $$
 
-\clearpage
+\newpage
 
 ### Loi de Faraday
 
@@ -336,12 +336,12 @@ m = \frac{M \cdot I \cdot t}{n \cdot 96500}
 \end{split}
 $$
 
-\clearpage
+\newpage
 
 ```{r, child=c('exe/electro-40.Rmd')}
 ```
 
-\clearpage
+\newpage
 
 ```{r, echo=FALSE}
 if (knitr::is_latex_output()) {

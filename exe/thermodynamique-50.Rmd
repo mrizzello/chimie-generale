@@ -32,6 +32,6 @@ $$
 
 $\Delta S^o$ est négatif, l'entropie diminue.
 
-\clearpage
+\newpage
 
 :::

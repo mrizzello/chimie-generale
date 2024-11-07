@@ -35,7 +35,7 @@ $$
 
 Les ions H^+^ sont extrêmement réactifs et, en solution aqueuse, ils se lient toujours à des molécules d'eau pour former des ions **hydronium H~3~O^+^**. Les deux cations H^+^ et H~3~O^+^ ont donc la même signification. C'est pourquoi, pour simplifier l'écriture, nous écrirons parfois H^+^ à la place de H~3~O^+^.
 
-\clearpage
+\newpage
 
 ### Définition de Brønsted-Lowry
 
@@ -69,7 +69,7 @@ Gilbert Lewis a proposé une troisième définition des acides et des bases, plu
 ```{r acides-bases-2,echo=FALSE,out.width="33%",fig.show="hold",fig.align="center",fig.cap="Paire libre d'électrons partagée entre l'azote de l'ammoniac et un cation hydrogène"}
 knitr::include_graphics(c("images/acides-bases-2.png"))
 ```
-\clearpage
+\newpage
 
 Le tableau ci-dessous résume les trois définitions acide-base.
 
@@ -101,7 +101,7 @@ Image tirée du livre : Principe de chimie de Nivaldo Tro
 
 \vspace{\stretch{1}}
 
-\clearpage
+\newpage
 
 ```{r, child=c('exe/acides-bases-10.Rmd')}
 ```
@@ -115,7 +115,7 @@ Image tirée du livre : Principe de chimie de Nivaldo Tro
 ```{r, child=c('exe/acides-bases-40.Rmd')}
 ```
 
-\clearpage
+\newpage
 
 ## Forces des acides et des bases
 
@@ -142,7 +142,7 @@ Dans le cas d'un acide faible partiellement ionisé : |HA| >>> |H3O^+^|. Dans l
 
 Il est à noter que **plus un acide est fort, plus sa base conjuguée sera faible** et vice versa. Dans le cas extrême d'un acide fort (comme HCl), sa base conjuguée est considérée comme **inerte**, car elle ne modifiera pas le pH.
 
-\clearpage
+\newpage
 
 De plus, de nombreuses bases faibles contiennent un atome d'azote puisque la paire libre peut agir comme un accepteur de proton.
 
@@ -183,7 +183,7 @@ A nouveau, plus la constante est **petite**, plus l'équilibre est déplacé ver
 ```{r, child=c('exe/acides-bases-50.Rmd')}
 ```
 
-\clearpage
+\newpage
 
 ```{r, child=c('exe/acides-bases-60.Rmd')}
 ```
@@ -191,7 +191,7 @@ A nouveau, plus la constante est **petite**, plus l'équilibre est déplacé ver
 ```{r, child=c('exe/acides-bases-70.Rmd')}
 ```
 
-\clearpage
+\newpage
 
 ```{r, child=c('exe/acides-bases-80.Rmd')}
 ```
@@ -199,7 +199,7 @@ A nouveau, plus la constante est **petite**, plus l'équilibre est déplacé ver
 ```{r, child=c('exe/acides-bases-90.Rmd')}
 ```
 
-\clearpage
+\newpage
 
 ## Autoprotolyse de l'eau
 
@@ -232,7 +232,7 @@ En résumé :
 ```{r, child=c('exe/acides-bases-100.Rmd')}
 ```
 
-\clearpage
+\newpage
 
 ```{r, child=c('exe/acides-bases-110.Rmd')}
 ```
@@ -240,7 +240,7 @@ En résumé :
 ```{r, child=c('exe/acides-bases-120.Rmd')}
 ```
 
-\clearpage
+\newpage
 
 ```{r, echo=FALSE}
 if (knitr::is_latex_output()) {
