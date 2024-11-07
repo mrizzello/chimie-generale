@@ -7,7 +7,7 @@ Soit la courbe de dosage suivante :
 a. Choisissez parmi les indicateurs colorés suivants le plus adapté pour réaliser un dosage simple sans courbe de pH.  
 ![](images/acides-bases-ex-2.png){width=67%}
 
-\clearpage
+\newpage
 
 b. Déterminez le volume équivalent et calculez la concentration de la solution inconnue.
 \vspace{\stretch{1}}
