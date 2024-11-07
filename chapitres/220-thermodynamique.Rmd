@@ -32,7 +32,7 @@ $$
 
 Cet exemple montre que le signe de $\Delta H$ seul ne permet pas de prédire la spontanéité d'une réaction. la thermodynamique nous permettra de déterminer si une transformation est spontanée ou non pour des conditions données.
 
-\clearpage
+\newpage
 
 Table: (\#tab:spontane-non-spontane-exemples) Exemples de transformations spontanées et non spontanées.
 
@@ -69,7 +69,7 @@ Supposons que vous construisiez un chateau de cartes. Le processus n'est pas spo
 
 Un courant d'air fait voler votre chateau de cartes par terre. Le processus est spontané car les cartes ont pris leurs nouvelles positions toute seules. Les cartes sont disposées à plat sur la table, l'énergie potentielle du système est plus basse. Les cartes sont disposées aléatoirement sur la table, le degré de désordre de votre chateau est élevé.
 
-\clearpage
+\newpage
 
 ```{r cards-castle,echo=FALSE,out.width="40%",fig.show="hold",fig.align="center",fig.cap="Deuxième loi de la thermodynamique"}
 knitr::include_graphics(c("images/cards-castle.png"))
@@ -128,7 +128,7 @@ L'entropie molaire standard ($S^o$) est l'entropie de 1 mole d'une substance aux
 
 :::
 
-\clearpage
+\newpage
 
 Les entropies molaires standard ($S^{o}$) servent surtout à calculer les variations d'entropie standard ($\Delta S^{o}$) des réactions chimiques. On peut relier la variation d'entropie aux entropies des réactifs et des produits de la même manière que pour les enthalpies de formation.
 
@@ -161,7 +161,7 @@ $$
 
 En outre, son signe (positif ou négatif) nous indique si une réaction se produira spontanément, c'est-à-dire sans apport d'énergie.
 
-\clearpage
+\newpage
 
 Pour prédire la spontanéité d'une transformation chimique ou physique, il faut connaître à la fois la variation d'enthalpie ($\Delta H$) mais également la variation d'entropie ($\Delta S$) associées à la transformation. Pour que cette relation soit vérifiée, deux conditions sont nécessaires :
 
@@ -189,7 +189,7 @@ $$
 ```{r, child=c('exe/thermodynamique-60.Rmd')}
 ```
 
-\clearpage
+\newpage
 
 Les énergies libres standard de formation ($\Delta G^o_f$) sont des valeurs que l'on peut trouver dans des tables et qui permettent de calculer l'énergie libre standard d'une réaction en utilisant la relation suivante :
 
@@ -200,7 +200,7 @@ $$
 ```{r, child=c('exe/thermodynamique-80.Rmd')}
 ```
 
-\clearpage
+\newpage
 
 ## L'énergie libre et équilibre chimique
 
@@ -234,7 +234,7 @@ Selon cette équation, plus K est grand, plus $\Delta G^o$ est négatif. Cette �
 knitr::include_graphics(c("images/dG-profile.png"))
 ```
 
-\clearpage
+\newpage
 
 ```{r, child=c('exe/thermodynamique-70.Rmd')}
 ```
@@ -244,12 +244,12 @@ knitr::include_graphics(c("images/dG-profile.png"))
 ```{r, child=c('exe/thermodynamique-40.Rmd')}
 ```
 
-\clearpage
+\newpage
 
 ```{r, child=c('exe/thermodynamique-50.Rmd')}
 ```
 
-\clearpage
+\newpage
 
 ```{r, child=c('exe/thermodynamique-90.Rmd')}
 ```

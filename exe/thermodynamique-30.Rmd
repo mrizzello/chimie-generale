@@ -30,6 +30,6 @@ $$
 
 Puisqu'il y a une diminution du nombre de moles d'espèces gazeuses après la réaction, l'entropie diminue. L'entropie des réactifs est supérieure à l'entropie des produits. Par conséquent, le changement d'entropie de la réaction est négatif.
 
-\clearpage
+\newpage
 
 :::

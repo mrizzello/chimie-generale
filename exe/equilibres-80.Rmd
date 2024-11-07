@@ -1,0 +1,42 @@
+::: {.Exercise data-latex=""}
+
+Soit l'équilibre chimique suivant :
+
+$$
+\ce{N2_{(g)} + 3 H2_{(g)} <=> 2 NH3_{(g)}}
+$$
+
+La constante d'équilibre de cette réaction à la température à laquelle elle se déroule est $K_p = \num{6e5}$.
+
+Supposons que les pressions partielles initiales des gaz dans le réacteur où a lieu le réaction soient :
+
+- $P_{\ce{N2}} = 0.50\ atm$
+- $P_{\ce{H2}} = 0.80\ atm$
+- $P_{\ce{NH3}} = 0.10\ atm$
+
+1. Calculez le quotient de réaction $Q_p$ pour l'état initial.
+\vspace{\stretch{1}}
+2. Déterminez si la réaction se déroulera dans le sens direct ou dans le sens indirect pour atteindre l'équilibre (Justifiez votre réponse à l'aide des valeurs de $Q_p$ et $K_p$).
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. Le quotient de réaction $Q_p$ est donné par :
+$$
+\begin{split}
+Q_p &= \frac{P_{\ce{NH3}}^2}{P_{\ce{N2}} \cdot P_{\ce{H2}}^3} \\
+    &= \frac{(0.10)^2}{0.50 \cdot (0.80)^3} \\
+    &= \frac{0.01}{0.50 \cdot 0.512} = \frac{0.01}{0.256} = 0.039\ [-]
+\end{split}
+$$
+
+2. Sens de la réaction :  
+Puisque $Q_p = 0.039$ et $K_p = \num{6e5}$, nous observons que :
+$$
+Q_p < K_p
+$$
+La réaction se poursuit dans le sens direct pour atteindre l'équilibre. Cela signifie que davantage de $\ce{NH3}$ sera produit au fur et à mesure que $\ce{N2}$ et $\ce{H2}$ seront consommés jusqu'à ce que le système atteigne l'équilibre.
+
+:::

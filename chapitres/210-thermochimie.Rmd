@@ -30,7 +30,7 @@ Contrairement à la matière, l'énergie n'a pas de masse et ne peut être tenue
 
 En chimie, le travail est défini comme une transfert d'énergie, résultant d'une transformation.
 
-\clearpage
+\newpage
 
 Un objet peut posséder de l'énergie sous différentes formes :
 
@@ -109,7 +109,7 @@ $$
 ```{r, child=c('exe/thermochimie-10.Rmd')}
 ```
 
-\clearpage
+\newpage
 
 ```{r, child=c('exe/thermochimie-20.Rmd')}
 ```
@@ -125,7 +125,7 @@ Le transfert d'énergie thermique accompagnant une réaction chimique est respon
 
 La quantité de chaleur absorbée ou libérée par le calorimètre est égale et de signe opposé à la quantité de chaleur produite ou consommée par la réaction.
 
-\clearpage
+\newpage
 
 ## Réactions exothermiques et endothermiques
 
@@ -244,7 +244,7 @@ $$
 
 Dans toute réaction chimique, certaines liaisons des réactifs sont rompues et de nouvelles liaisons sont formées dans les produits. La différence entre l'énergie thermique absorbée lors de la rupture des liaisons et l'énergie thermique libérée lors de la formation des liaisons est la chaleur de réaction.
 
-\clearpage
+\newpage
 
 ### Bilan énergétique d'une réaction
 
@@ -299,7 +299,7 @@ Il est correct de dire :
 
 On a donc le choix de la substance de référence, mais il faut le mentionner dans l'unité.
 
-\clearpage
+\newpage
 
 ```{r, child=c('exe/thermochimie-50.Rmd')}
 ```
@@ -310,7 +310,7 @@ On a donc le choix de la substance de référence, mais il faut le mentionner da
 ```{r, child=c('exe/thermochimie-70.Rmd')}
 ```
 
-\clearpage
+\newpage
 
 ## La variation d'enthalpie standard ($\Delta H^o$)
 
@@ -369,7 +369,7 @@ $$
 ```{r enthalpie-2,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Diagramme d'enthalpie de la combustion du méthane."}
 knitr::include_graphics(c("images/Enthalpie-2.png"))
 ```
-\clearpage
+\newpage
 
 Pour déterminer la chaleur d'une réaction par la loi de Hess, on doit suivre certaines règles.
 
@@ -426,7 +426,7 @@ knitr::include_graphics(c("images/Enthalpie-3.png"))
 ```{r, child=c('exe/thermochimie-80.Rmd')}
 ```
 
-\clearpage
+\newpage
 
 ```{r, echo=FALSE}
 if (knitr::is_latex_output()) {
