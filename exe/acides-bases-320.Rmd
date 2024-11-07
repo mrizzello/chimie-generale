@@ -26,7 +26,7 @@ $\ce{Cl-}$ n'est pas la base conjuguée de $\ce{HNO2}$ et est une base inerte.
 \vspace{1em}
 d. $\ce{HNO3}$ 0.100 [M] et $\ce{NaNO3}$ 0.100 [M]  
 $\ce{HNO3}$ est un acide fort.
-\clearpage
+\newpage
 
 
 :::

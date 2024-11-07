@@ -7,11 +7,11 @@ $$
 Quels sont les effets des changements énoncés ci-dessous sur cet équilibre chimique  ?
 
 a. Une augmentation de température. (justifiez)
-\vspace{\stretch{1}}
+\vspace{4em}
 b. Une augmentation de la pression en diminuant le volume. (justifiez)
-\vspace{\stretch{1}}
+\vspace{4em}
 c. Permettre au CH~4~ de s'échapper en continu du réacteur abritant la réaction. (justifiez)
-\vspace{\stretch{1}}
+\vspace{4em}
 
 :::
 

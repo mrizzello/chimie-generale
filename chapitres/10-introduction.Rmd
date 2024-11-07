@@ -60,7 +60,7 @@ Les transformations chimiques sont ce que nous appellerons plus tard des **réac
 ```{r, child=c('exe/introduction-10.Rmd')}
 ```
 
-\clearpage
+\newpage
 
 ## Système de mesure
 
@@ -111,7 +111,7 @@ $$ \begin{split}
 	0.00000000000000785 &= 7.85\cdot10^{-15}\\
 \end{split} $$
 
-\clearpage
+\newpage
 
 Deux relations importantes à retenir :
 
