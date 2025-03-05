@@ -184,6 +184,11 @@ $$
 pH = - \log |\ce{H3O+}| = - \log 7 \cdot 10^{-6} = 5.15\ [-]
 $$
 
+```{r, child=c('exe/acides-bases-250.Rmd')}
+```
+
+\newpage
+
 ### Exemple d'une base faible
 
 Prenons l'exemple d'une solution d'ammoniaque NH~3~ 0.200 [M], une **base faible**, dont on souhaite déterminer le pH. La démarche est la même que pour un acide faible.
@@ -242,7 +247,7 @@ $$
 pH = 14 - pOH = 14 - \log |\ce{OH-}| = 14 - \log 1.90 \cdot 10^{-3} = 11.279\ [-]
 $$
 
-```{r, child=c('exe/acides-bases-250.Rmd')}
+```{r, child=c('exe/acides-bases-280.Rmd')}
 ```
 
 ```{r, child=c('exe/acides-bases-260.Rmd')}
@@ -251,9 +256,6 @@ $$
 \newpage
 
 ```{r, child=c('exe/acides-bases-270.Rmd')}
-```
-
-```{r, child=c('exe/acides-bases-280.Rmd')}
 ```
 
 ```{r, child=c('exe/acides-bases-290.Rmd')}
