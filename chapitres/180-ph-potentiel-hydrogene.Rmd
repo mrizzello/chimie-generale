@@ -239,7 +239,7 @@ $$
 Finalement, on calcule le pH en prenant $|\ce{OH-}| = 1.90 \cdot 10^{-3}$ [M] :
 
 $$
-pH = 14 - pOH = 14 - \log |\ce{OH-}| = 14 - \log 1.90 \cdot 10^{-3} = 11.279\ [-]
+pH = 14 - pOH = 14 + \log |\ce{OH-}| = 14 + \log 1.90 \cdot 10^{-3} = 11.279\ [-]
 $$
 
 ```{r, child=c('exe/acides-bases-250.Rmd')}
