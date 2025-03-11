@@ -1,0 +1,68 @@
+::: {.Exercise data-latex=""}
+
+Dans une usine de production d'ammoniac, le procédé Haber-Bosch est utilisé pour synthétiser $\ce{NH3}$ à partir de diazote $\ce{N2}$ et de dihydrogène $\ce{H2}$ gazeux selon la réaction réversible :
+
+$$
+\ce{N2_{ (g)}} + 3 \ce{H2_{ (g)}} \ce{<=>} 2 \ce{NH3_{ (g)}}
+$$
+
+Dans un réacteur de 10.0 L, on introduit initialement 2.0 moles de $\ce{N2}$ et 6.0 moles de $\ce{H2}$ à une température de 450°C. Après que le système a atteint l'équilibre, on analyse le contenu du réacteur et on détermine que la concentration d'ammoniac est de 0.04 mol/L.
+
+
+a. Établissez le tableau de variations pour cette réaction en termes de concentrations molaires.
+\vspace{\stretch{1}}
+b. Calculez les concentrations molaires de $\ce{N2}$ et de $\ce{H2}$ à l'équilibre.
+\vspace{\stretch{1}}
+c. Déterminez la valeur de la constante d'équilibre $K_c$ pour cette réaction à 450°C.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+$$
+\ce{N2_{ (g)}} + 3 \ce{H2_{ (g)}} \ce{<=>} 2 \ce{NH3_{ (g)}}
+$$
+
+a. $$
+|\ce{N2}|_0 = \frac{2.0\ mol}{10.0\ L} = 0.20\ mol/L \qquad
+|\ce{H2}|_0 = \frac{6.0\ mol}{10.0\ L} = 0.60\ mol/L
+$$
+
+<!--
+| Concentrations [M] | $N_2\ _{(g)}$ | $3\ H_2\ _{(g)}$ | $\leftrightharpoons$ | $2\ NH_3\ _{(g)}$ |
+| -----------------: | :-----------: | :--------------: | :------------------: | :---------------: |
+|              $C_i$ |      0.2      |       0.6        |                      |         0         |
+|           $\Delta$ |      -x       |       -3x        |                      |        +2x        |
+|             $C_eq$ |    0.2 - x    |     0.6 - 3x     |                      |        2x         |
+-->
+
+\begin{center}
+    \begin{tabular}{l|c|c|c}
+        & |$\ce{N2}$| & 3 |$\ce{H2}$| & 2 |$\ce{NH3}$| \\
+        \hline
+        $C_i$ mol/L & 0.20 & 0.60 & 0 \\
+        $\Delta$ mol/L & $-x$ & $-3x$ & $+2x$ \\
+        $C_{eq}$ mol/L & $0.20 - x$ & $0.60 - 3x$ & $2x$ \\
+        \hline
+    \end{tabular}
+\end{center}
+
+b. $$
+\begin{split}
+|NH_3|_{eq} &= 0.04\ mol/L \\
+2x &= 0.04\ mol/L \\
+x &= 0.02\ mol/L \\
+\end{split}
+\qquad
+\begin{split}
+|N_2|_{eq} &= 0.20 - x = 0.20 - 0.02 = 0.18\ mol/L \\
+|H_2|_{eq} &= 0.60 - 3x = 0.60 - 3 \cdot 0.02 = 0.54\ mol/L \\
+\end{split}
+$$
+
+c. $$
+K_c = \frac{|NH_3|_{eq}^2}{|N_2|_{eq} \cdot |H_2|_{eq}^3} = \frac{(0.04)^2}{0.18 \cdot (0.54)^3} = 5.6 \cdot 10^{-2}\ [-]
+$$
+
+:::

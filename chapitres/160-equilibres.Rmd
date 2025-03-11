@@ -320,6 +320,9 @@ Si un catalyseur est ajouté à un mélange réactionnel qui n'est pas à l'équ
 ```{r, child=c('exe/equilibres-50.Rmd')}
 ```
 
+```{r, child=c('exe/equilibres-90.Rmd')}
+```
+
 \newpage
 
 ```{r, echo=FALSE}
