@@ -112,12 +112,12 @@ Les composés binaires renferment des atomes de deux éléments différents dans
 
 ### Composés binaires covalents | non-métal - non-métal
 
-Table: (\#tab:prefixes-numeriques-grecs) Table des préfixes numériques grecs.
-
 |      |       |       |       |       |       |       |       |      |       |
 | ---- | :---: | ----- | :---: | ----- | :---: | ----- | :---: | ---- | :---: |
 | mono |   1   | tri   |   3   | penta |   5   | hepta |   7   | nona |   9   |
 | di   |   2   | tetra |   4   | hexa  |   6   | octa  |   8   | deca |  10   |
+
+Table: (\#tab:prefixes-numeriques-grecs) Table des préfixes numériques grecs.
 
 L'élément le plus électronégatif est nommé en premier. Les proportions des constituants s'expriment par les préfixes "**di**", "**tri**", "**tetra**", "**penta**". Le préfixe "**mono**" n'est utilisé que pour éviter toute ambiguïté, comme pour le monoxyde de carbone, par exemple. On ajoute les préfixes aux constituants sans espaces ni tirets.
 
@@ -196,8 +196,6 @@ Si il existe plus de deux acides, on utilise les préfixes "**hypo**" et "**per*
 
 \newpage
 
-Table: (\#tab:oxacides) Les oxacides.
-
 |   acide   |    anion    |                  | nom                    |
 | :-------: | :---------: | ---------------- | ---------------------- |
 |  $HNO_2$  | $NO_2^{-}$  | nitr**ite**      | acide nitr**eux**      |
@@ -211,6 +209,8 @@ Table: (\#tab:oxacides) Les oxacides.
 | $HClO_2$  | $ClO_2^{-}$ | chlor**ite**     | acide chlor**eux**     |
 | $HClO_3$  | $ClO_3^{-}$ | chlor**ate**     | acide chlor**ique**    |
 | $HClO_4$  | $ClO_4^{-}$ | perchlor**ate**  | acide perchlor**ique** |
+
+Table: (\#tab:oxacides) Les oxacides.
 
 ### Les sels ternaires et quaternaires
 

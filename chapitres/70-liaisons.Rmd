@@ -290,8 +290,6 @@ Un alliage est un mélange homogène entre un métal de base et un ou plusieurs 
 
 \newpage
 
-Table: (#tab:exemples-alliages-communs) Exemples d'alliages communs.
-
 | métal  | composition                                          | alliages         |
 |:------:|:-----------------------------------------------------|:-----------------|
 |  fer   | fer + carbone (moins de 2% en masse de carbone)      | fonte            |
@@ -301,6 +299,8 @@ Table: (#tab:exemples-alliages-communs) Exemples d'alliages communs.
 |        | cuivre + zinc                                        | laiton           |
 |   or   | or + argent + cuivre                                 | or jaune         |
 |        | or + nickel + recouvert d'une fine couche de rhodium | or blanc         |
+
+Table: (#tab:exemples-alliages-communs) Exemples d'alliages communs.
 
 ## Exercices supplémentaires
 
