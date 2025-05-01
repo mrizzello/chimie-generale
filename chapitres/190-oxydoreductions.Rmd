@@ -47,8 +47,6 @@ Le nombre d'oxydation représente le nombre d'électrons que possède un atome d
 
 Prenons par exemple les composés covalents suivants :
 
-Table: (\#tab:tab-NO-examples) Exemples de nombres d'oxydation.
-
 |                                             |                                             |                                                |                                      |
 |:-------------------------------------------:|:-------------------------------------------:|:----------------------------------------------:|:------------------------------------:|
 |                 $\ce{H2O}$                  |                 $\ce{CO2}$                  |                 $\ce{NaHSO4}$                  |              $\ce{CH4}$              |
@@ -58,13 +56,13 @@ Table: (\#tab:tab-NO-examples) Exemples de nombres d'oxydation.
 |                                             |                                             |                  oxygène: -2                   |                                      |
 |                                             |                                             |                   soufre: +6                   |                                      |
 
+Table: (\#tab:tab-NO-examples) Exemples de nombres d'oxydation.
+
 \newpage
 
 ### Attribuer les nombres d'oxydation
 
 L'application d'une série de règles simples permet d'attribuer les états d'oxydation des atomes de la plupart des composés.
-
-Table: (\#tab:tab-NO-rules) Règles pour l'attribution des nombres d'oxydation.
 
 | Règles                                                        | Exemples                                     |    NO    |
 |:-------------------------------------------------------------|:--------------------------------------------|:--------:|
@@ -73,6 +71,8 @@ Table: (\#tab:tab-NO-rules) Règles pour l'attribution des nombres d'oxydation.
 | L'**hydrogène** a généralement un NO de +1 dans ses composés | toujours, sauf hydrures (H^-^)              |    +1    |
 | L'**oxygène** a généralement un NO de -2 dans ses composés   | toujours, sauf peroxydes (O^-^)             |    -2    |
 | Le **fluor** a généralement un NO de -1 dans ses composés    | toujours, sauf exception                    |    -1    |
+
+Table: (\#tab:tab-NO-rules) Règles pour l'attribution des nombres d'oxydation.
 
 Un élément peut porter un nombre d'oxydation différent selon l'espèce chimique dans laquelle il se trouve. Vous trouverez dans le tableau périodique, les nombres d'oxydation courants pour un élément, avec en gras, les nombres d'oxydation les plus stables.
 
@@ -120,14 +120,14 @@ Le transfert d'électrons caractérise les réaction d'oxydoréduction, il y a d
 - L'**espèce oxydée** est l'espèce qui subit l'oxydation (donneur d'électrons).
 - L'**espèce réduite** est l'espèce qui subit la réduction (accepteur d'électrons).
 
-Table: (\#tab:tab-NO-summary) Résumé des termes liés à l'oxydoréduction.
-
 |                           |               |                          |
 |:-------------------------:|:-------------:|:------------------------:|
 |         réducteur         | $\Rightarrow$ |         oxydant          |
 |       espèce oxydée       |               |      espèce réduite      |
 |    donne des éléctrons    |               |  accepte des éléctrons   |
 | état d'oxydation augmente |               | état d'oxydation diminue |
+
+Table: (\#tab:tab-NO-summary) Résumé des termes liés à l'oxydoréduction.
 
 Notez que lorsqu'on nomme l'oxydant ou le réducteur, c'est le composé entier qui est spécifié, et pas seulement l'élément qui subit le changement d'état d'oxydation.
 

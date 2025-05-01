@@ -37,8 +37,6 @@ Le soluté n'est pas forcément solide et le solvant n'est pas forcément liquid
 
 \newpage
 
-Table: (\#tab:types-solution-etats-matiere) Types de solution selon les différents états de la matière.
-
 |  soluté | solvant | exemple                                 | état de la solution |
 | :-----: | :-----: | --------------------------------------- | :-----------------: |
 |   gaz   |   gaz   | air (oxygène et azote)                  |         gaz         |
@@ -50,6 +48,8 @@ Table: (\#tab:types-solution-etats-matiere) Types de solution selon les différe
 |   gaz   |  solide | hydrogène dans le palladium             |        solide       |
 | liquide |  solide | mercure dans l'or                       |        solide       |
 |  solide |  solide | laiton (zinc et cuivre)                 |        solide       |
+
+Table: (\#tab:types-solution-etats-matiere) Types de solution selon les différents états de la matière.
 
 ### La dissolution
 

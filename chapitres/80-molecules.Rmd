@@ -32,14 +32,14 @@ Ensuite, à chaque valeur de NS correspond une géométrie de molécule.
 
 \newpage
 
-Table: (\#tab:tab-vsepr) Géométries VSEPR.
-
 |  NS |          nom         | angles de liaisons |           représentation           |                exemple               |
 | :-: | :------------------: | :----------------: | :--------------------------------: | :----------------------------------: |
 |  2  |       linéaire       |        180°        | ![](images/vsepr-1.png){width=4em} | ![](images/mol3D/CO2.png){width=6em} |
 |  3  |    trigonale plan    |        120°        | ![](images/vsepr-2.png){width=4em} | ![](images/mol3D/BF3.png){width=6em} |
 |  4  |       tétraèdre      |       109.5°       | ![](images/vsepr-3.png){width=4em} | ![](images/mol3D/CH4.png){width=6em} |
 |  5  | bipyramide trigonale |     120° et 90°    | ![](images/vsepr-4.png){width=4em} | ![](images/mol3D/PH5.png){width=6em} |
+
+Table: (\#tab:tab-vsepr) Géométries VSEPR.
 
 Il existe des géométries pour des valeurs de NS supérieures à 5, mais elles ne sont pas représentées dans ce tableau.
 
@@ -132,13 +132,13 @@ knitr::include_graphics(c("images/dna.png"))
 
 ### Résumé des forces intermoléculaires
 
-Table: (#tab:comparatif-intermoleculaires) Comparatif des forces intermoléculaires.
-
 | Interaction                | Intensité             | Caractéristiques                  |
 | :------------------------- | :-------------------- | :-------------------------------- |
 | Liaisons hydrogène         | moyenne (8–40 kJ/mol) | entre liaisons O-H, N-H et/ou F-H |
 | Interactions dipôle-dipôle | faible (14 kJ/mol)    | entre molécules polaires          |
 | Forces de dispersion       | faible (2–10 kJ/mol)  | entre toutes molécules            |
+
+Table: (#tab:comparatif-intermoleculaires) Comparatif des forces intermoléculaires.
 
 \newpage
 

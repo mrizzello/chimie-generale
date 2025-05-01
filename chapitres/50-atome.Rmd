@@ -37,13 +37,13 @@ La matière est formée d'atomes et les atomes sont formés de particules subato
 
 Les mêmes particules subatomiques constituent tous les atomes. La seule chose qui varie d'un élément à l'autre est le nombre des particules subatomiques.
 
-Table: (#tab:particules-subatomiques) Les particules subatomiques.
-
 | particule | symbole |  charge [Coulomb]   | charge relative |      masse [kg]      |  masse relative  |
 | --------- | :-----: | :-----------------: | :-------------: | :------------------: | :--------------: |
 | proton    | $p^{+}$ | $+1.6\cdot10^{-19}$ |       +1        | $1.673\cdot10^{-27}$ |        1         |
 | neutron   | $n^{}$  |          0          |        0        | $1.675\cdot10^{-27}$ |   $\approx$ 1    |
 | électron  | $e^{-}$ | $-1.6\cdot10^{-19}$ |       -1        | $9.12\cdot10^{-31}$  | $\frac{1}{1834}$ |
+
+Table: (#tab:particules-subatomiques) Les particules subatomiques.
 
 Le proton porte une unité de charge positive, l'électron porte une unité de charge négative, et le neutron n'est pas chargé, il est électriquement neutre.
 
@@ -224,8 +224,6 @@ Une mole contient exactement $6.02214076\cdot10^{23}$ entités élémentaires.
 
 Des techniques telles que la spectrométrie de masse, qui permettent de compter très précisément les atomes, ont été utilisées pour déterminer ce nombre. Ce nombre, noté $N_A$, est appelé **nombre d'Avogadro** et dans le cadre de ce cours nous allons arrondir ce nombre à $6.022\:\cdot\:10^{23}$.
 
-Table: (#tab:unites-de-comptage) Unités de comptage.
-
 |   unité   |      nombre d'entités       | exemple                        |
 | :-------: | :-------------------------: | :----------------------------- |
 |   paire   |          2 entités          | une paire de chaussures        |
@@ -233,6 +231,8 @@ Table: (#tab:unites-de-comptage) Unités de comptage.
 | douzaine  |         12 entités          | une douzaine d'oranges         |
 | vingtaine |         20 entités          | une vingtaine de personnes     |
 |   mole    | $6.022\cdot10^{23}$ entités | une mole d'atomes de potassium |
+
+Table: (#tab:unites-de-comptage) Unités de comptage.
 
 Une mole d'atomes, une mole de molécules, ou une mole de quoi que ce soit contiennent toutes $6.022\cdot10^{23}$ objets.
 

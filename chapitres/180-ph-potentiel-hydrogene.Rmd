@@ -46,12 +46,12 @@ En général, à 25°C :
 knitr::include_graphics(c("images/echelle-pH-1.png"))
 ```
 
-Table: (\#tab:echelle-pH-1) Concentrations en [M] de H^+^ et OH^-^ pour différentes valeurs de pH.
-
 |     pH     |    1    |    2    |    3    |    4    |   5    |   6    |   7    |   8    |   9    |   10    |   11    |   12    |   13    |
 |:----------:|:-------:|:-------:|:-------:|:-------:|:------:|:------:|:------:|:------:|:------:|:-------:|:-------:|:-------:|:-------:|
 | $\ce{H+}$  | 10^-1^  | 10^-2^  | 10^-3^  | 10^-4^  | 10^-5^ | 10^-6^ | 10^-7^ | 10^-8^ | 10^-9^ | 10^-10^ | 10^-11^ | 10^-12^ | 10^-13^ |
 | $\ce{OH-}$ | 10^-13^ | 10^-12^ | 10^-11^ | 10^-10^ | 10^-9^ | 10^-8^ | 10^-7^ | 10^-6^ | 10^-5^ | 10^-4^  | 10^-3^  | 10^-2^  | 10^-1^  |
+
+Table: (\#tab:echelle-pH-1) Concentrations en [M] de H^+^ et OH^-^ pour différentes valeurs de pH.
 
 L'échelle de pH est une échelle logarithmique, ce qui signifie que la variation d'unité de pH fait varier la concentration en H~3~O^+^ d'un facteur de 10. De même, il est possible de déterminer la concentration en H~3~O^+^ (et donc en OH^-^) de toute solution, connaissant le pH :
 

@@ -68,8 +68,6 @@ La chimie est une science qui se base sur des résultats expérimentaux ou des t
 
 Un système de mesure universel, le Système International (SI) a été adopté en 1960 par la Conférence Générale des Poids et Mesures. Le SI comporte sept unités de base.
 
-Table: (\#tab:tab-SIunits) Unités de base du Système International.
-
 | Unité SI          | Symbole | Grandeur                                   |
 | ----------------- | :-----: | ------------------------------------------ |
 | le **mètre**      | m       | unité de longueur                          |
@@ -79,6 +77,8 @@ Table: (\#tab:tab-SIunits) Unités de base du Système International.
 | le **kelvin**     | K       | unité de température                       |
 | la **candela**    | cd      | unité d’intensité lumineuse                |
 | la **mole**       | mol     | unité de quantité de matière               |
+
+Table: (\#tab:tab-SIunits) Unités de base du Système International.
 
 ## Les puissances de 10
 
@@ -128,8 +128,6 @@ $$ \begin{split}
 
 ## Multiples des unités
 
-Table: (\#tab:tab-SImultiples) Multiples et sous-multiples décimaux des unités du système international (SI).
-
 |   Facteur  | Préfixe SI | Symbole SI |  Facteur  | Préfixe SI | Symbole SI |
 | :--------: | :--------: | :--------: | :-------: | :--------: | :--------: |
 |  $10^{-1}$ |    déci    |      d     |    $10$   |    déca    |     da     |
@@ -140,6 +138,8 @@ Table: (\#tab:tab-SImultiples) Multiples et sous-multiples décimaux des unités
 | $10^{-12}$ |    pico    |      p     | $10^{12}$ |    téra    |      T     |
 | $10^{-15}$ |    femto   |      f     | $10^{15}$ |    péta    |      P     |
 | $10^{-18}$ |    atto    |      a     | $10^{18}$ |     exa    |      E     |
+
+Table: (\#tab:tab-SImultiples) Multiples et sous-multiples décimaux des unités du système international (SI).
 
 \newpage
 
