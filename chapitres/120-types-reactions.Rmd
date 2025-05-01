@@ -171,13 +171,13 @@ knitr::include_graphics(c("images/pH-echelle.png"))
 
 En regardant une solution, on ne peut pas dire si il s'agit d'une solution acide, basique ou neutre. Certains composés ont la propriété de changer de couleur selon qu'ils se trouvent en milieu acide ou basique. On appelle ces composés des **indicateurs acide-base**.
 
-Table: (\#tab:indicateur-acide-base) Indicateur acide-base.
-
 | composé                   | couleur acide | couleur basique |
 | ------------------------- | :-----------: | :-------------: |
 | Bleu de bromothymol (BBT) |     jaune     |      bleu       |
 | Rouge de phénol           |     jaune     |      rouge      |
 | Rouge neutre              |     rouge     |      jaune      |
+
+Table: (\#tab:indicateur-acide-base) Indicateur acide-base.
 
 ## Réactions de combustion
 

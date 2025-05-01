@@ -73,13 +73,13 @@ knitr::include_graphics(c("images/acides-bases-2.png"))
 
 Le tableau ci-dessous résume les trois définitions acide-base.
 
-Table: (\#tab:acides-bases-definitions) Définitions des acides et des bases.
-
 |                |              ACIDE               |               BASE                |
-|:---------------|:--------------------------------:|:---------------------------------:|
+| :------------- | :------------------------------: | :-------------------------------: |
 | Arrhénius      | libère des ions H^+^ en solution | libère des ions OH^-^ en solution |
 | Brønsted-Lowry |         donneur de H^+^          |         accepteur de H^+^         |
 | Lewis          |   accepteur d'une paire libre    |     donneur d'une paire libre     |
+
+Table: (\#tab:acides-bases-definitions) Définitions des acides et des bases.
 
 Considérons maintenant la réaction suivante :
 
@@ -124,19 +124,19 @@ La force d'un acide ou d'une base est déterminée par le degré de dissociation
 - Un acide ou une base sera **fort(e)** s'il s'ionise (se dissocie) **complètement**.
 - Un acide ou une base sera **faible** s'il ne s'ionise (se dissocie) que **partiellement**.
 
-|                   ACIDE FORT                   |                  BASE FORTE                   |
-|:----------------------------------------------:|:---------------------------------------------:|
+|                          ACIDE FORT                           |                          BASE FORTE                          |
+| :-----------------------------------------------------------: | :----------------------------------------------------------: |
 | $\ce{HA_{(aq)} + H2O_{(l)} -> H3O^{+}_{(aq)} + A^{-}_{(aq)}}$ | $\ce{B_{(aq)} + H2O_{(l)} -> BH^{+}_{(aq)} + OH^{-}_{(aq)}}$ |
-|   ![](images/acides-forts-1.png){width=40%}    |   ![](images/bases-fortes-1.png){width=40%}   |
-|         $\ce{HCl}, \ce{HBr}, \ce{HI},$         |       $\ce{LiOH}, \ce{NaOH}, \ce{KOH},$       |
-|            $\ce{HNO3}, \ce{HClO4}$             |  $\ce{Sr(OH)2}, \ce{Ca(OH)2}, \ce{Ba(OH)2}$   |
+|           ![](images/acides-forts-1.png){width=40%}           |          ![](images/bases-fortes-1.png){width=40%}           |
+|                $\ce{HCl}, \ce{HBr}, \ce{HI},$                 |              $\ce{LiOH}, \ce{NaOH}, \ce{KOH},$               |
+|                    $\ce{HNO3}, \ce{HClO4}$                    |          $\ce{Sr(OH)2}, \ce{Ca(OH)2}, \ce{Ba(OH)2}$          |
 
 Avec une ionisation complète, il s'ensuit que pour un monoacide fort (particule capable de libérer un seul proton en solution), |H~3~O^+^| = C~acide~. Il en va de même pour les bases fortes, |OH^-^| = C~base~.
 
-|                  ACIDE FAIBLE                   |                  BASE FAIBLE                   |
-|:-----------------------------------------------:|:----------------------------------------------:|
+|                          ACIDE FAIBLE                          |                          BASE FAIBLE                          |
+| :------------------------------------------------------------: | :-----------------------------------------------------------: |
 | $\ce{HA_{(aq)} + H2O_{(l)} <=> H3O^{+}_{(aq)} + A^{-}_{(aq)}}$ | $\ce{B_{(aq)} + H2O_{(l)} <=> BH^{+}_{(aq)} + OH^{-}_{(aq)}}$ |
-|   ![](images/acides-faibles-1.png){width=40%}   |   ![](images/bases-faibles-1.png){width=40%}   |
+|          ![](images/acides-faibles-1.png){width=40%}           |          ![](images/bases-faibles-1.png){width=40%}           |
 
 Dans le cas d'un acide faible partiellement ionisé : |HA| >>> |H3O^+^|. Dans le cas d'une base faible partiellement ionisé : |B| >>> |OH^-^|.
 
@@ -149,6 +149,19 @@ De plus, de nombreuses bases faibles contiennent un atome d'azote puisque la pai
 ```{r acides-bases-3,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Exemple de base faible azotée."}
 knitr::include_graphics(c("images/acides-bases-3.png"))
 ```
+
+| Nom           |              Amine |       Forme protonnée |        Exemple de sel |
+| :------------ | -----------------: | --------------------: | --------------------: |
+| ammoniac      |         $\ce{NH3}$ |          $\ce{NH4^+}$ |          $\ce{NH4Cl}$ |
+| méthylamine   |      $\ce{CH3NH2}$ |       $\ce{CH3NH3^+}$ |       $\ce{CH3NH3Cl}$ |
+| éthylamine    |   $\ce{CH3CH2NH2}$ |    $\ce{CH3CH2NH3^+}$ |    $\ce{CH3CH2NH3Cl}$ |
+| phénylamine   |     $\ce{C6H5NH2}$ |      $\ce{C6H5NH3^+}$ |      $\ce{C6H5NH3Cl}$ |
+| diméthylamine |    $\ce{(CH3)2NH}$ |    $\ce{(CH3)2NH2^+}$ |    $\ce{(CH3)2NH2Cl}$ |
+| diéthylamine  | $\ce{(CH3CH2)2NH}$ | $\ce{(CH3CH2)2NH2^+}$ | $\ce{(CH3CH2)2NH2Cl}$ |
+
+Table: (\#tab:acides-bases-amines) Exemples de bases azotées faibles.
+
+\newpage
 
 ## Constante d'acidité K~a~ et constante de basicité K~b~
 
@@ -178,7 +191,7 @@ $$
 K_b = \frac{|\ce{BH+}| \cdot |\ce{OH-}|}{|\ce{B}|}
 $$
 
-A nouveau, plus la constante est **petite**, plus l'équilibre est déplacé vers la **gauche** et donc plus la base est **faible**.
+À nouveau, plus la constante est **petite**, plus l'équilibre est déplacé vers la **gauche** et donc plus la base est **faible**.
 
 ```{r, child=c('exe/acides-bases-50.Rmd')}
 ```
@@ -223,11 +236,11 @@ $$
 
 En résumé :
 
-|                           |                                            |
-|:--------------------------|:------------------------------------------:|
-| Dans de l'eau pure        | $|\ce{H3O+}| = |\ce{OH-}| = 10^{-7} [M]$ |
-| Dans une solution acide   |         $|\ce{H3O+}| > |\ce{OH-}|$         |
-| Dans une solution basique |         $|\ce{H3O+}| < |\ce{OH-}|$         |
+|                           |       |
+| :------------------------ | :---: |
+| Dans de l'eau pure        |   $   | \ce{H3O+} | = | \ce{OH-} | = 10^{-7} [M]$ |
+| Dans une solution acide   |   $   | \ce{H3O+} | > | \ce{OH-} | $              |
+| Dans une solution basique |   $   | \ce{H3O+} | < | \ce{OH-} | $              |
 
 ```{r, child=c('exe/acides-bases-100.Rmd')}
 ```

@@ -78,8 +78,6 @@ Il y a au total 18 familles et il existe différentes manières de les numérote
 
 <!-- Les familles qui sont désigné avec un A sont appelés les **éléments de groupe principal**, les familles qui sont désigné avec un B sont appelés les **éléments de transition**. -->
 
-Table: (#tab:noms-groupes-courants) Noms de quelques groupes couramment employés.
-
 | Groupe | nom                           | éléments               |
 | :----: | :---------------------------- | :--------------------- |
 |   I    | métaux alcalins               | Li, Na, K, Rb, Cs, Fr  |
@@ -87,6 +85,8 @@ Table: (#tab:noms-groupes-courants) Noms de quelques groupes couramment employé
 |   VI   | chalcogènes                   | O, S, Se, Te, Po       |
 |  VII   | halogènes                     | F, Cl, Br, I, At       |
 |  VIII  | les gaz rares (ou gaz nobles) | He, Ne, Ar, Kr, Xe, Rn |
+
+Table: (#tab:noms-groupes-courants) Noms de quelques groupes couramment employés.
 
 Les **éléments de transition internes** ont été décalés dans le tableau périodique afin de rendre ce dernier plus compact.
 
@@ -152,8 +152,6 @@ crédit : wikimedia/Benjamin ABEL
 
 Les ondes électromagnétiques sont classées en différentes catégories selon leur longueur d'onde. Les plus connues sont celles de la lumière visible (entre 400 et 750 [nm], environ) mais il existe d'autres rayonnements que l'oeil ne perçoit pas.
 
-Table: (#tab:domaine-spectre-visible) Domaine du spectre visible.
-
 | couleur | longueur d'onde [nm] | fréquence [10^14^ Hz] | énergie [eV] |
 | :------ | :------------------: | :-------------------: | :----------: |
 | violet  |         400          |         7.50          |     3.10     |
@@ -163,6 +161,8 @@ Table: (#tab:domaine-spectre-visible) Domaine du spectre visible.
 | jaune   |         580          |         5.16          |     2.14     |
 | orange  |         600          |         5.00          |     2.06     |
 | rouge   |         650          |         4.62          |     1.91     |
+
+Table: (#tab:domaine-spectre-visible) Domaine du spectre visible.
 
 \newpage
 
@@ -189,8 +189,6 @@ Ce modèle introduit une description mathématique du mouvement de l'électron a
 
 \newpage
 
-Table: (#tab:couches-sous-couches-orbitales) Résumé des couches, sous-couches et orbitales.
-
 | couche | sous-couche | orbitales | électrons | total électrons |
 | :----: | :---------: | :-------: | :-------: | :-------------: |
 | **1**  |      s      |     1     |     2     |      **2**      |
@@ -204,6 +202,7 @@ Table: (#tab:couches-sous-couches-orbitales) Résumé des couches, sous-couches 
 |        |      d      |     5     |    10     |                 |
 |        |      f      |     7     |    14     |                 |
 
+Table: (#tab:couches-sous-couches-orbitales) Résumé des couches, sous-couches et orbitales.
 
 Selon ce modèle, les électrons d'un atome gravitent autour de l'atome à des niveaux d'énergie différents. Ces niveaux sont appelés **couches** et sont situés à différentes distances du noyau. Les couches sont numérotées de 1 à 7 et plus le numéro de la couche est petit, plus la couche est proche du noyau.
 
@@ -255,8 +254,6 @@ Pour simplifier la notation de la configuration électronique, on indique que le
 
 $$ \underbrace{1s^{2}~2s^{2}~2p^{6}}_{\text{Néon}}~3s^{2}~3p^{5} \text{ devient } [Ne]~3s^{2}~3p^{5} $$
 
-Table: (#tab:conf-elec-premieres-periodes) Configuration électronique des deux premières périodes.
-
 | Groupe | Elément | Conf. électronique               | Elément | Conf. électronique                |
 | :----: | :-----: | :------------------------------- | :-----: | :-------------------------------- |
 |   I   |   Li    | [He] $2s^{1}$                    |   Na    | [Ne] $3s^{1}$                     |
@@ -267,6 +264,8 @@ Table: (#tab:conf-elec-premieres-periodes) Configuration électronique des deux 
 |  VI   |    O    | [He] $2s^{2}~2p^{4}$             |    S    | [Ne] $3s^{2}~3p^{4}$              |
 |  VII  |    F    | [He] $2s^{2}~2p^{5}$             |   Cl    | [Ne] $3s^{2}~3p^{5}$              |
 | VIII  |   Ne    | [He] $2s^{2}~2p^{6} \equiv$ [Ne] |   Ar    | [He] $3s^{2}~3p^{6} \equiv $ [Ar] |
+
+Table: (#tab:conf-elec-premieres-periodes) Configuration électronique des deux premières périodes.
 
 La configuration électronique du niveau de plus basse énergie est appelée **état fondamental**. Les configurations dont la distribution des électrons est différente de l'état fondamental sont appelées **états excités**.
 
@@ -299,12 +298,12 @@ On utilise les règles suivantes pour dessiner la structure de Lewis d'un atome:
 - On place un point à la fois sur chacun des quatre côtés du symbole de l'élément.
 - On continue d'ajouter des points, en les appariant, jusqu'à ce que tous les électrons de valence soient utilisés.
 
-Table: (#tab:structure-lewis-groupe-principal) Structure de Lewis des éléments du groupe principal (c = célibataire, p = paire).
-
 |                    I                     |                    II                    |                    III                    |                    IV                    |                     V                      |                     VI                     |                    VII                     |                   VIII                    |
 | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: | :----------------------------------------: | :----------------------------------------: | :----------------------------------------: | :--------------------------------------: |
 | ![](images/lewis-dots-1c.png){width=3em} | ![](images/lewis-dots-2c.png){width=3em} | ![](images/lewis-dots-3c.png){width=3em} | ![](images/lewis-dots-4c.png){width=3em} | ![](images/lewis-dots-1p3c.png){width=3em} | ![](images/lewis-dots-2p2c.png){width=3em} | ![](images/lewis-dots-3p1c.png){width=3em} | ![](images/lewis-dots-4p.png){width=3em} |
 |                    1c                    |                    2c                    |                    3c                    |                    4c                    |                   1p 3c                    |                   2p 2c                    |                   3p 1c                    |                    4p                    |
+
+Table: (#tab:structure-lewis-groupe-principal) Structure de Lewis des éléments du groupe principal (c = célibataire, p = paire).
 
 ```{r, child=c('exe/tableau-periodique-20.Rmd')}
 ```
