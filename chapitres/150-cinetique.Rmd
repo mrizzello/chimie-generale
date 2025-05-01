@@ -209,8 +209,6 @@ On distingue différents types de catalyseurs:
 
 Les enzymes sont des catalyseurs naturels responsables d'innombrables réactions biochimiques essentielles. De nombreux procédés chimiques industriels se basent également sur les réactions catalysées et la fabrication de catalyseurs est elle-même un processus industriel.
 
-Table: (\#tab:tab-catalyseurs) Exemples de procédés catalytiques et leurs catalyseurs
-
 | procédé | catalyseur |
 | ------- | ------- |
 | synthèse de l'ammoniac | fer |
@@ -218,6 +216,8 @@ Table: (\#tab:tab-catalyseurs) Exemples de procédés catalytiques et leurs cata
 | craquage du pétrole | zéolites |
 | hydrogénation d'hydrocarbures insaturés | nickel, platine ou palladium |
 | oxydation d'hydrocarbures dans les gaz d'échappement | oxyde de cuivre (II), oxyde de vanadium (V), platine, palladium |
+
+Table: (\#tab:tab-catalyseurs) Exemples de procédés catalytiques et leurs catalyseurs
 
 ```{r, echo=FALSE}
 if (knitr::is_latex_output()) {

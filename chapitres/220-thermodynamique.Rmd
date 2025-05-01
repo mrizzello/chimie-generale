@@ -34,13 +34,13 @@ Cet exemple montre que le signe de $\Delta H$ seul ne permet pas de prédire la 
 
 \newpage
 
-Table: (\#tab:spontane-non-spontane-exemples) Exemples de transformations spontanées et non spontanées.
-
 | Spontané                                                                                       | Non spontané                                                                                  |
 | :--------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------- |
 | La glace fond à température ambiante.                                                          | La glace solidifie à température ambiante.                                                    |
 | Le sodium métallique réagit avec l'eau pour former de l'hydroxyde de sodium et du dihydrogène. | L'hydroxyde de sodium réagit avec l'hydrogène pour produire du sodium métallique et de l'eau. |
 | La corrosion du fer à température ambiante.                                                    | La transformation de la rouille en fer métallique à température ambiante.                     |
+
+Table: (\#tab:spontane-non-spontane-exemples) Exemples de transformations spontanées et non spontanées.
 
 ## L'entropie (S)
 
@@ -170,13 +170,13 @@ Pour prédire la spontanéité d'une transformation chimique ou physique, il fau
 
 Cette relation nous permet de prédire la spontanéité d'une réaction lorsqu'on connaît la variation d'enthalpie, la variation d'entropie et la température. 
 
-Table: (\#tab:spontaneitedHdS) Spontanéité d'une réaction selon le signe de $\Delta G$.
-
 |                |                              |                           |
 | :------------: | :--------------------------- | :------------------------ |
 | $\Delta G < 0$ | Réaction **spontanée**       | **Réaction exergonique**  |
 | $\Delta G > 0$ | Réaction **non spontanée**   | **Réaction endergonique** |
 | $\Delta G = 0$ | Le système est à l'équilibre |                           |
+
+Table: (\#tab:spontaneitedHdS) Spontanéité d'une réaction selon le signe de $\Delta G$.
 
 ## L'énergie libre standard de réaction ($\Delta G^o$)
 
@@ -220,13 +220,13 @@ $$
 0 = \Delta G^o + RT \cdot ln(K) \quad \Rightarrow \quad \Delta G^o = - RT \cdot ln(K)
 $$
 
-Table: (\#tab:spontaneiteDGK) Relation entre constante d'équilibre (K) et énergie libre standard de réaction ($\Delta G^o$).
-
 |  $K$  | $ln(K)$ | $\Delta G^o$ | Résultat à l'équilibre                  |
 | :---: | :-----: | :----------: | :-------------------------------------- |
 |  > 1  | positif |   négatif    | Les produits sont favorisés             |
 |  = 1  |   nul   |     nul      | Ni produits, ni réactifs sont favorisés |
 |  < 1  | négatif |   positif    | Les réactifs sont favorisés             |
+
+Table: (\#tab:spontaneiteDGK) Relation entre constante d'équilibre (K) et énergie libre standard de réaction ($\Delta G^o$).
 
 Selon cette équation, plus K est grand, plus $\Delta G^o$ est négatif. Cette équation permet de déterminer la constante d'équilibre d'une réaction si l'on connaît la variation de l'énergie libre standard, et vice versa.
 

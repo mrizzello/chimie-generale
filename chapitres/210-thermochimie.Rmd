@@ -218,8 +218,6 @@ $$
 \end{split}
 $$
 
-Table: (\#tab:tab-energie-liaison) Énergies de liaison moyennes de liaisons communes
-
 |   liaison    | kJ/mol |   liaison   | kJ/mol |  liaison   |                                   kJ/mol                                    |
 |:------------:|:------:|:-----------:|:------:|:----------:|:---------------------------------------------------------------------------:|
 |  $\ce{C-H}$  |  413   | $\ce{N-H}$  |  391   | $\ce{C=C}$ |                                     614                                     |
@@ -229,6 +227,8 @@ Table: (\#tab:tab-energie-liaison) Énergies de liaison moyennes de liaisons com
 | $\ce{C-Cl}$  |  339   | $\ce{H-H}$  |  432   | $\ce{N=O}$ |                                     607                                     |
 | $\ce{Cl-Cl}$ |  243   | $\ce{O-H}$  |  467   | $\ce{O#N}$ |                                     891                                     |
 | $\ce{H-Cl}$  |  427   | $\ce{O-Cl}$ |  203   | $\ce{N#N}$ |                                     946                                     |
+
+Table: (\#tab:tab-energie-liaison) Énergies de liaison moyennes de liaisons communes
 
 - La rupture de liaisons, un processus qui absorbe de la chaleur, est endothermique.
 - La formation d'une liaison, un processus qui libère de la chaleur, est exothermique.
