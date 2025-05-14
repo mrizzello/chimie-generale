@@ -278,10 +278,10 @@ $$
 On note que l'hydrogène, le chlore et l'oxygène ne changent pas d'état d'oxydation, ils ne sont donc pas impliqués dans l'échange d'électrons. Concentrons donc notre attention sur Sn et N :
 
 $$
-\begin{split}
-\ce{Sn} & \ce{-> Sn^{+4} + 4e^−} \quad \text{oxydation} \\
-\ce{NO3^- + 1e^−} & \ce{-> NO2(g)} \quad \text{réduction}
-\end{split}
+\begin{aligned}
+\ce{\overset{0}{Sn}} & \ce{-> \overset{+4}{Sn} + 4e^−} &\quad (\times 1) &\quad \text{oxydation} \\
+\ce{\overset{+5}{N} + 1e^−} & \ce{-> \overset{+4}{N}} &\quad (\times 4) &\quad \text{réduction}
+\end{aligned}
 $$
 
 Chaque atome d'étain va libérer 4 électrons qui seront acceptés chacuns par un atome d'azote. Cela signifie qu'il faut multiplier par un coefficient de 4 les espèces contenant de l'azote.
