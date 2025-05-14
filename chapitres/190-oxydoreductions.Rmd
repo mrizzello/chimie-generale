@@ -202,7 +202,7 @@ $$
 $$
 
 - $\ce{Cu^{2+}}$ est un oxydant plus fort que $\ce{Zn^{2+}}$.
-- $\ce{Zn}$ est un réducteur le plus fort que $\ce{Zn}$.
+- $\ce{Zn}$ est un réducteur plus fort que $\ce{Cu}$.
 
 ### Règle du gamma
 
