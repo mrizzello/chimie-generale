@@ -16,6 +16,8 @@ jobs:
         run: Rscript -e 'install.packages(c("rmarkdown","bookdown","tinytex"))'
       - name: Install tinytex
         run: Rscript -e 'tinytex::install_tinytex()'
+      - name: Update tlmgr (TeX Live package manager)
+        run: tlmgr update --self && tlmgr update --all
       - name: Install latex packages
         run: tlmgr install tcolorbox tabto-ltx
       - name: Render Book
