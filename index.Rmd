@@ -30,9 +30,9 @@ Ce manuel fournit aux étudiants (OS et DF) les connaissances de base nécessair
 
 Le document est en cours de rédaction et des ajouts ou modifications peuvent avoir lieu en cours d'année scolaire. Chaque révision visera à améliorer la qualité et la précision du contenu et à souligner sa pertinence pour les étudiants.
 
-Le contenu est disponible en ligne au format HTML à l'url [www.chimiegenerale.ch](www.chimiegenerale.ch), adresse à laquelle il est également possible de télécharger le contenu au format PDF ou EPUB (format standardisé pour les livres numériques). Le document est édité en utilisant la technologie [bookdown](https://bookdown.org/) qui permet de rédiger des livres HTML, PDF, ePub en utilisant la syntaxe R Markdown.
+Le contenu est disponible en ligne au format HTML à l'url [www.chimiegenerale.ch](www.chimiegenerale.ch), adresse à laquelle il est également possible de télécharger le contenu au format PDF. Le document est édité en utilisant la technologie [bookdown](https://bookdown.org/) qui permet de rédiger des livres HTML, PDF, ePub en utilisant la syntaxe R Markdown.
 
-Ce projet est ouvert aux contributions et aux suggestions. Si vous souhaitez participer à son amélioration, le code source est disponible sur la plateforme GitHub à l'adresse [https://github.com/mrizzello/chimie-generale](https://github.com/mrizzello/chimie-generale). Nous serions heureux de faire évoluer ce document vers un projet participatif de plus grande ampleur. Vous pouvez créer une _Pull Request_ ou une _Issue_ sur GitHub et nous l'examinerons dès que possible.
+Ce projet est ouvert aux contributions et aux suggestions. Si vous souhaitez participer à son amélioration, le code source est disponible sur la plateforme GitHub à l'adresse [https://github.com/mrizzello/chimie-generale](https://github.com/mrizzello/chimie-generale). Nous serions heureux de faire évoluer ce document vers un projet participatif de plus grande ampleur. Vous pouvez créer une _Pull Request_ ou une _Issue_ sur GitHub que nous examinerons dès que possible.
 
 \vspace{\stretch{1}}
 
