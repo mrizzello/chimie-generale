@@ -28,14 +28,14 @@ a. $$
 $$  
 b. $$
 \begin{split}
-& 3 \overset{+4\ }{\ce{SO2}} + 2 \overset{+7}{\ce{KMnO4}} + 4 KOH \rightarrow 3 \overset{+6}{\ce{K2SO4}} + 2 \overset{+4\ }{\ce{MnO2}} + 2 H2O \\
+& 3 \overset{+4\ }{\ce{SO2}} + 2 \overset{+7}{\ce{KMnO4}} + 4 \ce{KOH} \rightarrow 3 \overset{+6}{\ce{K2SO4}} + 2 \overset{+4\ }{\ce{MnO2}} + 2 \ce{H2O} \\
 & \ce{ 2 Mn^{+7} + 6e^- -> 2 Mn^{+4}} \quad \text{(réduction, $\ce{KMnO4}$ est oxydant)} \\
 & \ce{ 3 S^{+4} -> 3 S^{+6}} + 6e^- \quad \text{(oxidation, $\ce{SO2}$ est réducteur)}
 \end{split}
 $$ 
 c. $$
 \begin{split}
-& 10 \overset{+5}{\ce{KClO3}} + 2 \overset{0}{\ce{P5}} + 5 H2SO4 + 10 H2O \rightarrow 10 \overset{+5}{\ce{H3PO4}} + 5 K2SO4 + 5 \overset{0}{\ce{Cl2}} \\
+& 10 \overset{+5}{\ce{KClO3}} + 2 \overset{0}{\ce{P5}} + 5 \ce{H2SO4} + 10 \ce{H2O} \rightarrow 10 \overset{+5}{\ce{H3PO4}} + 5 \ce{K2SO4} + 5 \overset{0}{\ce{Cl2}} \\
 & \ce{ 10 P^{0} -> 10 P^{+5} + 50 e^-} \quad \text{(oxidation, $\ce{P5}$ est réducteur)} \\
 & \ce{ 10 Cl^{+5} + 50 e^- -> 10 Cl^{0}} \quad \text{(réduction, $\ce{KClO3}$ est oxydant)}
 \end{split}

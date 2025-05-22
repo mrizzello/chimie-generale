@@ -11,37 +11,33 @@
     \vspace{\stretch{1}}
     - une solution de CuSO~4~ et une solution de Br~2~.
     \vspace{\stretch{1}}
-    - une solution de Hg(NO~3~)~2~ et une solution de Sn(NO~3~)~2~.
+    - une solution de KI et une solution de Br~2~.
     \vspace{\stretch{1}}
 
 :::
 
 ::: {.Answer data-latex=""}
 
-- Mn, Al, Be, Mg, Na, Ca, K, Li.
+- Mn, Al, Mg, Na, Ca, K, Li.
 - Fe, Pb, Sn, Ni, Cr, Zn.
-- Ag, Cu.
+- Hg, Ag, Cu.
 - Réactions oxred.
     - une solution de NaCl et une solution de LiF.  
     Non. Na^+^ et Li^+^, très mauvais oxydants. Cl^-^ et F^-^, très mauvais réducteurs.
     - une solution de CuSO~4~ et une solution de Br~2~.  
     Non. Br~2~ et Cu^2+^ sont oxydants mais SO~4~^2-^ est très mauvais réducteur.
-    - une solution de Hg(NO~3~)~2~ et une solution de Sn(NO~3~)~2~.  
+    - une solution de KI et une solution de Br~2~.  
     Oui. Règle de l'oméga, réaction spontanée entre les meilleurs oxydant et réducteur.  
     $$
     \begin{split}
-      \underline{\ce{Hg^{2+}}}\ & /\	\ce{Hg} \Rightarrow\ 0.85 [V] \\
-      \underline{\ce{NO3^{-}}}\ & /\	\ce{NO2} \Rightarrow\ 0.81 [V] \\
-      \ce{Sn^{4+}}\ & /\ \underline{\ce{Sn^{2+}}} \Rightarrow\ 0.15 [V] \\
-      \underline{\ce{Sn^{2+}}}\ & /\ \ce{Sn} \Rightarrow\ -0.14 [V]
-    \end{split}
-    \qquad
-    \begin{split}
-    \ce{Sn^{2+}} & \ce{ -> Sn^{4+} + 2 e^-} \qquad \text{(oxidation)} \\
-    \ce{Hg^{2+} + 2 e^-} & \ce{ -> Hg} \qquad \text{(réduction)} \\
+    \ce{2I^{-}} & \ce{ -> I_2 + 2 e^-} \qquad \text{(oxidation)} \\
+    \ce{Br_{2} + 2 e^-} & \ce{ -> 2Br^{-}} \qquad \text{(réduction)} \\
     \hline
-    \ce{Sn^{2+} + Hg^{2+}} & \ce{ -> Sn^{4+} + Hg} \\
-    \ce{Sn(NO3)2 + Hg(NO3)2} & \ce{ -> Sn(NO3)4 + Hg}
+    \ce{2I^{-} + Br_{2}} & \ce{ -> I_{2} + 2Br^{-}}
+    \end{split}
+    \quad
+    \begin{split}
+    \ce{2KI + Br_{2}} & \ce{ -> 2KBr + I_{2}}
     \end{split}
     $$
 
