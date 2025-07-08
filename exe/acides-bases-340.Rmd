@@ -1,6 +1,6 @@
 ::: {.Exercise data-latex=""}
 
-Calculez le pH d’une solution tampon constituée d’une solution de $\ce{NH3}$ 0.12 [M] et de $\ce{NH4Cl}$ 0.18 [M].
+Calculez le pH d’une solution tampon constituée d’une solution de $\ce{NH3}$ 0.12 M et de $\ce{NH4Cl}$ 0.18 M.
 \vspace{\stretch{1}}
 
 :::
@@ -14,23 +14,23 @@ $$
 $$
 \begin{split}
 &\ce{NH3}\\
-C_i &= 0.12\ [M] \\
-\Delta C &= - x\ [M] \\
-C_f &= 0.12 - x\ [M] \\
+C_i &= 0.12\ M \\
+\Delta C &= - x\ M \\
+C_f &= 0.12 - x\ M \\
 \end{split}
 \qquad
 \begin{split}
 &\ce{NH4+}\\
-C_i &= 0.18\ [M] \\
-\Delta C &= + x\ [M] \\
-C_f &= 0.18 + x\ [M] \\
+C_i &= 0.18\ M \\
+\Delta C &= + x\ M \\
+C_f &= 0.18 + x\ M \\
 \end{split}
 \qquad
 \begin{split}
 &\ce{OH-}\\
-C_i &= 0\ [M] \\
-\Delta C &= + x\ [M] \\
-C_f &= x\ [M] \\
+C_i &= 0\ M \\
+\Delta C &= + x\ M \\
+C_f &= x\ M \\
 \end{split}
 $$
 $$
@@ -40,13 +40,13 @@ On approxime en négligeant le x :
 $$
 \begin{split}
 K_b &= \frac{x \cdot (0.18 + \cancel{x})}{0.12 - \cancel{x}} = \frac{x \cdot 0.18}{0.12} = 1.66 \cdot 10^{-5} \\
-x &= 1.66 \cdot 10^{-5} \cdot \frac{0.12}{0.18} = 1.1 \cdot 10^{-5}\ [M]
+x &= 1.66 \cdot 10^{-5} \cdot \frac{0.12}{0.18} = 1.1 \cdot 10^{-5}\ M
 \end{split}
 $$
 L'approximation est valide : $\frac{1.1 \cdot 10^{-5}}{0.12} \cdot 100\% \cong 0.01\% < 5\%$
 $$
 \begin{split}
-|\ce{OH-}| = x = 1.1 \cdot 10^{-5}\ [M] 
+|\ce{OH-}| = x = 1.1 \cdot 10^{-5}\ M 
 \end{split}
 \qquad
 \begin{split}

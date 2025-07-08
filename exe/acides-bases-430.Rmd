@@ -18,7 +18,7 @@ c. Calculez le pK~b~ de $\ce{NH3}$ et le pK~a~ de son acide conjugué.
 ::: {.Answer data-latex=""}
 
 a. Le rouge de méthyle
-b. Volume : 24 [mL]
+b. Volume : 24 mL
 $$
 \begin{split}
 C_a \cdot V_a &= C_b \cdot V_b \\
@@ -26,14 +26,14 @@ C_a \cdot V_a &= C_b \cdot V_b \\
 \end{split}
 \qquad
 \begin{split}
-C_b &= \frac{0.024\ [M] \cdot 0.05\ [L]}{0.01\ [L]} \\
-&= 0.12\ [M]
+C_b &= \frac{0.024\ M \cdot 0.05\ [L]}{0.01\ [L]} \\
+&= 0.12\ M
 \end{split}
 $$
 
 c.$$
 \begin{split}
-V_{1/2} &= 12 [ml] \Rightarrow pH = pK_a = 9.25 \\
+V_{1/2} &= 12 mL \Rightarrow pH = pK_a = 9.25 \\
 pK_b &= 14 - pK_a = 14 - 9.25 = 4.75
 \end{split}
 $$

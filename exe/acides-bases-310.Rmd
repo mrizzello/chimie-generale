@@ -2,9 +2,9 @@
 
 Calculez le pH des solutions d’acides polyprotiques suivantes :
 
-a. $\ce{H3PO4}$ 0.350 [M]
+a. $\ce{H3PO4}$ 0.350 M
 \vspace{\stretch{1}}
-b. $\ce{H2SO4}$ 0.125 [M]
+b. $\ce{H2SO4}$ 0.125 M
 \vspace{\stretch{1}}
 
 
@@ -18,23 +18,23 @@ $$
 $$
 \begin{split}
 &\ce{H3PO4}\\
-C_i &= 0.350\ [M] \\
-\Delta C &= - x\ [M] \\
-C_f &= 0.350 - x\ [M] \\
+C_i &= 0.350\ M \\
+\Delta C &= - x\ M \\
+C_f &= 0.350 - x\ M \\
 \end{split}
 \qquad
 \begin{split}
 &\ce{H2PO4-}\\
-C_i &= 0\ [M] \\
-\Delta C &= + x\ [M] \\
-C_f &= x\ [M] \\
+C_i &= 0\ M \\
+\Delta C &= + x\ M \\
+C_f &= x\ M \\
 \end{split}
 \qquad
 \begin{split}
 &\ce{H3O+}\\
-C_i &= 0\ [M] \\
-\Delta C &= + x\ [M] \\
-C_f &= x\ [M] \\
+C_i &= 0\ M \\
+\Delta C &= + x\ M \\
+C_f &= x\ M \\
 \end{split}
 $$
 $$
@@ -48,7 +48,7 @@ K_{a1} = \frac{x \cdot x}{0.350 - \cancel{x}} = \frac{x^2}{0.350} = 7.5 \cdot 10
 \qquad
 \begin{split}
 \Rightarrow x &= \sqrt{7.5 \cdot 10^{-3} \cdot 0.350} \\
-  &= 0.051\ [M]
+  &= 0.051\ M
 \end{split}
 $$
 L'approximation n'est pas valide : $\frac{0.051}{0.350} \cdot 100\% \cong 14.57\% > 5\%$
@@ -69,11 +69,11 @@ $$
 Après résolution :
 $$
 \begin{split}
-x = 0.0476\ [M]
+x = 0.0476\ M
 \end{split}
 \qquad\qquad
 \begin{split}
-x = \cancel{-0.055}\ [M] \quad \text{non valable}
+x = \cancel{-0.055}\ M \quad \text{non valable}
 \end{split}
 $$
 $$
@@ -82,23 +82,23 @@ $$
 $$
 \begin{split}
 &\ce{H2PO4-}\\
-C_i &= 0.0476\ [M] \\
-\Delta C &= - x\ [M] \\
-C_f &= 0.0476 - x\ [M] \\
+C_i &= 0.0476\ M \\
+\Delta C &= - x\ M \\
+C_f &= 0.0476 - x\ M \\
 \end{split}
 \qquad
 \begin{split}
 &\ce{HPO4^{2-}}\\
-C_i &= 0\ [M] \\
-\Delta C &= + x\ [M] \\
-C_f &= x\ [M] \\
+C_i &= 0\ M \\
+\Delta C &= + x\ M \\
+C_f &= x\ M \\
 \end{split}
 \qquad
 \begin{split}
 &\ce{H3O+}\\
-C_i &= 0.0476\ [M] \\
-\Delta C &= + x\ [M] \\
-C_f &= 0.0476 + x\ [M] \\
+C_i &= 0.0476\ M \\
+\Delta C &= + x\ M \\
+C_f &= 0.0476 + x\ M \\
 \end{split}
 $$
 $$
@@ -118,15 +118,15 @@ $$
 L'approximation est valide : $\frac{6.2 \cdot 10^{-8}}{0.0476} \cdot 100\% \approx 0\% < 5\%$
 $$
 \begin{split}
-|\ce{H3O+}|_{total} &= 0.0476\ [M] + \cancel{6.2 \cdot 10^{-8}} \quad \text{(négligeable)} \\
-&= 0.0476\ [M] \\
+|\ce{H3O+}|_{total} &= 0.0476\ M + \cancel{6.2 \cdot 10^{-8}} \quad \text{(négligeable)} \\
+&= 0.0476\ M \\
 pH &= - \log |\ce{H3O+}| = - \log 0.0476 = 1.32
 \end{split}
 $$
 b. $$
 \ce{H2SO4 + H2O <=> HSO4- + H3O+}
 $$
-Première protonation, acide fort, $|\ce{H3O+}| = 0.125\ [M]$.
+Première protonation, acide fort, $|\ce{H3O+}| = 0.125\ M$.
 
 Seconde protonation, acide faible.
 $$
@@ -135,23 +135,23 @@ $$
 $$
 \begin{split}
 &\ce{HSO4-}\\
-C_i &= 0.125\ [M] \\
-\Delta C &= - x\ [M] \\
-C_f &= 0.125 - x\ [M] \\
+C_i &= 0.125\ M \\
+\Delta C &= - x\ M \\
+C_f &= 0.125 - x\ M \\
 \end{split}
 \qquad
 \begin{split}
 &\ce{SO4^{2-}}\\
-C_i &= 0\ [M] \\
-\Delta C &= + x\ [M] \\
-C_f &= x\ [M] \\
+C_i &= 0\ M \\
+\Delta C &= + x\ M \\
+C_f &= x\ M \\
 \end{split}
 \qquad
 \begin{split}
 &\ce{H3O+}\\
-C_i &= 0.125\ [M] \\
-\Delta C &= + x\ [M] \\
-C_f &= 0.125 + x\ [M] \\
+C_i &= 0.125\ M \\
+\Delta C &= + x\ M \\
+C_f &= 0.125 + x\ M \\
 \end{split}
 $$
 $$
@@ -160,17 +160,17 @@ $$
 Après résolution :
 $$
 \begin{split}
-x = 0.0102\ [M]
+x = 0.0102\ M
 \end{split}
 \qquad\qquad
 \begin{split}
-x = \cancel{-0.147}\ [M] \quad \text{non valable}
+x = \cancel{-0.147}\ M \quad \text{non valable}
 \end{split}
 $$
 $$
 \begin{split}
-|\ce{H3O+}|_{total} &= 0.125\ [M] + 0.0102\ [M] \\
-&= 0.1352\ [M] \\
+|\ce{H3O+}|_{total} &= 0.125\ M + 0.0102\ M \\
+&= 0.1352\ M \\
 pH &= - \log |\ce{H3O+}| = - \log 0.1352 = 0.869
 \end{split}
 $$

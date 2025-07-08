@@ -156,17 +156,17 @@ $$
   2\ HI\ _{(g)} \leftrightharpoons H_2\ _{(g)} + I_2\ _{(g)}
 $$
 
-À l'équilibre, on mesure une concentration en iodure d'hydrogène, $|HI|_{eq}$ = 0.078 [M].
+À l'équilibre, on mesure une concentration en iodure d'hydrogène, $|HI|_{eq}$ = 0.078 M.
 
 On commence par calculer la concentration initiale en iodure d'hydrogène, $|HI|_{0}$.
 
 $$
-  |HI|_0 = \frac{0.2\ [mol]}{2\ [l]} = 0.1\ [M]
+  |HI|_0 = \frac{0.2\ [mol]}{2\ [l]} = 0.1\ M
 $$
 
 On peut ensuite établir un tableau des variations :
 
-| Concentrations [M] | $2\ HI\ _{(g)}$ | $\leftrightharpoons$ | $H_2\ _{(g)}$ | $I_2\ _{(g)}$ |
+| Concentrations M | $2\ HI\ _{(g)}$ | $\leftrightharpoons$ | $H_2\ _{(g)}$ | $I_2\ _{(g)}$ |
 | -----------------: | :-------------: | :------------------: | :-----------: | :-----------: |
 |           initiale |       0.1       |                      |       0       |       0       |
 |          variation |      - 2x       |                      |      + x      |      + x      |
@@ -175,13 +175,13 @@ On peut ensuite établir un tableau des variations :
 On connaît la valeur de la concentration de $HI$ à l'équilibre. On peut donc résoudre l'équation pour x :
 
 $$
-  |HI|_{eq} = 0.1\ [M] - 2 \cdot x = 0.078\ [M] \quad \rightarrow \quad x = 0.011\ [M]
+  |HI|_{eq} = 0.1\ M - 2 \cdot x = 0.078\ M \quad \rightarrow \quad x = 0.011\ M
 $$
 
 Par conséquent, les concentrations à l'équilibre sont :
 
 $$
-  |H_2|_{eq} = |I_2|_{eq} = 0.011\ [M] \quad \text{et} \quad |HI|_{eq} = 0.078\ [M]
+  |H_2|_{eq} = |I_2|_{eq} = 0.011\ M \quad \text{et} \quad |HI|_{eq} = 0.078\ M
 $$
 
 On peut donc calculer la valeur de la constante d'équilibre de la réaction à 453°C.

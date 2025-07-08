@@ -15,7 +15,7 @@ d. $\ce{CH3COOH}$ 0.10 [mol/L]
 
 ::: {.Answer data-latex=""}
 
-a. $\ce{HCl}$ 0.10 [mol/L] \tabto{12em} acide fort complètement ionisé (dissocié), |$\ce{H3O+}$| = 0.1 [M]
+a. $\ce{HCl}$ 0.10 [mol/L] \tabto{12em} acide fort complètement ionisé (dissocié), |$\ce{H3O+}$| = 0.1 M
 \vspace{1em}
 b. $\ce{HF}$ 0.10 [mol/L] \tabto{12em} $K_{a1} = 3.5 \cdot 10^{-4}$
 \vspace{1em}
