@@ -98,9 +98,9 @@ La solubilité d'un composé est la quantité maximale de soluté qui peut être
 :::
 
 - **Question** : Quelle est la solubilité de $\ce{NaCl}$ ?
-- **Réponse** : La solubilité de $\ce{NaCl}$ est de 36 [g] pour 100 [ml] à 25°C.
+- **Réponse** : La solubilité de $\ce{NaCl}$ est de 36 [g] pour 100 mL à 25°C.
 
-Cela veut dire que l'on peut dissoudre **au maximum** 36 grammes de NaCl dans 100 [ml] d'eau à 25°C. Une fois cette limite atteinte, si l'on ajoute du NaCl à la solution, il ne se dissoudra pas. La solution est **saturée**.
+Cela veut dire que l'on peut dissoudre **au maximum** 36 grammes de NaCl dans 100 mL d'eau à 25°C. Une fois cette limite atteinte, si l'on ajoute du NaCl à la solution, il ne se dissoudra pas. La solution est **saturée**.
 
 Sous certaines conditions, la limite de solubilité peut être dépassée et plus de soluté peut être dissous. Une telle solution sera appelée **solution sursaturée**. Les solutions sursaturées ne sont pas stables. L'ajout d'un **germe cristallin**, un petit cristal de soluté, entraînera la cristallisation de l'excès de soluté.
 
@@ -240,13 +240,13 @@ $$
 \begin{split}
   n &\text{ : Nombre de moles de soluté en [mol]} \\
   V &\text{ : Volume de solution en [l]} \\
-  C &\text{ : Concentration du soluté en [mol/l] ou [M]}
+  C &\text{ : Concentration du soluté en [mol/l] ou M}
 \end{split}
 $$
 
 En chimie, la concentration molaire d'une espèce A est notée entre deux barres verticales, **|A|**. Par exemple, une concentration en acide sulfurique (H~2~SO~4~) de 0.5 [mol/l] sera notée:
 
-$$ |H_2SO_4| = 0.5\ [M] \text{ ou } [mol/l] $$
+$$ |H_2SO_4| = 0.5\ M \text{ ou } [mol/l] $$
 
 ```{r, child=c('exe/solutions-electrolytes-30.Rmd')}
 ```

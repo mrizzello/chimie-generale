@@ -14,23 +14,23 @@ $$
 $$
 \begin{split}
 &\ce{HClO2}\\
-C_i &= 0.100\ [M] \\
-\Delta C &= - x\ [M] \\
-C_f &= 0.100 - x\ [M] \\
+C_i &= 0.100\ M \\
+\Delta C &= - x\ M \\
+C_f &= 0.100 - x\ M \\
 \end{split}
 \qquad
 \begin{split}
 &\ce{H3O+}\\
-C_i &= 0\ [M] \\
-\Delta C &= + x\ [M] \\
-C_f &= x\ [M] \\
+C_i &= 0\ M \\
+\Delta C &= + x\ M \\
+C_f &= x\ M \\
 \end{split}
 \qquad
 \begin{split}
 &\ce{ClO2-}\\
-C_i &= 0\ [M] \\
-\Delta C &= + x\ [M] \\
-C_f &= x\ [M] \\
+C_i &= 0\ M \\
+\Delta C &= + x\ M \\
+C_f &= x\ M \\
 \end{split}
 $$
 $$
@@ -66,16 +66,16 @@ $$
 Après résolution :
 $$
 \begin{split}
-x = 0.028\ [M]
+x = 0.028\ M
 \end{split}
 \qquad\qquad
 \begin{split}
-x = \cancel{-0.039}\ [M] \quad \text{non valable}
+x = \cancel{-0.039}\ M \quad \text{non valable}
 \end{split}
 $$
 $$
 \begin{split}
-|\ce{H3O+}| = x = 0.028\ [M]
+|\ce{H3O+}| = x = 0.028\ M
 \end{split}
 \qquad\qquad
 \begin{split}

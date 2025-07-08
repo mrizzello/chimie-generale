@@ -11,7 +11,7 @@ $$
 \begin{split}
 |\ce{OH-}| &= 10^{-pOH} \\
  &= 10^{-2.77} \\
- &= 0.0017\ [M]
+ &= 0.0017\ M
 \end{split}
 \qquad
 \begin{split}
@@ -26,23 +26,23 @@ $$
 $$
 \begin{split}
 &\ce{B}\\
-C_i &= 0.135\ [M] \\
-\Delta C &= - x\ [M] \\
-C_f &\approx 0.135\ [M] \\
+C_i &= 0.135\ M \\
+\Delta C &= - x\ M \\
+C_f &\approx 0.135\ M \\
 \end{split}
 \qquad
 \begin{split}
 &\ce{BH+}\\
-C_i &= 0\ [M] \\
-\Delta C &= + x\ [M] \\
-C_f &= 0.0017\ [M] \\
+C_i &= 0\ M \\
+\Delta C &= + x\ M \\
+C_f &= 0.0017\ M \\
 \end{split}
 \qquad
 \begin{split}
 &\ce{OH-}\\
-C_i &= 0\ [M] \\
-\Delta C &= + x\ [M] \\
-C_f &= 0.0017\ [M] \\
+C_i &= 0\ M \\
+\Delta C &= + x\ M \\
+C_f &= 0.0017\ M \\
 \end{split}
 $$
 $$

@@ -1,13 +1,13 @@
 ::: {.Exercise data-latex=""}
 
-Calculez le pH d'une solution d'hydroxyde de potassium 0.001 [M].
+Calculez le pH d'une solution d'hydroxyde de potassium 0.001 M.
 \vspace{\stretch{1}}
 
 :::
 
 ::: {.Answer data-latex=""}
 
-a. $$ |\ce{OH-}| = |\ce{KOH}| = 0.001\ [M] \: \text{(base forte)} $$
+a. $$ |\ce{OH-}| = |\ce{KOH}| = 0.001\ M \: \text{(base forte)} $$
 $$
 \begin{split}
 pH = 14 - pOH &= 14 - ( - \log 0.001 ) \\
