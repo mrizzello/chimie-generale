@@ -9,19 +9,19 @@ On ajoute 250 mL d'eau à 20 mL d'une solution de base forte, de pH = 12. Quel s
 
 $$
 \begin{split}
-|\ce{H3O+}| = 10^{-12}\ [M]
+|\ce{H3O+}| = 10^{-12}\ M
 \end{split}
 \qquad \text{et} \qquad
 \begin{split}
-|\ce{OH-}| = 10^{-2}\ [M]
+|\ce{OH-}| = 10^{-2}\ M
 \end{split}
 $$
 $$
-n_{\ce{OH-}} = C \cdot V = 10^{-2}\ [M] \cdot 2 \cdot 10^{-3}\ [L] = 2 \cdot 10^{-5}\ [mol]
+n_{\ce{OH-}} = C \cdot V = 10^{-2}\ M \cdot 2 \cdot 10^{-3}\ [L] = 2 \cdot 10^{-5}\ [mol]
 $$
 Après dilution :
 $$
-|\ce{OH-}| = \frac{n}{V} = \frac{2 \cdot 10^{-5}\ [mol]}{270 \cdot 10^{-3}\ [L]} \cong 7.41 \cdot 10^{-5}\ [M]
+|\ce{OH-}| = \frac{n}{V} = \frac{2 \cdot 10^{-5}\ [mol]}{270 \cdot 10^{-3}\ [L]} \cong 7.41 \cdot 10^{-5}\ M
 $$
 $$
 pH = 14 + \log(|\ce{OH-}|) = 14 + \log(7.41 \cdot 10^{-5}) \cong 9.87

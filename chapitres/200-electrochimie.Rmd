@@ -120,7 +120,7 @@ $$
 knitr::include_graphics(c("images/ESH.png"))
 ```
 
-Dans les conditions standards, avec une pression de H~2~ de 1 [atm] et une concentration de la solution acide de 1 [M], le potentiel de réduction de H^+^ à 25°C (E^0^)est défini comme étant exactement égal à 0 [V]. L'exposant ^0^ désigne les conditions à l'état standard et E^0^ sera nommé **potentiel standard de réduction**.
+Dans les conditions standards, avec une pression de H~2~ de 1 [atm] et une concentration de la solution acide de 1 M, le potentiel de réduction de H^+^ à 25°C (E^0^)est défini comme étant exactement égal à 0 [V]. L'exposant ^0^ désigne les conditions à l'état standard et E^0^ sera nommé **potentiel standard de réduction**.
 
 Avec un électrode de référence, on peut mesurer le potentiel des autres électrodes :
 
@@ -146,7 +146,7 @@ $$
 E^0_{pile} = E^0_{cathode} − E^0_{anode}
 $$
 
-Pour la pile Zn/Cu^2+^, pour des concentrations de 1 [M], sous une pression de 1 [atm] et une température de 25°C, le voltmètre nous indiquerai une tension (E~pile~) de 1.1 [V].
+Pour la pile Zn/Cu^2+^, pour des concentrations de 1 M, sous une pression de 1 [atm] et une température de 25°C, le voltmètre nous indiquerai une tension (E~pile~) de 1.1 [V].
 
 $$
 \begin{split}

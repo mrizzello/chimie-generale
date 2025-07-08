@@ -53,8 +53,8 @@ $$
 Par exemple :
 $$
 \begin{split}
-|\ce{C6H5COO-}| &= 1.26\ [M] \\
-|\ce{C6H5COOH}| &= 1.00\ [M]
+|\ce{C6H5COO-}| &= 1.26\ M \\
+|\ce{C6H5COOH}| &= 1.00\ M
 \end{split}
 $$
 

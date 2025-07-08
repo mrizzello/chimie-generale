@@ -1,6 +1,6 @@
 ::: {.Exercise data-latex=""}
 
-En considérant que les deux protons de l'acide sulfurique sont entièrement dissociés, quelle est la concentration des H~3~O^+^ et de OH^-^ dans une solution d'acide sulfurique 0.005 [M].
+En considérant que les deux protons de l'acide sulfurique sont entièrement dissociés, quelle est la concentration des H~3~O^+^ et de OH^-^ dans une solution d'acide sulfurique 0.005 M.
 \vspace{\stretch{1}}
 
 :::
@@ -13,22 +13,22 @@ $$
 \end{split}
 \qquad
 \begin{split}
-C_{initial}^{\ce{H2SO4}} &= 0.005\ [M] \\[1em]
-C_{final}^{\ce{H2SO4}} &= 0\ [M]
+C_{initial}^{\ce{H2SO4}} &= 0.005\ M \\[1em]
+C_{final}^{\ce{H2SO4}} &= 0\ M
 \end{split}
 \qquad
 \begin{split}
-C_{initial}^{\ce{H3O+}} &= 0\ [M] \\[1em]
-C_{final}^{\ce{H3O+}} &= 0.010\ [M]
+C_{initial}^{\ce{H3O+}} &= 0\ M \\[1em]
+C_{final}^{\ce{H3O+}} &= 0.010\ M
 \end{split}
 $$
 $$
 \begin{split}
-|\ce{H3O+}| = 10^{-2}\ [M]
+|\ce{H3O+}| = 10^{-2}\ M
 \end{split}
 \quad \text{et} \quad
 \begin{split}
-|\ce{OH-}| = \frac{10^{-14}}{10^{-2}} = 10^{-12}\ [M]
+|\ce{OH-}| = \frac{10^{-14}}{10^{-2}} = 10^{-12}\ M
 \end{split}
 $$
 

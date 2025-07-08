@@ -1,6 +1,6 @@
 ::: {.Exercise data-latex=""}
 
-Calculez la concentration des ions H~3~O^+^ dans une solution de LiOH 0.025 [M].
+Calculez la concentration des ions H~3~O^+^ dans une solution de LiOH 0.025 M.
 \vspace{\stretch{1}}
 
 :::
@@ -9,12 +9,12 @@ Calculez la concentration des ions H~3~O^+^ dans une solution de LiOH 0.025 [M].
 
 $$
 \begin{split}
-&|\ce{OH-}| = 0.025\ [M] \\
+&|\ce{OH-}| = 0.025\ M \\
 &\text{LiOH est une base forte.}
 \end{split}
 \qquad
 \begin{split}
-|\ce{H3O+}| = \frac{K_e}{|\ce{OH-}|} = \frac{10^{-14}}{0.025} = 4 \cdot 10^{-12} [M]
+|\ce{H3O+}| = \frac{K_e}{|\ce{OH-}|} = \frac{10^{-14}}{0.025} = 4 \cdot 10^{-12} M
 \end{split}
 $$
 

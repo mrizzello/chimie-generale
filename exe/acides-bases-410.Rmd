@@ -1,14 +1,14 @@
 ::: {.Exercise data-latex=""}
 
-On effectue le titrage de 25 mL d’une solution de $\ce{HCl}$ 0.15 [M] par $\ce{NaOH}$ 0.1 [M].
+On effectue le titrage de 25 mL d’une solution de $\ce{HCl}$ 0.15 M par $\ce{NaOH}$ 0.1 M.
 
 a. Calculez le point équivalent et donnez son pH.
 \vspace{\stretch{1}}
 b. Calculez le pH de départ.
 \vspace{\stretch{1}}
-c. Calculez le pH après l’addition de 5 mL de $\ce{NaOH}$ 0.1 [M].
+c. Calculez le pH après l’addition de 5 mL de $\ce{NaOH}$ 0.1 M.
 \vspace{\stretch{1}}
-d. Calculez le pH après l’addition de 42.5 mL de $\ce{NaOH}$ 0.1 [M].
+d. Calculez le pH après l’addition de 42.5 mL de $\ce{NaOH}$ 0.1 M.
 \vspace{\stretch{1}}
 
 :::
@@ -29,7 +29,7 @@ C_a \cdot V_a &= C_b \cdot V_b \\
 \end{split}
 \qquad
 \begin{split}
-V_b &= \frac{0.15\ [M] \cdot 0.025\ [L]}{0.10\ [M]} \\
+V_b &= \frac{0.15\ M \cdot 0.025\ [L]}{0.10\ M} \\
 &= 0.0375\ [L]
 \end{split}
 $$
@@ -42,14 +42,14 @@ $$
 
 c. $$
 \begin{split}
-n_{a} &= C_{a} \cdot V_{a} = 0.15\ [M] \cdot 0.025\ [L] = 0.00375\ [mol] \\
-n_{b} &= C_{b} \cdot V_{b} = 0.10\ [M] \cdot 0.005\ [L] = 0.0005\ [mol]
+n_{a} &= C_{a} \cdot V_{a} = 0.15\ M \cdot 0.025\ [L] = 0.00375\ [mol] \\
+n_{b} &= C_{b} \cdot V_{b} = 0.10\ M \cdot 0.005\ [L] = 0.0005\ [mol]
 \end{split}
 $$
 $$
 \begin{split}
 n_{a}^* &= n_{a} - n_{b} = 0.00325\ [mol] \\
-C_{a}^* &= \frac{n_{a}^*}{V_{total}} = \frac{0.00325\ [mol]}{0.03\ [L]} = 0.125\ [M]
+C_{a}^* &= \frac{n_{a}^*}{V_{total}} = \frac{0.00325\ [mol]}{0.03\ [L]} = 0.125\ M
 \end{split}
 $$
 $$
@@ -59,13 +59,13 @@ $$
 d. $$
 \begin{split}
 n_{a} &= 0.00375\ [mol] \\
-n_{b} &= C_{b} \cdot V_{b} = 0.10\ [M] \cdot 0.0425\ [L] = 0.00425\ [mol]
+n_{b} &= C_{b} \cdot V_{b} = 0.10\ M \cdot 0.0425\ [L] = 0.00425\ [mol]
 \end{split}
 $$
 $$
 \begin{split}
 n_{b}^* &= n_{b} - n_{a} = 0.0005\ [mol] \\
-C_{b}^* &= \frac{n_{b}^*}{V_{total}} = \frac{0.0005\ [mol]}{0.0675\ [L]} = 0.0074\ [M]
+C_{b}^* &= \frac{n_{b}^*}{V_{total}} = \frac{0.0005\ [mol]}{0.0675\ [L]} = 0.0074\ M
 \end{split}
 $$
 $$

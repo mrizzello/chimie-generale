@@ -6,7 +6,7 @@ $$
   4\ NH_3\ _{(g)} + 7\ O_2\ _{(g)} \leftrightharpoons 2\ N_2O_4\ _{(g)} + 6\ H_2O\ _{(g)}
 $$
 
-On remplit un ballon avec 2.4 [M] de NH~3~ et 2.4 [M] de O~2~ à une température donnée. La réaction se déroule et à l'équilibre on mesure une concentration en N~2~O~4~ égale à 0.134 [M]. Calculer K~c~.
+On remplit un ballon avec 2.4 M de NH~3~ et 2.4 M de O~2~ à une température donnée. La réaction se déroule et à l'équilibre on mesure une concentration en N~2~O~4~ égale à 0.134 M. Calculer K~c~.
 
 \vspace{\stretch{1}}
 
@@ -16,7 +16,7 @@ On remplit un ballon avec 2.4 [M] de NH~3~ et 2.4 [M] de O~2~ à une températur
 
 $$
 \begin{split}
-  \text{Concentrations [M]} &\\
+  \text{Concentrations M} &\\
   \text{initiale} &\\
   \text{variation} &\\
   \text{équilibre} &
@@ -60,11 +60,11 @@ $$
 
 $$
   \begin{split}
-  |N_2O_4|_{eq} &= 2x = 0.134\ [M] \\
-  \Rightarrow x &= 0.067\ [M] \\
-  |NH_3|_{eq} &= 2.4 – 4x = 2.4 – 4 \cdot 0.067 = 2.13\ [M] \\ 
-  |O_2|_{eq} &= 2.4 – 7x = 2.4 – 7 \cdot 0.067 = 1.93\ [M] \\ 
-  |H_2O|_{eq} &= 6x = 6 \cdot 0.067 = 0.402\ [M]
+  |N_2O_4|_{eq} &= 2x = 0.134\ M \\
+  \Rightarrow x &= 0.067\ M \\
+  |NH_3|_{eq} &= 2.4 – 4x = 2.4 – 4 \cdot 0.067 = 2.13\ M \\ 
+  |O_2|_{eq} &= 2.4 – 7x = 2.4 – 7 \cdot 0.067 = 1.93\ M \\ 
+  |H_2O|_{eq} &= 6x = 6 \cdot 0.067 = 0.402\ M
   \end{split}
 $$
 

@@ -8,7 +8,7 @@
 
 \vspace{\stretch{1}}
 
-3. On cherche à déterminer la valeur de la constante des gaz parfaits. Pour ce faire, à une température de 16° C et une pression de 748 [mmHg], on mesure que $5.164 \cdot 10^{-2}$ [mol] d'un gaz occupent un volume de 1245 [ml]. Calculez quelle est la valeur de la constante et indiquez de quel gaz il s'agit.
+3. On cherche à déterminer la valeur de la constante des gaz parfaits. Pour ce faire, à une température de 16° C et une pression de 748 [mmHg], on mesure que $5.164 \cdot 10^{-2}$ [mol] d'un gaz occupent un volume de 1245 mL. Calculez quelle est la valeur de la constante et indiquez de quel gaz il s'agit.
 
 \vspace{\stretch{1}}
 
@@ -39,7 +39,7 @@ $$
 3. $$
 \begin{split}
 	748\ [mmHg] &= 9.973 \cdot 10^{4}\ [Pa]\\[0.33em]
-	1245\ [ml] &= 1.245 \cdot 10{-3}\ [m^3]\\[0.33em]
+	1245\ mL &= 1.245 \cdot 10{-3}\ [m^3]\\[0.33em]
 	16°\ C\ &= 289.15\ [K]\\
 \end{split}
 \qquad

@@ -17,7 +17,7 @@ pOH = 14 - 9.3 = 4.7
 \end{split}
 $$
 $$
-|\ce{OH-}| = 10^{-4.7} = 2 \cdot 10^{-5}\ [M] \Rightarrow |\ce{Ca(OH)2}| = \frac{1}{2} \cdot |\ce{OH-}| = 10^{-5}\ [M]
+|\ce{OH-}| = 10^{-4.7} = 2 \cdot 10^{-5}\ M \Rightarrow |\ce{Ca(OH)2}| = \frac{1}{2} \cdot |\ce{OH-}| = 10^{-5}\ M
 $$
 
 :::

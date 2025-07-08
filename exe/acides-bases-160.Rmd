@@ -14,8 +14,8 @@ $$
 \qquad
 \begin{split}
 |\ce{OH-}| &= \frac{10^{-14}}{|\ce{H3O+}|} \\
-  &= \frac{10^{-14}}{10^{-9.3}} = 10^{-4.7} = 2 \cdot 10^{-5}\ [M] \\
-|\ce{NaOH}| &= |\ce{OH-}| = 2 \cdot 10^{-5}\ [M] \quad \text{(base forte)}
+  &= \frac{10^{-14}}{10^{-9.3}} = 10^{-4.7} = 2 \cdot 10^{-5}\ M \\
+|\ce{NaOH}| &= |\ce{OH-}| = 2 \cdot 10^{-5}\ M \quad \text{(base forte)}
 \end{split}
 $$
 

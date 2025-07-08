@@ -1,6 +1,6 @@
 ::: {.Exercise data-latex=""}
 
-Un échantillon de 40 mL d’une solution de $\ce{HNO2}$ 0.100 [M] est titré par une solution de $\ce{KOH}$ 0.200 [M]. Calculez
+Un échantillon de 40 mL d’une solution de $\ce{HNO2}$ 0.100 M est titré par une solution de $\ce{KOH}$ 0.200 M. Calculez
 
 a. Le volume nécessaire pour atteindre le point d’équivalence
 \vspace{\stretch{1}}
@@ -29,8 +29,8 @@ C_a \cdot V_a &= C_b \cdot V_b \\
 \end{split}
 \qquad
 \begin{split}
-V_b &= \frac{0.100\ [M] \cdot 0.04\ [L]}{0.200\ [M]} \\
-&= 0.020\ [L] = 20\ [mL]
+V_b &= \frac{0.100\ M \cdot 0.04\ [L]}{0.200\ M} \\
+&= 0.020\ [L] = 20\ mL
 \end{split}
 $$
 
@@ -39,7 +39,7 @@ pH = pK_a + \log \frac{n_b}{n_a^*} \text{ avec } pK_a = 3.34
 $$
 $$
 \begin{split}
-n_b &= 0.200\ [M] \cdot 5 \cdot 10^{-3}\ [L] = 0.001\ [mol] \\
+n_b &= 0.200\ M \cdot 5 \cdot 10^{-3}\ [L] = 0.001\ [mol] \\
 n_a^* &= n_a - n_b = 0.004\ [mol] - 0.001\ [mol] = 0.003\ [mol]
 \end{split}
 $$
@@ -53,7 +53,7 @@ d. Tout l'acide est converti en sa base conjuguée.
 $$
 \begin{split}
 n_{\ce{HNO2}} &= 0.004\ [mol] = n_{\ce{NO2-}} {}_{converti} \\
-|\ce{NO2-}| &= \frac{0.004\ [mol]}{0.06\ [L]} = 0.067\ [M]
+|\ce{NO2-}| &= \frac{0.004\ [mol]}{0.06\ [L]} = 0.067\ M
 \end{split}
 $$
 $$
@@ -62,23 +62,23 @@ $$
 $$
 \begin{split}
 &\ce{NO2-}\\
-C_i &= 0.067\ [M] \\
-\Delta C &= - x\ [M] \\
-C_f &= 0.067 - x\ [M] \\
+C_i &= 0.067\ M \\
+\Delta C &= - x\ M \\
+C_f &= 0.067 - x\ M \\
 \end{split}
 \qquad
 \begin{split}
 &\ce{HNO2}\\
-C_i &= 0\ [M] \\
-\Delta C &= + x\ [M] \\
-C_f &= x\ [M] \\
+C_i &= 0\ M \\
+\Delta C &= + x\ M \\
+C_f &= x\ M \\
 \end{split}
 \qquad
 \begin{split}
 &\ce{OH-}\\
-C_i &= 0\ [M] \\
-\Delta C &= + x\ [M] \\
-C_f &= x\ [M] \\
+C_i &= 0\ M \\
+\Delta C &= + x\ M \\
+C_f &= x\ M \\
 \end{split}
 $$
 $$
@@ -94,13 +94,13 @@ On approxime en négligeant le x :
 $$
 \begin{split}
 K_b &= \frac{x \cdot x}{0.067 - \cancel{x}} = \frac{x^2}{0.067} = 2.19 \cdot 10^{-11} \\
-x &= \sqrt{2.19 \cdot 10^{-11} \cdot 0.067} = 1.21 \cdot 10^{-6}\ [M]
+x &= \sqrt{2.19 \cdot 10^{-11} \cdot 0.067} = 1.21 \cdot 10^{-6}\ M
 \end{split}
 $$
 L'approximation est valide : $\frac{1.21 \cdot 10^{-6}}{0.067} \cdot 100\% \cong 0.002\% < 5\%$
 $$
 \begin{split}
-|\ce{OH-}| = x = 1.21 \cdot 10^{-6}\ [M] 
+|\ce{OH-}| = x = 1.21 \cdot 10^{-6}\ M 
 \end{split}
 \qquad
 \begin{split}
