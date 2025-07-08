@@ -30,7 +30,7 @@ $$
 d. $$
 \begin{split}
   n_{\ce{HNO3}} &= \frac{0.315 \cdot 10^{-3}\ [g]}{63\ [g/mol]} = 5 \cdot 10^{-6}\ [mol] \\
-  |\ce{HNO3}| &= \frac{n}{V} = \frac{5 \cdot 10^{-6}\ [mol]}{10 \cdot 10^{-3}\ [L]} = 5 \cdot 10^{-4}\ [M] \\
+  |\ce{HNO3}| &= \frac{n}{V} = \frac{5 \cdot 10^{-6}\ [mol]}{10 \cdot 10^{-3}\ [L]} = 5 \cdot 10^{-4}\ M \\
   pH &= - \log |\ce{H3O+}| = - \log 5 \cdot 10^{-4} \cong 3.301
  \end{split}
 $$

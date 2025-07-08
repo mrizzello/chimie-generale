@@ -8,17 +8,17 @@ Quel volume d'eau faut-il ajouter à 25 mL d'une solution de $\ce{HNO3}$ de pH =
 ::: {.Answer data-latex=""}
 
 $$
-|\ce{H3O+}|_{initial} = 10^{-2.5} \cong 3.16 \cdot 10^{-3}\ [M]
+|\ce{H3O+}|_{initial} = 10^{-2.5} \cong 3.16 \cdot 10^{-3}\ M
 $$
 $$
-n_{\ce{H3O+}} = C \cdot V = 3.16 \cdot 10^{-3}\ [M] \cdot 25 \cdot 10^{-3}\ [L] \cong 7.91 \cdot 10^{-5}\ [mol]
+n_{\ce{H3O+}} = C \cdot V = 3.16 \cdot 10^{-3}\ M \cdot 25 \cdot 10^{-3}\ [L] \cong 7.91 \cdot 10^{-5}\ [mol]
 $$
 $$
-|\ce{H3O+}|_{final} = \frac{n}{V} = \frac{7.91 \cdot 10^{-5}\ [mol]}{V} = 10^{-3}\ [M]
+|\ce{H3O+}|_{final} = \frac{n}{V} = \frac{7.91 \cdot 10^{-5}\ [mol]}{V} = 10^{-3}\ M
 $$
 $$
-V = \frac{7.91 \cdot 10^{-5}\ [mol]}{10^{-3}\ [mol/L]} = 7.91 \cdot 10^{-2}\ [L] = 79.1\ [mL] \cong 79\ [mL]
+V = \frac{7.91 \cdot 10^{-5}\ [mol]}{10^{-3}\ [mol/L]} = 7.91 \cdot 10^{-2}\ [L] = 79.1\ mL \cong 79\ mL
 $$
-Il faut ajouter $79\ [mL] - 25\ [mL] = 54\ [mL]$ d'eau.
+Il faut ajouter $79\ mL - 25\ mL = 54\ mL$ d'eau.
 
 :::

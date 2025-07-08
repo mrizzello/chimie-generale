@@ -2,7 +2,7 @@
 
 1. Calculez, en gramme, la masse d'une molécule d'eau, en considérant que chaque atome d'hydrogène possède 1 proton et 1 électron (mais aucun neutron) et que le noyau d'un atome d'oxygène comporte 8 protons, 8 neutrons et 8 électrons.
 \vspace{\stretch{1}}
-2. Combien y a-t-il de molécules d'eau dans 1 [ml] d'eau (1 [ml] d'eau = 1 [g] d'eau) ?
+2. Combien y a-t-il de molécules d'eau dans 1 mL d'eau (1 mL d'eau = 1 [g] d'eau) ?
 \vspace{\stretch{1}}
 
 :::
@@ -21,7 +21,7 @@ $$ \begin{split}
 		  &= 3.012\cdot10^{-26}\text{ [kg] } = 3.012\cdot10^{-23} \text{ [g] pour une molécule}
 \end{split} $$
 
-1 [ml] d'eau = 1 [g] d'eau
+1 mL d'eau = 1 [g] d'eau
 
 $$ \begin{split}
 	& \text{en utilisant la règle de trois : } \\

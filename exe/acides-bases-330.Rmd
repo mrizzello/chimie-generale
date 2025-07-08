@@ -1,6 +1,6 @@
 ::: {.Exercise data-latex=""}
 
-Calculez le pH d’une solution tampon constituée d’une solution de $\ce{HF}$ 0.15 [M] et de $\ce{NaF}$ 0.15 [M].
+Calculez le pH d’une solution tampon constituée d’une solution de $\ce{HF}$ 0.15 M et de $\ce{NaF}$ 0.15 M.
 \vspace{\stretch{1}}
 
 :::
@@ -14,23 +14,23 @@ $$
 $$
 \begin{split}
 &\ce{HF}\\
-C_i &= 0.15\ [M] \\
-\Delta C &= - x\ [M] \\
-C_f &= 0.15 - x\ [M] \\
+C_i &= 0.15\ M \\
+\Delta C &= - x\ M \\
+C_f &= 0.15 - x\ M \\
 \end{split}
 \qquad
 \begin{split}
 &\ce{H3O+}\\
-C_i &= 0\ [M] \\
-\Delta C &= + x\ [M] \\
-C_f &= x\ [M] \\
+C_i &= 0\ M \\
+\Delta C &= + x\ M \\
+C_f &= x\ M \\
 \end{split}
 \qquad
 \begin{split}
 &\ce{F-}\\
-C_i &= 0.15\ [M] \\
-\Delta C &= + x\ [M] \\
-C_f &= 0.15 + x\ [M] \\
+C_i &= 0.15\ M \\
+\Delta C &= + x\ M \\
+C_f &= 0.15 + x\ M \\
 \end{split}
 $$
 $$
@@ -40,13 +40,13 @@ On approxime en négligeant le x :
 $$
 \begin{split}
 K_a &= \frac{(0.15 + \cancel{x}) \cdot x}{0.15 - \cancel{x}} = \frac{0.15 \cdot x}{0.15} = 6.8 \cdot 10^{-4} \\
-x &= 6.8 \cdot 10^{-4}\ [M]
+x &= 6.8 \cdot 10^{-4}\ M
 \end{split}
 $$
 L'approximation est valide : $\frac{6.8 \cdot 10^{-4}}{0.15} \cdot 100\% \cong 0.45\% < 5\%$
 $$
 \begin{split}
-|\ce{H3O+}| = x = 6.8 \cdot 10^{-4}\ [M]
+|\ce{H3O+}| = x = 6.8 \cdot 10^{-4}\ M
 \end{split}
 \qquad\qquad
 \begin{split}

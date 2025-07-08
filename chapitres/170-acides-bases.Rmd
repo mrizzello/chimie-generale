@@ -238,7 +238,7 @@ En résumé :
 
 |                           |       |
 | :------------------------ | :---: |
-| Dans de l'eau pure        |   $   | \ce{H3O+} | = | \ce{OH-} | = 10^{-7} [M]$ |
+| Dans de l'eau pure        |   $   | \ce{H3O+} | = | \ce{OH-} | = 10^{-7} M$ |
 | Dans une solution acide   |   $   | \ce{H3O+} | > | \ce{OH-} | $              |
 | Dans une solution basique |   $   | \ce{H3O+} | < | \ce{OH-} | $              |
 

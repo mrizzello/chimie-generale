@@ -11,7 +11,7 @@ Déterminez le potentiel électrique d'une pile Daniell dont |Zn^2+^| = 1.5 M et
 $$
 \begin{split}
   & \ce{Cu^{2+} + Zn_{(s)} -> Cu_{(s)} + Zn^{2+}} \\
-  Q &= \frac{|Zn^{2+}|}{|Cu^{2+}|} = \frac{1.5\ [M]}{0.5\ [M]} = 3
+  Q &= \frac{|Zn^{2+}|}{|Cu^{2+}|} = \frac{1.5\ M}{0.5\ M} = 3
 \end{split}
 \qquad
 \begin{split}

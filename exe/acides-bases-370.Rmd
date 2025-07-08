@@ -1,6 +1,6 @@
 ::: {.Exercise data-latex=""}
 
-Calculez le pH d’une solution résultant du mélange de 60.0 [mL] de $\ce{HCOOH}$ 0.250 [M] et de 15 [mL] de $\ce{HCOONa}$ 0.500 [M].
+Calculez le pH d’une solution résultant du mélange de 60.0 mL de $\ce{HCOOH}$ 0.250 M et de 15 mL de $\ce{HCOONa}$ 0.500 M.
 \vspace{\stretch{1}}
 
 :::
@@ -20,23 +20,23 @@ $$
 $$
 \begin{split}
 &\ce{HCOOH}\\
-C_i &= 0.200\ [M] \\
-\Delta C &= - x\ [M] \\
-C_f &= 0.200 - x\ [M] \\
+C_i &= 0.200\ M \\
+\Delta C &= - x\ M \\
+C_f &= 0.200 - x\ M \\
 \end{split}
 \qquad
 \begin{split}
 &\ce{H3O+}\\
-C_i &= 0\ [M] \\
-\Delta C &= + x\ [M] \\
-C_f &= x\ [M] \\
+C_i &= 0\ M \\
+\Delta C &= + x\ M \\
+C_f &= x\ M \\
 \end{split}
 \qquad
 \begin{split}
 &\ce{HCOO-}\\
-C_i &= 0.100\ [M] \\
-\Delta C &= + x\ [M] \\
-C_f &= 0.100 + x\ [M] \\
+C_i &= 0.100\ M \\
+\Delta C &= + x\ M \\
+C_f &= 0.100 + x\ M \\
 \end{split}
 $$
 $$
@@ -46,13 +46,13 @@ On approxime en négligeant le x :
 $$
 \begin{split}
 K_a &= \frac{x \cdot (0.100 + \cancel{x})}{0.200 - \cancel{x}} = \frac{0.100 \cdot x}{0.200} = 1.8 \cdot 10^{-4} \\
-x &= 1.8 \cdot 10^{-4} \cdot \frac{0.200}{0.100} = 3.6 \cdot 10^{-4}\ [M]
+x &= 1.8 \cdot 10^{-4} \cdot \frac{0.200}{0.100} = 3.6 \cdot 10^{-4}\ M
 \end{split}
 $$
 L'approximation est valide : $\frac{3.6 \cdot 10^{-4}}{0.200} \cdot 100\% \cong 0.18\% < 5\%$
 $$
 \begin{split}
-|\ce{H3O+}| = x = 3.6 \cdot 10^{-4}\ [M]
+|\ce{H3O+}| = x = 3.6 \cdot 10^{-4}\ M
 \end{split}
 \qquad\qquad
 \begin{split}

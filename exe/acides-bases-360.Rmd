@@ -1,6 +1,6 @@
 ::: {.Exercise data-latex=""}
 
-Calculez le pH d'une solution tampon constituée d'une solution de $\ce{HCN}$ 0.250 [M] et de $\ce{KCN}$ 0.170 [M]. Utilisez la méthode basée sur l'équilibre et la méthode basée sur l'équation de Henderson-Hasselbalch.
+Calculez le pH d'une solution tampon constituée d'une solution de $\ce{HCN}$ 0.250 M et de $\ce{KCN}$ 0.170 M. Utilisez la méthode basée sur l'équilibre et la méthode basée sur l'équation de Henderson-Hasselbalch.
 \vspace{\stretch{1}}
 
 :::
@@ -13,23 +13,23 @@ $$
 $$
 \begin{split}
 &\ce{HCN}\\
-C_i &= 0.250\ [M] \\
-\Delta C &= - x\ [M] \\
-C_f &= 0.250 - x\ [M] \\
+C_i &= 0.250\ M \\
+\Delta C &= - x\ M \\
+C_f &= 0.250 - x\ M \\
 \end{split}
 \qquad
 \begin{split}
 &\ce{H3O+}\\
-C_i &= 0\ [M] \\
-\Delta C &= + x\ [M] \\
-C_f &= x\ [M] \\
+C_i &= 0\ M \\
+\Delta C &= + x\ M \\
+C_f &= x\ M \\
 \end{split}
 \qquad
 \begin{split}
 &\ce{CN-}\\
-C_i &= 0.170\ [M] \\
-\Delta C &= + x\ [M] \\
-C_f &= 0.170 + x\ [M] \\
+C_i &= 0.170\ M \\
+\Delta C &= + x\ M \\
+C_f &= 0.170 + x\ M \\
 \end{split}
 $$
 $$
@@ -39,13 +39,13 @@ On approxime en négligeant le x :
 $$
 \begin{split}
 K_a &= \frac{x \cdot (0.170 + \cancel{x})}{0.250 - \cancel{x}} = \frac{0.170 \cdot x}{0.250} = 6.0 \cdot 10^{-10} \\
-x &= 6.0 \cdot 10^{-10} \cdot \frac{0.250}{0.170} = 8.8 \cdot 10^{-10}\ [M]
+x &= 6.0 \cdot 10^{-10} \cdot \frac{0.250}{0.170} = 8.8 \cdot 10^{-10}\ M
 \end{split}
 $$
 L'approximation est valide : $\frac{8.8 \cdot 10^{-10}}{0.250} \cdot 100\% \cong 3.52 \cdot 10^{-7}\% < 5\%$
 $$
 \begin{split}
-|\ce{H3O+}| = x = 7.1 \cdot 10^{-10}\ [M]
+|\ce{H3O+}| = x = 7.1 \cdot 10^{-10}\ M
 \end{split}
 \qquad\qquad
 \begin{split}
