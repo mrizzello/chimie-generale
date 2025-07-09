@@ -278,7 +278,7 @@ Les conditions initiales, les variations et les conditions d'équilibre peuvent 
 | $\Delta$C   |       -x       |       +x        |        +x         |
 | C~finale~   |     0.2-x      |        x        |         x         |
 
-_A nouveau, on néglige l'autoprotolyse de l'eau._
+_À nouveau, on néglige l'autoprotolyse de l'eau._
 
 La variable x représente la quantité de la base qui accepte un proton. Déterminons maintenant l'expression de la constante de basicité K~b~ :
 
@@ -381,6 +381,10 @@ Ce sont des solutions qui s'opposent aux variations de pH lorsqu'on y ajoute une
 
 Prenons l'exemple d'un tampon préparé à l'aide d'acide acétique ($\ce{CH3COOH}$) et d'acétate de sodium ($\ce{CH3COONa}$), sa base conjuguée, dissous dans de l'eau.
 
+```{r acides-bases-9,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Solution tampon acide acétique / acétate de sodium"}
+knitr::include_graphics(c("images/acides-bases-solution-tampon.png"))
+```
+
 Si l'on ajoute une base forte (NaOH par exemple) à ce tampon, l'acide acétique neutralisera l'ajout de cette base :
 
 $$
@@ -428,7 +432,7 @@ $$
 ```{r, child=c('exe/acides-bases-340.Rmd')}
 ```
 
-\clearpage
+\newpage
 
 ```{r, child=c('exe/acides-bases-350.Rmd')}
 ```
@@ -436,12 +440,12 @@ $$
 ```{r, child=c('exe/acides-bases-370.Rmd')}
 ```
 
-\clearpage
+\newpage
 
 ```{r, child=c('exe/acides-bases-360.Rmd')}
 ```
 
-\clearpage
+\newpage
 
 ```{r, child=c('exe/acides-bases-380.Rmd')}
 ```
@@ -450,11 +454,21 @@ $$
 ```
 -->
 
+\newpage
+
+## Calculer le pH (résumé)
+
+Arbre de décision pour identifier la nature d'une solution chimique (acide/base, fort/faible, mélange) et appliquer la bonne méthode pour calculer son pH.
+
+```{r acides-bases-8,echo=FALSE,out.width="95%",fig.show="hold",fig.align="center",fig.cap="Guide méthodologique pour la détermination du pH"}
+knitr::include_graphics(c("images/pH-decision-tree.png"))
+```
+
 ## Titrages et courbes de pH
 
 Un titrage acide-base est une technique de dosage basée sur une réaction de neutralisation entre une solution de concentration connue et une solution de concentration inconnue. Le point d'équivalence, repéré par un indicateur coloré, est atteint lorsque les réactifs sont présents dans les proportions stœchiométriques.
 
-```{r acides-bases-5,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Titrage acide-base et courbe de titrage"}
+```{r acides-bases-5,echo=FALSE,out.width="60%",fig.show="hold",fig.align="center",fig.cap="Titrage acide-base et courbe de titrage"}
 knitr::include_graphics(c("images/acides-bases-5.png"))
 ```
 
@@ -637,15 +651,15 @@ knitr::include_graphics(c("images/courbes-titration-base-faible.png"))
 Le titrage d'un polyacide faible par une base forte révèle **plusieurs sauts de pH**, chacun correspondant à un point d'équivalence distinct pour la neutralisation successive de chaque proton. Pour l'acide phosphorique ($\ce{H3PO4}$), trois points d'équivalence théoriques sont attendus, correspondant aux trois déprotonations successives.
 
 $$
-\ce{OH^{-}_{(aq)} + H3PO4_{(aq)} <=> H2O_{(l)} + H2PO4^{-}_{(aq)}}
+\ce{OH^{-}_{(aq)} + H3PO4_{(aq)} <=> H2O_{(l)} + H2PO4^{-}_{(aq)}} \quad pK_{a1} = 2.12
 $$
 
 $$
-\ce{OH^{-}_{(aq)} + H2PO4^{-}_{(aq)} <=> H2O_{(l)} + HPO4^{2-}_{(aq)}}
+\ce{OH^{-}_{(aq)} + H2PO4^{-}_{(aq)} <=> H2O_{(l)} + HPO4^{2-}_{(aq)}} \quad pK_{a2} = 7.21
 $$
 
 $$
-\ce{OH^{-}_{(aq)} + HPO4^{2-}_{(aq)} <=> H2O_{(l)} + PO4^{3-}_{(aq)}}
+\ce{OH^{-}_{(aq)} + HPO4^{2-}_{(aq)} <=> H2O_{(l)} + PO4^{3-}_{(aq)}} \quad pK_{a3} = 12.37
 $$
 
 ```{r acides-bases-6e,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap=""}
@@ -658,8 +672,14 @@ La visibilité de ces points dépend de la distinction suffisante entre les vale
 
 ### Méthode des tangentes
 
-Pour déterminer graphiquement le point d'équivalence sur une courbe de pH, la **méthode des tangentes** est utilisée. Elle consiste à tracer deux tangentes parallèles aux segments les plus abrupts de la courbe avant et après le saut de pH. La droite parallèle située à équidistance de ces deux tangentes coupe la courbe au point d'inflexion, qui correspond au point d'équivalence.
+La méthode des tangentes est une technique graphique pour déterminer le **point d'équivalence** d'un titrage, qui correspond au point d'inflexion de la courbe de pH.
 
 ```{r acides-bases-7,echo=FALSE,out.width="75%",fig.show="hold",fig.align="center",fig.cap="Détermination graphique du point d'équivalence"}
-knitr::include_graphics(c("images/acides-bases-7.png"))
+knitr::include_graphics(c("images/courbes-titration-methode-tangeantes.png"))
 ```
+
+1.  **Tracez deux tangentes** : De chaque côté du saut de pH, tracez une droite tangente à la courbe. Ces deux tangentes doivent être **parallèles** l'une à l'autre.
+2.  **Tracez la médiatrice** : Dessinez une troisième droite qui est perpendiculaire aux deux tangentes et qui les relie.
+3.  **Localisez le point d'équivalence** : Trouvez le milieu du segment de cette droite perpendiculaire. Ensuite, tracez une quatrième droite passant par ce milieu et parallèle aux deux tangentes initiales. Le point où cette dernière droite croise la courbe de titrage est le **point d'équivalence (E)**.
+
+À partir de ce point, vous pouvez déterminer le **volume équivalent (V~e~)** en le projetant sur l'axe des abscisses et le **pH à l'équivalence (pH~e~)** en le projetant sur l'axe des ordonnées.
