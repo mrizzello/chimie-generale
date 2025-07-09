@@ -680,6 +680,14 @@ knitr::include_graphics(c("images/courbes-titration-methode-tangeantes.png"))
 
 1.  **Tracez deux tangentes** : De chaque côté du saut de pH, tracez une droite tangente à la courbe. Ces deux tangentes doivent être **parallèles** l'une à l'autre.
 2.  **Tracez la médiatrice** : Dessinez une troisième droite qui est perpendiculaire aux deux tangentes et qui les relie.
-3.  **Localisez le point d'équivalence** : Trouvez le milieu du segment de cette droite perpendiculaire. Ensuite, tracez une quatrième droite passant par ce milieu et parallèle aux deux tangentes initiales. Le point où cette dernière droite croise la courbe de titrage est le **point d'équivalence (E)**.
+3.  **Localisez le point d'équivalence** : Trouvez le milieu du segment de cette droite perpendiculaire. Ensuite, tracez une quatrième droite passant par ce milieu et parallèle aux deux tangentes initiales. Le point où cette dernière droite croise la courbe de titrage est le **point d'équivalence**.
 
 À partir de ce point, vous pouvez déterminer le **volume équivalent (V~e~)** en le projetant sur l'axe des abscisses et le **pH à l'équivalence (pH~e~)** en le projetant sur l'axe des ordonnées.
+
+\newpage
+
+```{r, echo=FALSE}
+if (knitr::is_latex_output()) {
+  knitr::asis_output('\\section{Solutions des exercices} \\shipoutAnswer')
+}
+```
