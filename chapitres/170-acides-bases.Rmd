@@ -2,112 +2,76 @@
 
 ::: {.objectives data-latex=""}
 
-- Définir les termes acide et base selon Arrhénius et Brønsted-Lowry.
-- Définir le concept d’acides, bases et leurs conjugués.
+- Définir les termes acide et base selon Arrhénius, Brønsted-Lowry et Lewis.
+- Définir le concept d'acides, bases et leurs conjugués.
 - Expliquer la notion de forces des acides et des bases en termes de dissociation.
-- Définir la constante d’acidité K<sub>a</sub> et de basicité K<sub>b</sub>.
-- Expliquer la notion d’autoprotolyse de l’eau et la relation entre |H<sub>3</sub>O<sup>+</sup>| et |OH<sup>-</sup>|.
+- Définir la constante d'acidité K<sub>a</sub> et de basicité K<sub>b</sub>.
+- Expliquer la notion d'autoprotolyse de l'eau et la relation entre |H<sub>3</sub>O<sup>+</sup>| et |OH<sup>-</sup>|.
 
 :::
+
+Autour de nous, des substances présentent des propriétés acides ou basiques. Le citron, le vinaigre, le jus d'agrumes sont acides, tandis que le savon, le bicarbonate de soude, et de nombreux produits de nettoyage sont basiques. Ces propriétés, qui affectent la façon dont une substance interagit avec d'autres, sont déterminées par la présence des ions $\ce{H+}$ et $\ce{OH-}$ dans une solution aqueuse.
+
+Dans ce chapitre, nous allons explorer les concepts d'acides et de bases, leurs définitions selon différentes théories, ainsi que la force de ces substances en solution.
 
 ## Définitions
 
-### Définition d'Arrhénius
-
-Initialement, d'après le chimiste suédois **Arrhénius**, étaient considérés comme acides, les composés capables de libérer un cation H^+^ en solution aqueuse, et considérés comme bases, ceux capables de libérer un anion OH^-^.
-
-- **Acide** : Substance qui libère des ions H^+^ en solution aqueuse.
-- **Base** : Substance qui libère des ions OH^-^ en solution aqueuse.
-
-$$
-\begin{split}
-& \text{Dissociation des acides :} \\
-& \ce{HA -> H+ + A-} \\
-& \ce{HNO3_{(aq)} -> H+ + NO3-}
-\end{split}
-\qquad\qquad
-\begin{split}
-& \text{Dissociation des bases :} \\
-& \ce{BOH -> OH- + B+} \\
-& \ce{KOH_{(aq)} -> K+ + OH-}
-\end{split}
-$$
-
-Les ions H^+^ sont extrêmement réactifs et, en solution aqueuse, ils se lient toujours à des molécules d'eau pour former des ions **hydronium H~3~O^+^**. Les deux cations H^+^ et H~3~O^+^ ont donc la même signification. C'est pourquoi, pour simplifier l'écriture, nous écrirons parfois H^+^ à la place de H~3~O^+^.
-
-\newpage
-
-### Définition de Brønsted-Lowry
-
-En 1923, au regard du transfert d'ions H^+^ qui a lieu lors d'une réaction acide-base, le chimiste anglais Thomas Lowry et le chimiste danois Joannes Brønsted énoncèrent une définition plus large :
-
-- **Acide** : Un acide est un donneur de proton (ion H^+^)
-- **Base** : Une base est un accepteur de proton (ion H^+^)
-
-Il est utile de noter qu'un ion H^+^ est un atome d'hydrogène sans son électron, soit un simple proton.
-
-Ainsi, HCl est un acide puisqu'il transfère un proton à l'eau :
-
-$$
-\ce{$\underset{\text{donneur de proton}}{\ce{HCl_{(aq)}}}$ + $\underset{\text{accepteur de proton}}{\ce{H2O_{(l)}}}$ -> H3O+ + Cl-}
-$$
-
-Aussi NH~3~ est une base puisqu'elle accepte un proton provenant de l'eau :
-
-$$
-\ce{$\underset{\text{accepteur de proton}}{\ce{NH3_{(aq)}}}$ + $\underset{\text{donneur de proton}}{\ce{H2O_{(l)}}}$ -> NH4+ + OH-}
-$$
-
-Selon la définition de Brønsted-Lowry, un acide et une base seront toujours présents simultanément.
-
-On remarque que l'eau est capable de jouer à la fois le rôle d'acide et de base. Ce type de molécules est appelé **ampholyte** ou encore **amphotère**.
-
-### Définition de Lewis
-
-Gilbert Lewis a proposé une troisième définition des acides et des bases, plus générique que les définitions d'Arrhenius ou de Brønsted-Lowry. Un acide de Lewis est une substance qui accepte une paire d'électrons. Une base de Lewis est une substance qui donne une paire d'électrons. Ainsi, une réaction acide-base de Lewis est représentée par le transfert d'une paire d'électrons d'une base à un acide.
-
-```{r acides-bases-2,echo=FALSE,out.width="33%",fig.show="hold",fig.align="center",fig.cap="Paire libre d'électrons partagée entre l'azote de l'ammoniac et un cation hydrogène"}
-knitr::include_graphics(c("images/acides-bases-2.png"))
-```
-\newpage
-
-Le tableau ci-dessous résume les trois définitions acide-base.
-
-|                |              ACIDE               |               BASE                |
-| :------------- | :------------------------------: | :-------------------------------: |
-| Arrhénius      | libère des ions H^+^ en solution | libère des ions OH^-^ en solution |
-| Brønsted-Lowry |         donneur de H^+^          |         accepteur de H^+^         |
-| Lewis          |   accepteur d'une paire libre    |     donneur d'une paire libre     |
+| Définition selon |              ACIDE               |               BASE                |
+| :--------------- | :------------------------------: | :-------------------------------: |
+| Arrhénius        | libère des ions H^+^ en solution | libère des ions OH^-^ en solution |
+| Brønsted-Lowry   |         donneur de H^+^          |         accepteur de H^+^         |
+| Lewis            |   accepteur d'une paire libre    |     donneur d'une paire libre     |
 
 Table: (\#tab:acides-bases-definitions) Définitions des acides et des bases.
 
-Considérons maintenant la réaction suivante :
-
-$$
-\ce{NH4+_{(aq)} + OH^{-}_{(aq)} <=> NH_3_{(aq)} + H_2O_{(l)}}
-$$
-
-Dans cette réaction, NH~4~^+^ donne un proton (acide) et OH^-^ l'accepte (base). Il s'agit de la réaction inverse de l'équation où l'eau jouait le rôle de l'acide et NH3 de la base. NH~3~ et NH~4~^+^ sont donc reliés par le transfert d'un proton. On parle alors d'une paire **base – acide conjugué**. C'est le cas aussi pour H~2~O et OH^-^ qui forment une paire **acide – base conjuguée**.
-
-\vspace{\stretch{1}}
-
-```{r acides-bases-1,echo=FALSE,out.width="90%",fig.show="hold",fig.align="center",fig.cap="Acides, bases et leurs conjugués"}
-knitr::include_graphics(c("images/acides-bases-1.png"))
-```
-
-::: {.credit data-latex=""}
-Image tirée du livre : Principe de chimie de Nivaldo Tro
-:::
-
-\vspace{\stretch{1}}
-
 \newpage
+
+|       Arrhénius        |         Brønsted-Lowry         |                    Lewis                    |
+| :----------------------------: | :----------------------------: | :----------------------------: |
+|  $\ce{HA -> H+ + A-}$  | $\ce{HCl + NH3 -> NH4+ + Cl-}$ | $\ce{BF3 +}$\|$\ce{NH3 -> BF3\bond{<-}NH3}$ |
+|         acide          |                                |                                             |
+| $\ce{BOH -> OH- + B+}$ |       $\ce{HCl}$ : acide       |             $\ce{BF3}$ : acide              |
+|          base          |       $\ce{NH3}$ : base        |              $\ce{NH3}$ : base              |
+
+Table: (\#tab:acides-bases-examples) Exemples d'acides et de bases correspondant à chaque définition.
+
+## Couples acide-base
+
+Un couple acide-base désigne deux espèces chimiques liées par un simple transfert de proton ($\ce{H+}$). Ces espèces, l'**acide et sa base conjuguée**, diffèrent uniquement par la présence ou l'absence de ce proton.
+
+Lors de la réaction entre l'acide chlorhydrique et l'ammoniac :
+
+$$
+\ce{HCl_{(aq)} + NH3_{(aq)} <=> NH4^{+}_{(aq)} + Cl^{-}_{(aq)}}
+$$
+
+- $\ce{HCl}$ agit comme un **acide** en donnant un proton à $\ce{NH3}$,
+- $\ce{NH3}$ agit comme une une **base** en acceptant un proton de $\ce{HCl}$.
+- $\ce{HCl}$ est l'**acide** et $\ce{Cl-}$ est sa **base conjuguée**.
+- $\ce{NH3}$ est la **base** et $\ce{NH4+}$ est son **acide conjugué**.
 
 ```{r, child=c('exe/acides-bases-10.Rmd')}
 ```
+\newpage
 
 ```{r, child=c('exe/acides-bases-20.Rmd')}
 ```
+
+## Les ampholytes
+
+Un **ampholyte**, ou une **espèce amphotère**, est une molécule ou un ion capable de réagir à la fois comme un acide et comme une base (donner ou accepter un proton), selon les conditions du milieu réactionnel. L'eau est l'exemple le plus courant et le plus accessible pour illustrer ce concept.
+
+En présence d'un acide plus fort, l'eau agit comme une base, acceptant un proton pour former l'ion hydronium ($\ce{H3O+}$). 
+
+$$
+\ce{H2O_{(l)} + HCl_{(aq)} <=> H3O^{+}_{(aq)} + Cl^{-}_{(aq)}}
+$$
+
+Inversement, en présence d'une base plus forte, l'eau agit comme un acide, cédant un proton pour former l'ion hydroxyde ($\ce{OH-}$).
+
+$$
+\ce{H2O_{(l)} + NH3_{(aq)} <=> OH^{-}_{(aq)} + NH4^{+}_{(aq)}}
+$$
 
 ```{r, child=c('exe/acides-bases-30.Rmd')}
 ```
@@ -119,32 +83,32 @@ Image tirée du livre : Principe de chimie de Nivaldo Tro
 
 ## Forces des acides et des bases
 
-La force d'un acide ou d'une base est déterminée par le degré de dissociation en ses ions constitutifs dans une solution.
-
 - Un acide ou une base sera **fort(e)** s'il s'ionise (se dissocie) **complètement**.
 - Un acide ou une base sera **faible** s'il ne s'ionise (se dissocie) que **partiellement**.
+
+## Acides et bases fort(e)s
 
 |                          ACIDE FORT                           |                          BASE FORTE                          |
 | :-----------------------------------------------------------: | :----------------------------------------------------------: |
 | $\ce{HA_{(aq)} + H2O_{(l)} -> H3O^{+}_{(aq)} + A^{-}_{(aq)}}$ | $\ce{B_{(aq)} + H2O_{(l)} -> BH^{+}_{(aq)} + OH^{-}_{(aq)}}$ |
 |           ![](images/acides-forts-1.png){width=40%}           |          ![](images/bases-fortes-1.png){width=40%}           |
-|                $\ce{HCl}, \ce{HBr}, \ce{HI},$                 |              $\ce{LiOH}, \ce{NaOH}, \ce{KOH},$               |
-|                    $\ce{HNO3}, \ce{HClO4}$                    |          $\ce{Sr(OH)2}, \ce{Ca(OH)2}, \ce{Ba(OH)2}$          |
+|                   \|H~3~O^+^\| = \|HA\|                       |                       \|OH^-^\| = \|B\|                      |
 
-Avec une ionisation complète, il s'ensuit que pour un monoacide fort (particule capable de libérer un seul proton en solution), |H~3~O^+^| = C~acide~. Il en va de même pour les bases fortes, |OH^-^| = C~base~.
+## Acides et bases faibles
 
 |                          ACIDE FAIBLE                          |                          BASE FAIBLE                          |
 | :------------------------------------------------------------: | :-----------------------------------------------------------: |
 | $\ce{HA_{(aq)} + H2O_{(l)} <=> H3O^{+}_{(aq)} + A^{-}_{(aq)}}$ | $\ce{B_{(aq)} + H2O_{(l)} <=> BH^{+}_{(aq)} + OH^{-}_{(aq)}}$ |
 |          ![](images/acides-faibles-1.png){width=40%}           |          ![](images/bases-faibles-1.png){width=40%}           |
+|                  \|H~3~O^+^\| $\lll$ \|HA\|                    |                  \|OH^-^\| $\lll$ \|B\|                       |
 
-Dans le cas d'un acide faible partiellement ionisé : |HA| >>> |H3O^+^|. Dans le cas d'une base faible partiellement ionisé : |B| >>> |OH^-^|.
+**Plus un acide est fort, plus sa base conjuguée sera faible** et vice versa.
 
-Il est à noter que **plus un acide est fort, plus sa base conjuguée sera faible** et vice versa. Dans le cas extrême d'un acide fort (comme HCl), sa base conjuguée est considérée comme **inerte**, car elle ne modifiera pas le pH.
+Dans le cas d'un acide fort, complètement dissocié, sa base conjuguée est dite **inerte**, elle ne modifiera pas le pH.
 
 \newpage
 
-De plus, de nombreuses bases faibles contiennent un atome d'azote puisque la paire libre peut agir comme un accepteur de proton.
+De nombreuses bases faibles contiennent un atome d'azote puisque la paire libre peut agir comme un accepteur de proton.
 
 ```{r acides-bases-3,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Exemple de base faible azotée."}
 knitr::include_graphics(c("images/acides-bases-3.png"))
@@ -161,74 +125,77 @@ knitr::include_graphics(c("images/acides-bases-3.png"))
 
 Table: (\#tab:acides-bases-amines) Exemples de bases azotées faibles.
 
-\newpage
-
 ## Constante d'acidité K~a~ et constante de basicité K~b~
 
-Reprenons l'équation d'ionisation d'un **acide faible** :
+Considérons l'équation générique d'ionisation d'un acide faible :
 
 $$
 \ce{HA_{(aq)} + H2O_{(l)} <=> H3O^{+}_{(aq)} + A^{-}_{(aq)}}
 $$
 
-Puisqu'il s'agit d'une réaction réversible, il est possible de donner la constante d'équilibre de cette réaction d'ionisation :
+La constante d'équilibre de cette réaction s'exprime par la relation suivante :
 
 $$
 K_a = \frac{|\ce{H3O+}| \cdot |\ce{A-}|}{|\ce{HA}|} =  \frac{|\ce{H+}| \cdot |\ce{A-}|}{|\ce{HA}|}
 $$
 
-Dans le cas des acides faibles, cette constante n'est rien d'autre que la **constante d'acidité (K~a~)** qui quantifie la force de ces acides. Plus la constante est **petite**, plus l'équilibre est déplacé vers la **gauche** et donc plus l'acide est **faible**.
+Dans le cas des acides faibles, cette constante est appelée **constante d'acidité (K~a~)** et donne une valeur à la force de ces acides.
 
-De manière similaire, reprenons l'équation d'ionisation d'une **base faible** :
+Plus la constante est **petite**, plus l'équilibre est déplacé vers la **gauche** et plus l'acide est **faible**.
+
+\newpage
+
+Considérons l'équation générique d'ionisation d'une **base faible** :
 
 $$
 \ce{B_{(aq)} + H2O_{(l)} <=> BH^{+}_{(aq)} + OH^{-}_{(aq)}}
 $$
 
-Puisqu'il s'agit d'une réaction réversible, il est possible de donner la constante d'équilibre de cette réaction d'ionisation, qui n'est rien d'autre que la **constante de basicité (K~b~)** :
+La constante d'équilibre de cette réaction s'exprime par la relation suivante :
 
 $$
 K_b = \frac{|\ce{BH+}| \cdot |\ce{OH-}|}{|\ce{B}|}
 $$
 
-À nouveau, plus la constante est **petite**, plus l'équilibre est déplacé vers la **gauche** et donc plus la base est **faible**.
+Cette constante est appelée **constante de basicité (K~b~)** et donne une valeur à la force des bases faibles.
 
-```{r, child=c('exe/acides-bases-50.Rmd')}
-```
+Plus la constante est **petite**, plus l'équilibre est déplacé vers la **gauche** et plus la base est **faible**.
 
-\newpage
+Les valeurs numériques des constantes d'acidité (K~a~) et de basicité (K~b~) pour de nombreux acides et bases courants sont généralement compilées et présentées dans des tables de données de référence.
 
 ```{r, child=c('exe/acides-bases-60.Rmd')}
 ```
 
+\newpage
+
+<!--```{r, child=c('exe/acides-bases-50.Rmd')}
+```-->
+
 ```{r, child=c('exe/acides-bases-70.Rmd')}
 ```
 
-\newpage
-
 ```{r, child=c('exe/acides-bases-80.Rmd')}
 ```
-
-```{r, child=c('exe/acides-bases-90.Rmd')}
-```
+<!--```{r, child=c('exe/acides-bases-90.Rmd')}
+```-->
 
 \newpage
 
 ## Autoprotolyse de l'eau
 
-Nous avons vu précédemment que l'eau était une molécule amphotère, c'est-à-dire qu'elle peut jouer à la fois le rôle d'acide et le rôle de base. Ainsi, même dans de l'eau pure, les molécules d'eau pourront réagir entre-elles :
+L'eau est une molécule amphotère, elle peut jouer à la fois le rôle d'acide et de base. Dans de l'eau pure, deux molécules d'eau peuvent réagir entre-elles, l'une agissant comme un acide et l'autre comme une base :
 
 $$
 \ce{H2O_{(l)} + H2O_{(l)} <=> H3O+_{(aq)} + OH^{-}_{(aq)}}
 $$
 
-Cette réaction est appelée **autoprotolyse** et est régie par la constante d'équilibre K~e~, appelée **produit ionique de l'eau** :
+Cette réaction est appelée **autoprotolyse**. C'est réaction est réversible, on peut en exprimer la constante d'équilibre K~e~, appelée **produit ionique de l'eau** :
 
 $$
 K_e = |\ce{H3O+}| \cdot |\ce{OH-}| = 10^{-14} \quad \text{(valeur à 25°C)}
 $$
 
-Cette relation décrit le lien entre les concentrations de ces deux ions dans toutes les solutions aqueuses. Cette relation est aussi utile pour calculer la concentration des ions H~3~O^+^ dans une solution basique. En effet :
+Cette relation relie les concentrations des ions H~3~O^+^ et OH^-^ dans toutes les solutions aqueuses. Elle permet également de calculer la concentration des ions H~3~O^+^ dans une solution basique, car :
 
 $$
 |\ce{H3O+}| = \frac{10^{-14}}{|\ce{OH-}|}
@@ -237,10 +204,10 @@ $$
 En résumé :
 
 |                           |       |
-| :------------------------ | :---: |
-| Dans de l'eau pure        |   $   | \ce{H3O+} | = | \ce{OH-} | = 10^{-7} M$ |
-| Dans une solution acide   |   $   | \ce{H3O+} | > | \ce{OH-} | $              |
-| Dans une solution basique |   $   | \ce{H3O+} | < | \ce{OH-} | $              |
+| :---------- | :----------: |
+| Dans de l'eau pure        |   \|$\ce{H3O+}$\| = \|$\ce{OH-}$\| = $10^{-7} M$ |
+| Dans une solution acide   |   \|$\ce{H3O+}$\| > \|$\ce{OH-}$\|            |
+| Dans une solution basique |   \|$\ce{H3O+}$\| < \|$\ce{OH-}$\|            |
 
 ```{r, child=c('exe/acides-bases-100.Rmd')}
 ```

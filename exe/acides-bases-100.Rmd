@@ -1,18 +1,18 @@
 ::: {.Exercise data-latex=""}
 
-a. Quelle est la concentration des ions H~3~O^+^ dans une solution d'acide nitrique 0.01 M ?
+a. Quelle est la concentration en ions $\ce{H3O+}$ dans une solution d'acide perchlorique ($\ce{HClO4}$) de 0.025 mol/L ?
 \vspace{\stretch{1}}
-b. Qu’en sera-t-il de la concentration en H~3~O^+^ dans une solution d'acide nitreux 0.01 M ?
-_(une réponse qualitative suffit)_
+b. Comment cette concentration varie-t-elle dans une solution d'acide hypochloreux ($\ce{HClO}$) de 0.025 mol/L ?
+_(une réponse qualitative est attendue)_
 \vspace{\stretch{1}}
 
 :::
 
 ::: {.Answer data-latex=""}
 
-a. $\ce{HNO3}$ acide fort donc $|\ce{H3O+}| = 0.01\ M$
-\vspace{1em}
-b. $\ce{HNO2}$ acide plus faible donc $|\ce{H3O+}| < 0.01\ M$
-\vspace{1em}
+a. L'acide perchlorique ($\ce{HClO4}$) est un acide fort. Il se dissocie donc complètement en solution. La concentration en ions $\ce{H3O+}$ est égale à la concentration initiale de l'acide.
+$$ |\ce{H3O+}| = 0.025\text{ M} $$  
+b. L'acide hypochloreux ($\ce{HClO}$) est un acide faible. Il ne se dissocie que partiellement. Par conséquent, la concentration en ions $\ce{H3O+}$ sera inférieure à la concentration initiale de l'acide.
+$$ |\ce{H3O+}| < 0.025\text{ M} $$
 
 :::

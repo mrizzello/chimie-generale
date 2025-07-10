@@ -1,28 +1,28 @@
 ::: {.Exercise data-latex=""}
 
-Donnez la base la plus forte dans chacune des paires ci-dessous :
+En vous basant sur la force des acides conjugués, déterminez quelle est la base la plus forte dans chacune des paires suivantes :
 
-a. $\ce{NO3-}$ et $\ce{Br-}$
-\vspace{\stretch{1}}
-b. $\ce{NO2-}$ et $\ce{NO3-}$
-\vspace{\stretch{1}}
-c. $\ce{CN-}$ et $\ce{ClO-}$
-\vspace{\stretch{1}}
-d. $\ce{F-}$ et $\ce{ClO2-}$
-\vspace{\stretch{1}}
+a. $\ce{CH3COO-}$ et $\ce{HCOO-}$  
+b. $\ce{SO4^{2-}}$ et $\ce{ClO4-}$  
+c. $\ce{PO4^{3-}}$ et $\ce{CO3^{2-}}$  
+d. $\ce{I-}$ et $\ce{Cl-}$
 
 :::
 
 ::: {.Answer data-latex=""}
 
-a. $\ce{NO3-}$ et $\ce{Br-}$ \tabto{8em} Bases inertes car provenant toutes deux d'acides forts.
+Rappel : Plus l'acide conjugué est faible, plus la base est forte.
+
+a. $\ce{CH3COO-}$ et $\ce{HCOO-}$ \tabto{10em} $\ce{CH3COO-}$ est la base la plus forte.  
+\tabto{10em} ($K_a(\ce{CH3COOH}) < K_a(\ce{HCOOH})$)
 \vspace{1em}
-b. $\ce{NO2-}$ et $\ce{NO3-}$ \tabto{8em} $\ce{NO2-}$ car $\ce{NO3-}$ est inerte (ions spectateur).
+b. $\ce{SO4^{2-}}$ et $\ce{ClO4-}$ \tabto{10em} $\ce{SO4^{2-}}$ est la base la plus forte.  
+\tabto{10em} ($\ce{ClO4-}$ est la base conjuguée d'un acide fort, elle est donc inerte).
 \vspace{1em}
-c. $\ce{CN-}$ et $\ce{ClO-}$ \tabto{8em} $\ce{CN-}$ est plus forte que $\ce{ClO-}$  
-\tabto{8em} car $K_b(\ce{CN-}) > K_b(\ce{ClO-})$ ou $K_a(\ce{HCN}) < K_b(\ce{HClO})$
+c. $\ce{PO4^{3-}}$ et $\ce{CO3^{2-}}$ \tabto{10em} $\ce{PO4^{3-}}$ est la base la plus forte.  
+\tabto{10em} ($K_a(\ce{HPO4^{2-}}) < K_a(\ce{HCO3^{-}})$)
 \vspace{1em}
-d. $\ce{F-}$ et $\ce{ClO2-}$ \tabto{8em} $\ce{F-}$ est une base plus forte que $\ce{ClO2-}$  
-\tabto{8em} (idem)
+d. $\ce{I-}$ et $\ce{Cl-}$ \tabto{10em} Les deux sont des bases inertes (spectateurs).  
+\tabto{10em} (Leurs acides conjugués, $\ce{HI}$ et $\ce{HCl}$, sont des acides forts).
 
 :::

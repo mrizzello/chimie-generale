@@ -1,27 +1,17 @@
 ::: {.Exercise data-latex=""}
 
-Donnez les équations montrant la nature acide et la nature basique d’une solution aqueuse des ampholytes suivants : 
+Écrivez l'équation de la réaction d'autoprotolyse de l'eau, où une molécule d'eau réagit avec une autre.
 
-a. $\ce{H2PO4-}$
-\vspace{\stretch{1}}
-b. $\ce{HCO3-}$
 \vspace{\stretch{1}}
 
 :::
 
 ::: {.Answer data-latex=""}
 
-a. $$
-\begin{split}
-  \ce{$\underset{\text{acide}}{\ce{H2PO4-}}$ + H2O <=> HPO4^{2-} + H3O+} \\
-  \ce{$\underset{\text{base}}{\ce{H2PO4-}}$ + H2O <=> H3PO4 + OH-} \\
-\end{split}
 $$
-b. $$
-\begin{split}
-  \ce{$\underset{\text{acide}}{\ce{HCO3-}}$ + H2O <=> CO3^{2-} + H3O+} \\
-  \ce{$\underset{\text{base}}{\ce{HCO3-}}$ + H2O <=> H2CO3 + OH-} \\
-\end{split}
+\ce{2 H2O_{(l)} <=> H3O^{+}_{(aq)} + OH^{-}_{(aq)}}
 $$
+
+Dans cette réaction, une molécule d'eau cède un proton (agissant comme un acide de Brønsted-Lowry) et l'autre accepte ce proton (agissant comme une base de Brønsted-Lowry).
 
 :::
