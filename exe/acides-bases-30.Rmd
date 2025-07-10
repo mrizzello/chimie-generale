@@ -1,23 +1,18 @@
 ::: {.Exercise data-latex=""}
 
-Écrivez la formule de l'acide conjugué de chacune des bases suivantes :
+Donnez les équations montrant la nature acide et la nature basique de l'ion hydrogénosulfate ($\ce{HSO4-}$).
 
-a. $\ce{ClO4-}$
-\vspace{\stretch{1}}
-b. $\ce{NH3}$
-\vspace{\stretch{1}}
-c. $\ce{HSO4-}$
-\vspace{\stretch{1}}
-d. $\ce{CO3^{2-}}$
 \vspace{\stretch{1}}
 
 :::
 
 ::: {.Answer data-latex=""}
 
-a. $\ce{HClO4}$
-b. $\ce{NH4+}$
-c. $\ce{H2SO4}$
-d. $\ce{HCO3-}$
+$$
+\begin{split}
+  \ce{$\underset{\text{acide}}{\ce{HSO4-}}$ + H2O <=> SO4^{2-} + H3O+} \\
+  \ce{$\underset{\text{base}}{\ce{HSO4-}}$ + H2O <=> H2SO4 + OH-} \\
+\end{split}
+$$
 
 :::

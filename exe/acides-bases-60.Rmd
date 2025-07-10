@@ -1,48 +1,38 @@
 ::: {.Exercise data-latex=""}
 
-Déterminez si chacun des composés ci-dessous est un acide ou une base fort(e) ou faible. Pour les acides ou les bases faibles, donnez également la constante K~a~ ou K~b~ :
+Déterminez si chacun des composés ci-dessous est un acide ou une base fort(e) ou faible. Pour les acides ou les bases faibles, donnez également l'expression de la constante d'acidité (K~a~) ou de basicité (K~b~) :
 
-a. $\ce{HNO3}$
+a. $\ce{HI}$
 \vspace{\stretch{1}}
-b. $\ce{Ca(OH)2}$
+b. $\ce{NaOH}$
 \vspace{\stretch{1}}
-c. $\ce{HClO4}$
+c. $\ce{HF}$
 \vspace{\stretch{1}}
-d. $\ce{HBr}$
+d. $\ce{NH3}$
 \vspace{\stretch{1}}
-e. $\ce{CH3COOH}$
+e. $\ce{H2SO4}$
 \vspace{\stretch{1}}
-f. $\ce{KOH}$
+f. $\ce{HSO4-}$ 
 \vspace{\stretch{1}}
-g. $\ce{CO3^{2-}}$
-\vspace{\stretch{1}}
-h. $\ce{H3PO4}$
-\vspace{\stretch{1}}
-i. $\ce{HCO3-}$
+g. $\ce{C5H5N}$ (pyridine)
 \vspace{\stretch{1}}
 
 :::
 
 ::: {.Answer data-latex=""}
 
-a. $\ce{HNO3}$ \tabto{8em} acide fort
+a. $\ce{HI}$ \tabto{8em} acide fort
 \vspace{1em}
-b. $\ce{Ca(OH)2}$ \tabto{8em} base forte
+b. $\ce{NaOH}$ \tabto{8em} base forte
 \vspace{1em}
-c. $\ce{HClO4}$ \tabto{8em} acide fort
+c. $\ce{HF}$ \tabto{8em} acide faible \tabto{16em} $K_a = \frac{|\ce{F-}| \cdot |\ce{H3O+}|}{|\ce{HF}|}$
 \vspace{1em}
-d. $\ce{HBr}$ \tabto{8em} acide fort
+d. $\ce{NH3}$ \tabto{8em} base faible \tabto{16em} $K_b = \frac{|\ce{NH4+}| \cdot |\ce{OH-}|}{|\ce{NH3}|}$
 \vspace{1em}
-e. $\ce{CH3COOH}$ \tabto{8em} acide faible \tabto{16em} $K_a = \frac{|\ce{CH3COO-}| \cdot |\ce{H3O+}|}{|\ce{CH3COOH}|}$
+e. $\ce{H2SO4}$ \tabto{8em} acide fort (pour la première déprotonation)
 \vspace{1em}
-f. $\ce{KOH}$ \tabto{8em} base forte
+f. $\ce{HSO4-}$ \tabto{8em} acide faible \tabto{16em} $K_a = \frac{|\ce{SO4^{2-}}| \cdot |\ce{H3O+}|}{|\ce{HSO4-}|}$
+g. $\ce{C5H5N}$ \tabto{8em} base faible \tabto{16em} $K_b = \frac{|\ce{C5H5NH+}| \cdot |\ce{OH-}|}{|\ce{C5H5N}|}$
 \vspace{1em}
-g. $\ce{CO3^{2-}}$ \tabto{8em} base faible \tabto{16em} $K_b = \frac{|\ce{HCO3-}| \cdot |\ce{OH-}|}{|\ce{CO3^{2-}}|}$
-\vspace{1em}
-h. $\ce{H3PO4}$ \tabto{8em} acide faible \tabto{16em} $K_a = \frac{|\ce{H2PO4-}| \cdot |\ce{H3O+}|}{|\ce{H3PO4}|}$
-\vspace{1em}
-i. $\ce{HCO3-}$ \tabto{8em} acide faible \tabto{16em} $K_a = \frac{|\ce{CO3^{2-}}| \cdot |\ce{H3O+}|}{|\ce{HCO3-}|}$  
-\vspace{1em}
-\tabto{8em} base faible \tabto{16em} $K_b = \frac{|\ce{H2CO3}| \cdot |\ce{OH-}|}{|\ce{HCO3-}|}$
 
 :::
