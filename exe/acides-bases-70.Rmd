@@ -1,31 +1,21 @@
 ::: {.Exercise data-latex=""}
 
-Classez les solutions données par ordre croissant selon leur concentration en ion hydronium :
+En vous basant sur la force relative des acides, classez les solutions suivantes par ordre de force d'acidité croissante.
 
-a. $\ce{HCl}$ 0.10 [mol/L]
-\vspace{\stretch{1}}
-b. $\ce{HF}$ 0.10 [mol/L]
-\vspace{\stretch{1}}
-c. $\ce{HClO}$ 0.10 [mol/L]
-\vspace{\stretch{1}}
-d. $\ce{CH3COOH}$ 0.10 [mol/L]
-\vspace{\stretch{1}}
+a. Acide nitrique 0.1 M  
+b. Acide fluorhydrique 0.1 M  
+c. Acide formique 0.1 M  
+d. Acide hypochloreux 0.1 M
 
 :::
 
 ::: {.Answer data-latex=""}
 
-a. $\ce{HCl}$ 0.10 [mol/L] \tabto{12em} acide fort complètement ionisé (dissocié), |$\ce{H3O+}$| = 0.1 M
-\vspace{1em}
-b. $\ce{HF}$ 0.10 [mol/L] \tabto{12em} $K_{a1} = 3.5 \cdot 10^{-4}$
-\vspace{1em}
-c. $\ce{HClO}$ 0.10 [mol/L] \tabto{12em} $K_{a2} = 2.9 \cdot 10^{-8}$
-\vspace{1em}
-d. $\ce{CH3COOH}$ 0.10 [mol/L] \tabto{12em} $K_{a3} = 1.8 \cdot 10^{-5}$
-\vspace{1em}
+- Acide hypochloreux ($\ce{HClO}$) : $K_a = \num{3.63e-8}$  
+- Acide formique ($\ce{HCOOH}$) : $K_a = \num{1.78e-4}$  
+- Acide fluorhydrique ($\ce{HF}$) : $K_a = \num{6.76e-4}$  
+- Acide nitrique ($\ce{HNO3}$) : Acide fort (K~a~ >> 1)  
 
-Plus le K~a~ est grand, plus la force de l'acide est élevée et donc plus il est ionisé (et plus |$\ce{H3O+}$| est élevée).
+$$\ce{HClO} < \ce{HCOOH} < \ce{HF} < \ce{HNO3}$$
 
-Classement par ordre croissant : $\ce{HClO}$ < $\ce{CH3COOH}$ < $\ce{HF}$ < $\ce{HCl}$ 
-\newpage
 :::
