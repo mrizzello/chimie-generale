@@ -1,23 +1,29 @@
 ::: {.Exercise data-latex=""}
 
-Pour chaque réaction et selon la définition de Brønsted-Lowry, déterminez l'acide, la base, l'acide conjugué et la base conjuguée. 
+Pour chaque réaction déterminez l'acide, la base, l'acide conjugué et la base conjuguée (selon la définition de Brønsted-Lowry). 
 
-a. $\ce{H2CO3_{(aq)} + H2O_{(l)} <=> H3O^+_{(aq)} + HCO3^{-}_{(aq)}}$
+a. $\ce{NH3_{(aq)} + H2O_{(l)} <=> NH4^+_{(aq)} + OH^{-}_{(aq)}}$
 \vspace{\stretch{1}}
-b. $\ce{C5H5N_{(aq)} + H2O_{(l)} <=> OH^{-}_{(aq)} + C5H5NH^+_{(aq)}}$
+b. $\ce{HSO4^{-}_{(aq)} + H2O_{(l)} <=> SO4^{2-}_{(aq)} + H3O^+_{(aq)}}$
 \vspace{\stretch{1}}
-c. $\ce{CH3NH2_{(aq)} + H2O_{(l)} <=> CH3NH3^+_{(aq)} + OH^{-}_{(aq)}}$
+c. $\ce{HF_{(aq)} + H2O_{(l)} <=> F^{-}_{(aq)} + H3O^+_{(aq)}}$
 \vspace{\stretch{1}}
-d. $\ce{HBr_{(aq)} + H2O_{(l)} <=> H3O^+_{(aq)} + Br^{-}_{(aq)}}$
+d. $\ce{PO4^{3-}_{(aq)} + H2O_{(l)} <=> HPO4^{2-}_{(aq)} + OH^{-}_{(aq)}}$
 \vspace{\stretch{1}}
+<!--e. $\ce{HClO_{(aq)} + H2O_{(l)} <=> ClO^{-}_{(aq)} + H3O^+_{(aq)}}$
+\vspace{\stretch{1}}
+f. $\ce{CH3COO^{-}_{(aq)} + H2O_{(l)} <=> CH3COOH_{(aq)} + OH^{-}_{(aq)}}$
+\vspace{\stretch{1}}-->
 
 :::
 
 ::: {.Answer data-latex=""}
 
-a. $$ \ce{$\underset{\text{acide}}{\ce{H2CO3_{(aq)}}}$ + $\underset{\text{base}}{\ce{H2O_{(l)}}}$ <=> $\underset{\text{acide conjugué}}{\ce{H3O^+_{(aq)}}}$ + $\underset{\text{base conjuguée}}{\ce{HCO3^{-}_{(aq)}}}$} $$
-b. $$ \ce{$\underset{\text{base}}{\ce{C5H5N_{(aq)}}}$ + $\underset{\text{acide}}{\ce{H2O_{(l)}}}$ <=> $\underset{\text{base conjuguée}}{\ce{OH^{-}_{(aq)}}}$ + $\underset{\text{acide conjugué}}{\ce{C5H5NH^+_{(aq)}}}$} $$
-c. $$ \ce{$\underset{\text{base}}{\ce{CH3NH2_{(aq)}}}$ + $\underset{\text{acide}}{\ce{H2O_{(l)}}}$ <=> $\underset{\text{acide conjugué}}{\ce{CH3NH3^+_{(aq)}}}$ + $\underset{\text{base conjuguée}}{\ce{OH^{-}_{(aq)}}}$} $$
-d. $$ \ce{$\underset{\text{acide}}{\ce{HBr_{(aq)}}}$ + $\underset{\text{base}}{\ce{H2O_{(l)}}}$ <=> $\underset{\text{acide conjugué}}{\ce{H3O^+_{(aq)}}}$ + $\underset{\text{base conjuguée}}{\ce{Br^{-}_{(aq)}}}$} $$
+a. $$ \ce{$\underset{\text{base}}{\ce{NH3_{(aq)}}}$ + $\underset{\text{acide}}{\ce{H2O_{(l)}}}$ <=> $\underset{\text{acide conjugué}}{\ce{NH4^+_{(aq)}}}$ + $\underset{\text{base conjuguée}}{\ce{OH^{-}_{(aq)}}}$} $$
+b. $$ \ce{$\underset{\text{acide}}{\ce{HSO4^{-}_{(aq)}}}$ + $\underset{\text{base}}{\ce{H2O_{(l)}}}$ <=> $\underset{\text{base conjuguée}}{\ce{SO4^{2-}_{(aq)}}}$ + $\underset{\text{acide conjugué}}{\ce{H3O^+_{(aq)}}}$} $$
+c. $$ \ce{$\underset{\text{acide}}{\ce{HF_{(aq)}}}$ + $\underset{\text{base}}{\ce{H2O_{(l)}}}$ <=> $\underset{\text{base conjuguée}}{\ce{F^{-}_{(aq)}}}$ + $\underset{\text{acide conjugué}}{\ce{H3O^+_{(aq)}}}$} $$
+d. $$ \ce{$\underset{\text{base}}{\ce{PO4^{3-}_{(aq)}}}$ + $\underset{\text{acide}}{\ce{H2O_{(l)}}}$ <=> $\underset{\text{acide conjugué}}{\ce{HPO4^{2-}_{(aq)}}}$ + $\underset{\text{base conjuguée}}{\ce{OH^{-}_{(aq)}}}$} $$
+<!--e. $$ \ce{$\underset{\text{acide}}{\ce{HClO_{(aq)}}}$ + $\underset{\text{base}}{\ce{H2O_{(l)}}}$ <=> $\underset{\text{base conjuguée}}{\ce{ClO^{-}_{(aq)}}}$ + $\underset{\text{acide conjugué}}{\ce{H3O^+_{(aq)}}}$} $$
+f. $$ \ce{$\underset{\text{base}}{\ce{CH3COO^{-}_{(aq)}}}$ + $\underset{\text{acide}}{\ce{H2O_{(l)}}}$ <=> $\underset{\text{acide conjugué}}{\ce{CH3COOH_{(aq)}}}$ + $\underset{\text{base conjuguée}}{\ce{OH^{-}_{(aq)}}}$} $$-->
 
 :::

@@ -1,23 +1,23 @@
 ::: {.Exercise data-latex=""}
 
-Écrivez la formule de la base conjuguée de chaque acide suivant :
+Pour chaque espèce chimique suivante, écrivez la formule de son acide ou de sa base conjuguée, selon le cas.
 
-a. $\ce{HCl}$
-\vspace{\stretch{1}}
-b. $\ce{H2SO3}$
-\vspace{\stretch{1}}
-c. $\ce{CH3COOH}$
-\vspace{\stretch{1}}
-d. $\ce{HF}$
-\vspace{\stretch{1}}
+a. Base conjuguée de $\ce{HCN}$  
+b. Acide conjugué de $\ce{SO3^{2-}}$  
+c. Base conjuguée de $\ce{H3PO4}$  
+d. Acide conjugué de $\ce{C2H5NH2}$  
+e. Base conjuguée de $\ce{HNO2}$  
+f. Acide conjugué de $\ce{Br-}$
 
 :::
 
 ::: {.Answer data-latex=""}
 
-a. $\ce{Cl-}$
-b. $\ce{HSO3-}$
-c. $\ce{CH3COO-}$
-d. $\ce{F-}$
+a. $\ce{CN-}$  
+b. $\ce{HSO3-}$  
+c. $\ce{H2PO4-}$  
+d. $\ce{C2H5NH3+}$  
+e. $\ce{NO2-}$  
+f. $\ce{HBr}$
 
 :::
