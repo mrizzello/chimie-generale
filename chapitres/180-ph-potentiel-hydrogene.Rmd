@@ -47,16 +47,16 @@ Table: (\#tab:echelle-pH-1) pH et concentrations en $\ce{H3O+}$ de solutions aqu
 
 | Solution courante   | pH (Approximatif) |    \|$\ce{H3O+}_{(aq)}$\| (mol/L) |
 | :------------------ | ----------------: | --------------------------------: |
-| Jus de citron       |                 2 |   $\num{1.2e-3}$ à $\num{5.0e-4}$ |
-| Vinaigre            |                 3 |   $\num{1.2e-3}$ à $\num{5.0e-4}$ |
-| Tomates             |                 4 |   $\num{1.0e-5}$ à $\num{1.0e-6}$ |
-| Café                |                 5 |                    $\num{1.0e-5}$ |
-| Salive              |               6.5 |   $\num{1.0e-6}$ à $\num{1.5e-7}$ |
-| Lait                |               6.6 |   $\num{3.2e-7}$ à $\num{9.1e-8}$ |
-| Eau distillée       |                 7 |                    $\num{1.0e-7}$ |
-| Savon               |                10 |  $\num{1.0e-9}$ à $\num{1.0e-10}$ |
-| Détergent à lessive |                11 | $\num{1.0e-10}$ à $\num{1.0e-12}$ |
-| Eau de Javel        |                12 | $\num{1.0e-11}$ à $\num{1.0e-13}$ |
+| Jus de citron       |                 2 |   $1.2 \cdot 10^{-3}$ à $5.0 \cdot 10^{-4}$ |
+| Vinaigre            |                 3 |   $1.2 \cdot 10^{-3}$ à $5.0 \cdot 10^{-4}$ |
+| Tomates             |                 4 |   $1.0 \cdot 10^{-5}$ à $1.0 \cdot 10^{-6}$ |
+| Café                |                 5 |                    $1.0 \cdot 10^{-5}$ |
+| Salive              |               6.5 |   $1.0 \cdot 10^{-6}$ à $1.5 \cdot 10^{-7}$ |
+| Lait                |               6.6 |   $3.2 \cdot 10^{-7}$ à $9.1 \cdot 10^{-8}$ |
+| Eau distillée       |                 7 |                    $1.0 \cdot 10^{-7}$ |
+| Savon               |                10 |  $1.0 \cdot 10^{-9}$ à $1.0 \cdot 10^{-10}$ |
+| Détergent à lessive |                11 | $1.0 \cdot 10^{-10}$ à $1.0 \cdot 10^{-12}$ |
+| Eau de Javel        |                12 | $1.0 \cdot 10^{-11}$ à $1.0 \cdot 10^{-13}$ |
 
 L'échelle de pH est **logarithmique**, ce qui implique qu'une variation d'une unité de pH représente une variation d'un facteur 10 de la concentration en ions $\ce{H3O+}_{(aq)}$.
 
