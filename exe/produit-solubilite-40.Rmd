@@ -1,0 +1,53 @@
+::: {.Exercise data-latex=""}
+
+On mélange 200 mL d'une solution de nitrate de plomb (II) ($\ce{Pb(NO3)2}$) à 0.02 M avec 300 mL d'une solution de chlorure de sodium ($\ce{NaCl}$) à 0.1 M.
+
+Est-ce qu'un précipité de chlorure de plomb (II) ($\ce{PbCl2}$) va se former ?
+
+Le produit de solubilité de $\ce{PbCl2}$ est $K_{ps} = 1.7 \cdot 10^{-5}$.
+
+:::
+
+::: {.Answer data-latex=""}
+
+$$
+\begin{split}
+\ce{PbCl_{2(s)} <=> Pb^{2+}_{(aq)} + 2 Cl^{-}_{(aq)}}
+\end{split}
+\qquad\Rightarrow\qquad
+\begin{split}
+Q = |\ce{Pb^{2+}}| \cdot |\ce{Cl^{-}}|^2
+\end{split}
+$$
+
+$$
+\begin{split}
+\text{moles de } \ce{Pb^{2+}} &= 0.200\ L \cdot 0.02\ mol/L = 0.004\ mol \\
+\text{moles de } \ce{Cl^{-}} &= 0.300\ L \cdot 0.1\ mol/L = 0.03\ mol
+\end{split}
+\qquad\qquad
+\begin{split}
+V_{total} &= 200\ mL + 300\ mL \\
+  &= 500\ mL = 0.5\ L
+\end{split}
+$$
+
+$$
+\begin{split}
+|\ce{Pb^{2+}}| &= \frac{0.004\ mol}{0.5\ L} = 0.008\ M \\
+|\ce{Cl^{-}}| &= \frac{0.03\ mol}{0.5\ L} = 0.06\ M
+\end{split}
+\quad\Rightarrow\quad
+\begin{split}
+Q &= 0.008 \cdot (0.06)^2 \\
+  &= 0.008 \cdot 0.0036 = 2.88 \cdot 10^{-5}
+\end{split}
+\quad\Rightarrow\quad
+\begin{split}
+Q &= 2.88 \cdot 10^{-5} \\K_{ps} &= 1.7 \cdot 10^{-5}
+\end{split}
+$$
+
+$Q > K_{ps}$, le sens indirect (la formation de solide) est favorisé. Oui, un précipité de $\ce{PbCl2}$ va se former.
+
+:::

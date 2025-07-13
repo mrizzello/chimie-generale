@@ -1,0 +1,31 @@
+::: {.Exercise data-latex=""}
+
+Comparez la solubilité de l'hydroxide de calcium et du phosphate de cuivre II. Indiquez lequel des deux composés est le plus soluble.
+
+$$
+K_{ps}(\ce{Ca(OH)2}) = 5.02 \cdot 10^{-6} \quad\text{et}\quad K_{ps}(\ce{Cu3(PO4)2}) = 1.4 \cdot 10^{-37}
+$$
+
+:::
+
+::: {.Answer data-latex=""}
+
+$$
+\begin{split}
+\ce{Ca(OH)2_{(s)} <=> Ca^{2+}_{(aq)} + 2 OH^{-}_{(aq)}} \\[1em]
+K_{ps} = |\ce{Ca^{2+}_{(aq)}}| \cdot |\ce{OH^{-}_{(aq)}}|^2 = s \cdot (2s)^2 = 4s^3 \\[1em]
+s = \sqrt[3]{\frac{K_{ps}}{4}} = \sqrt[3]{\frac{5.02 \cdot 10^{-6}}{4}} = 1.08 \cdot 10^{-2}\ mol/L
+\end{split}
+$$
+
+$$
+\begin{split}
+\ce{Cu3(PO4)2_{(s)} <=> 3 Cu^{2+}_{(aq)} + 2 PO4^{3-}_{(aq)}} \\[1em]
+K_{ps} = |\ce{Cu^{2+}_{(aq)}}|^3 \cdot |\ce{PO4^{3-}_{(aq)}}|^2 = (3s)^3 \cdot (2s)^2 = 108s^5 \\[1em]
+s = \sqrt[5]{\frac{K_{ps}}{108}} = \sqrt[5]{\frac{1.4 \cdot 10^{-37}}{108}} = 1.67 \cdot 10^{-8}\ mol/L
+\end{split}
+$$
+
+L'hydroxide de calcium est donc beaucoup plus soluble que le phosphate de cuivre II.
+
+:::

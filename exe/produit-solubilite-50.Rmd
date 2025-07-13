@@ -1,0 +1,27 @@
+::: {.Exercise data-latex=""}
+
+Les valeurs de $K_{ps}$ du \ce{CuCO3} et du \ce{ZnCO3} sont respectivement $1.4 \cdot 10^{-10}$ et $1.4 \cdot 10^{-11}$. Cela signifie-t-il que la solubilité de $\ce{CuCO3}$ est 10 fois plus grande que celle de $\ce{ZnCO3}$ ? Justifiez votre réponse.
+
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+$$
+  \begin{split}
+  \ce{CuCO3} & \ce{<=> Cu^{2+} + CO_3^{2-}} \\
+  K_{ps} &= |Cu^{2+}| \cdot |CO_3^{2-}| = s^2 \\
+  s &= \sqrt{1.4 \cdot 10^{-10}} = 1.18 \cdot 10^{-5}\ mol/L
+  \end{split}
+  \qquad
+  \begin{split}
+  \ce{ZnCO3} & \ce{<=> Zn^{2+} + CO_3^{2-}} \\
+  K_{ps} &= |Zn^{2+}| \cdot |CO_3^{2-}| = s^2 \\
+  s &= \sqrt{1.4 \cdot 10^{-11}} = 3.74 \cdot 10^{-6}\ mol/L
+  \end{split}
+$$
+
+Un $K_{ps}$ 10$\times$ plus grand n'implique pas une solubilité 10$\times$ plus grande.
+
+:::
