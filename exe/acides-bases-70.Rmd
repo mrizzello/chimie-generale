@@ -11,9 +11,9 @@ d. Acide hypochloreux 0.1 M
 
 ::: {.Answer data-latex=""}
 
-- Acide hypochloreux ($\ce{HClO}$) : $K_a = \num{3.63e-8}$  
-- Acide formique ($\ce{HCOOH}$) : $K_a = \num{1.78e-4}$  
-- Acide fluorhydrique ($\ce{HF}$) : $K_a = \num{6.76e-4}$  
+- Acide hypochloreux ($\ce{HClO}$) : $K_a = 3.63 \cdot 10^{-8}$  
+- Acide formique ($\ce{HCOOH}$) : $K_a = 1.78 \cdot 10^{-4}$  
+- Acide fluorhydrique ($\ce{HF}$) : $K_a = 6.76 \cdot 10^{-4}$  
 - Acide nitrique ($\ce{HNO3}$) : Acide fort (K~a~ >> 1)  
 
 $$\ce{HClO} < \ce{HCOOH} < \ce{HF} < \ce{HNO3}$$

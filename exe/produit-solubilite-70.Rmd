@@ -1,0 +1,34 @@
+::: {.Exercise data-latex=""}
+
+Calculez la solubilité de $\ce{Mg(OH)2}$ dans $\ce{MgCl2}$ 0.10 M. ($K_{ps} = 5.61 \cdot 10^{-12}$)
+
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+\begin{tabular}{ cccccc } 
+~ & \ce{Mg(OH)2(s)} & \ce{<=>} & \ce{Mg^{2+}(aq)} & + & 2\ \ce{OH^{-}(aq)} \\
+\midrule
+init. & & & 0.1 & & 0 \\
+\midrule
+$\Delta$ & & & +s & & +2s \\
+\midrule
+final & & & 0.1+s & & 2s \\
+\midrule
+\end{tabular}
+
+$$
+\begin{split}
+  K_{ps} = |\ce{Mg^{2+}}| \cdot |\ce{OH^{-}}|^2 &= (0.1+s) \cdot (2s)^2 \\
+  &= (0.1+\cancel{s}) \cdot (2s)^2 \\
+  K_{ps} &= 0.4s^2
+\end{split}
+\qquad\qquad
+\begin{split}
+  \Rightarrow\ s &= \sqrt[2]{\frac{K_{ps}}{0.4}} = \sqrt[2]{\frac{1.8 \cdot 10^{-11}}{0.4}} \\  &= 6.71 \cdot 10^{-6}{\ [mol/L]}
+\end{split}
+$$
+
+:::

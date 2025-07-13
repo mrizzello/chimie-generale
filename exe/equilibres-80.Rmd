@@ -6,7 +6,7 @@ $$
 \ce{N2_{(g)} + 3 H2_{(g)} <=> 2 NH3_{(g)}}
 $$
 
-La constante d'équilibre de cette réaction à la température à laquelle elle se déroule est $K_p = \num{6e5}$.
+La constante d'équilibre de cette réaction à la température à laquelle elle se déroule est $K_p = 6\cdot 10^{5}$.
 
 Supposons que les pressions partielles initiales des gaz dans le réacteur où a lieu le réaction soient :
 
@@ -33,7 +33,7 @@ Q_p &= \frac{P_{\ce{NH3}}^2}{P_{\ce{N2}} \cdot P_{\ce{H2}}^3} \\
 $$
 
 2. Sens de la réaction :  
-Puisque $Q_p = 0.039$ et $K_p = \num{6e5}$, nous observons que :
+Puisque $Q_p = 0.039$ et $K_p = 6 \cdot 10^{5}$, nous observons que :
 $$
 Q_p < K_p
 $$
