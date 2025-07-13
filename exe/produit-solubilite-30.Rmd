@@ -1,0 +1,37 @@
+::: {.Exercise data-latex=""}
+
+Calculez la solubilité de \ce{PbSO4} dans l'eau et dans une solution aqueuse de \ce{Na2SO4_{(aq)}} 1 M ($K_{ps} = 2.53 \cdot 10^{-8}$ à 25\celsius).
+
+:::
+
+::: {.Answer data-latex=""}
+
+\begin{center}
+\begin{tabular}{ cccccc } 
+~ & \ce{PbSO4(s)} & \ce{<=>} & \ce{Pb^{2+}(aq)} & + & \ce{SO4^{2-}(aq)} \\
+\midrule
+init. & & & 0 & & 1 \\
+\midrule
+$\Delta$ & & & +s & & +s \\
+\midrule
+final & & & s & & 1+s \\
+\midrule
+\end{tabular}
+\end{center}
+
+$$
+\begin{split}
+    K_{ps} &= |\ce{Pb^{2+}}| \cdot |\ce{SO4^{2-}}| = s \cdot (1+s) \\
+    &= s \cdot (1+\cancel{s}) \\
+    \Rightarrow s &= K_{ps} = 2.53 \cdot 10^{-8}\ mol/L
+\end{split}
+\qquad
+\begin{split}
+    &\text{sans le ion commun} \\
+    K_{ps} &= |\ce{Pb^{2+}}| \cdot |\ce{SO4^{2-}}| = s \cdot s = s^2 \\
+    \Rightarrow s &= \sqrt[2]{K_{ps}} = \sqrt[2]{2.53 \cdot 10^{-8}} = 1.59 \cdot 10^{-4}\ mol/L
+\end{split}
+$$
+
+
+:::

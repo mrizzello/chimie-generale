@@ -1,0 +1,23 @@
+::: {.Exercise data-latex=""}
+
+Exprimer le produit de solubilité ($K_{ps}$) pour les sels peu solubles suivants :
+
+1. $\ce{FePO4}$ 
+\vspace{2em}
+2. $\ce{Cr(OH)3}$ 
+\vspace{2em}
+3. $\ce{MgF2}$ 
+\vspace{2em}
+4. $\ce{Li2CO3}$ 
+\vspace{2em}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. $K_{ps} = |\ce{Fe^{3+}}| \cdot |\ce{PO4}^{3-}|$ 
+2. $K_{ps} = |\ce{Cr^{3+}}| \cdot |\ce{OH}^{-}|^3$ 
+3. $K_{ps} = |\ce{Mg^{2+}}| \cdot |\ce{F-}|^2$ 
+4. $K_{ps} = |\ce{Li^{+}}|^2 \cdot |\ce{CO3}^{2-}|$
+
+:::

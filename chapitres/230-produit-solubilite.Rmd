@@ -1,3 +1,210 @@
 # Le produit de solubilité
 
-En cours de rédaction ...
+::: {.objectives data-latex=""}
+
+- Définir le produit de solubilité ($K_{ps}$) d'un composé ionique.
+- Écrire l'expression du produit de solubilité pour une réaction donnée.
+- Calculer le produit de solubilité à partir de données de solubilité et la solubilité à partir de la valeur de $K_{ps}$.
+- Décrire et calculer l'effet sur la solubilité d'un sel peu soluble lors de l'ajout d'un ion commun.
+- Comparer le quotient de réaction $Q$ et $K_{ps}$ pour déterminer si une précipitation va se produire.
+
+:::
+
+Nous avons décrits certains composés ioniques comme insolubles dans l'eau. Ces composés possèdent néanmoins une légère solubilité. Cette solubilité relativement faible implique qu'une petite portion du composé se dissout en se dissociant. La solution atteint alors très rapidement la limite de solubilité.
+
+Une **solution saturée** qui contient un soluté non dissous est un exemple d'équilibre chimique. Ce chapitre étudie cet équilibre et décrit la dynamique de dissolution et de précipitation de ces composés.
+
+## Produit de solubilité ($K_{ps}$)
+
+Le **produit de solubilité** ($K_{ps}$) est une constante d'équilibre qui représente le produit des concentrations molaires des ions d'un composé ionique légèrement soluble, à la saturation, et à une température donnée.
+
+Pour un sel générique de formule $A_{n}B_{m}$, l'équilibre de sa dissolution dans l'eau s'écrit :
+
+$$
+\ce{A_{n}B_{m(s)} <=> nA^{m+}_{(aq)} + mB^{n-}_{(aq)}}
+$$
+
+L'expression de la constante de solubilité ($K_{ps}$) pour ce sel est alors donnée par :
+
+$$
+\begin{split}
+K_{ps} = \frac{|A^{m+}|^n \cdot |B^{n-}|^m}{\cancel{A_{n}B_{m (s)}}}
+\end{split}
+\quad\Rightarrow\quad
+\begin{split}
+K_{ps} = |A^{m+}|^n \cdot |B^{n-}|^m
+\end{split}
+$$
+
+Dans cette expression, chaque concentration ionique est élevée à la puissance de son coefficient stœchiométrique tel qu'il apparaît dans l'équation chimique équilibrée. Pour rappel, lors du calcul des constantes d'équilibre, les solides et les liquides purs ne sont pas inclus dans l'expression.
+
+\newpage
+
+```{r, child=c('exe/produit-solubilite-10.Rmd')}
+```
+
+**21.2 Produit de solubilité ($K_{ps}$) et solubilité ($s$)**
+
+Le terme "produit de solubilité" suggère une relation directe avec la solubilité d'un soluté. Cependant, le produit de solubilité et la solubilité ne sont **pas équivalents**. La solubilité ($s$) est la concentration d'un soluté dans une solution saturée, tandis que le produit de solubilité ($K_{ps}$) est le produit des concentrations des ions dissociés à l'équilibre.
+
+Pour comparer la solubilité de différents sels, il n'est possible de comparer directement leurs produits de solubilité ($K_{ps}$) que si ces sels possèdent le même rapport molaire entre cation et anion.
+
+Dans tous les autres cas, il faut calculer leurs solubilités respectives pour effectuer une comparaison valide.
+
+Par exemple, pour le sulfate de baryum, $\ce{BaSO4}$, l'équilibre de dissolution s'écrit :
+
+$$
+\ce{BaSO_{4(s)} <=> Ba^{2+}_{(aq)} + SO4^{2-}_{(aq)}}
+$$
+
+Si la concentration de sulfate de baryum dissous est représentée par $s$, alors à l'équilibre :
+
+$$
+\begin{split}
+s = |\ce{BaSO_{4(aq)}}|
+\end{split}
+\quad\Rightarrow\quad
+\begin{split}
+|Ba^{2+}_{(aq)}| &= s \\
+|SO4^{2-}_{(aq)}| &= s
+\end{split}
+$$
+
+L'expression de la constante d'équilibre devient alors :
+
+$$
+K_{ps} = |Ba^{2+}_{(aq)}| \cdot |SO4^{2-}_{(aq)}| = s \cdot s = s^2
+$$
+
+On peut ainsi calculer le produit de solubilité à partir de la solubilité :
+
+$$
+\begin{split}
+s &= 1.04 \cdot 10^{-5}\ mol/L \\
+K_{ps} &= s^2 = (1.04\cdot 10^{-5})^2 = 1.08\cdot 10^{-10}
+\end{split}
+$$
+
+\newpage
+
+Dans le cas de l'hydroxyde de cobalt II, $\ce{Co(OH)_{2}}$, l'équilibre de dissolution s'écrit :
+
+$$
+\ce{Co(OH)_{2(s)} <=> Co^{2+}_{(aq)} + 2 OH^{-}_{(aq)}}
+$$
+
+Si la concentration de sulfate de baryum dissous est représentée par $s$, alors à l'équilibre :
+
+$$
+\begin{split}
+s = |\ce{Co(OH)_{2(aq)}}|
+\end{split}
+\quad\Rightarrow\quad
+\begin{split}
+|Co^{2+}_{(aq)}| &= s \\
+|OH^{-}_{(aq)}| &= 2 \cdot s
+\end{split}
+$$
+
+L'expression de la constante d'équilibre devient alors :
+
+$$
+K_{ps} = |Co^{2+}_{(aq)}| \cdot |OH^{-}_{(aq)}|^2 = s \cdot (2 \cdot s)^2 = 4 \cdot s^3
+$$
+
+On peut ainsi calculer le produit de solubilité à partir de la solubilité :
+
+$$
+\begin{split}
+s &= 1.14\cdot 10^{-5}\ mol/L \\
+K_{ps} &= 4 \cdot s^3 = 4 \cdot (1.14\cdot 10^{-5})^3 = 5.9\cdot 10^{-15}
+\end{split}
+$$
+
+En résumé :
+
+|          |      $\ce{BaSO4}$      |     $\ce{Co(OH)2}$     |
+| :------: | :--------------------: | :--------------------: |
+| $K_{ps}$ |    $1.08 \cdot 10^{-10}$    |    $5.9 \cdot 10^{-15}$     |
+|   $s$    | $1.04 \cdot 10^{-5}\ mol/L$ | $1.14 \cdot 10^{-5}\ mol/L$ |
+
+Bien que ces deux sels aient des solubilités similaires, leurs produits de solubilité diffèrent considérablement.
+
+Le produit de solubilité ($K_{ps}$) est lié à la solubilité ($s$) par une relation qui dépend du rapport stœchiométrique des ions dans l'équation de dissolution. Les $K_{ps}$ ne sont pas directement comparables entre différents sels à moins qu'ils n'aient des coefficients stœchiométriques identiques dans leur équation de dissolution.
+
+```{r, child=c('exe/produit-solubilite-20.Rmd')}
+```
+\newpage
+
+## Effet d'un ion commun
+
+L'ajout d'un ion commun à une solution contenant un sel peu soluble a un impact sur l'équilibre de solubilité. Conformément au principe de Le Châtelier, la solubilité d'un composé ionique peu soluble **diminue** lorsque l'on ajoute à la solution un second soluté qui contient un ion commun.
+
+Prenons une solution de sulfate de sodium ($\ce{Na2SO4}$), un sel soluble, à une solution saturée de sulfate de plomb II ($\ce{PbSO4}$), qui est peu soluble.
+
+$$
+\begin{split}
+\ce{Na2SO4_{(s)}} \ce{&-> 2 Na^{+}_{(aq)} + SO4^{2-}_{(aq)}} \\[1em]
+\ce{PbSO4_{(s)}} \ce{&<=> Pb^{2+}_{(aq)} + SO4^{2-}_{(aq)}}
+\end{split}
+$$
+
+L'ion $\ce{SO4^{2-}}$ est l'ion commun introduit par le sulfate de sodium. Selon le principe de Le Châtelier, l'ajout de cet ion commun déplacera l'équilibre de dissolution de $\ce{PbSO4}$ vers la gauche, c'est-à-dire vers la formation du solide non dissous. En conséquence :
+
+- La concentration en ions $\ce{Pb^{2+}}$ diminue.
+- La concentration en ions $\ce{SO4^{2-}}$ diminue.
+- Le phénomène observé sera la précipitation de $\ce{PbSO4_{(s)}}$.
+
+Cette réduction de la solubilité est une conséquence directe de l'augmentation de la concentration d'un des produits de la dissolution, ce qui force l'équilibre à se déplacer dans le sens inverse de la dissolution.
+
+```{r, child=c('exe/produit-solubilite-30.Rmd')}
+```
+
+\newpage
+
+## Prédiction de la précipitation
+
+Pour déterminer si la précipitation d'un solide ionique peu soluble aura lieu lors du mélange de solutions contenant des ions susceptibles de précipiter, on compare le quotient réactionnel ($Q$) au produit de solubilité ($K_{ps}$).
+
+Pour rappel, le quotient réactionnel ($Q$) est une grandeur qui caractérise un système chimique à un instant donné (par exemple, les conditions initiales) et qui est définie de manière similaire à $K_{ps}$ à chaque instant.
+
+$$
+Q_{r}(t) = \frac{|C|_{(t)}^{c} \cdot |D|_{(t)}^{d}}{|A|_{(t)}^{a} \cdot |B|_{(t)}^{b}}
+$$
+
+Dans le cas d'un sel peu soluble, le quotient réactionnel est défini comme suit :
+
+$$
+Q_{r}(t) = |A^{m+}|^n_{(t)} \cdot |B^{n-}|^m_{(t)}
+$$
+
+Les règles générales pour prédire si une précipitation se produira sont les suivantes :
+
+|    $Q$ < $K_{ps}$    |     $Q$ = $K_{ps}$      |     $Q$ > $K_{ps}$     |
+| :------------------: | :---------------------: | :--------------------: |
+| sens direct favorisé |  système à l'équilibre  | sens indirect favorisé |
+| pas de précipitation | la solution est saturée |     précipitation      |
+
+```{r, child=c('exe/produit-solubilite-40.Rmd')}
+```
+
+\newpage
+
+## Exercices supplémentaires
+
+```{r, child=c('exe/produit-solubilite-50.Rmd')}
+```
+
+```{r, child=c('exe/produit-solubilite-60.Rmd')}
+```
+
+```{r, child=c('exe/produit-solubilite-70.Rmd')}
+```
+
+\newpage
+
+```{r, echo=FALSE}
+if (knitr::is_latex_output()) {
+  knitr::asis_output('\\section{Solutions des exercices} \\shipoutAnswer')
+}
+```
