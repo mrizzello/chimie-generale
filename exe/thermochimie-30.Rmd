@@ -1,6 +1,6 @@
 ::: {.Exercise data-latex=""}
 
-On mélange 25 mL d'eau à 23°C avec 35 mL d'eau à 80°C. Quelle sera la température finale du mélange, si aucune chaleur n'est transférée à l'environnement ??
+On mélange 25 mL d'eau à 23°C avec 35 mL d'eau à 80°C. Quelle sera la température finale du mélange, si aucune chaleur n'est transférée à l'environnement ?
 
 \vspace{\stretch{1}}
 
