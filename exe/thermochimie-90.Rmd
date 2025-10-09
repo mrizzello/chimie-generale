@@ -2,22 +2,22 @@
 
 À l'aide de la table d'enthalpie de formation ci-dessous, calculez la différence d'enthalpie des réactions suivantes :
 
-1. \ce{3H2_{(g)} + O3_{(g)} -> 3H2O_{(g)}}
+1. $\ce{3H2_{(g)} + O3_{(g)} -> 3H2O_{(g)}}$
 \vspace{\stretch{1}}
-2. \ce{2NO_{(g)} + O2_{(g)} -> 2NO2_{(g)}}
+2. $\ce{2NO_{(g)} + O2_{(g)} -> 2NO2_{(g)}}$
 \vspace{\stretch{1}}
-3. \ce{N2O_{(g)} + NO2_{(g)} -> 3NO_{(g)}}
+3. $\ce{N2O_{(g)} + NO2_{(g)} -> 3NO_{(g)}}$
 \vspace{\stretch{1}}
 
 :::
 
-| Substance      | $\Delta H^o_f\ [kJ/mol]$ | Substance      | $\Delta H^o_f\ [kJ/mol]$ |
-| :------------- | :----------------------: | :------------- | :----------------------: |
-| \ce{H2_{(g)}}  |            0             | \ce{N2_{(g)}}  |            0             |
-| \ce{O2_{(g)}}  |            0             | \ce{N_{(g)}}   |         472.704          |
-| \ce{O3_{(g)}}  |          142.7           | \ce{NO_{(g)}}  |          90.25           |
-| \ce{H2O_{(g)}} |         -241.82          | \ce{NO2_{(g)}} |           33.2           |
-| \ce{H2O_{(l)}} |         -285.83          | \ce{N2O_{(g)}} |           81.6           |
+| Substance        | $\Delta H^o_f\ [kJ/mol]$ | Substance        | $\Delta H^o_f\ [kJ/mol]$ |
+| :--------------- | :----------------------: | :--------------- | :----------------------: |
+| $\ce{H2_{(g)}}$  |            0             | $\ce{N2_{(g)}}$  |            0             |
+| $\ce{O2_{(g)}}$  |            0             | $\ce{N_{(g)}}$   |         472.704          |
+| $\ce{O3_{(g)}}$  |          142.7           | $\ce{NO_{(g)}}$  |          90.25           |
+| $\ce{H2O_{(g)}}$ |         -241.82          | $\ce{NO2_{(g)}}$ |           33.2           |
+| $\ce{H2O_{(l)}}$ |         -285.83          | $\ce{N2O_{(g)}}$ |           81.6           |
 
 ::: {.Answer data-latex=""}
 
