@@ -132,7 +132,7 @@ E & \text{ : énergie du photon, en } [J] \\
 h & \text{ : constante de Planck, } 6.63 \cdot 10^{-34}\ [J \cdot s] \\
 \nu & \text{ : fréquence, en } [Hz] \\
 \lambda & \text{ : longueur d'onde, en } [m] \\
-c & \text{ : vitesse de la lumière, } 3 \cdot 10^{5}\ [m \cdot s^{-1}]
+c & \text{ : vitesse de la lumière, } 3 \cdot 10^{8}\ [m \cdot s^{-1}]
 \end{split}
 $$
 
