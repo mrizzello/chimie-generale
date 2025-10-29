@@ -35,19 +35,20 @@ $$
   (\ce{C-H}) \times 7 = -413 \cdot 7 &= -2891\ [kJ] \\
   (\ce{C-O}) \times 7 = -358 \cdot 7 &= -2506\ [kJ] \\
   (\ce{O-H}) \times 5 = -467 \cdot 5 &= -2335\ [kJ] \\
+  (\ce{O=O}) \times 6 = -498 \cdot 6 &= -2988\ [kJ] \\
   \hline
-  total &= -9467\ [kJ]
+  total &= -12455\ [kJ]
 \end{split}
 $$
 
 $$
 \begin{split}
 \Delta H &= \Sigma\ E^{liaison}_{\text{produits}} - \Sigma\ E^{liaison}_{\text{réactifs}} \\
-  &= -9467 - (-15192) = +5725\ [kJ]
+  &= -12455 - (-15192) = +2737\ [kJ]
 \end{split}
 $$
 
-La production d'une mole de glucose par photosynthèse absorbe 5725 [kJ].
+La production d'une mole de glucose par photosynthèse absorbe 2737 [kJ].
 
 La valeur positive indique que la réaction est endothermique.
 
