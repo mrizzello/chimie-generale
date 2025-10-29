@@ -14,7 +14,7 @@ $$
 \end{split}
 \qquad
 \begin{split}
-M_{\ce{CH4}} &= 1 \cdot 16 + 4 \cdot 1.008 \\
+M_{\ce{CH4}} &= 1 \cdot 12 + 4 \cdot 1.008 \\
 &= 16.032\ [g/mol]
 \end{split}
 $$
