@@ -1,0 +1,49 @@
+::: {.Exercise data-latex=""}
+
+En utilisant les deux équations ci-dessous, déterminez l'enthalpie de formation ($\Delta H^0_f$) du monoxyde d'azote, $\ce{NO}$.
+
+$$
+\begin{split}
+  \ce{4NH3_{(g)} + 5O2_{(g)}} & \ce{ -> 4NO_{(g)} + 6H2O_{(l)}} \quad \Delta H^0_1 = -1170\ kJ \\[0.5em]
+  \ce{4NH3_{(g)} + 3O2_{(g)}} & \ce{-> 2N2_{(g)} + 6H2O_{(l)}} \quad \Delta H^0_2 = -1530\ kJ
+\end{split}
+$$
+
+:::
+
+::: {.Answer data-latex=""}
+
+On cherche une enthalpie de **formation**. L'équation chimique que l'on cherche sera de la forme.
+
+$$
+  \ce{1/2 N2_{(g)} + 1/2 O2_{(g)} -> NO_{(g)} }
+$$
+
+On inverse la seconde équation et on inverse également le signe de $\Delta H^0_2$.
+
+$$
+\begin{split}
+  \ce{4NH3_{(g)} + 5O2_{(g)}} & \ce{ -> 4NO_{(g)} + 6H2O_{(l)}} \quad \Delta H^0 = -1170\ kJ \\
+  \ce{2N2_{(g)} + 6H2O_{(l)}} & \ce{-> 4NH3_{(g)} + 3O2_{(g)}} \quad \Delta H^0 = +1530\ kJ
+\end{split}
+$$
+
+On fait le bilan pour obtenir une équation globale :
+
+$$
+\begin{aligned}
+  \ce{\cancel{\ce{4NH3{(g)}}} + 5O2_{(g)}} & \ce{-> 4NO_{(g)} + \cancel{\ce{6H2O_{(l)}}}} \quad &\Delta H^0 = -1170\ kJ \\
+  \ce{2N2_{(g)} + \cancel{\ce{6H2O_{(l)}}}} & \ce{-> \cancel{\ce{4NH3_{(g)}}} + 3O2_{(g)}} \quad &\Delta H^0 = +1530\ kJ \\[0.5em]
+  \hline\\[-1.2em]
+  \ce{2N2_{(g)} + 2O2_{(g)}} & \ce{-> 4NO_{(g)}} \quad &\Delta H^0 = +360\ kJ
+\end{aligned}
+$$
+
+Une réaction d'enthalpie de formation est exprimée pour une mole de \ce{NO} formé. Par conséquent, on divise tous les termes de l'équation par 4, y compris $\Delta H^0$.
+
+$$
+  \ce{1/2 N2_{(g)} + 1/2 O2_{(g)} -> NO_{(g)}} \quad \Delta H^0 = +90\ kJ
+$$
+
+
+:::
