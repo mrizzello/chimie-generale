@@ -421,12 +421,15 @@ $$
 knitr::include_graphics(c("images/Enthalpie-3.png"))
 ```
 
+```{r, child=c('exe/thermochimie-100.Rmd')}
+```
+
+\newpage
+
 ## Exercices supplémentaires
 
 ```{r, child=c('exe/thermochimie-80.Rmd')}
 ```
-
-\newpage
 
 ```{r, echo=FALSE}
 if (knitr::is_latex_output()) {
