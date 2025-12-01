@@ -4,7 +4,7 @@
 
 - Définir les notions d'entropie et de variation d'entropie.
 - Énoncer les deuxième et troisième lois de la thermodynamique.
-- Calculer l'entropie d'une réaction à partir des entropies molaires standards.
+- Calculer l'entropie d'une réaction à partir des entropies standards.
 - Appliquer la loi de Gibbs pour déterminer la spontanéité d'une réaction.
 - Appliquer la loi de Gibbs pour effectuer des calculs d'énergie libre standard de réaction.
 - Décrire comment énergie libre est reliée à l'équilibre chimique.
