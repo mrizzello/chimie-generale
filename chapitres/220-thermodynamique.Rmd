@@ -8,6 +8,8 @@
 - Appliquer la loi de Gibbs pour déterminer la spontanéité d'une réaction.
 - Appliquer la loi de Gibbs pour effectuer des calculs d'énergie libre standard de réaction.
 - Décrire comment énergie libre est reliée à l'équilibre chimique.
+- Interpréter les données thermodynamiques pour prédire les conditions de spontanéité d'une réaction.
+- Résoudre des problèmes quantitatifs impliquant la variation d'entropie, la spontanéité et la relation à l'équilibre chimique.
 
 :::
 
