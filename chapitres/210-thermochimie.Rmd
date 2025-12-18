@@ -2,13 +2,14 @@
 
 ::: {.objectives data-latex=""}
 
-- Définir les notions d'énergie et de travail.
+- Définir les notions d'énergie, de travail et de chaleur.
 - Énoncer la loi de la conservation de l'énergie ainsi que la première loi de la thermodynamique.
 - Utilisez la capacité thermique pour calculer des pertes ou des gains de chaleur.
 - Décrire le fonctionnement d'un calorimètre.
 - Définir les notions d'enthalpie et de variation d'enthalpie.
 - Décrire comment la quantité de chaleur d'une réaction est reliée aux quantités de substances.
 - Décrire comment l'enthaplie de réaction est reliée à l'exo/endo-thermie.
+- Calculer les variations d'enthalpie en utilisant les énergies de liaison.
 - Utiliser la loi de Hess pour déduire la valeur d'une enthalpie inconnue.
 
 :::
