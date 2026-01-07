@@ -1,0 +1,24 @@
+::: {.Exercise data-latex=""}
+
+Le produit de solubilité ($K_{ps}$) du phosphate de calcium ($\ce{Ca3(PO4)2}$) est de $2.07 \cdot 10^{-33}$. Quelle est sa solubilité en mol/L ?
+
+\vspace{16em}
+
+:::
+
+::: {.Answer data-latex=""}
+
+$$
+\begin{split}
+K_{ps} &= [\ce{Ca^{2+}}]^3 \cdot [\ce{PO4^{3-}}]^2 \\   
+       &= (3s)^3 \cdot (2s)^2 \\
+       &= 108s^5
+\end{split}
+\qquad
+\begin{split}
+s &= \sqrt[5]{\frac{K_{ps}}{108}} \\
+  &= \sqrt[5]{\frac{2.07 \cdot 10^{-33}}{108}} \\
+  &= 1.14 \cdot 10^{7}\ mol/L
+\end{split}
+$$
+:::

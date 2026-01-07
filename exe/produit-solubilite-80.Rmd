@@ -1,0 +1,18 @@
+::: {.Exercise data-latex=""}
+
+La solubilité (s) de l'iodate de calcium ($\ce{Ca(IO3)2}$) est de $1.2 \cdot 10^{-2}\ mol/L$. Quelle est la valeur du produit de solubilité ($K_{ps}$) ?
+
+\vspace{16em}
+
+:::
+
+::: {.Answer data-latex=""}
+
+$$
+\begin{split}
+|Ca^{2+}| &= s \\
+|IO_3^-| &= 2 \cdot s \\
+K_{ps} &= |Ca^{2+}| \cdot |IO_3^-|^2 = (1.2 \cdot 10^{-2}) \cdot (2.4 \cdot 10^{-2})^2 = 6.91 \cdot 10^{-6} \\
+\end{split}
+$$
+:::
