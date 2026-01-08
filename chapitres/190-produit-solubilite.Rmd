@@ -113,7 +113,7 @@ Dans tous les autres cas, il faut calculer leurs solubilités respectives pour e
 Par exemple, pour le sulfate de baryum, $\ce{BaSO4}$, l'équilibre de dissolution s'écrit :
 
 $$
-\ce{BaSO_{4(s)} <=> Ba^{2+}_{(aq)} + SO4^{2-}_{(aq)}}
+\ce{BaSO_{4(s)} <=> Ba^{2+}_{(aq)} + SO^{2-}_{4(aq)}}
 $$
 
 Si la concentration de sulfate de baryum dissous est représentée par $s$, alors à l'équilibre :
@@ -125,14 +125,14 @@ s = |\ce{BaSO_{4(aq)}}|
 \quad\Rightarrow\quad
 \begin{split}
 |Ba^{2+}_{(aq)}| &= s \\
-|SO4^{2-}_{(aq)}| &= s
+|SO^{2-}_{4(aq)}| &= s
 \end{split}
 $$
 
 L'expression de la constante d'équilibre devient alors :
 
 $$
-K_{ps} = |Ba^{2+}_{(aq)}| \cdot |SO4^{2-}_{(aq)}| = s \cdot s = s^2
+K_{ps} = |Ba^{2+}_{(aq)}| \cdot |SO^{2-}_{4(aq)}| = s \cdot s = s^2
 $$
 
 On peut ainsi calculer le produit de solubilité à partir de la solubilité :
@@ -168,7 +168,7 @@ $$
 L'expression de la constante d'équilibre devient alors :
 
 $$
-K_{ps} = |Co^{2+}_{(aq)}| \cdot |OH^{-}_{(aq)}|^2 = s \cdot (2 \cdot s)^2 = 4 \cdot s^3
+K_{ps} = |Co^{2+}_{(aq)}| \cdot |OH^{-}_{(aq)}|^2 = s \cdot (2 \cdot s)^2 = 4s^3
 $$
 
 On peut ainsi calculer le produit de solubilité à partir de la solubilité :
@@ -227,13 +227,13 @@ Pour déterminer si la précipitation d'un solide ionique peu soluble aura lieu 
 Pour rappel, le quotient réactionnel ($Q$) est une grandeur qui caractérise un système chimique à un instant donné (par exemple, les conditions initiales) et qui est définie de manière similaire à $K_{ps}$ à chaque instant.
 
 $$
-Q_{r}(t) = \frac{|C|_{(t)}^{c} \cdot |D|_{(t)}^{d}}{|A|_{(t)}^{a} \cdot |B|_{(t)}^{b}}
+Q_{r}(t) = \frac{|C(t)|^{c} \cdot |D(t)|^{d}}{|A(t)|^{a} \cdot |B(t)|^{b}}
 $$
 
 Dans le cas d'un sel peu soluble, le quotient réactionnel est défini comme suit :
 
 $$
-Q_{r}(t) = |A^{m+}|^n_{(t)} \cdot |B^{n-}|^m_{(t)}
+Q_{r}(t) = |A^{m+}(t)|^n \cdot |B^{n-}(t)|^m
 $$
 
 Les règles générales pour prédire si une précipitation se produira sont les suivantes :

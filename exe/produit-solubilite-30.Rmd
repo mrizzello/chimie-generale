@@ -8,7 +8,7 @@ Calculez la solubilité de \ce{PbSO4} dans l'eau et dans une solution aqueuse de
 
 \begin{center}
 \begin{tabular}{ cccccc } 
-~ & \ce{PbSO4(s)} & \ce{<=>} & \ce{Pb^{2+}(aq)} & + & \ce{SO4^{2-}(aq)} \\
+~ & \ce{PbSO4_{(s)}} & \ce{<=>} & \ce{Pb^{2+}_{(aq)}} & + & \ce{SO4^{2-}_{(aq)}} \\
 \midrule
 init. & & & 0 & & 1 \\
 \midrule
