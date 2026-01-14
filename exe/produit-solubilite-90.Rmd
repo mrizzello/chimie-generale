@@ -18,7 +18,7 @@ K_{ps} &= |\ce{Ca^{2+}}|^3 \cdot |\ce{PO4^{3-}}|^2 \\
 \begin{split}
 s &= \sqrt[5]{\frac{K_{ps}}{108}} \\
   &= \sqrt[5]{\frac{2.07 \cdot 10^{-33}}{108}} \\
-  &= 1.14 \cdot 10^{7}\ mol/L
+  &= 1.14 \cdot 10^{-7}\ mol/L
 \end{split}
 $$
 :::
