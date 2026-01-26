@@ -5,7 +5,8 @@
 - Définir le produit de solubilité ($K_{ps}$) d'un composé ionique.
 - Écrire l'expression du produit de solubilité pour une réaction donnée.
 - Calculer le produit de solubilité à partir de données de solubilité et la solubilité à partir de la valeur de $K_{ps}$.
-- Décrire et calculer l'effet sur la solubilité d'un sel peu soluble lors de l'ajout d'un ion commun.
+- Décrire l'effet d'un ion commun sur la solubilité d'un sel peu soluble.
+- Effectuer des calculs de solubilité lors de l'ajout d'un ion commun.
 - Comparer le quotient de réaction $Q$ et $K_{ps}$ pour déterminer si une précipitation va se produire.
 
 :::
