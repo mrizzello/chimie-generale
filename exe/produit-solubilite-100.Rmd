@@ -1,0 +1,22 @@
+::: {.Exercise data-latex=""}
+Dans le cadre d'une étude sur les pigments historiques, un laboratoire d'archéométrie analyse la stabilité du phosphate d'argent ($\ce{Ag3PO4}$), un composé utilisé dans certains procédés photographiques anciens. On s'intéresse à l'équilibre de saturation de ce sel dans l'eau pure afin de modéliser sa dégradation en milieu humide.
+
+1. Ecrivez l'équation chimique (avec les indices d'état) qui représente cet équilibre.
+2. Déterminez la relation mathématique entre la solubilité molaire ($s$) du sel et son $K_{ps}$.
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. $$
+    \ce{Ag3PO4_{(s)} <=> 3 Ag^+_{(aq)} + PO4^{3-}_{(aq)}}
+  $$
+2. $$ 
+  \begin{gathered}
+    K_{ps} = |\ce{Ag+}|^3 \cdot |\ce{PO4^{3-}}| \\
+    |\ce{Ag+}| = 3s \text{ et } |\ce{PO4^{3-}}| = s \\
+    K_{ps} = (3s)^3 \cdot s = 27s^3 \cdot s = 27s^4    
+  \end{gathered}
+  $$
+
+:::

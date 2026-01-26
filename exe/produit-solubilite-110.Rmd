@@ -1,0 +1,36 @@
+::: {.Exercise data-latex=""}
+
+Le fluorure de magnésium ($\ce{MgF2}$) est utilisé en optique de précision pour le traitement antireflet des lentilles. Lors du rinçage industriel des composants, une solution saturée est obtenue. Le service de sécurité environnementale doit déterminer la concentration exacte en ions fluorure rejetés dans les eaux de rinçage.
+
+1. Calculez la solubilité molaire ($s$) du $\ce{MgF2}$ à 25°C, sachant que la solubilité massique mesurée à 25°C est de 0.076 g/L.
+2. Calculez la valeur du produit de solubilité ($K_{ps}$) à cette température.
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. $$
+  \begin{split}
+    M(\ce{MgF2}) &= M(\ce{Mg}) + 2 \cdot M(\ce{F}) \\
+    &= 24.305\ g/mol + 2 \cdot 18.998\ g/mol \\
+    &= 62.301\ g/mol
+  \end{split}
+  $$
+  $$
+    s = \frac{T}{M} = \frac{0.076 \text{ g/L}}{62.301 \text{ g/mol}} = 1,22 \cdot 10^{-3} \text{ mol/L}
+  $$
+2. $$
+    \ce{MgF2_{(s)} <=> Mg^{2+}_{(aq)} + 2 F^-_{(aq)}}
+  $$
+  $$
+    |\ce{Mg^{2+}}| = s \text{ et } |\ce{F-}| = 2s
+  $$
+  $$
+  \begin{split}
+    K_{ps} &= |\ce{Mg^{2+}}| \cdot |\ce{F-}|^2 = s \cdot (2s)^2 = 4s^3 \\
+    &= 4 \cdot (1.22 \cdot 10^{-3})^3 = 4 \cdot 1.816 \cdot 10^{-9}\\
+    &= 7.26 \cdot 10^{-9}
+  \end{split}
+  $$
+
+:::

@@ -1,0 +1,34 @@
+::: {.Exercise data-latex=""}
+
+Pour protéger les canalisations contre la corrosion, un technicien de piscine souhaite réduire la solubilité du carbonate de calcium ($\ce{CaCO3}$) par l'ajout de carbonate de sodium ($\ce{Na2CO3}$), un sel très soluble. Il s'agit de quantifier l'impact de cet ajout sur la concentration résiduelle en ions calcium. $K_{ps}(\ce{CaCO3}) = 3.36 \cdot 10^{-9}$ à 25°C.
+
+
+1. Calculez la solubilité molaire du $\ce{CaCO3}$ dans l'eau pure.
+2. La concentration de la solution de carbonate de sodium ajoutée est de 0.05 mol/L. Calculez la solubilité molaire du $\ce{CaCO3}$ en présence de carbonate de sodium.
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. $$
+  \begin{split}
+    K_{ps} = s^2
+  \end{split}
+  \quad\Rightarrow\quad
+  \begin{split}
+  s = \sqrt{K_{ps}} = \sqrt{3.36 \cdot 10^{-9}} = 5.80 \cdot 10^{-5}\ mol/L
+  \end{split}
+  $$
+2. En présence de $\ce{Na2CO3}$, l'ion carbonate $\ce{CO3^{2-}}$ est l'ion commun.  
+  $$
+  |\ce{CO3^{2-}}|_{total} = s' + 0.05 \approx 0.05\ mol/L \quad\text{($s'$ est négligeable devant 0.05)}
+  $$
+  $$
+  \begin{split}
+    K_{ps} &= |\ce{Ca^{2+}}| \cdot |\ce{CO3^{2-}}| = s' \cdot 0.05 \\
+    s' &= \frac{3.36 \cdot 10^{-9}}{0.05} = 6.72 \cdot 10^{-8}\ mol/L
+  \end{split}
+  $$  
+  La solubilité a diminué d'environ 860 fois.
+
+:::
