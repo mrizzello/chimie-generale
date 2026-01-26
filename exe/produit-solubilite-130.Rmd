@@ -1,0 +1,34 @@
+::: {.Exercise data-latex=""}
+
+En médecine légale, on suspecte une intoxication par des sels de baryum. Un chimiste mélange un échantillon de sérum physiologique contenant des ions sulfate avec une solution de chlorure de baryum. Il doit déterminer si l'apparition d'un trouble (précipité) est théoriquement prévisible,  
+$K_{ps}(\ce{BaSO4}) = 1.08 \cdot 10^{-10}$.
+
+- Solution A : 150mL de $\ce{BaCl2}$ à $1.0 \cdot 10^{-4}$ mol/L.
+- Solution B : 350mL de $\ce{Na2SO4}$ à $2.0 \cdot 10^{-6}$ mol/L.
+
+
+1. Calculez les concentrations initiales des ions $\ce{Ba^{2+}}$ et $\ce{SO4^{2-}}$ après mélange, mais avant toute réaction éventuelle.
+2. Calculez le quotient réactionnel ($Q$) et déterminez si un précipité de $\ce{BaSO4}$ se forme.
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. $$
+  \begin{split}
+    V &= 150 + 350 = 500\ mL = 0.5\ L \\
+    n_{\ce{Ba^{2+}}} &= 0.150\ L \cdot 1.0 \cdot 10^{-4}{ mol/L} = 1.5 \cdot 10^{-5}{ mol} \\
+    n_{\ce{SO4^{2-}}} &= 0.350\ L \cdot 2.0 \cdot 10^{-6}{ mol/L} = 7.0 \cdot 10^{-7}{ mol} \\
+    |\ce{Ba^{2+}}| &= \frac{1.5 \cdot 10^{-5}{mol}}{0.5\ L} = 3.0 \cdot 10^{-5}{ mol/L} \\
+    |\ce{SO4^{2-}}| &= \frac{7.0 \cdot 10^{-7}{mol}}{0.5\ L} = 1.4 \cdot 10^{-6}{ mol/L}
+  \end{split}
+  $$
+2. $$
+  \begin{split}
+  Q &= |\ce{Ba^{2+}}| \cdot |\ce{SO4^{2-}}| = (3.0 \cdot 10^{-5}{mol/L}) \cdot (1.4 \cdot 10^{-6}{mol/L}) \\
+    &= 4.2 \cdot 10^{-11} \qquad (K_{ps} = 1.08 \cdot 10^{-10})
+  \end{split}
+  $$  
+  Puisque $Q < K_{ps}$, la solution est insaturée et aucun précipité ne se forme.
+
+:::
