@@ -27,7 +27,7 @@ $$
 \end{split}
 \qquad\qquad
 \begin{split}
-  \Rightarrow\ s &= \sqrt[2]{\frac{K_{ps}}{0.4}} = \sqrt[2]{\frac{1.8 \cdot 10^{-11}}{0.4}} \\  &= 6.71 \cdot 10^{-6}{\ [mol/L]}
+  \Rightarrow\ s &= \sqrt[2]{\frac{K_{ps}}{0.4}} = \sqrt[2]{\frac{5.61 \cdot 10^{-12}}{0.4}} \\  &= 3.745 \cdot 10^{-6}{\ [mol/L]}
 \end{split}
 $$
 
