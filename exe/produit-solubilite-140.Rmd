@@ -18,7 +18,7 @@ $K_{ps}(\ce{PbI2}) = 7.1 \cdot 10^{-9}$ à 25°C.
 2. $$
   \begin{split}
     K_{ps} &= s \cdot (2s)^2 = 4s^3 \\
-    s &= \sqrt{\frac{7.1 \cdot 10^{-9}}{4}} = 1.21 \cdot 10^{-3}{mol/L} \\
+    s &= \sqrt[3]{\frac{7.1 \cdot 10^{-9}}{4}} = 1.21 \cdot 10^{-3}{mol/L} \\
   \end{split}
   $$  
   Puisque $1.21 \cdot 10^{-3} > 1.0 \cdot 10^{-6}$, la norme n'est pas respectée.
