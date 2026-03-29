@@ -143,14 +143,14 @@ Une pile convertit l'énergie chimique d'une réaction **spontanée** en énergi
 Par convention, le potentiel standard d'une pile, $E^0_{pile}$ est donné par la relation suivante :
 
 $$
-E^0_{pile} = E^0_{cathode} − E^0_{anode}
+\Delta E^0_{pile} = E^0_{cathode} − E^0_{anode}
 $$
 
-Pour la pile Zn/Cu^2+^, pour des concentrations de 1 M, sous une pression de 1 [atm] et une température de 25°C, le voltmètre nous indiquerai une tension (E~pile~) de 1.1 [V].
+Pour la pile Zn/Cu^2+^, pour des concentrations de 1 M, sous une pression de 1 [atm] et une température de 25°C, le voltmètre nous indiquerai une tension ($\Delta E^0_{pile}$) de 1.1 [V].
 
 $$
 \begin{split}
-E^0_{pile} &= E^0_{Cu/Cu^{2+}} − E^0_{Zn^{2+}/Zn} \\
+\Delta E^0_{pile} &= E^0_{Cu/Cu^{2+}} − E^0_{Zn^{2+}/Zn} \\
   &= 0.34\ [V] − (-0.76\ [V]) = 1.1\ [V]
 \end{split}
 $$
