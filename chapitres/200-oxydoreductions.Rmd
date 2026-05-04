@@ -78,7 +78,7 @@ Un élément peut porter un nombre d'oxydation différent selon l'espèce chimiq
 
 **La somme des nombres d'oxydation de toute espèce chimique doit correspondre à la charge globale de l'espèce.** En d'autres termes, la somme des nombres d'oxydation pour toute molécule doit être égale à zéro et doit être égale à la charge de l'ion polyatomique.
 
-```{r, child=c('exe/oxydoreductions-10.Rmd')}
+```{r, child=c('exe/oxydoreductions/10.Rmd')}
 ```
 
 \newpage
@@ -104,7 +104,7 @@ Dans le cas de la combustion du méthane:
 - Le carbone est passé de l'état d'oxydation **-4** à l'état d'oxydation **+4**, il y a eu une perte d'électrons.
 - L'oxygène est passé de l'état d'oxydation **0** à l'état d'oxydation **-2**, il y a eu un gain d'électrons.
 
-```{r, child=c('exe/oxydoreductions-20.Rmd')}
+```{r, child=c('exe/oxydoreductions/20.Rmd')}
 ```
 
 \newpage
@@ -158,10 +158,10 @@ $$
 | état d'oxydation augmente |               | état d'oxydation diminue |
 
 
-```{r, child=c('exe/oxydoreductions-70.Rmd')}
+```{r, child=c('exe/oxydoreductions/70.Rmd')}
 ```
 
-```{r, child=c('exe/oxydoreductions-30.Rmd')}
+```{r, child=c('exe/oxydoreductions/30.Rmd')}
 ```
 
 ### Couples oxred
@@ -298,42 +298,42 @@ $$
 
 Les masses et les électrons échangés sont maintenant équilibrés dans l'équation de la réaction.
 
-```{r, child=c('exe/oxydoreductions-40.Rmd')}
+```{r, child=c('exe/oxydoreductions/40.Rmd')}
 ```
 
 \newpage
 
-```{r, child=c('exe/oxydoreductions-80.Rmd')}
+```{r, child=c('exe/oxydoreductions/80.Rmd')}
 ```
 
-```{r, child=c('exe/oxydoreductions-90.Rmd')}
+```{r, child=c('exe/oxydoreductions/90.Rmd')}
 ```
 
-```{r, child=c('exe/oxydoreductions-100.Rmd')}
+```{r, child=c('exe/oxydoreductions/100.Rmd')}
 ```
 
 \newpage
 
 ## Exercices supplémentaires
 
-```{r, child=c('exe/oxydoreductions-50.Rmd')}
+```{r, child=c('exe/oxydoreductions/50.Rmd')}
 ```
 
-```{r, child=c('exe/oxydoreductions-60.Rmd')}
+```{r, child=c('exe/oxydoreductions/60.Rmd')}
 ```
 
 \newpage
 
-```{r, child=c('exe/oxydoreductions-110.Rmd')}
+```{r, child=c('exe/oxydoreductions/110.Rmd')}
 ```
 
-```{r, child=c('exe/oxydoreductions-120.Rmd')}
+```{r, child=c('exe/oxydoreductions/120.Rmd')}
 ```
 
-```{r, child=c('exe/oxydoreductions-130.Rmd')}
+```{r, child=c('exe/oxydoreductions/130.Rmd')}
 ```
 
-```{r, child=c('exe/oxydoreductions-150.Rmd')}
+```{r, child=c('exe/oxydoreductions/150.Rmd')}
 ```
 
 \newpage

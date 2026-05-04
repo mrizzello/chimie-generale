@@ -55,7 +55,7 @@ Mesure du degré de désordre d'un système. (Exprimée en joules par Kelvin [J/
 
 **Plus le désordre est grand, plus l'entropie est élevée.**
 
-```{r, child=c('exe/thermodynamique-10.Rmd')}
+```{r, child=c('exe/thermodynamique/10.Rmd')}
 ```
 
 ## La deuxième loi de la thermodynamique
@@ -115,7 +115,7 @@ En général, l'entropie augmente dans les cas suivants :
 
 Au cours d'une réaction spontanée, le système devient plus désordonné après qu'avant la réaction, donc $\Delta S > 0$. La nature "préfère" les valeur de $\Delta S$ positives contrairement aux valeurs $\Delta H$ qui sont généralement négatives (exothermiques).
 
-```{r, child=c('exe/thermodynamique-20.Rmd')}
+```{r, child=c('exe/thermodynamique/20.Rmd')}
 ```
 
 ### L'entropie molaire standard ($S^o$) et l'entropie de réaction ($\Delta S^o$)
@@ -140,7 +140,7 @@ $$
 
 $n_p$ et $n_r$ sont les coéfficients stoechiométriques des réactifs et produits de la réaction étudiée.
 
-```{r, child=c('exe/thermodynamique-30.Rmd')}
+```{r, child=c('exe/thermodynamique/30.Rmd')}
 ```
 
 ## L'énergie libre ($G$) et la variation d'énergie libre ($\Delta G$)
@@ -188,7 +188,7 @@ $$
 \Delta G^o = \Delta H^o - T \cdot \Delta S^o
 $$
 
-```{r, child=c('exe/thermodynamique-60.Rmd')}
+```{r, child=c('exe/thermodynamique/60.Rmd')}
 ```
 
 \newpage
@@ -199,7 +199,7 @@ $$
 \Delta G^o = \sum n_p \cdot \Delta G^{o}_f(produits) - \sum n_r \cdot \Delta G^{o}_f(reactifs)
 $$
 
-```{r, child=c('exe/thermodynamique-80.Rmd')}
+```{r, child=c('exe/thermodynamique/80.Rmd')}
 ```
 
 \newpage
@@ -238,22 +238,22 @@ knitr::include_graphics(c("images/dG-profile.png"))
 
 \newpage
 
-```{r, child=c('exe/thermodynamique-70.Rmd')}
+```{r, child=c('exe/thermodynamique/70.Rmd')}
 ```
 
 ## Exercices supplémentaires
 
-```{r, child=c('exe/thermodynamique-40.Rmd')}
+```{r, child=c('exe/thermodynamique/40.Rmd')}
 ```
 
 \newpage
 
-```{r, child=c('exe/thermodynamique-50.Rmd')}
+```{r, child=c('exe/thermodynamique/50.Rmd')}
 ```
 
 \newpage
 
-```{r, child=c('exe/thermodynamique-90.Rmd')}
+```{r, child=c('exe/thermodynamique/90.Rmd')}
 ```
 
 ```{r, echo=FALSE}

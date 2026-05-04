@@ -57,7 +57,7 @@ Combustion, oxydation, fermentation, photosynthèse, décomposition, neutralisat
 
 Les transformations chimiques sont ce que nous appellerons plus tard des **réactions chimiques**.
 
-```{r, child=c('exe/introduction-10.Rmd')}
+```{r, child=c('exe/introduction/10.Rmd')}
 ```
 
 \newpage
@@ -123,7 +123,7 @@ $$ \begin{split}
 	\frac{10^a}{10^b} = 10^{(a-b)}
 \end{split} $$
 
-```{r, child=c('exe/introduction-20.Rmd')}
+```{r, child=c('exe/introduction/20.Rmd')}
 ```
 
 ## Multiples des unités
@@ -143,37 +143,37 @@ Table: (\#tab:tab-SImultiples) Multiples et sous-multiples décimaux des unités
 
 \newpage
 
-```{r, child=c('exe/introduction-30.Rmd')}
+```{r, child=c('exe/introduction/30.Rmd')}
 ```
 
 ## Exercices supplémentaires
 
-```{r, child=c('exe/introduction-40.Rmd')}
+```{r, child=c('exe/introduction/40.Rmd')}
 ```
 
-```{r, child=c('exe/introduction-50.Rmd')}
+```{r, child=c('exe/introduction/50.Rmd')}
 ```
 
-```{r, child=c('exe/introduction-60.Rmd')}
-```
-
-\newpage
-
-```{r, child=c('exe/introduction-70.Rmd')}
-```
-
-```{r, child=c('exe/introduction-80.Rmd')}
+```{r, child=c('exe/introduction/60.Rmd')}
 ```
 
 \newpage
 
-```{r, child=c('exe/introduction-90.Rmd')}
+```{r, child=c('exe/introduction/70.Rmd')}
 ```
 
-```{r, child=c('exe/introduction-100.Rmd')}
+```{r, child=c('exe/introduction/80.Rmd')}
 ```
 
-```{r, child=c('exe/introduction-110.Rmd')}
+\newpage
+
+```{r, child=c('exe/introduction/90.Rmd')}
+```
+
+```{r, child=c('exe/introduction/100.Rmd')}
+```
+
+```{r, child=c('exe/introduction/110.Rmd')}
 ```
 
 \newpage

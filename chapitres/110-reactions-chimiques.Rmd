@@ -149,7 +149,7 @@ Dans une équation chimique, les nombres stoechiométriques indiquent la quantit
 
 Les nombres stoechiométriques sont également appelés **coefficients stoechiométriques**.
 
-```{r, child=c('exe/reactions-chimiques-10.Rmd')}
+```{r, child=c('exe/reactions-chimiques/10.Rmd')}
 ```
 
 \newpage
@@ -240,12 +240,12 @@ Il existe des substances qui ont un effet inverse à celui des catalyseurs; elle
 
 ## Exercices supplémentaires
 
-```{r, child=c('exe/reactions-chimiques-20.Rmd')}
+```{r, child=c('exe/reactions-chimiques/20.Rmd')}
 ```
 
 \newpage
 
-```{r, child=c('exe/reactions-chimiques-30.Rmd')}
+```{r, child=c('exe/reactions-chimiques/30.Rmd')}
 ```
 
 \newpage

@@ -155,13 +155,13 @@ $$
 \end{split}
 $$
 
-```{r, child=c('exe/electro-10.Rmd')}
+```{r, child=c('exe/electrochimie/10.Rmd')}
 ```
 
-```{r, child=c('exe/electro-20.Rmd')}
+```{r, child=c('exe/electrochimie/20.Rmd')}
 ```
 
-```{r, child=c('exe/electro-30.Rmd')}
+```{r, child=c('exe/electrochimie/30.Rmd')}
 ```
 
 \newpage
@@ -207,7 +207,7 @@ avec :
 
 \newpage
 
-```{r, child=c('exe/electro-50.Rmd')}
+```{r, child=c('exe/electrochimie/50.Rmd')}
 ```
 
 La différence de potentiel de la pile devient nulle lorsque l'équilibre est atteint. La réaction s'arrête et la pile est complètement déchargée. À ce moment, la valeur du quotient réactionnel ($Q$) est égale à la valeur de la constante d'équilibre ($K_c$). On a alors :
@@ -338,7 +338,7 @@ $$
 
 \newpage
 
-```{r, child=c('exe/electro-40.Rmd')}
+```{r, child=c('exe/electrochimie/40.Rmd')}
 ```
 
 \newpage

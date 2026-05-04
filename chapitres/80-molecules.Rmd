@@ -43,7 +43,7 @@ Table: (\#tab:tab-vsepr) Géométries VSEPR.
 
 Il existe des géométries pour des valeurs de NS supérieures à 5, mais elles ne sont pas représentées dans ce tableau.
 
-```{r, child=c('exe/molecules-10.Rmd')}
+```{r, child=c('exe/molecules/10.Rmd')}
 ```
 
 \newpage

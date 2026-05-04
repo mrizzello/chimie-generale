@@ -47,12 +47,12 @@ Dans le cas d'une réaction totale, en faisant réagir une mole de dichlore et d
 
 La quantité de matière avant la réaction est égale à la quantité de matière après la réaction (46 [g] + 70.9 [g] = 116.9 [g]). La loi de conservation de la masse est respectée (ouf!).
 
-```{r, child=c('exe/stoechiometrie-10.Rmd')}
+```{r, child=c('exe/stoechiometrie/10.Rmd')}
 ```
 
 \newpage
 
-```{r, child=c('exe/stoechiometrie-20.Rmd')}
+```{r, child=c('exe/stoechiometrie/20.Rmd')}
 ```
 
 ## Conditions stœchiométriques et réactif limitant
@@ -96,7 +96,7 @@ Imaginons maintenant de faire réagir 5 moles d'aluminium avec 3 moles de dibrom
 - Le réactif en excès sera l'aluminium et il en restera 3 moles qui n'auront pas réagit.
 - La réaction formera 2 moles de bromure d'aluminium dû à la quantité de réactif limitant.
 
-```{r, child=c('exe/stoechiometrie-30.Rmd')}
+```{r, child=c('exe/stoechiometrie/30.Rmd')}
 ```
 
 ## Le rendement d'une réaction
@@ -111,23 +111,23 @@ $\eta$ : exprimé en pourcentage massique ou molaire [%]
 
 \newpage
 
-```{r, child=c('exe/stoechiometrie-40.Rmd')}
+```{r, child=c('exe/stoechiometrie/40.Rmd')}
 ```
 
 ## Exercices supplémentaires
 
-```{r, child=c('exe/stoechiometrie-50.Rmd')}
+```{r, child=c('exe/stoechiometrie/50.Rmd')}
 ```
 
 \newpage
 
-```{r, child=c('exe/stoechiometrie-60.Rmd')}
+```{r, child=c('exe/stoechiometrie/60.Rmd')}
 ```
 
-```{r, child=c('exe/stoechiometrie-70.Rmd')}
+```{r, child=c('exe/stoechiometrie/70.Rmd')}
 ```
 
-```{r, child=c('exe/stoechiometrie-80.Rmd')}
+```{r, child=c('exe/stoechiometrie/80.Rmd')}
 ```
 
 \newpage

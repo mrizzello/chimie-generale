@@ -20,11 +20,11 @@ $H_2O$
 
 ::: {.multicols data-latex="{3}"}
 
-![](exe/molecules-10-NH3.png){width=6em}
+![](images/molecules-10-NH3.png){width=6em}
 
-![](exe/molecules-10-SO3.png){width=6em}
+![](images/molecules-10-SO3.png){width=6em}
 
-![](exe/molecules-10-H2O.png){width=6em}
+![](images/molecules-10-H2O.png){width=6em}
 
 :::
 

@@ -247,7 +247,7 @@ Une fois le diagramme rempli, on en déduit la configuration électronique de l'
 
 \newpage
 
-```{r, child=c('exe/tableau-periodique-10.Rmd')}
+```{r, child=c('exe/tableau-periodique/10.Rmd')}
 ```
 
 Pour simplifier la notation de la configuration électronique, on indique que les électrons de la dernière couche électronique. On remplace les autres couches par le symbole du gaz rare le plus proche entre crochets.  Par exemple, la structure électronique du chlore (Cl) :
@@ -305,7 +305,7 @@ On utilise les règles suivantes pour dessiner la structure de Lewis d'un atome:
 
 Table: (#tab:structure-lewis-groupe-principal) Structure de Lewis des éléments du groupe principal (c = célibataire, p = paire).
 
-```{r, child=c('exe/tableau-periodique-20.Rmd')}
+```{r, child=c('exe/tableau-periodique/20.Rmd')}
 ```
 
 \newpage
@@ -366,7 +366,7 @@ $$ \begin{split}
 
 L'anion chlore est isoélectronique avec l'argon.
 
-```{r, child=c('exe/tableau-periodique-30.Rmd')}
+```{r, child=c('exe/tableau-periodique/30.Rmd')}
 ```
 
 ### Les ions stables - groupe A
@@ -377,7 +377,7 @@ La règle de l'octet nous indique qu'un atome avec huit électrons dans sa couch
 
 Dans le tableau périodique, les chiffres romains des groupes A indiquent le nombre d'électrons de valence de chaque élément. On peut utiliser la position d'un élément dans le tableau pour déterminer quel sera l'ion stable formé par cet élément.
 
-```{r, child=c('exe/tableau-periodique-40.Rmd')}
+```{r, child=c('exe/tableau-periodique/40.Rmd')}
 ```
 
 ### Les ions des éléments de transition - groupe B
@@ -390,24 +390,24 @@ Les éléments de transition ne respectent pas la règle de l'octet, mais une au
 
 ## Exercices supplémentaires
 
-```{r, child=c('exe/tableau-periodique-50.Rmd')}
+```{r, child=c('exe/tableau-periodique/50.Rmd')}
 ```
 
-```{r, child=c('exe/tableau-periodique-60.Rmd')}
+```{r, child=c('exe/tableau-periodique/60.Rmd')}
 ```
 
 \newpage
 
-```{r, child=c('exe/tableau-periodique-70.Rmd')}
+```{r, child=c('exe/tableau-periodique/70.Rmd')}
 ```
 
-```{r, child=c('exe/tableau-periodique-80.Rmd')}
+```{r, child=c('exe/tableau-periodique/80.Rmd')}
 ```
 
-```{r, child=c('exe/tableau-periodique-90.Rmd')}
+```{r, child=c('exe/tableau-periodique/90.Rmd')}
 ```
 
-```{r, child=c('exe/tableau-periodique-100.Rmd')}
+```{r, child=c('exe/tableau-periodique/100.Rmd')}
 ```
 
 \newpage

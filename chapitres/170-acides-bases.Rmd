@@ -50,11 +50,11 @@ $$
 - $\ce{HCl}$ est l'**acide** et $\ce{Cl-}$ est sa **base conjuguée**.
 - $\ce{NH3}$ est la **base** et $\ce{NH4+}$ est son **acide conjugué**.
 
-```{r, child=c('exe/acides-bases-10.Rmd')}
+```{r, child=c('exe/acides-bases/10.Rmd')}
 ```
 \newpage
 
-```{r, child=c('exe/acides-bases-20.Rmd')}
+```{r, child=c('exe/acides-bases/20.Rmd')}
 ```
 
 ## Les ampholytes
@@ -73,10 +73,10 @@ $$
 \ce{H2O_{(l)} + NH3_{(aq)} <=> OH^{-}_{(aq)} + NH4^{+}_{(aq)}}
 $$
 
-```{r, child=c('exe/acides-bases-30.Rmd')}
+```{r, child=c('exe/acides-bases/30.Rmd')}
 ```
 
-```{r, child=c('exe/acides-bases-40.Rmd')}
+```{r, child=c('exe/acides-bases/40.Rmd')}
 ```
 
 \newpage
@@ -163,20 +163,20 @@ Plus la constante est **petite**, plus l'équilibre est déplacé vers la **gauc
 
 Les valeurs numériques des constantes d'acidité (K~a~) et de basicité (K~b~) pour de nombreux acides et bases courants sont généralement compilées et présentées dans des tables de données de référence.
 
-```{r, child=c('exe/acides-bases-60.Rmd')}
+```{r, child=c('exe/acides-bases/60.Rmd')}
 ```
 
 \newpage
 
-<!--```{r, child=c('exe/acides-bases-50.Rmd')}
+<!--```{r, child=c('exe/acides-bases/50.Rmd')}
 ```-->
 
-```{r, child=c('exe/acides-bases-70.Rmd')}
+```{r, child=c('exe/acides-bases/70.Rmd')}
 ```
 
-```{r, child=c('exe/acides-bases-80.Rmd')}
+```{r, child=c('exe/acides-bases/80.Rmd')}
 ```
-<!--```{r, child=c('exe/acides-bases-90.Rmd')}
+<!--```{r, child=c('exe/acides-bases/90.Rmd')}
 ```-->
 
 \newpage
@@ -209,15 +209,15 @@ En résumé :
 | Dans une solution acide   |   \|$\ce{H3O+}$\| > \|$\ce{OH-}$\|            |
 | Dans une solution basique |   \|$\ce{H3O+}$\| < \|$\ce{OH-}$\|            |
 
-```{r, child=c('exe/acides-bases-100.Rmd')}
+```{r, child=c('exe/acides-bases/100.Rmd')}
 ```
 
 \newpage
 
-```{r, child=c('exe/acides-bases-110.Rmd')}
+```{r, child=c('exe/acides-bases/110.Rmd')}
 ```
 
-```{r, child=c('exe/acides-bases-120.Rmd')}
+```{r, child=c('exe/acides-bases/120.Rmd')}
 ```
 
 \newpage

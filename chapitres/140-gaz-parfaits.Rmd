@@ -77,10 +77,10 @@ $$
 \frac{P_1 \cdot V_1}{T_1} = \frac{P_2 \cdot V_2}{T_2} \qquad \text{(loi générale des gaz)}
 $$
 
-```{r, child=c('exe/gaz-parfaits-10.Rmd')}
+```{r, child=c('exe/gaz-parfaits/10.Rmd')}
 ```
 
-```{r, child=c('exe/gaz-parfaits-20.Rmd')}
+```{r, child=c('exe/gaz-parfaits/20.Rmd')}
 ```
 
 \newpage
@@ -101,7 +101,7 @@ $$
 
 Avec cette relation, nous pouvons convertir le volume d'un gaz en quantité de matière en connaissant la pression et le température. Le volume, la pression et la température d'un gaz sont plus faciles à mesurer que la masse, et la masse molaire du gaz n'intervient pas.
 
-```{r, child=c('exe/gaz-parfaits-30.Rmd')}
+```{r, child=c('exe/gaz-parfaits/30.Rmd')}
 ```
 
 ### Les unités des gaz
@@ -192,23 +192,23 @@ P_T = P_A + P_B
 \end{split}
 $$
 
-```{r, child=c('exe/gaz-parfaits-70.Rmd')}
+```{r, child=c('exe/gaz-parfaits/70.Rmd')}
 ```
 
 ## Exercices supplémentaires
 
-```{r, child=c('exe/gaz-parfaits-40.Rmd')}
+```{r, child=c('exe/gaz-parfaits/40.Rmd')}
 ```
 
 \newpage
 
-```{r, child=c('exe/gaz-parfaits-50.Rmd')}
+```{r, child=c('exe/gaz-parfaits/50.Rmd')}
 ```
 
-```{r, child=c('exe/gaz-parfaits-60.Rmd')}
+```{r, child=c('exe/gaz-parfaits/60.Rmd')}
 ```
 
-```{r, child=c('exe/gaz-parfaits-80.Rmd')}
+```{r, child=c('exe/gaz-parfaits/80.Rmd')}
 ```
 
 \newpage

@@ -138,7 +138,7 @@ Le nombre relatif de cations et d'anions n'est pas toujours le même. Prenons pa
 knitr::include_graphics(c("images/NaCl-crystal.png","images/CaF2-crystal.png"))
 ```
 
-```{r, child=c('exe/liaisons-20.Rmd')}
+```{r, child=c('exe/liaisons/20.Rmd')}
 ```
 
 \newpage
@@ -154,7 +154,7 @@ knitr::include_graphics(c("images/NaCl-crystal.png","images/CaF2-crystal.png"))
 | :---------------------------------------------: | :----------------------------------------------: | :---------------------------------------------: |
 | ![](images/dessin-ioniques-NaCl.png){width=9em} | ![](images/dessin-ioniques-MgBr2.png){width=9em} | ![](images/dessin-ioniques-AlF3.png){width=9em} |
 
-```{r, child=c('exe/liaisons-70.Rmd')}
+```{r, child=c('exe/liaisons/70.Rmd')}
 ```
 
 \newpage
@@ -205,7 +205,7 @@ knitr::include_graphics(c("images/liaisons-multiples.png"))
 | :--------------------------------------------: | :--------------------------------------------: | :--------------------------------------------: |
 | ![](images/dessin-covalentes-H2O.png){width=9em} | ![](images/dessin-covalentes-NH3.png){width=9em} | ![](images/dessin-covalentes-CH4.png){width=9em} |
 
-```{r, child=c('exe/liaisons-30.Rmd')}
+```{r, child=c('exe/liaisons/30.Rmd')}
 ```
 
 ### La covalence de coordination
@@ -244,7 +244,7 @@ Les ions $Na^+$, $Mg^{2+}$ ou $Cl^–$ sont **monoatomique**, ce qui signifie qu
 Quand un ion polyatomique est présent plusieurs fois dans une molécule, on l'indique dans la formule brute par des parenthèses et un indice comme dans les exemples : $Ca(OH)_2$, $Ba(NO_3)_2$, $Ca(HCO_3)_2$.
 
 
-```{r, child=c('exe/molecules-30.Rmd')}
+```{r, child=c('exe/molecules/30.Rmd')}
 ```
 
 ### Dessiner les composés ternaires
@@ -256,7 +256,7 @@ Quand un ion polyatomique est présent plusieurs fois dans une molécule, on l'i
     - Dessiner ensuite les oxygènes restants.
 - Dessiner les covalences ou électrovalences selon les différences d'électronégativité.
 
-```{r, child=c('exe/molecules-20.Rmd')}
+```{r, child=c('exe/molecules/20.Rmd')}
 ```
 
 \newpage
@@ -304,59 +304,59 @@ Table: (#tab:exemples-alliages-communs) Exemples d'alliages communs.
 
 ## Exercices supplémentaires
 
-```{r, child=c('exe/liaisons-10.Rmd')}
+```{r, child=c('exe/liaisons/10.Rmd')}
 ```
 
-```{r, child=c('exe/liaisons-40.Rmd')}
-```
-
-\newpage
-
-```{r, child=c('exe/liaisons-50.Rmd')}
-```
-
-```{r, child=c('exe/liaisons-60.Rmd')}
-```
-
-```{r, child=c('exe/liaisons-80.Rmd')}
+```{r, child=c('exe/liaisons/40.Rmd')}
 ```
 
 \newpage
 
-```{r, child=c('exe/liaisons-90.Rmd')}
+```{r, child=c('exe/liaisons/50.Rmd')}
 ```
 
-```{r, child=c('exe/molecules-40.Rmd')}
+```{r, child=c('exe/liaisons/60.Rmd')}
 ```
 
-```{r, child=c('exe/molecules-50.Rmd')}
-```
-
-\newpage
-
-```{r, child=c('exe/molecules-60.Rmd')}
-```
-
-```{r, child=c('exe/molecules-70.Rmd')}
-```
-
-```{r, child=c('exe/molecules-80.Rmd')}
+```{r, child=c('exe/liaisons/80.Rmd')}
 ```
 
 \newpage
 
-```{r, child=c('exe/molecules-90.Rmd')}
+```{r, child=c('exe/liaisons/90.Rmd')}
 ```
 
-```{r, child=c('exe/molecules-100.Rmd')}
+```{r, child=c('exe/molecules/40.Rmd')}
+```
+
+```{r, child=c('exe/molecules/50.Rmd')}
 ```
 
 \newpage
 
-```{r, child=c('exe/molecules-110.Rmd')}
+```{r, child=c('exe/molecules/60.Rmd')}
 ```
 
-```{r, child=c('exe/molecules-120.Rmd')}
+```{r, child=c('exe/molecules/70.Rmd')}
+```
+
+```{r, child=c('exe/molecules/80.Rmd')}
+```
+
+\newpage
+
+```{r, child=c('exe/molecules/90.Rmd')}
+```
+
+```{r, child=c('exe/molecules/100.Rmd')}
+```
+
+\newpage
+
+```{r, child=c('exe/molecules/110.Rmd')}
+```
+
+```{r, child=c('exe/molecules/120.Rmd')}
 ```
 
 ```{r, echo=FALSE}

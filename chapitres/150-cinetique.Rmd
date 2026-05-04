@@ -87,10 +87,10 @@ $$
 \text{vitesse} = - \frac{\Delta |A|}{a \cdot \Delta t} = - \frac{\Delta |B|}{b \cdot \Delta t} = \frac{\Delta |C|}{c \cdot \Delta t} = \frac{\Delta |D|}{d \cdot \Delta t}
 $$
 
-```{r, child=c('exe/cinetique-10.Rmd')}
+```{r, child=c('exe/cinetique/10.Rmd')}
 ```
 
-```{r, child=c('exe/cinetique-20.Rmd')}
+```{r, child=c('exe/cinetique/20.Rmd')}
 ```
 
 \newpage
@@ -150,7 +150,7 @@ $$
 - Les ordres partiels peuvent être entiers ou fractionnaires et sont déterminés expérimentalement.
 - **L’ordre global de la réaction est égal à la somme des ordres partiels.**
 
-```{r, child=c('exe/cinetique-30.Rmd')}
+```{r, child=c('exe/cinetique/30.Rmd')}
 ```
 
 \newpage
