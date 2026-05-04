@@ -89,21 +89,21 @@ $$
 
 Pour le calcul du pH des acides polyprotiques, il est nécessaire de considérer la libération de chaque proton. Les déprotonations successives peuvent être non négligeables et doivent être prises en compte dans le calcul du pH.
 
-```{r, child=c('exe/acides-bases-130.Rmd')}
+```{r, child=c('exe/acides-bases/130.Rmd')}
 ```
 
-```{r, child=c('exe/acides-bases-140.Rmd')}
+```{r, child=c('exe/acides-bases/140.Rmd')}
 ```
 
 \newpage
 
-```{r, child=c('exe/acides-bases-190.Rmd')}
+```{r, child=c('exe/acides-bases/190.Rmd')}
 ```
 
-```{r, child=c('exe/acides-bases-240.Rmd')}
+```{r, child=c('exe/acides-bases/240.Rmd')}
 ```
 
-```{r, child=c('exe/acides-bases-210.Rmd')}
+```{r, child=c('exe/acides-bases/210.Rmd')}
 ```
 
 \newpage
@@ -136,29 +136,29 @@ pH &= 14 - pOH
 \end{split}
 $$
 
-```{r, child=c('exe/acides-bases-150.Rmd')}
+```{r, child=c('exe/acides-bases/150.Rmd')}
 ```
 
-```{r, child=c('exe/acides-bases-160.Rmd')}
-```
-
-\newpage
-
-```{r, child=c('exe/acides-bases-200.Rmd')}
-```
-
-```{r, child=c('exe/acides-bases-220.Rmd')}
-```
-
-```{r, child=c('exe/acides-bases-230.Rmd')}
+```{r, child=c('exe/acides-bases/160.Rmd')}
 ```
 
 \newpage
 
-```{r, child=c('exe/acides-bases-170.Rmd')}
+```{r, child=c('exe/acides-bases/200.Rmd')}
 ```
 
-```{r, child=c('exe/acides-bases-180.Rmd')}
+```{r, child=c('exe/acides-bases/220.Rmd')}
+```
+
+```{r, child=c('exe/acides-bases/230.Rmd')}
+```
+
+\newpage
+
+```{r, child=c('exe/acides-bases/170.Rmd')}
+```
+
+```{r, child=c('exe/acides-bases/180.Rmd')}
 ```
 \newpage
 
@@ -242,7 +242,7 @@ $$
 pH = - \log |\ce{H3O+}| = - \log 7 \cdot 10^{-6} = 5.15\ [-]
 $$
 
-```{r, child=c('exe/acides-bases-250.Rmd')}
+```{r, child=c('exe/acides-bases/250.Rmd')}
 ```
 
 \newpage
@@ -325,17 +325,17 @@ $$
 pH = 14 - pOH = 14 + \log |\ce{OH-}| = 14 + \log 1.90 \cdot 10^{-3} = 11.279\ [-]
 $$
 
-```{r, child=c('exe/acides-bases-270.Rmd')}
+```{r, child=c('exe/acides-bases/270.Rmd')}
 ```
 \newpage
 
-```{r, child=c('exe/acides-bases-260.Rmd')}
+```{r, child=c('exe/acides-bases/260.Rmd')}
 ```
 
-```{r, child=c('exe/acides-bases-280.Rmd')}
+```{r, child=c('exe/acides-bases/280.Rmd')}
 ```
 
-```{r, child=c('exe/acides-bases-290.Rmd')}
+```{r, child=c('exe/acides-bases/290.Rmd')}
 ```
 
 ## pH des acides polyprotiques
@@ -365,10 +365,10 @@ On pourra donc traiter les polyacides comme des monoacides, en ne prenant en com
 
 \newpage
 
-```{r, child=c('exe/acides-bases-300.Rmd')}
+```{r, child=c('exe/acides-bases/300.Rmd')}
 ```
 
-```{r, child=c('exe/acides-bases-310.Rmd')}
+```{r, child=c('exe/acides-bases/310.Rmd')}
 ```
 
 \newpage
@@ -401,7 +401,7 @@ $$
 
 Le pH variera donc peu, pour autant que la quantité d'acide ajoutée ne soit pas supérieure à la quantité de base présente.
 
-```{r, child=c('exe/acides-bases-320.Rmd')}
+```{r, child=c('exe/acides-bases/320.Rmd')}
 ```
 
 \newpage
@@ -426,31 +426,31 @@ $$
 pK_a + pK_b = 14 \quad \text{avec } pK_b = - \log K_b
 $$
 
-```{r, child=c('exe/acides-bases-330.Rmd')}
+```{r, child=c('exe/acides-bases/330.Rmd')}
 ```
 
-```{r, child=c('exe/acides-bases-340.Rmd')}
-```
-
-\newpage
-
-```{r, child=c('exe/acides-bases-350.Rmd')}
-```
-
-```{r, child=c('exe/acides-bases-370.Rmd')}
+```{r, child=c('exe/acides-bases/340.Rmd')}
 ```
 
 \newpage
 
-```{r, child=c('exe/acides-bases-360.Rmd')}
+```{r, child=c('exe/acides-bases/350.Rmd')}
+```
+
+```{r, child=c('exe/acides-bases/370.Rmd')}
 ```
 
 \newpage
 
-```{r, child=c('exe/acides-bases-380.Rmd')}
+```{r, child=c('exe/acides-bases/360.Rmd')}
+```
+
+\newpage
+
+```{r, child=c('exe/acides-bases/380.Rmd')}
 ```
 <!--
-```{r, child=c('exe/acides-bases-390.Rmd')}
+```{r, child=c('exe/acides-bases/390.Rmd')}
 ```
 -->
 

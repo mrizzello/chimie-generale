@@ -236,22 +236,22 @@ Les sels acides sont des sels qui contiennent le cation $H^+$ en plus d'un catio
 
 ## Exercices supplémentaires
 
-```{r, child=c('exe/nomenclature-10.Rmd')}
+```{r, child=c('exe/nomenclature/10.Rmd')}
 ```
 
-```{r, child=c('exe/nomenclature-20.Rmd')}
+```{r, child=c('exe/nomenclature/20.Rmd')}
 ```
 
-```{r, child=c('exe/nomenclature-30.Rmd')}
+```{r, child=c('exe/nomenclature/30.Rmd')}
 ```
 
-```{r, child=c('exe/nomenclature-40.Rmd')}
+```{r, child=c('exe/nomenclature/40.Rmd')}
 ```
 
-```{r, child=c('exe/nomenclature-50.Rmd')}
+```{r, child=c('exe/nomenclature/50.Rmd')}
 ```
 
-```{r, child=c('exe/nomenclature-60.Rmd')}
+```{r, child=c('exe/nomenclature/60.Rmd')}
 ```
 
 \newpage

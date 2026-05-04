@@ -51,12 +51,12 @@ Un électron est 1834 fois plus léger qu'un proton, mais son influence est trè
 
 **L'atome est électriquement neutre.** Comment un atome peut-il être neutre si il contient des protons chargés positivement et des électrons chargés négativement? La réponse est qu'**il y a un nombre égal de protons et d'électrons** de sorte que les charges positives et négatives s'annulent.
 
-```{r, child=c('exe/atome-10.Rmd')}
+```{r, child=c('exe/atome/10.Rmd')}
 ```
 
 \newpage
 
-```{r, child=c('exe/atome-20.Rmd')}
+```{r, child=c('exe/atome/20.Rmd')}
 ```
 
 \newpage
@@ -121,7 +121,7 @@ Il existe des tables qui indiquent la liste des isotopes naturels stables et rad
 knitr::include_graphics(c("images/isotopes-table.png"))
 ```
 
-```{r, child=c('exe/atome-30.Rmd')}
+```{r, child=c('exe/atome/30.Rmd')}
 ```
 
 Dans la notation chimique, pour désigner un isotope, on indiquera le nombre de masse A de l'atome en exposant en haut et à gauche du symbol.
@@ -140,7 +140,7 @@ $_{6}^{12}C$ et $_{6}^{13}C$ sont deux isotopes de l'élément carbone.On les no
 
 $_{92}^{234}U$, $_{92}^{235}U$ et $_{92}^{238}U$ sont les isotopes naturels de l'élément uranium.
 
-```{r, child=c('exe/atome-40.Rmd')}
+```{r, child=c('exe/atome/40.Rmd')}
 ```
 
 ## L'unité de masse atomique
@@ -151,7 +151,7 @@ L'**unité de masse atomique (uma)** est une unité de mesure standard, utilisé
 
 $$ 1 [uma] \simeq 1,660 \cdot 10^{-27} [kg] $$
 
-```{r, child=c('exe/atome-50.Rmd')}
+```{r, child=c('exe/atome/50.Rmd')}
 ```
 
 ### Le défaut de masse
@@ -186,7 +186,7 @@ avec :
 - $\Delta m$ : défaut de masse en [kg]  
 - $c$ : vitesse de la lumière en [m/s] ($299\ 792\ 458$ [m/s] $\approx 3 \cdot 10^8$ [m/s] )
 
-```{r, child=c('exe/atome-55.Rmd')}
+```{r, child=c('exe/atome/55.Rmd')}
 ```
 
 \newpage
@@ -204,7 +204,7 @@ La plupart des éléments sont présents dans la nature sous forme d'un mélange
 
 On peut déterminer la masse atomique d'un élément, en additionnant les masses de ses isotopes multipliées par leurs abondances relatives.
 
-```{r, child=c('exe/atome-60.Rmd')}
+```{r, child=c('exe/atome/60.Rmd')}
 ```
 
 \newpage
@@ -236,15 +236,15 @@ Table: (#tab:unites-de-comptage) Unités de comptage.
 
 Une mole d'atomes, une mole de molécules, ou une mole de quoi que ce soit contiennent toutes $6.022\cdot10^{23}$ objets.
 
-```{r, child=c('exe/atome-70.Rmd')}
+```{r, child=c('exe/atome/70.Rmd')}
 ```
 
-```{r, child=c('exe/atome-80.Rmd')}
+```{r, child=c('exe/atome/80.Rmd')}
 ```
 
 \newpage
 
-```{r, child=c('exe/atome-90.Rmd')}
+```{r, child=c('exe/atome/90.Rmd')}
 ```
 
 ## La masse molaire atomique
@@ -274,45 +274,45 @@ $$ \begin{split}
 
 $$ M = \frac{m}{n} \qquad \text{ ou } \qquad n = \frac{m}{M} \qquad \text{ ou } \qquad m = n \cdot M $$
 
-```{r, child=c('exe/atome-100.Rmd')}
+```{r, child=c('exe/atome/100.Rmd')}
 ```
 
 \newpage
 
 ## Exercices supplémentaires
 
-```{r, child=c('exe/atome-110.Rmd')}
+```{r, child=c('exe/atome/110.Rmd')}
 ```
 
-```{r, child=c('exe/atome-120.Rmd')}
+```{r, child=c('exe/atome/120.Rmd')}
 ```
 
-```{r, child=c('exe/atome-130.Rmd')}
+```{r, child=c('exe/atome/130.Rmd')}
 ```
 
-```{r, child=c('exe/atome-140.Rmd')}
+```{r, child=c('exe/atome/140.Rmd')}
 ```
 
-```{r, child=c('exe/atome-150.Rmd')}
-```
-
-\newpage
-
-```{r, child=c('exe/atome-160.Rmd')}
-```
-
-```{r, child=c('exe/atome-170.Rmd')}
-```
-
-```{r, child=c('exe/atome-180.Rmd')}
+```{r, child=c('exe/atome/150.Rmd')}
 ```
 
 \newpage
 
-```{r, child=c('exe/atome-190.Rmd')}
+```{r, child=c('exe/atome/160.Rmd')}
 ```
 
-```{r, child=c('exe/atome-200.Rmd')}
+```{r, child=c('exe/atome/170.Rmd')}
+```
+
+```{r, child=c('exe/atome/180.Rmd')}
+```
+
+\newpage
+
+```{r, child=c('exe/atome/190.Rmd')}
+```
+
+```{r, child=c('exe/atome/200.Rmd')}
 ```
 
 \newpage

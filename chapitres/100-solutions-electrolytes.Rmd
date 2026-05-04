@@ -163,7 +163,7 @@ $$ \begin{split}
 
 Pour déterminer si un composé est soluble ou non, on se réfère à une table de solubilité. Cette table nous indique la solubilité de certains composés pour une température. Pour un composé non soluble, on ajoutera une flèche vers le bas à côté du composé dans l'équation de dissociation.
 
-```{r, child=c('exe/solutions-electrolytes-10.Rmd')}
+```{r, child=c('exe/solutions-electrolytes/10.Rmd')}
 ```
 
 A noter:
@@ -202,7 +202,7 @@ A l'inverse, une solution sucrée ne conduit pas l'électricité car le saccharo
 
 Le courant électrique dans la solution est dû au déplacement des cations dans un sens et au déplacement des anions dans le sens contraire. C'est un déplacement de charges et non un déplacement d'électrons seuls.
 
-```{r, child=c('exe/solutions-electrolytes-20.Rmd')}
+```{r, child=c('exe/solutions-electrolytes/20.Rmd')}
 ```
 
 \vspace{\stretch{1}}
@@ -248,7 +248,7 @@ En chimie, la concentration molaire d'une espèce A est notée entre deux barres
 
 $$ |H_2SO_4| = 0.5\ M \text{ ou } [mol/l] $$
 
-```{r, child=c('exe/solutions-electrolytes-30.Rmd')}
+```{r, child=c('exe/solutions-electrolytes/30.Rmd')}
 ```
 
 \newpage
@@ -340,28 +340,28 @@ $$
 
 \newpage
 
-```{r, child=c('exe/solutions-electrolytes-40.Rmd')}
+```{r, child=c('exe/solutions-electrolytes/40.Rmd')}
 ```
 
 ## Exercices supplémentaires
 
-```{r, child=c('exe/solutions-electrolytes-50.Rmd')}
+```{r, child=c('exe/solutions-electrolytes/50.Rmd')}
 ```
 
-```{r, child=c('exe/solutions-electrolytes-80.Rmd')}
-```
-
-\newpage
-
-```{r, child=c('exe/solutions-electrolytes-60.Rmd')}
+```{r, child=c('exe/solutions-electrolytes/80.Rmd')}
 ```
 
 \newpage
 
-```{r, child=c('exe/solutions-electrolytes-70.Rmd')}
+```{r, child=c('exe/solutions-electrolytes/60.Rmd')}
 ```
 
-```{r, child=c('exe/solutions-electrolytes-90.Rmd')}
+\newpage
+
+```{r, child=c('exe/solutions-electrolytes/70.Rmd')}
+```
+
+```{r, child=c('exe/solutions-electrolytes/90.Rmd')}
 ```
 
 \newpage

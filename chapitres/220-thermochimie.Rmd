@@ -107,15 +107,15 @@ C_p & \text{: capacité thermique}\ [J/(K \cdot g)] \\
 \end{split}
 $$
 
-```{r, child=c('exe/thermochimie-10.Rmd')}
+```{r, child=c('exe/thermochimie/10.Rmd')}
 ```
 
 \newpage
 
-```{r, child=c('exe/thermochimie-20.Rmd')}
+```{r, child=c('exe/thermochimie/20.Rmd')}
 ```
 
-```{r, child=c('exe/thermochimie-30.Rmd')}
+```{r, child=c('exe/thermochimie/30.Rmd')}
 ```
 
 ### Le calorimètre
@@ -302,13 +302,13 @@ On a donc le choix de la substance de référence, mais il faut le mentionner da
 
 \newpage
 
-```{r, child=c('exe/thermochimie-50.Rmd')}
+```{r, child=c('exe/thermochimie/50.Rmd')}
 ```
 
-```{r, child=c('exe/thermochimie-60.Rmd')}
+```{r, child=c('exe/thermochimie/60.Rmd')}
 ```
 
-```{r, child=c('exe/thermochimie-70.Rmd')}
+```{r, child=c('exe/thermochimie/70.Rmd')}
 ```
 
 \newpage
@@ -329,7 +329,7 @@ $$
 
 $n_p$ et $n_r$ sont les coéfficients stoechiométriques des réactifs et produits de la réaction étudiée.
 
-```{r, child=c('exe/thermochimie-90.Rmd')}
+```{r, child=c('exe/thermochimie/90.Rmd')}
 ```
 
 ## La loi de Hess
@@ -422,14 +422,14 @@ $$
 knitr::include_graphics(c("images/Enthalpie-3.png"))
 ```
 
-```{r, child=c('exe/thermochimie-100.Rmd')}
+```{r, child=c('exe/thermochimie/100.Rmd')}
 ```
 
 \newpage
 
 ## Exercices supplémentaires
 
-```{r, child=c('exe/thermochimie-80.Rmd')}
+```{r, child=c('exe/thermochimie/80.Rmd')}
 ```
 
 ```{r, echo=FALSE}

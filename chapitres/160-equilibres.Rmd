@@ -94,7 +94,7 @@ $$
   K = \frac{|C|^{c} \cdot |D|^{d}}{|A|^{a} \cdot |B|^{b}}
 $$
 
-```{r, child=c('exe/equilibres-60.Rmd')}
+```{r, child=c('exe/equilibres/60.Rmd')}
 ```
 
 \newpage
@@ -105,7 +105,7 @@ Lorsque toutes les substances participant à la réaction sont dans la même pha
 
 **Lors du calcul des constantes d'équilibre, les solides et les liquides purs ne sont pas pris en compte car leur concentration ne change pas au cours de la réaction.**
 
-```{r, child=c('exe/equilibres-70.Rmd')}
+```{r, child=c('exe/equilibres/70.Rmd')}
 ```
 
 ### Constantes d'équilibre et phase gazeuse
@@ -143,7 +143,7 @@ Pour exprimer la constante d'équilibre :
 | :------------: | :------------------: |
 |     $K_c = \frac{|C|^{c} \cdot |D|^{d}}{|A|^{a} \cdot |B|^{b}}$      |        $K_p = \frac{P_C^{c} \cdot P_D^{d}}{P_A^{a} \cdot P_B^{b}}$         |
 
-```{r, child=c('exe/equilibres-10.Rmd')}
+```{r, child=c('exe/equilibres/10.Rmd')}
 ```
 
 \newpage
@@ -192,7 +192,7 @@ $$
 
 \newpage
 
-```{r, child=c('exe/equilibres-20.Rmd')}
+```{r, child=c('exe/equilibres/20.Rmd')}
 ```
 
 ## Évolution spontanée et principe de Le Châtelier
@@ -302,25 +302,25 @@ Un catalyseur accélère une réaction en abaissant l'énergie d'activation de l
 
 Si un catalyseur est ajouté à un mélange réactionnel qui n'est pas à l'équilibre le mélange atteindra l'équilibre plus rapidement.
 
-```{r, child=c('exe/equilibres-30.Rmd')}
+```{r, child=c('exe/equilibres/30.Rmd')}
 ```
 
 \newpage
 
-```{r, child=c('exe/equilibres-40.Rmd')}
+```{r, child=c('exe/equilibres/40.Rmd')}
 ```
 
 ## Exercices supplémentaires
 
-```{r, child=c('exe/equilibres-80.Rmd')}
+```{r, child=c('exe/equilibres/80.Rmd')}
 ```
 
 \newpage
 
-```{r, child=c('exe/equilibres-50.Rmd')}
+```{r, child=c('exe/equilibres/50.Rmd')}
 ```
 
-```{r, child=c('exe/equilibres-90.Rmd')}
+```{r, child=c('exe/equilibres/90.Rmd')}
 ```
 
 \newpage

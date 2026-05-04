@@ -89,10 +89,10 @@ Les mélanges homogènes ont une composition uniforme. Chaque partie d'un mélan
 knitr::include_graphics(c("images/schema-matiere.png"))
 ```
 
-```{r, child=c('exe/melanges-corps-purs-10.Rmd')}
+```{r, child=c('exe/melanges-corps-purs/10.Rmd')}
 ```
 
-```{r, child=c('exe/melanges-corps-purs-20.Rmd')}
+```{r, child=c('exe/melanges-corps-purs/20.Rmd')}
 ```
 
 ### Les dispersions
@@ -236,7 +236,7 @@ La **centrifugation** utilise la force centrifuge pour accélérer la sédimenta
 
 \newpage
 
-```{r, child=c('exe/melanges-corps-purs-30.Rmd')}
+```{r, child=c('exe/melanges-corps-purs/30.Rmd')}
 ```
 
 ### Résumé des méthodes de séparation
@@ -261,15 +261,15 @@ La **centrifugation** utilise la force centrifuge pour accélérer la sédimenta
 
 ## Exercices supplémentaires
 
-```{r, child=c('exe/melanges-corps-purs-60.Rmd')}
+```{r, child=c('exe/melanges-corps-purs/60.Rmd')}
 ```
 
 \newpage
 
-```{r, child=c('exe/melanges-corps-purs-40.Rmd')}
+```{r, child=c('exe/melanges-corps-purs/40.Rmd')}
 ```
 
-```{r, child=c('exe/melanges-corps-purs-50.Rmd')}
+```{r, child=c('exe/melanges-corps-purs/50.Rmd')}
 ```
 
 \newpage

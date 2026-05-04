@@ -41,7 +41,7 @@ Dans cette expression, chaque concentration ionique est élevée à la puissance
 
 \newpage
 
-```{r, child=c('exe/produit-solubilite-10.Rmd')}
+```{r, child=c('exe/produit-solubilite/10.Rmd')}
 ```
 
 ## La solubilité ($s$)
@@ -86,10 +86,10 @@ $$
 
 \newpage
 
-```{r, child=c('exe/produit-solubilite-80.Rmd')}
+```{r, child=c('exe/produit-solubilite/80.Rmd')}
 ```
 
-```{r, child=c('exe/produit-solubilite-90.Rmd')}
+```{r, child=c('exe/produit-solubilite/90.Rmd')}
 ```
 
 ### Différentes situations envisagées
@@ -192,7 +192,7 @@ Bien que ces deux sels aient des solubilités similaires, leurs produits de solu
 
 Le produit de solubilité ($K_{ps}$) est lié à la solubilité ($s$) par une relation qui dépend du rapport stœchiométrique des ions dans l'équation de dissolution. Les $K_{ps}$ ne sont pas directement comparables entre différents sels à moins qu'ils n'aient des coefficients stœchiométriques identiques dans leur équation de dissolution.
 
-```{r, child=c('exe/produit-solubilite-20.Rmd')}
+```{r, child=c('exe/produit-solubilite/20.Rmd')}
 ```
 
 ## Effet d'un ion commun
@@ -216,7 +216,7 @@ L'ion $\ce{SO4^{2-}}$ est l'ion commun introduit par le sulfate de sodium. Selon
 
 Cette réduction de la solubilité est une conséquence directe de l'augmentation de la concentration d'un des produits de la dissolution, ce qui force l'équilibre à se déplacer dans le sens inverse de la dissolution.
 
-```{r, child=c('exe/produit-solubilite-30.Rmd')}
+```{r, child=c('exe/produit-solubilite/30.Rmd')}
 ```
 
 \newpage
@@ -244,47 +244,47 @@ Les règles générales pour prédire si une précipitation se produira sont les
 | sens direct favorisé |  système à l'équilibre  | sens indirect favorisé |
 | pas de précipitation | la solution est saturée |     précipitation      |
 
-```{r, child=c('exe/produit-solubilite-40.Rmd')}
+```{r, child=c('exe/produit-solubilite/40.Rmd')}
 ```
 
 \newpage
 
 ## Exercices supplémentaires
 
-```{r, child=c('exe/produit-solubilite-50.Rmd')}
+```{r, child=c('exe/produit-solubilite/50.Rmd')}
 ```
 
-```{r, child=c('exe/produit-solubilite-60.Rmd')}
+```{r, child=c('exe/produit-solubilite/60.Rmd')}
 ```
 
-```{r, child=c('exe/produit-solubilite-70.Rmd')}
+```{r, child=c('exe/produit-solubilite/70.Rmd')}
 ```
 
 \newpage
 
-```{r, child=c('exe/produit-solubilite-100.Rmd')}
+```{r, child=c('exe/produit-solubilite/100.Rmd')}
 ```
 
 \vspace{\stretch{1}}
 
-```{r, child=c('exe/produit-solubilite-110.Rmd')}
+```{r, child=c('exe/produit-solubilite/110.Rmd')}
 ```
 
 \vspace{\stretch{1}}
 
-```{r, child=c('exe/produit-solubilite-120.Rmd')}
+```{r, child=c('exe/produit-solubilite/120.Rmd')}
 ```
 
 \vspace{\stretch{1}}
 
 \newpage
 
-```{r, child=c('exe/produit-solubilite-130.Rmd')}
+```{r, child=c('exe/produit-solubilite/130.Rmd')}
 ```
 
 \vspace{\stretch{1}}
 
-```{r, child=c('exe/produit-solubilite-140.Rmd')}
+```{r, child=c('exe/produit-solubilite/140.Rmd')}
 ```
 
 \vspace{\stretch{1}}
