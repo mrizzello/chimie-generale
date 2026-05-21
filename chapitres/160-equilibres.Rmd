@@ -294,6 +294,16 @@ En résumé :
 knitr::include_graphics(c("images/equilibres-temperature-1.png"))
 ```
 
+### Quotient de réaction et évolution d'un système
+
+Pour déterminer dans quel sens une réaction va évoluer pour atteindre l'équilibre, on compare la valeur du quotient de réaction $Q_r$ à un instant $t$ donné avec la valeur de la constante d'équilibre $K$.
+
+- Si **$Q_r < K$** : Le système n'est pas à l'équilibre. Pour atteindre l'équilibre, le numérateur de l'expression de $Q_r$ (les produits) doit augmenter et le dénominateur (les réactifs) doit diminuer. La réaction évolue dans le **sens direct** (vers la droite).
+- Si **$Q_r > K$** : Le système n'est pas à l'équilibre. Le numérateur (les produits) doit diminuer et le dénominateur (les réactifs) doit augmenter. La réaction évolue dans le **sens indirect** (vers la gauche).
+- Si **$Q_r = K$** : Le système est à l'**équilibre chimique**. Les concentrations des réactifs et des produits ne varient plus au cours du temps.
+
+Cette comparaison est particulièrement utile pour prévoir l'évolution d'un système lorsque les concentrations initiales sont connues mais que le système n'a pas encore atteint son état d'équilibre.
+
 ### Effet d'un catalyseur sur un équilibre chimique
 
 Un catalyseur accélère une réaction en abaissant l'énergie d'activation de la réaction. Cependant il abaisse l'énergie d'activation de la réaction directe ainsi que de la réaction indirecte, et ceci dans la même mesure. La présence d'un catalyseur ne modifie donc pas la constante d'équilibre, ni ne modifie les quantités de matières de réactifs et de produits.
