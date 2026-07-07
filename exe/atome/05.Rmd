@@ -1,0 +1,23 @@
+::: {.Exercise data-latex=""}
+
+Répondez aux questions suivantes concernant les particules subatomiques.
+
+1. Quelles particules constituent le noyau de l'atome ? Où se trouvent les électrons ?
+\vspace{\stretch{1}}
+2. Donnez la charge relative du proton, du neutron et de l'électron.
+\vspace{\stretch{1}}
+3. Classez ces trois particules de la plus légère à la plus lourde.
+\vspace{\stretch{1}}
+4. Un atome possède 17 protons. Combien d'électrons possède-t-il ? Justifiez.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. Le noyau contient les **protons** et les **neutrons**. Les **électrons** se déplacent autour du noyau et forment le nuage électronique.
+2. proton : +1 ; neutron : 0 ; électron : -1.
+3. électron (environ 1836 fois plus léger que le proton) $<$ proton $\approx$ neutron (le neutron est très légèrement plus lourd que le proton).
+4. 17 électrons. L'atome est électriquement neutre : il contient donc autant d'électrons (charges négatives) que de protons (charges positives).
+
+:::

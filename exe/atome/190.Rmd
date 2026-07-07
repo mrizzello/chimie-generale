@@ -17,17 +17,17 @@ Combien de grammes de calcium (Ca) faut-il pour obtenir 3.40 moles de calcium?
 ::: {.Answer data-latex=""}
 
 1. $$ \begin{split}
-		n &= \dfrac{m}{M} = \dfrac{35.2~[g]}{24.31~[g/mol]} = 1.45~[mol] \\
-		N &= n \cdot N_{A} = 1.45~[mol] \cdot 6.022\cdot10^{23} = 8.73\cdot10^{23}~[atomes]
+		n &= \dfrac{m}{M} = \dfrac{35.2~\text{ g}}{24.31~\text{ g/mol}} = 1.45~\text{ mol} \\
+		N &= n \cdot N_{A} = 1.45~\text{ mol} \cdot 6.022\cdot10^{23} = 8.73\cdot10^{23}~\text{ atomes}
 		\end{split} $$
 
 2. $$ \begin{split}
-		n &= \dfrac{N}{N_{A}} = \dfrac{2.2\cdot10^{23}}{6.022\cdot10^{23}} = 0.37~[mol] \\
-		m &= n \cdot M = 0.37[mol] \cdot 195.08[g/mol] = 72[g]
+		n &= \dfrac{N}{N_{A}} = \dfrac{2.2\cdot10^{23}}{6.022\cdot10^{23}} = 0.37~\text{ mol} \\
+		m &= n \cdot M = 0.37\text{ mol} \cdot 195.08\text{ g/mol} = 72\text{ g}
 		\end{split} $$
 
 3. $$ \begin{split}
-		m &= n \cdot M = 3.4[mol] \cdot 40.08[g/mol] = 136[g]
+		m &= n \cdot M = 3.4\text{ mol} \cdot 40.08\text{ g/mol} = 136\text{ g}
 		\end{split} $$
 
 :::

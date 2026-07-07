@@ -1,6 +1,6 @@
 ::: {.Exercise data-latex=""}
 
-Vous portez à votre doigt un anneau d'or pur qui pèse 31,6 [g].
+Vous portez à votre doigt un anneau d'or pur qui pèse 31.6 g.
 
 1. Combien de moles d'atomes d'or sont contenues dans cet anneau?  
 \vspace{\stretch{1}}
@@ -14,27 +14,27 @@ Vous portez à votre doigt un anneau d'or pur qui pèse 31,6 [g].
 ::: {.Answer data-latex=""}
 
 $$ \begin{split}
-    1 [mol] \text{ d 'Au } &\longrightarrow 196.97 [g]\\
-    n [mol] \text{ d 'Au } &\longrightarrow 31.6 [g]\\
-    n &= \dfrac{31.6 [g] \cdot 1 [mol]}{196.97 [g]} = 0.16 [mol]
+    1 \text{ mol} \text{ d 'Au } &\longrightarrow 196.97 \text{ g}\\
+    n \text{ mol} \text{ d 'Au } &\longrightarrow 31.6 \text{ g}\\
+    n &= \dfrac{31.6 \text{ g} \cdot 1 \text{ mol}}{196.97 \text{ g}} = 0.16 \text{ mol}
 \end{split} $$
 
-**31.6 [g] d'or contiennent 0.16 [mol] d'atomes d'or.**
+**31.6 g d'or contiennent 0.16 mol d'atomes d'or.**
 
 $$ \begin{split}
-    1 [mol] \text{ d'Au } &\longrightarrow 6.022\cdot 10^{23} [atome] \text{ d'Au}\\
-    0.16 [mol] \text{ d'Au } &\longrightarrow N_a [atome] \text{ d'Au}\\
-    N_a = \dfrac{0.16 [mol] \cdot 6.022\cdot 10^{23} [atome]}{1 [mol]} &= 9.66\cdot 10^{22} [atome]
+    1 \text{ mol} \text{ d'Au } &\longrightarrow 6.022\cdot 10^{23} \text{ atome} \text{ d'Au}\\
+    0.16 \text{ mol} \text{ d'Au } &\longrightarrow N_a \text{ atome} \text{ d'Au}\\
+    N_a = \dfrac{0.16 \text{ mol} \cdot 6.022\cdot 10^{23} \text{ atome}}{1 \text{ mol}} &= 9.66\cdot 10^{22} \text{ atome}
 \end{split} $$
 
-**31.6 [g] d'or contiennent $9.66\cdot 10^{22}$ atomes d'or.**
+**31.6 g d'or contiennent $9.66\cdot 10^{22}$ atomes d'or.**
 
 $$ \begin{split}
-    1 [atome] \text{ d'Au } &\longrightarrow 79 [proton]\\
-    9.66\cdot 10^{22} [atome] \text{ d'Au } &\longrightarrow N_{p} [proton]\\
-    N_p = \dfrac{9.66\cdot 10^{22} [atome] \cdot 79 [proton]}{1 [atome]} &= 7.63\cdot 10^{24} [proton]\\
+    1 \text{ atome} \text{ d'Au } &\longrightarrow 79 \text{ proton}\\
+    9.66\cdot 10^{22} \text{ atome} \text{ d'Au } &\longrightarrow N_{p} \text{ proton}\\
+    N_p = \dfrac{9.66\cdot 10^{22} \text{ atome} \cdot 79 \text{ proton}}{1 \text{ atome}} &= 7.63\cdot 10^{24} \text{ proton}\\
 \end{split} $$
 
-**31.6 [g] d'or contiennent $7.63\cdot 10^{24}$ protons.**
+**31.6 g d'or contiennent $7.63\cdot 10^{24}$ protons.**
 
 :::
