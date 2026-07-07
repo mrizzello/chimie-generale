@@ -1,0 +1,23 @@
+::: {.Exercise data-latex=""}
+
+Répondez aux questions suivantes sur les liaisons chimiques.
+
+1. Pourquoi les atomes ont-ils tendance à former des liaisons ? Que devient l'énergie du système ?
+\vspace{\stretch{1}}
+2. Comment appelle-t-on les forces qui maintiennent les atomes ensemble dans une molécule ?
+\vspace{\stretch{1}}
+3. Citez les trois grandes familles de liaisons chimiques.
+\vspace{\stretch{1}}
+4. Quels sont les seuls éléments que l'on trouve dans la nature sous forme d'atomes isolés ? Pourquoi ?
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. Deux atomes liés ont une énergie potentielle plus basse que deux atomes isolés. La nature tend à minimiser l'énergie : les atomes forment donc des liaisons pour être plus stables. L'énergie du système **diminue**.
+2. Les **liaisons chimiques** (ou liaisons intramoléculaires).
+3. La liaison **ionique**, la liaison **covalente** et la liaison **métallique**.
+4. Les **gaz rares** (groupe VIII) : leur couche de valence est déjà complète (octet), ils sont donc stables et n'ont pas besoin de former de liaisons.
+
+:::

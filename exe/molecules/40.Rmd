@@ -20,17 +20,17 @@ Calculez la masse molaire moléculaire des composés suivants.
 
 ::: {.multicols data-latex="{2}"}
 
-$SrCl_2$ : 158.5 [g/mol]
+$SrCl_2$ : 158.52 g/mol
 
-$KNO_3$ : 101 [g/mol]
+$KNO_3$ : 101.10 g/mol
 
-$NH_4Cl$ : 53.5 [g/mol]
+$NH_4Cl$ : 53.49 g/mol
 
-$Ca_3(PO_4)_2$ : 310 [g/mol]
+$Ca_3(PO_4)_2$ : 310.17 g/mol
 
-$Mg(NO_2)_2$ : 116 [g/mol]
+$Mg(NO_2)_2$ : 116.32 g/mol
 
-$CH_3COOH$ : 60 [g/mol]
+$CH_3COOH$ : 60.05 g/mol
 
 :::
 

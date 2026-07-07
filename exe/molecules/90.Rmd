@@ -15,38 +15,38 @@
 
 1. $$ \begin{split}
   MM_{C_{12}H_{22}O_{11}} &= 12 \cdot MM_C + 22 \cdot MM_H + 11 \cdot MM_O \\
-  &= 12 \cdot 12 [g/mol] + 22 \cdot 1 [g/mol] + 11 \cdot 16 [g/mol] \\
-  &= 342 [g/mol]
+  &= 12 \cdot 12.011 + 22 \cdot 1.008 + 11 \cdot 15.999 \\
+  &= 342.30 \text{ g/mol}
   \end{split} $$
 
 2. $$  \begin{split}
-    1 [mol] \text{ de glucose } & \longrightarrow 342 [g]\\
-    n [mol] \text{ de glucose } & \longrightarrow 5 [g]
+    1 \text{ mol de saccharose } & \longrightarrow 342.30 \text{ g}\\
+    n \text{ mol de saccharose } & \longrightarrow 5 \text{ g}
    \end{split} $$
 
    $$  \begin{split}
-    n &= \frac{5[g] \cdot 1[mol]}{342[g]} = 1.5 \cdot 10^{-2} [mol] \\
-    & \text{1 morceau de sucre contient 0.015 [mol] de glucose}
+    n &= \frac{5\text{ g} \cdot 1\text{ mol}}{342.30\text{ g}} = 1.46 \cdot 10^{-2} \text{ mol} \\
+    & \text{1 morceau de sucre contient 0.0146 mol de saccharose}
     \end{split} $$
 
 3. $$  \begin{split}
-    1 [mol] \text{ de glucose } & \longrightarrow 6.022 \cdot 10^{23} \text{ [molecule] de glucose} \\
-    0.015 [mol] \text{ de glucose } & \longrightarrow \text{ N [molecule] de glucose}
+    1 \text{ mol de saccharose } & \longrightarrow 6.022 \cdot 10^{23} \text{ molécules de saccharose} \\
+    0.0146 \text{ mol de saccharose } & \longrightarrow \text{ N molécules de saccharose}
     \end{split} $$
 
    $$  \begin{split}
-   N &= \frac{0.015 [mol] \cdot 6.022\cdot 10^{23} [molecules]}{1 [mol]} = 9\cdot 10^{21} [molecule]\\
-   & \text{1 morceau de sucre contient } 9\cdot 10^{21} \text{ [molecule] de glucose.}
+   N &= \frac{0.0146 \text{ mol} \cdot 6.022\cdot 10^{23} \text{ molécules}}{1 \text{ mol}} = 8.8\cdot 10^{21} \text{ molécules}\\
+   & \text{1 morceau de sucre contient } 8.8\cdot 10^{21} \text{ molécules de saccharose.}
    \end{split} $$
 
    $$  \begin{split}
-    1 [molecule] \text{ de glucose } & \longrightarrow 45 [atomes] \\
-    9\cdot 10^{21} \text{ [molecules] de glucose } & \longrightarrow N_A [atomes]
+    1 \text{ molécule de saccharose } & \longrightarrow 45 \text{ atomes} \\
+    8.8\cdot 10^{21} \text{ molécules de saccharose } & \longrightarrow N_{tot} \text{ atomes}
     \end{split} $$
 
    $$  \begin{split}
-    N_A &= \frac{9 \cdot 10^{21} [molecules] \cdot 45 [atomes]}{1 [molecule]} = 4.1 \cdot 10^{23} [atome] \\
-    & \text{1 morceau de sucre contient } 4.1 \cdot 10^{23} \text{ [atome] en tout.}
+    N_{tot} &= \frac{8.8 \cdot 10^{21} \text{ molécules} \cdot 45 \text{ atomes}}{1 \text{ molécule}} = 3.96 \cdot 10^{23} \text{ atomes} \\
+    & \text{1 morceau de sucre contient } 3.96 \cdot 10^{23} \text{ atomes en tout.}
     \end{split} $$
 
 :::

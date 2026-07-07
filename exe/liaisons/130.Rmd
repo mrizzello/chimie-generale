@@ -1,0 +1,25 @@
+::: {.Exercise data-latex=""}
+
+On considère la molécule de dioxyde de carbone, $O=C=O$. Masses molaires : C = 12.011, O = 15.999 g/mol.
+
+1. Cette molécule est formée entre des non-métaux : quel type de liaison relie les atomes ?
+\vspace{\stretch{1}}
+2. Combien de liaisons covalentes y a-t-il entre le carbone et chaque oxygène ? Comment appelle-t-on ce type de liaison ?
+\vspace{\stretch{1}}
+3. Le carbone possède 4 électrons de valence et chaque oxygène en possède 6. Vérifiez que chaque atome respecte la règle de l'octet dans cette molécule.
+\vspace{\stretch{1}}
+4. Calculez la masse molaire du $CO_2$.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. Une liaison **covalente** (deux non-métaux qui partagent des électrons).
+2. Deux liaisons entre le carbone et chaque oxygène : c'est une **liaison double**.
+3. Le carbone partage 4 paires d'électrons (une double liaison avec chaque oxygène) : il s'entoure de 8 électrons (octet). Chaque oxygène partage 2 paires avec le carbone (4 électrons) et porte 2 doublets non liants (4 électrons) : il s'entoure lui aussi de 8 électrons (octet).
+4. $$
+M(CO_2) = 12.011 + 2 \cdot 15.999 = 44.01 \text{ g/mol}
+$$
+
+:::
