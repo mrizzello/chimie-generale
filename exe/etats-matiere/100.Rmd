@@ -1,0 +1,26 @@
+::: {.Exercise data-latex=""}
+
+Les changements d'état et l'influence de la pression interviennent dans de nombreuses situations de la vie courante.
+
+1. Expliquez, à l'aide de la notion de pression, pourquoi les aliments cuisent plus rapidement dans un autocuiseur (cocotte-minute) qu'à l'air libre.
+\vspace{\stretch{1}}
+2. En haute montagne (vers $4000$ m), l'eau bout à environ $85$ °C. Un œuf y cuit-il plus vite ou moins vite qu'au niveau de la mer ? Justifiez.
+\vspace{\stretch{1}}
+3. La « glace carbonique » (dioxyde de carbone solide) ne laisse aucune trace liquide lorsqu'elle se réchauffe à l'air libre : elle « fume » et disparaît. Nommez ce changement d'état et expliquez-le à l'aide du diagramme de phases du CO~2~ (point triple à $5.1$ atm).
+\vspace{\stretch{1}}
+4. Comment pourrait-on, en laboratoire, obtenir du CO~2~ liquide ?
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. Dans un autocuiseur fermé, la vapeur d'eau est emprisonnée : la **pression augmente** au-dessus du liquide. Or, plus la pression est élevée, plus la **température d'ébullition de l'eau est élevée** (elle dépasse $100$ °C). L'eau cuit donc les aliments à une température supérieure, ce qui **accélère la cuisson**.
+
+2. En altitude, la **pression atmosphérique est plus faible**, donc l'eau bout à une **température plus basse** ($\approx 85$ °C). Les aliments cuisent dans une eau moins chaude : l'œuf cuit **moins vite** (il faut plus de temps).
+
+3. C'est la **sublimation** (solide $\rightarrow$ gaz). Le point triple du CO~2~ se situe à $5.1$ atm, donc **au-dessus** de la pression atmosphérique ($1$ atm). À pression atmosphérique, la phase liquide n'existe pas : en se réchauffant, le CO~2~ solide passe **directement à l'état gazeux**, sans étape liquide.
+
+4. Il faut se placer **au-dessus du point triple**, c'est-à-dire **augmenter la pression** au-delà de $5.1$ atm (à une température appropriée). Sous pression suffisante, le CO~2~ peut alors exister à l'état liquide.
+
+:::

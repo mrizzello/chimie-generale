@@ -1,0 +1,26 @@
+::: {.Exercise data-latex=""}
+
+On chauffe régulièrement un échantillon d'une substance pure, initialement solide, et on relève sa température au cours du temps :
+
+- Temps (en min) : 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+- Température (en °C) : -20, 10, 40, 40, 40, 70, 100, 100, 100, 100, 120
+
+1. Quelle est la température de fusion de cette substance ? Sa température d'ébullition ?
+\vspace{\stretch{1}}
+2. Entre quels instants la substance est-elle entièrement à l'état liquide ?
+\vspace{\stretch{1}}
+3. Que représentent les paliers ? Pourquoi la température reste-t-elle constante pendant un changement d'état ?
+\vspace{\stretch{1}}
+4. Quel est l'état physique de cette substance à 25 °C (sous pression atmosphérique) ?
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. Le premier palier a lieu à **40 °C** : c'est la température de **fusion**. Le second palier a lieu à **100 °C** : c'est la température d'**ébullition**.
+2. La fusion se termine à $t = 4$ min et l'ébullition débute à $t = 6$ min. La substance est **entièrement liquide entre 4 et 6 minutes** (température qui remonte de 40 °C à 100 °C).
+3. Les paliers correspondent aux **changements d'état** (fusion puis vaporisation). Pendant un changement d'état, l'énergie thermique apportée sert à réorganiser les particules (vaincre les forces intermoléculaires) et non à augmenter leur agitation : la **température reste donc constante**.
+4. À 25 °C, la température est inférieure au point de fusion (40 °C) : la substance est **solide**.
+
+:::

@@ -60,6 +60,11 @@ knitr::include_graphics(c("images/mvt-thermique.png"))
 
 Lorsque les forces intermoléculaires sont fortes et l'énergie thermique faible, la substance aura tendance à se trouver à l'état solide. Lorsque les forces intermoléculaires sont faibles et l'énergie thermique forte, la substance aura tendance à se trouver à l'état gazeux. L'état liquide résulte d'une équivalence entre forces intermoléculaires et énergie thermique.
 
+```{r, child=c('exe/etats-matiere/05.Rmd')}
+```
+
+\newpage
+
 ## Les changements d'état
 
 En général, chaque état de la matière, solide, liquide ou gaz, peut se transformer en l'un des deux autres états. Ces transformations sont appelées **changements d'état**. Par exemple, l'eau peut subir deux changement d'état : elle fond à 0°C et bout à 100°C. Toutes les substances sont susceptibles de subir un changement d'état. Le fer fond à 1535°C et bout 2750°C.
@@ -83,17 +88,20 @@ On peut modifier l'état d'une substance en lui fournissant ou lui retirant de l
 
 L'**évaporation** est la transformation d'un liquide en vapeur sans ébullition. Il peut y avoir vaporisation sans ébullition de la matière.
 
-\newpage
 
 ```{r chgt-etats,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Les noms des changements d'état"}
 knitr::include_graphics(c("images/chgt-etats.png"))
 ```
+
+\newpage
 
 ```{r, child=c('exe/etats-matiere/10.Rmd')}
 ```
 
 ```{r, child=c('exe/etats-matiere/20.Rmd')}
 ```
+
+\newpage
 
 ## Les courbes de changement d'état
 
@@ -116,6 +124,11 @@ Imaginons que l'on chauffe un bloc de glace en partant d'une température de -40
 Un changement de température et un changement d'état ne se produisent pas en même temps. Quand une substance absorbe ou libère de l'énergie, soit c'est la température qui change, soit c'est son état. En d'autres termes, **la température d'une substance ne change pas au cours d'un changement d'état.**
 
 En effectuant la même expérience, mais en partant de vapeur d'eau chaude et en diminuant la température, la courbe serait inversée et aurait la même allure.
+
+\newpage
+
+```{r, child=c('exe/etats-matiere/25.Rmd')}
+```
 
 ## Les diagrammes de phases
 
@@ -157,6 +170,11 @@ knitr::include_graphics(c("images/capillarity.png"))
 
 \newpage
 
+```{r, child=c('exe/etats-matiere/32.Rmd')}
+```
+
+\newpage
+
 ## L'état solide
 
 Au niveau submicroscopique, les solides peuvent être de deux types - amorphe ou cristallin.
@@ -181,6 +199,8 @@ Une **maille** est un volume de cristal, qui, lorsqu'il est répété dans les t
 knitr::include_graphics(c("images/metaux.png"))
 ```
 
+\newpage
+
 ### Allotropes
 
 L'**allotropie** est la propriété qu'ont certains corps à former des cristaux de différentes formes, appelés **allotropes** de cette substance. Par exemple, le diamant, le graphite et les fullerènes sont des formes allotropiques du carbone: formés du même élément mais dont la structure cristalline est différente.
@@ -189,15 +209,32 @@ L'**allotropie** est la propriété qu'ont certains corps à former des cristaux
 knitr::include_graphics(c("images/allotropes.png"))
 ```
 
+```{r, child=c('exe/etats-matiere/34.Rmd')}
+```
+
+\newpage
+
+## Résumé
+
+- La matière existe sous trois états : solide, liquide et gaz.
+- Les propriétés macroscopiques d'un état s'expliquent au niveau submicroscopique par la disposition et le mouvement des particules.
+- Les trois états résultent de l'équilibre entre les forces intermoléculaires et l'énergie thermique qui les sépare. L'énergie thermique est proportionnelle à la température.
+- Il existe six changements d'état : fusion, solidification, vaporisation, condensation, sublimation et sublimation inverse. Ce sont des transformations physiques qui absorbent ou libèrent de la chaleur.
+- Pendant un changement d'état, la température reste constante : elle se traduit par un palier sur la courbe de changement d'état.
+- Le point de fusion et le point d'ébullition dépendent de la pression et sont abaissés par la présence d'impuretés.
+- Le diagramme de phases donne l'état d'une substance selon la température et la pression ; le point triple est l'unique condition où les trois états coexistent. Au-delà du point critique la distinction liquide/gaz disparaît.
+- À l'état liquide, les forces intermoléculaires expliquent la tension superficielle, la viscosité et la capillarité.
+- Les solides sont amorphes ou cristallins ; une même substance peut exister sous plusieurs formes cristallines, ses allotropes.
+
 ## Exercices supplémentaires
 
 ```{r, child=c('exe/etats-matiere/40.Rmd')}
 ```
 
+\newpage
+
 ```{r, child=c('exe/etats-matiere/50.Rmd')}
 ```
-
-\newpage
 
 ```{r, child=c('exe/etats-matiere/60.Rmd')}
 ```
@@ -205,6 +242,19 @@ knitr::include_graphics(c("images/allotropes.png"))
 \newpage
 
 ```{r, child=c('exe/etats-matiere/70.Rmd')}
+```
+
+\newpage
+
+```{r, child=c('exe/etats-matiere/80.Rmd')}
+```
+
+\newpage
+
+```{r, child=c('exe/etats-matiere/90.Rmd')}
+```
+
+```{r, child=c('exe/etats-matiere/100.Rmd')}
 ```
 
 \newpage
