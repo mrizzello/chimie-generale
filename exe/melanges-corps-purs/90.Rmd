@@ -1,0 +1,26 @@
+::: {.Exercise data-latex=""}
+
+Pour chacun des systèmes suivants, indiquez s'il s'agit d'un corps pur, d'un mélange homogène ou d'un mélange hétérogène. Lorsqu'il s'agit d'une dispersion, précisez la phase dispersée et la phase dispersante ainsi que leur état physique.
+
+1. le brouillard
+\vspace{\stretch{1}}
+2. l'eau gazeuse (boisson pétillante fermée)
+\vspace{\stretch{1}}
+3. la mayonnaise
+\vspace{\stretch{1}}
+4. le bronze (alliage de cuivre et d'étain)
+\vspace{\stretch{1}}
+5. l'eau distillée
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. **Brouillard** : mélange homogène (dispersion). Phase dispersée : liquide (fines gouttelettes d'eau) ; phase dispersante : gaz (air).
+2. **Eau gazeuse** : mélange homogène (dispersion). Phase dispersée : gaz (dioxyde de carbone CO~2~) ; phase dispersante : liquide (eau).
+3. **Mayonnaise** : mélange homogène (dispersion, émulsion). Phase dispersée : liquide (huile) ; phase dispersante : liquide (eau du jaune d'oeuf).
+4. **Bronze** : mélange homogène (dispersion solide, alliage). Phase dispersée : solide (étain) ; phase dispersante : solide (cuivre).
+5. **Eau distillée** : ce n'est pas un mélange, c'est un **corps pur** (composé, H~2~O). Il n'y a donc ni phase dispersée ni phase dispersante.
+
+:::

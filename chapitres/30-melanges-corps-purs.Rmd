@@ -46,6 +46,9 @@ Un corps pur composé a des propriétés physiques et chimiques différentes de 
 knitr::include_graphics(c("images/corps-purs-corps-composes.png"))
 ```
 
+```{r, child=c('exe/melanges-corps-purs/05.Rmd')}
+```
+
 ## Les mélanges
 
 ::: {.tcolorbox data-latex=""}
@@ -58,6 +61,8 @@ Ensemble résultant de l'union de substances différentes sans transformation ch
 Un mélange est constitué de deux ou plusieurs substances (corps pur simples ou composés) qui sont physiquement mêlées, mais non liées chimiquement.
 
 Les mélanges peuvent être **homogène** ou **hétérogène**. Ces deux termes sont introduits pour qualifier ce qui peut être différencié à l'oeil.
+
+\newpage
 
 ### Les mélanges hétérogènes
 
@@ -92,6 +97,8 @@ knitr::include_graphics(c("images/schema-matiere.png"))
 ```{r, child=c('exe/melanges-corps-purs/10.Rmd')}
 ```
 
+\newpage
+
 ```{r, child=c('exe/melanges-corps-purs/20.Rmd')}
 ```
 
@@ -101,11 +108,11 @@ Les dispersions sont des mélanges homogènes dans lequel les particules en susp
 
 Les mélanges homogènes pourront à leur tour être classés en solutions, en colloïdes ou en suspensions, en fonction de la taille de leurs particules. Chaque particule peut être une macromolécule unique ou un agrégat de nombreux atomes, ions ou molécules.
 
-- **Les solutions** (0.1 à 2 [nm])
+- **Les solutions** (0.1 à 2 nm)
   La dissolution d'une substance dans une autre forme une solution. Un mélange homogène dans lequel les particules sont individuellement réparties de manière uniforme dans la substance dispersante.
-- **Les colloïdes** (2 à 500 [nm])
+- **Les colloïdes** (2 à 500 nm)
   La substance dispersée est répartie dans la substance dispersante. Les particules sont plus grandes que des molécules simples mais trop petites pour se déposer.
-- **Les suspensions** (500 à 1000 [nm])
+- **Les suspensions** (500 à 1000 nm)
   Les particules sont d'abord en suspension mais se déposent progressivement par décantation.
 
 Une phase représente chaque partie homogène dont est constitué une dispersion. Dans une dispersion une phase peut être dispersante et l'autre dispersée. Les dispersions sont communément classées selon l'état physique des substances dispersée et dispersante.
@@ -234,11 +241,6 @@ La sédimentation et la décantation peuvent également être utilisées pour s�
 
 La **centrifugation** utilise la force centrifuge pour accélérer la sédimentation. Les composants plus denses migrent loin de l'axe de la centrifugeuse, tandis que les composants moins denses du mélange migrent vers l'axe.
 
-\newpage
-
-```{r, child=c('exe/melanges-corps-purs/30.Rmd')}
-```
-
 ### Résumé des méthodes de séparation
 
 | mélange à séparer |   méthode de séparation   | Propriété utilisée                      |
@@ -259,6 +261,24 @@ La **centrifugation** utilise la force centrifuge pour accélérer la sédimenta
 
 \newpage
 
+```{r, child=c('exe/melanges-corps-purs/30.Rmd')}
+```
+
+\vspace{\stretch{1}}
+
+## Résumé
+
+- Chaque échantillon de matière est soit un **corps pur**, soit un **mélange**.
+- Un **corps pur simple** n'est constitué que d'atomes d'un seul élément, même lorsque ces atomes forment des molécules.
+- Un **corps pur composé** résulte de l'union chimique de plusieurs éléments dans des proportions fixes.
+- Un **mélange** réunit plusieurs corps purs sans transformation chimique.
+- Un mélange est **hétérogène** si l'on distingue ses constituants à l'oeil nu, **homogène** dans le cas contraire.
+- Les **dispersions** sont des mélanges où une phase dispersée est répartie dans une phase dispersante.
+- La **séparation** d'un mélange exploite une différence de propriété physique entre ses constituants.
+- Le choix de la méthode de séparationdépend des états des constituants et de la propriété qui les distingue.
+
+\vspace{\stretch{1}}
+
 ## Exercices supplémentaires
 
 ```{r, child=c('exe/melanges-corps-purs/60.Rmd')}
@@ -270,6 +290,22 @@ La **centrifugation** utilise la force centrifuge pour accélérer la sédimenta
 ```
 
 ```{r, child=c('exe/melanges-corps-purs/50.Rmd')}
+```
+
+\newpage
+
+```{r, child=c('exe/melanges-corps-purs/70.Rmd')}
+```
+
+```{r, child=c('exe/melanges-corps-purs/80.Rmd')}
+```
+
+\newpage
+
+```{r, child=c('exe/melanges-corps-purs/90.Rmd')}
+```
+
+```{r, child=c('exe/melanges-corps-purs/100.Rmd')}
 ```
 
 \newpage

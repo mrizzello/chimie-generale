@@ -1,0 +1,31 @@
+::: {.Exercise data-latex=""}
+
+Pour chacune des substances suivantes, indiquez s'il s'agit d'un corps pur simple ou d'un corps pur composé.
+
+1. le dioxygène O~2~
+2. l'eau H~2~O
+3. le fer Fe
+4. le dioxyde de carbone CO~2~
+5. l'ozone O~3~
+6. le chlorure de sodium NaCl
+7. le diazote N~2~
+8. l'ammoniac NH~3~
+9. le soufre S~8~
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. corps pur simple (un seul élément : O)
+2. corps pur composé (H et O)
+3. corps pur simple (un seul élément : Fe)
+4. corps pur composé (C et O)
+5. corps pur simple (un seul élément : O)
+6. corps pur composé (Na et Cl)
+7. corps pur simple (un seul élément : N)
+8. corps pur composé (N et H)
+9. corps pur simple (un seul élément : S)
+
+Un corps pur simple ne contient qu'un seul type d'élément, même lorsque ses atomes sont regroupés en molécules (O~2~, O~3~, N~2~, S~8~).
+
+:::
