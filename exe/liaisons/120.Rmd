@@ -1,0 +1,33 @@
+::: {.Exercise data-latex=""}
+
+Le carbonate de calcium a pour formule $CaCO_3$. Masses molaires : Ca = 40.078, C = 12.011, O = 15.999 g/mol.
+
+1. Quel cation et quel anion composent ce composé ?
+\vspace{\stretch{1}}
+2. Calculez sa masse molaire.
+\vspace{\stretch{1}}
+3. Combien de moles de $CaCO_3$ y a-t-il dans 25.0 g ?
+\vspace{\stretch{1}}
+4. Combien d'ions carbonate et combien d'atomes d'oxygène cet échantillon contient-il ?
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. Le cation calcium $Ca^{2+}$ et l'anion carbonate $CO_3^{2-}$.
+2. $$
+M(CaCO_3) = 40.078 + 12.011 + 3 \cdot 15.999 = 100.09 \text{ g/mol}
+$$
+3. $$
+n = \frac{m}{M} = \frac{25.0}{100.09} = 0.250 \text{ mol}
+$$
+4. Chaque motif contient 1 ion carbonate et 3 atomes d'oxygène.
+$$
+N(CO_3^{2-}) = 0.250 \cdot 6.022\cdot10^{23} = 1.51\cdot10^{23} \text{ ions}
+$$
+$$
+N(O) = 3 \cdot 1.51\cdot10^{23} = 4.52\cdot10^{23} \text{ atomes}
+$$
+
+:::

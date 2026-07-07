@@ -27,6 +27,8 @@ Une molécule est un groupe d'au moins deux atomes liés par une/des liaison(s) 
 
 Les chimistes utilisent des formules chimiques pour exprimer la composition des espèces chimiques à l'aide de symboles.
 
+\newpage
+
 ### La formule brute
 
 Les molécules sont composées d'atomes. On les représente par une formule, en indiquant les symboles des atomes qui les composent et leur nombre. Cette formule est appelée **formule brute**. La formule brute donne le nombre d'atomes des différents éléments qui forment un composé, exprimés avec les plus petits nombres entiers possibles.
@@ -53,11 +55,14 @@ Donc, une mole de molécules de $CH_4$ contient 1 mole d'atomes de carbone et 4 
 La masse d'une mole de méthane peut être trouvée en additionnant les masses molaires atomiques du carbone et de l'hydrogène présents dans la molécule:
 
 $$ \begin{split}
-  \text{Masse de 1 [mol] de carbone} &= 12.01 [g] \\
-  \text{Masse de 4 [mol] d'hydrogène} &= 4.032 [g] \quad (4 \cdot 1.008 [g]) \\
+  \text{Masse de 1 mol de carbone} &= 12.01 \text{ g} \\
+  \text{Masse de 4 mol d'hydrogène} &= 4.032 \text{ g} \quad (4 \cdot 1.008 \text{ g}) \\
   \hline
-  \text{Masse de 1 [mol] de $CH_4$} &= 16.04 [g]
+  \text{Masse de 1 mol de $CH_4$} &= 16.04 \text{ g}
   \end{split} $$
+
+```{r, child=c('exe/liaisons/15.Rmd')}
+```
 
 ### La formule développée
 
@@ -81,6 +86,11 @@ On divise les liaisons chimiques en trois familles différentes:
 -  la **liaison covalente**
 -  la **liaison métallique**
 
+```{r, child=c('exe/liaisons/05.Rmd')}
+```
+
+\newpage
+
 ### L'électronégativité
 
 ::: {.tcolorbox data-latex=""}
@@ -100,7 +110,10 @@ En se basant sur la différence d'électronégativité ($\Delta$E) entre deux at
 knitr::include_graphics(c("images/deltaE.png"))
 ```
 
-**L'électronégativité de chaque élément est indiquée dans votre tableau périodique des éléments.**  
+**L'électronégativité de chaque élément est indiquée dans votre tableau périodique des éléments.**
+
+```{r, child=c('exe/liaisons/08.Rmd')}
+```
 
 ### La liaison ionique | métal - non-métal
 
@@ -132,7 +145,7 @@ Un échantillon de chlorure de sodium ($NaCl$) est constitué d'un très grand n
 knitr::include_graphics(c("images/CaF2-diagram.png"))
 ```
 
-Le nombre relatif de cations et d'anions n'est pas toujours le même. Prenons par exemple le chlorure de magnésium, $CaF_2$. Il y a deux fois plus d'anions $F^-$ que de cations $Ca^{2+}$, on écrira donc la formule brute $CaF_2$.
+Le nombre relatif de cations et d'anions n'est pas toujours le même. Prenons par exemple le fluorure de calcium, $CaF_2$. Il y a deux fois plus d'anions $F^-$ que de cations $Ca^{2+}$, on écrira donc la formule brute $CaF_2$.
 
 ```{r NaClCaF2,echo=FALSE,out.width="25%",,fig.show='hold',fig.align='center',fig.cap="Réseaux ioniques formés par $NaCl$ et $CaF_2$."}
 knitr::include_graphics(c("images/NaCl-crystal.png","images/CaF2-crystal.png"))
@@ -192,6 +205,8 @@ Dans de nombreuses molécules, pour atteindre un octet complet, les atomes vont 
 ```{r liaisons-multiples,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Exemples de liaisons covalentes simples, doubles et triples"}
 knitr::include_graphics(c("images/liaisons-multiples.png"))
 ```
+\newpage
+
 #### Dessiner les liaisons covalentes des composés binaires
 
 - On dessine la structure de Lewis des atomes en plaçant l'élément le plus électronégatif à droite.
@@ -302,6 +317,18 @@ Un alliage est un mélange homogène entre un métal de base et un ou plusieurs 
 
 Table: (#tab:exemples-alliages-communs) Exemples d'alliages communs.
 
+## Résumé
+
+- Une liaison chimique est la force qui maintient les atomes ensemble dans une molécule ; les atomes se lient car l'énergie du système lié est plus basse que celle des atomes isolés. Seuls les gaz rares restent isolés.
+- On distingue trois familles de liaisons : ionique, covalente et métallique.
+- L'électronégativité mesure la capacité d'un atome à attirer les électrons de liaison. La différence d'électronégativité $\Delta E$ entre deux atomes détermine le type de liaison.
+- La formule brute indique le nombre d'atomes de chaque élément ; dans un composé ionique, elle traduit la neutralité électrique. Un ion polyatomique est un groupe d'atomes liés portant une charge globale.
+- La formule développée montre comment les atomes sont liés — liaisons simples, doubles, triples ou covalence de coordination — en respectant la règle de l'octet.
+- La masse molaire moléculaire (g/mol) est la somme des masses molaires atomiques de tous les atomes de la formule.
+- On relie la masse et la quantité de matière par $n = \dfrac{m}{M}$, et le nombre de molécules (ou de motifs) par $N = n \cdot N_A$.
+
+\newpage
+
 ## Exercices supplémentaires
 
 ```{r, child=c('exe/liaisons/10.Rmd')}
@@ -310,10 +337,10 @@ Table: (#tab:exemples-alliages-communs) Exemples d'alliages communs.
 ```{r, child=c('exe/liaisons/40.Rmd')}
 ```
 
-\newpage
-
 ```{r, child=c('exe/liaisons/50.Rmd')}
 ```
+
+\newpage
 
 ```{r, child=c('exe/liaisons/60.Rmd')}
 ```
@@ -321,10 +348,10 @@ Table: (#tab:exemples-alliages-communs) Exemples d'alliages communs.
 ```{r, child=c('exe/liaisons/80.Rmd')}
 ```
 
-\newpage
-
 ```{r, child=c('exe/liaisons/90.Rmd')}
 ```
+
+\newpage
 
 ```{r, child=c('exe/molecules/40.Rmd')}
 ```
@@ -337,10 +364,10 @@ Table: (#tab:exemples-alliages-communs) Exemples d'alliages communs.
 ```{r, child=c('exe/molecules/60.Rmd')}
 ```
 
-```{r, child=c('exe/molecules/70.Rmd')}
+```{r, child=c('exe/molecules/80.Rmd')}
 ```
 
-```{r, child=c('exe/molecules/80.Rmd')}
+```{r, child=c('exe/molecules/70.Rmd')}
 ```
 
 \newpage
@@ -357,6 +384,22 @@ Table: (#tab:exemples-alliages-communs) Exemples d'alliages communs.
 ```
 
 ```{r, child=c('exe/molecules/120.Rmd')}
+```
+
+\newpage
+
+```{r, child=c('exe/liaisons/100.Rmd')}
+```
+
+```{r, child=c('exe/liaisons/110.Rmd')}
+```
+
+\newpage
+
+```{r, child=c('exe/liaisons/120.Rmd')}
+```
+
+```{r, child=c('exe/liaisons/130.Rmd')}
 ```
 
 ```{r, echo=FALSE}

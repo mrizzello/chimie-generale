@@ -1,0 +1,26 @@
+::: {.Exercise data-latex=""}
+
+On donne les masses molaires atomiques : H = 1.008, C = 12.011, O = 15.999 g/mol.
+
+1. Calculez la masse molaire du dioxyde de carbone $CO_2$.
+\vspace{\stretch{1}}
+2. Calculez la masse molaire de l'eau $H_2O$.
+\vspace{\stretch{1}}
+3. Combien de moles de $CO_2$ y a-t-il dans 22.0 g de dioxyde de carbone ?
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. $$
+M(CO_2) = 12.011 + 2 \cdot 15.999 = 44.01 \text{ g/mol}
+$$
+2. $$
+M(H_2O) = 2 \cdot 1.008 + 15.999 = 18.02 \text{ g/mol}
+$$
+3. $$
+n = \frac{m}{M} = \frac{22.0}{44.01} = 0.500 \text{ mol}
+$$
+
+:::
