@@ -1,0 +1,31 @@
+::: {.Exercise data-latex=""}
+
+Pour chacune des grandeurs suivantes, indiquez le nom de l'unité de base du Système International (SI) ainsi que son symbole.
+
+:::::: {.multicols data-latex="{2}"}
+
+a. une longueur
+b. une masse
+c. une durée
+d. une température
+e. une quantité de matière
+f. une intensité de courant électrique
+
+::::::
+
+:::
+
+::: {.Answer data-latex=""}
+
+:::::: {.multicols data-latex="{2}"}
+
+a. une longueur : le **mètre** (m)
+b. une masse : le **kilogramme** (kg)
+c. une durée : la **seconde** (s)
+d. une température : le **kelvin** (K)
+e. une quantité de matière : la **mole** (mol)
+f. une intensité de courant : l'**ampère** (A)
+
+::::::
+
+:::

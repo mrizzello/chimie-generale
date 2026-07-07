@@ -1,0 +1,36 @@
+::: {.Exercise data-latex=""}
+
+Le diamètre d'un atome d'or vaut environ $0.288$ nm. On dispose d'une feuille d'or dont l'épaisseur mesurée est de $0.12$ $\mu$m.
+
+1. Exprimez le diamètre d'un atome d'or en mètres, en notation scientifique.
+\vspace{\stretch{1}}
+2. Exprimez l'épaisseur de la feuille en nanomètres, en notation scientifique.
+\vspace{\stretch{1}}
+3. En supposant les atomes empilés les uns sur les autres, estimez combien d'atomes d'or correspondent à l'épaisseur de la feuille. Donnez le résultat avec un nombre de chiffres significatifs cohérent.
+\vspace{\stretch{1}}
+4. Une feuille d'or plus fine encore laisse passer la lumière (elle paraît verdâtre par transparence). Le fait de rendre l'or transparent en l'amincissant est-il une transformation physique ou chimique ?
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. Diamètre atomique en mètres :
+$$
+0.288\ nm = 0.288 \cdot 10^{-9}\ m = 2.88 \cdot 10^{-10}\ m
+$$
+
+2. Épaisseur de la feuille en nanomètres :
+$$
+0.12\ \mu m = 0.12 \cdot 10^{-6}\ m = 0.12 \cdot 10^{3}\ nm = 1.2 \cdot 10^{2}\ nm
+$$
+
+3. Nombre d'atomes empilés :
+$$
+N = \frac{\text{épaisseur}}{\text{diamètre}} = \frac{1.2 \cdot 10^{2}\ nm}{0.288\ nm} = 416.\overline{6} \approx 4.2 \cdot 10^{2}\ \text{atomes}
+$$
+La donnée la moins précise (0.12 µm) a 2 chiffres significatifs : on retient environ $420$ atomes.
+
+4. C'est une **transformation physique** : on modifie une propriété physique (l'épaisseur, et donc l'opacité) sans changer la composition. La feuille reste constituée d'atomes d'or.
+
+:::

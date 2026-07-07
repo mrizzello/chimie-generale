@@ -1,0 +1,31 @@
+::: {.Exercise data-latex=""}
+
+Indiquez si les transformations suivantes sont des transformations **physiques** ou **chimiques**. Justifiez brièvement votre réponse.
+
+1. La fusion d'un glaçon dans un verre.
+\vspace{\stretch{1}}
+2. La combustion du gaz naturel (méthane) dans une gazinière.
+\vspace{\stretch{1}}
+3. Le sucre que l'on dissout dans une tasse de thé.
+\vspace{\stretch{1}}
+4. Le lait qui tourne et devient aigre.
+\vspace{\stretch{1}}
+5. Un fil de cuivre que l'on étire pour l'allonger.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. La fusion d'un glaçon.
+  **Transformation physique** : l'eau change d'état (solide → liquide) mais reste constituée de molécules d'eau.
+2. La combustion du méthane.
+  **Transformation chimique** : le méthane et l'oxygène réagissent pour former de nouvelles substances (dioxyde de carbone et eau).
+3. La dissolution du sucre.
+  **Transformation physique** : le sucre est dispersé dans l'eau mais reste du sucre.
+4. Le lait qui tourne.
+  **Transformation chimique** : des micro-organismes transforment le lactose en acide lactique.
+5. Un fil de cuivre étiré.
+  **Transformation physique** : la forme du fil change mais il reste constitué de cuivre.
+
+:::

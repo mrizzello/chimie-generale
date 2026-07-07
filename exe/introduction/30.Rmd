@@ -16,28 +16,26 @@ Répondez aux questions suivantes :
 
 Effectuez chacune des conversions d'unités suivantes :
 
-5. $8.43$ [cm] en millimètres.
+5. $8.43$ cm en millimètres.
 \vspace{\stretch{1}}
-6. $2.41 \cdot 10^{2}$ [cm] en mètres.
+6. $2.41 \cdot 10^{2}$ cm en mètres.
 \vspace{\stretch{1}}
-7. $294.5$ [nm] en centimètres.
+7. $294.5$ nm en centimètres.
 \vspace{\stretch{1}}
-8. $1.445 \cdot 10^{4}$ [m] en kilomètres.
+8. $1.445 \cdot 10^{4}$ m en kilomètres.
 \vspace{\stretch{1}}
 
 :::
 
 ::: {.Answer data-latex=""}
 
-1. $10^{6}$ [mg]
-2. $10^{9}$  [nm]
-3. $10^{-9}$  [kg]
-4. $10^{3}$  [$\mu$l]
-5. $84.3$ [mm]
-6. $2.41$ [m]
-7. $2.945\cdot10^{-5}$ [cm]
-8. $14.45$ [km]
-
-\newpage
+1. $10^{6}$ mg
+2. $10^{9}$  nm
+3. $10^{-9}$  kg
+4. $10^{3}$  $\mu$l
+5. $84.3$ mm
+6. $2.41$ m
+7. $2.945\cdot10^{-5}$ cm
+8. $14.45$ km
 
 :::

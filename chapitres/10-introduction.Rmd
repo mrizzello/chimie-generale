@@ -1,5 +1,16 @@
 # Introduction
 
+::: {.objectives data-latex=""}
+
+- Distinguer les propriétés physiques des propriétés chimiques de la matière.
+- Distinguer les transformations physiques des transformations chimiques.
+- Connaître les sept unités de base du Système International (SI).
+- Exprimer un nombre en notation scientifique et effectuer des opérations avec des puissances de 10.
+- Utiliser les préfixes du SI et convertir des unités.
+- Déterminer le nombre de chiffres significatifs d'une mesure et arrondir un résultat de calcul de manière cohérente.
+
+:::
+
 ::: {.tcolorbox data-latex=""}
 
 **Chimie**  
@@ -14,6 +25,8 @@ Comme celle énoncée ci-dessus, les définitions de la chimie incluent généra
 Le terme **composition** se réfère aux composants d'un échantillon de matière. L'air que nous respirons est un mélange composé d'environ 80% d'azote et 20% d'oxygène et la formule chimique de l'eau H~2~O nous indique qu'elle est composée d'hydrogène et d'oxygène.
 
 Les **propriétés** sont des caractéristiques qui nous permettent de distinguer un échantillon de matière d'un autre échantillon. Un morceau de fer fondra à 1538°C, alors qu'un glaçon fondra à 0°C.
+
+\newpage
 
 ## Propriétés et transformations
 
@@ -60,6 +73,9 @@ Les transformations chimiques sont ce que nous appellerons plus tard des **réac
 ```{r, child=c('exe/introduction/10.Rmd')}
 ```
 
+```{r, child=c('exe/introduction/12.Rmd')}
+```
+
 \newpage
 
 ## Système de mesure
@@ -79,6 +95,11 @@ Un système de mesure universel, le Système International (SI) a été adopté 
 | la **mole**       | mol     | unité de quantité de matière               |
 
 Table: (\#tab:tab-SIunits) Unités de base du Système International.
+
+```{r, child=c('exe/introduction/15.Rmd')}
+```
+
+\newpage
 
 ## Les puissances de 10
 
@@ -111,8 +132,6 @@ $$ \begin{split}
 	0.00000000000000785 &= 7.85\cdot10^{-15}\\
 \end{split} $$
 
-\newpage
-
 Deux relations importantes à retenir :
 
 $$ \begin{split}
@@ -125,6 +144,8 @@ $$ \begin{split}
 
 ```{r, child=c('exe/introduction/20.Rmd')}
 ```
+
+\newpage
 
 ## Multiples des unités
 
@@ -141,10 +162,55 @@ $$ \begin{split}
 
 Table: (\#tab:tab-SImultiples) Multiples et sous-multiples décimaux des unités du système international (SI).
 
-\newpage
-
 ```{r, child=c('exe/introduction/30.Rmd')}
 ```
+
+\newpage
+
+## Chiffres significatifs
+
+Les **chiffres significatifs** d'une mesure sont l'ensemble des chiffres connus avec certitude, auxquels on ajoute un dernier chiffre estimé. Ils renseignent sur la précision d'une mesure : une masse de $12.3$ grammes (3 chiffres significatifs) est moins précise qu'une masse de $12.300$ grammes (5 chiffres significatifs).
+
+Pour déterminer le nombre de chiffres significatifs d'une valeur, on applique les règles suivantes&nbsp;:&nbsp;
+
+- Tous les chiffres non nuls sont significatifs : $254$ en possède 3.
+- Les zéros situés entre des chiffres non nuls sont significatifs : $1005$ en possède 4.
+- Les zéros situés à gauche du premier chiffre non nul ne sont pas significatifs ; ils servent uniquement à placer la virgule : $0.0042$ en possède 2.
+- Les zéros situés à droite du dernier chiffre non nul et après la virgule sont significatifs : $0.100$ en possède 3.
+- Les zéros terminaux d'un nombre écrit sans virgule sont ambigus : $1500$ peut en compter 2, 3 ou 4. La **notation scientifique** lève cette ambiguïté : $1.50 \cdot 10^3$ en possède 3.
+
+Pour exprimer un résultat avec le bon nombre de chiffres significatifs, on **arrondit** le dernier chiffre conservé.
+
+Lorsqu'on effectue des calculs, le résultat ne peut pas être plus précis que les données utilisées.
+
+**Chiffres significatifs et opérations**
+
+- **Multiplication et division** : le résultat possède autant de chiffres significatifs que la donnée qui en compte le moins.
+- **Addition et soustraction** : le résultat possède autant de décimales que la donnée qui en compte le moins.
+
+Par exemple :
+
+$$ \begin{split}
+	4.56 \cdot 1.4 &= 6.384 \approx 6.4 \\
+	(\text{3 c.s.}) \quad (\text{2 c.s.}) & \qquad\qquad (\text{2 c.s.})
+\end{split}
+\qquad\qquad
+\begin{split}
+	12.11 + 3.4 &= 15.51 \approx 15.5 \\
+	(\text{2 déc.}) \quad (\text{1 déc.}) & \qquad\qquad (\text{1 déc.})
+\end{split} $$
+
+```{r, child=c('exe/introduction/35.Rmd')}
+```
+
+\newpage
+
+## Résumé
+
+- La chimie étudie la composition, les propriétés et les transformations de la matière ; la matière est tout ce qui possède une masse et occupe un espace.
+- Les propriétés physiques se mesurent sans changer la composition de la matière ; les propriétés chimiques décrivent la façon dont une substance se transforme en d'autres substances.
+- Lors d'une transformation physique, l'apparence change mais la composition reste la même ; lors d'une transformation chimique, la matière se transforme en de nouvelles substances.
+- Le Système International (SI) définit sept unités de base, dont le mètre (m), le kilogramme (kg), la seconde (s), le kelvin (K), la mole (mol) et l'ampère (A).
 
 ## Exercices supplémentaires
 
@@ -154,10 +220,10 @@ Table: (\#tab:tab-SImultiples) Multiples et sous-multiples décimaux des unités
 ```{r, child=c('exe/introduction/50.Rmd')}
 ```
 
+\newpage
+
 ```{r, child=c('exe/introduction/60.Rmd')}
 ```
-
-\newpage
 
 ```{r, child=c('exe/introduction/70.Rmd')}
 ```
@@ -174,6 +240,19 @@ Table: (\#tab:tab-SImultiples) Multiples et sous-multiples décimaux des unités
 ```
 
 ```{r, child=c('exe/introduction/110.Rmd')}
+```
+
+\newpage
+
+```{r, child=c('exe/introduction/120.Rmd')}
+```
+
+```{r, child=c('exe/introduction/140.Rmd')}
+```
+
+\newpage
+
+```{r, child=c('exe/introduction/130.Rmd')}
 ```
 
 \newpage

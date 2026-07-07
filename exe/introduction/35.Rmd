@@ -1,0 +1,66 @@
+::: {.Exercise data-latex=""}
+
+**1.** Donnez le nombre de chiffres significatifs de chacune des valeurs suivantes :
+
+:::::: {.multicols data-latex="{4}"}
+
+a. $0.00560$
+b. $2.0060 \cdot 10^3$
+c. $700.0$
+d. $48000$
+
+::::::
+
+**2.** Arrondissez chacune des valeurs suivantes à 3 chiffres significatifs :
+
+:::::: {.multicols data-latex="{3}"}
+
+a. $45.678$
+b. $0.0032149$
+c. $12945$
+
+::::::
+
+**3.** Effectuez les calculs suivants en exprimant le résultat avec le nombre correct de chiffres significatifs :
+
+a. $3.24 \cdot 0.50 =$
+\vspace{\stretch{1}}
+b. $145.68 + 2.1 =$
+\vspace{\stretch{1}}
+c. $8.00 / 2.0 =$
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+**1.**
+
+:::::: {.multicols data-latex="{4}"}
+
+a. $0.00560$ (3)
+b. $2.0060 \cdot 10^3$ (5)
+c. $700.0$ (4)
+d. $48000$ (2, ambigu)
+
+::::::
+
+Pour $48000$, les zéros terminaux sont ambigus. La notation scientifique lève cette ambiguïté : $4.8 \cdot 10^4$ (2 chiffres significatifs).
+
+**2.**
+
+:::::: {.multicols data-latex="{3}"}
+
+a. $45.7$
+b. $0.00321$
+c. $12900$ ($1.29 \cdot 10^4$)
+
+::::::
+
+**3.**
+
+a. $3.24 \cdot 0.50 = 1.62 \approx 1.6$ (limité à 2 chiffres significatifs par $0.50$).
+b. $145.68 + 2.1 = 147.78 \approx 147.8$ (limité à 1 décimale par $2.1$).
+c. $8.00 / 2.0 = 4.00 \approx 4.0$ (limité à 2 chiffres significatifs par $2.0$).
+
+:::
