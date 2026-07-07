@@ -1,0 +1,22 @@
+::: {.Exercise data-latex=""}
+
+Le fer et le soufre sont deux corps purs simples. On mélange soigneusement de limaille de fer avec de la poudre de soufre.
+
+1. Avant tout chauffage, proposez deux méthodes physiques différentes permettant de récupérer le fer et indiquez, pour chacune, la propriété exploitée.
+\vspace{\stretch{1}}
+2. On chauffe fortement le mélange : il se produit une réaction chimique qui forme du sulfure de fer selon Fe + S $\rightarrow$ FeS. Le solide obtenu est-il encore un mélange ? Justifiez et précisez sa nature.
+\vspace{\stretch{1}}
+3. Un aimant approché du sulfure de fer n'attire plus rien. Expliquez pourquoi, en comparant un mélange et un corps pur composé.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. Deux méthodes possibles :
+   - **Attraction magnétique** : le fer est magnétique, le soufre ne l'est pas. Un aimant retire la limaille de fer.
+   - **Dissolution sélective** : le soufre se dissout dans le sulfure de carbone (CS$_2$), pas le fer. On filtre pour récupérer le fer, puis on vaporise le solvant pour récupérer le soufre. La propriété exploitée est la différence de solubilité.
+2. Non, ce n'est plus un mélange. Il y a eu une **transformation chimique** : les atomes de fer et de soufre se sont liés dans un rapport fixe de 1 pour 1. Le solide obtenu est un **corps pur composé** (le sulfure de fer FeS).
+3. Dans le **mélange**, le fer et le soufre ne sont pas liés chimiquement : chaque constituant garde ses propres propriétés, dont le magnétisme du fer. Dans le **corps pur composé** FeS, les atomes de fer sont liés chimiquement au soufre ; le composé possède des propriétés nouvelles, différentes de celles du fer et du soufre, et n'est plus magnétique.
+
+:::

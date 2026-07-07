@@ -1,0 +1,23 @@
+::: {.Exercise data-latex=""}
+
+Au laboratoire, on chauffe séparément deux liquides incolores A et B et on relève leur température pendant toute la durée de l'ébullition :
+
+- liquide A : la température reste constante à 78 °C ;
+- liquide B : la température s'élève progressivement de 78 °C à 99 °C.
+
+1. Lequel de ces deux liquides est un corps pur ? Lequel est un mélange ? Justifiez à l'aide de la notion de point d'ébullition.
+\vspace{\stretch{1}}
+2. Le liquide B est en réalité un mélange d'eau et d'éthanol. Quelle méthode de séparation permettrait d'en séparer les constituants ? Sur quelle propriété physique repose-t-elle ?
+\vspace{\stretch{1}}
+3. Le premier liquide recueilli au cours de cette séparation est-il plutôt riche en eau ou en éthanol ? Justifiez à partir des températures d'ébullition (eau : 100 °C ; éthanol : 78 °C).
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. Un **corps pur** possède un point d'ébullition **fixe** : sa température reste constante pendant toute l'ébullition. C'est le cas du liquide **A** (78 °C constant). Le liquide **B** est un **mélange** : comme sa composition change au fur et à mesure que le constituant le plus volatil s'évapore, sa température d'ébullition n'est pas fixe et augmente progressivement.
+2. La **distillation**. Elle repose sur la **différence des températures d'ébullition** des deux liquides.
+3. C'est l'**éthanol** qui est recueilli en premier. Ayant la température d'ébullition la plus basse (78 °C contre 100 °C pour l'eau), il se vaporise le premier : le premier distillat est donc riche en éthanol.
+
+:::
