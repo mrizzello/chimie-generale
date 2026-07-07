@@ -2,7 +2,7 @@
 
 1. Quelle est la masse en kg d'un noyau d'hélium-4 ?  
 \vspace{\stretch{1}}
-2. La masse mesurée d'un noyau d'hélium-4 est de 4.002602 [uma]. Calculez la différence entre la masse mesurée et la masse obtenue par la somme des masses des particules subatomiques.
+2. La masse mesurée d'un noyau d'hélium-4 est de 4.002602 uma. Calculez la différence entre la masse mesurée et la masse obtenue par la somme des masses des particules subatomiques.
 \vspace{\stretch{1}}
 3. Si il existe une différence, êtes-vous en mesure de l'expliquer ?
 \vspace{\stretch{1}}
@@ -14,25 +14,25 @@
 1. $$
 \begin{split}
 	m_{\text{calculée}} &= 2 \cdot m_{p+} + 2 \cdot m_{n} \\
-	&= 2 \cdot 1.672 \cdot 10^{-27} \:[kg] + 2 \cdot 1.674 \cdot 10^{-27} \:[kg] \\
-	&= 6.692 \cdot 10^{-27} \:[kg]
+	&= 2 \cdot 1.672 \cdot 10^{-27} \:\text{ kg} + 2 \cdot 1.674 \cdot 10^{-27} \:\text{ kg} \\
+	&= 6.692 \cdot 10^{-27} \:\text{ kg}
 \end{split}
 $$
 2. $$	
 \begin{split}
-	1\:[uma] &\rightarrow 1.660 \cdot 10^{-27} \:[kg] \\
-	4.002602\:[uma] &\rightarrow x \:[kg]
+	1\:\text{ uma} &\rightarrow 1.660 \cdot 10^{-27} \:\text{ kg} \\
+	4.002602\:\text{ uma} &\rightarrow x \:\text{ kg}
 \end{split}
 \qquad
 \begin{split}
-	m_{\text{mesurée}} &= 4.002602\:[uma] \cdot 1.660 \cdot 10^{-27} \:[kg/uma] \\
-		&= 6.644 \cdot 10^{-27} \:[kg]
+	m_{\text{mesurée}} &= 4.002602\:\text{ uma} \cdot 1.660 \cdot 10^{-27} \:\text{ kg/uma} \\
+		&= 6.644 \cdot 10^{-27} \:\text{ kg}
 \end{split}
 $$
 $$
 \begin{split}
-	m_{\text{calculée}} - m_{\text{mesurée}} &= 6.692 \cdot 10^{-27} \:[kg] - 6.644 \cdot 10^{-27} \:[kg] \\
-	&= 0.048 \cdot 10^{-27} \:[kg]
+	m_{\text{calculée}} - m_{\text{mesurée}} &= 6.692 \cdot 10^{-27} \:\text{ kg} - 6.644 \cdot 10^{-27} \:\text{ kg} \\
+	&= 0.048 \cdot 10^{-27} \:\text{ kg}
 \end{split}
 $$
 

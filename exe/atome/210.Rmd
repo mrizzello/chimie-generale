@@ -1,0 +1,32 @@
+::: {.Exercise data-latex=""}
+
+Le bore naturel est composé de deux isotopes : le bore 10 (masse 10.013 uma) et le bore 11 (masse 11.009 uma). La masse atomique du bore vaut 10.81 uma.
+
+1. Déterminez l'abondance naturelle (en %) de chacun des deux isotopes.
+\vspace{\stretch{1}}
+2. Donnez la composition (protons, neutrons, électrons) d'un atome de bore 11.
+\vspace{\stretch{1}}
+3. Combien d'atomes de bore contient un échantillon de 5.00 g de bore ?
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. Soit $x$ l'abondance du bore 10 (exprimée en fraction) ; celle du bore 11 est $1-x$.
+$$
+10.013 \cdot x + 11.009 \cdot (1-x) = 10.81
+$$
+$$
+11.009 - 0.996 \cdot x = 10.81 \quad\Rightarrow\quad x = \frac{0.199}{0.996} = 0.200
+$$
+Le bore contient environ **20.0 % de bore 10** et **80.0 % de bore 11**.
+2. Le bore a $Z = 5$. Le bore 11 possède donc 5 protons, $11 - 5 = 6$ neutrons et 5 électrons.
+3. $$
+n = \frac{m}{M} = \frac{5.00}{10.81} = 0.4625 \text{ mol}
+$$
+$$
+N = n \cdot N_A = 0.4625 \cdot 6.022\cdot10^{23} = 2.79\cdot10^{23} \text{ atomes}
+$$
+
+:::

@@ -1,0 +1,28 @@
+::: {.Exercise data-latex=""}
+
+On souhaite estimer la masse d'un atome de fer 56 ($_{26}^{56}Fe$). Données : $m_p = 1.672\cdot10^{-27}$ kg, $m_n = 1.674\cdot10^{-27}$ kg, $m_e = 9.109\cdot10^{-31}$ kg, 1 uma $= 1.660\cdot10^{-27}$ kg.
+
+1. Calculez la masse d'un atome de fer 56 en additionnant les masses de toutes ses particules subatomiques (en kg).
+\vspace{\stretch{1}}
+2. Convertissez cette masse en uma.
+\vspace{\stretch{1}}
+3. La masse atomique du fer donnée par le tableau périodique est de 55.845 uma. Comment expliquer que la valeur calculée soit légèrement supérieure ?
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. Le fer 56 possède 26 protons, $56 - 26 = 30$ neutrons et 26 électrons.
+$$
+m = 26 \cdot 1.672\cdot10^{-27} + 30 \cdot 1.674\cdot10^{-27} + 26 \cdot 9.109\cdot10^{-31}
+$$
+$$
+m = 4.347\cdot10^{-26} + 5.022\cdot10^{-26} + 2.368\cdot10^{-29} = 9.372\cdot10^{-26} \text{ kg}
+$$
+2. $$
+m = \frac{9.372\cdot10^{-26}}{1.660\cdot10^{-27}} = 56.5 \text{ uma}
+$$
+3. La valeur calculée additionne les masses des particules **libres**. Dans le noyau, une partie de la masse est convertie en énergie de cohésion : c'est le **défaut de masse**. La masse réelle de l'atome est donc plus petite que la somme des masses de ses particules. De plus, la masse atomique du tableau (55.845 uma) est une **moyenne** pondérée sur tous les isotopes du fer, pas uniquement le fer 56.
+
+:::

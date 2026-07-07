@@ -1,0 +1,30 @@
+::: {.Exercise data-latex=""}
+
+Le noyau de lithium 7 ($_{3}^{7}Li$) a une masse mesurée de 7.016 uma. On rappelle : $m_p = 1.672\cdot10^{-27}$ kg, $m_n = 1.674\cdot10^{-27}$ kg, 1 uma $= 1.660\cdot10^{-27}$ kg et $c = 3\cdot10^{8}$ m/s.
+
+1. Calculez la masse totale des nucléons du noyau (en kg).
+\vspace{\stretch{1}}
+2. Exprimez la masse mesurée du noyau en kg, puis déterminez le défaut de masse $\Delta m$.
+\vspace{\stretch{1}}
+3. Calculez l'énergie de cohésion $\Delta E$ du noyau (en J).
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. Le lithium 7 possède 3 protons et $7 - 3 = 4$ neutrons.
+$$
+m_{\text{nucléons}} = 3 \cdot 1.672\cdot10^{-27} + 4 \cdot 1.674\cdot10^{-27} = 1.1712\cdot10^{-26} \text{ kg}
+$$
+2. $$
+m_{\text{noyau}} = 7.016 \cdot 1.660\cdot10^{-27} = 1.1647\cdot10^{-26} \text{ kg}
+$$
+$$
+\Delta m = m_{\text{nucléons}} - m_{\text{noyau}} = 1.1712\cdot10^{-26} - 1.1647\cdot10^{-26} = 6.5\cdot10^{-29} \text{ kg}
+$$
+3. $$
+\Delta E = \Delta m \cdot c^{2} = 6.5\cdot10^{-29} \cdot (3\cdot10^{8})^{2} = 5.9\cdot10^{-12} \text{ J}
+$$
+
+:::

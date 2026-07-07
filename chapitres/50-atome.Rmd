@@ -37,24 +37,27 @@ La matière est formée d'atomes et les atomes sont formés de particules subato
 
 Les mêmes particules subatomiques constituent tous les atomes. La seule chose qui varie d'un élément à l'autre est le nombre des particules subatomiques.
 
-| particule | symbole |  charge [Coulomb]   | charge relative |      masse [kg]      |  masse relative  |
+| particule | symbole |  charge Coulomb   | charge relative |      masse kg      |  masse relative  |
 | --------- | :-----: | :-----------------: | :-------------: | :------------------: | :--------------: |
-| proton    | $p^{+}$ | $+1.6\cdot10^{-19}$ |       +1        | $1.673\cdot10^{-27}$ |        1         |
-| neutron   | $n^{}$  |          0          |        0        | $1.675\cdot10^{-27}$ |   $\approx$ 1    |
-| électron  | $e^{-}$ | $-1.6\cdot10^{-19}$ |       -1        | $9.12\cdot10^{-31}$  | $\frac{1}{1834}$ |
+| proton    | $p^{+}$ | $+1.602\cdot10^{-19}$ |       +1        | $1.672\cdot10^{-27}$ |        1         |
+| neutron   | $n^{}$  |          0          |        0        | $1.674\cdot10^{-27}$ |   $\approx$ 1    |
+| électron  | $e^{-}$ | $-1.602\cdot10^{-19}$ |       -1        | $9.109\cdot10^{-31}$  | $\frac{1}{1836}$ |
 
 Table: (#tab:particules-subatomiques) Les particules subatomiques.
 
 Le proton porte une unité de charge positive, l'électron porte une unité de charge négative, et le neutron n'est pas chargé, il est électriquement neutre.
 
-Un électron est 1834 fois plus léger qu'un proton, mais son influence est très grande car il porte une charge électrique équivalente à celle d'un proton.
+Un électron est 1836 fois plus léger qu'un proton, mais son influence est très grande car il porte une charge électrique équivalente à celle d'un proton.
 
 **L'atome est électriquement neutre.** Comment un atome peut-il être neutre si il contient des protons chargés positivement et des électrons chargés négativement? La réponse est qu'**il y a un nombre égal de protons et d'électrons** de sorte que les charges positives et négatives s'annulent.
 
-```{r, child=c('exe/atome/10.Rmd')}
+```{r, child=c('exe/atome/05.Rmd')}
 ```
 
 \newpage
+
+```{r, child=c('exe/atome/10.Rmd')}
+```
 
 ```{r, child=c('exe/atome/20.Rmd')}
 ```
@@ -145,11 +148,11 @@ $_{92}^{234}U$, $_{92}^{235}U$ et $_{92}^{238}U$ sont les isotopes naturels de l
 
 ## L'unité de masse atomique
 
-Les masses du protons et du neutrons sont d'environ $1.672\cdot10^{-27}$ [kg] et la masse de l'électron est 1836 fois plus petite. Parce qu'il est peu pratique de travailler avec ces très petites masses exprimées en notation scientifique, les chimistes ont développé leur propre système de mesure de la  masse d'un atome.
+Les masses du protons et du neutrons sont d'environ $1.672\cdot10^{-27}$ kg et la masse de l'électron est 1836 fois plus petite. Parce qu'il est peu pratique de travailler avec ces très petites masses exprimées en notation scientifique, les chimistes ont développé leur propre système de mesure de la  masse d'un atome.
 
-L'**unité de masse atomique (uma)** est une unité de mesure standard, utilisée pour mesurer la masse des atomes. Par convention, un atome de carbone 12, qui contient six protons et six neutrons a une masse de 12 [uma] exactement. Une unité de masse atomique est définie comme $\frac{1}{12}$ de la masse cet atome.
+L'**unité de masse atomique (uma)** est une unité de mesure standard, utilisée pour mesurer la masse des atomes. Par convention, un atome de carbone 12, qui contient six protons et six neutrons a une masse de 12 uma exactement. Une unité de masse atomique est définie comme $\frac{1}{12}$ de la masse cet atome.
 
-$$ 1 [uma] \simeq 1,660 \cdot 10^{-27} [kg] $$
+$$ 1 \text{ uma} \simeq 1.660 \cdot 10^{-27} \text{ kg} $$
 
 ```{r, child=c('exe/atome/50.Rmd')}
 ```
@@ -168,9 +171,9 @@ $$
 
 avec :
 
-- $\Delta m$ : défaut de masse en [uma]  
-- $m_{\text{nucléons}}$ : somme des masses des nucléons ($m_p + m_n$) en [uma]  
-- $m_{\text{noyau}}$ : masse mesurée du noyau en [uma]
+- $\Delta m$ : défaut de masse en uma  
+- $m_{\text{nucléons}}$ : somme des masses des nucléons ($m_p + m_n$) en uma  
+- $m_{\text{noyau}}$ : masse mesurée du noyau en uma
 
 \newpage
 
@@ -182,9 +185,9 @@ $$
 
 avec :
 
-- $\Delta E$ : Énergie de cohésion en [J]  
-- $\Delta m$ : défaut de masse en [kg]  
-- $c$ : vitesse de la lumière en [m/s] ($299\ 792\ 458$ [m/s] $\approx 3 \cdot 10^8$ [m/s] )
+- $\Delta E$ : Énergie de cohésion en J  
+- $\Delta m$ : défaut de masse en kg  
+- $c$ : vitesse de la lumière en m/s ($299\ 792\ 458$ m/s $\approx 3 \cdot 10^8$ m/s )
 
 ```{r, child=c('exe/atome/55.Rmd')}
 ```
@@ -207,8 +210,6 @@ On peut déterminer la masse atomique d'un élément, en additionnant les masses
 ```{r, child=c('exe/atome/60.Rmd')}
 ```
 
-\newpage
-
 ## La mole et le nombre d'Avogadro
 
 Même les plus petits échantillons que nous traitons dans un laboratoire contiennent de gigantesques quantités d'atomes. Ne pouvant pas prendre les atomes, ou molécules, un par un avec des pincettes, les chimistes ont donc mis au point un système d'unité de comptage.
@@ -223,6 +224,8 @@ Une mole contient exactement $6.02214076\cdot10^{23}$ entités élémentaires.
 :::
 
 Des techniques telles que la spectrométrie de masse, qui permettent de compter très précisément les atomes, ont été utilisées pour déterminer ce nombre. Ce nombre, noté $N_A$, est appelé **nombre d'Avogadro** et dans le cadre de ce cours nous allons arrondir ce nombre à $6.022\:\cdot\:10^{23}$.
+
+\newpage
 
 |   unité   |      nombre d'entités       | exemple                        |
 | :-------: | :-------------------------: | :----------------------------- |
@@ -267,9 +270,9 @@ $$ \begin{split}
 \end{split}
 \qquad
 \begin{split}
-	&\text{m : masse de substance en [g]}\\
-	&\text{n : quantité de matière en [mol]}\\
-	&\text{M : masse molaire en [g/mol]}
+	&\text{m : masse de substance en g}\\
+	&\text{n : quantité de matière en mol}\\
+	&\text{M : masse molaire en g/mol}
 \end{split} $$
 
 $$ M = \frac{m}{n} \qquad \text{ ou } \qquad n = \frac{m}{M} \qquad \text{ ou } \qquad m = n \cdot M $$
@@ -279,6 +282,20 @@ $$ M = \frac{m}{n} \qquad \text{ ou } \qquad n = \frac{m}{M} \qquad \text{ ou } 
 
 \newpage
 
+## Résumé
+
+- L'atome est constitué d'un noyau (protons et neutrons) autour duquel gravitent les électrons ; il est essentiellement constitué de vide et plus de 99 % de sa masse est concentrée dans le noyau.
+- Le proton porte une charge relative +1, l'électron une charge -1 et le neutron est neutre. Proton et neutron ont une masse voisine ; l'électron est environ 1836 fois plus léger.
+- Un atome est électriquement neutre : il compte autant d'électrons que de protons.
+- Un élément regroupe tous les atomes ayant le même nombre de protons, appelé numéro atomique $Z$.
+- Le nombre de masse $A$ est le nombre de nucléons (protons + neutrons). La notation $_{Z}^{A}X$ résume la composition d'un atome.
+- Les isotopes d'un élément ont le même $Z$ mais un nombre de neutrons (donc un $A$) différent.
+- L'unité de masse atomique (uma) vaut $\frac{1}{12}$ de la masse d'un atome de carbone 12, soit environ $1.660\cdot10^{-27}$ kg.
+- La masse d'un noyau est inférieure à la somme des masses de ses nucléons : c'est le défaut de masse $\Delta m$, converti en énergie de cohésion selon $\Delta E = \Delta m \cdot c^{2}$.
+- La masse atomique d'un élément est la moyenne des masses de ses isotopes, pondérée par leurs abondances naturelles.
+- Une mole contient $N_A = 6.022\cdot10^{23}$ entités (nombre d'Avogadro).
+- La masse molaire $M$ (en g/mol) est la masse d'une mole d'atomes ; elle est numériquement égale à la masse atomique en uma. On relie masse et quantité de matière par $n = \dfrac{m}{M}$.
+
 ## Exercices supplémentaires
 
 ```{r, child=c('exe/atome/110.Rmd')}
@@ -286,6 +303,8 @@ $$ M = \frac{m}{n} \qquad \text{ ou } \qquad n = \frac{m}{M} \qquad \text{ ou } 
 
 ```{r, child=c('exe/atome/120.Rmd')}
 ```
+
+\newpage
 
 ```{r, child=c('exe/atome/130.Rmd')}
 ```
@@ -313,6 +332,22 @@ $$ M = \frac{m}{n} \qquad \text{ ou } \qquad n = \frac{m}{M} \qquad \text{ ou } 
 ```
 
 ```{r, child=c('exe/atome/200.Rmd')}
+```
+
+\newpage
+
+```{r, child=c('exe/atome/210.Rmd')}
+```
+
+```{r, child=c('exe/atome/220.Rmd')}
+```
+
+\newpage
+
+```{r, child=c('exe/atome/230.Rmd')}
+```
+
+```{r, child=c('exe/atome/240.Rmd')}
 ```
 
 \newpage
