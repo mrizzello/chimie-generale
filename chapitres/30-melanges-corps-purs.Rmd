@@ -268,13 +268,13 @@ La **centrifugation** utilise la force centrifuge pour accélérer la sédimenta
 
 ## Résumé
 
-- Chaque échantillon de matière est soit un **corps pur**, soit un **mélange**.
-- Un **corps pur simple** n'est constitué que d'atomes d'un seul élément, même lorsque ces atomes forment des molécules.
-- Un **corps pur composé** résulte de l'union chimique de plusieurs éléments dans des proportions fixes.
-- Un **mélange** réunit plusieurs corps purs sans transformation chimique.
-- Un mélange est **hétérogène** si l'on distingue ses constituants à l'oeil nu, **homogène** dans le cas contraire.
-- Les **dispersions** sont des mélanges où une phase dispersée est répartie dans une phase dispersante.
-- La **séparation** d'un mélange exploite une différence de propriété physique entre ses constituants.
+- Chaque échantillon de matière est soit un corps pur, soit un mélange.
+- Un corps pur simple n'est constitué que d'atomes d'un seul élément, même lorsque ces atomes forment des molécules.
+- Un corps pur composé résulte de l'union chimique de plusieurs éléments dans des proportions fixes.
+- Un mélange réunit plusieurs corps purs sans transformation chimique.
+- Un mélange est hétérogène si l'on distingue ses constituants à l'oeil nu, homogène dans le cas contraire.
+- Les dispersions sont des mélanges où une phase dispersée est répartie dans une phase dispersante.
+- La séparation d'un mélange exploite une différence de propriété physique entre ses constituants.
 - Le choix de la méthode de séparationdépend des états des constituants et de la propriété qui les distingue.
 
 \vspace{\stretch{1}}
