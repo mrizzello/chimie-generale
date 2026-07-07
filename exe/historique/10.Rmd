@@ -1,0 +1,21 @@
+::: {.Exercise data-latex=""}
+
+On distingue quatre types de nucléosynthèse. Indiquez, pour chacun des éléments (ou groupes d'éléments) suivants, le type de nucléosynthèse qui en est principalement responsable.
+
+1. l'hydrogène et l'hélium
+2. le carbone et l'azote, produits par de petites étoiles
+3. le fer, le silicium et le soufre, produits au coeur des grandes étoiles
+4. les éléments plus lourds que le fer (or, uranium, ...)
+5. le lithium, le béryllium et le bore
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. nucléosynthèse primordiale (dans les instants qui suivent le Big Bang)
+2. nucléosynthèse stellaire (petites étoiles)
+3. nucléosynthèse stellaire (grandes étoiles)
+4. nucléosynthèse explosive (explosion de supernovas)
+5. nucléosynthèse interstellaire (bombardement par les rayons cosmiques)
+
+:::

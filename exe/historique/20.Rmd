@@ -1,0 +1,25 @@
+::: {.Exercise data-latex=""}
+
+Associez chaque savant à sa contribution à l'élaboration du modèle atomique.
+
+Savants : Démocrite, John Dalton, Joseph John Thomson, Ernest Rutherford, Niels Bohr, James Chadwick.
+
+1. Découvre l'électron et propose le modèle du « pain de raisin ».
+2. Décrit le premier le concept d'atome, particule indivisible.
+3. Découvre le neutron.
+4. Propose que les électrons se déplacent sur des orbites d'énergie quantifiée.
+5. Formule la première théorie atomique moderne fondée sur cinq hypothèses.
+6. Découvre le noyau grâce au bombardement d'une feuille d'or.
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. Joseph John Thomson
+2. Démocrite
+3. James Chadwick
+4. Niels Bohr
+5. John Dalton
+6. Ernest Rutherford
+
+:::

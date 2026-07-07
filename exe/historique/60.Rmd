@@ -1,0 +1,26 @@
+::: {.Exercise data-latex=""}
+
+Pour chacun des éléments suivants, indiquez le type de nucléosynthèse qui l'a principalement produit, puis répondez aux questions.
+
+1. l'hélium d'un ballon gonflable
+\vspace{\stretch{1}}
+2. le carbone d'une mine de crayon
+\vspace{\stretch{1}}
+3. l'or d'une bague
+\vspace{\stretch{1}}
+4. Pourquoi l'hydrogène est-il l'élément le plus abondant de l'Univers ?
+\vspace{\stretch{1}}
+5. Pourquoi les éléments plus lourds que le fer sont-ils relativement rares ?
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. Hélium : nucléosynthèse primordiale (formé juste après le Big Bang ; il est aussi produit par fusion de l'hydrogène dans les étoiles).
+2. Carbone : nucléosynthèse stellaire (fusion de l'hélium au coeur des étoiles).
+3. Or : nucléosynthèse explosive ; l'or est plus lourd que le fer, il est produit lors de l'explosion des supernovas.
+4. L'hydrogène est le premier élément formé, lors de la nucléosynthèse primordiale, à partir des protons libres. C'est l'élément le plus simple et le plus ancien, produit en très grande quantité juste après le Big Bang.
+5. Les éléments plus lourds que le fer ne se forment pas par la fusion ordinaire des étoiles ; ils nécessitent des événements rares et violents, les explosions de supernovas (nucléosynthèse explosive). Ils sont donc produits en bien plus faible quantité.
+
+:::
