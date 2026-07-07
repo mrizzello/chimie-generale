@@ -1,0 +1,20 @@
+::: {.Exercise data-latex=""}
+
+Répondez aux questions suivantes à propos de l'origine des éléments.
+
+1. Quels sont les deux premiers éléments à avoir été formés dans l'Univers, et lors de quel événement ?
+\vspace{\stretch{1}}
+2. Un atome de fer présent dans votre sang a-t-il pu être créé lors du Big Bang ? Sinon, où a-t-il été formé ?
+\vspace{\stretch{1}}
+3. La nucléosynthèse interstellaire produit des éléments légers par un processus différent de la fusion. Lequel, et quelle en est la cause ?
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. L'hydrogène et l'hélium, formés lors de la nucléosynthèse primordiale, dans les instants qui ont suivi le Big Bang.
+2. Non : le Big Bang (nucléosynthèse primordiale) n'a produit que l'hydrogène et l'hélium. Le fer est plus lourd ; il a été formé par nucléosynthèse stellaire, au coeur des grandes étoiles.
+3. La fission nucléaire : les rayons cosmiques bombardent en permanence la matière et brisent des noyaux, ce qui recrée des éléments plus légers comme le lithium, le béryllium et le bore.
+
+:::

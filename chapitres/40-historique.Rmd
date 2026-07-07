@@ -31,6 +31,12 @@ Le processus par lequel des éléments chimiques sont créés est appelé **nucl
 knitr::include_graphics(c("images/timeline-cosmos.png"))
 ```
 
+```{r, child=c('exe/historique/10.Rmd')}
+```
+
+```{r, child=c('exe/historique/12.Rmd')}
+```
+
 ## Le modèle atomique
 
 Autour du 5 siècle avant JC, le philosophe grec **Démocrite** est le premier à décrire le concept d'**atome** (atomos signifie indivisible en grec). Pour Démocrite, l'atome est éternel, constant, invisible et indivisible. Il est la plus petite unité et le bloc de construction de toute matière.
@@ -95,12 +101,59 @@ Dans le cadre de ce cours, nous utiliseront le modèle de Bohr. Ce modèle nous 
 
 \newpage
 
+```{r, child=c('exe/historique/20.Rmd')}
+```
+
+```{r, child=c('exe/historique/22.Rmd')}
+```
+
+\newpage
+
 ## Échelle des tailles
 
-La taille d'un atome est difficile à mesurer car les atomes n'ont pas une limite extérieure bien définie. Cependant, on sait que leur taille est d'environ 0.1 [nm] jusqu'à 0.215 [nm] pour les plus gros. Les longueurs d'onde de la lumière visible à l'oeil humain se situent entre 400 [nm] à 700 [nm], ce qui est trop grand pour pouvoir voir les atomes avec un procédé utilisant la lumière visible.
+La taille d'un atome est difficile à mesurer car les atomes n'ont pas une limite extérieure bien définie. Cependant, on sait que leur taille est d'environ 0.1 nm jusqu'à 0.215 nm pour les plus gros. Les longueurs d'onde de la lumière visible à l'oeil humain se situent entre 400 nm à 700 nm, ce qui est trop grand pour pouvoir voir les atomes avec un procédé utilisant la lumière visible.
 
 ```{r ordre-grandeur-ex,echo=FALSE,out.width="100%",fig.show="hold",fig.align="center",fig.cap="Tailles relatives approximatives en mètres"}
 knitr::include_graphics(c("images/ordre-grandeur-ex.png"))
 ```
 
 Voir les atomes nécessite une variété d'instruments de pointe qui utilisent différents types de particules ou de rayonnements. Les rayons X, les neutrons et les électrons fournissent des informations complémentaires. Ces techniques permettent de se représenter de manière indirecte ce à quoi peut ressembler un atome.
+
+\newpage
+
+## Résumé
+
+- Le processus de création des éléments chimiques s'appelle la nucléosynthèse. On en distingue quatre types : primordiale, stellaire, explosive et interstellaire.
+- Le concept d'atome, particule indivisible, remonte à Démocrite durant l'Antiquité.
+- Dalton formule la première théorie atomique moderne : des atomes indivisibles, identiques pour un même élément, qui se combinent pour former des composés.
+- Thomson découvre l'électron (1897) et propose le modèle du « pain de raisin » ; l'atome n'est donc pas indivisible.
+- Rutherford (1911), par le bombardement d'une feuille d'or, découvre le noyau : la charge positive et l'essentiel de la masse y sont concentrés, et l'atome est surtout constitué de vide.
+- Bohr (1913) propose des électrons circulant sur des orbites d'énergie quantifiée.
+- Chadwick (1932) découvre le neutron, neutre, qui stabilise le noyau grâce à la force nucléaire.
+- Le modèle du nuage électronique (Schrödinger, Heisenberg) décrit la probabilité de présence de l'électron.
+- Un atome mesure environ 0.1 à 0.215 nm, trop petit pour être observé en lumière visible (400 à 700 nm).
+- Les modèles scientifiques sont temporaires et évoluent, mais conservent souvent un pouvoir explicatif utile.
+
+## Exercices supplémentaires
+
+```{r, child=c('exe/historique/40.Rmd')}
+```
+
+\newpage
+
+```{r, child=c('exe/historique/50.Rmd')}
+```
+
+```{r, child=c('exe/historique/60.Rmd')}
+```
+
+\newpage
+
+```{r, child=c('exe/historique/70.Rmd')}
+```
+
+```{r, echo=FALSE}
+if (knitr::is_latex_output()) {
+  knitr::asis_output('\\section{Solutions des exercices} \\shipoutAnswer')
+}
+```

@@ -1,0 +1,23 @@
+::: {.Exercise data-latex=""}
+
+Après la découverte du noyau, une difficulté apparaît : le noyau contient plusieurs protons, chargés positivement, très proches les uns des autres.
+
+1. Deux charges de même signe s'attirent-elles ou se repoussent-elles ? Qu'est-ce que cela devrait provoquer pour un noyau contenant plusieurs protons ?
+\vspace{\stretch{1}}
+2. Quelle particule, découverte en 1932 et par qui, ne porte aucune charge électrique ?
+\vspace{\stretch{1}}
+3. À l'aide de la notion de force nucléaire, expliquez comment les neutrons contribuent à la stabilité du noyau.
+\vspace{\stretch{1}}
+4. Les particules alpha de Rutherford étant chargées positivement, expliquez pourquoi cette expérience ne pouvait pas, à elle seule, mettre en évidence le neutron.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. Deux charges de même signe se repoussent. Les protons du noyau se repoussent donc mutuellement, ce qui devrait faire « éclater » le noyau.
+2. Le neutron, découvert par James Chadwick.
+3. La force nucléaire s'exerce entre les protons et les neutrons. Les neutrons ajoutent de l'attraction nucléaire sans ajouter de répulsion électrique, puisqu'ils sont neutres : ils compensent la répulsion entre protons et stabilisent ainsi le noyau.
+4. L'expérience repose sur la déviation des particules alpha par la charge positive du noyau. Le neutron étant neutre, il n'exerce pas ce type d'interaction électrique sur les particules alpha : il ne pouvait donc pas être détecté par cette expérience.
+
+:::

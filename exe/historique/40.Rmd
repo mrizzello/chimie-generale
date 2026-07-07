@@ -1,0 +1,39 @@
+::: {.Exercise data-latex=""}
+
+Voici, dans le désordre, cinq modèles ou découvertes qui ont marqué l'histoire de l'atome :
+
+- modèle planétaire (noyau central)
+- modèle du « pain de raisin »
+- atome indivisible (concept philosophique)
+- modèle du nuage électronique
+- orbites d'énergie quantifiée
+
+1. Classez ces cinq propositions dans l'ordre chronologique.
+\vspace{\stretch{1}}
+2. Pour chacune, citez le(s) savant(s) associé(s).
+\vspace{\stretch{1}}
+3. Le modèle du « pain de raisin » a été abandonné au profit du modèle planétaire. Quelle observation expérimentale a rendu cet abandon nécessaire ?
+\vspace{\stretch{1}}
+4. Les anciens modèles sont-ils totalement inutiles une fois remplacés ? Justifiez.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. Ordre chronologique :
+   1. atome indivisible (concept philosophique)
+   2. modèle du « pain de raisin »
+   3. modèle planétaire (noyau central)
+   4. orbites d'énergie quantifiée
+   5. modèle du nuage électronique
+2. Savants associés :
+   1. Démocrite (≈ 5e siècle av. J.-C.)
+   2. Thomson (1897)
+   3. Rutherford (1911)
+   4. Bohr (1913)
+   5. Schrödinger et Heisenberg (1925)
+3. La déviation, et le rebond en arrière, d'une petite partie des particules alpha lors du bombardement de la feuille d'or : ce comportement est impossible à expliquer avec une charge positive diluée ; il révèle un noyau concentré.
+4. Non : même remplacé, un modèle conserve son pouvoir explicatif et reste utile pour décrire certains phénomènes. C'est pour cette raison que ce cours utilise encore le modèle de Bohr.
+
+:::

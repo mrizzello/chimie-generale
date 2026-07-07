@@ -1,0 +1,26 @@
+::: {.Exercise data-latex=""}
+
+Indiquez si chacune des affirmations suivantes est vraie ou fausse, puis justifiez votre réponse.
+
+1. Tous les éléments chimiques ont été créés lors du Big Bang.
+\vspace{\stretch{1}}
+2. Selon Dalton, l'atome pouvait être divisé en particules plus petites.
+\vspace{\stretch{1}}
+3. La découverte de l'électron par Thomson a montré que l'atome n'était pas indivisible.
+\vspace{\stretch{1}}
+4. Le principe d'incertitude d'Heisenberg permet de connaître simultanément et précisément la position et la vitesse d'un électron.
+\vspace{\stretch{1}}
+5. Un modèle scientifique est définitif et ne change jamais.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. **Faux.** Le Big Bang (nucléosynthèse primordiale) n'a créé que l'hydrogène et l'hélium. Les autres éléments ont été formés plus tard, par les nucléosynthèses stellaire, explosive et interstellaire.
+2. **Faux.** Pour Dalton, l'atome était une particule qui ne pouvait être ni subdivisée ni détruite.
+3. **Vrai.** L'électron est une particule constituante de l'atome ; l'atome contient donc des particules plus petites et n'est pas indivisible, contrairement à l'idée de Démocrite et de Dalton.
+4. **Faux.** Le principe d'incertitude énonce au contraire que plus on cherche à préciser la position d'une particule, moins on peut connaître précisément sa quantité de mouvement (et inversement) : on ne peut pas connaître les deux simultanément avec précision.
+5. **Faux.** Un modèle est une solution temporaire, sujet de recherche qui évolue avec le temps ; un ancien modèle peut être remplacé tout en conservant un pouvoir explicatif utile.
+
+:::

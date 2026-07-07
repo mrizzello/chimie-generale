@@ -1,0 +1,20 @@
+::: {.Exercise data-latex=""}
+
+L'expérience de Rutherford consiste à bombarder une très fine feuille d'or avec des particules alpha (chargées positivement).
+
+1. D'après le modèle de Thomson, comment devaient se comporter toutes les particules alpha en traversant la feuille ? Pourquoi ?
+\vspace{\stretch{1}}
+2. Qu'a-t-on réellement observé pour une petite partie des particules ?
+\vspace{\stretch{1}}
+3. Quelle conclusion Rutherford en a-t-il tirée sur la structure de l'atome ?
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. Elles devaient toutes traverser la feuille sans être déviées : dans le modèle de Thomson, la charge positive et les électrons sont répartis uniformément dans l'atome, la charge positive est donc « diluée » et ne peut pas dévier fortement les particules alpha.
+2. Une petite partie des particules a été fortement déviée, certaines rebondissant même en arrière, comme si elles avaient heurté un objet massif chargé positivement.
+3. La charge positive et la quasi-totalité de la masse de l'atome sont concentrées dans un très petit volume central : le noyau. L'atome est donc essentiellement constitué de vide, avec les électrons gravitant autour du noyau (modèle planétaire).
+
+:::
