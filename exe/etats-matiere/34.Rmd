@@ -1,0 +1,29 @@
+::: {.Exercise data-latex=""}
+
+1. Donnez deux différences entre un solide **amorphe** et un solide **cristallin**.
+\vspace{\stretch{1}}
+
+2. Pourquoi un solide amorphe, comme le verre, n'a-t-il pas de point de fusion net ?
+\vspace{\stretch{1}}
+
+3. Qu'appelle-t-on une **maille** dans un solide cristallin ?
+\vspace{\stretch{1}}
+
+4. Le diamant et le graphite sont tous deux uniquement constitués de carbone, mais leurs propriétés sont très différentes. Quel terme décrit cette situation ? À quoi est due cette différence de propriétés ?
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. Deux différences (au choix) :
+    - un solide **cristallin** possède une structure **ordonnée et régulière** (réseau cristallin) sur de grandes distances, alors qu'un solide **amorphe** a une structure **irrégulière** (semblable à un liquide figé) ;
+    - un solide cristallin a un **point de fusion net**, un solide amorphe **ramollit progressivement** sans point de fusion précis.
+
+2. Ses particules ne sont pas ordonnées de façon régulière : les forces intermoléculaires à vaincre ne sont pas toutes identiques. Le solide se **ramollit progressivement** au lieu de fondre à une température unique.
+
+3. La **maille** est le plus petit volume du cristal qui, répété dans les trois directions de l'espace, reconstitue l'ensemble du réseau cristallin.
+
+4. C'est l'**allotropie** : le diamant et le graphite sont des **formes allotropiques** du carbone. La différence provient de leur **structure cristalline** (arrangement des atomes de carbone), différente d'un allotrope à l'autre.
+
+:::

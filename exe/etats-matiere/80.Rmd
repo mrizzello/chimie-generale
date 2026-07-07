@@ -1,0 +1,35 @@
+::: {.Exercise data-latex=""}
+
+Le diagramme de phases d'une substance pure X est caractérisé par les points suivants :
+
+- point triple : $T = -20$ °C et $P = 0.40$ atm ;
+- point critique : $T = 130$ °C et $P = 55$ atm ;
+- sous $P = 1$ atm : fusion à $5$ °C et ébullition à $85$ °C.
+
+1. Dans quel état se trouve X à $25$ °C sous $1$ atm ? Justifiez.
+\vspace{\stretch{1}}
+2. Sous une pression de $0.20$ atm, peut-on obtenir X à l'état liquide ? Expliquez à l'aide du point triple.
+\vspace{\stretch{1}}
+3. On part de X solide à $-50$ °C sous $1$ atm et on chauffe jusqu'à $150$ °C, à pression constante. Décrivez la succession des états et nommez chaque changement d'état rencontré.
+\vspace{\stretch{1}}
+4. Que se passe-t-il si on chauffe X au-delà de $130$ °C sous forte pression ? Comment nomme-t-on ce point particulier ?
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. Sous $1$ atm, la fusion a lieu à $5$ °C et l'ébullition à $85$ °C. À $25$ °C, on est **entre les deux** : X est **liquide**.
+
+2. Le point triple se situe à $0.40$ atm. En dessous de cette pression, la phase liquide **n'existe pas** : X passe directement du solide au gaz (sublimation). À $0.20$ atm ($< 0.40$ atm), il est donc **impossible d'obtenir X liquide**, quelle que soit la température.
+
+3. À $1$ atm, en chauffant de $-50$ °C à $150$ °C :
+    - de $-50$ °C à $5$ °C : X est **solide** (sa température augmente) ;
+    - à $5$ °C : **fusion** (solide $\rightarrow$ liquide) ;
+    - de $5$ °C à $85$ °C : X est **liquide** ;
+    - à $85$ °C : **vaporisation** (liquide $\rightarrow$ gaz) ;
+    - de $85$ °C à $150$ °C : X est **gazeux**.
+
+4. Au-delà de $130$ °C et $55$ atm, on dépasse le **point critique** : X devient un **fluide supercritique** ; la distinction entre liquide et gaz disparaît (on ne peut plus liquéfier X par simple compression).
+
+:::

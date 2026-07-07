@@ -1,0 +1,33 @@
+::: {.Exercise data-latex=""}
+
+1. Associez chaque terme à sa définition : **tension superficielle**, **viscosité**, **capillarité**.
+    a. Résistance d'un liquide à l'écoulement.
+    b. Tendance d'un liquide à monter le long d'un tube étroit.
+    c. Comportement de la surface d'un liquide, qui se resserre comme une membrane, dû à l'attraction inégale subie par les particules de surface.
+\vspace{\stretch{1}}
+
+2. Le miel est beaucoup plus visqueux que l'eau. Que peut-on en déduire sur l'intensité de ses forces intermoléculaires ?
+\vspace{\stretch{1}}
+
+3. Un insecte (le gerris) se déplace à la surface d'un étang sans s'enfoncer. Quel phénomène l'explique ?
+\vspace{\stretch{1}}
+
+4. Que devient la viscosité d'une huile lorsqu'on la chauffe ? Expliquez à l'aide de l'énergie thermique.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1.
+    a. **viscosité** ;
+    b. **capillarité** ;
+    c. **tension superficielle**.
+
+2. Une forte viscosité indique des **forces intermoléculaires fortes** : les particules sont fortement attirées entre elles et s'écoulent difficilement.
+
+3. La **tension superficielle** : la surface de l'eau se comporte comme une membrane élastique capable de supporter le poids de l'insecte.
+
+4. En chauffant, l'**énergie thermique augmente** : les particules se déplacent plus vite et se libèrent en partie des forces intermoléculaires. La **viscosité diminue** (l'huile chaude coule plus facilement).
+
+:::

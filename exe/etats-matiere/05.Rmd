@@ -1,0 +1,31 @@
+::: {.Exercise data-latex=""}
+
+1. Complétez la phrase : les trois états de la matière résultent de l'équilibre entre les ______________________ et l'______________________.
+
+2. Pour chacune des situations suivantes, indiquez l'état physique (solide, liquide ou gaz) le plus probable :
+    a. forces intermoléculaires fortes et énergie thermique faible ;
+    b. forces intermoléculaires faibles et énergie thermique élevée ;
+    c. forces intermoléculaires et énergie thermique comparables.
+
+3. Vrai ou faux ? Corrigez les affirmations fausses.
+    a. L'énergie thermique tend à rapprocher les particules de la matière.
+    b. L'énergie thermique d'une substance est proportionnelle à sa température.
+    c. Dans un gaz, les particules sont très éloignées et se déplacent très rapidement.
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. ... entre les **forces intermoléculaires** et l'**énergie thermique**.
+
+2.
+    a. **solide** (les forces l'emportent, les particules restent liées et ordonnées) ;
+    b. **gaz** (l'énergie thermique l'emporte, les particules se séparent) ;
+    c. **liquide** (équilibre entre les deux effets).
+
+3.
+    a. **Faux** : l'énergie thermique tend à *séparer* les particules ; ce sont les forces intermoléculaires qui les rapprochent.
+    b. **Vrai**.
+    c. **Vrai**.
+
+:::
