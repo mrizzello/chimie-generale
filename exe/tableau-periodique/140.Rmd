@@ -1,0 +1,25 @@
+::: {.Exercise data-latex=""}
+
+On compare trois rayonnements électromagnétiques par leur longueur d'onde : une onde radio (1 m), une lumière visible bleue (450 nm) et un rayon X ($1\cdot10^{-10}$ m). Données : $c = 3\cdot10^{8}$ m/s, $h = 6.625\cdot10^{-34}$ J·s.
+
+1. Classez ces trois rayonnements de la fréquence la plus basse à la plus élevée.
+\vspace{\stretch{1}}
+2. Lequel transporte les photons les plus énergétiques ? Justifiez.
+\vspace{\stretch{1}}
+3. Calculez l'énergie d'un photon de lumière bleue (450 nm).
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. La fréquence est inversement proportionnelle à la longueur d'onde ($\nu = c/\lambda$). De la plus basse à la plus élevée :
+$$
+\text{onde radio (1 m)} < \text{bleu (450 nm)} < \text{rayon X } (1\cdot10^{-10} \text{ m})
+$$
+2. Le **rayon X** : il a la plus courte longueur d'onde, donc la plus haute fréquence et l'énergie par photon la plus grande ($E = h\cdot c/\lambda$).
+3. $$
+E = \frac{h\cdot c}{\lambda} = \frac{6.625\cdot10^{-34}\cdot3\cdot10^{8}}{4.50\cdot10^{-7}} = 4.42\cdot10^{-19} \text{ J}
+$$
+
+:::

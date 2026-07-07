@@ -1,0 +1,28 @@
+::: {.Exercise data-latex=""}
+
+Lorsqu'un électron excité d'un atome revient vers un niveau d'énergie plus bas, il émet un photon. On observe une raie d'émission de longueur d'onde 650 nm. Données : $c = 3\cdot10^{8}$ m/s, $h = 6.625\cdot10^{-34}$ J·s.
+
+1. À quelle couleur correspond cette raie ? (voir le domaine du spectre visible)
+\vspace{\stretch{1}}
+2. Calculez la fréquence puis l'énergie du photon émis.
+\vspace{\stretch{1}}
+3. L'électron a-t-il absorbé ou émis de l'énergie ? Que représente l'énergie du photon par rapport aux niveaux de l'électron ?
+\vspace{\stretch{1}}
+4. Une autre raie du même atome a une longueur d'onde de 400 nm. Le photon correspondant est-il plus ou moins énergétique que celui à 650 nm ? Justifiez sans calcul.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. 650 nm correspond au **rouge**.
+2. $$
+\nu = \frac{c}{\lambda} = \frac{3\cdot10^{8}}{6.50\cdot10^{-7}} = 4.62\cdot10^{14} \text{ Hz}
+$$
+$$
+E = h\cdot\nu = 6.625\cdot10^{-34}\cdot4.62\cdot10^{14} = 3.06\cdot10^{-19} \text{ J}
+$$
+3. L'électron a **émis** de l'énergie, puisqu'il est revenu vers un niveau plus bas. L'énergie du photon est égale à la différence d'énergie entre les deux niveaux.
+4. Plus **énergétique** : une longueur d'onde plus courte (400 nm) correspond à une fréquence plus élevée, donc à une énergie plus grande, car $E = h\cdot c/\lambda$ augmente quand $\lambda$ diminue.
+
+:::

@@ -1,0 +1,21 @@
+::: {.Exercise data-latex=""}
+
+Pour chaque élément, donnez le nombre d'électrons de valence et le groupe auquel il appartient.
+
+1. le sodium (Na)
+2. le carbone (C)
+3. l'oxygène (O)
+4. le fluor (F)
+5. le néon (Ne)
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. sodium : 1 électron de valence, groupe I
+2. carbone : 4 électrons de valence, groupe IV
+3. oxygène : 6 électrons de valence, groupe VI
+4. fluor : 7 électrons de valence, groupe VII
+5. néon : 8 électrons de valence, groupe VIII
+
+:::

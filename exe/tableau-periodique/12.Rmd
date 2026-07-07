@@ -1,0 +1,24 @@
+::: {.Exercise data-latex=""}
+
+Une lumière verte a une longueur d'onde de 550 nm. On rappelle : $c = 3\cdot10^{8}$ m/s et $h = 6.625\cdot10^{-34}$ J·s.
+
+1. Convertissez cette longueur d'onde en mètres.
+\vspace{\stretch{1}}
+2. Calculez la fréquence de cette lumière.
+\vspace{\stretch{1}}
+3. Calculez l'énergie d'un photon de cette lumière.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. $\lambda = 550 \text{ nm} = 550\cdot10^{-9} \text{ m} = 5.50\cdot10^{-7} \text{ m}$.
+2. $$
+\nu = \frac{c}{\lambda} = \frac{3\cdot10^{8}}{5.50\cdot10^{-7}} = 5.45\cdot10^{14} \text{ Hz}
+$$
+3. $$
+E = h \cdot \nu = 6.625\cdot10^{-34} \cdot 5.45\cdot10^{14} = 3.61\cdot10^{-19} \text{ J}
+$$
+
+:::

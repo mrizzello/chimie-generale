@@ -1,0 +1,23 @@
+::: {.Exercise data-latex=""}
+
+Classez chacun des éléments suivants en métal, non-métal ou métalloïde.
+
+1. le fer (Fe)
+2. le silicium (Si)
+3. le soufre (S)
+4. le sodium (Na)
+5. le germanium (Ge)
+6. l'oxygène (O)
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. fer : métal
+2. silicium : métalloïde
+3. soufre : non-métal
+4. sodium : métal
+5. germanium : métalloïde
+6. oxygène : non-métal
+
+:::

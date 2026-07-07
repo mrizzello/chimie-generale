@@ -1,0 +1,26 @@
+::: {.Exercise data-latex=""}
+
+On étudie l'élément soufre (S, Z = 16). À l'aide du tableau périodique, déterminez :
+
+1. sa période et son groupe ;
+\vspace{\stretch{1}}
+2. sa configuration électronique complète et simplifiée ;
+\vspace{\stretch{1}}
+3. son nombre d'électrons de valence ;
+\vspace{\stretch{1}}
+4. sa structure de Lewis (nombre de points, paires et célibataires) ;
+\vspace{\stretch{1}}
+5. l'ion stable qu'il forme, en justifiant par la règle de l'octet.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. Période 3, groupe VI.
+2. Complète : $1s^{2}\,2s^{2}\,2p^{6}\,3s^{2}\,3p^{4}$ ; simplifiée : [Ne]$\,3s^{2}\,3p^{4}$.
+3. 6 électrons de valence (groupe VI).
+4. 6 points autour du symbole : 2 paires et 2 célibataires (2p 2c).
+5. Le soufre gagne 2 électrons pour compléter sa couche de valence à 8 électrons (octet). Il forme l'ion **$S^{2-}$**, isoélectronique avec l'argon.
+
+:::

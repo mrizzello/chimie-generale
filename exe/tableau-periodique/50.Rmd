@@ -30,7 +30,9 @@
   C : Carbone- 	Cl : Chlore / Au : Or / Sb : Antimoine
 3. Dans quelle période se trouvent les éléments suivants :  
   He : 1 / Ge : 4 / Rb : 5 / I : 5
-4. Dans quel groupe se trouvent les éléments suivants :  
+4. Dans quel groupe se trouvent les éléments suivants :
   Soufre : VI / Iode : VII / Ca : II / Sn : IV
+5. Exemples possibles :
+  un halogène : Cl / un non-métal : O / un métal alcalin : Na / un élément de transition : Fe / un gaz rare : Ne / un métal alcalino-terreux : Ca
 
 :::

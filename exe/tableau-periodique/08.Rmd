@@ -1,0 +1,19 @@
+::: {.Exercise data-latex=""}
+
+À l'aide du tableau périodique, indiquez pour chaque élément sa période, son groupe et, s'il en possède un, le nom de sa famille.
+
+1. le sodium (Na)
+2. le calcium (Ca)
+3. le chlore (Cl)
+4. l'argon (Ar)
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. sodium : période 3, groupe I, métaux alcalins
+2. calcium : période 4, groupe II, métaux alcalino-terreux
+3. chlore : période 3, groupe VII, halogènes
+4. argon : période 3, groupe VIII, gaz rares (gaz nobles)
+
+:::
