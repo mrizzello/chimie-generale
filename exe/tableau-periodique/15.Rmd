@@ -1,0 +1,23 @@
+::: {.Exercise data-latex=""}
+
+Répondez aux questions suivantes sur l'interaction entre la lumière et les électrons.
+
+1. Qu'appelle-t-on une transition électronique ?
+\vspace{\stretch{1}}
+2. Un électron qui passe de l'état fondamental à un état excité absorbe-t-il ou émet-il un photon ?
+\vspace{\stretch{1}}
+3. Un électron qui revient d'un état excité vers l'état fondamental absorbe-t-il ou émet-il un photon ?
+\vspace{\stretch{1}}
+4. Quelle relation y a-t-il entre l'énergie du photon échangé et les deux niveaux d'énergie de l'électron ?
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. C'est le passage d'un électron d'un niveau d'énergie à un autre au sein de l'atome.
+2. Il **absorbe** un photon : il gagne de l'énergie, c'est une excitation.
+3. Il **émet** un photon : il perd de l'énergie.
+4. L'énergie du photon absorbé ou émis est exactement égale à la **différence d'énergie** entre les deux niveaux.
+
+:::

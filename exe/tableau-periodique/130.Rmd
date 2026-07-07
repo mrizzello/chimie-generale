@@ -1,0 +1,24 @@
+::: {.Exercise data-latex=""}
+
+On considère les éléments suivants : soufre (S), chlore (Cl), potassium (K) et calcium (Ca).
+
+1. Donnez l'ion stable formé par chacun de ces éléments.
+\vspace{\stretch{1}}
+2. Pour chaque ion, indiquez son nombre d'électrons.
+\vspace{\stretch{1}}
+3. Ces quatre ions ont-ils quelque chose en commun ? Avec quel gaz rare sont-ils isoélectroniques ?
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. $S^{2-}$, $Cl^{-}$, $K^{+}$ et $Ca^{2+}$.
+2. Nombre d'électrons de chaque ion :
+   - $S^{2-}$ : $16 + 2 = 18$ électrons
+   - $Cl^{-}$ : $17 + 1 = 18$ électrons
+   - $K^{+}$ : $19 - 1 = 18$ électrons
+   - $Ca^{2+}$ : $20 - 2 = 18$ électrons
+3. Les quatre ions possèdent tous **18 électrons** : ils sont **isoélectroniques** entre eux et avec l'**argon** (Z = 18), dont la couche de valence respecte l'octet.
+
+:::

@@ -64,6 +64,11 @@ Le reste des éléments, à droite des métalloïdes, sont appelés **non-métau
 knitr::include_graphics(c("images/tpe-empty.png"))
 ```
 
+\newpage
+
+```{r, child=c('exe/tableau-periodique/05.Rmd')}
+```
+
 ### Les périodes
 
 Les **lignes** du tableau périodique sont appelées **périodes** et chacune est désignée par un nombre de 1 à 7 (première période, deuxième période, etc.). Le nom de tableau périodique provient du fait que les propriétés reviennent périodiquement à chaque fois qu'on change de ligne.
@@ -78,6 +83,8 @@ Il y a au total 18 familles et il existe différentes manières de les numérote
 
 <!-- Les familles qui sont désigné avec un A sont appelés les **éléments de groupe principal**, les familles qui sont désigné avec un B sont appelés les **éléments de transition**. -->
 
+\newpage
+
 | Groupe | nom                           | éléments               |
 | :----: | :---------------------------- | :--------------------- |
 |   I    | métaux alcalins               | Li, Na, K, Rb, Cs, Fr  |
@@ -90,7 +97,8 @@ Table: (#tab:noms-groupes-courants) Noms de quelques groupes couramment employé
 
 Les **éléments de transition internes** ont été décalés dans le tableau périodique afin de rendre ce dernier plus compact.
 
-\newpage
+```{r, child=c('exe/tableau-periodique/08.Rmd')}
+```
 
 ## Interactions rayonnement-matière
 
@@ -112,8 +120,6 @@ knitr::include_graphics(c("images/ondes-electromagnetiques.png"))
 
 La longuer d'onde est exprimée en nanomètre, nm, pour les ondes lumineuses. La fréquence est exprimée en Hertz, Hz, le nombre de cycles par seconde. Longueur d'onde et fréquence sont inversément proportionnelles. Plus la longueur d'onde est élevée, plus la fréquence est basse. Plus la longueur d'onde est petite, plus la fréquence est élevée.
 
-\newpage
-
 La relation de Planck permet de mettre en relation la fréquence et l'énergie d'un photon selon l'équation : 
 
 $$
@@ -128,13 +134,18 @@ E = h \cdot \frac{c}{\lambda}
 \end{split}
 \qquad
 \begin{split}
-E & \text{ : énergie du photon, en } [J] \\
-h & \text{ : constante de Planck, } 6.63 \cdot 10^{-34}\ [J \cdot s] \\
-\nu & \text{ : fréquence, en } [Hz] \\
-\lambda & \text{ : longueur d'onde, en } [m] \\
-c & \text{ : vitesse de la lumière, } 3 \cdot 10^{8}\ [m \cdot s^{-1}]
+E & \text{ : énergie du photon, en } \text{ J} \\
+h & \text{ : constante de Planck, } 6.625 \cdot 10^{-34}\ \text{ J}\cdot\text{s} \\
+\nu & \text{ : fréquence, en } \text{ Hz} \\
+\lambda & \text{ : longueur d'onde, en } \text{ m} \\
+c & \text{ : vitesse de la lumière, } 3 \cdot 10^{8}\ \text{ m}\cdot\text{s}^{-1}
 \end{split}
 $$
+
+```{r, child=c('exe/tableau-periodique/12.Rmd')}
+```
+
+\newpage
 
 ### Le spectre électromagnétique
 
@@ -150,9 +161,9 @@ knitr::include_graphics(c("images/domaine-spectre-electromagnetique.png"))
 crédit : wikimedia/Benjamin ABEL
 :::
 
-Les ondes électromagnétiques sont classées en différentes catégories selon leur longueur d'onde. Les plus connues sont celles de la lumière visible (entre 400 et 750 [nm], environ) mais il existe d'autres rayonnements que l'oeil ne perçoit pas.
+Les ondes électromagnétiques sont classées en différentes catégories selon leur longueur d'onde. Les plus connues sont celles de la lumière visible (entre 400 et 750 nm, environ) mais il existe d'autres rayonnements que l'oeil ne perçoit pas.
 
-| couleur | longueur d'onde [nm] | fréquence [10^14^ Hz] | énergie [eV] |
+| couleur | longueur d'onde nm | fréquence 10^14^ Hz | énergie eV |
 | :------ | :------------------: | :-------------------: | :----------: |
 | violet  |         400          |         7.50          |     3.10     |
 | bleu    |         450          |         6.66          |     2.75     |
@@ -163,8 +174,6 @@ Les ondes électromagnétiques sont classées en différentes catégories selon 
 | rouge   |         650          |         4.62          |     1.91     |
 
 Table: (#tab:domaine-spectre-visible) Domaine du spectre visible.
-
-\newpage
 
 ### Interactions rayonnement-matière
 
@@ -181,13 +190,16 @@ knitr::include_graphics(c("images/absorption-emission.png"))
 L'électron absorbe de l'énergie tout en restant au sein de l'atome et finira
 toujours par la réémettre sous forme d'une onde électromagnétique. La mesure de ces quantités de lumière émises ou absorbées forment le principe de base de la spectroscopie.
 
+```{r, child=c('exe/tableau-periodique/15.Rmd')}
+```
+
+\newpage
+
 ## Les orbitales atomiques
 
 Dans les années 1900 Schrödinger développe un modèle atomique plus évolué en utilisant la mécanique quantique, le **modèle standard**.
 
 Ce modèle introduit une description mathématique du mouvement de l'électron appelée **orbitale atomique**. Une orbitale représente un volume de l'espace dans lequel la probabilité de trouver un électron est élevée.
-
-\newpage
 
 | couche | sous-couche | orbitales | électrons | total électrons |
 | :----: | :---------: | :-------: | :-------: | :-------------: |
@@ -218,8 +230,6 @@ crédit : wikimedia/haade
 
 Les électrons d'une sous-couche peuvent être répartis dans des volumes  d'énergie égale appelés orbitales. Il y a une orbitale pour une sous-couche _s_, trois orbitales pour une _p_, cinq pour une _d_, sept pour un _f_. Une orbitale ne peut être occupée que par deux électrons.
 
-\newpage
-
 ### La configuration électronique
 
 La manière dont les électrons sont répartis dans les différentes orbitales peut être représenté par un **diagramme des orbitales atomiques**. Dans ce type de diagramme, les orbitales sont représentées par des cases dans lesquels on place les électrons à disposition. L'orbitale 1s a le niveau d'énergie le plus bas et est la plus proche du noyau.
@@ -245,14 +255,14 @@ En connaissant le nombre d'électrons contenus dans un atome, on peut remplir ce
 
 Une fois le diagramme rempli, on en déduit la configuration électronique de l'atome pour le niveau de plus basse énergie. La **configuration électronique** d'un atome est une notation abrégée de la répartition des électrons dans les différentes couches et sous-couches électroniques.
 
-\newpage
-
 ```{r, child=c('exe/tableau-periodique/10.Rmd')}
 ```
 
 Pour simplifier la notation de la configuration électronique, on indique que les électrons de la dernière couche électronique. On remplace les autres couches par le symbole du gaz rare le plus proche entre crochets.  Par exemple, la structure électronique du chlore (Cl) :
 
 $$ \underbrace{1s^{2}~2s^{2}~2p^{6}}_{\text{Néon}}~3s^{2}~3p^{5} \text{ devient } [Ne]~3s^{2}~3p^{5} $$
+
+\newpage
 
 | Groupe | Elément | Conf. électronique               | Elément | Conf. électronique                |
 | :----: | :-----: | :------------------------------- | :-----: | :-------------------------------- |
@@ -267,7 +277,12 @@ $$ \underbrace{1s^{2}~2s^{2}~2p^{6}}_{\text{Néon}}~3s^{2}~3p^{5} \text{ devient
 
 Table: (#tab:conf-elec-premieres-periodes) Configuration électronique des deux premières périodes.
 
+```{r, child=c('exe/tableau-periodique/18.Rmd')}
+```
+
 La configuration électronique du niveau de plus basse énergie est appelée **état fondamental**. Les configurations dont la distribution des électrons est différente de l'état fondamental sont appelées **états excités**.
+
+\newpage
 
 ```{r energy-level-5,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Les orbitales atomiques et le tableau périodique."}
 knitr::include_graphics(c("images/energy-level-5.png","images/tpe-orbitals.png"))
@@ -288,9 +303,12 @@ Lorsqu'un chimiste étudie une réaction, il étudie les électrons transféré 
 knitr::include_graphics(c("images/configuration-electronique.png"))
 ```
 
-Le chimiste américain **G. N. Lewis** (1875-1946) a proposé un moyen simple de représenter les électrons de valence d'un atome. C'est ce qu'on appelle la **structure de Lewis**.
+```{r, child=c('exe/tableau-periodique/25.Rmd')}
+```
 
 \newpage
+
+Le chimiste américain **G. N. Lewis** (1875-1946) a proposé un moyen simple de représenter les électrons de valence d'un atome. C'est ce qu'on appelle la **structure de Lewis**.
 
 On utilise les règles suivantes pour dessiner la structure de Lewis d'un atome:
 
@@ -388,15 +406,28 @@ Les éléments de transition ne respectent pas la règle de l'octet, mais une au
 
 \newpage
 
+## Résumé
+
+- Dans le tableau périodique, les éléments sont classés par numéro atomique croissant ; les lignes sont les périodes et les colonnes les familles ou groupes. Les éléments d'une même famille ont des propriétés chimiques semblables.
+- On distingue les métaux, les non-métaux et les métalloïdes, aux propriétés intermédiaires.
+- La lumière est une onde électromagnétique caractérisée par sa longueur d'onde $\lambda$ et sa fréquence $\nu$, inversement proportionnelles ($c = \lambda\cdot\nu$).
+- Le spectre électromagnétique classe les ondes selon leur longueur d'onde ; la lumière visible s'étend d'environ 400 nm (violet) à 750 nm (rouge).
+- Un électron peut absorber un photon pour passer à un niveau d'énergie supérieur ou émettre un photon en revenant à un niveau inférieur ; l'énergie du photon est égale à la différence entre les deux niveaux.
+- Les électrons se répartissent autour du noyau en couches, sous-couches et orbitales.
+- La configuration électronique s'obtient en remplissant les sous-couches par énergie croissante.
+- Les électrons de valence sont ceux de la dernière couche ; leur nombre correspond au numéro de groupe (I à VIII). La structure de Lewis les représente par des points autour du symbole.
+- La règle de l'octet : les atomes tendent à posséder 8 électrons de valence en gagnant, perdant ou partageant des électrons.
+- Un ion est un atome ayant gagné ou perdu des électrons : un cation (charge positive) résulte d'une perte, un anion (charge négative) d'un gain.
+
 ## Exercices supplémentaires
 
 ```{r, child=c('exe/tableau-periodique/50.Rmd')}
 ```
 
+\newpage
+
 ```{r, child=c('exe/tableau-periodique/60.Rmd')}
 ```
-
-\newpage
 
 ```{r, child=c('exe/tableau-periodique/70.Rmd')}
 ```
@@ -406,11 +437,26 @@ Les éléments de transition ne respectent pas la règle de l'octet, mais une au
 
 ```{r, child=c('exe/tableau-periodique/90.Rmd')}
 ```
+\newpage
 
 ```{r, child=c('exe/tableau-periodique/100.Rmd')}
 ```
 
+```{r, child=c('exe/tableau-periodique/110.Rmd')}
+```
+
 \newpage
+
+```{r, child=c('exe/tableau-periodique/120.Rmd')}
+```
+
+```{r, child=c('exe/tableau-periodique/130.Rmd')}
+```
+
+\newpage
+
+```{r, child=c('exe/tableau-periodique/140.Rmd')}
+```
 
 ```{r, echo=FALSE}
 if (knitr::is_latex_output()) {

@@ -11,9 +11,9 @@ Pour chaque descritpion ci-dessous, déterminez la charge de l'atome, indiquez s
 
 ::: {.Answer data-latex=""}
 
-1. +2, cation, $Mg^{+2}$
+1. +2, cation, $Mg^{2+}$
 2. -1, anion, $F^-$
-3. +1, cation $Li^+$
-4. -2, anion, $S^{-2}$
+3. +1, cation, $Li^+$
+4. -2, anion, $S^{2-}$
 
 :::

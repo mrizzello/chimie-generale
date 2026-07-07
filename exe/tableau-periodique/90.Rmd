@@ -5,3 +5,14 @@ Dessinez le symbole de Lewis de chacun des éléments suivants : Al, Br, Ar, Ca.
 \vspace{\stretch{1}}
 
 :::
+
+::: {.Answer data-latex=""}
+
+Le nombre d'électrons de valence est donné par le numéro de groupe.
+
+- Al (groupe III) : 3 électrons de valence, soit 3 points célibataires (3c).
+- Br (groupe VII) : 7 électrons de valence, soit 3 paires et 1 célibataire (3p 1c).
+- Ar (groupe VIII) : 8 électrons de valence, soit 4 paires (4p).
+- Ca (groupe II) : 2 électrons de valence, soit 2 points célibataires (2c).
+
+:::

@@ -1,0 +1,19 @@
+::: {.Exercise data-latex=""}
+
+Pour chacun des éléments suivants, écrivez la configuration électronique complète, puis la configuration simplifiée (à l'aide du gaz rare précédent).
+
+1. l'azote (N, Z = 7)
+2. le magnésium (Mg, Z = 12)
+3. le chlore (Cl, Z = 17)
+4. le potassium (K, Z = 19)
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. N : $1s^{2}\,2s^{2}\,2p^{3}$ $\equiv$ [He]$\,2s^{2}\,2p^{3}$
+2. Mg : $1s^{2}\,2s^{2}\,2p^{6}\,3s^{2}$ $\equiv$ [Ne]$\,3s^{2}$
+3. Cl : $1s^{2}\,2s^{2}\,2p^{6}\,3s^{2}\,3p^{5}$ $\equiv$ [Ne]$\,3s^{2}\,3p^{5}$
+4. K : $1s^{2}\,2s^{2}\,2p^{6}\,3s^{2}\,3p^{6}\,4s^{1}$ $\equiv$ [Ar]$\,4s^{1}$
+
+:::
