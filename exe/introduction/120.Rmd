@@ -1,0 +1,49 @@
+:::::: {.Exercise-container}
+::: {.Exercise data-latex=""}
+
+Un joaillier reçoit un petit lingot métallique de forme parallélépipédique. Il mesure ses arêtes et sa masse :
+
+- longueur : $2.00$ cm
+- largeur : $2.00$ cm
+- hauteur : $1.00$ cm
+- masse : $10.8$ g
+
+1. Calculez le volume du lingot en respectant le nombre de chiffres significatifs.
+\vspace{\stretch{1}}
+2. Calculez sa masse volumique en g&middot;cm$^{-3}$.
+\vspace{\stretch{1}}
+3. Exprimez cette masse volumique en kg&middot;m$^{-3}$, en notation scientifique.
+\vspace{\stretch{1}}
+4. À l'aide du tableau ci-dessous, identifiez le métal. S'agit-il d'une propriété physique ou chimique ?
+\vspace{\stretch{1}}
+
+:::
+
+| métal            | aluminium | fer  | cuivre | argent | plomb |
+| ---------------- | :-------: | :--: | :----: | :----: | :---: |
+| $\rho$ g&middot;cm$^{-3}$ |   $2.70$  | $7.87$ | $8.96$ | $10.5$ | $11.3$ |
+
+::::::
+
+::: {.Answer data-latex=""}
+
+1. Volume :
+$$
+V = 2.00 \cdot 2.00 \cdot 1.00 = 4.00\ cm^3
+$$
+Les trois mesures ont 3 chiffres significatifs, le résultat en a donc 3 : $V = 4.00$ cm$^3$.
+
+2. Masse volumique :
+$$
+\rho = \frac{m}{V} = \frac{10.8\ g}{4.00\ cm^3} = 2.70\ g \cdot cm^{-3}
+$$
+La donnée la moins précise (10.8 g) a 3 chiffres significatifs : $\rho = 2.70$ g&middot;cm$^{-3}$.
+
+3. Conversion en kg&middot;m$^{-3}$ :
+$$
+2.70\ \frac{g}{cm^3} \cdot \frac{1\ kg}{10^3\ g} \cdot \frac{10^6\ cm^3}{1\ m^3} = 2.70 \cdot 10^3\ kg \cdot m^{-3}
+$$
+
+4. La masse volumique de $2.70$ g&middot;cm$^{-3}$ correspond à celle de l'**aluminium**. La masse volumique est une **propriété physique** : elle n'entraîne aucun changement de composition de la matière.
+
+:::

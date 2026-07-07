@@ -1,0 +1,37 @@
+::: {.Exercise data-latex=""}
+
+On considère la fabrication puis l'utilisation d'une bougie. Voici les étapes :
+
+1. On chauffe de la cire solide jusqu'à ce qu'elle fonde.
+2. On verse la cire liquide dans un moule où elle refroidit et se solidifie en prenant la forme du moule.
+3. On allume la mèche : la chaleur de la flamme fait fondre la cire à proximité.
+4. La cire liquide monte le long de la mèche et brûle, produisant de la lumière, de la chaleur, du dioxyde de carbone et de la vapeur d'eau.
+
+**a.** Pour chacune des quatre étapes, indiquez s'il s'agit d'une transformation physique ou chimique, et justifiez.
+\vspace{\stretch{1}}
+
+**b.** Citez une propriété **physique** et une propriété **chimique** de la cire mises en évidence dans cet énoncé.
+\vspace{\stretch{1}}
+
+**c.** Lors de l'étape 4, la masse de cire consommée est-elle conservée ? Où sont passés les atomes qui la constituaient ?
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+**a.**
+
+1. **Transformation physique** : la cire passe de l'état solide à l'état liquide (fusion). Sa composition ne change pas.
+2. **Transformation physique** : la cire se solidifie (solidification) et change de forme, mais reste de la cire.
+3. **Transformation physique** : fusion de la cire, comme à l'étape 1.
+4. **Transformation chimique** : la cire réagit avec le dioxygène de l'air (combustion) pour former de nouvelles substances (dioxyde de carbone et eau). La composition change.
+
+**b.**
+
+- Propriété **physique** : le point de fusion de la cire (elle fond sous l'effet de la chaleur).
+- Propriété **chimique** : l'inflammabilité de la cire (elle brûle en présence de dioxygène).
+
+**c.** La masse est conservée : rien ne se perd. Les atomes de carbone et d'hydrogène de la cire se retrouvent dans les molécules de dioxyde de carbone et de vapeur d'eau, gazeuses, qui se dispersent dans l'air. La bougie semble « disparaître » car ses produits de combustion sont invisibles et s'échappent dans l'atmosphère.
+
+:::
