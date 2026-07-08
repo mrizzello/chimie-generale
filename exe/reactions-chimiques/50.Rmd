@@ -1,0 +1,23 @@
+::: {.Exercise data-latex=""}
+
+Lors de la combustion complète du méthane, on observe que 16 g de méthane ($\ce{CH4}$) réagissent avec du dioxygène pour former 44 g de dioxyde de carbone et 36 g d'eau.
+
+1. Écrivez et équilibrez l'équation de la réaction.
+\vspace{\stretch{1}}
+2. À l'aide du principe de conservation de la masse, calculez la masse de dioxygène qui a réagi.
+\vspace{\stretch{1}}
+3. Vérifiez la cohérence : la masse totale des réactifs est-elle égale à la masse totale des produits ?
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. $\ce{CH4 + 2O2 -> CO2 + 2H2O}$
+2. La masse des produits vaut $44 + 36 = 80$ g. Par conservation de la masse, la masse des réactifs vaut aussi 80 g, donc :
+$$
+m_{O_2} = 80 - 16 = 64 \text{ g}
+$$
+3. Réactifs : $16 + 64 = 80$ g ; produits : $44 + 36 = 80$ g. Les deux masses sont égales : le principe de conservation de la masse est respecté.
+
+:::

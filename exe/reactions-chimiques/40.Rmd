@@ -1,0 +1,26 @@
+::: {.Exercise data-latex=""}
+
+Équilibrez les réactions chimiques suivantes :
+
+1. $\quad \ce{C3H8} \quad + \quad \ce{O2} \quad \ce{->} \quad \ce{CO2} \quad + \quad \ce{H2O}$
+\vspace{\stretch{1}}
+2. $\quad \ce{Al} \quad + \quad \ce{O2} \quad \ce{->} \quad \ce{Al2O3}$
+\vspace{\stretch{1}}
+3. $\quad \ce{Fe} \quad + \quad \ce{HCl} \quad \ce{->} \quad \ce{FeCl2} \quad + \quad \ce{H2}$
+\vspace{\stretch{1}}
+4. $\quad \ce{Na} \quad + \quad \ce{H2O} \quad \ce{->} \quad \ce{NaOH} \quad + \quad \ce{H2}$
+\vspace{\stretch{1}}
+5. $\quad \ce{NH3} \quad + \quad \ce{O2} \quad \ce{->} \quad \ce{NO} \quad + \quad \ce{H2O}$
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. $\ce{C3H8 + 5O2 -> 3CO2 + 4H2O}$
+2. $\ce{4Al + 3O2 -> 2Al2O3}$
+3. $\ce{Fe + 2HCl -> FeCl2 + H2}$
+4. $\ce{2Na + 2H2O -> 2NaOH + H2}$
+5. $\ce{4NH3 + 5O2 -> 4NO + 6H2O}$
+
+:::

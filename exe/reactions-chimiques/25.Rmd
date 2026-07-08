@@ -1,0 +1,23 @@
+::: {.Exercise data-latex=""}
+
+Répondez aux questions sur les termes de la thermochimie.
+
+1. Quelle est la différence entre une réaction exothermique et une réaction endothermique ?
+\vspace{\stretch{1}}
+2. Qu'est-ce qu'une réaction spontanée ?
+\vspace{\stretch{1}}
+3. Qu'est-ce qu'un catalyseur ? Quel est son effet sur l'énergie d'activation ?
+\vspace{\stretch{1}}
+4. La rouille se forme selon $\ce{4 Fe + 3 O2 -> 2 Fe2O3}$ d'elle-même à l'air libre. Cette réaction est-elle spontanée ?
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. Une réaction exothermique **libère** de la chaleur ; une réaction endothermique **absorbe** de la chaleur.
+2. Une réaction spontanée se produit d'elle-même : une fois amorcée, aucune action extérieure n'est nécessaire pour qu'elle se poursuive.
+3. Un catalyseur est une substance qui augmente la vitesse d'une réaction sans être consommée (on le retrouve intact à la fin). Il **abaisse l'énergie d'activation** de la réaction.
+4. Oui : le fer rouille de lui-même, sans apport extérieur continu ; c'est donc une réaction spontanée.
+
+:::

@@ -68,6 +68,8 @@ Certaines réactions sont rapides alors que d'autres sont lentes. Différents fa
 - **La température**: plus la température est élevée, plus les molécules de réactifs vont vite et ont des chances d'entrer en collision.
 - **Les catalyseurs**: Les catalyseurs sont des substances qui augmentent la vitesse d'une réaction sans que leur composition ne change au cours de la réaction.
 
+\newpage
+
 ## Conservation de la masse
 
 Au XVIIIe siècle, Antoine Laurent Lavoisier (1743-1794), a établi un principe important basé sur ses expériences. Il affirme que la masse totale des produits de la réaction est égale à la masse totale des réactifs. Cette déclaration est connue comme **le principe de conservation de la masse**.
@@ -75,6 +77,9 @@ Au XVIIIe siècle, Antoine Laurent Lavoisier (1743-1794), a établi un principe 
 **Rien ne se perd, rien ne se crée, tout se transforme.**  
 
 Il y a une égale quantité de matière avant et après une réaction, aucun atome n'apparaît et aucun atome ne disparaît. On a toujours les mêmes atomes mais combinés de façon différente.
+
+```{r, child=c('exe/reactions-chimiques/15.Rmd')}
+```
 
 ## Équations chimiques
 
@@ -99,6 +104,11 @@ L'état dans lequel se trouvent les réactifs et les produits peut être indiqu�
 - liquide : (l)
 - gaz : (g)
 - solution aqueuse : (aq)
+
+\newpage
+
+```{r, child=c('exe/reactions-chimiques/05.Rmd')}
+```
 
 ## Écrire une équation chimique
 
@@ -190,7 +200,7 @@ Cette réaction est possible, mais elle n'est pas spontanée. Elle nécessite un
 
 ### Réaction réversible
 
-Une réaction réversible peut avoir lieur dans les deux sens. On utilise une double flèche pour indiquer une réaction réversible.
+Une réaction réversible peut avoir lieu dans les deux sens. On utilise une double flèche pour indiquer une réaction réversible.
 
 $$ \begin{split}
   \ce{ CaCO3_{(s)} <=> CaO_{(s)} + CO2_{(g)} } \\
@@ -226,26 +236,56 @@ knitr::include_graphics(c("images/chaleur-2.png"))
 
 **L'énergie d'activation** ($E_a$) est l’énergie minimale qu’il faut fournir pour qu’une réaction se produise.
 
+\newpage
+
 ### Les catalyseurs
 
 ```{r catalyseur,echo=FALSE,out.width="33%",fig.show="hold",fig.align="center",fig.cap="Profil énergétique d'une réaction avec catalyseur"}
  knitr::include_graphics(c("images/catalyseur.png"))
 ```
 
-Un catalyseurs permet de modifier la vitesse d'une réaction sans faire partie des réactifs ou des produits. Le catalyseur ne participe pas à la réaction; on le retrouve intact à la fin de celle-ci.
+Un catalyseur permet de modifier la vitesse d'une réaction sans faire partie des réactifs ou des produits. Le catalyseur ne participe pas à la réaction; on le retrouve intact à la fin de celle-ci.
 
 Le rôle du catalyseur est d'abaisser l'énergie d'activation nécessaire à la réaction, ce qui permet à davantage de particules d'entrer en collision efficace et ainsi de réagir.
 
 Il existe des substances qui ont un effet inverse à celui des catalyseurs; elles diminuent la vitesse de réaction. Ces substances agissent en augmentant l'énergie d'activation de la réaction. Ces substances qui permettent de ralentir certains processus sont appelées des **inhibiteurs**.
+
+```{r, child=c('exe/reactions-chimiques/25.Rmd')}
+```
+
+\newpage
+
+## Résumé
+
+- Une réaction chimique réarrange les atomes des réactifs pour former des produits : des liaisons sont rompues et de nouvelles se forment. Certains signes indiquent qu'une réaction a eu lieu.
+- Selon la théorie des collisions, une réaction nécessite que les réactifs se rencontrent avec une orientation correcte et une énergie suffisante. La vitesse dépend de la température, de la concentration, de la surface de contact, de la complexité des réactifs et de la présence de catalyseurs.
+- Une équation chimique s'écrit réactifs $\rightarrow$ produits ; les coefficients (nombres) stoechiométriques donnent les proportions molaires, et l'état physique se note en indice : (s), (l), (g), (aq).
+- Loi de conservation de la masse : la masse totale des produits égale celle des réactifs. Chaque élément conserve son nombre d'atomes : il faut donc équilibrer l'équation en ajustant uniquement les coefficients stoechiométriques (jamais les indices), les plus petits possibles.
+- Une réaction est spontanée ou non ; réversible ou irréversible ; exothermique ou endothermique.
+- L'énergie d'activation ($E_a$) est l'énergie minimale à fournir ; un catalyseur l'abaisse (accélère la réaction), un inhibiteur l'augmente (la ralentit).
 
 ## Exercices supplémentaires
 
 ```{r, child=c('exe/reactions-chimiques/20.Rmd')}
 ```
 
+```{r, child=c('exe/reactions-chimiques/30.Rmd')}
+```
+
 \newpage
 
-```{r, child=c('exe/reactions-chimiques/30.Rmd')}
+```{r, child=c('exe/reactions-chimiques/40.Rmd')}
+```
+
+```{r, child=c('exe/reactions-chimiques/50.Rmd')}
+```
+
+\newpage
+
+```{r, child=c('exe/reactions-chimiques/60.Rmd')}
+```
+
+```{r, child=c('exe/reactions-chimiques/70.Rmd')}
 ```
 
 \newpage

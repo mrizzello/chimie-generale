@@ -1,0 +1,20 @@
+::: {.Exercise data-latex=""}
+
+Répondez aux questions suivantes sur la vitesse des réactions.
+
+1. Citez trois facteurs qui augmentent la vitesse d'une réaction et expliquez brièvement pourquoi (théorie des collisions).
+\vspace{\stretch{1}}
+2. Pour qu'une collision entre réactifs soit efficace, quelles sont les deux conditions nécessaires ?
+\vspace{\stretch{1}}
+3. Un catalyseur et un inhibiteur : quel est l'effet de chacun sur la vitesse et sur l'énergie d'activation ?
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. Par exemple : augmenter la **température** (les molécules se déplacent plus vite et se heurtent plus souvent et plus fort) ; augmenter la **concentration** (plus de molécules, donc plus de collisions) ; augmenter la **surface de contact** (davantage de zones de rencontre). Plus la probabilité de collision est grande, plus la vitesse est élevée.
+2. La collision doit se produire avec une **orientation correcte** et avec une **énergie suffisante**.
+3. Un catalyseur **augmente** la vitesse en **abaissant** l'énergie d'activation ; un inhibiteur **diminue** la vitesse en **augmentant** l'énergie d'activation.
+
+:::

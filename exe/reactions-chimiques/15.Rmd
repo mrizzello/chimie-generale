@@ -1,0 +1,21 @@
+::: {.Exercise data-latex=""}
+
+1. Énoncez le principe de conservation de la masse.
+\vspace{\stretch{1}}
+2. Dans une réaction, pourquoi le nombre d'atomes de chaque élément est-il le même avant et après la réaction ?
+\vspace{\stretch{1}}
+3. On brûle 24 g de carbone qui se combinent avec 64 g de dioxygène pour former du dioxyde de carbone. Quelle masse de dioxyde de carbone obtient-on ?
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. La masse totale des produits est égale à la masse totale des réactifs : « rien ne se perd, rien ne se crée, tout se transforme ».
+2. Une réaction ne fait que réarranger les atomes ; aucun atome n'apparaît ni ne disparaît, donc chaque élément conserve son nombre d'atomes.
+3. Par conservation de la masse :
+$$
+m_{CO_2} = 24 + 64 = 88 \text{ g}
+$$
+
+:::
