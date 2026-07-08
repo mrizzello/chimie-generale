@@ -1,0 +1,29 @@
+::: {.Exercise data-latex=""}
+
+Déterminez l'enthalpie de la réaction $\ce{C(s) + 1/2 O2(g) -> CO(g)}$ à partir des données suivantes :
+
+- $\ce{C(s) + O2(g) -> CO2(g)}$, $\Delta H_1 = -393.5$ kJ
+- $\ce{CO(g) + 1/2 O2(g) -> CO2(g)}$, $\Delta H_2 = -283.0$ kJ
+
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+On conserve la première équation et on inverse la seconde (en changeant le signe de son $\Delta H$) :
+
+$$
+\begin{aligned}
+\ce{C(s) + O2(g)} &\ce{-> CO2(g)} \qquad &\Delta H_1 &= -393.5 \text{ kJ} \\
+\ce{CO2(g)} &\ce{-> CO(g) + 1/2 O2(g)} \qquad &-\Delta H_2 &= +283.0 \text{ kJ}
+\end{aligned}
+$$
+
+En additionnant, $\ce{CO2}$ et une partie du $\ce{O2}$ se simplifient :
+
+$$
+\ce{C(s) + 1/2 O2(g) -> CO(g)} \qquad \Delta H = -393.5 + 283.0 = -110.5 \text{ kJ}
+$$
+
+:::

@@ -41,7 +41,7 @@ Un objet peut posséder de l'énergie sous différentes formes :
 - L'énergie thermique, associée au mouvement aléatoire des atomes et des molécules,
 - L'énergie chimique, stockée dans les liaisons des composés chimiques.
 
-L'unité du Système International de l'énergie est le joule (J) : $1 [J] = 1 [kg \cdot m^2 / s^2] = 1 [N/m]$. Une autre unité d'énergie courante est la calorie (cal), définie comme la quantité d'énergie nécessaire pour augmenter de 1°C la température de 1 gramme d'eau : **1 [cal] = 4.184 [J]**.
+L'unité du Système International de l'énergie est le joule (J) : $1 \text{ J} = 1 \mathrm{kg \cdot m^2 / s^2} = 1 \text{ N/m}$. Une autre unité d'énergie courante est la calorie (cal), définie comme la quantité d'énergie nécessaire pour augmenter de 1°C la température de 1 gramme d'eau : **1 cal = 4.184 J**.
 
 ## Système et environnement
 
@@ -84,11 +84,14 @@ Lors d'un changement physique ou chimique, il n'y a pas de création ou de destr
 
 La loi de la conservation de l'énergie stipule que l'énergie totale d'un système isolé est constante. Cela signifie qu'à l'intérieur d'un système isolé, l'énergie peut être modifiée ou transformée, mais qu'elle ne peut pas être créée ou détruite. La quantité totale d'énergie reste invariable.
 
+```{r, child=c('exe/thermochimie/05.Rmd')}
+```
+
 ## Calorimétrie
 
 La quantité de chaleur transférée entre le système et son environnement est mesurée par **calorimétrie**.
 
-La **capacité thermique**, ou **chaleur spécifique**, d’une substance (C) indique la capacité de cette substance d'absorber ou de dégager de la chaleur. C'est la quantité de chaleur qu’un gramme d'une substance doit absorber pour élever sa température d’un degré Celsius. Cette grandeur est exprimée en $[J/(K \cdot g)]$. Chaque substance a une capacité thermique qui lui est propre, celle de l'eau est de 4.184 $[J/(K \cdot g)]$.
+La **capacité thermique**, ou **chaleur spécifique**, d’une substance (C) indique la capacité de cette substance d'absorber ou de dégager de la chaleur. C'est la quantité de chaleur qu’un gramme d'une substance doit absorber pour élever sa température d’un degré Celsius. Cette grandeur est exprimée en $\mathrm{J/(K \cdot g)}$. Chaque substance a une capacité thermique qui lui est propre, celle de l'eau est de 4.184 $\mathrm{J/(K \cdot g)}$.
 
 Plus la capacité thermique d'une substance est élevée, plus il faut la chauffer pour augmenter sa température. Une substance ayant une faible capacité thermique se réchauffe rapidement, mais se refroidit aussi rapidement.
 
@@ -100,10 +103,10 @@ q = m \cdot C_p \cdot \Delta T
 \end{split}
 \qquad
 \begin{split}
-q & \text{: quantité de chaleur}\ [J] \\
-m & \text{: masse}\ [g] \\
-C_p & \text{: capacité thermique}\ [J/(K \cdot g)] \\
-\Delta T & \text{: différence de température}\ [K]
+q & \text{: quantité de chaleur}\ \text{ J} \\
+m & \text{: masse}\ \text{ g} \\
+C_p & \text{: capacité thermique}\ \mathrm{J/(K \cdot g)} \\
+\Delta T & \text{: différence de température}\ \text{ K}
 \end{split}
 $$
 
@@ -163,7 +166,7 @@ La somme des énergies cinétique et potentielle correspond à l'enthalpie de la
 ::: {.tcolorbox data-latex=""}
 
 **Enthalpie - $H$**  
-Énergie totale d'un système à pression constante. (Exprimée en joules [J]).
+Énergie totale d'un système à pression constante. (Exprimée en joules J).
 
 :::
 
@@ -191,10 +194,10 @@ $$
 
 Si la valeur est positive, la réaction est endothermique alors que si la valeur obtenue est négative, la réaction est exothermique.
 
-Lorsque l'on donne une valeur numérique de chaleur de réaction, il faut spécifier la réaction étudiée. Par exemple, lorsque 2 moles de dihydrogène brûlent pour former 2 moles d'eau à pression constante, le système système libère 483.6 [kJ].
+Lorsque l'on donne une valeur numérique de chaleur de réaction, il faut spécifier la réaction étudiée. Par exemple, lorsque 2 moles de dihydrogène brûlent pour former 2 moles d'eau à pression constante, le système système libère 483.6 kJ.
 
 $$
-\ce{2 H2(g) + O2(g) -> 2 H2O(g) } \qquad \Delta H = -483,6\ [kJ]
+\ce{2 H2(g) + O2(g) -> 2 H2O(g) } \qquad \Delta H = -483.6\ \text{ kJ}
 $$
 
 Le signe négatif de $\Delta H$ indique que la réaction est exothermique. Le $\Delta H$ est écrit à la fin de l'équation équilibrée, sans spécifier les quantités de produits chimiques impliqués.
@@ -210,12 +213,12 @@ Quantité d'énergie qui doit être fournie pour rompre une liaison et séparer 
 
 :::
 
-Plus l'énergie de liaison est élevée, plus la liaison entre les atomes ou les ions est stable. La triple liaison du diazote, par exemple, a une énergie de liaison de 946 [kJ/mol], alors que la liaison simple dans le dichlore a une énergie de liaison de 243 [kJ/mol]. La plus grande stabilité de la triple liaison dans N~2~ explique pourquoi les molécules de diazote sont moins réactives que les molécules de Cl~2~.
+Plus l'énergie de liaison est élevée, plus la liaison entre les atomes ou les ions est stable. La triple liaison du diazote, par exemple, a une énergie de liaison de 946 kJ/mol, alors que la liaison simple dans le dichlore a une énergie de liaison de 243 kJ/mol. La plus grande stabilité de la triple liaison dans N~2~ explique pourquoi les molécules de diazote sont moins réactives que les molécules de Cl~2~.
 
 $$
 \begin{split}
-\ce{N#N -> N + N} \quad \Delta H = +946\ [kJ/mol] \\ 
-\ce{Cl-Cl -> Cl + Cl} \quad \Delta H = +246\ [kJ/mol]
+\ce{N#N -> N + N} \quad \Delta H = +946\ \text{ kJ/mol} \\ 
+\ce{Cl-Cl -> Cl + Cl} \quad \Delta H = +246\ \text{ kJ/mol}
 \end{split}
 $$
 
@@ -223,7 +226,7 @@ $$
 |:------------:|:------:|:-----------:|:------:|:----------:|:---------------------------------------------------------------------------:|
 |  $\ce{C-H}$  |  413   | $\ce{N-H}$  |  391   | $\ce{C=C}$ |                                     614                                     |
 |  $\ce{C-C}$  |  347   | $\ce{N-N}$  |  160   | $\ce{C#C}$ |                                     839                                     |
-|  $\ce{C-N}$  |  305   | $\ce{N-Cl}$ |  200   | $\ce{C=O}$ | 745^[Énergie de la liaison $\ce{C=O}$ dans $\ce{CO2}$ est de 799 [kJ/mol].] |
+|  $\ce{C-N}$  |  305   | $\ce{N-Cl}$ |  200   | $\ce{C=O}$ | 745^[Énergie de la liaison $\ce{C=O}$ dans $\ce{CO2}$ est de 799 kJ/mol.] |
 |  $\ce{C-O}$  |  358   | $\ce{N-O}$  |  201   | $\ce{O=O}$ |                                     498                                     |
 | $\ce{C-Cl}$  |  339   | $\ce{H-H}$  |  432   | $\ce{N=O}$ |                                     607                                     |
 | $\ce{Cl-Cl}$ |  243   | $\ce{O-H}$  |  467   | $\ce{O#N}$ |                                     891                                     |
@@ -238,8 +241,8 @@ La quantité d'énergie libérée lors de la formation d'une liaison est égale 
 
 $$
 \begin{split}
-\ce{N + N -> N#N} \quad \Delta H = -946\ [kJ/mol] \\ 
-\ce{Cl + Cl -> Cl-Cl} \quad \Delta H = -246\ [kJ/mol]
+\ce{N + N -> N#N} \quad \Delta H = -946\ \text{ kJ/mol} \\ 
+\ce{Cl + Cl -> Cl-Cl} \quad \Delta H = -246\ \text{ kJ/mol}
 \end{split}
 $$
 
@@ -260,43 +263,43 @@ Calculons le $\Delta H$ de la réaction :
 $$
 \begin{split}
   \text{Réactifs}& \\[0.1em]
-  (\ce{C-H}) \times 4 = -413 \cdot 4 &= -1652\ [kJ] \\[0.1em]
-  (\ce{O=O}) \times 2 = -498 \cdot 2 &= -996\ [kJ] \\[0.1em]
+  (\ce{C-H}) \times 4 = -413 \cdot 4 &= -1652\ \text{ kJ} \\[0.1em]
+  (\ce{O=O}) \times 2 = -498 \cdot 2 &= -996\ \text{ kJ} \\[0.1em]
   \hline\\[-1.2em]
-  total &= -2648\ [kJ]
+  total &= -2648\ \text{ kJ}
 \end{split}
 \qquad
 \begin{split}
   \text{Produits}& \\
-  (\ce{C=O}) \times 2 = -799 \cdot 2 &= -1598\ [kJ] \\[0.1em]
-  (\ce{H-O}) \times 4 = -467 \cdot 4 &= -1868\ [kJ] \\[0.1em]
+  (\ce{C=O}) \times 2 = -799 \cdot 2 &= -1598\ \text{ kJ} \\[0.1em]
+  (\ce{H-O}) \times 4 = -467 \cdot 4 &= -1868\ \text{ kJ} \\[0.1em]
   \hline\\[-1.2em]
-  total &= -3466\ [kJ]
+  total &= -3466\ \text{ kJ}
 \end{split}
 $$
 
 $$
 \begin{split}
 \Delta H &= H _{\text{produits}} − H _{\text{réactifs}} \\
-  &= -3466 -(-2648) = -818\ [kJ]\ \text{(valeur estimée)}
+  &= -3466 -(-2648) = -818\ \text{ kJ}\ \text{(valeur estimée)}
 \end{split}
 $$
 
-La valeur mesurée de la variation d'enthalpie pour la combustion d'une mole de méthane est de 891 [kJ].
+La valeur mesurée de la variation d'enthalpie pour la combustion d'une mole de méthane est de 891 kJ.
 
 Les énergies données dans la table \@ref(tab:tab-energie-liaison) sont des énergies moyennes et peuvent varier en fonction de l'environnement chimique dans lequel se trouve la liaison. Le $\Delta H$ calculé pour une réaction en utilisant les énergies de liaison moyennes peut différer légèrement de la valeur obtenue expérimentalement.
 
 $$
-\ce{CH4(g) + 2 O2(g) -> CO2(g) + 2 H2O(l)} \qquad \Delta H = -891\ [kJ]
+\ce{CH4(g) + 2 O2(g) -> CO2(g) + 2 H2O(l)} \qquad \Delta H = -891\ \text{ kJ}
 $$
 
 Il est correct de dire :
 
-- La combustion de 1 mole de méthane s'accompagne d'une perte de 891 [kJ].
-- La réaction de 2 moles de dioxygène avec le méthane s'accompagne d'une perte de 891 [kJ].
-- La réaction de 1 mole de dioxygène avec le méthane s'accompagne d'une perte de 446 [kJ].
-- La formation de 1 mole de gaz carbonique par combustion du méthane s'accompagne d'une perte de 891 [kJ].
-- La formation de 1 mole d'eau gazeuse par combustion du méthane s'accompagne d'une perte de 446 [kJ].
+- La combustion de 1 mole de méthane s'accompagne d'une perte de 891 kJ.
+- La réaction de 2 moles de dioxygène avec le méthane s'accompagne d'une perte de 891 kJ.
+- La réaction de 1 mole de dioxygène avec le méthane s'accompagne d'une perte de 446 kJ.
+- La formation de 1 mole de gaz carbonique par combustion du méthane s'accompagne d'une perte de 891 kJ.
+- La formation de 1 mole d'eau gazeuse par combustion du méthane s'accompagne d'une perte de 446 kJ.
 
 On a donc le choix de la substance de référence, mais il faut le mentionner dans l'unité.
 
@@ -319,7 +322,7 @@ Les réactions pouvant se dérouler dans des conditions de température et de pr
 
 - température : 298 K (25°C)
 - pression : 1 bar (100 kPa)
-- concentration : 1 [mol/l] dans le cas de solutions
+- concentration : 1 mol/l dans le cas de solutions
 
 De cette manière, on peut définir la variation d'enthalpie standard de toute réaction à l'aide des variations d'enthalpies standard de formation des réactifs et des produits.
 
@@ -413,8 +416,8 @@ $$
 \begin{split}
 \Delta H^{0} &= \Delta H_1 + \Delta H_2 + \Delta H_3 \\
  &= -\Delta H^{0}_{f}(\ce{C3H8(g)}) + 3\cdot\Delta H^{0}_{f}(\ce{CO2(g)}) + 4\cdot\Delta H^{0}_{f}(\ce{H2O(l)}) \\
- &= - (−104.6\ [kJ]) + 3 \cdot (−393.5\ [kJ]) + 4 \cdot (−285.8\ [kJ]) \\
- &= -2219\ [kJ] \\
+ &= - (−104.6\ \text{ kJ}) + 3 \cdot (−393.5\ \text{ kJ}) + 4 \cdot (−285.8\ \text{ kJ}) \\
+ &= -2219\ \text{ kJ} \\
 \end{split}
 $$
 
@@ -427,9 +430,31 @@ knitr::include_graphics(c("images/Enthalpie-3.png"))
 
 \newpage
 
+## Résumé
+
+- L'énergie est la capacité à fournir un travail ou à transférer de la chaleur. Le travail déplace un objet contre une force ; la chaleur est l'énergie transférée d'un corps chaud vers un corps froid. La température et la chaleur sont des grandeurs distinctes
+- Unité : le joule (1 cal = 4.184 J).
+- L'énergie ne peut être ni créée ni détruite ; l'énergie totale d'un système isolé est constante.
+- Un système est ouvert, fermé ou isolé selon qu'il échange matière et/ou énergie avec l'environnement.
+- L'enthalpie $H$ est l'énergie totale d'un système à pression constante ; la variation d'enthalpie est la chaleur de réaction (à pression constante).
+- $\Delta H < 0$ : réaction exothermique ; $\Delta H > 0$ : réaction endothermique. La valeur de $\Delta H$ est proportionnelle aux quantités de matière : il faut préciser la substance de référence.
+- L'énergie de liaison est l'énergie nécessaire pour rompre une mole de liaisons à l'état gazeux. Rompre une liaison est endothermique, en former une est exothermique.
+- La variation d'enthalpie standard ($\Delta H^0$) se calcule à partir des enthalpies standard de formation.
+- $\Delta H$ ne dépend que des états initial et final, pas du chemin suivi.
+- On peut combiner des réactions pour obtenir l'enthalpie d'une réaction inconnue.
+
 ## Exercices supplémentaires
 
 ```{r, child=c('exe/thermochimie/80.Rmd')}
+```
+
+```{r, child=c('exe/thermochimie/110.Rmd')}
+```
+
+```{r, child=c('exe/thermochimie/120.Rmd')}
+```
+
+```{r, child=c('exe/thermochimie/130.Rmd')}
 ```
 
 ```{r, echo=FALSE}

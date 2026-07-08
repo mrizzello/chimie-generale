@@ -1,0 +1,26 @@
+::: {.Exercise data-latex=""}
+
+On plonge un morceau de fer de 150 g, chauffé à 95°C, dans 200 g d'eau à 20°C, dans un calorimètre parfaitement isolé. Capacités thermiques : $C_p(\ce{Fe}) = 0.449$ J/(K·g), $C_p(\ce{H2O}) = 4.184$ J/(K·g). Calculez la température finale du système.
+
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+Dans un calorimètre isolé, la chaleur cédée par le fer est absorbée par l'eau : $q_{\ce{Fe}} + q_{\ce{H2O}} = 0$.
+
+$$
+150 \cdot 0.449 \cdot (T_f - 95) + 200 \cdot 4.184 \cdot (T_f - 20) = 0
+$$
+$$
+67.35 \cdot (T_f - 95) + 836.8 \cdot (T_f - 20) = 0
+$$
+$$
+(67.35 + 836.8) \cdot T_f = 67.35 \cdot 95 + 836.8 \cdot 20 = 23134
+$$
+$$
+T_f = \frac{23134}{904.15} = 25.6 \text{ °C}
+$$
+
+:::

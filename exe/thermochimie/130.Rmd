@@ -1,0 +1,40 @@
+::: {.Exercise data-latex=""}
+
+Estimez, à l'aide des énergies de liaison, la variation d'enthalpie de la synthèse de l'ammoniac :
+
+$$
+\ce{N2(g) + 3 H2(g) -> 2 NH3(g)}
+$$
+
+La réaction est-elle exo- ou endothermique ? Énergies de liaison : $\ce{N#N}$ = 946, $\ce{H-H}$ = 432, $\ce{N-H}$ = 391 kJ/mol.
+
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+$$
+\begin{split}
+  \text{Réactifs}& \\
+  (\ce{N#N}) \times 1 &= -946\ \text{kJ} \\
+  (\ce{H-H}) \times 3 = -432 \cdot 3 &= -1296\ \text{kJ} \\
+  \hline
+  total &= -2242\ \text{kJ}
+\end{split}
+\qquad
+\begin{split}
+  \text{Produits}& \\
+  (\ce{N-H}) \times 6 = -391 \cdot 6 &= -2346\ \text{kJ} \\
+  \hline
+  total &= -2346\ \text{kJ}
+\end{split}
+$$
+
+$$
+\Delta H = \Sigma\ E^{liaison}_{\text{produits}} - \Sigma\ E^{liaison}_{\text{réactifs}} = -2346 - (-2242) = -104\ \text{kJ}
+$$
+
+$\Delta H < 0$ : la réaction est exothermique. (Chaque molécule $\ce{NH3}$ comporte 3 liaisons $\ce{N-H}$, soit 6 pour 2 molécules.)
+
+:::

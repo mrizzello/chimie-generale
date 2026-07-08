@@ -1,6 +1,6 @@
 ::: {.Exercise data-latex=""}
 
-800 [g] d'eau sont chauffés d'une température de 21°C à 85°C . Quelle quantité de chaleur l'eau a-t-elle absorbée ?
+800 g d'eau sont chauffés d'une température de 21°C à 85°C . Quelle quantité de chaleur l'eau a-t-elle absorbée ?
 
 \vspace{\stretch{1}}
 
@@ -11,8 +11,8 @@
 $$
 \begin{split}
 q_{\ce{H2O}} &= m_{\ce{H2O}} \cdot C_{p\ \ce{H2O}} \cdot \Delta T_{\ce{H2O}} \\
- &= 800\ [g] \cdot 4.184 [J/(K \cdot g)] \cdot (85-21) \\
- &= 214221\ [J] =  214.2\ [kJ]
+ &= 800\ \text{ g} \cdot 4.184 \mathrm{J/(K \cdot g)} \cdot (85-21) \\
+ &= 214221\ \text{ J} =  214.2\ \text{ kJ}
 \end{split}
 $$
 

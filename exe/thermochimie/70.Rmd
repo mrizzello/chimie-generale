@@ -23,32 +23,32 @@ $$
 $$
 \begin{split}
   \text{Réactifs}& \\
-  (\ce{C=O}) \times 12 = -799 \cdot 12 &= -9588\ [kJ] \\
-  (\ce{O-H}) \times 12 = -467 \cdot 12 &= -5604\ [kJ] \\
+  (\ce{C=O}) \times 12 = -799 \cdot 12 &= -9588\ \text{ kJ} \\
+  (\ce{O-H}) \times 12 = -467 \cdot 12 &= -5604\ \text{ kJ} \\
   \hline
-  total &= -15192\ [kJ]
+  total &= -15192\ \text{ kJ}
 \end{split}
 \qquad
 \begin{split}
   \text{Produits}& \\
-  (\ce{C-C}) \times 5 = -347 \cdot 5 &= -1735\ [kJ] \\
-  (\ce{C-H}) \times 7 = -413 \cdot 7 &= -2891\ [kJ] \\
-  (\ce{C-O}) \times 7 = -358 \cdot 7 &= -2506\ [kJ] \\
-  (\ce{O-H}) \times 5 = -467 \cdot 5 &= -2335\ [kJ] \\
-  (\ce{O=O}) \times 6 = -498 \cdot 6 &= -2988\ [kJ] \\
+  (\ce{C-C}) \times 5 = -347 \cdot 5 &= -1735\ \text{ kJ} \\
+  (\ce{C-H}) \times 7 = -413 \cdot 7 &= -2891\ \text{ kJ} \\
+  (\ce{C-O}) \times 7 = -358 \cdot 7 &= -2506\ \text{ kJ} \\
+  (\ce{O-H}) \times 5 = -467 \cdot 5 &= -2335\ \text{ kJ} \\
+  (\ce{O=O}) \times 6 = -498 \cdot 6 &= -2988\ \text{ kJ} \\
   \hline
-  total &= -12455\ [kJ]
+  total &= -12455\ \text{ kJ}
 \end{split}
 $$
 
 $$
 \begin{split}
 \Delta H &= \Sigma\ E^{liaison}_{\text{produits}} - \Sigma\ E^{liaison}_{\text{réactifs}} \\
-  &= -12455 - (-15192) = +2737\ [kJ]
+  &= -12455 - (-15192) = +2737\ \text{ kJ}
 \end{split}
 $$
 
-La production d'une mole de glucose par photosynthèse absorbe 2737 [kJ].
+La production d'une mole de glucose par photosynthèse absorbe 2737 kJ.
 
 La valeur positive indique que la réaction est endothermique.
 
