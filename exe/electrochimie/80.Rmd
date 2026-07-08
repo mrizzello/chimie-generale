@@ -1,0 +1,26 @@
+::: {.Exercise data-latex=""}
+
+On dispose des couples $\ce{Ag+/Ag}$ ($E^0 = +0.80$ V) et $\ce{Ni^{2+}/Ni}$ ($E^0 = -0.23$ V). On construit une pile avec ces deux demi-piles.
+
+1. Quelle demi-pile est la cathode (réduction) ? Quelle demi-pile est l'anode ?
+\vspace{\stretch{1}}
+2. Écrivez l'équation globale spontanée de la pile.
+\vspace{\stretch{1}}
+3. Calculez le potentiel standard de la pile $\Delta E^0_{pile}$.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. Le couple de plus haut potentiel est réduit : $\ce{Ag+/Ag}$ est la cathode. $\ce{Ni^{2+}/Ni}$ (potentiel plus bas) est l'anode.
+2. Cathode : $\ce{2 Ag+ + 2 e^- -> 2 Ag}$ ; anode : $\ce{Ni -> Ni^{2+} + 2 e^-}$. Équation globale :
+$$
+\ce{Ni + 2 Ag+ -> Ni^{2+} + 2 Ag}
+$$
+3. $$
+\Delta E^0_{pile} = E^0_{cathode} - E^0_{anode} = 0.80 - (-0.23) = 1.03 \text{ V}
+$$
+La valeur est positive : la réaction est spontanée.
+
+:::

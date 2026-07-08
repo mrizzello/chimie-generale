@@ -1,0 +1,23 @@
+::: {.Exercise data-latex=""}
+
+On réalise l'électrolyse d'une solution aqueuse. Deux demi-réactions sont possibles à la cathode :
+
+- $\ce{2 H2O + 2 e^- -> H2 + 2 OH-}$ ($E^0 = -0.83$ V)
+- $\ce{Na+ + e^- -> Na}$ ($E^0 = -2.71$ V)
+
+1. Dans une cellule électrolytique, à quelle électrode a lieu la réduction ? Cette électrode est-elle l'anode ou la cathode ?
+\vspace{\stretch{1}}
+2. Une électrolyse est-elle une transformation spontanée ou forcée ?
+\vspace{\stretch{1}}
+3. Parmi les deux demi-réactions ci-dessus, laquelle se produit préférentiellement à la cathode ? Justifiez.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. La réduction a lieu à la cathode.
+2. Une électrolyse est une transformation non spontanée : elle est forcée par une source de courant externe.
+3. La réduction de l'eau ($E^0 = -0.83$ V) : c'est la demi-réaction dont le potentiel est le moins négatif, donc celle qui demande le moins d'énergie ; elle se produit préférentiellement. On dégage ainsi du dihydrogène plutôt que du sodium.
+
+:::

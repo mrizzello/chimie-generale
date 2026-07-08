@@ -90,7 +90,7 @@ $$
 
 ## Potentiels standards de réduction
 
-Entre l'anode et la cathode, l'intensité de l'attraction exercée sur les électrons est appelée **potentiel électrochimique** (E~pile~) ou **force électromotrice** de la pile. L'unité avec laquelle le potentiel électrique est exprimé est le volt [V]. Un des moyens de mesurer ce potentiel électrique est de relier un voltmètre entre les pôles de la pile électrique.
+Entre l'anode et la cathode, l'intensité de l'attraction exercée sur les électrons est appelée **potentiel électrochimique** (E~pile~) ou **force électromotrice** de la pile. L'unité avec laquelle le potentiel électrique est exprimé est le volt V. Un des moyens de mesurer ce potentiel électrique est de relier un voltmètre entre les pôles de la pile électrique.
 
 Quelle est la pile qui fournirait le plus d'énergie électrochimique ?
 
@@ -100,10 +100,10 @@ Le potentiel électrochimique d'une pile dépend des demi-piles (cathode et anod
 
 $$
 \begin{split}
-\ce{Zn(s)}\ │\ \ce{Zn^{2+}(aq)}\ |&|\ \ce{Cu^{2+}(aq)}\ │\ \ce{Cu(s)} \quad E_{pile} = 1.1\ [V] \\
-\ce{Ni(s)}\ │\ \ce{Ni^{2+}(aq)}\ |&|\ \ce{Cu^{2+}(aq)}\ │\ \ce{Cu(s)} \quad E_{pile} = 0.57\ [V] \\
-\ce{Sn(s)}\ │\ \ce{Sn^{2+}(aq)}\ |&|\ \ce{Cu^{2+}(aq)}\ │\ \ce{Cu(s)} \quad E_{pile} = 0.48\ [V] \\
-\ce{Pb(s)}\ │\ \ce{Pb^{2+}(aq)}\ |&|\ \ce{Cu^{2+}(aq)}\ │\ \ce{Cu(s)} \quad E_{pile} = 0.47\ [V] \\
+\ce{Zn(s)}\ │\ \ce{Zn^{2+}(aq)}\ |&|\ \ce{Cu^{2+}(aq)}\ │\ \ce{Cu(s)} \quad E_{pile} = 1.1\ \text{ V} \\
+\ce{Ni(s)}\ │\ \ce{Ni^{2+}(aq)}\ |&|\ \ce{Cu^{2+}(aq)}\ │\ \ce{Cu(s)} \quad E_{pile} = 0.57\ \text{ V} \\
+\ce{Sn(s)}\ │\ \ce{Sn^{2+}(aq)}\ |&|\ \ce{Cu^{2+}(aq)}\ │\ \ce{Cu(s)} \quad E_{pile} = 0.48\ \text{ V} \\
+\ce{Pb(s)}\ │\ \ce{Pb^{2+}(aq)}\ |&|\ \ce{Cu^{2+}(aq)}\ │\ \ce{Cu(s)} \quad E_{pile} = 0.47\ \text{ V} \\
 & ...
 \end{split}
 $$
@@ -113,28 +113,31 @@ Cependant, si nous définissons arbitrairement la valeur du potentiel d'une demi
 La demi-pile de référence est une électrode à hydrogène, qui consiste en une électrode de platine traversée par du dihydrogène gazeux (H~2~ ) et immergée dans un acide fort. Ainsi, la demi-réaction de référence est:
 
 $$
-\ce{2 H+(aq) + 2 e^- <=> H2(g)} \qquad E^0 = 0\ [V]
+\ce{2 H+(aq) + 2 e^- <=> H2(g)} \qquad E^0 = 0\ \text{ V}
 $$
 
 ```{r ESH,echo=FALSE,out.width="25%",fig.show="hold",fig.align="center",fig.cap="Schéma de l'électrode standard à hydrogène."}
 knitr::include_graphics(c("images/ESH.png"))
 ```
 
-Dans les conditions standards, avec une pression de H~2~ de 1 [atm] et une concentration de la solution acide de 1 M, le potentiel de réduction de H^+^ à 25°C (E^0^)est défini comme étant exactement égal à 0 [V]. L'exposant ^0^ désigne les conditions à l'état standard et E^0^ sera nommé **potentiel standard de réduction**.
+Dans les conditions standards, avec une pression de H~2~ de 1 atm et une concentration de la solution acide de 1 M, le potentiel de réduction de H^+^ à 25°C (E^0^)est défini comme étant exactement égal à 0 V. L'exposant ^0^ désigne les conditions à l'état standard et E^0^ sera nommé **potentiel standard de réduction**.
 
 Avec un électrode de référence, on peut mesurer le potentiel des autres électrodes :
 
 $$
 \begin{split}
-\ce{Zn(s)}\ │\ \ce{Zn^{2+}(aq) 1M}\ |&|\ \ce{H^+(aq) 1M}\ │\ \ce{H2\ (1 [atm])} |\ \ce{Pt(s)} \quad E^0_{Zn^{2+}/Zn} = -0.76\ [V] \\
-\ce{Ni(s)}\ │\ \ce{Ni^{2+}(aq) 1M}\ |&|\ \ce{H^+(aq) 1M}\ │\ \ce{H2\ (1 [atm])} |\ \ce{Pt(s)} \quad E^0_{Ni^{2+}/Ni} = -0.23\ [V] \\
-\ce{Sn(s)}\ │\ \ce{Sn^{2+}(aq) 1M}\ |&|\ \ce{H^+(aq) 1M}\ │\ \ce{H2\ (1 [atm])} |\ \ce{Pt(s)} \quad E^0_{Sn^{2+}/Sn} = -0.14\ [V] \\
-\ce{Pb(s)}\ │\ \ce{Pb^{2+}(aq) 1M}\ |&|\ \ce{H^+(aq) 1M}\ │\ \ce{H2\ (1 [atm])} |\ \ce{Pt(s)} \quad E^0_{Pb^{2+}/Pb} = -0.13\ [V] \\
+\ce{Zn(s)}\ │\ \ce{Zn^{2+}(aq) 1M}\ |&|\ \ce{H^+(aq) 1M}\ │\ \ce{H2\ (1 \text{ atm})} |\ \ce{Pt(s)} \quad E^0_{Zn^{2+}/Zn} = -0.76\ \text{ V} \\
+\ce{Ni(s)}\ │\ \ce{Ni^{2+}(aq) 1M}\ |&|\ \ce{H^+(aq) 1M}\ │\ \ce{H2\ (1 \text{ atm})} |\ \ce{Pt(s)} \quad E^0_{Ni^{2+}/Ni} = -0.23\ \text{ V} \\
+\ce{Sn(s)}\ │\ \ce{Sn^{2+}(aq) 1M}\ |&|\ \ce{H^+(aq) 1M}\ │\ \ce{H2\ (1 \text{ atm})} |\ \ce{Pt(s)} \quad E^0_{Sn^{2+}/Sn} = -0.14\ \text{ V} \\
+\ce{Pb(s)}\ │\ \ce{Pb^{2+}(aq) 1M}\ |&|\ \ce{H^+(aq) 1M}\ │\ \ce{H2\ (1 \text{ atm})} |\ \ce{Pt(s)} \quad E^0_{Pb^{2+}/Pb} = -0.13\ \text{ V} \\
 & ...
 \end{split}
 $$
 
 On peut ainsi regrouper dans une table les valeurs de potentiel qui correspondent aux demi-réactions de réduction les plus courantes (**table des potentiels standards de réduction**).
+
+```{r, child=c('exe/electrochimie/05.Rmd')}
+```
 
 ### Potentiel électrochimique ou force électromotrice (fem)
 
@@ -146,12 +149,12 @@ $$
 \Delta E^0_{pile} = E^0_{cathode} − E^0_{anode}
 $$
 
-Pour la pile Zn/Cu^2+^, pour des concentrations de 1 M, sous une pression de 1 [atm] et une température de 25°C, le voltmètre nous indiquerai une tension ($\Delta E^0_{pile}$) de 1.1 [V].
+Pour la pile Zn/Cu^2+^, pour des concentrations de 1 M, sous une pression de 1 atm et une température de 25°C, le voltmètre nous indiquerai une tension ($\Delta E^0_{pile}$) de 1.1 V.
 
 $$
 \begin{split}
 \Delta E^0_{pile} &= E^0_{Cu/Cu^{2+}} − E^0_{Zn^{2+}/Zn} \\
-  &= 0.34\ [V] − (-0.76\ [V]) = 1.1\ [V]
+  &= 0.34\ \text{ V} − (-0.76\ \text{ V}) = 1.1\ \text{ V}
 \end{split}
 $$
 
@@ -181,9 +184,9 @@ knitr::include_graphics(c("images/nernst-illustration.png"))
 
 |              | $|\ce{Cu^{2+}}|$ | $|\ce{Zn^{2+}}|$ |                            |
 | -----------: | ---------------: | ---------------: | -------------------------: |
-| Non standard |            1.5 M |          0.075 M | $E_{pile} = 1.142 [V]$     |
-|     Standard |              1 M |              1 M | $E^{0}_{pile} = 1.103 [V]$ |
-| Non standard |          0.075 M |            1.5 M | $E_{pile} = 1.064 [V]$     |
+| Non standard |            1.5 M |          0.075 M | $E_{pile} = 1.142 \text{ V}$     |
+|     Standard |              1 M |              1 M | $E^{0}_{pile} = 1.103 \text{ V}$ |
+| Non standard |          0.075 M |            1.5 M | $E_{pile} = 1.064 \text{ V}$     |
 
 Lors de l'utilisation d'une pile, |Cu^2+^| diminue et |Zn^2+^| augmente ce qui entraîne une diminution régulière de la tension aux bornes de la pile, jusqu'à ce qu'elle ne soit plus suffisante pour alimenter l'appareil.
 
@@ -197,12 +200,12 @@ $$
 
 avec :
 
-- $\Delta E$ : tension aux bornes de la pile [V]
-- $\Delta E^{0}$ : tension aux bornes de la pile aux conditions standard [V]
-- R : constante des gaz parfaits [J/mol K]
-- T : température absolue [K]
+- $\Delta E$ : tension aux bornes de la pile V
+- $\Delta E^{0}$ : tension aux bornes de la pile aux conditions standard V
+- R : constante des gaz parfaits J/mol K
+- T : température absolue K
 - n : nombre de moles d'électrons échangés aux cours de la réaction
-- F : charge d'une mole d'électrons [C] (= 96500 [C])
+- F : charge d'une mole d'électrons C (= 96500 C)
 - Q : quotient réactionnel
 
 \newpage
@@ -276,8 +279,8 @@ Anode (oxydation):
 
 |                                           |                                  |
 | :---------------------------------------: | :------------------------------- |
-|     $\ce{2Cl-(aq) -> Cl2(g) + 2 e^-}$     | $E^0_{\ce{Cl2/Cl-}} = 1.36\ [V]$ |
-| $\ce{2H2O(l) -> 4H+(aq) + O2(g) + 4 e^-}$ | $E^0_{\ce{O2/H2O}} = 1.23\ [V]$  |
+|     $\ce{2Cl-(aq) -> Cl2(g) + 2 e^-}$     | $E^0_{\ce{Cl2/Cl-}} = 1.36\ \text{ V}$ |
+| $\ce{2H2O(l) -> 4H+(aq) + O2(g) + 4 e^-}$ | $E^0_{\ce{O2/H2O}} = 1.23\ \text{ V}$  |
 
 \newpage
 
@@ -285,8 +288,8 @@ Cathode (réduction):
 
 |                                            |                                  |
 | :----------------------------------------: | :------------------------------- |
-| $\ce{2H2O(l) + 2 e^- -> 2OH-(aq) + H2(g)}$ | $E^0_{\ce{H2O/H2}} = -0.83\ [V]$ |
-|       $\ce{Na+(aq) + e^- -> Na(s)}$        | $E^0_{\ce{Na+/Na}} = -2.7\ [V]$  |
+| $\ce{2H2O(l) + 2 e^- -> 2OH-(aq) + H2(g)}$ | $E^0_{\ce{H2O/H2}} = -0.83\ \text{ V}$ |
+|       $\ce{Na+(aq) + e^- -> Na(s)}$        | $E^0_{\ce{Na+/Na}} = -2.7\ \text{ V}$  |
 
 Quelle que soit la combinaison de demi-réactions à l'anode et à la cathode, elles donnent toutes une valeur négative de différence de potentiel. Cela signifie simplement que la réaction d’électrolyse ne se produit pas spontanément.
 
@@ -296,7 +299,7 @@ Quelle que soit la combinaison de demi-réactions à l'anode et à la cathode, e
 knitr::include_graphics(c("images/electrolysis-potentials.png"))
 ```
 
-De manière théorique, la réaction d’électrolyse favorisée est celle qui réduit l'eau (E^0^ = - 0,83 V) et qui oxyde l'eau (E^0^ = 1.23 V).
+De manière théorique, la réaction d’électrolyse favorisée est celle qui réduit l'eau (E^0^ = - 0.83 V) et qui oxyde l'eau (E^0^ = 1.23 V).
 
 $$
 \ce{6 H2O(l) -> 4 H+(aq) + 4 OH-(aq) + 2 H2(g) + O2(g)}
@@ -315,9 +318,12 @@ $$
 
 \newpage
 
+```{r, child=c('exe/electrochimie/60.Rmd')}
+```
+
 ### Loi de Faraday
 
-La quantité de réactif consommé ou de produit formé lors d'une électrolyse dépend de la quantité de charge transférée aux électrodes, laquelle dépend de l’intensité du courant électrique utilisé et du temps requis pour l’électrolyse. L’unité de charge électrique est le coulomb (C) et la charge portée par un électron est de $-1.6022 \cdot 10^{-19}$ [C]. Une mole d'électrons repésentent donc une charge totale de 96'485 [C].
+La quantité de réactif consommé ou de produit formé lors d'une électrolyse dépend de la quantité de charge transférée aux électrodes, laquelle dépend de l’intensité du courant électrique utilisé et du temps requis pour l’électrolyse. L’unité de charge électrique est le coulomb (C) et la charge portée par un électron est de $-1.6022 \cdot 10^{-19}$ C. Une mole d'électrons repésentent donc une charge totale de 96'485 C.
 
 Ces considérations nous permettent de définir une relation mathématique qui nous permet déterminer les quantités de réactif consommé et de produits formés à la fin d'une électrolyse en fonction de différents facteurs (loi de Faraday).
 
@@ -328,17 +334,35 @@ m = \frac{M \cdot I \cdot t}{n \cdot 96500}
 \qquad\qquad
 \begin{split}
 &\text{avec} \\
-&\text{m : masse de la substance [g]} \\
+&\text{m : masse de la substance g} \\
 &\text{n : nombre d'électrons transférés} \\
-&\text{96500 : constante de Faraday [C/mol]} \\
-&\text{t : temps [s]} \\
-&\text{M : masse molaire de la substance [g/mol]}
+&\text{96500 : constante de Faraday C/mol} \\
+&\text{t : temps s} \\
+&\text{M : masse molaire de la substance g/mol}
 \end{split}
 $$
 
 \newpage
 
 ```{r, child=c('exe/electrochimie/40.Rmd')}
+```
+
+## Résumé
+
+- Une pile électrochimique convertit l'énergie d'une réaction d'oxydoréduction spontanée en énergie électrique. Elle est formée de deux demi-piles reliées par un fil et un pont salin. L'oxydation a lieu à l'anode (pôle -) et la réduction à la cathode (pôle +).
+- On ne peut pas mesurer le potentiel d'une demi-pile isolée ; on le définit par rapport à l'électrode standard à hydrogène. On obtient ainsi la table des potentiels standards de réduction.
+- Le potentiel standard d'une pile est $\Delta E^0_{pile} = E^0_{cathode} - E^0_{anode}$. Une valeur positive indique une réaction spontanée.
+- Hors des conditions standard, la tension dépend des concentrations selon l'équation de Nernst.
+- Une cellule électrolytique utilise une source de courant externe pour forcer une réaction non spontanée. L'oxydation a toujours lieu à l'anode et la réduction à la cathode. Les signes des électrodes sont inversés par rapport à la pile.
+- Pour prédire les réactions d'électrolyse, on retient à chaque électrode la demi-réaction dont la différence de potentiel est la plus faible.
+- La masse de substance transformée à une électrode vaut $m = \dfrac{M \cdot I \cdot t}{n \cdot F}$.
+
+## Exercices supplémentaires
+
+```{r, child=c('exe/electrochimie/70.Rmd')}
+```
+
+```{r, child=c('exe/electrochimie/80.Rmd')}
 ```
 
 \newpage
