@@ -11,7 +11,7 @@
 
 :::
 
-| Substance        | $\Delta H^o_f\ [kJ/mol]$ | Substance        | $\Delta H^o_f\ [kJ/mol]$ |
+| Substance        | $\Delta H^o_f\ \text{ kJ/mol}$ | Substance        | $\Delta H^o_f\ \text{ kJ/mol}$ |
 | :--------------- | :----------------------: | :--------------- | :----------------------: |
 | $\ce{H2_{(g)}}$  |            0             | $\ce{N2_{(g)}}$  |            0             |
 | $\ce{O2_{(g)}}$  |            0             | $\ce{N_{(g)}}$   |         472.704          |
@@ -24,20 +24,20 @@
 1. $$
 \begin{split}
 \Delta H^o &= [3 \cdot (-241.82)] - [3 \cdot 0 + 1 \cdot 142.7] \\
-&= -868\ [kJ/mol]
+&= -868\ \text{ kJ/mol}
 \end{split}
 $$
 2. $$
 \begin{split}
 \Delta H^o &= [2 \cdot 33.2] - [2 \cdot 90.25 + 1 \cdot 0] \\
-&= -114\ [kJ/mol]
+&= -114\ \text{ kJ/mol}
 \end{split}
 $$
 3. \ce{N2O_{(g)} + NO2_{(g)} -> 3NO_{(g)}}
 $$
 \begin{split}
 \Delta H^o &= [3 \cdot 90.25] - [1 \cdot 81.6 + 1 \cdot 33.2] \\
-&= 156\ [kJ/mol]
+&= 156\ \text{ kJ/mol}
 \end{split}
 $$
 

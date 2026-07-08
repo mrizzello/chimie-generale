@@ -1,6 +1,6 @@
 ::: {.Exercise data-latex=""}
 
-Un morceau de métal inconnu pèse 348 [g]. Lorsque le morceau de métal absorbe 6.64 [kJ] de chaleur, sa température passe de 22.4°C à 43.6°C. Déterminez la chaleur spécifique de ce métal et déterminez de quel métal il s'agit.
+Un morceau de métal inconnu pèse 348 g. Lorsque le morceau de métal absorbe 6.64 kJ de chaleur, sa température passe de 22.4°C à 43.6°C. Déterminez la chaleur spécifique de ce métal et déterminez de quel métal il s'agit.
 
 \vspace{\stretch{1}}
 
@@ -15,11 +15,11 @@ q_{\ce{m}} &= m_{\ce{m}} \cdot C_{p\ \ce{m}} \cdot \Delta T_{\ce{m}}
 \qquad \Rightarrow \qquad
 \begin{split}
 C_{p\ \ce{m}} &= \frac{q_{\ce{m}}}{m_{\ce{m}} \cdot \Delta T_{\ce{m}}} \\
- &= \frac{6.64 \cdot 10^3\ [J]}{348\ [g] \cdot (43.6 - 22.4)} \\
- &= 0.900\ [J/(K \cdot g)] \\
+ &= \frac{6.64 \cdot 10^3\ \text{ J}}{348\ \text{ g} \cdot (43.6 - 22.4)} \\
+ &= 0.900\ \mathrm{J/(K \cdot g)} \\
 \end{split}
 $$
 
-Le métal pourrait être de l'aluminium $C_{p\ \ce{Al}} = 0.897\ [J/(K \cdot g)]$.
+Le métal pourrait être de l'aluminium $C_{p\ \ce{Al}} = 0.897\ \mathrm{J/(K \cdot g)}$.
 
 :::

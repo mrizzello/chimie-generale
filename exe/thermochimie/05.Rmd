@@ -1,0 +1,23 @@
+::: {.Exercise data-latex=""}
+
+Répondez aux questions suivantes.
+
+1. Quelle est la différence entre la chaleur et la température ?
+\vspace{\stretch{1}}
+2. Qu'appelle-t-on un système « isolé » ? Peut-il échanger de la matière ? de l'énergie ?
+\vspace{\stretch{1}}
+3. Énoncez la loi de conservation de l'énergie.
+\vspace{\stretch{1}}
+4. Que représente la variation d'enthalpie $\Delta H$ d'une réaction, et que signifie son signe ?
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. La température mesure le degré d'agitation moyen des particules ; la chaleur est la quantité d'énergie transférée d'un corps chaud vers un corps froid lors d'une transformation.
+2. Un système isolé n'échange ni matière ni énergie avec l'environnement. (Un système fermé échange de l'énergie mais pas de matière ; un système ouvert échange les deux.)
+3. Lors d'un changement physique ou chimique, l'énergie n'est ni créée ni détruite : l'énergie totale d'un système isolé reste constante.
+4. $\Delta H = H_{produits} - H_{réactifs}$ est la chaleur échangée à pression constante. $\Delta H < 0$ : réaction exothermique (le système libère de la chaleur) ; $\Delta H > 0$ : réaction endothermique (le système absorbe de la chaleur).
+
+:::
