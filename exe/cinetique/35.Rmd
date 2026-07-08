@@ -1,0 +1,23 @@
+::: {.Exercise data-latex=""}
+
+Citez et expliquez brièvement (à l'aide de la théorie des collisions) l'effet des facteurs suivants sur la vitesse d'une réaction.
+
+1. une augmentation de la concentration des réactifs
+\vspace{\stretch{1}}
+2. une augmentation de la température
+\vspace{\stretch{1}}
+3. l'ajout d'un catalyseur
+\vspace{\stretch{1}}
+4. l'augmentation de la surface de contact d'un réactif solide
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. La vitesse augmente : plus il y a de particules par unité de volume, plus les collisions entre réactifs sont fréquentes.
+2. La vitesse augmente : les particules se déplacent plus vite, les collisions sont plus fréquentes et plus énergétiques (davantage de collisions dépassent l'énergie d'activation).
+3. La vitesse augmente : le catalyseur abaisse l'énergie d'activation (ou oriente mieux les réactifs), sans être consommé.
+4. La vitesse augmente : une plus grande surface de contact offre plus de zones où les collisions peuvent se produire (réactions hétérogènes).
+
+:::
