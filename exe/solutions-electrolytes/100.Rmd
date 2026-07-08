@@ -1,0 +1,24 @@
+::: {.Exercise data-latex=""}
+
+On veut préparer 250 mL d'une solution de chlorure de sodium (NaCl) de concentration 0.20 M. Masse molaire : NaCl = 58.44 g/mol.
+
+1. Calculez la quantité de matière (moles) de NaCl nécessaire.
+\vspace{\stretch{1}}
+2. Calculez la masse de NaCl à peser.
+\vspace{\stretch{1}}
+3. Décrivez les étapes de la préparation par dissolution.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. $$
+n = C \cdot V = 0.20 \cdot 0.250 = 0.050 \text{ mol}
+$$
+2. $$
+m = n \cdot M = 0.050 \cdot 58.44 = 2.92 \text{ g}
+$$
+3. Peser 2.92 g de NaCl ; remplir à moitié une fiole jaugée de 250 mL avec de l'eau distillée ; y transférer le sel et le dissoudre ; compléter jusqu'au trait de jauge avec de l'eau distillée.
+
+:::

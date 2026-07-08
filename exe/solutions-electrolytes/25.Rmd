@@ -1,0 +1,20 @@
+::: {.Exercise data-latex=""}
+
+On rappelle la règle « qui se ressemble se dissout » : un soluté polaire (ou ionique) se dissout dans un solvant polaire, un soluté non polaire dans un solvant non polaire.
+
+1. Citez les facteurs qui influencent la dissolution d'un soluté.
+\vspace{\stretch{1}}
+2. Le sel (NaCl, ionique) et l'huile (non polaire) : lequel se dissout dans l'eau (solvant polaire) ? Justifiez.
+\vspace{\stretch{1}}
+3. En général, comment la solubilité d'un solide dans l'eau varie-t-elle avec la température ?
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. La quantité de soluté par rapport au solvant, la nature du soluté, la nature du solvant et la température.
+2. Le **sel** se dissout dans l'eau : NaCl est ionique et l'eau est polaire, « qui se ressemble se dissout ». L'huile, non polaire, ne se dissout pas dans l'eau polaire.
+3. En général, la solubilité d'un solide **augmente** avec la température.
+
+:::

@@ -51,6 +51,9 @@ Le soluté n'est pas forcément solide et le solvant n'est pas forcément liquid
 
 Table: (\#tab:types-solution-etats-matiere) Types de solution selon les différents états de la matière.
 
+```{r, child=c('exe/solutions-electrolytes/05.Rmd')}
+```
+
 ### La dissolution
 
 ::: {.tcolorbox data-latex=""}
@@ -86,6 +89,9 @@ knitr::include_graphics(c("images/dissolution-1.png", "images/dissolution-2.png"
 - la nature du solvant (qui se ressemble se dissout),
 - la température.
 
+```{r, child=c('exe/solutions-electrolytes/25.Rmd')}
+```
+
 ### La solubilité et la saturation
 
 A une température donnée, il existe une limite à la quantité de soluté qui peut se dissoudre dans une quantité de solvant. Cette limite est appelée **solubilité**. Une fois cette limite atteinte, la solution est appelée **solution saturée**, en dessous de cette limite, c'est une **solution non saturée**.
@@ -98,7 +104,7 @@ La solubilité d'un composé est la quantité maximale de soluté qui peut être
 :::
 
 - **Question** : Quelle est la solubilité de $\ce{NaCl}$ ?
-- **Réponse** : La solubilité de $\ce{NaCl}$ est de 36 [g] pour 100 mL à 25°C.
+- **Réponse** : La solubilité de $\ce{NaCl}$ est de 36 g pour 100 mL à 25°C.
 
 Cela veut dire que l'on peut dissoudre **au maximum** 36 grammes de NaCl dans 100 mL d'eau à 25°C. Une fois cette limite atteinte, si l'on ajoute du NaCl à la solution, il ne se dissoudra pas. La solution est **saturée**.
 
@@ -106,6 +112,9 @@ Sous certaines conditions, la limite de solubilité peut être dépassée et plu
 
 ```{r solubilite-saturation,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Solubilité et saturation"}
 knitr::include_graphics(c("images/solution.png"))
+```
+
+```{r, child=c('exe/solutions-electrolytes/15.Rmd')}
 ```
 
 ### La cristallisation
@@ -138,6 +147,8 @@ knitr::include_graphics(c("images/dissociation.png"))
 ```
 
 **Une solution est électriquement neutre : le nombre de charges positives est égal au nombre de charges négatives.**  
+
+\newpage
 
 ### Équations de dissociation
 
@@ -202,16 +213,14 @@ A l'inverse, une solution sucrée ne conduit pas l'électricité car le saccharo
 
 Le courant électrique dans la solution est dû au déplacement des cations dans un sens et au déplacement des anions dans le sens contraire. C'est un déplacement de charges et non un déplacement d'électrons seuls.
 
+\newpage
+
 ```{r, child=c('exe/solutions-electrolytes/20.Rmd')}
 ```
-
-\vspace{\stretch{1}}
 
 ```{r dissociation-resume,echo=FALSE,out.width="100%",fig.show="hold",fig.align="center",fig.cap="Résumé dissolution-dissociation"}
 knitr::include_graphics(c("images/dissociation-resume.png"))
 ```
-
-\newpage
 
 ## La concentration
 
@@ -238,15 +247,15 @@ $$
 \end{split}
 \qquad
 \begin{split}
-  n &\text{ : Nombre de moles de soluté en [mol]} \\
-  V &\text{ : Volume de solution en [l]} \\
-  C &\text{ : Concentration du soluté en [mol/l] ou M}
+  n &\text{ : Nombre de moles de soluté en mol} \\
+  V &\text{ : Volume de solution en l} \\
+  C &\text{ : Concentration du soluté en mol/l ou M}
 \end{split}
 $$
 
-En chimie, la concentration molaire d'une espèce A est notée entre deux barres verticales, **|A|**. Par exemple, une concentration en acide sulfurique (H~2~SO~4~) de 0.5 [mol/l] sera notée:
+En chimie, la concentration molaire d'une espèce A est notée entre deux barres verticales, **|A|**. Par exemple, une concentration en acide sulfurique (H~2~SO~4~) de 0.5 mol/l sera notée:
 
-$$ |H_2SO_4| = 0.5\ M \text{ ou } [mol/l] $$
+$$ |H_2SO_4| = 0.5\ M \text{ ou } \text{ mol/l} $$
 
 ```{r, child=c('exe/solutions-electrolytes/30.Rmd')}
 ```
@@ -263,9 +272,9 @@ $$
 \end{split}
 \qquad
 \begin{split}
-  m &\text{ : Masse de soluté en [g]} \\
-  V &\text{ : Volume de solution en [l]} \\
-  T &\text{ : Titre du soluté en [g/l]}
+  m &\text{ : Masse de soluté en g} \\
+  V &\text{ : Volume de solution en l} \\
+  T &\text{ : Titre du soluté en g/l}
 \end{split}
 $$
 
@@ -277,9 +286,9 @@ $$
 \end{split}
 \qquad
 \begin{split}
-  T &\text{ : Titre du soluté en [g/l]} \\
-  C &\text{ : Concentration de la solution en [mol/l]} \\
-  M &\text{ : Masse molaire du soluté [g/mol]}
+  T &\text{ : Titre du soluté en g/l} \\
+  C &\text{ : Concentration de la solution en mol/l} \\
+  M &\text{ : Masse molaire du soluté g/mol}
 \end{split}
 $$
 
@@ -334,7 +343,7 @@ C_i \cdot V_i = C_f \cdot V_f
   C_i & \text{: concentration initiale} \\
   V_i & \text{: volume initial} \\
   C_f & \text{: concentration finale} \\
-  V_f & \text{: concentration final}
+  V_f & \text{: volume final}
 \end{split}
 $$
 
@@ -343,15 +352,26 @@ $$
 ```{r, child=c('exe/solutions-electrolytes/40.Rmd')}
 ```
 
+## Résumé
+
+- Une solution est un mélange homogène d'un solvant et d'un ou plusieurs solutés. Une solution aqueuse a l'eau pour solvant.
+- La dissolution peut être moléculaire ou ionique.
+- La solubilité est la quantité maximale de soluté qui se dissout dans un solvant à une température donnée. Elle dépend de la nature du soluté et du solvant et de la température.
+- Une solution est non saturée, saturée ou sursaturée. La cristallisation est l'inverse de la dissolution.
+- Un électrolyte est une substance qui se dissocie en ions en solution et rend la solution conductrice. Les composés ioniques solubles et les acides sont des électrolytes ; les molécules qui ne se dissocient pas ne le sont pas.
+- L'équation de dissociation d'un composé ionique soluble s'écrit $\ce{C_nA_m ->C[H2O] n\,C^{m+} + m\,A^{n-}}$ ; un composé insoluble est noté avec une flèche vers le bas.
+- La molarité : $C = \dfrac{n}{V}$ en mol/l (ou M), notée $|A|$. Le titre : $T = \dfrac{m}{V}$ en g/l. On passe de l'un à l'autre par $T = C \cdot M$.
+- On prépare une solution par dissolution ou par dilution d'une solution stock.
+
 ## Exercices supplémentaires
 
 ```{r, child=c('exe/solutions-electrolytes/50.Rmd')}
 ```
 
+\newpage
+
 ```{r, child=c('exe/solutions-electrolytes/80.Rmd')}
 ```
-
-\newpage
 
 ```{r, child=c('exe/solutions-electrolytes/60.Rmd')}
 ```
@@ -362,6 +382,22 @@ $$
 ```
 
 ```{r, child=c('exe/solutions-electrolytes/90.Rmd')}
+```
+
+\newpage
+
+```{r, child=c('exe/solutions-electrolytes/100.Rmd')}
+```
+
+```{r, child=c('exe/solutions-electrolytes/110.Rmd')}
+```
+
+\newpage
+
+```{r, child=c('exe/solutions-electrolytes/120.Rmd')}
+```
+
+```{r, child=c('exe/solutions-electrolytes/130.Rmd')}
 ```
 
 \newpage

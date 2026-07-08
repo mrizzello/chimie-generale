@@ -2,8 +2,8 @@
 
 On prépare deux solutions de 100 mL chacune, par dissolution de :
 
-1. 0.111 [g] de chlorure de calcium,
-2. 58.5 [mg] de sulfate de fer (III).
+1. 0.111 g de chlorure de calcium,
+2. 58.5 mg de sulfate de fer (III).
 
 Calculer pour chacune d'elles, la concentration molaire du sel et celle des ions qui constituent le sel.	
 
@@ -15,9 +15,9 @@ Calculer pour chacune d'elles, la concentration molaire du sel et celle des ions
 
 1. $$
 	\begin{split}
-		M_{\ce{CaCl2}} &= 110.98\ [g/mol] \\[2em]
-		\Rightarrow n_{\ce{CaCl2}} &= \frac{m_{\ce{CaCl2}}}{M_{\ce{CaCl2}}} = \frac{0.111\ [g]}{110.98\ [g/mol]} = 10^{-3}\ [mol] \\[2em]
-		|\ce{CaCl2}| &= \frac{n_{\ce{CaCl2}}}{V_{sol}} = \frac{10^{-3}\ [mol]}{10^{-1}\ [L]} = 10^{-2}\ M
+		M_{\ce{CaCl2}} &= 110.98\ \text{ g/mol} \\[2em]
+		\Rightarrow n_{\ce{CaCl2}} &= \frac{m_{\ce{CaCl2}}}{M_{\ce{CaCl2}}} = \frac{0.111\ \text{ g}}{110.98\ \text{ g/mol}} = 10^{-3}\ \text{ mol} \\[2em]
+		|\ce{CaCl2}| &= \frac{n_{\ce{CaCl2}}}{V_{sol}} = \frac{10^{-3}\ \text{ mol}}{10^{-1}\ \text{ L}} = 10^{-2}\ M
 	\end{split}		
 	\qquad
 	\begin{split}
@@ -28,10 +28,10 @@ Calculer pour chacune d'elles, la concentration molaire du sel et celle des ions
 $$
 2. $$
 	\begin{split}
-		M_{\ce{Fe2(SO4)3}} &= 399.88\ [g/mol] \\[2em]
+		M_{\ce{Fe2(SO4)3}} &= 399.88\ \text{ g/mol} \\[2em]
 		\Rightarrow n_{\ce{Fe2(SO4)3}} &= \frac{m_{\ce{Fe2(SO4)3}}}{M_{\ce{Fe2(SO4)3}}} \\
-			&= \frac{58.5 \cdot 10^{-3}\ [g]}{399.88\ [g/mol]} = 1.463 \cdot 10^{-4}\ [mol] \\[2em]
-		|\ce{Fe2(SO4)3}| &= \frac{n_{\ce{Fe2(SO4)3}}}{V_{sol}}\\ &= \frac{1.463 \cdot 10^{-4}\ [mol]}{10^{-1}\ [L]} = 1.463 \cdot 10^{-3}\ M
+			&= \frac{58.5 \cdot 10^{-3}\ \text{ g}}{399.88\ \text{ g/mol}} = 1.463 \cdot 10^{-4}\ \text{ mol} \\[2em]
+		|\ce{Fe2(SO4)3}| &= \frac{n_{\ce{Fe2(SO4)3}}}{V_{sol}}\\ &= \frac{1.463 \cdot 10^{-4}\ \text{ mol}}{10^{-1}\ \text{ L}} = 1.463 \cdot 10^{-3}\ M
 	\end{split}		
 	\qquad
 	\begin{split}

@@ -1,0 +1,23 @@
+::: {.Exercise data-latex=""}
+
+La solubilité du chlorure de sodium est de 36 g pour 100 mL d'eau à 25°C.
+
+1. Que signifie « solution saturée » ? « non saturée » ? « sursaturée » ?
+\vspace{\stretch{1}}
+2. On dissout 20 g de NaCl dans 100 mL d'eau à 25°C. La solution est-elle saturée, non saturée ou sursaturée ?
+\vspace{\stretch{1}}
+3. On dissout 36 g de NaCl dans 100 mL d'eau à 25°C, puis on ajoute encore 5 g de NaCl. Que se passe-t-il ?
+\vspace{\stretch{1}}
+4. De quoi dépend la solubilité d'un composé ?
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. Une solution **saturée** contient la quantité maximale de soluté dissous ; une solution **non saturée** en contient moins que ce maximum ; une solution **sursaturée** en contient plus que le maximum (état instable).
+2. **Non saturée** : 20 g est inférieur à la limite de solubilité (36 g).
+3. Les 36 g se dissolvent (la solution est saturée) ; les 5 g supplémentaires ne se dissolvent pas et restent solides au fond du récipient.
+4. La solubilité dépend de la nature du soluté et du solvant (« qui se ressemble se dissout ») et de la **température**.
+
+:::
