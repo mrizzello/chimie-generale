@@ -21,31 +21,31 @@ Cette équation nous indique que deux atomes de sodium réagissent avec une mol�
 
 Nous choisissons arbitrairement de faire réagir totalement une mole de dichlore dans cette réaction. De combien de sodium allons-nous avoir besoin ? Et combien de chlorure de sodium pouvons-nous espérer produire ?
 
-Une mole de dichlore pèse 70.9 [g], nous savons donc qu'il nous faudra préparer 70.9 [g] de chlore gazeux.
+Une mole de dichlore pèse 70.9 g, nous savons donc qu'il nous faudra préparer 70.9 g de chlore gazeux.
 
 |           |  2  | $Na$ |  +  |  1  |  $Cl_2$  | $\ce{->}$  |  2  | $NaCl$ |
 | --------- | :-: | :--: | :-: | :-: | :------: | :--------: | :-: | :----: |
-| n [mol]   |     |      |     |     |   **1**  |            |     |        |
-| M [g/mol] |     |      |     |     | **70.9** |            |     |        |
-| m [g]     |     |      |     |     | **70.9** |            |     |        |
+| n mol   |     |      |     |     |   **1**  |            |     |        |
+| M g/mol |     |      |     |     | **70.9** |            |     |        |
+| m g     |     |      |     |     | **70.9** |            |     |        |
 
-En prenant une mole de dichlore, il faudra deux moles de sodium métallique pour que la réaction soit totale. La masse molaire du sodium étant de 23 [g/mol], il nous faudra préparer 46 [g] de sodium métallique.
+En prenant une mole de dichlore, il faudra deux moles de sodium métallique pour que la réaction soit totale. La masse molaire du sodium étant de 23 g/mol, il nous faudra préparer 46 g de sodium métallique.
 
 |           |  2  |    $Na$   |  +  |  1  | $Cl_2$ | $\ce{->}$  |  2  | $NaCl$ |
 | --------- | :-: | :-------: | :-: | :-: | :----: | :--------: | :-: | :----: |
-| n [mol]   |     |   **2**   |     |     |    1   |            |     |        |
-| M [g/mol] |     | **23.00** |     |     |  70.9  |            |     |        |
-| m [g]     |     | **46.00** |     |     |  70.9  |            |     |        |
+| n mol   |     |   **2**   |     |     |    1   |            |     |        |
+| M g/mol |     | **23.00** |     |     |  70.9  |            |     |        |
+| m g     |     | **46.00** |     |     |  70.9  |            |     |        |
 
-Dans le cas d'une réaction totale, en faisant réagir une mole de dichlore et deux moles de sodium, on obtient 2 moles de chlorure de sodium. La masse molaire du chlorure de sodium étant de 58.45 [g/mol], il faudra nous attendre à former 116.9 [g] de chlorure de sodium.
+Dans le cas d'une réaction totale, en faisant réagir une mole de dichlore et deux moles de sodium, on obtient 2 moles de chlorure de sodium. La masse molaire du chlorure de sodium étant de 58.45 g/mol, il faudra nous attendre à former 116.9 g de chlorure de sodium.
 
 |           |  2  |  $Na$ |  +  |  1  | $Cl_2$ | $\ce{->}$  |  2  |   $NaCl$  |
 | --------- | :-: | :---: | :-: | :-: | :----: | :--------: | :-: | :-------: |
-| n [mol]   |     |   2   |     |     |    1   |            |     |   **2**   |
-| M [g/mol] |     | 23.00 |     |     |  70.9  |            |     | **58.45** |
-| m [g]     |     | 46.00 |     |     |  70.9  |            |     | **116.9** |
+| n mol   |     |   2   |     |     |    1   |            |     |   **2**   |
+| M g/mol |     | 23.00 |     |     |  70.9  |            |     | **58.45** |
+| m g     |     | 46.00 |     |     |  70.9  |            |     | **116.9** |
 
-La quantité de matière avant la réaction est égale à la quantité de matière après la réaction (46 [g] + 70.9 [g] = 116.9 [g]). La loi de conservation de la masse est respectée (ouf!).
+La quantité de matière avant la réaction est égale à la quantité de matière après la réaction (46 g + 70.9 g = 116.9 g). La loi de conservation de la masse est respectée (ouf!).
 
 ```{r, child=c('exe/stoechiometrie/10.Rmd')}
 ```
@@ -74,9 +74,9 @@ Imaginons de faire réagir 2 moles d'aluminium avec 6 moles de dibrome dans cett
 
 |               |  2  | $\ce{Al}$  |  +  |  3  | $\ce{Br2}$  | $\ce{->}$  |  2  | $\ce{AlBr3}$  |
 | ------------- | :-: | :--------: | :-: | :-: | :---------: | :--------: | :-: | :-----------: |
-| n [mol] avant |     |      2     |     |     |      6      |            |     |               |
-| n [mol] réagi |     |      2     |     |     |      3      |            |     |               |
-| n [mol] après |     |      0     |     |     |    **3**    |            |     |               |
+| n mol avant |     |      2     |     |     |      6      |            |     |               |
+| n mol réagi |     |      2     |     |     |      3      |            |     |               |
+| n mol après |     |      0     |     |     |    **3**    |            |     |               |
 
 
 
@@ -88,9 +88,9 @@ Imaginons maintenant de faire réagir 5 moles d'aluminium avec 3 moles de dibrom
 
 |               |  2  | $\ce{Al}$  |  +  |  3  | $\ce{Br2}$  | $\ce{->}$  |  2  | $\ce{AlBr3}$  |
 | ------------- | :-: | :--------: | :-: | :-: | :---------: | :--------: | :-: | :-----------: |
-| n [mol] avant |     |      5     |     |     |      3      |            |     |               |
-| n [mol] réagi |     |      2     |     |     |      3      |            |     |               |
-| n [mol] après |     |    **3**   |     |     |      0      |            |     |               |
+| n mol avant |     |      5     |     |     |      3      |            |     |               |
+| n mol réagi |     |      2     |     |     |      3      |            |     |               |
+| n mol après |     |    **3**   |     |     |      0      |            |     |               |
 
 - Le réactif limitant est le dibrome.
 - Le réactif en excès sera l'aluminium et il en restera 3 moles qui n'auront pas réagit.
@@ -103,31 +103,54 @@ Imaginons maintenant de faire réagir 5 moles d'aluminium avec 3 moles de dibrom
 
 Lorsque nous utilisons les calculs stœchiométriques pour prédire les quantités dans une réaction, nos résultats sont basés sur l'hypothèse que tout se passe dans la réalité exactement comme décrit par l'équation chimique. Malheureusement, ce n'est pas toujours le cas. Il existe différents facteurs qui entraînent une perte dans les quantités de produits obtenus. Ces facteurs peuvent être non seulement humains, mais aussi chimiques ou techniques.
 
-On définit donc le rendement d'une réaction comme le rapport entre la quantité de produit calculée et la quantité de produit réellement obtenue.
+On définit donc le rendement d'une réaction comme le rapport entre la quantité de produit réellement obtenue et la quantité de produit calculée.
 
 $$ \eta = \frac{\text{quantité de produit obtenue}}{\text{quantité de produit calculée}} $$
 
-$\eta$ : exprimé en pourcentage massique ou molaire [%]
+$\eta$ : exprimé en pourcentage massique ou molaire %
 
 \newpage
 
 ```{r, child=c('exe/stoechiometrie/40.Rmd')}
 ```
 
+```{r, child=c('exe/stoechiometrie/45.Rmd')}
+```
+
+\newpage
+
+## Résumé
+
+- Les calculs stœchiométriques utilisent les coefficients d'une équation équilibrée et la loi de conservation de la masse.
+- On passe des masses aux moles par $n = \dfrac{m}{M}$, on applique le rapport stœchiométrique, puis on revient aux masses par $m = n \cdot M$.
+- En conditions stœchiométriques, les réactifs sont mélangés exactement dans les proportions de l'équation. Sinon, le réactif limitant fixe la quantité de produits ; le réactif en excès n'est pas totalement consommé. On identifie le limitant en comparant le rapport des quantités introduites au rapport stœchiométrique.
+- Le rendement $\eta$ est le rapport entre la quantité de produit réellement obtenue et la quantité théorique (calculée) exprimé en pourcentage.
+
 ## Exercices supplémentaires
 
 ```{r, child=c('exe/stoechiometrie/50.Rmd')}
 ```
 
-\newpage
-
 ```{r, child=c('exe/stoechiometrie/60.Rmd')}
 ```
+
+\newpage
 
 ```{r, child=c('exe/stoechiometrie/70.Rmd')}
 ```
 
 ```{r, child=c('exe/stoechiometrie/80.Rmd')}
+```
+
+```{r, child=c('exe/stoechiometrie/90.Rmd')}
+```
+
+\newpage
+
+```{r, child=c('exe/stoechiometrie/100.Rmd')}
+```
+
+```{r, child=c('exe/stoechiometrie/110.Rmd')}
 ```
 
 \newpage

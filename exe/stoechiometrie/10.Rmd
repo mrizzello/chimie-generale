@@ -1,6 +1,6 @@
 ::: {.Exercise data-latex=""}
 
-Pour cette même réaction, imaginons que nous voulions faire réagir complètement 18 [g] de sodium. De quelle masse de dichlore avons-nous besoin ? Et combien de chlorure de sodium pouvons-nous espérer produire ?
+Pour cette même réaction, imaginons que nous voulions faire réagir complètement 18 g de sodium. De quelle masse de dichlore avons-nous besoin ? Et combien de chlorure de sodium pouvons-nous espérer produire ?
 
 \vspace{\stretch{1}}
 
@@ -12,32 +12,32 @@ $$ \ce{2 Na + Cl2 -> 2 NaCl} $$
 
 1. $$ \begin{split}
   n_{Na} &= \frac{m_{Na}}{M_{Na}} \\
-  &= \frac{18\ [g]}{23\ [g/mol]} \\
-  &= 0.78\ [mol]
+  &= \frac{18\ \text{ g}}{23\ \text{ g/mol}} \\
+  &= 0.78\ \text{ mol}
   \end{split}
   \qquad
   \begin{split}
-  2\ [mol]\ Na &\rightarrow\ 1\ [mol]\ Cl_2 \\
-  0.78\ [mol]\ Na &\rightarrow\ x\ [mol]\ Cl_2 \\
-  x &= 0.39\ [mol]
+  2\ \text{ mol}\ Na &\rightarrow\ 1\ \text{ mol}\ Cl_2 \\
+  0.78\ \text{ mol}\ Na &\rightarrow\ x\ \text{ mol}\ Cl_2 \\
+  x &= 0.39\ \text{ mol}
   \end{split}
   \qquad
   \begin{split}
   m_{Cl_{2}} &= n_{Cl_{2}} \cdot M_{Cl_{2}} \\
-  &= 0.39\ [mol] \cdot 70.9\ [g/mol] \\
-  &= 27.65\ [g] \text{ de } Cl_2
+  &= 0.39\ \text{ mol} \cdot 70.9\ \text{ g/mol} \\
+  &= 27.65\ \text{ g} \text{ de } Cl_2
   \end{split} $$
 
 2. $$ \begin{split}
-  2\ [mol]\ Na &\rightarrow\ 2\ [mol]\ NaCl \\
-  0.78\ [mol]\ Na &\rightarrow\ x\ [mol]\ NaCl \\
-  x &= 0.78\ [mol]
+  2\ \text{ mol}\ Na &\rightarrow\ 2\ \text{ mol}\ NaCl \\
+  0.78\ \text{ mol}\ Na &\rightarrow\ x\ \text{ mol}\ NaCl \\
+  x &= 0.78\ \text{ mol}
   \end{split}
   \qquad
   \begin{split}
   m_{NaCl} &= n_{NaCl} \cdot M_{NaCl} \\
-  &= 0.78\ [mol] \cdot 58.45\ [g/mol] \\
-  &= 45.59\ [g] \text{ de } NaCl
+  &= 0.78\ \text{ mol} \cdot 58.45\ \text{ g/mol} \\
+  &= 45.59\ \text{ g} \text{ de } NaCl
   \end{split} $$
 
 :::
