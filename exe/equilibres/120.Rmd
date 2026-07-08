@@ -1,0 +1,25 @@
+::: {.Exercise data-latex=""}
+
+Le procédé Haber-Bosch synthétise l'ammoniac : $\ce{N2_{(g)} + 3 H2_{(g)} <=> 2 NH3_{(g)}}$, réaction exothermique dans le sens direct.
+
+1. Écrivez l'expression de la constante d'équilibre $K_c$.
+\vspace{\stretch{1}}
+2. Pour maximiser le rendement en $\ce{NH3}$ à l'équilibre, faut-il travailler à haute ou à basse pression ? Justifiez.
+\vspace{\stretch{1}}
+3. Pour maximiser le rendement en $\ce{NH3}$ à l'équilibre, faut-il travailler à haute ou à basse température ? Justifiez.
+\vspace{\stretch{1}}
+4. En pratique, l'industrie travaille à température assez élevée (environ 450°C) malgré la réponse à la question 3. Proposez une explication.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. $$
+K_c = \frac{|\ce{NH3}|^2}{|\ce{N2}| \cdot |\ce{H2}|^3}
+$$
+2. À haute pression : le sens direct fait passer de 4 mol de gaz ($\ce{N2} + 3\,\ce{H2}$) à 2 mol ($2\,\ce{NH3}$). Une pression élevée (volume réduit) favorise le côté qui a le moins de moles de gaz, donc la formation de $\ce{NH3}$.
+3. À basse température : la réaction directe étant exothermique, une diminution de température favorise le sens exothermique (formation de $\ce{NH3}$) et augmente $K$.
+4. À basse température, l'équilibre est favorable mais la réaction est très lente. On choisit une température plus élevée (compromis) pour que l'équilibre soit atteint suffisamment vite, quitte à sacrifier une partie du rendement ; un catalyseur (fer) est également utilisé pour accélérer la réaction.
+
+:::

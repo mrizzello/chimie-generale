@@ -1,0 +1,26 @@
+::: {.Exercise data-latex=""}
+
+La réaction du gaz à l'eau $\ce{CO_{(g)} + H2O_{(g)} <=> CO2_{(g)} + H2_{(g)}}$ a une constante d'équilibre $K_c = 4.0$ à une température donnée. On introduit 1.0 mol/l de $\ce{CO}$ et 1.0 mol/l de $\ce{H2O}$ (aucun produit au départ).
+
+1. Établissez le tableau de variations.
+\vspace{\stretch{1}}
+2. À l'aide de $K_c$, déterminez $x$.
+\vspace{\stretch{1}}
+3. Donnez les concentrations à l'équilibre des quatre espèces.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. Tableau de variations (mol/l) :
+   - initiale : $|\ce{CO}| = 1.0$, $|\ce{H2O}| = 1.0$, $|\ce{CO2}| = 0$, $|\ce{H2}| = 0$
+   - variation : $-x$, $-x$, $+x$, $+x$
+   - équilibre : $1.0 - x$, $1.0 - x$, $x$, $x$
+2. $$
+K_c = \frac{|\ce{CO2}| \cdot |\ce{H2}|}{|\ce{CO}| \cdot |\ce{H2O}|} = \frac{x^2}{(1.0 - x)^2} = 4.0
+$$
+En prenant la racine : $\dfrac{x}{1.0 - x} = 2 \Rightarrow x = 2(1.0 - x) \Rightarrow 3x = 2 \Rightarrow x = 0.67$ mol/l.
+3. $|\ce{CO2}| = |\ce{H2}| = 0.67$ mol/l ; $|\ce{CO}| = |\ce{H2O}| = 1.0 - 0.67 = 0.33$ mol/l.
+
+:::

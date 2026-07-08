@@ -1,0 +1,32 @@
+::: {.Exercise data-latex=""}
+
+Soit l'équilibre en phase gazeuse, exothermique dans le sens direct :
+
+$$
+\ce{2 SO2_{(g)} + O2_{(g)} <=> 2 SO3_{(g)}} \qquad (\text{sens direct : exothermique})
+$$
+
+Pour chacune des modifications suivantes, indiquez dans quel sens l'équilibre se déplace et si la constante d'équilibre $K$ change.
+
+1. On ajoute du $\ce{O2}$.
+\vspace{\stretch{1}}
+2. On retire du $\ce{SO3}$.
+\vspace{\stretch{1}}
+3. On diminue le volume du récipient.
+\vspace{\stretch{1}}
+4. On augmente la température.
+\vspace{\stretch{1}}
+5. On ajoute un catalyseur.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. Ajout d'un réactif ($\ce{O2}$) → déplacement vers la droite (sens direct). $K$ inchangé.
+2. Retrait d'un produit ($\ce{SO3}$) → déplacement vers la droite. $K$ inchangé.
+3. Diminution du volume (augmentation de la pression) → vers le côté qui a le moins de moles de gaz : 3 mol ($2\,\ce{SO2} + \ce{O2}$) contre 2 mol ($2\,\ce{SO3}$), donc vers la droite. $K$ inchangé.
+4. Augmentation de la température → favorise le sens endothermique, c'est-à-dire le sens indirect (vers la gauche). $K$ change (il diminue).
+5. Ajout d'un catalyseur → aucun déplacement ; l'équilibre est simplement atteint plus vite. $K$ inchangé.
+
+:::

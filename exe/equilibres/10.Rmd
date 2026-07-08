@@ -22,7 +22,7 @@ Ecrivez l'expression de la constante d'équilibre (K~c~ ou K~p~) pour les réact
 1. $$ K_{p} = \frac{P_{\ce{N2O}} \cdot P_{\ce{NO2}}}{P_{\ce{NO}}^{3}} \qquad \text{(homogène)} $$
 2. $$ K_{p} = \frac{P_{\ce{CS2}} \cdot P_{\ce{H2}}^{4}}{P_{\ce{CH4}} \cdot P_{\ce{H2S}}^{2}} \qquad \text{(homogène)} $$
 3. $$ K_{c} = \frac{|H^+| \cdot |F^-|}{|HF|} \qquad \text{(homogène)} $$
-4. $$ K_{p} = P_{CO_2} \cdot P_{H_2O} \qquad \text{(homogène)} $$
+4. $$ K_{p} = P_{CO_2} \cdot P_{H_2O} \qquad \text{(hétérogène)} $$
 5. $$ K_{c} = |H^+| \cdot |OH^-| \qquad \text{(hétérogène)} $$
 6. $$ K_{c} = \frac{|Ag^+|^{2}}{|Zn^{2+}|} \qquad \text{(hétérogène)} $$
 
