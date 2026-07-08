@@ -1,0 +1,20 @@
+::: {.Exercise data-latex=""}
+
+La solubilité du nitrate de potassium ($KNO_3$) est de 32 g pour 100 mL d'eau à 20°C, et de 64 g pour 100 mL à 40°C.
+
+1. On ajoute 40 g de $KNO_3$ dans 100 mL d'eau à 20°C. Quelle masse se dissout ? La solution est-elle saturée ?
+\vspace{\stretch{1}}
+2. Quelle masse de $KNO_3$ reste non dissoute ?
+\vspace{\stretch{1}}
+3. On chauffe le mélange à 40°C. Tout le $KNO_3$ peut-il se dissoudre ? Justifiez.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. À 20°C, 100 mL d'eau dissolvent au maximum 32 g. Sur les 40 g ajoutés, seuls **32 g se dissolvent** : la solution est **saturée**.
+2. $40 - 32 = 8$ g restent non dissous (solide au fond du récipient).
+3. Oui : à 40°C, la solubilité est de 64 g pour 100 mL, ce qui est supérieur aux 40 g présents. Tout le $KNO_3$ peut donc se dissoudre.
+
+:::
