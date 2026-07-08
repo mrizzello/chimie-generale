@@ -14,32 +14,32 @@ Calculez les quantités de réactifs (en grammes) nécessaires à la formation d
 
 $$ \begin{split}
 	n_{Sn_2S_4} &= \frac{m_{Sn_2S_4}}{M_{Sn_2S_4}} \\
-	&= \frac{84.1\ [g]}{365.64\ [g/mol]} \\
-	&= 0.23\ [mol]
+	&= \frac{84.1\ \text{ g}}{365.64\ \text{ g/mol}} \\
+	&= 0.23\ \text{ mol}
 	\end{split} $$
 
 $$ \begin{split}
-  4\ [mol]\ MgS &\rightarrow\ 1\ [mol]\ Sn_2S_4 \\
-  x\ [mol]\ MgS &\rightarrow\ 0.23\ [mol]\ Sn_2S_4 \\
-  x &= 0.92\ [mol]
+  4\ \text{ mol}\ MgS &\rightarrow\ 1\ \text{ mol}\ Sn_2S_4 \\
+  x\ \text{ mol}\ MgS &\rightarrow\ 0.23\ \text{ mol}\ Sn_2S_4 \\
+  x &= 0.92\ \text{ mol}
   \end{split}
 	\qquad
 	\begin{split}
 	m_{MgS} &= n_{MgS} \cdot M_{MgS} \\
-  &= 0.92\ [mol] \cdot 56.37\ [g/mol] \\
-  &= 51.86\ [g] \text{ de} MgS
+  &= 0.92\ \text{ mol} \cdot 56.37\ \text{ g/mol} \\
+  &= 51.86\ \text{ g} \text{ de} MgS
   \end{split} $$
 
 $$ \begin{split}
-	2\ [mol]\ SnBr_4 &\rightarrow\ 1\ [mol]\ Sn_2S_4 \\
-	x\ [mol]\ SnBr_4 &\rightarrow\ 0.23\ [mol]\ Sn_2S_4 \\
-	x &= 0.46\ [mol]
+	2\ \text{ mol}\ SnBr_4 &\rightarrow\ 1\ \text{ mol}\ Sn_2S_4 \\
+	x\ \text{ mol}\ SnBr_4 &\rightarrow\ 0.23\ \text{ mol}\ Sn_2S_4 \\
+	x &= 0.46\ \text{ mol}
 	\end{split}
 	\qquad
 	\begin{split}
 	m_{SnBr_4} &= n_{SnBr_4} \cdot M_{SnBr_4} \\
-	&= 0.46\ [mol] \cdot 438.3\ [g/mol] \\
-	&= 201.62\ [g] \text{ de} SnBr_4
+	&= 0.46\ \text{ mol} \cdot 438.3\ \text{ g/mol} \\
+	&= 201.62\ \text{ g} \text{ de} SnBr_4
   \end{split} $$
 
 :::

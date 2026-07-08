@@ -5,7 +5,7 @@ L'ammoniac réagit avec le dioxygène pour former du monoxyde d'azote et de l'ea
 $$ \ce{NH3} \quad + \quad \ce{O2} \quad \ce{->} \quad \ce{NO} \quad + \quad \ce{H2O} $$
 
 1. Équilibrez la réaction.
-2. On fait réagir 0.2 [mol] de $\ce{NH3}$ avec 0.1 [mol] de $\ce{O2}$.
+2. On fait réagir 0.2 mol de $\ce{NH3}$ avec 0.1 mol de $\ce{O2}$.
     a. Quel est le réactif limitant ?
 
     \vspace{\stretch{1}}
@@ -37,24 +37,24 @@ a. $$ \begin{split}
 		\end{split} $$
 
 b. $$ \begin{split}
-			n_{\ce{NO}} = \frac{0.1 \cdot 4}{5} = 0.08\:[mol]
+			n_{\ce{NO}} = \frac{0.1 \cdot 4}{5} = 0.08\:\text{ mol}
 		\end{split}
 		\qquad
 		\begin{split}
 			m_{\ce{NO}} &= n_{\ce{NO}} \cdot M_{\ce{NO}} \\
-			&= 0.08\:[mol] \cdot 30.01\:[g/mol] \\
-			&= 2.4\:[g]
+			&= 0.08\:\text{ mol} \cdot 30.01\:\text{ g/mol} \\
+			&= 2.4\:\text{ g}
 		\end{split} $$
 
 c. $$ \begin{split}
-			n_{\ce{NH3}} &= \frac{0.1 \cdot 4}{5} = 0.08\:[mol] \text{ (consommé)} \\
-			n_{\ce{NH3}} &= 0.2 - 0.08 = 0.12\:[mol] \text{ (excès)}
+			n_{\ce{NH3}} &= \frac{0.1 \cdot 4}{5} = 0.08\:\text{ mol} \text{ (consommé)} \\
+			n_{\ce{NH3}} &= 0.2 - 0.08 = 0.12\:\text{ mol} \text{ (excès)}
 		\end{split}
 		\qquad
 		\begin{split}
 			m_{\ce{NH3}} &= n_{\ce{NH3}} \cdot M_{\ce{NH3}} \\
-			&= 0.12\:[mol] \cdot 17.034\:[g/mol] \\
-			&= 2.04\:[g]
+			&= 0.12\:\text{ mol} \cdot 17.034\:\text{ g/mol} \\
+			&= 2.04\:\text{ g}
 		\end{split} $$
 
 :::
