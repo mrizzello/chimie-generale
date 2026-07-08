@@ -1,0 +1,20 @@
+::: {.Exercise data-latex=""}
+
+On rappelle qu'à 25°C, $|\ce{H3O+}| \cdot |\ce{OH-}| = 10^{-14}$. Pour chacune des solutions suivantes, calculez la concentration manquante ($|\ce{H3O+}|$ ou $|\ce{OH-}|$) et indiquez si la solution est acide, neutre ou basique.
+
+a. $|\ce{H3O+}| = 10^{-3}$ M
+\vspace{\stretch{1}}
+b. $|\ce{OH-}| = 10^{-5}$ M
+\vspace{\stretch{1}}
+c. $|\ce{H3O+}| = 10^{-7}$ M
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+a. $|\ce{OH-}| = \dfrac{10^{-14}}{10^{-3}} = 10^{-11}$ M. Comme $|\ce{H3O+}| > |\ce{OH-}|$, la solution est acide.
+b. $|\ce{H3O+}| = \dfrac{10^{-14}}{10^{-5}} = 10^{-9}$ M. Comme $|\ce{H3O+}| < |\ce{OH-}|$, la solution est basique.
+c. $|\ce{OH-}| = \dfrac{10^{-14}}{10^{-7}} = 10^{-7}$ M. Comme $|\ce{H3O+}| = |\ce{OH-}|$, la solution est neutre.
+
+:::

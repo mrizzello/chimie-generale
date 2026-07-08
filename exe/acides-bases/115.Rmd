@@ -1,0 +1,26 @@
+::: {.Exercise data-latex=""}
+
+On donne les constantes d'acidité : acide acétique $\ce{CH3COOH}$ ($K_a = 1.8\cdot10^{-5}$), acide fluorhydrique $\ce{HF}$ ($K_a = 6.8\cdot10^{-4}$), acide cyanhydrique $\ce{HCN}$ ($K_a = 6.2\cdot10^{-10}$).
+
+1. Classez ces trois acides du plus faible au plus fort.
+\vspace{\stretch{1}}
+2. Classez leurs bases conjuguées de la plus faible à la plus forte.
+\vspace{\stretch{1}}
+3. Parmi ces acides, lequel se dissocie le plus en solution ? Justifiez.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. Plus $K_a$ est petit, plus l'acide est faible :
+$$
+\ce{HCN} < \ce{CH3COOH} < \ce{HF}
+$$
+2. Plus un acide est fort, plus sa base conjuguée est faible. Des bases conjuguées de la plus faible à la plus forte :
+$$
+\ce{F-} < \ce{CH3COO-} < \ce{CN-}
+$$
+3. L'acide fluorhydrique $\ce{HF}$ : il possède le plus grand $K_a$, son équilibre de dissociation est le plus déplacé vers la droite, il se dissocie donc le plus.
+
+:::

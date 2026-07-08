@@ -15,13 +15,9 @@ d. $\ce{CH3NH3+}$
 
 ::: {.Answer data-latex=""}
 
-a. $\ce{NO3-}$ \tabto{6em} inerte
-\vspace{1em}
-b. $\ce{NO2-}$ \tabto{6em} base faible
-\vspace{1em}
-c. $\ce{Ca^{2+}}$ \tabto{6em} inerte
-\vspace{1em}
-d. $\ce{CH3NH3+}$ \tabto{6em} acide faible
-\vspace{1em}
+a. $\ce{NO3-}$ : inerte
+b. $\ce{NO2-}$ : base faible
+c. $\ce{Ca^{2+}}$ : inerte
+d. $\ce{CH3NH3+}$ : acide faible
 
 :::

@@ -35,6 +35,9 @@ Table: (\#tab:acides-bases-definitions) Définitions des acides et des bases.
 
 Table: (\#tab:acides-bases-examples) Exemples d'acides et de bases correspondant à chaque définition.
 
+```{r, child=c('exe/acides-bases/05.Rmd')}
+```
+
 ## Couples acide-base
 
 Un couple acide-base désigne deux espèces chimiques liées par un simple transfert de proton ($\ce{H+}$). Ces espèces, l'**acide et sa base conjuguée**, diffèrent uniquement par la présence ou l'absence de ce proton.
@@ -179,8 +182,6 @@ Les valeurs numériques des constantes d'acidité (K~a~) et de basicité (K~b~) 
 <!--```{r, child=c('exe/acides-bases/90.Rmd')}
 ```-->
 
-\newpage
-
 ## Autoprotolyse de l'eau
 
 L'eau est une molécule amphotère, elle peut jouer à la fois le rôle d'acide et de base. Dans de l'eau pure, deux molécules d'eau peuvent réagir entre-elles, l'une agissant comme un acide et l'autre comme une base :
@@ -200,6 +201,8 @@ Cette relation relie les concentrations des ions H~3~O^+^ et OH^-^ dans toutes l
 $$
 |\ce{H3O+}| = \frac{10^{-14}}{|\ce{OH-}|}
 $$
+
+\newpage
 
 En résumé :
 
@@ -221,6 +224,27 @@ En résumé :
 ```
 
 \newpage
+
+## Résumé
+
+- Trois définitions des acides et des bases. Selon Arrhénius : un acide libère des ions $\ce{H+}$, une base des ions $\ce{OH-}$ en solution. Selon Brønsted-Lowry : un acide est un donneur de proton, une base un accepteur de proton. Selon Lewis : un acide est un accepteur de paire libre, une base un donneur de paire libre.
+- Un couple acide-base est formé d'un acide et de sa base conjuguée, qui ne diffèrent que d'un proton $\ce{H+}$. Une espèce amphotère (ampholyte), comme l'eau, peut se comporter en acide ou en base selon le milieu.
+- Un acide (ou une base) est fort s'il se dissocie complètement, faible s'il ne se dissocie que partiellement. Plus un acide est fort, plus sa base conjuguée est faible ; la base conjuguée d'un acide fort est inerte.
+- La force d'un acide faible se mesure par la constante d'acidité $K_a$, celle d'une base faible par la constante de basicité $K_b$. Plus la constante est petite, plus l'acide (ou la base) est faible.
+- L'eau subit une autoprotolyse : $\ce{2 H2O <=> H3O+ + OH-}$, de constante $K_e = |\ce{H3O+}| \cdot |\ce{OH-}| = 10^{-14}$ à 25°C. Dans l'eau pure $|\ce{H3O+}| = |\ce{OH-}| = 10^{-7}$ M.
+
+## Exercices supplémentaires
+
+```{r, child=c('exe/acides-bases/105.Rmd')}
+```
+
+```{r, child=c('exe/acides-bases/115.Rmd')}
+```
+
+\newpage
+
+```{r, child=c('exe/acides-bases/125.Rmd')}
+```
 
 ```{r, echo=FALSE}
 if (knitr::is_latex_output()) {
