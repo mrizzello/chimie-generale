@@ -1,0 +1,28 @@
+::: {.Exercise data-latex=""}
+
+Certains métaux forment plusieurs cations. Pour chacun des composés suivants, déterminez le nombre d'oxydation du métal, puis donnez le nom complet du composé.
+
+1. $CuO$
+\vspace{\stretch{1}}
+2. $Cu_2O$
+\vspace{\stretch{1}}
+3. $FeBr_2$
+\vspace{\stretch{1}}
+4. $PbO_2$
+\vspace{\stretch{1}}
+5. $SnCl_4$
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+Le composé est neutre : la charge totale des anions compense celle des cations.
+
+1. $CuO$ : l'anion $O^{2-}$ impose $Cu^{2+}$ → oxyde de cuivre (II).
+2. $Cu_2O$ : un $O^{2-}$ pour deux Cu → chaque cuivre est $Cu^{+}$ → oxyde de cuivre (I).
+3. $FeBr_2$ : deux $Br^{-}$ imposent $Fe^{2+}$ → bromure de fer (II).
+4. $PbO_2$ : deux $O^{2-}$ (charge totale −4) imposent $Pb^{4+}$ → oxyde de plomb (IV).
+5. $SnCl_4$ : quatre $Cl^{-}$ imposent $Sn^{4+}$ → chlorure d'étain (IV).
+
+:::

@@ -39,13 +39,13 @@ Les cations métalliques sont nommés par les noms des éléments.
 
 ::: {.multicols data-latex="{3}"}
 
-$Na^+$ : cation sodium
+$Na^+$&nbsp;:&nbsp;cation sodium
 
-$Mg^{2+}$ : cation magnésium
+$Mg^{2+}$&nbsp;:&nbsp;cation magnésium
 
-$Al^{3+}$ : cation aluminium
+$Al^{3+}$&nbsp;:&nbsp;cation aluminium
 
-$Ca^{2+}$ : cation calcium
+$Ca^{2+}$&nbsp;:&nbsp;cation calcium
 
 :::
 
@@ -53,13 +53,13 @@ Lorsque l'atome d'un élément métallique peut donner lieu à différents catio
 
 ::: {.multicols data-latex="{3}"}
 
-$Cu^+$ : cation cuivre **(I)**
+$Cu^+$&nbsp;:&nbsp;cation cuivre **(I)**
 
-$Cu^{2+}$ : cation cuivre **(II)**
+$Cu^{2+}$&nbsp;:&nbsp;cation cuivre **(II)**
 
-$Fe^{2+}$ : cation fer **(II)**
+$Fe^{2+}$&nbsp;:&nbsp;cation fer **(II)**
 
-$Fe^{3+}$ : cation fer **(III)**
+$Fe^{3+}$&nbsp;:&nbsp;cation fer **(III)**
 
 :::
 
@@ -82,11 +82,11 @@ A noter:
 
 $$ \underset{\text{formiate de sodium}}{HCOONa} \qquad \underset{\text{acétate de sodium}}{CH_3COONa} $$
 
-Dans la liste des ions polyatomiques la plupart des ions sont des anions. Deux cations à connaître : l'ion hydronium ($H_3O^+$) et l'ion ammonium ($NH_4^+$).
+Dans la liste des ions polyatomiques la plupart des ions sont des anions. Deux cations à connaître&nbsp;:&nbsp;l'ion hydronium ($H_3O^+$) et l'ion ammonium ($NH_4^+$).
 
 ## Corps simples
 
-Les corps purs simples sont généralement nommés par le nom de l'élément qui les compose (ex. : fer, cuivre, zinc, ...).
+Les corps purs simples sont généralement nommés par le nom de l'élément qui les compose (ex.&nbsp;:&nbsp;fer, cuivre, zinc, ...).
 
 Certains éléments atteignent une configuration électronique stable en formant des molécules diatomiques. Ces **molécules diatomiques** (deux atomes) sont dites homonucléaires (un seul type d'atome) et sont les suivantes :
 
@@ -127,6 +127,9 @@ L'élément le plus électronégatif est nommé en premier. Les proportions des 
 |  $NO_2$  | **di**oxyde d'azote           |  $N_2O$  | oxyde de **di**azote             |
 | $N_2O_4$ | **tetra**oxyde de **di**azote | $P_2O_5$ | **pent**oxyde de **di**phosphore |
 
+```{r, child=c('exe/nomenclature/05.Rmd')}
+```
+
 ### Composés binaires ioniques | métal - non-métal
 
 **Les composés ioniques se lisent de droite à gauche et le cation est indiqué en premier dans la formule brute.**  
@@ -149,7 +152,12 @@ Exception pour les composés binaires contenant de l'oxygène: ces composés por
 
 |       |                     |         |                             |
 | :---: | ------------------- | :-----: | --------------------------- |
-| $BaO$ | **oxyde** de barium | $PbO_2$ | **oxyde** de plomb **(IV)** |
+| $BaO$ | **oxyde** de baryum | $PbO_2$ | **oxyde** de plomb **(IV)** |
+
+```{r, child=c('exe/nomenclature/15.Rmd')}
+```
+
+\newpage
 
 ### Acides binaires | H - non-métal
 
@@ -178,12 +186,14 @@ Les composés ternaires renferment des atomes de trois éléments différents da
 
 ### Les hydroxydes
 
-Les hydroxydes sont des composés chimiques contenant l'anion $OH^-$. Généralement, la formule brute de ces composés se **termine par OH**. La règle de nommage suit la règle des composés binaires ioniques. On nommera ces composés : hydroxyde de "nom du cation".
+Les hydroxydes sont des composés chimiques contenant l'anion $OH^-$. Généralement, la formule brute de ces composés se **termine par OH**. La règle de nommage suit la règle des composés binaires ioniques. On nommera ces composés&nbsp;:&nbsp;hydroxyde de "nom du cation".
 
 |            |                            |            |                              |
 | :--------: | -------------------------- | :--------: | ---------------------------- |
 |   $NaOH$   | **hydroxyde** de sodium    | $Ca(OH)_2$ | **hydroxyde** de calcium     |
 | $Fe(OH)_3$ | **hydroxyde** de fer (III) | $Cu(OH)_2$ | **hydroxyde** de cuivre (II) |
+
+\newpage
 
 ### Les oxacides
 
@@ -193,8 +203,6 @@ Si il existe plus de deux acides, on utilise les préfixes "**hypo**" et "**per*
 
 - anion **-ite** $\longrightarrow$ acide **-eux**
 - anion **-ate** $\longrightarrow$ acide **-ique**
-
-\newpage
 
 |   acide   |    anion    |                  | nom                    |
 | :-------: | :---------: | ---------------- | ---------------------- |
@@ -223,6 +231,8 @@ La règle de nommage des sels suit la règle de nommage des composés binaires i
 | $NH_4NO_3$ | nitrate d'ammonium     |  $CuSO_4$   | sulfate de cuivre (II) |
 |  $FePO_4$  | phosphate de fer (III) | $CH_3COONa$ | acétate de sodium      |
 
+\newpage
+
 #### Les sels acides
 
 Les sels acides sont des sels qui contiennent le cation $H^+$ en plus d'un cation mono ou polyatomique. Leur nom est le nom du sel précédé du préfixe **hydrogéno** ou **dihydrogéno** selon le nombre de cations hydrogène présents dans la molécule.
@@ -233,6 +243,24 @@ Les sels acides sont des sels qui contiennent le cation $H^+$ en plus d'un catio
 | $H_2PO_4^-$  | $NaH_2PO_4$ | **dihydrogénophosphate** de sodium |
 |  $HCO_3^-$   |  $NaHCO_3$  | **hydrogénocarbonate** de sodium   |
 |  $HSO_4^-$   |  $NaHSO_4$  | **hydrogénosulfate** de sodium     |
+
+```{r, child=c('exe/nomenclature/25.Rmd')}
+```
+
+## Résumé
+
+- La nomenclature permet de nommer une substance à partir de sa formule, et inversement. On classe d'abord le composé dans une famille.
+- Anions monoatomiques&nbsp;:&nbsp;nom de l'élément + suffixe -ure, sauf l'oxyde ($O^{2-}$).
+- Cations monoatomiques&nbsp;:&nbsp;nom du métal ; on précise le nombre d'oxydation en chiffres romains lorsque le métal peut former plusieurs cations.
+- Ions polyatomiques&nbsp;:&nbsp;à connaître d'après la table.
+- Corps simples&nbsp;:&nbsp;nom de l'élément ; les molécules diatomiques homonucléaires prennent le préfixe "di".
+- Composés binaires covalents&nbsp;:&nbsp;préfixes grecs, l'élément le plus électronégatif nommé en second avec le suffixe -ure (ou oxyde).
+- Composés binaires ioniques&nbsp;:&nbsp;anion en -ure (ou oxyde) + « de » + métal ; chiffre romain si nécessaire.
+- Acides binaires (hydracides)&nbsp;:&nbsp;$H$ + non-métal ; en solution aqueuse, racine de l'élément + suffixe -hydrique.
+- Composés ternaires&nbsp;:&nbsp;les hydroxydes, les oxacides ($H^+$ + anion polyatomique ; anion -ite → acide -eux, anion -ate → acide -ique, préfixes hypo-/per-), et les sels (ions monoatomiques et/ou polyatomiques, lus de droite à gauche).
+- Les sels acides conservent un $H^+$ (préfixe hydrogéno-/dihydrogéno-).
+
+\newpage
 
 ## Exercices supplémentaires
 
@@ -252,6 +280,22 @@ Les sels acides sont des sels qui contiennent le cation $H^+$ en plus d'un catio
 ```
 
 ```{r, child=c('exe/nomenclature/60.Rmd')}
+```
+
+\newpage
+
+```{r, child=c('exe/nomenclature/70.Rmd')}
+```
+
+```{r, child=c('exe/nomenclature/80.Rmd')}
+```
+
+\newpage
+
+```{r, child=c('exe/nomenclature/90.Rmd')}
+```
+
+```{r, child=c('exe/nomenclature/100.Rmd')}
 ```
 
 \newpage

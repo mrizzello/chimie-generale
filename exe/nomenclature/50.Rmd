@@ -11,7 +11,7 @@ Complétez le tableau suivant, avec le nom ou la formule brute du **sel** propos
 |  $KNO_3$ |                       |  $NaBr$  |                      | $Na_3PO_4$ |                     |
 |          | sulfate de fer (II)   |          | bromure d'étain (II) |   $NaCl$   |                     |
 |          | sulfate de magnésium  | $FeCl_3$ |                      |            | chlorure de calcium |
-|          | flurorure d'antomoine |          | iodure d'argent      |            | cyanure de sodium   |
+|          | fluorure d'antimoine  |          | iodure d'argent      |            | cyanure de sodium   |
 
 ::::::
 
@@ -27,7 +27,7 @@ $FeSO_4$ sulfate de fer (II)
 
 $MgSO_4$ sulfate de magnésium
 
-$SbF_3$ flurorure d'antomoine
+$SbF_3$ fluorure d'antimoine
 
 $Ag_3N$ nitrure d'argent
 

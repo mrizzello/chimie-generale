@@ -1,0 +1,25 @@
+::: {.Exercise data-latex=""}
+
+En choisissant une combinaison de deux des ions proposés ci-dessous, donnez la formule brute et le nom de tous les hydroxydes, hydracides, oxacides et sels que l'on peut former.
+
+$Na^+$, $H^+$, $OH^-$, $S^{2-}$, $SO_4^{2-}$, $Br^-$
+
+:::
+
+::: {.Answer data-latex=""}
+
+- hydroxydes
+    - $NaOH$ hydroxyde de sodium
+- hydracides
+    - $H_2S$ acide sulfhydrique
+    - $HBr$ acide bromhydrique
+- oxacides
+    - $H_2SO_4$ acide sulfurique
+- sels
+    - $Na_2S$ sulfure de sodium
+    - $Na_2SO_4$ sulfate de sodium
+    - $NaBr$ bromure de sodium
+
+(La combinaison $H^+$ + $OH^-$ donne l'eau $H_2O$, qui n'appartient à aucune de ces familles.)
+
+:::

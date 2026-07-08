@@ -1,0 +1,19 @@
+::: {.Exercise data-latex=""}
+
+Donnez le nom des composés binaires ioniques suivants, ou leur formule brute.
+
+1. $KI$
+2. $Na_2S$
+3. chlorure de calcium
+4. oxyde de fer (III)
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. $KI$ : iodure de potassium
+2. $Na_2S$ : sulfure de sodium
+3. chlorure de calcium : $CaCl_2$
+4. oxyde de fer (III) : $Fe_2O_3$
+
+:::
