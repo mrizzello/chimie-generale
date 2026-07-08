@@ -9,7 +9,7 @@ On peut utiliser l’électrolyse pour déposer une couche d'un métal sur un au
 - Indiquez sur le schéma le sens de déplacement des électrons dans le circuit.
 - Indiquez sur le schéma le sens de déplacement des cations et anions dans la solution.
 - Indiquez sur le schéma l'anode et la cathode.
-- Combien de grammes d’argent se déposent sur la cuillère lors de l’électrolyse de $\ce{AgNO3}$~(aq)~ par un courant électrique de 1.73 [A] pendant 20 minutes ?
+- Combien de grammes d’argent se déposent sur la cuillère lors de l’électrolyse de $\ce{AgNO3}$~(aq)~ par un courant électrique de 1.73 A pendant 20 minutes ?
 
 \vspace{\stretch{1}}
 
@@ -24,8 +24,8 @@ On peut utiliser l’électrolyse pour déposer une couche d'un métal sur un au
 $$
 \begin{split}
   m &= \frac{M \cdot I \cdot t}{n \cdot 96500} \\
-  &= \frac{107.9\ [g/mol] \cdot 1.73\ [A] \cdot 1200\ [s]}{1 \cdot 96500\ [C/mol]} \\
-  &= 2.321\ [g]
+  &= \frac{107.9\ \text{ g/mol} \cdot 1.73\ \text{ A} \cdot 1200\ \text{ s}}{1 \cdot 96500\ \text{ C/mol}} \\
+  &= 2.321\ \text{ g}
 \end{split}
 $$
 

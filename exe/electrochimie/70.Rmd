@@ -1,0 +1,23 @@
+::: {.Exercise data-latex=""}
+
+On réalise l'électrolyse d'une solution de chlorure de cuivre (II) $\ce{CuCl2}$. On souhaite déposer 5.0 g de cuivre à la cathode selon $\ce{Cu^{2+} + 2 e^- -> Cu}$. Données : M(Cu) = 63.55 g/mol ; F = 96500 C/mol. Le courant utilisé est de 2.0 A.
+
+1. Combien de moles d'électrons faut-il faire circuler ?
+\vspace{\stretch{1}}
+2. Pendant combien de temps (en minutes) faut-il maintenir le courant ?
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. $$
+n_{\ce{Cu}} = \frac{m}{M} = \frac{5.0}{63.55} = 0.0787 \text{ mol}
+$$
+La réduction consomme 2 électrons par atome de cuivre : $n_{e^-} = 2 \cdot 0.0787 = 0.157$ mol.
+2. À partir de $m = \dfrac{M \cdot I \cdot t}{n \cdot F}$ :
+$$
+t = \frac{m \cdot n \cdot F}{M \cdot I} = \frac{5.0 \cdot 2 \cdot 96500}{63.55 \cdot 2.0} = 7.59\cdot10^{3} \text{ s} \approx 127 \text{ min}
+$$
+
+:::

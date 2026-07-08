@@ -10,8 +10,8 @@ Une pile électrochimique est constituée d'une électrode de Mg dans une soluti
 
 $$
 \begin{split}
-\ce{Mg^{2+} + 2e^− -> Mg}\ E^0 = −2.37\ [V] \\
-\ce{Sn^{2+} + 2e^− -> Sn}\ E^0 = −0.14\ [V]
+\ce{Mg^{2+} + 2e^− -> Mg}\ E^0 = −2.37\ \text{ V} \\
+\ce{Sn^{2+} + 2e^− -> Sn}\ E^0 = −0.14\ \text{ V}
 \end{split}
 $$
 
@@ -30,7 +30,7 @@ $$
 \begin{split}
 \Delta E^0_{pile} &= E^0_{cathode} − E^0_{anode} \\
   &= E^0_{\ce{Sn^{2+}/Sn}} − E^0_{\ce{Mg^{2+}/Mg}} \\
-  &= -0.14 - (-2.37) = 2.23\ [V]
+  &= -0.14 - (-2.37) = 2.23\ \text{ V}
 \end{split}
 $$
 
