@@ -42,8 +42,11 @@ Puisque la température et la pression varient d'un endroit à l'autre sur la pl
 
 |                                                     | Température |          Pression          |
 | --------------------------------------------------- | :---------: | :------------------------: |
-| Conditions **Normales** de Température et Pression  | 273.15 [K]     |      $10^{5}$ [Pa]      |
-| Conditions **Ambiantes** de Température et Pression | 298.15 [K]     |        $1$ [bar]        |
+| Conditions **Normales** de Température et Pression  | 273.15 K     |      $10^{5}$ Pa      |
+| Conditions **Ambiantes** de Température et Pression | 298.15 K     |        $1$ bar        |
+
+```{r, child=c('exe/gaz-parfaits/05.Rmd')}
+```
 
 \newpage
 
@@ -93,30 +96,32 @@ $$
 P \cdot V = n \cdot R \cdot T
 $$
 
-- P : pression en $\left[Pa\right]$
-- V : volume en $\left[m^3\right]$
-- n : quantité de matière en $\left[mol\right]$
-- T : température absolue en $\left[K\right]$
-- R = **8.314** $\left[\frac{J}{mol \cdot K}\right]$ (constante des gaz parfaits)
+- P : pression en $\ \mathrm{Pa}$
+- V : volume en $\ \mathrm{m^3}$
+- n : quantité de matière en $\ \mathrm{mol}$
+- T : température absolue en $\ \mathrm{K}$
+- R = **8.314** $\ \mathrm{\frac{J}{mol \cdot K}}$ (constante des gaz parfaits)
 
 Avec cette relation, nous pouvons convertir le volume d'un gaz en quantité de matière en connaissant la pression et le température. Le volume, la pression et la température d'un gaz sont plus faciles à mesurer que la masse, et la masse molaire du gaz n'intervient pas.
 
 ```{r, child=c('exe/gaz-parfaits/30.Rmd')}
 ```
 
+\newpage
+
 ### Les unités des gaz
 
 #### Le volume
 
-L'unité SI de volume est le mètre cube [$m^3$]. Depuis 1964, le mot "litre" $[l]$ peut être utilisé \textbf{comme un nom spécial donné au décimètre cube}. Bien qu’en dehors du système international (SI) d’unités, le litre est couramment utilisé pour caractériser un volume.
+L'unité SI de volume est le mètre cube $m^3$. Depuis 1964, le mot "litre" $\text{ l}$ peut être utilisé \textbf{comme un nom spécial donné au décimètre cube}. Bien qu’en dehors du système international (SI) d’unités, le litre est couramment utilisé pour caractériser un volume.
 
 $$
 \begin{split}
-  1\ \left[m^3\right] = 1000\ \left[dm^3\right] = 1000\ \left[l\right]
+  1\ \mathrm{m^3} = 1000\ \mathrm{dm^3} = 1000\ \mathrm{l}
 \end{split}
 \qquad\qquad
 \begin{split}
-	1\ \left[l\right] = 1\ \left[dm^3\right] = 10^{-3}\ \left[m^3\right]
+	1\ \mathrm{l} = 1\ \mathrm{dm^3} = 10^{-3}\ \mathrm{m^3}
 \end{split}
 $$
 
@@ -133,17 +138,20 @@ $$
 Le "pascal" (symbole Pa) est l’unité de pression définie par la 14e Conférence Générale des Poids et Mesures de 1971. Le "pascal" est exprimé comme une force d'un newton exercée sur une surface d'un mètre carré ou comme un kilogramme par mètre par seconde carré (unités SI).
 
 $$
-1\ \left[Pa\right] = 1\ \left[\frac{N}{m^2}\right] = 1\ \left[\frac{kg}{m \cdot s^2}\right]
+1\ \mathrm{Pa} = 1\ \mathrm{\frac{N}{m^2}} = 1\ \mathrm{\frac{kg}{m \cdot s^2}}
 $$
 
 Il existe de multiples unités de pression en dehors du système international :
 
 $$
-1.013 \cdot 10^{5}\ \left[Pa\right] =
-1 \left[atm\right] =
-1.013 \left[bar\right] =
-760 \left[mmHg\right]
+1.013 \cdot 10^{5}\ \mathrm{Pa} =
+1 \ \mathrm{atm} =
+1.013 \ \mathrm{bar} =
+760 \ \mathrm{mmHg}
 $$
+
+```{r, child=c('exe/gaz-parfaits/25.Rmd')}
+```
 
 ## La loi des pressions partielles
 
@@ -195,12 +203,21 @@ $$
 ```{r, child=c('exe/gaz-parfaits/70.Rmd')}
 ```
 
+\newpage
+
+## Résumé
+
+- La théorie cinétique décrit un gaz comme un ensemble de particules microscopiques très espacées, en mouvement rectiligne incessant et en collisions élastiques. La pression d'un gaz résulte des collisions de ses particules contre les parois ; leur énergie cinétique moyenne est proportionnelle à la température absolue (en kelvin). Un gaz parfait obéit à toutes ces hypothèses.
+- Un gaz est caractérisé par quatre variables : le volume $V$, la température $T$ (en kelvin), la pression $P$ et la quantité de matière $n$. Les conditions de référence sont les CNTP (273.15 K, $10^5$ Pa) et les CATP (298.15 K, 1 bar).
+- La pression se mesure en pascals ; équivalences : $1.013\cdot10^5$ Pa = 1 atm = 1.013 bar = 760 mmHg.
+- Les lois simples relient deux variables. La loi des gaz parfaits $P \cdot V = n \cdot R \cdot T$ relie les quatre variables dans des conditions donnés.
+- La pression totale d'un mélange gazeux est la somme des pressions partielles de ses constituants ; la pression partielle d'un gaz est proportionnelle à sa fraction molaire.
+- La loi des gaz parfaits relie un volume gazeux à une quantité de matière : elle intervient dans les calculs stœchiométriques faisant appel à des réactifs ou produits gazeux.
+
 ## Exercices supplémentaires
 
 ```{r, child=c('exe/gaz-parfaits/40.Rmd')}
 ```
-
-\newpage
 
 ```{r, child=c('exe/gaz-parfaits/50.Rmd')}
 ```
@@ -208,7 +225,20 @@ $$
 ```{r, child=c('exe/gaz-parfaits/60.Rmd')}
 ```
 
+\newpage
+
 ```{r, child=c('exe/gaz-parfaits/80.Rmd')}
+```
+
+```{r, child=c('exe/gaz-parfaits/90.Rmd')}
+```
+
+\newpage
+
+```{r, child=c('exe/gaz-parfaits/100.Rmd')}
+```
+
+```{r, child=c('exe/gaz-parfaits/110.Rmd')}
 ```
 
 \newpage

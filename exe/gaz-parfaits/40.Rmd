@@ -1,6 +1,6 @@
 ::: {.Exercise data-latex=""}
 
-Les pneus d’une voiture ont été gonflés à 1.7 [atm] à une température de 10° C. Quelle sera la pression de ces pneus à 35° C et à -10° C ?
+Les pneus d’une voiture ont été gonflés à 1.7 atm à une température de 10° C. Quelle sera la pression de ces pneus à 35° C et à -10° C ?
 
 \vspace{\stretch{1}}
 
@@ -16,8 +16,8 @@ $$
 \end{split}
 \qquad\qquad
 \begin{split}
-	P_{35°\ C} &= \frac{1.7\ [atm] \cdot 308.15\ [K]}{283.15\ [K]} = 1.85\ [atm] \\[1em]
-	P_{-10°\ C} &= \frac{1.7\ [atm] \cdot 263.15\ [K]}{283.15\ [K]} = 1.58\ [atm]
+	P_{35°\ C} &= \frac{1.7\ \text{ atm} \cdot 308.15\ \text{ K}}{283.15\ \text{ K}} = 1.85\ \text{ atm} \\[1em]
+	P_{-10°\ C} &= \frac{1.7\ \text{ atm} \cdot 263.15\ \text{ K}}{283.15\ \text{ K}} = 1.58\ \text{ atm}
 \end{split}
 $$
 

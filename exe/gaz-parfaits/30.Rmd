@@ -8,7 +8,7 @@
 
 \vspace{\stretch{1}}
 
-3. On cherche à déterminer la valeur de la constante des gaz parfaits. Pour ce faire, à une température de 16° C et une pression de 748 [mmHg], on mesure que $5.164 \cdot 10^{-2}$ [mol] d'un gaz occupent un volume de 1245 mL. Calculez quelle est la valeur de la constante et indiquez de quel gaz il s'agit.
+3. On cherche à déterminer la valeur de la constante des gaz parfaits. Pour ce faire, à une température de 16° C et une pression de 748 mmHg, on mesure que $5.164 \cdot 10^{-2}$ mol d'un gaz occupent un volume de 1245 mL. Calculez quelle est la valeur de la constante et indiquez de quel gaz il s'agit.
 
 \vspace{\stretch{1}}
 
@@ -23,29 +23,29 @@
 \qquad
 \begin{split}
 	\Rightarrow V &= \frac{n \cdot R \cdot T}{P} \\
-	&= \frac{1\ [mol] \cdot 8.314 \left[\frac{J}{mol \cdot K}\right] \cdot 273\ [K]}{1.013 \cdot 10^{5}\ [Pa]} \\
-	&= 0.0224\ [m^3] = 22.4\ [l]
+	&= \frac{1\ \text{ mol} \cdot 8.314 \ \mathrm{\frac{J}{mol \cdot K}} \cdot 273\ \text{ K}}{1.013 \cdot 10^{5}\ \text{ Pa}} \\
+	&= 0.0224\ \text{ m}^3 = 22.4\ \text{ l}
 \end{split}
 $$
 
 2. $$
 \begin{split}
 	\Rightarrow V &= \frac{n \cdot R \cdot T}{P}
-	= \frac{1\ [mol] \cdot 8.314 \left[\frac{J}{mol \cdot K}\right] \cdot 292\ [K]}{1.013 \cdot 10^{5}\ [Pa]} \\
-	&= 0.0239\ [m^3] = 23.9\ [l]
+	= \frac{1\ \text{ mol} \cdot 8.314 \ \mathrm{\frac{J}{mol \cdot K}} \cdot 292\ \text{ K}}{1.013 \cdot 10^{5}\ \text{ Pa}} \\
+	&= 0.0239\ \text{ m}^3 = 23.9\ \text{ l}
 \end{split}
 $$
 
 3. $$
 \begin{split}
-	748\ [mmHg] &= 9.973 \cdot 10^{4}\ [Pa]\\[0.33em]
-	1245\ mL &= 1.245 \cdot 10{-3}\ [m^3]\\[0.33em]
-	16°\ C\ &= 289.15\ [K]\\
+	748\ \text{ mmHg} &= 9.973 \cdot 10^{4}\ \text{ Pa}\\[0.33em]
+	1245\ mL &= 1.245 \cdot 10^{-3}\ \text{ m}^3\\[0.33em]
+	16°\ C\ &= 289.15\ \text{ K}\\
 \end{split}
 \qquad
 \begin{split}
-	R = \frac{P \cdot V}{n \cdot T} &= \frac{9.973 \cdot 10^{4}\ [Pa] \cdot 1.245 \cdot 10{-3}\ [m^3]}{5.164 \cdot 10^{-2}\ [mol] \cdot 289.15\ [K]}\\[0.33em]
-	&= 8.315 \cong 8.314 \left[\frac{J}{mol \cdot K}\right]
+	R = \frac{P \cdot V}{n \cdot T} &= \frac{9.973 \cdot 10^{4}\ \text{ Pa} \cdot 1.245 \cdot 10^{-3}\ \text{ m}^3}{5.164 \cdot 10^{-2}\ \text{ mol} \cdot 289.15\ \text{ K}}\\[0.33em]
+	&= 8.315 \cong 8.314 \ \mathrm{\frac{J}{mol \cdot K}}
 \end{split}
 $$
 
