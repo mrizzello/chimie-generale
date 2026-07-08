@@ -20,6 +20,6 @@ Complétez et équilibrez les équations de neutralisation suivantes :
 
 3. $\ce{HNO3 + KOH -> KNO3 + H2O}$
 
-4. $\ce{H2SO4 + 2 NaOH -> Na2SO3 + 2 H2O}$
+4. $\ce{H2SO3 + 2 NaOH -> Na2SO3 + 2 H2O}$
 
 :::

@@ -1,0 +1,26 @@
+::: {.Exercise data-latex=""}
+
+Pour chacune des réactions suivantes, indiquez le type (combinaison, décomposition, précipitation, neutralisation ou combustion) et équilibrez l'équation.
+
+1. $\qquad \ce{C2H6} \quad + \quad \ce{O2} \quad \ce{->} \quad \ce{CO2} \quad + \quad \ce{H2O}$
+\vspace{\stretch{1}}
+2. $\qquad \ce{Mg} \quad + \quad \ce{O2} \quad \ce{->} \quad \ce{MgO}$
+\vspace{\stretch{1}}
+3. $\qquad \ce{Pb(NO3)2} \quad + \quad \ce{KI} \quad \ce{->} \quad \ce{PbI2 v} \quad + \quad \ce{KNO3}$
+\vspace{\stretch{1}}
+4. $\qquad \ce{H2SO4} \quad + \quad \ce{KOH} \quad \ce{->} \quad \ce{K2SO4} \quad + \quad \ce{H2O}$
+\vspace{\stretch{1}}
+5. $\qquad \ce{CaCO3} \quad \ce{->} \quad \ce{CaO} \quad + \quad \ce{CO2}$
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. combustion : $\ce{2C2H6 + 7O2 -> 4CO2 + 6H2O}$
+2. combinaison : $\ce{2Mg + O2 -> 2MgO}$
+3. précipitation : $\ce{Pb(NO3)2 + 2KI -> PbI2 v + 2KNO3}$
+4. neutralisation : $\ce{H2SO4 + 2KOH -> K2SO4 + 2H2O}$
+5. décomposition : $\ce{CaCO3 -> CaO + CO2}$
+
+:::
