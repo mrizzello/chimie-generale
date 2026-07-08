@@ -55,6 +55,9 @@ knitr::include_graphics(c("images/equilibres-vitesses-1a.png","images/equilibres
 
 Un état d'équilibre chimique est appelé état d'**équilibre dynamique** car, bien que les concentrations de réactifs et de produits ne varient pas avec le temps, les réactions directe et indirecte continuent de se produire.
 
+```{r, child=c('exe/equilibres/05.Rmd')}
+```
+
 ## Le quotient de réaction
 
 Au milieu du XIX^e^ siècle, Cato Guldberg et Peter Waage ont étudié les équilibres chimiques d'une grande variété de réactions. Ils ont observé qu'à température constante, dans un mélange à l'équilibre de réactifs et de produits, quelles que soient les concentrations initiales, le quotient de réaction a une valeur constante.
@@ -97,8 +100,6 @@ $$
 ```{r, child=c('exe/equilibres/60.Rmd')}
 ```
 
-\newpage
-
 ### Équilibre homogène et hétérogène
 
 Lorsque toutes les substances participant à la réaction sont dans la même phase, on parlera d'**équilibre homogène** et lorsque toutes les substances participant à la réaction sont dans des phases différentes, on parlera d'**équilibre hétérogène**.
@@ -107,6 +108,8 @@ Lorsque toutes les substances participant à la réaction sont dans la même pha
 
 ```{r, child=c('exe/equilibres/70.Rmd')}
 ```
+
+\newpage
 
 ### Constantes d'équilibre et phase gazeuse
 
@@ -150,7 +153,7 @@ Pour exprimer la constante d'équilibre :
 
 ## Équilibres chimiques et stœchiométrie
 
-En cherchant à mesurer la constante d'équilibre de la décomposition de l'iodure d'hydrogène, on remplit un ballon sous vide de 2 [l] avec 0.2 [mol] de $HI$ gazeux et on laisse la réaction se dérouler à 453°C.
+En cherchant à mesurer la constante d'équilibre de la décomposition de l'iodure d'hydrogène, on remplit un ballon sous vide de 2 l avec 0.2 mol de $HI$ gazeux et on laisse la réaction se dérouler à 453°C.
 
 $$
   2\ HI\ _{(g)} \leftrightharpoons H_2\ _{(g)} + I_2\ _{(g)}
@@ -161,7 +164,7 @@ $$
 On commence par calculer la concentration initiale en iodure d'hydrogène, $|HI|_{0}$.
 
 $$
-  |HI|_0 = \frac{0.2\ [mol]}{2\ [l]} = 0.1\ M
+  |HI|_0 = \frac{0.2\ \text{ mol}}{2\ \text{ l}} = 0.1\ M
 $$
 
 On peut ensuite établir un tableau des variations :
@@ -187,12 +190,15 @@ $$
 On peut donc calculer la valeur de la constante d'équilibre de la réaction à 453°C.
 
 $$
-  K_{c} = \frac{|H_2|_{eq} \cdot |I_2|_{eq}}{|HI|_{eq}^2} = \frac{0.011 \cdot 0.011}{0.078^2} = 0.02\ [-]\ \text{à 453°C}
+  K_{c} = \frac{|H_2|_{eq} \cdot |I_2|_{eq}}{|HI|_{eq}^2} = \frac{0.011 \cdot 0.011}{0.078^2} = 0.02\ \text{à 453°C}
 $$
 
 \newpage
 
 ```{r, child=c('exe/equilibres/20.Rmd')}
+```
+
+```{r, child=c('exe/equilibres/25.Rmd')}
 ```
 
 ## Évolution spontanée et principe de Le Châtelier
@@ -312,13 +318,24 @@ Un catalyseur accélère une réaction en abaissant l'énergie d'activation de l
 
 Si un catalyseur est ajouté à un mélange réactionnel qui n'est pas à l'équilibre le mélange atteindra l'équilibre plus rapidement.
 
+\newpage
+
 ```{r, child=c('exe/equilibres/30.Rmd')}
+```
+
+```{r, child=c('exe/equilibres/40.Rmd')}
 ```
 
 \newpage
 
-```{r, child=c('exe/equilibres/40.Rmd')}
-```
+## Résumé
+
+- Un équilibre chimique est un état dynamique : la vitesse de la réaction directe est égale à celle de la réaction indirecte. Les concentrations des réactifs et des produits ne varient plus (mais les deux réactions se poursuivent).
+- Le quotient de réaction caractérise l'état d'un système à un instant donné. À l'équilibre il devient constant : c'est la constante d'équilibre $K$.
+- Dans l'expression de $K$, les solides et les liquides purs ne sont pas pris en compte. Pour les gaz, on utilise les concentrations ($K_c$) ou les pressions partielles ($K_p$).
+- On calcule $K$ à partir des concentrations d'équilibre, ou inversement les concentrations d'équilibre à partir de $K$ et des concentrations initiales.
+- On prédit le sens d'évolution en comparant $Q_r$ et $K$ : si $Q_r < K$, la réaction évolue dans le sens direct ; si $Q_r > K$, dans le sens indirect ; si $Q_r = K$, le système est à l'équilibre.
+- Principe de Le Châtelier : un système à l'équilibre perturbé évolue de façon à s'opposer à la perturbation.
 
 ## Exercices supplémentaires
 
@@ -331,6 +348,19 @@ Si un catalyseur est ajouté à un mélange réactionnel qui n'est pas à l'équ
 ```
 
 ```{r, child=c('exe/equilibres/90.Rmd')}
+```
+
+\newpage
+
+```{r, child=c('exe/equilibres/100.Rmd')}
+```
+
+```{r, child=c('exe/equilibres/110.Rmd')}
+```
+
+\newpage
+
+```{r, child=c('exe/equilibres/120.Rmd')}
 ```
 
 \newpage
