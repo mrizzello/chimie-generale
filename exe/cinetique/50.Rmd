@@ -1,0 +1,25 @@
+::: {.Exercise data-latex=""}
+
+Une réaction $2A + B \rightarrow$ produits obéit à la loi de vitesse $v = k \cdot |A|^2 \cdot |B|$.
+
+1. Quel est l'ordre global de la réaction ?
+\vspace{\stretch{1}}
+2. Par quel facteur la vitesse est-elle multipliée si l'on triple $|A|$ (à $|B|$ constant) ?
+\vspace{\stretch{1}}
+3. Par quel facteur la vitesse change-t-elle si l'on triple $|A|$ et que l'on divise $|B|$ par deux simultanément ?
+\vspace{\stretch{1}}
+4. Déterminez l'unité de la constante de vitesse $k$ (temps en secondes, concentrations en mol/l).
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. Ordre global $= 2 + 1 = 3$.
+2. $v \propto |A|^2$ : tripler $|A|$ multiplie la vitesse par $3^2 = 9$.
+3. Facteur $= 3^2 \cdot \left(\frac{1}{2}\right)^1 = 9 \cdot 0.5 = 4.5$. La vitesse est multipliée par 4.5.
+4. $$
+k = \frac{v}{|A|^2 \cdot |B|} = \frac{\mathrm{mol\cdot l^{-1}\cdot s^{-1}}}{\mathrm{mol^3\cdot l^{-3}}} = \mathrm{l^{2}\cdot mol^{-2}\cdot s^{-1}}
+$$
+
+:::

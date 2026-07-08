@@ -1,0 +1,26 @@
+::: {.Exercise data-latex=""}
+
+Pour chacune des modifications suivantes appliquées à une réaction, indiquez si la vitesse augmente, diminue ou ne change pas, et justifiez brièvement.
+
+1. On dilue la solution de réactifs.
+\vspace{\stretch{1}}
+2. On réduit un réactif solide en poudre fine.
+\vspace{\stretch{1}}
+3. On refroidit le mélange réactionnel.
+\vspace{\stretch{1}}
+4. On ajoute un catalyseur.
+\vspace{\stretch{1}}
+5. On ajoute un inhibiteur.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. La vitesse diminue : la concentration des réactifs baisse, les collisions sont moins fréquentes.
+2. La vitesse augmente : la surface de contact augmente, offrant davantage de zones de collision.
+3. La vitesse diminue : les particules se déplacent moins vite, les collisions sont moins fréquentes et moins énergétiques.
+4. La vitesse augmente : le catalyseur abaisse l'énergie d'activation.
+5. La vitesse diminue : l'inhibiteur augmente l'énergie d'activation, ce qui ralentit la réaction.
+
+:::

@@ -1,0 +1,20 @@
+::: {.Exercise data-latex=""}
+
+On admet la règle empirique : autour de la température ambiante, une augmentation de 10°C double la vitesse d'une réaction.
+
+1. Par quel facteur la vitesse est-elle multipliée si l'on augmente la température de 30°C ?
+\vspace{\stretch{1}}
+2. Une réaction dure 80 minutes à 20°C. Estimez sa durée à 40°C.
+\vspace{\stretch{1}}
+3. À l'aide de la loi d'Arrhénius, expliquez qualitativement pourquoi une augmentation de température accélère la réaction.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. $+30$°C correspond à 3 paliers de 10°C, soit un facteur $2^3 = 8$. La vitesse est multipliée par 8.
+2. De 20 à 40°C, il y a $+20$°C, soit 2 paliers : la vitesse est multipliée par $2^2 = 4$. La durée est donc divisée par 4 : $80 / 4 = 20$ minutes.
+3. Selon la loi d'Arrhénius $k = A \cdot e^{\frac{-E_a}{R \cdot T}}$ : quand $T$ augmente, l'exposant $\frac{-E_a}{R \cdot T}$ augmente (devient moins négatif), donc $k$ augmente. Physiquement, à plus haute température, une plus grande proportion de collisions possède l'énergie nécessaire (au moins $E_a$) : la réaction est plus rapide.
+
+:::

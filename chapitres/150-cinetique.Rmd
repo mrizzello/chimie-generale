@@ -103,6 +103,9 @@ knitr::include_graphics(c("images/vitesse-reaction-1-b.png"))
 
 La vitesse instantanée mesurée au début de la réaction (t = 0) est appelée **vitesse initiale**.
 
+```{r, child=c('exe/cinetique/25.Rmd')}
+```
+
 ## Énergie d'activation
 
 Il existe une barrière d'énergie entre les réactifs et les produits qui doit être surmontée pour qu'une réaction ait lieu. La hauteur de cette barrière représente la quantité d'énergie que doivent posséder les particules pour que des collisions efficaces se produisent. Cette quantité d'énergie est appelée **énergie d'activation** (E~a~). La valeur de l'énergie d'activation détermine la vitesse de réaction.
@@ -137,9 +140,9 @@ v = k \cdot |A|^m \cdot |B|^n
 \end{split}
 \qquad\qquad
 \begin{split}
-v &\text{ : vitesse de la réaction en } [mol \cdot l^{-1} \cdot s^{-1}] \\
+v &\text{ : vitesse de la réaction en } \mathrm{mol \cdot l^{-1} \cdot s^{-1}} \\
 k &\text{ : constante de vitesse} \\
-|A|, |B| &\text{ : concentration des réactifs en } [mol \cdot l^{-1}] \\
+|A|, |B| &\text{ : concentration des réactifs en } \mathrm{mol \cdot l^{-1}} \\
 m, n &\text{ : ordres partiels de la réaction} \\
 m+n &\text{ : ordre global de la réaction}
 \end{split}
@@ -152,8 +155,6 @@ $$
 
 ```{r, child=c('exe/cinetique/30.Rmd')}
 ```
-
-\newpage
 
 ### Influence de la température (loi d'Arrhénius)
 
@@ -169,11 +170,13 @@ k = A \cdot e^{\frac{-E_a}{R \cdot T}}
 \begin{split}
 k &\text{ : constante de vitesse} \\
 A &\text{ : facteur empirique en rapport avec le nombre de collisions par seconde } \\
-E_a &\text{ : énergie d'activation en } [J/mol] \\
-R &\text{ : constante des gaz parfaits en } [J \cdot mol^{-1} \cdot K^{-1}] \\
-T &\text{ : température en } [K]
+E_a &\text{ : énergie d'activation en } \text{ J/mol} \\
+R &\text{ : constante des gaz parfaits en } \mathrm{J \cdot mol^{-1} \cdot K^{-1}} \\
+T &\text{ : température en } \text{ K}
 \end{split}
 $$
+
+\newpage
 
 ### Les catalyseurs
 
@@ -205,8 +208,6 @@ On distingue différents types de catalyseurs:
 - Les catalyseurs **enzymatiques** - le catalyseur est une enzyme (biochimie).
 - L'**auto-catalyse** - un des produits de la réaction est le catalyseur de la réaction.
 
-\newpage
-
 Les enzymes sont des catalyseurs naturels responsables d'innombrables réactions biochimiques essentielles. De nombreux procédés chimiques industriels se basent également sur les réactions catalysées et la fabrication de catalyseurs est elle-même un processus industriel.
 
 | procédé | catalyseur |
@@ -218,6 +219,34 @@ Les enzymes sont des catalyseurs naturels responsables d'innombrables réactions
 | oxydation d'hydrocarbures dans les gaz d'échappement | oxyde de cuivre (II), oxyde de vanadium (V), platine, palladium |
 
 Table: (\#tab:tab-catalyseurs) Exemples de procédés catalytiques et leurs catalyseurs
+
+```{r, child=c('exe/cinetique/35.Rmd')}
+```
+
+## Résumé
+
+- La cinétique chimique étudie la vitesse des réactions. On suit une réaction en mesurant la variation d'une grandeur au cours du temps ; le graphique de la concentration en fonction du temps décroît pour un réactif et croît pour un produit, en s'aplatissant à mesure que la réaction ralentit.
+- La vitesse moyenne se calcule sur un intervalle : $v = -\dfrac{\Delta|\text{réactif}|}{\Delta t} = +\dfrac{\Delta|\text{produit}|}{\Delta t}$.
+- La vitesse instantanée est la pente de la tangente à la courbe à un instant donné ; la vitesse initiale est la vitesse instantanée à $t = 0$.
+- Pour une réaction $aA + bB \rightarrow cC + dD$, on tient compte des coefficients.
+- La loi de vitesse exprime l'effet de la concentration sur la vitesse de réaction. Les ordres partiels, déterminés expérimentalement, donnent l'ordre global et $k$ est la constante de vitesse propre à la réaction.
+- Les facteurs qui influencent la vitesse sont : la concentration (ou la pression) des réactifs, la température, la surface de contact, l'état physique et la présence d'un catalyseur.
+- Un catalyseur accélère la réaction en abaissant l'énergie d'activation, sans être consommé ni figurer dans le bilan. On distingue les catalyseurs homogènes, hétérogènes, enzymatiques et l'auto-catalyse.
+
+\newpage
+
+## Exercices supplémentaires
+
+```{r, child=c('exe/cinetique/50.Rmd')}
+```
+
+```{r, child=c('exe/cinetique/60.Rmd')}
+```
+
+```{r, child=c('exe/cinetique/70.Rmd')}
+```
+
+\newpage
 
 ```{r, echo=FALSE}
 if (knitr::is_latex_output()) {
