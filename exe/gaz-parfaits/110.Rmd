@@ -1,0 +1,21 @@
+::: {.Exercise data-latex=""}
+
+La combustion complète du méthane suit $\ce{CH4 + 2O2 -> CO2 + 2H2O}$. On brûle 16.0 g de méthane. Données : M(CH₄) = 16.04 g/mol ; R = 8.314 J&middot;mol$^{-1}$&middot;K$^{-1}$.
+
+Quel volume de dioxygène, mesuré à 25°C (298.15 K) sous $1.0\cdot10^5$ Pa, est nécessaire à cette combustion ?
+
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+$$
+n_{\ce{CH4}} = \frac{m}{M} = \frac{16.0}{16.04} = 1.00 \text{ mol}
+$$
+La réaction se fait dans le rapport $\ce{CH4} : \ce{O2} = 1:2$, donc $n_{\ce{O2}} = 2.00$ mol.
+$$
+V = \frac{n \cdot R \cdot T}{P} = \frac{2.00 \cdot 8.314 \cdot 298.15}{1.0\cdot10^5} = 4.96\cdot10^{-2} \text{ m}^3 = 49.6 \text{ l}
+$$
+
+:::

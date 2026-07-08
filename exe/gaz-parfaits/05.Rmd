@@ -1,0 +1,23 @@
+::: {.Exercise data-latex=""}
+
+Répondez aux questions suivantes sur la théorie cinétique des gaz.
+
+1. Pourquoi un gaz est-il beaucoup moins dense et beaucoup plus compressible qu'un solide ou un liquide ?
+\vspace{\stretch{1}}
+2. À l'échelle microscopique, qu'est-ce qui provoque la pression exercée par un gaz sur les parois de son récipient ?
+\vspace{\stretch{1}}
+3. À quelle grandeur l'énergie cinétique moyenne des particules d'un gaz est-elle proportionnelle ?
+\vspace{\stretch{1}}
+4. Qu'appelle-t-on un « gaz parfait » ?
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. Dans un gaz, les particules sont très éloignées les unes des autres (l'essentiel du volume est du vide), alors qu'elles sont serrées dans un solide ou un liquide. On peut donc facilement les rapprocher (compressibilité) et la masse par unité de volume est faible (faible densité).
+2. La pression provient des collisions incessantes des particules du gaz contre les parois du récipient.
+3. À la température absolue, exprimée en kelvin.
+4. Un gaz parfait est un gaz qui obéit à toutes les hypothèses de la théorie cinétique.
+
+:::

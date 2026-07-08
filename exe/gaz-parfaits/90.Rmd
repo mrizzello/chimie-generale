@@ -1,0 +1,22 @@
+::: {.Exercise data-latex=""}
+
+Le carbonate de calcium se décompose selon $\ce{CaCO3 -> CaO + CO2}$. On chauffe 50.0 g de carbonate de calcium. Données : M(CaCO₃) = 100.09 g/mol ; R = 8.314 J&middot;mol$^{-1}$&middot;K$^{-1}$.
+
+1. Combien de moles de $\ce{CO2}$ se forment ?
+\vspace{\stretch{1}}
+2. Quel volume ce dioxyde de carbone occupe-t-il à 273.15 K sous une pression de $10^5$ Pa ?
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. $$
+n_{\ce{CaCO3}} = \frac{m}{M} = \frac{50.0}{100.09} = 0.500 \text{ mol}
+$$
+La réaction se fait dans le rapport 1:1, donc $n_{\ce{CO2}} = 0.500$ mol.
+2. $$
+V = \frac{n \cdot R \cdot T}{P} = \frac{0.500 \cdot 8.314 \cdot 273.15}{10^5} = 0.01135 \text{ m}^3 = 11.35 \text{ l}
+$$
+
+:::
