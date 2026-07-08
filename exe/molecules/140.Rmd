@@ -1,0 +1,21 @@
+::: {.Exercise data-latex=""}
+
+Pour chacune des molécules suivantes, indiquez si elle est polaire ou non polaire, et justifiez.
+
+1. $HCl$
+2. $O_2$
+3. $H_2O$
+4. $CO_2$
+5. $CH_4$
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. $HCl$ : **polaire**. La liaison H–Cl est polaire (le chlore est plus électronégatif) et rien ne compense ce dipôle dans une molécule diatomique.
+2. $O_2$ : **non polaire**. Les deux atomes identiques partagent les électrons de manière égale : la liaison n'est pas polaire.
+3. $H_2O$ : **polaire**. Les liaisons O–H sont polaires et la molécule n'est pas symétrique : les dipôles ne s'annulent pas.
+4. $CO_2$ : **non polaire**. La molécule est linéaire et symétrique : les deux dipôles opposés des liaisons C=O s'annulent.
+5. $CH_4$ : **non polaire**. La molécule est symétrique (tétraèdre) : les dipôles des liaisons C–H s'annulent.
+
+:::

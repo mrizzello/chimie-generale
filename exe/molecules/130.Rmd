@@ -1,0 +1,17 @@
+::: {.Exercise data-latex=""}
+
+Pour chacune des molécules suivantes, déterminez le nombre stérique (NS) de l'atome central, le nom de la géométrie et l'angle de liaison.
+
+1. $CO_2$
+2. $BF_3$
+3. $CH_4$
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. $CO_2$ : NS = 2 (2 atomes liés, 0 paire libre) → géométrie **linéaire**, angle 180°.
+2. $BF_3$ : NS = 3 (3 atomes liés, 0 paire libre) → géométrie **trigonale plane**, angle 120°.
+3. $CH_4$ : NS = 4 (4 atomes liés, 0 paire libre) → géométrie **tétraèdre**, angle 109.5°.
+
+:::

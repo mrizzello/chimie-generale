@@ -1,0 +1,20 @@
+::: {.Exercise data-latex=""}
+
+L'eau $H_2O$ bout à 100 °C alors que le sulfure d'hydrogène $H_2S$, de structure semblable, bout à −60 °C. On rappelle que l'oxygène et le soufre appartiennent au même groupe (VI).
+
+1. Ces deux molécules sont-elles polaires ? Justifiez brièvement.
+\vspace{\stretch{1}}
+2. Quelle force intermoléculaire particulière existe dans l'eau mais pas dans le $H_2S$ ? Pourquoi ?
+\vspace{\stretch{1}}
+3. Expliquez la grande différence entre leurs points d'ébullition.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. Oui, les deux sont **polaires** : elles possèdent des liaisons polaires (O–H et S–H) et une géométrie non symétrique, si bien que les dipôles ne s'annulent pas.
+2. La **liaison hydrogène**. Elle se forme lorsqu'un hydrogène est lié à un atome très électronégatif (O, N ou F). L'oxygène est assez électronégatif pour cela, mais pas le soufre : le $H_2S$ ne forme donc pas de liaison hydrogène.
+3. L'eau forme des liaisons hydrogène, très fortes, qui demandent beaucoup d'énergie pour être rompues → point d'ébullition élevé (100 °C). Le $H_2S$ n'a que des interactions dipôle-dipôle et de dispersion, plus faibles → point d'ébullition bien plus bas (−60 °C).
+
+:::

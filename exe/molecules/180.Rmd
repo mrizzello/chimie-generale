@@ -1,0 +1,29 @@
+::: {.Exercise data-latex=""}
+
+Pour chacune des molécules $BF_3$, $NH_3$ et $CH_4$ :
+
+1. Donnez le nombre stérique de l'atome central et le nom de la géométrie.
+\vspace{\stretch{1}}
+2. Indiquez l'angle de liaison approximatif.
+\vspace{\stretch{1}}
+3. La molécule est-elle polaire ou non polaire ? Justifiez.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. Géométries :
+   - $BF_3$ : NS = 3 → trigonale plane.
+   - $NH_3$ : NS = 3 + 1 = 4 → dérivée du tétraèdre.
+   - $CH_4$ : NS = 4 → tétraèdre.
+2. Angles de liaison :
+   - $BF_3$ : 120°.
+   - $NH_3$ : ≈ 109.5° (géométrie dérivée du tétraèdre).
+   - $CH_4$ : 109.5°.
+3. Polarité :
+   - $BF_3$ : **non polaire** (molécule symétrique, les dipôles s'annulent).
+   - $NH_3$ : **polaire** (la paire libre rend la molécule non symétrique, les dipôles ne s'annulent pas).
+   - $CH_4$ : **non polaire** (molécule symétrique, les dipôles s'annulent).
+
+:::
