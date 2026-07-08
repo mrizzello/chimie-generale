@@ -1,0 +1,29 @@
+::: {.Exercise data-latex=""}
+
+Pour chacun des composés suivants, indiquez la famille et donnez son nom.
+
+1. $N_2O_5$
+\vspace{\stretch{1}}
+2. $KOH$
+\vspace{\stretch{1}}
+3. $HNO_3$
+\vspace{\stretch{1}}
+4. $Al_2O_3$
+\vspace{\stretch{1}}
+5. $CaBr_2$
+\vspace{\stretch{1}}
+6. $HBr$ (en solution aqueuse)
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. $N_2O_5$ : composé binaire covalent — pentoxyde de diazote
+2. $KOH$ : hydroxyde — hydroxyde de potassium
+3. $HNO_3$ : oxacide — acide nitrique
+4. $Al_2O_3$ : composé binaire ionique (oxyde) — oxyde d'aluminium
+5. $CaBr_2$ : sel (composé binaire ionique) — bromure de calcium
+6. $HBr$ : acide binaire (hydracide) — acide bromhydrique
+
+:::

@@ -1,0 +1,25 @@
+::: {.Exercise data-latex=""}
+
+Classez chacun des composés suivants dans sa famille : corps simple, composé binaire covalent, composé binaire ionique, acide binaire (hydracide), hydroxyde, oxacide ou sel.
+
+1. $O_2$
+2. $HCl$ (en solution aqueuse)
+3. $CaCO_3$
+4. $H_2SO_4$
+5. $NaOH$
+6. $CO_2$
+7. $Fe_2O_3$
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. $O_2$ : corps simple (molécule diatomique)
+2. $HCl$ : acide binaire (hydracide)
+3. $CaCO_3$ : sel
+4. $H_2SO_4$ : oxacide
+5. $NaOH$ : hydroxyde
+6. $CO_2$ : composé binaire covalent
+7. $Fe_2O_3$ : composé binaire ionique (oxyde)
+
+:::

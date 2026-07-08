@@ -1,0 +1,19 @@
+::: {.Exercise data-latex=""}
+
+Donnez le nom des composés binaires covalents suivants, ou leur formule brute.
+
+1. $SO_2$
+2. $PCl_5$
+3. tétrachlorure de carbone
+4. trifluorure d'azote
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. $SO_2$ : dioxyde de soufre
+2. $PCl_5$ : pentachlorure de phosphore
+3. tétrachlorure de carbone : $CCl_4$
+4. trifluorure d'azote : $NF_3$
+
+:::

@@ -12,7 +12,7 @@ $OH^-$, $Fe^{3+}$, $O^{2-}$, $Ca^{2+}$, $PO_4^{3-}$, $Cl^-$, $H^+$
     - $Fe_2O_3$ oxyde de fer (III)
     - $CaO$ oxyde de calcium
 - hydroxydes
-    - $Fe(OH)_3$ hydroxyde fer (III)
+    - $Fe(OH)_3$ hydroxyde de fer (III)
     - $Ca(OH)_2$ hydroxyde de calcium
 - hydracides
     - $HCl$ acide chlorhydrique
