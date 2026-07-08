@@ -1,0 +1,31 @@
+::: {.Exercise data-latex=""}
+
+On plonge une lame de fer dans une solution de nitrate d'argent. On observe la formation d'un dépôt d'argent métallique. Données : $\ce{Ag+/Ag}$ ($+0.80$ V), $\ce{Fe^{2+}/Fe}$ ($-0.45$ V).
+
+1. Écrivez les deux demi-équations (oxydation et réduction).
+\vspace{\stretch{1}}
+2. Écrivez l'équation globale équilibrée.
+\vspace{\stretch{1}}
+3. Identifiez l'oxydant et le réducteur.
+\vspace{\stretch{1}}
+4. Cette réaction est-elle spontanée ? Justifiez à l'aide des potentiels.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. $$
+\begin{split}
+\ce{Fe -> Fe^{2+} + 2 e^-} &\quad \text{(oxydation)} \\
+\ce{Ag+ + 1 e^- -> Ag} &\quad \text{(réduction)}
+\end{split}
+$$
+2. On multiplie la réduction par 2 pour équilibrer les électrons :
+$$
+\ce{Fe + 2 Ag+ -> Fe^{2+} + 2 Ag}
+$$
+3. L'oxydant est $\ce{Ag+}$ (il est réduit) ; le réducteur est $\ce{Fe}$ (il est oxydé).
+4. Oui : $\ce{Ag+}$ appartient au couple de plus haut potentiel ($+0.80$ V), c'est l'oxydant le plus fort ; $\ce{Fe}$ appartient au couple de plus bas potentiel ($-0.45$ V), c'est le réducteur le plus fort. Leur réaction est donc spontanée (règle du gamma).
+
+:::

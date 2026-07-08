@@ -222,6 +222,11 @@ $$
 
 ne sera donc pas spontanée.
 
+\newpage
+
+```{r, child=c('exe/oxydoreductions/35.Rmd')}
+```
+
 ## Équilibrer les équations d'oxydoréduction
 
 Précédemment, nous avons vu comment équilibrer des équations de réactions en équilibrant le nombre d'atomes de chaque type des deux côtés de la flèche de l'équation. Pour équilibrer des équations d'oxydoréduction, il est de plus nécessaire d'équilibrer les électrons transférés.
@@ -314,6 +319,15 @@ Les masses et les électrons échangés sont maintenant équilibrés dans l'équ
 
 \newpage
 
+## Résumé
+
+- Une réaction d'oxydoréduction est une réaction avec transfert d'électrons d'un réactif à un autre.
+- Le nombre d'oxydation (NO) est la charge fictive d'un atome si les électrons de liaison étaient attribués à l'atome le plus électronégatif.
+- On reconnaît une réaction d'oxydoréduction si le NO d'au moins un élément change entre les réactifs et les produits.
+- L'oxydation est une augmentation du NO ; la réduction une diminution du NO. Le réducteur donne des électrons ; l'oxydant en accepte.
+- La table des potentiels standards de réduction classe les couples : plus $E°$ est élevé, plus l'oxydant est fort. La réaction spontanée fait réagir l'oxydant le plus fort avec le réducteur le plus fort.
+- Pour équilibrer une équation d'oxydoréduction, on équilibre les masses et les électrons échangés : on écrit les deux demi-réactions, on les multiplie pour égaliser les électrons, puis on les additionne.
+
 ## Exercices supplémentaires
 
 ```{r, child=c('exe/oxydoreductions/50.Rmd')}
@@ -334,6 +348,14 @@ Les masses et les électrons échangés sont maintenant équilibrés dans l'équ
 ```
 
 ```{r, child=c('exe/oxydoreductions/150.Rmd')}
+```
+
+\newpage
+
+```{r, child=c('exe/oxydoreductions/160.Rmd')}
+```
+
+```{r, child=c('exe/oxydoreductions/170.Rmd')}
 ```
 
 \newpage

@@ -1,0 +1,23 @@
+::: {.Exercise data-latex=""}
+
+On donne les potentiels standards de réduction : $\ce{Cu^{2+}/Cu}$ ($E° = +0.34$ V) et $\ce{Zn^{2+}/Zn}$ ($E° = -0.76$ V).
+
+1. Quel est l'oxydant le plus fort ? Quel est le réducteur le plus fort ?
+\vspace{\stretch{1}}
+2. À l'aide de la règle du gamma, écrivez l'équation de la réaction spontanée.
+\vspace{\stretch{1}}
+3. Que se passe-t-il si l'on plonge une lame de zinc dans une solution de sulfate de cuivre (II) ?
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. L'oxydant le plus fort appartient au couple de plus haut potentiel : $\ce{Cu^{2+}}$. Le réducteur le plus fort appartient au couple de plus bas potentiel : $\ce{Zn}$.
+2. La réaction spontanée fait réagir l'oxydant le plus fort avec le réducteur le plus fort :
+$$
+\ce{Cu^{2+} + Zn -> Cu + Zn^{2+}}
+$$
+3. Le zinc (réducteur fort) réduit les ions $\ce{Cu^{2+}}$ : la lame de zinc se dissout ($\ce{Zn -> Zn^{2+}}$) et du cuivre métallique se dépose ($\ce{Cu^{2+} -> Cu}$). La réaction est spontanée.
+
+:::
