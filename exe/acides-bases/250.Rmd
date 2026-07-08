@@ -45,7 +45,7 @@ K_a = \frac{x^2}{0.100-\cancel{x}} = \frac{x^2}{0.100}
 \begin{split}
 \Rightarrow 1.1 \cdot 10^{-2} &= \frac{x^2}{0.100} \\
 x &= \sqrt{1.1 \cdot 10^{-2} \cdot 0.100} \\
-&= 3.32 \cdot 10^{-2}\ [mol/L]
+&= 3.32 \cdot 10^{-2}\ \text{ mol/L}
 \end{split}
 $$
 L'approximation n'est pas valide : $\frac{0.033}{0.100} \cdot 100\% = 33\% > 5\%$

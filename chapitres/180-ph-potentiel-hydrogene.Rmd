@@ -71,6 +71,9 @@ L'échelle de pH est généralement représentée de 0 à 14, bien que des valeu
 
 \newpage
 
+```{r, child=c('exe/acides-bases/440.Rmd')}
+```
+
 ## Calcul du pH
 
 ### Acides forts
@@ -239,7 +242,7 @@ $$
 Finalement, on calcule le pH :
 
 $$
-pH = - \log |\ce{H3O+}| = - \log 7 \cdot 10^{-6} = 5.15\ [-]
+pH = - \log |\ce{H3O+}| = - \log 7 \cdot 10^{-6} = 5.15
 $$
 
 ```{r, child=c('exe/acides-bases/250.Rmd')}
@@ -322,7 +325,7 @@ $$
 Finalement, on calcule le pH en prenant $|\ce{OH-}| = 1.90 \cdot 10^{-3}$ M :
 
 $$
-pH = 14 - pOH = 14 + \log |\ce{OH-}| = 14 + \log 1.90 \cdot 10^{-3} = 11.279\ [-]
+pH = 14 - pOH = 14 + \log |\ce{OH-}| = 14 + \log 1.90 \cdot 10^{-3} = 11.279
 $$
 
 ```{r, child=c('exe/acides-bases/270.Rmd')}
@@ -520,6 +523,9 @@ C_b^{*} = \frac{n_b^{*}}{V_{tot}} \qquad \text{avec } n_b^{*} = n_b - n_a = C_b 
 \end{split}
 $$
 
+```{r, child=c('exe/acides-bases/450.Rmd')}
+```
+
 \newpage
 
 ### Titrage d'une base forte par un acide fort
@@ -636,6 +642,11 @@ n_b^* = n_b - n_a = C_b \cdot V_b - C_a \cdot V_a
 \end{split}
 $$
 
+```{r, child=c('exe/acides-bases/470.Rmd')}
+```
+
+\newpage
+
 ### Titrage d'une base faible par un acide fort
 
 La courbe observée lorsque l'on ajoute dans une base faible, petit à petit, un acide fort afin d'en effectuer la courbe de pH découle du même raisonnement que celle de la neutralisation d'un acide faible par une base forte que l'on vient de décrire.
@@ -643,8 +654,6 @@ La courbe observée lorsque l'on ajoute dans une base faible, petit à petit, un
 ```{r acides-bases-6d,echo=FALSE,out.width="65%",fig.show="hold",fig.align="center",fig.cap="Neutralisation d'une base faible par un acide fort"}
 knitr::include_graphics(c("images/courbes-titration-base-faible.png"))
 ```
-
-\newpage
 
 ### Titrage d'une polyacide faible par une base forte
 
@@ -683,6 +692,31 @@ knitr::include_graphics(c("images/courbes-titration-methode-tangeantes.png"))
 3.  **Localisez le point d'équivalence** : Trouvez le milieu du segment de cette droite perpendiculaire. Ensuite, tracez une quatrième droite passant par ce milieu et parallèle aux deux tangentes initiales. Le point où cette dernière droite croise la courbe de titrage est le **point d'équivalence**.
 
 À partir de ce point, vous pouvez déterminer le **volume équivalent (V~e~)** en le projetant sur l'axe des abscisses et le **pH à l'équivalence (pH~e~)** en le projetant sur l'axe des ordonnées.
+
+```{r, child=c('exe/acides-bases/460.Rmd')}
+```
+
+\newpage
+
+## Résumé
+
+- Le pH mesure l'acidité d'une solution : $pH = -\log|\ce{H3O+}|$ et $|\ce{H3O+}| = 10^{-pH}$.
+- Acides forts et bases fortes : dissociation complète.
+- Acide faible : dissociation partielle. On calcule $|\ce{H3O+}|$ par un tableau de variations et $K_a$, avec l'approximation. De même pour une base faible avec $K_b$.
+- Un polyacide libère ses protons un à un ; en général seule la première déprotonation contribue notablement au pH.
+- Une solution tampon maintient un pH quasi constant. On calcule son pH par la relation de Henderson-Hasselbalch.
+- Un titrage repose sur une neutralisation ; au point d'équivalence, les réactifs sont en proportions stœchiométriques. Le long d'une courbe de titrage, on calcule le pH selon la zone (acide ou base en excès, tampon, équivalence).
+- Le point d'équivalence donne le volume équivalent $V_e$ et permet de déterminer une concentration inconnue.
+
+\newpage
+
+## Exercices supplémentaires
+
+```{r, child=c('exe/acides-bases/480.Rmd')}
+```
+
+```{r, child=c('exe/acides-bases/490.Rmd')}
+```
 
 \newpage
 

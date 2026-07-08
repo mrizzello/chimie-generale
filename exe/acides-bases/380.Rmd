@@ -82,12 +82,12 @@ $$
 
 b. $$
 \begin{split}
-M_{\ce{NaOH}} = 40.008\ [g/mol]
+M_{\ce{NaOH}} = 40.008\ \text{ g/mol}
 \end{split}
 \qquad
 \begin{split}
-n_{\ce{NaOH}} &= \frac{m_{\ce{NaOH}}}{M_{\ce{NaOH}}} = \frac{0.3\ [g]}{40.008\ [g/mol]} = 0.0075\ [mol] \\
-|\ce{NaOH}| &= \frac{n_{\ce{NaOH}}}{V_{solution}} = \frac{0.0075\ [mol]}{0.020\ [L]} = 0.375\ M
+n_{\ce{NaOH}} &= \frac{m_{\ce{NaOH}}}{M_{\ce{NaOH}}} = \frac{0.3\ \text{ g}}{40.008\ \text{ g/mol}} = 0.0075\ \text{ mol} \\
+|\ce{NaOH}| &= \frac{n_{\ce{NaOH}}}{V_{solution}} = \frac{0.0075\ \text{ mol}}{0.020\ \text{ L}} = 0.375\ M
 \end{split}
 $$
 $$

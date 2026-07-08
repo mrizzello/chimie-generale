@@ -1,0 +1,35 @@
+::: {.Exercise data-latex=""}
+
+On titre 20.0 mL d'acide chlorhydrique ($\ce{HCl}$) 0.10 M par une solution d'hydroxyde de sodium ($\ce{NaOH}$) 0.10 M.
+
+1. Quel volume de $\ce{NaOH}$ faut-il ajouter pour atteindre le point d'équivalence ?
+\vspace{\stretch{1}}
+2. Calculez le pH initial (avant tout ajout de base).
+\vspace{\stretch{1}}
+3. Calculez le pH après ajout de 10.0 mL de $\ce{NaOH}$.
+\vspace{\stretch{1}}
+4. Quel est le pH au point d'équivalence ? Justifiez.
+\vspace{\stretch{1}}
+5. Calculez le pH après ajout de 30.0 mL de $\ce{NaOH}$.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. À l'équivalence, $n(\ce{NaOH}) = n(\ce{HCl})$, soit $C_b V_b = C_a V_a$ :
+$$
+V_b = \frac{C_a V_a}{C_b} = \frac{0.10 \cdot 20.0}{0.10} = 20.0 \text{ mL}
+$$
+2. Seul l'acide fort est présent : $pH = -\log C_a = -\log 0.10 = 1.0$.
+3. Avant l'équivalence : $n_a^* = C_a V_a - C_b V_b = 0.10\cdot0.0200 - 0.10\cdot0.0100 = 1.0\cdot10^{-3}$ mol ; $V_{tot} = 30.0$ mL.
+$$
+C_a^* = \frac{1.0\cdot10^{-3}}{0.0300} = 0.033 \text{ M} \qquad pH = -\log 0.033 = 1.48
+$$
+4. $pH = 7$ : tous les ions $\ce{H+}$ ont été neutralisés par les ions $\ce{OH-}$ ; il ne reste que $\ce{Na+}$ et $\ce{Cl-}$, inertes.
+5. Après l'équivalence : $n_b^* = C_b V_b - C_a V_a = 0.10\cdot0.0300 - 0.10\cdot0.0200 = 1.0\cdot10^{-3}$ mol ; $V_{tot} = 50.0$ mL.
+$$
+C_b^* = \frac{1.0\cdot10^{-3}}{0.0500} = 0.020 \text{ M} \qquad pH = 14 + \log 0.020 = 12.30
+$$
+
+:::

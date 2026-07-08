@@ -112,7 +112,7 @@ K_{a2} = \frac{x \cdot (0.0476 + \cancel{x})}{0.0476 - \cancel{x}} = \frac{x \cd
 \qquad
 \begin{split}
 \Rightarrow 6.2 \cdot 10^{-8} &= \frac{x \cdot 0.0476}{0.0476} \\
-x &= 6.2 \cdot 10^{-8} [mol/L]
+x &= 6.2 \cdot 10^{-8} \text{ mol/L}
 \end{split}
 $$
 L'approximation est valide : $\frac{6.2 \cdot 10^{-8}}{0.0476} \cdot 100\% \approx 0\% < 5\%$

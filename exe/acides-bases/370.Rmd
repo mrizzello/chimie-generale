@@ -9,8 +9,8 @@ Calculez le pH d’une solution résultant du mélange de 60.0 mL de $\ce{HCOOH}
 
 $$
 \begin{split}
-  |\ce{HCOOH}| &= \frac{0.06\ [L] \cdot 0.250\ [mol/L]}{0.075\ [L]} = 0.200\ [mol/L] \\
-  |\ce{HCOO-}| &= \frac{0.015\ [L] \cdot 0.500\ [mol/L]}{0.075\ [L]} = 0.100\ [mol/L]
+  |\ce{HCOOH}| &= \frac{0.06\ \text{ L} \cdot 0.250\ \text{ mol/L}}{0.075\ \text{ L}} = 0.200\ \text{ mol/L} \\
+  |\ce{HCOO-}| &= \frac{0.015\ \text{ L} \cdot 0.500\ \text{ mol/L}}{0.075\ \text{ L}} = 0.100\ \text{ mol/L}
 \end{split}
 $$
 Méthode basée sur l'équilibre :
