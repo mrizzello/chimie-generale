@@ -8,10 +8,18 @@ Pour chaque ligne des exemples ci-dessus, écrire l'équation de la réaction é
 
 ::: {.Answer data-latex=""}
 
-1. $$\ce{HCl + NaOH -> NaCl + H2O}$$
+1. globale : $\ce{HCl + NaOH -> NaCl + H2O}$
+  ionique : $\ce{H^{+} + Cl^{–} + Na^{+} + OH^{–} -> Na^{+} + Cl^{–} + H2O}$
+  ionique réduite : $\ce{H^{+} + OH^{–} -> H2O}$
 
-2. $$\ce{HNO3 + KOH -> KNO3 + H2O}$$
+2. globale : $\ce{HNO3 + KOH -> KNO3 + H2O}$
+  ionique : $\ce{H^{+} + NO3^{–} + K^{+} + OH^{–} -> K^{+} + NO3^{–} + H2O}$
+  ionique réduite : $\ce{H^{+} + OH^{–} -> H2O}$
 
-3. $$\ce{H2SO4 + Ca(OH)2 -> CaSO4 + 2H2O}$$
+3. globale : $\ce{H2SO4 + Ca(OH)2 -> CaSO4 + 2H2O}$
+  ionique : $\ce{2H^{+} + SO4^{2–} + Ca^{2+} + 2OH^{–} -> Ca^{2+} + SO4^{2–} + 2H2O}$
+  ionique réduite : $\ce{H^{+} + OH^{–} -> H2O}$
+
+  ($\ce{CaSO4}$ est soluble, les ions $\ce{Ca^{2+}}$ et $\ce{SO4^{2–}}$ sont spectateurs.)
 
 :::

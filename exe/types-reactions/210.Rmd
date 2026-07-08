@@ -1,0 +1,20 @@
+::: {.Exercise data-latex=""}
+
+On dispose d'une solution d'acide sulfurique $\ce{H2SO4}$ et d'une solution d'hydroxyde de sodium $\ce{NaOH}$.
+
+1. Écrivez l'équation globale équilibrée de la neutralisation.
+\vspace{\stretch{1}}
+2. Écrivez l'équation ionique réduite.
+\vspace{\stretch{1}}
+3. On ajoute quelques gouttes de bleu de bromothymol (jaune en milieu acide, bleu en milieu basique) à l'acide, puis on y verse progressivement la solution de $\ce{NaOH}$. Décrivez l'évolution de la couleur, en précisant le pH ($< 7$, $= 7$ ou $> 7$) à chaque étape.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. $\ce{H2SO4 + 2NaOH -> Na2SO4 + 2H2O}$
+2. $\ce{H^{+} + OH^{–} -> H2O}$
+3. Au départ, l'acide est en excès : la solution est **jaune** ($pH < 7$). En ajoutant la base, on se rapproche de la neutralité ; lorsqu'on a versé autant d'ions $\ce{OH^{–}}$ que d'ions $\ce{H^{+}}$, la solution est **neutre** ($pH = 7$). En poursuivant l'ajout de $\ce{NaOH}$, la base est en excès et la solution devient **bleue** ($pH > 7$).
+
+:::

@@ -1,0 +1,23 @@
+::: {.Exercise data-latex=""}
+
+On mélange deux à deux des solutions aqueuses. À l'aide de la table des solubilités, indiquez si un précipité se forme. Si oui, donnez l'équation ionique réduite ; sinon, indiquez « pas de réaction ».
+
+1. $\ce{BaCl2}$ + $\ce{Na2SO4}$
+\vspace{\stretch{1}}
+2. $\ce{NaCl}$ + $\ce{KNO3}$
+\vspace{\stretch{1}}
+3. $\ce{AgNO3}$ + $\ce{NaCl}$
+\vspace{\stretch{1}}
+4. $\ce{Ca(NO3)2}$ + $\ce{Na2CO3}$
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. Précipité de $\ce{BaSO4}$ : $\ce{Ba^{2+} + SO4^{2–} -> BaSO4 v}$
+2. Pas de réaction : tous les produits ($\ce{NaNO3}$, $\ce{KCl}$) sont solubles.
+3. Précipité de $\ce{AgCl}$ : $\ce{Ag^{+} + Cl^{–} -> AgCl v}$
+4. Précipité de $\ce{CaCO3}$ : $\ce{Ca^{2+} + CO3^{2–} -> CaCO3 v}$
+
+:::

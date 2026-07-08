@@ -22,7 +22,7 @@ Pour chaque équation de précipitation de l'exercice précédent, écrire les �
 
 3. mélange, pas de réaction
 
-4. $\qquad \ce{2K^{+} + S^{2–} + Ni^{2+} + 2NO3^{–} -> NiS v + 2K^{+} + NO3^{–}}$  
+4. $\qquad \ce{2K^{+} + S^{2–} + Ni^{2+} + 2NO3^{–} -> NiS v + 2K^{+} + 2NO3^{–}}$
   $\qquad \ce{S^{2–} + Ni^{2+} -> NiS v}$
 
 :::

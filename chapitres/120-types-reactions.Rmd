@@ -136,6 +136,8 @@ $$ \begin{split}
    & \ce{Ca(OH)2 ->C[H2O] Ca^{2+} + 2OH^{–}}
  \end{split} $$
 
+\newpage
+
 ```{r, child=c('exe/types-reactions/50.Rmd')}
 ```
 
@@ -231,6 +233,14 @@ $$ \begin{split}
 
 \newpage
 
+## Résumé
+
+- On distingue plusieurs types de réactions : combinaison, décomposition, dissociation, précipitation, neutralisation et combustion.
+- Pour une précipitation, on croise les ions des réactifs, on équilibre, puis on identifie le précipité à l'aide de la table des solubilités. Les ions présents des deux côtés disparaissent de l'équation ionique réduite. Si aucun produit n'est insoluble, il n'y a pas de réaction.
+- Une réaction en solution peut s'écrire sous trois formes : globale, ionique et ionique réduite.
+- Une combustion organique complète d'un hydrocarbure produit du dioxyde de carbone et de l'eau.
+- Acidité et pH : un acide libère des ions $\ce{H^+}$, un hydroxyde (base) libère des ions $\ce{OH^-}$. Le pH (échelle 0 à 14) mesure l'acidité : acide si $pH < 7$, neutre si $pH = 7$ (eau pure), basique si $pH > 7$. Un indicateur acide-base change de couleur selon le milieu.
+
 ## Exercices supplémentaires
 
 ```{r, child=c('exe/types-reactions/80.Rmd')}
@@ -241,6 +251,8 @@ $$ \begin{split}
 
 ```{r, child=c('exe/types-reactions/100.Rmd')}
 ```
+
+\newpage
 
 ```{r, child=c('exe/types-reactions/110.Rmd')}
 ```
@@ -254,6 +266,8 @@ $$ \begin{split}
 ```{r, child=c('exe/types-reactions/140.Rmd')}
 ```
 
+\newpage
+
 ```{r, child=c('exe/types-reactions/150.Rmd')}
 ```
 
@@ -263,10 +277,21 @@ $$ \begin{split}
 ```{r, child=c('exe/types-reactions/170.Rmd')}
 ```
 
+\newpage
+
 ```{r, child=c('exe/types-reactions/180.Rmd')}
 ```
 
+```{r, child=c('exe/types-reactions/190.Rmd')}
+```
+
+```{r, child=c('exe/types-reactions/200.Rmd')}
+```
+
 \newpage
+
+```{r, child=c('exe/types-reactions/210.Rmd')}
+```
 
 ```{r, echo=FALSE}
 if (knitr::is_latex_output()) {
