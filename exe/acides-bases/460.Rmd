@@ -1,0 +1,23 @@
+::: {.Exercise data-latex=""}
+
+On titre 25.0 mL d'un acide en lui ajoutant progressivement de la soude $\ce{NaOH}$ 0.10 M. La courbe de pH obtenue présente un unique saut de pH pour un volume de base ajouté de 25.0 mL, et le pH au point d'équivalence vaut 7.
+
+1. Combien de points d'équivalence observe-t-on ? S'agit-il d'un monoacide ou d'un polyacide ?
+\vspace{\stretch{1}}
+2. L'acide titré est-il un acide fort ou un acide faible ? Justifiez à l'aide du pH à l'équivalence.
+\vspace{\stretch{1}}
+3. Déterminez la concentration de l'acide.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. Un seul saut de pH, donc un seul point d'équivalence : c'est un monoacide.
+2. Le pH à l'équivalence vaut 7 (neutre) : c'est un acide fort. Pour un acide faible titré par une base forte, le pH à l'équivalence serait basique ($> 7$).
+3. À l'équivalence, $n_a = n_b$, soit $C_a V_a = C_b V_b$ :
+$$
+C_a = \frac{C_b V_b}{V_a} = \frac{0.10 \cdot 25.0}{25.0} = 0.10 \text{ M}
+$$
+
+:::

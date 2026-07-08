@@ -2,11 +2,11 @@
 
 Calculez le pH des solutions suivantes :
 
-a. $\ce{HI}$ 0.025 [mol/L].
+a. $\ce{HI}$ 0.025 mol/L.
 \vspace{\stretch{1}}
-b. $\ce{Ca(OH)2}$ 0.003 [mol/L].
+b. $\ce{Ca(OH)2}$ 0.003 mol/L.
 \vspace{\stretch{1}}
-c. $\ce{NaOH}$ 2 [g/L].
+c. $\ce{NaOH}$ 2 g/L.
 \vspace{\stretch{1}}
 d. 0.315 mg de $\ce{HNO3}$ dans 10 mL de solution
 \vspace{\stretch{1}}
@@ -23,14 +23,14 @@ b. $$
 $$
 c. $$
 \begin{split}
-  2\ [g/L] &= 0.05\ [mol/L] \\
+  2\ \text{ g/L} &= 0.05\ \text{ mol/L} \\
   pH &= 14 + \log(0.05) \cong 12.7
 \end{split}
 $$
 d. $$
 \begin{split}
-  n_{\ce{HNO3}} &= \frac{0.315 \cdot 10^{-3}\ [g]}{63\ [g/mol]} = 5 \cdot 10^{-6}\ [mol] \\
-  |\ce{HNO3}| &= \frac{n}{V} = \frac{5 \cdot 10^{-6}\ [mol]}{10 \cdot 10^{-3}\ [L]} = 5 \cdot 10^{-4}\ M \\
+  n_{\ce{HNO3}} &= \frac{0.315 \cdot 10^{-3}\ \text{ g}}{63\ \text{ g/mol}} = 5 \cdot 10^{-6}\ \text{ mol} \\
+  |\ce{HNO3}| &= \frac{n}{V} = \frac{5 \cdot 10^{-6}\ \text{ mol}}{10 \cdot 10^{-3}\ \text{ L}} = 5 \cdot 10^{-4}\ M \\
   pH &= - \log |\ce{H3O+}| = - \log 5 \cdot 10^{-4} \cong 3.301
  \end{split}
 $$

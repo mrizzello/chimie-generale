@@ -1,0 +1,22 @@
+::: {.Exercise data-latex=""}
+
+On titre un acide faible HA de constante $pK_a = 4.8$ par une base forte.
+
+1. Au point de demi-équivalence, que vaut le pH ? Justifiez.
+\vspace{\stretch{1}}
+2. À un moment du titrage (avant l'équivalence), il reste $n_a^* = 3.0\cdot10^{-3}$ mol d'acide faible et il s'est formé $n_b = 1.0\cdot10^{-3}$ mol de base conjuguée. Calculez le pH (relation de Henderson-Hasselbalch).
+\vspace{\stretch{1}}
+3. Le pH au point d'équivalence sera-t-il acide, neutre ou basique ? Justifiez.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. Au point de demi-équivalence, $|\ce{A-}| = |\ce{HA}|$, donc $pH = pK_a + \log 1 = pK_a = 4.8$.
+2. $$
+pH = pK_a + \log \frac{n_b}{n_a^*} = 4.8 + \log \frac{1.0\cdot10^{-3}}{3.0\cdot10^{-3}} = 4.8 + \log(0.333) = 4.8 - 0.48 = 4.32
+$$
+3. Basique : au point d'équivalence, tout l'acide faible est converti en sa base conjuguée, qui est une base faible et rend la solution basique ($pH > 7$).
+
+:::

@@ -1,0 +1,23 @@
+::: {.Exercise data-latex=""}
+
+Pour chacune des solutions suivantes, identifiez sa nature (acide fort, base forte, acide faible ou base faible) et calculez son pH.
+
+1. $\ce{HNO3}$ 0.010 M (acide fort).
+\vspace{\stretch{1}}
+2. $\ce{KOH}$ 0.050 M (base forte).
+\vspace{\stretch{1}}
+3. $\ce{CH3COOH}$ 0.10 M, acide faible, $K_a = 1.8\cdot10^{-5}$.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. Acide fort : $|\ce{H3O+}| = C_a = 0.010$ M, donc $pH = -\log 0.010 = 2.0$.
+2. Base forte : $|\ce{OH-}| = C_b = 0.050$ M, donc $pOH = -\log 0.050 = 1.30$ et $pH = 14 - 1.30 = 12.70$.
+3. Acide faible : $K_a = \dfrac{x^2}{0.10 - x} \approx \dfrac{x^2}{0.10}$, donc $x = \sqrt{1.8\cdot10^{-5} \cdot 0.10} = 1.34\cdot10^{-3}$ M (approximation valable : $1.3\,\% < 5\,\%$).
+$$
+pH = -\log(1.34\cdot10^{-3}) = 2.87
+$$
+
+:::
