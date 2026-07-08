@@ -39,7 +39,8 @@ $$
 
 Dans cette expression, chaque concentration ionique est élevée à la puissance de son coefficient stœchiométrique tel qu'il apparaît dans l'équation chimique équilibrée. Pour rappel, lors du calcul des constantes d'équilibre, les solides et les liquides purs ne sont pas inclus dans l'expression.
 
-\newpage
+```{r, child=c('exe/produit-solubilite/05.Rmd')}
+```
 
 ```{r, child=c('exe/produit-solubilite/10.Rmd')}
 ```
@@ -84,8 +85,6 @@ $$
 K_{ps} = s^2 = (4.7 \cdot 10^{-4})^2 = 2.2 \cdot 10^{-7}
 $$
 
-\newpage
-
 ```{r, child=c('exe/produit-solubilite/80.Rmd')}
 ```
 
@@ -100,8 +99,6 @@ $$
 | $\ce{AB2 ->[H2O] A^{2+} + 2B^{-}}$ | \|A^2+^\| = s | \|B^-^\| = 2s | $K_{ps} = s \cdot (2s)^2 =4s^3$ |
 | $\ce{AB3 ->[H2O] A^{3+} + 3B^{-}}$ | \|A^3+^\| = s | \|B^-^\| = 3s | $K_{ps} = s \cdot (3s)^3 = 27s^4$ |
 | $\ce{A3B2 ->[H2O] 3A^{2+} + 2B^{3-}}$ | \|A^2+^\| = 3s | \|B^3-^\| = 2s | $K_{ps} = (3s)^3 \cdot (2s)^2 = 108s^5$ |
-
-\newpage
 
 ### Comparer le produit de solubilité ($K_{ps}$) et la solubilité ($s$)
 
@@ -164,8 +161,6 @@ s = |\ce{Co(OH)_{2(aq)}}|
 \end{split}
 $$
 
-\newpage
-
 L'expression de la constante d'équilibre devient alors :
 
 $$
@@ -192,8 +187,11 @@ Bien que ces deux sels aient des solubilités similaires, leurs produits de solu
 
 Le produit de solubilité ($K_{ps}$) est lié à la solubilité ($s$) par une relation qui dépend du rapport stœchiométrique des ions dans l'équation de dissolution. Les $K_{ps}$ ne sont pas directement comparables entre différents sels à moins qu'ils n'aient des coefficients stœchiométriques identiques dans leur équation de dissolution.
 
+\newpage
+
 ```{r, child=c('exe/produit-solubilite/20.Rmd')}
 ```
+\vspace{\stretch{1}}
 
 ## Effet d'un ion commun
 
@@ -218,6 +216,7 @@ Cette réduction de la solubilité est une conséquence directe de l'augmentatio
 
 ```{r, child=c('exe/produit-solubilite/30.Rmd')}
 ```
+\vspace{\stretch{1}}
 
 \newpage
 
@@ -248,6 +247,14 @@ Les règles générales pour prédire si une précipitation se produira sont les
 ```
 
 \newpage
+
+## Résumé
+
+- Le produit de solubilité $K_{ps}$ est la constante d'équilibre de dissolution d'un composé ionique peu soluble.
+- La solubilité molaire $s$ est reliée au $K_{ps}$ par une relation qui dépend de la stœchiométrie. On calcule $K_{ps}$ à partir de $s$, et inversement.
+- On ne peut comparer directement les $K_{ps}$ de deux sels que s'ils ont le même rapport cation:anion.
+- L'ajout d'un ion déjà présent dans l'équilibre de dissolution déplace celui-ci vers le solide, ce qui diminue la solubilité du sel peu soluble.
+- Pour prévoir une précipitation, on compare le quotient de réaction $Q$ au $K_{ps}$ : $Q < K_{ps}$ → pas de précipité ; $Q = K_{ps}$ → solution saturée ; $Q > K_{ps}$ → précipitation.
 
 ## Exercices supplémentaires
 
@@ -288,6 +295,14 @@ Les règles générales pour prédire si une précipitation se produira sont les
 ```
 
 \vspace{\stretch{1}}
+
+\newpage
+
+```{r, child=c('exe/produit-solubilite/150.Rmd')}
+```
+
+```{r, child=c('exe/produit-solubilite/160.Rmd')}
+```
 
 \newpage
 
