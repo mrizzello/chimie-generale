@@ -46,6 +46,9 @@ Il existe des géométries pour des valeurs de NS supérieures à 5, mais elles 
 ```{r, child=c('exe/molecules/10.Rmd')}
 ```
 
+```{r, child=c('exe/molecules/130.Rmd')}
+```
+
 \newpage
 
 ## La polarité
@@ -86,6 +89,11 @@ Certaines molécules sont symétriques. La symétrie de ces molécules peut les 
 knitr::include_graphics(c("images/dipole-4.png"))
 ```
 
+```{r, child=c('exe/molecules/140.Rmd')}
+```
+
+\newpage
+
 ## Forces intermoléculaires
 
 Les **forces intermoléculaires** sont les forces qui agissent entre les molécules ou les atomes et les maintiennent rapprochés les uns des autres.
@@ -118,8 +126,6 @@ C'est la force d'attraction entre un atome d'hydrogène lié à un atome électr
 
 La liaison hydrogène est un type particulier d'interaction dipôle-dipôle. Les liaisons O-H, N-H et F-H sont très polaires. Il en résulte des attractions remarquablement fortes. L'eau, en particulier, est capable de former un vaste réseau tridimensionnel de liaisons hydrogène car chaque molécule possède deux hydrogènes et un atome électronégatif voisin.
 
-\newpage
-
 ```{r eau-liaison-hydrogene,echo=FALSE,out.width="25%",fig.show="hold",fig.align="center",fig.cap="La liaison hydrogène entre les molécules d'eau"}
 knitr::include_graphics(c("images/ice-0.png", "images/ice-tetra.png", "images/ice.png"))
 ```
@@ -145,6 +151,40 @@ Table: (#tab:comparatif-intermoleculaires) Comparatif des forces intermoléculai
 ```{r forces-intermoleculaires-resume,echo=FALSE,out.width="100%",fig.show="hold",fig.align="center",fig.cap="Résumé des forces intermoléculaires"}
 knitr::include_graphics(c("images/forces-intermoleculaires-resume.png"))
 ```
+
+```{r, child=c('exe/molecules/150.Rmd')}
+```
+
+\newpage
+
+## Résumé
+
+- La théorie VSEPR prévoit la géométrie d'une molécule à atome central : les liaisons et les paires libres se repoussent et s'organisent autour de l'atome central pour minimiser leurs répulsions.
+- On calcule le nombre stérique $NS = m + n$ ($m$ = atomes liés, $n$ = paires libres de l'atome central). À chaque valeur correspond une géométrie.
+- Une liaison entre deux atomes d'électronégativités différentes crée un dipôle ; le moment dipolaire mesure la polarité de la molécule.
+- Une molécule est polaire si les dipôles de ses liaisons ne se compensent pas. Elle est non polaire si elle ne contient pas de liaison polaire, ou si sa symétrie fait que les dipôles s'annulent.
+- Les forces intermoléculaires (forces de Van der Waals) attirent les molécules entre elles ; plus elles sont fortes, plus les points de fusion et d'ébullition sont élevés. On distingue :
+  - les forces de dispersion (London) : faibles et temporaires, présentes entre toutes les molécules ;
+  - les interactions dipôle-dipôle : entre molécules polaires ;
+  - la liaison hydrogène : la plus forte, entre un hydrogène lié à O, N ou F et un atome électronégatif voisin.
+
+## Exercices supplémentaires
+
+```{r, child=c('exe/molecules/160.Rmd')}
+```
+
+```{r, child=c('exe/molecules/170.Rmd')}
+```
+
+\newpage
+
+```{r, child=c('exe/molecules/180.Rmd')}
+```
+
+```{r, child=c('exe/molecules/190.Rmd')}
+```
+
+\newpage
 
 ```{r, echo=FALSE}
 if (knitr::is_latex_output()) {

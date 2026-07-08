@@ -2,9 +2,6 @@
 title: "Cours de chimie générale"
 author:
   - "M. Michele Rizzello"
-  - "Mme Émilie Pittet"
-  - "M. Pascal Millard"
-  - "Mme Mélanie Tschirren"
 date: "`r format(Sys.time(), '%d.%m.%Y')`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook

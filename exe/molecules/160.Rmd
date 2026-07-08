@@ -1,0 +1,23 @@
+::: {.Exercise data-latex=""}
+
+On compare le dioxyde de carbone $CO_2$ et l'eau $H_2O$.
+
+1. Pour chaque molécule, donnez le nombre stérique de l'atome central et le nom de la géométrie.
+\vspace{\stretch{1}}
+2. Chaque molécule contient des liaisons polaires. Laquelle est une molécule polaire ? Justifiez à l'aide de la géométrie.
+\vspace{\stretch{1}}
+3. Quelle est la force intermoléculaire la plus forte dans l'eau ? Et dans le $CO_2$ ?
+\vspace{\stretch{1}}
+4. Laquelle des deux substances possède le point d'ébullition le plus élevé ? Justifiez.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. $CO_2$ : NS = 2 → géométrie **linéaire**. $H_2O$ : NS = 2 + 2 = 4 → géométrie dérivée du **tétraèdre** (molécule non symétrique).
+2. $CO_2$ est linéaire et symétrique : les deux dipôles opposés s'annulent → **non polaire**. $H_2O$ n'est pas symétrique : les dipôles ne s'annulent pas → **polaire**.
+3. Dans l'eau : la **liaison hydrogène**. Dans le $CO_2$ (non polaire) : uniquement les **forces de dispersion** (London).
+4. L'**eau** : ses liaisons hydrogène sont fortes et demandent beaucoup d'énergie pour être rompues, alors que le $CO_2$ n'a que de faibles forces de dispersion. Le point d'ébullition de l'eau est donc plus élevé.
+
+:::

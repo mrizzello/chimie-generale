@@ -1,0 +1,23 @@
+::: {.Exercise data-latex=""}
+
+Répondez aux questions suivantes sur les forces intermoléculaires.
+
+1. Qu'est-ce qu'une force intermoléculaire ? Quel est l'effet de forces intermoléculaires plus fortes sur les points de fusion et d'ébullition ?
+\vspace{\stretch{1}}
+2. Quel type de force intermoléculaire est présent dans toutes les molécules ?
+\vspace{\stretch{1}}
+3. Pour chacune des substances suivantes, indiquez la force intermoléculaire la plus forte présente : $O_2$, $HCl$, $H_2O$.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. Une force intermoléculaire est une force d'attraction qui agit entre les molécules et les maintient rapprochées. Plus ces forces sont fortes, plus les points de fusion et d'ébullition de la substance sont élevés.
+2. Les **forces de dispersion** (forces de London) : elles existent entre toutes les molécules.
+3. Force la plus forte présente :
+   - $O_2$ (non polaire) : forces de dispersion (London) uniquement.
+   - $HCl$ (polaire) : interactions dipôle-dipôle.
+   - $H_2O$ (liaisons O–H) : liaison hydrogène.
+
+:::

@@ -1,0 +1,26 @@
+::: {.Exercise data-latex=""}
+
+On donne les points d'ébullition (sous 1 atm) de trois substances : $CH_4$ (−161 °C), $HCl$ (−85 °C), $H_2O$ (100 °C).
+
+1. Classez ces substances selon la force de leurs interactions intermoléculaires.
+\vspace{\stretch{1}}
+2. Pour chaque substance, identifiez la force intermoléculaire dominante.
+\vspace{\stretch{1}}
+3. Expliquez pourquoi l'eau possède un point d'ébullition beaucoup plus élevé que les deux autres.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. Plus le point d'ébullition est élevé, plus les forces intermoléculaires sont fortes :
+$$
+H_2O > HCl > CH_4
+$$
+2. Force dominante :
+   - $CH_4$ (non polaire) : forces de dispersion (London).
+   - $HCl$ (polaire) : interactions dipôle-dipôle.
+   - $H_2O$ : liaison hydrogène.
+3. L'eau forme des **liaisons hydrogène**, les plus fortes des forces intermoléculaires. Il faut beaucoup d'énergie thermique pour les rompre, d'où un point d'ébullition très élevé par rapport au $HCl$ (dipôle-dipôle) et au $CH_4$ (dispersion seule).
+
+:::
