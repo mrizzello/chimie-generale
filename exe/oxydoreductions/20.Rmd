@@ -6,15 +6,15 @@ a. $$
 \ce{4 Ag + O2 -> 2 Ag2O}
 $$
 \vspace{\stretch{1}}
-c. $$
+b. $$
 \ce{HI + CsOH -> CsI + H2O}
 $$
 \vspace{\stretch{1}}
-d. $$
+c. $$
 \ce{Na3PO4 + FeCl3 -> 3 NaCl + FePO4}
 $$
 \vspace{\stretch{1}}
-b. $$
+d. $$
 \ce{2 Al + 3 CuSO4 -> Al2(SO4)3 + 3 Cu}
 $$
 \vspace{\stretch{1}}

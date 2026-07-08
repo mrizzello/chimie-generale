@@ -1,0 +1,23 @@
+::: {.Exercise data-latex=""}
+
+On donne les potentiels standards de réduction : $\ce{Cu^{2+}/Cu}$ ($+0.34$ V), $\ce{Pb^{2+}/Pb}$ ($-0.13$ V), $\ce{Fe^{2+}/Fe}$ ($-0.45$ V).
+
+1. Classez les trois oxydants du plus faible au plus fort.
+\vspace{\stretch{1}}
+2. La réaction $\ce{Cu^{2+} + Fe -> Cu + Fe^{2+}}$ est-elle spontanée ? Justifiez.
+\vspace{\stretch{1}}
+3. La réaction $\ce{Pb^{2+} + Cu -> Pb + Cu^{2+}}$ est-elle spontanée ? Justifiez.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. Plus le potentiel $E°$ est élevé, plus l'oxydant est fort :
+$$
+\ce{Fe^{2+}} < \ce{Pb^{2+}} < \ce{Cu^{2+}}
+$$
+2. Oui : $\ce{Cu^{2+}}$ est l'oxydant le plus fort (potentiel le plus élevé) et $\ce{Fe}$ le réducteur le plus fort (potentiel le plus bas). Selon la règle du gamma, ils réagissent spontanément.
+3. Non : pour que $\ce{Pb^{2+}}$ oxyde $\ce{Cu}$, il faudrait que $\ce{Pb^{2+}}$ soit un oxydant plus fort que $\ce{Cu^{2+}}$. Or $\ce{Cu^{2+}/Cu}$ ($+0.34$ V) a un potentiel supérieur à $\ce{Pb^{2+}/Pb}$ ($-0.13$ V) : la réaction spontanée est au contraire $\ce{Cu^{2+} + Pb -> Cu + Pb^{2+}}$.
+
+:::

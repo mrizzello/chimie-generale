@@ -29,7 +29,7 @@ c. $$
 \overset{+3\ -1}{\ce{AlCl3}}
 $$
 d. $$
-\overset{+1\ +7\ -2}{\ce{HPO4^{2-}}}
+\overset{+1\ +5\ -2}{\ce{HPO4^{2-}}}
 $$
 e. $$
 \overset{-3\ +1}{\ce{NH4^+}}
