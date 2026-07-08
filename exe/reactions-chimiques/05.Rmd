@@ -1,0 +1,24 @@
+::: {.Exercise data-latex=""}
+
+On considère l'équation de combustion du méthane :
+$$ \ce{CH4_{(g)} + 2 O2_{(g)} -> CO2_{(g)} + 2 H2O_{(g)}} $$
+
+1. Quels sont les réactifs ? Quels sont les produits ?
+\vspace{\stretch{1}}
+2. Que signifie la flèche $\ce{->}$ ?
+\vspace{\stretch{1}}
+3. Que représentent les nombres 2 devant $\ce{O2}$ et $\ce{H2O}$ ? Comment les appelle-t-on ?
+\vspace{\stretch{1}}
+4. Que signifie l'indice $(g)$ ?
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. Réactifs (à gauche de la flèche) : le méthane $\ce{CH4}$ et le dioxygène $\ce{O2}$. Produits (à droite) : le dioxyde de carbone $\ce{CO2}$ et l'eau $\ce{H2O}$.
+2. La flèche indique le sens de la transformation : les réactifs se transforment en produits.
+3. Ce sont les **nombres (coefficients) stoechiométriques** : ils donnent les proportions (rapports molaires) des composés qui réagissent et se forment.
+4. L'indice $(g)$ indique l'état physique de l'espèce : ici, l'état gazeux.
+
+:::
