@@ -1,6 +1,6 @@
 ::: {.Exercise data-latex=""}
 
-Calculez la solubilité de \ce{PbSO4} dans l'eau et dans une solution aqueuse de \ce{Na2SO4_{(aq)}} 1 M ($K_{ps} = 2.53 \cdot 10^{-8}$ à 25\celsius).
+Calculez la solubilité de \ce{PbSO4} dans l'eau et dans une solution aqueuse de \ce{Na2SO4_{(aq)}} 1 M ($K_{ps} = 2.53 \cdot 10^{-8}$ à 25°C).
 
 :::
 
