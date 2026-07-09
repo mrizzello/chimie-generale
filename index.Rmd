@@ -21,33 +21,42 @@ link-citations: yes
 
 # Préambule {-}
 
-Ce manuel fournit aux étudiants (OS et DF) les connaissances de base nécessaires en chimie pour l'obtention du certificat de maturité gymnasiale. Il sert de support de cours pour l'accompagnement des leçons et des travaux pratiques proposés en classe.
+Ce manuel s'adresse aux étudiantes et étudiants de maturité gymnasiale, aussi bien en discipline fondamentale (DF) qu'en option spécifique (OS). Il rassemble les connaissances de base de chimie générale nécessaires à l'obtention du certificat de maturité et sert de support aux leçons ainsi qu'aux travaux pratiques réalisés en classe.
 
-Le document est en cours de rédaction et des ajouts ou modifications peuvent avoir lieu en cours d'année scolaire. Chaque révision visera à améliorer la qualité et la précision du contenu et à souligner sa pertinence pour les étudiants.
+Le contenu couvre les grands thèmes de la chimie générale : la structure de la matière (corps purs et mélanges, atomes, tableau périodique, liaisons chimiques), la nomenclature, les solutions, les réactions chimiques et la stœchiométrie, les gaz, la cinétique et les équilibres, les réactions acide-base et le pH, la solubilité, l'oxydoréduction et l'électrochimie, ainsi que la thermochimie et la thermodynamique.
 
-Le contenu est disponible en ligne au format HTML à l'url [www.chimiegenerale.ch](www.chimiegenerale.ch), adresse à laquelle il est également possible de télécharger le contenu au format PDF. Le document est édité en utilisant la technologie [bookdown](https://bookdown.org/) qui permet de rédiger des livres HTML, PDF, ePub en utilisant la syntaxe R Markdown.
+Chaque chapitre s'ouvre sur une liste d'objectifs d'apprentissage et se referme sur un résumé. La théorie est illustrée d'exemples résolus et accompagnée d'exercices d'application ; des exercices supplémentaires permettent d'approfondir et de combiner les notions abordées. Les solutions détaillées de tous les exercices sont regroupées à la fin de chaque chapitre.
 
-Ce projet est ouvert aux contributions et aux suggestions. Si vous souhaitez participer à son amélioration, le code source est disponible sur la plateforme GitHub à l'adresse [https://github.com/mrizzello/chimie-generale](https://github.com/mrizzello/chimie-generale). Nous serions heureux de faire évoluer ce document vers un projet participatif de plus grande ampleur. Vous pouvez créer une _Pull Request_ ou une _Issue_ sur GitHub que nous examinerons dès que possible.
+Ce document est en cours de rédaction : des ajouts et des modifications peuvent intervenir en cours d'année scolaire. Chaque révision vise à améliorer la qualité, la précision et la clarté du contenu, ainsi qu'à en renforcer la pertinence pour les étudiantes et étudiants.
 
-\vspace{\stretch{1}}
+Le manuel est disponible en ligne au format HTML à l'adresse [www.chimiegenerale.ch](https://www.chimiegenerale.ch), où il peut également être téléchargé au format PDF. Il est rédigé en R Markdown et produit avec [bookdown](https://bookdown.org/), une technologie qui permet de générer, à partir d'une source unique, des ouvrages aux formats HTML, PDF et ePub.
 
-![Creative Commons License](images/by-nc-sa.png)
-Cet ouvrage est placé sous licence Creative Commons [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr).
+Ce projet est ouvert aux contributions et aux suggestions. Son code source est disponible sur GitHub à l'adresse [github.com/mrizzello/chimie-generale](https://github.com/mrizzello/chimie-generale) : vous pouvez y signaler une coquille ou une erreur en ouvrant une _Issue_, ou proposer directement une correction au moyen d'une _Pull Request_. Toute contribution susceptible de faire évoluer ce document vers un projet participatif de plus grande ampleur est la bienvenue et sera examinée dès que possible.
 
-En tant que ressource éducative libre, vous pouvez modifier ou distribuer ce document selon les conditions énoncées par la licence Creative Commons. Développé à l'origine dans le cadre du cours de chimie générale de M. M. Rizzello pour l'obtention du certificat de maturité gymnasiale.
-
-\vspace{\stretch{1}}
+\newpage
 
 **Politique de confidentialité et traitement des données**
 
-Le site www.chimiegenerale.ch est purement informatif, n'utilise aucun cookie et ne collecte aucune donnée personnelle directe (aucun formulaire de contact, aucun outil de traçage ou de profilage).
+Le site www.chimiegenerale.ch est purement informatif : il n'utilise aucun cookie et ne collecte aucune donnée personnelle directe (ni formulaire de contact, ni outil de traçage ou de profilage).
 
-Conformément au Règlement Général sur la Protection des Data (RGPD) et à la Loi fédérale sur la protection des données (LPD), vous disposez des informations suivantes concernant les données techniques de connexion :
+Conformément au Règlement général sur la protection des données (RGPD) et à la Loi fédérale sur la protection des données (LPD), voici les informations relatives aux données techniques de connexion.
 
-**Hébergement et Sécurité** : Ce site est hébergé par GitHub, Inc. (GitHub Pages). Lors de votre navigation, les serveurs de GitHub collectent automatiquement des données techniques de connexion (notamment votre adresse IP, la date, l'heure et le type de navigateur utilisé).
+**Hébergement et sécurité** : ce site est hébergé par GitHub, Inc. (GitHub Pages). Lors de votre navigation, les serveurs de GitHub collectent automatiquement des données techniques de connexion (notamment votre adresse IP, ainsi que la date, l'heure et le type de navigateur utilisé).
 
-**Finalité et Base Légale** : Ce traitement de données est automatisé et nécessaire au bon fonctionnement technique ainsi qu'à la sécurité du site (détection des cyberattaques). Il repose sur l'intérêt légitime de l'hébergeur à sécuriser son infrastructure. Vos données de connexion ne sont jamais utilisées à des fins publicitaires ou marketing.
+**Finalité et base légale** : ce traitement est automatisé et nécessaire au bon fonctionnement technique et à la sécurité du site (notamment la détection des cyberattaques). Il repose sur l'intérêt légitime de l'hébergeur à protéger son infrastructure. Vos données de connexion ne sont jamais utilisées à des fins publicitaires ou marketing.
 
-**Durée de conservation** : Ces données techniques sont conservées temporairement par l'hébergeur selon ses propres règles de sécurité.
+**Durée de conservation** : ces données techniques sont conservées temporairement par l'hébergeur, selon ses propres règles de sécurité.
 
-**Plus d'informations** : Pour en savoir plus sur la gestion de ces journaux de connexion, vous pouvez consulter la [Déclaration de confidentialité de GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
+**Plus d'informations** : pour en savoir plus sur la gestion de ces journaux de connexion, vous pouvez consulter la [Déclaration de confidentialité de GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
+
+\vspace{\stretch{1}}
+
+:::{.center data-latex=""}
+
+![](images/by-nc-sa.png)
+
+:::
+
+Cet ouvrage est placé sous licence Creative Commons [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr). 
+
+En tant que ressource éducative libre, vous êtes autorisé à le partager et à l'adapter à des fins non commerciales, à condition d'en créditer l'auteur et de diffuser vos éventuelles modifications sous la même licence.
