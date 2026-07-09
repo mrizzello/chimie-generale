@@ -17,8 +17,8 @@ a. Quatre moles de réactifs gazeux donnent deux moles de produits gazeux. Deux 
 $$ S \Downarrow, \text{l'entropie diminue} $$
 b. Les molécules de saccharose sont très ordonnées à l'état solide. Elles sont distribuées au hasard dans la solution aqueuse.  
 $$ S \Uparrow, \text{l'entropie augmente} $$
-c. L'eau s'évapore et se converti en gaz. $S \Uparrow, \text{l'entropie augmente} < 0$  
-L'urée passe d'une distribution aléatoire dans la solution à un solide très ordonné. $S \Downarrow, \Delta S > 0$  
+c. L'eau s'évapore et se convertit en gaz. $S \Uparrow$ (l'entropie augmente).
+L'urée passe d'une distribution aléatoire dans la solution à un solide très ordonné. $S \Downarrow$ (l'entropie diminue).
 Sans autre information, on ne peut pas dire si l'entropie du système augmente ou diminue.
 
 :::

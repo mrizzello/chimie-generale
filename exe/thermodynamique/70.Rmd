@@ -9,15 +9,13 @@ $$
 Avec 
 $$
 \begin{split}
-\Delta G^o_f[\ce{N2O4(g)}] = 97.82\ [kJ/mol]
+\Delta G^o_f[\ce{N2O4(g)}] = 97.82\ \text{ kJ/mol}
 \end{split}
 \qquad
 \begin{split}
-\Delta G^o_f[\ce{NO2(g)}] = 51.30\ [kJ/mol]
+\Delta G^o_f[\ce{NO2(g)}] = 51.30\ \text{ kJ/mol}
 \end{split}
 $$
-
-\vspace{\stretch{1}}
 
 :::
 
@@ -30,19 +28,17 @@ $$
 $$
 \begin{split}
 \Delta G^o &= \Delta G^o_f[\ce{N2O4(g)}] - 2 \cdot \Delta G^o_f[\ce{NO2(g)}] \\
-&= 97.82\ [\frac{kJ}{mol}] - 2 \cdot 51.30\ [\frac{kJ}{mol}] \\
-&= -4.78\ [kJ/mol]
+&= 97.82\ \mathrm{\frac{kJ}{mol}} - 2 \cdot 51.30\ \mathrm{\frac{kJ}{mol}} \\
+&= -4.78\ \text{ kJ/mol}
 \end{split}
 $$
 
 $$
 \begin{split}
 \Delta G^o &= - RT \cdot ln(K) \\
-ln(K) &= \frac{- \Delta G^o}{RT} = \frac{- (-4780\ [J/mol])}{8.314\ [J/(mol \cdot K)] \cdot 298.15\ [K]} = 1.93 \\
+ln(K) &= \frac{- \Delta G^o}{RT} = \frac{- (-4780\ \text{ J/mol})}{8.314\ \mathrm{J/(mol \cdot K)} \cdot 298.15\ \text{ K}} = 1.93 \\
 K &= e^{1.93} = 6.9
 \end{split}
 $$
-
-\newpage
 
 :::

@@ -21,15 +21,15 @@ Les réactions qui entraînent une diminution de l'énergie d'un système sont s
 
 $$
 \begin{split}
-    \ce{CH4(g) + 2O2(g) -> CO2(g) + 2H2O(l)} &\qquad \Delta H^{o} = -890.4 [kJ/mol] \\
-    \ce{H^+(aq) + OH^-(aq) -> H2O(l)} &\qquad \Delta H^{o} = -56.2 [kJ/mol]
+    \ce{CH4(g) + 2O2(g) -> CO2(g) + 2H2O(l)} &\qquad \Delta H^{o} = -890.4 \text{ kJ/mol} \\
+    \ce{H^+(aq) + OH^-(aq) -> H2O(l)} &\qquad \Delta H^{o} = -56.2 \text{ kJ/mol}
 \end{split}
 $$
 
 Nous pourrions conclure que les réactions exothermiques ont tendance à être spontanées. Cependant, ça n'est pas toujours le cas. Par exemple, lorsque la glace fond, le processus est endothermique et spontané.
 
 $$
-\ce{H2O(s) -> H2O(l)} \qquad \Delta H^{o} = +6.01 [kJ/mol]
+\ce{H2O(s) -> H2O(l)} \qquad \Delta H^{o} = +6.01 \text{ kJ/mol}
 $$
 
 Cet exemple montre que le signe de $\Delta H$ seul ne permet pas de prédire la spontanéité d'une réaction. la thermodynamique nous permettra de déterminer si une transformation est spontanée ou non pour des conditions données.
@@ -49,7 +49,7 @@ Table: (\#tab:spontane-non-spontane-exemples) Exemples de transformations sponta
 ::: {.tcolorbox data-latex=""}
 
 **Entropie - S**  
-Mesure du degré de désordre d'un système. (Exprimée en joules par Kelvin [J/K]).
+Mesure du degré de désordre d'un système. (Exprimée en joules par Kelvin J/K).
 
 :::
 
@@ -101,6 +101,9 @@ La troisième loi de la thermodynamique permet de déterminer l'entropie d'une s
 knitr::include_graphics(c("images/entropie-graph.png"))
 ```
 
+```{r, child=c('exe/thermodynamique/05.Rmd')}
+```
+
 ## La variation d'entropie ($\Delta S$)
 
 Pour un système qui subit une transfromation entre un état initial et un état final, on peut définir la différence d'entropie entre ces deux états ($\Delta S$).
@@ -126,7 +129,7 @@ Si l'on considère 4 particules de gaz et 4 moles de particules de gaz, le degr�
 
 **Entropie molaire standard - $S^o$**  
 L'entropie molaire standard ($S^o$) est l'entropie de 1 mole d'une substance aux conditions standards.  
-(Exprimée en joules par mole et par Kelvin [J/(mol K)]).
+(Exprimée en joules par mole et par Kelvin J/(mol K)).
 
 :::
 
@@ -180,6 +183,9 @@ Cette relation nous permet de prédire la spontanéité d'une réaction lorsqu'o
 
 Table: (\#tab:spontaneitedHdS) Spontanéité d'une réaction selon le signe de $\Delta G$.
 
+```{r, child=c('exe/thermodynamique/55.Rmd')}
+```
+
 ## L'énergie libre standard de réaction ($\Delta G^o$)
 
 Tout comme pour l'enthalpie et l'entropie, afin de travailler avec des valeur de référence, on introduit l'**énergie libre standard de réaction**. L'énergie libre standard de réaction ($\Delta G^o$) est la variation d'énergie libre pour une réaction lorsqu'elle se produit dans les conditions standard, c'est-à-dire lorsque des réactifs dans leur état standard sont convertis en produits dans leur état standard. La relation précédente devient : 
@@ -188,10 +194,10 @@ $$
 \Delta G^o = \Delta H^o - T \cdot \Delta S^o
 $$
 
+\newpage
+
 ```{r, child=c('exe/thermodynamique/60.Rmd')}
 ```
-
-\newpage
 
 Les énergies libres standard de formation ($\Delta G^o_f$) sont des valeurs que l'on peut trouver dans des tables et qui permettent de calculer l'énergie libre standard d'une réaction en utilisant la relation suivante :
 
@@ -201,8 +207,6 @@ $$
 
 ```{r, child=c('exe/thermodynamique/80.Rmd')}
 ```
-
-\newpage
 
 ## L'énergie libre et équilibre chimique
 
@@ -241,6 +245,16 @@ knitr::include_graphics(c("images/dG-profile.png"))
 ```{r, child=c('exe/thermodynamique/70.Rmd')}
 ```
 
+## Résumé
+
+- L'entropie $S$ mesure le degré de désordre d'un système (en J/K) : plus le désordre est grand, plus $S$ est élevée.
+- L'entropie de l'univers augmente toujours et l'entropie d'une substance pure parfaitement cristalline est nulle à 0 K.
+- La variation d'entropie standard d'une réaction se calcule à partir des entropies molaires standard.
+- L'énergie libre de Gibbs $G = H - T \cdot S$ ; sa variation vaut $\Delta G = \Delta H - T \cdot \Delta S$ (à $T$ et $P$ constantes). Le signe de $\Delta G$ donne la spontanéité : $\Delta G < 0$ réaction spontanée (exergonique) ; $\Delta G > 0$ non spontanée (endergonique) ; $\Delta G = 0$ équilibre.
+- Selon les signes de $\Delta H$ et $\Delta S$, une réaction peut être spontanée à toute température, à aucune, seulement à basse ou seulement à haute température.
+- L'énergie libre standard de réaction se calcule aussi à partir des énergies libres standard de formation.
+- Hors des conditions standard : $\Delta G = \Delta G^o + RT \cdot \ln Q$. À l'équilibre $\Delta G = 0$ et $Q = K$, d'où $\Delta G^o = -RT \cdot \ln K$ : un $\Delta G^o$ négatif correspond à $K > 1$ (produits favorisés).
+
 ## Exercices supplémentaires
 
 ```{r, child=c('exe/thermodynamique/40.Rmd')}
@@ -251,9 +265,12 @@ knitr::include_graphics(c("images/dG-profile.png"))
 ```{r, child=c('exe/thermodynamique/50.Rmd')}
 ```
 
+```{r, child=c('exe/thermodynamique/90.Rmd')}
+```
+
 \newpage
 
-```{r, child=c('exe/thermodynamique/90.Rmd')}
+```{r, child=c('exe/thermodynamique/100.Rmd')}
 ```
 
 ```{r, echo=FALSE}

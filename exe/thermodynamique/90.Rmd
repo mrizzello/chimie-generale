@@ -23,24 +23,24 @@ Vous allez estimez la température à laquelle cet équilibre commence à favori
 $$
 \begin{split}
 \ce{\Delta H^o &= [\Delta H^o_f(\ce{CaO}) + \Delta H^o_f(\ce{CO2})] - [\Delta H^o_f(\ce{CaCO3})]} \\
-&= [(-634.9\ [kJ/mol]) + (-393.51\ [kJ/mol])] - (-1220.0\ [kJ/mol]) \\
-&= 191.59\ [kJ/mol]
+&= [(-634.9\ \text{ kJ/mol}) + (-393.51\ \text{ kJ/mol})] - (-1220.0\ \text{ kJ/mol}) \\
+&= 191.59\ \text{ kJ/mol}
 \end{split}
 $$
 2.  
 $$
 \begin{split}
 \ce{\Delta S^o &= [S^o_f(\ce{CaO}) + S^o_f(\ce{CO2})] - [S^o_f(\ce{CaCO3})]} \\
-&= (38.1\ [J/(K \cdot mol)] + 213.8\ [J/(K \cdot mol)]) - (110.0\ [J/(K \cdot mol)])]) \\
-&= 141.9\ [J/(K \cdot mol)] = 0.1419\ [kJ/(K \cdot mol)]
+&= (38.1\ \mathrm{J/(K \cdot mol)} + 213.8\ \mathrm{J/(K \cdot mol)}) - (110.0\ \mathrm{J/(K \cdot mol)}) \\
+&= 141.9\ \mathrm{J/(K \cdot mol)} = 0.1419\ \mathrm{kJ/(K \cdot mol)}
 \end{split}
 $$
 3.  
 $$
 \begin{split}
 \Delta G^o &= \Delta H^o - T \cdot \Delta S^o \\
-&= 191.59\ [kJ/mol] - (298\ [K] \cdot 0.1419\ [kJ/(K \cdot mol)] ) \\
-&= 149.3\ [kJ/mol]
+&= 191.59\ \text{ kJ/mol} - (298\ \text{ K} \cdot 0.1419\ \mathrm{kJ/(K \cdot mol)} ) \\
+&= 149.3\ \text{ kJ/mol}
 \end{split}
 $$
 4. Aux conditions standards, la réaction favorise les réactifs car l'énergie libre standard est supérieure à zéro.
@@ -54,16 +54,16 @@ $$
 \qquad
 \begin{split}
 T &= \frac{\Delta H^o}{\Delta S^o} \\
-&= \frac{191.59\ [kJ/mol]}{0.1419\ [kJ/(K \cdot mol)]} \\
-&= 1350\ [K] \quad (1077\ [°C])
+&= \frac{191.59\ \text{ kJ/mol}}{0.1419\ \mathrm{kJ/(K \cdot mol)}} \\
+&= 1350\ \text{ K} \quad (1077\ \text{ °C})
 \end{split}
 $$ 
 6.  
 $$
 \begin{split}
 \Delta G^o &= \Delta H^o - T \cdot \Delta S^o \\
-&= 191.59\ [kJ/mol] - (1355\ [K] \cdot 0.1419\ [kJ/(K \cdot mol)] ) \\
-&= -0.68\ [kJ/mol]
+&= 191.59\ \text{ kJ/mol} - (1355\ \text{ K} \cdot 0.1419\ \mathrm{kJ/(K \cdot mol)} ) \\
+&= -0.68\ \text{ kJ/mol}
 \end{split}
 $$
 7. Dans ces conditions, la réaction favorise les produits car l'énergie libre standard est inférieure à zéro.

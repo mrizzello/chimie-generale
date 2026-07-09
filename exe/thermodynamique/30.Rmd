@@ -8,7 +8,7 @@ Sachant que :
 
 :::
 
-|   Substance   | $S^o\ [J/(mol \cdot K)]$ |
+|   Substance   | $S^o\ \mathrm{J/(mol \cdot K)}$ |
 | :-----------: | :----------------------: |
 | $\ce{CO2(g)}$ |          213.64          |
 | $\ce{CO(g)}$  |          197.91          |
@@ -22,9 +22,9 @@ $$ \ce{2 CO(g) + O2(g) -> 2CO2(g)} $$
 
 $$
 \begin{split}
-\Delta S^o &= 2\ [mol] \cdot S^o(CO_2) - ( 2\ [mol] \cdot S^o(CO) + S^o(O_2) ) \\
-&= 2\ [\cancel{mol}] \cdot 213.64 [J/(\cancel{mol} \cdot K)] - ( 2\ [\cancel{mol}] \cdot 197.91\ [J/(\cancel{mol} \cdot K)] + 205.3\ [J/(\cancel{mol} \cdot K)] ) \\
-&= -173.84\ [J/K]
+\Delta S^o &= 2\ \text{ mol} \cdot S^o(CO_2) - ( 2\ \text{ mol} \cdot S^o(CO) + S^o(O_2) ) \\
+&= 2\ \cancel{\text{mol}} \cdot 213.64 \mathrm{J/(\cancel{mol} \cdot K)} - ( 2\ \cancel{\text{mol}} \cdot 197.91\ \mathrm{J/(\cancel{mol} \cdot K)} + 205.3\ \mathrm{J/(\cancel{mol} \cdot K)} ) \\
+&= -173.84\ \text{ J/K}
 \end{split}
 $$
 
