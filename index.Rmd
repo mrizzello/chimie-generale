@@ -35,3 +35,19 @@ Ce projet est ouvert aux contributions et aux suggestions. Si vous souhaitez par
 Cet ouvrage est placé sous licence Creative Commons [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr).
 
 En tant que ressource éducative libre, vous pouvez modifier ou distribuer ce document selon les conditions énoncées par la licence Creative Commons. Développé à l'origine dans le cadre du cours de chimie générale de M. M. Rizzello pour l'obtention du certificat de maturité gymnasiale.
+
+\vspace{\stretch{1}}
+
+**Politique de confidentialité et traitement des données**
+
+Le site www.chimiegenerale.ch est purement informatif, n'utilise aucun cookie et ne collecte aucune donnée personnelle directe (aucun formulaire de contact, aucun outil de traçage ou de profilage).
+
+Conformément au Règlement Général sur la Protection des Data (RGPD) et à la Loi fédérale sur la protection des données (LPD), vous disposez des informations suivantes concernant les données techniques de connexion :
+
+**Hébergement et Sécurité** : Ce site est hébergé par GitHub, Inc. (GitHub Pages). Lors de votre navigation, les serveurs de GitHub collectent automatiquement des données techniques de connexion (notamment votre adresse IP, la date, l'heure et le type de navigateur utilisé).
+
+**Finalité et Base Légale** : Ce traitement de données est automatisé et nécessaire au bon fonctionnement technique ainsi qu'à la sécurité du site (détection des cyberattaques). Il repose sur l'intérêt légitime de l'hébergeur à sécuriser son infrastructure. Vos données de connexion ne sont jamais utilisées à des fins publicitaires ou marketing.
+
+**Durée de conservation** : Ces données techniques sont conservées temporairement par l'hébergeur selon ses propres règles de sécurité.
+
+**Plus d'informations** : Pour en savoir plus sur la gestion de ces journaux de connexion, vous pouvez consulter la [Déclaration de confidentialité de GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
