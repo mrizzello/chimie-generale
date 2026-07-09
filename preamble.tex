@@ -25,6 +25,15 @@
 \renewcommand{\ExerciseName}{Exercice}
 \renewcommand{\AnswerName}{Solution de l'exercice}
 
+% Empêche que le titre « Solution de l'exercice N » soit séparé de sa résolution
+% par un saut de page : on réserve quelques lignes avant le titre (sinon la
+% coupure se fait avant lui) et on interdit la coupure juste après.
+\usepackage{needspace}
+\renewcommand{\AnswerHeader}{%
+  \needspace{5\baselineskip}%
+  \medskip\centerline{\textbf{\AnswerName\ \ExerciseHeaderNB}\smallskip}%
+  \nobreak}
+
 \usepackage{fancyhdr}
 \setlength{\headheight}{15pt}
 \pagestyle{fancy}
