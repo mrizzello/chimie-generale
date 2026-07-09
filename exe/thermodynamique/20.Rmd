@@ -13,7 +13,7 @@ c. $$ \ce{Na2CO3(s) -> Na2O(s) +CO2(g)} $$
 
 ::: {.Answer data-latex=""}
 
-Les solides sont plus ordonnés que les liquides et les liquides sont plus désordonnés les gaz.
+Les solides sont plus ordonnés que les liquides et les liquides sont moins désordonnés que les gaz.
 
 a. $$ \ce{2 CO(g) + O2(g) -> 2 CO2(g)} \quad S \Downarrow $$  
 L'entropie diminue car il y a moins de molécules de gaz de produits et un produit est créé à partir de deux réactifs.

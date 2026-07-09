@@ -8,7 +8,7 @@ $$ \ce{4 HCl(g) + O2(g) -> 2 Cl2(g) + 2 H2O(g)} $$
 
 Sachant que :
 
-|   Substance   | $S^o\ [J/(mol \cdot K)]$ |
+|   Substance   | $S^o\ \mathrm{J/(mol \cdot K)}$ |
 | :-----------: | :----------------------: |
 | $\ce{HCl(g)}$ |          186.8           |
 | $\ce{O2(g)}$  |          205.0           |
@@ -23,10 +23,10 @@ $$ \ce{4 HCl(g) + O2(g) -> 2 Cl2(g) + 2 H2O(g)} $$
 
 $$
 \begin{split}
-\Delta S^o &= (2\ [mol] \cdot S^o(Cl_2) + 2\ [mol] \cdot S^o(H_2O) ) - ( 4\ [mol] \cdot S^o(HCl) + S^o(O_2) ) \\
-&= (2\ [mol] \cdot 223.0\ [J/(mol \cdot K)] + 2\ [mol] \cdot 188.7\ [J/(mol \cdot K)] ) \\
-& \qquad - ( 4\ [mol] \cdot 186.8\ [J/(mol \cdot K)] + 205.0\ [J/(mol \cdot K)] ) \\
-&= -128.8\ [J/K]
+\Delta S^o &= (2\ \text{ mol} \cdot S^o(Cl_2) + 2\ \text{ mol} \cdot S^o(H_2O) ) - ( 4\ \text{ mol} \cdot S^o(HCl) + S^o(O_2) ) \\
+&= (2\ \text{ mol} \cdot 223.0\ \mathrm{J/(mol \cdot K)} + 2\ \text{ mol} \cdot 188.7\ \mathrm{J/(mol \cdot K)} ) \\
+& \qquad - ( 4\ \text{ mol} \cdot 186.8\ \mathrm{J/(mol \cdot K)} + 205.0\ \mathrm{J/(mol \cdot K)} ) \\
+&= -128.8\ \text{ J/K}
 \end{split}
 $$
 

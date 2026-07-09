@@ -8,7 +8,7 @@ Classez les états de la matière par ordre d'entropie croissant :
 
 ::: {.Answer data-latex=""}
 
-Les solides sont plus ordonnés que les liquides et les liquides sont plus désordonnés les gaz.
+Les solides sont plus ordonnés que les liquides et les liquides sont moins désordonnés que les gaz.
 
 $$
 solides < liquides < gaz

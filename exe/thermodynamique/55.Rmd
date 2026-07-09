@@ -1,0 +1,21 @@
+::: {.Exercise data-latex=""}
+
+La spontanéité d'une réaction ($\Delta G = \Delta H - T \cdot \Delta S$) dépend des signes de $\Delta H$ et $\Delta S$ ainsi que de la température. Pour chacun des cas suivants, indiquez si la réaction est spontanée à toute température, à aucune température, seulement à basse température ou seulement à haute température.
+
+1. $\Delta H < 0$ et $\Delta S > 0$.
+2. $\Delta H > 0$ et $\Delta S < 0$.
+3. $\Delta H < 0$ et $\Delta S < 0$.
+4. $\Delta H > 0$ et $\Delta S > 0$.
+
+:::
+
+::: {.Answer data-latex=""}
+
+On utilise $\Delta G = \Delta H - T \cdot \Delta S$ ; la réaction est spontanée si $\Delta G < 0$.
+
+1. $\Delta H < 0$ et $-T \cdot \Delta S < 0$ : $\Delta G < 0$ quelle que soit $T$ → spontanée à toute température.
+2. $\Delta H > 0$ et $-T \cdot \Delta S > 0$ : $\Delta G > 0$ quelle que soit $T$ → spontanée à aucune température.
+3. $\Delta H < 0$ et $-T \cdot \Delta S > 0$ : $\Delta G < 0$ seulement si $T$ est faible → spontanée à basse température.
+4. $\Delta H > 0$ et $-T \cdot \Delta S < 0$ : $\Delta G < 0$ seulement si $T$ est grand → spontanée à haute température.
+
+:::

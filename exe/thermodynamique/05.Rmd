@@ -1,0 +1,20 @@
+::: {.Exercise data-latex=""}
+
+Répondez aux questions suivantes sur l'entropie.
+
+1. Qu'est-ce que l'entropie d'un système ? Dans quelle unité s'exprime-t-elle ?
+\vspace{\stretch{1}}
+2. Énoncez la deuxième loi de la thermodynamique.
+\vspace{\stretch{1}}
+3. Énoncez la troisième loi de la thermodynamique. Quelle est l'entropie d'un cristal parfait à 0 K ?
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. L'entropie $S$ est une mesure du degré de désordre d'un système : plus le désordre est grand, plus l'entropie est élevée. Elle s'exprime en J/K.
+2. L'entropie de l'univers augmente toujours au cours du temps (tout processus spontané s'accompagne d'une augmentation de l'entropie de l'univers).
+3. L'entropie d'une substance pure et parfaitement cristalline est nulle à 0 K. Un cristal parfait à 0 K a donc une entropie $S = 0$.
+
+:::

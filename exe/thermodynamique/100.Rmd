@@ -1,0 +1,26 @@
+::: {.Exercise data-latex=""}
+
+Pour la synthèse de l'ammoniac $\ce{N2(g) + 3 H2(g) -> 2 NH3(g)}$ à 298 K, on donne $\Delta H^o = -92.2$ kJ et $\Delta S^o = -198.8$ J/K.
+
+1. Calculez $\Delta G^o$ à 298 K. La réaction est-elle spontanée dans les conditions standard ?
+\vspace{\stretch{1}}
+2. Calculez la constante d'équilibre $K$ à 298 K.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. $$
+\begin{split}
+\Delta G^o &= \Delta H^o - T \cdot \Delta S^o \\
+&= -92.2 - 298 \cdot (-0.1988) = -92.2 + 59.2 = -33.0 \text{ kJ}
+\end{split}
+$$
+$\Delta G^o < 0$ : la réaction est spontanée dans les conditions standard.
+2. $\Delta G^o = -RT \cdot \ln K$, donc :
+$$
+\ln K = \frac{-\Delta G^o}{RT} = \frac{33000}{8.314 \cdot 298} = 13.3 \qquad K = e^{13.3} = 6.0 \cdot 10^{5}
+$$
+
+:::
