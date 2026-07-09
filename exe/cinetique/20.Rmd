@@ -24,6 +24,4 @@ $$
 
 2. $v_{O_2} = 2 \cdot v_{CH_4} = 0.54 \ \mathrm{\frac{mol}{l \cdot s}}$
 
-\newpage
-
 :::

@@ -31,6 +31,4 @@ $CH_3COONH_4$ : $NH_4^+$ / $CH_3COO^–$
 
 :::
 
-\newpage
-
 ::::::
