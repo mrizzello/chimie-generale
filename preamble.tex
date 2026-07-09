@@ -34,6 +34,15 @@
   \medskip\centerline{\textbf{\AnswerName\ \ExerciseHeaderNB}\smallskip}%
   \nobreak}
 
+% De même pour le titre « Exercice N » : on le garde avec son énoncé.
+% Ici le \medskip est APRÈS le titre, donc on place le \nobreak juste avant lui
+% pour neutraliser la coupure possible entre le titre et l'énoncé.
+\renewcommand{\ExerciseHeader}{%
+  \needspace{5\baselineskip}%
+  \centerline{\textbf{\large\ExerciseHeaderDifficulty\ExerciseName\ %
+    \ExerciseHeaderNB\ExerciseHeaderTitle\ExerciseHeaderOrigin}}%
+  \nobreak\medskip}
+
 \usepackage{fancyhdr}
 \setlength{\headheight}{15pt}
 \pagestyle{fancy}
