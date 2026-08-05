@@ -21,6 +21,7 @@ main.content a,
   color: #4183c4 !important;
   text-decoration: none;
 }
+
 main.content a:hover {
   color: #345a7a !important;
 }
@@ -28,8 +29,8 @@ main.content a:hover {
 /* Colonne de contenu centrée, largeur gitbook classique */
 #quarto-content .content {
   max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  padding: 20px 0 40px;
 }
 
 #quarto-content h1,
@@ -41,6 +42,20 @@ main.content a:hover {
   font-weight: 700;
 }
 
+/* Bascule de la sidebar dockée : Quarto l'immunise contre le collapse Bootstrap
+   (une sidebar "docked" est censée rester toujours visible), donc on pilote
+   nous-mêmes son masquage via la classe posée sur <body> par custom.js, et on
+   redonne toute la largeur de la grille de mise en page au contenu principal. */
+body.sidebar-collapsed #quarto-sidebar {
+  display: none !important;
+}
+body.sidebar-collapsed #quarto-content.page-columns {
+  grid-template-columns: 1fr !important;
+}
+body.sidebar-collapsed #quarto-content main.content {
+  grid-column: 1 / -1 !important;
+}
+
 /* Sidebar dockée façon gitbook : fond très clair, texte gris ardoise, lien actif bleu */
 #quarto-sidebar,
 .sidebar-navigation {
@@ -49,17 +64,20 @@ main.content a:hover {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
 }
+
 #quarto-sidebar .sidebar-item-text,
 #quarto-sidebar a.sidebar-link,
 #quarto-sidebar a.sidebar-item-text {
   color: #364149;
   font-size: 14px;
 }
+
 #quarto-sidebar a.sidebar-link.active,
 #quarto-sidebar .sidebar-item a.active {
   color: #008cff;
   font-weight: 400;
 }
+
 .sidebar-title {
   background-color: #fafafa;
   border-bottom: 1px solid #ebebeb;
@@ -74,6 +92,7 @@ main.content a:hover {
 .sidebar-search {
   display: none;
 }
+
 .sidebar-search.search-visible {
   display: block;
 }
@@ -96,16 +115,20 @@ main.content a:hover {
   font-size: 1.5rem;
   transition: background 0.15s ease;
 }
+
 .reader-nav-arrow:hover {
   background: rgba(0, 0, 0, 0.14);
   color: inherit;
 }
+
 .reader-nav-arrow.reader-nav-prev {
   left: 0.5rem;
 }
+
 .reader-nav-arrow.reader-nav-next {
   right: 0.5rem;
 }
+
 @media (max-width: 991px) {
   .reader-nav-arrow {
     display: none;
@@ -127,9 +150,11 @@ main.content a:hover {
   padding: 0.75rem 1rem;
   min-width: 14rem;
 }
+
 .reader-settings-panel.reader-settings-visible {
   display: block;
 }
+
 .reader-settings-row {
   display: flex;
   align-items: center;
@@ -137,9 +162,11 @@ main.content a:hover {
   gap: 0.5rem;
   padding: 0.35rem 0;
 }
-.reader-settings-row + .reader-settings-row {
+
+.reader-settings-row+.reader-settings-row {
   border-top: 1px solid rgba(0, 0, 0, 0.08);
 }
+
 .reader-settings-row button {
   border: 1px solid rgba(0, 0, 0, 0.2);
   background: transparent;
@@ -149,6 +176,7 @@ main.content a:hover {
   font-size: 0.9rem;
   cursor: pointer;
 }
+
 .reader-settings-row button.reader-active {
   background: var(--bs-primary, #2fa4e7);
   color: #fff;
@@ -156,30 +184,54 @@ main.content a:hover {
 }
 
 /* --- Taille de police (appliquées sur <html>, héritées par tout le contenu) --- */
-html.reader-size-1 #quarto-content { font-size: 0.8rem; }
-html.reader-size-2 #quarto-content { font-size: 0.9rem; }
-html.reader-size-3 #quarto-content { font-size: 1rem; }
-html.reader-size-4 #quarto-content { font-size: 1.15rem; }
-html.reader-size-5 #quarto-content { font-size: 1.3rem; }
+html.reader-size-1 #quarto-content {
+  font-size: 0.8rem;
+}
+
+html.reader-size-2 #quarto-content {
+  font-size: 0.9rem;
+}
+
+html.reader-size-3 #quarto-content {
+  font-size: 1rem;
+}
+
+html.reader-size-4 #quarto-content {
+  font-size: 1.15rem;
+}
+
+html.reader-size-5 #quarto-content {
+  font-size: 1.3rem;
+}
 
 /* --- Police --- */
 html.reader-font-sans #quarto-content {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
+
 html.reader-font-serif #quarto-content {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 /* --- Interlignage --- */
-html.reader-spacing-1 #quarto-content { line-height: 1.35; }
-html.reader-spacing-2 #quarto-content { line-height: 1.6; }
-html.reader-spacing-3 #quarto-content { line-height: 1.9; }
+html.reader-spacing-1 #quarto-content {
+  line-height: 1.35;
+}
+
+html.reader-spacing-2 #quarto-content {
+  line-height: 1.6;
+}
+
+html.reader-spacing-3 #quarto-content {
+  line-height: 1.9;
+}
 
 /* --- Thèmes de lecture (façon gitbook : Blanc/Sépia/Nuit) --- */
 html.reader-theme-sepia body {
   background-color: #f4ecd8;
   color: #5b4636;
 }
+
 html.reader-theme-sepia #quarto-content,
 html.reader-theme-sepia .sidebar-navigation,
 html.reader-theme-sepia #quarto-sidebar {
@@ -191,6 +243,7 @@ html.reader-theme-night body {
   background-color: #191919;
   color: #d6d6d6;
 }
+
 html.reader-theme-night #quarto-content,
 html.reader-theme-night .sidebar-navigation,
 html.reader-theme-night #quarto-sidebar,
@@ -198,6 +251,7 @@ html.reader-theme-night .reader-settings-panel {
   background-color: #191919;
   color: #d6d6d6;
 }
+
 html.reader-theme-night a {
   color: #8ab4f8;
 }
