@@ -84,6 +84,17 @@ $$ \underset{\text{formiate de sodium}}{HCOONa} \qquad \underset{\text{acétate 
 
 Dans la liste des ions polyatomiques la plupart des ions sont des anions. Deux cations à connaître&nbsp;:&nbsp;l'ion hydronium ($H_3O^+$) et l'ion ammonium ($NH_4^+$).
 
+::: {.Jeu data-latex=""}
+
+**Jeu en ligne**
+
+— Jouez au memory des ions sur [isotope.ch/memorion](https://isotope.ch/memorion).  
+— Testez vos connaissances sur les ions en mode quiz sur [isotope.ch/trivion](https://isotope.ch/trivion).
+
+:::
+
+\newpage
+
 ## Corps simples
 
 Les corps purs simples sont généralement nommés par le nom de l'élément qui les compose (ex.&nbsp;:&nbsp;fer, cuivre, zinc, ...).
@@ -247,6 +258,17 @@ Les sels acides sont des sels qui contiennent le cation $H^+$ en plus d'un catio
 ```{r, child=c('exe/nomenclature/25.Rmd')}
 ```
 
+::: {.Jeu data-latex=""}
+
+**Jeu en ligne**
+
+— Entraînez-vous à associer la formule d'un ion à son nom (et inversement) sur [isotope.ch/associations](https://isotope.ch/associations).  
+— Entraînez-vous à retrouver la famille chimique d'un composé sur [isotope.ch/family](https://isotope.ch/family).
+
+:::
+
+\newpage
+
 ## Résumé
 
 - La nomenclature permet de nommer une substance à partir de sa formule, et inversement. On classe d'abord le composé dans une famille.
@@ -259,6 +281,12 @@ Les sels acides sont des sels qui contiennent le cation $H^+$ en plus d'un catio
 - Acides binaires (hydracides)&nbsp;:&nbsp;$H$ + non-métal ; en solution aqueuse, racine de l'élément + suffixe -hydrique.
 - Composés ternaires&nbsp;:&nbsp;les hydroxydes, les oxacides ($H^+$ + anion polyatomique ; anion -ite → acide -eux, anion -ate → acide -ique, préfixes hypo-/per-), et les sels (ions monoatomiques et/ou polyatomiques, lus de droite à gauche).
 - Les sels acides conservent un $H^+$ (préfixe hydrogéno-/dihydrogéno-).
+
+::: {.Jeu data-latex=""}
+
+**Jeu en ligne** — Entraînez-vous à former des molécules électriquement neutres à partir d'ions sur [isotope.ch/hexaions](https://isotope.ch/hexaions).
+
+:::
 
 \newpage
 

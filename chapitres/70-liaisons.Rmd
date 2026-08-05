@@ -262,6 +262,12 @@ Quand un ion polyatomique est présent plusieurs fois dans une molécule, on l'i
 ```{r, child=c('exe/molecules/30.Rmd')}
 ```
 
+::: {.Jeu data-latex=""}
+
+**Jeu en ligne** — Entraînez-vous à trouver la charge des ions sur [isotope.ch/charges](https://isotope.ch/charges).
+
+:::
+
 ### Dessiner les composés ternaires
 
 - De gauche à droite, dessiner le modèle de Lewis de chacun des éléments présents dans la molécule.
