@@ -1,15 +1,6 @@
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    TeX: { extensions: ["mhchem.js","cancel.js"] },
-    styles: {
-      "#MathJax_Message": {
-        "left": "50%",
-        "bottom": "50%",
-        "transform": "translate(-50%, -50%)",
-        "font-weight": "bold",
-        "background": "rgba(224, 224, 224, .80)",
-        "padding": "1rem"
-      }
-    }
-  });
+<script>
+window.MathJax = {
+  loader: { load: ['[tex]/mhchem', '[tex]/cancel'] },
+  tex: { packages: { '[+]': ['mhchem', 'cancel'] } }
+};
 </script>

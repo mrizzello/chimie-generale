@@ -1,0 +1,72 @@
+project:
+  type: book
+
+book:
+  title: "Cours de chimie générale"
+  author: "M. Michele Rizzello"
+  date: today
+  date-format: "DD.MM.YYYY"
+  description: "Support du cours de chimie générale | Maturité gymnasiale"
+  repo-url: "https://github.com/mrizzello/chimie-generale"
+  repo-actions: [issue]
+  downloads: [pdf]
+  sidebar:
+    collapse-level: 1
+  chapters:
+    - index.qmd
+    - chapitres/10-introduction.qmd
+    - chapitres/20-etats-de-la-matiere.qmd
+    - chapitres/30-melanges-corps-purs.qmd
+    - chapitres/40-historique.qmd
+    - chapitres/50-atome.qmd
+    - chapitres/60-tableau-periodique.qmd
+    - chapitres/70-liaisons.qmd
+    - chapitres/80-molecules.qmd
+    - chapitres/90-nomenclature.qmd
+    - chapitres/100-solutions-electrolytes.qmd
+    - chapitres/110-reactions-chimiques.qmd
+    - chapitres/120-types-reactions.qmd
+    - chapitres/130-stoechiometrie.qmd
+    - chapitres/140-gaz-parfaits.qmd
+    - chapitres/150-cinetique.qmd
+    - chapitres/160-equilibres.qmd
+    - chapitres/170-acides-bases.qmd
+    - chapitres/180-ph-potentiel-hydrogene.qmd
+    - chapitres/190-produit-solubilite.qmd
+    - chapitres/200-oxydoreductions.qmd
+    - chapitres/210-electrochimie.qmd
+    - chapitres/220-thermochimie.qmd
+    - chapitres/230-thermodynamique.qmd
+    - chapitres/00-references.qmd
+
+lang: fr
+
+bibliography: references.bib
+biblio-style: apalike
+link-citations: true
+
+crossref:
+  chapters: true
+
+filters:
+  - filters/latex-div.lua
+
+format:
+  html:
+    css: style.css
+    toc-depth: 3
+    include-in-header:
+      - html/mathjax-mhchem.html
+    include-after-body:
+      - html/jquery-include.html
+      - html/exercices.html
+      - html/tables.html
+  pdf:
+    documentclass: book
+    classoption: [openany]
+    papersize: a4
+    fontsize: 11pt
+    geometry: margin=1in
+    pdf-engine: xelatex
+    keep-tex: true
+    include-in-header: preamble.tex

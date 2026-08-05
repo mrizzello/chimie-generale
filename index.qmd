@@ -1,24 +1,3 @@
----
-title: "Cours de chimie générale"
-author:
-  - "M. Michele Rizzello"
-date: "`r format(Sys.time(), '%d.%m.%Y')`"
-site: bookdown::bookdown_site
-output: bookdown::gitbook
-documentclass: book
-classoption:
-  - openany
-github-repo: "mrizzello/chimie-generale"
-description: "Support du cours de chimie générale | Maturité gymnasiale"
-lang: fr
-papersize: a4
-fontsize: 11pt
-geometry: margin=1in
-bibliography: references.bib
-biblio-style: apalike
-link-citations: yes
----
-
 # Préambule {-}
 
 Ce manuel s'adresse aux étudiantes et étudiants de maturité gymnasiale, aussi bien en discipline fondamentale (DF) qu'en option spécifique (OS). Il rassemble les connaissances de base de chimie générale nécessaires à l'obtention du certificat de maturité et sert de support aux leçons ainsi qu'aux travaux pratiques réalisés en classe.
@@ -29,7 +8,7 @@ Chaque chapitre s'ouvre sur une liste d'objectifs d'apprentissage et se referme 
 
 Ce document est en cours de rédaction : des ajouts et des modifications peuvent intervenir en cours d'année scolaire. Chaque révision vise à améliorer la qualité, la précision et la clarté du contenu, ainsi qu'à en renforcer la pertinence pour les étudiantes et étudiants.
 
-Le manuel est disponible en ligne au format HTML à l'adresse [www.chimiegenerale.ch](https://www.chimiegenerale.ch), où il peut également être téléchargé au format PDF. Il est rédigé en R Markdown et produit avec [bookdown](https://bookdown.org/), une technologie qui permet de générer, à partir d'une source unique, des ouvrages aux formats HTML, PDF et ePub.
+Le manuel est disponible en ligne au format HTML à l'adresse [www.chimiegenerale.ch](https://www.chimiegenerale.ch), où il peut également être téléchargé au format PDF. Il est rédigé en R Markdown et produit avec [Quarto](https://quarto.org/), une technologie qui permet de générer, à partir d'une source unique, des ouvrages aux formats HTML, PDF et ePub.
 
 Ce projet est ouvert aux contributions et aux suggestions. Son code source est disponible sur GitHub à l'adresse [github.com/mrizzello/chimie-generale](https://github.com/mrizzello/chimie-generale) : vous pouvez y signaler une coquille ou une erreur en ouvrant une _Issue_, ou proposer directement une correction au moyen d'une _Pull Request_. Toute contribution susceptible de faire évoluer ce document vers un projet participatif de plus grande ampleur est la bienvenue et sera examinée dès que possible.
 
