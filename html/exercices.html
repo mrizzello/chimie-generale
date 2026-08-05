@@ -11,17 +11,21 @@
       $(el).removeClass(exeContainerClass).addClass(exeClass);
     });
 
+    var chapterNum = $('.quarto-page-breadcrumbs .chapter-number').first().text().trim();
+
     $('.' + exeClass).each(function(i, el) {
-      var title = $('<div>Exercice</div>');
+      var num = chapterNum + '.' + (i + 1);
+      var title = $('<div>Exercice ' + num + '</div>');
       title.addClass('Label');
       $(el).prepend(title);
     });
 
     $('.' + ansClass).each(function(i, el) {
+      var num = chapterNum + '.' + (i + 1);
       $(el).click(function() {
         $(el).slideToggle();
       });
-      var button = $('<button>Solution</button>');
+      var button = $('<button>Solution ' + num + '</button>');
       button.attr('type', 'button');
       button.addClass('Answer-button');
       button.click(function() {
