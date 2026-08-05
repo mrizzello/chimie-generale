@@ -2,11 +2,20 @@
 \clubpenalty10000
 
 \usepackage{tcolorbox}
+\tcbuselibrary{skins}
 \newtcolorbox{objectives}{
   standard jigsaw,
   opacityback=0,
   colframe=black,
   boxrule=1pt}
+
+\newtcolorbox{Jeu}{
+  enhanced,
+  colback=white,
+  colframe=white,
+  boxrule=0pt,
+  borderline west={2pt}{0pt}{orange},
+  left=1em, right=0em, top=0.35em, bottom=0.3em}
 
 \renewcommand{\arraystretch}{1.5}
 

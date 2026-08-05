@@ -326,6 +326,12 @@ Table: (#tab:structure-lewis-groupe-principal) Structure de Lewis des éléments
 ```{r, child=c('exe/tableau-periodique/20.Rmd')}
 ```
 
+::: {.Jeu data-latex=""}
+
+**Jeu en ligne** — Entraînez-vous à trouver la bonne structure de Lewis à partir des informations fournies sur [isotope.ch/lewis](https://isotope.ch/lewis).
+
+:::
+
 \newpage
 
 ## La règle de l'octet
