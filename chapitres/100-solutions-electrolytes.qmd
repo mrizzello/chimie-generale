@@ -49,7 +49,7 @@ Le soluté n'est pas forcément solide et le solvant n'est pas forcément liquid
 | liquide |  solide | mercure dans l'or                       |        solide       |
 |  solide |  solide | laiton (zinc et cuivre)                 |        solide       |
 
-Table: (\#tab:types-solution-etats-matiere) Types de solution selon les différents états de la matière.
+Table: Types de solution selon les différents états de la matière. {#tbl-types-solution-etats-matiere}
 
 ```{r, child=c('exe/solutions-electrolytes/05.Rmd')}
 ```
@@ -78,7 +78,7 @@ Lorsque ce cristal est placé dans l'eau, des **ponts hydrogène** se forment en
 Un grain de sel de cuisine (chlorure de sodium, NaCl) est un petit cristal formé de ions Na^+^ et Cl^-^ liés par des **liaisons ioniques**.
 Lorsque ce cristal est placé dans l'eau, les liaisons ioniques sont rompues et les ions se retrouvent isolés dans la solution. Chaque ion est entouré de molécules d'eau. On dit qu'il est **hydraté**.
 
-```{r ionique-moleculaire,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Dissolution de composés moléculaire et ionique"}
+```{r fig-ionique-moleculaire,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Dissolution de composés moléculaire et ionique"}
 knitr::include_graphics(c("images/dissolution-1.png", "images/dissolution-2.png"))
 ```
 
@@ -110,7 +110,7 @@ Cela veut dire que l'on peut dissoudre **au maximum** 36 grammes de NaCl dans 10
 
 Sous certaines conditions, la limite de solubilité peut être dépassée et plus de soluté peut être dissous. Une telle solution sera appelée **solution sursaturée**. Les solutions sursaturées ne sont pas stables. L'ajout d'un **germe cristallin**, un petit cristal de soluté, entraînera la cristallisation de l'excès de soluté.
 
-```{r solubilite-saturation,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Solubilité et saturation"}
+```{r fig-solubilite-saturation,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Solubilité et saturation"}
 knitr::include_graphics(c("images/solution.png"))
 ```
 
@@ -142,7 +142,7 @@ Lorsqu'un composé ionique est plongé dans l'eau, les molécules d'eau, polaire
 
 L'eau diminue drastiquement l'attraction entre anions et cations. Les molécules d’eau qui entourent les ions écartent ces derniers les uns des autres. Le cristal s'effondre et les ions, indépendants les uns des autres, sont dispersés dans la solution.
 
-```{r dissociation,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Dissociation d'un composé ionique"}
+```{r fig-dissociation,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Dissociation d'un composé ionique"}
 knitr::include_graphics(c("images/dissociation.png"))
 ```
 
@@ -189,7 +189,7 @@ A noter:
 
 Expérimentalement, on remarque qu'une solution d'eau pure ne conduit que très peu le courant électrique. Si l'on dissout du chlorure de sodium (NaCl) dans l'eau, la solution devient conductrice alors que si l'on dissout du sucre (saccharose), la conductivité de l'eau ne change pas.
 
-```{r conduction-solutions,echo=FALSE,out.width="25%",fig.show="hold",fig.align="center",fig.cap="Conduction électrique des solutions (eau pure, solution de NaCl, solution de saccharose)"}
+```{r fig-conduction-solutions,echo=FALSE,out.width="25%",fig.show="hold",fig.align="center",fig.cap="Conduction électrique des solutions (eau pure, solution de NaCl, solution de saccharose)"}
 knitr::include_graphics(c("images/electrolyte-1.png","images/electrolyte-2.png","images/electrolyte-3.png"))
 ```
 
@@ -203,7 +203,7 @@ Un électrolyte est une substance qui se dissocie en ions en solution et forme u
 
 :::
 
-```{r electrolyte-2b,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Conductivité des solutions ioniques"}
+```{r fig-electrolyte-2b,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Conductivité des solutions ioniques"}
 knitr::include_graphics(c("images/electrolyte-2b.png"))
 ```
 
@@ -218,7 +218,7 @@ Le courant électrique dans la solution est dû au déplacement des cations dans
 ```{r, child=c('exe/solutions-electrolytes/20.Rmd')}
 ```
 
-```{r dissociation-resume,echo=FALSE,out.width="100%",fig.show="hold",fig.align="center",fig.cap="Résumé dissolution-dissociation"}
+```{r fig-dissociation-resume,echo=FALSE,out.width="100%",fig.show="hold",fig.align="center",fig.cap="Résumé dissolution-dissociation"}
 knitr::include_graphics(c("images/dissociation-resume.png"))
 ```
 
@@ -294,7 +294,7 @@ $$
 
 ### Préparation des solutions
 
-```{r fiole,echo=FALSE,out.width="20%",fig.show="hold",fig.align="center",fig.cap="Fioles jaugées"}
+```{r fig-fiole,echo=FALSE,out.width="20%",fig.show="hold",fig.align="center",fig.cap="Fioles jaugées"}
 knitr::include_graphics(c("images/fiole.png"))
 ```
 
@@ -314,7 +314,7 @@ Pour préparer une solution en laboratoire, généralement, le volume et la conc
 
 On peut préparer une solution par **dissolution**, c'est-à-dire en dissolvant le soluté dans le solvant. Les étapes sont les suivantes:
 
-```{r preparation-1,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Préparation d'une solution par dissolution"}
+```{r fig-preparation-1,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Préparation d'une solution par dissolution"}
 knitr::include_graphics(c("images/preparation-1.png"))
 ```
 
@@ -327,7 +327,7 @@ knitr::include_graphics(c("images/preparation-1.png"))
 
 Les solutions utilisées en laboratoire sont souvent achetées ou préparées sous forme de solutions concentrées (appelées **solutions stock**). A partir de ces solutions, on peut obtenir des solutions de concentrations plus faibles en ajoutant du solvant. Ce procédé est appelé **dilution**.
 
-```{r preparation-2,echo=FALSE,out.width="33%",fig.show="hold",fig.align="center",fig.cap="Préparation d'une solution par dilution"}
+```{r fig-preparation-2,echo=FALSE,out.width="33%",fig.show="hold",fig.align="center",fig.cap="Préparation d'une solution par dilution"}
 knitr::include_graphics(c("images/preparation-2.png"))
 ```
 

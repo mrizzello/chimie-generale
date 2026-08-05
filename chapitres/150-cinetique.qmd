@@ -39,7 +39,7 @@ Mesurer la vitesse d'une réaction c'est mesurer les changements de quantité de
 - la **quantité de matière** - la vitesse sera alors exprimée en mol/s ou mol/min (p. ex.),
 - la **concentration** - la vitesse sera alors exprimée en mol&middot;l^-1^&middot;s^-1^ ou mol&middot;l^-1^&middot;min^-1^ (p. ex.).
 
-```{r vitesse-reaction-1-a,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Variation des quantités de substances en fonction du temps"}
+```{r fig-vitesse-reaction-1-a,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Variation des quantités de substances en fonction du temps"}
 knitr::include_graphics(c("images/vitesse-reaction-1-a.png"))
 ```
 
@@ -97,7 +97,7 @@ $$
 
 La plupart des réactions ralentissent au fur et à mesure que les réactifs sont consommés. La **vitesse instantanée** d'une réaction varie continuellement avec l'avancement de la réaction. On peut donc définir la vitesse instantanée d'une réaction comme la pente de la tangente à la courbe de concentration en fonction du temps à n'importe quel instant.
 
-```{r vitesse-reaction-1-b,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Détermination graphique de la vitesse instantanée"}
+```{r fig-vitesse-reaction-1-b,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Détermination graphique de la vitesse instantanée"}
 knitr::include_graphics(c("images/vitesse-reaction-1-b.png"))
 ```
 
@@ -110,7 +110,7 @@ La vitesse instantanée mesurée au début de la réaction (t = 0) est appelée 
 
 Il existe une barrière d'énergie entre les réactifs et les produits qui doit être surmontée pour qu'une réaction ait lieu. La hauteur de cette barrière représente la quantité d'énergie que doivent posséder les particules pour que des collisions efficaces se produisent. Cette quantité d'énergie est appelée **énergie d'activation** (E~a~). La valeur de l'énergie d'activation détermine la vitesse de réaction.
 
-```{r chaleur-Ea-1,echo=FALSE,out.width="33%",fig.show="hold",fig.align="center",fig.cap="Profil énergétique et énergie d'activation"}
+```{r fig-chaleur-Ea-1,echo=FALSE,out.width="33%",fig.show="hold",fig.align="center",fig.cap="Profil énergétique et énergie d'activation"}
 knitr::include_graphics(c("images/chaleur-Ea-1.png"))
 ```
 
@@ -197,7 +197,7 @@ Le catalyseur est utilisé en faible quantité et n'apparaît pas dans l'équati
 
 Par exemple, des métaux tels que le nickel, le palladium et le platine catalysent l'hydrogénation des liaisons doubles carbone-carbone des huiles végétales pour produire de la margarine. Sans le métal catalyseur, la réaction ne se produit pas.
 
-```{r catalyse-H2,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Hydrogénation de liaisons doubles carbone-carbone"}
+```{r fig-catalyse-H2,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Hydrogénation de liaisons doubles carbone-carbone"}
 knitr::include_graphics(c("images/catalyse-H2.png"))
 ```
 
@@ -218,7 +218,7 @@ Les enzymes sont des catalyseurs naturels responsables d'innombrables réactions
 | hydrogénation d'hydrocarbures insaturés | nickel, platine ou palladium |
 | oxydation d'hydrocarbures dans les gaz d'échappement | oxyde de cuivre (II), oxyde de vanadium (V), platine, palladium |
 
-Table: (\#tab:tab-catalyseurs) Exemples de procédés catalytiques et leurs catalyseurs
+Table: Exemples de procédés catalytiques et leurs catalyseurs {#tbl-tab-catalyseurs}
 
 ```{r, child=c('exe/cinetique/35.Rmd')}
 ```

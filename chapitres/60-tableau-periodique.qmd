@@ -34,7 +34,7 @@ Chaque case du tableau représente un élément différent et contient au moins 
 - le numéro atomique de l'élément
 - la masse atomique de l'élément
 
-```{r tpe-case,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Une case du tableau périodique"}
+```{r fig-tpe-case,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Une case du tableau périodique"}
 knitr::include_graphics(c("images/tpe-case.png"))
 ```
 
@@ -60,7 +60,7 @@ Les éléments B, Si, Ge, As, Sb, Te, Po et At sont appelés **métalloïdes**. 
 
 Le reste des éléments, à droite des métalloïdes, sont appelés **non-métaux**. Les non-métaux ont des propriétés qui sont souvent opposées à celles des métaux. Certains sont des gaz, ils sont de mauvais conducteurs de la chaleur et de l'électricité, ils ne sont ni malléables, ni ductiles.
 
-```{r tpe-empty,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Le vocabulaire du tableau périodique"}
+```{r fig-tpe-empty,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Le vocabulaire du tableau périodique"}
 knitr::include_graphics(c("images/tpe-empty.png"))
 ```
 
@@ -93,7 +93,7 @@ Il y a au total 18 familles et il existe différentes manières de les numérote
 |  VII   | halogènes                     | F, Cl, Br, I, At       |
 |  VIII  | les gaz rares (ou gaz nobles) | He, Ne, Ar, Kr, Xe, Rn |
 
-Table: (#tab:noms-groupes-courants) Noms de quelques groupes couramment employés.
+Table: Noms de quelques groupes couramment employés. {#tbl-noms-groupes-courants}
 
 Les **éléments de transition internes** ont été décalés dans le tableau périodique afin de rendre ce dernier plus compact.
 
@@ -114,7 +114,7 @@ Les ondes qui vont nous intéresser pour décrire les électrons sont les **onde
 
 Si on dessine un faisceau lumineux sous la forme d'une onde, nous appellerons **longueur d'onde**, la distance entre deux crêtes (ou entre deux creux ou entre deux positions identiques sur l'onde). Si on considère que cette onde se déplace de gauche à droite et si on compte le nombre de crêtes qui passent par un point particulier chaque seconde, on obtient la **fréquence**.
 
-```{r ondes-electromagnetiques,echo=FALSE,out.width="75%",fig.show="hold",fig.align="center",fig.cap="Longueur d'onde, fréquence et énergie"}
+```{r fig-ondes-electromagnetiques,echo=FALSE,out.width="75%",fig.show="hold",fig.align="center",fig.cap="Longueur d'onde, fréquence et énergie"}
 knitr::include_graphics(c("images/ondes-electromagnetiques.png"))
 ```
 
@@ -153,7 +153,7 @@ L'analyse du rayonnement émis ou absorbé par la matière s'appelle la **spectr
 
 Le spectre électromagnétique regroupe l'ensemble de toutes les ondes électromagnétiques en fonction de leur longueur d'onde et de leur fréquence.
 
-```{r domaine-spectre-electromagnetique,echo=FALSE,out.width="95%",fig.show="hold",fig.align="center",fig.cap="Domaines du spectre électromagnétique."}
+```{r fig-domaine-spectre-electromagnetique,echo=FALSE,out.width="95%",fig.show="hold",fig.align="center",fig.cap="Domaines du spectre électromagnétique."}
 knitr::include_graphics(c("images/domaine-spectre-electromagnetique.png"))
 ```
 
@@ -173,7 +173,7 @@ Les ondes électromagnétiques sont classées en différentes catégories selon 
 | orange  |         600          |         5.00          |     2.06     |
 | rouge   |         650          |         4.62          |     1.91     |
 
-Table: (#tab:domaine-spectre-visible) Domaine du spectre visible.
+Table: Domaine du spectre visible. {#tbl-domaine-spectre-visible}
 
 ### Interactions rayonnement-matière
 
@@ -183,7 +183,7 @@ Des ondes électromagnétiques peuvent être absorbées par un électron augment
 
 Un électron qui se trouve dans un état d'énergie supérieure à celle de l'état fondamental va avoir tendance à évoluer vers un état d'énergie plus faible avec l'émission d'une onde électromagnétique. L'électron va donc perdre de l'énergie en éjectant un photon qui possède exactement la différence d'énergie entre les deux états.
 
-```{r absorption-emission,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Différence entre spectres d'absorption et d'émission"}
+```{r fig-absorption-emission,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Différence entre spectres d'absorption et d'émission"}
 knitr::include_graphics(c("images/absorption-emission.png"))
 ```
 
@@ -214,13 +214,13 @@ Ce modèle introduit une description mathématique du mouvement de l'électron a
 |        |      d      |     5     |    10     |                 |
 |        |      f      |     7     |    14     |                 |
 
-Table: (#tab:couches-sous-couches-orbitales) Résumé des couches, sous-couches et orbitales.
+Table: Résumé des couches, sous-couches et orbitales. {#tbl-couches-sous-couches-orbitales}
 
 Selon ce modèle, les électrons d'un atome gravitent autour de l'atome à des niveaux d'énergie différents. Ces niveaux sont appelés **couches** et sont situés à différentes distances du noyau. Les couches sont numérotées de 1 à 7 et plus le numéro de la couche est petit, plus la couche est proche du noyau.
 
 Dans une couche les électrons sont distribués en **sous-couches** d'énergie légèrement différentes. On note les sous-couches avec les lettres s, p, d, f et chacune représente une forme d'orbitale différente.
 
-```{r orb-3d,echo=FALSE,out.width="90%",fig.show="hold",fig.align="center",fig.cap="Formes des orbitales s, p et d."}
+```{r fig-orb-3d,echo=FALSE,out.width="90%",fig.show="hold",fig.align="center",fig.cap="Formes des orbitales s, p et d."}
 knitr::include_graphics(c("images/orb-3d.jpeg"))
 ```
 
@@ -236,13 +236,13 @@ La manière dont les électrons sont répartis dans les différentes orbitales p
 
 On utilise ce diagramme pour prédire les liaisons qui se produisent entre deux atomes et pour montrer pourquoi certains éléments se comportent de la même façon.
 
-```{r energy-level,echo=FALSE,out.width="40%",fig.show="hold",fig.align="center",fig.cap="Diagramme énergétique des orbitales atomiques."}
+```{r fig-energy-level,echo=FALSE,out.width="40%",fig.show="hold",fig.align="center",fig.cap="Diagramme énergétique des orbitales atomiques."}
 knitr::include_graphics(c("images/energy-level.png"))
 ```
 
 ### Déterminer une configuration électronique
 
-```{r energy-level-order,echo=FALSE,out.width="25%",fig.show="hold",fig.align="center",fig.cap="Ordre de remplissage des orbitales."}
+```{r fig-energy-level-order,echo=FALSE,out.width="25%",fig.show="hold",fig.align="center",fig.cap="Ordre de remplissage des orbitales."}
 knitr::include_graphics(c("images/energy-level-order.png"))
 ```
 
@@ -250,7 +250,7 @@ En connaissant le nombre d'électrons contenus dans un atome, on peut remplir ce
 
 - Les électrons sont placés dans la sous-couche disponible de plus basse énergie.
 - On peut placer au maximum 2 électrons dans une orbitale (exclusion de Pauli).
-- La figure \@ref(fig:energy-level-order) donne l'ordre de remplissage des orbitales (principe Aufbau).
+- La figure @fig-energy-level-order donne l'ordre de remplissage des orbitales (principe Aufbau).
 - Si plusieurs orbitales de même énergie sont disponibles, on remplit le plus d'orbitales possibles avant d'apparier les électrons.
 
 Une fois le diagramme rempli, on en déduit la configuration électronique de l'atome pour le niveau de plus basse énergie. La **configuration électronique** d'un atome est une notation abrégée de la répartition des électrons dans les différentes couches et sous-couches électroniques.
@@ -275,7 +275,7 @@ $$ \underbrace{1s^{2}~2s^{2}~2p^{6}}_{\text{Néon}}~3s^{2}~3p^{5} \text{ devient
 |  VII  |    F    | [He] $2s^{2}~2p^{5}$             |   Cl    | [Ne] $3s^{2}~3p^{5}$              |
 | VIII  |   Ne    | [He] $2s^{2}~2p^{6} \equiv$ [Ne] |   Ar    | [He] $3s^{2}~3p^{6} \equiv $ [Ar] |
 
-Table: (#tab:conf-elec-premieres-periodes) Configuration électronique des deux premières périodes.
+Table: Configuration électronique des deux premières périodes. {#tbl-conf-elec-premieres-periodes}
 
 ```{r, child=c('exe/tableau-periodique/18.Rmd')}
 ```
@@ -284,7 +284,7 @@ La configuration électronique du niveau de plus basse énergie est appelée **�
 
 \newpage
 
-```{r energy-level-5,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Les orbitales atomiques et le tableau périodique."}
+```{r fig-energy-level-5,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Les orbitales atomiques et le tableau périodique."}
 knitr::include_graphics(c("images/energy-level-5.png","images/tpe-orbitals.png"))
 ```
 
@@ -299,7 +299,7 @@ Les électrons de valence sont les électrons de la dernière couche électroniq
 
 Lorsqu'un chimiste étudie une réaction, il étudie les électrons transféré entre les acteurs de la réaction. Les électrons dont le niveau d'énergie est le plus éloigné du noyau seront retenus de manière moins forte. Ce sont donc ces électrons qui seront impliqués dans les réactions.
 
-```{r configuration-electronique,echo=FALSE,out.width="100%",fig.show="hold",fig.align="center",fig.cap="Répartition électronique des trois premières périodes."}
+```{r fig-configuration-electronique,echo=FALSE,out.width="100%",fig.show="hold",fig.align="center",fig.cap="Répartition électronique des trois premières périodes."}
 knitr::include_graphics(c("images/configuration-electronique.png"))
 ```
 
@@ -321,7 +321,7 @@ On utilise les règles suivantes pour dessiner la structure de Lewis d'un atome:
 | ![](images/lewis-dots-1c.png){width=3em} | ![](images/lewis-dots-2c.png){width=3em} | ![](images/lewis-dots-3c.png){width=3em} | ![](images/lewis-dots-4c.png){width=3em} | ![](images/lewis-dots-1p3c.png){width=3em} | ![](images/lewis-dots-2p2c.png){width=3em} | ![](images/lewis-dots-3p1c.png){width=3em} | ![](images/lewis-dots-4p.png){width=3em} |
 |                    1c                    |                    2c                    |                    3c                    |                    4c                    |                   1p 3c                    |                   2p 2c                    |                   3p 1c                    |                    4p                    |
 
-Table: (#tab:structure-lewis-groupe-principal) Structure de Lewis des éléments du groupe principal (c = célibataire, p = paire).
+Table: Structure de Lewis des éléments du groupe principal (c = célibataire, p = paire). {#tbl-structure-lewis-groupe-principal}
 
 ```{r, child=c('exe/tableau-periodique/20.Rmd')}
 ```

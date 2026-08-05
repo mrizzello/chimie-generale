@@ -25,7 +25,7 @@ La théorie cinétique des gaz est un groupe d'hypothèses qui expliquent le com
 
 \newpage
 
-```{r theorie-cinetique,echo=FALSE,out.width="20%",fig.show="hold",fig.align="center",fig.cap="Illustration du modèle de la théorie cinétique des gaz"}
+```{r fig-theorie-cinetique,echo=FALSE,out.width="20%",fig.show="hold",fig.align="center",fig.cap="Illustration du modèle de la théorie cinétique des gaz"}
 knitr::include_graphics(c("images/theorie-cinetique.png"))
 ```
 

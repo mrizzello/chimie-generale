@@ -27,7 +27,7 @@ L'atome est formé d'un nuage d'électrons gravitant autour d'un petit noyau ext
 
 Imaginons que l'on agrandisse un atome à la taille d'un stade. Le noyau se trouverait sur le rond central du terrain et il aurait la taille d'une tête d'épingle. Les électrons seraient alors à la place des spectateurs et chacun aurait la taille d'un grain de poussière !
 
-```{r ordre-grandeur-atome,echo=FALSE,out.width="33%",fig.show="hold",fig.align="center",fig.cap="Taille et structure de l'atome"}
+```{r fig-ordre-grandeur-atome,echo=FALSE,out.width="33%",fig.show="hold",fig.align="center",fig.cap="Taille et structure de l'atome"}
 knitr::include_graphics(c("images/ordre-grandeur-atome.png"))
 ```
 
@@ -43,7 +43,7 @@ Les mêmes particules subatomiques constituent tous les atomes. La seule chose q
 | neutron   | $n^{}$  |          0          |        0        | $1.674\cdot10^{-27}$ |   $\approx$ 1    |
 | électron  | $e^{-}$ | $-1.602\cdot10^{-19}$ |       -1        | $9.109\cdot10^{-31}$  | $\frac{1}{1836}$ |
 
-Table: (#tab:particules-subatomiques) Les particules subatomiques.
+Table: Les particules subatomiques. {#tbl-particules-subatomiques}
 
 Le proton porte une unité de charge positive, l'électron porte une unité de charge négative, et le neutron n'est pas chargé, il est électriquement neutre.
 
@@ -120,7 +120,7 @@ Les noyaux de tous les atomes contiennent des protons et des neutrons. Les neutr
 
 Il existe des tables qui indiquent la liste des isotopes naturels stables et radioactifs pour chaque élément.
 
-```{r isotopes-table,echo=FALSE,out.width="80%",fig.show="hold",fig.align="center",fig.cap="Table des isotopes simplifiée"}
+```{r fig-isotopes-table,echo=FALSE,out.width="80%",fig.show="hold",fig.align="center",fig.cap="Table des isotopes simplifiée"}
 knitr::include_graphics(c("images/isotopes-table.png"))
 ```
 
@@ -235,7 +235,7 @@ Des techniques telles que la spectrométrie de masse, qui permettent de compter 
 | vingtaine |         20 entités          | une vingtaine de personnes     |
 |   mole    | $6.022\cdot10^{23}$ entités | une mole d'atomes de potassium |
 
-Table: (#tab:unites-de-comptage) Unités de comptage.
+Table: Unités de comptage. {#tbl-unites-de-comptage}
 
 Une mole d'atomes, une mole de molécules, ou une mole de quoi que ce soit contiennent toutes $6.022\cdot10^{23}$ objets.
 
@@ -252,7 +252,7 @@ Une mole d'atomes, une mole de molécules, ou une mole de quoi que ce soit conti
 
 ## La masse molaire atomique
 
-```{r uma-masse-molaire,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Relation entre unité de masse atomique et masse molaire."}
+```{r fig-uma-masse-molaire,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Relation entre unité de masse atomique et masse molaire."}
 knitr::include_graphics(c("images/uma-masse-molaire.png"))
 ```
 

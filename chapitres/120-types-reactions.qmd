@@ -63,7 +63,7 @@ $$ \ce{Ca3(PO4)2 ->C[H2O] 3Ca^{2+} + 2PO4^{3-}} $$
 
 ## Réactions de précipitation
 
-```{r precipitation-0,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Représentation moléculaire d'une réaction de précipitation"}
+```{r fig-precipitation-0,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Représentation moléculaire d'une réaction de précipitation"}
 knitr::include_graphics(c("images/precipitation-0.png"))
 ```
 
@@ -162,7 +162,7 @@ L'échelle de pH varie de 0 à 14.
 -  Une solution **basique** (alcaline) a un pH **supérieur à 7**.
 -  Une solution neutre a un pH **égal à 7**. C'est le pH de l'eau pure.
 
-```{r pH-echelle,echo=FALSE,out.width="90%",fig.show="hold",fig.align="center",fig.cap="Echelle de pH"}
+```{r fig-pH-echelle,echo=FALSE,out.width="90%",fig.show="hold",fig.align="center",fig.cap="Echelle de pH"}
 knitr::include_graphics(c("images/pH-echelle.png"))
 ```
 
@@ -179,7 +179,7 @@ En regardant une solution, on ne peut pas dire si il s'agit d'une solution acide
 | Rouge de phénol           |     jaune     |      rouge      |
 | Rouge neutre              |     rouge     |      jaune      |
 
-Table: (\#tab:indicateur-acide-base) Indicateur acide-base.
+Table: Indicateur acide-base. {#tbl-indicateur-acide-base}
 
 ## Réactions de combustion
 

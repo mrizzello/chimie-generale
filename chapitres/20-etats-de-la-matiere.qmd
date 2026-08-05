@@ -21,7 +21,7 @@ Nous allons considérer la matière de trois points de vue différents :
 - **point de vue symbolique**
 	Le domaine qu'on utilise pour représenter "mathématiquement" la matière (équations, symboles, formules, etc.).
 
-```{r Johnstone,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Les trois niveaux de représentation de la chimie"}
+```{r fig-Johnstone,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Les trois niveaux de représentation de la chimie"}
 knitr::include_graphics(c("images/Johnstone.png"))
 ```
 
@@ -37,7 +37,7 @@ La matière se trouve généralement sous trois formes physiques appelées état
 | **liquide** | Les liquides ont un volume défini mais ils adoptent la forme de leur contenant. | Les particules sont proches et se déplacent lentement aléatoirement.                                 |
 |   **gaz**   | Les gaz occupent tout le volume et la forme de leur contenant.                  | Les particules sont séparées par de grandes distances et se déplacent très rapidement aléatoirement. |
 
-```{r solide-liquide-gaz,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Les différents états de la matière du point de vue macroscopique et submicroscopique"}
+```{r fig-solide-liquide-gaz,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Les différents états de la matière du point de vue macroscopique et submicroscopique"}
 knitr::include_graphics(c("images/solide-liquide-gaz.png"))
 ```
 
@@ -54,7 +54,7 @@ Il existe des forces d'attraction qui rassemblent les particules qui constituent
 
 Les trois états de la matière sont le résultat de l'**équilibre** entre les **forces intermoléculaires** et l'**énergie thermique**.
 
-```{r mvt-thermique,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Équilibre entre forces intermoléculaires et énergie thermique"}
+```{r fig-mvt-thermique,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Équilibre entre forces intermoléculaires et énergie thermique"}
 knitr::include_graphics(c("images/mvt-thermique.png"))
 ```
 
@@ -89,7 +89,7 @@ On peut modifier l'état d'une substance en lui fournissant ou lui retirant de l
 L'**évaporation** est la transformation d'un liquide en vapeur sans ébullition. Il peut y avoir vaporisation sans ébullition de la matière.
 
 
-```{r chgt-etats,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Les noms des changements d'état"}
+```{r fig-chgt-etats,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Les noms des changements d'état"}
 knitr::include_graphics(c("images/chgt-etats.png"))
 ```
 
@@ -105,7 +105,7 @@ knitr::include_graphics(c("images/chgt-etats.png"))
 
 ## Les courbes de changement d'état
 
-```{r courbe-chgt-etat,echo=FALSE,out.width="40%",fig.show="hold",fig.align="center",fig.cap="Courbe de chauffage de l'eau"}
+```{r fig-courbe-chgt-etat,echo=FALSE,out.width="40%",fig.show="hold",fig.align="center",fig.cap="Courbe de chauffage de l'eau"}
 knitr::include_graphics(c("images/courbe-chgt-etat.png"))
 ```
 
@@ -136,7 +136,7 @@ Nous avons vu qu’il est possible de liquéfier un gaz à pression ambiante en 
 
 Ce genre d’informations est résumé sur un **diagramme de phases** qui donne les conditions (pression et température) d’existence des différentes phases d’une substance donnée.
 
-```{r diagramme-phases-eau-CO2,echo=FALSE,out.width="100%",fig.show="hold",fig.align="center",fig.cap="Diagramme de phases de l'eau et du CO~2~ (Les échelles ne sont pas régulières)"}
+```{r fig-diagramme-phases-eau-CO2,echo=FALSE,out.width="100%",fig.show="hold",fig.align="center",fig.cap="Diagramme de phases de l'eau et du CO~2~ (Les échelles ne sont pas régulières)"}
 knitr::include_graphics(c("images/diagramme-phases-eau-CO2.png"))
 ```
 
@@ -149,7 +149,7 @@ knitr::include_graphics(c("images/diagramme-phases-eau-CO2.png"))
 
 Au niveau submicroscopique, les particules qui forment les liquides suivent des mouvements aléatoires constants. Elles peuvent être ordonnées sur de courtes portions, mais cela ne dure pas très longtemps.
 
-```{r tension-surface,echo=FALSE,out.width="33%",fig.show="hold",fig.align="center",fig.cap="Tension superficielle"}
+```{r fig-tension-surface,echo=FALSE,out.width="33%",fig.show="hold",fig.align="center",fig.cap="Tension superficielle"}
 knitr::include_graphics(c("images/tension-surface.png"))
 ```
 
@@ -164,7 +164,7 @@ La **viscosité** est la résistance à l'écoulement d'un liquide. Elle dépend
 
 La **capillarité** est la tendance qu'a un liquide à monter le long d'un tube étroit. Elle est causée par la compétition entre les forces intermoléculaires dans le liquide et les forces d'attraction entre le liquide et la paroi du tube.
 
-```{r capillarity,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="La capillarité"}
+```{r fig-capillarity,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="La capillarité"}
 knitr::include_graphics(c("images/capillarity.png"))
 ```
 
@@ -179,7 +179,7 @@ knitr::include_graphics(c("images/capillarity.png"))
 
 Au niveau submicroscopique, les solides peuvent être de deux types - amorphe ou cristallin.
 
-```{r amorphous,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Solide amorphe (Verre) - Solide cristallin (Quartz)"}
+```{r fig-amorphous,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Solide amorphe (Verre) - Solide cristallin (Quartz)"}
 knitr::include_graphics(c("images/amorphous.png"))
 ```
 
@@ -195,7 +195,7 @@ Les particules formant les solides cristallins sont assemblées les unes par rap
 
 Une **maille** est un volume de cristal, qui, lorsqu'il est répété dans les trois dimensions de l'espace, permet d'obtenir le cristal tout entier.
 
-```{r metaux,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="3 mailles de réseaux cristallins classiques (CFC: cubique à face centrées, CC: cubique centré, HC: hexagonal compact)"}
+```{r fig-metaux,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="3 mailles de réseaux cristallins classiques (CFC: cubique à face centrées, CC: cubique centré, HC: hexagonal compact)"}
 knitr::include_graphics(c("images/metaux.png"))
 ```
 
@@ -205,7 +205,7 @@ knitr::include_graphics(c("images/metaux.png"))
 
 L'**allotropie** est la propriété qu'ont certains corps à former des cristaux de différentes formes, appelés **allotropes** de cette substance. Par exemple, le diamant, le graphite et les fullerènes sont des formes allotropiques du carbone: formés du même élément mais dont la structure cristalline est différente.
 
-```{r allotropes,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Trois formes allotropiques du carbone (graphite, diamant, fullerène)"}
+```{r fig-allotropes,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Trois formes allotropiques du carbone (graphite, diamant, fullerène)"}
 knitr::include_graphics(c("images/allotropes.png"))
 ```
 

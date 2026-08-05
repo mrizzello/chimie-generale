@@ -27,7 +27,7 @@ Le processus par lequel des éléments chimiques sont créés est appelé **nucl
 
 \newpage
 
-```{r timeline-cosmos,echo=FALSE,out.width="80%",fig.show="hold",fig.align="center",fig.cap="Chronologie du cosmos"}
+```{r fig-timeline-cosmos,echo=FALSE,out.width="80%",fig.show="hold",fig.align="center",fig.cap="Chronologie du cosmos"}
 knitr::include_graphics(c("images/timeline-cosmos.png"))
 ```
 
@@ -53,13 +53,13 @@ Au début du 19e siècle, **John Dalton** (1766-1844) développe ce qui est main
 
 En 1897, le physicien britannique **Joseph John Thomson** (1856-1940) découvre l'**électron**, une très petite particule chargée négativement. L'expérience menée par Thomson l'a conduit à la conclusion que l'électron est une particule constituante de l'atome. Comme les atomes sont électriquement neutres, de la matière chargée positivement doit exister. Thomson propose un nouveau modèle de l'atome. Il est constitué d'une masse de matière de charge positive avec des électrons de charge négative coincés dedans. Ce modèle est appelé le modèle pain de raisin (plum pudding).
 
-```{r exp-thomson,echo=FALSE,out.width="40%",fig.show="hold",fig.align="center",fig.cap="Schéma du tube cathodique de Thomson"}
+```{r fig-exp-thomson,echo=FALSE,out.width="40%",fig.show="hold",fig.align="center",fig.cap="Schéma du tube cathodique de Thomson"}
 knitr::include_graphics(c("images/exp-thomson.png"))
 ```
 
 En 1911, le physicien britannique **Ernest Rutherford** (1871-1937) fait une découverte importante. Il bombarde une feuille d'or extrêmement fine avec des particules alpha. Les particules alpha sont des particules radioactives chargées positivement.
 
-```{r exp-rutherford,echo=FALSE,out.width="40%",fig.show="hold",fig.align="center",fig.cap="Bombardement de la feuille d'or"}
+```{r fig-exp-rutherford,echo=FALSE,out.width="40%",fig.show="hold",fig.align="center",fig.cap="Bombardement de la feuille d'or"}
 knitr::include_graphics(c("images/exp-rutherford.png"))
 ```
 
@@ -67,7 +67,7 @@ Selon le modèle de Thomson, toutes les particules alpha devaient passer à trav
 
 La plupart des particules ont effectivement passé à travers la feuille, mais  certaines rebondissaient comme si elles avaient frappé un objet massif positif. Rutherford conclu que la charge positive et la plupart de la masse de l'atome sont concentrées dans un très petit volume: le **noyau**. Rutherford a proposé un nouveau modèle de l'atome appelé modèle planétaire, avec un noyau au centre et des électrons gravitant autour du noyau comme les planètes autour du soleil.
 
-```{r exp-thomson-rutherford,echo=FALSE,out.width="40%",fig.show="hold",fig.align="center",fig.cap="Comparaison des modèles de Thomson et de Rutherford"}
+```{r fig-exp-thomson-rutherford,echo=FALSE,out.width="40%",fig.show="hold",fig.align="center",fig.cap="Comparaison des modèles de Thomson et de Rutherford"}
 knitr::include_graphics(c("images/exp-thomson-rutherford.png"))
 ```
 
@@ -77,7 +77,7 @@ En 1932, le physicien **James Chadwick** (1891-1974) découvre la troisième par
 
 Deux même charges se repoussent mutuellement. Donc, si tous les protons dans le noyau se repoussent, pourquoi le noyau n'éclate-t-il pas tout simplement? **C'est la force nucléaire**. La force nucléaire est une force qui s'exerce entre protons et neutrons. Les neutrons stabilisent le noyau car ils ajoutent de l'attraction nucléaire sans provoquer de répulsion électrique.
 
-```{r modeles-atomiques-cloud,echo=FALSE,out.width="25%",fig.show="hold",fig.align="center",fig.cap="Le modèle de Schrödinger"}
+```{r fig-modeles-atomiques-cloud,echo=FALSE,out.width="25%",fig.show="hold",fig.align="center",fig.cap="Le modèle de Schrödinger"}
 knitr::include_graphics(c("images/modeles-atomiques-cloud.png"))
 ```
 
@@ -87,7 +87,7 @@ Le modèle du nuage électronique a été développé en 1925 par **Erwin Schrö
 
 La notion de probabilité a été introduite car on ne peut pas connaître préciséement et simultanément la position et la vitesse d'un électron. Le principe d'incertitude d'Heisenberg énonce que plus nous cherchons à préciser la position d'une particule, moins nous pouvons connaître avec précision sa quantité de mouvement, et inversement.
 
-```{r modeles-atomiques-evol-3,echo=FALSE,out.width="85%",fig.show="hold",fig.align="center",fig.cap="Évolution du modèle atomique"}
+```{r fig-modeles-atomiques-evol-3,echo=FALSE,out.width="85%",fig.show="hold",fig.align="center",fig.cap="Évolution du modèle atomique"}
 knitr::include_graphics(c("images/modeles-atomiques-evol-3.png"))
 ```
 
@@ -113,7 +113,7 @@ Dans le cadre de ce cours, nous utiliseront le modèle de Bohr. Ce modèle nous 
 
 La taille d'un atome est difficile à mesurer car les atomes n'ont pas une limite extérieure bien définie. Cependant, on sait que leur taille est d'environ 0.1 nm jusqu'à 0.215 nm pour les plus gros. Les longueurs d'onde de la lumière visible à l'oeil humain se situent entre 400 nm à 700 nm, ce qui est trop grand pour pouvoir voir les atomes avec un procédé utilisant la lumière visible.
 
-```{r ordre-grandeur-ex,echo=FALSE,out.width="100%",fig.show="hold",fig.align="center",fig.cap="Tailles relatives approximatives en mètres"}
+```{r fig-ordre-grandeur-ex,echo=FALSE,out.width="100%",fig.show="hold",fig.align="center",fig.cap="Tailles relatives approximatives en mètres"}
 knitr::include_graphics(c("images/ordre-grandeur-ex.png"))
 ```
 
