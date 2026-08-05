@@ -79,6 +79,7 @@ Un grain de sel de cuisine (chlorure de sodium, NaCl) est un petit cristal form�
 Lorsque ce cristal est placé dans l'eau, les liaisons ioniques sont rompues et les ions se retrouvent isolés dans la solution. Chaque ion est entouré de molécules d'eau. On dit qu'il est **hydraté**.
 
 ```{r fig-ionique-moleculaire,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Dissolution de composés moléculaire et ionique"}
+#| layout-ncol: 2
 knitr::include_graphics(c("images/dissolution-1.png", "images/dissolution-2.png"))
 ```
 
@@ -190,6 +191,7 @@ A noter:
 Expérimentalement, on remarque qu'une solution d'eau pure ne conduit que très peu le courant électrique. Si l'on dissout du chlorure de sodium (NaCl) dans l'eau, la solution devient conductrice alors que si l'on dissout du sucre (saccharose), la conductivité de l'eau ne change pas.
 
 ```{r fig-conduction-solutions,echo=FALSE,out.width="25%",fig.show="hold",fig.align="center",fig.cap="Conduction électrique des solutions (eau pure, solution de NaCl, solution de saccharose)"}
+#| layout-ncol: 3
 knitr::include_graphics(c("images/electrolyte-1.png","images/electrolyte-2.png","images/electrolyte-3.png"))
 ```
 

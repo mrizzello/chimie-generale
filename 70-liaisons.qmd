@@ -148,6 +148,7 @@ knitr::include_graphics(c("images/CaF2-diagram.png"))
 Le nombre relatif de cations et d'anions n'est pas toujours le même. Prenons par exemple le fluorure de calcium, $CaF_2$. Il y a deux fois plus d'anions $F^-$ que de cations $Ca^{2+}$, on écrira donc la formule brute $CaF_2$.
 
 ```{r fig-NaClCaF2,echo=FALSE,out.width="25%",,fig.show='hold',fig.align='center',fig.cap="Réseaux ioniques formés par $NaCl$ et $CaF_2$."}
+#| layout-ncol: 2
 knitr::include_graphics(c("images/NaCl-crystal.png","images/CaF2-crystal.png"))
 ```
 

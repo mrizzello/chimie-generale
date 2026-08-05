@@ -1,8 +1,10 @@
 project:
   type: book
+  execute-dir: project
 
 book:
   title: "Cours de chimie générale"
+  output-file: "chimie-generale"
   author: "M. Michele Rizzello"
   date: today
   date-format: "DD.MM.YYYY"
@@ -14,30 +16,30 @@ book:
     collapse-level: 1
   chapters:
     - index.qmd
-    - chapitres/10-introduction.qmd
-    - chapitres/20-etats-de-la-matiere.qmd
-    - chapitres/30-melanges-corps-purs.qmd
-    - chapitres/40-historique.qmd
-    - chapitres/50-atome.qmd
-    - chapitres/60-tableau-periodique.qmd
-    - chapitres/70-liaisons.qmd
-    - chapitres/80-molecules.qmd
-    - chapitres/90-nomenclature.qmd
-    - chapitres/100-solutions-electrolytes.qmd
-    - chapitres/110-reactions-chimiques.qmd
-    - chapitres/120-types-reactions.qmd
-    - chapitres/130-stoechiometrie.qmd
-    - chapitres/140-gaz-parfaits.qmd
-    - chapitres/150-cinetique.qmd
-    - chapitres/160-equilibres.qmd
-    - chapitres/170-acides-bases.qmd
-    - chapitres/180-ph-potentiel-hydrogene.qmd
-    - chapitres/190-produit-solubilite.qmd
-    - chapitres/200-oxydoreductions.qmd
-    - chapitres/210-electrochimie.qmd
-    - chapitres/220-thermochimie.qmd
-    - chapitres/230-thermodynamique.qmd
-    - chapitres/00-references.qmd
+    - 10-introduction.qmd
+    - 20-etats-de-la-matiere.qmd
+    - 30-melanges-corps-purs.qmd
+    - 40-historique.qmd
+    - 50-atome.qmd
+    - 60-tableau-periodique.qmd
+    - 70-liaisons.qmd
+    - 80-molecules.qmd
+    - 90-nomenclature.qmd
+    - 100-solutions-electrolytes.qmd
+    - 110-reactions-chimiques.qmd
+    - 120-types-reactions.qmd
+    - 130-stoechiometrie.qmd
+    - 140-gaz-parfaits.qmd
+    - 150-cinetique.qmd
+    - 160-equilibres.qmd
+    - 170-acides-bases.qmd
+    - 180-ph-potentiel-hydrogene.qmd
+    - 190-produit-solubilite.qmd
+    - 200-oxydoreductions.qmd
+    - 210-electrochimie.qmd
+    - 220-thermochimie.qmd
+    - 230-thermodynamique.qmd
+    - 00-references.qmd
 
 lang: fr
 
@@ -47,9 +49,6 @@ link-citations: true
 
 crossref:
   chapters: true
-
-filters:
-  - filters/latex-div.lua
 
 format:
   html:
