@@ -9,11 +9,24 @@ book:
   date: today
   date-format: "DD.MM.YYYY"
   description: "Support du cours de chimie générale | Maturité gymnasiale"
-  repo-url: "https://github.com/mrizzello/chimie-generale"
-  repo-actions: [issue]
-  downloads: [pdf]
   sidebar:
     collapse-level: 1
+  search:
+    location: sidebar
+  navbar:
+    right:
+      - icon: file-pdf
+        href: chimie-generale.pdf
+        aria-label: "Télécharger le PDF"
+      - icon: search
+        href: "#"
+        aria-label: "Afficher ou masquer la recherche"
+      - icon: textarea-t
+        href: "#"
+        aria-label: "Réglages de lecture"
+      - icon: layout-text-sidebar-reverse
+        href: "#"
+        aria-label: "Afficher ou masquer la barre latérale"
   chapters:
     - index.qmd
     - 10-introduction.qmd
@@ -52,14 +65,19 @@ crossref:
 
 format:
   html:
-    css: style.css
-    toc-depth: 3
+    theme: lumen
+    css:
+      - style.css
+      - custom.css
+    toc: false
     include-in-header:
       - html/mathjax-mhchem.html
     include-after-body:
       - html/jquery-include.html
       - html/exercices.html
       - html/tables.html
+      - html/reader-settings-panel.html
+      - html/custom-js-include.html
   pdf:
     documentclass: book
     classoption: [openany]
