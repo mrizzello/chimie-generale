@@ -10,10 +10,13 @@ book:
   date-format: "DD.MM.YYYY"
   description: "Support du cours de chimie générale | Maturité gymnasiale"
   sidebar:
+    style: docked
     collapse-level: 1
   search:
     location: sidebar
   navbar:
+    background: "#ffffff"
+    foreground: "#767676"
     right:
       - icon: file-pdf
         href: chimie-generale.pdf
