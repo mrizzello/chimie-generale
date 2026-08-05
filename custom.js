@@ -70,16 +70,14 @@
   function setupSidebarToggle() {
     var btn = findNavbarToolByLabel("barre latérale");
     if (!btn) return;
+    // La sidebar en mode "docked" est volontairement immunisée par Quarto contre le
+    // mécanisme collapse de Bootstrap (une sidebar dockée est censée toujours être
+    // visible) : basculer la classe `show` ne change donc rien à sa largeur réelle.
+    // On pilote donc nous-mêmes l'affichage via une classe dédiée sur <body>, et on
+    // redonne à la zone de contenu toute la largeur de la grille quand elle est masquée.
     btn.addEventListener("click", function (e) {
       e.preventDefault();
-      var sidebar = document.getElementById("quarto-sidebar");
-      if (!sidebar) return;
-      if (window.bootstrap && window.bootstrap.Collapse) {
-        var instance = window.bootstrap.Collapse.getOrCreateInstance(sidebar, { toggle: false });
-        instance.toggle();
-      } else {
-        sidebar.classList.toggle("show");
-      }
+      document.body.classList.toggle("sidebar-collapsed");
     });
   }
 

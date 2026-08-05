@@ -69,6 +69,8 @@ crossref:
 format:
   html:
     theme: lumen
+    mainfont: -apple-system, Helvetica, Arial, sans-serif;
+    fontsize: 1.2rem
     css:
       - style.css
       - custom.css
