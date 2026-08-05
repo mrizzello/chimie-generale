@@ -22,7 +22,7 @@ Dans ce chapitre, nous allons explorer les concepts d'acides et de bases, leurs 
 | Brønsted-Lowry   |         donneur de H^+^          |         accepteur de H^+^         |
 | Lewis            |   accepteur d'une paire libre    |     donneur d'une paire libre     |
 
-Table: (\#tab:acides-bases-definitions) Définitions des acides et des bases.
+Table: Définitions des acides et des bases. {#tbl-acides-bases-definitions}
 
 \newpage
 
@@ -33,7 +33,7 @@ Table: (\#tab:acides-bases-definitions) Définitions des acides et des bases.
 | $\ce{BOH -> OH- + B+}$ |       $\ce{HCl}$ : acide       |             $\ce{BF3}$ : acide              |
 |          base          |       $\ce{NH3}$ : base        |              $\ce{NH3}$ : base              |
 
-Table: (\#tab:acides-bases-examples) Exemples d'acides et de bases correspondant à chaque définition.
+Table: Exemples d'acides et de bases correspondant à chaque définition. {#tbl-acides-bases-examples}
 
 ```{r, child=c('exe/acides-bases/05.Rmd')}
 ```
@@ -113,7 +113,7 @@ Dans le cas d'un acide fort, complètement dissocié, sa base conjuguée est dit
 
 De nombreuses bases faibles contiennent un atome d'azote puisque la paire libre peut agir comme un accepteur de proton.
 
-```{r acides-bases-3,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Exemple de base faible azotée."}
+```{r fig-acides-bases-3,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Exemple de base faible azotée."}
 knitr::include_graphics(c("images/acides-bases-3.png"))
 ```
 
@@ -126,7 +126,7 @@ knitr::include_graphics(c("images/acides-bases-3.png"))
 | diméthylamine |    $\ce{(CH3)2NH}$ |    $\ce{(CH3)2NH2^+}$ |    $\ce{(CH3)2NH2Cl}$ |
 | diéthylamine  | $\ce{(CH3CH2)2NH}$ | $\ce{(CH3CH2)2NH2^+}$ | $\ce{(CH3CH2)2NH2Cl}$ |
 
-Table: (\#tab:acides-bases-amines) Exemples de bases azotées faibles.
+Table: Exemples de bases azotées faibles. {#tbl-acides-bases-amines}
 
 ## Constante d'acidité K~a~ et constante de basicité K~b~
 

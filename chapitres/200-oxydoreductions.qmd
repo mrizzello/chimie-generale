@@ -56,7 +56,7 @@ Prenons par exemple les composés covalents suivants :
 |                                             |                                             |                  oxygène: -2                   |                                      |
 |                                             |                                             |                   soufre: +6                   |                                      |
 
-Table: (\#tab:tab-NO-examples) Exemples de nombres d'oxydation.
+Table: Exemples de nombres d'oxydation. {#tbl-tab-NO-examples}
 
 \newpage
 
@@ -72,7 +72,7 @@ L'application d'une série de règles simples permet d'attribuer les états d'ox
 | L'**oxygène** a généralement un NO de -2 dans ses composés   | toujours, sauf peroxydes (O^-^)             |    -2    |
 | Le **fluor** a généralement un NO de -1 dans ses composés    | toujours, sauf exception                    |    -1    |
 
-Table: (\#tab:tab-NO-rules) Règles pour l'attribution des nombres d'oxydation.
+Table: Règles pour l'attribution des nombres d'oxydation. {#tbl-tab-NO-rules}
 
 Un élément peut porter un nombre d'oxydation différent selon l'espèce chimique dans laquelle il se trouve. Vous trouverez dans le tableau périodique, les nombres d'oxydation courants pour un élément, avec en gras, les nombres d'oxydation les plus stables.
 
@@ -127,7 +127,7 @@ Le transfert d'électrons caractérise les réaction d'oxydoréduction, il y a d
 |    donne des éléctrons    |               |  accepte des éléctrons   |
 | état d'oxydation augmente |               | état d'oxydation diminue |
 
-Table: (\#tab:tab-NO-summary) Résumé des termes liés à l'oxydoréduction.
+Table: Résumé des termes liés à l'oxydoréduction. {#tbl-tab-NO-summary}
 
 Notez que lorsqu'on nomme l'oxydant ou le réducteur, c'est le composé entier qui est spécifié, et pas seulement l'élément qui subit le changement d'état d'oxydation.
 
@@ -208,7 +208,7 @@ $$
 
 Cette règle du gamma permet, dès lors que l’on dispose des espèces présentes avant réaction ainsi que leurs potentiels standards, de prévoir si la réaction va avoir lieu de manière spontanée.
 
-```{r gamma-rule,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Illustration de la règle du gamma."}
+```{r fig-gamma-rule,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Illustration de la règle du gamma."}
 knitr::include_graphics(c("images/gamma-rule.png"))
 ```
 

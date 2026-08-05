@@ -26,7 +26,7 @@ $$
 
 Des électrons sont transférés dans la réaction Zn/Cu^2+^, mais le système ne génère pas d'énergie électrique car l'oxydant (Cu^2+^) et le réducteur (Zn) se trouvent dans le même bécher. Cependant, si nous séparons physiquement les demi-réactions et les connectons par un circuit externe, les électrons perdus par le zinc produisent un courant électrique lorsqu'ils se déplacent dans le circuit vers les ions cuivre qui les gagnent.
 
-```{r pile-electrique-v2,echo=FALSE,out.width="90%",fig.show="hold",fig.align="center",fig.cap="Schéma simplifié d'une pile Cu/Zn"}
+```{r fig-pile-electrique-v2,echo=FALSE,out.width="90%",fig.show="hold",fig.align="center",fig.cap="Schéma simplifié d'une pile Cu/Zn"}
 knitr::include_graphics(c("images/pile-electrique-v2.png"))
 ```
 
@@ -36,7 +36,7 @@ knitr::include_graphics(c("images/pile-electrique-v2.png"))
 - Une pile est formée par deux demi-piles reliées par un pont salin.
 - Le pont salin permet le passage du courant entre les deux demi-piles en autorisant le déplacement d’ions entre les deux piles.
 
-```{r pile-electrique,echo=FALSE,out.width="90%",fig.show="hold",fig.align="center",fig.cap="Fonctionnement d’une pile Cu/Zn"}
+```{r fig-pile-electrique,echo=FALSE,out.width="90%",fig.show="hold",fig.align="center",fig.cap="Fonctionnement d’une pile Cu/Zn"}
 knitr::include_graphics(c("images/pile-electrique.png"))
 ```
 \newpage
@@ -116,7 +116,7 @@ $$
 \ce{2 H+(aq) + 2 e^- <=> H2(g)} \qquad E^0 = 0\ \text{ V}
 $$
 
-```{r ESH,echo=FALSE,out.width="25%",fig.show="hold",fig.align="center",fig.cap="Schéma de l'électrode standard à hydrogène."}
+```{r fig-ESH,echo=FALSE,out.width="25%",fig.show="hold",fig.align="center",fig.cap="Schéma de l'électrode standard à hydrogène."}
 knitr::include_graphics(c("images/ESH.png"))
 ```
 
@@ -236,7 +236,7 @@ On peut ainsi avoir accès à la valeur de la constante d'un équilibre rédox d
 
 Une pile électrochimique produit du courant lorsque la réaction d'oxydoréduction se produit **spontanément**. À l'inverse, une cellule **électrolytique**, utilise l'énergie électrique pour produire une transformation chimique. L'**électrolyse** consiste à forcer un courant à travers un système chimique pour produire une transformation **non spontanée**.
 
-```{r pile-recharge,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Pile électrique et cellule électrolytique."}
+```{r fig-pile-recharge,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Pile électrique et cellule électrolytique."}
 knitr::include_graphics(c("images/pile-recharge.png"))
 ```
 
@@ -259,7 +259,7 @@ Les principaux composants nécessaires pour réaliser une électrolyse :
 
 ### Exemples d'électrolyses de composés purs
 
-```{r electrolysis-water-NaCl,echo=FALSE,out.width="49%",fig.show="hold",fig.align="center",fig.cap="Schéma de l'électrolyse de l'eau pure et du chlorure de sodium fondu."}
+```{r fig-electrolysis-water-NaCl,echo=FALSE,out.width="49%",fig.show="hold",fig.align="center",fig.cap="Schéma de l'électrolyse de l'eau pure et du chlorure de sodium fondu."}
 knitr::include_graphics(c("images/electrolysis-water.png","images/electrolysis-NaCl.png"))
 ```
 
@@ -269,7 +269,7 @@ L’eau doit également contenir des ions qui la rendent conductrice, même si c
 
 Imaginons que nous faisions l'électrolyse d'une solution de chlorure de sodium dans l'eau. Cette solution serait donc le mélange des deux composés subissant l'électrolyse dans le chapitre précédent. Quelles sont les réactions d'oydoréduction qui vont avoir lieu dans ce système ?
 
-```{r electrolysis-water-NaCl-sol,echo=FALSE,out.width="65%",fig.show="hold",fig.align="center",fig.cap="Schéma de l'électrolyse d'une solution de chlorure de sodium."}
+```{r fig-electrolysis-water-NaCl-sol,echo=FALSE,out.width="65%",fig.show="hold",fig.align="center",fig.cap="Schéma de l'électrolyse d'une solution de chlorure de sodium."}
 knitr::include_graphics(c("images/electrolysis-NaCl-sol.png"))
 ```
 
@@ -295,7 +295,7 @@ Quelle que soit la combinaison de demi-réactions à l'anode et à la cathode, e
 
 **La réaction la plus probable est celle dont la différence de potentiel est la plus faible.** C'est celle qui va en premier lieu et spontanément consommer l'énergie fournie par la source d’électricité.
 
-```{r electrolysis-potentials,echo=FALSE,out.width="25%",fig.show="hold",fig.align="center",fig.cap="Différences de potentiels oxred."}
+```{r fig-electrolysis-potentials,echo=FALSE,out.width="25%",fig.show="hold",fig.align="center",fig.cap="Différences de potentiels oxred."}
 knitr::include_graphics(c("images/electrolysis-potentials.png"))
 ```
 

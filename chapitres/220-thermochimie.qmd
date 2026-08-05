@@ -232,7 +232,7 @@ $$
 | $\ce{Cl-Cl}$ |  243   | $\ce{O-H}$  |  467   | $\ce{O#N}$ |                                     891                                     |
 | $\ce{H-Cl}$  |  427   | $\ce{O-Cl}$ |  203   | $\ce{N#N}$ |                                     946                                     |
 
-Table: (\#tab:tab-energie-liaison) Énergies de liaison moyennes de liaisons communes
+Table: Énergies de liaison moyennes de liaisons communes {#tbl-tab-energie-liaison}
 
 - La rupture de liaisons, un processus qui absorbe de la chaleur, est endothermique.
 - La formation d'une liaison, un processus qui libère de la chaleur, est exothermique.
@@ -287,7 +287,7 @@ $$
 
 La valeur mesurée de la variation d'enthalpie pour la combustion d'une mole de méthane est de 891 kJ.
 
-Les énergies données dans la table \@ref(tab:tab-energie-liaison) sont des énergies moyennes et peuvent varier en fonction de l'environnement chimique dans lequel se trouve la liaison. Le $\Delta H$ calculé pour une réaction en utilisant les énergies de liaison moyennes peut différer légèrement de la valeur obtenue expérimentalement.
+Les énergies données dans la table @tbl-tab-energie-liaison sont des énergies moyennes et peuvent varier en fonction de l'environnement chimique dans lequel se trouve la liaison. Le $\Delta H$ calculé pour une réaction en utilisant les énergies de liaison moyennes peut différer légèrement de la valeur obtenue expérimentalement.
 
 $$
 \ce{CH4(g) + 2 O2(g) -> CO2(g) + 2 H2O(l)} \qquad \Delta H = -891\ \text{ kJ}
@@ -370,7 +370,7 @@ $$
 \end{split}
 $$
 
-```{r enthalpie-2,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Diagramme d'enthalpie de la combustion du méthane."}
+```{r fig-enthalpie-2,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Diagramme d'enthalpie de la combustion du méthane."}
 knitr::include_graphics(c("images/Enthalpie-2.png"))
 ```
 \newpage
@@ -421,7 +421,7 @@ $$
 \end{split}
 $$
 
-```{r enthalpie-3,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Diagramme d'enthalpie de la combustion du propane."}
+```{r fig-enthalpie-3,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Diagramme d'enthalpie de la combustion du propane."}
 knitr::include_graphics(c("images/Enthalpie-3.png"))
 ```
 

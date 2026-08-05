@@ -42,7 +42,7 @@ Cet exemple montre que le signe de $\Delta H$ seul ne permet pas de prédire la 
 | Le sodium métallique réagit avec l'eau pour former de l'hydroxyde de sodium et du dihydrogène. | L'hydroxyde de sodium réagit avec l'hydrogène pour produire du sodium métallique et de l'eau. |
 | La corrosion du fer à température ambiante.                                                    | La transformation de la rouille en fer métallique à température ambiante.                     |
 
-Table: (\#tab:spontane-non-spontane-exemples) Exemples de transformations spontanées et non spontanées.
+Table: Exemples de transformations spontanées et non spontanées. {#tbl-spontane-non-spontane-exemples}
 
 ## L'entropie (S)
 
@@ -73,7 +73,7 @@ Un courant d'air fait voler votre chateau de cartes par terre. Le processus est 
 
 \newpage
 
-```{r cards-castle,echo=FALSE,out.width="40%",fig.show="hold",fig.align="center",fig.cap="Deuxième loi de la thermodynamique"}
+```{r fig-cards-castle,echo=FALSE,out.width="40%",fig.show="hold",fig.align="center",fig.cap="Deuxième loi de la thermodynamique"}
 knitr::include_graphics(c("images/cards-castle.png"))
 ```
 
@@ -97,7 +97,7 @@ L'entropie d'une substance pure et parfaitement cristalline est nulle à 0 K.
 
 La troisième loi de la thermodynamique permet de déterminer l'entropie d'une substance à partir de données expérimentales. On transfère lentement de la chaleur à une substance qui se trouve à 0 K et on mesure sa température.
 
-```{r entropie-graph,echo=FALSE,out.width="90%",fig.show="hold",fig.align="center",fig.cap="Entropies du dihydrogène et du chlorométhane en fonction de la température."}
+```{r fig-entropie-graph,echo=FALSE,out.width="90%",fig.show="hold",fig.align="center",fig.cap="Entropies du dihydrogène et du chlorométhane en fonction de la température."}
 knitr::include_graphics(c("images/entropie-graph.png"))
 ```
 
@@ -181,7 +181,7 @@ Cette relation nous permet de prédire la spontanéité d'une réaction lorsqu'o
 | $\Delta G > 0$ | Réaction **non spontanée**   | **Réaction endergonique** |
 | $\Delta G = 0$ | Le système est à l'équilibre |                           |
 
-Table: (\#tab:spontaneitedHdS) Spontanéité d'une réaction selon le signe de $\Delta G$.
+Table: Spontanéité d'une réaction selon le signe de $\Delta G$. {#tbl-spontaneitedHdS}
 
 ```{r, child=c('exe/thermodynamique/55.Rmd')}
 ```
@@ -232,11 +232,11 @@ $$
 |  = 1  |   nul   |     nul      | Ni produits, ni réactifs sont favorisés |
 |  < 1  | négatif |   positif    | Les réactifs sont favorisés             |
 
-Table: (\#tab:spontaneiteDGK) Relation entre constante d'équilibre (K) et énergie libre standard de réaction ($\Delta G^o$).
+Table: Relation entre constante d'équilibre (K) et énergie libre standard de réaction ($\Delta G^o$). {#tbl-spontaneiteDGK}
 
 Selon cette équation, plus K est grand, plus $\Delta G^o$ est négatif. Cette équation permet de déterminer la constante d'équilibre d'une réaction si l'on connaît la variation de l'énergie libre standard, et vice versa.
 
-```{r dG-profile,echo=FALSE,out.width="100%",fig.show="hold",fig.align="center",fig.cap="Énergie libre standard et transformation spontanée"}
+```{r fig-dG-profile,echo=FALSE,out.width="100%",fig.show="hold",fig.align="center",fig.cap="Énergie libre standard et transformation spontanée"}
 knitr::include_graphics(c("images/dG-profile.png"))
 ```
 

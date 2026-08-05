@@ -39,7 +39,7 @@ Ensuite, à chaque valeur de NS correspond une géométrie de molécule.
 |  4  |       tétraèdre      |       109.5°       | ![](images/vsepr-3.png){width=4em} | ![](images/mol3D/CH4.png){width=6em} |
 |  5  | bipyramide trigonale |     120° et 90°    | ![](images/vsepr-4.png){width=4em} | ![](images/mol3D/PH5.png){width=6em} |
 
-Table: (\#tab:tab-vsepr) Géométries VSEPR.
+Table: Géométries VSEPR. {#tbl-tab-vsepr}
 
 Il existe des géométries pour des valeurs de NS supérieures à 5, mais elles ne sont pas représentées dans ce tableau.
 
@@ -57,7 +57,7 @@ La différence d'électronégativité entre les éléments chimiques qui compose
 
 Un dipôle peut se créer entre deux ions dans une liaison ionique ou entre des atomes dans une liaison covalente. Plus la différence d'électronégativité est grande, plus le moment dipolaire est important. La distance entre les charges et la géométrie de la molécule sont des facteurs qui influencent l'intensité du **moment dipolaire**. Le moment dipolaire est une mesure de la **polarité d'une molécule**.
 
-```{r dipole-0,echo=FALSE,out.width="60%",fig.show="hold",fig.align="center",fig.cap="Variation de l'intensité du dipôle"}
+```{r fig-dipole-0,echo=FALSE,out.width="60%",fig.show="hold",fig.align="center",fig.cap="Variation de l'intensité du dipôle"}
 knitr::include_graphics(c("images/dipole-0.png"))
 ```
 
@@ -67,7 +67,7 @@ La polarité a une influence sur la réactivité chimique des molécules mais é
 
 Mathématiquement, les moments dipolaires sont des vecteurs. Ils possèdent une intensité, une direction et un sens. Pour des molécules qui comportent plusieurs covalences polaires, on calcule le moment dipolaire net comme la somme vectorielle des moments dipolaires des différentes liaisons.
 
-```{r dipole-1,echo=FALSE,out.width="60%",fig.show="hold",fig.align="center",fig.cap="Dipôle résultant de l'addition des polarités des liaisons"}
+```{r fig-dipole-1,echo=FALSE,out.width="60%",fig.show="hold",fig.align="center",fig.cap="Dipôle résultant de l'addition des polarités des liaisons"}
 knitr::include_graphics(c("images/dipole-1.png"))
 ```
 
@@ -75,7 +75,7 @@ L'ammoniac ($NH_3$), l'eau ($H_2O$) et le fluorure d'hydrogène ($HF$) sont des 
 
 Les molécules polaires vont se comporter comme de petits aimants. Elles s'alignent les unes par rapport aux autres. L'extrémité négative d'une molécule attirant l'extrémité positive d'une autre molécule. De la même manière, les molécules polaires sont attirées par les ions. L'extrémité négative d'une molécule polaire sera attirée par un cation et l'extrémité positive sera attirée par un anion. Si elles sont placées dans un champs électrique, les molécules polaires vont s'orienter de manière préférentielle.
 
-```{r dipole-3,echo=FALSE,out.width="60%",fig.show="hold",fig.align="center",fig.cap="Comportement des molécules polaires"}
+```{r fig-dipole-3,echo=FALSE,out.width="60%",fig.show="hold",fig.align="center",fig.cap="Comportement des molécules polaires"}
 knitr::include_graphics(c("images/dipole-3.png"))
 ```
 
@@ -85,7 +85,7 @@ On dit des molécules qui ne contiennent pas de liaisons polaires qu'elles sont 
 
 Certaines molécules sont symétriques. La symétrie de ces molécules peut les rendre non polaires bien qu'elles contiennent des liaisons polaires. Les polarités de chaque liaison s'annulent à cause de la géométrie de la molécule.
 
-```{r dipole-4,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Molécules non polaires"}
+```{r fig-dipole-4,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Molécules non polaires"}
 knitr::include_graphics(c("images/dipole-4.png"))
 ```
 
@@ -106,7 +106,7 @@ Ce sont des forces d'attraction de **courte durée** dues au mouvement constant 
 
 Dans le cas d'une molécule non polaire, en moyenne dans le temps, les électrons sont répartis uniformément dans la molécule. Par contre, de manière instantanée, il peut y avoir plus d'électrons à une extrémité de la molécule qu'à l'autre. À cet instant, la molécule présente une polarité de courte durée. Les électrons des molécules voisines sont attirés par l'extrémité positive de la molécule polarisée, ce qui entraîne une polarisation de la molécule voisine et la création d'une force d'attraction. Toutes les molécules subissent des forces de dispersion de London.
 
-```{r forces-london,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Apparition des forces de dispersion"}
+```{r fig-forces-london,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Apparition des forces de dispersion"}
 knitr::include_graphics(c("images/forces-london.png"))
 ```
 
@@ -116,7 +116,7 @@ Ce sont les forces d'attraction entre les pôles positifs et négatifs des molé
 
 Les molécules polaires présentent un moment dipolaire net **permanent**. Les extrémités positives et négatives de différentes molécules sont attirées l'une vers l'autre par ce que l'on appelle une interaction dipôle-dipôle.
 
-```{r dipole-dipole,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Molécules polaires et interaction dipôle-dipôle."}
+```{r fig-dipole-dipole,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Molécules polaires et interaction dipôle-dipôle."}
 knitr::include_graphics(c("images/dipole-dipole.png"))
 ```
 
@@ -126,13 +126,13 @@ C'est la force d'attraction entre un atome d'hydrogène lié à un atome électr
 
 La liaison hydrogène est un type particulier d'interaction dipôle-dipôle. Les liaisons O-H, N-H et F-H sont très polaires. Il en résulte des attractions remarquablement fortes. L'eau, en particulier, est capable de former un vaste réseau tridimensionnel de liaisons hydrogène car chaque molécule possède deux hydrogènes et un atome électronégatif voisin.
 
-```{r eau-liaison-hydrogene,echo=FALSE,out.width="25%",fig.show="hold",fig.align="center",fig.cap="La liaison hydrogène entre les molécules d'eau"}
+```{r fig-eau-liaison-hydrogene,echo=FALSE,out.width="25%",fig.show="hold",fig.align="center",fig.cap="La liaison hydrogène entre les molécules d'eau"}
 knitr::include_graphics(c("images/ice-0.png", "images/ice-tetra.png", "images/ice.png"))
 ```
 
 Les forces intermoléculaires influencent les propriétés d'une substance par leurs interactions entre molécules. Mais ces mêmes forces peuvent également agir entre différentes parties d'une même molécule. Ces interactions peuvent par exemple influencer la forme de macro-molécules biologiques comme les protéines et les acides nucléiques.
 
-```{r dna,echo=FALSE,out.width="100%",fig.show="hold",fig.align="center",fig.cap="Paires de bases, liaisons hydrogène et ADN."}
+```{r fig-dna,echo=FALSE,out.width="100%",fig.show="hold",fig.align="center",fig.cap="Paires de bases, liaisons hydrogène et ADN."}
 knitr::include_graphics(c("images/dna.png"))
 ```
 
@@ -144,11 +144,11 @@ knitr::include_graphics(c("images/dna.png"))
 | Interactions dipôle-dipôle | faible (14 kJ/mol)    | entre molécules polaires          |
 | Forces de dispersion       | faible (2–10 kJ/mol)  | entre toutes molécules            |
 
-Table: (#tab:comparatif-intermoleculaires) Comparatif des forces intermoléculaires.
+Table: Comparatif des forces intermoléculaires. {#tbl-comparatif-intermoleculaires}
 
 \newpage
 
-```{r forces-intermoleculaires-resume,echo=FALSE,out.width="100%",fig.show="hold",fig.align="center",fig.cap="Résumé des forces intermoléculaires"}
+```{r fig-forces-intermoleculaires-resume,echo=FALSE,out.width="100%",fig.show="hold",fig.align="center",fig.cap="Résumé des forces intermoléculaires"}
 knitr::include_graphics(c("images/forces-intermoleculaires-resume.png"))
 ```
 

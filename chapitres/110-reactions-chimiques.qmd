@@ -22,7 +22,7 @@ Dans toute réaction chimique, les substances d'origine sont appelées **les ré
 
 $$ \text{Réactifs} \longrightarrow \text{Produits} $$
 
-```{r reactions-1,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Exemple de réaction"}
+```{r fig-reactions-1,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Exemple de réaction"}
 knitr::include_graphics(c("images/reactions-1.png"))
 ```
 Pour savoir si une réaction chimique a eu lieu il faut qu'une ou plusieurs substances aient subi un changement de composition. La preuve d'un changement ne peut être fournie que par une analyse chimique des produits. Cependant, certains changements physiques observables permettent généralement d'indiquer si une réaction chimique a eu lieu.
@@ -54,7 +54,7 @@ Pour qu'une réaction chimique ait lieu:
 
 La collision entre les réactifs (atomes, ions ou molécules) fournit l'énergie nécessaire pour briser des liaisons et pour en former des nouvelles.
 
-```{r collision,echo=FALSE,out.width="80%",fig.show="hold",fig.align="center",fig.cap="Orientation des collisions lors d'une réaction"}
+```{r fig-collision,echo=FALSE,out.width="80%",fig.show="hold",fig.align="center",fig.cap="Orientation des collisions lors d'une réaction"}
 knitr::include_graphics(c("images/collision.png"))
 ```
 
@@ -222,7 +222,7 @@ Une fois que les réactifs sont transformés en produits, il est impossible de r
 
 Une réaction exothermique est une réaction qui **libère** de la chaleur.
 
-```{r chaleur-1,echo=FALSE,out.width="33%",fig.show="hold",fig.align="center",fig.cap="Profil énergétique d'une réaction exothermique"}
+```{r fig-chaleur-1,echo=FALSE,out.width="33%",fig.show="hold",fig.align="center",fig.cap="Profil énergétique d'une réaction exothermique"}
 knitr::include_graphics(c("images/chaleur-1.png"))
 ```
 
@@ -230,7 +230,7 @@ knitr::include_graphics(c("images/chaleur-1.png"))
 
 Une réaction endothermique est une réaction qui **absorbe** de la chaleur.
 
-```{r chaleur-2,echo=FALSE,out.width="33%",fig.show="hold",fig.align="center",fig.cap="Profil énergétique d'une réaction endothermique"}
+```{r fig-chaleur-2,echo=FALSE,out.width="33%",fig.show="hold",fig.align="center",fig.cap="Profil énergétique d'une réaction endothermique"}
 knitr::include_graphics(c("images/chaleur-2.png"))
 ```
 
@@ -240,7 +240,7 @@ knitr::include_graphics(c("images/chaleur-2.png"))
 
 ### Les catalyseurs
 
-```{r catalyseur,echo=FALSE,out.width="33%",fig.show="hold",fig.align="center",fig.cap="Profil énergétique d'une réaction avec catalyseur"}
+```{r fig-catalyseur,echo=FALSE,out.width="33%",fig.show="hold",fig.align="center",fig.cap="Profil énergétique d'une réaction avec catalyseur"}
  knitr::include_graphics(c("images/catalyseur.png"))
 ```
 

@@ -94,7 +94,7 @@ Un système de mesure universel, le Système International (SI) a été adopté 
 | la **candela**    | cd      | unité d’intensité lumineuse                |
 | la **mole**       | mol     | unité de quantité de matière               |
 
-Table: (\#tab:tab-SIunits) Unités de base du Système International.
+Table: Unités de base du Système International. {#tbl-tab-SIunits}
 
 ```{r, child=c('exe/introduction/15.Rmd')}
 ```
@@ -160,7 +160,7 @@ $$ \begin{split}
 | $10^{-15}$ |    femto   |      f     | $10^{15}$ |    péta    |      P     |
 | $10^{-18}$ |    atto    |      a     | $10^{18}$ |     exa    |      E     |
 
-Table: (\#tab:tab-SImultiples) Multiples et sous-multiples décimaux des unités du système international (SI).
+Table: Multiples et sous-multiples décimaux des unités du système international (SI). {#tbl-tab-SImultiples}
 
 ```{r, child=c('exe/introduction/30.Rmd')}
 ```
