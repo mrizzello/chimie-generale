@@ -14,7 +14,7 @@
   var FONT_CLASSES = ["reader-font-serif", "reader-font-sans"];
   var THEME_CLASSES = ["reader-theme-white", "reader-theme-sepia", "reader-theme-night"];
 
-  var defaultSettings = { size: 3, spacing: 2, font: "serif", theme: "white" };
+  var defaultSettings = { size: 3, spacing: 2, font: "sans", theme: "white" };
 
   function loadSettings() {
     try {

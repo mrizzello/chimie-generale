@@ -1,5 +1,75 @@
 /* Surcharge du thème Quarto/Bootswatch — voir aussi custom.js pour le comportement */
 
+/* --- Palette et typographie alignées sur le site bookdown/gitbook (chimiegenerale.ch) --- */
+:root,
+[data-bs-theme="light"] {
+  --bs-body-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --bs-body-font-size: 14px;
+  --bs-body-color: #000000;
+  --bs-link-color: #4183c4;
+  --bs-link-hover-color: #345a7a;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000000;
+}
+
+main.content a,
+.page-navigation a {
+  color: #4183c4 !important;
+  text-decoration: none;
+}
+main.content a:hover {
+  color: #345a7a !important;
+}
+
+/* Colonne de contenu centrée, largeur gitbook classique */
+#quarto-content .content {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#quarto-content h1,
+#quarto-content h2,
+#quarto-content h3,
+#quarto-content h4 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222222;
+  font-weight: 700;
+}
+
+/* Sidebar dockée façon gitbook : fond très clair, texte gris ardoise, lien actif bleu */
+#quarto-sidebar,
+.sidebar-navigation {
+  background-color: #fafafa;
+  color: #364149;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+#quarto-sidebar .sidebar-item-text,
+#quarto-sidebar a.sidebar-link,
+#quarto-sidebar a.sidebar-item-text {
+  color: #364149;
+  font-size: 14px;
+}
+#quarto-sidebar a.sidebar-link.active,
+#quarto-sidebar .sidebar-item a.active {
+  color: #008cff;
+  font-weight: 400;
+}
+.sidebar-title {
+  background-color: #fafafa;
+  border-bottom: 1px solid #ebebeb;
+}
+
+/* Navbar neutre (blanc, icônes grises) plutôt que l'accent coloré du thème Bootswatch */
+.navbar {
+  border-bottom: 1px solid #ebebeb;
+}
+
 /* --- Recherche : masquée par défaut dans la sidebar, affichée via le bouton navbar --- */
 .sidebar-search {
   display: none;
