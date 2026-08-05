@@ -285,6 +285,7 @@ La configuration électronique du niveau de plus basse énergie est appelée **�
 \newpage
 
 ```{r fig-energy-level-5,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Les orbitales atomiques et le tableau périodique."}
+#| layout-ncol: 2
 knitr::include_graphics(c("images/energy-level-5.png","images/tpe-orbitals.png"))
 ```
 

@@ -9,3 +9,9 @@ rsconnect
 chimie-generale.log
 chimie-generale.toc
 chimie-generale_files
+
+/.quarto/
+**/*.quarto_ipynb
+/chimie-generale.tex
+/chimie-generale.log
+/site_libs/

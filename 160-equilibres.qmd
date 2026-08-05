@@ -42,6 +42,7 @@ $$
 $$
 
 ```{r fig-equilibres-concentrations-1,echo=FALSE,out.width="33%",fig.show="hold",fig.align="center",fig.cap="Profiles de la concentration en fonction du temps de la réaction directe et indirecte"}
+#| layout-ncol: 2
 knitr::include_graphics(c("images/equilibres-concentrations-1a.png","images/equilibres-concentrations-1b.png"))
 ```
 
@@ -50,6 +51,7 @@ Le terme équilibre est généralement employé pour décrire un état sans chan
 À l'échelle macroscopique, on ne voit pas de changement alors qu'à l'échelle sub-microscopique les réactions directes et indirectes continuent d'avoir lieu. **Les vitesses directe et indirecte sont non-nulles et égales**.
 
 ```{r fig-equilibres-vitesses-1,echo=FALSE,out.width="33%",fig.show="hold",fig.align="center",fig.cap="Profiles de la vitesse de réaction en fonction du temps de la réaction directe et indirecte"}
+#| layout-ncol: 2
 knitr::include_graphics(c("images/equilibres-vitesses-1a.png","images/equilibres-vitesses-1b.png"))
 ```
 
@@ -235,6 +237,7 @@ Selon le principe de Le Châtelier :
 - L'ajout d'un produit ou l'élimination d'un réactif entraîne un déplacement de l'équilibre vers la gauche.
 
 ```{r fig-equilibres-concentrations-2,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Effet de l'ajout/élimination de réactifs ou de produits sur le sens de la réaction"}
+#| layout-ncol: 2
 knitr::include_graphics(c("images/equilibres-concentrations-2a.png","images/equilibres-concentrations-2b.png"))
 ```
 

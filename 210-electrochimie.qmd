@@ -260,6 +260,7 @@ Les principaux composants nécessaires pour réaliser une électrolyse :
 ### Exemples d'électrolyses de composés purs
 
 ```{r fig-electrolysis-water-NaCl,echo=FALSE,out.width="49%",fig.show="hold",fig.align="center",fig.cap="Schéma de l'électrolyse de l'eau pure et du chlorure de sodium fondu."}
+#| layout-ncol: 2
 knitr::include_graphics(c("images/electrolysis-water.png","images/electrolysis-NaCl.png"))
 ```
 

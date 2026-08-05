@@ -127,6 +127,7 @@ C'est la force d'attraction entre un atome d'hydrogène lié à un atome électr
 La liaison hydrogène est un type particulier d'interaction dipôle-dipôle. Les liaisons O-H, N-H et F-H sont très polaires. Il en résulte des attractions remarquablement fortes. L'eau, en particulier, est capable de former un vaste réseau tridimensionnel de liaisons hydrogène car chaque molécule possède deux hydrogènes et un atome électronégatif voisin.
 
 ```{r fig-eau-liaison-hydrogene,echo=FALSE,out.width="25%",fig.show="hold",fig.align="center",fig.cap="La liaison hydrogène entre les molécules d'eau"}
+#| layout-ncol: 3
 knitr::include_graphics(c("images/ice-0.png", "images/ice-tetra.png", "images/ice.png"))
 ```
 
