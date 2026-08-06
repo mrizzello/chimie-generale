@@ -70,11 +70,9 @@ Combustion, oxydation, fermentation, photosynthèse, décomposition, neutralisat
 
 Les transformations chimiques sont ce que nous appellerons plus tard des **réactions chimiques**.
 
-```{r, child=c('exe/introduction/10.Rmd')}
-```
+{{< include exe/introduction/10.qmd >}}
 
-```{r, child=c('exe/introduction/12.Rmd')}
-```
+{{< include exe/introduction/12.qmd >}}
 
 \newpage
 
@@ -96,8 +94,7 @@ Un système de mesure universel, le Système International (SI) a été adopté 
 
 Table: Unités de base du Système International. {#tbl-tab-SIunits}
 
-```{r, child=c('exe/introduction/15.Rmd')}
-```
+{{< include exe/introduction/15.qmd >}}
 
 \newpage
 
@@ -142,8 +139,7 @@ $$ \begin{split}
 	\frac{10^a}{10^b} = 10^{(a-b)}
 \end{split} $$
 
-```{r, child=c('exe/introduction/20.Rmd')}
-```
+{{< include exe/introduction/20.qmd >}}
 
 \newpage
 
@@ -162,8 +158,7 @@ $$ \begin{split}
 
 Table: Multiples et sous-multiples décimaux des unités du système international (SI). {#tbl-tab-SImultiples}
 
-```{r, child=c('exe/introduction/30.Rmd')}
-```
+{{< include exe/introduction/30.qmd >}}
 
 \newpage
 
@@ -200,8 +195,7 @@ $$ \begin{split}
 	(\text{2 déc.}) \quad (\text{1 déc.}) & \qquad\qquad (\text{1 déc.})
 \end{split} $$
 
-```{r, child=c('exe/introduction/35.Rmd')}
-```
+{{< include exe/introduction/35.qmd >}}
 
 \newpage
 
@@ -214,46 +208,35 @@ $$ \begin{split}
 
 ## Exercices supplémentaires
 
-```{r, child=c('exe/introduction/40.Rmd')}
-```
+{{< include exe/introduction/40.qmd >}}
 
-```{r, child=c('exe/introduction/50.Rmd')}
-```
+{{< include exe/introduction/50.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/introduction/60.Rmd')}
-```
+{{< include exe/introduction/60.qmd >}}
 
-```{r, child=c('exe/introduction/70.Rmd')}
-```
+{{< include exe/introduction/70.qmd >}}
 
-```{r, child=c('exe/introduction/80.Rmd')}
-```
+{{< include exe/introduction/80.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/introduction/90.Rmd')}
-```
+{{< include exe/introduction/90.qmd >}}
 
-```{r, child=c('exe/introduction/100.Rmd')}
-```
+{{< include exe/introduction/100.qmd >}}
 
-```{r, child=c('exe/introduction/110.Rmd')}
-```
+{{< include exe/introduction/110.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/introduction/120.Rmd')}
-```
+{{< include exe/introduction/120.qmd >}}
 
-```{r, child=c('exe/introduction/140.Rmd')}
-```
+{{< include exe/introduction/140.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/introduction/130.Rmd')}
-```
+{{< include exe/introduction/130.qmd >}}
 
 \newpage
 

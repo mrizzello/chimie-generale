@@ -26,9 +26,7 @@ $$
 
 Des électrons sont transférés dans la réaction Zn/Cu^2+^, mais le système ne génère pas d'énergie électrique car l'oxydant (Cu^2+^) et le réducteur (Zn) se trouvent dans le même bécher. Cependant, si nous séparons physiquement les demi-réactions et les connectons par un circuit externe, les électrons perdus par le zinc produisent un courant électrique lorsqu'ils se déplacent dans le circuit vers les ions cuivre qui les gagnent.
 
-```{r fig-pile-electrique-v2,echo=FALSE,out.width="90%",fig.show="hold",fig.align="center",fig.cap="Schéma simplifié d'une pile Cu/Zn"}
-knitr::include_graphics(c("images/pile-electrique-v2.png"))
-```
+![Schéma simplifié d'une pile Cu/Zn](images/pile-electrique-v2.png){#fig-pile-electrique-v2 width="90%"}
 
 ### Constitution d’une pile
 
@@ -36,9 +34,7 @@ knitr::include_graphics(c("images/pile-electrique-v2.png"))
 - Une pile est formée par deux demi-piles reliées par un pont salin.
 - Le pont salin permet le passage du courant entre les deux demi-piles en autorisant le déplacement d’ions entre les deux piles.
 
-```{r fig-pile-electrique,echo=FALSE,out.width="90%",fig.show="hold",fig.align="center",fig.cap="Fonctionnement d’une pile Cu/Zn"}
-knitr::include_graphics(c("images/pile-electrique.png"))
-```
+![Fonctionnement d’une pile Cu/Zn](images/pile-electrique.png){#fig-pile-electrique width="90%"}
 \newpage
 
 ### Fonctionnement d’une pile
@@ -116,9 +112,7 @@ $$
 \ce{2 H+(aq) + 2 e^- <=> H2(g)} \qquad E^0 = 0\ \text{ V}
 $$
 
-```{r fig-ESH,echo=FALSE,out.width="25%",fig.show="hold",fig.align="center",fig.cap="Schéma de l'électrode standard à hydrogène."}
-knitr::include_graphics(c("images/ESH.png"))
-```
+![Schéma de l'électrode standard à hydrogène.](images/ESH.png){#fig-ESH width="25%"}
 
 Dans les conditions standards, avec une pression de H~2~ de 1 atm et une concentration de la solution acide de 1 M, le potentiel de réduction de H^+^ à 25°C (E^0^)est défini comme étant exactement égal à 0 V. L'exposant ^0^ désigne les conditions à l'état standard et E^0^ sera nommé **potentiel standard de réduction**.
 
@@ -136,8 +130,7 @@ $$
 
 On peut ainsi regrouper dans une table les valeurs de potentiel qui correspondent aux demi-réactions de réduction les plus courantes (**table des potentiels standards de réduction**).
 
-```{r, child=c('exe/electrochimie/05.Rmd')}
-```
+{{< include exe/electrochimie/05.qmd >}}
 
 ### Potentiel électrochimique ou force électromotrice (fem)
 
@@ -158,14 +151,11 @@ $$
 \end{split}
 $$
 
-```{r, child=c('exe/electrochimie/10.Rmd')}
-```
+{{< include exe/electrochimie/10.qmd >}}
 
-```{r, child=c('exe/electrochimie/20.Rmd')}
-```
+{{< include exe/electrochimie/20.qmd >}}
 
-```{r, child=c('exe/electrochimie/30.Rmd')}
-```
+{{< include exe/electrochimie/30.qmd >}}
 
 \newpage
 
@@ -178,9 +168,7 @@ La plupart des mesures et calculs faisant intervenir des piles ont lieu dans des
 - augmente si on augmente la concentration d'un réactif et
 - diminue si on augmente la concentration d'un produit.
 
-```{r nernst-illustration,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center"}
-knitr::include_graphics(c("images/nernst-illustration.png"))
-```
+![](images/nernst-illustration.png){width="50%"}
 
 |              | $|\ce{Cu^{2+}}|$ | $|\ce{Zn^{2+}}|$ |                            |
 | -----------: | ---------------: | ---------------: | -------------------------: |
@@ -210,8 +198,7 @@ avec :
 
 \newpage
 
-```{r, child=c('exe/electrochimie/50.Rmd')}
-```
+{{< include exe/electrochimie/50.qmd >}}
 
 La différence de potentiel de la pile devient nulle lorsque l'équilibre est atteint. La réaction s'arrête et la pile est complètement déchargée. À ce moment, la valeur du quotient réactionnel ($Q$) est égale à la valeur de la constante d'équilibre ($K_c$). On a alors :
 
@@ -236,9 +223,7 @@ On peut ainsi avoir accès à la valeur de la constante d'un équilibre rédox d
 
 Une pile électrochimique produit du courant lorsque la réaction d'oxydoréduction se produit **spontanément**. À l'inverse, une cellule **électrolytique**, utilise l'énergie électrique pour produire une transformation chimique. L'**électrolyse** consiste à forcer un courant à travers un système chimique pour produire une transformation **non spontanée**.
 
-```{r fig-pile-recharge,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Pile électrique et cellule électrolytique."}
-knitr::include_graphics(c("images/pile-recharge.png"))
-```
+![Pile électrique et cellule électrolytique.](images/pile-recharge.png){#fig-pile-recharge width="67%"}
 
 Une source d'énergie externe force les électrons à traverser la pile dans la direction opposée qui a lieu lors de la décharge d'une pile. Cela nécessite un potentiel externe supérieur au voltage founis par la pile électrochimique. Le flux d'électrons étant opposé dans les deux cas, l'anode et la cathode sont inversées. De même, le flux des ions à travers le pont salin est opposé dans les deux systèmes.
 
@@ -259,10 +244,13 @@ Les principaux composants nécessaires pour réaliser une électrolyse :
 
 ### Exemples d'électrolyses de composés purs
 
-```{r fig-electrolysis-water-NaCl,echo=FALSE,out.width="49%",fig.show="hold",fig.align="center",fig.cap="Schéma de l'électrolyse de l'eau pure et du chlorure de sodium fondu."}
-#| layout-ncol: 2
-knitr::include_graphics(c("images/electrolysis-water.png","images/electrolysis-NaCl.png"))
-```
+::: {#fig-electrolysis-water-NaCl layout-ncol=2}
+![](images/electrolysis-water.png)
+
+![](images/electrolysis-NaCl.png)
+
+Schéma de l'électrolyse de l'eau pure et du chlorure de sodium fondu.
+:::
 
 L’eau doit également contenir des ions qui la rendent conductrice, même si ces ions ne participent pas aux réactions aux électrodes.
 
@@ -270,9 +258,7 @@ L’eau doit également contenir des ions qui la rendent conductrice, même si c
 
 Imaginons que nous faisions l'électrolyse d'une solution de chlorure de sodium dans l'eau. Cette solution serait donc le mélange des deux composés subissant l'électrolyse dans le chapitre précédent. Quelles sont les réactions d'oydoréduction qui vont avoir lieu dans ce système ?
 
-```{r fig-electrolysis-water-NaCl-sol,echo=FALSE,out.width="65%",fig.show="hold",fig.align="center",fig.cap="Schéma de l'électrolyse d'une solution de chlorure de sodium."}
-knitr::include_graphics(c("images/electrolysis-NaCl-sol.png"))
-```
+![Schéma de l'électrolyse d'une solution de chlorure de sodium.](images/electrolysis-NaCl-sol.png){#fig-electrolysis-water-NaCl-sol width="65%"}
 
 Le milieu réactionnel de ce système est composé d'eau (H~2~O), de cations sodium (Na^+^) et de chlorures (Cl^-^). Quatre demi-réactions sont possibles, deux à l'anode et deux à la cathode.
 
@@ -296,9 +282,7 @@ Quelle que soit la combinaison de demi-réactions à l'anode et à la cathode, e
 
 **La réaction la plus probable est celle dont la différence de potentiel est la plus faible.** C'est celle qui va en premier lieu et spontanément consommer l'énergie fournie par la source d’électricité.
 
-```{r fig-electrolysis-potentials,echo=FALSE,out.width="25%",fig.show="hold",fig.align="center",fig.cap="Différences de potentiels oxred."}
-knitr::include_graphics(c("images/electrolysis-potentials.png"))
-```
+![Différences de potentiels oxred.](images/electrolysis-potentials.png){#fig-electrolysis-potentials width="25%"}
 
 De manière théorique, la réaction d’électrolyse favorisée est celle qui réduit l'eau (E^0^ = - 0.83 V) et qui oxyde l'eau (E^0^ = 1.23 V).
 
@@ -319,8 +303,7 @@ $$
 
 \newpage
 
-```{r, child=c('exe/electrochimie/60.Rmd')}
-```
+{{< include exe/electrochimie/60.qmd >}}
 
 ### Loi de Faraday
 
@@ -345,8 +328,7 @@ $$
 
 \newpage
 
-```{r, child=c('exe/electrochimie/40.Rmd')}
-```
+{{< include exe/electrochimie/40.qmd >}}
 
 ## Résumé
 
@@ -360,11 +342,9 @@ $$
 
 ## Exercices supplémentaires
 
-```{r, child=c('exe/electrochimie/70.Rmd')}
-```
+{{< include exe/electrochimie/70.qmd >}}
 
-```{r, child=c('exe/electrochimie/80.Rmd')}
-```
+{{< include exe/electrochimie/80.qmd >}}
 
 \newpage
 

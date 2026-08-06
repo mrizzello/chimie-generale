@@ -35,8 +35,7 @@ Table: Définitions des acides et des bases. {#tbl-acides-bases-definitions}
 
 Table: Exemples d'acides et de bases correspondant à chaque définition. {#tbl-acides-bases-examples}
 
-```{r, child=c('exe/acides-bases/05.Rmd')}
-```
+{{< include exe/acides-bases/05.qmd >}}
 
 ## Couples acide-base
 
@@ -53,12 +52,10 @@ $$
 - $\ce{HCl}$ est l'**acide** et $\ce{Cl-}$ est sa **base conjuguée**.
 - $\ce{NH3}$ est la **base** et $\ce{NH4+}$ est son **acide conjugué**.
 
-```{r, child=c('exe/acides-bases/10.Rmd')}
-```
+{{< include exe/acides-bases/10.qmd >}}
 \newpage
 
-```{r, child=c('exe/acides-bases/20.Rmd')}
-```
+{{< include exe/acides-bases/20.qmd >}}
 
 ## Les ampholytes
 
@@ -76,11 +73,9 @@ $$
 \ce{H2O_{(l)} + NH3_{(aq)} <=> OH^{-}_{(aq)} + NH4^{+}_{(aq)}}
 $$
 
-```{r, child=c('exe/acides-bases/30.Rmd')}
-```
+{{< include exe/acides-bases/30.qmd >}}
 
-```{r, child=c('exe/acides-bases/40.Rmd')}
-```
+{{< include exe/acides-bases/40.qmd >}}
 
 \newpage
 
@@ -113,9 +108,7 @@ Dans le cas d'un acide fort, complètement dissocié, sa base conjuguée est dit
 
 De nombreuses bases faibles contiennent un atome d'azote puisque la paire libre peut agir comme un accepteur de proton.
 
-```{r fig-acides-bases-3,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Exemple de base faible azotée."}
-knitr::include_graphics(c("images/acides-bases-3.png"))
-```
+![Exemple de base faible azotée.](images/acides-bases-3.png){#fig-acides-bases-3 width="50%"}
 
 | Nom           |              Amine |       Forme protonnée |        Exemple de sel |
 | :------------ | -----------------: | --------------------: | --------------------: |
@@ -166,21 +159,16 @@ Plus la constante est **petite**, plus l'équilibre est déplacé vers la **gauc
 
 Les valeurs numériques des constantes d'acidité (K~a~) et de basicité (K~b~) pour de nombreux acides et bases courants sont généralement compilées et présentées dans des tables de données de référence.
 
-```{r, child=c('exe/acides-bases/60.Rmd')}
-```
+{{< include exe/acides-bases/60.qmd >}}
 
 \newpage
 
-<!--```{r, child=c('exe/acides-bases/50.Rmd')}
-```-->
+<!--{{< include exe/acides-bases/50.qmd >}}-->
 
-```{r, child=c('exe/acides-bases/70.Rmd')}
-```
+{{< include exe/acides-bases/70.qmd >}}
 
-```{r, child=c('exe/acides-bases/80.Rmd')}
-```
-<!--```{r, child=c('exe/acides-bases/90.Rmd')}
-```-->
+{{< include exe/acides-bases/80.qmd >}}
+<!--{{< include exe/acides-bases/90.qmd >}}-->
 
 ## Autoprotolyse de l'eau
 
@@ -212,16 +200,13 @@ En résumé :
 | Dans une solution acide   |   \|$\ce{H3O+}$\| > \|$\ce{OH-}$\|            |
 | Dans une solution basique |   \|$\ce{H3O+}$\| < \|$\ce{OH-}$\|            |
 
-```{r, child=c('exe/acides-bases/100.Rmd')}
-```
+{{< include exe/acides-bases/100.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/acides-bases/110.Rmd')}
-```
+{{< include exe/acides-bases/110.qmd >}}
 
-```{r, child=c('exe/acides-bases/120.Rmd')}
-```
+{{< include exe/acides-bases/120.qmd >}}
 
 \newpage
 
@@ -235,16 +220,13 @@ En résumé :
 
 ## Exercices supplémentaires
 
-```{r, child=c('exe/acides-bases/105.Rmd')}
-```
+{{< include exe/acides-bases/105.qmd >}}
 
-```{r, child=c('exe/acides-bases/115.Rmd')}
-```
+{{< include exe/acides-bases/115.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/acides-bases/125.Rmd')}
-```
+{{< include exe/acides-bases/125.qmd >}}
 
 ```{r, echo=FALSE}
 if (knitr::is_latex_output()) {

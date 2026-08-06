@@ -25,9 +25,7 @@ La théorie cinétique des gaz est un groupe d'hypothèses qui expliquent le com
 
 \newpage
 
-```{r fig-theorie-cinetique,echo=FALSE,out.width="20%",fig.show="hold",fig.align="center",fig.cap="Illustration du modèle de la théorie cinétique des gaz"}
-knitr::include_graphics(c("images/theorie-cinetique.png"))
-```
+![Illustration du modèle de la théorie cinétique des gaz](images/theorie-cinetique.png){#fig-theorie-cinetique width="20%"}
 
 Un gaz qui obéit à toutes les hypothèses de la théorie cinétique est appelé gaz parfait (ou idéal). Dans la pratique, il n'existe pas de gaz parfaitement idéal. Dans le cas de pressions très élevées, ou à des températures très basses,  ces hypothèses ne sont plus vérifiées. Cependant, en règle générale, la plupart des gaz réels présentent un comportement presque idéal dans des conditions normales.
 
@@ -45,8 +43,7 @@ Puisque la température et la pression varient d'un endroit à l'autre sur la pl
 | Conditions **Normales** de Température et Pression  | 273.15 K     |      $10^{5}$ Pa      |
 | Conditions **Ambiantes** de Température et Pression | 298.15 K     |        $1$ bar        |
 
-```{r, child=c('exe/gaz-parfaits/05.Rmd')}
-```
+{{< include exe/gaz-parfaits/05.qmd >}}
 
 \newpage
 
@@ -80,11 +77,9 @@ $$
 \frac{P_1 \cdot V_1}{T_1} = \frac{P_2 \cdot V_2}{T_2} \qquad \text{(loi générale des gaz)}
 $$
 
-```{r, child=c('exe/gaz-parfaits/10.Rmd')}
-```
+{{< include exe/gaz-parfaits/10.qmd >}}
 
-```{r, child=c('exe/gaz-parfaits/20.Rmd')}
-```
+{{< include exe/gaz-parfaits/20.qmd >}}
 
 \newpage
 
@@ -104,8 +99,7 @@ $$
 
 Avec cette relation, nous pouvons convertir le volume d'un gaz en quantité de matière en connaissant la pression et le température. Le volume, la pression et la température d'un gaz sont plus faciles à mesurer que la masse, et la masse molaire du gaz n'intervient pas.
 
-```{r, child=c('exe/gaz-parfaits/30.Rmd')}
-```
+{{< include exe/gaz-parfaits/30.qmd >}}
 
 \newpage
 
@@ -150,8 +144,7 @@ $$
 760 \ \mathrm{mmHg}
 $$
 
-```{r, child=c('exe/gaz-parfaits/25.Rmd')}
-```
+{{< include exe/gaz-parfaits/25.qmd >}}
 
 ## La loi des pressions partielles
 
@@ -200,8 +193,7 @@ P_T = P_A + P_B
 \end{split}
 $$
 
-```{r, child=c('exe/gaz-parfaits/70.Rmd')}
-```
+{{< include exe/gaz-parfaits/70.qmd >}}
 
 \newpage
 
@@ -216,30 +208,23 @@ $$
 
 ## Exercices supplémentaires
 
-```{r, child=c('exe/gaz-parfaits/40.Rmd')}
-```
+{{< include exe/gaz-parfaits/40.qmd >}}
 
-```{r, child=c('exe/gaz-parfaits/50.Rmd')}
-```
+{{< include exe/gaz-parfaits/50.qmd >}}
 
-```{r, child=c('exe/gaz-parfaits/60.Rmd')}
-```
+{{< include exe/gaz-parfaits/60.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/gaz-parfaits/80.Rmd')}
-```
+{{< include exe/gaz-parfaits/80.qmd >}}
 
-```{r, child=c('exe/gaz-parfaits/90.Rmd')}
-```
+{{< include exe/gaz-parfaits/90.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/gaz-parfaits/100.Rmd')}
-```
+{{< include exe/gaz-parfaits/100.qmd >}}
 
-```{r, child=c('exe/gaz-parfaits/110.Rmd')}
-```
+{{< include exe/gaz-parfaits/110.qmd >}}
 
 \newpage
 

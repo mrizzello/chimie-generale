@@ -34,9 +34,7 @@ Chaque case du tableau représente un élément différent et contient au moins 
 - le numéro atomique de l'élément
 - la masse atomique de l'élément
 
-```{r fig-tpe-case,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Une case du tableau périodique"}
-knitr::include_graphics(c("images/tpe-case.png"))
-```
+![Une case du tableau périodique](images/tpe-case.png){#fig-tpe-case width="67%"}
 
 Le tableau périodique contient souvent des informations supplémentaires sur les éléments, il peut contenir des couleurs différentes ou il peut être écrit dans différentes langues, mais la structure de base du tableau reste la même.
 
@@ -60,14 +58,11 @@ Les éléments B, Si, Ge, As, Sb, Te, Po et At sont appelés **métalloïdes**. 
 
 Le reste des éléments, à droite des métalloïdes, sont appelés **non-métaux**. Les non-métaux ont des propriétés qui sont souvent opposées à celles des métaux. Certains sont des gaz, ils sont de mauvais conducteurs de la chaleur et de l'électricité, ils ne sont ni malléables, ni ductiles.
 
-```{r fig-tpe-empty,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Le vocabulaire du tableau périodique"}
-knitr::include_graphics(c("images/tpe-empty.png"))
-```
+![Le vocabulaire du tableau périodique](images/tpe-empty.png){#fig-tpe-empty width="45%"}
 
 \newpage
 
-```{r, child=c('exe/tableau-periodique/05.Rmd')}
-```
+{{< include exe/tableau-periodique/05.qmd >}}
 
 ### Les périodes
 
@@ -97,8 +92,7 @@ Table: Noms de quelques groupes couramment employés. {#tbl-noms-groupes-courant
 
 Les **éléments de transition internes** ont été décalés dans le tableau périodique afin de rendre ce dernier plus compact.
 
-```{r, child=c('exe/tableau-periodique/08.Rmd')}
-```
+{{< include exe/tableau-periodique/08.qmd >}}
 
 ## Interactions rayonnement-matière
 
@@ -114,9 +108,7 @@ Les ondes qui vont nous intéresser pour décrire les électrons sont les **onde
 
 Si on dessine un faisceau lumineux sous la forme d'une onde, nous appellerons **longueur d'onde**, la distance entre deux crêtes (ou entre deux creux ou entre deux positions identiques sur l'onde). Si on considère que cette onde se déplace de gauche à droite et si on compte le nombre de crêtes qui passent par un point particulier chaque seconde, on obtient la **fréquence**.
 
-```{r fig-ondes-electromagnetiques,echo=FALSE,out.width="75%",fig.show="hold",fig.align="center",fig.cap="Longueur d'onde, fréquence et énergie"}
-knitr::include_graphics(c("images/ondes-electromagnetiques.png"))
-```
+![Longueur d'onde, fréquence et énergie](images/ondes-electromagnetiques.png){#fig-ondes-electromagnetiques width="75%"}
 
 La longuer d'onde est exprimée en nanomètre, nm, pour les ondes lumineuses. La fréquence est exprimée en Hertz, Hz, le nombre de cycles par seconde. Longueur d'onde et fréquence sont inversément proportionnelles. Plus la longueur d'onde est élevée, plus la fréquence est basse. Plus la longueur d'onde est petite, plus la fréquence est élevée.
 
@@ -142,8 +134,7 @@ c & \text{ : vitesse de la lumière, } 3 \cdot 10^{8}\ \text{ m}\cdot\text{s}^{-
 \end{split}
 $$
 
-```{r, child=c('exe/tableau-periodique/12.Rmd')}
-```
+{{< include exe/tableau-periodique/12.qmd >}}
 
 \newpage
 
@@ -153,9 +144,7 @@ L'analyse du rayonnement émis ou absorbé par la matière s'appelle la **spectr
 
 Le spectre électromagnétique regroupe l'ensemble de toutes les ondes électromagnétiques en fonction de leur longueur d'onde et de leur fréquence.
 
-```{r fig-domaine-spectre-electromagnetique,echo=FALSE,out.width="95%",fig.show="hold",fig.align="center",fig.cap="Domaines du spectre électromagnétique."}
-knitr::include_graphics(c("images/domaine-spectre-electromagnetique.png"))
-```
+![Domaines du spectre électromagnétique.](images/domaine-spectre-electromagnetique.png){#fig-domaine-spectre-electromagnetique width="95%"}
 
 ::: {.credit data-latex=""}
 crédit : wikimedia/Benjamin ABEL
@@ -183,15 +172,12 @@ Des ondes électromagnétiques peuvent être absorbées par un électron augment
 
 Un électron qui se trouve dans un état d'énergie supérieure à celle de l'état fondamental va avoir tendance à évoluer vers un état d'énergie plus faible avec l'émission d'une onde électromagnétique. L'électron va donc perdre de l'énergie en éjectant un photon qui possède exactement la différence d'énergie entre les deux états.
 
-```{r fig-absorption-emission,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Différence entre spectres d'absorption et d'émission"}
-knitr::include_graphics(c("images/absorption-emission.png"))
-```
+![Différence entre spectres d'absorption et d'émission](images/absorption-emission.png){#fig-absorption-emission width="50%"}
 
 L'électron absorbe de l'énergie tout en restant au sein de l'atome et finira
 toujours par la réémettre sous forme d'une onde électromagnétique. La mesure de ces quantités de lumière émises ou absorbées forment le principe de base de la spectroscopie.
 
-```{r, child=c('exe/tableau-periodique/15.Rmd')}
-```
+{{< include exe/tableau-periodique/15.qmd >}}
 
 \newpage
 
@@ -220,9 +206,7 @@ Selon ce modèle, les électrons d'un atome gravitent autour de l'atome à des n
 
 Dans une couche les électrons sont distribués en **sous-couches** d'énergie légèrement différentes. On note les sous-couches avec les lettres s, p, d, f et chacune représente une forme d'orbitale différente.
 
-```{r fig-orb-3d,echo=FALSE,out.width="90%",fig.show="hold",fig.align="center",fig.cap="Formes des orbitales s, p et d."}
-knitr::include_graphics(c("images/orb-3d.jpeg"))
-```
+![Formes des orbitales s, p et d.](images/orb-3d.jpeg){#fig-orb-3d width="90%"}
 
 ::: {.credit data-latex=""}
 crédit : wikimedia/haade
@@ -236,27 +220,22 @@ La manière dont les électrons sont répartis dans les différentes orbitales p
 
 On utilise ce diagramme pour prédire les liaisons qui se produisent entre deux atomes et pour montrer pourquoi certains éléments se comportent de la même façon.
 
-```{r fig-energy-level,echo=FALSE,out.width="40%",fig.show="hold",fig.align="center",fig.cap="Diagramme énergétique des orbitales atomiques."}
-knitr::include_graphics(c("images/energy-level.png"))
-```
+![Diagramme énergétique des orbitales atomiques.](images/energy-level.png){#fig-energy-level width="40%"}
 
 ### Déterminer une configuration électronique
 
-```{r fig-energy-level-order,echo=FALSE,out.width="25%",fig.show="hold",fig.align="center",fig.cap="Ordre de remplissage des orbitales."}
-knitr::include_graphics(c("images/energy-level-order.png"))
-```
+![Ordre de remplissage des orbitales.](images/energy-level-order.png){#fig-energy-level-order width="25%"}
 
 En connaissant le nombre d'électrons contenus dans un atome, on peut remplir ce diagramme en respectant certaines règles:
 
 - Les électrons sont placés dans la sous-couche disponible de plus basse énergie.
 - On peut placer au maximum 2 électrons dans une orbitale (exclusion de Pauli).
-- La figure @fig-energy-level-order donne l'ordre de remplissage des orbitales (principe Aufbau).
+- La @fig-energy-level-order donne l'ordre de remplissage des orbitales (principe Aufbau).
 - Si plusieurs orbitales de même énergie sont disponibles, on remplit le plus d'orbitales possibles avant d'apparier les électrons.
 
 Une fois le diagramme rempli, on en déduit la configuration électronique de l'atome pour le niveau de plus basse énergie. La **configuration électronique** d'un atome est une notation abrégée de la répartition des électrons dans les différentes couches et sous-couches électroniques.
 
-```{r, child=c('exe/tableau-periodique/10.Rmd')}
-```
+{{< include exe/tableau-periodique/10.qmd >}}
 
 Pour simplifier la notation de la configuration électronique, on indique que les électrons de la dernière couche électronique. On remplace les autres couches par le symbole du gaz rare le plus proche entre crochets.  Par exemple, la structure électronique du chlore (Cl) :
 
@@ -277,17 +256,19 @@ $$ \underbrace{1s^{2}~2s^{2}~2p^{6}}_{\text{Néon}}~3s^{2}~3p^{5} \text{ devient
 
 Table: Configuration électronique des deux premières périodes. {#tbl-conf-elec-premieres-periodes}
 
-```{r, child=c('exe/tableau-periodique/18.Rmd')}
-```
+{{< include exe/tableau-periodique/18.qmd >}}
 
 La configuration électronique du niveau de plus basse énergie est appelée **état fondamental**. Les configurations dont la distribution des électrons est différente de l'état fondamental sont appelées **états excités**.
 
 \newpage
 
-```{r fig-energy-level-5,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Les orbitales atomiques et le tableau périodique."}
-#| layout-ncol: 2
-knitr::include_graphics(c("images/energy-level-5.png","images/tpe-orbitals.png"))
-```
+::: {#fig-energy-level-5 layout-ncol=2}
+![](images/energy-level-5.png)
+
+![](images/tpe-orbitals.png)
+
+Les orbitales atomiques et le tableau périodique.
+:::
 
 ## Les électrons de valence
 
@@ -300,12 +281,9 @@ Les électrons de valence sont les électrons de la dernière couche électroniq
 
 Lorsqu'un chimiste étudie une réaction, il étudie les électrons transféré entre les acteurs de la réaction. Les électrons dont le niveau d'énergie est le plus éloigné du noyau seront retenus de manière moins forte. Ce sont donc ces électrons qui seront impliqués dans les réactions.
 
-```{r fig-configuration-electronique,echo=FALSE,out.width="100%",fig.show="hold",fig.align="center",fig.cap="Répartition électronique des trois premières périodes."}
-knitr::include_graphics(c("images/configuration-electronique.png"))
-```
+![Répartition électronique des trois premières périodes.](images/configuration-electronique.png){#fig-configuration-electronique width="100%"}
 
-```{r, child=c('exe/tableau-periodique/25.Rmd')}
-```
+{{< include exe/tableau-periodique/25.qmd >}}
 
 \newpage
 
@@ -324,8 +302,7 @@ On utilise les règles suivantes pour dessiner la structure de Lewis d'un atome:
 
 Table: Structure de Lewis des éléments du groupe principal (c = célibataire, p = paire). {#tbl-structure-lewis-groupe-principal}
 
-```{r, child=c('exe/tableau-periodique/20.Rmd')}
-```
+{{< include exe/tableau-periodique/20.qmd >}}
 
 ::: {.Jeu data-latex=""}
 
@@ -391,8 +368,7 @@ $$ \begin{split}
 
 L'anion chlore est isoélectronique avec l'argon.
 
-```{r, child=c('exe/tableau-periodique/30.Rmd')}
-```
+{{< include exe/tableau-periodique/30.qmd >}}
 
 ### Les ions stables - groupe A
 
@@ -402,8 +378,7 @@ La règle de l'octet nous indique qu'un atome avec huit électrons dans sa couch
 
 Dans le tableau périodique, les chiffres romains des groupes A indiquent le nombre d'électrons de valence de chaque élément. On peut utiliser la position d'un élément dans le tableau pour déterminer quel sera l'ion stable formé par cet élément.
 
-```{r, child=c('exe/tableau-periodique/40.Rmd')}
-```
+{{< include exe/tableau-periodique/40.qmd >}}
 
 ### Les ions des éléments de transition - groupe B
 
@@ -428,42 +403,32 @@ Les éléments de transition ne respectent pas la règle de l'octet, mais une au
 
 ## Exercices supplémentaires
 
-```{r, child=c('exe/tableau-periodique/50.Rmd')}
-```
+{{< include exe/tableau-periodique/50.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/tableau-periodique/60.Rmd')}
-```
+{{< include exe/tableau-periodique/60.qmd >}}
 
-```{r, child=c('exe/tableau-periodique/70.Rmd')}
-```
+{{< include exe/tableau-periodique/70.qmd >}}
 
-```{r, child=c('exe/tableau-periodique/80.Rmd')}
-```
+{{< include exe/tableau-periodique/80.qmd >}}
 
-```{r, child=c('exe/tableau-periodique/90.Rmd')}
-```
+{{< include exe/tableau-periodique/90.qmd >}}
 \newpage
 
-```{r, child=c('exe/tableau-periodique/100.Rmd')}
-```
+{{< include exe/tableau-periodique/100.qmd >}}
 
-```{r, child=c('exe/tableau-periodique/110.Rmd')}
-```
+{{< include exe/tableau-periodique/110.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/tableau-periodique/120.Rmd')}
-```
+{{< include exe/tableau-periodique/120.qmd >}}
 
-```{r, child=c('exe/tableau-periodique/130.Rmd')}
-```
+{{< include exe/tableau-periodique/130.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/tableau-periodique/140.Rmd')}
-```
+{{< include exe/tableau-periodique/140.qmd >}}
 
 ```{r, echo=FALSE}
 if (knitr::is_latex_output()) {

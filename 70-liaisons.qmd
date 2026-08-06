@@ -61,8 +61,7 @@ $$ \begin{split}
   \text{Masse de 1 mol de $CH_4$} &= 16.04 \text{ g}
   \end{split} $$
 
-```{r, child=c('exe/liaisons/15.Rmd')}
-```
+{{< include exe/liaisons/15.qmd >}}
 
 ### La formule développée
 
@@ -70,9 +69,7 @@ La formule brute ne permet pas d'indiquer comment les atomes sont reliés entre 
 
 **La formule développée** identifie l'emplacement des atomes ainsi que leurs liaisons au sein d'une molécule. On utilise la représentation de Lewis pour dessiner les atomes des différents éléments qui sont reliés par des lignes qui représentent les liaisons chimiques.
 
-```{r fig-methanol-formulas,echo=FALSE,out.width="100%",fig.show='hold',fig.align='center',fig.cap="La molécule de méthanol."}
-knitr::include_graphics(c("images/methanol-formulas.png"))
-```
+![La molécule de méthanol.](images/methanol-formulas.png){#fig-methanol-formulas width="100%"}
 
 ## Les liaisons chimiques
 
@@ -86,8 +83,7 @@ On divise les liaisons chimiques en trois familles différentes:
 -  la **liaison covalente**
 -  la **liaison métallique**
 
-```{r, child=c('exe/liaisons/05.Rmd')}
-```
+{{< include exe/liaisons/05.qmd >}}
 
 \newpage
 
@@ -106,14 +102,11 @@ Les liaisons sont rarement purement ioniques ou purement covalentes, dans la plu
 
 En se basant sur la différence d'électronégativité ($\Delta$E) entre deux atomes on peut connaître le type de liaison que vont former ces deux atomes.
 
-```{r fig-deltaE,echo=FALSE,out.width="85%",fig.show="hold",fig.align="center",fig.cap="Intervalles de $\\Delta$E pour déterminer le type de liaison"}
-knitr::include_graphics(c("images/deltaE.png"))
-```
+![Intervalles de $\Delta$E pour déterminer le type de liaison](images/deltaE.png){#fig-deltaE width="85%"}
 
 **L'électronégativité de chaque élément est indiquée dans votre tableau périodique des éléments.**
 
-```{r, child=c('exe/liaisons/08.Rmd')}
-```
+{{< include exe/liaisons/08.qmd >}}
 
 ### La liaison ionique | métal - non-métal
 
@@ -131,9 +124,7 @@ La liaison ionique est le résultat du transfert d'un ou plusieurs électrons de
 
 Le sodium et le chlore ont tous les deux un intérêt à former une liaison. L'atome de sodium va perdre un électron qui sera récupéré par l'atome de chlore. Ils compléteront tous les deux leur couche de valence avec huit électrons.
 
-```{r fig-NaCl-diagram,echo=FALSE,out.width="60%",fig.show="hold",fig.align="center",fig.cap="Liaison ionique entre chlore et sodium"}
-knitr::include_graphics(c("images/NaCl-diagram.png"))
-```
+![Liaison ionique entre chlore et sodium](images/NaCl-diagram.png){#fig-NaCl-diagram width="60%"}
 
 Deux atomes de sodium réagiront de la même manière avec deux atomes de chlore formant deux molécules de chlorure de sodium. Trois atomes de sodium réagiront avec trois atomes de chlore formant trois molécules de chlorure de sodium, et ainsi de suite... Si l'on fait réagir une mole d'atomes de sodium avec une mole d'atomes de chlore, nous obtiendront une mole de molécules de chlorure de sodium.
 
@@ -141,19 +132,19 @@ Un échantillon de chlorure de sodium ($NaCl$) est constitué d'un très grand n
 
 \newpage
 
-```{r fig-CaF2-diagram,echo=FALSE,out.width="60%",fig.show="hold",fig.align="center",fig.cap="Liaison ionique entre calcium et fluor"}
-knitr::include_graphics(c("images/CaF2-diagram.png"))
-```
+![Liaison ionique entre calcium et fluor](images/CaF2-diagram.png){#fig-CaF2-diagram width="60%"}
 
 Le nombre relatif de cations et d'anions n'est pas toujours le même. Prenons par exemple le fluorure de calcium, $CaF_2$. Il y a deux fois plus d'anions $F^-$ que de cations $Ca^{2+}$, on écrira donc la formule brute $CaF_2$.
 
-```{r fig-NaClCaF2,echo=FALSE,out.width="25%",,fig.show='hold',fig.align='center',fig.cap="Réseaux ioniques formés par $NaCl$ et $CaF_2$."}
-#| layout-ncol: 2
-knitr::include_graphics(c("images/NaCl-crystal.png","images/CaF2-crystal.png"))
-```
+::: {#fig-NaClCaF2 layout-ncol=2}
+![](images/NaCl-crystal.png)
 
-```{r, child=c('exe/liaisons/20.Rmd')}
-```
+![](images/CaF2-crystal.png)
+
+Réseaux ioniques formés par $NaCl$ et $CaF_2$.
+:::
+
+{{< include exe/liaisons/20.qmd >}}
 
 \newpage
 
@@ -168,8 +159,7 @@ knitr::include_graphics(c("images/NaCl-crystal.png","images/CaF2-crystal.png"))
 | :---------------------------------------------: | :----------------------------------------------: | :---------------------------------------------: |
 | ![](images/dessin-ioniques-NaCl.png){width=9em} | ![](images/dessin-ioniques-MgBr2.png){width=9em} | ![](images/dessin-ioniques-AlF3.png){width=9em} |
 
-```{r, child=c('exe/liaisons/70.Rmd')}
-```
+{{< include exe/liaisons/70.qmd >}}
 
 \newpage
 
@@ -186,9 +176,7 @@ Considérons deux atomes d'hydrogène qui s'approchent l'un de l'autre. Tous les
 
 Dans cette situation, les électrons de liaison sont **partagés**. C'est une **liaison covalente** qui maintient les atomes ensemble.
 
-```{r fig-H2-bond,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Formation de $H_2$"}
-knitr::include_graphics(c("images/H2-bond.png"))
-```
+![Formation de $H_2$](images/H2-bond.png){#fig-H2-bond width="50%"}
 
 - Au point 1, les atomes sont éloignés. La distance est trop grande pour que les forces d'attraction et de répulsion puissent agir.
 - Au point 2, la distance entre les atomes est suffisante pour que chaque noyau commence à attirer l'électron de l'autre atome. Ces attractions augmentent quand la distance diminue et abaissent l'énergie du système.
@@ -203,9 +191,7 @@ La formation d'une liaison covalente se traduit par une plus grande densité él
 
 Dans de nombreuses molécules, pour atteindre un octet complet, les atomes vont partager plus d'une paire d'électrons célibataires. Une liaison covalente peut être **simple**, **double** ou **triple**, selon le nombre de paires d'électrons partagés.
 
-```{r fig-liaisons-multiples,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Exemples de liaisons covalentes simples, doubles et triples"}
-knitr::include_graphics(c("images/liaisons-multiples.png"))
-```
+![Exemples de liaisons covalentes simples, doubles et triples](images/liaisons-multiples.png){#fig-liaisons-multiples width="67%"}
 \newpage
 
 #### Dessiner les liaisons covalentes des composés binaires
@@ -221,8 +207,7 @@ knitr::include_graphics(c("images/liaisons-multiples.png"))
 | :--------------------------------------------: | :--------------------------------------------: | :--------------------------------------------: |
 | ![](images/dessin-covalentes-H2O.png){width=9em} | ![](images/dessin-covalentes-NH3.png){width=9em} | ![](images/dessin-covalentes-CH4.png){width=9em} |
 
-```{r, child=c('exe/liaisons/30.Rmd')}
-```
+{{< include exe/liaisons/30.qmd >}}
 
 ### La covalence de coordination
 
@@ -242,9 +227,7 @@ $$ \underset{\text{covalence de coordination}}{A | \quad + \quad B \quad \longri
 
 Par exemple, l'acide hypochloreux est constitué de liaisons covalentes normales. Les trois autres acides utilisent les doublets de l'atome de chlore pour former des covalences de coordinations.
 
-```{r fig-covalences-coordination,echo=FALSE,out.width="85%",fig.show="hold",fig.align="center",fig.cap="Exemples de covalences de coordination."}
- knitr::include_graphics(c("images/covalences-coordination.png"))
-```
+![Exemples de covalences de coordination.](images/covalences-coordination.png){#fig-covalences-coordination width="85%"}
 
 On dessinera les covalence de coordination en déplaçant le doublet sur l'atome qui le reçoit et en remplaçant le trait de liaison par une flèche.
 
@@ -260,8 +243,7 @@ Les ions $Na^+$, $Mg^{2+}$ ou $Cl^–$ sont **monoatomique**, ce qui signifie qu
 Quand un ion polyatomique est présent plusieurs fois dans une molécule, on l'indique dans la formule brute par des parenthèses et un indice comme dans les exemples : $Ca(OH)_2$, $Ba(NO_3)_2$, $Ca(HCO_3)_2$.
 
 
-```{r, child=c('exe/molecules/30.Rmd')}
-```
+{{< include exe/molecules/30.qmd >}}
 
 ::: {.Jeu data-latex=""}
 
@@ -278,8 +260,7 @@ Quand un ion polyatomique est présent plusieurs fois dans une molécule, on l'i
     - Dessiner ensuite les oxygènes restants.
 - Dessiner les covalences ou électrovalences selon les différences d'électronégativité.
 
-```{r, child=c('exe/molecules/20.Rmd')}
-```
+{{< include exe/molecules/20.qmd >}}
 
 \newpage
 
@@ -292,9 +273,7 @@ Liaison chimique dans laquelle les électrons mobiles sont partagés entre plusi
 
 :::
 
-```{r fig-metallic-bonding,echo=FALSE,out.width="40%",fig.show="hold",fig.align="center",fig.cap="Modèle de la liaison métallique"}
- knitr::include_graphics(c("images/metallic-bonding.png"))
-```
+![Modèle de la liaison métallique](images/metallic-bonding.png){#fig-metallic-bonding width="40%"}
 
 Les métaux ne réagissent pas vraiment avec d'autres métaux pour former des composés. Les métaux se combinent pour former des **alliages**, c'est-à-dire un **mélange homogène** d'un métal dans un autre.
 
@@ -338,76 +317,57 @@ Table: Exemples d'alliages communs. {#tbl-exemples-alliages-communs}
 
 ## Exercices supplémentaires
 
-```{r, child=c('exe/liaisons/10.Rmd')}
-```
+{{< include exe/liaisons/10.qmd >}}
 
-```{r, child=c('exe/liaisons/40.Rmd')}
-```
+{{< include exe/liaisons/40.qmd >}}
 
-```{r, child=c('exe/liaisons/50.Rmd')}
-```
+{{< include exe/liaisons/50.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/liaisons/60.Rmd')}
-```
+{{< include exe/liaisons/60.qmd >}}
 
-```{r, child=c('exe/liaisons/80.Rmd')}
-```
+{{< include exe/liaisons/80.qmd >}}
 
-```{r, child=c('exe/liaisons/90.Rmd')}
-```
+{{< include exe/liaisons/90.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/molecules/40.Rmd')}
-```
+{{< include exe/molecules/40.qmd >}}
 
-```{r, child=c('exe/molecules/50.Rmd')}
-```
+{{< include exe/molecules/50.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/molecules/60.Rmd')}
-```
+{{< include exe/molecules/60.qmd >}}
 
-```{r, child=c('exe/molecules/80.Rmd')}
-```
+{{< include exe/molecules/80.qmd >}}
 
-```{r, child=c('exe/molecules/70.Rmd')}
-```
+{{< include exe/molecules/70.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/molecules/90.Rmd')}
-```
+{{< include exe/molecules/90.qmd >}}
 
-```{r, child=c('exe/molecules/100.Rmd')}
-```
+{{< include exe/molecules/100.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/molecules/110.Rmd')}
-```
+{{< include exe/molecules/110.qmd >}}
 
-```{r, child=c('exe/molecules/120.Rmd')}
-```
+{{< include exe/molecules/120.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/liaisons/100.Rmd')}
-```
+{{< include exe/liaisons/100.qmd >}}
 
-```{r, child=c('exe/liaisons/110.Rmd')}
-```
+{{< include exe/liaisons/110.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/liaisons/120.Rmd')}
-```
+{{< include exe/liaisons/120.qmd >}}
 
-```{r, child=c('exe/liaisons/130.Rmd')}
-```
+{{< include exe/liaisons/130.qmd >}}
 
 ```{r, echo=FALSE}
 if (knitr::is_latex_output()) {

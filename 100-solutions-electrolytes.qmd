@@ -51,8 +51,7 @@ Le soluté n'est pas forcément solide et le solvant n'est pas forcément liquid
 
 Table: Types de solution selon les différents états de la matière. {#tbl-types-solution-etats-matiere}
 
-```{r, child=c('exe/solutions-electrolytes/05.Rmd')}
-```
+{{< include exe/solutions-electrolytes/05.qmd >}}
 
 ### La dissolution
 
@@ -78,10 +77,13 @@ Lorsque ce cristal est placé dans l'eau, des **ponts hydrogène** se forment en
 Un grain de sel de cuisine (chlorure de sodium, NaCl) est un petit cristal formé de ions Na^+^ et Cl^-^ liés par des **liaisons ioniques**.
 Lorsque ce cristal est placé dans l'eau, les liaisons ioniques sont rompues et les ions se retrouvent isolés dans la solution. Chaque ion est entouré de molécules d'eau. On dit qu'il est **hydraté**.
 
-```{r fig-ionique-moleculaire,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Dissolution de composés moléculaire et ionique"}
-#| layout-ncol: 2
-knitr::include_graphics(c("images/dissolution-1.png", "images/dissolution-2.png"))
-```
+::: {#fig-ionique-moleculaire layout-ncol=2}
+![](images/dissolution-1.png)
+
+![](images/dissolution-2.png)
+
+Dissolution de composés moléculaire et ionique
+:::
 
 #### Les facteurs influençant la dissolution
 
@@ -90,8 +92,7 @@ knitr::include_graphics(c("images/dissolution-1.png", "images/dissolution-2.png"
 - la nature du solvant (qui se ressemble se dissout),
 - la température.
 
-```{r, child=c('exe/solutions-electrolytes/25.Rmd')}
-```
+{{< include exe/solutions-electrolytes/25.qmd >}}
 
 ### La solubilité et la saturation
 
@@ -111,12 +112,9 @@ Cela veut dire que l'on peut dissoudre **au maximum** 36 grammes de NaCl dans 10
 
 Sous certaines conditions, la limite de solubilité peut être dépassée et plus de soluté peut être dissous. Une telle solution sera appelée **solution sursaturée**. Les solutions sursaturées ne sont pas stables. L'ajout d'un **germe cristallin**, un petit cristal de soluté, entraînera la cristallisation de l'excès de soluté.
 
-```{r fig-solubilite-saturation,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Solubilité et saturation"}
-knitr::include_graphics(c("images/solution.png"))
-```
+![Solubilité et saturation](images/solution.png){#fig-solubilite-saturation width="67%"}
 
-```{r, child=c('exe/solutions-electrolytes/15.Rmd')}
-```
+{{< include exe/solutions-electrolytes/15.qmd >}}
 
 ### La cristallisation
 
@@ -143,9 +141,7 @@ Lorsqu'un composé ionique est plongé dans l'eau, les molécules d'eau, polaire
 
 L'eau diminue drastiquement l'attraction entre anions et cations. Les molécules d’eau qui entourent les ions écartent ces derniers les uns des autres. Le cristal s'effondre et les ions, indépendants les uns des autres, sont dispersés dans la solution.
 
-```{r fig-dissociation,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Dissociation d'un composé ionique"}
-knitr::include_graphics(c("images/dissociation.png"))
-```
+![Dissociation d'un composé ionique](images/dissociation.png){#fig-dissociation width="50%"}
 
 **Une solution est électriquement neutre : le nombre de charges positives est égal au nombre de charges négatives.**  
 
@@ -175,8 +171,7 @@ $$ \begin{split}
 
 Pour déterminer si un composé est soluble ou non, on se réfère à une table de solubilité. Cette table nous indique la solubilité de certains composés pour une température. Pour un composé non soluble, on ajoutera une flèche vers le bas à côté du composé dans l'équation de dissociation.
 
-```{r, child=c('exe/solutions-electrolytes/10.Rmd')}
-```
+{{< include exe/solutions-electrolytes/10.qmd >}}
 
 A noter:
 
@@ -190,10 +185,15 @@ A noter:
 
 Expérimentalement, on remarque qu'une solution d'eau pure ne conduit que très peu le courant électrique. Si l'on dissout du chlorure de sodium (NaCl) dans l'eau, la solution devient conductrice alors que si l'on dissout du sucre (saccharose), la conductivité de l'eau ne change pas.
 
-```{r fig-conduction-solutions,echo=FALSE,out.width="25%",fig.show="hold",fig.align="center",fig.cap="Conduction électrique des solutions (eau pure, solution de NaCl, solution de saccharose)"}
-#| layout-ncol: 3
-knitr::include_graphics(c("images/electrolyte-1.png","images/electrolyte-2.png","images/electrolyte-3.png"))
-```
+::: {#fig-conduction-solutions layout-ncol=3}
+![](images/electrolyte-1.png)
+
+![](images/electrolyte-2.png)
+
+![](images/electrolyte-3.png)
+
+Conduction électrique des solutions (eau pure, solution de NaCl, solution de saccharose)
+:::
 
 -  L'eau n'est pas conductrice. La conductivité de l'eau provient des substances dissoutes dans l'eau, pas de l'eau elle-même.
 -  Les substances qui se dissolvent dans l'eau ne rendent pas toutes la solution conductrice.
@@ -205,9 +205,7 @@ Un électrolyte est une substance qui se dissocie en ions en solution et forme u
 
 :::
 
-```{r fig-electrolyte-2b,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Conductivité des solutions ioniques"}
-knitr::include_graphics(c("images/electrolyte-2b.png"))
-```
+![Conductivité des solutions ioniques](images/electrolyte-2b.png){#fig-electrolyte-2b width="50%"}
 
 Lorsque l'on impose une tension aux bornes d'une solution ionique, les ions se mettent en mouvement. Parce que les ions portent une charge électrique d'une électrode à l'autre, on obtient un courant électrique appelé **courant ionique**. La solution ionique devient alors conductrice. Un tel composé est appelé **électrolyte**.
 
@@ -217,12 +215,9 @@ Le courant électrique dans la solution est dû au déplacement des cations dans
 
 \newpage
 
-```{r, child=c('exe/solutions-electrolytes/20.Rmd')}
-```
+{{< include exe/solutions-electrolytes/20.qmd >}}
 
-```{r fig-dissociation-resume,echo=FALSE,out.width="100%",fig.show="hold",fig.align="center",fig.cap="Résumé dissolution-dissociation"}
-knitr::include_graphics(c("images/dissociation-resume.png"))
-```
+![Résumé dissolution-dissociation](images/dissociation-resume.png){#fig-dissociation-resume width="100%"}
 
 ## La concentration
 
@@ -259,8 +254,7 @@ En chimie, la concentration molaire d'une espèce A est notée entre deux barres
 
 $$ |H_2SO_4| = 0.5\ M \text{ ou } \text{ mol/l} $$
 
-```{r, child=c('exe/solutions-electrolytes/30.Rmd')}
-```
+{{< include exe/solutions-electrolytes/30.qmd >}}
 
 \newpage
 
@@ -296,9 +290,7 @@ $$
 
 ### Préparation des solutions
 
-```{r fig-fiole,echo=FALSE,out.width="20%",fig.show="hold",fig.align="center",fig.cap="Fioles jaugées"}
-knitr::include_graphics(c("images/fiole.png"))
-```
+![Fioles jaugées](images/fiole.png){#fig-fiole width="20%"}
 
 Beaucoup des réactifs utilisés en chimie sont sous forme de solution. Ces solutions doivent être achetées ou préparées. Pour de nombreuses applications, la concentration de la solution et sa méthode de préparation doivent être aussi précises que possible.
 
@@ -316,9 +308,7 @@ Pour préparer une solution en laboratoire, généralement, le volume et la conc
 
 On peut préparer une solution par **dissolution**, c'est-à-dire en dissolvant le soluté dans le solvant. Les étapes sont les suivantes:
 
-```{r fig-preparation-1,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Préparation d'une solution par dissolution"}
-knitr::include_graphics(c("images/preparation-1.png"))
-```
+![Préparation d'une solution par dissolution](images/preparation-1.png){#fig-preparation-1 width="50%"}
 
 - Peser le soluté.
 - Remplir la fiole jaugée à moitié avec de l'eau distillée.
@@ -329,9 +319,7 @@ knitr::include_graphics(c("images/preparation-1.png"))
 
 Les solutions utilisées en laboratoire sont souvent achetées ou préparées sous forme de solutions concentrées (appelées **solutions stock**). A partir de ces solutions, on peut obtenir des solutions de concentrations plus faibles en ajoutant du solvant. Ce procédé est appelé **dilution**.
 
-```{r fig-preparation-2,echo=FALSE,out.width="33%",fig.show="hold",fig.align="center",fig.cap="Préparation d'une solution par dilution"}
-knitr::include_graphics(c("images/preparation-2.png"))
-```
+![Préparation d'une solution par dilution](images/preparation-2.png){#fig-preparation-2 width="33%"}
 
 Lors d'une dilution, **le volume de solution augmente mais la quantité de soluté reste la même**. On peut généraliser le calcul lors de la dissolution d'une solution par la relation suivante :
 
@@ -351,8 +339,7 @@ $$
 
 \newpage
 
-```{r, child=c('exe/solutions-electrolytes/40.Rmd')}
-```
+{{< include exe/solutions-electrolytes/40.qmd >}}
 
 ## Résumé
 
@@ -367,40 +354,31 @@ $$
 
 ## Exercices supplémentaires
 
-```{r, child=c('exe/solutions-electrolytes/50.Rmd')}
-```
+{{< include exe/solutions-electrolytes/50.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/solutions-electrolytes/80.Rmd')}
-```
+{{< include exe/solutions-electrolytes/80.qmd >}}
 
-```{r, child=c('exe/solutions-electrolytes/60.Rmd')}
-```
+{{< include exe/solutions-electrolytes/60.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/solutions-electrolytes/70.Rmd')}
-```
+{{< include exe/solutions-electrolytes/70.qmd >}}
 
-```{r, child=c('exe/solutions-electrolytes/90.Rmd')}
-```
+{{< include exe/solutions-electrolytes/90.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/solutions-electrolytes/100.Rmd')}
-```
+{{< include exe/solutions-electrolytes/100.qmd >}}
 
-```{r, child=c('exe/solutions-electrolytes/110.Rmd')}
-```
+{{< include exe/solutions-electrolytes/110.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/solutions-electrolytes/120.Rmd')}
-```
+{{< include exe/solutions-electrolytes/120.qmd >}}
 
-```{r, child=c('exe/solutions-electrolytes/130.Rmd')}
-```
+{{< include exe/solutions-electrolytes/130.qmd >}}
 
 \newpage
 

@@ -39,9 +39,7 @@ Mesurer la vitesse d'une réaction c'est mesurer les changements de quantité de
 - la **quantité de matière** - la vitesse sera alors exprimée en mol/s ou mol/min (p. ex.),
 - la **concentration** - la vitesse sera alors exprimée en mol&middot;l^-1^&middot;s^-1^ ou mol&middot;l^-1^&middot;min^-1^ (p. ex.).
 
-```{r fig-vitesse-reaction-1-a,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Variation des quantités de substances en fonction du temps"}
-knitr::include_graphics(c("images/vitesse-reaction-1-a.png"))
-```
+![Variation des quantités de substances en fonction du temps](images/vitesse-reaction-1-a.png){#fig-vitesse-reaction-1-a width="45%"}
 
 $$
 \text{Vitesse de réaction} = \frac{\Delta \text{concentration}}{\Delta \text{temps}}
@@ -87,32 +85,25 @@ $$
 \text{vitesse} = - \frac{\Delta |A|}{a \cdot \Delta t} = - \frac{\Delta |B|}{b \cdot \Delta t} = \frac{\Delta |C|}{c \cdot \Delta t} = \frac{\Delta |D|}{d \cdot \Delta t}
 $$
 
-```{r, child=c('exe/cinetique/10.Rmd')}
-```
+{{< include exe/cinetique/10.qmd >}}
 
-```{r, child=c('exe/cinetique/20.Rmd')}
-```
+{{< include exe/cinetique/20.qmd >}}
 
 \newpage
 
 La plupart des réactions ralentissent au fur et à mesure que les réactifs sont consommés. La **vitesse instantanée** d'une réaction varie continuellement avec l'avancement de la réaction. On peut donc définir la vitesse instantanée d'une réaction comme la pente de la tangente à la courbe de concentration en fonction du temps à n'importe quel instant.
 
-```{r fig-vitesse-reaction-1-b,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Détermination graphique de la vitesse instantanée"}
-knitr::include_graphics(c("images/vitesse-reaction-1-b.png"))
-```
+![Détermination graphique de la vitesse instantanée](images/vitesse-reaction-1-b.png){#fig-vitesse-reaction-1-b width="45%"}
 
 La vitesse instantanée mesurée au début de la réaction (t = 0) est appelée **vitesse initiale**.
 
-```{r, child=c('exe/cinetique/25.Rmd')}
-```
+{{< include exe/cinetique/25.qmd >}}
 
 ## Énergie d'activation
 
 Il existe une barrière d'énergie entre les réactifs et les produits qui doit être surmontée pour qu'une réaction ait lieu. La hauteur de cette barrière représente la quantité d'énergie que doivent posséder les particules pour que des collisions efficaces se produisent. Cette quantité d'énergie est appelée **énergie d'activation** (E~a~). La valeur de l'énergie d'activation détermine la vitesse de réaction.
 
-```{r fig-chaleur-Ea-1,echo=FALSE,out.width="33%",fig.show="hold",fig.align="center",fig.cap="Profil énergétique et énergie d'activation"}
-knitr::include_graphics(c("images/chaleur-Ea-1.png"))
-```
+![Profil énergétique et énergie d'activation](images/chaleur-Ea-1.png){#fig-chaleur-Ea-1 width="33%"}
 
 Plusieurs actions peuvent être menées pour aider les réactifs à franchir cette barrière énergétique et ainsi accélérer une réaction.
 
@@ -153,8 +144,7 @@ $$
 - Les ordres partiels peuvent être entiers ou fractionnaires et sont déterminés expérimentalement.
 - **L’ordre global de la réaction est égal à la somme des ordres partiels.**
 
-```{r, child=c('exe/cinetique/30.Rmd')}
-```
+{{< include exe/cinetique/30.qmd >}}
 
 ### Influence de la température (loi d'Arrhénius)
 
@@ -197,9 +187,7 @@ Le catalyseur est utilisé en faible quantité et n'apparaît pas dans l'équati
 
 Par exemple, des métaux tels que le nickel, le palladium et le platine catalysent l'hydrogénation des liaisons doubles carbone-carbone des huiles végétales pour produire de la margarine. Sans le métal catalyseur, la réaction ne se produit pas.
 
-```{r fig-catalyse-H2,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Hydrogénation de liaisons doubles carbone-carbone"}
-knitr::include_graphics(c("images/catalyse-H2.png"))
-```
+![Hydrogénation de liaisons doubles carbone-carbone](images/catalyse-H2.png){#fig-catalyse-H2 width="50%"}
 
 On distingue différents types de catalyseurs:
 
@@ -220,8 +208,7 @@ Les enzymes sont des catalyseurs naturels responsables d'innombrables réactions
 
 Table: Exemples de procédés catalytiques et leurs catalyseurs {#tbl-tab-catalyseurs}
 
-```{r, child=c('exe/cinetique/35.Rmd')}
-```
+{{< include exe/cinetique/35.qmd >}}
 
 ## Résumé
 
@@ -237,14 +224,11 @@ Table: Exemples de procédés catalytiques et leurs catalyseurs {#tbl-tab-cataly
 
 ## Exercices supplémentaires
 
-```{r, child=c('exe/cinetique/50.Rmd')}
-```
+{{< include exe/cinetique/50.qmd >}}
 
-```{r, child=c('exe/cinetique/60.Rmd')}
-```
+{{< include exe/cinetique/60.qmd >}}
 
-```{r, child=c('exe/cinetique/70.Rmd')}
-```
+{{< include exe/cinetique/70.qmd >}}
 
 \newpage
 

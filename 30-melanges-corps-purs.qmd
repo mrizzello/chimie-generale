@@ -42,12 +42,9 @@ Par exemple, l'eau (H~2~O) est un corps pur composé constitué de deux élémen
 
 Un corps pur composé a des propriétés physiques et chimiques différentes de celles des éléments qui le composent.
 
-```{r fig-corps-purs-corps-composes,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Corps purs et corps composés"}
-knitr::include_graphics(c("images/corps-purs-corps-composes.png"))
-```
+![Corps purs et corps composés](images/corps-purs-corps-composes.png){#fig-corps-purs-corps-composes width="67%"}
 
-```{r, child=c('exe/melanges-corps-purs/05.Rmd')}
-```
+{{< include exe/melanges-corps-purs/05.qmd >}}
 
 ## Les mélanges
 
@@ -90,17 +87,13 @@ Les mélanges homogènes ont une composition uniforme. Chaque partie d'un mélan
 - L'eau de mer est un mélange homogène composé principalement d'eau et de chlorure de sodium (sel).
 - L'essence est un mélange homogène composé d'une dizaine de substances.
 
-```{r fig-schema-matiere,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Résumé de la classification de la matière"}
-knitr::include_graphics(c("images/schema-matiere.png"))
-```
+![Résumé de la classification de la matière](images/schema-matiere.png){#fig-schema-matiere width="67%"}
 
-```{r, child=c('exe/melanges-corps-purs/10.Rmd')}
-```
+{{< include exe/melanges-corps-purs/10.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/melanges-corps-purs/20.Rmd')}
-```
+{{< include exe/melanges-corps-purs/20.qmd >}}
 
 ### Les dispersions
 
@@ -139,9 +132,7 @@ Les techniques décrites ne dépendent que des propriétés physiques des consti
 
 ### L'attraction magnétique
 
-```{r fig-attraction-magnetique,echo=FALSE,out.width="38%",fig.show="hold",fig.align="center",fig.cap="Séparation par attraction magnétique"}
-knitr::include_graphics(c("images/attraction-magnetique.png"))
-```
+![Séparation par attraction magnétique](images/attraction-magnetique.png){#fig-attraction-magnetique width="38%"}
 
 L'**attraction magnétique**, ou **aimantation**, utilise les différences de **propriétés magnétiques**. Elle permet de séparer un mélange de substances magnétiques et non-magnétiques.
 
@@ -149,9 +140,7 @@ Un mélange de limaille de fer et de poudre de soufre peut être séparé en uti
 
 ### La filtration
 
-```{r fig-filtration,echo=FALSE,out.width="28%",fig.show="hold",fig.align="center",fig.cap="Filtration par gravité"}
-knitr::include_graphics(c("images/filtration.png"))
-```
+![Filtration par gravité](images/filtration.png){#fig-filtration width="28%"}
 
 La filtration est basée sur la **différence de taille des particules**. Elle est souvent utilisée pour séparer un solide d'un liquide. Le liquide s'écoule à travers les petits trous dans le filtre alors que le solide est retenu.
 
@@ -161,9 +150,7 @@ Dans la filtration sous vide, on diminue la pression au-dessous du filtre ce qui
 
 ### La vaporisation
 
-```{r fig-evaporation,echo=FALSE,out.width="25%",fig.show="hold",fig.align="center",fig.cap="Vaporisation"}
-knitr::include_graphics(c("images/evaporation.png"))
-```
+![Vaporisation](images/evaporation.png){#fig-evaporation width="25%"}
 
 La vaporisation est basée sur les **différences de points d'ébullition**. Cette technique est utilisée pour séparer des solides dissous dans un solvant.
 
@@ -175,9 +162,7 @@ Le terme **évaporation** est utilisé lorsque l'eau est le liquide qui vaporise
 
 \vspace{\stretch{1}}
 
-```{r fig-dissolution-selective,echo=FALSE,out.width="85%",fig.show="hold",fig.align="center",fig.cap="Dissolution sélective"}
-knitr::include_graphics(c("images/dissolution-selective.png"))
-```
+![Dissolution sélective](images/dissolution-selective.png){#fig-dissolution-selective width="85%"}
 
 \vspace{\stretch{1}}
 
@@ -189,9 +174,7 @@ Cette technique permet de séparer deux solides en ajoutant un solvant dans lequ
 
 ### La sublimation
 
-```{r fig-sublimation,echo=FALSE,out.width="28%",fig.show="hold",fig.align="center",fig.cap="Sublimation"}
-knitr::include_graphics(c("images/sublimation.png"))
-```
+![Sublimation](images/sublimation.png){#fig-sublimation width="28%"}
 
 La sublimation est une technique de séparation dans laquelle une substance dans un mélange est directement transformée à l'état gazeux sans passer par l'état liquide. Par chauffage, la matière solide sublime et se solidifie à nouveau lorsque les vapeurs entrent en contact avec une surface froide.
 
@@ -199,9 +182,7 @@ Certains composés solides, tels que l'iode, le camphre, le naphtalène, l'acét
 
 ### La distillation
 
-```{r fig-distillation,echo=FALSE,out.width="40%",fig.show="hold",fig.align="center",fig.cap="Distillation simple"}
-knitr::include_graphics(c("images/distillation.png"))
-```
+![Distillation simple](images/distillation.png){#fig-distillation width="40%"}
 
 La distillation est la principale méthode de séparation des mélanges constitués de liquides. Elle est basée sur la **différence des températures d’ébullition** des constituants du mélange.
 
@@ -209,9 +190,7 @@ La solution est chauffée de sorte que le liquide ayant le point d'ébullition l
 
 ### La chromatographie
 
-```{r fig-chromatographie,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Chromatographie sur colonne"}
-knitr::include_graphics(c("images/chromatographie.png"))
-```
+![Chromatographie sur colonne](images/chromatographie.png){#fig-chromatographie width="67%"}
 
 La chromatographie est basée sur le fait que les composants d'un mélange ont plus ou moins tendance à être retenus sur une surface solide.
 
@@ -219,9 +198,7 @@ Cette méthode se compose d'une partie statique (phase stationnaire) et d'une pa
 
 ### L'extraction
 
-```{r fig-extraction,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Extraction"}
-knitr::include_graphics(c("images/extraction.png"))
-```
+![Extraction](images/extraction.png){#fig-extraction width="45%"}
 
 L'extraction est basée sur les **différences de solubilités**.
 
@@ -231,9 +208,7 @@ On utilise généralement deux solvants ayant une polarité différente, comme l
 
 ### La sédimentation et la décantation
 
-```{r fig-sedimentation,echo=FALSE,out.width="33%",fig.show="hold",fig.align="center",fig.cap="Sédimentation"}
-knitr::include_graphics(c("images/sedimentation.png"))
-```
+![Sédimentation](images/sedimentation.png){#fig-sedimentation width="33%"}
 
 La **sédimentation** est un processus dans lequel on laisse couler des particules lourdes insolubles dans un liquide par gravitation. Le liquide clair obtenu est ensuite transféré dans un autre récipient, sans déranger les particules sédimentées. Ce transfert s'appelle la **décantation**.
 
@@ -261,8 +236,7 @@ La **centrifugation** utilise la force centrifuge pour accélérer la sédimenta
 
 \newpage
 
-```{r, child=c('exe/melanges-corps-purs/30.Rmd')}
-```
+{{< include exe/melanges-corps-purs/30.qmd >}}
 
 \vspace{\stretch{1}}
 
@@ -281,32 +255,25 @@ La **centrifugation** utilise la force centrifuge pour accélérer la sédimenta
 
 ## Exercices supplémentaires
 
-```{r, child=c('exe/melanges-corps-purs/60.Rmd')}
-```
+{{< include exe/melanges-corps-purs/60.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/melanges-corps-purs/40.Rmd')}
-```
+{{< include exe/melanges-corps-purs/40.qmd >}}
 
-```{r, child=c('exe/melanges-corps-purs/50.Rmd')}
-```
+{{< include exe/melanges-corps-purs/50.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/melanges-corps-purs/70.Rmd')}
-```
+{{< include exe/melanges-corps-purs/70.qmd >}}
 
-```{r, child=c('exe/melanges-corps-purs/80.Rmd')}
-```
+{{< include exe/melanges-corps-purs/80.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/melanges-corps-purs/90.Rmd')}
-```
+{{< include exe/melanges-corps-purs/90.qmd >}}
 
-```{r, child=c('exe/melanges-corps-purs/100.Rmd')}
-```
+{{< include exe/melanges-corps-purs/100.qmd >}}
 
 \newpage
 

@@ -71,8 +71,7 @@ L'échelle de pH est généralement représentée de 0 à 14, bien que des valeu
 
 \newpage
 
-```{r, child=c('exe/acides-bases/440.Rmd')}
-```
+{{< include exe/acides-bases/440.qmd >}}
 
 ## Calcul du pH
 
@@ -92,22 +91,17 @@ $$
 
 Pour le calcul du pH des acides polyprotiques, il est nécessaire de considérer la libération de chaque proton. Les déprotonations successives peuvent être non négligeables et doivent être prises en compte dans le calcul du pH.
 
-```{r, child=c('exe/acides-bases/130.Rmd')}
-```
+{{< include exe/acides-bases/130.qmd >}}
 
-```{r, child=c('exe/acides-bases/140.Rmd')}
-```
+{{< include exe/acides-bases/140.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/acides-bases/190.Rmd')}
-```
+{{< include exe/acides-bases/190.qmd >}}
 
-```{r, child=c('exe/acides-bases/240.Rmd')}
-```
+{{< include exe/acides-bases/240.qmd >}}
 
-```{r, child=c('exe/acides-bases/210.Rmd')}
-```
+{{< include exe/acides-bases/210.qmd >}}
 
 \newpage
 
@@ -139,30 +133,23 @@ pH &= 14 - pOH
 \end{split}
 $$
 
-```{r, child=c('exe/acides-bases/150.Rmd')}
-```
+{{< include exe/acides-bases/150.qmd >}}
 
-```{r, child=c('exe/acides-bases/160.Rmd')}
-```
+{{< include exe/acides-bases/160.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/acides-bases/200.Rmd')}
-```
+{{< include exe/acides-bases/200.qmd >}}
 
-```{r, child=c('exe/acides-bases/220.Rmd')}
-```
+{{< include exe/acides-bases/220.qmd >}}
 
-```{r, child=c('exe/acides-bases/230.Rmd')}
-```
+{{< include exe/acides-bases/230.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/acides-bases/170.Rmd')}
-```
+{{< include exe/acides-bases/170.qmd >}}
 
-```{r, child=c('exe/acides-bases/180.Rmd')}
-```
+{{< include exe/acides-bases/180.qmd >}}
 \newpage
 
 ### Acides faibles
@@ -245,8 +232,7 @@ $$
 pH = - \log |\ce{H3O+}| = - \log 7 \cdot 10^{-6} = 5.15
 $$
 
-```{r, child=c('exe/acides-bases/250.Rmd')}
-```
+{{< include exe/acides-bases/250.qmd >}}
 
 \newpage
 
@@ -328,18 +314,14 @@ $$
 pH = 14 - pOH = 14 + \log |\ce{OH-}| = 14 + \log 1.90 \cdot 10^{-3} = 11.279
 $$
 
-```{r, child=c('exe/acides-bases/270.Rmd')}
-```
+{{< include exe/acides-bases/270.qmd >}}
 \newpage
 
-```{r, child=c('exe/acides-bases/260.Rmd')}
-```
+{{< include exe/acides-bases/260.qmd >}}
 
-```{r, child=c('exe/acides-bases/280.Rmd')}
-```
+{{< include exe/acides-bases/280.qmd >}}
 
-```{r, child=c('exe/acides-bases/290.Rmd')}
-```
+{{< include exe/acides-bases/290.qmd >}}
 
 ## pH des acides polyprotiques
 
@@ -360,19 +342,15 @@ Pour un polyacide faible typique, on a K~a1~ > K~a2~ > K~a3~ ...
 
 Les problèmes de calcul de pH de solutions contenant un polyacide se simplifient du fait que seule une des réactions contribue notablement à la formation de H~3~O^+^. De plus, la quantité de H~3~O^+^ produite à la première étape empêche la deuxième étape de produire davantage d'ion hydronium, selon le principe de Le Chatelier.
 
-```{r fig-acides-faibles-2,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Dissociation de l'acide carbonique."}
-knitr::include_graphics(c("images/acides-faibles-2.png"))
-```
+![Dissociation de l'acide carbonique.](images/acides-faibles-2.png){#fig-acides-faibles-2 width="50%"}
 
 On pourra donc traiter les polyacides comme des monoacides, en ne prenant en compte que les protons libérés par le premier équilibre de déprotonation qui aura la plus grande constante d'équilibre K~a~. Dans le cas particulier de l'acide sulfurique, le premier proton est entièrement libéré mais la deuxième déprotonation est non négligeable. Les deux déprotonations devront être prises en compte.
 
 \newpage
 
-```{r, child=c('exe/acides-bases/300.Rmd')}
-```
+{{< include exe/acides-bases/300.qmd >}}
 
-```{r, child=c('exe/acides-bases/310.Rmd')}
-```
+{{< include exe/acides-bases/310.qmd >}}
 
 \newpage
 
@@ -384,9 +362,7 @@ Ce sont des solutions qui s'opposent aux variations de pH lorsqu'on y ajoute une
 
 Prenons l'exemple d'un tampon préparé à l'aide d'acide acétique ($\ce{CH3COOH}$) et d'acétate de sodium ($\ce{CH3COONa}$), sa base conjuguée, dissous dans de l'eau.
 
-```{r fig-acides-bases-9,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Solution tampon acide acétique / acétate de sodium"}
-knitr::include_graphics(c("images/acides-bases-solution-tampon.png"))
-```
+![Solution tampon acide acétique / acétate de sodium](images/acides-bases-solution-tampon.png){#fig-acides-bases-9 width="50%"}
 
 Si l'on ajoute une base forte (NaOH par exemple) à ce tampon, l'acide acétique neutralisera l'ajout de cette base :
 
@@ -404,8 +380,7 @@ $$
 
 Le pH variera donc peu, pour autant que la quantité d'acide ajoutée ne soit pas supérieure à la quantité de base présente.
 
-```{r, child=c('exe/acides-bases/320.Rmd')}
-```
+{{< include exe/acides-bases/320.qmd >}}
 
 \newpage
 
@@ -429,32 +404,25 @@ $$
 pK_a + pK_b = 14 \quad \text{avec } pK_b = - \log K_b
 $$
 
-```{r, child=c('exe/acides-bases/330.Rmd')}
-```
+{{< include exe/acides-bases/330.qmd >}}
 
-```{r, child=c('exe/acides-bases/340.Rmd')}
-```
+{{< include exe/acides-bases/340.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/acides-bases/350.Rmd')}
-```
+{{< include exe/acides-bases/350.qmd >}}
 
-```{r, child=c('exe/acides-bases/370.Rmd')}
-```
+{{< include exe/acides-bases/370.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/acides-bases/360.Rmd')}
-```
+{{< include exe/acides-bases/360.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/acides-bases/380.Rmd')}
-```
+{{< include exe/acides-bases/380.qmd >}}
 <!--
-```{r, child=c('exe/acides-bases/390.Rmd')}
-```
+{{< include exe/acides-bases/390.qmd >}}
 -->
 
 \newpage
@@ -463,17 +431,13 @@ $$
 
 Arbre de décision pour identifier la nature d'une solution chimique (acide/base, fort/faible, mélange) et appliquer la bonne méthode pour calculer son pH.
 
-```{r fig-acides-bases-8,echo=FALSE,out.width="95%",fig.show="hold",fig.align="center",fig.cap="Guide méthodologique pour la détermination du pH"}
-knitr::include_graphics(c("images/pH-decision-tree.png"))
-```
+![Guide méthodologique pour la détermination du pH](images/pH-decision-tree.png){#fig-acides-bases-8 width="95%"}
 
 ## Titrages et courbes de pH
 
 Un titrage acide-base est une technique de dosage basée sur une réaction de neutralisation entre une solution de concentration connue et une solution de concentration inconnue. Le point d'équivalence, repéré par un indicateur coloré, est atteint lorsque les réactifs sont présents dans les proportions stœchiométriques.
 
-```{r fig-acides-bases-5,echo=FALSE,out.width="60%",fig.show="hold",fig.align="center",fig.cap="Titrage acide-base et courbe de titrage"}
-knitr::include_graphics(c("images/acides-bases-5.png"))
-```
+![Titrage acide-base et courbe de titrage](images/acides-bases-5.png){#fig-acides-bases-5 width="60%"}
 
 \newpage
 
@@ -483,9 +447,7 @@ $$
 \ce{HCl(aq) + NaOH(aq) -> NaCl(aq) + H2O(l)}
 $$
 
-```{r fig-acides-bases-6a,echo=FALSE,out.width="60%",fig.show="hold",fig.align="center",fig.cap="Neutralisation d'un acide fort par une base forte"}
-knitr::include_graphics(c("images/courbes-titration-acide-fort.png"))
-```
+![Neutralisation d'un acide fort par une base forte](images/courbes-titration-acide-fort.png){#fig-acides-bases-6a width="60%"}
 
 **Avant l'ajout de base**  
 Seul l'acide fort est présent dans le bécher. Le calcul du pH sera :
@@ -523,8 +485,7 @@ C_b^{*} = \frac{n_b^{*}}{V_{tot}} \qquad \text{avec } n_b^{*} = n_b - n_a = C_b 
 \end{split}
 $$
 
-```{r, child=c('exe/acides-bases/450.Rmd')}
-```
+{{< include exe/acides-bases/450.qmd >}}
 
 \newpage
 
@@ -534,9 +495,7 @@ $$
 \ce{NaOH(aq) + HCl(aq) -> NaCl(aq) + H2O(l)}
 $$
 
-```{r fig-acides-bases-6b,echo=FALSE,out.width="60%",fig.show="hold",fig.align="center",fig.cap="Neutralisation d'une base forte par un acide fort"}
-knitr::include_graphics(c("images/courbes-titration-base-forte.png"))
-```
+![Neutralisation d'une base forte par un acide fort](images/courbes-titration-base-forte.png){#fig-acides-bases-6b width="60%"}
 
 **Avant l'ajout d'acide**  
 Seule la base forte est présente dans le bécher. Le calcul du pH sera :
@@ -582,9 +541,7 @@ $$
 \ce{HClO(aq) + NaOH(aq) <=> NaClO(aq) + H2O(l)}
 $$
 
-```{r fig-acides-bases-6c,echo=FALSE,out.width="65%",fig.show="hold",fig.align="center",fig.cap="Neutralisation d'un acide faible par une base forte"}
-knitr::include_graphics(c("images/courbes-titration-acide-faible.png"))
-```
+![Neutralisation d'un acide faible par une base forte](images/courbes-titration-acide-faible.png){#fig-acides-bases-6c width="65%"}
 
 **Avant ajout de base**
 Seul l'acide faible est présent dans le bécher. Le calcul du pH sera :
@@ -642,8 +599,7 @@ n_b^* = n_b - n_a = C_b \cdot V_b - C_a \cdot V_a
 \end{split}
 $$
 
-```{r, child=c('exe/acides-bases/470.Rmd')}
-```
+{{< include exe/acides-bases/470.qmd >}}
 
 \newpage
 
@@ -651,9 +607,7 @@ $$
 
 La courbe observée lorsque l'on ajoute dans une base faible, petit à petit, un acide fort afin d'en effectuer la courbe de pH découle du même raisonnement que celle de la neutralisation d'un acide faible par une base forte que l'on vient de décrire.
 
-```{r fig-acides-bases-6d,echo=FALSE,out.width="65%",fig.show="hold",fig.align="center",fig.cap="Neutralisation d'une base faible par un acide fort"}
-knitr::include_graphics(c("images/courbes-titration-base-faible.png"))
-```
+![Neutralisation d'une base faible par un acide fort](images/courbes-titration-base-faible.png){#fig-acides-bases-6d width="65%"}
 
 ### Titrage d'une polyacide faible par une base forte
 
@@ -671,9 +625,7 @@ $$
 \ce{OH^{-}_{(aq)} + HPO4^{2-}_{(aq)} <=> H2O_{(l)} + PO4^{3-}_{(aq)}} \quad pK_{a3} = 12.37
 $$
 
-```{r fig-acides-bases-6e,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap=""}
-knitr::include_graphics(c("images/acides-bases-6d.png"))
-```
+![](images/acides-bases-6d.png){#fig-acides-bases-6e width="67%"}
 
 La visibilité de ces points dépend de la distinction suffisante entre les valeurs de $\text{K}_{\text{a}}$.
 
@@ -683,9 +635,7 @@ La visibilité de ces points dépend de la distinction suffisante entre les vale
 
 La méthode des tangentes est une technique graphique pour déterminer le **point d'équivalence** d'un titrage, qui correspond au point d'inflexion de la courbe de pH.
 
-```{r fig-acides-bases-7,echo=FALSE,out.width="75%",fig.show="hold",fig.align="center",fig.cap="Détermination graphique du point d'équivalence"}
-knitr::include_graphics(c("images/courbes-titration-methode-tangeantes.png"))
-```
+![Détermination graphique du point d'équivalence](images/courbes-titration-methode-tangeantes.png){#fig-acides-bases-7 width="75%"}
 
 1.  **Tracez deux tangentes** : De chaque côté du saut de pH, tracez une droite tangente à la courbe. Ces deux tangentes doivent être **parallèles** l'une à l'autre.
 2.  **Tracez la médiatrice** : Dessinez une troisième droite qui est perpendiculaire aux deux tangentes et qui les relie.
@@ -693,8 +643,7 @@ knitr::include_graphics(c("images/courbes-titration-methode-tangeantes.png"))
 
 À partir de ce point, vous pouvez déterminer le **volume équivalent (V~e~)** en le projetant sur l'axe des abscisses et le **pH à l'équivalence (pH~e~)** en le projetant sur l'axe des ordonnées.
 
-```{r, child=c('exe/acides-bases/460.Rmd')}
-```
+{{< include exe/acides-bases/460.qmd >}}
 
 \newpage
 
@@ -712,11 +661,9 @@ knitr::include_graphics(c("images/courbes-titration-methode-tangeantes.png"))
 
 ## Exercices supplémentaires
 
-```{r, child=c('exe/acides-bases/480.Rmd')}
-```
+{{< include exe/acides-bases/480.qmd >}}
 
-```{r, child=c('exe/acides-bases/490.Rmd')}
-```
+{{< include exe/acides-bases/490.qmd >}}
 
 \newpage
 
