@@ -1,0 +1,12 @@
+---
+title: "Mélanges et corps purs"
+subtitle: "Exercices"
+---
+
+```{r setup, include=FALSE}
+source("R/generate-slides.R")
+```
+
+```{r results='asis', echo=FALSE}
+generate_exercise_slides("../30-melanges-corps-purs.qmd", chapter_num = 3)
+```
