@@ -1,0 +1,12 @@
+---
+title: "Nomenclature"
+subtitle: "Exercices"
+---
+
+```{r setup, include=FALSE}
+source("R/generate-slides.R")
+```
+
+```{r results='asis', echo=FALSE}
+generate_exercise_slides("../90-nomenclature.qmd", chapter_num = 9)
+```

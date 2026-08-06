@@ -1,0 +1,12 @@
+---
+title: "Les gaz parfaits"
+subtitle: "Exercices"
+---
+
+```{r setup, include=FALSE}
+source("R/generate-slides.R")
+```
+
+```{r results='asis', echo=FALSE}
+generate_exercise_slides("../140-gaz-parfaits.qmd", chapter_num = 14)
+```
