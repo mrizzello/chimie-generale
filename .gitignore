@@ -2,10 +2,7 @@
 .Rhistory
 .RData
 .DS_Store
-_publish.R
 _book
-_bookdown_files
-rsconnect
 chimie-generale.log
 chimie-generale.toc
 chimie-generale_files
