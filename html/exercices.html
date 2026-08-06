@@ -21,11 +21,10 @@
     });
 
     $('.' + ansClass).each(function(i, el) {
-      var num = chapterNum + '.' + (i + 1);
       $(el).click(function() {
         $(el).slideToggle();
       });
-      var button = $('<button>Solution ' + num + '</button>');
+      var button = $('<button>Solution</button>');
       button.attr('type', 'button');
       button.addClass('Answer-button');
       button.click(function() {

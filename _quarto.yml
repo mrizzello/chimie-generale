@@ -13,30 +13,30 @@ book:
     style: docked
   chapters:
     - index.qmd
-    # - 10-introduction.qmd
-    # - 20-etats-de-la-matiere.qmd
-    # - 30-melanges-corps-purs.qmd
-    # - 40-historique.qmd
-    # - 50-atome.qmd
+    - 10-introduction.qmd
+    - 20-etats-de-la-matiere.qmd
+    - 30-melanges-corps-purs.qmd
+    - 40-historique.qmd
+    - 50-atome.qmd
     - 60-tableau-periodique.qmd
-    # - 70-liaisons.qmd
-    # - 80-molecules.qmd
-    # - 90-nomenclature.qmd
-    # - 100-solutions-electrolytes.qmd
-    # - 110-reactions-chimiques.qmd
-    # - 120-types-reactions.qmd
-    # - 130-stoechiometrie.qmd
-    # - 140-gaz-parfaits.qmd
-    # - 150-cinetique.qmd
-    # - 160-equilibres.qmd
-    # - 170-acides-bases.qmd
-    # - 180-ph-potentiel-hydrogene.qmd
-    # - 190-produit-solubilite.qmd
-    # - 200-oxydoreductions.qmd
-    # - 210-electrochimie.qmd
-    # - 220-thermochimie.qmd
-    # - 230-thermodynamique.qmd
-    # - 00-references.qmd
+    - 70-liaisons.qmd
+    - 80-molecules.qmd
+    - 90-nomenclature.qmd
+    - 100-solutions-electrolytes.qmd
+    - 110-reactions-chimiques.qmd
+    - 120-types-reactions.qmd
+    - 130-stoechiometrie.qmd
+    - 140-gaz-parfaits.qmd
+    - 150-cinetique.qmd
+    - 160-equilibres.qmd
+    - 170-acides-bases.qmd
+    - 180-ph-potentiel-hydrogene.qmd
+    - 190-produit-solubilite.qmd
+    - 200-oxydoreductions.qmd
+    - 210-electrochimie.qmd
+    - 220-thermochimie.qmd
+    - 230-thermodynamique.qmd
+    - 00-references.qmd
 
 lang: fr
 
