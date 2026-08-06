@@ -1,1 +1,52 @@
-/* Feuille de style personnalisée du site — à écrire */
+/* Feuille de style personnalisée du site */
+.header-section-number {
+  color: #000000;
+}
+
+/* --- Encadrés (objectifs, exercices, définitions tcolorbox) --- */
+.tcolorbox, .Exercise, .Answer, .objectives {
+  background-color: #f5f5f5;
+  border: 1px solid #333;
+  padding: 0.85em 0.85em 0;
+  margin-bottom: 0.85rem;
+}
+
+.Exercise {
+  background-color: inherit;
+  border-color: #666;
+}
+
+.Exercise .Label {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.85rem;
+  border-bottom: 1px solid #666;
+}
+
+.Answer {
+  display: none;
+  background-color: #fafafa;
+}
+
+.Answer-button {
+  color: #333;
+  border: 1px solid #333;
+  border-radius: 0.67rem;
+  background-color: #fff;
+  padding: 0.67rem;
+  margin-bottom: 0.85rem;
+}
+
+.objectives {
+  background-color: inherit;
+  border-radius: 0.67rem;
+}
+
+/* --- Encadré des liens vers les jeux isotope.ch --- */
+.Jeu {
+  background-color: transparent;
+  border: 1px dotted #f7931e;
+  border-left: 3px solid #f7931e;
+  padding: 0.15em 0 0.15em 1em;
+  margin: 2rem 0;
+}
