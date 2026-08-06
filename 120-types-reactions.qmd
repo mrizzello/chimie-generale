@@ -31,8 +31,7 @@ $$ \begin{split}
   \ce{4Fe + 3O2 -> 2Fe2O3} \quad (\ce{Fe^{3+}})
   \end{split} $$
 
-```{r, child=c('exe/types-reactions/10.Rmd')}
-```
+{{< include exe/types-reactions/10.qmd >}}
 
 ## Réactions de décomposition
 
@@ -52,8 +51,7 @@ $$ \begin{split}
   & \ce{2NaHCO3 -> Na2CO3 + H2O + CO2}
   \end{split} $$
 
-```{r, child=c('exe/types-reactions/20.Rmd')}
-```
+{{< include exe/types-reactions/20.qmd >}}
 
 ## Réactions de dissociation
 
@@ -63,9 +61,7 @@ $$ \ce{Ca3(PO4)2 ->C[H2O] 3Ca^{2+} + 2PO4^{3-}} $$
 
 ## Réactions de précipitation
 
-```{r fig-precipitation-0,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Représentation moléculaire d'une réaction de précipitation"}
-knitr::include_graphics(c("images/precipitation-0.png"))
-```
+![Représentation moléculaire d'une réaction de précipitation](images/precipitation-0.png){#fig-precipitation-0 width="50%"}
 
 Une réaction de précipitation forme un composé insoluble (un précipité) à partir du mélange des deux composés solubles.
 
@@ -93,8 +89,7 @@ $$ \ce{Ag^{+} + Cl^{–} -> AgCl v} $$
 
 Les ions spectateurs ne sont pas indiqués. On indique uniquement les espèces qui sont réellement impliquées dans la réaction.
 
-```{r, child=c('exe/types-reactions/30.Rmd')}
-```
+{{< include exe/types-reactions/30.qmd >}}
 
 ### Résoudre une réaction de précipitation
 
@@ -104,8 +99,7 @@ Les ions spectateurs ne sont pas indiqués. On indique uniquement les espèces q
 - Equilibrer l'équation globale à l'aide des nombres stoechiométriques.
 - Déterminer quel est le précipité, à l'aide de la table des solubilités.
 
-```{r, child=c('exe/types-reactions/40.Rmd')}
-```
+{{< include exe/types-reactions/40.qmd >}}
 
 Si, en mélangeant deux composés ioniques solubles, **aucun précipité ne se forme**, il n'y a pas de réaction de précipitation. C'est simplement un **mélange homogène** de deux solutions. Par exemple, dans l'équation:
 
@@ -138,8 +132,7 @@ $$ \begin{split}
 
 \newpage
 
-```{r, child=c('exe/types-reactions/50.Rmd')}
-```
+{{< include exe/types-reactions/50.qmd >}}
 
 Les hydroxydes font partie d'une catégorie de composés que l'on appelle **les bases**. Les bases ont la capacité de réagir avec un acide pour le **neutraliser**, c'est-à-dire le rendre neutre, non corrosif.
 
@@ -162,14 +155,11 @@ L'échelle de pH varie de 0 à 14.
 -  Une solution **basique** (alcaline) a un pH **supérieur à 7**.
 -  Une solution neutre a un pH **égal à 7**. C'est le pH de l'eau pure.
 
-```{r fig-pH-echelle,echo=FALSE,out.width="90%",fig.show="hold",fig.align="center",fig.cap="Echelle de pH"}
-knitr::include_graphics(c("images/pH-echelle.png"))
-```
+![Echelle de pH](images/pH-echelle.png){#fig-pH-echelle width="90%"}
 
 \newpage
 
-```{r, child=c('exe/types-reactions/60.Rmd')}
-```
+{{< include exe/types-reactions/60.qmd >}}
 
 En regardant une solution, on ne peut pas dire si il s'agit d'une solution acide, basique ou neutre. Certains composés ont la propriété de changer de couleur selon qu'ils se trouvent en milieu acide ou basique. On appelle ces composés des **indicateurs acide-base**.
 
@@ -211,8 +201,7 @@ $$ \begin{split}
 	\text{combustion du propane}
   \end{split} $$
 
-```{r, child=c('exe/types-reactions/70.Rmd')}
-```
+{{< include exe/types-reactions/70.qmd >}}
 
 ## Résumé des types de réactions
 
@@ -243,55 +232,41 @@ $$ \begin{split}
 
 ## Exercices supplémentaires
 
-```{r, child=c('exe/types-reactions/80.Rmd')}
-```
+{{< include exe/types-reactions/80.qmd >}}
 
-```{r, child=c('exe/types-reactions/90.Rmd')}
-```
+{{< include exe/types-reactions/90.qmd >}}
 
-```{r, child=c('exe/types-reactions/100.Rmd')}
-```
+{{< include exe/types-reactions/100.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/types-reactions/110.Rmd')}
-```
+{{< include exe/types-reactions/110.qmd >}}
 
-```{r, child=c('exe/types-reactions/120.Rmd')}
-```
+{{< include exe/types-reactions/120.qmd >}}
 
-```{r, child=c('exe/types-reactions/130.Rmd')}
-```
+{{< include exe/types-reactions/130.qmd >}}
 
-```{r, child=c('exe/types-reactions/140.Rmd')}
-```
+{{< include exe/types-reactions/140.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/types-reactions/150.Rmd')}
-```
+{{< include exe/types-reactions/150.qmd >}}
 
-```{r, child=c('exe/types-reactions/160.Rmd')}
-```
+{{< include exe/types-reactions/160.qmd >}}
 
-```{r, child=c('exe/types-reactions/170.Rmd')}
-```
+{{< include exe/types-reactions/170.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/types-reactions/180.Rmd')}
-```
+{{< include exe/types-reactions/180.qmd >}}
 
-```{r, child=c('exe/types-reactions/190.Rmd')}
-```
+{{< include exe/types-reactions/190.qmd >}}
 
-```{r, child=c('exe/types-reactions/200.Rmd')}
-```
+{{< include exe/types-reactions/200.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/types-reactions/210.Rmd')}
-```
+{{< include exe/types-reactions/210.qmd >}}
 
 ```{r, echo=FALSE}
 if (knitr::is_latex_output()) {

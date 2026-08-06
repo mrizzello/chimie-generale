@@ -39,11 +39,9 @@ $$
 
 Dans cette expression, chaque concentration ionique est élevée à la puissance de son coefficient stœchiométrique tel qu'il apparaît dans l'équation chimique équilibrée. Pour rappel, lors du calcul des constantes d'équilibre, les solides et les liquides purs ne sont pas inclus dans l'expression.
 
-```{r, child=c('exe/produit-solubilite/05.Rmd')}
-```
+{{< include exe/produit-solubilite/05.qmd >}}
 
-```{r, child=c('exe/produit-solubilite/10.Rmd')}
-```
+{{< include exe/produit-solubilite/10.qmd >}}
 
 ## La solubilité ($s$)
 
@@ -85,11 +83,9 @@ $$
 K_{ps} = s^2 = (4.7 \cdot 10^{-4})^2 = 2.2 \cdot 10^{-7}
 $$
 
-```{r, child=c('exe/produit-solubilite/80.Rmd')}
-```
+{{< include exe/produit-solubilite/80.qmd >}}
 
-```{r, child=c('exe/produit-solubilite/90.Rmd')}
-```
+{{< include exe/produit-solubilite/90.qmd >}}
 
 ### Différentes situations envisagées
 
@@ -189,8 +185,7 @@ Le produit de solubilité ($K_{ps}$) est lié à la solubilité ($s$) par une re
 
 \newpage
 
-```{r, child=c('exe/produit-solubilite/20.Rmd')}
-```
+{{< include exe/produit-solubilite/20.qmd >}}
 \vspace{\stretch{1}}
 
 ## Effet d'un ion commun
@@ -214,8 +209,7 @@ L'ion $\ce{SO4^{2-}}$ est l'ion commun introduit par le sulfate de sodium. Selon
 
 Cette réduction de la solubilité est une conséquence directe de l'augmentation de la concentration d'un des produits de la dissolution, ce qui force l'équilibre à se déplacer dans le sens inverse de la dissolution.
 
-```{r, child=c('exe/produit-solubilite/30.Rmd')}
-```
+{{< include exe/produit-solubilite/30.qmd >}}
 \vspace{\stretch{1}}
 
 \newpage
@@ -243,8 +237,7 @@ Les règles générales pour prédire si une précipitation se produira sont les
 | sens direct favorisé |  système à l'équilibre  | sens indirect favorisé |
 | pas de précipitation | la solution est saturée |     précipitation      |
 
-```{r, child=c('exe/produit-solubilite/40.Rmd')}
-```
+{{< include exe/produit-solubilite/40.qmd >}}
 
 \newpage
 
@@ -258,51 +251,41 @@ Les règles générales pour prédire si une précipitation se produira sont les
 
 ## Exercices supplémentaires
 
-```{r, child=c('exe/produit-solubilite/50.Rmd')}
-```
+{{< include exe/produit-solubilite/50.qmd >}}
 
-```{r, child=c('exe/produit-solubilite/60.Rmd')}
-```
+{{< include exe/produit-solubilite/60.qmd >}}
 
-```{r, child=c('exe/produit-solubilite/70.Rmd')}
-```
+{{< include exe/produit-solubilite/70.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/produit-solubilite/100.Rmd')}
-```
+{{< include exe/produit-solubilite/100.qmd >}}
 
 \vspace{\stretch{1}}
 
-```{r, child=c('exe/produit-solubilite/110.Rmd')}
-```
+{{< include exe/produit-solubilite/110.qmd >}}
 
 \vspace{\stretch{1}}
 
-```{r, child=c('exe/produit-solubilite/120.Rmd')}
-```
+{{< include exe/produit-solubilite/120.qmd >}}
 
 \vspace{\stretch{1}}
 
 \newpage
 
-```{r, child=c('exe/produit-solubilite/130.Rmd')}
-```
+{{< include exe/produit-solubilite/130.qmd >}}
 
 \vspace{\stretch{1}}
 
-```{r, child=c('exe/produit-solubilite/140.Rmd')}
-```
+{{< include exe/produit-solubilite/140.qmd >}}
 
 \vspace{\stretch{1}}
 
 \newpage
 
-```{r, child=c('exe/produit-solubilite/150.Rmd')}
-```
+{{< include exe/produit-solubilite/150.qmd >}}
 
-```{r, child=c('exe/produit-solubilite/160.Rmd')}
-```
+{{< include exe/produit-solubilite/160.qmd >}}
 
 \newpage
 

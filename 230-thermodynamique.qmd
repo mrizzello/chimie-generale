@@ -55,8 +55,7 @@ Mesure du degré de désordre d'un système. (Exprimée en joules par Kelvin J/K
 
 **Plus le désordre est grand, plus l'entropie est élevée.**
 
-```{r, child=c('exe/thermodynamique/10.Rmd')}
-```
+{{< include exe/thermodynamique/10.qmd >}}
 
 ## La deuxième loi de la thermodynamique
 
@@ -73,9 +72,7 @@ Un courant d'air fait voler votre chateau de cartes par terre. Le processus est 
 
 \newpage
 
-```{r fig-cards-castle,echo=FALSE,out.width="40%",fig.show="hold",fig.align="center",fig.cap="Deuxième loi de la thermodynamique"}
-knitr::include_graphics(c("images/cards-castle.png"))
-```
+![Deuxième loi de la thermodynamique](images/cards-castle.png){#fig-cards-castle width="40%"}
 
 Un processus spontané suit donc naturellement deux tendances : 
 
@@ -97,12 +94,9 @@ L'entropie d'une substance pure et parfaitement cristalline est nulle à 0 K.
 
 La troisième loi de la thermodynamique permet de déterminer l'entropie d'une substance à partir de données expérimentales. On transfère lentement de la chaleur à une substance qui se trouve à 0 K et on mesure sa température.
 
-```{r fig-entropie-graph,echo=FALSE,out.width="90%",fig.show="hold",fig.align="center",fig.cap="Entropies du dihydrogène et du chlorométhane en fonction de la température."}
-knitr::include_graphics(c("images/entropie-graph.png"))
-```
+![Entropies du dihydrogène et du chlorométhane en fonction de la température.](images/entropie-graph.png){#fig-entropie-graph width="90%"}
 
-```{r, child=c('exe/thermodynamique/05.Rmd')}
-```
+{{< include exe/thermodynamique/05.qmd >}}
 
 ## La variation d'entropie ($\Delta S$)
 
@@ -118,8 +112,7 @@ En général, l'entropie augmente dans les cas suivants :
 
 Au cours d'une réaction spontanée, le système devient plus désordonné après qu'avant la réaction, donc $\Delta S > 0$. La nature "préfère" les valeur de $\Delta S$ positives contrairement aux valeurs $\Delta H$ qui sont généralement négatives (exothermiques).
 
-```{r, child=c('exe/thermodynamique/20.Rmd')}
-```
+{{< include exe/thermodynamique/20.qmd >}}
 
 ### L'entropie molaire standard ($S^o$) et l'entropie de réaction ($\Delta S^o$)
 
@@ -143,8 +136,7 @@ $$
 
 $n_p$ et $n_r$ sont les coéfficients stoechiométriques des réactifs et produits de la réaction étudiée.
 
-```{r, child=c('exe/thermodynamique/30.Rmd')}
-```
+{{< include exe/thermodynamique/30.qmd >}}
 
 ## L'énergie libre ($G$) et la variation d'énergie libre ($\Delta G$)
 
@@ -183,8 +175,7 @@ Cette relation nous permet de prédire la spontanéité d'une réaction lorsqu'o
 
 Table: Spontanéité d'une réaction selon le signe de $\Delta G$. {#tbl-spontaneitedHdS}
 
-```{r, child=c('exe/thermodynamique/55.Rmd')}
-```
+{{< include exe/thermodynamique/55.qmd >}}
 
 ## L'énergie libre standard de réaction ($\Delta G^o$)
 
@@ -196,8 +187,7 @@ $$
 
 \newpage
 
-```{r, child=c('exe/thermodynamique/60.Rmd')}
-```
+{{< include exe/thermodynamique/60.qmd >}}
 
 Les énergies libres standard de formation ($\Delta G^o_f$) sont des valeurs que l'on peut trouver dans des tables et qui permettent de calculer l'énergie libre standard d'une réaction en utilisant la relation suivante :
 
@@ -205,8 +195,7 @@ $$
 \Delta G^o = \sum n_p \cdot \Delta G^{o}_f(produits) - \sum n_r \cdot \Delta G^{o}_f(reactifs)
 $$
 
-```{r, child=c('exe/thermodynamique/80.Rmd')}
-```
+{{< include exe/thermodynamique/80.qmd >}}
 
 ## L'énergie libre et équilibre chimique
 
@@ -236,14 +225,11 @@ Table: Relation entre constante d'équilibre (K) et énergie libre standard de r
 
 Selon cette équation, plus K est grand, plus $\Delta G^o$ est négatif. Cette équation permet de déterminer la constante d'équilibre d'une réaction si l'on connaît la variation de l'énergie libre standard, et vice versa.
 
-```{r fig-dG-profile,echo=FALSE,out.width="100%",fig.show="hold",fig.align="center",fig.cap="Énergie libre standard et transformation spontanée"}
-knitr::include_graphics(c("images/dG-profile.png"))
-```
+![Énergie libre standard et transformation spontanée](images/dG-profile.png){#fig-dG-profile width="100%"}
 
 \newpage
 
-```{r, child=c('exe/thermodynamique/70.Rmd')}
-```
+{{< include exe/thermodynamique/70.qmd >}}
 
 ## Résumé
 
@@ -257,21 +243,17 @@ knitr::include_graphics(c("images/dG-profile.png"))
 
 ## Exercices supplémentaires
 
-```{r, child=c('exe/thermodynamique/40.Rmd')}
-```
+{{< include exe/thermodynamique/40.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/thermodynamique/50.Rmd')}
-```
+{{< include exe/thermodynamique/50.qmd >}}
 
-```{r, child=c('exe/thermodynamique/90.Rmd')}
-```
+{{< include exe/thermodynamique/90.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/thermodynamique/100.Rmd')}
-```
+{{< include exe/thermodynamique/100.qmd >}}
 
 ```{r, echo=FALSE}
 if (knitr::is_latex_output()) {

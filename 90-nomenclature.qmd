@@ -138,8 +138,7 @@ L'élément le plus électronégatif est nommé en premier. Les proportions des 
 |  $NO_2$  | **di**oxyde d'azote           |  $N_2O$  | oxyde de **di**azote             |
 | $N_2O_4$ | **tetra**oxyde de **di**azote | $P_2O_5$ | **pent**oxyde de **di**phosphore |
 
-```{r, child=c('exe/nomenclature/05.Rmd')}
-```
+{{< include exe/nomenclature/05.qmd >}}
 
 ### Composés binaires ioniques | métal - non-métal
 
@@ -165,8 +164,7 @@ Exception pour les composés binaires contenant de l'oxygène: ces composés por
 | :---: | ------------------- | :-----: | --------------------------- |
 | $BaO$ | **oxyde** de baryum | $PbO_2$ | **oxyde** de plomb **(IV)** |
 
-```{r, child=c('exe/nomenclature/15.Rmd')}
-```
+{{< include exe/nomenclature/15.qmd >}}
 
 \newpage
 
@@ -255,8 +253,7 @@ Les sels acides sont des sels qui contiennent le cation $H^+$ en plus d'un catio
 |  $HCO_3^-$   |  $NaHCO_3$  | **hydrogénocarbonate** de sodium   |
 |  $HSO_4^-$   |  $NaHSO_4$  | **hydrogénosulfate** de sodium     |
 
-```{r, child=c('exe/nomenclature/25.Rmd')}
-```
+{{< include exe/nomenclature/25.qmd >}}
 
 ::: {.Jeu data-latex=""}
 
@@ -292,39 +289,29 @@ Les sels acides sont des sels qui contiennent le cation $H^+$ en plus d'un catio
 
 ## Exercices supplémentaires
 
-```{r, child=c('exe/nomenclature/10.Rmd')}
-```
+{{< include exe/nomenclature/10.qmd >}}
 
-```{r, child=c('exe/nomenclature/20.Rmd')}
-```
+{{< include exe/nomenclature/20.qmd >}}
 
-```{r, child=c('exe/nomenclature/30.Rmd')}
-```
+{{< include exe/nomenclature/30.qmd >}}
 
-```{r, child=c('exe/nomenclature/40.Rmd')}
-```
+{{< include exe/nomenclature/40.qmd >}}
 
-```{r, child=c('exe/nomenclature/50.Rmd')}
-```
+{{< include exe/nomenclature/50.qmd >}}
 
-```{r, child=c('exe/nomenclature/60.Rmd')}
-```
+{{< include exe/nomenclature/60.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/nomenclature/70.Rmd')}
-```
+{{< include exe/nomenclature/70.qmd >}}
 
-```{r, child=c('exe/nomenclature/80.Rmd')}
-```
+{{< include exe/nomenclature/80.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/nomenclature/90.Rmd')}
-```
+{{< include exe/nomenclature/90.qmd >}}
 
-```{r, child=c('exe/nomenclature/100.Rmd')}
-```
+{{< include exe/nomenclature/100.qmd >}}
 
 \newpage
 

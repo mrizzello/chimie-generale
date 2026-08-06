@@ -78,8 +78,7 @@ Un élément peut porter un nombre d'oxydation différent selon l'espèce chimiq
 
 **La somme des nombres d'oxydation de toute espèce chimique doit correspondre à la charge globale de l'espèce.** En d'autres termes, la somme des nombres d'oxydation pour toute molécule doit être égale à zéro et doit être égale à la charge de l'ion polyatomique.
 
-```{r, child=c('exe/oxydoreductions/10.Rmd')}
-```
+{{< include exe/oxydoreductions/10.qmd >}}
 
 \newpage
 
@@ -104,8 +103,7 @@ Dans le cas de la combustion du méthane:
 - Le carbone est passé de l'état d'oxydation **-4** à l'état d'oxydation **+4**, il y a eu une perte d'électrons.
 - L'oxygène est passé de l'état d'oxydation **0** à l'état d'oxydation **-2**, il y a eu un gain d'électrons.
 
-```{r, child=c('exe/oxydoreductions/20.Rmd')}
-```
+{{< include exe/oxydoreductions/20.qmd >}}
 
 \newpage
 
@@ -158,11 +156,9 @@ $$
 | état d'oxydation augmente |               | état d'oxydation diminue |
 
 
-```{r, child=c('exe/oxydoreductions/70.Rmd')}
-```
+{{< include exe/oxydoreductions/70.qmd >}}
 
-```{r, child=c('exe/oxydoreductions/30.Rmd')}
-```
+{{< include exe/oxydoreductions/30.qmd >}}
 
 ### Couples oxred
 
@@ -208,9 +204,7 @@ $$
 
 Cette règle du gamma permet, dès lors que l’on dispose des espèces présentes avant réaction ainsi que leurs potentiels standards, de prévoir si la réaction va avoir lieu de manière spontanée.
 
-```{r fig-gamma-rule,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Illustration de la règle du gamma."}
-knitr::include_graphics(c("images/gamma-rule.png"))
-```
+![Illustration de la règle du gamma.](images/gamma-rule.png){#fig-gamma-rule width="45%"}
 
 En plaçant les couples sur une échelle par potentiel décroissant, l'oxydant le plus fort (Cu^2+^) réagira avec le réducteur le plus fort (Zn) pour donner le réducteur et l'oxydant les plus faibles (respectivement, Cu et Zn^2+^) :
 
@@ -224,8 +218,7 @@ ne sera donc pas spontanée.
 
 \newpage
 
-```{r, child=c('exe/oxydoreductions/35.Rmd')}
-```
+{{< include exe/oxydoreductions/35.qmd >}}
 
 ## Équilibrer les équations d'oxydoréduction
 
@@ -303,19 +296,15 @@ $$
 
 Les masses et les électrons échangés sont maintenant équilibrés dans l'équation de la réaction.
 
-```{r, child=c('exe/oxydoreductions/40.Rmd')}
-```
+{{< include exe/oxydoreductions/40.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/oxydoreductions/80.Rmd')}
-```
+{{< include exe/oxydoreductions/80.qmd >}}
 
-```{r, child=c('exe/oxydoreductions/90.Rmd')}
-```
+{{< include exe/oxydoreductions/90.qmd >}}
 
-```{r, child=c('exe/oxydoreductions/100.Rmd')}
-```
+{{< include exe/oxydoreductions/100.qmd >}}
 
 \newpage
 
@@ -330,33 +319,25 @@ Les masses et les électrons échangés sont maintenant équilibrés dans l'équ
 
 ## Exercices supplémentaires
 
-```{r, child=c('exe/oxydoreductions/50.Rmd')}
-```
+{{< include exe/oxydoreductions/50.qmd >}}
 
-```{r, child=c('exe/oxydoreductions/60.Rmd')}
-```
+{{< include exe/oxydoreductions/60.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/oxydoreductions/110.Rmd')}
-```
+{{< include exe/oxydoreductions/110.qmd >}}
 
-```{r, child=c('exe/oxydoreductions/120.Rmd')}
-```
+{{< include exe/oxydoreductions/120.qmd >}}
 
-```{r, child=c('exe/oxydoreductions/130.Rmd')}
-```
+{{< include exe/oxydoreductions/130.qmd >}}
 
-```{r, child=c('exe/oxydoreductions/150.Rmd')}
-```
+{{< include exe/oxydoreductions/150.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/oxydoreductions/160.Rmd')}
-```
+{{< include exe/oxydoreductions/160.qmd >}}
 
-```{r, child=c('exe/oxydoreductions/170.Rmd')}
-```
+{{< include exe/oxydoreductions/170.qmd >}}
 
 \newpage
 

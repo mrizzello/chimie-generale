@@ -27,9 +27,7 @@ L'atome est formé d'un nuage d'électrons gravitant autour d'un petit noyau ext
 
 Imaginons que l'on agrandisse un atome à la taille d'un stade. Le noyau se trouverait sur le rond central du terrain et il aurait la taille d'une tête d'épingle. Les électrons seraient alors à la place des spectateurs et chacun aurait la taille d'un grain de poussière !
 
-```{r fig-ordre-grandeur-atome,echo=FALSE,out.width="33%",fig.show="hold",fig.align="center",fig.cap="Taille et structure de l'atome"}
-knitr::include_graphics(c("images/ordre-grandeur-atome.png"))
-```
+![Taille et structure de l'atome](images/ordre-grandeur-atome.png){#fig-ordre-grandeur-atome width="33%"}
 
 ## Particules subatomiques
 
@@ -51,16 +49,13 @@ Un électron est 1836 fois plus léger qu'un proton, mais son influence est trè
 
 **L'atome est électriquement neutre.** Comment un atome peut-il être neutre si il contient des protons chargés positivement et des électrons chargés négativement? La réponse est qu'**il y a un nombre égal de protons et d'électrons** de sorte que les charges positives et négatives s'annulent.
 
-```{r, child=c('exe/atome/05.Rmd')}
-```
+{{< include exe/atome/05.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/atome/10.Rmd')}
-```
+{{< include exe/atome/10.qmd >}}
 
-```{r, child=c('exe/atome/20.Rmd')}
-```
+{{< include exe/atome/20.qmd >}}
 
 \newpage
 
@@ -120,12 +115,9 @@ Les noyaux de tous les atomes contiennent des protons et des neutrons. Les neutr
 
 Il existe des tables qui indiquent la liste des isotopes naturels stables et radioactifs pour chaque élément.
 
-```{r fig-isotopes-table,echo=FALSE,out.width="80%",fig.show="hold",fig.align="center",fig.cap="Table des isotopes simplifiée"}
-knitr::include_graphics(c("images/isotopes-table.png"))
-```
+![Table des isotopes simplifiée](images/isotopes-table.png){#fig-isotopes-table width="80%"}
 
-```{r, child=c('exe/atome/30.Rmd')}
-```
+{{< include exe/atome/30.qmd >}}
 
 Dans la notation chimique, pour désigner un isotope, on indiquera le nombre de masse A de l'atome en exposant en haut et à gauche du symbol.
 
@@ -143,8 +135,7 @@ $_{6}^{12}C$ et $_{6}^{13}C$ sont deux isotopes de l'élément carbone.On les no
 
 $_{92}^{234}U$, $_{92}^{235}U$ et $_{92}^{238}U$ sont les isotopes naturels de l'élément uranium.
 
-```{r, child=c('exe/atome/40.Rmd')}
-```
+{{< include exe/atome/40.qmd >}}
 
 ## L'unité de masse atomique
 
@@ -154,8 +145,7 @@ L'**unité de masse atomique (uma)** est une unité de mesure standard, utilisé
 
 $$ 1 \text{ uma} \simeq 1.660 \cdot 10^{-27} \text{ kg} $$
 
-```{r, child=c('exe/atome/50.Rmd')}
-```
+{{< include exe/atome/50.qmd >}}
 
 ### Le défaut de masse
 
@@ -189,8 +179,7 @@ avec :
 - $\Delta m$ : défaut de masse en kg  
 - $c$ : vitesse de la lumière en m/s ($299\ 792\ 458$ m/s $\approx 3 \cdot 10^8$ m/s )
 
-```{r, child=c('exe/atome/55.Rmd')}
-```
+{{< include exe/atome/55.qmd >}}
 
 \newpage
 
@@ -207,8 +196,7 @@ La plupart des éléments sont présents dans la nature sous forme d'un mélange
 
 On peut déterminer la masse atomique d'un élément, en additionnant les masses de ses isotopes multipliées par leurs abondances relatives.
 
-```{r, child=c('exe/atome/60.Rmd')}
-```
+{{< include exe/atome/60.qmd >}}
 
 ## La mole et le nombre d'Avogadro
 
@@ -239,22 +227,17 @@ Table: Unités de comptage. {#tbl-unites-de-comptage}
 
 Une mole d'atomes, une mole de molécules, ou une mole de quoi que ce soit contiennent toutes $6.022\cdot10^{23}$ objets.
 
-```{r, child=c('exe/atome/70.Rmd')}
-```
+{{< include exe/atome/70.qmd >}}
 
-```{r, child=c('exe/atome/80.Rmd')}
-```
+{{< include exe/atome/80.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/atome/90.Rmd')}
-```
+{{< include exe/atome/90.qmd >}}
 
 ## La masse molaire atomique
 
-```{r fig-uma-masse-molaire,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Relation entre unité de masse atomique et masse molaire."}
-knitr::include_graphics(c("images/uma-masse-molaire.png"))
-```
+![Relation entre unité de masse atomique et masse molaire.](images/uma-masse-molaire.png){#fig-uma-masse-molaire width="67%"}
 
 ::: {.tcolorbox data-latex=""}
 
@@ -277,8 +260,7 @@ $$ \begin{split}
 
 $$ M = \frac{m}{n} \qquad \text{ ou } \qquad n = \frac{m}{M} \qquad \text{ ou } \qquad m = n \cdot M $$
 
-```{r, child=c('exe/atome/100.Rmd')}
-```
+{{< include exe/atome/100.qmd >}}
 
 \newpage
 
@@ -298,57 +280,43 @@ $$ M = \frac{m}{n} \qquad \text{ ou } \qquad n = \frac{m}{M} \qquad \text{ ou } 
 
 ## Exercices supplémentaires
 
-```{r, child=c('exe/atome/110.Rmd')}
-```
+{{< include exe/atome/110.qmd >}}
 
-```{r, child=c('exe/atome/120.Rmd')}
-```
+{{< include exe/atome/120.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/atome/130.Rmd')}
-```
+{{< include exe/atome/130.qmd >}}
 
-```{r, child=c('exe/atome/140.Rmd')}
-```
+{{< include exe/atome/140.qmd >}}
 
-```{r, child=c('exe/atome/150.Rmd')}
-```
+{{< include exe/atome/150.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/atome/160.Rmd')}
-```
+{{< include exe/atome/160.qmd >}}
 
-```{r, child=c('exe/atome/170.Rmd')}
-```
+{{< include exe/atome/170.qmd >}}
 
-```{r, child=c('exe/atome/180.Rmd')}
-```
+{{< include exe/atome/180.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/atome/190.Rmd')}
-```
+{{< include exe/atome/190.qmd >}}
 
-```{r, child=c('exe/atome/200.Rmd')}
-```
+{{< include exe/atome/200.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/atome/210.Rmd')}
-```
+{{< include exe/atome/210.qmd >}}
 
-```{r, child=c('exe/atome/220.Rmd')}
-```
+{{< include exe/atome/220.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/atome/230.Rmd')}
-```
+{{< include exe/atome/230.qmd >}}
 
-```{r, child=c('exe/atome/240.Rmd')}
-```
+{{< include exe/atome/240.qmd >}}
 
 \newpage
 

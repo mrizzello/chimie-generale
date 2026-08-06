@@ -47,13 +47,11 @@ Dans le cas d'une réaction totale, en faisant réagir une mole de dichlore et d
 
 La quantité de matière avant la réaction est égale à la quantité de matière après la réaction (46 g + 70.9 g = 116.9 g). La loi de conservation de la masse est respectée (ouf!).
 
-```{r, child=c('exe/stoechiometrie/10.Rmd')}
-```
+{{< include exe/stoechiometrie/10.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/stoechiometrie/20.Rmd')}
-```
+{{< include exe/stoechiometrie/20.qmd >}}
 
 ## Conditions stœchiométriques et réactif limitant
 
@@ -96,8 +94,7 @@ Imaginons maintenant de faire réagir 5 moles d'aluminium avec 3 moles de dibrom
 - Le réactif en excès sera l'aluminium et il en restera 3 moles qui n'auront pas réagit.
 - La réaction formera 2 moles de bromure d'aluminium dû à la quantité de réactif limitant.
 
-```{r, child=c('exe/stoechiometrie/30.Rmd')}
-```
+{{< include exe/stoechiometrie/30.qmd >}}
 
 ## Le rendement d'une réaction
 
@@ -111,11 +108,9 @@ $\eta$ : exprimé en pourcentage massique ou molaire %
 
 \newpage
 
-```{r, child=c('exe/stoechiometrie/40.Rmd')}
-```
+{{< include exe/stoechiometrie/40.qmd >}}
 
-```{r, child=c('exe/stoechiometrie/45.Rmd')}
-```
+{{< include exe/stoechiometrie/45.qmd >}}
 
 \newpage
 
@@ -128,30 +123,23 @@ $\eta$ : exprimé en pourcentage massique ou molaire %
 
 ## Exercices supplémentaires
 
-```{r, child=c('exe/stoechiometrie/50.Rmd')}
-```
+{{< include exe/stoechiometrie/50.qmd >}}
 
-```{r, child=c('exe/stoechiometrie/60.Rmd')}
-```
+{{< include exe/stoechiometrie/60.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/stoechiometrie/70.Rmd')}
-```
+{{< include exe/stoechiometrie/70.qmd >}}
 
-```{r, child=c('exe/stoechiometrie/80.Rmd')}
-```
+{{< include exe/stoechiometrie/80.qmd >}}
 
-```{r, child=c('exe/stoechiometrie/90.Rmd')}
-```
+{{< include exe/stoechiometrie/90.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/stoechiometrie/100.Rmd')}
-```
+{{< include exe/stoechiometrie/100.qmd >}}
 
-```{r, child=c('exe/stoechiometrie/110.Rmd')}
-```
+{{< include exe/stoechiometrie/110.qmd >}}
 
 \newpage
 

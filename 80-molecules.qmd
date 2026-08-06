@@ -43,11 +43,9 @@ Table: Géométries VSEPR. {#tbl-tab-vsepr}
 
 Il existe des géométries pour des valeurs de NS supérieures à 5, mais elles ne sont pas représentées dans ce tableau.
 
-```{r, child=c('exe/molecules/10.Rmd')}
-```
+{{< include exe/molecules/10.qmd >}}
 
-```{r, child=c('exe/molecules/130.Rmd')}
-```
+{{< include exe/molecules/130.qmd >}}
 
 \newpage
 
@@ -57,9 +55,7 @@ La différence d'électronégativité entre les éléments chimiques qui compose
 
 Un dipôle peut se créer entre deux ions dans une liaison ionique ou entre des atomes dans une liaison covalente. Plus la différence d'électronégativité est grande, plus le moment dipolaire est important. La distance entre les charges et la géométrie de la molécule sont des facteurs qui influencent l'intensité du **moment dipolaire**. Le moment dipolaire est une mesure de la **polarité d'une molécule**.
 
-```{r fig-dipole-0,echo=FALSE,out.width="60%",fig.show="hold",fig.align="center",fig.cap="Variation de l'intensité du dipôle"}
-knitr::include_graphics(c("images/dipole-0.png"))
-```
+![Variation de l'intensité du dipôle](images/dipole-0.png){#fig-dipole-0 width="60%"}
 
 La polarité a une influence sur la réactivité chimique des molécules mais également sur certaines propriétés physiques comme la solubilité ou les températures de fusion et d'ébullition.
 
@@ -67,17 +63,13 @@ La polarité a une influence sur la réactivité chimique des molécules mais é
 
 Mathématiquement, les moments dipolaires sont des vecteurs. Ils possèdent une intensité, une direction et un sens. Pour des molécules qui comportent plusieurs covalences polaires, on calcule le moment dipolaire net comme la somme vectorielle des moments dipolaires des différentes liaisons.
 
-```{r fig-dipole-1,echo=FALSE,out.width="60%",fig.show="hold",fig.align="center",fig.cap="Dipôle résultant de l'addition des polarités des liaisons"}
-knitr::include_graphics(c("images/dipole-1.png"))
-```
+![Dipôle résultant de l'addition des polarités des liaisons](images/dipole-1.png){#fig-dipole-1 width="60%"}
 
 L'ammoniac ($NH_3$), l'eau ($H_2O$) et le fluorure d'hydrogène ($HF$) sont des molécules polaires. Dans ces molécules une charge partielle négative est portée par les atomes d'azote, d'oxygène ou de fluor car ces atomes sont plus électronégatifs que l'hydrogène alors que ce dernier porte une charge partielle positive.
 
 Les molécules polaires vont se comporter comme de petits aimants. Elles s'alignent les unes par rapport aux autres. L'extrémité négative d'une molécule attirant l'extrémité positive d'une autre molécule. De la même manière, les molécules polaires sont attirées par les ions. L'extrémité négative d'une molécule polaire sera attirée par un cation et l'extrémité positive sera attirée par un anion. Si elles sont placées dans un champs électrique, les molécules polaires vont s'orienter de manière préférentielle.
 
-```{r fig-dipole-3,echo=FALSE,out.width="60%",fig.show="hold",fig.align="center",fig.cap="Comportement des molécules polaires"}
-knitr::include_graphics(c("images/dipole-3.png"))
-```
+![Comportement des molécules polaires](images/dipole-3.png){#fig-dipole-3 width="60%"}
 
 ### Molécules non-polaires
 
@@ -85,12 +77,9 @@ On dit des molécules qui ne contiennent pas de liaisons polaires qu'elles sont 
 
 Certaines molécules sont symétriques. La symétrie de ces molécules peut les rendre non polaires bien qu'elles contiennent des liaisons polaires. Les polarités de chaque liaison s'annulent à cause de la géométrie de la molécule.
 
-```{r fig-dipole-4,echo=FALSE,out.width="50%",fig.show="hold",fig.align="center",fig.cap="Molécules non polaires"}
-knitr::include_graphics(c("images/dipole-4.png"))
-```
+![Molécules non polaires](images/dipole-4.png){#fig-dipole-4 width="50%"}
 
-```{r, child=c('exe/molecules/140.Rmd')}
-```
+{{< include exe/molecules/140.qmd >}}
 
 \newpage
 
@@ -106,9 +95,7 @@ Ce sont des forces d'attraction de **courte durée** dues au mouvement constant 
 
 Dans le cas d'une molécule non polaire, en moyenne dans le temps, les électrons sont répartis uniformément dans la molécule. Par contre, de manière instantanée, il peut y avoir plus d'électrons à une extrémité de la molécule qu'à l'autre. À cet instant, la molécule présente une polarité de courte durée. Les électrons des molécules voisines sont attirés par l'extrémité positive de la molécule polarisée, ce qui entraîne une polarisation de la molécule voisine et la création d'une force d'attraction. Toutes les molécules subissent des forces de dispersion de London.
 
-```{r fig-forces-london,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Apparition des forces de dispersion"}
-knitr::include_graphics(c("images/forces-london.png"))
-```
+![Apparition des forces de dispersion](images/forces-london.png){#fig-forces-london width="67%"}
 
 ### Les interactions dipôle-dipôle
 
@@ -116,9 +103,7 @@ Ce sont les forces d'attraction entre les pôles positifs et négatifs des molé
 
 Les molécules polaires présentent un moment dipolaire net **permanent**. Les extrémités positives et négatives de différentes molécules sont attirées l'une vers l'autre par ce que l'on appelle une interaction dipôle-dipôle.
 
-```{r fig-dipole-dipole,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Molécules polaires et interaction dipôle-dipôle."}
-knitr::include_graphics(c("images/dipole-dipole.png"))
-```
+![Molécules polaires et interaction dipôle-dipôle.](images/dipole-dipole.png){#fig-dipole-dipole width="67%"}
 
 ### La liaison hydrogène (ou pont hydrogène)
 
@@ -126,16 +111,19 @@ C'est la force d'attraction entre un atome d'hydrogène lié à un atome électr
 
 La liaison hydrogène est un type particulier d'interaction dipôle-dipôle. Les liaisons O-H, N-H et F-H sont très polaires. Il en résulte des attractions remarquablement fortes. L'eau, en particulier, est capable de former un vaste réseau tridimensionnel de liaisons hydrogène car chaque molécule possède deux hydrogènes et un atome électronégatif voisin.
 
-```{r fig-eau-liaison-hydrogene,echo=FALSE,out.width="25%",fig.show="hold",fig.align="center",fig.cap="La liaison hydrogène entre les molécules d'eau"}
-#| layout-ncol: 3
-knitr::include_graphics(c("images/ice-0.png", "images/ice-tetra.png", "images/ice.png"))
-```
+::: {#fig-eau-liaison-hydrogene layout-ncol=3}
+![](images/ice-0.png)
+
+![](images/ice-tetra.png)
+
+![](images/ice.png)
+
+La liaison hydrogène entre les molécules d'eau
+:::
 
 Les forces intermoléculaires influencent les propriétés d'une substance par leurs interactions entre molécules. Mais ces mêmes forces peuvent également agir entre différentes parties d'une même molécule. Ces interactions peuvent par exemple influencer la forme de macro-molécules biologiques comme les protéines et les acides nucléiques.
 
-```{r fig-dna,echo=FALSE,out.width="100%",fig.show="hold",fig.align="center",fig.cap="Paires de bases, liaisons hydrogène et ADN."}
-knitr::include_graphics(c("images/dna.png"))
-```
+![Paires de bases, liaisons hydrogène et ADN.](images/dna.png){#fig-dna width="100%"}
 
 ### Résumé des forces intermoléculaires
 
@@ -149,12 +137,9 @@ Table: Comparatif des forces intermoléculaires. {#tbl-comparatif-intermoleculai
 
 \newpage
 
-```{r fig-forces-intermoleculaires-resume,echo=FALSE,out.width="100%",fig.show="hold",fig.align="center",fig.cap="Résumé des forces intermoléculaires"}
-knitr::include_graphics(c("images/forces-intermoleculaires-resume.png"))
-```
+![Résumé des forces intermoléculaires](images/forces-intermoleculaires-resume.png){#fig-forces-intermoleculaires-resume width="100%"}
 
-```{r, child=c('exe/molecules/150.Rmd')}
-```
+{{< include exe/molecules/150.qmd >}}
 
 \newpage
 
@@ -171,19 +156,15 @@ knitr::include_graphics(c("images/forces-intermoleculaires-resume.png"))
 
 ## Exercices supplémentaires
 
-```{r, child=c('exe/molecules/160.Rmd')}
-```
+{{< include exe/molecules/160.qmd >}}
 
-```{r, child=c('exe/molecules/170.Rmd')}
-```
+{{< include exe/molecules/170.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/molecules/180.Rmd')}
-```
+{{< include exe/molecules/180.qmd >}}
 
-```{r, child=c('exe/molecules/190.Rmd')}
-```
+{{< include exe/molecules/190.qmd >}}
 
 \newpage
 

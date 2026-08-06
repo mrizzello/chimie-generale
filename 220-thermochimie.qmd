@@ -84,8 +84,7 @@ Lors d'un changement physique ou chimique, il n'y a pas de création ou de destr
 
 La loi de la conservation de l'énergie stipule que l'énergie totale d'un système isolé est constante. Cela signifie qu'à l'intérieur d'un système isolé, l'énergie peut être modifiée ou transformée, mais qu'elle ne peut pas être créée ou détruite. La quantité totale d'énergie reste invariable.
 
-```{r, child=c('exe/thermochimie/05.Rmd')}
-```
+{{< include exe/thermochimie/05.qmd >}}
 
 ## Calorimétrie
 
@@ -110,16 +109,13 @@ C_p & \text{: capacité thermique}\ \mathrm{J/(K \cdot g)} \\
 \end{split}
 $$
 
-```{r, child=c('exe/thermochimie/10.Rmd')}
-```
+{{< include exe/thermochimie/10.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/thermochimie/20.Rmd')}
-```
+{{< include exe/thermochimie/20.qmd >}}
 
-```{r, child=c('exe/thermochimie/30.Rmd')}
-```
+{{< include exe/thermochimie/30.qmd >}}
 
 ### Le calorimètre
 
@@ -305,14 +301,11 @@ On a donc le choix de la substance de référence, mais il faut le mentionner da
 
 \newpage
 
-```{r, child=c('exe/thermochimie/50.Rmd')}
-```
+{{< include exe/thermochimie/50.qmd >}}
 
-```{r, child=c('exe/thermochimie/60.Rmd')}
-```
+{{< include exe/thermochimie/60.qmd >}}
 
-```{r, child=c('exe/thermochimie/70.Rmd')}
-```
+{{< include exe/thermochimie/70.qmd >}}
 
 \newpage
 
@@ -332,8 +325,7 @@ $$
 
 $n_p$ et $n_r$ sont les coéfficients stoechiométriques des réactifs et produits de la réaction étudiée.
 
-```{r, child=c('exe/thermochimie/90.Rmd')}
-```
+{{< include exe/thermochimie/90.qmd >}}
 
 ## La loi de Hess
 
@@ -370,9 +362,7 @@ $$
 \end{split}
 $$
 
-```{r fig-enthalpie-2,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Diagramme d'enthalpie de la combustion du méthane."}
-knitr::include_graphics(c("images/Enthalpie-2.png"))
-```
+![Diagramme d'enthalpie de la combustion du méthane.](images/Enthalpie-2.png){#fig-enthalpie-2 width="67%"}
 \newpage
 
 Pour déterminer la chaleur d'une réaction par la loi de Hess, on doit suivre certaines règles.
@@ -421,12 +411,9 @@ $$
 \end{split}
 $$
 
-```{r fig-enthalpie-3,echo=FALSE,out.width="67%",fig.show="hold",fig.align="center",fig.cap="Diagramme d'enthalpie de la combustion du propane."}
-knitr::include_graphics(c("images/Enthalpie-3.png"))
-```
+![Diagramme d'enthalpie de la combustion du propane.](images/Enthalpie-3.png){#fig-enthalpie-3 width="67%"}
 
-```{r, child=c('exe/thermochimie/100.Rmd')}
-```
+{{< include exe/thermochimie/100.qmd >}}
 
 \newpage
 
@@ -445,17 +432,13 @@ knitr::include_graphics(c("images/Enthalpie-3.png"))
 
 ## Exercices supplémentaires
 
-```{r, child=c('exe/thermochimie/80.Rmd')}
-```
+{{< include exe/thermochimie/80.qmd >}}
 
-```{r, child=c('exe/thermochimie/110.Rmd')}
-```
+{{< include exe/thermochimie/110.qmd >}}
 
-```{r, child=c('exe/thermochimie/120.Rmd')}
-```
+{{< include exe/thermochimie/120.qmd >}}
 
-```{r, child=c('exe/thermochimie/130.Rmd')}
-```
+{{< include exe/thermochimie/130.qmd >}}
 
 ```{r, echo=FALSE}
 if (knitr::is_latex_output()) {

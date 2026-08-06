@@ -22,9 +22,7 @@ Dans toute réaction chimique, les substances d'origine sont appelées **les ré
 
 $$ \text{Réactifs} \longrightarrow \text{Produits} $$
 
-```{r fig-reactions-1,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Exemple de réaction"}
-knitr::include_graphics(c("images/reactions-1.png"))
-```
+![Exemple de réaction](images/reactions-1.png){#fig-reactions-1 width="45%"}
 Pour savoir si une réaction chimique a eu lieu il faut qu'une ou plusieurs substances aient subi un changement de composition. La preuve d'un changement ne peut être fournie que par une analyse chimique des produits. Cependant, certains changements physiques observables permettent généralement d'indiquer si une réaction chimique a eu lieu.
 
 \newpage
@@ -54,9 +52,7 @@ Pour qu'une réaction chimique ait lieu:
 
 La collision entre les réactifs (atomes, ions ou molécules) fournit l'énergie nécessaire pour briser des liaisons et pour en former des nouvelles.
 
-```{r fig-collision,echo=FALSE,out.width="80%",fig.show="hold",fig.align="center",fig.cap="Orientation des collisions lors d'une réaction"}
-knitr::include_graphics(c("images/collision.png"))
-```
+![Orientation des collisions lors d'une réaction](images/collision.png){#fig-collision width="80%"}
 
 **Plus la probabilité de collision est grande, plus la vitesse de réaction est élevée.**  
 
@@ -78,8 +74,7 @@ Au XVIIIe siècle, Antoine Laurent Lavoisier (1743-1794), a établi un principe 
 
 Il y a une égale quantité de matière avant et après une réaction, aucun atome n'apparaît et aucun atome ne disparaît. On a toujours les mêmes atomes mais combinés de façon différente.
 
-```{r, child=c('exe/reactions-chimiques/15.Rmd')}
-```
+{{< include exe/reactions-chimiques/15.qmd >}}
 
 ## Équations chimiques
 
@@ -107,8 +102,7 @@ L'état dans lequel se trouvent les réactifs et les produits peut être indiqu�
 
 \newpage
 
-```{r, child=c('exe/reactions-chimiques/05.Rmd')}
-```
+{{< include exe/reactions-chimiques/05.qmd >}}
 
 ## Écrire une équation chimique
 
@@ -159,8 +153,7 @@ Dans une équation chimique, les nombres stoechiométriques indiquent la quantit
 
 Les nombres stoechiométriques sont également appelés **coefficients stoechiométriques**.
 
-```{r, child=c('exe/reactions-chimiques/10.Rmd')}
-```
+{{< include exe/reactions-chimiques/10.qmd >}}
 
 \newpage
 
@@ -222,17 +215,13 @@ Une fois que les réactifs sont transformés en produits, il est impossible de r
 
 Une réaction exothermique est une réaction qui **libère** de la chaleur.
 
-```{r fig-chaleur-1,echo=FALSE,out.width="33%",fig.show="hold",fig.align="center",fig.cap="Profil énergétique d'une réaction exothermique"}
-knitr::include_graphics(c("images/chaleur-1.png"))
-```
+![Profil énergétique d'une réaction exothermique](images/chaleur-1.png){#fig-chaleur-1 width="33%"}
 
 ### Réaction endothermique
 
 Une réaction endothermique est une réaction qui **absorbe** de la chaleur.
 
-```{r fig-chaleur-2,echo=FALSE,out.width="33%",fig.show="hold",fig.align="center",fig.cap="Profil énergétique d'une réaction endothermique"}
-knitr::include_graphics(c("images/chaleur-2.png"))
-```
+![Profil énergétique d'une réaction endothermique](images/chaleur-2.png){#fig-chaleur-2 width="33%"}
 
 **L'énergie d'activation** ($E_a$) est l’énergie minimale qu’il faut fournir pour qu’une réaction se produise.
 
@@ -240,9 +229,7 @@ knitr::include_graphics(c("images/chaleur-2.png"))
 
 ### Les catalyseurs
 
-```{r fig-catalyseur,echo=FALSE,out.width="33%",fig.show="hold",fig.align="center",fig.cap="Profil énergétique d'une réaction avec catalyseur"}
- knitr::include_graphics(c("images/catalyseur.png"))
-```
+![Profil énergétique d'une réaction avec catalyseur](images/catalyseur.png){#fig-catalyseur width="33%"}
 
 Un catalyseur permet de modifier la vitesse d'une réaction sans faire partie des réactifs ou des produits. Le catalyseur ne participe pas à la réaction; on le retrouve intact à la fin de celle-ci.
 
@@ -250,8 +237,7 @@ Le rôle du catalyseur est d'abaisser l'énergie d'activation nécessaire à la 
 
 Il existe des substances qui ont un effet inverse à celui des catalyseurs; elles diminuent la vitesse de réaction. Ces substances agissent en augmentant l'énergie d'activation de la réaction. Ces substances qui permettent de ralentir certains processus sont appelées des **inhibiteurs**.
 
-```{r, child=c('exe/reactions-chimiques/25.Rmd')}
-```
+{{< include exe/reactions-chimiques/25.qmd >}}
 
 \newpage
 
@@ -266,27 +252,21 @@ Il existe des substances qui ont un effet inverse à celui des catalyseurs; elle
 
 ## Exercices supplémentaires
 
-```{r, child=c('exe/reactions-chimiques/20.Rmd')}
-```
+{{< include exe/reactions-chimiques/20.qmd >}}
 
-```{r, child=c('exe/reactions-chimiques/30.Rmd')}
-```
+{{< include exe/reactions-chimiques/30.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/reactions-chimiques/40.Rmd')}
-```
+{{< include exe/reactions-chimiques/40.qmd >}}
 
-```{r, child=c('exe/reactions-chimiques/50.Rmd')}
-```
+{{< include exe/reactions-chimiques/50.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/reactions-chimiques/60.Rmd')}
-```
+{{< include exe/reactions-chimiques/60.qmd >}}
 
-```{r, child=c('exe/reactions-chimiques/70.Rmd')}
-```
+{{< include exe/reactions-chimiques/70.qmd >}}
 
 \newpage
 

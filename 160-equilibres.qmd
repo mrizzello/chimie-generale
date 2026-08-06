@@ -41,24 +41,29 @@ $$
 \end{split}
 $$
 
-```{r fig-equilibres-concentrations-1,echo=FALSE,out.width="33%",fig.show="hold",fig.align="center",fig.cap="Profiles de la concentration en fonction du temps de la réaction directe et indirecte"}
-#| layout-ncol: 2
-knitr::include_graphics(c("images/equilibres-concentrations-1a.png","images/equilibres-concentrations-1b.png"))
-```
+::: {#fig-equilibres-concentrations-1 layout-ncol=2}
+![](images/equilibres-concentrations-1a.png)
+
+![](images/equilibres-concentrations-1b.png)
+
+Profiles de la concentration en fonction du temps de la réaction directe et indirecte
+:::
 
 Le terme équilibre est généralement employé pour décrire un état sans changement. Ce type d'équilibre est un état d'**équilibre statique** puisqu'il caractérise l'état d'un système immobile. Cependant, un système à l'équilibre n'est pas toujours sans changement, comme, justement, un équilibre chimique.
 
 À l'échelle macroscopique, on ne voit pas de changement alors qu'à l'échelle sub-microscopique les réactions directes et indirectes continuent d'avoir lieu. **Les vitesses directe et indirecte sont non-nulles et égales**.
 
-```{r fig-equilibres-vitesses-1,echo=FALSE,out.width="33%",fig.show="hold",fig.align="center",fig.cap="Profiles de la vitesse de réaction en fonction du temps de la réaction directe et indirecte"}
-#| layout-ncol: 2
-knitr::include_graphics(c("images/equilibres-vitesses-1a.png","images/equilibres-vitesses-1b.png"))
-```
+::: {#fig-equilibres-vitesses-1 layout-ncol=2}
+![](images/equilibres-vitesses-1a.png)
+
+![](images/equilibres-vitesses-1b.png)
+
+Profiles de la vitesse de réaction en fonction du temps de la réaction directe et indirecte
+:::
 
 Un état d'équilibre chimique est appelé état d'**équilibre dynamique** car, bien que les concentrations de réactifs et de produits ne varient pas avec le temps, les réactions directe et indirecte continuent de se produire.
 
-```{r, child=c('exe/equilibres/05.Rmd')}
-```
+{{< include exe/equilibres/05.qmd >}}
 
 ## Le quotient de réaction
 
@@ -99,8 +104,7 @@ $$
   K = \frac{|C|^{c} \cdot |D|^{d}}{|A|^{a} \cdot |B|^{b}}
 $$
 
-```{r, child=c('exe/equilibres/60.Rmd')}
-```
+{{< include exe/equilibres/60.qmd >}}
 
 ### Équilibre homogène et hétérogène
 
@@ -108,8 +112,7 @@ Lorsque toutes les substances participant à la réaction sont dans la même pha
 
 **Lors du calcul des constantes d'équilibre, les solides et les liquides purs ne sont pas pris en compte car leur concentration ne change pas au cours de la réaction.**
 
-```{r, child=c('exe/equilibres/70.Rmd')}
-```
+{{< include exe/equilibres/70.qmd >}}
 
 \newpage
 
@@ -148,8 +151,7 @@ Pour exprimer la constante d'équilibre :
 | :------------: | :------------------: |
 |     $K_c = \frac{|C|^{c} \cdot |D|^{d}}{|A|^{a} \cdot |B|^{b}}$      |        $K_p = \frac{P_C^{c} \cdot P_D^{d}}{P_A^{a} \cdot P_B^{b}}$         |
 
-```{r, child=c('exe/equilibres/10.Rmd')}
-```
+{{< include exe/equilibres/10.qmd >}}
 
 \newpage
 
@@ -197,11 +199,9 @@ $$
 
 \newpage
 
-```{r, child=c('exe/equilibres/20.Rmd')}
-```
+{{< include exe/equilibres/20.qmd >}}
 
-```{r, child=c('exe/equilibres/25.Rmd')}
-```
+{{< include exe/equilibres/25.qmd >}}
 
 ## Évolution spontanée et principe de Le Châtelier
 
@@ -236,10 +236,13 @@ Selon le principe de Le Châtelier :
 - L'ajout d'un réactif ou l'élimination d'un produit entraîne un déplacement de l'équilibre vers la droite.
 - L'ajout d'un produit ou l'élimination d'un réactif entraîne un déplacement de l'équilibre vers la gauche.
 
-```{r fig-equilibres-concentrations-2,echo=FALSE,out.width="45%",fig.show="hold",fig.align="center",fig.cap="Effet de l'ajout/élimination de réactifs ou de produits sur le sens de la réaction"}
-#| layout-ncol: 2
-knitr::include_graphics(c("images/equilibres-concentrations-2a.png","images/equilibres-concentrations-2b.png"))
-```
+::: {#fig-equilibres-concentrations-2 layout-ncol=2}
+![](images/equilibres-concentrations-2a.png)
+
+![](images/equilibres-concentrations-2b.png)
+
+Effet de l'ajout/élimination de réactifs ou de produits sur le sens de la réaction
+:::
 
 - Lorsqu'on ajoute une substance, la réaction déplace l'équilibre de manière à consommer une partie de cette substance.
 - Lorsqu'on élimine une substance, la réaction déplace l'équilibre de manière à produire d'avantage de cette substance.
@@ -258,9 +261,7 @@ Imaginons un cylindre fermé avec un piston mobile comme couvercle. L'équilibre
 
 \newpage
 
-```{r fig-equilibres-pressions-1,echo=FALSE,out.width="75%",fig.show="hold",fig.align="center",fig.cap="Effet de la diminution du volume (augmentation de la pression) sur l'équilibre"}
-knitr::include_graphics(c("images/equilibres-pressions-1.png"))
-```
+![Effet de la diminution du volume (augmentation de la pression) sur l'équilibre](images/equilibres-pressions-1.png){#fig-equilibres-pressions-1 width="75%"}
 
 La réaction globale présente moins de moles de gaz du côté des produits. L'équilibre sera donc déplacé vers la gauche.
 
@@ -299,9 +300,7 @@ En résumé :
 
 **Une diminution de la température favorise le sens exothermique (direct ou indirect) d'un équilibre chimique.**
 
-```{r fig-equilibres-temperature-1,echo=FALSE,out.width="75%",fig.show="hold",fig.align="center",fig.cap="Effet de l'ajout ou le retrait de chaleur sur l'équilibre"}
-knitr::include_graphics(c("images/equilibres-temperature-1.png"))
-```
+![Effet de l'ajout ou le retrait de chaleur sur l'équilibre](images/equilibres-temperature-1.png){#fig-equilibres-temperature-1 width="75%"}
 
 ### Quotient de réaction et évolution d'un système
 
@@ -323,11 +322,9 @@ Si un catalyseur est ajouté à un mélange réactionnel qui n'est pas à l'équ
 
 \newpage
 
-```{r, child=c('exe/equilibres/30.Rmd')}
-```
+{{< include exe/equilibres/30.qmd >}}
 
-```{r, child=c('exe/equilibres/40.Rmd')}
-```
+{{< include exe/equilibres/40.qmd >}}
 
 \newpage
 
@@ -342,29 +339,23 @@ Si un catalyseur est ajouté à un mélange réactionnel qui n'est pas à l'équ
 
 ## Exercices supplémentaires
 
-```{r, child=c('exe/equilibres/80.Rmd')}
-```
+{{< include exe/equilibres/80.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/equilibres/50.Rmd')}
-```
+{{< include exe/equilibres/50.qmd >}}
 
-```{r, child=c('exe/equilibres/90.Rmd')}
-```
+{{< include exe/equilibres/90.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/equilibres/100.Rmd')}
-```
+{{< include exe/equilibres/100.qmd >}}
 
-```{r, child=c('exe/equilibres/110.Rmd')}
-```
+{{< include exe/equilibres/110.qmd >}}
 
 \newpage
 
-```{r, child=c('exe/equilibres/120.Rmd')}
-```
+{{< include exe/equilibres/120.qmd >}}
 
 \newpage
 
