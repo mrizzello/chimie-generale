@@ -9,6 +9,8 @@ book:
   date: today
   date-format: "DD.MM.YYYY"
   description: "Support du cours de chimie générale | Maturité gymnasiale"
+  sidebar:
+    style: docked
   chapters:
     - index.qmd
     # - 10-introduction.qmd
