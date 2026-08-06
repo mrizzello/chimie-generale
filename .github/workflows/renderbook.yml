@@ -2,11 +2,11 @@ on:
   push:
     branches: [main, master]
 
-name: renderbook
+name: render-book
 
 jobs:
-  bookdown:
-    name: Render-Book
+  quarto:
+    name: Render Quarto Book
     runs-on: macOS-latest
     steps:
       - uses: actions/checkout@v3
@@ -28,7 +28,7 @@ jobs:
           tlmgr update --self --all
       - name: Install latex packages
         run: tlmgr install tcolorbox tabto-ltx booktabs amscls cancel was mhchem siunitx exercise needspace fancyhdr tools
-      - name: Render Book
+      - name: Render book with Quarto
         run: quarto render
       - uses: actions/upload-artifact@v4
         with:
@@ -37,7 +37,7 @@ jobs:
   
   checkout-and-deploy:
    runs-on: ubuntu-latest
-   needs: bookdown
+   needs: quarto
    steps:
      - name: Checkout
        uses: actions/checkout@master
@@ -48,7 +48,7 @@ jobs:
          name: _book # optional
          # Destination path
          path: _book # optional
-     - name: Deploy Gitbook to gh-pages
+     - name: Deploy site to gh-pages
        uses: JamesIves/github-pages-deploy-action@4.1.5
        with:
          branch: gh-pages

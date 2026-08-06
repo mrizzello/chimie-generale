@@ -17,8 +17,21 @@ Cet ouvrage est placé sous licence Creative Commons
 
 ### Description technique
 
-Le contenu est rédigé sur la base du package [bookdown](https://bookdown.org/). Bookdown est un paquet R open-source qui facilite la rédaction de livres, d'articles et de rapports à l'aide de la syntaxe "R Markdown". En se basant sur le contenu rédigé dans ce format, ce package permet de générer principalement trois formats de sortie : HTML, LaTeX/PDF et les livres électroniques.
+Le contenu est rédigé sur la base de [Quarto](https://quarto.org/), un système de publication scientifique open-source. En se basant sur le contenu rédigé au format Markdown/knitr, Quarto permet de générer le manuel dans plusieurs formats de sortie, notamment HTML et LaTeX/PDF.
 
 ### Générer un exemplaire
 
-TODO (en attendant : [https://github.com/rstudio/bookdown](https://github.com/rstudio/bookdown))
+1. Installer [Quarto CLI](https://quarto.org/docs/get-started/) ainsi qu'une distribution TeX Live (`quarto install tinytex`) pour la sortie PDF.
+2. Depuis la racine du dépôt, lancer :
+
+   ```sh
+   quarto render
+   ```
+
+   Les fichiers générés sont placés dans `_book/`.
+
+   Pour prévisualiser le manuel en HTML avec rechargement automatique pendant la rédaction :
+
+   ```sh
+   quarto preview
+   ```
