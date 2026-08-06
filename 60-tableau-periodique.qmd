@@ -273,7 +273,7 @@ $$ \underbrace{1s^{2}~2s^{2}~2p^{6}}_{\text{Néon}}~3s^{2}~3p^{5} \text{ devient
 |   V   |    N    | [He] $2s^{2}~2p^{3}$             |    P    | [Ne] $3s^{2}~3p^{3}$              |
 |  VI   |    O    | [He] $2s^{2}~2p^{4}$             |    S    | [Ne] $3s^{2}~3p^{4}$              |
 |  VII  |    F    | [He] $2s^{2}~2p^{5}$             |   Cl    | [Ne] $3s^{2}~3p^{5}$              |
-| VIII  |   Ne    | [He] $2s^{2}~2p^{6} \equiv$ [Ne] |   Ar    | [He] $3s^{2}~3p^{6} \equiv $ [Ar] |
+| VIII  |   Ne    | [He] $2s^{2}~2p^{6} \equiv$ [Ne] |   Ar    | [He] $3s^{2}~3p^{6} \equiv$ [Ar] |
 
 Table: Configuration électronique des deux premières périodes. {#tbl-conf-elec-premieres-periodes}
 
