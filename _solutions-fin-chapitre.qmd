@@ -1,0 +1,4 @@
+```{=latex}
+\section{Solutions des exercices}
+\shipoutAnswer
+```

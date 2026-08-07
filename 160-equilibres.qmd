@@ -359,8 +359,4 @@ Si un catalyseur est ajouté à un mélange réactionnel qui n'est pas à l'équ
 
 \newpage
 
-```{r, echo=FALSE}
-if (knitr::is_latex_output()) {
-  knitr::asis_output('\\section{Solutions des exercices} \\shipoutAnswer')
-}
-```
+{{< include _solutions-fin-chapitre.qmd >}}

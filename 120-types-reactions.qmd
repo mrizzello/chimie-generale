@@ -268,8 +268,4 @@ $$ \begin{split}
 
 {{< include exe/types-reactions/210.qmd >}}
 
-```{r, echo=FALSE}
-if (knitr::is_latex_output()) {
-  knitr::asis_output('\\section{Solutions des exercices} \\shipoutAnswer')
-}
-```
+{{< include _solutions-fin-chapitre.qmd >}}

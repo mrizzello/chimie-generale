@@ -232,8 +232,4 @@ Table: Exemples de procédés catalytiques et leurs catalyseurs {#tbl-tab-cataly
 
 \newpage
 
-```{r, echo=FALSE}
-if (knitr::is_latex_output()) {
-  knitr::asis_output('\\section{Solutions des exercices} \\shipoutAnswer')
-}
-```
+{{< include _solutions-fin-chapitre.qmd >}}

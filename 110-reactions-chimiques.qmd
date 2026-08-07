@@ -270,8 +270,4 @@ Il existe des substances qui ont un effet inverse à celui des catalyseurs; elle
 
 \newpage
 
-```{r, echo=FALSE}
-if (knitr::is_latex_output()) {
-  knitr::asis_output('\\section{Solutions des exercices} \\shipoutAnswer')
-}
-```
+{{< include _solutions-fin-chapitre.qmd >}}
