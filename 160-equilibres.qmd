@@ -63,6 +63,8 @@ Profiles de la vitesse de réaction en fonction du temps de la réaction directe
 
 Un état d'équilibre chimique est appelé état d'**équilibre dynamique** car, bien que les concentrations de réactifs et de produits ne varient pas avec le temps, les réactions directe et indirecte continuent de se produire.
 
+\newpage
+
 {{< include exe/equilibres/05.qmd >}}
 
 ## Le quotient de réaction

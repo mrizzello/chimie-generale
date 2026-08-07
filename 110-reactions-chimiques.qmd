@@ -23,6 +23,7 @@ Dans toute réaction chimique, les substances d'origine sont appelées **les ré
 $$ \text{Réactifs} \longrightarrow \text{Produits} $$
 
 ![Exemple de réaction](images/reactions-1.png){#fig-reactions-1 width="45%"}
+
 Pour savoir si une réaction chimique a eu lieu il faut qu'une ou plusieurs substances aient subi un changement de composition. La preuve d'un changement ne peut être fournie que par une analyse chimique des produits. Cependant, certains changements physiques observables permettent généralement d'indiquer si une réaction chimique a eu lieu.
 
 \newpage
@@ -125,6 +126,8 @@ Cette équation ne respecte pas le principe de conservation de la masse. Tous le
 
 On équilibre la réaction, en ajoutant des molécules de réactifs ou de produits afin de satisfaire le principe de conservation de la masse. En ajoutant une molécule de dioxygène et une molécule d'eau, le principe de conservation de la masse est respecté.
 
+\newpage
+
 Nous pouvons maintenant ajouter les nombres stoechiométriques pour écrire l'équation équilibrée:
 
 $$ \ce{CH4 + \underline{2} O2 -> CO2 + \underline{2} H2O} $$
@@ -153,9 +156,9 @@ Dans une équation chimique, les nombres stoechiométriques indiquent la quantit
 
 Les nombres stoechiométriques sont également appelés **coefficients stoechiométriques**.
 
-{{< include exe/reactions-chimiques/10.qmd >}}
-
 \newpage
+
+{{< include exe/reactions-chimiques/10.qmd >}}
 
 ## Définitions thermodynamiques
 

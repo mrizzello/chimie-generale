@@ -5,7 +5,9 @@ project:
 book:
   title: "Cours de chimie générale"
   output-file: "chimie-generale"
-  author: "M. Michele Rizzello"
+  author:
+    - "M. Michele Rizzello"
+    - "(Gymnase d'Etoy)"
   date: today
   date-format: "DD.MM.YYYY"
   description: "Support du cours de chimie générale | Maturité gymnasiale"

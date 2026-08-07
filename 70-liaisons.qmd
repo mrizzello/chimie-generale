@@ -137,16 +137,14 @@ Un échantillon de chlorure de sodium ($NaCl$) est constitué d'un très grand n
 Le nombre relatif de cations et d'anions n'est pas toujours le même. Prenons par exemple le fluorure de calcium, $CaF_2$. Il y a deux fois plus d'anions $F^-$ que de cations $Ca^{2+}$, on écrira donc la formule brute $CaF_2$.
 
 ::: {#fig-NaClCaF2 layout-ncol=2}
-![](images/NaCl-crystal.png)
+![](images/NaCl-crystal.png){#fig-NaCl width="50%"}
 
-![](images/CaF2-crystal.png)
+![](images/CaF2-crystal.png){#fig-CaF2 width="50%"}
 
 Réseaux ioniques formés par $NaCl$ et $CaF_2$.
 :::
 
 {{< include exe/liaisons/20.qmd >}}
-
-\newpage
 
 #### Dessiner les liaisons ioniques des composés binaires
 
@@ -191,8 +189,9 @@ La formation d'une liaison covalente se traduit par une plus grande densité él
 
 Dans de nombreuses molécules, pour atteindre un octet complet, les atomes vont partager plus d'une paire d'électrons célibataires. Une liaison covalente peut être **simple**, **double** ou **triple**, selon le nombre de paires d'électrons partagés.
 
-![Exemples de liaisons covalentes simples, doubles et triples](images/liaisons-multiples.png){#fig-liaisons-multiples width="67%"}
 \newpage
+
+![Exemples de liaisons covalentes simples, doubles et triples](images/liaisons-multiples.png){#fig-liaisons-multiples width="67%"}
 
 #### Dessiner les liaisons covalentes des composés binaires
 

@@ -59,8 +59,6 @@ Un mélange est constitué de deux ou plusieurs substances (corps pur simples ou
 
 Les mélanges peuvent être **homogène** ou **hétérogène**. Ces deux termes sont introduits pour qualifier ce qui peut être différencié à l'oeil.
 
-\newpage
-
 ### Les mélanges hétérogènes
 
 ::: {.tcolorbox data-latex=""}
