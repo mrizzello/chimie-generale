@@ -255,8 +255,4 @@ Selon cette équation, plus K est grand, plus $\Delta G^o$ est négatif. Cette �
 
 {{< include exe/thermodynamique/100.qmd >}}
 
-```{r, echo=FALSE}
-if (knitr::is_latex_output()) {
-  knitr::asis_output('\\section{Solutions des exercices} \\shipoutAnswer')
-}
-```
+{{< include _solutions-fin-chapitre.qmd >}}

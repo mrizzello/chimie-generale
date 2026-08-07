@@ -430,8 +430,4 @@ Les éléments de transition ne respectent pas la règle de l'octet, mais une au
 
 {{< include exe/tableau-periodique/140.qmd >}}
 
-```{r, echo=FALSE}
-if (knitr::is_latex_output()) {
-  knitr::asis_output('\\section{Solutions des exercices} \\shipoutAnswer')
-}
-```
+{{< include _solutions-fin-chapitre.qmd >}}
