@@ -3,6 +3,21 @@
   color: #000000;
 }
 
+.sidebar-title{
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.sidebar-navigation li a,
+.sidebar nav[role=doc-toc]>ul li a {
+    font-size: 90%;
+}
+
+.sidebar nav[role=doc-toc]>ul li a .header-section-number,
+.sidebar-navigation li a .chapter-number{
+    font-weight: bold;
+}
+
 /* --- Encadrés (objectifs, exercices, définitions tcolorbox) --- */
 .tcolorbox, .Exercise, .Answer, .objectives {
   background-color: #f5f5f5;
@@ -20,7 +35,7 @@
   font-size: 1rem;
   font-weight: bold;
   margin-bottom: 0.85rem;
-  border-bottom: 1px solid #666;
+  border-bottom: 1px solid #dee2e6;
 }
 
 .Answer {
@@ -30,16 +45,19 @@
 
 .Answer-button {
   color: #333;
+  background-color: #fafafa;
   border: 1px solid #333;
   border-radius: 0.67rem;
   background-color: #fff;
-  padding: 0.67rem;
+  padding: 0.33rem 0.67rem;
   margin-bottom: 0.85rem;
+  font-size: 90%;
 }
 
 .objectives {
   background-color: inherit;
   border-radius: 0.67rem;
+  margin: 1rem;
 }
 
 /* --- Encadré des liens vers les jeux isotope.ch --- */
