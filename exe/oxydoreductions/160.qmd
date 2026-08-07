@@ -15,9 +15,9 @@ On donne les potentiels standards de réduction : $\ce{Cu^{2+}/Cu}$ ($+0.34$ V),
 
 1. Plus le potentiel $E°$ est élevé, plus l'oxydant est fort :
 $$
-\ce{Fe^{2+}} < \ce{Pb^{2+}} < \ce{Cu^{2+}}
+\ce{Fe}^{2+} < \ce{Pb}^{2+} < \ce{Cu}^{2+}
 $$
-2. Oui : $\ce{Cu^{2+}}$ est l'oxydant le plus fort (potentiel le plus élevé) et $\ce{Fe}$ le réducteur le plus fort (potentiel le plus bas). Selon la règle du gamma, ils réagissent spontanément.
-3. Non : pour que $\ce{Pb^{2+}}$ oxyde $\ce{Cu}$, il faudrait que $\ce{Pb^{2+}}$ soit un oxydant plus fort que $\ce{Cu^{2+}}$. Or $\ce{Cu^{2+}/Cu}$ ($+0.34$ V) a un potentiel supérieur à $\ce{Pb^{2+}/Pb}$ ($-0.13$ V) : la réaction spontanée est au contraire $\ce{Cu^{2+} + Pb -> Cu + Pb^{2+}}$.
+2. Oui : $\ce{Cu}^{2+}$ est l'oxydant le plus fort (potentiel le plus élevé) et $\ce{Fe}$ le réducteur le plus fort (potentiel le plus bas). Selon la règle du gamma, ils réagissent spontanément.
+3. Non : pour que $\ce{Pb}^{2+}$ oxyde $\ce{Cu}$, il faudrait que $\ce{Pb}^{2+}$ soit un oxydant plus fort que $\ce{Cu}^{2+}$. Or $\ce{Cu^{2+}/Cu}$ ($+0.34$ V) a un potentiel supérieur à $\ce{Pb^{2+}/Pb}$ ($-0.13$ V) : la réaction spontanée est au contraire $\ce{Cu^{2+} + Pb -> Cu + Pb^{2+}}$.
 
 :::

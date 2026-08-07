@@ -10,7 +10,7 @@ Le produit de solubilité ($K_{ps}$) du phosphate de calcium ($\ce{Ca3(PO4)2}$) 
 
 $$
 \begin{split}
-K_{ps} &= |\ce{Ca^{2+}}|^3 \cdot |\ce{PO4^{3-}}|^2 \\   
+K_{ps} &= |\mathrm{Ca}^{2+}|^3 \cdot |\mathrm{PO_4}^{3-}|^2 \\
        &= (3s)^3 \cdot (2s)^2 \\
        &= 108s^5
 \end{split}

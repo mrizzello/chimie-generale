@@ -19,7 +19,7 @@ $$
 $$
 2. Plus un acide est fort, plus sa base conjuguée est faible. Des bases conjuguées de la plus faible à la plus forte :
 $$
-\ce{F-} < \ce{CH3COO-} < \ce{CN-}
+\ce{F}^{-} < \ce{CH3COO}^{-} < \ce{CN}^{-}
 $$
 3. L'acide fluorhydrique $\ce{HF}$ : il possède le plus grand $K_a$, son équilibre de dissociation est le plus déplacé vers la droite, il se dissocie donc le plus.
 

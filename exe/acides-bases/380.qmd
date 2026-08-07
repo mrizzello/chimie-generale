@@ -24,21 +24,21 @@ C_f &= 0.5 - x\ M \\
 \end{split}
 \qquad
 \begin{split}
-&\ce{H3O+}\\
+&\ce{H3O}^{+}\\
 C_i &= 0\ M \\
 \Delta C &= + x\ M \\
 C_f &= x\ M \\
 \end{split}
 \qquad
 \begin{split}
-&\ce{NO2-}\\
+&\ce{NO2}^{-}\\
 C_i &= 0.1\ M \\
 \Delta C &= + x\ M \\
 C_f &= 0.1 + x\ M \\
 \end{split}
 $$
 $$
-K_a = \frac{|\ce{NO2-}| \cdot |\ce{H3O+}|}{|\ce{HNO2}|} = \frac{x \cdot (0.1 + x)}{0.5 - x}
+K_a = \frac{|\ce{NO2}^{-}| \cdot |\ce{H3O}^{+}|}{|\ce{HNO2}|} = \frac{x \cdot (0.1 + x)}{0.5 - x}
 $$
 On approxime en négligeant le x : 
 $$
@@ -50,11 +50,11 @@ $$
 L'approximation est valide : $\frac{2.3 \cdot 10^{-3}}{0.5} \cdot 100\% \cong 0.46\% < 5\%$
 $$
 \begin{split}
-|\ce{H3O+}| = x = 2.3 \cdot 10^{-3}\ M
+|\ce{H3O}^{+}| = x = 2.3 \cdot 10^{-3}\ M
 \end{split}
 \qquad\qquad
 \begin{split}
-pH &= - \log |\ce{H3O+}| \\
+pH &= - \log |\ce{H3O}^{+}| \\
  &= - \log 2.3 \cdot 10^{-3} \cong 2.6
 \end{split}
 $$
@@ -63,17 +63,17 @@ Méthode basée sur l’équation de Henderson-Hasselbalch :
 
 $$
 \begin{split}
-  pH = pK_a + \log \frac{|\ce{A-}|}{|\ce{HA}|}
+  pH = pK_a + \log \frac{|\ce{A}^{-}|}{|\ce{HA}|}
 \end{split}
 \qquad
 \begin{split}
   \ce{HA} \Rightarrow &\ \ce{HNO2} \\
-  \ce{A-} \Rightarrow &\ \ce{NO2-} \\
+  \ce{A}^{-} \Rightarrow &\ \ce{NO2}^{-} \\
   K_a = &\ 4.6 \cdot 10^{-4}
 \end{split}
 \qquad
 \begin{split}
-  pH &= pK_a + \log \frac{|\ce{NO2-}|}{|\ce{HNO2}|} \\
+  pH &= pK_a + \log \frac{|\ce{NO2}^{-}|}{|\ce{HNO2}|} \\
   &= - \log 4.6 \cdot 10^{-4} + \log \frac{0.1}{0.5} = 2.6 \\
 \end{split}
 $$
@@ -93,12 +93,12 @@ $$
 $$
 \begin{split}
 |\ce{HNO2}| &= 0.5 - 0.375 = 0.125\ M \\
-|\ce{NO2-}| &= 0.1 + 0.375 = 0.475\ M
+|\ce{NO2}^{-}| &= 0.1 + 0.375 = 0.475\ M
 \end{split}
 $$
 $$
 \begin{split}
-  pH &= pK_a + \log \frac{|\ce{NO2-}|}{|\ce{HNO2}|} \\
+  pH &= pK_a + \log \frac{|\ce{NO2}^{-}|}{|\ce{HNO2}|} \\
   &= - \log 4.6 \cdot 10^{-4} + \log \frac{0.475}{0.125} = 3.92 \\
 \end{split}
 $$

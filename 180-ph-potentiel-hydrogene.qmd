@@ -16,17 +16,17 @@
 
 ## Le pH : définition et échelle
 
-Le **pH** (potentiel hydrogène) est une grandeur sans unité qui permet de caractériser l'acidité ou la basicité d'une solution aqueuse. Il est défini comme le logarithme négatif de la concentration molaire des ions hydronium ($\ce{H3O+}_{(aq)}$), exprimée en moles par litre (M) :
+Le **pH** (potentiel hydrogène) est une grandeur sans unité qui permet de caractériser l'acidité ou la basicité d'une solution aqueuse. Il est défini comme le logarithme négatif de la concentration molaire des ions hydronium ($\ce{H3O}^{+}_{(aq)}$), exprimée en moles par litre (M) :
 
 $$
-pH = - \log\ |\ce{H3O+}_{(aq)}|
+pH = - \log\ |\ce{H3O}^{+}_{(aq)}|
 $$
 
-Inversement, la concentration en ions $\ce{H3O+}_{(aq)}$ peut être déterminée à partir du pH  
+Inversement, la concentration en ions $\ce{H3O}^{+}_{(aq)}$ peut être déterminée à partir du pH  
 par la relation :
 
 $$
-|\ce{H3O+}_{(aq)}| = 10^{-pH}
+|\ce{H3O}^{+}_{(aq)}| = 10^{-pH}
 $$
 
 Afin de simplifier les calculs de pH, la convention "$p$" est utilisée comme préfixe pour signifier "$-log$" ($pKa$, $pKb$, $pKe$, $pH$, $pOH$).
@@ -41,11 +41,11 @@ Afin de simplifier les calculs de pH, la convention "$p$" est utilisée comme pr
 | pH = 7 | la solution est neutre  |
 | pH > 7 | la solution est basique |
 
-Les ions $\ce{H3O+}$ et $\ce{H+}$ ont la même signification en solution aqueuse ; par souci de simplification, $\ce{H+}$ est parfois utilisé à la place de $\ce{H3O+}$.
+Les ions $\ce{H3O}^{+}$ et $\ce{H}^{+}$ ont la même signification en solution aqueuse ; par souci de simplification, $\ce{H}^{+}$ est parfois utilisé à la place de $\ce{H3O}^{+}$.
 
-Table: pH et concentrations en $\ce{H3O+}$ de solutions aqueuses courantes. {#tbl-echelle-pH-1}
+Table: pH et concentrations en $\ce{H3O}^{+}$ de solutions aqueuses courantes. {#tbl-echelle-pH-1}
 
-| Solution courante   | pH (Approximatif) |    \|$\ce{H3O+}_{(aq)}$\| (mol/L) |
+| Solution courante   | pH (Approximatif) |    \|$\ce{H3O}^{+}_{(aq)}$\| (mol/L) |
 | :------------------ | ----------------: | --------------------------------: |
 | Jus de citron       |                 2 |   $1.2 \cdot 10^{-3}$ à $5.0 \cdot 10^{-4}$ |
 | Vinaigre            |                 3 |   $1.2 \cdot 10^{-3}$ à $5.0 \cdot 10^{-4}$ |
@@ -58,14 +58,14 @@ Table: pH et concentrations en $\ce{H3O+}$ de solutions aqueuses courantes. {#tb
 | Détergent à lessive |                11 | $1.0 \cdot 10^{-10}$ à $1.0 \cdot 10^{-12}$ |
 | Eau de Javel        |                12 | $1.0 \cdot 10^{-11}$ à $1.0 \cdot 10^{-13}$ |
 
-L'échelle de pH est **logarithmique**, ce qui implique qu'une variation d'une unité de pH représente une variation d'un facteur 10 de la concentration en ions $\ce{H3O+}_{(aq)}$.
+L'échelle de pH est **logarithmique**, ce qui implique qu'une variation d'une unité de pH représente une variation d'un facteur 10 de la concentration en ions $\ce{H3O}^{+}_{(aq)}$.
 
 Table: Concentrations en mol/L de H^+^ et OH^-^ pour différentes valeurs de pH. {#tbl-echelle-pH-2}
 
 |     pH     |    1    |    2    |    3    |    4    |   5    |   6    |   7    |   8    |   9    |   10    |   11    |   12    |   13    |
 | :--------: | :-----: | :-----: | :-----: | :-----: | :----: | :----: | :----: | :----: | :----: | :-----: | :-----: | :-----: | :-----: |
-| $\ce{H+}$  | 10^-1^  | 10^-2^  | 10^-3^  | 10^-4^  | 10^-5^ | 10^-6^ | 10^-7^ | 10^-8^ | 10^-9^ | 10^-10^ | 10^-11^ | 10^-12^ | 10^-13^ |
-| $\ce{OH-}$ | 10^-13^ | 10^-12^ | 10^-11^ | 10^-10^ | 10^-9^ | 10^-8^ | 10^-7^ | 10^-6^ | 10^-5^ | 10^-4^  | 10^-3^  | 10^-2^  | 10^-1^  |
+| $\ce{H}^{+}$  | 10^-1^  | 10^-2^  | 10^-3^  | 10^-4^  | 10^-5^ | 10^-6^ | 10^-7^ | 10^-8^ | 10^-9^ | 10^-10^ | 10^-11^ | 10^-12^ | 10^-13^ |
+| $\ce{OH}^{-}$ | 10^-13^ | 10^-12^ | 10^-11^ | 10^-10^ | 10^-9^ | 10^-8^ | 10^-7^ | 10^-6^ | 10^-5^ | 10^-4^  | 10^-3^  | 10^-2^  | 10^-1^  |
 
 L'échelle de pH est généralement représentée de 0 à 14, bien que des valeurs en dehors de cette plage soient possibles dans des conditions extrêmes.
 
@@ -86,7 +86,7 @@ $$
 La concentration des ions hydronium est donc égale à la concentration de l'acide : 
 
 $$
-|\ce{H3O+}_{(aq)}| = C_{acide} \quad \Rightarrow \quad pH = - \log\ |\ce{H3O+}_{(aq)}|
+|\ce{H3O}^{+}_{(aq)}| = C_{acide} \quad \Rightarrow \quad pH = - \log\ |\ce{H3O}^{+}_{(aq)}|
 $$
 
 Pour le calcul du pH des acides polyprotiques, il est nécessaire de considérer la libération de chaque proton. Les déprotonations successives peuvent être non négligeables et doivent être prises en compte dans le calcul du pH.
@@ -116,15 +116,15 @@ $$
 La concentration des ions hydroxyde est donc égale à la concentration initiale de la base : 
 
 $$
-|\ce{OH-}_{(aq)}| = C_{base} \quad \Rightarrow \quad pOH = - \log\ |\ce{OH-}_{(aq)}|
+|\ce{OH}^{-}_{(aq)}| = C_{base} \quad \Rightarrow \quad pOH = - \log\ |\ce{OH}^{-}_{(aq)}|
 $$
 
 En utlisant le produit ionique de l'eau ($K_e$), on peut relier le pH et le pOH :
 
 $$
 \begin{split}
-K_e &= |\ce{H3O+}| \cdot |\ce{OH-}| = 10^{-14} \\
--\log\ K_e &= (-\log\ |\ce{H3O+}|)+(-\log\  |\ce{OH-}|) \\
+K_e &= |\ce{H3O}^{+}| \cdot |\ce{OH}^{-}| = 10^{-14} \\
+-\log\ K_e &= (-\log\ |\ce{H3O}^{+}|)+(-\log\  |\ce{OH}^{-}|) \\
 14 &= pH + pOH
 \end{split}
 \qquad\Rightarrow\qquad
@@ -163,7 +163,7 @@ $$
 La concentration des ions hydronium dépend donc du degré de dissociation de l'acide faible. Pour calculer le pH, il est nécessaire de connaître la constante d'acidité ($K_a$) de l'acide faible, qui est définie par l'équation : 
 
 $$
-K_a = \frac{|\ce{H3O+}| \cdot |\ce{A-}|}{|\ce{HA}|}
+K_a = \frac{|\ce{H3O}^{+}| \cdot |\ce{A}^{-}|}{|\ce{HA}|}
 $$
 
 Pour calculer la concentration en ions hydronium, on utilise un tableau de variations pour déterminer les concentrations à l'équilibre.
@@ -188,7 +188,7 @@ _On fait une première approximation en considérant la concentration initiale d
 La variable x représente la quantité d'acide qui se dissocie. Déterminons maintenant l'expression de la constante d'acidité K~a~ :
 
 $$
-K_a = \frac{|\ce{H3O+}| \cdot |\ce{CN-}|}{|\ce{HCN}|} = \frac{x \cdot x}{0.1 - x} = \frac{x^2}{0.1 - x}
+K_a = \frac{|\ce{H3O}^{+}| \cdot |\ce{CN}^{-}|}{|\ce{HCN}|} = \frac{x \cdot x}{0.1 - x} = \frac{x^2}{0.1 - x}
 $$
 
 Souvent, une **approximation** peut être faite lorsque la constante d'équilibre est très faible. Cette approximation est valide si la quantité d'acide (ou de base) dissociée est **inférieure à 5% de la concentration initiale** de l'acide (ou de la base).
@@ -229,7 +229,7 @@ $$
 Finalement, on calcule le pH :
 
 $$
-pH = - \log |\ce{H3O+}| = - \log 7 \cdot 10^{-6} = 5.15
+pH = - \log |\ce{H3O}^{+}| = - \log 7 \cdot 10^{-6} = 5.15
 $$
 
 {{< include exe/acides-bases/250.qmd >}}
@@ -247,7 +247,7 @@ $$
 La concentration des ions hydroxyde dépend donc du degré de protonation de la base faible. Pour calculer le pH, il est nécessaire de connaître la constante de basicité ($K_b$) de la base faible, qui est définie par l'équation : 
 
 $$
-K_b = \frac{|\ce{BH+}| \cdot |\ce{OH-}|}{|\ce{B}|}
+K_b = \frac{|\ce{BH}^{+}| \cdot |\ce{OH}^{-}|}{|\ce{B}|}
 $$
 
 Pour calculer la concentration en ions hydroxyde, on utilise un tableau de variations pour déterminer les concentrations à l'équilibre.
@@ -272,7 +272,7 @@ _À nouveau, on néglige l'autoprotolyse de l'eau._
 La variable x représente la quantité de la base qui accepte un proton. Déterminons maintenant l'expression de la constante de basicité K~b~ :
 
 $$
-K_b = \frac{|\ce{NH4+}| \cdot |\ce{OH-}|}{|\ce{NH3}|} = \frac{x \cdot x}{0.2 - x} = \frac{x^2}{0.2 - x}
+K_b = \frac{|\ce{NH4}^{+}| \cdot |\ce{OH}^{-}|}{|\ce{NH3}|} = \frac{x \cdot x}{0.2 - x} = \frac{x^2}{0.2 - x}
 $$
 
 À nouveau, on peut simplifier la constante :
@@ -308,10 +308,10 @@ $$
 \frac{1.90 \cdot 10^{-3}}{0.2} = 0.95\%
 $$
 
-Finalement, on calcule le pH en prenant $|\ce{OH-}| = 1.90 \cdot 10^{-3}$ M :
+Finalement, on calcule le pH en prenant $|\ce{OH}^{-}| = 1.90 \cdot 10^{-3}$ M :
 
 $$
-pH = 14 - pOH = 14 + \log |\ce{OH-}| = 14 + \log 1.90 \cdot 10^{-3} = 11.279
+pH = 14 - pOH = 14 + \log |\ce{OH}^{-}| = 14 + \log 1.90 \cdot 10^{-3} = 11.279
 $$
 
 {{< include exe/acides-bases/270.qmd >}}
@@ -336,7 +336,7 @@ $$
 \end{split}
 $$
 
-On remarque que la base conjuguée $\ce{HCO3-}$ de la première réaction devient l'acide de la deuxième réaction.
+On remarque que la base conjuguée $\ce{HCO3}^{-}$ de la première réaction devient l'acide de la deuxième réaction.
 
 Pour un polyacide faible typique, on a K~a1~ > K~a2~ > K~a3~ ...
 
@@ -392,9 +392,9 @@ Le pH d'une solution tampon peut être calculé de deux manières :
 
 2.  Par l'**équation de Henderson-Hasselbalch** :  
     $$
-    pH = pK_a + \log \frac{|\ce{A-}|}{|\ce{HA}|}
+    pH = pK_a + \log \frac{|\ce{A}^{-}|}{|\ce{HA}|}
     $$
-    Où $|\ce{A-}|$ est la concentration de la base conjuguée et $|\ce{HA}|$ est la concentration de l'acide faible.
+    Où $|\ce{A}^{-}|$ est la concentration de la base conjuguée et $|\ce{HA}|$ est la concentration de l'acide faible.
 
 Cette équation est applicable lorsque l'approximation de $x$ est valide et que les concentrations des constituants du tampon sont au moins 100 fois supérieures à la valeur de $K_a$.
 
@@ -470,7 +470,7 @@ C_a^{*} = \frac{n_a^{*}}{V_{tot}} \qquad \text{avec } n_a^{*} = n_a - n_b = C_a 
 $$
 
 **Au point équivalent**  
-Tous les ions $\ce{H+}$ ont été neutralisés par les ions $\ce{OH-}$ d'où un pH égal à 7 ($\ce{Na+}$ et $\ce{Cl-}$ sont inertes).
+Tous les ions $\ce{H}^{+}$ ont été neutralisés par les ions $\ce{OH}^{-}$ d'où un pH égal à 7 ($\ce{Na}^{+}$ et $\ce{Cl}^{-}$ sont inertes).
 
 **Après le point équivalent**  
 Le pH est fixé par la base forte, dont la concentration exacte doit être recalculée en tenant compte de la dilution :
@@ -518,7 +518,7 @@ C_b^{*} = \frac{n_b^{*}}{V_{tot}} \qquad \text{avec } n_b^{*} = n_b - n_a = C_b 
 $$
 
 **Au point équivalent**  
-Tous les ions $\ce{OH-}$ ont été neutralisés par les ions $\ce{H+}$ d'où un pH égal à 7 ($\ce{Na+}$ et $\ce{Cl-}$ sont inertes).
+Tous les ions $\ce{OH}^{-}$ ont été neutralisés par les ions $\ce{H}^{+}$ d'où un pH égal à 7 ($\ce{Na}^{+}$ et $\ce{Cl}^{-}$ sont inertes).
 
 **Après le point équivalent**,  
 Le pH est fixé par l'acide fort, dont la concentration exacte doit être recalculée en tenant compte de la dilution :
@@ -547,7 +547,7 @@ $$
 Seul l'acide faible est présent dans le bécher. Le calcul du pH sera :
 
 $$
-pH = - \log |\ce{H3O+}|
+pH = - \log |\ce{H3O}^{+}|
 $$
 
 La concentration en hydronium se calcule à l'aide d'un tableau d'équilibre (ou tableau de variation, voir pH des acides faibles).
@@ -577,10 +577,10 @@ Le moment où la quantité de base conjuguée créée est exactement équivalent
 Au point d'équivalence, tout l'acide faible est converti en sa base conjuguée. La base conjuguée va influencer le pH qui sera donc un peu basique. Le calcul du pH sera :
 
 $$
-pH = 14 + \log |\ce{OH-}|
+pH = 14 + \log |\ce{OH}^{-}|
 $$
 
-La concentration en $\ce{OH-}$ se calcule à l'aide d'un tableau de variation (voir pH des bases faibles) en prenant comme concentration initiale en base faible, la concentration initiale en acide faible.
+La concentration en $\ce{OH}^{-}$ se calcule à l'aide d'un tableau de variation (voir pH des bases faibles) en prenant comme concentration initiale en base faible, la concentration initiale en acide faible.
 
 **Après le point équivalent**  
 Le pH est fixé par la base forte (la contribution de la base conjuguée est négligeable face à la base forte), dont la concentration exacte doit être recalculée en tenant compte de la dilution :
@@ -649,9 +649,9 @@ La méthode des tangentes est une technique graphique pour déterminer le **poin
 
 ## Résumé
 
-- Le pH mesure l'acidité d'une solution : $pH = -\log|\ce{H3O+}|$ et $|\ce{H3O+}| = 10^{-pH}$.
+- Le pH mesure l'acidité d'une solution : $pH = -\log|\ce{H3O}^{+}|$ et $|\ce{H3O}^{+}| = 10^{-pH}$.
 - Acides forts et bases fortes : dissociation complète.
-- Acide faible : dissociation partielle. On calcule $|\ce{H3O+}|$ par un tableau de variations et $K_a$, avec l'approximation. De même pour une base faible avec $K_b$.
+- Acide faible : dissociation partielle. On calcule $|\ce{H3O}^{+}|$ par un tableau de variations et $K_a$, avec l'approximation. De même pour une base faible avec $K_b$.
 - Un polyacide libère ses protons un à un ; en général seule la première déprotonation contribue notablement au pH.
 - Une solution tampon maintient un pH quasi constant. On calcule son pH par la relation de Henderson-Hasselbalch.
 - Un titrage repose sur une neutralisation ; au point d'équivalence, les réactifs sont en proportions stœchiométriques. Le long d'une courbe de titrage, on calcule le pH selon la zone (acide ou base en excès, tampon, équivalence).

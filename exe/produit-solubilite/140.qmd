@@ -1,19 +1,19 @@
 ::: {.Exercise data-latex=""}
 
-Une usine de traitement de métaux à Renens rejette des effluents contenant des ions plomb ($\ce{Pb^{2+}}$). La législation impose une concentration résiduelle en plomb inférieure à $1.0 \cdot 10^{-6}{mol/L}$. Le procédé consiste à faire précipiter le plomb sous forme d'iodure de plomb(II) ($\ce{PbI2}$), un solide jaune intense.  
+Une usine de traitement de métaux à Renens rejette des effluents contenant des ions plomb ($\ce{Pb}^{2+}$). La législation impose une concentration résiduelle en plomb inférieure à $1.0 \cdot 10^{-6}{mol/L}$. Le procédé consiste à faire précipiter le plomb sous forme d'iodure de plomb(II) ($\ce{PbI2}$), un solide jaune intense.  
 $K_{ps}(\ce{PbI2}) = 7.1 \cdot 10^{-9}$ à 25°C.
 
 1. Écrivez l'expression du produit de solubilité pour $\ce{PbI2}$.
 2. Calculez la solubilité molaire du $\ce{PbI2}$ dans l'eau pure. Ce sel permet-il à lui seul de respecter la norme légale ?
-3. On ajoute de l'iodure de potassium ($\ce{KI}$), un sel soluble, pour atteindre une concentration de 0.1 mol/L en ions $\ce{I-}$. Calculez la nouvelle concentration résiduelle en ions $\ce{Pb^{2+}}$.
-4. Lors d'un contrôle, un échantillon de 250mL d'effluent contenant $|\ce{Pb^{2+}}| = 5.0 \cdot 10^{-4}{ mol/L}$ est mélangé accidentellement avec 250mL d'une solution de $\ce{KI}$ à $1.0 \cdot 10^{-3}{mol/L}$. Un précipité se formera-t-il ? Justifiez par le calcul de $Q$.
+3. On ajoute de l'iodure de potassium ($\ce{KI}$), un sel soluble, pour atteindre une concentration de 0.1 mol/L en ions $\ce{I}^{-}$. Calculez la nouvelle concentration résiduelle en ions $\ce{Pb}^{2+}$.
+4. Lors d'un contrôle, un échantillon de 250mL d'effluent contenant $|\ce{Pb}^{2+}| = 5.0 \cdot 10^{-4}{ mol/L}$ est mélangé accidentellement avec 250mL d'une solution de $\ce{KI}$ à $1.0 \cdot 10^{-3}{mol/L}$. Un précipité se formera-t-il ? Justifiez par le calcul de $Q$.
 
 :::
 
 ::: {.Answer data-latex=""}
 
 1. $$
-  K_{ps} = |\ce{Pb^{2+}}| \cdot |\ce{I-}|^2  
+  K_{ps} = |\ce{Pb}^{2+}| \cdot |\ce{I}^{-}|^2  
   $$
 2. $$
   \begin{split}
@@ -24,25 +24,25 @@ $K_{ps}(\ce{PbI2}) = 7.1 \cdot 10^{-9}$ à 25°C.
   Puisque $1.21 \cdot 10^{-3} > 1.0 \cdot 10^{-6}$, la norme n'est pas respectée.
 3. $$
   \begin{split}
-    |\ce{I-}| &= 0.1\ mol/L
+    |\ce{I}^{-}| &= 0.1\ mol/L
   \end{split}
   \qquad
   \begin{split}
-    K_{ps} &= |\ce{Pb^{2+}}| \cdot (0.1)^2 = 7.1 \cdot 10^{-9} \\
-    |\ce{Pb^{2+}}| &= \frac{7.1 \cdot 10^{-9}}{0.01} = 7.1 \cdot 10^{-7}{mol/L}
+    K_{ps} &= |\ce{Pb}^{2+}| \cdot (0.1)^2 = 7.1 \cdot 10^{-9} \\
+    |\ce{Pb}^{2+}| &= \frac{7.1 \cdot 10^{-9}}{0.01} = 7.1 \cdot 10^{-7}{mol/L}
   \end{split}
   $$  
   Cette valeur étant inférieure à $1.0 \cdot 10^{-6}{mol/L}$, la norme est désormais respectée.
 4. $$
   \begin{split}
     V_{tot} &= 500\ mL = 0.5\ L \\
-    |\ce{Pb^{2+}}| &= \frac{5.0 \cdot 10^{-4}{mol/L}}{2} = 2.5 \cdot 10^{-4}{mol/L} \\
-    |\ce{I-}| &= \frac{1.0 \cdot 10^{-3}{mol/L}}{2} = 5.0 \cdot 10^{-4}{mol/L} \
+    |\ce{Pb}^{2+}| &= \frac{5.0 \cdot 10^{-4}{mol/L}}{2} = 2.5 \cdot 10^{-4}{mol/L} \\
+    |\ce{I}^{-}| &= \frac{1.0 \cdot 10^{-3}{mol/L}}{2} = 5.0 \cdot 10^{-4}{mol/L} \
   \end{split}
   $$
   $$
   \begin{split}
-    Q &= |\ce{Pb^{2+}}| \cdot |\ce{I-}|^2 = (2.5 \cdot 10^{-4}{mol/L}) \cdot (5.0 \cdot 10^{-4}{mol/L})^2 \\
+    Q &= |\ce{Pb}^{2+}| \cdot |\ce{I}^{-}|^2 = (2.5 \cdot 10^{-4}{mol/L}) \cdot (5.0 \cdot 10^{-4}{mol/L})^2 \\
       &= 2.5 \cdot 10^{-4} \cdot 2.5 \cdot 10^{-7}\\
       &= 6.25 \cdot 10^{-11} \qquad (K_{ps} = 7.1 \cdot 10^{-9})
   \end{split}

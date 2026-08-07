@@ -28,6 +28,6 @@ Ecrivez l'expression de la constante d'équilibre pour les réactions suivantes.
 4. $$ K = \frac{|\ce{NO2}|^2}{|\ce{NO}|^2 \cdot |\ce{O2}|} $$
 5. $$ K = \frac{|\ce{NO2}|^2}{|\ce{N2O4}|} $$
 6. $$ K = \frac{|\ce{SO3}|^2}{|\ce{SO2}|^2 \cdot |\ce{O2}|} $$
-7. $$ K = \frac{|\ce{Fe(SCN)^{2+}}|}{|\ce{Fe^{3+}}| \cdot |\ce{SCN^-}|} $$
+7. $$ K = \frac{|\ce{Fe(SCN)}^{2+}|}{|\ce{Fe}^{3+}| \cdot |\ce{SCN^-}|} $$
 
 :::

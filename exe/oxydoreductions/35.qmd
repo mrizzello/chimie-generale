@@ -13,11 +13,11 @@ On donne les potentiels standards de réduction : $\ce{Cu^{2+}/Cu}$ ($E° = +0.3
 
 ::: {.Answer data-latex=""}
 
-1. L'oxydant le plus fort appartient au couple de plus haut potentiel : $\ce{Cu^{2+}}$. Le réducteur le plus fort appartient au couple de plus bas potentiel : $\ce{Zn}$.
+1. L'oxydant le plus fort appartient au couple de plus haut potentiel : $\ce{Cu}^{2+}$. Le réducteur le plus fort appartient au couple de plus bas potentiel : $\ce{Zn}$.
 2. La réaction spontanée fait réagir l'oxydant le plus fort avec le réducteur le plus fort :
 $$
 \ce{Cu^{2+} + Zn -> Cu + Zn^{2+}}
 $$
-3. Le zinc (réducteur fort) réduit les ions $\ce{Cu^{2+}}$ : la lame de zinc se dissout ($\ce{Zn -> Zn^{2+}}$) et du cuivre métallique se dépose ($\ce{Cu^{2+} -> Cu}$). La réaction est spontanée.
+3. Le zinc (réducteur fort) réduit les ions $\ce{Cu}^{2+}$ : la lame de zinc se dissout ($\ce{Zn -> Zn^{2+}}$) et du cuivre métallique se dépose ($\ce{Cu^{2+} -> Cu}$). La réaction est spontanée.
 
 :::

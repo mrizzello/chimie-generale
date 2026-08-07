@@ -26,7 +26,7 @@ $$
 $$
 C_a^* = \frac{1.0\cdot10^{-3}}{0.0300} = 0.033 \text{ M} \qquad pH = -\log 0.033 = 1.48
 $$
-4. $pH = 7$ : tous les ions $\ce{H+}$ ont été neutralisés par les ions $\ce{OH-}$ ; il ne reste que $\ce{Na+}$ et $\ce{Cl-}$, inertes.
+4. $pH = 7$ : tous les ions $\ce{H}^{+}$ ont été neutralisés par les ions $\ce{OH}^{-}$ ; il ne reste que $\ce{Na}^{+}$ et $\ce{Cl}^{-}$, inertes.
 5. Après l'équivalence : $n_b^* = C_b V_b - C_a V_a = 0.10\cdot0.0300 - 0.10\cdot0.0200 = 1.0\cdot10^{-3}$ mol ; $V_{tot} = 50.0$ mL.
 $$
 C_b^* = \frac{1.0\cdot10^{-3}}{0.0500} = 0.020 \text{ M} \qquad pH = 14 + \log 0.020 = 12.30

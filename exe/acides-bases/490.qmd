@@ -13,8 +13,8 @@ Pour chacune des solutions suivantes, identifiez sa nature (acide fort, base for
 
 ::: {.Answer data-latex=""}
 
-1. Acide fort : $|\ce{H3O+}| = C_a = 0.010$ M, donc $pH = -\log 0.010 = 2.0$.
-2. Base forte : $|\ce{OH-}| = C_b = 0.050$ M, donc $pOH = -\log 0.050 = 1.30$ et $pH = 14 - 1.30 = 12.70$.
+1. Acide fort : $|\ce{H3O}^{+}| = C_a = 0.010$ M, donc $pH = -\log 0.010 = 2.0$.
+2. Base forte : $|\ce{OH}^{-}| = C_b = 0.050$ M, donc $pOH = -\log 0.050 = 1.30$ et $pH = 14 - 1.30 = 12.70$.
 3. Acide faible : $K_a = \dfrac{x^2}{0.10 - x} \approx \dfrac{x^2}{0.10}$, donc $x = \sqrt{1.8\cdot10^{-5} \cdot 0.10} = 1.34\cdot10^{-3}$ M (approximation valable : $1.3\,\% < 5\,\%$).
 $$
 pH = -\log(1.34\cdot10^{-3}) = 2.87

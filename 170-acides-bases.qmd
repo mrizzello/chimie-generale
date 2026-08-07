@@ -10,7 +10,7 @@
 
 :::
 
-Autour de nous, des substances présentent des propriétés acides ou basiques. Le citron, le vinaigre, le jus d'agrumes sont acides, tandis que le savon, le bicarbonate de soude, et de nombreux produits de nettoyage sont basiques. Ces propriétés, qui affectent la façon dont une substance interagit avec d'autres, sont déterminées par la présence des ions $\ce{H+}$ et $\ce{OH-}$ dans une solution aqueuse.
+Autour de nous, des substances présentent des propriétés acides ou basiques. Le citron, le vinaigre, le jus d'agrumes sont acides, tandis que le savon, le bicarbonate de soude, et de nombreux produits de nettoyage sont basiques. Ces propriétés, qui affectent la façon dont une substance interagit avec d'autres, sont déterminées par la présence des ions $\ce{H}^{+}$ et $\ce{OH}^{-}$ dans une solution aqueuse.
 
 Dans ce chapitre, nous allons explorer les concepts d'acides et de bases, leurs définitions selon différentes théories, ainsi que la force de ces substances en solution.
 
@@ -39,7 +39,7 @@ Table: Exemples d'acides et de bases correspondant à chaque définition. {#tbl-
 
 ## Couples acide-base
 
-Un couple acide-base désigne deux espèces chimiques liées par un simple transfert de proton ($\ce{H+}$). Ces espèces, l'**acide et sa base conjuguée**, diffèrent uniquement par la présence ou l'absence de ce proton.
+Un couple acide-base désigne deux espèces chimiques liées par un simple transfert de proton ($\ce{H}^{+}$). Ces espèces, l'**acide et sa base conjuguée**, diffèrent uniquement par la présence ou l'absence de ce proton.
 
 Lors de la réaction entre l'acide chlorhydrique et l'ammoniac :
 
@@ -49,8 +49,8 @@ $$
 
 - $\ce{HCl}$ agit comme un **acide** en donnant un proton à $\ce{NH3}$,
 - $\ce{NH3}$ agit comme une une **base** en acceptant un proton de $\ce{HCl}$.
-- $\ce{HCl}$ est l'**acide** et $\ce{Cl-}$ est sa **base conjuguée**.
-- $\ce{NH3}$ est la **base** et $\ce{NH4+}$ est son **acide conjugué**.
+- $\ce{HCl}$ est l'**acide** et $\ce{Cl}^{-}$ est sa **base conjuguée**.
+- $\ce{NH3}$ est la **base** et $\ce{NH4}^{+}$ est son **acide conjugué**.
 
 {{< include exe/acides-bases/10.qmd >}}
 \newpage
@@ -61,13 +61,13 @@ $$
 
 Un **ampholyte**, ou une **espèce amphotère**, est une molécule ou un ion capable de réagir à la fois comme un acide et comme une base (donner ou accepter un proton), selon les conditions du milieu réactionnel. L'eau est l'exemple le plus courant et le plus accessible pour illustrer ce concept.
 
-En présence d'un acide plus fort, l'eau agit comme une base, acceptant un proton pour former l'ion hydronium ($\ce{H3O+}$). 
+En présence d'un acide plus fort, l'eau agit comme une base, acceptant un proton pour former l'ion hydronium ($\ce{H3O}^{+}$). 
 
 $$
 \ce{H2O_{(l)} + HCl_{(aq)} <=> H3O^{+}_{(aq)} + Cl^{-}_{(aq)}}
 $$
 
-Inversement, en présence d'une base plus forte, l'eau agit comme un acide, cédant un proton pour former l'ion hydroxyde ($\ce{OH-}$).
+Inversement, en présence d'une base plus forte, l'eau agit comme un acide, cédant un proton pour former l'ion hydroxyde ($\ce{OH}^{-}$).
 
 $$
 \ce{H2O_{(l)} + NH3_{(aq)} <=> OH^{-}_{(aq)} + NH4^{+}_{(aq)}}
@@ -132,7 +132,7 @@ $$
 La constante d'équilibre de cette réaction s'exprime par la relation suivante :
 
 $$
-K_a = \frac{|\ce{H3O+}| \cdot |\ce{A-}|}{|\ce{HA}|} =  \frac{|\ce{H+}| \cdot |\ce{A-}|}{|\ce{HA}|}
+K_a = \frac{|\ce{H3O}^{+}| \cdot |\ce{A}^{-}|}{|\ce{HA}|} =  \frac{|\ce{H}^{+}| \cdot |\ce{A}^{-}|}{|\ce{HA}|}
 $$
 
 Dans le cas des acides faibles, cette constante est appelée **constante d'acidité (K~a~)** et donne une valeur à la force de ces acides.
@@ -150,7 +150,7 @@ $$
 La constante d'équilibre de cette réaction s'exprime par la relation suivante :
 
 $$
-K_b = \frac{|\ce{BH+}| \cdot |\ce{OH-}|}{|\ce{B}|}
+K_b = \frac{|\ce{BH}^{+}| \cdot |\ce{OH}^{-}|}{|\ce{B}|}
 $$
 
 Cette constante est appelée **constante de basicité (K~b~)** et donne une valeur à la force des bases faibles.
@@ -181,13 +181,13 @@ $$
 Cette réaction est appelée **autoprotolyse**. C'est réaction est réversible, on peut en exprimer la constante d'équilibre K~e~, appelée **produit ionique de l'eau** :
 
 $$
-K_e = |\ce{H3O+}| \cdot |\ce{OH-}| = 10^{-14} \quad \text{(valeur à 25°C)}
+K_e = |\ce{H3O}^{+}| \cdot |\ce{OH}^{-}| = 10^{-14} \quad \text{(valeur à 25°C)}
 $$
 
 Cette relation relie les concentrations des ions H~3~O^+^ et OH^-^ dans toutes les solutions aqueuses. Elle permet également de calculer la concentration des ions H~3~O^+^ dans une solution basique, car :
 
 $$
-|\ce{H3O+}| = \frac{10^{-14}}{|\ce{OH-}|}
+|\ce{H3O}^{+}| = \frac{10^{-14}}{|\ce{OH}^{-}|}
 $$
 
 \newpage
@@ -196,9 +196,9 @@ En résumé :
 
 |                           |       |
 | :---------- | :----------: |
-| Dans de l'eau pure        |   \|$\ce{H3O+}$\| = \|$\ce{OH-}$\| = $10^{-7} M$ |
-| Dans une solution acide   |   \|$\ce{H3O+}$\| > \|$\ce{OH-}$\|            |
-| Dans une solution basique |   \|$\ce{H3O+}$\| < \|$\ce{OH-}$\|            |
+| Dans de l'eau pure        |   \|$\ce{H3O}^{+}$\| = \|$\ce{OH}^{-}$\| = $10^{-7} M$ |
+| Dans une solution acide   |   \|$\ce{H3O}^{+}$\| > \|$\ce{OH}^{-}$\|            |
+| Dans une solution basique |   \|$\ce{H3O}^{+}$\| < \|$\ce{OH}^{-}$\|            |
 
 {{< include exe/acides-bases/100.qmd >}}
 
@@ -212,11 +212,11 @@ En résumé :
 
 ## Résumé
 
-- Trois définitions des acides et des bases. Selon Arrhénius : un acide libère des ions $\ce{H+}$, une base des ions $\ce{OH-}$ en solution. Selon Brønsted-Lowry : un acide est un donneur de proton, une base un accepteur de proton. Selon Lewis : un acide est un accepteur de paire libre, une base un donneur de paire libre.
-- Un couple acide-base est formé d'un acide et de sa base conjuguée, qui ne diffèrent que d'un proton $\ce{H+}$. Une espèce amphotère (ampholyte), comme l'eau, peut se comporter en acide ou en base selon le milieu.
+- Trois définitions des acides et des bases. Selon Arrhénius : un acide libère des ions $\ce{H}^{+}$, une base des ions $\ce{OH}^{-}$ en solution. Selon Brønsted-Lowry : un acide est un donneur de proton, une base un accepteur de proton. Selon Lewis : un acide est un accepteur de paire libre, une base un donneur de paire libre.
+- Un couple acide-base est formé d'un acide et de sa base conjuguée, qui ne diffèrent que d'un proton $\ce{H}^{+}$. Une espèce amphotère (ampholyte), comme l'eau, peut se comporter en acide ou en base selon le milieu.
 - Un acide (ou une base) est fort s'il se dissocie complètement, faible s'il ne se dissocie que partiellement. Plus un acide est fort, plus sa base conjuguée est faible ; la base conjuguée d'un acide fort est inerte.
 - La force d'un acide faible se mesure par la constante d'acidité $K_a$, celle d'une base faible par la constante de basicité $K_b$. Plus la constante est petite, plus l'acide (ou la base) est faible.
-- L'eau subit une autoprotolyse : $\ce{2 H2O <=> H3O+ + OH-}$, de constante $K_e = |\ce{H3O+}| \cdot |\ce{OH-}| = 10^{-14}$ à 25°C. Dans l'eau pure $|\ce{H3O+}| = |\ce{OH-}| = 10^{-7}$ M.
+- L'eau subit une autoprotolyse : $\ce{2 H2O <=> H3O+ + OH-}$, de constante $K_e = |\ce{H3O}^{+}| \cdot |\ce{OH}^{-}| = 10^{-14}$ à 25°C. Dans l'eau pure $|\ce{H3O}^{+}| = |\ce{OH}^{-}| = 10^{-7}$ M.
 
 ## Exercices supplémentaires
 

@@ -20,21 +20,21 @@ C_f &= 0.12 - x\ M \\
 \end{split}
 \qquad
 \begin{split}
-&\ce{NH4+}\\
+&\ce{NH4}^{+}\\
 C_i &= 0.18\ M \\
 \Delta C &= + x\ M \\
 C_f &= 0.18 + x\ M \\
 \end{split}
 \qquad
 \begin{split}
-&\ce{OH-}\\
+&\ce{OH}^{-}\\
 C_i &= 0\ M \\
 \Delta C &= + x\ M \\
 C_f &= x\ M \\
 \end{split}
 $$
 $$
-K_b = \frac{|\ce{OH-}| \cdot |\ce{NH4+}|}{|\ce{NH3}|} = \frac{x \cdot (0.18 + x)}{0.12 - x}
+K_b = \frac{|\ce{OH}^{-}| \cdot |\ce{NH4}^{+}|}{|\ce{NH3}|} = \frac{x \cdot (0.18 + x)}{0.12 - x}
 $$
 On approxime en négligeant le x : 
 $$
@@ -46,11 +46,11 @@ $$
 L'approximation est valide : $\frac{1.1 \cdot 10^{-5}}{0.12} \cdot 100\% \cong 0.01\% < 5\%$
 $$
 \begin{split}
-|\ce{OH-}| = x = 1.1 \cdot 10^{-5}\ M 
+|\ce{OH}^{-}| = x = 1.1 \cdot 10^{-5}\ M 
 \end{split}
 \qquad
 \begin{split}
-pOH &= - \log |\ce{OH-}| = - \log 1.1 \cdot 10^{-5} = 4.96 \\
+pOH &= - \log |\ce{OH}^{-}| = - \log 1.1 \cdot 10^{-5} = 4.96 \\
 pH &= 14 - pOH = 14 - 4.96 = 9.04
 \end{split}
 $$
@@ -58,18 +58,18 @@ $$
 Méthode basée sur l’équation de Henderson-Hasselbalch :
 $$
 \begin{split}
-  pH = pK_a + \log \frac{|\ce{A-}|}{|\ce{HA}|}
+  pH = pK_a + \log \frac{|\ce{A}^{-}|}{|\ce{HA}|}
 \end{split}
 \qquad
 \begin{split}
-  \ce{HA} \Rightarrow &\ \ce{NH4+} \\
-  \ce{A-} \Rightarrow &\ \ce{NH3} \\
+  \ce{HA} \Rightarrow &\ \ce{NH4}^{+} \\
+  \ce{A}^{-} \Rightarrow &\ \ce{NH3} \\
   pK_b = &\ -\log(K_b) = 4.78 \\
   pK_a = &\ 14 - 4.78 = 9.22
 \end{split}
 \qquad
 \begin{split}
-  pH &= pK_a + \log \frac{|\ce{NH3}|}{|\ce{NH4+}|} \\
+  pH &= pK_a + \log \frac{|\ce{NH3}|}{|\ce{NH4}^{+}|} \\
   &= 9.22 + \log \frac{0.12}{0.18} = 9.04 \\
 \end{split}
 $$

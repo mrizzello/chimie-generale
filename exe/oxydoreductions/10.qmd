@@ -15,7 +15,7 @@ c. $$
 $$
 \vspace{\stretch{1}}
 d. $$
-\ce{Cr2O7^{2-}}
+\ce{Cr2O7}^{2-}
 $$
 \vspace{\stretch{1}}
 
@@ -33,7 +33,7 @@ c. $$
 \overset{+1\ +5\ -2}{\ce{HNO3}}
 $$
 d. $$
-\overset{+6\ -2}{\ce{Cr2O7^{2-}}}
+\overset{+6\ -2}{\ce{Cr2O7}^{2-}}
 $$
 
 :::

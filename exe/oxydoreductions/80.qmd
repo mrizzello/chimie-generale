@@ -11,8 +11,8 @@ Le cuivre s'oxyde. L'oxygène se réduit.
 
 $$
 \begin{split}
-\ce{Cu^{0} ->} & \ce{Cu^{2+} + 2 e^-} \\
-\ce{O^{0} + 2 e^- ->} & \ce{O^{2-}} \\
+\ce{Cu}^{0} \ce{->} & \ce{Cu}^{2+} + 2\ \ce{e}^- \\
+\ce{O}^{0} + 2\ \ce{e}^- \ce{->} & \ce{O}^{2-} \\
 \hline
 \ce{2 Cu + O2 ->} & \ce{2 CuO}
 \end{split}

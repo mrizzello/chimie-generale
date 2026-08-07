@@ -13,8 +13,8 @@ On considère la réaction $\ce{HCl + NH3 -> NH4+ + Cl-}$.
 
 ::: {.Answer data-latex=""}
 
-1. $\ce{HCl}$ est l'acide (il donne un proton $\ce{H+}$) ; $\ce{NH3}$ est la base (elle accepte ce proton).
-2. Selon Arrhénius, $\ce{HCl}$ est un acide car il libère des ions $\ce{H+}$ (sous forme de $\ce{H3O+}$) en solution aqueuse.
+1. $\ce{HCl}$ est l'acide (il donne un proton $\ce{H}^{+}$) ; $\ce{NH3}$ est la base (elle accepte ce proton).
+2. Selon Arrhénius, $\ce{HCl}$ est un acide car il libère des ions $\ce{H}^{+}$ (sous forme de $\ce{H3O}^{+}$) en solution aqueuse.
 3. L'atome d'azote de $\ce{NH3}$ porte la paire libre (doublet non liant) : selon Lewis, $\ce{NH3}$ donne cette paire libre pour capter le proton, c'est donc une base.
 
 :::

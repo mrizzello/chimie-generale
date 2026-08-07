@@ -20,6 +20,6 @@ Pour chaque ligne des exemples ci-dessus, écrire l'équation de la réaction é
   ionique : $\ce{2H^{+} + SO4^{2–} + Ca^{2+} + 2OH^{–} -> Ca^{2+} + SO4^{2–} + 2H2O}$
   ionique réduite : $\ce{H^{+} + OH^{–} -> H2O}$
 
-  ($\ce{CaSO4}$ est soluble, les ions $\ce{Ca^{2+}}$ et $\ce{SO4^{2–}}$ sont spectateurs.)
+  ($\ce{CaSO4}$ est soluble, les ions $\ce{Ca}^{2+}$ et $\ce{SO4^{2–}}$ sont spectateurs.)
 
 :::

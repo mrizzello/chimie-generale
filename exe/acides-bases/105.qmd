@@ -1,10 +1,10 @@
 ::: {.Exercise data-latex=""}
 
-L'ion dihydrogénophosphate $\ce{H2PO4-}$ est amphotère.
+L'ion dihydrogénophosphate $\ce{H2PO4}^{-}$ est amphotère.
 
-1. Écrivez l'équation où $\ce{H2PO4-}$ se comporte comme un acide (avec l'eau) et donnez sa base conjuguée.
+1. Écrivez l'équation où $\ce{H2PO4}^{-}$ se comporte comme un acide (avec l'eau) et donnez sa base conjuguée.
 \vspace{\stretch{1}}
-2. Écrivez l'équation où $\ce{H2PO4-}$ se comporte comme une base (avec l'eau) et donnez son acide conjugué.
+2. Écrivez l'équation où $\ce{H2PO4}^{-}$ se comporte comme une base (avec l'eau) et donnez son acide conjugué.
 \vspace{\stretch{1}}
 3. Donnez l'expression de la constante d'acidité $K_a$ et de la constante de basicité $K_b$ correspondant à ces deux réactions.
 \vspace{\stretch{1}}
@@ -13,12 +13,12 @@ L'ion dihydrogénophosphate $\ce{H2PO4-}$ est amphotère.
 
 ::: {.Answer data-latex=""}
 
-1. Comme acide : $\ce{H2PO4- + H2O <=> HPO4^{2-} + H3O+}$. Base conjuguée : $\ce{HPO4^{2-}}$.
+1. Comme acide : $\ce{H2PO4- + H2O <=> HPO4^{2-} + H3O+}$. Base conjuguée : $\ce{HPO4}^{2-}$.
 2. Comme base : $\ce{H2PO4- + H2O <=> H3PO4 + OH-}$. Acide conjugué : $\ce{H3PO4}$.
 3. $$
-K_a = \frac{|\ce{HPO4^{2-}}| \cdot |\ce{H3O+}|}{|\ce{H2PO4-}|}
+K_a = \frac{|\ce{HPO4}^{2-}| \cdot |\ce{H3O}^{+}|}{|\ce{H2PO4}^{-}|}
 \qquad
-K_b = \frac{|\ce{H3PO4}| \cdot |\ce{OH-}|}{|\ce{H2PO4-}|}
+K_b = \frac{|\ce{H3PO4}| \cdot |\ce{OH}^{-}|}{|\ce{H2PO4}^{-}|}
 $$
 
 :::

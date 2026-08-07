@@ -21,7 +21,7 @@ final & & & 0.1+s & & 2s \\
 
 $$
 \begin{split}
-  K_{ps} = |\ce{Mg^{2+}}| \cdot |\ce{OH^{-}}|^2 &= (0.1+s) \cdot (2s)^2 \\
+  K_{ps} = |\ce{Mg}^{2+}| \cdot |\ce{OH}^{-}|^2 &= (0.1+s) \cdot (2s)^2 \\
   &= (0.1+\cancel{s}) \cdot (2s)^2 \\
   K_{ps} &= 0.4s^2
 \end{split}

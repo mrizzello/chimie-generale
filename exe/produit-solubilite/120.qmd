@@ -19,13 +19,13 @@ Pour protéger les canalisations contre la corrosion, un technicien de piscine s
   s = \sqrt{K_{ps}} = \sqrt{3.36 \cdot 10^{-9}} = 5.80 \cdot 10^{-5}\ mol/L
   \end{split}
   $$
-2. En présence de $\ce{Na2CO3}$, l'ion carbonate $\ce{CO3^{2-}}$ est l'ion commun.  
+2. En présence de $\ce{Na2CO3}$, l'ion carbonate $\ce{CO3}^{2-}$ est l'ion commun.  
   $$
-  |\ce{CO3^{2-}}|_{total} = s' + 0.05 \approx 0.05\ mol/L \quad\text{($s'$ est négligeable devant 0.05)}
+  |\mathrm{CO_3}^{2-}|_{total} = s' + 0.05 \approx 0.05\ mol/L \quad\text{($s'$ est négligeable devant 0.05)}
   $$
   $$
   \begin{split}
-    K_{ps} &= |\ce{Ca^{2+}}| \cdot |\ce{CO3^{2-}}| = s' \cdot 0.05 \\
+    K_{ps} &= |\ce{Ca}^{2+}| \cdot |\ce{CO3}^{2-}| = s' \cdot 0.05 \\
     s' &= \frac{3.36 \cdot 10^{-9}}{0.05} = 6.72 \cdot 10^{-8}\ mol/L
   \end{split}
   $$  

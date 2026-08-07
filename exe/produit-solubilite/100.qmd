@@ -13,8 +13,8 @@ Dans le cadre d'une étude sur les pigments historiques, un laboratoire d'arché
   $$
 2. $$ 
   \begin{gathered}
-    K_{ps} = |\ce{Ag+}|^3 \cdot |\ce{PO4^{3-}}| \\
-    |\ce{Ag+}| = 3s \text{ et } |\ce{PO4^{3-}}| = s \\
+    K_{ps} = |\ce{Ag}^{+}|^3 \cdot |\ce{PO4}^{3-}| \\
+    |\ce{Ag}^{+}| = 3s \text{ et } |\ce{PO4}^{3-}| = s \\
     K_{ps} = (3s)^3 \cdot s = 27s^3 \cdot s = 27s^4    
   \end{gathered}
   $$
