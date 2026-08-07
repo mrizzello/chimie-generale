@@ -77,3 +77,14 @@
 \newenvironment{credit}
   {\vspace{-1em}\begin{center}\begin{footnotesize}\begin{textit}}
   {\end{textit}\end{footnotesize}\end{center}}
+
+% Réduit de 5 % la taille de police de la table des matières uniquement
+% (base 11pt/13.6pt -> 10.45pt/12.92pt), pour qu'elle tienne sur une page
+% de moins, sans toucher à la mise en page du reste du document.
+\let\oldtableofcontents\tableofcontents
+\renewcommand{\tableofcontents}{%
+  \begingroup
+  \fontsize{10.45pt}{12.92pt}\selectfont
+  \oldtableofcontents
+  \endgroup
+}
