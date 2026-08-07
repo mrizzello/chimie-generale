@@ -8,6 +8,10 @@
   font-weight: bold;
 }
 
+i.bi-file-earmark-pdf {
+    color: red;
+}
+
 .sidebar-navigation li a,
 .sidebar nav[role=doc-toc]>ul li a {
     font-size: 90%;

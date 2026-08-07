@@ -1,6 +1,6 @@
 ## Support du cours de chimie générale
 
-Ce dépôt contient le support du cours de chimie générale (niveau gymnasial) élaboré par un enseignant en Suisse. Le manuel couvre le programme de la maturité gymnasiale, de l'introduction à la chimie (états de la matière, structure atomique, tableau périodique, liaisons chimiques) jusqu'à la thermodynamique, en passant par la stœchiométrie, les équilibres, les acides-bases et l'électrochimie. Chaque chapitre comprend des exercices corrigés. La version publiée est consultable sur [chimiegenerale.ch](https://chimiegenerale.ch/).
+Ce dépôt contient le support du cours de chimie générale (niveau gymnasial). Le manuel couvre le programme de la maturité gymnasiale, de l'introduction à la chimie (états de la matière, structure atomique, tableau périodique, liaisons chimiques) jusqu'à la thermodynamique, en passant par la stœchiométrie, les équilibres, les acides-bases et l'électrochimie. Chaque chapitre comprend des exercices corrigés. La version publiée est consultable sur [chimiegenerale.ch](https://chimiegenerale.ch/).
 
 ### Licence
 
