@@ -12,6 +12,11 @@ book:
   sidebar:
     style: docked
     background: "#fafafa"
+    tools:
+      - icon: file-earmark-pdf
+        href: chimie-generale.pdf
+        text: "Télécharger le PDF"
+        target: _blank
   chapters:
     - index.qmd
     - 10-introduction.qmd
