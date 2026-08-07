@@ -213,11 +213,11 @@ A l'inverse, une solution sucrée ne conduit pas l'électricité car le saccharo
 
 Le courant électrique dans la solution est dû au déplacement des cations dans un sens et au déplacement des anions dans le sens contraire. C'est un déplacement de charges et non un déplacement d'électrons seuls.
 
-\newpage
-
 {{< include exe/solutions-electrolytes/20.qmd >}}
 
 ![Résumé dissolution-dissociation](images/dissociation-resume.png){#fig-dissociation-resume width="100%"}
+
+\newpage
 
 ## La concentration
 

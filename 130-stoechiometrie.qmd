@@ -47,11 +47,13 @@ Dans le cas d'une réaction totale, en faisant réagir une mole de dichlore et d
 
 La quantité de matière avant la réaction est égale à la quantité de matière après la réaction (46 g + 70.9 g = 116.9 g). La loi de conservation de la masse est respectée (ouf!).
 
-{{< include exe/stoechiometrie/10.qmd >}}
-
 \newpage
 
+{{< include exe/stoechiometrie/10.qmd >}}
+
 {{< include exe/stoechiometrie/20.qmd >}}
+
+\newpage
 
 ## Conditions stœchiométriques et réactif limitant
 
