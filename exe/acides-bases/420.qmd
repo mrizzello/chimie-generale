@@ -52,8 +52,8 @@ c. Au point de demi-équivalence : $pH = pK_a = 3.34$
 d. Tout l'acide est converti en sa base conjuguée.
 $$
 \begin{split}
-n_{\ce{HNO2}} &= 0.004\ [mol] = n_{\ce{NO2-}} {}_{converti} \\
-|\ce{NO2-}| &= \frac{0.004\ [mol]}{0.06\ [L]} = 0.067\ M
+n_{\ce{HNO2}} &= 0.004\ [mol] = n_{\ce{NO2}^{-}} {}_{converti} \\
+|\ce{NO2}^{-}| &= \frac{0.004\ [mol]}{0.06\ [L]} = 0.067\ M
 \end{split}
 $$
 $$
@@ -61,7 +61,7 @@ $$
 $$
 $$
 \begin{split}
-&\ce{NO2-}\\
+&\ce{NO2}^{-}\\
 C_i &= 0.067\ M \\
 \Delta C &= - x\ M \\
 C_f &= 0.067 - x\ M \\
@@ -75,7 +75,7 @@ C_f &= x\ M \\
 \end{split}
 \qquad
 \begin{split}
-&\ce{OH-}\\
+&\ce{OH}^{-}\\
 C_i &= 0\ M \\
 \Delta C &= + x\ M \\
 C_f &= x\ M \\
@@ -88,7 +88,7 @@ K_b &= 10^{-pK_b} = 10^{-10.66} = 2.19 \cdot 10^{-11} \\
 \end{split}
 $$
 $$
-K_b = \frac{|\ce{HNO2}| \cdot |\ce{OH-}|}{|\ce{NO2-}|} = \frac{x \cdot x}{0.067 - x}
+K_b = \frac{|\ce{HNO2}| \cdot |\ce{OH}^{-}|}{|\ce{NO2}^{-}|} = \frac{x \cdot x}{0.067 - x}
 $$
 On approxime en négligeant le x : 
 $$
@@ -100,11 +100,11 @@ $$
 L'approximation est valide : $\frac{1.21 \cdot 10^{-6}}{0.067} \cdot 100\% \cong 0.002\% < 5\%$
 $$
 \begin{split}
-|\ce{OH-}| = x = 1.21 \cdot 10^{-6}\ M 
+|\ce{OH}^{-}| = x = 1.21 \cdot 10^{-6}\ M 
 \end{split}
 \qquad
 \begin{split}
-pOH &= - \log |\ce{OH-}| = - \log 1.21 \cdot 10^{-6} = 5.92 \\
+pOH &= - \log |\ce{OH}^{-}| = - \log 1.21 \cdot 10^{-6} = 5.92 \\
 pH &= 14 - pOH = 14 - 5.92 = 8.08
 \end{split}
 $$

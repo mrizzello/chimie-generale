@@ -30,7 +30,7 @@
     Oui. Règle de l'oméga, réaction spontanée entre les meilleurs oxydant et réducteur.  
     $$
     \begin{split}
-    \ce{2I^{-}} & \ce{ -> I_2 + 2 e^-} \qquad \text{(oxidation)} \\
+    \ce{2I}^{-} & \ce{ -> I_2 + 2 e^-} \qquad \text{(oxidation)} \\
     \ce{Br_{2} + 2 e^-} & \ce{ -> 2Br^{-}} \qquad \text{(réduction)} \\
     \hline
     \ce{2I^{-} + Br_{2}} & \ce{ -> I_{2} + 2Br^{-}}

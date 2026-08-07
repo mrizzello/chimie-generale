@@ -19,21 +19,21 @@ C_f &= 0.250 - x\ M \\
 \end{split}
 \qquad
 \begin{split}
-&\ce{H3O+}\\
+&\ce{H3O}^{+}\\
 C_i &= 0\ M \\
 \Delta C &= + x\ M \\
 C_f &= x\ M \\
 \end{split}
 \qquad
 \begin{split}
-&\ce{CN-}\\
+&\ce{CN}^{-}\\
 C_i &= 0.170\ M \\
 \Delta C &= + x\ M \\
 C_f &= 0.170 + x\ M \\
 \end{split}
 $$
 $$
-K_a = \frac{|\ce{CN-}| \cdot |\ce{H3O+}|}{|\ce{HCN}|} = \frac{x \cdot (0.170 + x)}{0.250 - x}
+K_a = \frac{|\ce{CN}^{-}| \cdot |\ce{H3O}^{+}|}{|\ce{HCN}|} = \frac{x \cdot (0.170 + x)}{0.250 - x}
 $$
 On approxime en négligeant le x : 
 $$
@@ -45,11 +45,11 @@ $$
 L'approximation est valide : $\frac{8.8 \cdot 10^{-10}}{0.250} \cdot 100\% \cong 3.52 \cdot 10^{-7}\% < 5\%$
 $$
 \begin{split}
-|\ce{H3O+}| = x = 7.1 \cdot 10^{-10}\ M
+|\ce{H3O}^{+}| = x = 7.1 \cdot 10^{-10}\ M
 \end{split}
 \qquad\qquad
 \begin{split}
-pH &= - \log |\ce{H3O+}| \\
+pH &= - \log |\ce{H3O}^{+}| \\
  &= - \log 8.8 \cdot 10^{-10} \cong 9.056
 \end{split}
 $$
@@ -58,17 +58,17 @@ Méthode basée sur l'équation de Henderson-Hasselbalch :
 
 $$
 \begin{split}
-  pH = pK_a + \log \frac{|\ce{A-}|}{|\ce{HA}|}
+  pH = pK_a + \log \frac{|\ce{A}^{-}|}{|\ce{HA}|}
 \end{split}
 \qquad
 \begin{split}
   \ce{HA} \Rightarrow &\ \ce{HCN} \\
-  \ce{A-} \Rightarrow &\ \ce{CN-} \\
+  \ce{A}^{-} \Rightarrow &\ \ce{CN}^{-} \\
   K_a = &\ 6.0 \cdot 10^{-10}
 \end{split}
 \qquad
 \begin{split}
-  pH &= pK_a + \log \frac{|\ce{CN-}|}{|\ce{HCN}|} \\
+  pH &= pK_a + \log \frac{|\ce{CN}^{-}|}{|\ce{HCN}|} \\
   &= - \log 6.0 \cdot 10^{-10} + \log \frac{0.17}{0.25} = 9.054 \\
 \end{split}
 $$

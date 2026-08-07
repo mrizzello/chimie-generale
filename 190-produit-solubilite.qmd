@@ -201,10 +201,10 @@ $$
 \end{split}
 $$
 
-L'ion $\ce{SO4^{2-}}$ est l'ion commun introduit par le sulfate de sodium. Selon le principe de Le Châtelier, l'ajout de cet ion commun déplacera l'équilibre de dissolution de $\ce{PbSO4}$ vers la gauche, c'est-à-dire vers la formation du solide non dissous. En conséquence :
+L'ion $\ce{SO4}^{2-}$ est l'ion commun introduit par le sulfate de sodium. Selon le principe de Le Châtelier, l'ajout de cet ion commun déplacera l'équilibre de dissolution de $\ce{PbSO4}$ vers la gauche, c'est-à-dire vers la formation du solide non dissous. En conséquence :
 
-- La concentration en ions $\ce{Pb^{2+}}$ diminue.
-- La concentration en ions $\ce{SO4^{2-}}$ diminue.
+- La concentration en ions $\ce{Pb}^{2+}$ diminue.
+- La concentration en ions $\ce{SO4}^{2-}$ diminue.
 - Le phénomène observé sera la précipitation de $\ce{PbSO4_{(s)}}$.
 
 Cette réduction de la solubilité est une conséquence directe de l'augmentation de la concentration d'un des produits de la dissolution, ce qui force l'équilibre à se déplacer dans le sens inverse de la dissolution.

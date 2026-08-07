@@ -67,7 +67,7 @@ L'application d'une série de règles simples permet d'attribuer les états d'ox
 | Règles                                                        | Exemples                                     |    NO    |
 |:-------------------------------------------------------------|:--------------------------------------------|:--------:|
 | Un atome à l'état élémentaire a un nombre d'oxydation de 0.    | $\ce{Na}$, $\ce{Fe}$, $\ce{O2}$, $\ce{Cl2}$ |    0     |
-| Un ion monatomique a un nombre d'oxydation égal à sa charge. | $\ce{Na+}$, $\ce{Ca^{2+}}$, $\ce{Al^{3+}}$  | +1,+2,+3 |
+| Un ion monatomique a un nombre d'oxydation égal à sa charge. | $\ce{Na}^{+}$, $\ce{Ca}^{2+}$, $\ce{Al}^{3+}$  | +1,+2,+3 |
 | L'**hydrogène** a généralement un NO de +1 dans ses composés | toujours, sauf hydrures (H^-^)              |    +1    |
 | L'**oxygène** a généralement un NO de -2 dans ses composés   | toujours, sauf peroxydes (O^-^)             |    -2    |
 | Le **fluor** a généralement un NO de -1 dans ses composés    | toujours, sauf exception                    |    -1    |
@@ -166,10 +166,10 @@ Prenons en exemple deux équations d'oxydoréduction :
 
 $$
 \begin{split}
-\underset{\text{oxydant 1}}{\ce{Cu^{2+}}} + \underset{\text{réducteur 2}}{\ce{Fe}} &\ce{->}
-\underset{\text{réducteur 1}}{\ce{Cu}} + \underset{\text{oxydant 2}}{\ce{Fe^{2+}}} \\
-\underset{\text{oxydant 1}}{\ce{2Ag^{+}}} + \underset{\text{réducteur 2}}{\ce{Cu}} &\ce{->}
-\underset{\text{réducteur 1}}{\ce{2Ag}} + \underset{\text{oxydant 2}}{\ce{Cu^{2+}}}
+\underset{\text{oxydant 1}}{\ce{Cu}^{2+}} + \underset{\text{réducteur 2}}{\ce{Fe}} &\ce{->}
+\underset{\text{réducteur 1}}{\ce{Cu}} + \underset{\text{oxydant 2}}{\ce{Fe}^{2+}} \\
+\underset{\text{oxydant 1}}{2\ce{Ag}^{+}} + \underset{\text{réducteur 2}}{\ce{Cu}} &\ce{->}
+\underset{\text{réducteur 1}}{2\ce{Ag}} + \underset{\text{oxydant 2}}{\ce{Cu}^{2+}}
 \end{split}
 $$
 
@@ -197,7 +197,7 @@ $$
 \ce{Zn(s) + Cu^{2+}(aq) -> Zn^{2+}(aq) + Cu(s)}
 $$
 
-- $\ce{Cu^{2+}}$ est un oxydant plus fort que $\ce{Zn^{2+}}$.
+- $\ce{Cu}^{2+}$ est un oxydant plus fort que $\ce{Zn}^{2+}$.
 - $\ce{Zn}$ est un réducteur plus fort que $\ce{Cu}$.
 
 ### Règle du gamma
@@ -270,7 +270,7 @@ $$
 Pour équilibrer cette équation, nous devons d'abord attribuer les états d'oxydation à chaque atome des réactifs et des produits.
 
 $$
-\overset{+1}{\ce{H^+}} + \overset{-1}{\ce{Cl^-}} + \overset{0}{\ce{Sn}} + \overset{+5\ -2}{\ce{NO3-}} \ce{->} \overset{+4\ -1}{\ce{SnCl6^{2-}}} + \overset{+4\ -2}{\ce{NO2}} + \overset{+1\ -2}{\ce{H2O}}
+\overset{+1}{\ce{H^+}} + \overset{-1}{\ce{Cl^-}} + \overset{0}{\ce{Sn}} + \overset{+5\ -2}{\ce{NO3}^{-}} \ce{->} \overset{+4\ -1}{\ce{SnCl6}^{2-}} + \overset{+4\ -2}{\ce{NO2}} + \overset{+1\ -2}{\ce{H2O}}
 $$
 
 On note que l'hydrogène, le chlore et l'oxygène ne changent pas d'état d'oxydation, ils ne sont donc pas impliqués dans l'échange d'électrons. Concentrons donc notre attention sur Sn et N :

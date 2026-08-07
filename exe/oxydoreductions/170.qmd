@@ -25,7 +25,7 @@ $$
 $$
 \ce{Fe + 2 Ag+ -> Fe^{2+} + 2 Ag}
 $$
-3. L'oxydant est $\ce{Ag+}$ (il est réduit) ; le réducteur est $\ce{Fe}$ (il est oxydé).
-4. Oui : $\ce{Ag+}$ appartient au couple de plus haut potentiel ($+0.80$ V), c'est l'oxydant le plus fort ; $\ce{Fe}$ appartient au couple de plus bas potentiel ($-0.45$ V), c'est le réducteur le plus fort. Leur réaction est donc spontanée (règle du gamma).
+3. L'oxydant est $\ce{Ag}^{+}$ (il est réduit) ; le réducteur est $\ce{Fe}$ (il est oxydé).
+4. Oui : $\ce{Ag}^{+}$ appartient au couple de plus haut potentiel ($+0.80$ V), c'est l'oxydant le plus fort ; $\ce{Fe}$ appartient au couple de plus bas potentiel ($-0.45$ V), c'est le réducteur le plus fort. Leur réaction est donc spontanée (règle du gamma).
 
 :::

@@ -16,14 +16,14 @@ $$
 \end{split}
 \qquad\Rightarrow\qquad
 \begin{split}
-Q = |\ce{Pb^{2+}}| \cdot |\ce{Cl^{-}}|^2
+Q = |\ce{Pb}^{2+}| \cdot |\ce{Cl}^{-}|^2
 \end{split}
 $$
 
 $$
 \begin{split}
-\text{moles de } \ce{Pb^{2+}} &= 0.200\ L \cdot 0.02\ mol/L = 0.004\ mol \\
-\text{moles de } \ce{Cl^{-}} &= 0.300\ L \cdot 0.1\ mol/L = 0.03\ mol
+\text{moles de } \ce{Pb}^{2+} &= 0.200\ L \cdot 0.02\ mol/L = 0.004\ mol \\
+\text{moles de } \ce{Cl}^{-} &= 0.300\ L \cdot 0.1\ mol/L = 0.03\ mol
 \end{split}
 \qquad\qquad
 \begin{split}
@@ -34,8 +34,8 @@ $$
 
 $$
 \begin{split}
-|\ce{Pb^{2+}}| &= \frac{0.004\ mol}{0.5\ L} = 0.008\ M \\
-|\ce{Cl^{-}}| &= \frac{0.03\ mol}{0.5\ L} = 0.06\ M
+|\ce{Pb}^{2+}| &= \frac{0.004\ mol}{0.5\ L} = 0.008\ M \\
+|\ce{Cl}^{-}| &= \frac{0.03\ mol}{0.5\ L} = 0.06\ M
 \end{split}
 \quad\Rightarrow\quad
 \begin{split}

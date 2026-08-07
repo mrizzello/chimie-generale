@@ -8,7 +8,7 @@ b. $\ce{Fe}$
 \vspace{1em}
 c. $\ce{AlCl3}$
 \vspace{1em}
-d. $\ce{HPO4^{2-}}$
+d. $\ce{HPO4}^{2-}$
 \vspace{1em}
 e. $\ce{NH4^+}$
 \vspace{1em}
@@ -29,7 +29,7 @@ c. $$
 \overset{+3\ -1}{\ce{AlCl3}}
 $$
 d. $$
-\overset{+1\ +5\ -2}{\ce{HPO4^{2-}}}
+\overset{+1\ +5\ -2}{\ce{HPO4}^{2-}}
 $$
 e. $$
 \overset{-3\ +1}{\ce{NH4^+}}

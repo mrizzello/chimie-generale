@@ -27,11 +27,11 @@ Ecrivez l'expression de la constante d'équilibre pour les réactions suivantes.
 
 1. $$ K = |\ce{CO2}| $$
 2. $$ K = \frac{|\ce{NO}|^2 \cdot |\ce{Cl2}|}{|\ce{NOCl}|^2} $$
-3. $$ K = |\ce{Fe^{3+}}| \cdot |\ce{OH^-}|^3 $$
-4. $$ K = \frac{|\ce{NH4+}| \cdot |\ce{OH^-}|}{|\ce{NH3}|} $$
-5. $$ K = |\ce{Pb^{2+}}| \cdot |\ce{Cl^-}|^2 $$
+3. $$ K = |\ce{Fe}^{3+}| \cdot |\ce{OH}^-|^3 $$
+4. $$ K = \frac{|\ce{NH4}^+| \cdot |\ce{OH}^-|}{|\ce{NH3}|} $$
+5. $$ K = |\ce{Pb}^{2+}| \cdot |\ce{Cl}^-|^2 $$
 6. $$ K = \frac{|\ce{HI}|^2}{|\ce{H2}|} $$
 7. $$ K = |\ce{CO2}| \cdot |\ce{H2O}| $$
-8. $$ K = |\ce{Ag+}|^2 \cdot |\ce{CO3^{2-}}| $$
+8. $$ K = |\ce{Ag}^+|^2 \cdot |\ce{CO3}^{2-}| $$
 
 :::

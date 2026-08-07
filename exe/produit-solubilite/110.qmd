@@ -23,11 +23,11 @@ Le fluorure de magnésium ($\ce{MgF2}$) est utilisé en optique de précision po
     \ce{MgF2_{(s)} <=> Mg^{2+}_{(aq)} + 2 F^-_{(aq)}}
   $$
   $$
-    |\ce{Mg^{2+}}| = s \text{ et } |\ce{F-}| = 2s
+    |\ce{Mg}^{2+}| = s \text{ et } |\ce{F}^{-}| = 2s
   $$
   $$
   \begin{split}
-    K_{ps} &= |\ce{Mg^{2+}}| \cdot |\ce{F-}|^2 = s \cdot (2s)^2 = 4s^3 \\
+    K_{ps} &= |\ce{Mg}^{2+}| \cdot |\ce{F}^{-}|^2 = s \cdot (2s)^2 = 4s^3 \\
     &= 4 \cdot (1.22 \cdot 10^{-3})^3 = 4 \cdot 1.816 \cdot 10^{-9}\\
     &= 7.26 \cdot 10^{-9}
   \end{split}

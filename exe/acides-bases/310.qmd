@@ -24,21 +24,21 @@ C_f &= 0.350 - x\ M \\
 \end{split}
 \qquad
 \begin{split}
-&\ce{H2PO4-}\\
+&\ce{H2PO4}^{-}\\
 C_i &= 0\ M \\
 \Delta C &= + x\ M \\
 C_f &= x\ M \\
 \end{split}
 \qquad
 \begin{split}
-&\ce{H3O+}\\
+&\ce{H3O}^{+}\\
 C_i &= 0\ M \\
 \Delta C &= + x\ M \\
 C_f &= x\ M \\
 \end{split}
 $$
 $$
-K_{a1} = \frac{|\ce{H2PO4-}| \cdot |\ce{H3O+}|}{|\ce{H3PO4}|} = \frac{x \cdot x}{0.350 - x}
+K_{a1} = \frac{|\ce{H2PO4}^{-}| \cdot |\ce{H3O}^{+}|}{|\ce{H3PO4}|} = \frac{x \cdot x}{0.350 - x}
 $$
 On approxime en négligeant le x :
 $$
@@ -81,28 +81,28 @@ $$
 $$
 $$
 \begin{split}
-&\ce{H2PO4-}\\
+&\ce{H2PO4}^{-}\\
 C_i &= 0.0476\ M \\
 \Delta C &= - x\ M \\
 C_f &= 0.0476 - x\ M \\
 \end{split}
 \qquad
 \begin{split}
-&\ce{HPO4^{2-}}\\
+&\ce{HPO4}^{2-}\\
 C_i &= 0\ M \\
 \Delta C &= + x\ M \\
 C_f &= x\ M \\
 \end{split}
 \qquad
 \begin{split}
-&\ce{H3O+}\\
+&\ce{H3O}^{+}\\
 C_i &= 0.0476\ M \\
 \Delta C &= + x\ M \\
 C_f &= 0.0476 + x\ M \\
 \end{split}
 $$
 $$
-K_{a2} = \frac{|\ce{HPO4^{2-}}| \cdot |\ce{H3O+}|}{|\ce{H2PO4-}|} = \frac{x \cdot (0.0476 + x)}{0.0476 - x}
+K_{a2} = \frac{|\ce{HPO4}^{2-}| \cdot |\ce{H3O}^{+}|}{|\ce{H2PO4}^{-}|} = \frac{x \cdot (0.0476 + x)}{0.0476 - x}
 $$
 On approxime en négligeant le x : 
 $$
@@ -118,15 +118,15 @@ $$
 L'approximation est valide : $\frac{6.2 \cdot 10^{-8}}{0.0476} \cdot 100\% \approx 0\% < 5\%$
 $$
 \begin{split}
-|\ce{H3O+}|_{total} &= 0.0476\ M + \cancel{6.2 \cdot 10^{-8}} \quad \text{(négligeable)} \\
+|\ce{H3O}^{+}|_{total} &= 0.0476\ M + \cancel{6.2 \cdot 10^{-8}} \quad \text{(négligeable)} \\
 &= 0.0476\ M \\
-pH &= - \log |\ce{H3O+}| = - \log 0.0476 = 1.32
+pH &= - \log |\ce{H3O}^{+}| = - \log 0.0476 = 1.32
 \end{split}
 $$
 b. $$
 \ce{H2SO4 + H2O <=> HSO4- + H3O+}
 $$
-Première protonation, acide fort, $|\ce{H3O+}| = 0.125\ M$.
+Première protonation, acide fort, $|\ce{H3O}^{+}| = 0.125\ M$.
 
 Seconde protonation, acide faible.
 $$
@@ -134,28 +134,28 @@ $$
 $$
 $$
 \begin{split}
-&\ce{HSO4-}\\
+&\ce{HSO4}^{-}\\
 C_i &= 0.125\ M \\
 \Delta C &= - x\ M \\
 C_f &= 0.125 - x\ M \\
 \end{split}
 \qquad
 \begin{split}
-&\ce{SO4^{2-}}\\
+&\ce{SO4}^{2-}\\
 C_i &= 0\ M \\
 \Delta C &= + x\ M \\
 C_f &= x\ M \\
 \end{split}
 \qquad
 \begin{split}
-&\ce{H3O+}\\
+&\ce{H3O}^{+}\\
 C_i &= 0.125\ M \\
 \Delta C &= + x\ M \\
 C_f &= 0.125 + x\ M \\
 \end{split}
 $$
 $$
-K_{a2} = \frac{|\ce{SO4^{2-}}| \cdot |\ce{H3O+}|}{|\ce{HSO4-}|} = \frac{x \cdot (0.125 + x)}{0.125 - x} = 1.2 \cdot 10^{-2}
+K_{a2} = \frac{|\ce{SO4}^{2-}| \cdot |\ce{H3O}^{+}|}{|\ce{HSO4}^{-}|} = \frac{x \cdot (0.125 + x)}{0.125 - x} = 1.2 \cdot 10^{-2}
 $$
 Après résolution :
 $$
@@ -169,9 +169,9 @@ x = \cancel{-0.147}\ M \quad \text{non valable}
 $$
 $$
 \begin{split}
-|\ce{H3O+}|_{total} &= 0.125\ M + 0.0102\ M \\
+|\ce{H3O}^{+}|_{total} &= 0.125\ M + 0.0102\ M \\
 &= 0.1352\ M \\
-pH &= - \log |\ce{H3O+}| = - \log 0.1352 = 0.869
+pH &= - \log |\ce{H3O}^{+}| = - \log 0.1352 = 0.869
 \end{split}
 $$
 :::

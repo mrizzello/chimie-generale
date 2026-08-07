@@ -13,16 +13,16 @@ b. obtenue en diluant 5 fois une solution de $\ce{HCl}$ initialement au pH 3.
 
 a. $$
 \begin{split}
-|\ce{H3O+}| = 10^{-pH} = 10^{-1.6} = 0.025\ M
+|\ce{H3O}^{+}| = 10^{-pH} = 10^{-1.6} = 0.025\ M
 \end{split}
 \quad
 \begin{split}
-|\ce{HNO3}| = |\ce{H3O+}| \quad \text{(acide fort)}
+|\ce{HNO3}| = |\ce{H3O}^{+}| \quad \text{(acide fort)}
 \end{split}
 $$
 b. $$
 \begin{split}
-|\ce{HCl}| = |\ce{H3O+}| = 10^{-pH} = 10^{-3}\ M
+|\ce{HCl}| = |\ce{H3O}^{+}| = 10^{-pH} = 10^{-3}\ M
 \end{split}
 \quad
 \begin{split}

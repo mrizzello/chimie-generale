@@ -20,8 +20,8 @@ $$
 \end{split}
 \qquad
 \begin{split}
-|\ce{NaOH}| &= |\ce{OH-}| = 0.200\ M \\
-|\ce{HNO3}| &= |\ce{H3O+}| = 0.200\ M
+|\ce{NaOH}| &= |\ce{OH}^{-}| = 0.200\ M \\
+|\ce{HNO3}| &= |\ce{H3O}^{+}| = 0.200\ M
 \end{split}
 $$
 

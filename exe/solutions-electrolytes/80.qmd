@@ -21,9 +21,9 @@ Calculer pour chacune d'elles, la concentration molaire du sel et celle des ions
 	\end{split}		
 	\qquad
 	\begin{split}
-		\ce{CaCl2} & \ce{-> Ca^{2+} + 2\ Cl^-} \\[2em]
-		|\ce{Ca^{2+}}| &= |\ce{CaCl2}| = 10^{-2}\ M \\[1em]
-		|\ce{Cl^-}| &= 2 \cdot |\ce{CaCl2}| = 2 \cdot 10^{-2}\ M \\
+		\ce{CaCl2} & \ce{->} \ce{Ca}^{2+} + 2\ \ce{Cl}^- \\[2em]
+		|\ce{Ca}^{2+}| &= |\ce{CaCl2}| = 10^{-2}\ M \\[1em]
+		|\ce{Cl}^-| &= 2 \cdot |\ce{CaCl2}| = 2 \cdot 10^{-2}\ M \\
 	\end{split}
 $$
 2. $$
@@ -35,9 +35,9 @@ $$
 	\end{split}		
 	\qquad
 	\begin{split}
-		\ce{Fe2(SO4)3} & \ce{-> 2\ Fe^{3+} + 3\ SO4^{2-}} \\[2em]
-		|\ce{Fe^{3+}}| &= 2 \cdot |\ce{Fe2(SO4)3}|\\ &= 2.926 \cdot 10^{-3}\ M \\[1em]
-		|\ce{SO4^{2-}}| &= 3 \cdot |\ce{Fe2(SO4)3}|\\ &= 4.389 \cdot 10^{-3}\ M \\
+		\ce{Fe2(SO4)3} & \ce{->} 2\ \ce{Fe}^{3+} + 3\ \ce{SO4}^{2-} \\[2em]
+		|\ce{Fe}^{3+}| &= 2 \cdot |\ce{Fe2(SO4)3}|\\ &= 2.926 \cdot 10^{-3}\ M \\[1em]
+		|\ce{SO4}^{2-}| &= 3 \cdot |\ce{Fe2(SO4)3}|\\ &= 4.389 \cdot 10^{-3}\ M \\
 	\end{split}
 $$
 :::

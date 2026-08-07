@@ -170,7 +170,7 @@ La plupart des mesures et calculs faisant intervenir des piles ont lieu dans des
 
 ![](images/nernst-illustration.png){width="50%"}
 
-|              | $|\ce{Cu^{2+}}|$ | $|\ce{Zn^{2+}}|$ |                            |
+|              | $|\ce{Cu}^{2+}|$ | $|\ce{Zn}^{2+}|$ |                            |
 | -----------: | ---------------: | ---------------: | -------------------------: |
 | Non standard |            1.5 M |          0.075 M | $E_{pile} = 1.142 \text{ V}$     |
 |     Standard |              1 M |              1 M | $E^{0}_{pile} = 1.103 \text{ V}$ |

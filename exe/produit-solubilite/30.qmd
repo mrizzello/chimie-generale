@@ -21,14 +21,14 @@ final & & & s & & 1+s \\
 
 $$
 \begin{split}
-    K_{ps} &= |\ce{Pb^{2+}}| \cdot |\ce{SO4^{2-}}| = s \cdot (1+s) \\
+    K_{ps} &= |\ce{Pb}^{2+}| \cdot |\ce{SO4}^{2-}| = s \cdot (1+s) \\
     &= s \cdot (1+\cancel{s}) \\
     \Rightarrow s &= K_{ps} = 2.53 \cdot 10^{-8}\ mol/L
 \end{split}
 \qquad
 \begin{split}
     &\text{sans le ion commun} \\
-    K_{ps} &= |\ce{Pb^{2+}}| \cdot |\ce{SO4^{2-}}| = s \cdot s = s^2 \\
+    K_{ps} &= |\ce{Pb}^{2+}| \cdot |\ce{SO4}^{2-}| = s \cdot s = s^2 \\
     \Rightarrow s &= \sqrt[2]{K_{ps}} = \sqrt[2]{2.53 \cdot 10^{-8}} = 1.59 \cdot 10^{-4}\ mol/L
 \end{split}
 $$

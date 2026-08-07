@@ -13,7 +13,7 @@ On titre un acide faible HA de constante $pK_a = 4.8$ par une base forte.
 
 ::: {.Answer data-latex=""}
 
-1. Au point de demi-équivalence, $|\ce{A-}| = |\ce{HA}|$, donc $pH = pK_a + \log 1 = pK_a = 4.8$.
+1. Au point de demi-équivalence, $|\ce{A}^{-}| = |\ce{HA}|$, donc $pH = pK_a + \log 1 = pK_a = 4.8$.
 2. $$
 pH = pK_a + \log \frac{n_b}{n_a^*} = 4.8 + \log \frac{1.0\cdot10^{-3}}{3.0\cdot10^{-3}} = 4.8 + \log(0.333) = 4.8 - 0.48 = 4.32
 $$

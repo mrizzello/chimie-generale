@@ -12,28 +12,28 @@ $$
 $$
 $$
 \begin{split}
-&\ce{CO3^{2-}}\\
+&\ce{CO3}^{2-}\\
 C_i &= 0.125\ M \\
 \Delta C &= - x\ M \\
 C_f &= 0.125 - x\ M \\
 \end{split}
 \qquad
 \begin{split}
-&\ce{HCO3-}\\
+&\ce{HCO3}^{-}\\
 C_i &= 0\ M \\
 \Delta C &= + x\ M \\
 C_f &= x\ M \\
 \end{split}
 \qquad
 \begin{split}
-&\ce{OH-}\\
+&\ce{OH}^{-}\\
 C_i &= 0\ M \\
 \Delta C &= + x\ M \\
 C_f &= x\ M \\
 \end{split}
 $$
 $$
-K_b = \frac{|\ce{HCO3-}| \cdot |\ce{OH-}|}{|\ce{CO3^{2-}}|} = \frac{x \cdot x}{0.125 - x}
+K_b = \frac{|\ce{HCO3}^{-}| \cdot |\ce{OH}^{-}|}{|\ce{CO3}^{2-}|} = \frac{x \cdot x}{0.125 - x}
 $$
 On approxime en négligeant le x : 
 $$
@@ -49,11 +49,11 @@ $$
 L'approximation est valide : $\frac{0.0047}{0.125} \cdot 100\% \cong 3.83\% < 5\%$
 $$
 \begin{split}
-|\ce{OH-}| = x = 0.0047\ M 
+|\ce{OH}^{-}| = x = 0.0047\ M 
 \end{split}
 \qquad
 \begin{split}
-pOH &= - \log |\ce{OH-}| = - \log 0.0047 = 2.32 \\
+pOH &= - \log |\ce{OH}^{-}| = - \log 0.0047 = 2.32 \\
 pH &= 14 - pOH = 14 - 2.32 = 11.68
 \end{split}
 $$

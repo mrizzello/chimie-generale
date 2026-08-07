@@ -12,7 +12,7 @@ d. $\ce{NH3}$
 \vspace{\stretch{1}}
 e. $\ce{H2SO4}$
 \vspace{\stretch{1}}
-f. $\ce{HSO4-}$ 
+f. $\ce{HSO4}^{-}$ 
 \vspace{\stretch{1}}
 g. $\ce{C5H5N}$ (pyridine)
 \vspace{\stretch{1}}
@@ -23,10 +23,10 @@ g. $\ce{C5H5N}$ (pyridine)
 
 a. $\ce{HI}$ : acide fort
 b. $\ce{NaOH}$ : base forte
-c. $\ce{HF}$ : acide faible ; $K_a = \frac{|\ce{F-}| \cdot |\ce{H3O+}|}{|\ce{HF}|}$
-d. $\ce{NH3}$ : base faible ; $K_b = \frac{|\ce{NH4+}| \cdot |\ce{OH-}|}{|\ce{NH3}|}$
+c. $\ce{HF}$ : acide faible ; $K_a = \frac{|\ce{F}^{-}| \cdot |\ce{H3O}^{+}|}{|\ce{HF}|}$
+d. $\ce{NH3}$ : base faible ; $K_b = \frac{|\ce{NH4}^{+}| \cdot |\ce{OH}^{-}|}{|\ce{NH3}|}$
 e. $\ce{H2SO4}$ : acide fort (pour la première déprotonation)
-f. $\ce{HSO4-}$ : acide faible ; $K_a = \frac{|\ce{SO4^{2-}}| \cdot |\ce{H3O+}|}{|\ce{HSO4-}|}$
-g. $\ce{C5H5N}$ : base faible ; $K_b = \frac{|\ce{C5H5NH+}| \cdot |\ce{OH-}|}{|\ce{C5H5N}|}$
+f. $\ce{HSO4}^{-}$ : acide faible ; $K_a = \frac{|\ce{SO4}^{2-}| \cdot |\ce{H3O}^{+}|}{|\ce{HSO4}^{-}|}$
+g. $\ce{C5H5N}$ : base faible ; $K_b = \frac{|\ce{C5H5NH}^{+}| \cdot |\ce{OH}^{-}|}{|\ce{C5H5N}|}$
 
 :::

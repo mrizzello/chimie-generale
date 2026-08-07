@@ -1,6 +1,6 @@
 ::: {.Exercise data-latex=""}
 
-Donnez les équations montrant la nature acide et la nature basique de l'ion hydrogénosulfate ($\ce{HSO4-}$).
+Donnez les équations montrant la nature acide et la nature basique de l'ion hydrogénosulfate ($\ce{HSO4}^{-}$).
 
 \vspace{\stretch{1}}
 
@@ -10,8 +10,8 @@ Donnez les équations montrant la nature acide et la nature basique de l'ion hyd
 
 $$
 \begin{split}
-  \ce{$\underset{\text{acide}}{\ce{HSO4-}}$ + H2O <=> SO4^{2-} + H3O+} \\
-  \ce{$\underset{\text{base}}{\ce{HSO4-}}$ + H2O <=> H2SO4 + OH-} \\
+  \ce{$\underset{\text{acide}}{\ce{HSO4}^{-}}$ + H2O <=> SO4^{2-} + H3O+} \\
+  \ce{$\underset{\text{base}}{\ce{HSO4}^{-}}$ + H2O <=> H2SO4 + OH-} \\
 \end{split}
 $$
 

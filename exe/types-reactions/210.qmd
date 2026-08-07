@@ -15,6 +15,6 @@ On dispose d'une solution d'acide sulfurique $\ce{H2SO4}$ et d'une solution d'hy
 
 1. $\ce{H2SO4 + 2NaOH -> Na2SO4 + 2H2O}$
 2. $\ce{H^{+} + OH^{–} -> H2O}$
-3. Au départ, l'acide est en excès : la solution est **jaune** ($pH < 7$). En ajoutant la base, on se rapproche de la neutralité ; lorsqu'on a versé autant d'ions $\ce{OH^{–}}$ que d'ions $\ce{H^{+}}$, la solution est **neutre** ($pH = 7$). En poursuivant l'ajout de $\ce{NaOH}$, la base est en excès et la solution devient **bleue** ($pH > 7$).
+3. Au départ, l'acide est en excès : la solution est **jaune** ($pH < 7$). En ajoutant la base, on se rapproche de la neutralité ; lorsqu'on a versé autant d'ions $\ce{OH^{–}}$ que d'ions $\ce{H}^{+}$, la solution est **neutre** ($pH = 7$). En poursuivant l'ajout de $\ce{NaOH}$, la base est en excès et la solution devient **bleue** ($pH > 7$).
 
 :::

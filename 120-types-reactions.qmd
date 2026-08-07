@@ -27,8 +27,8 @@ $$ \begin{split}
 Si un élément a plusieurs nombres d'oxydation possibles, on écrira une équation pour chaque nombre d'oxydation.
 
 $$ \begin{split}
-  \ce{2Fe + O2 -> 2FeO} \quad (\ce{Fe^{2+}}) \\
-  \ce{4Fe + 3O2 -> 2Fe2O3} \quad (\ce{Fe^{3+}})
+  \ce{2Fe + O2 -> 2FeO} \quad (\ce{Fe}^{2+}) \\
+  \ce{4Fe + 3O2 -> 2Fe2O3} \quad (\ce{Fe}^{3+})
   \end{split} $$
 
 {{< include exe/types-reactions/10.qmd >}}

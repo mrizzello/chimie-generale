@@ -2,10 +2,10 @@
 
 En vous basant sur la force des acides conjugués, déterminez quelle est la base la plus forte dans chacune des paires suivantes :
 
-a. $\ce{CH3COO-}$ et $\ce{HCOO-}$  
-b. $\ce{SO4^{2-}}$ et $\ce{ClO4-}$  
-c. $\ce{PO4^{3-}}$ et $\ce{CO3^{2-}}$  
-d. $\ce{I-}$ et $\ce{Cl-}$
+a. $\ce{CH3COO}^{-}$ et $\ce{HCOO}^{-}$  
+b. $\ce{SO4}^{2-}$ et $\ce{ClO4}^{-}$  
+c. $\ce{PO4}^{3-}$ et $\ce{CO3}^{2-}$  
+d. $\ce{I}^{-}$ et $\ce{Cl}^{-}$
 
 :::
 
@@ -13,9 +13,9 @@ d. $\ce{I-}$ et $\ce{Cl-}$
 
 Rappel : plus l'acide conjugué est faible, plus la base est forte.
 
-a. $\ce{CH3COO-}$ et $\ce{HCOO-}$ : $\ce{CH3COO-}$ est la base la plus forte ($K_a(\ce{CH3COOH}) < K_a(\ce{HCOOH})$).
-b. $\ce{SO4^{2-}}$ et $\ce{ClO4-}$ : $\ce{SO4^{2-}}$ est la base la plus forte ($\ce{ClO4-}$ est la base conjuguée d'un acide fort, elle est donc inerte).
-c. $\ce{PO4^{3-}}$ et $\ce{CO3^{2-}}$ : $\ce{PO4^{3-}}$ est la base la plus forte ($K_a(\ce{HPO4^{2-}}) < K_a(\ce{HCO3^{-}})$).
-d. $\ce{I-}$ et $\ce{Cl-}$ : les deux sont des bases inertes (spectateurs), car leurs acides conjugués $\ce{HI}$ et $\ce{HCl}$ sont des acides forts.
+a. $\ce{CH3COO}^{-}$ et $\ce{HCOO}^{-}$ : $\ce{CH3COO}^{-}$ est la base la plus forte ($K_a(\ce{CH3COOH}) < K_a(\ce{HCOOH})$).
+b. $\ce{SO4}^{2-}$ et $\ce{ClO4}^{-}$ : $\ce{SO4}^{2-}$ est la base la plus forte ($\ce{ClO4}^{-}$ est la base conjuguée d'un acide fort, elle est donc inerte).
+c. $\ce{PO4}^{3-}$ et $\ce{CO3}^{2-}$ : $\ce{PO4}^{3-}$ est la base la plus forte ($K_a(\ce{HPO4}^{2-}) < K_a(\ce{HCO3}^{-})$).
+d. $\ce{I}^{-}$ et $\ce{Cl}^{-}$ : les deux sont des bases inertes (spectateurs), car leurs acides conjugués $\ce{HI}$ et $\ce{HCl}$ sont des acides forts.
 
 :::

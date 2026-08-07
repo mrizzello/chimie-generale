@@ -1,23 +1,23 @@
 ::: {.Exercise data-latex=""}
 
-Une solution contient des ions $\ce{Ca^{2+}}$ à la concentration de $1.0\cdot10^{-3}$ mol/L. On y ajoute progressivement des ions fluorure $\ce{F-}$. Le fluorure de calcium $\ce{CaF2}$ a pour produit de solubilité $K_{ps} = 3.5\cdot10^{-11}$.
+Une solution contient des ions $\ce{Ca}^{2+}$ à la concentration de $1.0\cdot10^{-3}$ mol/L. On y ajoute progressivement des ions fluorure $\ce{F}^{-}$. Le fluorure de calcium $\ce{CaF2}$ a pour produit de solubilité $K_{ps} = 3.5\cdot10^{-11}$.
 
 1. Écrivez l'expression du quotient de réaction $Q$ pour $\ce{CaF2}$.
 \vspace{\stretch{1}}
-2. Calculez la concentration en ions $\ce{F-}$ à partir de laquelle un précipité de $\ce{CaF2}$ commence à se former.
+2. Calculez la concentration en ions $\ce{F}^{-}$ à partir de laquelle un précipité de $\ce{CaF2}$ commence à se former.
 \vspace{\stretch{1}}
 
 :::
 
 ::: {.Answer data-latex=""}
 
-1. $Q = |\ce{Ca^{2+}}| \cdot |\ce{F-}|^2$.
+1. $Q = |\ce{Ca}^{2+}| \cdot |\ce{F}^{-}|^2$.
 2. La précipitation commence lorsque $Q = K_{ps}$ :
 $$
-|\ce{F-}|^2 = \frac{K_{ps}}{|\ce{Ca^{2+}}|} = \frac{3.5\cdot10^{-11}}{1.0\cdot10^{-3}} = 3.5\cdot10^{-8}
+|\ce{F}^{-}|^2 = \frac{K_{ps}}{|\ce{Ca}^{2+}|} = \frac{3.5\cdot10^{-11}}{1.0\cdot10^{-3}} = 3.5\cdot10^{-8}
 $$
 $$
-|\ce{F-}| = \sqrt{3.5\cdot10^{-8}} = 1.9\cdot10^{-4} \text{ mol/L}
+|\ce{F}^{-}| = \sqrt{3.5\cdot10^{-8}} = 1.9\cdot10^{-4} \text{ mol/L}
 $$
 
 :::

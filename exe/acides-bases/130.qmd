@@ -13,7 +13,7 @@ b. obtenue en diluant 10 fois une solution de $\ce{HCl}$ initialement au pH 2 ?
 
 a. $$
 \begin{split}
-|\ce{H3O+}| = 0.002\ M
+|\ce{H3O}^{+}| = 0.002\ M
 \end{split}
 \quad
 \begin{split}

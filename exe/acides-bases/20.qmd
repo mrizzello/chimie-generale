@@ -3,21 +3,21 @@
 Pour chaque espèce chimique suivante, écrivez la formule de son acide ou de sa base conjuguée, selon le cas.
 
 a. Base conjuguée de $\ce{HCN}$  
-b. Acide conjugué de $\ce{SO3^{2-}}$  
+b. Acide conjugué de $\ce{SO3}^{2-}$  
 c. Base conjuguée de $\ce{H3PO4}$  
 d. Acide conjugué de $\ce{C2H5NH2}$  
 e. Base conjuguée de $\ce{HNO2}$  
-f. Acide conjugué de $\ce{Br-}$
+f. Acide conjugué de $\ce{Br}^{-}$
 
 :::
 
 ::: {.Answer data-latex=""}
 
-a. $\ce{CN-}$  
-b. $\ce{HSO3-}$  
-c. $\ce{H2PO4-}$  
-d. $\ce{C2H5NH3+}$  
-e. $\ce{NO2-}$  
+a. $\ce{CN}^{-}$  
+b. $\ce{HSO3}^{-}$  
+c. $\ce{H2PO4}^{-}$  
+d. $\ce{C2H5NH3}^{+}$  
+e. $\ce{NO2}^{-}$  
 f. $\ce{HBr}$
 
 :::

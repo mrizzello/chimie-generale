@@ -2,19 +2,19 @@
 
 Répondez aux questions suivantes sur le pH.
 
-1. Comment le pH est-il défini à partir de $|\ce{H3O+}|$ ?
+1. Comment le pH est-il défini à partir de $|\ce{H3O}^{+}|$ ?
 \vspace{\stretch{1}}
-2. Une solution a un pH de 3, une autre un pH de 6. Laquelle est la plus acide, et combien de fois sa concentration en $\ce{H3O+}$ est-elle plus grande ?
+2. Une solution a un pH de 3, une autre un pH de 6. Laquelle est la plus acide, et combien de fois sa concentration en $\ce{H3O}^{+}$ est-elle plus grande ?
 \vspace{\stretch{1}}
-3. Calculez le pH d'une solution où $|\ce{H3O+}| = 10^{-9}$ M. La solution est-elle acide, neutre ou basique ?
+3. Calculez le pH d'une solution où $|\ce{H3O}^{+}| = 10^{-9}$ M. La solution est-elle acide, neutre ou basique ?
 \vspace{\stretch{1}}
 
 :::
 
 ::: {.Answer data-latex=""}
 
-1. $pH = -\log |\ce{H3O+}|$, la concentration étant exprimée en mol/L.
-2. La solution de pH 3 est la plus acide. L'échelle étant logarithmique, une différence de 3 unités de pH correspond à un facteur $10^3 = 1000$ : sa concentration en $\ce{H3O+}$ est 1000 fois plus grande.
+1. $pH = -\log |\ce{H3O}^{+}|$, la concentration étant exprimée en mol/L.
+2. La solution de pH 3 est la plus acide. L'échelle étant logarithmique, une différence de 3 unités de pH correspond à un facteur $10^3 = 1000$ : sa concentration en $\ce{H3O}^{+}$ est 1000 fois plus grande.
 3. $pH = -\log(10^{-9}) = 9$. Comme $pH > 7$, la solution est basique.
 
 :::
