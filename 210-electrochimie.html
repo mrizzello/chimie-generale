@@ -1,0 +1,1379 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Support du cours de chimie générale | Maturité gymnasiale">
+
+<title>21&nbsp; Électrochimie – Cours de chimie générale</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./220-thermochimie.html" rel="next">
+<link href="./200-oxydoreductions.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-05ad7de8ae34bb1016f06e23b5e9a5a9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Pas de résultats",
+    "search-matching-documents-text": "documents trouvés",
+    "search-copy-link-title": "Copier le lien vers la recherche",
+    "search-hide-matches-text": "Cacher les correspondances additionnelles",
+    "search-more-match-text": "correspondance de plus dans ce document",
+    "search-more-matches-text": "correspondances de plus dans ce document",
+    "search-clear-button-title": "Effacer",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Annuler",
+    "search-submit-button-title": "Envoyer",
+    "search-label": "Recherche"
+  }
+}</script>
+<script>
+window.MathJax = {
+  loader: { load: ['[tex]/mhchem', '[tex]/cancel'] },
+  tex: { packages: { '[+]': ['mhchem', 'cancel'] } }
+};
+</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="nav-sidebar docked quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./210-electrochimie.html"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Électrochimie</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Recherche" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Cours de chimie générale</a> 
+        <div class="sidebar-tools-main">
+    <a href="./chimie-generale.pdf" title="Télécharger le PDF" class="quarto-navigation-tool px-1" aria-label="Télécharger le PDF" target="_blank"><i class="bi bi-file-earmark-pdf"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Recherche"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Préambule</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./10-introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./20-etats-de-la-matiere.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Les états de la matière</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./30-melanges-corps-purs.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Mélanges et corps purs</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./40-historique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Historique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./50-atome.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">L’atome</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./60-tableau-periodique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Le tableau périodique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./70-liaisons.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Molécules et liaisons chimiques</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./80-molecules.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Géométrie moléculaire et polarité</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./90-nomenclature.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Nomenclature</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./100-solutions-electrolytes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Solutions et électrolytes</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./110-reactions-chimiques.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Réactions chimiques</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./120-types-reactions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Types de réactions</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./130-stoechiometrie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Calculs stœchiométriques</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./140-gaz-parfaits.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Les gaz parfaits</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./150-cinetique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Cinétique chimique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./160-equilibres.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">L’équilibre chimique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./170-acides-bases.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Les acides et les bases</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./180-ph-potentiel-hydrogene.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Le pH ou potentiel hydrogène</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./190-produit-solubilite.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Le produit de solubilité</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./200-oxydoreductions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Les réactions d’oxydoréduction</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./210-electrochimie.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Électrochimie</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./220-thermochimie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Thermochimie</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./230-thermodynamique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Thermodynamique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./00-references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bibliographie</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table des matières</h2>
+   
+  <ul>
+  <li><a href="#les-piles-électrochimique" id="toc-les-piles-électrochimique" class="nav-link active" data-scroll-target="#les-piles-électrochimique"><span class="header-section-number">21.1</span> Les piles électrochimique</a>
+  <ul class="collapse">
+  <li><a href="#constitution-dune-pile" id="toc-constitution-dune-pile" class="nav-link" data-scroll-target="#constitution-dune-pile"><span class="header-section-number">21.1.1</span> Constitution d’une pile</a></li>
+  <li><a href="#fonctionnement-dune-pile" id="toc-fonctionnement-dune-pile" class="nav-link" data-scroll-target="#fonctionnement-dune-pile"><span class="header-section-number">21.1.2</span> Fonctionnement d’une pile</a></li>
+  <li><a href="#notation-simplifiée-dune-pile" id="toc-notation-simplifiée-dune-pile" class="nav-link" data-scroll-target="#notation-simplifiée-dune-pile"><span class="header-section-number">21.1.3</span> Notation simplifiée d’une pile</a></li>
+  </ul></li>
+  <li><a href="#potentiels-standards-de-réduction" id="toc-potentiels-standards-de-réduction" class="nav-link" data-scroll-target="#potentiels-standards-de-réduction"><span class="header-section-number">21.2</span> Potentiels standards de réduction</a>
+  <ul class="collapse">
+  <li><a href="#potentiel-électrochimique-ou-force-électromotrice-fem" id="toc-potentiel-électrochimique-ou-force-électromotrice-fem" class="nav-link" data-scroll-target="#potentiel-électrochimique-ou-force-électromotrice-fem"><span class="header-section-number">21.2.1</span> Potentiel électrochimique ou force électromotrice (fem)</a></li>
+  </ul></li>
+  <li><a href="#effet-de-la-concentration-sur-la-force-électromotrice-dune-pile" id="toc-effet-de-la-concentration-sur-la-force-électromotrice-dune-pile" class="nav-link" data-scroll-target="#effet-de-la-concentration-sur-la-force-électromotrice-dune-pile"><span class="header-section-number">21.3</span> Effet de la concentration sur la force électromotrice d’une pile</a></li>
+  <li><a href="#électrolyse" id="toc-électrolyse" class="nav-link" data-scroll-target="#électrolyse"><span class="header-section-number">21.4</span> Électrolyse</a>
+  <ul class="collapse">
+  <li><a href="#exemples-délectrolyses-de-composés-purs" id="toc-exemples-délectrolyses-de-composés-purs" class="nav-link" data-scroll-target="#exemples-délectrolyses-de-composés-purs"><span class="header-section-number">21.4.1</span> Exemples d’électrolyses de composés purs</a></li>
+  <li><a href="#prédiction-des-réactions-délectrolyse" id="toc-prédiction-des-réactions-délectrolyse" class="nav-link" data-scroll-target="#prédiction-des-réactions-délectrolyse"><span class="header-section-number">21.4.2</span> Prédiction des réactions d’électrolyse</a></li>
+  <li><a href="#loi-de-faraday" id="toc-loi-de-faraday" class="nav-link" data-scroll-target="#loi-de-faraday"><span class="header-section-number">21.4.3</span> Loi de Faraday</a></li>
+  </ul></li>
+  <li><a href="#résumé" id="toc-résumé" class="nav-link" data-scroll-target="#résumé"><span class="header-section-number">21.5</span> Résumé</a></li>
+  <li><a href="#exercices-supplémentaires" id="toc-exercices-supplémentaires" class="nav-link" data-scroll-target="#exercices-supplémentaires"><span class="header-section-number">21.6</span> Exercices supplémentaires</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Électrochimie</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="objectives">
+<ul>
+<li>Décrire la constitution et le fonctionnement d’une pile électrochimique.</li>
+<li>Décrire comment sont définis les potentiels standards de réduction.</li>
+<li>Définir le potentiel électrique d’une pile.</li>
+<li>Utiliser les potentiels standards pour prédire la spontanéité d’une réaction.</li>
+<li>Décrire la constitution et le fonctionnement d’une cellule électrolytique.</li>
+<li>Prédire la réaction d’électrolyse d’un milieu réactionnel.</li>
+<li>Utiliser la loi de Faraday pour effectuer des calculs stœchiométriques.</li>
+</ul>
+</div>
+<p>L’électricité qui circule dans les lignes électriques est consommée lorsqu’elle est produite, mais pour bien d’autres applications, l’énergie électrique doit être stockée. Dans de tels cas, l’énergie électrique est convertie en énergie chimique, qui peut être stockée et transportée, puis reconvertie en électricité. Les batteries sont les dispositifs les plus utilisés pour stoquer l’énergie électrique sous forme d’énergie chimique. L’électrochimie est le champ d’étude de la chimie qui étudie les relations entre l’électricité et les réactions chimiques.</p>
+<section id="les-piles-électrochimique" class="level2" data-number="21.1">
+<h2 data-number="21.1" class="anchored" data-anchor-id="les-piles-électrochimique"><span class="header-section-number">21.1</span> Les piles électrochimique</h2>
+<p>Dans une pile électrochimique, une réaction d’oxydoréduction spontanée permet de produire de l’électricité. Les demi-réactions ont lieu dans deux compartiments séparés que l’on appelle des demi-piles. Les électrodes de ces demi-piles sont reliées par un fil, et les solutions d’électrolytes, par un pont salin.</p>
+<p>Lorsque du zinc métallique est placé dans une solution contenant des ions cuivre (II), le Zn est oxydé en ions Zn<sup>2+</sup> tandis que les ions Cu<sup>2+</sup> sont réduits en Cu, ou cuivre métallique. Ceci peut être représenté par l’équatin de réaction suivante :</p>
+<p><span class="math display">\[
+\ce{Zn(s) + Cu^{2+}(aq) -&gt; Zn^{2+}(aq) + Cu(s)}
+\]</span></p>
+<p>Des électrons sont transférés dans la réaction Zn/Cu<sup>2+</sup>, mais le système ne génère pas d’énergie électrique car l’oxydant (Cu<sup>2+</sup>) et le réducteur (Zn) se trouvent dans le même bécher. Cependant, si nous séparons physiquement les demi-réactions et les connectons par un circuit externe, les électrons perdus par le zinc produisent un courant électrique lorsqu’ils se déplacent dans le circuit vers les ions cuivre qui les gagnent.</p>
+<div id="fig-pile-electrique-v2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-pile-electrique-v2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/pile-electrique-v2.png" class="img-fluid figure-img" style="width:90.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-pile-electrique-v2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;21.1: Schéma simplifié d’une pile Cu/Zn
+</figcaption>
+</figure>
+</div>
+<section id="constitution-dune-pile" class="level3" data-number="21.1.1">
+<h3 data-number="21.1.1" class="anchored" data-anchor-id="constitution-dune-pile"><span class="header-section-number">21.1.1</span> Constitution d’une pile</h3>
+<ul>
+<li>Une plaque d’un métal M, appelée électrode, plongeant dans une solution contenant des cations M<sup>n+</sup> constitue une demi-pile.</li>
+<li>Une pile est formée par deux demi-piles reliées par un pont salin.</li>
+<li>Le pont salin permet le passage du courant entre les deux demi-piles en autorisant le déplacement d’ions entre les deux piles.</li>
+</ul>
+<p><img src="images/pile-electrique.png" id="fig-pile-electrique" class="img-fluid" style="width:90.0%" alt="Fonctionnement d’une pile Cu/Zn"> </p>
+</section>
+<section id="fonctionnement-dune-pile" class="level3" data-number="21.1.2">
+<h3 data-number="21.1.2" class="anchored" data-anchor-id="fonctionnement-dune-pile"><span class="header-section-number">21.1.2</span> Fonctionnement d’une pile</h3>
+<ul>
+<li><strong>L’anode (-)</strong>
+<ul>
+<li>La demi-pile où a lieu l’oxydation est appelée compartiment anodique et toujours représentée à gauche.</li>
+<li>Le compartiment anodique consiste en une barre de zinc métallique (l’anode) immergée dans une solution aqueuse de Zn<sup>2+</sup> (ZnSO4, par exemple).</li>
+<li>Le zinc métallique va céder deux électrons qui circuleront dans l’anode. Les ions Zn<sup>2+</sup> ainsi formés si dissolvent dans la solution.</li>
+</ul></li>
+<li><strong>La cathode (+)</strong>
+<ul>
+<li>La demi-pile où a lieu la réduction est appelée compartiment cathodique et toujours représentée à droite.</li>
+<li>Le compartiment cathodique consiste en une barre de cuivre métallique (la cathode) immergée dans une solution aqueuse de Cu<sup>2+</sup> (CuSO4, par exemple).</li>
+<li>Les ions Cu<sup>2+</sup> vont accepter deux électrons qui circuleront dans la cathode. Le cuivre métallique ainsi formé va s’agréger à la cathode.</li>
+</ul></li>
+<li><strong>Signes des électrodes</strong>
+<ul>
+<li>La charge des électrodes est déterminée par la source des électrons et la direction du flux d’électrons dans le circuit.</li>
+<li>Dans cette pile, les atomes de Zn sont oxydés à l’anode en ions Zn<sup>2+</sup> et constituent la source d’électrons.</li>
+<li>Les ions Zn<sup>2+</sup> entrent dans le pont sallin tandis que les électrons se déplacent à travers l’anode et le fil.</li>
+<li>Les électrons circulent de gauche à droite dans le fil jusqu’à la cathode, où les ions Cu<sup>2+</sup> présents dans la solution sont réduits en cuivre métallique.</li>
+<li>Lorsque la pile fonctionne, les électrons sont continuellement générés à l’anode et consommés à la cathode. Par conséquent, l’anode a un excès d’électrons et la cathode un déficit d’électrons.</li>
+<li>L’anode porte le signe négatif.</li>
+<li>La cathode porte le signe positif.</li>
+</ul></li>
+<li><strong>Le pont salin</strong>
+<ul>
+<li>Une pile ne peut fonctionner que si le circuit est complété par un pont sallin.</li>
+<li>Le pont salin est un tube en U inversé contenant des ions spectateurs (NaNO<sub>3</sub>, par exemple) dissous dans un gel qui permet aux ions de diffuser entre les demi-piles.</li>
+<li>Lorsque les ions Cu<sup>2+</sup> se réduisent en cuivre métallique, les ions Na<sup>+</sup> passent du pont salin à la solution électrolytique.</li>
+<li>Lorsque le zinc métallique s’oxyde en ions Zn<sup>2+</sup>, les ions SO<sub>4</sub><sup>2-</sup> passent du pont salin à la solution électrolytique.</li>
+</ul></li>
+</ul>
+<p>Le fil électrique et le pont salin complètent le circuit :</p>
+<ul>
+<li>Les électrons se déplacent de gauche à droite à travers le fil.</li>
+<li>Les anions se déplacent de droite à gauche à travers le pont salin.</li>
+<li>Les cations se déplacent de gauche à droite à travers le pont salin.</li>
+<li><strong>Le sens du courant est l’inverse du sens de déplacement des électrons.</strong></li>
+</ul>
+</section>
+<section id="notation-simplifiée-dune-pile" class="level3" data-number="21.1.3">
+<h3 data-number="21.1.3" class="anchored" data-anchor-id="notation-simplifiée-dune-pile"><span class="header-section-number">21.1.3</span> Notation simplifiée d’une pile</h3>
+<p>Il existe une notation abrégée utile qui décrit les composants d’une pile électrique. La notation pour la cellule Zn/Cu<sup>2+</sup> est la suivante :</p>
+<p><span class="math display">\[
+\ce{Zn(s)}\ │\ \ce{Zn^{2+}(aq)}\ ||\ \ce{Cu^{2+}(aq)}\ │\ \ce{Cu(s)}
+\]</span></p>
+<ul>
+<li>Les composants du compartiment anodique sont écrits à gauche et les composants du compartiment cathodiqueà droite.</li>
+<li>Un double trait vertical indique que les demi-piles sont physiquement séparées.</li>
+<li>Une ligne verticale simple représente une limite entre deux phases.</li>
+<li>Si nécessaire, les concentrations des composants dissous sont indiquées entre parenthèses.</li>
+<li>Les ions du pont salin peuvent figurer dans la notation.</li>
+</ul>
+</section>
+</section>
+<section id="potentiels-standards-de-réduction" class="level2" data-number="21.2">
+<h2 data-number="21.2" class="anchored" data-anchor-id="potentiels-standards-de-réduction"><span class="header-section-number">21.2</span> Potentiels standards de réduction</h2>
+<p>Entre l’anode et la cathode, l’intensité de l’attraction exercée sur les électrons est appelée <strong>potentiel électrochimique</strong> (E<sub>pile</sub>) ou <strong>force électromotrice</strong> de la pile. L’unité avec laquelle le potentiel électrique est exprimé est le volt V. Un des moyens de mesurer ce potentiel électrique est de relier un voltmètre entre les pôles de la pile électrique.</p>
+<p>Quelle est la pile qui fournirait le plus d’énergie électrochimique ?</p>
+<p>La réaction dans une pile est toujours une réaction d’oxydoréduction qui peut être décomposée en deux demi-réactions. Tout comme il est impossible qu’une seule des demi-réactions se produise indépendamment, il est impossible de mesurer le potentiel d’une seule demi-pile.</p>
+<p>Le potentiel électrochimique d’une pile dépend des demi-piles (cathode et anode) qui la composent. Nous pourrions, en principe, établir un tableau des potentiels de pile pour toutes les combinaisons cathode-anode possibles, bien que cette tâche soit ardue.</p>
+<p><span class="math display">\[
+\begin{split}
+\ce{Zn(s)}\ │\ \ce{Zn^{2+}(aq)}\ |&amp;|\ \ce{Cu^{2+}(aq)}\ │\ \ce{Cu(s)} \quad E_{pile} = 1.1\ \text{ V} \\
+\ce{Ni(s)}\ │\ \ce{Ni^{2+}(aq)}\ |&amp;|\ \ce{Cu^{2+}(aq)}\ │\ \ce{Cu(s)} \quad E_{pile} = 0.57\ \text{ V} \\
+\ce{Sn(s)}\ │\ \ce{Sn^{2+}(aq)}\ |&amp;|\ \ce{Cu^{2+}(aq)}\ │\ \ce{Cu(s)} \quad E_{pile} = 0.48\ \text{ V} \\
+\ce{Pb(s)}\ │\ \ce{Pb^{2+}(aq)}\ |&amp;|\ \ce{Cu^{2+}(aq)}\ │\ \ce{Cu(s)} \quad E_{pile} = 0.47\ \text{ V} \\
+&amp; ...
+\end{split}
+\]</span></p>
+<p>Cependant, si nous définissons arbitrairement la valeur du potentiel d’une demi-pile particulière comme étant nulle, nous pouvons l’utiliser comme référence pour déterminer les potentiels relatifs des autres demi-piles. C’est l’électrode à hydrogène qui est arbitrairement choisie comme référence.</p>
+<p>La demi-pile de référence est une électrode à hydrogène, qui consiste en une électrode de platine traversée par du dihydrogène gazeux (H<sub>2</sub> ) et immergée dans un acide fort. Ainsi, la demi-réaction de référence est:</p>
+<p><span class="math display">\[
+\ce{2 H+(aq) + 2 e^- &lt;=&gt; H2(g)} \qquad E^0 = 0\ \text{ V}
+\]</span></p>
+<div id="fig-ESH" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ESH-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/ESH.png" class="img-fluid figure-img" style="width:25.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ESH-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;21.2: Schéma de l’électrode standard à hydrogène.
+</figcaption>
+</figure>
+</div>
+<p>Dans les conditions standards, avec une pression de H<sub>2</sub> de 1 atm et une concentration de la solution acide de 1 M, le potentiel de réduction de H<sup>+</sup> à 25°C (E<sup>0</sup>)est défini comme étant exactement égal à 0 V. L’exposant <sup>0</sup> désigne les conditions à l’état standard et E<sup>0</sup> sera nommé <strong>potentiel standard de réduction</strong>.</p>
+<p>Avec un électrode de référence, on peut mesurer le potentiel des autres électrodes :</p>
+<p><span class="math display">\[
+\begin{split}
+\ce{Zn(s)}\ │\ \ce{Zn^{2+}(aq) 1M}\ |&amp;|\ \ce{H^+(aq) 1M}\ │\ \ce{H2\ (1 \text{ atm})} |\ \ce{Pt(s)} \quad E^0_{Zn^{2+}/Zn} = -0.76\ \text{ V} \\
+\ce{Ni(s)}\ │\ \ce{Ni^{2+}(aq) 1M}\ |&amp;|\ \ce{H^+(aq) 1M}\ │\ \ce{H2\ (1 \text{ atm})} |\ \ce{Pt(s)} \quad E^0_{Ni^{2+}/Ni} = -0.23\ \text{ V} \\
+\ce{Sn(s)}\ │\ \ce{Sn^{2+}(aq) 1M}\ |&amp;|\ \ce{H^+(aq) 1M}\ │\ \ce{H2\ (1 \text{ atm})} |\ \ce{Pt(s)} \quad E^0_{Sn^{2+}/Sn} = -0.14\ \text{ V} \\
+\ce{Pb(s)}\ │\ \ce{Pb^{2+}(aq) 1M}\ |&amp;|\ \ce{H^+(aq) 1M}\ │\ \ce{H2\ (1 \text{ atm})} |\ \ce{Pt(s)} \quad E^0_{Pb^{2+}/Pb} = -0.13\ \text{ V} \\
+&amp; ...
+\end{split}
+\]</span></p>
+<p>On peut ainsi regrouper dans une table les valeurs de potentiel qui correspondent aux demi-réactions de réduction les plus courantes (<strong>table des potentiels standards de réduction</strong>).</p>
+<div class="Exercise">
+<p>Répondez aux questions suivantes sur les potentiels standards de réduction.</p>
+<ol type="1">
+<li>Peut-on mesurer le potentiel d’une seule demi-pile isolée ? Pourquoi ? </li>
+<li>Quelle demi-pile a été choisie comme référence, et quelle valeur de potentiel lui a-t-on attribuée ? </li>
+<li>Que signifie l’exposant « 0 » dans la notation <span class="math inline">\(E^0\)</span> ? </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>Non : une demi-réaction ne peut pas se produire seule (il faut toujours une oxydation et une réduction couplées). On ne peut mesurer qu’une différence de potentiel entre deux demi-piles.</li>
+<li>L’électrode standard à hydrogène (couple <span class="math inline">\(\ce{H+/H2}\)</span>), à laquelle on attribue arbitrairement <span class="math inline">\(E^0 = 0\)</span> V.</li>
+<li>L’exposant « 0 » désigne les conditions standard : concentrations de 1 M, pression des gaz de 1 atm, à 25°C.</li>
+</ol>
+</div>
+<section id="potentiel-électrochimique-ou-force-électromotrice-fem" class="level3" data-number="21.2.1">
+<h3 data-number="21.2.1" class="anchored" data-anchor-id="potentiel-électrochimique-ou-force-électromotrice-fem"><span class="header-section-number">21.2.1</span> Potentiel électrochimique ou force électromotrice (fem)</h3>
+<p>Une pile convertit l’énergie chimique d’une réaction <strong>spontanée</strong> en énergie cinétique des électrons qui se déplacent dans un circuit électrique. Cette énergie électrique est proportionnelle à la différence de potentiel électrique entre les deux électrodes.</p>
+<p>Par convention, le potentiel standard d’une pile, <span class="math inline">\(E^0_{pile}\)</span> est donné par la relation suivante :</p>
+<p><span class="math display">\[
+\Delta E^0_{pile} = E^0_{cathode} − E^0_{anode}
+\]</span></p>
+<p>Pour la pile Zn/Cu<sup>2+</sup>, pour des concentrations de 1 M, sous une pression de 1 atm et une température de 25°C, le voltmètre nous indiquerai une tension (<span class="math inline">\(\Delta E^0_{pile}\)</span>) de 1.1 V.</p>
+<p><span class="math display">\[
+\begin{split}
+\Delta E^0_{pile} &amp;= E^0_{Cu/Cu^{2+}} − E^0_{Zn^{2+}/Zn} \\
+  &amp;= 0.34\ \text{ V} − (-0.76\ \text{ V}) = 1.1\ \text{ V}
+\end{split}
+\]</span></p>
+<div class="Exercise">
+<p>Une pile électrochimique est constituée d’une électrode de Mg dans une solution de Mg(NO<sub>3</sub>)<sub>2</sub> à 1.0 M et d’une électrode de Sn dans une solution de Sn(NO<sub>3</sub>)<sub>2</sub> à 1.0 M. Déterminez les deux demi-réactions et la réaction globale de la pile et calculez le potentiel de cette pile aux conditions standard.</p>
+</div>
+<div class="Answer">
+<p><span class="math display">\[
+\begin{split}
+\ce{Mg^{2+} + 2e^− -&gt; Mg}\ E^0 = −2.37\ \text{ V} \\
+\ce{Sn^{2+} + 2e^− -&gt; Sn}\ E^0 = −0.14\ \text{ V}
+\end{split}
+\]</span></p>
+<p>La demi-réaction de l’étain a un potentiel de réduction plus élevé, Sn<sup>2+</sup> est l’oxydant, Mg<sup>0</sup> est le réducteur.</p>
+<p><span class="math display">\[
+\begin{split}
+\ce{Mg^{0} -&gt;} &amp; \ce{Mg^{2+} + 2 e^-} \text{(oxydation)}\\
+\ce{Sn^{2+} + 2 e^- -&gt;} &amp; \ce{Sn} \text{(réduction)}\\
+\hline
+\ce{Mg + Sn^{2+} -&gt;} &amp; \ce{Mg^{2+} + Sn}
+\end{split}
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+\Delta E^0_{pile} &amp;= E^0_{cathode} − E^0_{anode} \\
+  &amp;= E^0_{\ce{Sn^{2+}/Sn}} − E^0_{\ce{Mg^{2+}/Mg}} \\
+  &amp;= -0.14 - (-2.37) = 2.23\ \text{ V}
+\end{split}
+\]</span></p>
+</div>
+<div class="Exercise">
+<p>Décrivez les demi-réactions et la réaction globale qui ont lieu dans la pile ci-dessous.</p>
+<p><span class="math display">\[
+\ce{Pt(s)}\ │\ \ce{Fe^{2+}(aq), Fe^{3+}(aq)}\ ||\ \ce{Cl^-(aq)}\ │\ \ce{Cl2(g)} |\ \ce{Pt(s)}
+\]</span></p>
+</div>
+<div class="Answer">
+<p>Par convention, l’électrode située à gauche est l’anode, où a lieu l’oxydation. Fe<sup>2+</sup> est oxydé en Fe<sup>3+</sup>.</p>
+<p><span class="math display">\[
+\ce{Fe^{2+}(aq) -&gt; Fe^{3+}(aq) + e^-} \qquad \text{oxydation}
+\]</span></p>
+<p><span class="math display">\[
+\ce{Cl2(g) + 2e^- -&gt; 2 Cl^{-}(aq)} \qquad \text{réduction}
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+\ce{2Fe^{2+} -&gt;} &amp; \ce{2Fe^{3+} + 2 e^-} \\
+\ce{Cl2 + 2 e^- -&gt;} &amp; \ce{2Cl^-} \\
+\hline
+\ce{2Fe^{2+} + Cl2 -&gt;} &amp; \ce{2Fe^{3+} + 2Cl^-}
+\end{split}
+\]</span></p>
+</div>
+<div class="Exercise">
+<p>Dessinez un schéma de pile électrique dans laquelle une électrode de cuivre est plongée dans une solution de nitrate de cuivre (II) et une électrode en argent est plongée dans une solution de nitrate d’argent. Écrivez les demi-réaction et la réaction globale. Faites figurer les sens de déplacement des électrons et le sens du courant. Indiquez la f.e.m. obtenue si les conditions correspondent au conditions standards.</p>
+</div>
+</section>
+</section>
+<section id="effet-de-la-concentration-sur-la-force-électromotrice-dune-pile" class="level2" data-number="21.3">
+<h2 data-number="21.3" class="anchored" data-anchor-id="effet-de-la-concentration-sur-la-force-électromotrice-dune-pile"><span class="header-section-number">21.3</span> Effet de la concentration sur la force électromotrice d’une pile</h2>
+<p>La plupart des mesures et calculs faisant intervenir des piles ont lieu dans des conditions non standard. La force électromotrice d’une pile varie en fonction de la concentration des solutions.</p>
+<p><strong>Qualitativement</strong>, la fem d’une pile :</p>
+<ul>
+<li>augmente si on augmente la concentration d’un réactif et</li>
+<li>diminue si on augmente la concentration d’un produit.</li>
+</ul>
+<p><img src="images/nernst-illustration.png" class="img-fluid" style="width:50.0%"></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 17%">
+<col style="width: 22%">
+<col style="width: 22%">
+<col style="width: 37%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;"></th>
+<th style="text-align: right;"><span class="math inline">\(|\ce{Cu}^{2+}|\)</span></th>
+<th style="text-align: right;"><span class="math inline">\(|\ce{Zn}^{2+}|\)</span></th>
+<th style="text-align: right;"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">Non standard</td>
+<td style="text-align: right;">1.5 M</td>
+<td style="text-align: right;">0.075 M</td>
+<td style="text-align: right;"><span class="math inline">\(E_{pile} = 1.142 \text{ V}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">Standard</td>
+<td style="text-align: right;">1 M</td>
+<td style="text-align: right;">1 M</td>
+<td style="text-align: right;"><span class="math inline">\(E^{0}_{pile} = 1.103 \text{ V}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">Non standard</td>
+<td style="text-align: right;">0.075 M</td>
+<td style="text-align: right;">1.5 M</td>
+<td style="text-align: right;"><span class="math inline">\(E_{pile} = 1.064 \text{ V}\)</span></td>
+</tr>
+</tbody>
+</table>
+<p>Lors de l’utilisation d’une pile, |Cu<sup>2+</sup>| diminue et |Zn<sup>2+</sup>| augmente ce qui entraîne une diminution régulière de la tension aux bornes de la pile, jusqu’à ce qu’elle ne soit plus suffisante pour alimenter l’appareil.</p>
+<p>Les fabricants de piles cherchent à maximiser la tension. S’il fabrique une pile de Daniell, il va plutôt utiliser une solution qui ne contient pas d’ions Zn<sup>2+</sup>, ni d’ions susceptibles d’interférer avec la réaction. Une solution de NaCl, par exemple, est un bon choix (pile saline).</p>
+<p><strong>Quantitativement</strong>, la force électromotrice (tension) d’une pile en fonction des concentrations peut être calculée grâce à l’équation de Nernst qui découle directement de la thermodynamique.</p>
+<p><span class="math display">\[
+\Delta E = \Delta E^{0} - \frac{RT}{nF} \cdot \ln{Q}
+\]</span></p>
+<p>avec :</p>
+<ul>
+<li><span class="math inline">\(\Delta E\)</span> : tension aux bornes de la pile V</li>
+<li><span class="math inline">\(\Delta E^{0}\)</span> : tension aux bornes de la pile aux conditions standard V</li>
+<li>R : constante des gaz parfaits J/mol K</li>
+<li>T : température absolue K</li>
+<li>n : nombre de moles d’électrons échangés aux cours de la réaction</li>
+<li>F : charge d’une mole d’électrons C (= 96500 C)</li>
+<li>Q : quotient réactionnel</li>
+</ul>
+<div class="Exercise">
+<p>Déterminez le potentiel électrique d’une pile Daniell dont |Zn<sup>2+</sup>| = 1.5 M et |Cu<sup>2+</sup>| = 0.5 M à 25°C.</p>
+</div>
+<div class="Answer">
+<p><span class="math display">\[
+\begin{split}
+  &amp; \ce{Cu^{2+} + Zn_{(s)} -&gt; Cu_{(s)} + Zn^{2+}} \\
+  Q &amp;= \frac{|Zn^{2+}|}{|Cu^{2+}|} = \frac{1.5\ M}{0.5\ M} = 3
+\end{split}
+\qquad
+\begin{split}
+  \Delta E &amp;= \Delta E^{0} - \frac{RT}{nF} \cdot \ln{Q} \\
+  &amp;= 1.103\ \text{ V} - \frac{8.314\ \mathrm{J \cdot mol^{-1} \cdot K^{-1}} \cdot 298.15\ \text{ K}}{2 \cdot 96500\ \text{ C}} \cdot \ln{3} \\
+  &amp;= 1.089\ \text{ V}
+\end{split}
+\]</span></p>
+</div>
+<p>La différence de potentiel de la pile devient nulle lorsque l’équilibre est atteint. La réaction s’arrête et la pile est complètement déchargée. À ce moment, la valeur du quotient réactionnel (<span class="math inline">\(Q\)</span>) est égale à la valeur de la constante d’équilibre (<span class="math inline">\(K_c\)</span>). On a alors :</p>
+<p><span class="math display">\[
+\Delta E = \Delta E^{0} - \frac{RT}{nF} \cdot \ln{Q} = \Delta E^{0} - \frac{RT}{nF} \cdot \ln{K_{c}} = 0
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+\ln{K_{c}} &amp;= \Delta E^{0} \cdot \frac{nF}{RT} \\
+K_{c} &amp;= e^{\frac{\Delta E^{0}\cdot nF}{RT}} \\
+\end{split}
+\]</span></p>
+<p>On peut ainsi avoir accès à la valeur de la constante d’un équilibre rédox d’une réaction à partir de la mesure de la tension standard aux borne d’une pile ou en mesurant une différence de potentiel dans un processus biologique par exemple.</p>
+</section>
+<section id="électrolyse" class="level2" data-number="21.4">
+<h2 data-number="21.4" class="anchored" data-anchor-id="électrolyse"><span class="header-section-number">21.4</span> Électrolyse</h2>
+<p>Une pile électrochimique produit du courant lorsque la réaction d’oxydoréduction se produit <strong>spontanément</strong>. À l’inverse, une cellule <strong>électrolytique</strong>, utilise l’énergie électrique pour produire une transformation chimique. L’<strong>électrolyse</strong> consiste à forcer un courant à travers un système chimique pour produire une transformation <strong>non spontanée</strong>.</p>
+<div id="fig-pile-recharge" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-pile-recharge-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/pile-recharge.png" class="img-fluid figure-img" style="width:67.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-pile-recharge-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;21.3: Pile électrique et cellule électrolytique.
+</figcaption>
+</figure>
+</div>
+<p>Une source d’énergie externe force les électrons à traverser la pile dans la direction opposée qui a lieu lors de la décharge d’une pile. Cela nécessite un potentiel externe supérieur au voltage founis par la pile électrochimique. Le flux d’électrons étant opposé dans les deux cas, l’anode et la cathode sont inversées. De même, le flux des ions à travers le pont salin est opposé dans les deux systèmes.</p>
+<p>Dans une cellule électrolytique:</p>
+<ul>
+<li>L’anode est l’électrode où a lieu l’oxydation.</li>
+<li>La cathode est l’électrode où a lieu la réduction.</li>
+</ul>
+<p>L’électrolyse est une méthode qui permet de provoquer une transformation chimique en faisant passer un courant électrique à travers le milieu réactionnel. Elle utilise un courant électrique continu pour provoquer une réaction chimique qui n’est pas spontanée.</p>
+<p>Les principaux composants nécessaires pour réaliser une électrolyse :</p>
+<ul>
+<li>Un électrolyte : une solution contenant des ions libres, qui sont porteurs du courant électrique dans l’électrolyte.</li>
+<li>Une alimentation en courant continu pour fournir l’énergie nécessaire à la réaction d’oxydoréduction.</li>
+<li>Deux électrodes : deux conducteurs électriques qui constituent l’interface physique entre le circuit électrique et l’électrolyte.</li>
+</ul>
+<section id="exemples-délectrolyses-de-composés-purs" class="level3" data-number="21.4.1">
+<h3 data-number="21.4.1" class="anchored" data-anchor-id="exemples-délectrolyses-de-composés-purs"><span class="header-section-number">21.4.1</span> Exemples d’électrolyses de composés purs</h3>
+<div id="fig-electrolysis-water-NaCl" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-electrolysis-water-NaCl-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/electrolysis-water.png" class="img-fluid figure-img"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/electrolysis-NaCl.png" class="img-fluid figure-img"></p>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-electrolysis-water-NaCl-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;21.4: Schéma de l’électrolyse de l’eau pure et du chlorure de sodium fondu.
+</figcaption>
+</figure>
+</div>
+<p>L’eau doit également contenir des ions qui la rendent conductrice, même si ces ions ne participent pas aux réactions aux électrodes.</p>
+</section>
+<section id="prédiction-des-réactions-délectrolyse" class="level3" data-number="21.4.2">
+<h3 data-number="21.4.2" class="anchored" data-anchor-id="prédiction-des-réactions-délectrolyse"><span class="header-section-number">21.4.2</span> Prédiction des réactions d’électrolyse</h3>
+<p>Imaginons que nous faisions l’électrolyse d’une solution de chlorure de sodium dans l’eau. Cette solution serait donc le mélange des deux composés subissant l’électrolyse dans le chapitre précédent. Quelles sont les réactions d’oydoréduction qui vont avoir lieu dans ce système ?</p>
+<div id="fig-electrolysis-water-NaCl-sol" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-electrolysis-water-NaCl-sol-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/electrolysis-NaCl-sol.png" class="img-fluid figure-img" style="width:65.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-electrolysis-water-NaCl-sol-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;21.5: Schéma de l’électrolyse d’une solution de chlorure de sodium.
+</figcaption>
+</figure>
+</div>
+<p>Le milieu réactionnel de ce système est composé d’eau (H<sub>2</sub>O), de cations sodium (Na<sup>+</sup>) et de chlorures (Cl<sup>-</sup>). Quatre demi-réactions sont possibles, deux à l’anode et deux à la cathode.</p>
+<p>Anode (oxydation):</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 56%">
+<col style="width: 43%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><span class="math inline">\(\ce{2Cl-(aq) -&gt; Cl2(g) + 2 e^-}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(E^0_{\ce{Cl2/Cl-}} = 1.36\ \text{ V}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><span class="math inline">\(\ce{2H2O(l) -&gt; 4H+(aq) + O2(g) + 4 e^-}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(E^0_{\ce{O2/H2O}} = 1.23\ \text{ V}\)</span></td>
+</tr>
+</tbody>
+</table>
+<p>Cathode (réduction):</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 56%">
+<col style="width: 43%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><span class="math inline">\(\ce{2H2O(l) + 2 e^- -&gt; 2OH-(aq) + H2(g)}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(E^0_{\ce{H2O/H2}} = -0.83\ \text{ V}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><span class="math inline">\(\ce{Na+(aq) + e^- -&gt; Na(s)}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(E^0_{\ce{Na+/Na}} = -2.7\ \text{ V}\)</span></td>
+</tr>
+</tbody>
+</table>
+<p>Quelle que soit la combinaison de demi-réactions à l’anode et à la cathode, elles donnent toutes une valeur négative de différence de potentiel. Cela signifie simplement que la réaction d’électrolyse ne se produit pas spontanément.</p>
+<p><strong>La réaction la plus probable est celle dont la différence de potentiel est la plus faible.</strong> C’est celle qui va en premier lieu et spontanément consommer l’énergie fournie par la source d’électricité.</p>
+<div id="fig-electrolysis-potentials" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-electrolysis-potentials-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/electrolysis-potentials.png" class="img-fluid figure-img" style="width:25.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-electrolysis-potentials-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;21.6: Différences de potentiels oxred.
+</figcaption>
+</figure>
+</div>
+<p>De manière théorique, la réaction d’électrolyse favorisée est celle qui réduit l’eau (E<sup>0</sup> = - 0.83 V) et qui oxyde l’eau (E<sup>0</sup> = 1.23 V).</p>
+<p><span class="math display">\[
+\ce{6 H2O(l) -&gt; 4 H+(aq) + 4 OH-(aq) + 2 H2(g) + O2(g)}
+\]</span></p>
+<p>Toutefois, de manière pratique, différents facteurs viennent influencer les potentiels standard de réaction :</p>
+<ul>
+<li>différentes interactions à la surface des électrodes élèvent la tension requise pour l’électrolyse,</li>
+<li>le fait que les réactifs et les produits ne sont pas forcément dans leur état standard.</li>
+</ul>
+<p>Ceci implique que dans l’électrolyse d’une solution de NaCl très diluée, c’est O<sub>2</sub> qui est produit tandis que, dans une solution plus concentrée, c’est presque exclusivement Cl<sub>2</sub> qui est produit. La réaction globale est la suivante :</p>
+<p><span class="math display">\[
+\ce{2 Cl-(aq) + 2 H2O(l) -&gt; 2 OH-(aq) + H2(g) + Cl2(g)}
+\]</span></p>
+<div class="Exercise">
+<p>On réalise l’électrolyse d’une solution aqueuse. Deux demi-réactions sont possibles à la cathode :</p>
+<ul>
+<li><span class="math inline">\(\ce{2 H2O + 2 e^- -&gt; H2 + 2 OH-}\)</span> (<span class="math inline">\(E^0 = -0.83\)</span> V)</li>
+<li><span class="math inline">\(\ce{Na+ + e^- -&gt; Na}\)</span> (<span class="math inline">\(E^0 = -2.71\)</span> V)</li>
+</ul>
+<ol type="1">
+<li>Dans une cellule électrolytique, à quelle électrode a lieu la réduction ? Cette électrode est-elle l’anode ou la cathode ? </li>
+<li>Une électrolyse est-elle une transformation spontanée ou forcée ? </li>
+<li>Parmi les deux demi-réactions ci-dessus, laquelle se produit préférentiellement à la cathode ? Justifiez. </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>La réduction a lieu à la cathode.</li>
+<li>Une électrolyse est une transformation non spontanée : elle est forcée par une source de courant externe.</li>
+<li>La réduction de l’eau (<span class="math inline">\(E^0 = -0.83\)</span> V) : c’est la demi-réaction dont le potentiel est le moins négatif, donc celle qui demande le moins d’énergie ; elle se produit préférentiellement. On dégage ainsi du dihydrogène plutôt que du sodium.</li>
+</ol>
+</div>
+</section>
+<section id="loi-de-faraday" class="level3" data-number="21.4.3">
+<h3 data-number="21.4.3" class="anchored" data-anchor-id="loi-de-faraday"><span class="header-section-number">21.4.3</span> Loi de Faraday</h3>
+<p>La quantité de réactif consommé ou de produit formé lors d’une électrolyse dépend de la quantité de charge transférée aux électrodes, laquelle dépend de l’intensité du courant électrique utilisé et du temps requis pour l’électrolyse. L’unité de charge électrique est le coulomb (C) et la charge portée par un électron est de <span class="math inline">\(-1.6022 \cdot 10^{-19}\)</span> C. Une mole d’électrons repésentent donc une charge totale de 96’485 C.</p>
+<p>Ces considérations nous permettent de définir une relation mathématique qui nous permet déterminer les quantités de réactif consommé et de produits formés à la fin d’une électrolyse en fonction de différents facteurs (loi de Faraday).</p>
+<p><span class="math display">\[
+\begin{split}
+m = \frac{M \cdot I \cdot t}{n \cdot 96500}
+\end{split}
+\qquad\qquad
+\begin{split}
+&amp;\text{avec} \\
+&amp;\text{m : masse de la substance g} \\
+&amp;\text{n : nombre d'électrons transférés} \\
+&amp;\text{96500 : constante de Faraday C/mol} \\
+&amp;\text{t : temps s} \\
+&amp;\text{M : masse molaire de la substance g/mol}
+\end{split}
+\]</span></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/electrolysis-spoon.png" class="img-fluid figure-img" style="width:10em"></p>
+<figcaption>Électrodéposition</figcaption>
+</figure>
+</div>
+<div class="Exercise">
+<p><strong>Électrodéposition</strong></p>
+<p>On peut utiliser l’électrolyse pour déposer une couche d’un métal sur un autre métal. L’objet à recouvrir, par exemple une cuillère, est moulé dans un métal bon marché et il est ensuite recouvert d’une mince couche d’un métal plus attrayant, plus résistant à la corrosion et plus coûteux. On imagine le montage ci-dessus.</p>
+<ul>
+<li>Indiquez sur le schéma le sens de déplacement des électrons dans le circuit.</li>
+<li>Indiquez sur le schéma le sens de déplacement des cations et anions dans la solution.</li>
+<li>Indiquez sur le schéma l’anode et la cathode.</li>
+<li>Combien de grammes d’argent se déposent sur la cuillère lors de l’électrolyse de <span class="math inline">\(\ce{AgNO3}\)</span><sub>(aq)</sub> par un courant électrique de 1.73 A pendant 20 minutes ?</li>
+</ul>
+</div>
+<div class="Answer">
+<ul>
+<li>Électrons de gauche à droite.</li>
+<li>Cations de gauche à droite / anions de droite à gauche.</li>
+<li>Anode : lame de métal / Cathode : cuillère</li>
+</ul>
+<p><span class="math display">\[
+\begin{split}
+  m &amp;= \frac{M \cdot I \cdot t}{n \cdot 96500} \\
+  &amp;= \frac{107.9\ \text{ g/mol} \cdot 1.73\ \text{ A} \cdot 1200\ \text{ s}}{1 \cdot 96500\ \text{ C/mol}} \\
+  &amp;= 2.321\ \text{ g}
+\end{split}
+\]</span></p>
+</div>
+</section>
+</section>
+<section id="résumé" class="level2" data-number="21.5">
+<h2 data-number="21.5" class="anchored" data-anchor-id="résumé"><span class="header-section-number">21.5</span> Résumé</h2>
+<ul>
+<li>Une pile électrochimique convertit l’énergie d’une réaction d’oxydoréduction spontanée en énergie électrique. Elle est formée de deux demi-piles reliées par un fil et un pont salin. L’oxydation a lieu à l’anode (pôle -) et la réduction à la cathode (pôle +).</li>
+<li>On ne peut pas mesurer le potentiel d’une demi-pile isolée ; on le définit par rapport à l’électrode standard à hydrogène. On obtient ainsi la table des potentiels standards de réduction.</li>
+<li>Le potentiel standard d’une pile est <span class="math inline">\(\Delta E^0_{pile} = E^0_{cathode} - E^0_{anode}\)</span>. Une valeur positive indique une réaction spontanée.</li>
+<li>Hors des conditions standard, la tension dépend des concentrations selon l’équation de Nernst.</li>
+<li>Une cellule électrolytique utilise une source de courant externe pour forcer une réaction non spontanée. L’oxydation a toujours lieu à l’anode et la réduction à la cathode. Les signes des électrodes sont inversés par rapport à la pile.</li>
+<li>Pour prédire les réactions d’électrolyse, on retient à chaque électrode la demi-réaction dont la différence de potentiel est la plus faible.</li>
+<li>La masse de substance transformée à une électrode vaut <span class="math inline">\(m = \dfrac{M \cdot I \cdot t}{n \cdot F}\)</span>.</li>
+</ul>
+</section>
+<section id="exercices-supplémentaires" class="level2" data-number="21.6">
+<h2 data-number="21.6" class="anchored" data-anchor-id="exercices-supplémentaires"><span class="header-section-number">21.6</span> Exercices supplémentaires</h2>
+<div class="Exercise">
+<p>On réalise l’électrolyse d’une solution de chlorure de cuivre (II) <span class="math inline">\(\ce{CuCl2}\)</span>. On souhaite déposer 5.0 g de cuivre à la cathode selon <span class="math inline">\(\ce{Cu^{2+} + 2 e^- -&gt; Cu}\)</span>. Données : M(Cu) = 63.55 g/mol ; F = 96500 C/mol. Le courant utilisé est de 2.0 A.</p>
+<ol type="1">
+<li>Combien de moles d’électrons faut-il faire circuler ? </li>
+<li>Pendant combien de temps (en minutes) faut-il maintenir le courant ? </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><span class="math display">\[
+n_{\ce{Cu}} = \frac{m}{M} = \frac{5.0}{63.55} = 0.0787 \text{ mol}
+\]</span> La réduction consomme 2 électrons par atome de cuivre : <span class="math inline">\(n_{e^-} = 2 \cdot 0.0787 = 0.157\)</span> mol.</li>
+<li>À partir de <span class="math inline">\(m = \dfrac{M \cdot I \cdot t}{n \cdot F}\)</span> : <span class="math display">\[
+t = \frac{m \cdot n \cdot F}{M \cdot I} = \frac{5.0 \cdot 2 \cdot 96500}{63.55 \cdot 2.0} = 7.59\cdot10^{3} \text{ s} \approx 127 \text{ min}
+\]</span></li>
+</ol>
+</div>
+<div class="Exercise">
+<p>On dispose des couples <span class="math inline">\(\ce{Ag+/Ag}\)</span> (<span class="math inline">\(E^0 = +0.80\)</span> V) et <span class="math inline">\(\ce{Ni^{2+}/Ni}\)</span> (<span class="math inline">\(E^0 = -0.23\)</span> V). On construit une pile avec ces deux demi-piles.</p>
+<ol type="1">
+<li>Quelle demi-pile est la cathode (réduction) ? Quelle demi-pile est l’anode ? </li>
+<li>Écrivez l’équation globale spontanée de la pile. </li>
+<li>Calculez le potentiel standard de la pile <span class="math inline">\(\Delta E^0_{pile}\)</span>. </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>Le couple de plus haut potentiel est réduit : <span class="math inline">\(\ce{Ag+/Ag}\)</span> est la cathode. <span class="math inline">\(\ce{Ni^{2+}/Ni}\)</span> (potentiel plus bas) est l’anode.</li>
+<li>Cathode : <span class="math inline">\(\ce{2 Ag+ + 2 e^- -&gt; 2 Ag}\)</span> ; anode : <span class="math inline">\(\ce{Ni -&gt; Ni^{2+} + 2 e^-}\)</span>. Équation globale : <span class="math display">\[
+\ce{Ni + 2 Ag+ -&gt; Ni^{2+} + 2 Ag}
+\]</span></li>
+<li><span class="math display">\[
+\Delta E^0_{pile} = E^0_{cathode} - E^0_{anode} = 0.80 - (-0.23) = 1.03 \text{ V}
+\]</span> La valeur est positive : la réaction est spontanée.</li>
+</ol>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script src="html/vendor/jquery-3.7.1.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+
+    var exeContainerClass = 'Exercise-container';
+    var exeClass = 'Exercise';
+    var ansClass = 'Answer';
+
+    $('.' + exeContainerClass).each(function(i, el) {
+      let child = $(el).children('.' + exeClass);
+      child.replaceWith(child.html());
+      $(el).removeClass(exeContainerClass).addClass(exeClass);
+    });
+
+    var chapterNum = $('.quarto-page-breadcrumbs .chapter-number').first().text().trim();
+
+    $('.' + exeClass).each(function(i, el) {
+      var num = chapterNum + '.' + (i + 1);
+      var title = $('<div>Exercice ' + num + '</div>');
+      title.addClass('Label');
+      $(el).prepend(title);
+    });
+
+    $('.' + ansClass).each(function(i, el) {
+      $(el).click(function() {
+        $(el).slideToggle();
+      });
+      var button = $('<button>Solution</button>');
+      button.attr('type', 'button');
+      button.addClass('Answer-button');
+      button.click(function() {
+        $(el).slideToggle();
+      });
+      button.insertBefore(el);
+    });
+
+  });
+</script>
+<script type="text/javascript">
+  $(document).ready(function () {
+    $("main.content table, main.content .math.display").each(function (i, el) {
+      let parent = $("<div>").attr("style", "overflow-x:auto");
+      $(el).wrap(parent);
+    });
+  });
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copié");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copié");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./200-oxydoreductions.html" class="pagination-link" aria-label="Les réactions d'oxydoréduction">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Les réactions d’oxydoréduction</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./220-thermochimie.html" class="pagination-link" aria-label="Thermochimie">
+        <span class="nav-page-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Thermochimie</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

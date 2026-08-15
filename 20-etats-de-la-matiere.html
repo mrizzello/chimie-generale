@@ -1,0 +1,1549 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Support du cours de chimie générale | Maturité gymnasiale">
+
+<title>2&nbsp; Les états de la matière – Cours de chimie générale</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./30-melanges-corps-purs.html" rel="next">
+<link href="./10-introduction.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-05ad7de8ae34bb1016f06e23b5e9a5a9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Pas de résultats",
+    "search-matching-documents-text": "documents trouvés",
+    "search-copy-link-title": "Copier le lien vers la recherche",
+    "search-hide-matches-text": "Cacher les correspondances additionnelles",
+    "search-more-match-text": "correspondance de plus dans ce document",
+    "search-more-matches-text": "correspondances de plus dans ce document",
+    "search-clear-button-title": "Effacer",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Annuler",
+    "search-submit-button-title": "Envoyer",
+    "search-label": "Recherche"
+  }
+}</script>
+<script>
+window.MathJax = {
+  loader: { load: ['[tex]/mhchem', '[tex]/cancel'] },
+  tex: { packages: { '[+]': ['mhchem', 'cancel'] } }
+};
+</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="nav-sidebar docked quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./20-etats-de-la-matiere.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Les états de la matière</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Recherche" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Cours de chimie générale</a> 
+        <div class="sidebar-tools-main">
+    <a href="./chimie-generale.pdf" title="Télécharger le PDF" class="quarto-navigation-tool px-1" aria-label="Télécharger le PDF" target="_blank"><i class="bi bi-file-earmark-pdf"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Recherche"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Préambule</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./10-introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./20-etats-de-la-matiere.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Les états de la matière</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./30-melanges-corps-purs.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Mélanges et corps purs</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./40-historique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Historique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./50-atome.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">L’atome</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./60-tableau-periodique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Le tableau périodique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./70-liaisons.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Molécules et liaisons chimiques</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./80-molecules.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Géométrie moléculaire et polarité</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./90-nomenclature.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Nomenclature</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./100-solutions-electrolytes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Solutions et électrolytes</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./110-reactions-chimiques.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Réactions chimiques</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./120-types-reactions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Types de réactions</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./130-stoechiometrie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Calculs stœchiométriques</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./140-gaz-parfaits.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Les gaz parfaits</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./150-cinetique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Cinétique chimique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./160-equilibres.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">L’équilibre chimique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./170-acides-bases.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Les acides et les bases</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./180-ph-potentiel-hydrogene.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Le pH ou potentiel hydrogène</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./190-produit-solubilite.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Le produit de solubilité</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./200-oxydoreductions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Les réactions d’oxydoréduction</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./210-electrochimie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Électrochimie</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./220-thermochimie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Thermochimie</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./230-thermodynamique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Thermodynamique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./00-references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bibliographie</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table des matières</h2>
+   
+  <ul>
+  <li><a href="#les-représentations-en-chimie" id="toc-les-représentations-en-chimie" class="nav-link active" data-scroll-target="#les-représentations-en-chimie"><span class="header-section-number">2.1</span> Les représentations en chimie</a></li>
+  <li><a href="#solide-liquide-et-gaz" id="toc-solide-liquide-et-gaz" class="nav-link" data-scroll-target="#solide-liquide-et-gaz"><span class="header-section-number">2.2</span> Solide, liquide et gaz</a></li>
+  <li><a href="#mouvement-thermique-et-forces-intermoléculaires" id="toc-mouvement-thermique-et-forces-intermoléculaires" class="nav-link" data-scroll-target="#mouvement-thermique-et-forces-intermoléculaires"><span class="header-section-number">2.3</span> Mouvement thermique et forces intermoléculaires</a></li>
+  <li><a href="#les-changements-détat" id="toc-les-changements-détat" class="nav-link" data-scroll-target="#les-changements-détat"><span class="header-section-number">2.4</span> Les changements d’état</a></li>
+  <li><a href="#les-courbes-de-changement-détat" id="toc-les-courbes-de-changement-détat" class="nav-link" data-scroll-target="#les-courbes-de-changement-détat"><span class="header-section-number">2.5</span> Les courbes de changement d’état</a></li>
+  <li><a href="#les-diagrammes-de-phases" id="toc-les-diagrammes-de-phases" class="nav-link" data-scroll-target="#les-diagrammes-de-phases"><span class="header-section-number">2.6</span> Les diagrammes de phases</a></li>
+  <li><a href="#létat-liquide" id="toc-létat-liquide" class="nav-link" data-scroll-target="#létat-liquide"><span class="header-section-number">2.7</span> L’état liquide</a></li>
+  <li><a href="#létat-solide" id="toc-létat-solide" class="nav-link" data-scroll-target="#létat-solide"><span class="header-section-number">2.8</span> L’état solide</a>
+  <ul class="collapse">
+  <li><a href="#les-solides-amorphes" id="toc-les-solides-amorphes" class="nav-link" data-scroll-target="#les-solides-amorphes"><span class="header-section-number">2.8.1</span> Les solides amorphes</a></li>
+  <li><a href="#les-solides-cristallins" id="toc-les-solides-cristallins" class="nav-link" data-scroll-target="#les-solides-cristallins"><span class="header-section-number">2.8.2</span> Les solides cristallins</a></li>
+  <li><a href="#allotropes" id="toc-allotropes" class="nav-link" data-scroll-target="#allotropes"><span class="header-section-number">2.8.3</span> Allotropes</a></li>
+  </ul></li>
+  <li><a href="#résumé" id="toc-résumé" class="nav-link" data-scroll-target="#résumé"><span class="header-section-number">2.9</span> Résumé</a></li>
+  <li><a href="#exercices-supplémentaires" id="toc-exercices-supplémentaires" class="nav-link" data-scroll-target="#exercices-supplémentaires"><span class="header-section-number">2.10</span> Exercices supplémentaires</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Les états de la matière</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="objectives">
+<ul>
+<li>Distinguer les trois états de la matière.</li>
+<li>Décrire les propriétés macroscopiques et submicroscopiques de chaque état.</li>
+<li>Identifier et décrire chaque changement d’état.</li>
+<li>Connaître les facteurs qui influencent les points d’ébullition et de fusion.</li>
+<li>Interpréter une courbe de changements d’états.</li>
+</ul>
+</div>
+<section id="les-représentations-en-chimie" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="les-représentations-en-chimie"><span class="header-section-number">2.1</span> Les représentations en chimie</h2>
+<p>Nous allons considérer la matière de trois points de vue différents :</p>
+<ul>
+<li><strong>point de vue macroscopique</strong> Le domaine de la matière que l’on peut voir, sentir ou toucher.</li>
+<li><strong>point de vue submicroscopique</strong> Le domaine de la matière que l’on ne peut pas voir (atomes, molecules, etc.).</li>
+<li><strong>point de vue symbolique</strong> Le domaine qu’on utilise pour représenter “mathématiquement” la matière (équations, symboles, formules, etc.).</li>
+</ul>
+<div id="fig-Johnstone" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-Johnstone-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/Johnstone.png" class="img-fluid figure-img" style="width:50.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-Johnstone-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.1: Les trois niveaux de représentation de la chimie
+</figcaption>
+</figure>
+</div>
+<p>Les propriétés macroscopiques sont régies par ce qu’il se passe au niveau submicroscopique.</p>
+</section>
+<section id="solide-liquide-et-gaz" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="solide-liquide-et-gaz"><span class="header-section-number">2.2</span> Solide, liquide et gaz</h2>
+<p>La matière se trouve généralement sous trois formes physiques appelées états: solide, liquide et gaz.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 41%">
+<col style="width: 52%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;"></th>
+<th style="text-align: left;"><strong>point de vue macroscopique</strong></th>
+<th style="text-align: left;"><strong>point de vue submicroscopique</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><strong>solide</strong></td>
+<td style="text-align: left;">Les solides ont un volume défini et une forme définie.</td>
+<td style="text-align: left;">Les particules sont peu mobiles et très proches.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><strong>liquide</strong></td>
+<td style="text-align: left;">Les liquides ont un volume défini mais ils adoptent la forme de leur contenant.</td>
+<td style="text-align: left;">Les particules sont proches et se déplacent lentement aléatoirement.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><strong>gaz</strong></td>
+<td style="text-align: left;">Les gaz occupent tout le volume et la forme de leur contenant.</td>
+<td style="text-align: left;">Les particules sont séparées par de grandes distances et se déplacent très rapidement aléatoirement.</td>
+</tr>
+</tbody>
+</table>
+<div id="fig-solide-liquide-gaz" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-solide-liquide-gaz-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/solide-liquide-gaz.png" class="img-fluid figure-img" style="width:50.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-solide-liquide-gaz-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.2: Les différents états de la matière du point de vue macroscopique et submicroscopique
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="mouvement-thermique-et-forces-intermoléculaires" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="mouvement-thermique-et-forces-intermoléculaires"><span class="header-section-number">2.3</span> Mouvement thermique et forces intermoléculaires</h2>
+<p>La théorie cinétique de la matière nous indique que les particules qui composent la matière sont constamment en mouvement. Ce mouvement chaotique de particules est appelé <strong>mouvement thermique</strong>.</p>
+<p>L’<strong>énergie thermique</strong> est l’énergie résultante du mouvement de ces particules. Elle est directement proportionnelle à la température de la substance. Cela signifie que plus la température augmente, plus les particules se déplacent rapidement et plus l’énergie qu’elles possèdent est élevée.</p>
+<p>Il existe des forces d’attraction qui rassemblent les particules qui constituent la matière. Ces forces sont appelées les <strong>forces intermoléculaires</strong>. Ces forces sont d’origine électrostatique, elles sont dues à l’attraction entre des espèces chargées électriquement (positives et négatives).</p>
+<ul>
+<li>L’énergie thermique a tendance <strong>à séparer</strong> les particules qui forment la matière.</li>
+<li>Les forces intermoléculaires ont tendance <strong>à maintenir ensemble</strong> les particules qui forment la matière.</li>
+</ul>
+<p>Les trois états de la matière sont le résultat de l’<strong>équilibre</strong> entre les <strong>forces intermoléculaires</strong> et l’<strong>énergie thermique</strong>.</p>
+<div id="fig-mvt-thermique" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-mvt-thermique-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/mvt-thermique.png" class="img-fluid figure-img" style="width:67.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-mvt-thermique-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.3: Équilibre entre forces intermoléculaires et énergie thermique
+</figcaption>
+</figure>
+</div>
+<p>Lorsque les forces intermoléculaires sont fortes et l’énergie thermique faible, la substance aura tendance à se trouver à l’état solide. Lorsque les forces intermoléculaires sont faibles et l’énergie thermique forte, la substance aura tendance à se trouver à l’état gazeux. L’état liquide résulte d’une équivalence entre forces intermoléculaires et énergie thermique.</p>
+<div class="Exercise">
+<ol type="1">
+<li><p>Complétez la phrase : les trois états de la matière résultent de l’équilibre entre les ______________________ et l’______________________.</p></li>
+<li><p>Pour chacune des situations suivantes, indiquez l’état physique (solide, liquide ou gaz) le plus probable :</p>
+<ol type="a">
+<li>forces intermoléculaires fortes et énergie thermique faible ;</li>
+<li>forces intermoléculaires faibles et énergie thermique élevée ;</li>
+<li>forces intermoléculaires et énergie thermique comparables.</li>
+</ol></li>
+<li><p>Vrai ou faux ? Corrigez les affirmations fausses.</p>
+<ol type="a">
+<li>L’énergie thermique tend à rapprocher les particules de la matière.</li>
+<li>L’énergie thermique d’une substance est proportionnelle à sa température.</li>
+<li>Dans un gaz, les particules sont très éloignées et se déplacent très rapidement.</li>
+</ol></li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><p>… entre les <strong>forces intermoléculaires</strong> et l’<strong>énergie thermique</strong>.</p></li>
+<li><ol type="a">
+<li><strong>solide</strong> (les forces l’emportent, les particules restent liées et ordonnées) ;</li>
+<li><strong>gaz</strong> (l’énergie thermique l’emporte, les particules se séparent) ;</li>
+<li><strong>liquide</strong> (équilibre entre les deux effets).</li>
+</ol></li>
+<li><ol type="a">
+<li><strong>Faux</strong> : l’énergie thermique tend à <em>séparer</em> les particules ; ce sont les forces intermoléculaires qui les rapprochent.</li>
+<li><strong>Vrai</strong>.</li>
+<li><strong>Vrai</strong>.</li>
+</ol></li>
+</ol>
+</div>
+</section>
+<section id="les-changements-détat" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="les-changements-détat"><span class="header-section-number">2.4</span> Les changements d’état</h2>
+<p>En général, chaque état de la matière, solide, liquide ou gaz, peut se transformer en l’un des deux autres états. Ces transformations sont appelées <strong>changements d’état</strong>. Par exemple, l’eau peut subir deux changement d’état : elle fond à 0°C et bout à 100°C. Toutes les substances sont susceptibles de subir un changement d’état. Le fer fond à 1535°C et bout 2750°C.</p>
+<p>On peut modifier l’état d’une substance en lui fournissant ou lui retirant de l’énergie thermique:</p>
+<p><strong>Lorsque la température augmente</strong></p>
+<ul>
+<li>L’énergie thermique augmente.</li>
+<li>Les particules se déplacent plus rapidement et se libèrent des forces d’attraction.</li>
+</ul>
+<p><strong>Lorsque la température diminue</strong></p>
+<ul>
+<li>L’énergie thermique diminue.</li>
+<li>Les particules se déplacent moins rapidement et les forces d’attraction les rassemblent.</li>
+</ul>
+<p><strong>Les changements d’état sont des transformations physiques.</strong> Lors d’un changement d’état une substance change la façon dont ses atomes ou molécules sont organisées sans changer les particules elles-mêmes.</p>
+<ul>
+<li>Le <strong>point de fusion</strong> est la température à laquelle une substance passe de l’état solide à l’état liquide.</li>
+<li>Le <strong>point d’ébullition</strong> est la température à laquelle une substance passe de l’état liquide à l’état gazeux.</li>
+</ul>
+<p>L’<strong>évaporation</strong> est la transformation d’un liquide en vapeur sans ébullition. Il peut y avoir vaporisation sans ébullition de la matière.</p>
+<div id="fig-chgt-etats" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-chgt-etats-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/chgt-etats.png" class="img-fluid figure-img" style="width:45.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-chgt-etats-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.4: Les noms des changements d’état
+</figcaption>
+</figure>
+</div>
+<div class="Exercise">
+<ol type="1">
+<li>Lequel(s) des énoncés suivants décrit ce qui se passe lorsque des particules d’eau gèlent ?
+<ol type="a">
+<li>Elles gagnent de l’énergie et de l’espace pour se déplacer.</li>
+<li>Elles gagnent de l’énergie et se décomposent en atomes d’hydrogène et d’oxygène.</li>
+<li>Elles perdent de l’énergie et s’échappent dans l’atmosphère.</li>
+<li>Elles perdent de l’énergie et de l’espace pour se déplacer.</li>
+</ol></li>
+<li>Lequel(s) des énoncés suivants décrit le mieux le comportement des particules dans un gaz ?
+<ol type="a">
+<li>Éloignées et se déplaçant lentement.</li>
+<li>Rapprochées et immobiles.</li>
+<li>Rapprochées et en vibration.</li>
+<li>Très éloignés et se déplaçant très rapidement.</li>
+</ol></li>
+<li>Lequel(s) des énoncés suivants est vrai pour gaz qui condense ?
+<ol type="a">
+<li>Le gaz libère de l’énergie thermique.</li>
+<li>La température du gaz augmente.</li>
+<li>Les particules de gaz perdent de leur liberté de mouvement.</li>
+<li>Les particules de gaz diminuent en taille.</li>
+</ol></li>
+<li>Lequel(s) des énoncés suivants est vrai pour un liquide passant à l’état gazeux ?
+<ol type="a">
+<li>La température du liquide reste constante.</li>
+<li>Les particules de liquide gagnent en liberté de mouvement.</li>
+<li>Les particules de liquide augmentent en taille.</li>
+<li>Le liquide libère de l’énergie thermique.</li>
+</ol></li>
+<li>Lequel(s) des énoncés suivants est vrai pour un liquide passant à l’état solide ?
+<ol type="a">
+<li>Le liquide libère de l’énergie thermique.</li>
+<li>Les particules de liquide diminuent en taille.</li>
+<li>La température reste constante.</li>
+<li>Les particules de liquide augmentent leur liberté de mouvement.</li>
+</ol></li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>Lequel(s) des énoncés suivants décrit ce qui se passe lorsque des particules d’eau gèlent?
+<ol start="4" type="a">
+<li><strong>Elles perdent de l’énergie et de l’espace pour se déplacer.</strong></li>
+</ol></li>
+<li>Lequel(s) des énoncés suivants décrit le mieux le comportement des particules dans un gaz?
+<ol start="4" type="a">
+<li><strong>Très éloignés et se déplaçant très rapidement.</strong></li>
+</ol></li>
+<li>Lequel(s) des énoncés suivants est vrai pour gaz qui condense?
+<ol type="a">
+<li><strong>Le gaz libère de l’énergie thermique.</strong></li>
+<li><strong>Les particules de gaz perdent de leur liberté de mouvement.</strong></li>
+</ol></li>
+<li>Lequel(s) des énoncés suivants est vrai pour un liquide passant à l’état gazeux?
+<ol type="a">
+<li><strong>La température du liquide reste constante.</strong></li>
+<li><strong>Les particules de liquide gagnent en liberté de mouvement.</strong></li>
+</ol></li>
+<li>Lequel(s) des énoncés suivants est vrai pour un liquide passant à l’état solide?
+<ol type="a">
+<li><strong>Le liquide libère de l’énergie thermique.</strong></li>
+<li><strong>La température reste constante.</strong></li>
+</ol></li>
+</ol>
+</div>
+<div class="Exercise">
+<p>Un coton imbibé d’éther mis en contact sur la peau provoque une sensation de froid. On sait, par ailleurs, que l’éther passe facilement de l’état liquide à l’état gazeux.</p>
+<ol type="1">
+<li><p>Quel nom donne-t-on à ce changement d’état ? &nbsp;</p></li>
+<li><p>Quelle conclusion (scientifique) peut-on mettre en relation avec la sensation de froid mentionné ? &nbsp;</p></li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>Quel nom donne-t-on à ce changement d’état ? <strong>La vaporisation</strong></li>
+<li>Quelle conclusion (scientifique) peut-on mettre en relation avec la sensation de froid mentionné ? <strong>L’éther absorbe la chaleur du corps pour vaporiser, d’où la sensation de froid.</strong></li>
+</ol>
+</div>
+</section>
+<section id="les-courbes-de-changement-détat" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="les-courbes-de-changement-détat"><span class="header-section-number">2.5</span> Les courbes de changement d’état</h2>
+<div id="fig-courbe-chgt-etat" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-courbe-chgt-etat-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/courbe-chgt-etat.png" class="img-fluid figure-img" style="width:40.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-courbe-chgt-etat-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.5: Courbe de chauffage de l’eau
+</figcaption>
+</figure>
+</div>
+<p>Imaginons que l’on chauffe un bloc de glace en partant d’une température de -40°C. On place un thermomètre dans notre expérimentation et on note la température.</p>
+<ul>
+<li>En chauffant, on apporte de l’énergie thermique au système. La glace se réchauffe et sa température augmente.</li>
+<li>Une fois que la glace atteint 0°C, <strong>la température cesse d’augmenter</strong> et la glace commence à fondre pour former de l’eau liquide.</li>
+<li>En continuant de chauffer, plus de glace se transforme en eau, mais la température reste la même.</li>
+<li>Une fois que la glace a complètement fondu, la chaleur apportée chauffe l’eau liquide. La température recommence à augmenter.</li>
+<li>Une fois que l’eau liquide atteint 100°C, <strong>la température cesse d’augmenter</strong> et l’eau commence à vaporiser pour former de la vapeur d’eau.</li>
+<li>En continuant de chauffer, plus d’eau liquide se transforme en vapeur d’eau, mais la température reste la même.</li>
+<li>Une fois que l’eau s’est complètement vaporisée, la chaleur apportée chauffe la vapeur d’eau. La température recommence à augmenter.</li>
+</ul>
+<p>Un changement de température et un changement d’état ne se produisent pas en même temps. Quand une substance absorbe ou libère de l’énergie, soit c’est la température qui change, soit c’est son état. En d’autres termes, <strong>la température d’une substance ne change pas au cours d’un changement d’état.</strong></p>
+<p>En effectuant la même expérience, mais en partant de vapeur d’eau chaude et en diminuant la température, la courbe serait inversée et aurait la même allure.</p>
+<div class="Exercise">
+<p>On chauffe régulièrement un échantillon d’une substance pure, initialement solide, et on relève sa température au cours du temps :</p>
+<ul>
+<li>Temps (en min) : 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10</li>
+<li>Température (en °C) : -20, 10, 40, 40, 40, 70, 100, 100, 100, 100, 120</li>
+</ul>
+<ol type="1">
+<li>Quelle est la température de fusion de cette substance ? Sa température d’ébullition ? </li>
+<li>Entre quels instants la substance est-elle entièrement à l’état liquide ? </li>
+<li>Que représentent les paliers ? Pourquoi la température reste-t-elle constante pendant un changement d’état ? </li>
+<li>Quel est l’état physique de cette substance à 25 °C (sous pression atmosphérique) ? </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>Le premier palier a lieu à <strong>40 °C</strong> : c’est la température de <strong>fusion</strong>. Le second palier a lieu à <strong>100 °C</strong> : c’est la température d’<strong>ébullition</strong>.</li>
+<li>La fusion se termine à <span class="math inline">\(t = 4\)</span> min et l’ébullition débute à <span class="math inline">\(t = 6\)</span> min. La substance est <strong>entièrement liquide entre 4 et 6 minutes</strong> (température qui remonte de 40 °C à 100 °C).</li>
+<li>Les paliers correspondent aux <strong>changements d’état</strong> (fusion puis vaporisation). Pendant un changement d’état, l’énergie thermique apportée sert à réorganiser les particules (vaincre les forces intermoléculaires) et non à augmenter leur agitation : la <strong>température reste donc constante</strong>.</li>
+<li>À 25 °C, la température est inférieure au point de fusion (40 °C) : la substance est <strong>solide</strong>.</li>
+</ol>
+</div>
+</section>
+<section id="les-diagrammes-de-phases" class="level2" data-number="2.6">
+<h2 data-number="2.6" class="anchored" data-anchor-id="les-diagrammes-de-phases"><span class="header-section-number">2.6</span> Les diagrammes de phases</h2>
+<p>Nous avons vu qu’il est possible de liquéfier un gaz à pression ambiante en le refroidissant. Pourtant, cela ne suffit pas toujours. Par exemple, on sait qu’à pression atmosphérique, le dioxyde de carbone CO<sub>2</sub> passe directement de la phase gazeuse à la phase solide (sublimation inverse). Ainsi, pour obtenir du CO<sub>2</sub> liquide, il est nécessaire d’augmenter la pression.</p>
+<p>Ce genre d’informations est résumé sur un <strong>diagramme de phases</strong> qui donne les conditions (pression et température) d’existence des différentes phases d’une substance donnée.</p>
+<div id="fig-diagramme-phases-eau-CO2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-diagramme-phases-eau-CO2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/diagramme-phases-eau-CO2.png" class="img-fluid figure-img" style="width:100.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-diagramme-phases-eau-CO2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.6: Diagramme de phases de l’eau et du CO<sub>2</sub> (Les échelles ne sont pas régulières)
+</figcaption>
+</figure>
+</div>
+<div class="Exercise">
+<ol type="1">
+<li>Quelle est la pression minimale pour que le CO<sub>2</sub> liquide puisse exister ?<br>
+</li>
+<li>Quelle doit alors être la température ?<br>
+</li>
+<li>Que représente le point triple ?<br>
+</li>
+<li>Que se passe-t-il si on prend de l’eau à 0.005 atm et –200° C et qu’on augmente la température jusqu’à 300° C ?<br>
+</li>
+<li>Même question pour le CO<sub>2</sub>.<br>
+</li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>5.11 atm</li>
+<li>-56° C</li>
+<li>Les conditions dans lesquelles trois phases différentes peuvent coexister.</li>
+<li>L’eau ne sera jamais liquide.</li>
+<li>Le CO<sub>2</sub> ne sera jamais liquide.</li>
+</ol>
+</div>
+</section>
+<section id="létat-liquide" class="level2" data-number="2.7">
+<h2 data-number="2.7" class="anchored" data-anchor-id="létat-liquide"><span class="header-section-number">2.7</span> L’état liquide</h2>
+<p>Au niveau submicroscopique, les particules qui forment les liquides suivent des mouvements aléatoires constants. Elles peuvent être ordonnées sur de courtes portions, mais cela ne dure pas très longtemps.</p>
+<div id="fig-tension-surface" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-tension-surface-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/tension-surface.png" class="img-fluid figure-img" style="width:33.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-tension-surface-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.7: Tension superficielle
+</figcaption>
+</figure>
+</div>
+<p>Les forces intermoléculaires ont des effets différents sur une particule à la surface que sur une particule dans le corps du liquide.</p>
+<ul>
+<li>Une particule à l’intérieur du liquide est attirée par d’autres particules dans toutes les directions.</li>
+<li>Une particule en surface n’est attirée dans le corps du liquide que par les côtés et en dessous, mais pas au-dessus.</li>
+</ul>
+<p>Cette attraction inégale fait que le liquide a un volume propre et ne se disperse pas. Ce phénomène est appelé <strong>tension superficielle</strong>.</p>
+<p>La <strong>viscosité</strong> est la résistance à l’écoulement d’un liquide. Elle dépend des forces intermoléculaires et de la température. Les liquides ayant des forces intermoléculaires fortes ont tendance à avoir une viscosité élevée.</p>
+<p>La <strong>capillarité</strong> est la tendance qu’a un liquide à monter le long d’un tube étroit. Elle est causée par la compétition entre les forces intermoléculaires dans le liquide et les forces d’attraction entre le liquide et la paroi du tube.</p>
+<div id="fig-capillarity" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-capillarity-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/capillarity.png" class="img-fluid figure-img" style="width:67.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-capillarity-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.8: La capillarité
+</figcaption>
+</figure>
+</div>
+<div class="Exercise">
+<ol type="1">
+<li><p>Associez chaque terme à sa définition : <strong>tension superficielle</strong>, <strong>viscosité</strong>, <strong>capillarité</strong>.</p>
+<ol type="a">
+<li>Résistance d’un liquide à l’écoulement.</li>
+<li>Tendance d’un liquide à monter le long d’un tube étroit.</li>
+<li>Comportement de la surface d’un liquide, qui se resserre comme une membrane, dû à l’attraction inégale subie par les particules de surface. </li>
+</ol></li>
+<li><p>Le miel est beaucoup plus visqueux que l’eau. Que peut-on en déduire sur l’intensité de ses forces intermoléculaires ? </p></li>
+<li><p>Un insecte (le gerris) se déplace à la surface d’un étang sans s’enfoncer. Quel phénomène l’explique ? </p></li>
+<li><p>Que devient la viscosité d’une huile lorsqu’on la chauffe ? Expliquez à l’aide de l’énergie thermique. </p></li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><ol type="a">
+<li><strong>viscosité</strong> ;</li>
+<li><strong>capillarité</strong> ;</li>
+<li><strong>tension superficielle</strong>.</li>
+</ol></li>
+<li><p>Une forte viscosité indique des <strong>forces intermoléculaires fortes</strong> : les particules sont fortement attirées entre elles et s’écoulent difficilement.</p></li>
+<li><p>La <strong>tension superficielle</strong> : la surface de l’eau se comporte comme une membrane élastique capable de supporter le poids de l’insecte.</p></li>
+<li><p>En chauffant, l’<strong>énergie thermique augmente</strong> : les particules se déplacent plus vite et se libèrent en partie des forces intermoléculaires. La <strong>viscosité diminue</strong> (l’huile chaude coule plus facilement).</p></li>
+</ol>
+</div>
+</section>
+<section id="létat-solide" class="level2" data-number="2.8">
+<h2 data-number="2.8" class="anchored" data-anchor-id="létat-solide"><span class="header-section-number">2.8</span> L’état solide</h2>
+<p>Au niveau submicroscopique, les solides peuvent être de deux types - amorphe ou cristallin.</p>
+<div id="fig-amorphous" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-amorphous-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/amorphous.png" class="img-fluid figure-img" style="width:45.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-amorphous-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.9: Solide amorphe (Verre) - Solide cristallin (Quartz)
+</figcaption>
+</figure>
+</div>
+<section id="les-solides-amorphes" class="level3" data-number="2.8.1">
+<h3 data-number="2.8.1" class="anchored" data-anchor-id="les-solides-amorphes"><span class="header-section-number">2.8.1</span> Les solides amorphes</h3>
+<p>Les particules formant les solides amorphes ne sont pas ordonnées sur de grandes portions de l’espace. Leur structure est irrégulière et ressemble plus à la structure d’un liquide qui serait figé.</p>
+<p>Les solides amorphes n’ont pas un point de fusion distinct. Ils deviennent simplement plus souple lorsque la température augmente. Le verre, le caoutchouc ou le beurre sont des exemples de solides amorphes.</p>
+</section>
+<section id="les-solides-cristallins" class="level3" data-number="2.8.2">
+<h3 data-number="2.8.2" class="anchored" data-anchor-id="les-solides-cristallins"><span class="header-section-number">2.8.2</span> Les solides cristallins</h3>
+<p>Les particules formant les solides cristallins sont assemblées les unes par rapport aux autres de façon régulière sur de vastes portions de l’espace. Cette structure tridimensionnelle est appelée <strong>réseau cristallin</strong>.</p>
+<p>Une <strong>maille</strong> est un volume de cristal, qui, lorsqu’il est répété dans les trois dimensions de l’espace, permet d’obtenir le cristal tout entier.</p>
+<div id="fig-metaux" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-metaux-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/metaux.png" class="img-fluid figure-img" style="width:67.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-metaux-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.10: 3 mailles de réseaux cristallins classiques (CFC: cubique à face centrées, CC: cubique centré, HC: hexagonal compact)
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="allotropes" class="level3" data-number="2.8.3">
+<h3 data-number="2.8.3" class="anchored" data-anchor-id="allotropes"><span class="header-section-number">2.8.3</span> Allotropes</h3>
+<p>L’<strong>allotropie</strong> est la propriété qu’ont certains corps à former des cristaux de différentes formes, appelés <strong>allotropes</strong> de cette substance. Par exemple, le diamant, le graphite et les fullerènes sont des formes allotropiques du carbone: formés du même élément mais dont la structure cristalline est différente.</p>
+<div id="fig-allotropes" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-allotropes-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/allotropes.png" class="img-fluid figure-img" style="width:45.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-allotropes-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.11: Trois formes allotropiques du carbone (graphite, diamant, fullerène)
+</figcaption>
+</figure>
+</div>
+<div class="Exercise">
+<ol type="1">
+<li><p>Donnez deux différences entre un solide <strong>amorphe</strong> et un solide <strong>cristallin</strong>. </p></li>
+<li><p>Pourquoi un solide amorphe, comme le verre, n’a-t-il pas de point de fusion net ? </p></li>
+<li><p>Qu’appelle-t-on une <strong>maille</strong> dans un solide cristallin ? </p></li>
+<li><p>Le diamant et le graphite sont tous deux uniquement constitués de carbone, mais leurs propriétés sont très différentes. Quel terme décrit cette situation ? À quoi est due cette différence de propriétés ? </p></li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><p>Deux différences (au choix) :</p>
+<ul>
+<li>un solide <strong>cristallin</strong> possède une structure <strong>ordonnée et régulière</strong> (réseau cristallin) sur de grandes distances, alors qu’un solide <strong>amorphe</strong> a une structure <strong>irrégulière</strong> (semblable à un liquide figé) ;</li>
+<li>un solide cristallin a un <strong>point de fusion net</strong>, un solide amorphe <strong>ramollit progressivement</strong> sans point de fusion précis.</li>
+</ul></li>
+<li><p>Ses particules ne sont pas ordonnées de façon régulière : les forces intermoléculaires à vaincre ne sont pas toutes identiques. Le solide se <strong>ramollit progressivement</strong> au lieu de fondre à une température unique.</p></li>
+<li><p>La <strong>maille</strong> est le plus petit volume du cristal qui, répété dans les trois directions de l’espace, reconstitue l’ensemble du réseau cristallin.</p></li>
+<li><p>C’est l’<strong>allotropie</strong> : le diamant et le graphite sont des <strong>formes allotropiques</strong> du carbone. La différence provient de leur <strong>structure cristalline</strong> (arrangement des atomes de carbone), différente d’un allotrope à l’autre.</p></li>
+</ol>
+</div>
+</section>
+</section>
+<section id="résumé" class="level2" data-number="2.9">
+<h2 data-number="2.9" class="anchored" data-anchor-id="résumé"><span class="header-section-number">2.9</span> Résumé</h2>
+<ul>
+<li>La matière existe sous trois états : solide, liquide et gaz.</li>
+<li>Les propriétés macroscopiques d’un état s’expliquent au niveau submicroscopique par la disposition et le mouvement des particules.</li>
+<li>Les trois états résultent de l’équilibre entre les forces intermoléculaires et l’énergie thermique qui les sépare. L’énergie thermique est proportionnelle à la température.</li>
+<li>Il existe six changements d’état : fusion, solidification, vaporisation, condensation, sublimation et sublimation inverse. Ce sont des transformations physiques qui absorbent ou libèrent de la chaleur.</li>
+<li>Pendant un changement d’état, la température reste constante : elle se traduit par un palier sur la courbe de changement d’état.</li>
+<li>Le point de fusion et le point d’ébullition dépendent de la pression et sont abaissés par la présence d’impuretés.</li>
+<li>Le diagramme de phases donne l’état d’une substance selon la température et la pression ; le point triple est l’unique condition où les trois états coexistent. Au-delà du point critique la distinction liquide/gaz disparaît.</li>
+<li>À l’état liquide, les forces intermoléculaires expliquent la tension superficielle, la viscosité et la capillarité.</li>
+<li>Les solides sont amorphes ou cristallins ; une même substance peut exister sous plusieurs formes cristallines, ses allotropes.</li>
+</ul>
+</section>
+<section id="exercices-supplémentaires" class="level2" data-number="2.10">
+<h2 data-number="2.10" class="anchored" data-anchor-id="exercices-supplémentaires"><span class="header-section-number">2.10</span> Exercices supplémentaires</h2>
+<div class="Exercise">
+<ol type="1">
+<li>Pourquoi en montagne le point d’ébullition de l’eau diminue-t-il par rapport à celui observé au niveau de la mer ?<br>
+</li>
+<li>Expliquez ce que sont les bulles qui apparaissent lorsque l’eau bout.<br>
+</li>
+<li>Qu’est-ce que la condensation ? Citez un exemple de la vie pratique où vous pouvez observer de la condensation.<br>
+</li>
+<li>Pourquoi met-on du sel sur les routes en hiver ?<br>
+</li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>En montagne la pression atmosphérique est plus basse ce qui abaisse le point d’ébullition de l’eau.<br>
+</li>
+<li>Les bulles, visibles à l’intérieur du liquide, sont des bulles de vapeur d’eau.<br>
+</li>
+<li>Passage de l’eau de l’état gazeux à l’état liquide. Rosée du matin, buée sur les vitres, gouttelettes d’eau sur une boisson sortie du réfrigérateur, …<br>
+</li>
+<li>Les impuretés abaissent le point de fusion d’une substance. Le sel abaisse le point de fusion de l’eau, ainsi elle gèlera à une température inférieure à 0° C.</li>
+</ol>
+</div>
+<div class="Exercise-container">
+<div class="Exercise">
+<p>Complétez le tableau suivant en décrivant le changement d’état. Le tableau a été partiellement complété pour vous aider.</p>
+</div>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 34%">
+<col style="width: 40%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">Changement d’état</th>
+<th style="text-align: center;">libère ou absorbe de la chaleur</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>condensation</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">libère</td>
+</tr>
+<tr class="even">
+<td>sublimation</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td>vaporisation</td>
+<td style="text-align: center;">liquide <span class="math inline">\(\rightarrow\)</span> gaz</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td>fusion</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">absorbe</td>
+</tr>
+<tr class="odd">
+<td>solidification</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td>sublimation inverse</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="Answer">
+<p>condensation / gaz <span class="math inline">\(\rightarrow\)</span> liquide / libère</p>
+<p>sublimation / solide <span class="math inline">\(\rightarrow\)</span> gaz / absorbe</p>
+<p>vaporisation / liquide <span class="math inline">\(\rightarrow\)</span> gaz / absorbe</p>
+<p>fusion / solide <span class="math inline">\(\rightarrow\)</span> liquide / absorbe</p>
+<p>solidification / liquide <span class="math inline">\(\rightarrow\)</span> solide / libère</p>
+<p>sublimation inverse / gaz <span class="math inline">\(\rightarrow\)</span> solide / libère</p>
+</div>
+<div class="Exercise-container">
+<div class="Exercise">
+<p>Connaissant les points de fusion et d’ébullition des substances suivantes, donnez l’état physique de la substance à température ambiante (25° C).</p>
+</div>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 14%">
+<col style="width: 23%">
+<col style="width: 28%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>substance</th>
+<th style="text-align: center;">point de fusion</th>
+<th style="text-align: center;">point d’ébullition</th>
+<th style="text-align: center;">état physique à 25° C</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>eau</td>
+<td style="text-align: center;">0° C</td>
+<td style="text-align: center;">100° C</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td>méthane</td>
+<td style="text-align: center;">-182° C</td>
+<td style="text-align: center;">-162° C</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td>fer</td>
+<td style="text-align: center;">1535° C</td>
+<td style="text-align: center;">2750° C</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td>mercure</td>
+<td style="text-align: center;">-39° C</td>
+<td style="text-align: center;">357° C</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td>oxygène</td>
+<td style="text-align: center;">-218° C</td>
+<td style="text-align: center;">-183° C</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td>or</td>
+<td style="text-align: center;">1063° C</td>
+<td style="text-align: center;">2856° C</td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="Answer">
+<p>eau : liquide</p>
+<p>méthane : gaz</p>
+<p>fer : solide</p>
+<p>mercure : liquide</p>
+<p>oxygène : gaz</p>
+<p>or : solide</p>
+</div>
+<div class="Exercise">
+<p>On refroidit un liquide, tout en mesurant régulièrement sa température. Voici les résultats obtenu :</p>
+<ul>
+<li>Temps (en min) : 0, 1, 2, 3, 4, 5, 6, 7, 8, 9</li>
+<li>Température (en °C) : 20, 15, 10, 5, 5, 5, 5, 5, 0, -5</li>
+</ul>
+<ol type="1">
+<li>Tracez le graphique représentant l’évolution de la température du liquide en fonction du temps lors de son refroidissement.</li>
+</ol>
+<div class="center">
+<p><img src="images/graph-cyclohexane.png" class="img-fluid" style="width:75.0%"></p>
+</div>
+<ol start="2" type="1">
+<li>Quel changement d’état à lieu ici ?<br>
+</li>
+<li>Délimitez, sur le graphique, le début et la fin du changement d’état et indiquez les états physiques observés.</li>
+<li>Ce liquide est-il de l’eau? (Justifiez) </li>
+<li>En vous aidant des informations ci-dessous, déterminez quelle est la substance refroidie.<br>
+Température de solidification<br>
+</li>
+</ol>
+<ul>
+<li>Acide lactique : 17° C</li>
+<li>Anéthole : 20° C</li>
+<li>Cyclohexane : 5° C </li>
+</ul>
+<ol start="6" type="1">
+<li>Quelle est la température de fusion du cyclohexane ? Justifiez.<br>
+</li>
+</ol>
+</div>
+<div class="Answer">
+<div class="center">
+<p><img src="images/graph-cyclohexane-corr.png" class="img-fluid" style="width:67.0%"></p>
+</div>
+<ol start="2" type="1">
+<li>La solidification</li>
+<li>Non, car l’eau solidifie à 0° C.</li>
+<li>Le cyclohexane, température de solidification = 5° C.</li>
+<li>5° C, température de fusion = température de solidification.</li>
+</ol>
+</div>
+<div class="Exercise">
+<p>Le diagramme de phases d’une substance pure X est caractérisé par les points suivants :</p>
+<ul>
+<li>point triple : <span class="math inline">\(T = -20\)</span> °C et <span class="math inline">\(P = 0.40\)</span> atm ;</li>
+<li>point critique : <span class="math inline">\(T = 130\)</span> °C et <span class="math inline">\(P = 55\)</span> atm ;</li>
+<li>sous <span class="math inline">\(P = 1\)</span> atm : fusion à <span class="math inline">\(5\)</span> °C et ébullition à <span class="math inline">\(85\)</span> °C.</li>
+</ul>
+<ol type="1">
+<li>Dans quel état se trouve X à <span class="math inline">\(25\)</span> °C sous <span class="math inline">\(1\)</span> atm ? Justifiez. </li>
+<li>Sous une pression de <span class="math inline">\(0.20\)</span> atm, peut-on obtenir X à l’état liquide ? Expliquez à l’aide du point triple. </li>
+<li>On part de X solide à <span class="math inline">\(-50\)</span> °C sous <span class="math inline">\(1\)</span> atm et on chauffe jusqu’à <span class="math inline">\(150\)</span> °C, à pression constante. Décrivez la succession des états et nommez chaque changement d’état rencontré. </li>
+<li>Que se passe-t-il si on chauffe X au-delà de <span class="math inline">\(130\)</span> °C sous forte pression ? Comment nomme-t-on ce point particulier ? </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><p>Sous <span class="math inline">\(1\)</span> atm, la fusion a lieu à <span class="math inline">\(5\)</span> °C et l’ébullition à <span class="math inline">\(85\)</span> °C. À <span class="math inline">\(25\)</span> °C, on est <strong>entre les deux</strong> : X est <strong>liquide</strong>.</p></li>
+<li><p>Le point triple se situe à <span class="math inline">\(0.40\)</span> atm. En dessous de cette pression, la phase liquide <strong>n’existe pas</strong> : X passe directement du solide au gaz (sublimation). À <span class="math inline">\(0.20\)</span> atm (<span class="math inline">\(&lt; 0.40\)</span> atm), il est donc <strong>impossible d’obtenir X liquide</strong>, quelle que soit la température.</p></li>
+<li><p>À <span class="math inline">\(1\)</span> atm, en chauffant de <span class="math inline">\(-50\)</span> °C à <span class="math inline">\(150\)</span> °C :</p>
+<ul>
+<li>de <span class="math inline">\(-50\)</span> °C à <span class="math inline">\(5\)</span> °C : X est <strong>solide</strong> (sa température augmente) ;</li>
+<li>à <span class="math inline">\(5\)</span> °C : <strong>fusion</strong> (solide <span class="math inline">\(\rightarrow\)</span> liquide) ;</li>
+<li>de <span class="math inline">\(5\)</span> °C à <span class="math inline">\(85\)</span> °C : X est <strong>liquide</strong> ;</li>
+<li>à <span class="math inline">\(85\)</span> °C : <strong>vaporisation</strong> (liquide <span class="math inline">\(\rightarrow\)</span> gaz) ;</li>
+<li>de <span class="math inline">\(85\)</span> °C à <span class="math inline">\(150\)</span> °C : X est <strong>gazeux</strong>.</li>
+</ul></li>
+<li><p>Au-delà de <span class="math inline">\(130\)</span> °C et <span class="math inline">\(55\)</span> atm, on dépasse le <strong>point critique</strong> : X devient un <strong>fluide supercritique</strong> ; la distinction entre liquide et gaz disparaît (on ne peut plus liquéfier X par simple compression).</p></li>
+</ol>
+</div>
+<div class="Exercise">
+<p>Les données ci-dessous donnent la température d’ébullition (sous <span class="math inline">\(1\)</span> atm) de quatre substances moléculaires :</p>
+<ul>
+<li>eau : <span class="math inline">\(100\)</span> °C</li>
+<li>éthanol : <span class="math inline">\(78\)</span> °C</li>
+<li>diéthyléther : <span class="math inline">\(35\)</span> °C</li>
+<li>butane : <span class="math inline">\(-1\)</span> °C</li>
+</ul>
+<ol type="1">
+<li>Classez ces substances de la force intermoléculaire la plus forte à la plus faible. Quel critère utilisez-vous ? </li>
+<li>À <span class="math inline">\(25\)</span> °C sous <span class="math inline">\(1\)</span> atm, quelle(s) substance(s) est/sont à l’état gazeux ? </li>
+<li>Parmi les substances liquides à <span class="math inline">\(25\)</span> °C, laquelle s’évapore le plus facilement ? Reliez votre réponse à l’énergie thermique nécessaire pour vaincre les forces intermoléculaires. </li>
+<li>Laquelle de ces substances possède probablement la plus grande viscosité ? Justifiez. </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>Plus les forces intermoléculaires sont fortes, plus il faut d’énergie thermique pour séparer les particules, donc plus la <strong>température d’ébullition est élevée</strong>. On classe donc par température d’ébullition décroissante : <span class="math display">\[
+\text{eau} &gt; \text{éthanol} &gt; \text{diéthyléther} &gt; \text{butane}
+\]</span></li>
+<li>Est à l’état gazeux à <span class="math inline">\(25\)</span> °C toute substance dont la température d’ébullition est inférieure à <span class="math inline">\(25\)</span> °C : seul le <strong>butane</strong> (<span class="math inline">\(-1\)</span> °C). Les trois autres sont liquides.</li>
+<li>Parmi les liquides, le <strong>diéthyléther</strong> (<span class="math inline">\(35\)</span> °C) a la température d’ébullition la plus basse : ses forces intermoléculaires sont les plus faibles des trois, il faut donc <strong>moins d’énergie thermique</strong> pour le vaporiser. C’est celui qui <strong>s’évapore le plus facilement</strong>.</li>
+<li>L’<strong>eau</strong> : elle possède les forces intermoléculaires les plus fortes (température d’ébullition la plus élevée), ce qui correspond généralement à la <strong>viscosité la plus grande</strong> parmi ces substances.</li>
+</ol>
+</div>
+<div class="Exercise">
+<p>Les changements d’état et l’influence de la pression interviennent dans de nombreuses situations de la vie courante.</p>
+<ol type="1">
+<li>Expliquez, à l’aide de la notion de pression, pourquoi les aliments cuisent plus rapidement dans un autocuiseur (cocotte-minute) qu’à l’air libre. </li>
+<li>En haute montagne (vers <span class="math inline">\(4000\)</span> m), l’eau bout à environ <span class="math inline">\(85\)</span> °C. Un œuf y cuit-il plus vite ou moins vite qu’au niveau de la mer ? Justifiez. </li>
+<li>La « glace carbonique » (dioxyde de carbone solide) ne laisse aucune trace liquide lorsqu’elle se réchauffe à l’air libre : elle « fume » et disparaît. Nommez ce changement d’état et expliquez-le à l’aide du diagramme de phases du CO<sub>2</sub> (point triple à <span class="math inline">\(5.1\)</span> atm). </li>
+<li>Comment pourrait-on, en laboratoire, obtenir du CO<sub>2</sub> liquide ? </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><p>Dans un autocuiseur fermé, la vapeur d’eau est emprisonnée : la <strong>pression augmente</strong> au-dessus du liquide. Or, plus la pression est élevée, plus la <strong>température d’ébullition de l’eau est élevée</strong> (elle dépasse <span class="math inline">\(100\)</span> °C). L’eau cuit donc les aliments à une température supérieure, ce qui <strong>accélère la cuisson</strong>.</p></li>
+<li><p>En altitude, la <strong>pression atmosphérique est plus faible</strong>, donc l’eau bout à une <strong>température plus basse</strong> (<span class="math inline">\(\approx 85\)</span> °C). Les aliments cuisent dans une eau moins chaude : l’œuf cuit <strong>moins vite</strong> (il faut plus de temps).</p></li>
+<li><p>C’est la <strong>sublimation</strong> (solide <span class="math inline">\(\rightarrow\)</span> gaz). Le point triple du CO<sub>2</sub> se situe à <span class="math inline">\(5.1\)</span> atm, donc <strong>au-dessus</strong> de la pression atmosphérique (<span class="math inline">\(1\)</span> atm). À pression atmosphérique, la phase liquide n’existe pas : en se réchauffant, le CO<sub>2</sub> solide passe <strong>directement à l’état gazeux</strong>, sans étape liquide.</p></li>
+<li><p>Il faut se placer <strong>au-dessus du point triple</strong>, c’est-à-dire <strong>augmenter la pression</strong> au-delà de <span class="math inline">\(5.1\)</span> atm (à une température appropriée). Sous pression suffisante, le CO<sub>2</sub> peut alors exister à l’état liquide.</p></li>
+</ol>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script src="html/vendor/jquery-3.7.1.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+
+    var exeContainerClass = 'Exercise-container';
+    var exeClass = 'Exercise';
+    var ansClass = 'Answer';
+
+    $('.' + exeContainerClass).each(function(i, el) {
+      let child = $(el).children('.' + exeClass);
+      child.replaceWith(child.html());
+      $(el).removeClass(exeContainerClass).addClass(exeClass);
+    });
+
+    var chapterNum = $('.quarto-page-breadcrumbs .chapter-number').first().text().trim();
+
+    $('.' + exeClass).each(function(i, el) {
+      var num = chapterNum + '.' + (i + 1);
+      var title = $('<div>Exercice ' + num + '</div>');
+      title.addClass('Label');
+      $(el).prepend(title);
+    });
+
+    $('.' + ansClass).each(function(i, el) {
+      $(el).click(function() {
+        $(el).slideToggle();
+      });
+      var button = $('<button>Solution</button>');
+      button.attr('type', 'button');
+      button.addClass('Answer-button');
+      button.click(function() {
+        $(el).slideToggle();
+      });
+      button.insertBefore(el);
+    });
+
+  });
+</script>
+<script type="text/javascript">
+  $(document).ready(function () {
+    $("main.content table, main.content .math.display").each(function (i, el) {
+      let parent = $("<div>").attr("style", "overflow-x:auto");
+      $(el).wrap(parent);
+    });
+  });
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copié");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copié");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./10-introduction.html" class="pagination-link" aria-label="Introduction">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./30-melanges-corps-purs.html" class="pagination-link" aria-label="Mélanges et corps purs">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Mélanges et corps purs</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

@@ -1,0 +1,2753 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Support du cours de chimie générale | Maturité gymnasiale">
+
+<title>18&nbsp; Le pH ou potentiel hydrogène – Cours de chimie générale</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./190-produit-solubilite.html" rel="next">
+<link href="./170-acides-bases.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-05ad7de8ae34bb1016f06e23b5e9a5a9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Pas de résultats",
+    "search-matching-documents-text": "documents trouvés",
+    "search-copy-link-title": "Copier le lien vers la recherche",
+    "search-hide-matches-text": "Cacher les correspondances additionnelles",
+    "search-more-match-text": "correspondance de plus dans ce document",
+    "search-more-matches-text": "correspondances de plus dans ce document",
+    "search-clear-button-title": "Effacer",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Annuler",
+    "search-submit-button-title": "Envoyer",
+    "search-label": "Recherche"
+  }
+}</script>
+<script>
+window.MathJax = {
+  loader: { load: ['[tex]/mhchem', '[tex]/cancel'] },
+  tex: { packages: { '[+]': ['mhchem', 'cancel'] } }
+};
+</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="nav-sidebar docked quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./180-ph-potentiel-hydrogene.html"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Le pH ou potentiel hydrogène</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Recherche" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Cours de chimie générale</a> 
+        <div class="sidebar-tools-main">
+    <a href="./chimie-generale.pdf" title="Télécharger le PDF" class="quarto-navigation-tool px-1" aria-label="Télécharger le PDF" target="_blank"><i class="bi bi-file-earmark-pdf"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Recherche"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Préambule</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./10-introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./20-etats-de-la-matiere.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Les états de la matière</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./30-melanges-corps-purs.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Mélanges et corps purs</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./40-historique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Historique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./50-atome.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">L’atome</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./60-tableau-periodique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Le tableau périodique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./70-liaisons.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Molécules et liaisons chimiques</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./80-molecules.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Géométrie moléculaire et polarité</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./90-nomenclature.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Nomenclature</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./100-solutions-electrolytes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Solutions et électrolytes</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./110-reactions-chimiques.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Réactions chimiques</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./120-types-reactions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Types de réactions</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./130-stoechiometrie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Calculs stœchiométriques</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./140-gaz-parfaits.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Les gaz parfaits</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./150-cinetique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Cinétique chimique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./160-equilibres.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">L’équilibre chimique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./170-acides-bases.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Les acides et les bases</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./180-ph-potentiel-hydrogene.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Le pH ou potentiel hydrogène</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./190-produit-solubilite.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Le produit de solubilité</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./200-oxydoreductions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Les réactions d’oxydoréduction</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./210-electrochimie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Électrochimie</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./220-thermochimie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Thermochimie</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./230-thermodynamique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Thermodynamique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./00-references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bibliographie</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table des matières</h2>
+   
+  <ul>
+  <li><a href="#le-ph-définition-et-échelle" id="toc-le-ph-définition-et-échelle" class="nav-link active" data-scroll-target="#le-ph-définition-et-échelle"><span class="header-section-number">18.1</span> Le pH&nbsp;: définition et échelle</a></li>
+  <li><a href="#calcul-du-ph" id="toc-calcul-du-ph" class="nav-link" data-scroll-target="#calcul-du-ph"><span class="header-section-number">18.2</span> Calcul du pH</a>
+  <ul class="collapse">
+  <li><a href="#acides-forts" id="toc-acides-forts" class="nav-link" data-scroll-target="#acides-forts"><span class="header-section-number">18.2.1</span> Acides forts</a></li>
+  <li><a href="#bases-fortes" id="toc-bases-fortes" class="nav-link" data-scroll-target="#bases-fortes"><span class="header-section-number">18.2.2</span> Bases fortes</a></li>
+  <li><a href="#acides-faibles" id="toc-acides-faibles" class="nav-link" data-scroll-target="#acides-faibles"><span class="header-section-number">18.2.3</span> Acides faibles</a></li>
+  <li><a href="#bases-faibles" id="toc-bases-faibles" class="nav-link" data-scroll-target="#bases-faibles"><span class="header-section-number">18.2.4</span> Bases faibles</a></li>
+  </ul></li>
+  <li><a href="#ph-des-acides-polyprotiques" id="toc-ph-des-acides-polyprotiques" class="nav-link" data-scroll-target="#ph-des-acides-polyprotiques"><span class="header-section-number">18.3</span> pH des acides polyprotiques</a></li>
+  <li><a href="#les-solutions-tampons" id="toc-les-solutions-tampons" class="nav-link" data-scroll-target="#les-solutions-tampons"><span class="header-section-number">18.4</span> Les solutions tampons</a></li>
+  <li><a href="#le-ph-des-solutions-tampons" id="toc-le-ph-des-solutions-tampons" class="nav-link" data-scroll-target="#le-ph-des-solutions-tampons"><span class="header-section-number">18.5</span> Le pH des solutions tampons</a></li>
+  <li><a href="#calculer-le-ph-résumé" id="toc-calculer-le-ph-résumé" class="nav-link" data-scroll-target="#calculer-le-ph-résumé"><span class="header-section-number">18.6</span> Calculer le pH (résumé)</a></li>
+  <li><a href="#titrages-et-courbes-de-ph" id="toc-titrages-et-courbes-de-ph" class="nav-link" data-scroll-target="#titrages-et-courbes-de-ph"><span class="header-section-number">18.7</span> Titrages et courbes de pH</a>
+  <ul class="collapse">
+  <li><a href="#titrage-dun-acide-fort-par-une-base-forte" id="toc-titrage-dun-acide-fort-par-une-base-forte" class="nav-link" data-scroll-target="#titrage-dun-acide-fort-par-une-base-forte"><span class="header-section-number">18.7.1</span> Titrage d’un acide fort par une base forte</a></li>
+  <li><a href="#titrage-dune-base-forte-par-un-acide-fort" id="toc-titrage-dune-base-forte-par-un-acide-fort" class="nav-link" data-scroll-target="#titrage-dune-base-forte-par-un-acide-fort"><span class="header-section-number">18.7.2</span> Titrage d’une base forte par un acide fort</a></li>
+  <li><a href="#titrage-dun-acide-faible-par-une-base-forte" id="toc-titrage-dun-acide-faible-par-une-base-forte" class="nav-link" data-scroll-target="#titrage-dun-acide-faible-par-une-base-forte"><span class="header-section-number">18.7.3</span> Titrage d’un acide faible par une base forte</a></li>
+  <li><a href="#titrage-dune-base-faible-par-un-acide-fort" id="toc-titrage-dune-base-faible-par-un-acide-fort" class="nav-link" data-scroll-target="#titrage-dune-base-faible-par-un-acide-fort"><span class="header-section-number">18.7.4</span> Titrage d’une base faible par un acide fort</a></li>
+  <li><a href="#titrage-dune-polyacide-faible-par-une-base-forte" id="toc-titrage-dune-polyacide-faible-par-une-base-forte" class="nav-link" data-scroll-target="#titrage-dune-polyacide-faible-par-une-base-forte"><span class="header-section-number">18.7.5</span> Titrage d’une polyacide faible par une base forte</a></li>
+  <li><a href="#méthode-des-tangentes" id="toc-méthode-des-tangentes" class="nav-link" data-scroll-target="#méthode-des-tangentes"><span class="header-section-number">18.7.6</span> Méthode des tangentes</a></li>
+  </ul></li>
+  <li><a href="#résumé" id="toc-résumé" class="nav-link" data-scroll-target="#résumé"><span class="header-section-number">18.8</span> Résumé</a></li>
+  <li><a href="#exercices-supplémentaires" id="toc-exercices-supplémentaires" class="nav-link" data-scroll-target="#exercices-supplémentaires"><span class="header-section-number">18.9</span> Exercices supplémentaires</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Le pH ou potentiel hydrogène</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="objectives">
+<ul>
+<li>Définir le pH et son échelle.</li>
+<li>Calculer le pH des acides forts et des bases fortes.</li>
+<li>Calculer le pH des acides faibles et des bases faibles.</li>
+<li>Calculer le pH des acides polyprotiques.</li>
+<li>Définir ce qu’est une solution tampon.</li>
+<li>Calculer le pH d’une solution tampon.</li>
+<li>Effectuer des calculs stœchiométriques sur la base d’une neutralisation donnée.</li>
+<li>Tracer une courbe de titrage en calculant le pH pour différents volumes de solution titrante ajoutés.</li>
+<li>Extraire les informations du tracé d’une courbe de titrage.</li>
+</ul>
+</div>
+<section id="le-ph-définition-et-échelle" class="level2" data-number="18.1">
+<h2 data-number="18.1" class="anchored" data-anchor-id="le-ph-définition-et-échelle"><span class="header-section-number">18.1</span> Le pH&nbsp;: définition et échelle</h2>
+<p>Le <strong>pH</strong> (potentiel hydrogène) est une grandeur sans unité qui permet de caractériser l’acidité ou la basicité d’une solution aqueuse. Il est défini comme le logarithme négatif de la concentration molaire des ions hydronium (<span class="math inline">\(\ce{H3O}^{+}_{(aq)}\)</span>), exprimée en moles par litre (M)&nbsp;:</p>
+<p><span class="math display">\[
+pH = - \log\ |\ce{H3O}^{+}_{(aq)}|
+\]</span></p>
+<p>Inversement, la concentration en ions <span class="math inline">\(\ce{H3O}^{+}_{(aq)}\)</span> peut être déterminée à partir du pH<br>
+par la relation&nbsp;:</p>
+<p><span class="math display">\[
+|\ce{H3O}^{+}_{(aq)}| = 10^{-pH}
+\]</span></p>
+<p>Afin de simplifier les calculs de pH, la convention “<span class="math inline">\(p\)</span>” est utilisée comme préfixe pour signifier “<span class="math inline">\(-log\)</span>” (<span class="math inline">\(pKa\)</span>, <span class="math inline">\(pKb\)</span>, <span class="math inline">\(pKe\)</span>, <span class="math inline">\(pH\)</span>, <span class="math inline">\(pOH\)</span>).</p>
+<p>À une température de 25°C, l’échelle de pH se divise comme suit&nbsp;:</p>
+<table class="caption-top table">
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">pH &lt; 7</td>
+<td style="text-align: left;">la solution est acide</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">pH = 7</td>
+<td style="text-align: left;">la solution est neutre</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">pH &gt; 7</td>
+<td style="text-align: left;">la solution est basique</td>
+</tr>
+</tbody>
+</table>
+<p>Les ions <span class="math inline">\(\ce{H3O}^{+}\)</span> et <span class="math inline">\(\ce{H}^{+}\)</span> ont la même signification en solution aqueuse ; par souci de simplification, <span class="math inline">\(\ce{H}^{+}\)</span> est parfois utilisé à la place de <span class="math inline">\(\ce{H3O}^{+}\)</span>.</p>
+<div id="tbl-echelle-pH-1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-echelle-pH-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;18.1: pH et concentrations en <span class="math inline">\(\ce{H3O}^{+}\)</span> de solutions aqueuses courantes.
+</figcaption>
+<div aria-describedby="tbl-echelle-pH-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 27%">
+<col style="width: 24%">
+<col style="width: 47%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Solution courante</th>
+<th style="text-align: right;">pH (Approximatif)</th>
+<th style="text-align: right;">|<span class="math inline">\(\ce{H3O}^{+}_{(aq)}\)</span>| (mol/L)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Jus de citron</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;"><span class="math inline">\(1.2 \cdot 10^{-3}\)</span> à <span class="math inline">\(5.0 \cdot 10^{-4}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Vinaigre</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;"><span class="math inline">\(1.2 \cdot 10^{-3}\)</span> à <span class="math inline">\(5.0 \cdot 10^{-4}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Tomates</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;"><span class="math inline">\(1.0 \cdot 10^{-5}\)</span> à <span class="math inline">\(1.0 \cdot 10^{-6}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Café</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;"><span class="math inline">\(1.0 \cdot 10^{-5}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Salive</td>
+<td style="text-align: right;">6.5</td>
+<td style="text-align: right;"><span class="math inline">\(1.0 \cdot 10^{-6}\)</span> à <span class="math inline">\(1.5 \cdot 10^{-7}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Lait</td>
+<td style="text-align: right;">6.6</td>
+<td style="text-align: right;"><span class="math inline">\(3.2 \cdot 10^{-7}\)</span> à <span class="math inline">\(9.1 \cdot 10^{-8}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Eau distillée</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;"><span class="math inline">\(1.0 \cdot 10^{-7}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Savon</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;"><span class="math inline">\(1.0 \cdot 10^{-9}\)</span> à <span class="math inline">\(1.0 \cdot 10^{-10}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Détergent à lessive</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;"><span class="math inline">\(1.0 \cdot 10^{-10}\)</span> à <span class="math inline">\(1.0 \cdot 10^{-12}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Eau de Javel</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;"><span class="math inline">\(1.0 \cdot 10^{-11}\)</span> à <span class="math inline">\(1.0 \cdot 10^{-13}\)</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>L’échelle de pH est <strong>logarithmique</strong>, ce qui implique qu’une variation d’une unité de pH représente une variation d’un facteur 10 de la concentration en ions <span class="math inline">\(\ce{H3O}^{+}_{(aq)}\)</span>.</p>
+<div id="tbl-echelle-pH-2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-echelle-pH-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;18.2: Concentrations en mol/L de H<sup>+</sup> et OH<sup>-</sup> pour différentes valeurs de pH.
+</figcaption>
+<div aria-describedby="tbl-echelle-pH-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">pH</th>
+<th style="text-align: center;">1</th>
+<th style="text-align: center;">2</th>
+<th style="text-align: center;">3</th>
+<th style="text-align: center;">4</th>
+<th style="text-align: center;">5</th>
+<th style="text-align: center;">6</th>
+<th style="text-align: center;">7</th>
+<th style="text-align: center;">8</th>
+<th style="text-align: center;">9</th>
+<th style="text-align: center;">10</th>
+<th style="text-align: center;">11</th>
+<th style="text-align: center;">12</th>
+<th style="text-align: center;">13</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><span class="math inline">\(\ce{H}^{+}\)</span></td>
+<td style="text-align: center;">10<sup>-1</sup></td>
+<td style="text-align: center;">10<sup>-2</sup></td>
+<td style="text-align: center;">10<sup>-3</sup></td>
+<td style="text-align: center;">10<sup>-4</sup></td>
+<td style="text-align: center;">10<sup>-5</sup></td>
+<td style="text-align: center;">10<sup>-6</sup></td>
+<td style="text-align: center;">10<sup>-7</sup></td>
+<td style="text-align: center;">10<sup>-8</sup></td>
+<td style="text-align: center;">10<sup>-9</sup></td>
+<td style="text-align: center;">10<sup>-10</sup></td>
+<td style="text-align: center;">10<sup>-11</sup></td>
+<td style="text-align: center;">10<sup>-12</sup></td>
+<td style="text-align: center;">10<sup>-13</sup></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><span class="math inline">\(\ce{OH}^{-}\)</span></td>
+<td style="text-align: center;">10<sup>-13</sup></td>
+<td style="text-align: center;">10<sup>-12</sup></td>
+<td style="text-align: center;">10<sup>-11</sup></td>
+<td style="text-align: center;">10<sup>-10</sup></td>
+<td style="text-align: center;">10<sup>-9</sup></td>
+<td style="text-align: center;">10<sup>-8</sup></td>
+<td style="text-align: center;">10<sup>-7</sup></td>
+<td style="text-align: center;">10<sup>-6</sup></td>
+<td style="text-align: center;">10<sup>-5</sup></td>
+<td style="text-align: center;">10<sup>-4</sup></td>
+<td style="text-align: center;">10<sup>-3</sup></td>
+<td style="text-align: center;">10<sup>-2</sup></td>
+<td style="text-align: center;">10<sup>-1</sup></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>L’échelle de pH est généralement représentée de 0 à 14, bien que des valeurs en dehors de cette plage soient possibles dans des conditions extrêmes.</p>
+<div class="Exercise">
+<p>Répondez aux questions suivantes sur le pH.</p>
+<ol type="1">
+<li>Comment le pH est-il défini à partir de <span class="math inline">\(|\ce{H3O}^{+}|\)</span> ? </li>
+<li>Une solution a un pH de 3, une autre un pH de 6. Laquelle est la plus acide, et combien de fois sa concentration en <span class="math inline">\(\ce{H3O}^{+}\)</span> est-elle plus grande ? </li>
+<li>Calculez le pH d’une solution où <span class="math inline">\(|\ce{H3O}^{+}| = 10^{-9}\)</span> M. La solution est-elle acide, neutre ou basique ? </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><span class="math inline">\(pH = -\log |\ce{H3O}^{+}|\)</span>, la concentration étant exprimée en mol/L.</li>
+<li>La solution de pH 3 est la plus acide. L’échelle étant logarithmique, une différence de 3 unités de pH correspond à un facteur <span class="math inline">\(10^3 = 1000\)</span> : sa concentration en <span class="math inline">\(\ce{H3O}^{+}\)</span> est 1000 fois plus grande.</li>
+<li><span class="math inline">\(pH = -\log(10^{-9}) = 9\)</span>. Comme <span class="math inline">\(pH &gt; 7\)</span>, la solution est basique.</li>
+</ol>
+</div>
+</section>
+<section id="calcul-du-ph" class="level2" data-number="18.2">
+<h2 data-number="18.2" class="anchored" data-anchor-id="calcul-du-ph"><span class="header-section-number">18.2</span> Calcul du pH</h2>
+<section id="acides-forts" class="level3" data-number="18.2.1">
+<h3 data-number="18.2.1" class="anchored" data-anchor-id="acides-forts"><span class="header-section-number">18.2.1</span> Acides forts</h3>
+<p>Les acides forts sont caractérisés par une <strong>dissociation complète</strong> dans l’eau.</p>
+<p><span class="math display">\[
+\ce{HA + H2O -&gt; H3O+ + A-}
+\]</span></p>
+<p>La concentration des ions hydronium est donc égale à la concentration de l’acide&nbsp;:</p>
+<p><span class="math display">\[
+|\ce{H3O}^{+}_{(aq)}| = C_{acide} \quad \Rightarrow \quad pH = - \log\ |\ce{H3O}^{+}_{(aq)}|
+\]</span></p>
+<p>Pour le calcul du pH des acides polyprotiques, il est nécessaire de considérer la libération de chaque proton. Les déprotonations successives peuvent être non négligeables et doivent être prises en compte dans le calcul du pH.</p>
+<div class="Exercise">
+<p>Calculez le pH d’une solution</p>
+<ol type="a">
+<li>de <span class="math inline">\(\ce{HBr}\)</span> 0.002 M </li>
+<li>obtenue en diluant 10 fois une solution de <span class="math inline">\(\ce{HCl}\)</span> initialement au pH 2 ? </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="a">
+<li><span class="math display">\[
+\begin{split}
+|\ce{H3O}^{+}| = 0.002\ M
+\end{split}
+\quad
+\begin{split}
+pH = - \log 0.002 \cong 2.7
+\end{split}
+\]</span></li>
+<li>pH = 3 (échelle logarithmique)</li>
+</ol>
+</div>
+<div class="Exercise">
+<p>Calculez la concentration d’une solution :</p>
+<ol type="a">
+<li>de <span class="math inline">\(\ce{HNO3}\)</span> de pH 1.6. </li>
+<li>obtenue en diluant 5 fois une solution de <span class="math inline">\(\ce{HCl}\)</span> initialement au pH 3. </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="a">
+<li><span class="math display">\[
+\begin{split}
+|\ce{H3O}^{+}| = 10^{-pH} = 10^{-1.6} = 0.025\ M
+\end{split}
+\quad
+\begin{split}
+|\ce{HNO3}| = |\ce{H3O}^{+}| \quad \text{(acide fort)}
+\end{split}
+\]</span></li>
+<li><span class="math display">\[
+\begin{split}
+|\ce{HCl}| = |\ce{H3O}^{+}| = 10^{-pH} = 10^{-3}\ M
+\end{split}
+\quad
+\begin{split}
+\text{dilution 5x} \Rightarrow \frac{10^{-3}}{5} = 2 \cdot 10^{-4}\ M
+\end{split}
+\]</span></li>
+</ol>
+</div>
+<div class="Exercise">
+<ol type="a">
+<li>Quelle masse de <span class="math inline">\(\ce{HCl}\)</span> faut-il dissoudre dans 100 mL d’eau distillée pour obtenir un pH de 1.3 ? </li>
+<li>Que devient ce pH si l’on ajoute encore 100 mL d’eau à cette solution ? </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="a">
+<li><span class="math display">\[
+\begin{split}
+|\ce{HCl}| &amp;= |\ce{H3O}^{+}| = 10^{-1.3}\ M = 5.01 \cdot 10^{-2}\ M \\
+n_{\ce{HCl}} &amp;= C \cdot V = 5.01 \cdot 10^{-2}\ \text{ mol/L} \cdot 10^{-1}\ \text{ L} = 5.01 \cdot 10^{-3}\ \text{ mol} \\
+m_{\ce{HCl}} &amp;= n \cdot M = 5.01 \cdot 10^{-3}\ \text{ mol} \cdot 36.45\ \text{ g/mol} \cong 0.182\ \text{ g}
+\end{split}
+\]</span></li>
+<li>Cela revient à diluer 2 fois. <span class="math display">\[
+\begin{split}
+|\ce{HCl}| &amp;= |\ce{H3O}^{+}| = \frac{5 \cdot 10^{-2}\ \text{ mol/L}}{2} = 2.5 \cdot 10^{-2}\ M \\
+pH &amp;= - \log |\ce{H3O}^{+}| = - \log 2.5 \cdot 10^{-2} \cong 1.6
+\end{split}
+\]</span></li>
+</ol>
+</div>
+<div class="Exercise">
+<p>Quel volume d’eau faut-il ajouter à 25 mL d’une solution de <span class="math inline">\(\ce{HNO3}\)</span> de pH = 2.5 pour amener ce pH à 3 ? </p>
+</div>
+<div class="Answer">
+<p><span class="math display">\[
+|\ce{H3O}^{+}|_{initial} = 10^{-2.5} \cong 3.16 \cdot 10^{-3}\ M
+\]</span> <span class="math display">\[
+n_{\ce{H3O}^{+}} = C \cdot V = 3.16 \cdot 10^{-3}\ M \cdot 25 \cdot 10^{-3}\ \text{ L} \cong 7.91 \cdot 10^{-5}\ \text{ mol}
+\]</span> <span class="math display">\[
+|\ce{H3O}^{+}|_{final} = \frac{n}{V} = \frac{7.91 \cdot 10^{-5}\ \text{ mol}}{V} = 10^{-3}\ M
+\]</span> <span class="math display">\[
+V = \frac{7.91 \cdot 10^{-5}\ \text{ mol}}{10^{-3}\ \text{ mol/L}} = 7.91 \cdot 10^{-2}\ \text{ L} = 79.1\ mL \cong 79\ mL
+\]</span> Il faut ajouter <span class="math inline">\(79\ mL - 25\ mL = 54\ mL\)</span> d’eau.</p>
+</div>
+<div class="Exercise">
+<p>Calculez le pH d’une solution de <span class="math inline">\(\ce{HClO4}\)</span> <span class="math inline">\(2 \cdot 10^{-3}\)</span> M. </p>
+</div>
+<div class="Answer">
+<p><span class="math display">\[
+pH = - log(|\ce{H3O}^{+}|) = - log(2 \cdot 10^{-3}) \cong 2.7
+\]</span></p>
+</div>
+</section>
+<section id="bases-fortes" class="level3" data-number="18.2.2">
+<h3 data-number="18.2.2" class="anchored" data-anchor-id="bases-fortes"><span class="header-section-number">18.2.2</span> Bases fortes</h3>
+<p>Les bases fortes sont caractérisées par une <strong>dissociation complète</strong> dans l’eau.</p>
+<p><span class="math display">\[
+\ce{B + H2O -&gt; BH+ + OH-}
+\]</span></p>
+<p>La concentration des ions hydroxyde est donc égale à la concentration initiale de la base&nbsp;:</p>
+<p><span class="math display">\[
+|\ce{OH}^{-}_{(aq)}| = C_{base} \quad \Rightarrow \quad pOH = - \log\ |\ce{OH}^{-}_{(aq)}|
+\]</span></p>
+<p>En utlisant le produit ionique de l’eau (<span class="math inline">\(K_e\)</span>), on peut relier le pH et le pOH&nbsp;:</p>
+<p><span class="math display">\[
+\begin{split}
+K_e &amp;= |\ce{H3O}^{+}| \cdot |\ce{OH}^{-}| = 10^{-14} \\
+-\log\ K_e &amp;= (-\log\ |\ce{H3O}^{+}|)+(-\log\  |\ce{OH}^{-}|) \\
+14 &amp;= pH + pOH
+\end{split}
+\qquad\Rightarrow\qquad
+\begin{split}
+pH &amp;= 14 - pOH
+\end{split}
+\]</span></p>
+<div class="Exercise">
+<p>Calculez le pH d’une solution d’hydroxyde de potassium 0.001 M. </p>
+</div>
+<div class="Answer">
+<ol type="a">
+<li><span class="math display">\[ |\ce{OH}^{-}| = |\ce{KOH}| = 0.001\ M \: \text{(base forte)} \]</span> <span class="math display">\[
+\begin{split}
+pH = 14 - pOH &amp;= 14 - ( - \log 0.001 ) \\
+  &amp;= 11
+\end{split}
+\qquad \text{ou} \qquad
+\begin{split}
+|\ce{H3O}^{+}| &amp;= \frac{10^{-14}}{|\ce{OH}^{-}|} = 10^{-11} \\
+pH &amp;= - \log 10^{-11} = 11
+\end{split}
+\]</span></li>
+</ol>
+</div>
+<div class="Exercise">
+<p>Calculez la concentration d’une solution de <span class="math inline">\(\ce{NaOH}\)</span> de pH = 9.3. </p>
+</div>
+<div class="Answer">
+<p><span class="math display">\[
+\begin{split}
+|\ce{H3O}^{+}| = 10^{-9.3}
+\end{split}
+\qquad
+\begin{split}
+|\ce{OH}^{-}| &amp;= \frac{10^{-14}}{|\ce{H3O}^{+}|} \\
+  &amp;= \frac{10^{-14}}{10^{-9.3}} = 10^{-4.7} = 2 \cdot 10^{-5}\ M \\
+|\ce{NaOH}| &amp;= |\ce{OH}^{-}| = 2 \cdot 10^{-5}\ M \quad \text{(base forte)}
+\end{split}
+\]</span></p>
+</div>
+<div class="Exercise">
+<p>On ajoute 250 mL d’eau à 20 mL d’une solution de base forte, de pH = 12. Quel sera le pH de la solution obtenue ? </p>
+</div>
+<div class="Answer">
+<p><span class="math display">\[
+\begin{split}
+|\ce{H3O}^{+}| = 10^{-12}\ M
+\end{split}
+\qquad \text{et} \qquad
+\begin{split}
+|\ce{OH}^{-}| = 10^{-2}\ M
+\end{split}
+\]</span> <span class="math display">\[
+n_{\ce{OH}^{-}} = C \cdot V = 10^{-2}\ M \cdot 2 \cdot 10^{-3}\ \text{ L} = 2 \cdot 10^{-5}\ \text{ mol}
+\]</span> Après dilution : <span class="math display">\[
+|\ce{OH}^{-}| = \frac{n}{V} = \frac{2 \cdot 10^{-5}\ \text{ mol}}{270 \cdot 10^{-3}\ \text{ L}} \cong 7.41 \cdot 10^{-5}\ M
+\]</span> <span class="math display">\[
+pH = 14 + \log(|\ce{OH}^{-}|) = 14 + \log(7.41 \cdot 10^{-5}) \cong 9.87
+\]</span></p>
+</div>
+<div class="Exercise">
+<p>Calculez le pH d’une solution de <span class="math inline">\(\ce{KOH}\)</span> <span class="math inline">\(2 \cdot 10^{-3}\)</span> M. </p>
+</div>
+<div class="Answer">
+<p><span class="math display">\[
+pH = 14 + log(|\ce{OH}^{-}|) = 14 + log(2 \cdot 10^{-3}) \cong 11.3
+\]</span></p>
+</div>
+<div class="Exercise">
+<p>Calculez la concentration d’une solution de <span class="math inline">\(\ce{Ca(OH)2}\)</span> de pH = 9.3. </p>
+</div>
+<div class="Answer">
+<p><span class="math display">\[
+\begin{split}
+pOH = 14 - 9.3 = 4.7
+\end{split}
+\qquad
+\begin{split}
+\ce{Ca(OH)2 -&gt; Ca^{2+} + 2\ OH-}
+\end{split}
+\]</span> <span class="math display">\[
+|\ce{OH}^{-}| = 10^{-4.7} = 2 \cdot 10^{-5}\ M \Rightarrow |\ce{Ca(OH)2}| = \frac{1}{2} \cdot |\ce{OH}^{-}| = 10^{-5}\ M
+\]</span></p>
+</div>
+<div class="Exercise">
+<p>Calculez le pH des solutions suivantes :</p>
+<ol type="a">
+<li><span class="math inline">\(\ce{HI}\)</span> 0.025 mol/L. </li>
+<li><span class="math inline">\(\ce{Ca(OH)2}\)</span> 0.003 mol/L. </li>
+<li><span class="math inline">\(\ce{NaOH}\)</span> 2 g/L. </li>
+<li>0.315 mg de <span class="math inline">\(\ce{HNO3}\)</span> dans 10 mL de solution </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="a">
+<li><span class="math display">\[
+pH = - \log 0.025 \cong 1.6
+\]</span></li>
+<li><span class="math display">\[
+|\ce{OH^-}| = 2 \cdot |\ce{Ca(OH)2}| = 0.006 \Rightarrow pH = 14 + \log(0.006) = 11.78
+\]</span></li>
+<li><span class="math display">\[
+\begin{split}
+  2\ \text{ g/L} &amp;= 0.05\ \text{ mol/L} \\
+  pH &amp;= 14 + \log(0.05) \cong 12.7
+\end{split}
+\]</span></li>
+<li><span class="math display">\[
+\begin{split}
+  n_{\ce{HNO3}} &amp;= \frac{0.315 \cdot 10^{-3}\ \text{ g}}{63\ \text{ g/mol}} = 5 \cdot 10^{-6}\ \text{ mol} \\
+  |\ce{HNO3}| &amp;= \frac{n}{V} = \frac{5 \cdot 10^{-6}\ \text{ mol}}{10 \cdot 10^{-3}\ \text{ L}} = 5 \cdot 10^{-4}\ M \\
+  pH &amp;= - \log |\ce{H3O}^{+}| = - \log 5 \cdot 10^{-4} \cong 3.301
+\end{split}
+\]</span></li>
+</ol>
+</div>
+<div class="Exercise">
+<p>Calculez la concentration des solutions suivantes :</p>
+<ol type="a">
+<li><span class="math inline">\(\ce{HCl}\)</span> de pH = 4. </li>
+<li><span class="math inline">\(\ce{KOH}\)</span> de pH = 12. </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="a">
+<li><span class="math inline">\(|\ce{HCl}| = 10^{-4}\ M\)</span> </li>
+<li><span class="math inline">\(|\ce{H3O}^{+}| = 10^{-12}\ M\)</span> et <span class="math inline">\(|\ce{KOH}| = |\ce{OH}^{-}| = 10^{-2}\ M\)</span></li>
+</ol>
+</div>
+</section>
+<section id="acides-faibles" class="level3" data-number="18.2.3">
+<h3 data-number="18.2.3" class="anchored" data-anchor-id="acides-faibles"><span class="header-section-number">18.2.3</span> Acides faibles</h3>
+<p>Les acides faibles sont caractérisés par une <strong>dissociation partielle</strong> dans l’eau.</p>
+<p><span class="math display">\[
+\ce{HA + H2O &lt;=&gt; H3O+ + A-}
+\]</span></p>
+<p>La concentration des ions hydronium dépend donc du degré de dissociation de l’acide faible. Pour calculer le pH, il est nécessaire de connaître la constante d’acidité (<span class="math inline">\(K_a\)</span>) de l’acide faible, qui est définie par l’équation&nbsp;:</p>
+<p><span class="math display">\[
+K_a = \frac{|\ce{H3O}^{+}| \cdot |\ce{A}^{-}|}{|\ce{HA}|}
+\]</span></p>
+<p>Pour calculer la concentration en ions hydronium, on utilise un tableau de variations pour déterminer les concentrations à l’équilibre.</p>
+<p>Prenons l’exemple d’une solution d’acide cyanhydrique HCN 0.1 M, un <strong>acide faible</strong>, dont on souhaite déterminer le pH.</p>
+<p><span class="math display">\[
+\ce{HCN(aq) + H2O(l) &lt;=&gt; H3O+(aq) + CN^{-}(aq)} \qquad \text{avec } K_a = 4.9 \cdot 10^{-10}
+\]</span></p>
+<p>Les conditions initiales, les variations et les conditions d’équilibre peuvent être synthétisées dans le tableau ci-dessous.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: center;"><span class="math inline">\(\ce{HCN(aq)}\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(\ce{H3O+(aq)}\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(\ce{CN^{-}(aq)}\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Poportions</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">C<sub>initiale</sub></td>
+<td style="text-align: center;">0.1</td>
+<td style="text-align: center;"><strong>≈0</strong></td>
+<td style="text-align: center;">0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span class="math inline">\(\Delta\)</span>C</td>
+<td style="text-align: center;">-x</td>
+<td style="text-align: center;">+x</td>
+<td style="text-align: center;">+x</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">C<sub>finale</sub></td>
+<td style="text-align: center;">0.1-x</td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;">x</td>
+</tr>
+</tbody>
+</table>
+<p><em>On fait une première approximation en considérant la concentration initiale des ions H<sub>3</sub>O<sup>+</sup> comme nulle. On néglige la quantité des ions H<sub>3</sub>O<sup>+</sup> provenant de l’autoprotolyse de l’eau.</em></p>
+<p>La variable x représente la quantité d’acide qui se dissocie. Déterminons maintenant l’expression de la constante d’acidité K<sub>a</sub>&nbsp;:</p>
+<p><span class="math display">\[
+K_a = \frac{|\ce{H3O}^{+}| \cdot |\ce{CN}^{-}|}{|\ce{HCN}|} = \frac{x \cdot x}{0.1 - x} = \frac{x^2}{0.1 - x}
+\]</span></p>
+<p>Souvent, une <strong>approximation</strong> peut être faite lorsque la constante d’équilibre est très faible. Cette approximation est valide si la quantité d’acide (ou de base) dissociée est <strong>inférieure à 5% de la concentration initiale</strong> de l’acide (ou de la base).</p>
+<p>K<sub>a</sub> étant très faible, on fait une deuxième approximation en négligeant la quantité d’acide dissociée (x) et donc, simplifier la constante&nbsp;:</p>
+<p><span class="math display">\[
+K_a = \frac{x^2}{0.1 - \cancel{x}} = \frac{x^2}{0.1} = 4.9 \cdot 10^{-10}
+\]</span></p>
+<p>On obtient une équation du second degré. Il suffit de résoudre cette équation en x pour déterminer la valeur de |H<sub>3</sub>O<sup>+</sup>|&nbsp;:</p>
+<p><span class="math display">\[
+\begin{split}
+\frac{x^2}{0.1} = 4.9 \cdot 10^{-10}
+\end{split}
+\qquad
+\begin{split}
+\sqrt{\frac{x^2}{0.1}} &amp;= \sqrt{4.9 \cdot 10^{-10}} \\
+x &amp;= \sqrt{4.9 \cdot 10^{-10} \cdot 0.1} = 7 \cdot 10^{-6}\ M
+\end{split}
+\]</span></p>
+<p>Nous trouvons donc une valeur de |H<sub>3</sub>O<sup>+</sup>| égale à <span class="math inline">\(7 \cdot 10^{-6}\)</span> M.</p>
+<p>L’approximation est bien valide puisque <span class="math inline">\(x \lll 0.1\)</span> M.</p>
+<p><strong>Le rapport entre la quantité dissociée et la concentration initiale d’acide doit être inférieur à 5% pour utiliser l’approximation</strong>.</p>
+<p>Dans cet exemple, nous avons&nbsp;:</p>
+<p><span class="math display">\[
+\frac{7 \cdot 10^{-6}}{0.1} = 0.007\%
+\]</span></p>
+<p>Finalement, on calcule le pH&nbsp;:</p>
+<p><span class="math display">\[
+pH = - \log |\ce{H3O}^{+}| = - \log 7 \cdot 10^{-6} = 5.15
+\]</span></p>
+<div class="Exercise">
+<p>Calculez le pH d’une solution de <span class="math inline">\(\ce{HClO2}\)</span> 0.100 mol/L avec K<sub>a</sub> = <span class="math inline">\(1.1 \cdot 10^{-2}\)</span> M. Effectuer dans un premier temps les calculs en appliquant l’approximation, puis sans appliquer l’approximation.</p>
+</div>
+<div class="Answer">
+<p><span class="math display">\[
+\ce{HClO2 + H2O &lt;=&gt; H3O+ + ClO2-}
+\]</span> <span class="math display">\[
+\begin{split}
+&amp;\ce{HClO2}\\
+C_i &amp;= 0.100\ M \\
+\Delta C &amp;= - x\ M \\
+C_f &amp;= 0.100 - x\ M \\
+\end{split}
+\qquad
+\begin{split}
+&amp;\ce{H3O}^{+}\\
+C_i &amp;= 0\ M \\
+\Delta C &amp;= + x\ M \\
+C_f &amp;= x\ M \\
+\end{split}
+\qquad
+\begin{split}
+&amp;\ce{ClO2}^{-}\\
+C_i &amp;= 0\ M \\
+\Delta C &amp;= + x\ M \\
+C_f &amp;= x\ M \\
+\end{split}
+\]</span> <span class="math display">\[
+K_a = \frac{|\ce{H3O}^{+}| \cdot |\ce{ClO2}^{-}|}{|\ce{HClO2}|} = \frac{x \cdot x}{0.100-x} = \frac{x^2}{0.100-x}
+\]</span> On approxime en négligeant le x : <span class="math display">\[
+\begin{split}
+K_a = \frac{x^2}{0.100-\cancel{x}} = \frac{x^2}{0.100}
+\end{split}
+\qquad
+\begin{split}
+\Rightarrow 1.1 \cdot 10^{-2} &amp;= \frac{x^2}{0.100} \\
+x &amp;= \sqrt{1.1 \cdot 10^{-2} \cdot 0.100} \\
+&amp;= 3.32 \cdot 10^{-2}\ \text{ mol/L}
+\end{split}
+\]</span> L’approximation n’est pas valide : <span class="math inline">\(\frac{0.033}{0.100} \cdot 100\% = 33\% &gt; 5\%\)</span></p>
+<p>Sans appliquer d’approximation : <span class="math display">\[
+\begin{split}
+K_a = \frac{x^2}{0.100-x}
+\end{split}
+\qquad
+\begin{split}
+\Rightarrow 1.1 \cdot 10^{-2} &amp;= \frac{x^2}{0.100-x} \\
+1.1 \cdot 10^{-2} \cdot (0.100-x) &amp;= x^2 \\
+0.0011 - 0.011 \cdot x &amp;= x^2 \\
+x^2 + 0.011 \cdot x - 0.0011 &amp;= 0
+\end{split}
+\]</span> Après résolution : <span class="math display">\[
+\begin{split}
+x = 0.028\ M
+\end{split}
+\qquad\qquad
+\begin{split}
+x = \cancel{-0.039}\ M \quad \text{non valable}
+\end{split}
+\]</span> <span class="math display">\[
+\begin{split}
+|\ce{H3O}^{+}| = x = 0.028\ M
+\end{split}
+\qquad\qquad
+\begin{split}
+pH &amp;= - \log |\ce{H3O}^{+}| \\
+&amp;= - \log 0.028 \cong 1.55
+\end{split}
+\]</span></p>
+</div>
+</section>
+<section id="bases-faibles" class="level3" data-number="18.2.4">
+<h3 data-number="18.2.4" class="anchored" data-anchor-id="bases-faibles"><span class="header-section-number">18.2.4</span> Bases faibles</h3>
+<p>Les bases faibles sont <strong>partiellement protonées</strong> en solution aqueuse.</p>
+<p><span class="math display">\[
+\ce{B + H2O &lt;=&gt; BH+ + OH-}
+\]</span></p>
+<p>La concentration des ions hydroxyde dépend donc du degré de protonation de la base faible. Pour calculer le pH, il est nécessaire de connaître la constante de basicité (<span class="math inline">\(K_b\)</span>) de la base faible, qui est définie par l’équation&nbsp;:</p>
+<p><span class="math display">\[
+K_b = \frac{|\ce{BH}^{+}| \cdot |\ce{OH}^{-}|}{|\ce{B}|}
+\]</span></p>
+<p>Pour calculer la concentration en ions hydroxyde, on utilise un tableau de variations pour déterminer les concentrations à l’équilibre.</p>
+<p>Prenons l’exemple d’une solution d’ammoniaque NH<sub>3</sub> 0.2 M, une <strong>base faible</strong>, dont on souhaite déterminer le pH. La démarche est la même que pour un acide faible.</p>
+<p><span class="math display">\[
+\ce{NH3(aq) + H2O(l) &lt;=&gt; NH4+(aq) + OH^{-}(aq)} \qquad \text{avec } K_b = 1.8 \cdot 10^{-5}
+\]</span></p>
+<p>Les conditions initiales, les variations et les conditions d’équilibre peuvent être synthétisées dans le tableau ci-dessous.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: center;"><span class="math inline">\(\ce{NH3(aq)}\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(\ce{NH4+(aq)}\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(\ce{OH^{-}(aq)}\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Poportions</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">C<sub>initiale</sub></td>
+<td style="text-align: center;">0.2</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;"><strong>≈0</strong></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span class="math inline">\(\Delta\)</span>C</td>
+<td style="text-align: center;">-x</td>
+<td style="text-align: center;">+x</td>
+<td style="text-align: center;">+x</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">C<sub>finale</sub></td>
+<td style="text-align: center;">0.2-x</td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;">x</td>
+</tr>
+</tbody>
+</table>
+<p><em>À nouveau, on néglige l’autoprotolyse de l’eau.</em></p>
+<p>La variable x représente la quantité de la base qui accepte un proton. Déterminons maintenant l’expression de la constante de basicité K<sub>b</sub>&nbsp;:</p>
+<p><span class="math display">\[
+K_b = \frac{|\ce{NH4}^{+}| \cdot |\ce{OH}^{-}|}{|\ce{NH3}|} = \frac{x \cdot x}{0.2 - x} = \frac{x^2}{0.2 - x}
+\]</span></p>
+<p>À nouveau, on peut simplifier la constante&nbsp;:</p>
+<p><span class="math display">\[
+K_b = \frac{x^2}{0.2 - \cancel{x}} = \frac{x^2}{0.2} = 1.8 \cdot 10^{-5}
+\]</span></p>
+<p>On obtient une équation du second degré. Il suffit de résoudre cette équation en x pour déterminer la valeur de |OH<sup>-</sup>|&nbsp;:</p>
+<p><span class="math display">\[
+\begin{split}
+\frac{x^2}{0.2} = 1.8 \cdot 10^{-5}
+\end{split}
+\qquad
+\begin{split}
+\sqrt{\frac{x^2}{0.2}} &amp;= \sqrt{1.8 \cdot 10^{-5}} \\
+x &amp;= \sqrt{1.8 \cdot 10^{-5} \cdot 0.2} = 1.90 \cdot 10^{-3}\ M
+\end{split}
+\]</span></p>
+<p>Nous trouvons donc une valeur de |OH<sup>-</sup>| égale à <span class="math inline">\(1.90 \cdot 10^{-3}\)</span> M.</p>
+<p>L’approximation est bien valide puisque <span class="math inline">\(x \lll 0.2\)</span> M.</p>
+<p><strong>Le rapport entre la quantité protonnée et la concentration initiale de base doit être inférieur à 5% pour utiliser l’approximation</strong>.</p>
+<p>Dans cet exemple, nous avons&nbsp;:</p>
+<p><span class="math display">\[
+\frac{1.90 \cdot 10^{-3}}{0.2} = 0.95\%
+\]</span></p>
+<p>Finalement, on calcule le pH en prenant <span class="math inline">\(|\ce{OH}^{-}| = 1.90 \cdot 10^{-3}\)</span> M&nbsp;:</p>
+<p><span class="math display">\[
+pH = 14 - pOH = 14 + \log |\ce{OH}^{-}| = 14 + \log 1.90 \cdot 10^{-3} = 11.279
+\]</span></p>
+<div class="Exercise">
+<p>Déterminez la concentration en OH<sup>-</sup> et le pH d’une solution de méthylamine (<span class="math inline">\(\ce{CH3NH2}\)</span>) 0.33 mol/L. </p>
+</div>
+<div class="Answer">
+<p><span class="math display">\[
+\ce{CH3NH2 + H2O &lt;=&gt; CH3NH3+ + OH-}
+\]</span> <span class="math display">\[
+\begin{split}
+&amp;\ce{CH3NH2}\\
+C_i &amp;= 0.33\ M \\
+\Delta C &amp;= - x\ M \\
+C_f &amp;= 0.33 - x\ M \\
+\end{split}
+\qquad
+\begin{split}
+&amp;\ce{CH3NH3}^{+}\\
+C_i &amp;= 0\ M \\
+\Delta C &amp;= + x\ M \\
+C_f &amp;= x\ M \\
+\end{split}
+\qquad
+\begin{split}
+&amp;\ce{OH}^{-}\\
+C_i &amp;= 0\ M \\
+\Delta C &amp;= + x\ M \\
+C_f &amp;= x\ M \\
+\end{split}
+\]</span> <span class="math display">\[
+K_b = \frac{|\ce{CH3NH3}^{+}| \cdot |\ce{OH}^{-}|}{|\ce{CH3NH2}|} = \frac{x \cdot x}{0.33 - x}
+\]</span> On approxime en négligeant le x : <span class="math display">\[
+\begin{split}
+K_b = \frac{x \cdot x}{0.33 - \cancel{x}} = \frac{x^2}{0.33} = 4.4 \cdot 10^{-4}
+\end{split}
+\qquad
+\begin{split}
+\Rightarrow x &amp;= \sqrt{4.4 \cdot 10^{-4} \cdot 0.33} \\
+  &amp;= 0.012\ M
+\end{split}
+\]</span> L’approximation est valide : <span class="math inline">\(\frac{0.012}{0.33} \cdot 100\% \cong 3.65\% &lt; 5\%\)</span> <span class="math display">\[
+\begin{split}
+|\ce{OH}^{-}| = x = 0.012\ M
+\end{split}
+\qquad
+\begin{split}
+pOH &amp;= - \log |\ce{OH}^{-}| = - \log 0.012 = 1.92 \\
+pH &amp;= 14 - pOH = 14 - 1.92 = 12.08
+\end{split}
+\]</span></p>
+</div>
+<div class="Exercise">
+<p>Une solution d’acide faible <span class="math inline">\(\ce{HA}\)</span> 0.100 mol/L a un pH de 4.25. Déterminez la valeur de la constante d’acidité. </p>
+</div>
+<div class="Answer">
+<p><span class="math display">\[
+|\ce{H3O}^{+}| = 10^{-pH} = 10^{-4.5} \cong 5.6 \cdot 10^{-5}\ M
+\]</span> <span class="math display">\[
+\ce{HA + H2O &lt;=&gt; A- + H3O+}
+\]</span> <span class="math display">\[
+\begin{split}
+&amp;\ce{HA}\\
+C_i &amp;= 0.100\ M \\
+\Delta C &amp;= - 5.6 \cdot 10^{-5}\ M \\
+C_f &amp;\approx 0.100\ M \\
+\end{split}
+\qquad
+\begin{split}
+&amp;\ce{A}^{-}\\
+C_i &amp;= 0\ M \\
+\Delta C &amp;= + 5.6 \cdot 10^{-5}\ M \\
+C_f &amp;= 5.6 \cdot 10^{-5}\ M \\
+\end{split}
+\qquad
+\begin{split}
+&amp;\ce{ClO2}^{-}\\
+C_i &amp;= 0\ M \\
+\Delta C &amp;= + 5.6 \cdot 10^{-5}\ M \\
+C_f &amp;= 5.6 \cdot 10^{-5}\ M \\
+\end{split}
+\]</span> <span class="math display">\[
+K_a = \frac{|\ce{H3O}^{+}| \cdot |\ce{A}^{-}|}{|\ce{HA}|} = \frac{5.6 \cdot 10^{-5} \cdot 5.6 \cdot 10^{-5}}{0.100} \cong 3.1 \cdot 10^{-8}\ M
+\]</span></p>
+</div>
+<div class="Exercise">
+<p>Déterminez la concentration en OH<sup>-</sup>, le pH et le pOH d’une solution de carbonate 0.125 mol/L. </p>
+</div>
+<div class="Answer">
+<p><span class="math display">\[
+\ce{CO3^{2-} + H2O &lt;=&gt; HCO3- + OH-}
+\]</span> <span class="math display">\[
+\begin{split}
+&amp;\ce{CO3}^{2-}\\
+C_i &amp;= 0.125\ M \\
+\Delta C &amp;= - x\ M \\
+C_f &amp;= 0.125 - x\ M \\
+\end{split}
+\qquad
+\begin{split}
+&amp;\ce{HCO3}^{-}\\
+C_i &amp;= 0\ M \\
+\Delta C &amp;= + x\ M \\
+C_f &amp;= x\ M \\
+\end{split}
+\qquad
+\begin{split}
+&amp;\ce{OH}^{-}\\
+C_i &amp;= 0\ M \\
+\Delta C &amp;= + x\ M \\
+C_f &amp;= x\ M \\
+\end{split}
+\]</span> <span class="math display">\[
+K_b = \frac{|\ce{HCO3}^{-}| \cdot |\ce{OH}^{-}|}{|\ce{CO3}^{2-}|} = \frac{x \cdot x}{0.125 - x}
+\]</span> On approxime en négligeant le x : <span class="math display">\[
+\begin{split}
+K_b = \frac{x \cdot x}{0.125 - \cancel{x}} = \frac{x^2}{0.125} = 1.8 \cdot 10^{-4}
+\end{split}
+\qquad
+\begin{split}
+\Rightarrow x &amp;= \sqrt{1.8 \cdot 10^{-4} \cdot 0.125} \\
+  &amp;= 0.0047\ M
+\end{split}
+\]</span> L’approximation est valide : <span class="math inline">\(\frac{0.0047}{0.125} \cdot 100\% \cong 3.83\% &lt; 5\%\)</span> <span class="math display">\[
+\begin{split}
+|\ce{OH}^{-}| = x = 0.0047\ M
+\end{split}
+\qquad
+\begin{split}
+pOH &amp;= - \log |\ce{OH}^{-}| = - \log 0.0047 = 2.32 \\
+pH &amp;= 14 - pOH = 14 - 2.32 = 11.68
+\end{split}
+\]</span></p>
+</div>
+<div class="Exercise">
+<p>Une solution d’une base faible à 0.135 mol/L a un pH de 11.23. Déterminez la valeur de la constante de basicité. </p>
+</div>
+<div class="Answer">
+<p><span class="math display">\[
+\begin{split}
+|\ce{OH}^{-}| &amp;= 10^{-pOH} \\
+&amp;= 10^{-2.77} \\
+&amp;= 0.0017\ M
+\end{split}
+\qquad
+\begin{split}
+&amp;\text{avec} \\
+pOH &amp;= 14 - pH \\
+  &amp;= 14 - 11.23 = 2.77
+\end{split}
+\]</span> <span class="math display">\[
+\ce{B + H2O &lt;=&gt; BH+ + OH-}
+\]</span> <span class="math display">\[
+\begin{split}
+&amp;\ce{B}\\
+C_i &amp;= 0.135\ M \\
+\Delta C &amp;= - x\ M \\
+C_f &amp;\approx 0.135\ M \\
+\end{split}
+\qquad
+\begin{split}
+&amp;\ce{BH}^{+}\\
+C_i &amp;= 0\ M \\
+\Delta C &amp;= + x\ M \\
+C_f &amp;= 0.0017\ M \\
+\end{split}
+\qquad
+\begin{split}
+&amp;\ce{OH}^{-}\\
+C_i &amp;= 0\ M \\
+\Delta C &amp;= + x\ M \\
+C_f &amp;= 0.0017\ M \\
+\end{split}
+\]</span> <span class="math display">\[
+K_b = \frac{|\ce{BH}^{+}| \cdot |\ce{OH}^{-}|}{|\ce{B}|} = \frac{0.0017 \cdot 0.0017}{0.135} = 2.14 \cdot 10^{-5}
+\]</span></p>
+</div>
+</section>
+</section>
+<section id="ph-des-acides-polyprotiques" class="level2" data-number="18.3">
+<h2 data-number="18.3" class="anchored" data-anchor-id="ph-des-acides-polyprotiques"><span class="header-section-number">18.3</span> pH des acides polyprotiques</h2>
+<p>Certains acides, comme l’acide sulfurique (H<sub>2</sub>SO<sub>4</sub>) ou encore l’acide phosphorique (<span class="math inline">\(\ce{H3PO4}\)</span>) peuvent céder plus d’un proton. On les appelle des <strong>polyacides</strong>. Un polyacide se dissocie toujours de façon graduelle, <strong>soit un proton à la fois</strong>.</p>
+<p>Par exemple, l’acide carbonique se dissocie en 2 temps :</p>
+<p><span class="math display">\[
+\begin{split}
+\ce{H2CO3(aq) + H2O(l) &lt;=&gt;[K_{a1}][4.3 $\cdot$ 10^{-7}] &amp;HCO3^{-}(aq) + H3O+(aq)} \\
+\ce{&amp;HCO3^{-}(aq) + H2O(l) &lt;=&gt;[K_{a2}][4.6 $\cdot$ 10^{-11}] CO3^{2-}(aq) + H3O+(aq)}
+\end{split}
+\]</span></p>
+<p>On remarque que la base conjuguée <span class="math inline">\(\ce{HCO3}^{-}\)</span> de la première réaction devient l’acide de la deuxième réaction.</p>
+<p>Pour un polyacide faible typique, on a K<sub>a1</sub> &gt; K<sub>a2</sub> &gt; K<sub>a3</sub> …</p>
+<p>Les problèmes de calcul de pH de solutions contenant un polyacide se simplifient du fait que seule une des réactions contribue notablement à la formation de H<sub>3</sub>O<sup>+</sup>. De plus, la quantité de H<sub>3</sub>O<sup>+</sup> produite à la première étape empêche la deuxième étape de produire davantage d’ion hydronium, selon le principe de Le Chatelier.</p>
+<div id="fig-acides-faibles-2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-acides-faibles-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/acides-faibles-2.png" class="img-fluid figure-img" style="width:50.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-acides-faibles-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;18.1: Dissociation de l’acide carbonique.
+</figcaption>
+</figure>
+</div>
+<p>On pourra donc traiter les polyacides comme des monoacides, en ne prenant en compte que les protons libérés par le premier équilibre de déprotonation qui aura la plus grande constante d’équilibre K<sub>a</sub>. Dans le cas particulier de l’acide sulfurique, le premier proton est entièrement libéré mais la deuxième déprotonation est non négligeable. Les deux déprotonations devront être prises en compte.</p>
+<div class="Exercise">
+<p>Écrivez les équations d’ionisation en trois étapes de l’acide phosphorique et donnez les constantes d’équilibre correspondantes. </p>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><span class="math display">\[
+\begin{split}
+\ce{H3PO4 + H2O &lt;=&gt; H2PO4- + H3O+}
+\end{split}
+\qquad
+\begin{split}
+K_{a1} = \frac{|\ce{H2PO4}^{-}| \cdot |\ce{H3O}^{+}|}{|\ce{H3PO4}|} = 7.6 \cdot 10^{-3}
+\end{split}
+\]</span></li>
+<li><span class="math display">\[
+\begin{split}
+\ce{H2PO4- + H2O &lt;=&gt; HPO4^{2-} + H3O+}
+\end{split}
+\qquad
+\begin{split}
+K_{a2} = \frac{|\ce{HPO4}^{2-}| \cdot |\ce{H3O}^{+}|}{|\ce{H2PO4}^{-}|} = 6.2 \cdot 10^{-8}
+\end{split}
+\]</span></li>
+<li><span class="math display">\[
+\begin{split}
+\ce{HPO4^{2-} + H2O &lt;=&gt; PO4^{3-} + H3O+}
+\end{split}
+\qquad
+\begin{split}
+K_{a3} = \frac{|\ce{PO4}^{3-}| \cdot |\ce{H3O}^{+}|}{|\ce{HPO4}^{2-}|} = 4.3 \cdot 10^{-13}
+\end{split}
+\]</span></li>
+</ol>
+</div>
+<div class="Exercise">
+<p>Calculez le pH des solutions d’acides polyprotiques suivantes&nbsp;:</p>
+<ol type="a">
+<li><span class="math inline">\(\ce{H3PO4}\)</span> 0.350 M </li>
+<li><span class="math inline">\(\ce{H2SO4}\)</span> 0.125 M </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="a">
+<li><span class="math display">\[
+\ce{H3PO4 + H2O &lt;=&gt; H2PO4- + H3O+}
+\]</span> <span class="math display">\[
+\begin{split}
+&amp;\ce{H3PO4}\\
+C_i &amp;= 0.350\ M \\
+\Delta C &amp;= - x\ M \\
+C_f &amp;= 0.350 - x\ M \\
+\end{split}
+\qquad
+\begin{split}
+&amp;\ce{H2PO4}^{-}\\
+C_i &amp;= 0\ M \\
+\Delta C &amp;= + x\ M \\
+C_f &amp;= x\ M \\
+\end{split}
+\qquad
+\begin{split}
+&amp;\ce{H3O}^{+}\\
+C_i &amp;= 0\ M \\
+\Delta C &amp;= + x\ M \\
+C_f &amp;= x\ M \\
+\end{split}
+\]</span> <span class="math display">\[
+K_{a1} = \frac{|\ce{H2PO4}^{-}| \cdot |\ce{H3O}^{+}|}{|\ce{H3PO4}|} = \frac{x \cdot x}{0.350 - x}
+\]</span> On approxime en négligeant le x : <span class="math display">\[
+\begin{split}
+K_{a1} = \frac{x \cdot x}{0.350 - \cancel{x}} = \frac{x^2}{0.350} = 7.5 \cdot 10^{-3}
+\end{split}
+\qquad
+\begin{split}
+\Rightarrow x &amp;= \sqrt{7.5 \cdot 10^{-3} \cdot 0.350} \\
+  &amp;= 0.051\ M
+\end{split}
+\]</span> L’approximation n’est pas valide : <span class="math inline">\(\frac{0.051}{0.350} \cdot 100\% \cong 14.57\% &gt; 5\%\)</span></li>
+</ol>
+<p>Sans appliquer d’approximation : <span class="math display">\[
+\begin{split}
+K_{a1} = \frac{x^2}{0.350-x}
+\end{split}
+\qquad
+\begin{split}
+\Rightarrow 7.5 \cdot 10^{-3} &amp;= \frac{x^2}{0.350-x} \\
+7.5 \cdot 10^{-3} \cdot (0.350-x) &amp;= x^2 \\
+2.625 \cdot 10^{-3} - 7.5 \cdot 10^{-3} \cdot x &amp;= x^2 \\
+x^2 + 7.5 \cdot 10^{-3} \cdot x - 2.625 \cdot 10^{-3} &amp;= 0
+\end{split}
+\]</span> Après résolution : <span class="math display">\[
+\begin{split}
+x = 0.0476\ M
+\end{split}
+\qquad\qquad
+\begin{split}
+x = \cancel{-0.055}\ M \quad \text{non valable}
+\end{split}
+\]</span> <span class="math display">\[
+\ce{H2PO4- + H2O &lt;=&gt; HPO4^{2-} + H3O+}
+\]</span> <span class="math display">\[
+\begin{split}
+&amp;\ce{H2PO4}^{-}\\
+C_i &amp;= 0.0476\ M \\
+\Delta C &amp;= - x\ M \\
+C_f &amp;= 0.0476 - x\ M \\
+\end{split}
+\qquad
+\begin{split}
+&amp;\ce{HPO4}^{2-}\\
+C_i &amp;= 0\ M \\
+\Delta C &amp;= + x\ M \\
+C_f &amp;= x\ M \\
+\end{split}
+\qquad
+\begin{split}
+&amp;\ce{H3O}^{+}\\
+C_i &amp;= 0.0476\ M \\
+\Delta C &amp;= + x\ M \\
+C_f &amp;= 0.0476 + x\ M \\
+\end{split}
+\]</span> <span class="math display">\[
+K_{a2} = \frac{|\ce{HPO4}^{2-}| \cdot |\ce{H3O}^{+}|}{|\ce{H2PO4}^{-}|} = \frac{x \cdot (0.0476 + x)}{0.0476 - x}
+\]</span> On approxime en négligeant le x : <span class="math display">\[
+\begin{split}
+K_{a2} = \frac{x \cdot (0.0476 + \cancel{x})}{0.0476 - \cancel{x}} = \frac{x \cdot 0.0476}{0.0476}
+\end{split}
+\qquad
+\begin{split}
+\Rightarrow 6.2 \cdot 10^{-8} &amp;= \frac{x \cdot 0.0476}{0.0476} \\
+x &amp;= 6.2 \cdot 10^{-8} \text{ mol/L}
+\end{split}
+\]</span> L’approximation est valide : <span class="math inline">\(\frac{6.2 \cdot 10^{-8}}{0.0476} \cdot 100\% \approx 0\% &lt; 5\%\)</span> <span class="math display">\[
+\begin{split}
+|\ce{H3O}^{+}|_{total} &amp;= 0.0476\ M + \cancel{6.2 \cdot 10^{-8}} \quad \text{(négligeable)} \\
+&amp;= 0.0476\ M \\
+pH &amp;= - \log |\ce{H3O}^{+}| = - \log 0.0476 = 1.32
+\end{split}
+\]</span> b. <span class="math display">\[
+\ce{H2SO4 + H2O &lt;=&gt; HSO4- + H3O+}
+\]</span> Première protonation, acide fort, <span class="math inline">\(|\ce{H3O}^{+}| = 0.125\ M\)</span>.</p>
+<p>Seconde protonation, acide faible. <span class="math display">\[
+\ce{HSO4- + H2O &lt;=&gt; SO4^{2-} + H3O+}
+\]</span> <span class="math display">\[
+\begin{split}
+&amp;\ce{HSO4}^{-}\\
+C_i &amp;= 0.125\ M \\
+\Delta C &amp;= - x\ M \\
+C_f &amp;= 0.125 - x\ M \\
+\end{split}
+\qquad
+\begin{split}
+&amp;\ce{SO4}^{2-}\\
+C_i &amp;= 0\ M \\
+\Delta C &amp;= + x\ M \\
+C_f &amp;= x\ M \\
+\end{split}
+\qquad
+\begin{split}
+&amp;\ce{H3O}^{+}\\
+C_i &amp;= 0.125\ M \\
+\Delta C &amp;= + x\ M \\
+C_f &amp;= 0.125 + x\ M \\
+\end{split}
+\]</span> <span class="math display">\[
+K_{a2} = \frac{|\ce{SO4}^{2-}| \cdot |\ce{H3O}^{+}|}{|\ce{HSO4}^{-}|} = \frac{x \cdot (0.125 + x)}{0.125 - x} = 1.2 \cdot 10^{-2}
+\]</span> Après résolution : <span class="math display">\[
+\begin{split}
+x = 0.0102\ M
+\end{split}
+\qquad\qquad
+\begin{split}
+x = \cancel{-0.147}\ M \quad \text{non valable}
+\end{split}
+\]</span> <span class="math display">\[
+\begin{split}
+|\ce{H3O}^{+}|_{total} &amp;= 0.125\ M + 0.0102\ M \\
+&amp;= 0.1352\ M \\
+pH &amp;= - \log |\ce{H3O}^{+}| = - \log 0.1352 = 0.869
+\end{split}
+\]</span></p>
+</div>
+</section>
+<section id="les-solutions-tampons" class="level2" data-number="18.4">
+<h2 data-number="18.4" class="anchored" data-anchor-id="les-solutions-tampons"><span class="header-section-number">18.4</span> Les solutions tampons</h2>
+<p>Une solution tampon est un mélange d’un acide faible et de sa base conjuguée, ou d’une base faible et de son acide conjugué, capable de maintenir le pH pratiquement constant lors de l’ajout modéré d’acide ou de base.</p>
+<p>Ce sont des solutions qui s’opposent aux variations de pH lorsqu’on y ajoute une petite quantité d’acide fort, de base forte ou d’eau. Elles permettent de maintenir un pH stable et de prévenir les variations brusques de pH dans un système chimique ou biologique.</p>
+<p>Prenons l’exemple d’un tampon préparé à l’aide d’acide acétique (<span class="math inline">\(\ce{CH3COOH}\)</span>) et d’acétate de sodium (<span class="math inline">\(\ce{CH3COONa}\)</span>), sa base conjuguée, dissous dans de l’eau.</p>
+<div id="fig-acides-bases-9" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-acides-bases-9-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/acides-bases-solution-tampon.png" class="img-fluid figure-img" style="width:50.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-acides-bases-9-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;18.2: Solution tampon acide acétique / acétate de sodium
+</figcaption>
+</figure>
+</div>
+<p>Si l’on ajoute une base forte (NaOH par exemple) à ce tampon, l’acide acétique neutralisera l’ajout de cette base&nbsp;:</p>
+<p><span class="math display">\[
+\ce{OH^{-}(aq) + CH3COOH(aq) &lt;=&gt; H2O(l) + CH3COO^{-}(aq)}
+\]</span></p>
+<p>Le pH variera donc peu, pour autant que la quantité de base ajoutée ne soit pas supérieure à la quantité d’acide présent.</p>
+<p>De la même manière, si l’on ajoute un acide fort à ce tampon, l’anion acétate neutralisera l’ajout de cet acide&nbsp;:</p>
+<p><span class="math display">\[
+\ce{H3O+(aq) + CH3COO^{-}(aq) &lt;=&gt; H2O(l) + CH3COOH(aq)}
+\]</span></p>
+<p>Le pH variera donc peu, pour autant que la quantité d’acide ajoutée ne soit pas supérieure à la quantité de base présente.</p>
+<div class="Exercise">
+<p>Parmi les solutions suivantes, laquelle est une solution tampon&nbsp;? Justifiez.</p>
+<ol type="a">
+<li><span class="math inline">\(\ce{HNO2}\)</span> 0.100 M et <span class="math inline">\(\ce{HCl}\)</span> 0.100 M </li>
+<li><span class="math inline">\(\ce{HNO2}\)</span> 0.100 M et <span class="math inline">\(\ce{NaNO2}\)</span> 0.100 M </li>
+<li><span class="math inline">\(\ce{HNO2}\)</span> 0.100 M et <span class="math inline">\(\ce{NaCl}\)</span> 0.100 M </li>
+<li><span class="math inline">\(\ce{HNO3}\)</span> 0.100 M et <span class="math inline">\(\ce{NaNO3}\)</span> 0.100 M </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="a">
+<li><span class="math inline">\(\ce{HNO2}\)</span> 0.100 M et <span class="math inline">\(\ce{HCl}\)</span> 0.100 M<br>
+<span class="math inline">\(\ce{Cl}^{-}\)</span> n’est pas la base conjuguée de <span class="math inline">\(\ce{HNO2}\)</span> et est une base inerte. </li>
+<li><span class="math inline">\(\ce{HNO2}\)</span> 0.100 M et <span class="math inline">\(\ce{NaNO2}\)</span> 0.100 M<br>
+Solution tampon. Cette solution contient des quantités significatives d’un acide faible et de sa base conjuguée. </li>
+<li><span class="math inline">\(\ce{HNO2}\)</span> 0.100 M et <span class="math inline">\(\ce{NaCl}\)</span> 0.100 M<br>
+<span class="math inline">\(\ce{Cl}^{-}\)</span> n’est pas la base conjuguée de <span class="math inline">\(\ce{HNO2}\)</span> et est une base inerte. </li>
+<li><span class="math inline">\(\ce{HNO3}\)</span> 0.100 M et <span class="math inline">\(\ce{NaNO3}\)</span> 0.100 M<br>
+<span class="math inline">\(\ce{HNO3}\)</span> est un acide fort.</li>
+</ol>
+</div>
+</section>
+<section id="le-ph-des-solutions-tampons" class="level2" data-number="18.5">
+<h2 data-number="18.5" class="anchored" data-anchor-id="le-ph-des-solutions-tampons"><span class="header-section-number">18.5</span> Le pH des solutions tampons</h2>
+<p>Le pH d’une solution tampon peut être calculé de deux manières&nbsp;:</p>
+<ol type="1">
+<li><p><strong>Par la méthode de l’équilibre</strong> (tableau de variation). Cette méthode est similaire à celle utilisée pour les acides et bases faibles, en tenant compte des concentrations initiales de l’acide faible et de sa base conjuguée.</p></li>
+<li><p>Par l’<strong>équation de Henderson-Hasselbalch</strong>&nbsp;:<br>
+<span class="math display">\[
+pH = pK_a + \log \frac{|\ce{A}^{-}|}{|\ce{HA}|}
+\]</span> Où <span class="math inline">\(|\ce{A}^{-}|\)</span> est la concentration de la base conjuguée et <span class="math inline">\(|\ce{HA}|\)</span> est la concentration de l’acide faible.</p></li>
+</ol>
+<p>Cette équation est applicable lorsque l’approximation de <span class="math inline">\(x\)</span> est valide et que les concentrations des constituants du tampon sont au moins 100 fois supérieures à la valeur de <span class="math inline">\(K_a\)</span>.</p>
+<p>Pour un tampon formé d’une base faible et de son acide conjugué, le <span class="math inline">\(pK_a\)</span> peut être déduit du <span class="math inline">\(pK_b\)</span> par la relation&nbsp;:</p>
+<p><span class="math display">\[
+pK_a + pK_b = 14 \quad \text{avec } pK_b = - \log K_b
+\]</span></p>
+<div class="Exercise">
+<p>Calculez le pH d’une solution tampon constituée d’une solution de <span class="math inline">\(\ce{HF}\)</span> 0.15 M et de <span class="math inline">\(\ce{NaF}\)</span> 0.15 M. </p>
+</div>
+<div class="Answer">
+<p>Méthode basée sur l’équilibre :</p>
+<p><span class="math display">\[
+\ce{HF + H2O &lt;=&gt; H3O+ + F-}
+\]</span> <span class="math display">\[
+\begin{split}
+&amp;\ce{HF}\\
+C_i &amp;= 0.15\ M \\
+\Delta C &amp;= - x\ M \\
+C_f &amp;= 0.15 - x\ M \\
+\end{split}
+\qquad
+\begin{split}
+&amp;\ce{H3O}^{+}\\
+C_i &amp;= 0\ M \\
+\Delta C &amp;= + x\ M \\
+C_f &amp;= x\ M \\
+\end{split}
+\qquad
+\begin{split}
+&amp;\ce{F}^{-}\\
+C_i &amp;= 0.15\ M \\
+\Delta C &amp;= + x\ M \\
+C_f &amp;= 0.15 + x\ M \\
+\end{split}
+\]</span> <span class="math display">\[
+K_a = \frac{|\ce{F}^{-}| \cdot |\ce{H3O}^{+}|}{|\ce{HF}|} = \frac{(0.15 + x) \cdot x}{0.15 - x}
+\]</span> On approxime en négligeant le x : <span class="math display">\[
+\begin{split}
+K_a &amp;= \frac{(0.15 + \cancel{x}) \cdot x}{0.15 - \cancel{x}} = \frac{0.15 \cdot x}{0.15} = 6.8 \cdot 10^{-4} \\
+x &amp;= 6.8 \cdot 10^{-4}\ M
+\end{split}
+\]</span> L’approximation est valide : <span class="math inline">\(\frac{6.8 \cdot 10^{-4}}{0.15} \cdot 100\% \cong 0.45\% &lt; 5\%\)</span> <span class="math display">\[
+\begin{split}
+|\ce{H3O}^{+}| = x = 6.8 \cdot 10^{-4}\ M
+\end{split}
+\qquad\qquad
+\begin{split}
+pH &amp;= - \log |\ce{H3O}^{+}| \\
+&amp;= - \log 6.8 \cdot 10^{-4} \cong 3.17
+\end{split}
+\]</span></p>
+<p>Méthode basée sur l’équation de Henderson-Hasselbalch :</p>
+<p><span class="math display">\[
+\begin{split}
+  pH = pK_a + \log \frac{|\ce{A}^{-}|}{|\ce{HA}|}
+\end{split}
+\qquad
+\begin{split}
+  \ce{HA} \Rightarrow &amp;\ \ce{HF} \\
+  \ce{A}^{-} \Rightarrow &amp;\ \ce{F}^{-} \\
+  K_a = &amp;\ 6.8 \cdot 10^{-4}
+\end{split}
+\qquad
+\begin{split}
+  pH &amp;= pK_a + \log \frac{|\ce{F}^{-}|}{|\ce{HF}|} \\
+  &amp;= - \log 6.8 \cdot 10^{-4} + \log \frac{0.15}{0.15} = 3.17 \\
+\end{split}
+\]</span></p>
+</div>
+<div class="Exercise">
+<p>Calculez le pH d’une solution tampon constituée d’une solution de <span class="math inline">\(\ce{NH3}\)</span> 0.12 M et de <span class="math inline">\(\ce{NH4Cl}\)</span> 0.18 M. </p>
+</div>
+<div class="Answer">
+<p>Méthode basée sur l’équilibre :</p>
+<p><span class="math display">\[
+\ce{NH3 + H2O &lt;=&gt; NH4+ + OH-}
+\]</span> <span class="math display">\[
+\begin{split}
+&amp;\ce{NH3}\\
+C_i &amp;= 0.12\ M \\
+\Delta C &amp;= - x\ M \\
+C_f &amp;= 0.12 - x\ M \\
+\end{split}
+\qquad
+\begin{split}
+&amp;\ce{NH4}^{+}\\
+C_i &amp;= 0.18\ M \\
+\Delta C &amp;= + x\ M \\
+C_f &amp;= 0.18 + x\ M \\
+\end{split}
+\qquad
+\begin{split}
+&amp;\ce{OH}^{-}\\
+C_i &amp;= 0\ M \\
+\Delta C &amp;= + x\ M \\
+C_f &amp;= x\ M \\
+\end{split}
+\]</span> <span class="math display">\[
+K_b = \frac{|\ce{OH}^{-}| \cdot |\ce{NH4}^{+}|}{|\ce{NH3}|} = \frac{x \cdot (0.18 + x)}{0.12 - x}
+\]</span> On approxime en négligeant le x : <span class="math display">\[
+\begin{split}
+K_b &amp;= \frac{x \cdot (0.18 + \cancel{x})}{0.12 - \cancel{x}} = \frac{x \cdot 0.18}{0.12} = 1.66 \cdot 10^{-5} \\
+x &amp;= 1.66 \cdot 10^{-5} \cdot \frac{0.12}{0.18} = 1.1 \cdot 10^{-5}\ M
+\end{split}
+\]</span> L’approximation est valide : <span class="math inline">\(\frac{1.1 \cdot 10^{-5}}{0.12} \cdot 100\% \cong 0.01\% &lt; 5\%\)</span> <span class="math display">\[
+\begin{split}
+|\ce{OH}^{-}| = x = 1.1 \cdot 10^{-5}\ M
+\end{split}
+\qquad
+\begin{split}
+pOH &amp;= - \log |\ce{OH}^{-}| = - \log 1.1 \cdot 10^{-5} = 4.96 \\
+pH &amp;= 14 - pOH = 14 - 4.96 = 9.04
+\end{split}
+\]</span></p>
+<p>Méthode basée sur l’équation de Henderson-Hasselbalch : <span class="math display">\[
+\begin{split}
+  pH = pK_a + \log \frac{|\ce{A}^{-}|}{|\ce{HA}|}
+\end{split}
+\qquad
+\begin{split}
+  \ce{HA} \Rightarrow &amp;\ \ce{NH4}^{+} \\
+  \ce{A}^{-} \Rightarrow &amp;\ \ce{NH3} \\
+  pK_b = &amp;\ -\log(K_b) = 4.78 \\
+  pK_a = &amp;\ 14 - 4.78 = 9.22
+\end{split}
+\qquad
+\begin{split}
+  pH &amp;= pK_a + \log \frac{|\ce{NH3}|}{|\ce{NH4}^{+}|} \\
+  &amp;= 9.22 + \log \frac{0.12}{0.18} = 9.04 \\
+\end{split}
+\]</span></p>
+</div>
+<div class="Exercise">
+<p>Un tampon contient un acide faible HA (dont le pK<sub>a</sub> est de 4.82) et sa base conjuguée A<sup>-</sup>. Le pH du tampon est de 4.25. Parmi les énoncés suivants concernant les concentrations relatives de l’acide et de la base conjuguée dans la solution tampon, lequel est vrai&nbsp;?</p>
+<ol type="a">
+<li>|HA| &gt; |A<sup>-</sup>|</li>
+<li>|HA| = |A<sup>-</sup>|</li>
+<li>|HA| &lt; |A<sup>-</sup>| </li>
+</ol>
+</div>
+<div class="Answer">
+<p>Quand l’acide et sa base conjuguée sont présents en mêmes quantités, pH = pK<sub>a</sub>. Ici, le pH est plus acide (4.25 &lt; 4.82) ce qui signifie que |HA| &gt; |A<sup>-</sup>|.</p>
+</div>
+<div class="Exercise">
+<p>Calculez le pH d’une solution résultant du mélange de 60.0 mL de <span class="math inline">\(\ce{HCOOH}\)</span> 0.250 M et de 15 mL de <span class="math inline">\(\ce{HCOONa}\)</span> 0.500 M. </p>
+</div>
+<div class="Answer">
+<p><span class="math display">\[
+\begin{split}
+  |\ce{HCOOH}| &amp;= \frac{0.06\ \text{ L} \cdot 0.250\ \text{ mol/L}}{0.075\ \text{ L}} = 0.200\ \text{ mol/L} \\
+  |\ce{HCOO}^{-}| &amp;= \frac{0.015\ \text{ L} \cdot 0.500\ \text{ mol/L}}{0.075\ \text{ L}} = 0.100\ \text{ mol/L}
+\end{split}
+\]</span> Méthode basée sur l’équilibre : <span class="math display">\[
+\ce{HCOOH + H2O &lt;=&gt; H3O+ + HCOO-}
+\]</span> <span class="math display">\[
+\begin{split}
+&amp;\ce{HCOOH}\\
+C_i &amp;= 0.200\ M \\
+\Delta C &amp;= - x\ M \\
+C_f &amp;= 0.200 - x\ M \\
+\end{split}
+\qquad
+\begin{split}
+&amp;\ce{H3O}^{+}\\
+C_i &amp;= 0\ M \\
+\Delta C &amp;= + x\ M \\
+C_f &amp;= x\ M \\
+\end{split}
+\qquad
+\begin{split}
+&amp;\ce{HCOO}^{-}\\
+C_i &amp;= 0.100\ M \\
+\Delta C &amp;= + x\ M \\
+C_f &amp;= 0.100 + x\ M \\
+\end{split}
+\]</span> <span class="math display">\[
+K_a = \frac{|\ce{HCOO}^{-}| \cdot |\ce{H3O}^{+}|}{|\ce{HCOOH}|} = \frac{x \cdot (0.100 + x)}{0.200 - x}
+\]</span> On approxime en négligeant le x : <span class="math display">\[
+\begin{split}
+K_a &amp;= \frac{x \cdot (0.100 + \cancel{x})}{0.200 - \cancel{x}} = \frac{0.100 \cdot x}{0.200} = 1.8 \cdot 10^{-4} \\
+x &amp;= 1.8 \cdot 10^{-4} \cdot \frac{0.200}{0.100} = 3.6 \cdot 10^{-4}\ M
+\end{split}
+\]</span> L’approximation est valide : <span class="math inline">\(\frac{3.6 \cdot 10^{-4}}{0.200} \cdot 100\% \cong 0.18\% &lt; 5\%\)</span> <span class="math display">\[
+\begin{split}
+|\ce{H3O}^{+}| = x = 3.6 \cdot 10^{-4}\ M
+\end{split}
+\qquad\qquad
+\begin{split}
+pH &amp;= - \log |\ce{H3O}^{+}| \\
+&amp;= - \log 3.6 \cdot 10^{-4} \cong 3.44
+\end{split}
+\]</span></p>
+<p>Méthode basée sur l’équation de Henderson-Hasselbalch :</p>
+<p><span class="math display">\[
+\begin{split}
+  pH = pK_a + \log \frac{|\ce{A}^{-}|}{|\ce{HA}|}
+\end{split}
+\qquad
+\begin{split}
+  \ce{HA} \Rightarrow &amp;\ \ce{HCOOH} \\
+  \ce{A}^{-} \Rightarrow &amp;\ \ce{HCOO}^{-} \\
+  K_a = &amp;\ 1.8 \cdot 10^{-4}
+\end{split}
+\qquad
+\begin{split}
+  pH &amp;= pK_a + \log \frac{|\ce{HCOO}^{-}|}{|\ce{HCOOH}|} \\
+  &amp;= - \log 1.8 \cdot 10^{-4} + \log \frac{0.100}{0.200} = 3.44 \\
+\end{split}
+\]</span></p>
+</div>
+<div class="Exercise">
+<p>Calculez le pH d’une solution tampon constituée d’une solution de <span class="math inline">\(\ce{HCN}\)</span> 0.250 M et de <span class="math inline">\(\ce{KCN}\)</span> 0.170 M. Utilisez la méthode basée sur l’équilibre et la méthode basée sur l’équation de Henderson-Hasselbalch. </p>
+</div>
+<div class="Answer">
+<p>Méthode basée sur l’équilibre : <span class="math display">\[
+\ce{HCN + H2O &lt;=&gt; H3O+ + CN-}
+\]</span> <span class="math display">\[
+\begin{split}
+&amp;\ce{HCN}\\
+C_i &amp;= 0.250\ M \\
+\Delta C &amp;= - x\ M \\
+C_f &amp;= 0.250 - x\ M \\
+\end{split}
+\qquad
+\begin{split}
+&amp;\ce{H3O}^{+}\\
+C_i &amp;= 0\ M \\
+\Delta C &amp;= + x\ M \\
+C_f &amp;= x\ M \\
+\end{split}
+\qquad
+\begin{split}
+&amp;\ce{CN}^{-}\\
+C_i &amp;= 0.170\ M \\
+\Delta C &amp;= + x\ M \\
+C_f &amp;= 0.170 + x\ M \\
+\end{split}
+\]</span> <span class="math display">\[
+K_a = \frac{|\ce{CN}^{-}| \cdot |\ce{H3O}^{+}|}{|\ce{HCN}|} = \frac{x \cdot (0.170 + x)}{0.250 - x}
+\]</span> On approxime en négligeant le x : <span class="math display">\[
+\begin{split}
+K_a &amp;= \frac{x \cdot (0.170 + \cancel{x})}{0.250 - \cancel{x}} = \frac{0.170 \cdot x}{0.250} = 6.0 \cdot 10^{-10} \\
+x &amp;= 6.0 \cdot 10^{-10} \cdot \frac{0.250}{0.170} = 8.8 \cdot 10^{-10}\ M
+\end{split}
+\]</span> L’approximation est valide : <span class="math inline">\(\frac{8.8 \cdot 10^{-10}}{0.250} \cdot 100\% \cong 3.52 \cdot 10^{-7}\% &lt; 5\%\)</span> <span class="math display">\[
+\begin{split}
+|\ce{H3O}^{+}| = x = 7.1 \cdot 10^{-10}\ M
+\end{split}
+\qquad\qquad
+\begin{split}
+pH &amp;= - \log |\ce{H3O}^{+}| \\
+&amp;= - \log 8.8 \cdot 10^{-10} \cong 9.056
+\end{split}
+\]</span></p>
+<p>Méthode basée sur l’équation de Henderson-Hasselbalch :</p>
+<p><span class="math display">\[
+\begin{split}
+  pH = pK_a + \log \frac{|\ce{A}^{-}|}{|\ce{HA}|}
+\end{split}
+\qquad
+\begin{split}
+  \ce{HA} \Rightarrow &amp;\ \ce{HCN} \\
+  \ce{A}^{-} \Rightarrow &amp;\ \ce{CN}^{-} \\
+  K_a = &amp;\ 6.0 \cdot 10^{-10}
+\end{split}
+\qquad
+\begin{split}
+  pH &amp;= pK_a + \log \frac{|\ce{CN}^{-}|}{|\ce{HCN}|} \\
+  &amp;= - \log 6.0 \cdot 10^{-10} + \log \frac{0.17}{0.25} = 9.054 \\
+\end{split}
+\]</span></p>
+</div>
+<div class="Exercise">
+<ol type="a">
+<li>Calculez le pH d’une solution <span class="math inline">\(\ce{HNO2}\)</span> 0.5 mol/L et <span class="math inline">\(\ce{KNO2}\)</span> 0.1 mol/L. <!--b. Sachant qu'une solution $\ce{HNO2}$ 0.5 mol/L a un pH de 1.8, votre résultat vous paraît-il cohérent ? Justifiez.
+\vspace{\stretch{1}}--></li>
+<li>Calculez le pH si l’on ajoute 0.3 g de <span class="math inline">\(\ce{NaOH}\)</span> dans 20 mL de solution tampon. </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="a">
+<li>Méthode basée sur l’équilibre : <span class="math display">\[
+\ce{HNO2 + H2O &lt;=&gt; H3O+ + NO2-}
+\]</span> <span class="math display">\[
+\begin{split}
+&amp;\ce{HNO2}\\
+C_i &amp;= 0.5\ M \\
+\Delta C &amp;= - x\ M \\
+C_f &amp;= 0.5 - x\ M \\
+\end{split}
+\qquad
+\begin{split}
+&amp;\ce{H3O}^{+}\\
+C_i &amp;= 0\ M \\
+\Delta C &amp;= + x\ M \\
+C_f &amp;= x\ M \\
+\end{split}
+\qquad
+\begin{split}
+&amp;\ce{NO2}^{-}\\
+C_i &amp;= 0.1\ M \\
+\Delta C &amp;= + x\ M \\
+C_f &amp;= 0.1 + x\ M \\
+\end{split}
+\]</span> <span class="math display">\[
+K_a = \frac{|\ce{NO2}^{-}| \cdot |\ce{H3O}^{+}|}{|\ce{HNO2}|} = \frac{x \cdot (0.1 + x)}{0.5 - x}
+\]</span> On approxime en négligeant le x : <span class="math display">\[
+\begin{split}
+K_a &amp;= \frac{x \cdot (0.1 + \cancel{x})}{0.5 - \cancel{x}} = \frac{0.1 \cdot x}{0.5} = 4.6 \cdot 10^{-4} \\
+x &amp;= 4.6 \cdot 10^{-4} \cdot \frac{0.5}{0.1} = 2.3 \cdot 10^{-3}\ M
+\end{split}
+\]</span> L’approximation est valide : <span class="math inline">\(\frac{2.3 \cdot 10^{-3}}{0.5} \cdot 100\% \cong 0.46\% &lt; 5\%\)</span> <span class="math display">\[
+\begin{split}
+|\ce{H3O}^{+}| = x = 2.3 \cdot 10^{-3}\ M
+\end{split}
+\qquad\qquad
+\begin{split}
+pH &amp;= - \log |\ce{H3O}^{+}| \\
+&amp;= - \log 2.3 \cdot 10^{-3} \cong 2.6
+\end{split}
+\]</span></li>
+</ol>
+<p>Méthode basée sur l’équation de Henderson-Hasselbalch :</p>
+<p><span class="math display">\[
+\begin{split}
+  pH = pK_a + \log \frac{|\ce{A}^{-}|}{|\ce{HA}|}
+\end{split}
+\qquad
+\begin{split}
+  \ce{HA} \Rightarrow &amp;\ \ce{HNO2} \\
+  \ce{A}^{-} \Rightarrow &amp;\ \ce{NO2}^{-} \\
+  K_a = &amp;\ 4.6 \cdot 10^{-4}
+\end{split}
+\qquad
+\begin{split}
+  pH &amp;= pK_a + \log \frac{|\ce{NO2}^{-}|}{|\ce{HNO2}|} \\
+  &amp;= - \log 4.6 \cdot 10^{-4} + \log \frac{0.1}{0.5} = 2.6 \\
+\end{split}
+\]</span></p>
+<!--b. Oui, une solution tampon sera moins acide que la solution acide.-->
+<ol start="2" type="a">
+<li><span class="math display">\[
+\begin{split}
+M_{\ce{NaOH}} = 40.008\ \text{ g/mol}
+\end{split}
+\qquad
+\begin{split}
+n_{\ce{NaOH}} &amp;= \frac{m_{\ce{NaOH}}}{M_{\ce{NaOH}}} = \frac{0.3\ \text{ g}}{40.008\ \text{ g/mol}} = 0.0075\ \text{ mol} \\
+|\ce{NaOH}| &amp;= \frac{n_{\ce{NaOH}}}{V_{solution}} = \frac{0.0075\ \text{ mol}}{0.020\ \text{ L}} = 0.375\ M
+\end{split}
+\]</span> <span class="math display">\[
+\begin{split}
+|\ce{HNO2}| &amp;= 0.5 - 0.375 = 0.125\ M \\
+|\ce{NO2}^{-}| &amp;= 0.1 + 0.375 = 0.475\ M
+\end{split}
+\]</span> <span class="math display">\[
+\begin{split}
+  pH &amp;= pK_a + \log \frac{|\ce{NO2}^{-}|}{|\ce{HNO2}|} \\
+  &amp;= - \log 4.6 \cdot 10^{-4} + \log \frac{0.475}{0.125} = 3.92 \\
+\end{split}
+\]</span></li>
+</ol>
+</div>
+<!--
+::: {.Exercise data-latex=""}
+
+Un chimiste souhaite obtenir une solution tampon à pH = 4.3. Il peut choisir parmi les acides suivants (et leurs sels sodiques) :
+
+a. acide chloracétique : $K_a = 1.35 \cdot 10^{-3}$
+b. acide propanoïque : $K_a = 1.3 \cdot 10^{-5}$
+c. acide benzoïque : $K_a = 6.4 \cdot 10^{-5}$
+d. acide hypochloreux : $K_a = 3.5 \cdot 10^{-8}$
+
+1. Lequel de ces acides préférera-t-il pour préparer sa solution tampon ?
+\vspace{\stretch{1}}
+2. Proposez des molarités d’acide et de sel qui permettront de la préparer.  
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. Il faut :
+$$
+pH = pK_a \Rightarrow pK_a = 4.3 \Rightarrow K_a = 10^{-4.3} = 5.01 \cdot 10^{-5}
+$$ 
+
+a. pk_a = 2.9
+b. pk_a = 4.9
+c. pk_a = 4.2 (Le chimiste préfèrera l'acide benzoïque)
+d. pk_a = 7.5
+
+2. $$
+\begin{split}
+  pH = pK_a + \log \frac{|\ce{A}^{-}|}{|\ce{HA}|}
+\end{split}
+\qquad
+\begin{split}
+  \ce{HA} \Rightarrow &\ \ce{C6H5COOH} \\
+  \ce{A}^{-} \Rightarrow &\ \ce{C6H5COO}^{-} \\
+  K_a = &\ 6.4 \cdot 10^{-5}
+\end{split}
+$$
+$$
+\begin{split}
+  pH &= pK_a + \log \frac{|\ce{C6H5COO}^{-}|}{|\ce{C6H5COOH}|} \\
+  4.3 &= 4.2 + \log \frac{|\ce{C6H5COO}^{-}|}{|\ce{C6H5COOH}|}
+\end{split}
+\qquad
+\begin{split}
+  \log \frac{|\ce{C6H5COO}^{-}|}{|\ce{C6H5COOH}|} &= 0.1 \\
+  \frac{|\ce{C6H5COO}^{-}|}{|\ce{C6H5COOH}|} &= 10^{0.1} = 1.26 \\
+  \Rightarrow |\ce{C6H5COO}^{-}| &= 1.26 \cdot |\ce{C6H5COOH}|
+\end{split}
+$$
+
+Par exemple :
+$$
+\begin{split}
+|\ce{C6H5COO}^{-}| &= 1.26\ M \\
+|\ce{C6H5COOH}| &= 1.00\ M
+\end{split}
+$$
+
+
+:::
+
+-->
+</section>
+<section id="calculer-le-ph-résumé" class="level2" data-number="18.6">
+<h2 data-number="18.6" class="anchored" data-anchor-id="calculer-le-ph-résumé"><span class="header-section-number">18.6</span> Calculer le pH (résumé)</h2>
+<p>Arbre de décision pour identifier la nature d’une solution chimique (acide/base, fort/faible, mélange) et appliquer la bonne méthode pour calculer son pH.</p>
+<div id="fig-acides-bases-8" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-acides-bases-8-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/pH-decision-tree.png" class="img-fluid figure-img" style="width:95.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-acides-bases-8-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;18.3: Guide méthodologique pour la détermination du pH
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="titrages-et-courbes-de-ph" class="level2" data-number="18.7">
+<h2 data-number="18.7" class="anchored" data-anchor-id="titrages-et-courbes-de-ph"><span class="header-section-number">18.7</span> Titrages et courbes de pH</h2>
+<p>Un titrage acide-base est une technique de dosage basée sur une réaction de neutralisation entre une solution de concentration connue et une solution de concentration inconnue. Le point d’équivalence, repéré par un indicateur coloré, est atteint lorsque les réactifs sont présents dans les proportions stœchiométriques.</p>
+<div id="fig-acides-bases-5" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-acides-bases-5-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/acides-bases-5.png" class="img-fluid figure-img" style="width:60.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-acides-bases-5-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;18.4: Titrage acide-base et courbe de titrage
+</figcaption>
+</figure>
+</div>
+<section id="titrage-dun-acide-fort-par-une-base-forte" class="level3" data-number="18.7.1">
+<h3 data-number="18.7.1" class="anchored" data-anchor-id="titrage-dun-acide-fort-par-une-base-forte"><span class="header-section-number">18.7.1</span> Titrage d’un acide fort par une base forte</h3>
+<p><span class="math display">\[
+\ce{HCl(aq) + NaOH(aq) -&gt; NaCl(aq) + H2O(l)}
+\]</span></p>
+<div id="fig-acides-bases-6a" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-acides-bases-6a-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/courbes-titration-acide-fort.png" class="img-fluid figure-img" style="width:60.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-acides-bases-6a-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;18.5: Neutralisation d’un acide fort par une base forte
+</figcaption>
+</figure>
+</div>
+<p><strong>Avant l’ajout de base</strong><br>
+Seul l’acide fort est présent dans le bécher. Le calcul du pH sera&nbsp;:</p>
+<p><span class="math display">\[
+pH = - \log C_a
+\]</span></p>
+<p><strong>Avant le point équivalent</strong><br>
+Le pH est fixé par l’acide fort, dont la concentration exacte doit être recalculée en tenant compte de la dilution.</p>
+<p><span class="math display">\[
+\begin{split}
+pH = - \log C_a^{*}
+\end{split}
+\qquad
+\begin{split}
+C_a^{*} = \frac{n_a^{*}}{V_{tot}} \qquad \text{avec } n_a^{*} = n_a - n_b = C_a \cdot V_a - C_b \cdot V_b
+\end{split}
+\]</span></p>
+<p><strong>Au point équivalent</strong><br>
+Tous les ions <span class="math inline">\(\ce{H}^{+}\)</span> ont été neutralisés par les ions <span class="math inline">\(\ce{OH}^{-}\)</span> d’où un pH égal à 7 (<span class="math inline">\(\ce{Na}^{+}\)</span> et <span class="math inline">\(\ce{Cl}^{-}\)</span> sont inertes).</p>
+<p><strong>Après le point équivalent</strong><br>
+Le pH est fixé par la base forte, dont la concentration exacte doit être recalculée en tenant compte de la dilution&nbsp;:</p>
+<p><span class="math display">\[
+\begin{split}
+pH = 14 + \log C_b^{*}
+\end{split}
+\qquad
+\begin{split}
+C_b^{*} = \frac{n_b^{*}}{V_{tot}} \qquad \text{avec } n_b^{*} = n_b - n_a = C_b \cdot V_b - C_a \cdot V_a
+\end{split}
+\]</span></p>
+<div class="Exercise">
+<p>On titre 20.0 mL d’acide chlorhydrique (<span class="math inline">\(\ce{HCl}\)</span>) 0.10 M par une solution d’hydroxyde de sodium (<span class="math inline">\(\ce{NaOH}\)</span>) 0.10 M.</p>
+<ol type="1">
+<li>Quel volume de <span class="math inline">\(\ce{NaOH}\)</span> faut-il ajouter pour atteindre le point d’équivalence ? </li>
+<li>Calculez le pH initial (avant tout ajout de base). </li>
+<li>Calculez le pH après ajout de 10.0 mL de <span class="math inline">\(\ce{NaOH}\)</span>. </li>
+<li>Quel est le pH au point d’équivalence ? Justifiez. </li>
+<li>Calculez le pH après ajout de 30.0 mL de <span class="math inline">\(\ce{NaOH}\)</span>. </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>À l’équivalence, <span class="math inline">\(n(\ce{NaOH}) = n(\ce{HCl})\)</span>, soit <span class="math inline">\(C_b V_b = C_a V_a\)</span> : <span class="math display">\[
+V_b = \frac{C_a V_a}{C_b} = \frac{0.10 \cdot 20.0}{0.10} = 20.0 \text{ mL}
+\]</span></li>
+<li>Seul l’acide fort est présent : <span class="math inline">\(pH = -\log C_a = -\log 0.10 = 1.0\)</span>.</li>
+<li>Avant l’équivalence : <span class="math inline">\(n_a^* = C_a V_a - C_b V_b = 0.10\cdot0.0200 - 0.10\cdot0.0100 = 1.0\cdot10^{-3}\)</span> mol ; <span class="math inline">\(V_{tot} = 30.0\)</span> mL. <span class="math display">\[
+C_a^* = \frac{1.0\cdot10^{-3}}{0.0300} = 0.033 \text{ M} \qquad pH = -\log 0.033 = 1.48
+\]</span></li>
+<li><span class="math inline">\(pH = 7\)</span> : tous les ions <span class="math inline">\(\ce{H}^{+}\)</span> ont été neutralisés par les ions <span class="math inline">\(\ce{OH}^{-}\)</span> ; il ne reste que <span class="math inline">\(\ce{Na}^{+}\)</span> et <span class="math inline">\(\ce{Cl}^{-}\)</span>, inertes.</li>
+<li>Après l’équivalence : <span class="math inline">\(n_b^* = C_b V_b - C_a V_a = 0.10\cdot0.0300 - 0.10\cdot0.0200 = 1.0\cdot10^{-3}\)</span> mol ; <span class="math inline">\(V_{tot} = 50.0\)</span> mL. <span class="math display">\[
+C_b^* = \frac{1.0\cdot10^{-3}}{0.0500} = 0.020 \text{ M} \qquad pH = 14 + \log 0.020 = 12.30
+\]</span></li>
+</ol>
+</div>
+</section>
+<section id="titrage-dune-base-forte-par-un-acide-fort" class="level3" data-number="18.7.2">
+<h3 data-number="18.7.2" class="anchored" data-anchor-id="titrage-dune-base-forte-par-un-acide-fort"><span class="header-section-number">18.7.2</span> Titrage d’une base forte par un acide fort</h3>
+<p><span class="math display">\[
+\ce{NaOH(aq) + HCl(aq) -&gt; NaCl(aq) + H2O(l)}
+\]</span></p>
+<div id="fig-acides-bases-6b" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-acides-bases-6b-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/courbes-titration-base-forte.png" class="img-fluid figure-img" style="width:60.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-acides-bases-6b-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;18.6: Neutralisation d’une base forte par un acide fort
+</figcaption>
+</figure>
+</div>
+<p><strong>Avant l’ajout d’acide</strong><br>
+Seule la base forte est présente dans le bécher. Le calcul du pH sera&nbsp;:</p>
+<p><span class="math display">\[
+pH = 14 + \log C_b
+\]</span></p>
+<p><strong>Avant le point équivalent</strong><br>
+Le pH est fixé par la base forte, dont la concentration exacte doit être recalculée en tenant compte de la dilution.</p>
+<p><span class="math display">\[
+\begin{split}
+pH = 14 + \log C_b^{*}
+\end{split}
+\qquad
+\begin{split}
+C_b^{*} = \frac{n_b^{*}}{V_{tot}} \qquad \text{avec } n_b^{*} = n_b - n_a = C_b \cdot V_b - C_a \cdot V_a
+\end{split}
+\]</span></p>
+<p><strong>Au point équivalent</strong><br>
+Tous les ions <span class="math inline">\(\ce{OH}^{-}\)</span> ont été neutralisés par les ions <span class="math inline">\(\ce{H}^{+}\)</span> d’où un pH égal à 7 (<span class="math inline">\(\ce{Na}^{+}\)</span> et <span class="math inline">\(\ce{Cl}^{-}\)</span> sont inertes).</p>
+<p><strong>Après le point équivalent</strong>,<br>
+Le pH est fixé par l’acide fort, dont la concentration exacte doit être recalculée en tenant compte de la dilution&nbsp;:</p>
+<p><span class="math display">\[
+\begin{split}
+pH = - \log C_a^{*}
+\end{split}
+\qquad
+\begin{split}
+C_a^{*} = \frac{n_a^{*}}{V_{tot}} \qquad \text{avec } n_a^{*} = n_a - n_b = C_a \cdot V_a - C_b \cdot V_b
+\end{split}
+\]</span></p>
+</section>
+<section id="titrage-dun-acide-faible-par-une-base-forte" class="level3" data-number="18.7.3">
+<h3 data-number="18.7.3" class="anchored" data-anchor-id="titrage-dun-acide-faible-par-une-base-forte"><span class="header-section-number">18.7.3</span> Titrage d’un acide faible par une base forte</h3>
+<p><span class="math display">\[
+\ce{HClO(aq) + NaOH(aq) &lt;=&gt; NaClO(aq) + H2O(l)}
+\]</span></p>
+<div id="fig-acides-bases-6c" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-acides-bases-6c-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/courbes-titration-acide-faible.png" class="img-fluid figure-img" style="width:65.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-acides-bases-6c-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;18.7: Neutralisation d’un acide faible par une base forte
+</figcaption>
+</figure>
+</div>
+<p><strong>Avant ajout de base</strong> Seul l’acide faible est présent dans le bécher. Le calcul du pH sera&nbsp;:</p>
+<p><span class="math display">\[
+pH = - \log |\ce{H3O}^{+}|
+\]</span></p>
+<p>La concentration en hydronium se calcule à l’aide d’un tableau d’équilibre (ou tableau de variation, voir pH des acides faibles).</p>
+<p><strong>Avant le point équivalent</strong><br>
+L’acide et sa base conjuguée étant tous deux présents, il s’agit d’une <strong>solution tampon</strong>. Le calcul du pH sera&nbsp;:</p>
+<p><span class="math display">\[
+pH = pKa + \log \frac{|A^-|}{|HA^*|} \text{ ou simplement } pH = pKa + \log{\frac{n_b}{n_a^*}}
+\]</span></p>
+<p>Le volume contenant la base et l’acide est le même. Le nombre de moles d’acide faible restant et de base conjuguée créé devra être calculé&nbsp;:</p>
+<p><span class="math display">\[
+\begin{split}
+n_b = C_b \cdot V_b
+\end{split}
+\qquad
+\begin{split}
+n_a^* = n_a - n_b = C_a \cdot V_a - C_b \cdot V_b
+\end{split}
+\]</span></p>
+<p>Le moment où la quantité de base conjuguée créée est exactement équivalente à la quantité d’acide faible restant. On atteint le <strong>point de demi-équivalence</strong>. On aura alors <strong>pH = pK<sub>a</sub></strong>.</p>
+<p><strong>Au point équivalent</strong><br>
+Au point d’équivalence, tout l’acide faible est converti en sa base conjuguée. La base conjuguée va influencer le pH qui sera donc un peu basique. Le calcul du pH sera&nbsp;:</p>
+<p><span class="math display">\[
+pH = 14 + \log |\ce{OH}^{-}|
+\]</span></p>
+<p>La concentration en <span class="math inline">\(\ce{OH}^{-}\)</span> se calcule à l’aide d’un tableau de variation (voir pH des bases faibles) en prenant comme concentration initiale en base faible, la concentration initiale en acide faible.</p>
+<p><strong>Après le point équivalent</strong><br>
+Le pH est fixé par la base forte (la contribution de la base conjuguée est négligeable face à la base forte), dont la concentration exacte doit être recalculée en tenant compte de la dilution&nbsp;:</p>
+<p><span class="math display">\[
+pH = 14 + \log C_b^*
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+C_b^* = \frac{n_b^*}{V_{total}}
+\end{split}
+\qquad
+\begin{split}
+n_b^* = n_b - n_a = C_b \cdot V_b - C_a \cdot V_a
+\end{split}
+\]</span></p>
+<div class="Exercise">
+<p>On titre un acide faible HA de constante <span class="math inline">\(pK_a = 4.8\)</span> par une base forte.</p>
+<ol type="1">
+<li>Au point de demi-équivalence, que vaut le pH ? Justifiez. </li>
+<li>À un moment du titrage (avant l’équivalence), il reste <span class="math inline">\(n_a^* = 3.0\cdot10^{-3}\)</span> mol d’acide faible et il s’est formé <span class="math inline">\(n_b = 1.0\cdot10^{-3}\)</span> mol de base conjuguée. Calculez le pH (relation de Henderson-Hasselbalch). </li>
+<li>Le pH au point d’équivalence sera-t-il acide, neutre ou basique ? Justifiez. </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>Au point de demi-équivalence, <span class="math inline">\(|\ce{A}^{-}| = |\ce{HA}|\)</span>, donc <span class="math inline">\(pH = pK_a + \log 1 = pK_a = 4.8\)</span>.</li>
+<li><span class="math display">\[
+pH = pK_a + \log \frac{n_b}{n_a^*} = 4.8 + \log \frac{1.0\cdot10^{-3}}{3.0\cdot10^{-3}} = 4.8 + \log(0.333) = 4.8 - 0.48 = 4.32
+\]</span></li>
+<li>Basique : au point d’équivalence, tout l’acide faible est converti en sa base conjuguée, qui est une base faible et rend la solution basique (<span class="math inline">\(pH &gt; 7\)</span>).</li>
+</ol>
+</div>
+</section>
+<section id="titrage-dune-base-faible-par-un-acide-fort" class="level3" data-number="18.7.4">
+<h3 data-number="18.7.4" class="anchored" data-anchor-id="titrage-dune-base-faible-par-un-acide-fort"><span class="header-section-number">18.7.4</span> Titrage d’une base faible par un acide fort</h3>
+<p>La courbe observée lorsque l’on ajoute dans une base faible, petit à petit, un acide fort afin d’en effectuer la courbe de pH découle du même raisonnement que celle de la neutralisation d’un acide faible par une base forte que l’on vient de décrire.</p>
+<div id="fig-acides-bases-6d" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-acides-bases-6d-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/courbes-titration-base-faible.png" class="img-fluid figure-img" style="width:65.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-acides-bases-6d-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;18.8: Neutralisation d’une base faible par un acide fort
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="titrage-dune-polyacide-faible-par-une-base-forte" class="level3" data-number="18.7.5">
+<h3 data-number="18.7.5" class="anchored" data-anchor-id="titrage-dune-polyacide-faible-par-une-base-forte"><span class="header-section-number">18.7.5</span> Titrage d’une polyacide faible par une base forte</h3>
+<p>Le titrage d’un polyacide faible par une base forte révèle <strong>plusieurs sauts de pH</strong>, chacun correspondant à un point d’équivalence distinct pour la neutralisation successive de chaque proton. Pour l’acide phosphorique (<span class="math inline">\(\ce{H3PO4}\)</span>), trois points d’équivalence théoriques sont attendus, correspondant aux trois déprotonations successives.</p>
+<p><span class="math display">\[
+\ce{OH^{-}_{(aq)} + H3PO4_{(aq)} &lt;=&gt; H2O_{(l)} + H2PO4^{-}_{(aq)}} \quad pK_{a1} = 2.12
+\]</span></p>
+<p><span class="math display">\[
+\ce{OH^{-}_{(aq)} + H2PO4^{-}_{(aq)} &lt;=&gt; H2O_{(l)} + HPO4^{2-}_{(aq)}} \quad pK_{a2} = 7.21
+\]</span></p>
+<p><span class="math display">\[
+\ce{OH^{-}_{(aq)} + HPO4^{2-}_{(aq)} &lt;=&gt; H2O_{(l)} + PO4^{3-}_{(aq)}} \quad pK_{a3} = 12.37
+\]</span></p>
+<div id="fig-acides-bases-6e" class="quarto-float quarto-figure quarto-figure-center anchored" width="67%">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-acides-bases-6e-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/acides-bases-6d.png" id="fig-acides-bases-6e" class="img-fluid figure-img" style="width:67.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-acides-bases-6e-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;18.9
+</figcaption>
+</figure>
+</div>
+<p>La visibilité de ces points dépend de la distinction suffisante entre les valeurs de <span class="math inline">\(\text{K}_{\text{a}}\)</span>.</p>
+</section>
+<section id="méthode-des-tangentes" class="level3" data-number="18.7.6">
+<h3 data-number="18.7.6" class="anchored" data-anchor-id="méthode-des-tangentes"><span class="header-section-number">18.7.6</span> Méthode des tangentes</h3>
+<p>La méthode des tangentes est une technique graphique pour déterminer le <strong>point d’équivalence</strong> d’un titrage, qui correspond au point d’inflexion de la courbe de pH.</p>
+<div id="fig-acides-bases-7" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-acides-bases-7-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/courbes-titration-methode-tangeantes.png" class="img-fluid figure-img" style="width:75.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-acides-bases-7-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;18.10: Détermination graphique du point d’équivalence
+</figcaption>
+</figure>
+</div>
+<ol type="1">
+<li><strong>Tracez deux tangentes</strong> : De chaque côté du saut de pH, tracez une droite tangente à la courbe. Ces deux tangentes doivent être <strong>parallèles</strong> l’une à l’autre.</li>
+<li><strong>Tracez la médiatrice</strong> : Dessinez une troisième droite qui est perpendiculaire aux deux tangentes et qui les relie.</li>
+<li><strong>Localisez le point d’équivalence</strong> : Trouvez le milieu du segment de cette droite perpendiculaire. Ensuite, tracez une quatrième droite passant par ce milieu et parallèle aux deux tangentes initiales. Le point où cette dernière droite croise la courbe de titrage est le <strong>point d’équivalence</strong>.</li>
+</ol>
+<p>À partir de ce point, vous pouvez déterminer le <strong>volume équivalent (V<sub>e</sub>)</strong> en le projetant sur l’axe des abscisses et le <strong>pH à l’équivalence (pH<sub>e</sub>)</strong> en le projetant sur l’axe des ordonnées.</p>
+<div class="Exercise">
+<p>On titre 25.0 mL d’un acide en lui ajoutant progressivement de la soude <span class="math inline">\(\ce{NaOH}\)</span> 0.10 M. La courbe de pH obtenue présente un unique saut de pH pour un volume de base ajouté de 25.0 mL, et le pH au point d’équivalence vaut 7.</p>
+<ol type="1">
+<li>Combien de points d’équivalence observe-t-on ? S’agit-il d’un monoacide ou d’un polyacide ? </li>
+<li>L’acide titré est-il un acide fort ou un acide faible ? Justifiez à l’aide du pH à l’équivalence. </li>
+<li>Déterminez la concentration de l’acide. </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>Un seul saut de pH, donc un seul point d’équivalence : c’est un monoacide.</li>
+<li>Le pH à l’équivalence vaut 7 (neutre) : c’est un acide fort. Pour un acide faible titré par une base forte, le pH à l’équivalence serait basique (<span class="math inline">\(&gt; 7\)</span>).</li>
+<li>À l’équivalence, <span class="math inline">\(n_a = n_b\)</span>, soit <span class="math inline">\(C_a V_a = C_b V_b\)</span> : <span class="math display">\[
+C_a = \frac{C_b V_b}{V_a} = \frac{0.10 \cdot 25.0}{25.0} = 0.10 \text{ M}
+\]</span></li>
+</ol>
+</div>
+</section>
+</section>
+<section id="résumé" class="level2" data-number="18.8">
+<h2 data-number="18.8" class="anchored" data-anchor-id="résumé"><span class="header-section-number">18.8</span> Résumé</h2>
+<ul>
+<li>Le pH mesure l’acidité d’une solution : <span class="math inline">\(pH = -\log|\ce{H3O}^{+}|\)</span> et <span class="math inline">\(|\ce{H3O}^{+}| = 10^{-pH}\)</span>.</li>
+<li>Acides forts et bases fortes : dissociation complète.</li>
+<li>Acide faible : dissociation partielle. On calcule <span class="math inline">\(|\ce{H3O}^{+}|\)</span> par un tableau de variations et <span class="math inline">\(K_a\)</span>, avec l’approximation. De même pour une base faible avec <span class="math inline">\(K_b\)</span>.</li>
+<li>Un polyacide libère ses protons un à un ; en général seule la première déprotonation contribue notablement au pH.</li>
+<li>Une solution tampon maintient un pH quasi constant. On calcule son pH par la relation de Henderson-Hasselbalch.</li>
+<li>Un titrage repose sur une neutralisation ; au point d’équivalence, les réactifs sont en proportions stœchiométriques. Le long d’une courbe de titrage, on calcule le pH selon la zone (acide ou base en excès, tampon, équivalence).</li>
+<li>Le point d’équivalence donne le volume équivalent <span class="math inline">\(V_e\)</span> et permet de déterminer une concentration inconnue.</li>
+</ul>
+</section>
+<section id="exercices-supplémentaires" class="level2" data-number="18.9">
+<h2 data-number="18.9" class="anchored" data-anchor-id="exercices-supplémentaires"><span class="header-section-number">18.9</span> Exercices supplémentaires</h2>
+<div class="Exercise">
+<p>Pour déterminer la concentration d’une solution d’acide sulfurique <span class="math inline">\(\ce{H2SO4}\)</span>, on en titre 25.0 mL par de la soude <span class="math inline">\(\ce{NaOH}\)</span> 0.20 M. Le point d’équivalence est atteint après avoir ajouté 30.0 mL de soude. La réaction est :</p>
+<p><span class="math display">\[
+\ce{H2SO4 + 2 NaOH -&gt; Na2SO4 + 2 H2O}
+\]</span></p>
+<ol type="1">
+<li>Combien de moles de <span class="math inline">\(\ce{NaOH}\)</span> ont été ajoutées à l’équivalence ? </li>
+<li>Combien de moles de <span class="math inline">\(\ce{H2SO4}\)</span> ont réagi ? </li>
+<li>Quelle est la concentration de la solution d’acide sulfurique ? </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><span class="math inline">\(n(\ce{NaOH}) = C_b V_b = 0.20 \cdot 0.0300 = 6.0\cdot10^{-3}\)</span> mol.</li>
+<li>D’après l’équation, il faut 2 <span class="math inline">\(\ce{NaOH}\)</span> pour 1 <span class="math inline">\(\ce{H2SO4}\)</span> : <span class="math display">\[
+n(\ce{H2SO4}) = \frac{n(\ce{NaOH})}{2} = 3.0\cdot10^{-3} \text{ mol}
+\]</span></li>
+<li><span class="math display">\[
+C_a = \frac{n(\ce{H2SO4})}{V_a} = \frac{3.0\cdot10^{-3}}{0.0250} = 0.12 \text{ M}
+\]</span></li>
+</ol>
+</div>
+<div class="Exercise">
+<p>Pour chacune des solutions suivantes, identifiez sa nature (acide fort, base forte, acide faible ou base faible) et calculez son pH.</p>
+<ol type="1">
+<li><span class="math inline">\(\ce{HNO3}\)</span> 0.010 M (acide fort). </li>
+<li><span class="math inline">\(\ce{KOH}\)</span> 0.050 M (base forte). </li>
+<li><span class="math inline">\(\ce{CH3COOH}\)</span> 0.10 M, acide faible, <span class="math inline">\(K_a = 1.8\cdot10^{-5}\)</span>. </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>Acide fort : <span class="math inline">\(|\ce{H3O}^{+}| = C_a = 0.010\)</span> M, donc <span class="math inline">\(pH = -\log 0.010 = 2.0\)</span>.</li>
+<li>Base forte : <span class="math inline">\(|\ce{OH}^{-}| = C_b = 0.050\)</span> M, donc <span class="math inline">\(pOH = -\log 0.050 = 1.30\)</span> et <span class="math inline">\(pH = 14 - 1.30 = 12.70\)</span>.</li>
+<li>Acide faible : <span class="math inline">\(K_a = \dfrac{x^2}{0.10 - x} \approx \dfrac{x^2}{0.10}\)</span>, donc <span class="math inline">\(x = \sqrt{1.8\cdot10^{-5} \cdot 0.10} = 1.34\cdot10^{-3}\)</span> M (approximation valable : <span class="math inline">\(1.3\,\% &lt; 5\,\%\)</span>). <span class="math display">\[
+pH = -\log(1.34\cdot10^{-3}) = 2.87
+\]</span></li>
+</ol>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script src="html/vendor/jquery-3.7.1.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+
+    var exeContainerClass = 'Exercise-container';
+    var exeClass = 'Exercise';
+    var ansClass = 'Answer';
+
+    $('.' + exeContainerClass).each(function(i, el) {
+      let child = $(el).children('.' + exeClass);
+      child.replaceWith(child.html());
+      $(el).removeClass(exeContainerClass).addClass(exeClass);
+    });
+
+    var chapterNum = $('.quarto-page-breadcrumbs .chapter-number').first().text().trim();
+
+    $('.' + exeClass).each(function(i, el) {
+      var num = chapterNum + '.' + (i + 1);
+      var title = $('<div>Exercice ' + num + '</div>');
+      title.addClass('Label');
+      $(el).prepend(title);
+    });
+
+    $('.' + ansClass).each(function(i, el) {
+      $(el).click(function() {
+        $(el).slideToggle();
+      });
+      var button = $('<button>Solution</button>');
+      button.attr('type', 'button');
+      button.addClass('Answer-button');
+      button.click(function() {
+        $(el).slideToggle();
+      });
+      button.insertBefore(el);
+    });
+
+  });
+</script>
+<script type="text/javascript">
+  $(document).ready(function () {
+    $("main.content table, main.content .math.display").each(function (i, el) {
+      let parent = $("<div>").attr("style", "overflow-x:auto");
+      $(el).wrap(parent);
+    });
+  });
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copié");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copié");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./170-acides-bases.html" class="pagination-link" aria-label="Les acides et les bases">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Les acides et les bases</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./190-produit-solubilite.html" class="pagination-link" aria-label="Le produit de solubilité">
+        <span class="nav-page-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Le produit de solubilité</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

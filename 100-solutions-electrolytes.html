@@ -1,0 +1,1751 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Support du cours de chimie générale | Maturité gymnasiale">
+
+<title>10&nbsp; Solutions et électrolytes – Cours de chimie générale</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./110-reactions-chimiques.html" rel="next">
+<link href="./90-nomenclature.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-05ad7de8ae34bb1016f06e23b5e9a5a9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Pas de résultats",
+    "search-matching-documents-text": "documents trouvés",
+    "search-copy-link-title": "Copier le lien vers la recherche",
+    "search-hide-matches-text": "Cacher les correspondances additionnelles",
+    "search-more-match-text": "correspondance de plus dans ce document",
+    "search-more-matches-text": "correspondances de plus dans ce document",
+    "search-clear-button-title": "Effacer",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Annuler",
+    "search-submit-button-title": "Envoyer",
+    "search-label": "Recherche"
+  }
+}</script>
+<script>
+window.MathJax = {
+  loader: { load: ['[tex]/mhchem', '[tex]/cancel'] },
+  tex: { packages: { '[+]': ['mhchem', 'cancel'] } }
+};
+</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="nav-sidebar docked quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./100-solutions-electrolytes.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Solutions et électrolytes</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Recherche" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Cours de chimie générale</a> 
+        <div class="sidebar-tools-main">
+    <a href="./chimie-generale.pdf" title="Télécharger le PDF" class="quarto-navigation-tool px-1" aria-label="Télécharger le PDF" target="_blank"><i class="bi bi-file-earmark-pdf"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Recherche"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Préambule</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./10-introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./20-etats-de-la-matiere.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Les états de la matière</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./30-melanges-corps-purs.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Mélanges et corps purs</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./40-historique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Historique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./50-atome.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">L’atome</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./60-tableau-periodique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Le tableau périodique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./70-liaisons.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Molécules et liaisons chimiques</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./80-molecules.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Géométrie moléculaire et polarité</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./90-nomenclature.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Nomenclature</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./100-solutions-electrolytes.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Solutions et électrolytes</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./110-reactions-chimiques.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Réactions chimiques</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./120-types-reactions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Types de réactions</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./130-stoechiometrie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Calculs stœchiométriques</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./140-gaz-parfaits.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Les gaz parfaits</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./150-cinetique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Cinétique chimique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./160-equilibres.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">L’équilibre chimique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./170-acides-bases.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Les acides et les bases</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./180-ph-potentiel-hydrogene.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Le pH ou potentiel hydrogène</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./190-produit-solubilite.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Le produit de solubilité</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./200-oxydoreductions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Les réactions d’oxydoréduction</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./210-electrochimie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Électrochimie</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./220-thermochimie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Thermochimie</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./230-thermodynamique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Thermodynamique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./00-references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bibliographie</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table des matières</h2>
+   
+  <ul>
+  <li><a href="#définitions" id="toc-définitions" class="nav-link active" data-scroll-target="#définitions"><span class="header-section-number">10.1</span> Définitions</a>
+  <ul class="collapse">
+  <li><a href="#les-solutions" id="toc-les-solutions" class="nav-link" data-scroll-target="#les-solutions"><span class="header-section-number">10.1.1</span> Les solutions</a></li>
+  <li><a href="#la-dissolution" id="toc-la-dissolution" class="nav-link" data-scroll-target="#la-dissolution"><span class="header-section-number">10.1.2</span> La dissolution</a></li>
+  <li><a href="#la-solubilité-et-la-saturation" id="toc-la-solubilité-et-la-saturation" class="nav-link" data-scroll-target="#la-solubilité-et-la-saturation"><span class="header-section-number">10.1.3</span> La solubilité et la saturation</a></li>
+  <li><a href="#la-cristallisation" id="toc-la-cristallisation" class="nav-link" data-scroll-target="#la-cristallisation"><span class="header-section-number">10.1.4</span> La cristallisation</a></li>
+  </ul></li>
+  <li><a href="#dissociation-ionique" id="toc-dissociation-ionique" class="nav-link" data-scroll-target="#dissociation-ionique"><span class="header-section-number">10.2</span> Dissociation ionique</a>
+  <ul class="collapse">
+  <li><a href="#équations-de-dissociation" id="toc-équations-de-dissociation" class="nav-link" data-scroll-target="#équations-de-dissociation"><span class="header-section-number">10.2.1</span> Équations de dissociation</a></li>
+  <li><a href="#électrolyte" id="toc-électrolyte" class="nav-link" data-scroll-target="#électrolyte"><span class="header-section-number">10.2.2</span> Électrolyte</a></li>
+  </ul></li>
+  <li><a href="#la-concentration" id="toc-la-concentration" class="nav-link" data-scroll-target="#la-concentration"><span class="header-section-number">10.3</span> La concentration</a>
+  <ul class="collapse">
+  <li><a href="#la-molarité-concentration-molaire" id="toc-la-molarité-concentration-molaire" class="nav-link" data-scroll-target="#la-molarité-concentration-molaire"><span class="header-section-number">10.3.1</span> La molarité (concentration molaire)</a></li>
+  <li><a href="#le-titre-concentration-massique" id="toc-le-titre-concentration-massique" class="nav-link" data-scroll-target="#le-titre-concentration-massique"><span class="header-section-number">10.3.2</span> Le titre (concentration massique)</a></li>
+  <li><a href="#préparation-des-solutions" id="toc-préparation-des-solutions" class="nav-link" data-scroll-target="#préparation-des-solutions"><span class="header-section-number">10.3.3</span> Préparation des solutions</a></li>
+  </ul></li>
+  <li><a href="#résumé" id="toc-résumé" class="nav-link" data-scroll-target="#résumé"><span class="header-section-number">10.4</span> Résumé</a></li>
+  <li><a href="#exercices-supplémentaires" id="toc-exercices-supplémentaires" class="nav-link" data-scroll-target="#exercices-supplémentaires"><span class="header-section-number">10.5</span> Exercices supplémentaires</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Solutions et électrolytes</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="objectives">
+<ul>
+<li>Définir les termes solution, soluté et solvant.</li>
+<li>Identifier si un mélange donné est une solution.</li>
+<li>Définir les conditions d’une solution saturée, insaturée et sursaturée.</li>
+<li>Identifier et décrire les facteurs qui influencent la solubilité d’une substance.</li>
+<li>Définir les notions de solubilité et de saturation, et de quoi elles dépendent.</li>
+<li>Prédire si une molécule est soluble et si elle forme une solution électrolyte.</li>
+<li>Donner l’équation de dissociation d’un sel.</li>
+<li>Définir la concentration, la molarité et le titre.</li>
+<li>Convertir une molarité en titre et vice-versa.</li>
+<li>Expliquer comment préparer une solution par dissolution ou par dilution.</li>
+</ul>
+</div>
+<section id="définitions" class="level2" data-number="10.1">
+<h2 data-number="10.1" class="anchored" data-anchor-id="définitions"><span class="header-section-number">10.1</span> Définitions</h2>
+<section id="les-solutions" class="level3" data-number="10.1.1">
+<h3 data-number="10.1.1" class="anchored" data-anchor-id="les-solutions"><span class="header-section-number">10.1.1</span> Les solutions</h3>
+<div class="tcolorbox">
+<p><strong>Solution</strong><br>
+Une solution est un mélange homogène composé d’un solvant et d’un ou plusieurs solutés.</p>
+</div>
+<ul>
+<li><strong>Le soluté</strong>: composé le moins abondant d’une solution.</li>
+<li><strong>Le solvant</strong>: composé le plus abondant d’une solution.</li>
+</ul>
+<p>On dit que le soluté est <strong>dissous</strong> dans le solvant. La solution est translucide et laisse donc passer la lumière.</p>
+<p>Par exemple, lorsque l’on mélange une cuillère de sucre dans un verre d’eau, les cristaux de sucre disparaissent parce qu’ils se <strong>dissolvent</strong> dans l’eau. Le sucre est le soluté et l’eau est le solvant. Une solution liquide dans laquelle le solvant est l’eau est appelée <strong>solution aqueuse</strong>.</p>
+<p>Le soluté n’est pas forcément solide et le solvant n’est pas forcément liquide.</p>
+<div id="tbl-types-solution-etats-matiere" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-types-solution-etats-matiere-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;10.1: Types de solution selon les différents états de la matière.
+</figcaption>
+<div aria-describedby="tbl-types-solution-etats-matiere-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 54%">
+<col style="width: 26%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">soluté</th>
+<th style="text-align: center;">solvant</th>
+<th>exemple</th>
+<th style="text-align: center;">état de la solution</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">gaz</td>
+<td style="text-align: center;">gaz</td>
+<td>air (oxygène et azote)</td>
+<td style="text-align: center;">gaz</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">liquide</td>
+<td style="text-align: center;">gaz</td>
+<td>vapeur d’eau dans l’air</td>
+<td style="text-align: center;">gaz</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">solide</td>
+<td style="text-align: center;">gaz</td>
+<td>neige carbonique dans l’air</td>
+<td style="text-align: center;">gaz</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">gaz</td>
+<td style="text-align: center;">liquide</td>
+<td>boisson gazeuse (gaz carbonique et eau)</td>
+<td style="text-align: center;">liquide</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">liquide</td>
+<td style="text-align: center;">liquide</td>
+<td>antigel (glycérol et eau)</td>
+<td style="text-align: center;">liquide</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">solide</td>
+<td style="text-align: center;">liquide</td>
+<td>eau de mer (sels et eau)</td>
+<td style="text-align: center;">liquide</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">gaz</td>
+<td style="text-align: center;">solide</td>
+<td>hydrogène dans le palladium</td>
+<td style="text-align: center;">solide</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">liquide</td>
+<td style="text-align: center;">solide</td>
+<td>mercure dans l’or</td>
+<td style="text-align: center;">solide</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">solide</td>
+<td style="text-align: center;">solide</td>
+<td>laiton (zinc et cuivre)</td>
+<td style="text-align: center;">solide</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<div class="Exercise">
+<p>Répondez aux questions suivantes sur les solutions.</p>
+<ol type="1">
+<li>Définissez les termes soluté et solvant. </li>
+<li>Dans une solution de sel dans l’eau, lequel est le soluté ? Lequel est le solvant ? </li>
+<li>Parmi les mélanges suivants, lesquels sont des solutions ? l’eau salée, l’eau boueuse, l’air, l’eau gazeuse, l’huile dans l’eau. </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>Le <strong>soluté</strong> est le composé le moins abondant, dissous dans le solvant ; le <strong>solvant</strong> est le composé le plus abondant.</li>
+<li>Le sel est le soluté, l’eau est le solvant.</li>
+<li>Sont des solutions (mélanges homogènes) : l’eau salée, l’air et l’eau gazeuse. Ne sont pas des solutions : l’eau boueuse et l’huile dans l’eau (mélanges hétérogènes).</li>
+</ol>
+</div>
+</section>
+<section id="la-dissolution" class="level3" data-number="10.1.2">
+<h3 data-number="10.1.2" class="anchored" data-anchor-id="la-dissolution"><span class="header-section-number">10.1.2</span> La dissolution</h3>
+<div class="tcolorbox">
+<p><strong>Dissolution</strong><br>
+La dissolution est le processus par lequel un soluté forme une solution dans un solvant.</p>
+</div>
+<p>Lorsqu’un soluté est capable de se dissoudre dans un solvant, on dit qu’il est <strong>soluble</strong>. Lors de la dissolution, les ions ou les molécules de soluté se répartissent uniformément dans toute la solution et ne décantent pas avec le temps.</p>
+<p>Au contraire, lorsqu’un composé ne se dissout pas dans un solvant, on dit qu’il est <strong>insoluble</strong>. Les constituants d’un composé insoluble restent associés les uns aux autres et gardent leur état solide.</p>
+<section id="dissolution-moléculaire" class="level4" data-number="10.1.2.1">
+<h4 data-number="10.1.2.1" class="anchored" data-anchor-id="dissolution-moléculaire"><span class="header-section-number">10.1.2.1</span> Dissolution moléculaire</h4>
+<p>Un grain de sucre (saccharose, C<sub>12</sub>H<sub>22</sub>O<sub>11</sub>) est un petit cristal formé de molécules dont toutes les liaisons internes sont des <strong>liaisons covalentes</strong>.</p>
+<p>Lorsque ce cristal est placé dans l’eau, des <strong>ponts hydrogène</strong> se forment entre l’eau et les molécules de C<sub>12</sub>H<sub>22</sub>O<sub>11</sub> ce qui affaibli les liaisons intermoléculaires et les molécules se détachent du cristal pour former la solution. Les liaisons moléculaires ne sont pas rompues et chaque molécule reste entière.</p>
+</section>
+<section id="dissolution-ionique" class="level4" data-number="10.1.2.2">
+<h4 data-number="10.1.2.2" class="anchored" data-anchor-id="dissolution-ionique"><span class="header-section-number">10.1.2.2</span> Dissolution ionique</h4>
+<p>Un grain de sel de cuisine (chlorure de sodium, NaCl) est un petit cristal formé de ions Na<sup>+</sup> et Cl<sup>-</sup> liés par des <strong>liaisons ioniques</strong>. Lorsque ce cristal est placé dans l’eau, les liaisons ioniques sont rompues et les ions se retrouvent isolés dans la solution. Chaque ion est entouré de molécules d’eau. On dit qu’il est <strong>hydraté</strong>.</p>
+<div id="fig-ionique-moleculaire" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ionique-moleculaire-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/dissolution-1.png" class="img-fluid figure-img"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/dissolution-2.png" class="img-fluid figure-img"></p>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ionique-moleculaire-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;10.1: Dissolution de composés moléculaire et ionique
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="les-facteurs-influençant-la-dissolution" class="level4" data-number="10.1.2.3">
+<h4 data-number="10.1.2.3" class="anchored" data-anchor-id="les-facteurs-influençant-la-dissolution"><span class="header-section-number">10.1.2.3</span> Les facteurs influençant la dissolution</h4>
+<ul>
+<li>la quantité de soluté par rapport à la quantité de solvant,</li>
+<li>la nature du soluté (qui se ressemble se dissout),</li>
+<li>la nature du solvant (qui se ressemble se dissout),</li>
+<li>la température.</li>
+</ul>
+<div class="Exercise">
+<p>On rappelle la règle « qui se ressemble se dissout » : un soluté polaire (ou ionique) se dissout dans un solvant polaire, un soluté non polaire dans un solvant non polaire.</p>
+<ol type="1">
+<li>Citez les facteurs qui influencent la dissolution d’un soluté. </li>
+<li>Le sel (NaCl, ionique) et l’huile (non polaire) : lequel se dissout dans l’eau (solvant polaire) ? Justifiez. </li>
+<li>En général, comment la solubilité d’un solide dans l’eau varie-t-elle avec la température ? </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>La quantité de soluté par rapport au solvant, la nature du soluté, la nature du solvant et la température.</li>
+<li>Le <strong>sel</strong> se dissout dans l’eau : NaCl est ionique et l’eau est polaire, « qui se ressemble se dissout ». L’huile, non polaire, ne se dissout pas dans l’eau polaire.</li>
+<li>En général, la solubilité d’un solide <strong>augmente</strong> avec la température.</li>
+</ol>
+</div>
+</section>
+</section>
+<section id="la-solubilité-et-la-saturation" class="level3" data-number="10.1.3">
+<h3 data-number="10.1.3" class="anchored" data-anchor-id="la-solubilité-et-la-saturation"><span class="header-section-number">10.1.3</span> La solubilité et la saturation</h3>
+<p>A une température donnée, il existe une limite à la quantité de soluté qui peut se dissoudre dans une quantité de solvant. Cette limite est appelée <strong>solubilité</strong>. Une fois cette limite atteinte, la solution est appelée <strong>solution saturée</strong>, en dessous de cette limite, c’est une <strong>solution non saturée</strong>.</p>
+<div class="tcolorbox">
+<p><strong>La solubilité</strong><br>
+La solubilité d’un composé est la quantité maximale de soluté qui peut être dissous dans un solvant à une température donnée.</p>
+</div>
+<ul>
+<li><strong>Question</strong> : Quelle est la solubilité de <span class="math inline">\(\ce{NaCl}\)</span> ?</li>
+<li><strong>Réponse</strong> : La solubilité de <span class="math inline">\(\ce{NaCl}\)</span> est de 36 g pour 100 mL à 25°C.</li>
+</ul>
+<p>Cela veut dire que l’on peut dissoudre <strong>au maximum</strong> 36 grammes de NaCl dans 100 mL d’eau à 25°C. Une fois cette limite atteinte, si l’on ajoute du NaCl à la solution, il ne se dissoudra pas. La solution est <strong>saturée</strong>.</p>
+<p>Sous certaines conditions, la limite de solubilité peut être dépassée et plus de soluté peut être dissous. Une telle solution sera appelée <strong>solution sursaturée</strong>. Les solutions sursaturées ne sont pas stables. L’ajout d’un <strong>germe cristallin</strong>, un petit cristal de soluté, entraînera la cristallisation de l’excès de soluté.</p>
+<div id="fig-solubilite-saturation" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-solubilite-saturation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/solution.png" class="img-fluid figure-img" style="width:67.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-solubilite-saturation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;10.2: Solubilité et saturation
+</figcaption>
+</figure>
+</div>
+<div class="Exercise">
+<p>La solubilité du chlorure de sodium est de 36 g pour 100 mL d’eau à 25°C.</p>
+<ol type="1">
+<li>Que signifie « solution saturée » ? « non saturée » ? « sursaturée » ? </li>
+<li>On dissout 20 g de NaCl dans 100 mL d’eau à 25°C. La solution est-elle saturée, non saturée ou sursaturée ? </li>
+<li>On dissout 36 g de NaCl dans 100 mL d’eau à 25°C, puis on ajoute encore 5 g de NaCl. Que se passe-t-il ? </li>
+<li>De quoi dépend la solubilité d’un composé ? </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>Une solution <strong>saturée</strong> contient la quantité maximale de soluté dissous ; une solution <strong>non saturée</strong> en contient moins que ce maximum ; une solution <strong>sursaturée</strong> en contient plus que le maximum (état instable).</li>
+<li><strong>Non saturée</strong> : 20 g est inférieur à la limite de solubilité (36 g).</li>
+<li>Les 36 g se dissolvent (la solution est saturée) ; les 5 g supplémentaires ne se dissolvent pas et restent solides au fond du récipient.</li>
+<li>La solubilité dépend de la nature du soluté et du solvant (« qui se ressemble se dissout ») et de la <strong>température</strong>.</li>
+</ol>
+</div>
+</section>
+<section id="la-cristallisation" class="level3" data-number="10.1.4">
+<h3 data-number="10.1.4" class="anchored" data-anchor-id="la-cristallisation"><span class="header-section-number">10.1.4</span> La cristallisation</h3>
+<div class="tcolorbox">
+<p><strong>Cristallisation</strong><br>
+La cristallisation est le processus par lequel un soluté forme un solide cristallin à partir d’une solution.</p>
+</div>
+<p><strong>La cristallisation est le phénomène inverse de la dissolution.</strong> Le soluté se sépare de la solution et redevient solide. Les particules de soluté occupent des emplacements définis et de manière périodique sur une grande portion de l’espace. Ils forment des <strong>cristaux</strong>.</p>
+<p><strong>Si la cristallisation a lieu lentement :</strong><br>
+La croissance des cristaux est régulière. Les cristaux sont de grande taille et de pureté élevée.</p>
+<p><strong>Si la cristallisation a lieu rapidement :</strong><br>
+La croissance des cristaux est irrégulière. Les cristaux sont de petite taille. Ils forment une poudre finement divisée que l’on appelle <strong>précipité</strong>. <strong>La précipitation</strong> est souvent le résultat d’une réaction chimique et se produit instantanément.</p>
+<p>La <strong>recristallisation</strong> est une méthode de séparation utilisée en chimie. En dissolvant un mélange dans un solvant approprié, on peut récupérer le soluté désiré en le faisant cristalliser lentement. Le composé formera des cristaux purs, laissant les impuretés indésirables en solution.</p>
+</section>
+</section>
+<section id="dissociation-ionique" class="level2" data-number="10.2">
+<h2 data-number="10.2" class="anchored" data-anchor-id="dissociation-ionique"><span class="header-section-number">10.2</span> Dissociation ionique</h2>
+<p>Lorsqu’un composé ionique est plongé dans l’eau, les molécules d’eau, polaires, orientent leurs pôles négatifs vers les cations, et leurs pôles positifs vers les anions. La dissociation ionique est également appelée dissociation électrolytique.</p>
+<p>L’eau diminue drastiquement l’attraction entre anions et cations. Les molécules d’eau qui entourent les ions écartent ces derniers les uns des autres. Le cristal s’effondre et les ions, indépendants les uns des autres, sont dispersés dans la solution.</p>
+<div id="fig-dissociation" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-dissociation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/dissociation.png" class="img-fluid figure-img" style="width:50.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-dissociation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;10.3: Dissociation d’un composé ionique
+</figcaption>
+</figure>
+</div>
+<p><strong>Une solution est électriquement neutre : le nombre de charges positives est égal au nombre de charges négatives.</strong></p>
+<section id="équations-de-dissociation" class="level3" data-number="10.2.1">
+<h3 data-number="10.2.1" class="anchored" data-anchor-id="équations-de-dissociation"><span class="header-section-number">10.2.1</span> Équations de dissociation</h3>
+<p>Par convention, la dissociation dans l’eau d’un composé ionique <span class="math inline">\(C_nA_m\)</span> s’écrit :</p>
+<p><span class="math display">\[ \ce{C_{n}A_{m} -&gt;C[H2O] n C^{m+} + m A^{n-}} \]</span></p>
+<p>Par exemple: <span class="math display">\[ \begin{split}
+  &amp; \ce{NaCl -&gt;C[H2O] Na^{+} + Cl^{-} } \\
+  &amp; \ce{K2CO3 -&gt;C[H2O] 2 K^{+} + CO3^{2-} }
+  \end{split}
+  \qquad
+  \begin{split}
+  \ce{Al2(SO4)3 -&gt;C[H2O] 2 Al^{3+} + 3 SO_{4}^{2-} } \\
+  \ce{AgCl -&gt;C[H2O] AgCl v } \\
+  {\scriptsize \text{(AgCl n'est pas soluble dans l'eau)}}
+  \end{split} \]</span></p>
+<ul>
+<li>On écrit la formule brute du soluté.</li>
+<li>On dessine une flèche avec, au dessus, la formule brute du solvant. La flèche va dans le sens de la dissociation.</li>
+<li>On écrit la formule brute des ions libérés <strong>avec leur quantité</strong>.</li>
+</ul>
+<p>Pour déterminer si un composé est soluble ou non, on se réfère à une table de solubilité. Cette table nous indique la solubilité de certains composés pour une température. Pour un composé non soluble, on ajoutera une flèche vers le bas à côté du composé dans l’équation de dissociation.</p>
+<div class="Exercise">
+<p>Si ils sont solubles, écrire les équations de dissociation des composés suivants :</p>
+<ol type="1">
+<li><p><span class="math inline">\(KNO_3\)</span></p></li>
+<li><p><span class="math inline">\(Na_2SO_4\)</span></p></li>
+<li><p><span class="math inline">\(BaCO_3\)</span></p></li>
+<li><p><span class="math inline">\(H_3PO_4\)</span></p></li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><p><span class="math inline">\(\ce{KNO3 -&gt;C[H2O] K^{+} + NO3^{-} }\)</span></p></li>
+<li><p><span class="math inline">\(\ce{Na2SO4 -&gt;C[H2O] 2 Na^{+} + SO4^{2-} }\)</span></p></li>
+<li><p><span class="math inline">\(\ce{BaCO3 -&gt;C[H2O] BaCO3 v }\)</span></p></li>
+<li><p><span class="math inline">\(\ce{H3PO4 -&gt;C[H2O] 3 H^{+} + PO4^{3-} }\)</span></p></li>
+</ol>
+</div>
+<p>A noter:</p>
+<ul>
+<li>Les <strong>acides</strong> sont solubles dans l’eau et se dissocient (au moins partiellement).</li>
+<li>La solubilité des <strong>sels</strong> et des <strong>hydroxydes</strong> est indiquée par la table de solubilité.</li>
+<li>Les <strong>oxydes</strong> ne sont pas solubles dans l’eau mais réagissent avec elle.</li>
+</ul>
+</section>
+<section id="électrolyte" class="level3" data-number="10.2.2">
+<h3 data-number="10.2.2" class="anchored" data-anchor-id="électrolyte"><span class="header-section-number">10.2.2</span> Électrolyte</h3>
+<p>Expérimentalement, on remarque qu’une solution d’eau pure ne conduit que très peu le courant électrique. Si l’on dissout du chlorure de sodium (NaCl) dans l’eau, la solution devient conductrice alors que si l’on dissout du sucre (saccharose), la conductivité de l’eau ne change pas.</p>
+<div id="fig-conduction-solutions" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-conduction-solutions-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><img src="images/electrolyte-1.png" class="img-fluid figure-img"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><img src="images/electrolyte-2.png" class="img-fluid figure-img"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><img src="images/electrolyte-3.png" class="img-fluid figure-img"></p>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-conduction-solutions-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;10.4: Conduction électrique des solutions (eau pure, solution de NaCl, solution de saccharose)
+</figcaption>
+</figure>
+</div>
+<ul>
+<li>L’eau n’est pas conductrice. La conductivité de l’eau provient des substances dissoutes dans l’eau, pas de l’eau elle-même.</li>
+<li>Les substances qui se dissolvent dans l’eau ne rendent pas toutes la solution conductrice.</li>
+</ul>
+<div class="tcolorbox">
+<p><strong>Électrolyte</strong><br>
+Un électrolyte est une substance qui se dissocie en ions en solution et forme une solution conductrice d’électricité.</p>
+</div>
+<div id="fig-electrolyte-2b" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-electrolyte-2b-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/electrolyte-2b.png" class="img-fluid figure-img" style="width:50.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-electrolyte-2b-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;10.5: Conductivité des solutions ioniques
+</figcaption>
+</figure>
+</div>
+<p>Lorsque l’on impose une tension aux bornes d’une solution ionique, les ions se mettent en mouvement. Parce que les ions portent une charge électrique d’une électrode à l’autre, on obtient un courant électrique appelé <strong>courant ionique</strong>. La solution ionique devient alors conductrice. Un tel composé est appelé <strong>électrolyte</strong>.</p>
+<p>A l’inverse, une solution sucrée ne conduit pas l’électricité car le saccharose reste sous la forme de molécule neutre et ne se dissocie pas. Le saccharose n’est donc pas un électrolyte.</p>
+<p>Le courant électrique dans la solution est dû au déplacement des cations dans un sens et au déplacement des anions dans le sens contraire. C’est un déplacement de charges et non un déplacement d’électrons seuls.</p>
+<div class="Exercise-container">
+<div class="Exercise">
+<p>Indiquez si les composés suivants sont des électrolytes ou non électrolytes :</p>
+</div>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>composé</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;"></th>
+<th>justification</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td><span class="math inline">\(Ca(NO_3)_2\)</span></td>
+<td style="text-align: center;">oui</td>
+<td style="text-align: center;">non</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td><span class="math inline">\(H_2SO_4\)</span></td>
+<td style="text-align: center;">oui</td>
+<td style="text-align: center;">non</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td><span class="math inline">\(CaCO_3\)</span></td>
+<td style="text-align: center;">oui</td>
+<td style="text-align: center;">non</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td><span class="math inline">\(HF\)</span></td>
+<td style="text-align: center;">oui</td>
+<td style="text-align: center;">non</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td><span class="math inline">\(NaOH\)</span></td>
+<td style="text-align: center;">oui</td>
+<td style="text-align: center;">non</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td><span class="math inline">\(C_6H_{12}O_6\)</span> (glucose)</td>
+<td style="text-align: center;">oui</td>
+<td style="text-align: center;">non</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><p><span class="math inline">\(Ca(NO_3)_2\)</span> : oui <span class="math inline">\(\rightarrow\)</span> composé ionique dissocié</p></li>
+<li><p><span class="math inline">\(H_2SO_4\)</span> : oui <span class="math inline">\(\rightarrow\)</span> acide soluble</p></li>
+<li><p><span class="math inline">\(CaCO_3\)</span> : non <span class="math inline">\(\rightarrow\)</span> insoluble</p></li>
+<li><p><span class="math inline">\(HF\)</span> : oui <span class="math inline">\(\rightarrow\)</span> acide soluble</p></li>
+<li><p><span class="math inline">\(NaOH\)</span> : oui <span class="math inline">\(\rightarrow\)</span> composé ionique dissocié</p></li>
+<li><p><span class="math inline">\(C_6H_{12}O_6\)</span> (glucose) : non <span class="math inline">\(\rightarrow\)</span> molécules non dissociées</p></li>
+</ol>
+</div>
+<div id="fig-dissociation-resume" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-dissociation-resume-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/dissociation-resume.png" class="img-fluid figure-img" style="width:100.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-dissociation-resume-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;10.6: Résumé dissolution-dissociation
+</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="la-concentration" class="level2" data-number="10.3">
+<h2 data-number="10.3" class="anchored" data-anchor-id="la-concentration"><span class="header-section-number">10.3</span> La concentration</h2>
+<p>En chimie, la plupart des réactions ont lieu en solution. Il est donc important de connaître les quantités de réactifs (solutés) que l’on fait réagir. Pour connaître ces quantités, le chimiste utilise la <strong>concentration</strong>.</p>
+<div class="tcolorbox">
+<p><strong>Concentration</strong><br>
+La concentration d’une solution est le rapport entre la quantité de soluté et la quantité totale d’une solution.</p>
+</div>
+<p>La composition d’une solution est toujours donnée par une <strong>grandeur intensive</strong>, c’est-à-dire qu’elle ne dépend ni du volume, ni de la masse, ni de la quantité de matière de l’échantillon.</p>
+<p>La concentration d’une solution peut être définie de différentes manières (concentration molaire, concentration massique, fraction molaire, pourcentage massique, pourcentages volumiques, …). Nous en décrirons deux, la <strong>molarité</strong> et le <strong>titre</strong>.</p>
+<section id="la-molarité-concentration-molaire" class="level3" data-number="10.3.1">
+<h3 data-number="10.3.1" class="anchored" data-anchor-id="la-molarité-concentration-molaire"><span class="header-section-number">10.3.1</span> La molarité (concentration molaire)</h3>
+<p>La concentration molaire (ou molarité) d’un soluté est le nombre de moles de soluté par unité de volume de solution.</p>
+<p><span class="math display">\[
+\begin{split}
+  C = \frac{n}{V}
+\end{split}
+\qquad
+\begin{split}
+  n &amp;\text{ : Nombre de moles de soluté en mol} \\
+  V &amp;\text{ : Volume de solution en l} \\
+  C &amp;\text{ : Concentration du soluté en mol/l ou M}
+\end{split}
+\]</span></p>
+<p>En chimie, la concentration molaire d’une espèce A est notée entre deux barres verticales, <strong>|A|</strong>. Par exemple, une concentration en acide sulfurique (H<sub>2</sub>SO<sub>4</sub>) de 0.5 mol/l sera notée:</p>
+<p><span class="math display">\[ |H_2SO_4| = 0.5\ M \text{ ou } \text{ mol/l} \]</span></p>
+<div class="Exercise">
+<p>Calculez la molarité des solutions suivantes :</p>
+<ol type="1">
+<li>1.2 g d’hydroxyde de sodium dans 25 mL de solution </li>
+<li>3.43 g d’hydroxyde de barium dans 2.5 l de solution </li>
+<li>1.47 g d’acide phosphorique dans 40 mL de solution </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><span class="math display">\[
+\begin{split}
+  n_{NaOH} &amp;= \frac{m_{NaOH}}{M_{NaOH}} \\
+  &amp;= \frac{1.2\ \text{ g}}{40.008\ \text{ g/mol}} \\
+  &amp;= 3 \cdot 10^{-2}\ \text{ mol}
+\end{split}
+\qquad
+\begin{split}
+  C_{NaOH} &amp;= \frac{n_{NaOH}}{V_{sol}} \\
+  &amp;= \frac{3 \cdot 10^{-2}\ \text{ mol}}{25 \cdot 10^{-3}\ \text{ l}} \\
+  &amp;= 1.2\ \text{ mol/l} \text{ ou } M
+\end{split}
+\]</span></li>
+<li><span class="math display">\[
+\begin{split}
+  n_{Ba(OH)_2} &amp;= \frac{m_{Ba(OH)_2}}{M_{Ba(OH)_2}} \\
+  &amp;= \frac{3.43\ \text{ g}}{171.316\ \text{ g/mol}} \\
+  &amp;= 2 \cdot 10^{-2}\ \text{ mol}
+\end{split}
+\qquad
+\begin{split}
+  C_{Ba(OH)_2} &amp;= \frac{n_{Ba(OH)_2}}{V_{sol}} \\
+  &amp;= \frac{2 \cdot 10^{-2}\ \text{ mol}}{2.5\ \text{ l}} \\
+  &amp;= 8 \cdot 10^{-3}\ \text{ mol/l} \text{ ou } M
+\end{split}
+\]</span></li>
+<li><span class="math display">\[
+\begin{split}
+  n_{H_3PO_4} &amp;= \frac{m_{H_3PO_4}}{M_{H_3PO_4}} \\
+  &amp;= \frac{1.47\ \text{ g}}{97.994\ \text{ g/mol}} \\
+  &amp;= 1.5 \cdot 10^{-2}\ \text{ mol}
+\end{split}
+\qquad
+\begin{split}
+  C_{H_3PO_4} &amp;= \frac{n_{H_3PO_4}}{V_{sol}} \\
+  &amp;= \frac{1.5 \cdot 10^{-2}\ \text{ mol}}{40 \cdot 10^{-3}\ \text{ l}} \\
+  &amp;= 0.375\ \text{ mol/l} \text{ ou } M
+\end{split}
+\]</span></li>
+</ol>
+</div>
+</section>
+<section id="le-titre-concentration-massique" class="level3" data-number="10.3.2">
+<h3 data-number="10.3.2" class="anchored" data-anchor-id="le-titre-concentration-massique"><span class="header-section-number">10.3.2</span> Le titre (concentration massique)</h3>
+<p>La concentration massique (ou titre) d’un soluté est la masse de soluté par unité de volume de solution.</p>
+<p><span class="math display">\[
+\begin{split}
+  T = \frac{m}{V}
+\end{split}
+\qquad
+\begin{split}
+  m &amp;\text{ : Masse de soluté en g} \\
+  V &amp;\text{ : Volume de solution en l} \\
+  T &amp;\text{ : Titre du soluté en g/l}
+\end{split}
+\]</span></p>
+<p>Puisque <span class="math inline">\(n = \frac{m}{M}\)</span>, alors</p>
+<p><span class="math display">\[
+\begin{split}
+  T = C \cdot M
+\end{split}
+\qquad
+\begin{split}
+  T &amp;\text{ : Titre du soluté en g/l} \\
+  C &amp;\text{ : Concentration de la solution en mol/l} \\
+  M &amp;\text{ : Masse molaire du soluté g/mol}
+\end{split}
+\]</span></p>
+</section>
+<section id="préparation-des-solutions" class="level3" data-number="10.3.3">
+<h3 data-number="10.3.3" class="anchored" data-anchor-id="préparation-des-solutions"><span class="header-section-number">10.3.3</span> Préparation des solutions</h3>
+<div id="fig-fiole" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-fiole-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/fiole.png" class="img-fluid figure-img" style="width:20.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-fiole-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;10.7: Fioles jaugées
+</figcaption>
+</figure>
+</div>
+<p>Beaucoup des réactifs utilisés en chimie sont sous forme de solution. Ces solutions doivent être achetées ou préparées. Pour de nombreuses applications, la concentration de la solution et sa méthode de préparation doivent être aussi précises que possible.</p>
+<p>Les béchers ou erlenmeyers gradués ne sont pas utilisés pour la préparation de solutions précises. Les indications de volume sur ces instruments sont plus décoratives que quantitatives. On utilisera une <strong>fiole jaugée</strong> (ou ballon jaugé) pour préparer une solution.</p>
+<p>Une fiole jaugée est un ballon en verre à fond plat avec un col étroit. Le col présente une ligne de calibration unique indiquant un volume précis pour une température donnée.</p>
+<p>Les ballons jaugés sont fabriqués dans des tailles différentes pouvant contenir différents volumes (25 ml, 50 ml, 100 ml, …).</p>
+<p>Pour préparer une solution en laboratoire, généralement, le volume et la concentration de la solution sont donnés.</p>
+<section id="préparation-par-dissolution" class="level4" data-number="10.3.3.1">
+<h4 data-number="10.3.3.1" class="anchored" data-anchor-id="préparation-par-dissolution"><span class="header-section-number">10.3.3.1</span> Préparation par dissolution</h4>
+<p>On peut préparer une solution par <strong>dissolution</strong>, c’est-à-dire en dissolvant le soluté dans le solvant. Les étapes sont les suivantes:</p>
+<div id="fig-preparation-1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-preparation-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/preparation-1.png" class="img-fluid figure-img" style="width:50.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-preparation-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;10.8: Préparation d’une solution par dissolution
+</figcaption>
+</figure>
+</div>
+<ul>
+<li>Peser le soluté.</li>
+<li>Remplir la fiole jaugée à moitié avec de l’eau distillée.</li>
+<li>Transférer le soluté dans la fiole et dissoudre.</li>
+<li>Compléter jusqu’au trait de jauge avec de l’eau distillée.</li>
+</ul>
+</section>
+<section id="préparation-par-dilution" class="level4" data-number="10.3.3.2">
+<h4 data-number="10.3.3.2" class="anchored" data-anchor-id="préparation-par-dilution"><span class="header-section-number">10.3.3.2</span> Préparation par dilution</h4>
+<p>Les solutions utilisées en laboratoire sont souvent achetées ou préparées sous forme de solutions concentrées (appelées <strong>solutions stock</strong>). A partir de ces solutions, on peut obtenir des solutions de concentrations plus faibles en ajoutant du solvant. Ce procédé est appelé <strong>dilution</strong>.</p>
+<div id="fig-preparation-2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-preparation-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/preparation-2.png" class="img-fluid figure-img" style="width:33.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-preparation-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;10.9: Préparation d’une solution par dilution
+</figcaption>
+</figure>
+</div>
+<p>Lors d’une dilution, <strong>le volume de solution augmente mais la quantité de soluté reste la même</strong>. On peut généraliser le calcul lors de la dissolution d’une solution par la relation suivante :</p>
+<p><span class="math display">\[
+\begin{split}
+C_i \cdot V_i = C_f \cdot V_f
+\end{split}
+\qquad
+\begin{split}
+  &amp; \text{avec} \\
+  C_i &amp; \text{: concentration initiale} \\
+  V_i &amp; \text{: volume initial} \\
+  C_f &amp; \text{: concentration finale} \\
+  V_f &amp; \text{: volume final}
+\end{split}
+\]</span></p>
+<div class="Exercise">
+<p>A quel volume doit-on diluer 50 mL de H<sub>2</sub>SO<sub>4</sub> 3.5 M pour obtenir une solution de H<sub>2</sub>SO<sub>4</sub> 2 M? </p>
+</div>
+<div class="Answer">
+<p><span class="math display">\[
+\begin{split}
+  C_i \cdot V_i = C_f \cdot V_f
+\end{split}
+\qquad
+\begin{split}
+  V_f &amp;= \frac{C_i \cdot V_i}{C_f} \\
+  &amp;= \frac{3.5\ M \cdot 50 \cdot 10^{-3}\ \text{ l} }{2\ M} \\
+  &amp;= 0.0875\ \text{ l} = 87.5\ mL
+\end{split}
+\]</span></p>
+</div>
+</section>
+</section>
+</section>
+<section id="résumé" class="level2" data-number="10.4">
+<h2 data-number="10.4" class="anchored" data-anchor-id="résumé"><span class="header-section-number">10.4</span> Résumé</h2>
+<ul>
+<li>Une solution est un mélange homogène d’un solvant et d’un ou plusieurs solutés. Une solution aqueuse a l’eau pour solvant.</li>
+<li>La dissolution peut être moléculaire ou ionique.</li>
+<li>La solubilité est la quantité maximale de soluté qui se dissout dans un solvant à une température donnée. Elle dépend de la nature du soluté et du solvant et de la température.</li>
+<li>Une solution est non saturée, saturée ou sursaturée. La cristallisation est l’inverse de la dissolution.</li>
+<li>Un électrolyte est une substance qui se dissocie en ions en solution et rend la solution conductrice. Les composés ioniques solubles et les acides sont des électrolytes ; les molécules qui ne se dissocient pas ne le sont pas.</li>
+<li>L’équation de dissociation d’un composé ionique soluble s’écrit <span class="math inline">\(\ce{C_nA_m -&gt;C[H2O] n\,C^{m+} + m\,A^{n-}}\)</span> ; un composé insoluble est noté avec une flèche vers le bas.</li>
+<li>La molarité : <span class="math inline">\(C = \dfrac{n}{V}\)</span> en mol/l (ou M), notée <span class="math inline">\(|A|\)</span>. Le titre : <span class="math inline">\(T = \dfrac{m}{V}\)</span> en g/l. On passe de l’un à l’autre par <span class="math inline">\(T = C \cdot M\)</span>.</li>
+<li>On prépare une solution par dissolution ou par dilution d’une solution stock.</li>
+</ul>
+</section>
+<section id="exercices-supplémentaires" class="level2" data-number="10.5">
+<h2 data-number="10.5" class="anchored" data-anchor-id="exercices-supplémentaires"><span class="header-section-number">10.5</span> Exercices supplémentaires</h2>
+<div class="Exercise">
+<p>Si ils sont solubles, écrire les équations de dissociation des composés suivants :</p>
+<div class="multicols">
+<p><span class="math inline">\(\ce{KBr}\)</span></p>
+<p><span class="math inline">\(\ce{AgNO3}\)</span></p>
+<p><span class="math inline">\(\ce{MgCO3}\)</span></p>
+<p><span class="math inline">\(\ce{AgOH}\)</span></p>
+<p><span class="math inline">\(\ce{Ba(OH)2}\)</span></p>
+<p><span class="math inline">\(\ce{HCl}\)</span></p>
+<p><span class="math inline">\(\ce{AlPO4}\)</span></p>
+<p><span class="math inline">\(\ce{Fe2(SO4)3}\)</span></p>
+<p><span class="math inline">\(\ce{(NH4)3PO4}\)</span></p>
+<p><span class="math inline">\(\ce{Cu(NO3)2}\)</span></p>
+<p><span class="math inline">\(\ce{K2SO4}\)</span></p>
+<p><span class="math inline">\(\ce{H3PO4}\)</span></p>
+</div>
+</div>
+<div class="Answer">
+<div class="multicols">
+<p><span class="math inline">\(\ce{KBr -&gt;C[H2O] K^{+} + Br^{-} }\)</span></p>
+<p><span class="math inline">\(\ce{AgNO3 -&gt;C[H2O] Ag^{+} + NO3^{-} }\)</span></p>
+<p><span class="math inline">\(\ce{MgCO3 -&gt;C[H2O] MgCO3 v }\)</span></p>
+<p><span class="math inline">\(\ce{AgOH -&gt;C[H2O] AgOH v }\)</span></p>
+<p><span class="math inline">\(\ce{Ba(OH)2 -&gt;C[H2O] Ba^{2+} + 2OH^{-} }\)</span></p>
+<p><span class="math inline">\(\ce{HCl -&gt;C[H2O] H^{+} + Cl^{-}}\)</span></p>
+<p><span class="math inline">\(\ce{AlPO4 -&gt;C[H2O] AlPO4 v }\)</span></p>
+<p><span class="math inline">\(\ce{Fe2(SO4)3 -&gt;C[H2O] 2Fe^{3+} + 3SO4^{2-} }\)</span></p>
+<p><span class="math inline">\(\ce{(NH4)3PO4 -&gt;C[H2O] 3NH4^{+} + PO4^{3-} }\)</span></p>
+<p><span class="math inline">\(\ce{Cu(NO3)2 -&gt;C[H2O] Cu^{2+} + 2NO3^{-} }\)</span></p>
+<p><span class="math inline">\(\ce{K2SO4 -&gt;C[H2O] 2K^{+} + SO4^{2-} }\)</span></p>
+<p><span class="math inline">\(\ce{H3PO4 -&gt;C[H2O] 3H^{+} + PO4^{3-} }\)</span></p>
+</div>
+</div>
+<div class="Exercise">
+<p>On prépare deux solutions de 100 mL chacune, par dissolution de :</p>
+<ol type="1">
+<li>0.111 g de chlorure de calcium,</li>
+<li>58.5 mg de sulfate de fer (III).</li>
+</ol>
+<p>Calculer pour chacune d’elles, la concentration molaire du sel et celle des ions qui constituent le sel.</p>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><span class="math display">\[
+\begin{split}
+     M_{\ce{CaCl2}} &amp;= 110.98\ \text{ g/mol} \\[2em]
+     \Rightarrow n_{\ce{CaCl2}} &amp;= \frac{m_{\ce{CaCl2}}}{M_{\ce{CaCl2}}} = \frac{0.111\ \text{ g}}{110.98\ \text{ g/mol}} = 10^{-3}\ \text{ mol} \\[2em]
+     |\ce{CaCl2}| &amp;= \frac{n_{\ce{CaCl2}}}{V_{sol}} = \frac{10^{-3}\ \text{ mol}}{10^{-1}\ \text{ L}} = 10^{-2}\ M
+\end{split}     
+\qquad
+\begin{split}
+     \ce{CaCl2} &amp; \ce{-&gt;} \ce{Ca}^{2+} + 2\ \ce{Cl}^- \\[2em]
+     |\ce{Ca}^{2+}| &amp;= |\ce{CaCl2}| = 10^{-2}\ M \\[1em]
+     |\ce{Cl}^-| &amp;= 2 \cdot |\ce{CaCl2}| = 2 \cdot 10^{-2}\ M \\
+\end{split}
+\]</span></li>
+<li><span class="math display">\[
+\begin{split}
+     M_{\ce{Fe2(SO4)3}} &amp;= 399.88\ \text{ g/mol} \\[2em]
+     \Rightarrow n_{\ce{Fe2(SO4)3}} &amp;= \frac{m_{\ce{Fe2(SO4)3}}}{M_{\ce{Fe2(SO4)3}}} \\
+         &amp;= \frac{58.5 \cdot 10^{-3}\ \text{ g}}{399.88\ \text{ g/mol}} = 1.463 \cdot 10^{-4}\ \text{ mol} \\[2em]
+     |\ce{Fe2(SO4)3}| &amp;= \frac{n_{\ce{Fe2(SO4)3}}}{V_{sol}}\\ &amp;= \frac{1.463 \cdot 10^{-4}\ \text{ mol}}{10^{-1}\ \text{ L}} = 1.463 \cdot 10^{-3}\ M
+\end{split}     
+\qquad
+\begin{split}
+     \ce{Fe2(SO4)3} &amp; \ce{-&gt;} 2\ \ce{Fe}^{3+} + 3\ \ce{SO4}^{2-} \\[2em]
+     |\ce{Fe}^{3+}| &amp;= 2 \cdot |\ce{Fe2(SO4)3}|\\ &amp;= 2.926 \cdot 10^{-3}\ M \\[1em]
+     |\ce{SO4}^{2-}| &amp;= 3 \cdot |\ce{Fe2(SO4)3}|\\ &amp;= 4.389 \cdot 10^{-3}\ M \\
+\end{split}
+\]</span></li>
+</ol>
+</div>
+<div class="Exercise">
+<ol type="1">
+<li>En supposant une dissociation complète, calculez le nombre de moles de cations et d’anions contenus dans chacune des solutions suivantes :</li>
+</ol>
+<ul>
+<li>20 mL de NaCl 0.1 M<br>
+</li>
+<li>30 mL de CaCl<sub>2</sub> 0.3 M<br>
+</li>
+<li>50 mL de Al<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub> 0.2 M<br>
+</li>
+</ul>
+<ol start="2" type="1">
+<li>On mélange les 3 échantillons. Calculez la molarité de chaque ion dans la solution finale.<br>
+</li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><ol type="a">
+<li><span class="math display">\[
+  \begin{split}
+    NaCl &amp;\ce{-&gt;} Na^+ + Cl^- \\
+    n_{Na^+} &amp;= C_{NaCl} \cdot V_{NaCl} = 0.1\ M \cdot 20 \cdot 10^{-3}\ \text{ l} \\
+    &amp;= 0.002\ \text{ mol} \\
+    n_{Cl^-} &amp;= n_{Na^+} = 0.002\ \text{ mol}
+  \end{split}
+  \]</span></li>
+<li><span class="math display">\[
+  \begin{split}
+    CaCl_2 &amp;\ce{-&gt;} Ca^{2+} + 2\ Cl^- \\
+    n_{Ca^{2+}} &amp;= C_{CaCl_2} \cdot V_{CaCl_2} = 0.3\ M \cdot 30 \cdot 10^{-3}\ \text{ l} \\
+    &amp;= 0.009\ \text{ mol} \\
+    n_{Cl^-} &amp;= 2 \cdot n_{Ca^{2+}} = 0.018\ \text{ mol}
+  \end{split}
+  \]</span></li>
+<li><span class="math display">\[
+  \begin{split}
+    Al_2(SO_4)_3 &amp;\ce{-&gt;} 2\ Al^{3+} + 3\ SO_4^{2-} \\
+    n_{Al^{3+}} &amp;= 2 \cdot C_{Al_2(SO_4)_3} \cdot V_{Al_2(SO_4)_3} = 2 \cdot 0.2\ M \cdot 50 \cdot 10^{-3}\ \text{ l} \\
+    &amp;= 0.02\ \text{ mol} \\
+    n_{SO_4^{2-}} &amp;= 3 \cdot C_{Al_2(SO_4)_3} \cdot V_{Al_2(SO_4)_3} = 3 \cdot 0.2\ M \cdot 50 \cdot 10^{-3}\ \text{ l} \\
+    &amp;= 0.03\ \text{ mol}
+  \end{split}
+  \]</span></li>
+</ol></li>
+<li><span class="math display">\[
+\begin{split}
+V_{final} &amp;= 20\ mL + 30\ mL + 50\ mL = 100\ mL = 0.1\ \text{ l} \\
+|Na^+| &amp;= \frac{0.002\ \text{ mol}}{0.1\ \text{ l}} = 0.02\ M \\
+|Cl^-| &amp;= \frac{0.002\ \text{ mol} + 0.018\ \text{ mol}}{0.1\ \text{ l}} = 0.2\ M \\
+|Ca^{2+}| &amp;= \frac{0.009\ \text{ mol}}{0.1\ \text{ l}} = 0.09\ M \\
+|Al^{3+}| &amp;= \frac{0.02\ \text{ mol}}{0.1\ \text{ l}} = 0.2\ M \\
+|SO_4^{2-}| &amp;= \frac{0.03\ \text{ mol}}{0.1\ \text{ l}} = 0.3\ M \\
+\end{split}
+\]</span></li>
+</ol>
+</div>
+<div class="Exercise">
+<p>Calculer le titre et la molarité des solutions suivantes:</p>
+<ol type="a">
+<li>1.2 g d’hydroxyde de sodium dans 25 mL de solution<br>
+</li>
+<li>3.43 g d’hydroxyde de barium dans 2.5 l de solution<br>
+</li>
+<li>1.47 g d’acide phosphorique dans 40 mL de solution<br>
+</li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="a">
+<li><span class="math display">\[
+\begin{split}
+  T_{NaOH} &amp;= \frac{m_{NaOH}}{V_{sol}} = \frac{1.2\ \text{ g}}{25 \cdot 10^{-3}\ \text{ l}} \\
+  &amp;= 48\ \text{ g/l} \\
+  n_{NaOH} &amp;= \frac{m_{NaOH}}{M_{NaOH}} = \frac{1.2\ \text{ g}}{40.008\ \text{ g/mol}} \\
+  &amp;= 3 \cdot 10^{-2}\ \text{ mol} \\
+  C_{NaOH} &amp;= \frac{n_{NaOH}}{V_{sol}} = \frac{3 \cdot 10^{-2}\ \text{ mol}}{25 \cdot 10^{-3}\ \text{ l}} \\
+  &amp;= 1.2\ M
+\end{split}
+\]</span></li>
+<li><span class="math display">\[
+\begin{split}
+  T_{Ba(OH)2} &amp;= \frac{m_{Ba(OH)2}}{V_{sol}} = \frac{3.43\ \text{ g}}{2.5\ \text{ l}} \\
+  &amp;= 1.372\ \text{ g/l} \\
+  n_{Ba(OH)2} &amp;= \frac{m_{Ba(OH)2}}{M_{Ba(OH)2}} = \frac{3.43\ \text{ g}}{171.316\ \text{ g/mol}} \\
+  &amp;= 2 \cdot 10^{-2}\ \text{ mol} \\
+  C_{Ba(OH)2} &amp;= \frac{n_{Ba(OH)2}}{V_{sol}} = \frac{2 \cdot 10^{-2}\ \text{ mol}}{2.5\ \text{ l}} \\
+  &amp;= 8 \cdot 10^{-3}\ M \\
+\end{split}
+\]</span></li>
+<li><span class="math display">\[
+\begin{split}
+  T_{H_3PO_4} &amp;= \frac{m_{H_3PO_4}}{V_{sol}} = \frac{1.47\ \text{ g}}{40 \cdot 10^{-3}\ \text{ l}} \\
+  &amp;= 36.75\ \text{ g/l} \\
+  n_{H_3PO_4} &amp;= \frac{m_{H_3PO_4}}{M_{H_3PO_4}} = \frac{1.47\ \text{ g}}{97.994\ \text{ g/mol}} \\
+  &amp;= 1.5 \cdot 10^{-2}\ \text{ mol} \\
+  C_{H_3PO_4} &amp;= \frac{n_{H_3PO_4}}{V_{sol}} = \frac{1.5 \cdot 10^{-2}\ \text{ mol}}{40 \cdot 10^{-3}\ \text{ l}} \\
+  &amp;= 0.375\ M \\
+\end{split}
+\]</span></li>
+</ol>
+</div>
+<div class="Exercise">
+<ol type="1">
+<li>Quelle est la molarité d’une solution préparée par dissolution de 12.5 g de dans 350.0 mL d’eau ? </li>
+<li>Combien de grammes de soluté y a-t-il dans 1.50 L de NaOH 0.25 M ? </li>
+<li>Quelle est le titre d’une solution préparée par dissolution de 2.5 mol de dans 500.0 mL d’eau ? </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><span class="math display">\[
+\begin{split}
+M_{\ce{NaHCO3}} &amp;= 84.018\ \text{ g/mol} \\
+\Rightarrow n_{\ce{NaHCO3}} &amp;= \frac{12.5\ \text{ g}}{84.018\ \text{ g/mol}} = 0.149\ \text{ mol}
+\end{split}
+\qquad
+\begin{split}
+C = \frac{n}{V} = \frac{0.149\ \text{ mol}}{0.350\ \text{ L}} = 0.426\ M
+\end{split}
+\]</span></li>
+<li><span class="math display">\[
+\begin{split}
+C &amp;= \frac{n}{V} \quad \Rightarrow \quad n = C \cdot V\\
+n &amp;= 0.25\ M \cdot 1.50\ \text{ L} = 0.375\ \text{ mol}
+\end{split}
+\qquad
+\begin{split}
+M_{\ce{NaOH}} &amp;= 40.008\ \text{ g/mol} \\
+m_{\ce{NaOH}} &amp;= n_{\ce{NaOH}} \cdot M_{\ce{NaOH}} \\
+&amp;= 0.375\ \text{ mol} \cdot 40.008\ \text{ g/mol} = 15.01\ \text{ g}
+\end{split}
+\]</span></li>
+<li><span class="math display">\[
+\begin{split}
+C &amp;= \frac{n}{V} = \frac{2.5\ \text{ mol}}{0.5\ \text{ L}} = 5\ M
+\end{split}
+\qquad
+\begin{split}
+M_{\ce{HCl}} &amp;= 36.458\ \text{ g/mol} \\
+T &amp;= C \cdot M \\
+&amp;= 5\ \text{ mol/L} \cdot 36.458\ \text{ g/mol} = 182.29\ \text{ g/L}
+\end{split}
+\]</span></li>
+</ol>
+</div>
+<div class="Exercise">
+<p>On veut préparer 250 mL d’une solution de chlorure de sodium (NaCl) de concentration 0.20 M. Masse molaire : NaCl = 58.44 g/mol.</p>
+<ol type="1">
+<li>Calculez la quantité de matière (moles) de NaCl nécessaire. </li>
+<li>Calculez la masse de NaCl à peser. </li>
+<li>Décrivez les étapes de la préparation par dissolution. </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><span class="math display">\[
+n = C \cdot V = 0.20 \cdot 0.250 = 0.050 \text{ mol}
+\]</span></li>
+<li><span class="math display">\[
+m = n \cdot M = 0.050 \cdot 58.44 = 2.92 \text{ g}
+\]</span></li>
+<li>Peser 2.92 g de NaCl ; remplir à moitié une fiole jaugée de 250 mL avec de l’eau distillée ; y transférer le sel et le dissoudre ; compléter jusqu’au trait de jauge avec de l’eau distillée.</li>
+</ol>
+</div>
+<div class="Exercise">
+<p>On dispose d’une solution stock d’acide chlorhydrique (HCl) de concentration 2.0 M. On veut préparer 100 mL d’une solution de HCl 0.50 M.</p>
+<ol type="1">
+<li>Quel volume de solution stock faut-il prélever ? </li>
+<li>Décrivez les étapes de la préparation par dilution. </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>La quantité de soluté est conservée : <span class="math inline">\(C_i \cdot V_i = C_f \cdot V_f\)</span>. <span class="math display">\[
+V_i = \frac{C_f \cdot V_f}{C_i} = \frac{0.50 \cdot 0.100}{2.0} = 0.025 \text{ l} = 25 \text{ mL}
+\]</span></li>
+<li>Prélever 25 mL de solution stock ; les verser dans une fiole jaugée de 100 mL contenant déjà un peu d’eau distillée ; compléter jusqu’au trait de jauge avec de l’eau distillée.</li>
+</ol>
+</div>
+<div class="Exercise">
+<p>La solubilité du nitrate de potassium (<span class="math inline">\(KNO_3\)</span>) est de 32 g pour 100 mL d’eau à 20°C, et de 64 g pour 100 mL à 40°C.</p>
+<ol type="1">
+<li>On ajoute 40 g de <span class="math inline">\(KNO_3\)</span> dans 100 mL d’eau à 20°C. Quelle masse se dissout ? La solution est-elle saturée ? </li>
+<li>Quelle masse de <span class="math inline">\(KNO_3\)</span> reste non dissoute ? </li>
+<li>On chauffe le mélange à 40°C. Tout le <span class="math inline">\(KNO_3\)</span> peut-il se dissoudre ? Justifiez. </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>À 20°C, 100 mL d’eau dissolvent au maximum 32 g. Sur les 40 g ajoutés, seuls <strong>32 g se dissolvent</strong> : la solution est <strong>saturée</strong>.</li>
+<li><span class="math inline">\(40 - 32 = 8\)</span> g restent non dissous (solide au fond du récipient).</li>
+<li>Oui : à 40°C, la solubilité est de 64 g pour 100 mL, ce qui est supérieur aux 40 g présents. Tout le <span class="math inline">\(KNO_3\)</span> peut donc se dissoudre.</li>
+</ol>
+</div>
+<div class="Exercise">
+<p>On dissout 3.42 g de sulfate d’aluminium <span class="math inline">\(Al_2(SO_4)_3\)</span> dans de l’eau pour obtenir 100 mL de solution. Masse molaire : <span class="math inline">\(Al_2(SO_4)_3\)</span> = 342.13 g/mol.</p>
+<ol type="1">
+<li>Ce composé est-il soluble ? Forme-t-il une solution électrolyte ? </li>
+<li>Écrivez l’équation de dissociation. </li>
+<li>Calculez la concentration molaire du sel. </li>
+<li>Calculez la concentration molaire de chaque ion. </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>Oui : le sulfate d’aluminium est un composé ionique soluble ; il se dissocie en ions et forme donc une <strong>solution électrolyte</strong> (conductrice).</li>
+<li><span class="math display">\[
+\ce{Al2(SO4)3 -&gt;C[H2O] 2 Al^{3+} + 3 SO4^{2-}}
+\]</span></li>
+<li><span class="math display">\[
+n = \frac{m}{M} = \frac{3.42}{342.13} = 0.0100 \text{ mol}
+\qquad
+|Al_2(SO_4)_3| = \frac{n}{V} = \frac{0.0100}{0.100} = 0.100 \text{ M}
+\]</span></li>
+<li><span class="math display">\[
+|Al^{3+}| = 2 \cdot 0.100 = 0.200 \text{ M}
+\qquad
+|SO_4^{2-}| = 3 \cdot 0.100 = 0.300 \text{ M}
+\]</span></li>
+</ol>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script src="html/vendor/jquery-3.7.1.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+
+    var exeContainerClass = 'Exercise-container';
+    var exeClass = 'Exercise';
+    var ansClass = 'Answer';
+
+    $('.' + exeContainerClass).each(function(i, el) {
+      let child = $(el).children('.' + exeClass);
+      child.replaceWith(child.html());
+      $(el).removeClass(exeContainerClass).addClass(exeClass);
+    });
+
+    var chapterNum = $('.quarto-page-breadcrumbs .chapter-number').first().text().trim();
+
+    $('.' + exeClass).each(function(i, el) {
+      var num = chapterNum + '.' + (i + 1);
+      var title = $('<div>Exercice ' + num + '</div>');
+      title.addClass('Label');
+      $(el).prepend(title);
+    });
+
+    $('.' + ansClass).each(function(i, el) {
+      $(el).click(function() {
+        $(el).slideToggle();
+      });
+      var button = $('<button>Solution</button>');
+      button.attr('type', 'button');
+      button.addClass('Answer-button');
+      button.click(function() {
+        $(el).slideToggle();
+      });
+      button.insertBefore(el);
+    });
+
+  });
+</script>
+<script type="text/javascript">
+  $(document).ready(function () {
+    $("main.content table, main.content .math.display").each(function (i, el) {
+      let parent = $("<div>").attr("style", "overflow-x:auto");
+      $(el).wrap(parent);
+    });
+  });
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copié");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copié");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./90-nomenclature.html" class="pagination-link" aria-label="Nomenclature">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Nomenclature</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./110-reactions-chimiques.html" class="pagination-link" aria-label="Réactions chimiques">
+        <span class="nav-page-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Réactions chimiques</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

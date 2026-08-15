@@ -1,0 +1,1258 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Support du cours de chimie générale | Maturité gymnasiale">
+
+<title>8&nbsp; Géométrie moléculaire et polarité – Cours de chimie générale</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./90-nomenclature.html" rel="next">
+<link href="./70-liaisons.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-05ad7de8ae34bb1016f06e23b5e9a5a9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Pas de résultats",
+    "search-matching-documents-text": "documents trouvés",
+    "search-copy-link-title": "Copier le lien vers la recherche",
+    "search-hide-matches-text": "Cacher les correspondances additionnelles",
+    "search-more-match-text": "correspondance de plus dans ce document",
+    "search-more-matches-text": "correspondances de plus dans ce document",
+    "search-clear-button-title": "Effacer",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Annuler",
+    "search-submit-button-title": "Envoyer",
+    "search-label": "Recherche"
+  }
+}</script>
+<script>
+window.MathJax = {
+  loader: { load: ['[tex]/mhchem', '[tex]/cancel'] },
+  tex: { packages: { '[+]': ['mhchem', 'cancel'] } }
+};
+</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="nav-sidebar docked quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./80-molecules.html"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Géométrie moléculaire et polarité</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Recherche" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Cours de chimie générale</a> 
+        <div class="sidebar-tools-main">
+    <a href="./chimie-generale.pdf" title="Télécharger le PDF" class="quarto-navigation-tool px-1" aria-label="Télécharger le PDF" target="_blank"><i class="bi bi-file-earmark-pdf"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Recherche"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Préambule</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./10-introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./20-etats-de-la-matiere.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Les états de la matière</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./30-melanges-corps-purs.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Mélanges et corps purs</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./40-historique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Historique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./50-atome.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">L’atome</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./60-tableau-periodique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Le tableau périodique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./70-liaisons.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Molécules et liaisons chimiques</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./80-molecules.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Géométrie moléculaire et polarité</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./90-nomenclature.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Nomenclature</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./100-solutions-electrolytes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Solutions et électrolytes</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./110-reactions-chimiques.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Réactions chimiques</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./120-types-reactions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Types de réactions</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./130-stoechiometrie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Calculs stœchiométriques</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./140-gaz-parfaits.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Les gaz parfaits</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./150-cinetique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Cinétique chimique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./160-equilibres.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">L’équilibre chimique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./170-acides-bases.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Les acides et les bases</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./180-ph-potentiel-hydrogene.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Le pH ou potentiel hydrogène</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./190-produit-solubilite.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Le produit de solubilité</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./200-oxydoreductions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Les réactions d’oxydoréduction</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./210-electrochimie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Électrochimie</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./220-thermochimie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Thermochimie</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./230-thermodynamique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Thermodynamique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./00-references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bibliographie</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table des matières</h2>
+   
+  <ul>
+  <li><a href="#la-théorie-vsepr" id="toc-la-théorie-vsepr" class="nav-link active" data-scroll-target="#la-théorie-vsepr"><span class="header-section-number">8.1</span> La théorie VSEPR</a></li>
+  <li><a href="#la-polarité" id="toc-la-polarité" class="nav-link" data-scroll-target="#la-polarité"><span class="header-section-number">8.2</span> La polarité</a>
+  <ul class="collapse">
+  <li><a href="#molécules-polaires" id="toc-molécules-polaires" class="nav-link" data-scroll-target="#molécules-polaires"><span class="header-section-number">8.2.1</span> Molécules polaires</a></li>
+  <li><a href="#molécules-non-polaires" id="toc-molécules-non-polaires" class="nav-link" data-scroll-target="#molécules-non-polaires"><span class="header-section-number">8.2.2</span> Molécules non-polaires</a></li>
+  </ul></li>
+  <li><a href="#forces-intermoléculaires" id="toc-forces-intermoléculaires" class="nav-link" data-scroll-target="#forces-intermoléculaires"><span class="header-section-number">8.3</span> Forces intermoléculaires</a>
+  <ul class="collapse">
+  <li><a href="#les-forces-de-dispersion-ou-forces-de-london" id="toc-les-forces-de-dispersion-ou-forces-de-london" class="nav-link" data-scroll-target="#les-forces-de-dispersion-ou-forces-de-london"><span class="header-section-number">8.3.1</span> Les forces de dispersion (ou forces de London)</a></li>
+  <li><a href="#les-interactions-dipôle-dipôle" id="toc-les-interactions-dipôle-dipôle" class="nav-link" data-scroll-target="#les-interactions-dipôle-dipôle"><span class="header-section-number">8.3.2</span> Les interactions dipôle-dipôle</a></li>
+  <li><a href="#la-liaison-hydrogène-ou-pont-hydrogène" id="toc-la-liaison-hydrogène-ou-pont-hydrogène" class="nav-link" data-scroll-target="#la-liaison-hydrogène-ou-pont-hydrogène"><span class="header-section-number">8.3.3</span> La liaison hydrogène (ou pont hydrogène)</a></li>
+  <li><a href="#résumé-des-forces-intermoléculaires" id="toc-résumé-des-forces-intermoléculaires" class="nav-link" data-scroll-target="#résumé-des-forces-intermoléculaires"><span class="header-section-number">8.3.4</span> Résumé des forces intermoléculaires</a></li>
+  </ul></li>
+  <li><a href="#résumé" id="toc-résumé" class="nav-link" data-scroll-target="#résumé"><span class="header-section-number">8.4</span> Résumé</a></li>
+  <li><a href="#exercices-supplémentaires" id="toc-exercices-supplémentaires" class="nav-link" data-scroll-target="#exercices-supplémentaires"><span class="header-section-number">8.5</span> Exercices supplémentaires</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Géométrie moléculaire et polarité</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="objectives">
+<ul>
+<li>Utiliser la méthode VSEPR pour déterminer la géométrie d’une molécule.</li>
+<li>Utiliser la méthode VSEPR pour déterminer des angles de liaison.</li>
+<li>Expliquer le concept de polarité et identifier une molécule polaire.</li>
+<li>Expliquer le concept de liaison intermoléculaire.</li>
+<li>Identifier les différents types de liaisons intermoléculaires.</li>
+</ul>
+</div>
+<p>La géométrie d’une molécule représente la disposition dans l’espace des atomes dans une molécule. Déterminer la structure d’un composé peut aider à connaître ses propriétés comme la polarité, la réactivité, la phase de la matière, la couleur, le magnétisme ou l’activité biologique.</p>
+<section id="la-théorie-vsepr" class="level2" data-number="8.1">
+<h2 data-number="8.1" class="anchored" data-anchor-id="la-théorie-vsepr"><span class="header-section-number">8.1</span> La théorie VSEPR</h2>
+<p>Cette méthode (Valence Shell Electron Pair Repulsion) s’applique aux molécules avec un atome central et des liaisons covalentes. Elle est basée sur le fait que les liaisons et les paires libres vont s’organiser autour de l’atome central de façon à minimiser leurs répulsions.</p>
+<p>On commence par définir le <strong>nombre stérique</strong>, NS.</p>
+<p><span class="math display">\[ \begin{split}
+    NS = m + n
+  \end{split}
+  \qquad
+  \begin{split}
+    &amp;\text{avec} \\
+    &amp;\text{m: nombre d'atomes liés à l'atome central} \\
+    &amp;\text{n: nombre de paires libres de l'atome central}
+  \end{split} \]</span></p>
+<p>Ensuite, à chaque valeur de NS correspond une géométrie de molécule.</p>
+<div id="tbl-tab-vsepr" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-tab-vsepr-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;8.1: Géométries VSEPR.
+</figcaption>
+<div aria-describedby="tbl-tab-vsepr-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 2%">
+<col style="width: 18%">
+<col style="width: 16%">
+<col style="width: 30%">
+<col style="width: 32%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">NS</th>
+<th style="text-align: center;">nom</th>
+<th style="text-align: center;">angles de liaisons</th>
+<th style="text-align: center;">représentation</th>
+<th style="text-align: center;">exemple</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">linéaire</td>
+<td style="text-align: center;">180°</td>
+<td style="text-align: center;"><img src="images/vsepr-1.png" class="img-fluid figure-img" style="width:4em"></td>
+<td style="text-align: center;"><img src="images/mol3D/CO2.png" class="img-fluid figure-img" style="width:6em"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">trigonale plan</td>
+<td style="text-align: center;">120°</td>
+<td style="text-align: center;"><img src="images/vsepr-2.png" class="img-fluid figure-img" style="width:4em"></td>
+<td style="text-align: center;"><img src="images/mol3D/BF3.png" class="img-fluid figure-img" style="width:6em"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">tétraèdre</td>
+<td style="text-align: center;">109.5°</td>
+<td style="text-align: center;"><img src="images/vsepr-3.png" class="img-fluid figure-img" style="width:4em"></td>
+<td style="text-align: center;"><img src="images/mol3D/CH4.png" class="img-fluid figure-img" style="width:6em"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">bipyramide trigonale</td>
+<td style="text-align: center;">120° et 90°</td>
+<td style="text-align: center;"><img src="images/vsepr-4.png" class="img-fluid figure-img" style="width:4em"></td>
+<td style="text-align: center;"><img src="images/mol3D/PH5.png" class="img-fluid figure-img" style="width:6em"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>Il existe des géométries pour des valeurs de NS supérieures à 5, mais elles ne sont pas représentées dans ce tableau.</p>
+<div class="Exercise">
+<p>A l’aide de la méthode VSEPR, dessinez la formule développée des molécules proposées ci-dessous et indiquez les angles de liaison.</p>
+<div class="multicols">
+<p><span class="math inline">\(NH_3\)</span></p>
+<p><span class="math inline">\(SO_3\)</span></p>
+<p><span class="math inline">\(H_2O\)</span></p>
+</div>
+</div>
+<div class="Answer">
+<div class="multicols">
+<p><img src="images/molecules-10-NH3.png" class="img-fluid" style="width:6em"></p>
+<p><img src="images/molecules-10-SO3.png" class="img-fluid" style="width:6em"></p>
+<p><img src="images/molecules-10-H2O.png" class="img-fluid" style="width:6em"></p>
+</div>
+</div>
+<div class="Exercise">
+<p>Pour chacune des molécules suivantes, déterminez le nombre stérique (NS) de l’atome central, le nom de la géométrie et l’angle de liaison.</p>
+<ol type="1">
+<li><span class="math inline">\(CO_2\)</span></li>
+<li><span class="math inline">\(BF_3\)</span></li>
+<li><span class="math inline">\(CH_4\)</span></li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><span class="math inline">\(CO_2\)</span> : NS = 2 (2 atomes liés, 0 paire libre) → géométrie <strong>linéaire</strong>, angle 180°.</li>
+<li><span class="math inline">\(BF_3\)</span> : NS = 3 (3 atomes liés, 0 paire libre) → géométrie <strong>trigonale plane</strong>, angle 120°.</li>
+<li><span class="math inline">\(CH_4\)</span> : NS = 4 (4 atomes liés, 0 paire libre) → géométrie <strong>tétraèdre</strong>, angle 109.5°.</li>
+</ol>
+</div>
+</section>
+<section id="la-polarité" class="level2" data-number="8.2">
+<h2 data-number="8.2" class="anchored" data-anchor-id="la-polarité"><span class="header-section-number">8.2</span> La polarité</h2>
+<p>La différence d’électronégativité entre les éléments chimiques qui composent une molécule induit une répartition dans l’espace de charges négatives et positives créant ainsi <strong>un dipôle</strong> (ou un multipôle). C’est-à-dire, un couple de charges de signe opposé distantes d’une longueur non nulle. C’est l’équivalent d’un minuscule aimant. On représente un dipôle par une flèche avec une base en croix et dont la flèche pointe vers l’atome le plus électronégatif.</p>
+<p>Un dipôle peut se créer entre deux ions dans une liaison ionique ou entre des atomes dans une liaison covalente. Plus la différence d’électronégativité est grande, plus le moment dipolaire est important. La distance entre les charges et la géométrie de la molécule sont des facteurs qui influencent l’intensité du <strong>moment dipolaire</strong>. Le moment dipolaire est une mesure de la <strong>polarité d’une molécule</strong>.</p>
+<div id="fig-dipole-0" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-dipole-0-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/dipole-0.png" class="img-fluid figure-img" style="width:60.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-dipole-0-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;8.1: Variation de l’intensité du dipôle
+</figcaption>
+</figure>
+</div>
+<p>La polarité a une influence sur la réactivité chimique des molécules mais également sur certaines propriétés physiques comme la solubilité ou les températures de fusion et d’ébullition.</p>
+<section id="molécules-polaires" class="level3" data-number="8.2.1">
+<h3 data-number="8.2.1" class="anchored" data-anchor-id="molécules-polaires"><span class="header-section-number">8.2.1</span> Molécules polaires</h3>
+<p>Mathématiquement, les moments dipolaires sont des vecteurs. Ils possèdent une intensité, une direction et un sens. Pour des molécules qui comportent plusieurs covalences polaires, on calcule le moment dipolaire net comme la somme vectorielle des moments dipolaires des différentes liaisons.</p>
+<div id="fig-dipole-1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-dipole-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/dipole-1.png" class="img-fluid figure-img" style="width:60.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-dipole-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;8.2: Dipôle résultant de l’addition des polarités des liaisons
+</figcaption>
+</figure>
+</div>
+<p>L’ammoniac (<span class="math inline">\(NH_3\)</span>), l’eau (<span class="math inline">\(H_2O\)</span>) et le fluorure d’hydrogène (<span class="math inline">\(HF\)</span>) sont des molécules polaires. Dans ces molécules une charge partielle négative est portée par les atomes d’azote, d’oxygène ou de fluor car ces atomes sont plus électronégatifs que l’hydrogène alors que ce dernier porte une charge partielle positive.</p>
+<p>Les molécules polaires vont se comporter comme de petits aimants. Elles s’alignent les unes par rapport aux autres. L’extrémité négative d’une molécule attirant l’extrémité positive d’une autre molécule. De la même manière, les molécules polaires sont attirées par les ions. L’extrémité négative d’une molécule polaire sera attirée par un cation et l’extrémité positive sera attirée par un anion. Si elles sont placées dans un champs électrique, les molécules polaires vont s’orienter de manière préférentielle.</p>
+<div id="fig-dipole-3" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-dipole-3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/dipole-3.png" class="img-fluid figure-img" style="width:60.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-dipole-3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;8.3: Comportement des molécules polaires
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="molécules-non-polaires" class="level3" data-number="8.2.2">
+<h3 data-number="8.2.2" class="anchored" data-anchor-id="molécules-non-polaires"><span class="header-section-number">8.2.2</span> Molécules non-polaires</h3>
+<p>On dit des molécules qui ne contiennent pas de liaisons polaires qu’elles sont <strong>non polaires</strong>, comme par exemple, les molécules diatomiques formées de deux atomes d’un même élément. Les électrons de liaisons sont partagés équitablement entre les deux atomes. Cependant, ce ne sont pas le seul type de molécules non polaires.</p>
+<p>Certaines molécules sont symétriques. La symétrie de ces molécules peut les rendre non polaires bien qu’elles contiennent des liaisons polaires. Les polarités de chaque liaison s’annulent à cause de la géométrie de la molécule.</p>
+<div id="fig-dipole-4" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-dipole-4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/dipole-4.png" class="img-fluid figure-img" style="width:50.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-dipole-4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;8.4: Molécules non polaires
+</figcaption>
+</figure>
+</div>
+<div class="Exercise">
+<p>Pour chacune des molécules suivantes, indiquez si elle est polaire ou non polaire, et justifiez.</p>
+<ol type="1">
+<li><span class="math inline">\(HCl\)</span></li>
+<li><span class="math inline">\(O_2\)</span></li>
+<li><span class="math inline">\(H_2O\)</span></li>
+<li><span class="math inline">\(CO_2\)</span></li>
+<li><span class="math inline">\(CH_4\)</span></li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><span class="math inline">\(HCl\)</span> : <strong>polaire</strong>. La liaison H–Cl est polaire (le chlore est plus électronégatif) et rien ne compense ce dipôle dans une molécule diatomique.</li>
+<li><span class="math inline">\(O_2\)</span> : <strong>non polaire</strong>. Les deux atomes identiques partagent les électrons de manière égale : la liaison n’est pas polaire.</li>
+<li><span class="math inline">\(H_2O\)</span> : <strong>polaire</strong>. Les liaisons O–H sont polaires et la molécule n’est pas symétrique : les dipôles ne s’annulent pas.</li>
+<li><span class="math inline">\(CO_2\)</span> : <strong>non polaire</strong>. La molécule est linéaire et symétrique : les deux dipôles opposés des liaisons C=O s’annulent.</li>
+<li><span class="math inline">\(CH_4\)</span> : <strong>non polaire</strong>. La molécule est symétrique (tétraèdre) : les dipôles des liaisons C–H s’annulent.</li>
+</ol>
+</div>
+</section>
+</section>
+<section id="forces-intermoléculaires" class="level2" data-number="8.3">
+<h2 data-number="8.3" class="anchored" data-anchor-id="forces-intermoléculaires"><span class="header-section-number">8.3</span> Forces intermoléculaires</h2>
+<p>Les <strong>forces intermoléculaires</strong> sont les forces qui agissent entre les molécules ou les atomes et les maintiennent rapprochés les uns des autres.</p>
+<p>Dans les gaz, les forces intermoléculaires sont négligeables. Les molécules de gaz se déplacent indépendamment les unes des autres. Dans les liquides et les solides, par contre, les forces intermoléculaires sont suffisamment fortes pour maintenir les molécules proches les unes des autres. Plus les forces intermoléculaires sont fortes au sein d’une substance et plus les points de fusion et d’ébullition de la substance sont élevés. Ces forces sont également appelées forces de Van der Waals et peuvent être de trois types.</p>
+<section id="les-forces-de-dispersion-ou-forces-de-london" class="level3" data-number="8.3.1">
+<h3 data-number="8.3.1" class="anchored" data-anchor-id="les-forces-de-dispersion-ou-forces-de-london"><span class="header-section-number">8.3.1</span> Les forces de dispersion (ou forces de London)</h3>
+<p>Ce sont des forces d’attraction de <strong>courte durée</strong> dues au mouvement constant des électrons au sein des molécules.</p>
+<p>Dans le cas d’une molécule non polaire, en moyenne dans le temps, les électrons sont répartis uniformément dans la molécule. Par contre, de manière instantanée, il peut y avoir plus d’électrons à une extrémité de la molécule qu’à l’autre. À cet instant, la molécule présente une polarité de courte durée. Les électrons des molécules voisines sont attirés par l’extrémité positive de la molécule polarisée, ce qui entraîne une polarisation de la molécule voisine et la création d’une force d’attraction. Toutes les molécules subissent des forces de dispersion de London.</p>
+<div id="fig-forces-london" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-forces-london-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/forces-london.png" class="img-fluid figure-img" style="width:67.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-forces-london-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;8.5: Apparition des forces de dispersion
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="les-interactions-dipôle-dipôle" class="level3" data-number="8.3.2">
+<h3 data-number="8.3.2" class="anchored" data-anchor-id="les-interactions-dipôle-dipôle"><span class="header-section-number">8.3.2</span> Les interactions dipôle-dipôle</h3>
+<p>Ce sont les forces d’attraction entre les pôles positifs et négatifs des molécules polaires.</p>
+<p>Les molécules polaires présentent un moment dipolaire net <strong>permanent</strong>. Les extrémités positives et négatives de différentes molécules sont attirées l’une vers l’autre par ce que l’on appelle une interaction dipôle-dipôle.</p>
+<div id="fig-dipole-dipole" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-dipole-dipole-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/dipole-dipole.png" class="img-fluid figure-img" style="width:67.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-dipole-dipole-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;8.6: Molécules polaires et interaction dipôle-dipôle.
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="la-liaison-hydrogène-ou-pont-hydrogène" class="level3" data-number="8.3.3">
+<h3 data-number="8.3.3" class="anchored" data-anchor-id="la-liaison-hydrogène-ou-pont-hydrogène"><span class="header-section-number">8.3.3</span> La liaison hydrogène (ou pont hydrogène)</h3>
+<p>C’est la force d’attraction entre un atome d’hydrogène lié à un atome électronégatif et un autre atome électronégatif voisin.</p>
+<p>La liaison hydrogène est un type particulier d’interaction dipôle-dipôle. Les liaisons O-H, N-H et F-H sont très polaires. Il en résulte des attractions remarquablement fortes. L’eau, en particulier, est capable de former un vaste réseau tridimensionnel de liaisons hydrogène car chaque molécule possède deux hydrogènes et un atome électronégatif voisin.</p>
+<div id="fig-eau-liaison-hydrogene" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-eau-liaison-hydrogene-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><img src="images/ice-0.png" class="img-fluid figure-img"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><img src="images/ice-tetra.png" class="img-fluid figure-img"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><img src="images/ice.png" class="img-fluid figure-img"></p>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-eau-liaison-hydrogene-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;8.7: La liaison hydrogène entre les molécules d’eau
+</figcaption>
+</figure>
+</div>
+<p>Les forces intermoléculaires influencent les propriétés d’une substance par leurs interactions entre molécules. Mais ces mêmes forces peuvent également agir entre différentes parties d’une même molécule. Ces interactions peuvent par exemple influencer la forme de macro-molécules biologiques comme les protéines et les acides nucléiques.</p>
+<div id="fig-dna" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-dna-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/dna.png" class="img-fluid figure-img" style="width:100.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-dna-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;8.8: Paires de bases, liaisons hydrogène et ADN.
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="résumé-des-forces-intermoléculaires" class="level3" data-number="8.3.4">
+<h3 data-number="8.3.4" class="anchored" data-anchor-id="résumé-des-forces-intermoléculaires"><span class="header-section-number">8.3.4</span> Résumé des forces intermoléculaires</h3>
+<div id="tbl-comparatif-intermoleculaires" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-comparatif-intermoleculaires-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;8.2: Comparatif des forces intermoléculaires.
+</figcaption>
+<div aria-describedby="tbl-comparatif-intermoleculaires-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 32%">
+<col style="width: 26%">
+<col style="width: 41%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Interaction</th>
+<th style="text-align: left;">Intensité</th>
+<th style="text-align: left;">Caractéristiques</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Liaisons hydrogène</td>
+<td style="text-align: left;">moyenne (8–40 kJ/mol)</td>
+<td style="text-align: left;">entre liaisons O-H, N-H et/ou F-H</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Interactions dipôle-dipôle</td>
+<td style="text-align: left;">faible (14 kJ/mol)</td>
+<td style="text-align: left;">entre molécules polaires</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Forces de dispersion</td>
+<td style="text-align: left;">faible (2–10 kJ/mol)</td>
+<td style="text-align: left;">entre toutes molécules</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<div id="fig-forces-intermoleculaires-resume" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-forces-intermoleculaires-resume-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/forces-intermoleculaires-resume.png" class="img-fluid figure-img" style="width:100.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-forces-intermoleculaires-resume-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;8.9: Résumé des forces intermoléculaires
+</figcaption>
+</figure>
+</div>
+<div class="Exercise">
+<p>Répondez aux questions suivantes sur les forces intermoléculaires.</p>
+<ol type="1">
+<li>Qu’est-ce qu’une force intermoléculaire ? Quel est l’effet de forces intermoléculaires plus fortes sur les points de fusion et d’ébullition ? </li>
+<li>Quel type de force intermoléculaire est présent dans toutes les molécules ? </li>
+<li>Pour chacune des substances suivantes, indiquez la force intermoléculaire la plus forte présente : <span class="math inline">\(O_2\)</span>, <span class="math inline">\(HCl\)</span>, <span class="math inline">\(H_2O\)</span>. </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>Une force intermoléculaire est une force d’attraction qui agit entre les molécules et les maintient rapprochées. Plus ces forces sont fortes, plus les points de fusion et d’ébullition de la substance sont élevés.</li>
+<li>Les <strong>forces de dispersion</strong> (forces de London) : elles existent entre toutes les molécules.</li>
+<li>Force la plus forte présente :
+<ul>
+<li><span class="math inline">\(O_2\)</span> (non polaire) : forces de dispersion (London) uniquement.</li>
+<li><span class="math inline">\(HCl\)</span> (polaire) : interactions dipôle-dipôle.</li>
+<li><span class="math inline">\(H_2O\)</span> (liaisons O–H) : liaison hydrogène.</li>
+</ul></li>
+</ol>
+</div>
+</section>
+</section>
+<section id="résumé" class="level2" data-number="8.4">
+<h2 data-number="8.4" class="anchored" data-anchor-id="résumé"><span class="header-section-number">8.4</span> Résumé</h2>
+<ul>
+<li>La théorie VSEPR prévoit la géométrie d’une molécule à atome central : les liaisons et les paires libres se repoussent et s’organisent autour de l’atome central pour minimiser leurs répulsions.</li>
+<li>On calcule le nombre stérique <span class="math inline">\(NS = m + n\)</span> (<span class="math inline">\(m\)</span> = atomes liés, <span class="math inline">\(n\)</span> = paires libres de l’atome central). À chaque valeur correspond une géométrie.</li>
+<li>Une liaison entre deux atomes d’électronégativités différentes crée un dipôle ; le moment dipolaire mesure la polarité de la molécule.</li>
+<li>Une molécule est polaire si les dipôles de ses liaisons ne se compensent pas. Elle est non polaire si elle ne contient pas de liaison polaire, ou si sa symétrie fait que les dipôles s’annulent.</li>
+<li>Les forces intermoléculaires (forces de Van der Waals) attirent les molécules entre elles ; plus elles sont fortes, plus les points de fusion et d’ébullition sont élevés. On distingue :
+<ul>
+<li>les forces de dispersion (London) : faibles et temporaires, présentes entre toutes les molécules ;</li>
+<li>les interactions dipôle-dipôle : entre molécules polaires ;</li>
+<li>la liaison hydrogène : la plus forte, entre un hydrogène lié à O, N ou F et un atome électronégatif voisin.</li>
+</ul></li>
+</ul>
+</section>
+<section id="exercices-supplémentaires" class="level2" data-number="8.5">
+<h2 data-number="8.5" class="anchored" data-anchor-id="exercices-supplémentaires"><span class="header-section-number">8.5</span> Exercices supplémentaires</h2>
+<div class="Exercise">
+<p>On compare le dioxyde de carbone <span class="math inline">\(CO_2\)</span> et l’eau <span class="math inline">\(H_2O\)</span>.</p>
+<ol type="1">
+<li>Pour chaque molécule, donnez le nombre stérique de l’atome central et le nom de la géométrie. </li>
+<li>Chaque molécule contient des liaisons polaires. Laquelle est une molécule polaire ? Justifiez à l’aide de la géométrie. </li>
+<li>Quelle est la force intermoléculaire la plus forte dans l’eau ? Et dans le <span class="math inline">\(CO_2\)</span> ? </li>
+<li>Laquelle des deux substances possède le point d’ébullition le plus élevé ? Justifiez. </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><span class="math inline">\(CO_2\)</span> : NS = 2 → géométrie <strong>linéaire</strong>. <span class="math inline">\(H_2O\)</span> : NS = 2 + 2 = 4 → géométrie dérivée du <strong>tétraèdre</strong> (molécule non symétrique).</li>
+<li><span class="math inline">\(CO_2\)</span> est linéaire et symétrique : les deux dipôles opposés s’annulent → <strong>non polaire</strong>. <span class="math inline">\(H_2O\)</span> n’est pas symétrique : les dipôles ne s’annulent pas → <strong>polaire</strong>.</li>
+<li>Dans l’eau : la <strong>liaison hydrogène</strong>. Dans le <span class="math inline">\(CO_2\)</span> (non polaire) : uniquement les <strong>forces de dispersion</strong> (London).</li>
+<li>L’<strong>eau</strong> : ses liaisons hydrogène sont fortes et demandent beaucoup d’énergie pour être rompues, alors que le <span class="math inline">\(CO_2\)</span> n’a que de faibles forces de dispersion. Le point d’ébullition de l’eau est donc plus élevé.</li>
+</ol>
+</div>
+<div class="Exercise">
+<p>On donne les points d’ébullition (sous 1 atm) de trois substances : <span class="math inline">\(CH_4\)</span> (−161 °C), <span class="math inline">\(HCl\)</span> (−85 °C), <span class="math inline">\(H_2O\)</span> (100 °C).</p>
+<ol type="1">
+<li>Classez ces substances selon la force de leurs interactions intermoléculaires. </li>
+<li>Pour chaque substance, identifiez la force intermoléculaire dominante. </li>
+<li>Expliquez pourquoi l’eau possède un point d’ébullition beaucoup plus élevé que les deux autres. </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>Plus le point d’ébullition est élevé, plus les forces intermoléculaires sont fortes : <span class="math display">\[
+H_2O &gt; HCl &gt; CH_4
+\]</span></li>
+<li>Force dominante :
+<ul>
+<li><span class="math inline">\(CH_4\)</span> (non polaire) : forces de dispersion (London).</li>
+<li><span class="math inline">\(HCl\)</span> (polaire) : interactions dipôle-dipôle.</li>
+<li><span class="math inline">\(H_2O\)</span> : liaison hydrogène.</li>
+</ul></li>
+<li>L’eau forme des <strong>liaisons hydrogène</strong>, les plus fortes des forces intermoléculaires. Il faut beaucoup d’énergie thermique pour les rompre, d’où un point d’ébullition très élevé par rapport au <span class="math inline">\(HCl\)</span> (dipôle-dipôle) et au <span class="math inline">\(CH_4\)</span> (dispersion seule).</li>
+</ol>
+</div>
+<div class="Exercise">
+<p>Pour chacune des molécules <span class="math inline">\(BF_3\)</span>, <span class="math inline">\(NH_3\)</span> et <span class="math inline">\(CH_4\)</span> :</p>
+<ol type="1">
+<li>Donnez le nombre stérique de l’atome central et le nom de la géométrie. </li>
+<li>Indiquez l’angle de liaison approximatif. </li>
+<li>La molécule est-elle polaire ou non polaire ? Justifiez. </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>Géométries :
+<ul>
+<li><span class="math inline">\(BF_3\)</span> : NS = 3 → trigonale plane.</li>
+<li><span class="math inline">\(NH_3\)</span> : NS = 3 + 1 = 4 → dérivée du tétraèdre.</li>
+<li><span class="math inline">\(CH_4\)</span> : NS = 4 → tétraèdre.</li>
+</ul></li>
+<li>Angles de liaison :
+<ul>
+<li><span class="math inline">\(BF_3\)</span> : 120°.</li>
+<li><span class="math inline">\(NH_3\)</span> : ≈ 109.5° (géométrie dérivée du tétraèdre).</li>
+<li><span class="math inline">\(CH_4\)</span> : 109.5°.</li>
+</ul></li>
+<li>Polarité :
+<ul>
+<li><span class="math inline">\(BF_3\)</span> : <strong>non polaire</strong> (molécule symétrique, les dipôles s’annulent).</li>
+<li><span class="math inline">\(NH_3\)</span> : <strong>polaire</strong> (la paire libre rend la molécule non symétrique, les dipôles ne s’annulent pas).</li>
+<li><span class="math inline">\(CH_4\)</span> : <strong>non polaire</strong> (molécule symétrique, les dipôles s’annulent).</li>
+</ul></li>
+</ol>
+</div>
+<div class="Exercise">
+<p>L’eau <span class="math inline">\(H_2O\)</span> bout à 100 °C alors que le sulfure d’hydrogène <span class="math inline">\(H_2S\)</span>, de structure semblable, bout à −60 °C. On rappelle que l’oxygène et le soufre appartiennent au même groupe (VI).</p>
+<ol type="1">
+<li>Ces deux molécules sont-elles polaires ? Justifiez brièvement. </li>
+<li>Quelle force intermoléculaire particulière existe dans l’eau mais pas dans le <span class="math inline">\(H_2S\)</span> ? Pourquoi ? </li>
+<li>Expliquez la grande différence entre leurs points d’ébullition. </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>Oui, les deux sont <strong>polaires</strong> : elles possèdent des liaisons polaires (O–H et S–H) et une géométrie non symétrique, si bien que les dipôles ne s’annulent pas.</li>
+<li>La <strong>liaison hydrogène</strong>. Elle se forme lorsqu’un hydrogène est lié à un atome très électronégatif (O, N ou F). L’oxygène est assez électronégatif pour cela, mais pas le soufre : le <span class="math inline">\(H_2S\)</span> ne forme donc pas de liaison hydrogène.</li>
+<li>L’eau forme des liaisons hydrogène, très fortes, qui demandent beaucoup d’énergie pour être rompues → point d’ébullition élevé (100 °C). Le <span class="math inline">\(H_2S\)</span> n’a que des interactions dipôle-dipôle et de dispersion, plus faibles → point d’ébullition bien plus bas (−60 °C).</li>
+</ol>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script src="html/vendor/jquery-3.7.1.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+
+    var exeContainerClass = 'Exercise-container';
+    var exeClass = 'Exercise';
+    var ansClass = 'Answer';
+
+    $('.' + exeContainerClass).each(function(i, el) {
+      let child = $(el).children('.' + exeClass);
+      child.replaceWith(child.html());
+      $(el).removeClass(exeContainerClass).addClass(exeClass);
+    });
+
+    var chapterNum = $('.quarto-page-breadcrumbs .chapter-number').first().text().trim();
+
+    $('.' + exeClass).each(function(i, el) {
+      var num = chapterNum + '.' + (i + 1);
+      var title = $('<div>Exercice ' + num + '</div>');
+      title.addClass('Label');
+      $(el).prepend(title);
+    });
+
+    $('.' + ansClass).each(function(i, el) {
+      $(el).click(function() {
+        $(el).slideToggle();
+      });
+      var button = $('<button>Solution</button>');
+      button.attr('type', 'button');
+      button.addClass('Answer-button');
+      button.click(function() {
+        $(el).slideToggle();
+      });
+      button.insertBefore(el);
+    });
+
+  });
+</script>
+<script type="text/javascript">
+  $(document).ready(function () {
+    $("main.content table, main.content .math.display").each(function (i, el) {
+      let parent = $("<div>").attr("style", "overflow-x:auto");
+      $(el).wrap(parent);
+    });
+  });
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copié");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copié");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./70-liaisons.html" class="pagination-link" aria-label="Molécules et liaisons chimiques">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Molécules et liaisons chimiques</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./90-nomenclature.html" class="pagination-link" aria-label="Nomenclature">
+        <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Nomenclature</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

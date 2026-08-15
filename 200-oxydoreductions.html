@@ -1,0 +1,1675 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Support du cours de chimie générale | Maturité gymnasiale">
+
+<title>20&nbsp; Les réactions d’oxydoréduction – Cours de chimie générale</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./210-electrochimie.html" rel="next">
+<link href="./190-produit-solubilite.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-05ad7de8ae34bb1016f06e23b5e9a5a9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Pas de résultats",
+    "search-matching-documents-text": "documents trouvés",
+    "search-copy-link-title": "Copier le lien vers la recherche",
+    "search-hide-matches-text": "Cacher les correspondances additionnelles",
+    "search-more-match-text": "correspondance de plus dans ce document",
+    "search-more-matches-text": "correspondances de plus dans ce document",
+    "search-clear-button-title": "Effacer",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Annuler",
+    "search-submit-button-title": "Envoyer",
+    "search-label": "Recherche"
+  }
+}</script>
+<script>
+window.MathJax = {
+  loader: { load: ['[tex]/mhchem', '[tex]/cancel'] },
+  tex: { packages: { '[+]': ['mhchem', 'cancel'] } }
+};
+</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="nav-sidebar docked quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./200-oxydoreductions.html"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Les réactions d’oxydoréduction</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Recherche" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Cours de chimie générale</a> 
+        <div class="sidebar-tools-main">
+    <a href="./chimie-generale.pdf" title="Télécharger le PDF" class="quarto-navigation-tool px-1" aria-label="Télécharger le PDF" target="_blank"><i class="bi bi-file-earmark-pdf"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Recherche"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Préambule</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./10-introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./20-etats-de-la-matiere.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Les états de la matière</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./30-melanges-corps-purs.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Mélanges et corps purs</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./40-historique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Historique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./50-atome.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">L’atome</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./60-tableau-periodique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Le tableau périodique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./70-liaisons.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Molécules et liaisons chimiques</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./80-molecules.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Géométrie moléculaire et polarité</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./90-nomenclature.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Nomenclature</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./100-solutions-electrolytes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Solutions et électrolytes</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./110-reactions-chimiques.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Réactions chimiques</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./120-types-reactions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Types de réactions</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./130-stoechiometrie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Calculs stœchiométriques</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./140-gaz-parfaits.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Les gaz parfaits</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./150-cinetique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Cinétique chimique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./160-equilibres.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">L’équilibre chimique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./170-acides-bases.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Les acides et les bases</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./180-ph-potentiel-hydrogene.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Le pH ou potentiel hydrogène</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./190-produit-solubilite.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Le produit de solubilité</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./200-oxydoreductions.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Les réactions d’oxydoréduction</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./210-electrochimie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Électrochimie</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./220-thermochimie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Thermochimie</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./230-thermodynamique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Thermodynamique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./00-references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bibliographie</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table des matières</h2>
+   
+  <ul>
+  <li><a href="#le-nombre-doxydation" id="toc-le-nombre-doxydation" class="nav-link active" data-scroll-target="#le-nombre-doxydation"><span class="header-section-number">20.1</span> Le nombre d’oxydation</a>
+  <ul class="collapse">
+  <li><a href="#attribuer-les-nombres-doxydation" id="toc-attribuer-les-nombres-doxydation" class="nav-link" data-scroll-target="#attribuer-les-nombres-doxydation"><span class="header-section-number">20.1.1</span> Attribuer les nombres d’oxydation</a></li>
+  </ul></li>
+  <li><a href="#distinguer-une-réaction-doxydoréduction" id="toc-distinguer-une-réaction-doxydoréduction" class="nav-link" data-scroll-target="#distinguer-une-réaction-doxydoréduction"><span class="header-section-number">20.2</span> Distinguer une réaction d’oxydoréduction</a></li>
+  <li><a href="#définitions-de-termes" id="toc-définitions-de-termes" class="nav-link" data-scroll-target="#définitions-de-termes"><span class="header-section-number">20.3</span> Définitions de termes</a>
+  <ul class="collapse">
+  <li><a href="#couples-oxred" id="toc-couples-oxred" class="nav-link" data-scroll-target="#couples-oxred"><span class="header-section-number">20.3.1</span> Couples oxred</a></li>
+  </ul></li>
+  <li><a href="#potentiels-standards-et-spontanéité" id="toc-potentiels-standards-et-spontanéité" class="nav-link" data-scroll-target="#potentiels-standards-et-spontanéité"><span class="header-section-number">20.4</span> Potentiels standards et spontanéité</a>
+  <ul class="collapse">
+  <li><a href="#règle-du-gamma" id="toc-règle-du-gamma" class="nav-link" data-scroll-target="#règle-du-gamma"><span class="header-section-number">20.4.1</span> Règle du gamma</a></li>
+  </ul></li>
+  <li><a href="#équilibrer-les-équations-doxydoréduction" id="toc-équilibrer-les-équations-doxydoréduction" class="nav-link" data-scroll-target="#équilibrer-les-équations-doxydoréduction"><span class="header-section-number">20.5</span> Équilibrer les équations d’oxydoréduction</a></li>
+  <li><a href="#résumé" id="toc-résumé" class="nav-link" data-scroll-target="#résumé"><span class="header-section-number">20.6</span> Résumé</a></li>
+  <li><a href="#exercices-supplémentaires" id="toc-exercices-supplémentaires" class="nav-link" data-scroll-target="#exercices-supplémentaires"><span class="header-section-number">20.7</span> Exercices supplémentaires</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Les réactions d’oxydoréduction</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="objectives">
+<ul>
+<li>Attribuer les nombres d’oxydations aux différents éléments d’un composé.</li>
+<li>Distinguer une réaction d’oxydoréduction.</li>
+<li>Décrire les différents termes en lien avec les réactions d’oxydoréduction.</li>
+<li>Déterminer la réaction spontanée entre deux couples oxred.</li>
+<li>Équilibrer les équations d’oxydoréduction.</li>
+</ul>
+</div>
+<p>Nous avons rencontré deux types de réactions qui peuvent se produire lorsque deux solutions d’électrolytes sont mélangées : la précipitation, dans laquelle deux composés ionique échangent des ions, et la neutralisation acide-base, dans laquelle un proton est transféré d’un acide à une base. Dans ce chapitre, nous nous intéressons aux <strong>réactions d’oxydoréduction (ou réactions oxred)</strong>.</p>
+<div class="tcolorbox">
+<p><strong>Réaction d’oxydoréduction</strong><br>
+Réaction chimique dans laquelle des électrons sont transférés d’un réactif à un autre.</p>
+</div>
+<p>Nous avons vu que de nombreuses substances sont des composés ioniques. Le chlorure de sodium, par exemple, peut être obtenu par la réaction du sodium élémentaire et du dichlore :</p>
+<p><span class="math display">\[
+\ce{ 2 Na(s) + Cl2(g) -&gt; 2 NaCl(s) } \qquad \qquad \ce{ Ca(s) + Br2(g) -&gt; CaBr2(s) }
+\]</span></p>
+<p>Dans cette réaction, le sodium solide (Na), qui contient des atomes de sodium neutres, réagit avec le dichlore, formé de molécules diatomiques (Cl<sub>2</sub>) neutres, pour former le solide ionique NaCl, qui contient les ions Na<sup>+</sup> et Cl<sup>-</sup>. De même, lorsque le calcium élémentaire réagit avec le dibrome il former le solide ionique CaBr<sub>2</sub>, qui contient les ions Ca<sup>2+</sup> et Br<sup>-</sup></p>
+<p>De telles réactions, dans lesquelles un ou plusieurs électrons sont transférés, sont des exemples de réaction d’oxydoréduction.</p>
+<section id="le-nombre-doxydation" class="level2" data-number="20.1">
+<h2 data-number="20.1" class="anchored" data-anchor-id="le-nombre-doxydation"><span class="header-section-number">20.1</span> Le nombre d’oxydation</h2>
+<p>Comment savoir si l’on est en présence d’une réaction d’oxydoréduction ? Le <strong>nombre d’oxydation</strong>, ou état d’oxydation, permet de suivre les électrons dans une réaction d’oxydoréduction.</p>
+<div class="tcolorbox">
+<p><strong>Nombre d’oxydation</strong><br>
+Le nombre d’oxydation est la <strong>charge électrique fictive</strong> qu’aurait un atome si les électrons de liaison étaient attribués à l’atome le plus électronégatif. <!--Le nombre d'oxydation est la charge qu'aurait un atome si les liaisons qu'il forme étaient toutes ioniques.--></p>
+</div>
+<p>Le nombre d’oxydation représente le nombre d’électrons que possède un atome dans un composé. Les nombres d’oxydation sont représentés par des nombres entiers, qui peuvent être positifs, négatifs ou nuls. Dans certains cas, l’état d’oxydation peut être une fraction, car il résulte d’une moyenne.</p>
+<p>Prenons par exemple les composés covalents suivants :</p>
+<div id="tbl-tab-NO-examples" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-tab-NO-examples-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;20.1: Exemples de nombres d’oxydation.
+</figcaption>
+<div aria-describedby="tbl-tab-NO-examples-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 27%">
+<col style="width: 21%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><span class="math inline">\(\ce{H2O}\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(\ce{CO2}\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(\ce{NaHSO4}\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(\ce{CH4}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><img src="images/mol2D/H2O-charge.png" class="img-fluid figure-img" style="width:6em"></td>
+<td style="text-align: center;"><img src="images/mol2D/CO2-charge.png" class="img-fluid figure-img" style="width:6em"></td>
+<td style="text-align: center;"><img src="images/mol2D/NaHSO4-charge.png" class="img-fluid figure-img" style="width:8em"></td>
+<td style="text-align: center;"><img src="images/mol2D/CH4.jpg" class="img-fluid figure-img" style="width:4em"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">oxygène: -2</td>
+<td style="text-align: center;">oxygène: -2</td>
+<td style="text-align: center;">sodium: +1</td>
+<td style="text-align: center;">hydrogène: +1</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">hydrogène: +1</td>
+<td style="text-align: center;">carbone: +4</td>
+<td style="text-align: center;">hydrogène: +1</td>
+<td style="text-align: center;">carbone: -4</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">oxygène: -2</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">soufre: +6</td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<section id="attribuer-les-nombres-doxydation" class="level3" data-number="20.1.1">
+<h3 data-number="20.1.1" class="anchored" data-anchor-id="attribuer-les-nombres-doxydation"><span class="header-section-number">20.1.1</span> Attribuer les nombres d’oxydation</h3>
+<p>L’application d’une série de règles simples permet d’attribuer les états d’oxydation des atomes de la plupart des composés.</p>
+<div id="tbl-tab-NO-rules" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-tab-NO-rules-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;20.2: Règles pour l’attribution des nombres d’oxydation.
+</figcaption>
+<div aria-describedby="tbl-tab-NO-rules-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 52%">
+<col style="width: 38%">
+<col style="width: 8%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Règles</th>
+<th style="text-align: left;">Exemples</th>
+<th style="text-align: center;">NO</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Un atome à l’état élémentaire a un nombre d’oxydation de 0.</td>
+<td style="text-align: left;"><span class="math inline">\(\ce{Na}\)</span>, <span class="math inline">\(\ce{Fe}\)</span>, <span class="math inline">\(\ce{O2}\)</span>, <span class="math inline">\(\ce{Cl2}\)</span></td>
+<td style="text-align: center;">0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Un ion monatomique a un nombre d’oxydation égal à sa charge.</td>
+<td style="text-align: left;"><span class="math inline">\(\ce{Na}^{+}\)</span>, <span class="math inline">\(\ce{Ca}^{2+}\)</span>, <span class="math inline">\(\ce{Al}^{3+}\)</span></td>
+<td style="text-align: center;">+1,+2,+3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">L’<strong>hydrogène</strong> a généralement un NO de +1 dans ses composés</td>
+<td style="text-align: left;">toujours, sauf hydrures (H<sup>-</sup>)</td>
+<td style="text-align: center;">+1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">L’<strong>oxygène</strong> a généralement un NO de -2 dans ses composés</td>
+<td style="text-align: left;">toujours, sauf peroxydes (O<sup>-</sup>)</td>
+<td style="text-align: center;">-2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Le <strong>fluor</strong> a généralement un NO de -1 dans ses composés</td>
+<td style="text-align: left;">toujours, sauf exception</td>
+<td style="text-align: center;">-1</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>Un élément peut porter un nombre d’oxydation différent selon l’espèce chimique dans laquelle il se trouve. Vous trouverez dans le tableau périodique, les nombres d’oxydation courants pour un élément, avec en gras, les nombres d’oxydation les plus stables.</p>
+<p><strong>La somme des nombres d’oxydation de toute espèce chimique doit correspondre à la charge globale de l’espèce.</strong> En d’autres termes, la somme des nombres d’oxydation pour toute molécule doit être égale à zéro et doit être égale à la charge de l’ion polyatomique.</p>
+<div class="Exercise">
+<p>Déterminez le nombre d’oxydation de chaque élément des espèces suivantes :</p>
+<ol type="a">
+<li><span class="math display">\[
+\ce{ZnCl2}
+\]</span> </li>
+<li><span class="math display">\[
+\ce{SO3}
+\]</span> </li>
+<li><span class="math display">\[
+\ce{HNO3}
+\]</span> </li>
+<li><span class="math display">\[
+\ce{Cr2O7}^{2-}
+\]</span> </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="a">
+<li><span class="math display">\[
+\overset{+2\ -1}{\ce{ZnCl2}}
+\]</span></li>
+<li><span class="math display">\[
+\overset{+6\ -2}{\ce{SO3}}
+\]</span></li>
+<li><span class="math display">\[
+\overset{+1\ +5\ -2}{\ce{HNO3}}
+\]</span></li>
+<li><span class="math display">\[
+\overset{+6\ -2}{\ce{Cr2O7}^{2-}}
+\]</span></li>
+</ol>
+</div>
+</section>
+</section>
+<section id="distinguer-une-réaction-doxydoréduction" class="level2" data-number="20.2">
+<h2 data-number="20.2" class="anchored" data-anchor-id="distinguer-une-réaction-doxydoréduction"><span class="header-section-number">20.2</span> Distinguer une réaction d’oxydoréduction</h2>
+<p><strong>Une réaction d’oxydoréduction est caractérisée par un transfert d’électrons</strong>. Dans certains cas, le transfert se fait au sens propre pour former des ions, comme dans la réaction :</p>
+<p><span class="math display">\[
+2\overset{0}{\ce{Na}}(s) + \overset{0}{\ce{Cl2}}(g) \ce{-&gt;} 2\overset{+1\ -1}{\ce{NaCl}}(s)
+\]</span></p>
+<p>Cependant, le transfert d’électrons est parfois moins évident. Prenons, par exemple, la réaction de combinaison de méthane.</p>
+<p><span class="math display">\[
+\overset{-4\ +1}{\ce{CH4}}(g) + 2\overset{0}{\ce{O2}}(g) \ce{-&gt;} \overset{+4\ -2}{\ce{CO2}}(g) + 2\overset{+1\ -2}{\ce{H2O}}(g)
+\]</span></p>
+<p><strong>Le nombre d’oxydation est un moyen pratique de mettre en évidence les transferts électrons</strong> dans les réactions d’oxydoréduction. Au sein d’une substance, on définit le nombre d’oxydation de chaque atome qui nous indique si l’atome est neutre, riche ou pauvre en électrons. En comparant le nombre d’oxydation d’un atome avant et après une réaction, on peut déterminer si l’atome a gagné ou perdu des électrons et donc, si on est en présence d’une réaction d’oxydoréduction.</p>
+<p>Dans le cas de la combustion du méthane:</p>
+<ul>
+<li>Le carbone est passé de l’état d’oxydation <strong>-4</strong> à l’état d’oxydation <strong>+4</strong>, il y a eu une perte d’électrons.</li>
+<li>L’oxygène est passé de l’état d’oxydation <strong>0</strong> à l’état d’oxydation <strong>-2</strong>, il y a eu un gain d’électrons.</li>
+</ul>
+<div class="Exercise">
+<p>Parmi les réactions suivantes, indiquez lesquelles sont des réactions d’oxydoréduction :</p>
+<ol type="a">
+<li><span class="math display">\[
+\ce{4 Ag + O2 -&gt; 2 Ag2O}
+\]</span> </li>
+<li><span class="math display">\[
+\ce{HI + CsOH -&gt; CsI + H2O}
+\]</span> </li>
+<li><span class="math display">\[
+\ce{Na3PO4 + FeCl3 -&gt; 3 NaCl + FePO4}
+\]</span> </li>
+<li><span class="math display">\[
+\ce{2 Al + 3 CuSO4 -&gt; Al2(SO4)3 + 3 Cu}
+\]</span> </li>
+<li><span class="math display">\[
+\ce{2 NaHCO3 -&gt; Na2CO3 + H2O + CO2}
+\]</span> </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="a">
+<li><span class="math display">\[
+\begin{split}
+&amp; \ce{4 Ag + O2 -&gt; 2 Ag2O} \quad \text{oxydoréduction} \\
+&amp; \ce{Ag -&gt; Ag^+ + 1e^-} \\
+&amp; \ce{O + 2e^- -&gt; O^{-2}}
+\end{split}
+\]</span></li>
+<li><span class="math display">\[
+\begin{split}
+\ce{HI + CsOH -&gt; CsI + H2O} \quad \text{neutralisation}
+\end{split}
+\]</span></li>
+<li><span class="math display">\[
+\begin{split}
+\ce{Na3PO4 + FeCl3 -&gt; 3 NaCl + FePO4} \quad \text{précipitation}
+\end{split}
+\]</span></li>
+<li><span class="math display">\[
+\begin{split}
+&amp; \ce{2 Al + 3 CuSO4 -&gt; Al2(SO4)3 + 3 Cu} \quad \text{oxydoréduction} \\
+&amp; \ce{Al -&gt; Al^{3+} + 3e^-} \\
+&amp; \ce{Cu^{2+} + 2e^- -&gt; Cu}
+\end{split}
+\]</span></li>
+<li><span class="math display">\[
+\begin{split}
+&amp; \ce{2 NaHCO3 -&gt; Na2CO3 + H2O + CO2} \quad \text{décomposition}
+\end{split}
+\]</span></li>
+</ol>
+</div>
+</section>
+<section id="définitions-de-termes" class="level2" data-number="20.3">
+<h2 data-number="20.3" class="anchored" data-anchor-id="définitions-de-termes"><span class="header-section-number">20.3</span> Définitions de termes</h2>
+<p>Le transfert d’électrons caractérise les réaction d’oxydoréduction, il y a donc un donneur d’électrons et un accepteur d’électrons. Toute réaction d’oxydoréduction est composée de deux demi-réactions : la demi-réaction d’oxydation et la demi-réaction de réduction.</p>
+<ul>
+<li>L’<strong>oxydation</strong> est une augmentation de l’état d’oxydation (une perte d’électrons).</li>
+<li>La <strong>réduction</strong> est une diminution de l’état d’oxydation (un gain d’électrons).</li>
+<li>L’<strong>oxydant</strong> est l’espèce qui provoque l’oxydation (accepteur d’électrons).</li>
+<li>Le <strong>réducteur</strong> est l’espèce qui provoque la réduction (donneur d’électrons).</li>
+<li>L’<strong>espèce oxydée</strong> est l’espèce qui subit l’oxydation (donneur d’électrons).</li>
+<li>L’<strong>espèce réduite</strong> est l’espèce qui subit la réduction (accepteur d’électrons).</li>
+</ul>
+<div id="tbl-tab-NO-summary" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-tab-NO-summary-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;20.3: Résumé des termes liés à l’oxydoréduction.
+</figcaption>
+<div aria-describedby="tbl-tab-NO-summary-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">réducteur</td>
+<td style="text-align: center;"><span class="math inline">\(\Rightarrow\)</span></td>
+<td style="text-align: center;">oxydant</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">espèce oxydée</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">espèce réduite</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">donne des éléctrons</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">accepte des éléctrons</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">état d’oxydation augmente</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">état d’oxydation diminue</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>Notez que lorsqu’on nomme l’oxydant ou le réducteur, c’est le composé entier qui est spécifié, et pas seulement l’élément qui subit le changement d’état d’oxydation.</p>
+<p>Dans les exemples vu précédemment:</p>
+<p><span class="math display">\[
+2\overset{0}{\ce{Na}}(s) + \overset{0}{\ce{Cl2}}(g) \ce{-&gt;} 2\overset{+1\ -1}{\ce{NaCl}}(s)
+\]</span></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Na</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">Cl<sub>2</sub></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">réducteur</td>
+<td style="text-align: center;"><span class="math inline">\(\Rightarrow\)</span></td>
+<td style="text-align: center;">oxydant</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">espèce oxydée</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">espèce réduite</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">donne des éléctrons</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">accepte des éléctrons</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">état d’oxydation augmente</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">état d’oxydation diminue</td>
+</tr>
+</tbody>
+</table>
+<p><span class="math display">\[
+\overset{-4\ +1}{\ce{CH4}}(g) + 2\overset{0}{\ce{O2}}(g) \ce{-&gt;} \overset{+4\ -2}{\ce{CO2}}(g) + 2\overset{+1\ -2}{\ce{H2O}}(g)
+\]</span></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">CH<sub>4</sub></th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">O<sub>2</sub></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">réducteur</td>
+<td style="text-align: center;"><span class="math inline">\(\Rightarrow\)</span></td>
+<td style="text-align: center;">oxydant</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">espèce oxydée</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">espèce réduite</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">donne des éléctrons</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">accepte des éléctrons</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">état d’oxydation augmente</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">état d’oxydation diminue</td>
+</tr>
+</tbody>
+</table>
+<div class="Exercise">
+<p>La réaction entre le magnésium et le dioxygène donne de l’oxyde de magnésium. Écrivez l’équation de cette réaction, identifiez l’oxydant et le réducteur.</p>
+</div>
+<div class="Answer">
+<p><span class="math display">\[
+2 \overset{0}{\ce{Mg}} + \overset{0}{\ce{O2}} \rightarrow 2 \overset{+2\ -2}{\ce{MgO}}
+\]</span></p>
+<p>Le magnésium s’oxyde. L’oxygène se réduit.</p>
+</div>
+<div class="Exercise">
+<p>Pour chacune des combustions ci-dessous, déterminez l’élément oxydant et l’élément réducteur.</p>
+<ol type="a">
+<li><span class="math display">\[
+\ce{C + O2 -&gt; CO2}
+\]</span> </li>
+<li><span class="math display">\[
+\ce{2C + O2 -&gt; 2CO}
+\]</span> </li>
+</ol>
+</div>
+<div class="Answer">
+<p><span class="math display">\[
+\begin{split}
+\overset{0}{\ce{C}} + \overset{0}{\ce{O2}} \rightarrow \overset{+4\ -2}{\ce{CO2}}
+\end{split}
+\qquad
+\begin{split}
+  &amp;\text{le carbone s'oxyde} \\
+  &amp;\text{l'oxygène se réduit}
+\end{split}
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+2\overset{0}{\ce{C}} + \overset{0}{\ce{O2}} \rightarrow 2\overset{+2\ -2}{\ce{CO}}
+\end{split}
+\qquad
+\begin{split}
+  &amp;\text{le carbone s'oxyde} \\
+  &amp;\text{l'oxygène se réduit}
+\end{split}
+\]</span></p>
+</div>
+<section id="couples-oxred" class="level3" data-number="20.3.1">
+<h3 data-number="20.3.1" class="anchored" data-anchor-id="couples-oxred"><span class="header-section-number">20.3.1</span> Couples oxred</h3>
+<p>Prenons en exemple deux équations d’oxydoréduction :</p>
+<p><span class="math display">\[
+\begin{split}
+\underset{\text{oxydant 1}}{\ce{Cu}^{2+}} + \underset{\text{réducteur 2}}{\ce{Fe}} &amp;\ce{-&gt;}
+\underset{\text{réducteur 1}}{\ce{Cu}} + \underset{\text{oxydant 2}}{\ce{Fe}^{2+}} \\
+\underset{\text{oxydant 1}}{2\ce{Ag}^{+}} + \underset{\text{réducteur 2}}{\ce{Cu}} &amp;\ce{-&gt;}
+\underset{\text{réducteur 1}}{2\ce{Ag}} + \underset{\text{oxydant 2}}{\ce{Cu}^{2+}}
+\end{split}
+\]</span></p>
+<p>Dans ces réactions, à chaque demi-réaction correspond un réducteur et un oxydant. Ces deux espèces forment ensemble un couple d’oxydoréduction ou <strong>couple oxred</strong>. Un couple est un couple oxred si on peut passer d’une espèce à l’autre par transfert d’électrons.</p>
+<p><span class="math display">\[
+  \ce{Cu^{2+}/Cu} \quad\text{ou}\quad \ce{Fe^{2+}/Fe} \quad\text{ou}\quad \ce{Ag^{+}/Ag} \quad\text{ou}\quad \ce{I2/I^{-}} \quad\text{ou}\quad ...
+\]</span></p>
+<p>Par convention, on fait figurer l’oxydant en premier dans le couple oxred.</p>
+</section>
+</section>
+<section id="potentiels-standards-et-spontanéité" class="level2" data-number="20.4">
+<h2 data-number="20.4" class="anchored" data-anchor-id="potentiels-standards-et-spontanéité"><span class="header-section-number">20.4</span> Potentiels standards et spontanéité</h2>
+<p>De manière générale, le sens d’une réaction d’oxydoréduction dépend de la force relative des oxydants et des réducteurs qui participent à la réaction. Les expériences faites permettent de classer les couples rédox selon ce critère, de l’oxydant le plus faible à l’oxydant le plus fort ce qui revient à les classer du réducteur le plus fort au réducteur le plus faible (Table des <strong>potentiels standards de réduction</strong>).</p>
+<ul>
+<li>Dans un couple où l’oxydant est fort, le réducteur sera un réducteur faible.</li>
+<li>Dans un couple où le réducteur est fort, l’oxydant du couple sera un oxydant faible.</li>
+<li>Un couple fortement oxydant est un couple faiblement réducteur et inversement.</li>
+</ul>
+<p><strong>La réaction rédox qui se produit spontanément est celle qui transforme l’oxydant et le réducteur les plus forts en réducteur et oxydant les plus faibles.</strong></p>
+<p>Exemple :</p>
+<p><span class="math display">\[
+\ce{Zn(s) + Cu^{2+}(aq) -&gt; Zn^{2+}(aq) + Cu(s)}
+\]</span></p>
+<ul>
+<li><span class="math inline">\(\ce{Cu}^{2+}\)</span> est un oxydant plus fort que <span class="math inline">\(\ce{Zn}^{2+}\)</span>.</li>
+<li><span class="math inline">\(\ce{Zn}\)</span> est un réducteur plus fort que <span class="math inline">\(\ce{Cu}\)</span>.</li>
+</ul>
+<section id="règle-du-gamma" class="level3" data-number="20.4.1">
+<h3 data-number="20.4.1" class="anchored" data-anchor-id="règle-du-gamma"><span class="header-section-number">20.4.1</span> Règle du gamma</h3>
+<p>Cette règle du gamma permet, dès lors que l’on dispose des espèces présentes avant réaction ainsi que leurs potentiels standards, de prévoir si la réaction va avoir lieu de manière spontanée.</p>
+<div id="fig-gamma-rule" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-gamma-rule-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/gamma-rule.png" class="img-fluid figure-img" style="width:45.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-gamma-rule-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;20.1: Illustration de la règle du gamma.
+</figcaption>
+</figure>
+</div>
+<p>En plaçant les couples sur une échelle par potentiel décroissant, l’oxydant le plus fort (Cu<sup>2+</sup>) réagira avec le réducteur le plus fort (Zn) pour donner le réducteur et l’oxydant les plus faibles (respectivement, Cu et Zn<sup>2+</sup>) :</p>
+<p>La réaction :</p>
+<p><span class="math display">\[
+\ce{Zn^{2+}(aq) + Cu(s) -&gt; Zn(s) + Cu^{2+}(aq)}
+\]</span></p>
+<p>ne sera donc pas spontanée.</p>
+<div class="Exercise">
+<p>On donne les potentiels standards de réduction : <span class="math inline">\(\ce{Cu^{2+}/Cu}\)</span> (<span class="math inline">\(E° = +0.34\)</span> V) et <span class="math inline">\(\ce{Zn^{2+}/Zn}\)</span> (<span class="math inline">\(E° = -0.76\)</span> V).</p>
+<ol type="1">
+<li>Quel est l’oxydant le plus fort ? Quel est le réducteur le plus fort ? </li>
+<li>À l’aide de la règle du gamma, écrivez l’équation de la réaction spontanée. </li>
+<li>Que se passe-t-il si l’on plonge une lame de zinc dans une solution de sulfate de cuivre (II) ? </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>L’oxydant le plus fort appartient au couple de plus haut potentiel : <span class="math inline">\(\ce{Cu}^{2+}\)</span>. Le réducteur le plus fort appartient au couple de plus bas potentiel : <span class="math inline">\(\ce{Zn}\)</span>.</li>
+<li>La réaction spontanée fait réagir l’oxydant le plus fort avec le réducteur le plus fort : <span class="math display">\[
+\ce{Cu^{2+} + Zn -&gt; Cu + Zn^{2+}}
+\]</span></li>
+<li>Le zinc (réducteur fort) réduit les ions <span class="math inline">\(\ce{Cu}^{2+}\)</span> : la lame de zinc se dissout (<span class="math inline">\(\ce{Zn -&gt; Zn^{2+}}\)</span>) et du cuivre métallique se dépose (<span class="math inline">\(\ce{Cu^{2+} -&gt; Cu}\)</span>). La réaction est spontanée.</li>
+</ol>
+</div>
+</section>
+</section>
+<section id="équilibrer-les-équations-doxydoréduction" class="level2" data-number="20.5">
+<h2 data-number="20.5" class="anchored" data-anchor-id="équilibrer-les-équations-doxydoréduction"><span class="header-section-number">20.5</span> Équilibrer les équations d’oxydoréduction</h2>
+<p>Précédemment, nous avons vu comment équilibrer des équations de réactions en équilibrant le nombre d’atomes de chaque type des deux côtés de la flèche de l’équation. Pour équilibrer des équations d’oxydoréduction, il est de plus nécessaire d’équilibrer les électrons transférés.</p>
+<p>Prenons par exemple, la réaction entre le chrome métallique et le nickel (II) en solution acqueuse :</p>
+<p><span class="math display">\[
+\ce{Cr(s) + Ni^{+2}(aq) -&gt; Cr^{+3}(aq) + Ni(s)}
+\]</span></p>
+<p>Bien que cette équation comporte un nombre égal de chaque atome des deux côtés, elle n’est pas équilibrée car il y a une charge de +2 du côté du réactif et une charge de +3 du côté du produit. Pour équilibrer cette équation, nous pouvons la séparer en deux demi-réactions.</p>
+<p><span class="math display">\[
+\begin{split}
+\ce{Cr(s) -&gt; Cr^{+3}(aq) + 3e^−} \quad \text{oxydation} \\
+\ce{Ni^{+2}(aq) + 2e^− -&gt; Ni(s)} \quad \text{réduction}
+\end{split}
+\]</span></p>
+<p>Lorsque l’on additionne les demi-réactions pour obtenir la réaction globale, le nombre d’électrons donnés doit être égal au nombre d’électrons acceptés. Par conséquent, avant d’additionner ces deux demi-réactions, nous devons multiplier chaque demi-réaction par un facteur qui équilibre le nombre d’électrons échangés.</p>
+<p><span class="math display">\[
+\begin{split}
+2 \times [\ce{Cr(s) -&gt; Cr^{+3}(aq) + 3e^−}] \\
+3 \times [\ce{Ni^{+2}(aq) + 2e^− -&gt; Ni(s)}]
+\end{split}
+\]</span></p>
+<p>On peut ensuite additionner les demi-réactions, pour obtenir l’équation globale équilibrée.</p>
+<p><span class="math display">\[
+\begin{split}
+\ce{2\ Cr(s)}&amp;\ce{ -&gt; 2\ Cr^{+3}(aq) + 6e^−} \\
+\ce{3\ Ni^{+2}(aq) + 6e^−}&amp;\ce{ -&gt; 3\ Ni(s)} \\
+\hline
+\ce{2\ Cr(s) + 3\ Ni^{+2}(aq)}&amp;\ce{ -&gt; 2\ Cr^{+3}(aq) + 3\ Ni(s)}
+\end{split}
+\]</span></p>
+<p>De cette manière, l’équation de la réaction est équilibrée en considérant les masses aussi bien que les électrons échangés.</p>
+<p>Considérons maintenant une réaction plus complexe :</p>
+<p><span class="math display">\[
+\ce{H^+(aq) + Cl^-(aq) + Sn(s) + NO3^-(aq) -&gt; SnCl6^{2-} + NO2(g) + H2O(l)}
+\]</span></p>
+<p>Pour équilibrer cette équation, nous devons d’abord attribuer les états d’oxydation à chaque atome des réactifs et des produits.</p>
+<p><span class="math display">\[
+\overset{+1}{\ce{H^+}} + \overset{-1}{\ce{Cl^-}} + \overset{0}{\ce{Sn}} + \overset{+5\ -2}{\ce{NO3}^{-}} \ce{-&gt;} \overset{+4\ -1}{\ce{SnCl6}^{2-}} + \overset{+4\ -2}{\ce{NO2}} + \overset{+1\ -2}{\ce{H2O}}
+\]</span></p>
+<p>On note que l’hydrogène, le chlore et l’oxygène ne changent pas d’état d’oxydation, ils ne sont donc pas impliqués dans l’échange d’électrons. Concentrons donc notre attention sur Sn et N :</p>
+<p><span class="math display">\[
+\begin{aligned}
+\ce{\overset{0}{Sn}} &amp; \ce{-&gt; \overset{+4}{Sn} + 4e^−} &amp;\quad (\times 1) &amp;\quad \text{oxydation} \\
+\ce{\overset{+5}{N} + 1e^−} &amp; \ce{-&gt; \overset{+4}{N}} &amp;\quad (\times 4) &amp;\quad \text{réduction}
+\end{aligned}
+\]</span></p>
+<p>Chaque atome d’étain va libérer 4 électrons qui seront acceptés chacuns par un atome d’azote. Cela signifie qu’il faut multiplier par un coefficient de 4 les espèces contenant de l’azote.</p>
+<p><span class="math display">\[
+\ce{H^+(aq) + Cl^-(aq) + Sn(s) + \underline{4}NO3^-(aq) -&gt; SnCl6^{2-} + \underline{4}NO2(g) + H2O(l)}
+\]</span></p>
+<p>On peut ensuite équilibrer le chlore, l’oxygène et l’hydrogène :</p>
+<p><span class="math display">\[
+8\ce{H^+(aq) + 6Cl^-(aq) + Sn(s) + 4NO3^-(aq) -&gt; SnCl6^{2-} + 4NO2(g) + 4H2O(l)}
+\]</span></p>
+<p>Les masses et les électrons échangés sont maintenant équilibrés dans l’équation de la réaction.</p>
+<div class="Exercise">
+<p>Équilibrez les électrons échangés et les masses de chacune des équations chimiques suivantes en mettant en évidence le transfert d’électrons.</p>
+<ol type="a">
+<li><span class="math display">\[
+\underline{\hspace{2em}} \ce{Ag} + \underline{\hspace{2em}} \ce{O2} \ce{-&gt;} \underline{\hspace{2em}} \ce{Ag2O}
+\]</span> </li>
+<li><span class="math display">\[
+\underline{\hspace{2em}} \ce{Cr} + \underline{\hspace{2em}} \ce{O2} \ce{-&gt;} \underline{\hspace{2em}} \ce{Cr2O3}
+\]</span> </li>
+<li><span class="math display">\[
+\underline{\hspace{2em}} \ce{C} + \underline{\hspace{2em}} \ce{Cl2} \ce{-&gt;} \underline{\hspace{2em}} \ce{CCl4}
+\]</span> </li>
+<li><span class="math display">\[
+\underline{\hspace{2em}} \ce{Al} + \underline{\hspace{2em}} \ce{O2} + \underline{\hspace{2em}} \ce{H2O} \ce{-&gt;} \underline{\hspace{2em}} \ce{Al(OH)3}
+\]</span> </li>
+<li><span class="math display">\[
+\underline{\hspace{2em}} \ce{CH4} + \underline{\hspace{2em}} \ce{O2} \ce{-&gt;} \underline{\hspace{2em}} \ce{CO2} + \underline{\hspace{2em}} \ce{H2O}
+\]</span> </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="a">
+<li><span class="math display">\[
+\ce{4Ag + O2 -&gt; 2Ag2O}
+\]</span></li>
+<li><span class="math display">\[
+\ce{4Cr + 3O2 -&gt; 2Cr2O3}
+\]</span></li>
+<li><span class="math display">\[
+\ce{C + 2Cl2 -&gt; CCl4}
+\]</span></li>
+<li><span class="math display">\[
+\ce{4Al + 3O2 + 6H2O -&gt; 4 Al(OH)3}
+\]</span></li>
+<li><span class="math display">\[
+\ce{CH4 + 2O2 -&gt; CO2 + 2H2O}
+\]</span></li>
+</ol>
+</div>
+<div class="Exercise">
+<p>Le cuivre élémentaire se transforme en oxyde de cuivre (II), ou vert de gris, en présence d’oxygène. Donnez les demi-équations de réduction et d’oxydation, identifiez l’oxydant et le réducteur et donnez l’équation globale de la réaction. </p>
+</div>
+<div class="Answer">
+<p>Le cuivre s’oxyde. L’oxygène se réduit.</p>
+<p><span class="math display">\[
+\begin{split}
+\ce{Cu}^{0} \ce{-&gt;} &amp; \ce{Cu}^{2+} + 2\ \ce{e}^- \\
+\ce{O}^{0} + 2\ \ce{e}^- \ce{-&gt;} &amp; \ce{O}^{2-} \\
+\hline
+\ce{2 Cu + O2 -&gt;} &amp; \ce{2 CuO}
+\end{split}
+\]</span></p>
+</div>
+<div class="Exercise">
+<p>Équilibrez les équations et identifiez dans chaque cas l’oxydant et le réducteur :</p>
+<ol type="a">
+<li><span class="math display">\[
+\ce{FeCl3 + SnCl2 -&gt; FeCl2 + SnCl4}
+\]</span> </li>
+<li><span class="math display">\[
+\ce{SO2 + KMnO4 + KOH -&gt; K2SO4 + MnO2 + H2O}
+\]</span> </li>
+<li><span class="math display">\[
+\ce{KClO3 + P5 + H2SO4 + H2O -&gt; H3PO4 + K2SO4 + Cl2}
+\]</span> </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="a">
+<li><span class="math display">\[
+\begin{split}
+&amp; 2 \overset{+3\ }{\ce{FeCl3}} + \overset{+2\ }{\ce{SnCl2}} \rightarrow 2 \overset{+2\ }{\ce{FeCl2}} + 2 \overset{+4\ }{\ce{SnCl4}} \\
+&amp; \ce{ Sn^{+2} -&gt; Sn^{+4} + 2 e^-} \quad \text{(oxidation, $\ce{SnCl2}$ est réducteur)} \\
+&amp; \ce{ 2 Fe^{+3} + 2 e^- -&gt; 2 Fe^{+2}} \quad \text{(réduction, $\ce{FeCl3}$ est oxydant)}
+\end{split}
+\]</span><br>
+</li>
+<li><span class="math display">\[
+\begin{split}
+&amp; 3 \overset{+4\ }{\ce{SO2}} + 2 \overset{+7}{\ce{KMnO4}} + 4 \ce{KOH} \rightarrow 3 \overset{+6}{\ce{K2SO4}} + 2 \overset{+4\ }{\ce{MnO2}} + 2 \ce{H2O} \\
+&amp; \ce{ 2 Mn^{+7} + 6e^- -&gt; 2 Mn^{+4}} \quad \text{(réduction, $\ce{KMnO4}$ est oxydant)} \\
+&amp; \ce{ 3 S^{+4} -&gt; 3 S^{+6}} + 6e^- \quad \text{(oxidation, $\ce{SO2}$ est réducteur)}
+\end{split}
+\]</span></li>
+<li><span class="math display">\[
+\begin{split}
+&amp; 10 \overset{+5}{\ce{KClO3}} + 2 \overset{0}{\ce{P5}} + 5 \ce{H2SO4} + 10 \ce{H2O} \rightarrow 10 \overset{+5}{\ce{H3PO4}} + 5 \ce{K2SO4} + 5 \overset{0}{\ce{Cl2}} \\
+&amp; \ce{ 10 P^{0} -&gt; 10 P^{+5} + 50 e^-} \quad \text{(oxidation, $\ce{P5}$ est réducteur)} \\
+&amp; \ce{ 10 Cl^{+5} + 50 e^- -&gt; 10 Cl^{0}} \quad \text{(réduction, $\ce{KClO3}$ est oxydant)}
+\end{split}
+\]</span></li>
+</ol>
+</div>
+<div class="Exercise">
+<p>Équilibrez l’équation et identifiez l’oxydant et le réducteur :</p>
+<p><span class="math display">\[
+\ce{ Cu + HNO3 -&gt; Cu(NO3)2 + NO + H2O}
+\]</span> </p>
+</div>
+<div class="Answer">
+<p><span class="math display">\[
+\begin{split}
+&amp; 3 \overset{0}{\ce{Cu}} + 8 \overset{+5}{\ce{HNO3}} \rightarrow 3 \overset{+2\ +5\ }{\ce{Cu(NO3)2}} + 2 \overset{+2\ }{\ce{NO}} + 4 H2O \\
+&amp; \ce{ 3 Cu^{0} -&gt; 3 Cu^{+2} + 6 e^-} \quad \text{(oxidation, $\ce{Cu}$ est réducteur)} \\
+&amp; \ce{ 2 N^{+5} + 6 e^- -&gt; 2 N^{+2}} \quad \text{(réduction, $\ce{HNO3}$ est oxydant)}
+\end{split}
+\]</span></p>
+</div>
+</section>
+<section id="résumé" class="level2" data-number="20.6">
+<h2 data-number="20.6" class="anchored" data-anchor-id="résumé"><span class="header-section-number">20.6</span> Résumé</h2>
+<ul>
+<li>Une réaction d’oxydoréduction est une réaction avec transfert d’électrons d’un réactif à un autre.</li>
+<li>Le nombre d’oxydation (NO) est la charge fictive d’un atome si les électrons de liaison étaient attribués à l’atome le plus électronégatif.</li>
+<li>On reconnaît une réaction d’oxydoréduction si le NO d’au moins un élément change entre les réactifs et les produits.</li>
+<li>L’oxydation est une augmentation du NO ; la réduction une diminution du NO. Le réducteur donne des électrons ; l’oxydant en accepte.</li>
+<li>La table des potentiels standards de réduction classe les couples : plus <span class="math inline">\(E°\)</span> est élevé, plus l’oxydant est fort. La réaction spontanée fait réagir l’oxydant le plus fort avec le réducteur le plus fort.</li>
+<li>Pour équilibrer une équation d’oxydoréduction, on équilibre les masses et les électrons échangés : on écrit les deux demi-réactions, on les multiplie pour égaliser les électrons, puis on les additionne.</li>
+</ul>
+</section>
+<section id="exercices-supplémentaires" class="level2" data-number="20.7">
+<h2 data-number="20.7" class="anchored" data-anchor-id="exercices-supplémentaires"><span class="header-section-number">20.7</span> Exercices supplémentaires</h2>
+<div class="Exercise">
+<p>Déterminez le nombre d’oxydation de chaque élément des espèces suivantes :</p>
+<ol type="a">
+<li><span class="math inline">\(\ce{K2CO3}\)</span> </li>
+<li><span class="math inline">\(\ce{Fe}\)</span> </li>
+<li><span class="math inline">\(\ce{AlCl3}\)</span> </li>
+<li><span class="math inline">\(\ce{HPO4}^{2-}\)</span> </li>
+<li><span class="math inline">\(\ce{NH4^+}\)</span> </li>
+<li><span class="math inline">\(\ce{O2}\)</span> </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="a">
+<li><span class="math display">\[
+\overset{+1\ +4\ -2}{\ce{K2CO3}}
+\]</span></li>
+<li><span class="math display">\[
+\overset{0}{\ce{Fe}}
+\]</span></li>
+<li><span class="math display">\[
+\overset{+3\ -1}{\ce{AlCl3}}
+\]</span></li>
+<li><span class="math display">\[
+\overset{+1\ +5\ -2}{\ce{HPO4}^{2-}}
+\]</span></li>
+<li><span class="math display">\[
+\overset{-3\ +1}{\ce{NH4^+}}
+\]</span></li>
+<li><span class="math display">\[
+\overset{0}{\ce{O2}}
+\]</span></li>
+</ol>
+</div>
+<div class="Exercise">
+<p>Équilibrez les électrons échangés et les masses de chacune des équations chimiques suivantes en mettant en évidence le transfert d’électrons.</p>
+<ol type="a">
+<li>__ <span class="math inline">\(\ce{H3BO3}\)</span> <span class="math inline">\(\ce{-&gt;}\)</span> __ <span class="math inline">\(\ce{H4B6O11}\)</span> + __ <span class="math inline">\(\ce{H2O}\)</span> </li>
+<li>__ <span class="math inline">\(\ce{Cu}\)</span> + __ <span class="math inline">\(\ce{S8}\)</span> <span class="math inline">\(\ce{-&gt;}\)</span> __ <span class="math inline">\(\ce{Cu2S}\)</span> </li>
+<li>__ <span class="math inline">\(\ce{Cd}\)</span> + __ <span class="math inline">\(\ce{Al(NO3)3}\)</span> <span class="math inline">\(\ce{-&gt;}\)</span> __ <span class="math inline">\(\ce{Cd(NO3)2}\)</span> + __ <span class="math inline">\(\ce{Al}\)</span> </li>
+<li>__ <span class="math inline">\(\ce{HClO2}\)</span> <span class="math inline">\(\ce{-&gt;}\)</span> __ <span class="math inline">\(\ce{ClO2}\)</span> + __ <span class="math inline">\(\ce{HCl}\)</span> + __ <span class="math inline">\(\ce{2 H2O}\)</span> </li>
+<li>__ <span class="math inline">\(\ce{Al}\)</span> + __ <span class="math inline">\(\ce{O2}\)</span> + __ <span class="math inline">\(\ce{H2O}\)</span> <span class="math inline">\(\ce{-&gt;}\)</span> __ <span class="math inline">\(\ce{Al(OH)3}\)</span> </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="a">
+<li><span class="math display">\[
+\ce{6 H3BO3  -&gt; H4B6O11 + 7 H2O}
+\]</span></li>
+<li><span class="math display">\[
+\ce{16 Cu + S8  -&gt; 8 Cu2S}
+\]</span></li>
+<li><span class="math display">\[
+\ce{3 Cd + 2 Al(NO3)3  -&gt; 3 Cd(NO3)2 + 2 Al}
+\]</span></li>
+<li><span class="math display">\[
+\ce{5 HClO2  -&gt; 4 ClO2 + HCl + 2 H2O}
+\]</span></li>
+<li><span class="math display">\[
+\ce{4 Al + 3 O2 + 6 H2O -&gt; 4 Al(OH)3}
+\]</span></li>
+</ol>
+</div>
+<div class="Exercise">
+<p>Le fer qui se transforme en rouille en présence d’oxygène forme notamment de l’oxyde de fer (III). Donnez les demi-équations de réduction et d’oxydation, identifiez l’oxydant et le réducteur et donnez l’équation globale de la réaction. </p>
+</div>
+<div class="Answer">
+<p><span class="math display">\[
+\begin{split}
+&amp; \ce{4 Fe + 3 O2 -&gt; 2 Fe2O3} \\
+&amp; \ce{ 4 Fe^{0} -&gt; 4 Fe^{+3} + 12 e^-} \quad \text{(oxidation, $\ce{Fe}$ est réducteur)} \\
+&amp; \ce{ 6 O^{0} + 12 e^- -&gt; 6 O^{-2}} \quad \text{(réduction, $\ce{O2}$ est oxydant)}
+\end{split}
+\]</span></p>
+</div>
+<div class="Exercise">
+<p>Équilibrez les équations et identifiez dans chaque cas l’oxydant et le réducteur :</p>
+<ol type="a">
+<li><span class="math display">\[
+\ce{ KI + NaClO + H2O -&gt; I2 + NaCl + KOH }
+\]</span> </li>
+<li><span class="math display">\[
+\ce{ Sn + HNO3 -&gt; SnO2 + NO2 + H2O }
+\]</span> </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="a">
+<li><span class="math display">\[
+\begin{split}
+&amp; \ce{2 KI + NaClO + H2O -&gt; I2 + NaCl + 2 KOH} \\
+&amp; \ce{ 2 I^{-1} -&gt; 2 I^{0} + 2 e^-} \quad \text{(oxidation, $\ce{KI}$ est réducteur)} \\
+&amp; \ce{ Cl^{+1} + 2 e^- -&gt; Cl^{-1}} \quad \text{(réduction, $\ce{NaClO}$ est oxydant)}
+\end{split}
+\]</span></li>
+<li><span class="math display">\[
+\begin{split}
+&amp; \ce{ Sn + 4 HNO3 -&gt; SnO2 + 4 NO2 + 2 H2O } \\
+&amp; \ce{ Sn^{0} -&gt; Sn^{+4} + 4 e^-} \quad \text{(oxidation, $\ce{Sn}$ est réducteur)} \\
+&amp; \ce{ 4 N^{+5} + 4 e^- -&gt; 4 N^{+4}} \quad \text{(réduction, $\ce{HNO3}$ est oxydant)}
+\end{split}
+\]</span></li>
+</ol>
+</div>
+<div class="Exercise">
+<p>Équilibrez l’équation et identifiez l’oxydant et le réducteur :</p>
+<p><span class="math display">\[
+\ce{K2Cr2O7 + HCl -&gt; KCl + CrCl3 + H2O + Cl2}
+\]</span> </p>
+</div>
+<div class="Answer">
+<p><span class="math display">\[
+\begin{split}
+&amp; \ce{K2Cr2O7 + 14 HCl -&gt; 2 KCl + 2 CrCl3 + 7 H2O + 3 Cl2} \\
+&amp; \ce{ 6 Cl^{-1} -&gt; 6 Cl^{0} + 6 e^-} \quad \text{(oxidation, $\ce{HCl}$ est réducteur)} \\
+&amp; \ce{ 2 Cr^{+6} + 6 e^- -&gt; 2 Cr^{+3}} \quad \text{(réduction, $\ce{K2Cr2O7}$ est oxydant)}
+\end{split}
+\]</span></p>
+</div>
+<div class="Exercise">
+<ul>
+<li>Quels sont les métaux attaqués par l’eau ? </li>
+<li>Quels sont les métaux attaqués par HCl et non attaqués par l’eau ? </li>
+<li>Quels sont les métaux attaqués par HNO<sub>3</sub> et non attaqués par HCl ? </li>
+<li>Y a-t-il une réaction oxred lorsqu’on mélange les solutions suivantes ? Si oui, donnez l’équation chimique.
+<ul>
+<li>une solution de NaCl et une solution de LiF. </li>
+<li>une solution de CuSO<sub>4</sub> et une solution de Br<sub>2</sub>. </li>
+<li>une solution de KI et une solution de Br<sub>2</sub>. </li>
+</ul></li>
+</ul>
+</div>
+<div class="Answer">
+<ul>
+<li>Mn, Al, Mg, Na, Ca, K, Li.</li>
+<li>Fe, Pb, Sn, Ni, Cr, Zn.</li>
+<li>Hg, Ag, Cu.</li>
+<li>Réactions oxred.
+<ul>
+<li>une solution de NaCl et une solution de LiF.<br>
+Non. Na<sup>+</sup> et Li<sup>+</sup>, très mauvais oxydants. Cl<sup>-</sup> et F<sup>-</sup>, très mauvais réducteurs.</li>
+<li>une solution de CuSO<sub>4</sub> et une solution de Br<sub>2</sub>.<br>
+Non. Br<sub>2</sub> et Cu<sup>2+</sup> sont oxydants mais SO<sub>4</sub><sup>2-</sup> est très mauvais réducteur.</li>
+<li>une solution de KI et une solution de Br<sub>2</sub>.<br>
+Oui. Règle de l’oméga, réaction spontanée entre les meilleurs oxydant et réducteur.<br>
+<span class="math display">\[
+  \begin{split}
+  \ce{2I}^{-} &amp; \ce{ -&gt; I_2 + 2 e^-} \qquad \text{(oxidation)} \\
+  \ce{Br_{2} + 2 e^-} &amp; \ce{ -&gt; 2Br^{-}} \qquad \text{(réduction)} \\
+  \hline
+  \ce{2I^{-} + Br_{2}} &amp; \ce{ -&gt; I_{2} + 2Br^{-}}
+  \end{split}
+  \quad
+  \begin{split}
+  \ce{2KI + Br_{2}} &amp; \ce{ -&gt; 2KBr + I_{2}}
+  \end{split}
+  \]</span></li>
+</ul></li>
+</ul>
+</div>
+<div class="Exercise">
+<p>On donne les potentiels standards de réduction : <span class="math inline">\(\ce{Cu^{2+}/Cu}\)</span> (<span class="math inline">\(+0.34\)</span> V), <span class="math inline">\(\ce{Pb^{2+}/Pb}\)</span> (<span class="math inline">\(-0.13\)</span> V), <span class="math inline">\(\ce{Fe^{2+}/Fe}\)</span> (<span class="math inline">\(-0.45\)</span> V).</p>
+<ol type="1">
+<li>Classez les trois oxydants du plus faible au plus fort. </li>
+<li>La réaction <span class="math inline">\(\ce{Cu^{2+} + Fe -&gt; Cu + Fe^{2+}}\)</span> est-elle spontanée ? Justifiez. </li>
+<li>La réaction <span class="math inline">\(\ce{Pb^{2+} + Cu -&gt; Pb + Cu^{2+}}\)</span> est-elle spontanée ? Justifiez. </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>Plus le potentiel <span class="math inline">\(E°\)</span> est élevé, plus l’oxydant est fort : <span class="math display">\[
+\ce{Fe}^{2+} &lt; \ce{Pb}^{2+} &lt; \ce{Cu}^{2+}
+\]</span></li>
+<li>Oui : <span class="math inline">\(\ce{Cu}^{2+}\)</span> est l’oxydant le plus fort (potentiel le plus élevé) et <span class="math inline">\(\ce{Fe}\)</span> le réducteur le plus fort (potentiel le plus bas). Selon la règle du gamma, ils réagissent spontanément.</li>
+<li>Non : pour que <span class="math inline">\(\ce{Pb}^{2+}\)</span> oxyde <span class="math inline">\(\ce{Cu}\)</span>, il faudrait que <span class="math inline">\(\ce{Pb}^{2+}\)</span> soit un oxydant plus fort que <span class="math inline">\(\ce{Cu}^{2+}\)</span>. Or <span class="math inline">\(\ce{Cu^{2+}/Cu}\)</span> (<span class="math inline">\(+0.34\)</span> V) a un potentiel supérieur à <span class="math inline">\(\ce{Pb^{2+}/Pb}\)</span> (<span class="math inline">\(-0.13\)</span> V) : la réaction spontanée est au contraire <span class="math inline">\(\ce{Cu^{2+} + Pb -&gt; Cu + Pb^{2+}}\)</span>.</li>
+</ol>
+</div>
+<div class="Exercise">
+<p>On plonge une lame de fer dans une solution de nitrate d’argent. On observe la formation d’un dépôt d’argent métallique. Données : <span class="math inline">\(\ce{Ag+/Ag}\)</span> (<span class="math inline">\(+0.80\)</span> V), <span class="math inline">\(\ce{Fe^{2+}/Fe}\)</span> (<span class="math inline">\(-0.45\)</span> V).</p>
+<ol type="1">
+<li>Écrivez les deux demi-équations (oxydation et réduction). </li>
+<li>Écrivez l’équation globale équilibrée. </li>
+<li>Identifiez l’oxydant et le réducteur. </li>
+<li>Cette réaction est-elle spontanée ? Justifiez à l’aide des potentiels. </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><span class="math display">\[
+\begin{split}
+\ce{Fe -&gt; Fe^{2+} + 2 e^-} &amp;\quad \text{(oxydation)} \\
+\ce{Ag+ + 1 e^- -&gt; Ag} &amp;\quad \text{(réduction)}
+\end{split}
+\]</span></li>
+<li>On multiplie la réduction par 2 pour équilibrer les électrons : <span class="math display">\[
+\ce{Fe + 2 Ag+ -&gt; Fe^{2+} + 2 Ag}
+\]</span></li>
+<li>L’oxydant est <span class="math inline">\(\ce{Ag}^{+}\)</span> (il est réduit) ; le réducteur est <span class="math inline">\(\ce{Fe}\)</span> (il est oxydé).</li>
+<li>Oui : <span class="math inline">\(\ce{Ag}^{+}\)</span> appartient au couple de plus haut potentiel (<span class="math inline">\(+0.80\)</span> V), c’est l’oxydant le plus fort ; <span class="math inline">\(\ce{Fe}\)</span> appartient au couple de plus bas potentiel (<span class="math inline">\(-0.45\)</span> V), c’est le réducteur le plus fort. Leur réaction est donc spontanée (règle du gamma).</li>
+</ol>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script src="html/vendor/jquery-3.7.1.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+
+    var exeContainerClass = 'Exercise-container';
+    var exeClass = 'Exercise';
+    var ansClass = 'Answer';
+
+    $('.' + exeContainerClass).each(function(i, el) {
+      let child = $(el).children('.' + exeClass);
+      child.replaceWith(child.html());
+      $(el).removeClass(exeContainerClass).addClass(exeClass);
+    });
+
+    var chapterNum = $('.quarto-page-breadcrumbs .chapter-number').first().text().trim();
+
+    $('.' + exeClass).each(function(i, el) {
+      var num = chapterNum + '.' + (i + 1);
+      var title = $('<div>Exercice ' + num + '</div>');
+      title.addClass('Label');
+      $(el).prepend(title);
+    });
+
+    $('.' + ansClass).each(function(i, el) {
+      $(el).click(function() {
+        $(el).slideToggle();
+      });
+      var button = $('<button>Solution</button>');
+      button.attr('type', 'button');
+      button.addClass('Answer-button');
+      button.click(function() {
+        $(el).slideToggle();
+      });
+      button.insertBefore(el);
+    });
+
+  });
+</script>
+<script type="text/javascript">
+  $(document).ready(function () {
+    $("main.content table, main.content .math.display").each(function (i, el) {
+      let parent = $("<div>").attr("style", "overflow-x:auto");
+      $(el).wrap(parent);
+    });
+  });
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copié");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copié");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./190-produit-solubilite.html" class="pagination-link" aria-label="Le produit de solubilité">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Le produit de solubilité</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./210-electrochimie.html" class="pagination-link" aria-label="Électrochimie">
+        <span class="nav-page-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Électrochimie</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

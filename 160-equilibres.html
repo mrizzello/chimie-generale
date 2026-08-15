@@ -1,0 +1,1563 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Support du cours de chimie générale | Maturité gymnasiale">
+
+<title>16&nbsp; L’équilibre chimique – Cours de chimie générale</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./170-acides-bases.html" rel="next">
+<link href="./150-cinetique.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-05ad7de8ae34bb1016f06e23b5e9a5a9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Pas de résultats",
+    "search-matching-documents-text": "documents trouvés",
+    "search-copy-link-title": "Copier le lien vers la recherche",
+    "search-hide-matches-text": "Cacher les correspondances additionnelles",
+    "search-more-match-text": "correspondance de plus dans ce document",
+    "search-more-matches-text": "correspondances de plus dans ce document",
+    "search-clear-button-title": "Effacer",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Annuler",
+    "search-submit-button-title": "Envoyer",
+    "search-label": "Recherche"
+  }
+}</script>
+<script>
+window.MathJax = {
+  loader: { load: ['[tex]/mhchem', '[tex]/cancel'] },
+  tex: { packages: { '[+]': ['mhchem', 'cancel'] } }
+};
+</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="nav-sidebar docked quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./160-equilibres.html"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">L’équilibre chimique</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Recherche" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Cours de chimie générale</a> 
+        <div class="sidebar-tools-main">
+    <a href="./chimie-generale.pdf" title="Télécharger le PDF" class="quarto-navigation-tool px-1" aria-label="Télécharger le PDF" target="_blank"><i class="bi bi-file-earmark-pdf"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Recherche"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Préambule</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./10-introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./20-etats-de-la-matiere.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Les états de la matière</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./30-melanges-corps-purs.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Mélanges et corps purs</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./40-historique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Historique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./50-atome.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">L’atome</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./60-tableau-periodique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Le tableau périodique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./70-liaisons.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Molécules et liaisons chimiques</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./80-molecules.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Géométrie moléculaire et polarité</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./90-nomenclature.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Nomenclature</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./100-solutions-electrolytes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Solutions et électrolytes</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./110-reactions-chimiques.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Réactions chimiques</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./120-types-reactions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Types de réactions</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./130-stoechiometrie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Calculs stœchiométriques</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./140-gaz-parfaits.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Les gaz parfaits</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./150-cinetique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Cinétique chimique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./160-equilibres.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">L’équilibre chimique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./170-acides-bases.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Les acides et les bases</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./180-ph-potentiel-hydrogene.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Le pH ou potentiel hydrogène</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./190-produit-solubilite.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Le produit de solubilité</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./200-oxydoreductions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Les réactions d’oxydoréduction</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./210-electrochimie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Électrochimie</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./220-thermochimie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Thermochimie</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./230-thermodynamique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Thermodynamique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./00-references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bibliographie</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table des matières</h2>
+   
+  <ul>
+  <li><a href="#le-quotient-de-réaction" id="toc-le-quotient-de-réaction" class="nav-link active" data-scroll-target="#le-quotient-de-réaction"><span class="header-section-number">16.1</span> Le quotient de réaction</a></li>
+  <li><a href="#la-constante-déquilibre" id="toc-la-constante-déquilibre" class="nav-link" data-scroll-target="#la-constante-déquilibre"><span class="header-section-number">16.2</span> La constante d’équilibre</a>
+  <ul class="collapse">
+  <li><a href="#équilibre-homogène-et-hétérogène" id="toc-équilibre-homogène-et-hétérogène" class="nav-link" data-scroll-target="#équilibre-homogène-et-hétérogène"><span class="header-section-number">16.2.1</span> Équilibre homogène et hétérogène</a></li>
+  <li><a href="#constantes-déquilibre-et-phase-gazeuse" id="toc-constantes-déquilibre-et-phase-gazeuse" class="nav-link" data-scroll-target="#constantes-déquilibre-et-phase-gazeuse"><span class="header-section-number">16.2.2</span> Constantes d’équilibre et phase gazeuse</a></li>
+  <li><a href="#formalisme-littéral" id="toc-formalisme-littéral" class="nav-link" data-scroll-target="#formalisme-littéral"><span class="header-section-number">16.2.3</span> Formalisme littéral</a></li>
+  </ul></li>
+  <li><a href="#équilibres-chimiques-et-stœchiométrie" id="toc-équilibres-chimiques-et-stœchiométrie" class="nav-link" data-scroll-target="#équilibres-chimiques-et-stœchiométrie"><span class="header-section-number">16.3</span> Équilibres chimiques et stœchiométrie</a></li>
+  <li><a href="#évolution-spontanée-et-principe-de-le-châtelier" id="toc-évolution-spontanée-et-principe-de-le-châtelier" class="nav-link" data-scroll-target="#évolution-spontanée-et-principe-de-le-châtelier"><span class="header-section-number">16.4</span> Évolution spontanée et principe de Le Châtelier</a>
+  <ul class="collapse">
+  <li><a href="#ajoutélimination-dun-réactif-ou-dun-produit" id="toc-ajoutélimination-dun-réactif-ou-dun-produit" class="nav-link" data-scroll-target="#ajoutélimination-dun-réactif-ou-dun-produit"><span class="header-section-number">16.4.1</span> Ajout/élimination d’un réactif ou d’un produit</a></li>
+  <li><a href="#influence-du-volume-et-de-la-pression" id="toc-influence-du-volume-et-de-la-pression" class="nav-link" data-scroll-target="#influence-du-volume-et-de-la-pression"><span class="header-section-number">16.4.2</span> Influence du volume et de la pression</a></li>
+  <li><a href="#influence-de-la-température" id="toc-influence-de-la-température" class="nav-link" data-scroll-target="#influence-de-la-température"><span class="header-section-number">16.4.3</span> Influence de la température</a></li>
+  <li><a href="#quotient-de-réaction-et-évolution-dun-système" id="toc-quotient-de-réaction-et-évolution-dun-système" class="nav-link" data-scroll-target="#quotient-de-réaction-et-évolution-dun-système"><span class="header-section-number">16.4.4</span> Quotient de réaction et évolution d’un système</a></li>
+  <li><a href="#effet-dun-catalyseur-sur-un-équilibre-chimique" id="toc-effet-dun-catalyseur-sur-un-équilibre-chimique" class="nav-link" data-scroll-target="#effet-dun-catalyseur-sur-un-équilibre-chimique"><span class="header-section-number">16.4.5</span> Effet d’un catalyseur sur un équilibre chimique</a></li>
+  </ul></li>
+  <li><a href="#résumé" id="toc-résumé" class="nav-link" data-scroll-target="#résumé"><span class="header-section-number">16.5</span> Résumé</a></li>
+  <li><a href="#exercices-supplémentaires" id="toc-exercices-supplémentaires" class="nav-link" data-scroll-target="#exercices-supplémentaires"><span class="header-section-number">16.6</span> Exercices supplémentaires</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">L’équilibre chimique</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="objectives">
+<ul>
+<li>Expliquer la notion d’équilibre chimique et comment elle est liée aux vitesses de réaction.</li>
+<li>Écrire l’expression de la constante d’équilibre associée à une équation chimique.</li>
+<li>Prédire le sens d’une réaction à partir de la constante d’équilibre et des concentrations des réactifs et produits.</li>
+<li>Calculer les concentrations d’équilibre à partir de la constante d’équilibre et de concentrations.</li>
+<li>Utiliser le principe de Le Châtelier pour prévoir l’évolution d’un système chimique à l’équilibre.</li>
+</ul>
+</div>
+<p>Dans le cas d’une <strong>réaction irréversible</strong>, les réactifs sont consommés et les produits sont produits. C’est ce que nous avons appelé la <strong>réaction directe</strong>. Dans le cas d’une <strong>réaction réversible</strong>, les produits peuvent également être consommés pour produire des réactifs. C’est ce que nous avons appelé la <strong>réaction indirecte</strong>. Un <strong>équilibre chimique</strong> est un état de la réaction dans lequel les réactions directe et indirecte se produisent à la même vitesse et où les concentrations des réactifs et des produits ne varient pas avec le temps.</p>
+<div class="tcolorbox">
+<p><strong>Équilibre chimique</strong><br>
+Un équilibre chimique est un état dans lequel la vitesse de la réaction directe est égale à celle de la réaction indirecte.</p>
+</div>
+<p>Considérons par exemple la décomposition du tétroxyde de diazote (N<sub>2</sub>O<sub>4</sub>) en dioxyde d’azote (NO<sub>2</sub>). Ce processus, comme beaucoup de réactions chimiques, est réversible :</p>
+<p><span class="math display">\[
+  N_2O_4\ {}_{(g)} \leftrightharpoons 2\ NO_2\ {}_{(g)}
+\]</span></p>
+<p>N<sub>2</sub>O<sub>4</sub> est un gaz incolore, alors que NO<sub>2</sub> est un gaz de couleur brun orangé.</p>
+<p>Pour étudier cet équilibre, nous allons considérer la cinétique de la réaction. Les réactions directe et indirecte s’effectuent en une seule étape, nous pouvons donc écrire les lois de vitesse de chaque réaction :</p>
+<p><span class="math display">\[
+\begin{split}
+  v_{directe} = k_{directe} \cdot |N_2O_4|
+\end{split}
+\qquad
+\text{ et }
+\qquad
+\begin{split}
+  v_{indirecte} = k_{indirecte} \cdot |NO_2|^2
+\end{split}
+\]</span></p>
+<div id="fig-equilibres-concentrations-1" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-equilibres-concentrations-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/equilibres-concentrations-1a.png" class="img-fluid figure-img"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/equilibres-concentrations-1b.png" class="img-fluid figure-img"></p>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-equilibres-concentrations-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;16.1: Profiles de la concentration en fonction du temps de la réaction directe et indirecte
+</figcaption>
+</figure>
+</div>
+<p>Le terme équilibre est généralement employé pour décrire un état sans changement. Ce type d’équilibre est un état d’<strong>équilibre statique</strong> puisqu’il caractérise l’état d’un système immobile. Cependant, un système à l’équilibre n’est pas toujours sans changement, comme, justement, un équilibre chimique.</p>
+<p>À l’échelle macroscopique, on ne voit pas de changement alors qu’à l’échelle sub-microscopique les réactions directes et indirectes continuent d’avoir lieu. <strong>Les vitesses directe et indirecte sont non-nulles et égales</strong>.</p>
+<div id="fig-equilibres-vitesses-1" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-equilibres-vitesses-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/equilibres-vitesses-1a.png" class="img-fluid figure-img"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/equilibres-vitesses-1b.png" class="img-fluid figure-img"></p>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-equilibres-vitesses-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;16.2: Profiles de la vitesse de réaction en fonction du temps de la réaction directe et indirecte
+</figcaption>
+</figure>
+</div>
+<p>Un état d’équilibre chimique est appelé état d’<strong>équilibre dynamique</strong> car, bien que les concentrations de réactifs et de produits ne varient pas avec le temps, les réactions directe et indirecte continuent de se produire.</p>
+<div class="Exercise">
+<p>Répondez aux questions suivantes sur l’équilibre chimique.</p>
+<ol type="1">
+<li>Qu’est-ce qui caractérise un équilibre chimique du point de vue des vitesses de réaction ? </li>
+<li>À l’équilibre, les réactions directe et indirecte s’arrêtent-elles ? Justifiez. </li>
+<li>Pourquoi parle-t-on d’équilibre « dynamique » et non « statique » ? </li>
+<li>À l’équilibre, les concentrations des réactifs et des produits sont-elles nécessairement égales ? </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>À l’équilibre, la vitesse de la réaction directe est égale à la vitesse de la réaction indirecte.</li>
+<li>Non : à l’échelle microscopique, les deux réactions continuent de se produire, mais à la même vitesse. Les vitesses directe et indirecte sont non nulles et égales.</li>
+<li>Parce que les concentrations restent constantes à l’échelle macroscopique (comme un équilibre statique), mais que les réactions directe et indirecte se poursuivent en permanence à l’échelle microscopique.</li>
+<li>Non : à l’équilibre, les concentrations ne varient plus, mais elles ne sont pas nécessairement égales entre elles. Ce sont les vitesses (et non les concentrations) qui sont égales.</li>
+</ol>
+</div>
+<section id="le-quotient-de-réaction" class="level2" data-number="16.1">
+<h2 data-number="16.1" class="anchored" data-anchor-id="le-quotient-de-réaction"><span class="header-section-number">16.1</span> Le quotient de réaction</h2>
+<p>Au milieu du XIX<sup>e</sup> siècle, Cato Guldberg et Peter Waage ont étudié les équilibres chimiques d’une grande variété de réactions. Ils ont observé qu’à température constante, dans un mélange à l’équilibre de réactifs et de produits, quelles que soient les concentrations initiales, le quotient de réaction a une valeur constante.</p>
+<p>Le <strong>quotient de réaction</strong> (Q<sub>r</sub>) est une grandeur qui permet de caractériser un système chimique. Il est défini comme le quotient du produit des concentrations des produits et du produit des concentrations des réactifs, chaque concentration étant portée à une puissance égale au coefficient stœchiométrique correspondant de l’équation chimique équilibrée. Cette grandeur nous donne une information sur les quantités relatives de produits et de réactifs lors d’une réaction à un instant <em>t</em>.</p>
+<p>Considérons un système chimique à l’équilibre, dont les espèces sont toutes dissoutes dans l’eau et dont l’équation de la réaction est la suivante :</p>
+<p><span class="math display">\[
+  a\ A_{(aq)} + b\ B_{(aq)} \leftrightharpoons c\ C_{(aq)} + d\ D_{(aq)}
+\]</span></p>
+<p>Par définition, le quotient de réaction de cette transformation s’écrit :</p>
+<p><span class="math display">\[
+  Q_{r}(t) = \frac{|C|_{(t)}^{c} \cdot |D|_{(t)}^{d}}{|A|_{(t)}^{a} \cdot |B|_{(t)}^{b}}
+\]</span></p>
+<p>Les concentrations des espèces dissoutes sont exprimées en mole par litre (mol/l).</p>
+</section>
+<section id="la-constante-déquilibre" class="level2" data-number="16.2">
+<h2 data-number="16.2" class="anchored" data-anchor-id="la-constante-déquilibre"><span class="header-section-number">16.2</span> La constante d’équilibre</h2>
+<p>À l’équilibre, les concentrations des réactifs et des produits ne varient plus ce qui implique que le quotient de réaction ne varie plus, lui non plus. Il devient constant. On appellera la valeur de Q<sub>r</sub> à l’équilibre, <strong>constante d’équilibre</strong> (K).</p>
+<p><span class="math display">\[
+  K = Q_{r}(eq) = \frac{|C|_{(eq)}^{c} \cdot |D|_{(eq)}^{d}}{|A|_{(eq)}^{a} \cdot |B|_{(eq)}^{b}}
+\]</span></p>
+<ul>
+<li>Comme le quotient de réaction, la constante d’équilibre n’a pas de dimension et s’exprime sans unité.</li>
+<li>Une constante d’équilibre élevée (K &gt; 10<sup>3</sup>) indique que les produits sont favorisés à l’équilibre.</li>
+<li>Une constante d’équilibre faible (K &lt; 10<sup>-3</sup>) indique que les réactifs sont favorisés à l’équilibre.</li>
+<li>K ne dépend que de la température.</li>
+</ul>
+<p>La valeur de K peut donc être calculée lorsque l’on a mesuré les concentrations des réactifs et produits à l’équilibre pour une température donnée. Pour simplifier l’écriture, à l’équilibre, on pourra écrire :</p>
+<p><span class="math display">\[
+  K = \frac{|C|^{c} \cdot |D|^{d}}{|A|^{a} \cdot |B|^{b}}
+\]</span></p>
+<div class="Exercise">
+<p>Ecrivez l’expression de la constante d’équilibre pour les réactions suivantes.</p>
+<ol type="1">
+<li><span class="math inline">\(\ce{ A + 2 B &lt;=&gt; C + D}\)</span> </li>
+<li><span class="math inline">\(\ce{2 C &lt;=&gt; E}\)</span> </li>
+<li><span class="math inline">\(\ce{A + E &lt;=&gt; 2 D}\)</span> </li>
+<li><span class="math inline">\(\ce{2 NO + O2 &lt;=&gt; 2 NO2}\)</span> </li>
+<li><span class="math inline">\(\ce{N2O4 &lt;=&gt; 2 NO2}\)</span> </li>
+<li><span class="math inline">\(\ce{2 SO2 + O2 &lt;=&gt; 2 SO3}\)</span> </li>
+<li><span class="math inline">\(\ce{Fe^{3+} + SCN^{-} &lt;=&gt; Fe(SCN)^{2+}}\)</span> </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><span class="math display">\[ K = \frac{|\ce{C}| \cdot |\ce{D}|}{|\ce{A}| \cdot |\ce{B}|^2} \]</span></li>
+<li><span class="math display">\[ K = \frac{|\ce{E}|}{|\ce{C}|^2} \]</span></li>
+<li><span class="math display">\[ K = \frac{|\ce{D}|^2}{|\ce{A}| \cdot |\ce{E}|} \]</span></li>
+<li><span class="math display">\[ K = \frac{|\ce{NO2}|^2}{|\ce{NO}|^2 \cdot |\ce{O2}|} \]</span></li>
+<li><span class="math display">\[ K = \frac{|\ce{NO2}|^2}{|\ce{N2O4}|} \]</span></li>
+<li><span class="math display">\[ K = \frac{|\ce{SO3}|^2}{|\ce{SO2}|^2 \cdot |\ce{O2}|} \]</span></li>
+<li><span class="math display">\[ K = \frac{|\ce{Fe(SCN)}^{2+}|}{|\ce{Fe}^{3+}| \cdot |\ce{SCN^-}|} \]</span></li>
+</ol>
+</div>
+<section id="équilibre-homogène-et-hétérogène" class="level3" data-number="16.2.1">
+<h3 data-number="16.2.1" class="anchored" data-anchor-id="équilibre-homogène-et-hétérogène"><span class="header-section-number">16.2.1</span> Équilibre homogène et hétérogène</h3>
+<p>Lorsque toutes les substances participant à la réaction sont dans la même phase, on parlera d’<strong>équilibre homogène</strong> et lorsque toutes les substances participant à la réaction sont dans des phases différentes, on parlera d’<strong>équilibre hétérogène</strong>.</p>
+<p><strong>Lors du calcul des constantes d’équilibre, les solides et les liquides purs ne sont pas pris en compte car leur concentration ne change pas au cours de la réaction.</strong></p>
+<div class="Exercise">
+<p>Ecrivez l’expression de la constante d’équilibre pour les réactions suivantes.</p>
+<ol type="1">
+<li><span class="math inline">\(\ce{CaCO3_{(s)} &lt;=&gt; CaO_{(s)} + CO2_{(g)}}\)</span> </li>
+<li><span class="math inline">\(\ce{2 NOCl_{(g)} &lt;=&gt; 2 NO_{(g)} + Cl2_{(g)}}\)</span> </li>
+<li><span class="math inline">\(\ce{Fe(OH)3_{(s)} &lt;=&gt; Fe^{3+}_{(aq)} + 3 OH^-_{(aq)}}\)</span> </li>
+<li><span class="math inline">\(\ce{NH3_{(aq)} + H2O_{(l)} &lt;=&gt; NH4+_{(aq)} + OH^-_{(aq)}}\)</span> </li>
+<li><span class="math inline">\(\ce{PbCl2_{(s)} &lt;=&gt; Pb^{2+}_{(aq)} + 2 Cl^-_{(aq)}}\)</span> </li>
+<li><span class="math inline">\(\ce{H2_{(g)} + I2_{(s)} &lt;=&gt; 2 HI_{(g)}}\)</span> </li>
+<li><span class="math inline">\(\ce{2 NaHCO3_{(s)} &lt;=&gt; Na2CO3_{(s)} + CO2_{(g)} + H2O_{(g)}}\)</span> </li>
+<li><span class="math inline">\(\ce{Ag2CO3_{(s)} &lt;=&gt; 2 Ag+_{(aq)} + CO3^{2-}_{(aq)}}\)</span> </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><span class="math display">\[ K = |\ce{CO2}| \]</span></li>
+<li><span class="math display">\[ K = \frac{|\ce{NO}|^2 \cdot |\ce{Cl2}|}{|\ce{NOCl}|^2} \]</span></li>
+<li><span class="math display">\[ K = |\ce{Fe}^{3+}| \cdot |\ce{OH}^-|^3 \]</span></li>
+<li><span class="math display">\[ K = \frac{|\ce{NH4}^+| \cdot |\ce{OH}^-|}{|\ce{NH3}|} \]</span></li>
+<li><span class="math display">\[ K = |\ce{Pb}^{2+}| \cdot |\ce{Cl}^-|^2 \]</span></li>
+<li><span class="math display">\[ K = \frac{|\ce{HI}|^2}{|\ce{H2}|} \]</span></li>
+<li><span class="math display">\[ K = |\ce{CO2}| \cdot |\ce{H2O}| \]</span></li>
+<li><span class="math display">\[ K = |\ce{Ag}^+|^2 \cdot |\ce{CO3}^{2-}| \]</span></li>
+</ol>
+</div>
+</section>
+<section id="constantes-déquilibre-et-phase-gazeuse" class="level3" data-number="16.2.2">
+<h3 data-number="16.2.2" class="anchored" data-anchor-id="constantes-déquilibre-et-phase-gazeuse"><span class="header-section-number">16.2.2</span> Constantes d’équilibre et phase gazeuse</h3>
+<p>Nous avons exprimé jusqu’à présent les constantes d’équilibre en utilisant la concentration. Cependant, pour les réactions en phase gazeuse, nous pouvons exprimer les constantes d’équilibre en utilisant les pressions partielles des gaz impliqués.</p>
+<p>La loi des pressions partielles exprime que la pression d’un gaz est directement proportionnelle à sa concentration (pour un volume et une température constants). Dans un mélange de gaz, la pression partielle d’un gaz composant le mélange est la pression avec laquelle il contribue à la pression totale.</p>
+<p>Supposons la réaction en phase gazeuse générique équilibrée ci-dessous :</p>
+<p><span class="math display">\[
+  a\ A_{(g)} + b\ B_{(g)} \leftrightharpoons c\ C_{(g)} + d\ D_{(g)}
+\]</span></p>
+<p>Si nous connaissons les pressions partielles de chaque composant à l’équilibre, alors l’expression de la constante d’équilibre pour cette réaction peut-être expimée par la relation suivante :</p>
+<p><span class="math display">\[
+  K = \frac{P_C^{c} \cdot P_D^{d}}{P_A^{a} \cdot P_B^{b}}
+\]</span></p>
+<p>avec :</p>
+<ul>
+<li>P<sub>A</sub> : pression partielle du gaz A dans le système.</li>
+<li>P<sub>B</sub> : pression partielle du gaz B dans le système.</li>
+<li>…</li>
+</ul>
+</section>
+<section id="formalisme-littéral" class="level3" data-number="16.2.3">
+<h3 data-number="16.2.3" class="anchored" data-anchor-id="formalisme-littéral"><span class="header-section-number">16.2.3</span> Formalisme littéral</h3>
+<p>Pour exprimer la constante d’équilibre :</p>
+<ul>
+<li>nous utiliserons <span class="math inline">\(K_c\)</span> lorsque la constante d’équilibre est exprimée à partir de concentrations</li>
+<li>nous utiliserons <span class="math inline">\(K_p\)</span> lorsque la constante d’équilibre est exprimée à partir des pressions partielles.</li>
+</ul>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 41%">
+<col style="width: 58%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Concentrations, <span class="math inline">\(K_c\)</span></th>
+<th style="text-align: center;">Pressions partielles, <span class="math inline">\(K_p\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><span class="math inline">\(K_c = \frac{|C|^{c} \cdot |D|^{d}}{|A|^{a} \cdot |B|^{b}}\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(K_p = \frac{P_C^{c} \cdot P_D^{d}}{P_A^{a} \cdot P_B^{b}}\)</span></td>
+</tr>
+</tbody>
+</table>
+<div class="Exercise">
+<p>Ecrivez l’expression de la constante d’équilibre (K<sub>c</sub> ou K<sub>p</sub>) pour les réactions suivantes. Dans chaque cas, indiquez si la réaction est homogène ou hétérogène.</p>
+<ol type="1">
+<li><span class="math inline">\(3\ NO\ _{(g)} \leftrightharpoons N_2O\ _{(g)} +  NO_2\ _{(g)}\)</span> </li>
+<li><span class="math inline">\(CH_4\ _{(g)} + 2\ H_2S\ _{(g)} \leftrightharpoons CS_2\ _{(g)} +  4\ H_2\ _{(g)}\)</span> </li>
+<li><span class="math inline">\(HF\ _{(aq)} \leftrightharpoons H^+\ _{(aq)} +  F^-\ _{(aq)}\)</span> </li>
+<li><span class="math inline">\(2\ NaHCO_3\ _{(s)} \leftrightharpoons Na_2CO_3\ _{(s)} + CO_2\ _{(g)} + H_2O\ _{(g)}\)</span> </li>
+<li><span class="math inline">\(H_2O\ _{(l)} \leftrightharpoons H^+\ _{(aq)} +  OH^-\ _{(aq)}\)</span> </li>
+<li><span class="math inline">\(2\ Ag\ _{(s)} + Zn^{2+}\ _{(aq)} \leftrightharpoons 2\ Ag^+\ _{(aq)} +  Zn\ _{(s)}\)</span> </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><span class="math display">\[ K_{p} = \frac{P_{\ce{N2O}} \cdot P_{\ce{NO2}}}{P_{\ce{NO}}^{3}} \qquad \text{(homogène)} \]</span></li>
+<li><span class="math display">\[ K_{p} = \frac{P_{\ce{CS2}} \cdot P_{\ce{H2}}^{4}}{P_{\ce{CH4}} \cdot P_{\ce{H2S}}^{2}} \qquad \text{(homogène)} \]</span></li>
+<li><span class="math display">\[ K_{c} = \frac{|H^+| \cdot |F^-|}{|HF|} \qquad \text{(homogène)} \]</span></li>
+<li><span class="math display">\[ K_{p} = P_{CO_2} \cdot P_{H_2O} \qquad \text{(hétérogène)} \]</span></li>
+<li><span class="math display">\[ K_{c} = |H^+| \cdot |OH^-| \qquad \text{(hétérogène)} \]</span></li>
+<li><span class="math display">\[ K_{c} = \frac{|Ag^+|^{2}}{|Zn^{2+}|} \qquad \text{(hétérogène)} \]</span></li>
+</ol>
+</div>
+</section>
+</section>
+<section id="équilibres-chimiques-et-stœchiométrie" class="level2" data-number="16.3">
+<h2 data-number="16.3" class="anchored" data-anchor-id="équilibres-chimiques-et-stœchiométrie"><span class="header-section-number">16.3</span> Équilibres chimiques et stœchiométrie</h2>
+<p>En cherchant à mesurer la constante d’équilibre de la décomposition de l’iodure d’hydrogène, on remplit un ballon sous vide de 2 l avec 0.2 mol de <span class="math inline">\(HI\)</span> gazeux et on laisse la réaction se dérouler à 453°C.</p>
+<p><span class="math display">\[
+  2\ HI\ _{(g)} \leftrightharpoons H_2\ _{(g)} + I_2\ _{(g)}
+\]</span></p>
+<p>À l’équilibre, on mesure une concentration en iodure d’hydrogène, <span class="math inline">\(|HI|_{eq}\)</span> = 0.078 M.</p>
+<p>On commence par calculer la concentration initiale en iodure d’hydrogène, <span class="math inline">\(|HI|_{0}\)</span>.</p>
+<p><span class="math display">\[
+  |HI|_0 = \frac{0.2\ \text{ mol}}{2\ \text{ l}} = 0.1\ M
+\]</span></p>
+<p>On peut ensuite établir un tableau des variations :</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 22%">
+<col style="width: 18%">
+<col style="width: 25%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">Concentrations M</th>
+<th style="text-align: center;"><span class="math inline">\(2\ HI\ _{(g)}\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(\leftrightharpoons\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(H_2\ _{(g)}\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(I_2\ _{(g)}\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">initiale</td>
+<td style="text-align: center;">0.1</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">variation</td>
+<td style="text-align: center;">- 2x</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">+ x</td>
+<td style="text-align: center;">+ x</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">équilibre</td>
+<td style="text-align: center;">0.1 - 2x</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;">x</td>
+</tr>
+</tbody>
+</table>
+<p>On connaît la valeur de la concentration de <span class="math inline">\(HI\)</span> à l’équilibre. On peut donc résoudre l’équation pour x :</p>
+<p><span class="math display">\[
+  |HI|_{eq} = 0.1\ M - 2 \cdot x = 0.078\ M \quad \rightarrow \quad x = 0.011\ M
+\]</span></p>
+<p>Par conséquent, les concentrations à l’équilibre sont :</p>
+<p><span class="math display">\[
+  |H_2|_{eq} = |I_2|_{eq} = 0.011\ M \quad \text{et} \quad |HI|_{eq} = 0.078\ M
+\]</span></p>
+<p>On peut donc calculer la valeur de la constante d’équilibre de la réaction à 453°C.</p>
+<p><span class="math display">\[
+  K_{c} = \frac{|H_2|_{eq} \cdot |I_2|_{eq}}{|HI|_{eq}^2} = \frac{0.011 \cdot 0.011}{0.078^2} = 0.02\ \text{à 453°C}
+\]</span></p>
+<div class="Exercise">
+<p>On étudie la réaction entre l’ammoniac et le dioxygène</p>
+<p><span class="math display">\[
+  4\ NH_3\ _{(g)} + 7\ O_2\ _{(g)} \leftrightharpoons 2\ N_2O_4\ _{(g)} + 6\ H_2O\ _{(g)}
+\]</span></p>
+<p>On remplit un ballon avec 2.4 M de NH<sub>3</sub> et 2.4 M de O<sub>2</sub> à une température donnée. La réaction se déroule et à l’équilibre on mesure une concentration en N<sub>2</sub>O<sub>4</sub> égale à 0.134 M. Calculer K<sub>c</sub>.</p>
+</div>
+<div class="Answer">
+<p><span class="math display">\[
+\begin{split}
+  \text{Concentrations M} &amp;\\
+  \text{initiale} &amp;\\
+  \text{variation} &amp;\\
+  \text{équilibre} &amp;
+\end{split}
+\quad
+\begin{split}
+  4\ NH_3\ _{(g)} &amp;\\
+  2.4 &amp;\\
+  -4\ x &amp;\\
+  2.4 - 4x &amp;
+\end{split}
+\quad
+\begin{split}
+  7\ O_2\ _{(g)} &amp;\\
+  2.4 &amp;\\
+  -7\ x &amp;\\
+  2.4 - 7x &amp;
+\end{split}
+\quad
+\begin{split}
+  \leftrightharpoons &amp;\\
+  ~ &amp;\\
+  ~ &amp;\\
+  ~ &amp;
+\end{split}
+\quad
+\begin{split}
+  2\ N_2O_4\ _{(g)}\\
+  0 &amp;\\
+  +2\ x &amp;\\
+  2x &amp;
+\end{split}
+\quad
+\begin{split}
+  6\ H_2O\ _{(g)}\\
+  0 &amp;\\
+  +6\ x &amp;\\
+  6x &amp;
+\end{split}
+\]</span></p>
+<p><span class="math display">\[
+  \begin{split}
+  |N_2O_4|_{eq} &amp;= 2x = 0.134\ M \\
+  \Rightarrow x &amp;= 0.067\ M \\
+  |NH_3|_{eq} &amp;= 2.4 – 4x = 2.4 – 4 \cdot 0.067 = 2.13\ M \\
+  |O_2|_{eq} &amp;= 2.4 – 7x = 2.4 – 7 \cdot 0.067 = 1.93\ M \\
+  |H_2O|_{eq} &amp;= 6x = 6 \cdot 0.067 = 0.402\ M
+  \end{split}
+\]</span></p>
+<p><span class="math display">\[
+  K_{c} = \frac{|N_2O_4|^{2}_{eq} \cdot |H_2O|^{6}_{eq}}{|NH_3|^{4}_{eq} \cdot |O_2|^{7}_{eq}}
+  = \frac{(0.134)^2 \cdot (0.402)^{6}}{(2.13)^{4} \cdot (1.93)^{7}} = 3.69 \cdot 10^{−8}
+\]</span></p>
+</div>
+<div class="Exercise">
+<p>À une certaine température, la constante d’équilibre de la réaction <span class="math inline">\(\ce{H2_{(g)} + I2_{(g)} &lt;=&gt; 2 HI_{(g)}}\)</span> vaut <span class="math inline">\(K_c = 49\)</span>. On introduit dans un récipient 1.0 mol/l de <span class="math inline">\(\ce{H2}\)</span> et 1.0 mol/l de <span class="math inline">\(\ce{I2}\)</span> (aucun HI au départ).</p>
+<ol type="1">
+<li>Établissez le tableau de variations (en fonction de <span class="math inline">\(x\)</span>). </li>
+<li>À l’aide de la constante d’équilibre, déterminez <span class="math inline">\(x\)</span>. </li>
+<li>Donnez les concentrations des trois espèces à l’équilibre. </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>Tableau de variations (mol/l) :
+<ul>
+<li>initiale : <span class="math inline">\(|\ce{H2}| = 1.0\)</span>, <span class="math inline">\(|\ce{I2}| = 1.0\)</span>, <span class="math inline">\(|\ce{HI}| = 0\)</span></li>
+<li>variation : <span class="math inline">\(-x\)</span>, <span class="math inline">\(-x\)</span>, <span class="math inline">\(+2x\)</span></li>
+<li>équilibre : <span class="math inline">\(1.0 - x\)</span>, <span class="math inline">\(1.0 - x\)</span>, <span class="math inline">\(2x\)</span></li>
+</ul></li>
+<li><span class="math display">\[
+K_c = \frac{|\ce{HI}|^2}{|\ce{H2}| \cdot |\ce{I2}|} = \frac{(2x)^2}{(1.0 - x)^2} = 49
+\]</span> En prenant la racine : <span class="math inline">\(\dfrac{2x}{1.0 - x} = 7 \Rightarrow 2x = 7(1.0 - x) \Rightarrow 9x = 7 \Rightarrow x = 0.78\)</span> mol/l.</li>
+<li><span class="math inline">\(|\ce{H2}| = |\ce{I2}| = 1.0 - 0.78 = 0.22\)</span> mol/l ; <span class="math inline">\(|\ce{HI}| = 2 \cdot 0.78 = 1.56\)</span> mol/l.</li>
+</ol>
+</div>
+</section>
+<section id="évolution-spontanée-et-principe-de-le-châtelier" class="level2" data-number="16.4">
+<h2 data-number="16.4" class="anchored" data-anchor-id="évolution-spontanée-et-principe-de-le-châtelier"><span class="header-section-number">16.4</span> Évolution spontanée et principe de Le Châtelier</h2>
+<p>Le <strong>principe de Le Châtelier</strong> permet de prédire le sens de la réaction qui sera favorisé lorsqu’on modifie les conditions d’un système à l’équilibre.</p>
+<blockquote class="blockquote">
+<p>“Lorsque les modifications extérieures apportées à un système physico-chimique en équilibre provoquent une évolution vers un nouvel état d’équilibre, l’évolution s’oppose aux perturbations qui l’ont engendrée et en modère l’effet.”</p>
+<p>— Henry Louis Le Châtelier</p>
+</blockquote>
+<p>Dit autrement : si on modifie les conditions d’un système à l’équilibre, il réagit de façon à s’opposer aux changements qu’on lui impose jusqu’à l’établissement d’un nouvel état d’équilibre.</p>
+<p>Pour modifier un équilibre, on peut agir sur différents facteurs :</p>
+<ul>
+<li>L’addition d’un réactif ou d’un produit.</li>
+<li>L’élimination d’un réactif ou d’un produit.</li>
+<li>Un changement de volume ou de pression du système<br>
+<em>(pour les systèmes contenant des réactifs et des produits gazeux)</em>.</li>
+<li>Un changement de température.</li>
+</ul>
+<section id="ajoutélimination-dun-réactif-ou-dun-produit" class="level3" data-number="16.4.1">
+<h3 data-number="16.4.1" class="anchored" data-anchor-id="ajoutélimination-dun-réactif-ou-dun-produit"><span class="header-section-number">16.4.1</span> Ajout/élimination d’un réactif ou d’un produit</h3>
+<p>Prenons en exemple la réaction du diazote avec le dihydrogène gazeux pour former l’ammoniac gazeux.</p>
+<p><span class="math display">\[
+N_2\ _{(g)} + 3\ H_2\ _{(g)} \leftrightharpoons 2\ NH_3\ _{(g)}
+\]</span></p>
+<p>Selon le principe de Le Châtelier :</p>
+<ul>
+<li>L’ajout d’un réactif ou l’élimination d’un produit entraîne un déplacement de l’équilibre vers la droite.</li>
+<li>L’ajout d’un produit ou l’élimination d’un réactif entraîne un déplacement de l’équilibre vers la gauche.</li>
+</ul>
+<div id="fig-equilibres-concentrations-2" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-equilibres-concentrations-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/equilibres-concentrations-2a.png" class="img-fluid figure-img"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/equilibres-concentrations-2b.png" class="img-fluid figure-img"></p>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-equilibres-concentrations-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;16.3: Effet de l’ajout/élimination de réactifs ou de produits sur le sens de la réaction
+</figcaption>
+</figure>
+</div>
+<ul>
+<li>Lorsqu’on ajoute une substance, la réaction déplace l’équilibre de manière à consommer une partie de cette substance.</li>
+<li>Lorsqu’on élimine une substance, la réaction déplace l’équilibre de manière à produire d’avantage de cette substance.</li>
+</ul>
+<p>L’ajout ou le retrait d’une espèce d’une réaction à l’équilibre ne change pas la valeur de la constante d’équilibre K<sub>c</sub>. Le rapport des concentrations rejoindra la même valeur qu’avant la modification.</p>
+</section>
+<section id="influence-du-volume-et-de-la-pression" class="level3" data-number="16.4.2">
+<h3 data-number="16.4.2" class="anchored" data-anchor-id="influence-du-volume-et-de-la-pression"><span class="header-section-number">16.4.2</span> Influence du volume et de la pression</h3>
+<p>Prenons en exemple la décomposition du tétroxyde de diazote (N<sub>2</sub>O<sub>4</sub>) en dioxyde d’azote (NO<sub>2</sub>).</p>
+<p><span class="math display">\[
+  N_2O_4\ {}_{(g)} \leftrightharpoons 2\ NO_2\ {}_{(g)}
+\]</span></p>
+<p>Imaginons un cylindre fermé avec un piston mobile comme couvercle. L’équilibre ci-dessus se produit à l’intérieur du cylindre. En déplaçant le piston, on change le volume du système et on modifie les concentrations des réactifs et des produits. Si nous poussons sur le piston, l’équilibre sera perturbé et se déplacera dans la direction qui minimise l’effet de cette perturbation.</p>
+<div id="fig-equilibres-pressions-1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-equilibres-pressions-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/equilibres-pressions-1.png" class="img-fluid figure-img" style="width:75.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-equilibres-pressions-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;16.4: Effet de la diminution du volume (augmentation de la pression) sur l’équilibre
+</figcaption>
+</figure>
+</div>
+<p>La réaction globale présente moins de moles de gaz du côté des produits. L’équilibre sera donc déplacé vers la gauche.</p>
+<p><strong>RAPPEL :</strong></p>
+<ul>
+<li>Une augmentation du volume diminue la pression (<span class="math inline">\(V \uparrow\)</span> - <span class="math inline">\(P \downarrow\)</span>).</li>
+<li>Une diminution du volume augmente la pression (<span class="math inline">\(V \downarrow\)</span> - <span class="math inline">\(P \uparrow\)</span>).</li>
+</ul>
+<p>En résumé :</p>
+<p><strong>Une diminution du volume de la réaction favorise la réaction (directe ou indirecte) qui diminue le nombre total de moles de gaz</strong>.</p>
+<p><strong>Une augmentation du volume de la réaction favorise la réaction (directe ou indirecte) qui augmente le nombre total de moles de gaz</strong>.</p>
+<p>Si le même nombre de moles de gaz sont de chaque côté de l’équation chimique, une variation de volume (ou de pression) n’aura pas d’influence sur l’équilibre chimique.</p>
+</section>
+<section id="influence-de-la-température" class="level3" data-number="16.4.3">
+<h3 data-number="16.4.3" class="anchored" data-anchor-id="influence-de-la-température"><span class="header-section-number">16.4.3</span> Influence de la température</h3>
+<p>Un changement de concentration ou de volume peut déplacer un équilibre chimique mais il ne change pas la valeur de la constante d’équilibre. La température, par contre, influence un état d’équilibre chimique car elle modifie la valeur de la constante d’équilibre.</p>
+<p>Dans la réaction suivante, le sens direct est endothermique (la réaction absorbe de la chaleur).</p>
+<p><span class="math display">\[
+  \text{chaleur} + N_2O_4\ {}_{(g)} \leftrightharpoons 2\ NO_2\ {}_{(g)}
+\]</span></p>
+<p>Si nous considérons la chaleur comme un réactif, nous pouvons appliquer le principe de Le Châtelier pour prédire dans quel sens sera déplacé l’équilibre si nous ajoutons ou retirons de la chaleur.</p>
+<p>L’augmentation de la température (apport de chaleur) déplacera la réaction dans le sens direct, car la chaleur apparaît du côté du réactif. La diminution de la température (retrait de chaleur) déplacera la réaction dans le sens indirect.</p>
+<p>En résumé :</p>
+<p><strong>Une augmentation de la température favorise le sens endothermique (direct ou indirect) d’un équilibre chimique.</strong></p>
+<p><strong>Une diminution de la température favorise le sens exothermique (direct ou indirect) d’un équilibre chimique.</strong></p>
+<div id="fig-equilibres-temperature-1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-equilibres-temperature-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/equilibres-temperature-1.png" class="img-fluid figure-img" style="width:75.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-equilibres-temperature-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;16.5: Effet de l’ajout ou le retrait de chaleur sur l’équilibre
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="quotient-de-réaction-et-évolution-dun-système" class="level3" data-number="16.4.4">
+<h3 data-number="16.4.4" class="anchored" data-anchor-id="quotient-de-réaction-et-évolution-dun-système"><span class="header-section-number">16.4.4</span> Quotient de réaction et évolution d’un système</h3>
+<p>Pour déterminer dans quel sens une réaction va évoluer pour atteindre l’équilibre, on compare la valeur du quotient de réaction <span class="math inline">\(Q_r\)</span> à un instant <span class="math inline">\(t\)</span> donné avec la valeur de la constante d’équilibre <span class="math inline">\(K\)</span>.</p>
+<ul>
+<li>Si <strong><span class="math inline">\(Q_r &lt; K\)</span></strong> : Le système n’est pas à l’équilibre. Pour atteindre l’équilibre, le numérateur de l’expression de <span class="math inline">\(Q_r\)</span> (les produits) doit augmenter et le dénominateur (les réactifs) doit diminuer. La réaction évolue dans le <strong>sens direct</strong> (vers la droite).</li>
+<li>Si <strong><span class="math inline">\(Q_r &gt; K\)</span></strong> : Le système n’est pas à l’équilibre. Le numérateur (les produits) doit diminuer et le dénominateur (les réactifs) doit augmenter. La réaction évolue dans le <strong>sens indirect</strong> (vers la gauche).</li>
+<li>Si <strong><span class="math inline">\(Q_r = K\)</span></strong> : Le système est à l’<strong>équilibre chimique</strong>. Les concentrations des réactifs et des produits ne varient plus au cours du temps.</li>
+</ul>
+<p>Cette comparaison est particulièrement utile pour prévoir l’évolution d’un système lorsque les concentrations initiales sont connues mais que le système n’a pas encore atteint son état d’équilibre.</p>
+</section>
+<section id="effet-dun-catalyseur-sur-un-équilibre-chimique" class="level3" data-number="16.4.5">
+<h3 data-number="16.4.5" class="anchored" data-anchor-id="effet-dun-catalyseur-sur-un-équilibre-chimique"><span class="header-section-number">16.4.5</span> Effet d’un catalyseur sur un équilibre chimique</h3>
+<p>Un catalyseur accélère une réaction en abaissant l’énergie d’activation de la réaction. Cependant il abaisse l’énergie d’activation de la réaction directe ainsi que de la réaction indirecte, et ceci dans la même mesure. La présence d’un catalyseur ne modifie donc pas la constante d’équilibre, ni ne modifie les quantités de matières de réactifs et de produits.</p>
+<p><strong>L’ajout d’un catalyseur à une réaction ne modifie pas un équilibre chimique.</strong></p>
+<p>Si un catalyseur est ajouté à un mélange réactionnel qui n’est pas à l’équilibre le mélange atteindra l’équilibre plus rapidement.</p>
+<div class="Exercise">
+<p><span class="math display">\[
+  2\ SO_2\ _{(g)} + O_2\ _{(g)} \leftrightharpoons 2\ SO_3\ _{(g)} + \text{chaleur}
+\]</span></p>
+<p>Dans la réaction ci-dessus, on favorise le rendement en SO<sub>3</sub> :</p>
+<ol type="a">
+<li>lorsque l’on augmente ou abaisse la pression ? (justifiez) </li>
+<li>lorsque l’on augmente ou abaisse la température ? (justifiez) </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="a">
+<li>L’équilibre est favorisé à droite en augmentant la pression pour réduire le nombre total de moles de gaz.</li>
+<li>L’équilibre est favorisé à droite en abaissant la température pour favoriser le sens exothermique.</li>
+</ol>
+</div>
+<div class="Exercise">
+<p><span class="math display">\[
+  C\ _{(s)} + 2\ H_2\ _{(g)} \leftrightharpoons CH_4\ _{(g)} + \text{chaleur}
+\]</span></p>
+<p>Quels sont les effets des changements énoncés ci-dessous sur cet équilibre chimique ?</p>
+<ol type="a">
+<li>Une augmentation de température. (justifiez) </li>
+<li>Une augmentation de la pression en diminuant le volume. (justifiez) </li>
+<li>Permettre au CH<sub>4</sub> de s’échapper en continu du réacteur abritant la réaction. (justifiez) </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="a">
+<li>L’équilibre favorise la production de réactifs en favorisant le sens exothermique de la réaction.</li>
+<li>L’équilibre favorise la production de produits pour diminuer le nombre totale de moles de gaz.</li>
+<li>L’équilibre favorise la production de produits de manière à produire plus de CH<sub>4</sub>.</li>
+</ol>
+</div>
+</section>
+</section>
+<section id="résumé" class="level2" data-number="16.5">
+<h2 data-number="16.5" class="anchored" data-anchor-id="résumé"><span class="header-section-number">16.5</span> Résumé</h2>
+<ul>
+<li>Un équilibre chimique est un état dynamique : la vitesse de la réaction directe est égale à celle de la réaction indirecte. Les concentrations des réactifs et des produits ne varient plus (mais les deux réactions se poursuivent).</li>
+<li>Le quotient de réaction caractérise l’état d’un système à un instant donné. À l’équilibre il devient constant : c’est la constante d’équilibre <span class="math inline">\(K\)</span>.</li>
+<li>Dans l’expression de <span class="math inline">\(K\)</span>, les solides et les liquides purs ne sont pas pris en compte. Pour les gaz, on utilise les concentrations (<span class="math inline">\(K_c\)</span>) ou les pressions partielles (<span class="math inline">\(K_p\)</span>).</li>
+<li>On calcule <span class="math inline">\(K\)</span> à partir des concentrations d’équilibre, ou inversement les concentrations d’équilibre à partir de <span class="math inline">\(K\)</span> et des concentrations initiales.</li>
+<li>On prédit le sens d’évolution en comparant <span class="math inline">\(Q_r\)</span> et <span class="math inline">\(K\)</span> : si <span class="math inline">\(Q_r &lt; K\)</span>, la réaction évolue dans le sens direct ; si <span class="math inline">\(Q_r &gt; K\)</span>, dans le sens indirect ; si <span class="math inline">\(Q_r = K\)</span>, le système est à l’équilibre.</li>
+<li>Principe de Le Châtelier : un système à l’équilibre perturbé évolue de façon à s’opposer à la perturbation.</li>
+</ul>
+</section>
+<section id="exercices-supplémentaires" class="level2" data-number="16.6">
+<h2 data-number="16.6" class="anchored" data-anchor-id="exercices-supplémentaires"><span class="header-section-number">16.6</span> Exercices supplémentaires</h2>
+<div class="Exercise">
+<p>Soit l’équilibre chimique suivant :</p>
+<p><span class="math display">\[
+\ce{N2_{(g)} + 3 H2_{(g)} &lt;=&gt; 2 NH3_{(g)}}
+\]</span></p>
+<p>La constante d’équilibre de cette réaction à la température à laquelle elle se déroule est&nbsp;<span class="math inline">\(K_p = 6\cdot 10^{5}\)</span>.</p>
+<p>Supposons que les pressions partielles initiales des gaz dans le réacteur où a lieu le réaction soient :</p>
+<ul>
+<li><span class="math inline">\(P_{\ce{N2}} = 0.50\ atm\)</span></li>
+<li><span class="math inline">\(P_{\ce{H2}} = 0.80\ atm\)</span></li>
+<li><span class="math inline">\(P_{\ce{NH3}} = 0.10\ atm\)</span></li>
+</ul>
+<ol type="1">
+<li>Calculez le quotient de réaction <span class="math inline">\(Q_p\)</span> pour l’état initial. </li>
+<li>Déterminez si la réaction se déroulera dans le sens direct ou dans le sens indirect pour atteindre l’équilibre (Justifiez votre réponse à l’aide des valeurs de <span class="math inline">\(Q_p\)</span> et <span class="math inline">\(K_p\)</span>). </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><p>Le quotient de réaction <span class="math inline">\(Q_p\)</span> est donné par : <span class="math display">\[
+\begin{split}
+Q_p &amp;= \frac{P_{\ce{NH3}}^2}{P_{\ce{N2}} \cdot P_{\ce{H2}}^3} \\
+&amp;= \frac{(0.10)^2}{0.50 \cdot (0.80)^3} \\
+&amp;= \frac{0.01}{0.50 \cdot 0.512} = \frac{0.01}{0.256} = 0.039
+\end{split}
+\]</span></p></li>
+<li><p>Sens de la réaction :<br>
+Puisque <span class="math inline">\(Q_p = 0.039\)</span> et <span class="math inline">\(K_p = 6 \cdot 10^{5}\)</span>, nous observons que : <span class="math display">\[
+Q_p &lt; K_p
+\]</span> La réaction se poursuit dans le sens direct pour atteindre l’équilibre. Cela signifie que davantage de <span class="math inline">\(\ce{NH3}\)</span> sera produit au fur et à mesure que <span class="math inline">\(\ce{N2}\)</span> et <span class="math inline">\(\ce{H2}\)</span> seront consommés jusqu’à ce que le système atteigne l’équilibre.</p></li>
+</ol>
+</div>
+<div class="Exercise">
+<p>De l’oxychlorure d’azote pur (<span class="math inline">\(\ce{NOCl}\)</span>) gazeux est chauffé à 240°C dans un récipient de 1 L et donne lieu à l’équilibre chimique suivant :</p>
+<p><span class="math display">\[
+\ce{2 NOCl_{(g)} &lt;=&gt; 2 NO_{(g)} + Cl_{2(g)}}
+\]</span></p>
+<p>À l’équilibre, la pression totale est de 1 atm et la pression du <span class="math inline">\(\ce{NOCl}\)</span> est de 0.64 atm.</p>
+<ol type="a">
+<li>Calculer les pressions partielles de et de dans le système. </li>
+<li>Calculer la constante d’équilibre K<sub>p</sub>. </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="a">
+<li><span class="math display">\[
+\begin{split}
+P_{Tot} &amp;= P_{\ce{NOCl}} + P_{\ce{NO}} + P_{\ce{Cl2}} \\
+P_{\ce{NO}} + P_{\ce{Cl2}} &amp;= P_{Tot} - P_{\ce{NOCl}} \\
+&amp;= 1\ \text{ atm} - 0.64\ \text{ atm} = 0.36\ \text{ atm}
+\end{split}
+\qquad
+\begin{split}
+\frac{n_{\ce{NO}}}{n_{\ce{Cl2}}} &amp;= \frac{2}{1} \\
+P_{\ce{NO}} &amp;= 2 \cdot P_{\ce{Cl2}}
+\end{split}
+\]</span></li>
+</ol>
+<p><span class="math display">\[
+\begin{split}
+P_{\ce{NO}} &amp;= \frac{2}{3} \cdot 0.36\ \text{ atm} = 0.24\ \text{ atm} \\
+P_{\ce{Cl2}} &amp;= \frac{1}{3} \cdot 0.36\ \text{ atm} = 0.12\ \text{ atm}
+\end{split}
+\]</span></p>
+<ol start="2" type="a">
+<li><span class="math display">\[
+\begin{split}
+K_{p} = \frac{P_{\ce{NO}}^2 \cdot P_{\ce{Cl2}} }{P_{\ce{NOCl}}^2} = \frac{(0.24)^2\ \text{ atm} \cdot 0.12\ \text{ atm}}{(0.64)^2\ \text{ atm}} = 0.017
+\end{split}
+\]</span></li>
+</ol>
+</div>
+<div class="Exercise">
+<p>Dans une usine de production d’ammoniac, le procédé Haber-Bosch est utilisé pour synthétiser <span class="math inline">\(\ce{NH3}\)</span> à partir de diazote <span class="math inline">\(\ce{N2}\)</span> et de dihydrogène <span class="math inline">\(\ce{H2}\)</span> gazeux selon la réaction réversible :</p>
+<p><span class="math display">\[
+\ce{N2_{ (g)}} + 3 \ce{H2_{ (g)}} \ce{&lt;=&gt;} 2 \ce{NH3_{ (g)}}
+\]</span></p>
+<p>Dans un réacteur de 10.0 L, on introduit initialement 2.0 moles de <span class="math inline">\(\ce{N2}\)</span> et 6.0 moles de <span class="math inline">\(\ce{H2}\)</span> à une température de 450°C. Après que le système a atteint l’équilibre, on analyse le contenu du réacteur et on détermine que la concentration d’ammoniac est de 0.04 mol/L.</p>
+<ol type="a">
+<li>Établissez le tableau de variations pour cette réaction en termes de concentrations molaires. </li>
+<li>Calculez les concentrations molaires de <span class="math inline">\(\ce{N2}\)</span> et de <span class="math inline">\(\ce{H2}\)</span> à l’équilibre. </li>
+<li>Déterminez la valeur de la constante d’équilibre <span class="math inline">\(K_c\)</span> pour cette réaction à 450°C. </li>
+</ol>
+</div>
+<div class="Answer">
+<p><span class="math display">\[
+\ce{N2_{ (g)}} + 3 \ce{H2_{ (g)}} \ce{&lt;=&gt;} 2 \ce{NH3_{ (g)}}
+\]</span></p>
+<ol type="a">
+<li><span class="math display">\[
+|\ce{N2}|_0 = \frac{2.0\ mol}{10.0\ L} = 0.20\ mol/L \qquad
+|\ce{H2}|_0 = \frac{6.0\ mol}{10.0\ L} = 0.60\ mol/L
+\]</span></li>
+</ol>
+<!--
+| Concentrations M | $N_2\ _{(g)}$ | $3\ H_2\ _{(g)}$ | $\leftrightharpoons$ | $2\ NH_3\ _{(g)}$ |
+| -----------------: | :-----------: | :--------------: | :------------------: | :---------------: |
+|              $C_i$ |      0.2      |       0.6        |                      |         0         |
+|           $\Delta$ |      -x       |       -3x        |                      |        +2x        |
+|             $C_eq$ |    0.2 - x    |     0.6 - 3x     |                      |        2x         |
+-->
+<ol start="2" type="a">
+<li><p><span class="math display">\[
+\begin{split}
+|NH_3|_{eq} &amp;= 0.04\ mol/L \\
+2x &amp;= 0.04\ mol/L \\
+x &amp;= 0.02\ mol/L \\
+\end{split}
+\qquad
+\begin{split}
+|N_2|_{eq} &amp;= 0.20 - x = 0.20 - 0.02 = 0.18\ mol/L \\
+|H_2|_{eq} &amp;= 0.60 - 3x = 0.60 - 3 \cdot 0.02 = 0.54\ mol/L \\
+\end{split}
+\]</span></p></li>
+<li><p><span class="math display">\[
+K_c = \frac{|NH_3|_{eq}^2}{|N_2|_{eq} \cdot |H_2|_{eq}^3} = \frac{(0.04)^2}{0.18 \cdot (0.54)^3} = 5.6 \cdot 10^{-2}
+\]</span></p></li>
+</ol>
+</div>
+<div class="Exercise">
+<p>Soit l’équilibre en phase gazeuse, exothermique dans le sens direct :</p>
+<p><span class="math display">\[
+\ce{2 SO2_{(g)} + O2_{(g)} &lt;=&gt; 2 SO3_{(g)}} \qquad (\text{sens direct : exothermique})
+\]</span></p>
+<p>Pour chacune des modifications suivantes, indiquez dans quel sens l’équilibre se déplace et si la constante d’équilibre <span class="math inline">\(K\)</span> change.</p>
+<ol type="1">
+<li>On ajoute du <span class="math inline">\(\ce{O2}\)</span>. </li>
+<li>On retire du <span class="math inline">\(\ce{SO3}\)</span>. </li>
+<li>On diminue le volume du récipient. </li>
+<li>On augmente la température. </li>
+<li>On ajoute un catalyseur. </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>Ajout d’un réactif (<span class="math inline">\(\ce{O2}\)</span>) → déplacement vers la droite (sens direct). <span class="math inline">\(K\)</span> inchangé.</li>
+<li>Retrait d’un produit (<span class="math inline">\(\ce{SO3}\)</span>) → déplacement vers la droite. <span class="math inline">\(K\)</span> inchangé.</li>
+<li>Diminution du volume (augmentation de la pression) → vers le côté qui a le moins de moles de gaz : 3 mol (<span class="math inline">\(2\,\ce{SO2} + \ce{O2}\)</span>) contre 2 mol (<span class="math inline">\(2\,\ce{SO3}\)</span>), donc vers la droite. <span class="math inline">\(K\)</span> inchangé.</li>
+<li>Augmentation de la température → favorise le sens endothermique, c’est-à-dire le sens indirect (vers la gauche). <span class="math inline">\(K\)</span> change (il diminue).</li>
+<li>Ajout d’un catalyseur → aucun déplacement ; l’équilibre est simplement atteint plus vite. <span class="math inline">\(K\)</span> inchangé.</li>
+</ol>
+</div>
+<div class="Exercise">
+<p>La réaction du gaz à l’eau <span class="math inline">\(\ce{CO_{(g)} + H2O_{(g)} &lt;=&gt; CO2_{(g)} + H2_{(g)}}\)</span> a une constante d’équilibre <span class="math inline">\(K_c = 4.0\)</span> à une température donnée. On introduit 1.0 mol/l de <span class="math inline">\(\ce{CO}\)</span> et 1.0 mol/l de <span class="math inline">\(\ce{H2O}\)</span> (aucun produit au départ).</p>
+<ol type="1">
+<li>Établissez le tableau de variations. </li>
+<li>À l’aide de <span class="math inline">\(K_c\)</span>, déterminez <span class="math inline">\(x\)</span>. </li>
+<li>Donnez les concentrations à l’équilibre des quatre espèces. </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>Tableau de variations (mol/l) :
+<ul>
+<li>initiale : <span class="math inline">\(|\ce{CO}| = 1.0\)</span>, <span class="math inline">\(|\ce{H2O}| = 1.0\)</span>, <span class="math inline">\(|\ce{CO2}| = 0\)</span>, <span class="math inline">\(|\ce{H2}| = 0\)</span></li>
+<li>variation : <span class="math inline">\(-x\)</span>, <span class="math inline">\(-x\)</span>, <span class="math inline">\(+x\)</span>, <span class="math inline">\(+x\)</span></li>
+<li>équilibre : <span class="math inline">\(1.0 - x\)</span>, <span class="math inline">\(1.0 - x\)</span>, <span class="math inline">\(x\)</span>, <span class="math inline">\(x\)</span></li>
+</ul></li>
+<li><span class="math display">\[
+K_c = \frac{|\ce{CO2}| \cdot |\ce{H2}|}{|\ce{CO}| \cdot |\ce{H2O}|} = \frac{x^2}{(1.0 - x)^2} = 4.0
+\]</span> En prenant la racine : <span class="math inline">\(\dfrac{x}{1.0 - x} = 2 \Rightarrow x = 2(1.0 - x) \Rightarrow 3x = 2 \Rightarrow x = 0.67\)</span> mol/l.</li>
+<li><span class="math inline">\(|\ce{CO2}| = |\ce{H2}| = 0.67\)</span> mol/l ; <span class="math inline">\(|\ce{CO}| = |\ce{H2O}| = 1.0 - 0.67 = 0.33\)</span> mol/l.</li>
+</ol>
+</div>
+<div class="Exercise">
+<p>Le procédé Haber-Bosch synthétise l’ammoniac : <span class="math inline">\(\ce{N2_{(g)} + 3 H2_{(g)} &lt;=&gt; 2 NH3_{(g)}}\)</span>, réaction exothermique dans le sens direct.</p>
+<ol type="1">
+<li>Écrivez l’expression de la constante d’équilibre <span class="math inline">\(K_c\)</span>. </li>
+<li>Pour maximiser le rendement en <span class="math inline">\(\ce{NH3}\)</span> à l’équilibre, faut-il travailler à haute ou à basse pression ? Justifiez. </li>
+<li>Pour maximiser le rendement en <span class="math inline">\(\ce{NH3}\)</span> à l’équilibre, faut-il travailler à haute ou à basse température ? Justifiez. </li>
+<li>En pratique, l’industrie travaille à température assez élevée (environ 450°C) malgré la réponse à la question 3. Proposez une explication. </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><span class="math display">\[
+K_c = \frac{|\ce{NH3}|^2}{|\ce{N2}| \cdot |\ce{H2}|^3}
+\]</span></li>
+<li>À haute pression : le sens direct fait passer de 4 mol de gaz (<span class="math inline">\(\ce{N2} + 3\,\ce{H2}\)</span>) à 2 mol (<span class="math inline">\(2\,\ce{NH3}\)</span>). Une pression élevée (volume réduit) favorise le côté qui a le moins de moles de gaz, donc la formation de <span class="math inline">\(\ce{NH3}\)</span>.</li>
+<li>À basse température : la réaction directe étant exothermique, une diminution de température favorise le sens exothermique (formation de <span class="math inline">\(\ce{NH3}\)</span>) et augmente <span class="math inline">\(K\)</span>.</li>
+<li>À basse température, l’équilibre est favorable mais la réaction est très lente. On choisit une température plus élevée (compromis) pour que l’équilibre soit atteint suffisamment vite, quitte à sacrifier une partie du rendement ; un catalyseur (fer) est également utilisé pour accélérer la réaction.</li>
+</ol>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script src="html/vendor/jquery-3.7.1.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+
+    var exeContainerClass = 'Exercise-container';
+    var exeClass = 'Exercise';
+    var ansClass = 'Answer';
+
+    $('.' + exeContainerClass).each(function(i, el) {
+      let child = $(el).children('.' + exeClass);
+      child.replaceWith(child.html());
+      $(el).removeClass(exeContainerClass).addClass(exeClass);
+    });
+
+    var chapterNum = $('.quarto-page-breadcrumbs .chapter-number').first().text().trim();
+
+    $('.' + exeClass).each(function(i, el) {
+      var num = chapterNum + '.' + (i + 1);
+      var title = $('<div>Exercice ' + num + '</div>');
+      title.addClass('Label');
+      $(el).prepend(title);
+    });
+
+    $('.' + ansClass).each(function(i, el) {
+      $(el).click(function() {
+        $(el).slideToggle();
+      });
+      var button = $('<button>Solution</button>');
+      button.attr('type', 'button');
+      button.addClass('Answer-button');
+      button.click(function() {
+        $(el).slideToggle();
+      });
+      button.insertBefore(el);
+    });
+
+  });
+</script>
+<script type="text/javascript">
+  $(document).ready(function () {
+    $("main.content table, main.content .math.display").each(function (i, el) {
+      let parent = $("<div>").attr("style", "overflow-x:auto");
+      $(el).wrap(parent);
+    });
+  });
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copié");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copié");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./150-cinetique.html" class="pagination-link" aria-label="Cinétique chimique">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Cinétique chimique</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./170-acides-bases.html" class="pagination-link" aria-label="Les acides et les bases">
+        <span class="nav-page-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Les acides et les bases</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

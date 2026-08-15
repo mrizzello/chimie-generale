@@ -1,0 +1,1503 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Support du cours de chimie générale | Maturité gymnasiale">
+
+<title>3&nbsp; Mélanges et corps purs – Cours de chimie générale</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./40-historique.html" rel="next">
+<link href="./20-etats-de-la-matiere.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-05ad7de8ae34bb1016f06e23b5e9a5a9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Pas de résultats",
+    "search-matching-documents-text": "documents trouvés",
+    "search-copy-link-title": "Copier le lien vers la recherche",
+    "search-hide-matches-text": "Cacher les correspondances additionnelles",
+    "search-more-match-text": "correspondance de plus dans ce document",
+    "search-more-matches-text": "correspondances de plus dans ce document",
+    "search-clear-button-title": "Effacer",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Annuler",
+    "search-submit-button-title": "Envoyer",
+    "search-label": "Recherche"
+  }
+}</script>
+<script>
+window.MathJax = {
+  loader: { load: ['[tex]/mhchem', '[tex]/cancel'] },
+  tex: { packages: { '[+]': ['mhchem', 'cancel'] } }
+};
+</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="nav-sidebar docked quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./30-melanges-corps-purs.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Mélanges et corps purs</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Recherche" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Cours de chimie générale</a> 
+        <div class="sidebar-tools-main">
+    <a href="./chimie-generale.pdf" title="Télécharger le PDF" class="quarto-navigation-tool px-1" aria-label="Télécharger le PDF" target="_blank"><i class="bi bi-file-earmark-pdf"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Recherche"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Préambule</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./10-introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./20-etats-de-la-matiere.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Les états de la matière</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./30-melanges-corps-purs.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Mélanges et corps purs</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./40-historique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Historique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./50-atome.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">L’atome</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./60-tableau-periodique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Le tableau périodique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./70-liaisons.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Molécules et liaisons chimiques</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./80-molecules.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Géométrie moléculaire et polarité</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./90-nomenclature.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Nomenclature</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./100-solutions-electrolytes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Solutions et électrolytes</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./110-reactions-chimiques.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Réactions chimiques</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./120-types-reactions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Types de réactions</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./130-stoechiometrie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Calculs stœchiométriques</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./140-gaz-parfaits.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Les gaz parfaits</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./150-cinetique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Cinétique chimique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./160-equilibres.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">L’équilibre chimique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./170-acides-bases.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Les acides et les bases</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./180-ph-potentiel-hydrogene.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Le pH ou potentiel hydrogène</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./190-produit-solubilite.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Le produit de solubilité</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./200-oxydoreductions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Les réactions d’oxydoréduction</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./210-electrochimie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Électrochimie</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./220-thermochimie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Thermochimie</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./230-thermodynamique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Thermodynamique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./00-references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bibliographie</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table des matières</h2>
+   
+  <ul>
+  <li><a href="#corps-pur-simple" id="toc-corps-pur-simple" class="nav-link active" data-scroll-target="#corps-pur-simple"><span class="header-section-number">3.1</span> Corps pur simple</a></li>
+  <li><a href="#corps-pur-composé" id="toc-corps-pur-composé" class="nav-link" data-scroll-target="#corps-pur-composé"><span class="header-section-number">3.2</span> Corps pur composé</a></li>
+  <li><a href="#les-mélanges" id="toc-les-mélanges" class="nav-link" data-scroll-target="#les-mélanges"><span class="header-section-number">3.3</span> Les mélanges</a>
+  <ul class="collapse">
+  <li><a href="#les-mélanges-hétérogènes" id="toc-les-mélanges-hétérogènes" class="nav-link" data-scroll-target="#les-mélanges-hétérogènes"><span class="header-section-number">3.3.1</span> Les mélanges hétérogènes</a></li>
+  <li><a href="#les-mélanges-homogènes" id="toc-les-mélanges-homogènes" class="nav-link" data-scroll-target="#les-mélanges-homogènes"><span class="header-section-number">3.3.2</span> Les mélanges homogènes</a></li>
+  <li><a href="#les-dispersions" id="toc-les-dispersions" class="nav-link" data-scroll-target="#les-dispersions"><span class="header-section-number">3.3.3</span> Les dispersions</a></li>
+  </ul></li>
+  <li><a href="#méthodes-de-séparation" id="toc-méthodes-de-séparation" class="nav-link" data-scroll-target="#méthodes-de-séparation"><span class="header-section-number">3.4</span> Méthodes de séparation</a>
+  <ul class="collapse">
+  <li><a href="#lattraction-magnétique" id="toc-lattraction-magnétique" class="nav-link" data-scroll-target="#lattraction-magnétique"><span class="header-section-number">3.4.1</span> L’attraction magnétique</a></li>
+  <li><a href="#la-filtration" id="toc-la-filtration" class="nav-link" data-scroll-target="#la-filtration"><span class="header-section-number">3.4.2</span> La filtration</a></li>
+  <li><a href="#la-vaporisation" id="toc-la-vaporisation" class="nav-link" data-scroll-target="#la-vaporisation"><span class="header-section-number">3.4.3</span> La vaporisation</a></li>
+  <li><a href="#la-dissolution-sélective" id="toc-la-dissolution-sélective" class="nav-link" data-scroll-target="#la-dissolution-sélective"><span class="header-section-number">3.4.4</span> La dissolution sélective</a></li>
+  <li><a href="#la-sublimation" id="toc-la-sublimation" class="nav-link" data-scroll-target="#la-sublimation"><span class="header-section-number">3.4.5</span> La sublimation</a></li>
+  <li><a href="#la-distillation" id="toc-la-distillation" class="nav-link" data-scroll-target="#la-distillation"><span class="header-section-number">3.4.6</span> La distillation</a></li>
+  <li><a href="#la-chromatographie" id="toc-la-chromatographie" class="nav-link" data-scroll-target="#la-chromatographie"><span class="header-section-number">3.4.7</span> La chromatographie</a></li>
+  <li><a href="#lextraction" id="toc-lextraction" class="nav-link" data-scroll-target="#lextraction"><span class="header-section-number">3.4.8</span> L’extraction</a></li>
+  <li><a href="#la-sédimentation-et-la-décantation" id="toc-la-sédimentation-et-la-décantation" class="nav-link" data-scroll-target="#la-sédimentation-et-la-décantation"><span class="header-section-number">3.4.9</span> La sédimentation et la décantation</a></li>
+  <li><a href="#résumé-des-méthodes-de-séparation" id="toc-résumé-des-méthodes-de-séparation" class="nav-link" data-scroll-target="#résumé-des-méthodes-de-séparation"><span class="header-section-number">3.4.10</span> Résumé des méthodes de séparation</a></li>
+  </ul></li>
+  <li><a href="#résumé" id="toc-résumé" class="nav-link" data-scroll-target="#résumé"><span class="header-section-number">3.5</span> Résumé</a></li>
+  <li><a href="#exercices-supplémentaires" id="toc-exercices-supplémentaires" class="nav-link" data-scroll-target="#exercices-supplémentaires"><span class="header-section-number">3.6</span> Exercices supplémentaires</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Mélanges et corps purs</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="objectives">
+<ul>
+<li>Identifier les corps simples et composés.</li>
+<li>Identifier les mélanges homogènes et hétérogènes.</li>
+<li>Savoir choisir la méthode de séparation adaptée à un mélange.</li>
+</ul>
+</div>
+<p>La première question que se pose un chimiste à propos d’un échantillon de matière inconnu est de savoir s’il s’agit d’une substance pure ou d’un mélange. Chaque échantillon de matière est l’un ou l’autre.</p>
+<p>Lorsque nous parlons d’une substance pure, nous parlons de quelque chose qui ne contient qu’un seul type de matière. Il peut s’agir d’un seul élément ou d’un seul composé, mais chaque échantillon de cette substance que vous examinez doit contenir exactement la “même chose” et avoir les mêmes propriétés. Si nous prenons deux ou plusieurs substances pures et que nous les mélangeons, nous parlerons naturellement d’un mélange.</p>
+<p>Selon la nature des particules qui la compose, la matière peut être classée en trois types : les <strong>corps purs simples</strong>, les <strong>corps purs composés</strong> et les <strong>mélanges</strong>.</p>
+<section id="corps-pur-simple" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="corps-pur-simple"><span class="header-section-number">3.1</span> Corps pur simple</h2>
+<div class="tcolorbox">
+<p><strong>Corps pur simple</strong><br>
+Un corps pur simple est constitué d’atomes d’un seul élément.</p>
+</div>
+<p>Un corps pur simple est le type le plus simple de composition de la matière. Il s’agit d’un <strong>assemblage d’atomes d’un seul élément</strong> avec des propriétés physiques et chimiques uniques.</p>
+<p>Chaque élément a un nom comme le silicium, l’oxygène ou le cuivre. Un morceau de silicium ne contient que des atomes de silicium et un morceau de cuivre ne contient que des atomes de cuivre. Les <strong>propriétés macroscopiques</strong> d’un morceau de silicium, comme la couleur ou la densité, sont différentes de celles d’un morceau de cuivre, car les <strong>propriétés submicroscopiques</strong> des atomes de silicium sont différentes de celles des atomes de cuivre.</p>
+</section>
+<section id="corps-pur-composé" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="corps-pur-composé"><span class="header-section-number">3.2</span> Corps pur composé</h2>
+<div class="tcolorbox">
+<p><strong>Corps pur composé</strong><br>
+Un corps pur composé est constitué de deux ou plusieurs éléments différents qui sont liés ensemble chimiquement.</p>
+</div>
+<p>Les particules qui forment un corps pur composé sont des atomes qui sont liés ensemble suite à une réaction chimique. Ces atomes ne sont pas simplement mélangés ensemble.</p>
+<p>Par exemple, l’eau (H<sub>2</sub>O) est un corps pur composé constitué de deux éléments, l’hydrogène et l’oxygène. Ces éléments sont combinés d’une manière très spécifique, deux atomes d’hydrogène pour un atome d’oxygène (d’où H<sub>2</sub>O). Plusieurs composés contiennent de l’hydrogène et de l’oxygène, mais un seul a ce rapport spécifique de 2 pour 1, c’est l’eau.</p>
+<p>Un corps pur composé a des propriétés physiques et chimiques différentes de celles des éléments qui le composent.</p>
+<div id="fig-corps-purs-corps-composes" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-corps-purs-corps-composes-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/corps-purs-corps-composes.png" class="img-fluid figure-img" style="width:67.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-corps-purs-corps-composes-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3.1: Corps purs et corps composés
+</figcaption>
+</figure>
+</div>
+<div class="Exercise">
+<p>Pour chacune des substances suivantes, indiquez s’il s’agit d’un corps pur simple ou d’un corps pur composé.</p>
+<ol type="1">
+<li>le dioxygène O<sub>2</sub></li>
+<li>l’eau H<sub>2</sub>O</li>
+<li>le fer Fe</li>
+<li>le dioxyde de carbone CO<sub>2</sub></li>
+<li>l’ozone O<sub>3</sub></li>
+<li>le chlorure de sodium NaCl</li>
+<li>le diazote N<sub>2</sub></li>
+<li>l’ammoniac NH<sub>3</sub></li>
+<li>le soufre S<sub>8</sub></li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>corps pur simple (un seul élément : O)</li>
+<li>corps pur composé (H et O)</li>
+<li>corps pur simple (un seul élément : Fe)</li>
+<li>corps pur composé (C et O)</li>
+<li>corps pur simple (un seul élément : O)</li>
+<li>corps pur composé (Na et Cl)</li>
+<li>corps pur simple (un seul élément : N)</li>
+<li>corps pur composé (N et H)</li>
+<li>corps pur simple (un seul élément : S)</li>
+</ol>
+<p>Un corps pur simple ne contient qu’un seul type d’élément, même lorsque ses atomes sont regroupés en molécules (O<sub>2</sub>, O<sub>3</sub>, N<sub>2</sub>, S<sub>8</sub>).</p>
+</div>
+</section>
+<section id="les-mélanges" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="les-mélanges"><span class="header-section-number">3.3</span> Les mélanges</h2>
+<div class="tcolorbox">
+<p><strong>Mélange</strong><br>
+Ensemble résultant de l’union de substances différentes sans transformation chimique</p>
+</div>
+<p>Un mélange est constitué de deux ou plusieurs substances (corps pur simples ou composés) qui sont physiquement mêlées, mais non liées chimiquement.</p>
+<p>Les mélanges peuvent être <strong>homogène</strong> ou <strong>hétérogène</strong>. Ces deux termes sont introduits pour qualifier ce qui peut être différencié à l’oeil.</p>
+<section id="les-mélanges-hétérogènes" class="level3" data-number="3.3.1">
+<h3 data-number="3.3.1" class="anchored" data-anchor-id="les-mélanges-hétérogènes"><span class="header-section-number">3.3.1</span> Les mélanges hétérogènes</h3>
+<div class="tcolorbox">
+<p><strong>Mélange hétérogène</strong><br>
+Un mélange est hétérogène si on peut distinguer ses différents constituants à l’oeil nu.</p>
+</div>
+<p>La composition des mélanges hétérogènes varie d’un endroit à l’autre de la matière. Par exemple, si l’on met du sucre dans un bocal, que l’on ajoute du sable et que l’on agite le bocal, le mélange n’aura pas la même composition quelque soit l’endroit du bocal.</p>
+</section>
+<section id="les-mélanges-homogènes" class="level3" data-number="3.3.2">
+<h3 data-number="3.3.2" class="anchored" data-anchor-id="les-mélanges-homogènes"><span class="header-section-number">3.3.2</span> Les mélanges homogènes</h3>
+<div class="tcolorbox">
+<p><strong>Mélange homogène</strong><br>
+Un mélange est homogène si on ne peut pas distinguer ses différents constituants à l’oeil nu.</p>
+</div>
+<p>Les mélanges homogènes ont une composition uniforme. Chaque partie d’un mélange a la même composition que n’importe quelle autre partie du même mélange. Si l’on dissout du sucre dans l’eau en mélangeant bien, le mélange sera le même, quelque soit l’endroit que l’on goûtera.</p>
+<ul>
+<li>L’air est un mélange homogène composé de plusieurs gaz, principalement l’azote et l’oxygène.</li>
+<li>L’eau de mer est un mélange homogène composé principalement d’eau et de chlorure de sodium (sel).</li>
+<li>L’essence est un mélange homogène composé d’une dizaine de substances.</li>
+</ul>
+<div id="fig-schema-matiere" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-schema-matiere-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/schema-matiere.png" class="img-fluid figure-img" style="width:67.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-schema-matiere-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3.2: Résumé de la classification de la matière
+</figcaption>
+</figure>
+</div>
+<div class="Exercise">
+<p>Indiquez si les échantillons suivants sont des mélanges homogènes ou hétérogènes.</p>
+<ol type="1">
+<li>Un morceau de marbre</li>
+<li>Un velouté de légumes</li>
+<li>Du ciment</li>
+<li>Un cheeseburger</li>
+<li>Une infusion de thé</li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>mélange hétérogène</li>
+<li>mélange homogène</li>
+<li>mélange homogène</li>
+<li>mélange hétérogène</li>
+<li>mélange homogène</li>
+</ol>
+</div>
+<div class="Exercise">
+<p>Indiquez si les échantillons suivants sont des corps purs, des mélanges homogènes ou des mélanges hétérogènes.</p>
+<ol type="1">
+<li>L’eau distillée</li>
+<li>L’essence</li>
+<li>Le sable</li>
+<li>Le vin</li>
+<li>L’air</li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>H<sub>2</sub>O - corps pur</li>
+<li>hydrocarbures - mélange homogène</li>
+<li>débris de roches - mélange hétérogène</li>
+<li>eau + alcool - mélange homogène</li>
+<li>azote + oxygène - mélange homogène</li>
+</ol>
+</div>
+</section>
+<section id="les-dispersions" class="level3" data-number="3.3.3">
+<h3 data-number="3.3.3" class="anchored" data-anchor-id="les-dispersions"><span class="header-section-number">3.3.3</span> Les dispersions</h3>
+<p>Les dispersions sont des mélanges homogènes dans lequel les particules en suspension sont si petites que le mélange semble parfaitement homogène à l’oeil nu. Cependant, à l’aide d’instruments d’observation, on pourra distinguer les différentes substances qui constituent les dispersions.</p>
+<p>Les mélanges homogènes pourront à leur tour être classés en solutions, en colloïdes ou en suspensions, en fonction de la taille de leurs particules. Chaque particule peut être une macromolécule unique ou un agrégat de nombreux atomes, ions ou molécules.</p>
+<ul>
+<li><strong>Les solutions</strong> (0.1 à 2 nm) La dissolution d’une substance dans une autre forme une solution. Un mélange homogène dans lequel les particules sont individuellement réparties de manière uniforme dans la substance dispersante.</li>
+<li><strong>Les colloïdes</strong> (2 à 500 nm) La substance dispersée est répartie dans la substance dispersante. Les particules sont plus grandes que des molécules simples mais trop petites pour se déposer.</li>
+<li><strong>Les suspensions</strong> (500 à 1000 nm) Les particules sont d’abord en suspension mais se déposent progressivement par décantation.</li>
+</ul>
+<p>Une phase représente chaque partie homogène dont est constitué une dispersion. Dans une dispersion une phase peut être dispersante et l’autre dispersée. Les dispersions sont communément classées selon l’état physique des substances dispersée et dispersante.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 23%">
+<col style="width: 55%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">phase dispersée</th>
+<th style="text-align: center;">phase dispersante</th>
+<th>suspensions et colloïdes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">gaz</td>
+<td style="text-align: center;">gaz</td>
+<td>mélange toujours homogène (solution)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">liquide</td>
+<td style="text-align: center;">gaz</td>
+<td>brouillard, laque pour cheveux</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">solide</td>
+<td style="text-align: center;">gaz</td>
+<td>fumée, nuage, poussière</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">gaz</td>
+<td style="text-align: center;">liquide</td>
+<td>crème fouettée, soda, mousse à raser</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">liquide</td>
+<td style="text-align: center;">liquide</td>
+<td>lait, mayonnaise, crème solaire</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">solide</td>
+<td style="text-align: center;">liquide</td>
+<td>peinture, sang, boue</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">gaz</td>
+<td style="text-align: center;">solide</td>
+<td>polystyrène, pierre ponce</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">liquide</td>
+<td style="text-align: center;">solide</td>
+<td>agar-agar, gelatine</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">solide</td>
+<td style="text-align: center;">solide</td>
+<td>roches naturelles, plâtre, ciment, béton</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="méthodes-de-séparation" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="méthodes-de-séparation"><span class="header-section-number">3.4</span> Méthodes de séparation</h2>
+<p>Les constituants d’un mélange ont des <strong>propriétés physiques</strong> différentes. On peut exploiter ces différences pour séparer les différents constituants.</p>
+<p>Les techniques décrites ne dépendent que des propriétés physiques des constituants. Il n’y a pas de transformation chimiques qui se produit.</p>
+<section id="lattraction-magnétique" class="level3" data-number="3.4.1">
+<h3 data-number="3.4.1" class="anchored" data-anchor-id="lattraction-magnétique"><span class="header-section-number">3.4.1</span> L’attraction magnétique</h3>
+<div id="fig-attraction-magnetique" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-attraction-magnetique-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/attraction-magnetique.png" class="img-fluid figure-img" style="width:38.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-attraction-magnetique-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3.3: Séparation par attraction magnétique
+</figcaption>
+</figure>
+</div>
+<p>L’<strong>attraction magnétique</strong>, ou <strong>aimantation</strong>, utilise les différences de <strong>propriétés magnétiques</strong>. Elle permet de séparer un mélange de substances magnétiques et non-magnétiques.</p>
+<p>Un mélange de limaille de fer et de poudre de soufre peut être séparé en utilisant un aimant. Cette technique est utilisée dans les déchetteries pour séparer les matériaux magnétiques des matériaux non-magnétiques.</p>
+</section>
+<section id="la-filtration" class="level3" data-number="3.4.2">
+<h3 data-number="3.4.2" class="anchored" data-anchor-id="la-filtration"><span class="header-section-number">3.4.2</span> La filtration</h3>
+<div id="fig-filtration" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-filtration-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/filtration.png" class="img-fluid figure-img" style="width:28.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-filtration-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3.4: Filtration par gravité
+</figcaption>
+</figure>
+</div>
+<p>La filtration est basée sur la <strong>différence de taille des particules</strong>. Elle est souvent utilisée pour séparer un solide d’un liquide. Le liquide s’écoule à travers les petits trous dans le filtre alors que le solide est retenu.</p>
+<p>Dans la filtration sous vide, on diminue la pression au-dessous du filtre ce qui accélère l’écoulement du liquide.</p>
+</section>
+<section id="la-vaporisation" class="level3" data-number="3.4.3">
+<h3 data-number="3.4.3" class="anchored" data-anchor-id="la-vaporisation"><span class="header-section-number">3.4.3</span> La vaporisation</h3>
+<div id="fig-evaporation" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-evaporation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/evaporation.png" class="img-fluid figure-img" style="width:25.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-evaporation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3.5: Vaporisation
+</figcaption>
+</figure>
+</div>
+<p>La vaporisation est basée sur les <strong>différences de points d’ébullition</strong>. Cette technique est utilisée pour séparer des solides dissous dans un solvant.</p>
+<p>Lorsque le mélange contenant les matières solides dissoutes est chauffé, le solvant (liquide) vaporise progressivement et le soluté (solide) solidifie dans le récipient.</p>
+<p>Le terme <strong>évaporation</strong> est utilisé lorsque l’eau est le liquide qui vaporise.</p>
+</section>
+<section id="la-dissolution-sélective" class="level3" data-number="3.4.4">
+<h3 data-number="3.4.4" class="anchored" data-anchor-id="la-dissolution-sélective"><span class="header-section-number">3.4.4</span> La dissolution sélective</h3>
+<div id="fig-dissolution-selective" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-dissolution-selective-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/dissolution-selective.png" class="img-fluid figure-img" style="width:85.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-dissolution-selective-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3.6: Dissolution sélective
+</figcaption>
+</figure>
+</div>
+<p>La dissolution sélective est basée sur les <strong>différences de solubilité</strong>.</p>
+<p>Cette technique permet de séparer deux solides en ajoutant un solvant dans lequel un seul solide se dissout. Ensuite, il faut filtrer le mélange et vaporiser le solvant afin de récupérer les deux solides.</p>
+</section>
+<section id="la-sublimation" class="level3" data-number="3.4.5">
+<h3 data-number="3.4.5" class="anchored" data-anchor-id="la-sublimation"><span class="header-section-number">3.4.5</span> La sublimation</h3>
+<div id="fig-sublimation" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sublimation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/sublimation.png" class="img-fluid figure-img" style="width:28.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sublimation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3.7: Sublimation
+</figcaption>
+</figure>
+</div>
+<p>La sublimation est une technique de séparation dans laquelle une substance dans un mélange est directement transformée à l’état gazeux sans passer par l’état liquide. Par chauffage, la matière solide sublime et se solidifie à nouveau lorsque les vapeurs entrent en contact avec une surface froide.</p>
+<p>Certains composés solides, tels que l’iode, le camphre, le naphtalène, l’acétanilide, l’acide benzoïque, peuvent être purifiés par sublimation à pression normale. D’autres composés, comme par exemple la caféine, devront être sublimés par chauffage sous pression réduite.</p>
+</section>
+<section id="la-distillation" class="level3" data-number="3.4.6">
+<h3 data-number="3.4.6" class="anchored" data-anchor-id="la-distillation"><span class="header-section-number">3.4.6</span> La distillation</h3>
+<div id="fig-distillation" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-distillation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/distillation.png" class="img-fluid figure-img" style="width:40.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-distillation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3.8: Distillation simple
+</figcaption>
+</figure>
+</div>
+<p>La distillation est la principale méthode de séparation des mélanges constitués de liquides. Elle est basée sur la <strong>différence des températures d’ébullition</strong> des constituants du mélange.</p>
+<p>La solution est chauffée de sorte que le liquide ayant le point d’ébullition le plus bas se transforme en vapeur. La vapeur s’élève alors, et se dirige vers le condenseur, où elle est refroidie. La vapeur condense alors en un liquide appelé distillat.</p>
+</section>
+<section id="la-chromatographie" class="level3" data-number="3.4.7">
+<h3 data-number="3.4.7" class="anchored" data-anchor-id="la-chromatographie"><span class="header-section-number">3.4.7</span> La chromatographie</h3>
+<div id="fig-chromatographie" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-chromatographie-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/chromatographie.png" class="img-fluid figure-img" style="width:67.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-chromatographie-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3.9: Chromatographie sur colonne
+</figcaption>
+</figure>
+</div>
+<p>La chromatographie est basée sur le fait que les composants d’un mélange ont plus ou moins tendance à être retenus sur une surface solide.</p>
+<p>Cette méthode se compose d’une partie statique (phase stationnaire) et d’une partie mobile (phase mobile). La phase mobile se déplace à travers la phase stationnaire. On injecte le mélange à séparer dans la phase mobile afin qu’il se déplace avec cette dernière dans la phase stationnaire. Les constituants du mélange ayant des affinités différentes avec les deux phases vont se déplacer plus ou moins vite et ainsi être séparés.</p>
+</section>
+<section id="lextraction" class="level3" data-number="3.4.8">
+<h3 data-number="3.4.8" class="anchored" data-anchor-id="lextraction"><span class="header-section-number">3.4.8</span> L’extraction</h3>
+<div id="fig-extraction" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-extraction-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/extraction.png" class="img-fluid figure-img" style="width:45.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-extraction-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3.10: Extraction
+</figcaption>
+</figure>
+</div>
+<p>L’extraction est basée sur les <strong>différences de solubilités</strong>.</p>
+<p>On utilise généralement deux solvants ayant une polarité différente, comme l’eau et un solvant organique. Les différentes substances vont migrer dans le solvant dans lequel elles ont la plus grande solubilité.</p>
+</section>
+<section id="la-sédimentation-et-la-décantation" class="level3" data-number="3.4.9">
+<h3 data-number="3.4.9" class="anchored" data-anchor-id="la-sédimentation-et-la-décantation"><span class="header-section-number">3.4.9</span> La sédimentation et la décantation</h3>
+<div id="fig-sedimentation" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sedimentation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/sedimentation.png" class="img-fluid figure-img" style="width:33.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sedimentation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3.11: Sédimentation
+</figcaption>
+</figure>
+</div>
+<p>La <strong>sédimentation</strong> est un processus dans lequel on laisse couler des particules lourdes insolubles dans un liquide par gravitation. Le liquide clair obtenu est ensuite transféré dans un autre récipient, sans déranger les particules sédimentées. Ce transfert s’appelle la <strong>décantation</strong>.</p>
+<p>La sédimentation et la décantation peuvent également être utilisées pour séparer un mélange de liquides lorsqu’ils ne sont pas miscibles.</p>
+<p>La <strong>centrifugation</strong> utilise la force centrifuge pour accélérer la sédimentation. Les composants plus denses migrent loin de l’axe de la centrifugeuse, tandis que les composants moins denses du mélange migrent vers l’axe.</p>
+</section>
+<section id="résumé-des-méthodes-de-séparation" class="level3" data-number="3.4.10">
+<h3 data-number="3.4.10" class="anchored" data-anchor-id="résumé-des-méthodes-de-séparation"><span class="header-section-number">3.4.10</span> Résumé des méthodes de séparation</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 30%">
+<col style="width: 48%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">mélange à séparer</th>
+<th style="text-align: center;">méthode de séparation</th>
+<th style="text-align: left;">Propriété utilisée</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">solide/solide</td>
+<td style="text-align: center;">attraction magnétique</td>
+<td style="text-align: left;">un composant est magnétique</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">solide/solide</td>
+<td style="text-align: center;">dissolution sélective</td>
+<td style="text-align: left;">un composant est soluble</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">solide/solide</td>
+<td style="text-align: center;">sublimation</td>
+<td style="text-align: left;">un composant sublime</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">solide/solide</td>
+<td style="text-align: center;">chromatographie</td>
+<td style="text-align: left;">affinité avec la phase stationnaire</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">solide/solide</td>
+<td style="text-align: center;">extraction</td>
+<td style="text-align: left;">solubilité dans un des solvants</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">solide/liquide</td>
+<td style="text-align: center;">filtration</td>
+<td style="text-align: left;">taille des particules</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">solide/liquide</td>
+<td style="text-align: center;">vaporisation</td>
+<td style="text-align: left;">température d’ébullition / volatilité</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">solide/liquide</td>
+<td style="text-align: center;">sédimentation/décantation</td>
+<td style="text-align: left;">masse volumique / taille des particules</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">liquide/liquide</td>
+<td style="text-align: center;">distillation</td>
+<td style="text-align: left;">température d’ébullition</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">liquide/liquide</td>
+<td style="text-align: center;">chromatographie</td>
+<td style="text-align: left;">affinité avec la phase stationnaire</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">liquide/liquide</td>
+<td style="text-align: center;">extraction</td>
+<td style="text-align: left;">solubilité dans un des solvants</td>
+</tr>
+</tbody>
+</table>
+<div class="Exercise">
+<p>Quelle méthode de séparation est employée dans chacune des procédures suivantes ?</p>
+<ol type="1">
+<li>Verser un mélange de pâtes cuites et d’eau bouillante dans une passoire. </li>
+<li>L’élimination des impuretés colorées dans le sucre brun pour en faire du sucre raffiné. </li>
+<li>La récupération du sel de table dans des bassins de faible profondeur après évaporation de l’eau de mer, sous l’action combinée du soleil et du vent. </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>Filtration</li>
+<li>Cristallisation</li>
+<li>Vaporisation / Évaporation</li>
+</ol>
+</div>
+</section>
+</section>
+<section id="résumé" class="level2" data-number="3.5">
+<h2 data-number="3.5" class="anchored" data-anchor-id="résumé"><span class="header-section-number">3.5</span> Résumé</h2>
+<ul>
+<li>Chaque échantillon de matière est soit un corps pur, soit un mélange.</li>
+<li>Un corps pur simple n’est constitué que d’atomes d’un seul élément, même lorsque ces atomes forment des molécules.</li>
+<li>Un corps pur composé résulte de l’union chimique de plusieurs éléments dans des proportions fixes.</li>
+<li>Un mélange réunit plusieurs corps purs sans transformation chimique.</li>
+<li>Un mélange est hétérogène si l’on distingue ses constituants à l’oeil nu, homogène dans le cas contraire.</li>
+<li>Les dispersions sont des mélanges où une phase dispersée est répartie dans une phase dispersante.</li>
+<li>La séparation d’un mélange exploite une différence de propriété physique entre ses constituants.</li>
+<li>Le choix de la méthode de séparationdépend des états des constituants et de la propriété qui les distingue.</li>
+</ul>
+</section>
+<section id="exercices-supplémentaires" class="level2" data-number="3.6">
+<h2 data-number="3.6" class="anchored" data-anchor-id="exercices-supplémentaires"><span class="header-section-number">3.6</span> Exercices supplémentaires</h2>
+<div class="Exercise">
+<p>Identifiez les types et les états de la matière à partir des diagrammes de particules suivants :</p>
+<div class="multicols">
+<ol type="a">
+<li><p><img src="images/melanges-corps-purs-60-a.png" class="img-fluid" style="width:15.0%"><br>
+<span class="math inline">\(\Box\)</span>&nbsp;solide<br>
+<span class="math inline">\(\Box\)</span>&nbsp;liquide<br>
+<span class="math inline">\(\Box\)</span>&nbsp;gaz</p></li>
+<li><p><img src="images/melanges-corps-purs-60-b.png" class="img-fluid" style="width:15.0%"><br>
+<span class="math inline">\(\Box\)</span>&nbsp;solide<br>
+<span class="math inline">\(\Box\)</span>&nbsp;liquide<br>
+<span class="math inline">\(\Box\)</span>&nbsp;gaz</p></li>
+<li><p><img src="images/melanges-corps-purs-60-c.png" class="img-fluid" style="width:15.0%"><br>
+<span class="math inline">\(\Box\)</span>&nbsp;solide<br>
+<span class="math inline">\(\Box\)</span>&nbsp;liquide<br>
+<span class="math inline">\(\Box\)</span>&nbsp;gaz</p></li>
+<li><p><img src="images/melanges-corps-purs-60-d.png" class="img-fluid" style="width:15.0%"><br>
+<span class="math inline">\(\Box\)</span>&nbsp;corps&nbsp;simple<br>
+<span class="math inline">\(\Box\)</span>&nbsp;corps&nbsp;composé<br>
+<span class="math inline">\(\Box\)</span>&nbsp;mél.&nbsp;homogène<br>
+<span class="math inline">\(\Box\)</span>&nbsp;mél.&nbsp;hétérogène</p></li>
+</ol>
+<ol start="5" type="a">
+<li><p><img src="images/melanges-corps-purs-60-e.png" class="img-fluid" style="width:15.0%"><br>
+<span class="math inline">\(\Box\)</span>&nbsp;solide<br>
+<span class="math inline">\(\Box\)</span>&nbsp;liquide<br>
+<span class="math inline">\(\Box\)</span>&nbsp;gaz</p></li>
+<li><p><img src="images/melanges-corps-purs-60-f.png" class="img-fluid" style="width:15.0%"><br>
+<span class="math inline">\(\Box\)</span>&nbsp;solide<br>
+<span class="math inline">\(\Box\)</span>&nbsp;liquide<br>
+<span class="math inline">\(\Box\)</span>&nbsp;gaz</p></li>
+<li><p><img src="images/melanges-corps-purs-60-g.png" class="img-fluid" style="width:15.0%"><br>
+<span class="math inline">\(\Box\)</span>&nbsp;corps&nbsp;simple<br>
+<span class="math inline">\(\Box\)</span>&nbsp;corps&nbsp;composé<br>
+<span class="math inline">\(\Box\)</span>&nbsp;mél.&nbsp;homogène<br>
+<span class="math inline">\(\Box\)</span>&nbsp;mél.&nbsp;hétérogène</p></li>
+<li><p><img src="images/melanges-corps-purs-60-h.png" class="img-fluid" style="width:15.0%"><br>
+<span class="math inline">\(\Box\)</span>&nbsp;corps&nbsp;simple<br>
+<span class="math inline">\(\Box\)</span>&nbsp;corps&nbsp;composé<br>
+<span class="math inline">\(\Box\)</span>&nbsp;mél.&nbsp;homogène<br>
+<span class="math inline">\(\Box\)</span>&nbsp;mél.&nbsp;hétérogène</p></li>
+</ol>
+<ol type="i">
+<li><img src="images/melanges-corps-purs-60-i.png" class="img-fluid" style="width:15.0%"><br>
+<span class="math inline">\(\Box\)</span>&nbsp;solide<br>
+<span class="math inline">\(\Box\)</span>&nbsp;liquide<br>
+<span class="math inline">\(\Box\)</span>&nbsp;gaz</li>
+</ol>
+<ol start="10" type="a">
+<li><img src="images/melanges-corps-purs-60-j.png" class="img-fluid" style="width:15.0%"><br>
+<span class="math inline">\(\Box\)</span>&nbsp;corps&nbsp;simple<br>
+<span class="math inline">\(\Box\)</span>&nbsp;corps&nbsp;composé<br>
+<span class="math inline">\(\Box\)</span>&nbsp;mél.&nbsp;homogène<br>
+<span class="math inline">\(\Box\)</span>&nbsp;mél.&nbsp;hétérogène</li>
+</ol>
+</div>
+</div>
+<div class="Answer">
+<ol type="a">
+<li>gaz</li>
+<li>liquide</li>
+<li>solide</li>
+<li>mélange hétérogène</li>
+<li>gaz</li>
+<li>solide</li>
+<li>mélange hétérogène</li>
+<li>mélange homogène</li>
+<li>liquide</li>
+<li>mélange homogène</li>
+</ol>
+</div>
+<div class="Exercise">
+<p>Indiquez si chaque échantillon de matière indiqué est un corps pur, un corps composé, un mélange homogène ou un mélange hétérogène.</p>
+<ol type="1">
+<li>une cuillère en argent </li>
+<li>un pain au chocolat </li>
+<li>un glaçon </li>
+<li>une poutre en bois </li>
+<li>de l’encre rouge </li>
+<li>du jus d’orange pressé </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>corps pur simple</li>
+<li>mélange hétérogène</li>
+<li>corps purs composé</li>
+<li>mélange hétérogène</li>
+<li>mélange homogène</li>
+<li>mélange hétérogène</li>
+</ol>
+</div>
+<div class="Exercise">
+<p>Proposer une méthode de séparation par laquelle les mélanges suivants peuvent être séparés.</p>
+<ol type="1">
+<li>de la limaille de fer et des copeaux de bois </li>
+<li>des éclats de verre et du saccharose (sucre de canne) </li>
+<li>de l’eau et de l’huile d’olive </li>
+<li>des paillettes d’or et de l’eau </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>attraction magnétique</li>
+<li>dissolution sélective ou recristallisation</li>
+<li>sédimentation - décantation</li>
+<li>filtration</li>
+</ol>
+</div>
+<div class="Exercise">
+<p>Le fer et le soufre sont deux corps purs simples. On mélange soigneusement de limaille de fer avec de la poudre de soufre.</p>
+<ol type="1">
+<li>Avant tout chauffage, proposez deux méthodes physiques différentes permettant de récupérer le fer et indiquez, pour chacune, la propriété exploitée. </li>
+<li>On chauffe fortement le mélange : il se produit une réaction chimique qui forme du sulfure de fer selon Fe + S <span class="math inline">\(\rightarrow\)</span> FeS. Le solide obtenu est-il encore un mélange ? Justifiez et précisez sa nature. </li>
+<li>Un aimant approché du sulfure de fer n’attire plus rien. Expliquez pourquoi, en comparant un mélange et un corps pur composé. </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>Deux méthodes possibles :
+<ul>
+<li><strong>Attraction magnétique</strong> : le fer est magnétique, le soufre ne l’est pas. Un aimant retire la limaille de fer.</li>
+<li><strong>Dissolution sélective</strong> : le soufre se dissout dans le sulfure de carbone (CS<span class="math inline">\(_2\)</span>), pas le fer. On filtre pour récupérer le fer, puis on vaporise le solvant pour récupérer le soufre. La propriété exploitée est la différence de solubilité.</li>
+</ul></li>
+<li>Non, ce n’est plus un mélange. Il y a eu une <strong>transformation chimique</strong> : les atomes de fer et de soufre se sont liés dans un rapport fixe de 1 pour 1. Le solide obtenu est un <strong>corps pur composé</strong> (le sulfure de fer FeS).</li>
+<li>Dans le <strong>mélange</strong>, le fer et le soufre ne sont pas liés chimiquement : chaque constituant garde ses propres propriétés, dont le magnétisme du fer. Dans le <strong>corps pur composé</strong> FeS, les atomes de fer sont liés chimiquement au soufre ; le composé possède des propriétés nouvelles, différentes de celles du fer et du soufre, et n’est plus magnétique.</li>
+</ol>
+</div>
+<div class="Exercise">
+<p>On dispose d’un mélange solide contenant du sel de cuisine (NaCl), du sable (SiO<sub>2</sub>), de la limaille de fer et des cristaux de diiode (I<sub>2</sub>). Les informations utiles sont les suivantes :</p>
+<ul>
+<li>le diiode se sublime facilement par chauffage doux ;</li>
+<li>le sel est soluble dans l’eau, le sable ne l’est pas ;</li>
+<li>seul le fer est magnétique.</li>
+</ul>
+<ol type="1">
+<li>Proposez un protocole ordonné permettant de récupérer séparément les quatre constituants. Pour chaque étape, nommez la méthode et la propriété physique exploitée. </li>
+<li>Aucune de ces étapes ne modifie la nature des substances. De quel type de transformation s’agit-il ? </li>
+<li>Classez chacun des quatre constituants en corps pur simple ou corps pur composé. </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>On procède dans l’ordre suivant :
+<ol type="1">
+<li><strong>Attraction magnétique</strong> : on approche un aimant, qui retire la limaille de fer (propriété magnétique).</li>
+<li><strong>Sublimation</strong> : on chauffe doucement le solide restant. Le diiode passe directement à l’état gazeux, puis se resolidifie sur une surface froide où on le récupère (aptitude à se sublimer).</li>
+<li><strong>Dissolution puis filtration</strong> : on ajoute de l’eau. Le sel se dissout, le sable est retenu sur le filtre (différence de solubilité et de taille des particules). On récupère ainsi le sable.</li>
+<li><strong>Vaporisation (évaporation)</strong> : on chauffe l’eau salée filtrée. L’eau s’évapore et le sel solidifie dans le récipient (différence de température d’ébullition).</li>
+</ol></li>
+<li>Il s’agit uniquement de <strong>transformations physiques</strong> : la nature chimique des constituants n’est pas modifiée.</li>
+<li><ul>
+<li>fer Fe : corps pur simple ;</li>
+<li>diiode I<sub>2</sub> : corps pur simple ;</li>
+<li>sel NaCl : corps pur composé ;</li>
+<li>sable SiO<sub>2</sub> : corps pur composé.</li>
+</ul>
+(L’eau H<sub>2</sub>O ajoutée à l’étape 3 est également un corps pur composé.)</li>
+</ol>
+</div>
+<div class="Exercise">
+<p>Pour chacun des systèmes suivants, indiquez s’il s’agit d’un corps pur, d’un mélange homogène ou d’un mélange hétérogène. Lorsqu’il s’agit d’une dispersion, précisez la phase dispersée et la phase dispersante ainsi que leur état physique.</p>
+<ol type="1">
+<li>le brouillard </li>
+<li>l’eau gazeuse (boisson pétillante fermée) </li>
+<li>la mayonnaise </li>
+<li>le bronze (alliage de cuivre et d’étain) </li>
+<li>l’eau distillée </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><strong>Brouillard</strong> : mélange homogène (dispersion). Phase dispersée : liquide (fines gouttelettes d’eau) ; phase dispersante : gaz (air).</li>
+<li><strong>Eau gazeuse</strong> : mélange homogène (dispersion). Phase dispersée : gaz (dioxyde de carbone CO<sub>2</sub>) ; phase dispersante : liquide (eau).</li>
+<li><strong>Mayonnaise</strong> : mélange homogène (dispersion, émulsion). Phase dispersée : liquide (huile) ; phase dispersante : liquide (eau du jaune d’oeuf).</li>
+<li><strong>Bronze</strong> : mélange homogène (dispersion solide, alliage). Phase dispersée : solide (étain) ; phase dispersante : solide (cuivre).</li>
+<li><strong>Eau distillée</strong> : ce n’est pas un mélange, c’est un <strong>corps pur</strong> (composé, H<sub>2</sub>O). Il n’y a donc ni phase dispersée ni phase dispersante.</li>
+</ol>
+</div>
+<div class="Exercise">
+<p>Au laboratoire, on chauffe séparément deux liquides incolores A et B et on relève leur température pendant toute la durée de l’ébullition :</p>
+<ul>
+<li>liquide A : la température reste constante à 78 °C ;</li>
+<li>liquide B : la température s’élève progressivement de 78 °C à 99 °C.</li>
+</ul>
+<ol type="1">
+<li>Lequel de ces deux liquides est un corps pur ? Lequel est un mélange ? Justifiez à l’aide de la notion de point d’ébullition. </li>
+<li>Le liquide B est en réalité un mélange d’eau et d’éthanol. Quelle méthode de séparation permettrait d’en séparer les constituants ? Sur quelle propriété physique repose-t-elle ? </li>
+<li>Le premier liquide recueilli au cours de cette séparation est-il plutôt riche en eau ou en éthanol ? Justifiez à partir des températures d’ébullition (eau : 100 °C ; éthanol : 78 °C). </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>Un <strong>corps pur</strong> possède un point d’ébullition <strong>fixe</strong> : sa température reste constante pendant toute l’ébullition. C’est le cas du liquide <strong>A</strong> (78 °C constant). Le liquide <strong>B</strong> est un <strong>mélange</strong> : comme sa composition change au fur et à mesure que le constituant le plus volatil s’évapore, sa température d’ébullition n’est pas fixe et augmente progressivement.</li>
+<li>La <strong>distillation</strong>. Elle repose sur la <strong>différence des températures d’ébullition</strong> des deux liquides.</li>
+<li>C’est l’<strong>éthanol</strong> qui est recueilli en premier. Ayant la température d’ébullition la plus basse (78 °C contre 100 °C pour l’eau), il se vaporise le premier : le premier distillat est donc riche en éthanol.</li>
+</ol>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script src="html/vendor/jquery-3.7.1.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+
+    var exeContainerClass = 'Exercise-container';
+    var exeClass = 'Exercise';
+    var ansClass = 'Answer';
+
+    $('.' + exeContainerClass).each(function(i, el) {
+      let child = $(el).children('.' + exeClass);
+      child.replaceWith(child.html());
+      $(el).removeClass(exeContainerClass).addClass(exeClass);
+    });
+
+    var chapterNum = $('.quarto-page-breadcrumbs .chapter-number').first().text().trim();
+
+    $('.' + exeClass).each(function(i, el) {
+      var num = chapterNum + '.' + (i + 1);
+      var title = $('<div>Exercice ' + num + '</div>');
+      title.addClass('Label');
+      $(el).prepend(title);
+    });
+
+    $('.' + ansClass).each(function(i, el) {
+      $(el).click(function() {
+        $(el).slideToggle();
+      });
+      var button = $('<button>Solution</button>');
+      button.attr('type', 'button');
+      button.addClass('Answer-button');
+      button.click(function() {
+        $(el).slideToggle();
+      });
+      button.insertBefore(el);
+    });
+
+  });
+</script>
+<script type="text/javascript">
+  $(document).ready(function () {
+    $("main.content table, main.content .math.display").each(function (i, el) {
+      let parent = $("<div>").attr("style", "overflow-x:auto");
+      $(el).wrap(parent);
+    });
+  });
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copié");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copié");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./20-etats-de-la-matiere.html" class="pagination-link" aria-label="Les états de la matière">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Les états de la matière</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./40-historique.html" class="pagination-link" aria-label="Historique">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Historique</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

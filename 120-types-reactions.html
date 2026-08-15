@@ -1,0 +1,1449 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Support du cours de chimie générale | Maturité gymnasiale">
+
+<title>12&nbsp; Types de réactions – Cours de chimie générale</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./130-stoechiometrie.html" rel="next">
+<link href="./110-reactions-chimiques.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-05ad7de8ae34bb1016f06e23b5e9a5a9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Pas de résultats",
+    "search-matching-documents-text": "documents trouvés",
+    "search-copy-link-title": "Copier le lien vers la recherche",
+    "search-hide-matches-text": "Cacher les correspondances additionnelles",
+    "search-more-match-text": "correspondance de plus dans ce document",
+    "search-more-matches-text": "correspondances de plus dans ce document",
+    "search-clear-button-title": "Effacer",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Annuler",
+    "search-submit-button-title": "Envoyer",
+    "search-label": "Recherche"
+  }
+}</script>
+<script>
+window.MathJax = {
+  loader: { load: ['[tex]/mhchem', '[tex]/cancel'] },
+  tex: { packages: { '[+]': ['mhchem', 'cancel'] } }
+};
+</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="nav-sidebar docked quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./120-types-reactions.html"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Types de réactions</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Recherche" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Cours de chimie générale</a> 
+        <div class="sidebar-tools-main">
+    <a href="./chimie-generale.pdf" title="Télécharger le PDF" class="quarto-navigation-tool px-1" aria-label="Télécharger le PDF" target="_blank"><i class="bi bi-file-earmark-pdf"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Recherche"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Préambule</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./10-introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./20-etats-de-la-matiere.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Les états de la matière</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./30-melanges-corps-purs.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Mélanges et corps purs</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./40-historique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Historique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./50-atome.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">L’atome</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./60-tableau-periodique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Le tableau périodique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./70-liaisons.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Molécules et liaisons chimiques</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./80-molecules.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Géométrie moléculaire et polarité</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./90-nomenclature.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Nomenclature</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./100-solutions-electrolytes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Solutions et électrolytes</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./110-reactions-chimiques.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Réactions chimiques</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./120-types-reactions.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Types de réactions</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./130-stoechiometrie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Calculs stœchiométriques</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./140-gaz-parfaits.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Les gaz parfaits</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./150-cinetique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Cinétique chimique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./160-equilibres.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">L’équilibre chimique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./170-acides-bases.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Les acides et les bases</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./180-ph-potentiel-hydrogene.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Le pH ou potentiel hydrogène</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./190-produit-solubilite.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Le produit de solubilité</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./200-oxydoreductions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Les réactions d’oxydoréduction</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./210-electrochimie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Électrochimie</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./220-thermochimie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Thermochimie</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./230-thermodynamique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Thermodynamique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./00-references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bibliographie</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table des matières</h2>
+   
+  <ul>
+  <li><a href="#réactions-de-combinaison" id="toc-réactions-de-combinaison" class="nav-link active" data-scroll-target="#réactions-de-combinaison"><span class="header-section-number">12.1</span> Réactions de combinaison</a></li>
+  <li><a href="#réactions-de-décomposition" id="toc-réactions-de-décomposition" class="nav-link" data-scroll-target="#réactions-de-décomposition"><span class="header-section-number">12.2</span> Réactions de décomposition</a></li>
+  <li><a href="#réactions-de-dissociation" id="toc-réactions-de-dissociation" class="nav-link" data-scroll-target="#réactions-de-dissociation"><span class="header-section-number">12.3</span> Réactions de dissociation</a></li>
+  <li><a href="#réactions-de-précipitation" id="toc-réactions-de-précipitation" class="nav-link" data-scroll-target="#réactions-de-précipitation"><span class="header-section-number">12.4</span> Réactions de précipitation</a>
+  <ul class="collapse">
+  <li><a href="#résoudre-une-réaction-de-précipitation" id="toc-résoudre-une-réaction-de-précipitation" class="nav-link" data-scroll-target="#résoudre-une-réaction-de-précipitation"><span class="header-section-number">12.4.1</span> Résoudre une réaction de précipitation</a></li>
+  </ul></li>
+  <li><a href="#réactions-de-neutralisation" id="toc-réactions-de-neutralisation" class="nav-link" data-scroll-target="#réactions-de-neutralisation"><span class="header-section-number">12.5</span> Réactions de neutralisation</a>
+  <ul class="collapse">
+  <li><a href="#notion-dacidité" id="toc-notion-dacidité" class="nav-link" data-scroll-target="#notion-dacidité"><span class="header-section-number">12.5.1</span> Notion d’acidité</a></li>
+  </ul></li>
+  <li><a href="#réactions-de-combustion" id="toc-réactions-de-combustion" class="nav-link" data-scroll-target="#réactions-de-combustion"><span class="header-section-number">12.6</span> Réactions de combustion</a>
+  <ul class="collapse">
+  <li><a href="#combustion-organique" id="toc-combustion-organique" class="nav-link" data-scroll-target="#combustion-organique"><span class="header-section-number">12.6.1</span> Combustion organique</a></li>
+  </ul></li>
+  <li><a href="#résumé-des-types-de-réactions" id="toc-résumé-des-types-de-réactions" class="nav-link" data-scroll-target="#résumé-des-types-de-réactions"><span class="header-section-number">12.7</span> Résumé des types de réactions</a></li>
+  <li><a href="#résumé" id="toc-résumé" class="nav-link" data-scroll-target="#résumé"><span class="header-section-number">12.8</span> Résumé</a></li>
+  <li><a href="#exercices-supplémentaires" id="toc-exercices-supplémentaires" class="nav-link" data-scroll-target="#exercices-supplémentaires"><span class="header-section-number">12.9</span> Exercices supplémentaires</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Types de réactions</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="objectives">
+<ul>
+<li>Identifier les différents types de réactions.</li>
+<li>Compléter et équilibrer une équation de réaction.</li>
+<li>Expliquer la notion d’acidité, de basicité et de neutralité, d’indicateur coloré et de pH.</li>
+</ul>
+</div>
+<section id="réactions-de-combinaison" class="level2" data-number="12.1">
+<h2 data-number="12.1" class="anchored" data-anchor-id="réactions-de-combinaison"><span class="header-section-number">12.1</span> Réactions de combinaison</h2>
+<p>Une réaction de combinaison est une réaction dans laquelle deux ou plusieurs réactifs forment un seul produit.</p>
+<p><span class="math display">\[ A\ +\ B\ \longrightarrow\ C \]</span></p>
+<p>Par exemple:</p>
+<p><span class="math display">\[ \begin{split}
+  \ce{C + O2 -&gt; CO2}
+  \end{split}
+  \qquad
+  \begin{split}
+  \ce{N2 + 3H2 -&gt; 2NH3}
+  \end{split} \]</span></p>
+<p>Si un élément a plusieurs nombres d’oxydation possibles, on écrira une équation pour chaque nombre d’oxydation.</p>
+<p><span class="math display">\[ \begin{split}
+  \ce{2Fe + O2 -&gt; 2FeO} \quad (\ce{Fe}^{2+}) \\
+  \ce{4Fe + 3O2 -&gt; 2Fe2O3} \quad (\ce{Fe}^{3+})
+  \end{split} \]</span></p>
+<div class="Exercise">
+<p>Complétez et équilibrez les équations de combinaison suivantes.</p>
+<ol type="1">
+<li><p><span class="math display">\[\ce{K} \qquad + \qquad \ce{Cl2} \qquad \ce{-&gt;} \qquad\underline{\hspace{1.5cm}}\]</span></p></li>
+<li><p><span class="math display">\[\ce{Al} \qquad + \qquad \ce{Br2} \qquad \ce{-&gt;} \qquad\underline{\hspace{1.5cm}}\]</span></p></li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><p><span class="math display">\[\ce{2K + Cl2 -&gt; 2KCl }\]</span></p></li>
+<li><p><span class="math display">\[\ce{2 Al + 3 Br2 -&gt; 2 AlBr3 }\]</span></p></li>
+</ol>
+</div>
+</section>
+<section id="réactions-de-décomposition" class="level2" data-number="12.2">
+<h2 data-number="12.2" class="anchored" data-anchor-id="réactions-de-décomposition"><span class="header-section-number">12.2</span> Réactions de décomposition</h2>
+<p>Une réaction de décomposition est une réaction dans laquelle un seul réactif forme deux ou plusieurs produits.</p>
+<p><span class="math display">\[ A\ \longrightarrow\ B\ +\ C \]</span></p>
+<p>Par exemple:</p>
+<p><span class="math display">\[ \begin{split}
+  &amp; \ce{2KClO3 -&gt; 2KCl + 3O2} \\
+  &amp; \ce{2H2O -&gt; 2H2 + O2}
+  \end{split}
+  \qquad
+  \begin{split}
+  &amp; \ce{MgCl2 -&gt; Mg + Cl2} \\
+  &amp; \ce{2NaHCO3 -&gt; Na2CO3 + H2O + CO2}
+  \end{split} \]</span></p>
+<div class="Exercise">
+<p>Complétez et équilibrez les équations de décomposition suivantes.</p>
+<ol type="1">
+<li><p><span class="math display">\[\ce{Al2O3} \quad \ce{-&gt;} \quad \underline{\hspace{6em}} \quad + \quad \underline{\hspace{1.5cm}}\]</span></p></li>
+<li><p><span class="math display">\[\ce{HgO} \quad \ce{-&gt;} \quad \underline{\hspace{1.5cm}} \quad + \quad \underline{\hspace{1.5cm}}\]</span></p></li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><p><span class="math display">\[\ce{2 Al2O3 -&gt; 4 Al + 3 O2}\]</span></p></li>
+<li><p><span class="math display">\[\ce{2 HgO -&gt; 2 Hg + O2}\]</span></p></li>
+</ol>
+</div>
+</section>
+<section id="réactions-de-dissociation" class="level2" data-number="12.3">
+<h2 data-number="12.3" class="anchored" data-anchor-id="réactions-de-dissociation"><span class="header-section-number">12.3</span> Réactions de dissociation</h2>
+<p><strong>RAPPEL :</strong> La dissociation correspond à la séparation en ions d’un composé ionique. Ce n’est pas réellement une réaction chimique, mais elle peut être représentée par une équation chimique.</p>
+<p><span class="math display">\[ \ce{Ca3(PO4)2 -&gt;C[H2O] 3Ca^{2+} + 2PO4^{3-}} \]</span></p>
+</section>
+<section id="réactions-de-précipitation" class="level2" data-number="12.4">
+<h2 data-number="12.4" class="anchored" data-anchor-id="réactions-de-précipitation"><span class="header-section-number">12.4</span> Réactions de précipitation</h2>
+<div id="fig-precipitation-0" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-precipitation-0-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/precipitation-0.png" class="img-fluid figure-img" style="width:50.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-precipitation-0-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;12.1: Représentation moléculaire d’une réaction de précipitation
+</figcaption>
+</figure>
+</div>
+<p>Une réaction de précipitation forme un composé insoluble (un précipité) à partir du mélange des deux composés solubles.</p>
+<p>Les réactions de précipitation se produisent généralement en solution aqueuse.</p>
+<p>“Une solution aqueuse de <strong>chlorure de potassium</strong> réagit avec une solution aqueuse de <strong>nitrate d’argent</strong> pour former un <strong>précipité</strong> blanc de <strong>chlorure d’argent</strong> et du <strong>nitrate de potassium</strong>.”</p>
+<ul>
+<li>équation globale de la réaction :</li>
+</ul>
+<p><span class="math display">\[ \ce{KCl + AgNO3 -&gt; AgCl v + KNO3} \]</span></p>
+<p>Les réactifs et les produits sont écrits sous leur forme non-dissociée et on indique par une flèche vers le bas si un produit précipite.</p>
+<ul>
+<li>équation ionique de la réaction :</li>
+</ul>
+<p><span class="math display">\[ \ce{K^{+} + Cl^{–} + Ag^{+} + NO3^{–} -&gt; AgCl v + K^{+} + NO3^{–}} \]</span></p>
+<p>Les réactifs et les produits sont écrits sous leur forme dissociée.</p>
+<p>Les ions K<sup>+</sup> et NO<sub>3</sub><sup>–</sup> apparaissent des deux côtés de l’équation. Ils ne réagissent pas et ils maintiennent la neutralité électrique de la solution. Ils sont appelés <strong>ions spectateurs</strong>.</p>
+<ul>
+<li>équation ionique réduite :</li>
+</ul>
+<p><span class="math display">\[ \ce{Ag^{+} + Cl^{–} -&gt; AgCl v} \]</span></p>
+<p>Les ions spectateurs ne sont pas indiqués. On indique uniquement les espèces qui sont réellement impliquées dans la réaction.</p>
+<div class="Exercise">
+<p>Considérons deux solutions aqueuses. La première contient du <strong>nitrate de plomb II</strong> et la seconde contient de l’<strong>iodure de sodium</strong>. Ces deux solutions sont transparentes et incolores, cependant, lorsqu’on les mélange, on obtient un précipité jaune intense.</p>
+<p><img src="images/precipitation.png" class="img-fluid" style="width:33.0%"></p>
+<ul>
+<li>Ecrivez l’équation globale équilibrée de la réaction qui se produit.</li>
+<li>Identifiez quel est le solide jaune.</li>
+<li>Ecrivez les équations ionique et ionique réduite de la réaction.</li>
+</ul>
+</div>
+<div class="Answer">
+<p>équation globale:<br>
+<span class="math display">\[\ce{Pb(NO3)2 + 2NaI -&gt; PbI2 v + 2NaNO3}\]</span></p>
+<p>équation ionique:<br>
+<span class="math display">\[\ce{Pb^{2+} + 2 NO3^{–} + 2 Na^{+} + 2 I^{–} -&gt; PbI2 v + 2Na^{+} + 2 NO3^{–}}\]</span></p>
+<p>équation ionique réduite:<br>
+<span class="math display">\[\ce{Pb^{2+} + 2 I^{–} -&gt; PbI2 v}\]</span></p>
+</div>
+<section id="résoudre-une-réaction-de-précipitation" class="level3" data-number="12.4.1">
+<h3 data-number="12.4.1" class="anchored" data-anchor-id="résoudre-une-réaction-de-précipitation"><span class="header-section-number">12.4.1</span> Résoudre une réaction de précipitation</h3>
+<ul>
+<li>Ecrire les ions formant les réactifs (sans s’occuper de leur nombre).</li>
+<li>“Croiser” les ions pour former les molécules de produits.</li>
+<li>Equilibrer l’équation globale à l’aide des nombres stoechiométriques.</li>
+<li>Déterminer quel est le précipité, à l’aide de la table des solubilités.</li>
+</ul>
+<div class="Exercise">
+<p>Complétez et équilibrez les équations de précipitation suivantes:</p>
+<ol type="1">
+<li><p><span class="math display">\[\qquad \ce{CoCl2} \quad + \quad \ce{Na2CO3} \quad \ce{-&gt;} \quad \underline{\hspace{6em}} \quad + \quad \underline{\hspace{6em}}\]</span></p></li>
+<li><p><span class="math display">\[\qquad \ce{CrCl3} \quad + \quad \ce{NH4OH} \quad \ce{-&gt;} \quad \underline{\hspace{6em}} \quad + \quad \underline{\hspace{6em}}\]</span></p></li>
+<li><p><span class="math display">\[\qquad \ce{CuSO4} \quad + \quad \ce{NaOH} \quad \ce{-&gt;} \quad \underline{\hspace{6em}} \quad + \quad \underline{\hspace{6em}}\]</span></p></li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><p><span class="math display">\[\ce{CoCl2 + Na2CO3 -&gt; CoCO3 v + 2 NaCl}\]</span></p></li>
+<li><p><span class="math display">\[\ce{CrCl3 + 3NH4OH -&gt; Cr(OH)3 v + 3 NH4Cl}\]</span></p></li>
+<li><p><span class="math display">\[\ce{CuSO4 + 2 NaOH -&gt; Na2SO4 + Cu(OH)2 v}\]</span></p></li>
+</ol>
+</div>
+<p>Si, en mélangeant deux composés ioniques solubles, <strong>aucun précipité ne se forme</strong>, il n’y a pas de réaction de précipitation. C’est simplement un <strong>mélange homogène</strong> de deux solutions. Par exemple, dans l’équation:</p>
+<p><span class="math display">\[ \ce{CaCl2 + Na2SO4 -&gt; CaSO4 + 2NaCl} \]</span></p>
+<p>Il ne se forme pas de précipité. Il n’y a donc pas de réaction. Le mélange de ces deux solutions sera un mélange de ions Ca<sup>2+</sup>, Na<sup>+</sup>, SO<sub>4</sub><sup>2–</sup> et Cl<sup>–</sup> dans l’eau.</p>
+</section>
+</section>
+<section id="réactions-de-neutralisation" class="level2" data-number="12.5">
+<h2 data-number="12.5" class="anchored" data-anchor-id="réactions-de-neutralisation"><span class="header-section-number">12.5</span> Réactions de neutralisation</h2>
+<p>Une réaction de neutralisation est une réaction dans laquelle un acide réagit avec un hydroxyde pour former un sel et de l’eau.</p>
+<p><span class="math display">\[ \text{acide} + \text{hydroxyde} \longrightarrow \text{sel} + \text{eau} \]</span></p>
+<ul>
+<li><strong>acide</strong> : composé qui libère des <strong>ions H<sup>+</sup></strong> lorsqu’il est dissout dans l’eau.</li>
+<li><strong>hydroxyde</strong> : composé qui libère des <strong>ions OH<sup>-</sup></strong> lorsqu’il est dissout dans l’eau.</li>
+</ul>
+<p>Par exemple :</p>
+<p><span class="math display">\[ \begin{split}
+  &amp; \ce{HCl -&gt;C[H2O] H^{+} + Cl^{–}} \\
+  &amp; \ce{HNO3 -&gt;C[H2O] H^{+} + NO3^{–}} \\
+  &amp; \ce{H2SO4 -&gt;C[H2O] 2H^{+} + SO4^{2–}}
+  \end{split}
+  \qquad
+  \begin{split}
+   &amp; \ce{NaOH -&gt;C[H2O] Na^{+} + OH^{–}} \\
+   &amp; \ce{KOH -&gt;C[H2O] K^{+} + OH^{–}} \\
+   &amp; \ce{Ca(OH)2 -&gt;C[H2O] Ca^{2+} + 2OH^{–}}
+\end{split} \]</span></p>
+<div class="Exercise">
+<p>Pour chaque ligne des exemples ci-dessus, écrire l’équation de la réaction équilibrée entre l’acide et la base correspondantes. Ecrire également les réactions ionique et ionique réduite.</p>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><p>globale : <span class="math inline">\(\ce{HCl + NaOH -&gt; NaCl + H2O}\)</span> ionique : <span class="math inline">\(\ce{H^{+} + Cl^{–} + Na^{+} + OH^{–} -&gt; Na^{+} + Cl^{–} + H2O}\)</span> ionique réduite : <span class="math inline">\(\ce{H^{+} + OH^{–} -&gt; H2O}\)</span></p></li>
+<li><p>globale : <span class="math inline">\(\ce{HNO3 + KOH -&gt; KNO3 + H2O}\)</span> ionique : <span class="math inline">\(\ce{H^{+} + NO3^{–} + K^{+} + OH^{–} -&gt; K^{+} + NO3^{–} + H2O}\)</span> ionique réduite : <span class="math inline">\(\ce{H^{+} + OH^{–} -&gt; H2O}\)</span></p></li>
+<li><p>globale : <span class="math inline">\(\ce{H2SO4 + Ca(OH)2 -&gt; CaSO4 + 2H2O}\)</span> ionique : <span class="math inline">\(\ce{2H^{+} + SO4^{2–} + Ca^{2+} + 2OH^{–} -&gt; Ca^{2+} + SO4^{2–} + 2H2O}\)</span> ionique réduite : <span class="math inline">\(\ce{H^{+} + OH^{–} -&gt; H2O}\)</span></p></li>
+</ol>
+<p>(<span class="math inline">\(\ce{CaSO4}\)</span> est soluble, les ions <span class="math inline">\(\ce{Ca}^{2+}\)</span> et <span class="math inline">\(\ce{SO4^{2–}}\)</span> sont spectateurs.)</p>
+</div>
+<p>Les hydroxydes font partie d’une catégorie de composés que l’on appelle <strong>les bases</strong>. Les bases ont la capacité de réagir avec un acide pour le <strong>neutraliser</strong>, c’est-à-dire le rendre neutre, non corrosif.</p>
+<p><strong>Mais attention!</strong> Les bases sont aussi dangereuses, si ce n’est plus, que les acides. Et un acide a également la capacité de neutraliser une base.</p>
+<section id="notion-dacidité" class="level3" data-number="12.5.1">
+<h3 data-number="12.5.1" class="anchored" data-anchor-id="notion-dacidité"><span class="header-section-number">12.5.1</span> Notion d’acidité</h3>
+<p>On peut mesurer l’acidité ou la basicité de n’importe qu’elle solution aqueuse à l’aide du pH.</p>
+<div class="tcolorbox">
+<p><strong>pH</strong><br>
+Le pH mesure le caractère acide ou basique d’une solution.</p>
+</div>
+<p>L’échelle de pH varie de 0 à 14.</p>
+<ul>
+<li>Une solution <strong>acide</strong> a un pH <strong>inférieur à 7</strong>.</li>
+<li>Une solution <strong>basique</strong> (alcaline) a un pH <strong>supérieur à 7</strong>.</li>
+<li>Une solution neutre a un pH <strong>égal à 7</strong>. C’est le pH de l’eau pure.</li>
+</ul>
+<div id="fig-pH-echelle" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-pH-echelle-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/pH-echelle.png" class="img-fluid figure-img" style="width:90.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-pH-echelle-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;12.2: Echelle de pH
+</figcaption>
+</figure>
+</div>
+<div class="Exercise-container">
+<div class="Exercise">
+<p>Soit la réaction de neutralisation équilibrée:</p>
+<p><span class="math display">\[ \ce{HCl + NaOH -&gt; NaCl + H2O} \]</span></p>
+<p>Pour chacun des cas ci-dessous, indiquez quel sera l’acidité et le pH de la solution finale, si on fait réagir :</p>
+</div>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 85%">
+<col style="width: 10%">
+<col style="width: 4%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">acidité</th>
+<th style="text-align: center;">pH</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>autant de molécules de HCl que de molécules de NaOH</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td>2 fois plus de molécules de HCl que de molécules de NaOH</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td>2 fois moins de molécules de HCl que de molécules de NaOH</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="Answer">
+<p>autant de molécules de HCl que de molécules de NaOH / neutre / pH = 7</p>
+<p>2 fois plus de molécules de HCl que de molécules de NaOH / acide / pH &lt; 7</p>
+<p>2 fois moins de molécules de HCl que de molécules de NaOH / basique / pH &gt; 7</p>
+</div>
+<p>En regardant une solution, on ne peut pas dire si il s’agit d’une solution acide, basique ou neutre. Certains composés ont la propriété de changer de couleur selon qu’ils se trouvent en milieu acide ou basique. On appelle ces composés des <strong>indicateurs acide-base</strong>.</p>
+<div id="tbl-indicateur-acide-base" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-indicateur-acide-base-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;12.1: Indicateur acide-base.
+</figcaption>
+<div aria-describedby="tbl-indicateur-acide-base-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>composé</th>
+<th style="text-align: center;">couleur acide</th>
+<th style="text-align: center;">couleur basique</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Bleu de bromothymol (BBT)</td>
+<td style="text-align: center;">jaune</td>
+<td style="text-align: center;">bleu</td>
+</tr>
+<tr class="even">
+<td>Rouge de phénol</td>
+<td style="text-align: center;">jaune</td>
+<td style="text-align: center;">rouge</td>
+</tr>
+<tr class="odd">
+<td>Rouge neutre</td>
+<td style="text-align: center;">rouge</td>
+<td style="text-align: center;">jaune</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+</section>
+<section id="réactions-de-combustion" class="level2" data-number="12.6">
+<h2 data-number="12.6" class="anchored" data-anchor-id="réactions-de-combustion"><span class="header-section-number">12.6</span> Réactions de combustion</h2>
+<p>Une réaction de combustion est une réaction dans laquelle un réactif se combine avec l’oxygène. On distingue deux grandes familles de combustions.</p>
+<ul>
+<li><strong>Combustion lente</strong>: sans flamme, par exemple lors de la formation de la rouille.</li>
+<li><strong>Combustion vive</strong>: avec flamme, c’est la réaction qui a lieu, par exemple, dans un feu de cheminée.</li>
+</ul>
+<section id="combustion-organique" class="level3" data-number="12.6.1">
+<h3 data-number="12.6.1" class="anchored" data-anchor-id="combustion-organique"><span class="header-section-number">12.6.1</span> Combustion organique</h3>
+<p>Une <strong>combustion organique</strong> est une réaction de combustion vive où un <strong>hydrocarbure</strong> se combine avec l’oxygène pour former du dioxyde de carbone et de l’eau, avec dégagement de chaleur et de lumière (une flamme).</p>
+<p><span class="math display">\[ \text{hydrocarbure } + \text{ dioxygène } \longrightarrow \text{ dioxyde de carbone } + \text{ eau} \]</span></p>
+<p><span class="math display">\[ \ce{C_{n}H_{m}}\ +\ \ce{O2} \longrightarrow\ \ce{CO2}\ +\ \ce{H2O} \]</span></p>
+<ul>
+<li>Un <strong>hydrocarbure</strong> est un composé formé uniquement de carbone et d’hydrogène.</li>
+<li>Lorsque la réaction mène au dioxyde de carbone (), on parle de <strong>combustion complète</strong>.</li>
+</ul>
+<p>Exemples de combustions organiques complètes:</p>
+<p><span class="math display">\[ \begin{split}
+  \ce{CH4 + 2O2 -&gt; CO2 + 2H2O} \\
+  \text{combustion du méthane}
+  \end{split}
+  \qquad
+  \begin{split}
+  \ce{C3H8 + 5O2 -&gt; 3CO2 + 4H2O} \\
+    \text{combustion du propane}
+  \end{split} \]</span></p>
+<div class="Exercise">
+<p>Les bruleurs des chaudières utilisent généralement la combustion du butane (C<sub>4</sub>H<sub>10</sub>) pour produire la chaleur nécessaire au chauffage d’une maison. Complétez et équilibrez l’équation de combustion complète du butane:</p>
+<p><span class="math display">\[ \ce{C4H10} \qquad + \qquad \underline{\qquad\qquad} \qquad \longrightarrow \qquad \underline{\qquad\qquad} \qquad + \qquad \underline{\qquad\qquad} \]</span></p>
+</div>
+<div class="Answer">
+<p><span class="math display">\[ \ce{C4H10 + 13/2O2 -&gt; 4CO2 + 5H2O} \]</span></p>
+</div>
+</section>
+</section>
+<section id="résumé-des-types-de-réactions" class="level2" data-number="12.7">
+<h2 data-number="12.7" class="anchored" data-anchor-id="résumé-des-types-de-réactions"><span class="header-section-number">12.7</span> Résumé des types de réactions</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 31%">
+<col style="width: 68%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Réactions de combinaison</strong></td>
+<td style="text-align: left;"><span class="math inline">\(\ce{A + B -&gt; C}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Réactions de décomposition</strong></td>
+<td style="text-align: left;"><span class="math inline">\(\ce{A -&gt; B + C}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Réactions de précipitation</strong></td>
+<td style="text-align: left;"><span class="math inline">\(\ce{AB + CD -&gt; AD v + BC}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Equation globale</td>
+<td style="text-align: left;"><span class="math inline">\(\ce{KCl + AgNO3 -&gt; AgCl v + KNO3}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Equation ionique</td>
+<td style="text-align: left;"><span class="math inline">\(\ce{K^{+} + Cl^{–} + Ag^{+} + NO3^{–} -&gt; AgCl v + K^{+} + NO3^{–}}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Equation ionique réduite</td>
+<td style="text-align: left;"><span class="math inline">\(\ce{Ag^{+} + Cl^{–} -&gt; AgCl v}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Réactions de neutralisation</strong></td>
+<td style="text-align: left;">acide + hydroxyde <span class="math inline">\(\ce{-&gt;}\)</span> sel + eau</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Equation globale</td>
+<td style="text-align: left;"><span class="math inline">\(\ce{HCl + NaOH -&gt; NaCl + H2O}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Equation ionique</td>
+<td style="text-align: left;"><span class="math inline">\(\ce{H^{+} + Cl^{–} + Na^{+} + OH^{–} -&gt; Na^{+} + Cl^{–} + H2O}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Equation ionique réduite</td>
+<td style="text-align: left;"><span class="math inline">\(\ce{H^{+} + OH^{–} -&gt; H2O}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Combustion organique</strong></td>
+<td style="text-align: left;"><span class="math inline">\(\ce{C_{n}H_{m} + O2 -&gt; CO2 + H2O}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Réaction de dissociation</strong></td>
+<td style="text-align: left;"><span class="math inline">\(\ce{C_{n}A_{m} -&gt;C[H2O] n C^{m+} + m A^{n-}}\)</span></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="résumé" class="level2" data-number="12.8">
+<h2 data-number="12.8" class="anchored" data-anchor-id="résumé"><span class="header-section-number">12.8</span> Résumé</h2>
+<ul>
+<li>On distingue plusieurs types de réactions : combinaison, décomposition, dissociation, précipitation, neutralisation et combustion.</li>
+<li>Pour une précipitation, on croise les ions des réactifs, on équilibre, puis on identifie le précipité à l’aide de la table des solubilités. Les ions présents des deux côtés disparaissent de l’équation ionique réduite. Si aucun produit n’est insoluble, il n’y a pas de réaction.</li>
+<li>Une réaction en solution peut s’écrire sous trois formes : globale, ionique et ionique réduite.</li>
+<li>Une combustion organique complète d’un hydrocarbure produit du dioxyde de carbone et de l’eau.</li>
+<li>Acidité et pH : un acide libère des ions <span class="math inline">\(\ce{H^+}\)</span>, un hydroxyde (base) libère des ions <span class="math inline">\(\ce{OH^-}\)</span>. Le pH (échelle 0 à 14) mesure l’acidité : acide si <span class="math inline">\(pH &lt; 7\)</span>, neutre si <span class="math inline">\(pH = 7\)</span> (eau pure), basique si <span class="math inline">\(pH &gt; 7\)</span>. Un indicateur acide-base change de couleur selon le milieu.</li>
+</ul>
+</section>
+<section id="exercices-supplémentaires" class="level2" data-number="12.9">
+<h2 data-number="12.9" class="anchored" data-anchor-id="exercices-supplémentaires"><span class="header-section-number">12.9</span> Exercices supplémentaires</h2>
+<div class="Exercise">
+<p>Complétez et équilibrez les équations de combinaison suivantes.</p>
+<ol type="1">
+<li><p><span class="math inline">\(\ce{N2} \quad + \quad \ce{H2} \quad \ce{-&gt;} \quad \underline{\hspace{6em}}\)</span></p></li>
+<li><p><span class="math inline">\(\underline{\hspace{6em}} \quad + \quad \underline{\hspace{6em}} \quad \ce{-&gt;} \quad \ce{H2O}\)</span></p></li>
+<li><p><span class="math inline">\(\underline{\hspace{6em}} \quad + \quad \underline{\hspace{6em}} \quad \ce{-&gt;} \quad \ce{Al2S3}\)</span></p></li>
+<li><p><span class="math inline">\(\ce{H2} \quad + \quad \ce{Cl2} \quad \ce{-&gt;} \quad \underline{\hspace{6em}}\)</span></p></li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><p><span class="math inline">\(\ce{N2 + 3 H2 -&gt; 2 NH3}\)</span></p></li>
+<li><p><span class="math inline">\(\ce{O2 + 2 H2 -&gt; 2 H2O}\)</span></p></li>
+<li><p><span class="math inline">\(\ce{2Al + 3S -&gt; Al2S3}\)</span></p></li>
+<li><p><span class="math inline">\(\ce{H2 + Cl2 -&gt; 2 HCl}\)</span></p></li>
+</ol>
+</div>
+<div class="Exercise">
+<p>Donnez l’équation de combinaison équilibrée correspondant à chaque couple d’espèces proposés.</p>
+<ol type="1">
+<li><p>silicium + azote <span class="math inline">\(\ce{-&gt;}\)</span></p></li>
+<li><p>cuivre (I) + oxygène <span class="math inline">\(\ce{-&gt;}\)</span></p></li>
+<li><p>cuivre (II) + oxygène <span class="math inline">\(\ce{-&gt;}\)</span></p></li>
+<li><p>aluminium + azote <span class="math inline">\(\ce{-&gt;}\)</span></p></li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><p><span class="math inline">\(\ce{ 3Si + 2N2 -&gt; Si3N4}\)</span></p></li>
+<li><p><span class="math inline">\(\ce{ 4Cu + O2 -&gt; 2Cu2O}\)</span></p></li>
+<li><p><span class="math inline">\(\ce{ 2Cu + O2 -&gt; 2CuO}\)</span></p></li>
+<li><p><span class="math inline">\(\ce{ 2Al + N2 -&gt; 2AlN}\)</span></p></li>
+</ol>
+</div>
+<div class="Exercise">
+<p>Equilibrez les équations suivantes et indiquez si il s’agit d’une réaction de combinaison ou de décomposition.</p>
+<ol type="1">
+<li><p><span class="math inline">\(\qquad \ce{NaNO3} \qquad \ce{-&gt;} \qquad \ce{NaNO2} \qquad + \qquad \ce{O2}\)</span></p></li>
+<li><p><span class="math inline">\(\qquad \ce{C2H2} \qquad \ce{+} \qquad \ce{H2} \qquad \ce{-&gt;} \qquad \ce{C2H6}\)</span></p></li>
+<li><p><span class="math inline">\(\qquad \ce{HI} \qquad \ce{-&gt;} \qquad \ce{H2} \qquad + \qquad \ce{I2}\)</span></p></li>
+<li><p><span class="math inline">\(\qquad \ce{NO} \qquad \ce{+} \qquad \ce{O2} \qquad \ce{-&gt;} \qquad \ce{N2O4}\)</span></p></li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><p><span class="math inline">\(\ce{2NaNO3 -&gt; 2NaNO2 + O2}\)</span> décomposition</p></li>
+<li><p><span class="math inline">\(\ce{C2H2 + 2H2 -&gt; C2H6}\)</span> combinaison</p></li>
+<li><p><span class="math inline">\(\ce{2HI -&gt; H2 + I2}\)</span> décomposition</p></li>
+<li><p><span class="math inline">\(\ce{2NO + O2 -&gt; N2O4}\)</span> combinaison</p></li>
+</ol>
+</div>
+<div class="Exercise">
+<p>Complétez et équilibrez les équations de précipitation suivantes :</p>
+<ol type="1">
+<li><p><span class="math inline">\(\qquad \ce{ZnCl2} \quad + \quad \ce{NaOH} \quad \ce{-&gt;} \quad \underline{\hspace{6em}} \quad + \quad \underline{\hspace{6em}}\)</span></p></li>
+<li><p><span class="math inline">\(\qquad \ce{Al(NO3)3} \quad + \quad \ce{Ba(OH)2}&nbsp;\quad \ce{-&gt;} \quad \underline{\hspace{6em}} \quad + \quad \underline{\hspace{6em}}\)</span></p></li>
+<li><p><span class="math inline">\(\qquad \ce{FeSO4} \quad + \quad \ce{KCl} \quad \ce{-&gt;} \quad \underline{\hspace{6em}} \quad + \quad \underline{\hspace{6em}}\)</span></p></li>
+<li><p><span class="math inline">\(\qquad \ce{K2S} \quad + \quad \ce{Ni(NO3)2} \quad \ce{-&gt;} \quad \underline{\hspace{6em}} \quad + \quad \underline{\hspace{6em}}\)</span></p></li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><p><span class="math inline">\(\ce{ZnCl2 + 2NaOH -&gt; Zn(OH)2 v + 2NaCl}\)</span></p></li>
+<li><p><span class="math inline">\(\ce{ 2Al(NO3)3 + 3Ba(OH)2 -&gt; 2Al(OH)3 v + 3Ba(NO3)2}\)</span></p></li>
+<li><p><span class="math inline">\(\ce{FeSO4 + 2KCl -&gt; K2SO4 + FeCl2}\)</span> (mélange)</p></li>
+<li><p><span class="math inline">\(\ce{K2S + Ni(NO3)2 -&gt; NiS v + 2KNO3}\)</span></p></li>
+</ol>
+</div>
+<div class="Exercise">
+<p>Pour chaque équation de précipitation de l’exercice précédent, écrire les équations ionique et ionique réduite.</p>
+<ol type="1">
+<li><p>&nbsp;</p></li>
+<li><p>&nbsp;</p></li>
+<li><p>&nbsp;</p></li>
+<li><p>&nbsp;</p></li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><p><span class="math inline">\(\qquad \ce{Zn^{2+} + 2Cl^{–} + 2Na^{+} + 2OH^{–} -&gt; Zn(OH)2 v + 2Na^{+} + 2Cl^{–}}\)</span><br>
+<span class="math inline">\(\qquad \ce{Zn^{2+} + 2OH^{–} -&gt; Zn(OH)2 v}\)</span></p></li>
+<li><p><span class="math inline">\(\qquad \ce{ 2Al^{3+} + 6NO3^{–} + 3Ba^{2+} + 6OH^{–} -&gt; 2Al(OH)3 v + 3Ba^{2+} + 6NO3^{–}}\)</span><br>
+<span class="math inline">\(\qquad \ce{ 2Al^{3+} + 6OH^{–} -&gt; 2Al(OH)3 v}\)</span></p></li>
+<li><p>mélange, pas de réaction</p></li>
+<li><p><span class="math inline">\(\qquad \ce{2K^{+} + S^{2–} + Ni^{2+} + 2NO3^{–} -&gt; NiS v + 2K^{+} + 2NO3^{–}}\)</span> <span class="math inline">\(\qquad \ce{S^{2–} + Ni^{2+} -&gt; NiS v}\)</span></p></li>
+</ol>
+</div>
+<div class="Exercise">
+<p>Complétez et équilibrez les équations de précipitation suivantes :</p>
+<ol type="1">
+<li><p><span class="math inline">\(\qquad \underline{\hspace{6em}} \quad + \quad \underline{\hspace{6em}} \quad \ce{-&gt;} \quad \ce{PbSO4} \quad + \quad \ce{LiNO3}\)</span></p></li>
+<li><p><span class="math inline">\(\qquad \underline{\hspace{6em}} \quad + \quad \underline{\hspace{6em}} \quad \ce{-&gt;} \quad \ce{KCl} \quad + \quad \ce{ZnS}\)</span></p></li>
+<li><p><span class="math inline">\(\qquad \underline{\hspace{6em}} \quad + \quad \underline{\hspace{6em}} \quad \ce{-&gt;} \quad \ce{Fe2S3} \quad + \quad \ce{KNO3}\)</span></p></li>
+<li><p><span class="math inline">\(\qquad \underline{\hspace{6em}} \quad + \quad \underline{\hspace{6em}} \quad \ce{-&gt;} \quad \ce{NaNO3} \quad + \quad \ce{BaSO4}\)</span></p></li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><p><span class="math inline">\(\ce{Pb(NO3)2 + Li2SO4 -&gt; PbSO4 v + 2LiNO3}\)</span></p></li>
+<li><p><span class="math inline">\(\ce{K2S + ZnCl2 -&gt; 2KCl + ZnS v}\)</span></p></li>
+<li><p><span class="math inline">\(\ce{2Fe(NO3)3 + 3K2S -&gt; Fe2S3 v + 6KNO3}\)</span></p></li>
+<li><p><span class="math inline">\(\ce{Na2SO4 + Ba(NO3)2 -&gt; 2NaNO3 + BaSO4 v}\)</span></p></li>
+</ol>
+</div>
+<div class="Exercise">
+<p>Complétez et équilibrez les équations de neutralisation suivantes :</p>
+<ol type="1">
+<li><p><span class="math inline">\(\qquad \ce{Ca(OH)2} \quad + \quad \ce{H3PO4} \quad \ce{-&gt;}  \quad \underline{\hspace{6em}} \quad + \quad \underline{\hspace{6em}}\)</span></p></li>
+<li><p><span class="math inline">\(\qquad \ce{H2SO4} \quad + \quad \ce{NH4OH} \quad \ce{-&gt;}  \quad \underline{\hspace{6em}} \quad + \quad \underline{\hspace{6em}}\)</span></p></li>
+<li><p><span class="math inline">\(\qquad \underline{\hspace{6em}} \quad + \quad \underline{\hspace{6em}} \quad \ce{-&gt;}  \quad \ce{KNO3} \quad + \quad \ce{H2O}\)</span></p></li>
+<li><p><span class="math inline">\(\qquad \underline{\hspace{6em}} \quad + \quad \underline{\hspace{6em}} \quad \ce{-&gt;}  \quad \ce{Na2SO3} \quad + \quad \ce{H2O}\)</span></p></li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><p><span class="math inline">\(\ce{3 Ca(OH)2 + 2 H3PO4 -&gt; Ca3(PO4)2 v + 6 H2O}\)</span> (précipitation)</p></li>
+<li><p><span class="math inline">\(\ce{H2SO4 + 2NH4OH -&gt; (NH4)2SO4 + 2 H2O}\)</span></p></li>
+<li><p><span class="math inline">\(\ce{HNO3 + KOH -&gt; KNO3 + H2O}\)</span></p></li>
+<li><p><span class="math inline">\(\ce{H2SO3 + 2 NaOH -&gt; Na2SO3 + 2 H2O}\)</span></p></li>
+</ol>
+</div>
+<div class="Exercise">
+<p>On mélange une solution d’hydroxyde de potassium avec une solution d’acide phosphorique.</p>
+<ol type="1">
+<li>Donnez l’équation globale équilibrée de la réaction.</li>
+</ol>
+<ol start="2" type="1">
+<li><p>Le bleu de bromothymol est un indicateur acide-base. Il prend la couleur jaune en milieu acide et bleue en milieu basique. Quelle sera la couleur de la solution finale si :</p>
+<ol type="a">
+<li>On ajoute autant de molécules de KOH que de molécules de H<sub>3</sub>PO<sub>4</sub> :</li>
+<li>On ajoute 3 fois plus de molécules de KOH que de molécules de H<sub>3</sub>PO<sub>4</sub> :</li>
+<li>On ajoute 6 fois plus de molécules de KOH que de molécules de H<sub>3</sub>PO<sub>4</sub> :</li>
+</ol></li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><p><span class="math inline">\(\ce{ 3 KOH + H3PO4 -&gt; K3PO4 + 3 H2O }\)</span></p></li>
+<li><ol type="a">
+<li>jaune</li>
+<li>vert (ni jaune, ni bleu)</li>
+<li>bleu</li>
+</ol></li>
+</ol>
+</div>
+<div class="Exercise">
+<p>Le <strong>sulfate de baryum</strong> est un composé utilisé en radiologie médicale comme agent de contraste pour l’exploration du tube digestif. C’est une substance injectable ou ingérable qui améliore la visualisation des organes explorés. Un ami médecin vient vous trouver pour vous demander de lui préparer du sulfate de baryum pour une radiographie.</p>
+<ol type="1">
+<li>Choisissez deux réactifs permettant d’obtenir comme produit le sulfate de baryum.</li>
+</ol>
+<ol start="2" type="1">
+<li>Donnez les équations globale, ionique et ionique réduite de la réaction.</li>
+</ol>
+</div>
+<div class="Answer">
+<p>équation globale :<br>
+<span class="math inline">\(\ce{Ba(OH)2 + Na2SO4 -&gt; BaSO4 v + 2 NaOH}\)</span></p>
+<p>équation ionique :<br>
+<span class="math inline">\(\ce{Ba^{2+} + 2 OH^{–} + 2 Na^{+} + SO4^{2–} -&gt; BaSO4 v + 2 Na^{+} + 2 OH^{–}}\)</span></p>
+<p>équation ionique réduite :<br>
+<span class="math inline">\(\ce{Ba^{2+} + SO4^{2–} -&gt; BaSO4 v}\)</span></p>
+</div>
+<div class="Exercise">
+<p>Choisissez deux réactifs, un acide et un hydroxyde, permettant d’obtenir comme produit le <strong>phosphate de baryum</strong>. Donnez les équations globale, ionique et ionique réduite.</p>
+</div>
+<div class="Answer">
+<p>équation globale :<br>
+<span class="math inline">\(\ce{3 Ba(OH)2 + 2 H3PO4 -&gt; Ba3(PO4)2 v + 6 H2O}\)</span></p>
+<p>équation ionique :<br>
+<span class="math inline">\(\ce{3Ba^{2+} + 6 OH^{–} + 6 H^{+} + 2PO4^{3–} -&gt; Ba3(PO4)2 v + 6 H2O}\)</span></p>
+<p>équations ioniques réduites :<br>
+<span class="math inline">\(\ce{3Ba^{2+} + 2PO4^{3–} -&gt; Ba3(PO4)2 v}\)</span> précipitation<br>
+<span class="math inline">\(\ce{6 OH^{–} + 6 H^{+} -&gt; 6 H2O}\)</span> neutralisation</p>
+</div>
+<div class="Exercise">
+<p>L’octane (C<sub>8</sub>H<sub>18</sub>) est le constituant principal de l’essence. Ecrivez et équilibrez la réaction de combustion complète qui a lieu dans un moteur à essence.</p>
+<p><span class="math display">\[ \underline{\hspace{6em}} \qquad + \qquad \underline{\hspace{6em}} \qquad \ce{-&gt;} \qquad \underline{\hspace{6em}} \qquad + \qquad \underline{\hspace{6em}} \]</span></p>
+</div>
+<div class="Answer">
+<p><span class="math display">\[ \ce{C8H18 + 25/2O2 -&gt; 8CO2 + 9H2O} \]</span></p>
+</div>
+<div class="Exercise">
+<p>Pour chacune des réactions suivantes, indiquez le type (combinaison, décomposition, précipitation, neutralisation ou combustion) et équilibrez l’équation.</p>
+<ol type="1">
+<li><span class="math inline">\(\qquad \ce{C2H6} \quad + \quad \ce{O2} \quad \ce{-&gt;} \quad \ce{CO2} \quad + \quad \ce{H2O}\)</span> </li>
+<li><span class="math inline">\(\qquad \ce{Mg} \quad + \quad \ce{O2} \quad \ce{-&gt;} \quad \ce{MgO}\)</span> </li>
+<li><span class="math inline">\(\qquad \ce{Pb(NO3)2} \quad + \quad \ce{KI} \quad \ce{-&gt;} \quad \ce{PbI2 v} \quad + \quad \ce{KNO3}\)</span> </li>
+<li><span class="math inline">\(\qquad \ce{H2SO4} \quad + \quad \ce{KOH} \quad \ce{-&gt;} \quad \ce{K2SO4} \quad + \quad \ce{H2O}\)</span> </li>
+<li><span class="math inline">\(\qquad \ce{CaCO3} \quad \ce{-&gt;} \quad \ce{CaO} \quad + \quad \ce{CO2}\)</span> </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>combustion : <span class="math inline">\(\ce{2C2H6 + 7O2 -&gt; 4CO2 + 6H2O}\)</span></li>
+<li>combinaison : <span class="math inline">\(\ce{2Mg + O2 -&gt; 2MgO}\)</span></li>
+<li>précipitation : <span class="math inline">\(\ce{Pb(NO3)2 + 2KI -&gt; PbI2 v + 2KNO3}\)</span></li>
+<li>neutralisation : <span class="math inline">\(\ce{H2SO4 + 2KOH -&gt; K2SO4 + 2H2O}\)</span></li>
+<li>décomposition : <span class="math inline">\(\ce{CaCO3 -&gt; CaO + CO2}\)</span></li>
+</ol>
+</div>
+<div class="Exercise">
+<p>On mélange deux à deux des solutions aqueuses. À l’aide de la table des solubilités, indiquez si un précipité se forme. Si oui, donnez l’équation ionique réduite ; sinon, indiquez « pas de réaction ».</p>
+<ol type="1">
+<li><span class="math inline">\(\ce{BaCl2}\)</span> + <span class="math inline">\(\ce{Na2SO4}\)</span> </li>
+<li><span class="math inline">\(\ce{NaCl}\)</span> + <span class="math inline">\(\ce{KNO3}\)</span> </li>
+<li><span class="math inline">\(\ce{AgNO3}\)</span> + <span class="math inline">\(\ce{NaCl}\)</span> </li>
+<li><span class="math inline">\(\ce{Ca(NO3)2}\)</span> + <span class="math inline">\(\ce{Na2CO3}\)</span> </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>Précipité de <span class="math inline">\(\ce{BaSO4}\)</span> : <span class="math inline">\(\ce{Ba^{2+} + SO4^{2–} -&gt; BaSO4 v}\)</span></li>
+<li>Pas de réaction : tous les produits (<span class="math inline">\(\ce{NaNO3}\)</span>, <span class="math inline">\(\ce{KCl}\)</span>) sont solubles.</li>
+<li>Précipité de <span class="math inline">\(\ce{AgCl}\)</span> : <span class="math inline">\(\ce{Ag^{+} + Cl^{–} -&gt; AgCl v}\)</span></li>
+<li>Précipité de <span class="math inline">\(\ce{CaCO3}\)</span> : <span class="math inline">\(\ce{Ca^{2+} + CO3^{2–} -&gt; CaCO3 v}\)</span></li>
+</ol>
+</div>
+<div class="Exercise">
+<p>On dispose d’une solution d’acide sulfurique <span class="math inline">\(\ce{H2SO4}\)</span> et d’une solution d’hydroxyde de sodium <span class="math inline">\(\ce{NaOH}\)</span>.</p>
+<ol type="1">
+<li>Écrivez l’équation globale équilibrée de la neutralisation. </li>
+<li>Écrivez l’équation ionique réduite. </li>
+<li>On ajoute quelques gouttes de bleu de bromothymol (jaune en milieu acide, bleu en milieu basique) à l’acide, puis on y verse progressivement la solution de <span class="math inline">\(\ce{NaOH}\)</span>. Décrivez l’évolution de la couleur, en précisant le pH (<span class="math inline">\(&lt; 7\)</span>, <span class="math inline">\(= 7\)</span> ou <span class="math inline">\(&gt; 7\)</span>) à chaque étape. </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><span class="math inline">\(\ce{H2SO4 + 2NaOH -&gt; Na2SO4 + 2H2O}\)</span></li>
+<li><span class="math inline">\(\ce{H^{+} + OH^{–} -&gt; H2O}\)</span></li>
+<li>Au départ, l’acide est en excès : la solution est <strong>jaune</strong> (<span class="math inline">\(pH &lt; 7\)</span>). En ajoutant la base, on se rapproche de la neutralité ; lorsqu’on a versé autant d’ions <span class="math inline">\(\ce{OH^{–}}\)</span> que d’ions <span class="math inline">\(\ce{H}^{+}\)</span>, la solution est <strong>neutre</strong> (<span class="math inline">\(pH = 7\)</span>). En poursuivant l’ajout de <span class="math inline">\(\ce{NaOH}\)</span>, la base est en excès et la solution devient <strong>bleue</strong> (<span class="math inline">\(pH &gt; 7\)</span>).</li>
+</ol>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script src="html/vendor/jquery-3.7.1.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+
+    var exeContainerClass = 'Exercise-container';
+    var exeClass = 'Exercise';
+    var ansClass = 'Answer';
+
+    $('.' + exeContainerClass).each(function(i, el) {
+      let child = $(el).children('.' + exeClass);
+      child.replaceWith(child.html());
+      $(el).removeClass(exeContainerClass).addClass(exeClass);
+    });
+
+    var chapterNum = $('.quarto-page-breadcrumbs .chapter-number').first().text().trim();
+
+    $('.' + exeClass).each(function(i, el) {
+      var num = chapterNum + '.' + (i + 1);
+      var title = $('<div>Exercice ' + num + '</div>');
+      title.addClass('Label');
+      $(el).prepend(title);
+    });
+
+    $('.' + ansClass).each(function(i, el) {
+      $(el).click(function() {
+        $(el).slideToggle();
+      });
+      var button = $('<button>Solution</button>');
+      button.attr('type', 'button');
+      button.addClass('Answer-button');
+      button.click(function() {
+        $(el).slideToggle();
+      });
+      button.insertBefore(el);
+    });
+
+  });
+</script>
+<script type="text/javascript">
+  $(document).ready(function () {
+    $("main.content table, main.content .math.display").each(function (i, el) {
+      let parent = $("<div>").attr("style", "overflow-x:auto");
+      $(el).wrap(parent);
+    });
+  });
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copié");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copié");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./110-reactions-chimiques.html" class="pagination-link" aria-label="Réactions chimiques">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Réactions chimiques</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./130-stoechiometrie.html" class="pagination-link" aria-label="Calculs stœchiométriques">
+        <span class="nav-page-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Calculs stœchiométriques</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

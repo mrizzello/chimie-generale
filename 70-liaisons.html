@@ -1,0 +1,2200 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Support du cours de chimie générale | Maturité gymnasiale">
+
+<title>7&nbsp; Molécules et liaisons chimiques – Cours de chimie générale</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./80-molecules.html" rel="next">
+<link href="./60-tableau-periodique.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-05ad7de8ae34bb1016f06e23b5e9a5a9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Pas de résultats",
+    "search-matching-documents-text": "documents trouvés",
+    "search-copy-link-title": "Copier le lien vers la recherche",
+    "search-hide-matches-text": "Cacher les correspondances additionnelles",
+    "search-more-match-text": "correspondance de plus dans ce document",
+    "search-more-matches-text": "correspondances de plus dans ce document",
+    "search-clear-button-title": "Effacer",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Annuler",
+    "search-submit-button-title": "Envoyer",
+    "search-label": "Recherche"
+  }
+}</script>
+<script>
+window.MathJax = {
+  loader: { load: ['[tex]/mhchem', '[tex]/cancel'] },
+  tex: { packages: { '[+]': ['mhchem', 'cancel'] } }
+};
+</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="nav-sidebar docked quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./70-liaisons.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Molécules et liaisons chimiques</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Recherche" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Cours de chimie générale</a> 
+        <div class="sidebar-tools-main">
+    <a href="./chimie-generale.pdf" title="Télécharger le PDF" class="quarto-navigation-tool px-1" aria-label="Télécharger le PDF" target="_blank"><i class="bi bi-file-earmark-pdf"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Recherche"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Préambule</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./10-introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./20-etats-de-la-matiere.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Les états de la matière</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./30-melanges-corps-purs.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Mélanges et corps purs</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./40-historique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Historique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./50-atome.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">L’atome</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./60-tableau-periodique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Le tableau périodique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./70-liaisons.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Molécules et liaisons chimiques</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./80-molecules.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Géométrie moléculaire et polarité</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./90-nomenclature.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Nomenclature</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./100-solutions-electrolytes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Solutions et électrolytes</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./110-reactions-chimiques.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Réactions chimiques</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./120-types-reactions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Types de réactions</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./130-stoechiometrie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Calculs stœchiométriques</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./140-gaz-parfaits.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Les gaz parfaits</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./150-cinetique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Cinétique chimique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./160-equilibres.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">L’équilibre chimique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./170-acides-bases.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Les acides et les bases</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./180-ph-potentiel-hydrogene.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Le pH ou potentiel hydrogène</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./190-produit-solubilite.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Le produit de solubilité</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./200-oxydoreductions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Les réactions d’oxydoréduction</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./210-electrochimie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Électrochimie</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./220-thermochimie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Thermochimie</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./230-thermodynamique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Thermodynamique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./00-references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bibliographie</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table des matières</h2>
+   
+  <ul>
+  <li><a href="#les-molécules" id="toc-les-molécules" class="nav-link active" data-scroll-target="#les-molécules"><span class="header-section-number">7.1</span> Les molécules</a>
+  <ul class="collapse">
+  <li><a href="#la-formule-brute" id="toc-la-formule-brute" class="nav-link" data-scroll-target="#la-formule-brute"><span class="header-section-number">7.1.1</span> La formule brute</a></li>
+  </ul></li>
+  <li><a href="#la-masse-molaire-moléculaire" id="toc-la-masse-molaire-moléculaire" class="nav-link" data-scroll-target="#la-masse-molaire-moléculaire"><span class="header-section-number">7.2</span> La masse molaire moléculaire</a>
+  <ul class="collapse">
+  <li><a href="#la-formule-développée" id="toc-la-formule-développée" class="nav-link" data-scroll-target="#la-formule-développée"><span class="header-section-number">7.2.1</span> La formule développée</a></li>
+  </ul></li>
+  <li><a href="#les-liaisons-chimiques" id="toc-les-liaisons-chimiques" class="nav-link" data-scroll-target="#les-liaisons-chimiques"><span class="header-section-number">7.3</span> Les liaisons chimiques</a>
+  <ul class="collapse">
+  <li><a href="#lélectronégativité" id="toc-lélectronégativité" class="nav-link" data-scroll-target="#lélectronégativité"><span class="header-section-number">7.3.1</span> L’électronégativité</a></li>
+  <li><a href="#la-liaison-ionique-métal---non-métal" id="toc-la-liaison-ionique-métal---non-métal" class="nav-link" data-scroll-target="#la-liaison-ionique-métal---non-métal"><span class="header-section-number">7.3.2</span> La liaison ionique | métal - non-métal</a></li>
+  <li><a href="#la-liaison-covalente-non-métal---non-métal" id="toc-la-liaison-covalente-non-métal---non-métal" class="nav-link" data-scroll-target="#la-liaison-covalente-non-métal---non-métal"><span class="header-section-number">7.3.3</span> La liaison covalente | non-métal - non-métal</a></li>
+  <li><a href="#la-covalence-de-coordination" id="toc-la-covalence-de-coordination" class="nav-link" data-scroll-target="#la-covalence-de-coordination"><span class="header-section-number">7.3.4</span> La covalence de coordination</a></li>
+  <li><a href="#les-ions-polyatomiques" id="toc-les-ions-polyatomiques" class="nav-link" data-scroll-target="#les-ions-polyatomiques"><span class="header-section-number">7.3.5</span> Les ions polyatomiques</a></li>
+  <li><a href="#dessiner-les-composés-ternaires" id="toc-dessiner-les-composés-ternaires" class="nav-link" data-scroll-target="#dessiner-les-composés-ternaires"><span class="header-section-number">7.3.6</span> Dessiner les composés ternaires</a></li>
+  <li><a href="#la-liaison-métallique-métal---métal" id="toc-la-liaison-métallique-métal---métal" class="nav-link" data-scroll-target="#la-liaison-métallique-métal---métal"><span class="header-section-number">7.3.7</span> La liaison métallique | métal - métal</a></li>
+  <li><a href="#les-alliages" id="toc-les-alliages" class="nav-link" data-scroll-target="#les-alliages"><span class="header-section-number">7.3.8</span> Les alliages</a></li>
+  </ul></li>
+  <li><a href="#résumé" id="toc-résumé" class="nav-link" data-scroll-target="#résumé"><span class="header-section-number">7.4</span> Résumé</a></li>
+  <li><a href="#exercices-supplémentaires" id="toc-exercices-supplémentaires" class="nav-link" data-scroll-target="#exercices-supplémentaires"><span class="header-section-number">7.5</span> Exercices supplémentaires</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Molécules et liaisons chimiques</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="objectives">
+<ul>
+<li>Expliquer le concept de liaison chimique.</li>
+<li>Identifier les différents types de liaisons chimiques.</li>
+<li>Expliquer le concept d’électronégativité.</li>
+<li>Reconnaître les ions que contient une molécule dans sa formule brute.</li>
+<li>Dessiner la formule développée d’une molécule avec ses covalences et électrovalences.</li>
+<li>Calculer la masse molaire d’une molécule à partir des masses atomiques des atomes qui la composent.</li>
+<li>Calculer le nombre de moles/molécules que contient une masse donnée d’un composé.</li>
+</ul>
+</div>
+<p>En observant le monde autour de nous, on découvre qu’il est composé principalement de corps purs composés et de mélanges de corps purs composés: la roche, les sols, le pétrole, les arbres et le corps humain sont tous des mélanges complexes de composés chimiques liant différents types d’atomes ensemble. <strong>Seuls les gaz rares se trouvent dans la nature sous forme d’atomes isolés.</strong></p>
+<section id="les-molécules" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="les-molécules"><span class="header-section-number">7.1</span> Les molécules</h2>
+<p>De nombreuses substances existent sous la forme de deux ou plusieurs atomes reliés entre eux de manière si forte qu’ils se comportent comme une seule particule. Ces combinaisons de plusieurs atomes sont appelées molécules. De manière similaire à un atome, une molécule est la plus petite partie d’une substance qui possède les propriétés physiques et chimiques de cette substance. Cependant, une molécule est composée de plus d’un atome.</p>
+<div class="tcolorbox">
+<p><strong>Molécule</strong><br>
+Une molécule est un groupe d’au moins deux atomes liés par une/des liaison(s) chimique(s).</p>
+</div>
+<p>Les chimistes utilisent des formules chimiques pour exprimer la composition des espèces chimiques à l’aide de symboles.</p>
+<section id="la-formule-brute" class="level3" data-number="7.1.1">
+<h3 data-number="7.1.1" class="anchored" data-anchor-id="la-formule-brute"><span class="header-section-number">7.1.1</span> La formule brute</h3>
+<p>Les molécules sont composées d’atomes. On les représente par une formule, en indiquant les symboles des atomes qui les composent et leur nombre. Cette formule est appelée <strong>formule brute</strong>. La formule brute donne le nombre d’atomes des différents éléments qui forment un composé, exprimés avec les plus petits nombres entiers possibles.</p>
+<ul>
+<li><span class="math inline">\(NaCl\)</span> : 1 atome de sodium et 1 atome de chlore<br>
+</li>
+<li><span class="math inline">\(O_2\)</span> : 2 atomes d’oxygène<br>
+</li>
+<li><span class="math inline">\(H_2O\)</span> : 2 atomes d’hydrogène et 1 atome d’oxygène</li>
+</ul>
+<p>Lorsqu’un atome n’est présent qu’une seule fois dans la molécule, on n’indique pas l’indice 1. La formule brute de l’eau s’écrira donc H<sub>2</sub>O et non H<sub>2</sub>O<sub>1</sub>, et on écrira CO<sub>2</sub> et non C<sub>1</sub>O<sub>2</sub>.</p>
+</section>
+</section>
+<section id="la-masse-molaire-moléculaire" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="la-masse-molaire-moléculaire"><span class="header-section-number">7.2</span> La masse molaire moléculaire</h2>
+<div class="tcolorbox">
+<p><strong>Masse molaire moléculaire</strong><br>
+La masse molaire d’un composé est la masse en grammes d’une mole de molécules de ce composé.</p>
+</div>
+<p>Une molécule de <span class="math inline">\(CH_4\)</span> contient 1 atome de carbone et 4 atomes d’hydrogène.</p>
+<p>Donc, une mole de molécules de <span class="math inline">\(CH_4\)</span> contient 1 mole d’atomes de carbone et 4 moles d’atomes d’hydrogène.</p>
+<p>La masse d’une mole de méthane peut être trouvée en additionnant les masses molaires atomiques du carbone et de l’hydrogène présents dans la molécule:</p>
+<p><span class="math display">\[ \begin{split}
+  \text{Masse de 1 mol de carbone} &amp;= 12.01 \text{ g} \\
+  \text{Masse de 4 mol d'hydrogène} &amp;= 4.032 \text{ g} \quad (4 \cdot 1.008 \text{ g}) \\
+  \hline
+  \text{Masse de 1 mol de $CH_4$} &amp;= 16.04 \text{ g}
+  \end{split} \]</span></p>
+<div class="Exercise">
+<p>On donne les masses molaires atomiques : H = 1.008, C = 12.011, O = 15.999 g/mol.</p>
+<ol type="1">
+<li>Calculez la masse molaire du dioxyde de carbone <span class="math inline">\(CO_2\)</span>. </li>
+<li>Calculez la masse molaire de l’eau <span class="math inline">\(H_2O\)</span>. </li>
+<li>Combien de moles de <span class="math inline">\(CO_2\)</span> y a-t-il dans 22.0 g de dioxyde de carbone ? </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><span class="math display">\[
+M(CO_2) = 12.011 + 2 \cdot 15.999 = 44.01 \text{ g/mol}
+\]</span></li>
+<li><span class="math display">\[
+M(H_2O) = 2 \cdot 1.008 + 15.999 = 18.02 \text{ g/mol}
+\]</span></li>
+<li><span class="math display">\[
+n = \frac{m}{M} = \frac{22.0}{44.01} = 0.500 \text{ mol}
+\]</span></li>
+</ol>
+</div>
+<section id="la-formule-développée" class="level3" data-number="7.2.1">
+<h3 data-number="7.2.1" class="anchored" data-anchor-id="la-formule-développée"><span class="header-section-number">7.2.1</span> La formule développée</h3>
+<p>La formule brute ne permet pas d’indiquer comment les atomes sont reliés entre eux par des liaisons chimiques ou comment ils sont disposés dans l’espace. Comprendre comment les atomes d’une molécule sont disposés et comment ils sont liés entre eux permet d’expliquer les caractéristiques physiques et chimique d’un composé.</p>
+<p><strong>La formule développée</strong> identifie l’emplacement des atomes ainsi que leurs liaisons au sein d’une molécule. On utilise la représentation de Lewis pour dessiner les atomes des différents éléments qui sont reliés par des lignes qui représentent les liaisons chimiques.</p>
+<div id="fig-methanol-formulas" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-methanol-formulas-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/methanol-formulas.png" class="img-fluid figure-img" style="width:100.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-methanol-formulas-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;7.1: La molécule de méthanol.
+</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="les-liaisons-chimiques" class="level2" data-number="7.3">
+<h2 data-number="7.3" class="anchored" data-anchor-id="les-liaisons-chimiques"><span class="header-section-number">7.3</span> Les liaisons chimiques</h2>
+<p>Pourquoi les atomes se lient entre eux ? Deux atomes liés ensemble forment un système physique dont l’énergie potentielle est plus basse que celle de deux atomes non liés. La nature cherche à minimiser l’énergie d’un système, les atomes ont donc tendance à former des liaisons. <strong>Les atomes se trouvent dans un état plus stables quand ils participent à une liaison que quand ils sont isolés.</strong></p>
+<p><strong>Les forces</strong> qui maintiennent les atomes ensemble dans une molécule sont appelées <strong>liaisons chimiques</strong> (ou liaisons intramoléculaires).</p>
+<p>On divise les liaisons chimiques en trois familles différentes:</p>
+<ul>
+<li>la <strong>liaison ionique</strong></li>
+<li>la <strong>liaison covalente</strong></li>
+<li>la <strong>liaison métallique</strong></li>
+</ul>
+<div class="Exercise">
+<p>Répondez aux questions suivantes sur les liaisons chimiques.</p>
+<ol type="1">
+<li>Pourquoi les atomes ont-ils tendance à former des liaisons ? Que devient l’énergie du système ? </li>
+<li>Comment appelle-t-on les forces qui maintiennent les atomes ensemble dans une molécule ? </li>
+<li>Citez les trois grandes familles de liaisons chimiques. </li>
+<li>Quels sont les seuls éléments que l’on trouve dans la nature sous forme d’atomes isolés ? Pourquoi ? </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>Deux atomes liés ont une énergie potentielle plus basse que deux atomes isolés. La nature tend à minimiser l’énergie : les atomes forment donc des liaisons pour être plus stables. L’énergie du système <strong>diminue</strong>.</li>
+<li>Les <strong>liaisons chimiques</strong> (ou liaisons intramoléculaires).</li>
+<li>La liaison <strong>ionique</strong>, la liaison <strong>covalente</strong> et la liaison <strong>métallique</strong>.</li>
+<li>Les <strong>gaz rares</strong> (groupe VIII) : leur couche de valence est déjà complète (octet), ils sont donc stables et n’ont pas besoin de former de liaisons.</li>
+</ol>
+</div>
+<section id="lélectronégativité" class="level3" data-number="7.3.1">
+<h3 data-number="7.3.1" class="anchored" data-anchor-id="lélectronégativité"><span class="header-section-number">7.3.1</span> L’électronégativité</h3>
+<div class="tcolorbox">
+<p><strong>Électronégativité</strong><br>
+L’électronégativité est la capacité d’un atome à attirer les électrons de liaison.</p>
+</div>
+<p>Plus l’électronégativité d’un élément est élevée, plus il aura tendance à attirer à lui les électrons dans une liaison. <strong>L’électronégativité de chaque élément est indiquée dans votre tableau périodique des éléments.</strong></p>
+<p>Les liaisons sont rarement purement ioniques ou purement covalentes, dans la plupart des substances les liaisons formées se situent quelque part entre la liaison ionique et la liaison covalente.</p>
+<p>En se basant sur la différence d’électronégativité (<span class="math inline">\(\Delta\)</span>E) entre deux atomes on peut connaître le type de liaison que vont former ces deux atomes.</p>
+<div id="fig-deltaE" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-deltaE-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/deltaE.png" class="img-fluid figure-img" style="width:85.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-deltaE-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;7.2: Intervalles de <span class="math inline">\(\Delta\)</span>E pour déterminer le type de liaison
+</figcaption>
+</figure>
+</div>
+<p><strong>L’électronégativité de chaque élément est indiquée dans votre tableau périodique des éléments.</strong></p>
+<div class="Exercise">
+<p>On donne les électronégativités (tableau périodique) : Na = 0.9, H = 2.2, Cl = 3.1, O = 3.4.</p>
+<ol type="1">
+<li>Qu’est-ce que l’électronégativité d’un atome ? </li>
+<li>Pour la liaison O–H, calculez la différence d’électronégativité <span class="math inline">\(\Delta E\)</span> et déduisez le type de liaison. Quel atome attire le plus les électrons ? </li>
+<li>Pour la liaison Na–Cl, calculez <span class="math inline">\(\Delta E\)</span> et déduisez le type de liaison. </li>
+<li>Pour la liaison Cl–Cl, que vaut <span class="math inline">\(\Delta E\)</span> ? Quel est le type de liaison ? </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>L’électronégativité est la capacité d’un atome à attirer à lui les électrons d’une liaison.</li>
+<li><span class="math inline">\(\Delta E = 3.4 - 2.2 = 1.2\)</span> : <strong>covalence polaire</strong>. C’est l’oxygène (le plus électronégatif) qui attire le plus les électrons.</li>
+<li><span class="math inline">\(\Delta E = 3.1 - 0.9 = 2.2\)</span> : <strong>liaison ionique</strong> (électrovalence).</li>
+<li><span class="math inline">\(\Delta E = 3.1 - 3.1 = 0\)</span> : <strong>covalence pure</strong> (les deux atomes attirent les électrons de manière identique).</li>
+</ol>
+</div>
+</section>
+<section id="la-liaison-ionique-métal---non-métal" class="level3" data-number="7.3.2">
+<h3 data-number="7.3.2" class="anchored" data-anchor-id="la-liaison-ionique-métal---non-métal"><span class="header-section-number">7.3.2</span> La liaison ionique | métal - non-métal</h3>
+<div class="tcolorbox">
+<p><strong>Liaison ionique</strong><br>
+Une liaison ionique résulte du <strong>transfert</strong> d’un ou plusieurs électrons d’un atome à un autre.</p>
+</div>
+<p>La liaison ionique est le résultat du transfert d’un ou plusieurs électrons depuis un métal vers un non-métal afin de satisfaire <strong>la règle de l’octet</strong>. Essayons de former une molécule avec du sodium et du chlore.</p>
+<ul>
+<li>Le sodium a tendance à perdre un électron de valence pour former le cation <span class="math inline">\(Na^{+}\)</span></li>
+<li>Le chlore a tendance à gagner un électron de valence pour former l’anion <span class="math inline">\(Cl^{-}\)</span></li>
+</ul>
+<p>Le sodium et le chlore ont tous les deux un intérêt à former une liaison. L’atome de sodium va perdre un électron qui sera récupéré par l’atome de chlore. Ils compléteront tous les deux leur couche de valence avec huit électrons.</p>
+<div id="fig-NaCl-diagram" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-NaCl-diagram-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/NaCl-diagram.png" class="img-fluid figure-img" style="width:60.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-NaCl-diagram-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;7.3: Liaison ionique entre chlore et sodium
+</figcaption>
+</figure>
+</div>
+<p>Deux atomes de sodium réagiront de la même manière avec deux atomes de chlore formant deux molécules de chlorure de sodium. Trois atomes de sodium réagiront avec trois atomes de chlore formant trois molécules de chlorure de sodium, et ainsi de suite… Si l’on fait réagir une mole d’atomes de sodium avec une mole d’atomes de chlore, nous obtiendront une mole de molécules de chlorure de sodium.</p>
+<p>Un échantillon de chlorure de sodium (<span class="math inline">\(NaCl\)</span>) est constitué d’un très grand nombre de cations <span class="math inline">\(Na^+\)</span> et d’anions <span class="math inline">\(Cl^-\)</span>. Ces ions forment un réseau tridimensionnel, appelé <strong>réseau ionique</strong>. L’ensemble est <strong>électriquement neutre</strong> car le nombre de cations <span class="math inline">\(Na^+\)</span> est égal au nombre d’anions <span class="math inline">\(Cl^-\)</span>. Pour un cation <span class="math inline">\(Na^+\)</span>, on aura un anion <span class="math inline">\(Cl^-\)</span>, on écrira donc la <strong>formule brute</strong> <span class="math inline">\(NaCl\)</span>.</p>
+<div id="fig-CaF2-diagram" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-CaF2-diagram-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/CaF2-diagram.png" class="img-fluid figure-img" style="width:60.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-CaF2-diagram-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;7.4: Liaison ionique entre calcium et fluor
+</figcaption>
+</figure>
+</div>
+<p>Le nombre relatif de cations et d’anions n’est pas toujours le même. Prenons par exemple le fluorure de calcium, <span class="math inline">\(CaF_2\)</span>. Il y a deux fois plus d’anions <span class="math inline">\(F^-\)</span> que de cations <span class="math inline">\(Ca^{2+}\)</span>, on écrira donc la formule brute <span class="math inline">\(CaF_2\)</span>.</p>
+<div id="fig-NaClCaF2" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-NaClCaF2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-NaClCaF2" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-NaCl" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-NaCl-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/NaCl-crystal.png" id="fig-NaCl" class="img-fluid figure-img" style="width:50.0%" data-ref-parent="fig-NaClCaF2">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-NaCl-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(a)
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-NaClCaF2" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-CaF2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-CaF2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/CaF2-crystal.png" id="fig-CaF2" class="img-fluid figure-img" style="width:50.0%" data-ref-parent="fig-NaClCaF2">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-CaF2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(b)
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-NaClCaF2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;7.5: Réseaux ioniques formés par <span class="math inline">\(NaCl\)</span> et <span class="math inline">\(CaF_2\)</span>.
+</figcaption>
+</figure>
+</div>
+<div class="Exercise-container">
+<div class="Exercise">
+<p>Pour chacun des couples suivants, indiquez le cation, l’anion et donnez la formule brute du composé formé.</p>
+</div>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">&nbsp;</th>
+<th style="text-align: left;">&nbsp;</th>
+<th style="text-align: left;">&nbsp;</th>
+<th style="text-align: center;">cation</th>
+<th style="text-align: center;">anion</th>
+<th style="text-align: center;">formule brute</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">a</td>
+<td style="text-align: left;">Lithium</td>
+<td style="text-align: left;">Fluor</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">b</td>
+<td style="text-align: left;">Strontium</td>
+<td style="text-align: left;">Iode</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">c</td>
+<td style="text-align: left;">Bore</td>
+<td style="text-align: left;">Fluor</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">d</td>
+<td style="text-align: left;">Magnésium</td>
+<td style="text-align: left;">Oxygène</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">e</td>
+<td style="text-align: left;">Lithium</td>
+<td style="text-align: left;">Azote</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">f</td>
+<td style="text-align: left;">Aluminium</td>
+<td style="text-align: left;">Oxygène</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="Answer">
+<ol type="a">
+<li><p><span class="math inline">\(Li^+\)</span> / <span class="math inline">\(F^-\)</span> / <span class="math inline">\(LiF\)</span></p></li>
+<li><p><span class="math inline">\(Sr^{2+}\)</span> / <span class="math inline">\(I^{-}\)</span> / <span class="math inline">\(SrI_2\)</span></p></li>
+<li><p><span class="math inline">\(B^{3+}\)</span> / <span class="math inline">\(F^-\)</span> / <span class="math inline">\(BF_3\)</span></p></li>
+<li><p><span class="math inline">\(Mg^{2+}\)</span> / <span class="math inline">\(O^{2-}\)</span> / <span class="math inline">\(MgO\)</span></p></li>
+<li><p><span class="math inline">\(Li^+\)</span> / <span class="math inline">\(N^{3-}\)</span> / <span class="math inline">\(Li_3N\)</span></p></li>
+<li><p><span class="math inline">\(Al^{3+}\)</span> / <span class="math inline">\(O^{2-}\)</span> / <span class="math inline">\(Al_2O_3\)</span></p></li>
+</ol>
+</div>
+<section id="dessiner-les-liaisons-ioniques-des-composés-binaires" class="level4" data-number="7.3.2.1">
+<h4 data-number="7.3.2.1" class="anchored" data-anchor-id="dessiner-les-liaisons-ioniques-des-composés-binaires"><span class="header-section-number">7.3.2.1</span> Dessiner les liaisons ioniques des composés binaires</h4>
+<ul>
+<li>On dessine la structure de Lewis des atomes en plaçant l’élément le plus électronégatif à droite.</li>
+<li>On dessine autant de cations et d’anions nécessaires à apparier tous les électrons célibataires de chaque élément.</li>
+<li>On transfère les électrons des cations aux anions.</li>
+<li>On dessine les paires nouvellement créées et on ajoute les charges négatives ou positives.</li>
+</ul>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;"><span class="math inline">\(NaCl\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(MgBr_2\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(AlF_3\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><img src="images/dessin-ioniques-NaCl.png" class="img-fluid" style="width:9em"></td>
+<td style="text-align: center;"><img src="images/dessin-ioniques-MgBr2.png" class="img-fluid" style="width:9em"></td>
+<td style="text-align: center;"><img src="images/dessin-ioniques-AlF3.png" class="img-fluid" style="width:9em"></td>
+</tr>
+</tbody>
+</table>
+<div class="Exercise-container">
+<div class="Exercise">
+<p>Remplissez le tableau suivant avec les molécules formées par les ions proposés.</p>
+</div>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">anion/cation</th>
+<th style="text-align: center;"><span class="math inline">\(Na^+\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(Ca^{2+}\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(Al^{3+}\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><span class="math inline">\(Cl^{-}\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(NaCl\)</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><span class="math inline">\(O^{2-}\)</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><span class="math inline">\(P^{3-}\)</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="Answer">
+<p><span class="math inline">\(NaCl\)</span> / <span class="math inline">\(CaCl_2\)</span> / <span class="math inline">\(AlCl_3\)</span></p>
+<p><span class="math inline">\(Na_2O\)</span> / <span class="math inline">\(CaO\)</span> / <span class="math inline">\(Al_2O_3\)</span></p>
+<p><span class="math inline">\(Na_3P\)</span> / <span class="math inline">\(Ca_3P_2\)</span> / <span class="math inline">\(AlP\)</span></p>
+</div>
+</section>
+</section>
+<section id="la-liaison-covalente-non-métal---non-métal" class="level3" data-number="7.3.3">
+<h3 data-number="7.3.3" class="anchored" data-anchor-id="la-liaison-covalente-non-métal---non-métal"><span class="header-section-number">7.3.3</span> La liaison covalente | non-métal - non-métal</h3>
+<div class="tcolorbox">
+<p><strong>Liaison covalente</strong><br>
+Une liaison covalente résulte du <strong>partage</strong> d’une ou plusieurs paires d’électrons entre deux atomes.</p>
+</div>
+<p>Considérons deux atomes d’hydrogène qui s’approchent l’un de l’autre. Tous les deux ont un seul électron, et chacun a besoin d’un électron supplémentaire pour avoir la même configuration électronique que l’hélium.</p>
+<p>Dans cette situation, les électrons de liaison sont <strong>partagés</strong>. C’est une <strong>liaison covalente</strong> qui maintient les atomes ensemble.</p>
+<div id="fig-H2-bond" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-H2-bond-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/H2-bond.png" class="img-fluid figure-img" style="width:50.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-H2-bond-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;7.6: Formation de <span class="math inline">\(H_2\)</span>
+</figcaption>
+</figure>
+</div>
+<ul>
+<li>Au point 1, les atomes sont éloignés. La distance est trop grande pour que les forces d’attraction et de répulsion puissent agir.</li>
+<li>Au point 2, la distance entre les atomes est suffisante pour que chaque noyau commence à attirer l’électron de l’autre atome. Ces attractions augmentent quand la distance diminue et abaissent l’énergie du système.</li>
+<li>Au point 3 (minimum d’énergie potentielle), l’attraction maximum est atteinte par rapport à la répulsion et le système atteint son minimum d’énergie.</li>
+<li>Au point 4, s’il était atteint, les atomes seraient trop proches et les répulsions pousseraient les noyaux vers le point 3.</li>
+</ul>
+<p><strong>Une liaison covalente résulte de l’équilibre entre l’attraction de particules de charges opposées et la répulsion de particules de même charge.</strong></p>
+<p><span class="math display">\[ H \cdot \quad + \quad \cdot H \quad \longrightarrow \quad H-H \]</span></p>
+<p>La formation d’une liaison covalente se traduit par une plus grande densité électronique entre les deux noyaux. Les deux atomes d’hydrogène remplissent leur couche de valence avec les électrons qu’ils se prêtent mutuellement.</p>
+<p>Dans de nombreuses molécules, pour atteindre un octet complet, les atomes vont partager plus d’une paire d’électrons célibataires. Une liaison covalente peut être <strong>simple</strong>, <strong>double</strong> ou <strong>triple</strong>, selon le nombre de paires d’électrons partagés.</p>
+<div id="fig-liaisons-multiples" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-liaisons-multiples-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/liaisons-multiples.png" class="img-fluid figure-img" style="width:67.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-liaisons-multiples-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;7.7: Exemples de liaisons covalentes simples, doubles et triples
+</figcaption>
+</figure>
+</div>
+<section id="dessiner-les-liaisons-covalentes-des-composés-binaires" class="level4" data-number="7.3.3.1">
+<h4 data-number="7.3.3.1" class="anchored" data-anchor-id="dessiner-les-liaisons-covalentes-des-composés-binaires"><span class="header-section-number">7.3.3.1</span> Dessiner les liaisons covalentes des composés binaires</h4>
+<ul>
+<li>On dessine la structure de Lewis des atomes en plaçant l’élément le plus électronégatif à droite.</li>
+<li>On dessine autant d’atomes nécessaires à apparier tous les électrons célibataires de chaque élément.</li>
+<li>On dessine les liaisons nouvellement créées et on ajoute les charges partielles s’il y a lieu.</li>
+<li>Plusieurs liaisons covalentes doubles ou triples peuvent être nécessaires.</li>
+<li>On peut utiliser les paires libres pour former des liaisons par covalence de coordination.</li>
+<li>On dessine les liaisons nouvellement créées et on ajoute les charges partielles s’il y a lieu.</li>
+</ul>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;"><span class="math inline">\(H_2O\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(NH_3\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(CH_4\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><img src="images/dessin-covalentes-H2O.png" class="img-fluid" style="width:9em"></td>
+<td style="text-align: center;"><img src="images/dessin-covalentes-NH3.png" class="img-fluid" style="width:9em"></td>
+<td style="text-align: center;"><img src="images/dessin-covalentes-CH4.png" class="img-fluid" style="width:9em"></td>
+</tr>
+</tbody>
+</table>
+<div class="Exercise">
+<p>Pour chaque proposition ci-dessous :</p>
+<ul>
+<li>Complétez le schéma avec la structure de Lewis des atomes et les liaisons formées.</li>
+<li>Donnez la formule brute de chaque composé.</li>
+</ul>
+<div class="multicols">
+<ol type="1">
+<li><p>&nbsp;&nbsp;&nbsp; <span class="math inline">\(Br \quad Br\)</span></p></li>
+<li><p>&nbsp;&nbsp;&nbsp; <span class="math inline">\(O \quad C \quad O\)</span></p></li>
+<li><p>&nbsp;&nbsp;&nbsp; <span class="math inline">\(N \quad N\)</span></p></li>
+</ol>
+</div>
+<div class="multicols">
+<ol start="4" type="1">
+<li><p>&nbsp;&nbsp;&nbsp; <span class="math inline">\(H \quad Cl\)</span></p></li>
+<li><p>&nbsp;&nbsp;&nbsp; <span class="math inline">\(H \quad C \quad N\)</span></p></li>
+<li><p>&nbsp;&nbsp;&nbsp; <span class="math inline">\(H \quad O \quad Cl\)</span></p></li>
+</ol>
+</div>
+</div>
+<div class="Answer">
+<div class="multicols">
+<p><img src="images/mol2D/Br2.jpg" style="height:3em"> <span class="math inline">\(Br_2\)</span></p>
+<p><img src="images/mol2D/CO2.jpg" style="height:3em"> <span class="math inline">\(CO_2\)</span></p>
+<p><img src="images/mol2D/N2.jpg" style="height:3em"> <span class="math inline">\(N_2\)</span></p>
+</div>
+<div class="multicols">
+<p><img src="images/mol2D/HCl.jpg" style="height:3em"> <span class="math inline">\(HCl\)</span></p>
+<p><img src="images/mol2D/HCN.jpg" style="height:3em"> <span class="math inline">\(HCN\)</span></p>
+<p><img src="images/mol2D/HClO.jpg" style="height:3em"> <span class="math inline">\(HClO\)</span></p>
+</div>
+</div>
+</section>
+</section>
+<section id="la-covalence-de-coordination" class="level3" data-number="7.3.4">
+<h3 data-number="7.3.4" class="anchored" data-anchor-id="la-covalence-de-coordination"><span class="header-section-number">7.3.4</span> La covalence de coordination</h3>
+<div class="tcolorbox">
+<p><strong>Covalence de coordination</strong></p>
+<p>Une covalence de coordination est une liaison covalente où deux électrons partagés proviennent du même atome.</p>
+</div>
+<p>La <strong>covalence de coordination</strong> est un cas particulier de la liaison covalente. Dans le cas de la liaison covalente simple, chaque atome fournit un électron. Dans le cas, de la covalence de coordination, un des deux atomes fournit les deux électrons.</p>
+<p><span class="math display">\[ \underset{\text{covalence normale}}{A \cdot \quad + \quad \cdot B \quad \longrightarrow \quad A - B} \]</span></p>
+<p><span class="math display">\[ \underset{\text{covalence de coordination}}{A | \quad + \quad B \quad \longrightarrow \quad A \rightarrow | B} \]</span></p>
+<p>Par exemple, l’acide hypochloreux est constitué de liaisons covalentes normales. Les trois autres acides utilisent les doublets de l’atome de chlore pour former des covalences de coordinations.</p>
+<div id="fig-covalences-coordination" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-covalences-coordination-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/covalences-coordination.png" class="img-fluid figure-img" style="width:85.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-covalences-coordination-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;7.8: Exemples de covalences de coordination.
+</figcaption>
+</figure>
+</div>
+<p>On dessinera les covalence de coordination en déplaçant le doublet sur l’atome qui le reçoit et en remplaçant le trait de liaison par une flèche.</p>
+</section>
+<section id="les-ions-polyatomiques" class="level3" data-number="7.3.5">
+<h3 data-number="7.3.5" class="anchored" data-anchor-id="les-ions-polyatomiques"><span class="header-section-number">7.3.5</span> Les ions polyatomiques</h3>
+<p>Les ions <span class="math inline">\(Na^+\)</span>, <span class="math inline">\(Mg^{2+}\)</span> ou <span class="math inline">\(Cl^–\)</span> sont <strong>monoatomique</strong>, ce qui signifie qu’ils sont constitué d’un seul atome ionisé. Il existe des ions <strong>polyatomiques</strong>, tels que <span class="math inline">\(NH_4^+\)</span> ou <span class="math inline">\(SO_4^{2–}\)</span>. Ils se composent d’atomes liés par des covalences mais ils portent une charge positive ou négative.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 24%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">ion hydroxyle</th>
+<th style="text-align: center;">ion nitrite</th>
+<th style="text-align: center;">ion carbonate</th>
+<th style="text-align: center;">ion ammonium</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><span class="math inline">\(OH^–\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(NO_2^–\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(CO_3^{2–}\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(NH_4^+\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><img src="images/mol2D/OH-.png" class="img-fluid" style="width:6em"></td>
+<td style="text-align: center;"><img src="images/mol2D/NO2-.png" class="img-fluid" style="width:6em"></td>
+<td style="text-align: center;"><img src="images/mol2D/CO32-.png" class="img-fluid" style="width:6em"></td>
+<td style="text-align: center;"><img src="images/mol2D/NH4+.png" class="img-fluid" style="width:5em"></td>
+</tr>
+</tbody>
+</table>
+<p>Quand un ion polyatomique est présent plusieurs fois dans une molécule, on l’indique dans la formule brute par des parenthèses et un indice comme dans les exemples : <span class="math inline">\(Ca(OH)_2\)</span>, <span class="math inline">\(Ba(NO_3)_2\)</span>, <span class="math inline">\(Ca(HCO_3)_2\)</span>.</p>
+<div class="Exercise-container">
+<div class="Exercise">
+<p>Complétez le tableau en indiquant quel cation et quel anion forment les molécules ci-dessous ainsi que leur nombre:</p>
+</div>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">formule</th>
+<th style="text-align: center;">cation</th>
+<th style="text-align: center;">anion</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><span class="math inline">\(NaNO_2\)</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span class="math inline">\(H_2SO_4\)</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span class="math inline">\(CaS_2O_3\)</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span class="math inline">\(Li_2CO_3\)</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span class="math inline">\(Mg_3(PO_4)_2\)</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="Answer">
+<p><span class="math inline">\(NaNO_2\)</span> / 1 <span class="math inline">\(Na^+\)</span> / 1 <span class="math inline">\(NO_2^-\)</span></p>
+<p><span class="math inline">\(H_2SO_4\)</span> / 2 <span class="math inline">\(H^+\)</span> / <span class="math inline">\(SO_4^{2-}\)</span></p>
+<p><span class="math inline">\(CaS_2O_3\)</span> / <span class="math inline">\(Ca^{2+}\)</span> / <span class="math inline">\(S_2O_3^{2-}\)</span></p>
+<p><span class="math inline">\(Li_2CO_3\)</span> / 2 <span class="math inline">\(Li^+\)</span> / <span class="math inline">\(CO_3^{2-}\)</span></p>
+<p><span class="math inline">\(Mg_3(PO_4)_2\)</span> / 3 <span class="math inline">\(Mg^{2+}\)</span> &amp; 2 <span class="math inline">\(PO_4^{3-}\)</span></p>
+</div>
+<div class="Jeu">
+<p><strong>Jeu en ligne</strong> — Entraînez-vous à trouver la charge des ions sur <a href="https://isotope.ch/charges">isotope.ch/charges</a>.</p>
+</div>
+</section>
+<section id="dessiner-les-composés-ternaires" class="level3" data-number="7.3.6">
+<h3 data-number="7.3.6" class="anchored" data-anchor-id="dessiner-les-composés-ternaires"><span class="header-section-number">7.3.6</span> Dessiner les composés ternaires</h3>
+<ul>
+<li>De gauche à droite, dessiner le modèle de Lewis de chacun des éléments présents dans la molécule.
+<ul>
+<li>Dessiner d’abord les éléments de la colonne I, II ou III.</li>
+<li>Dessiner ensuite autant d’oxygène qu’il y a d’électrons libres dans la première colonne.</li>
+<li>Dessiner ensuite les éléments autre que l’oxygène.</li>
+<li>Dessiner ensuite les oxygènes restants.</li>
+</ul></li>
+<li>Dessiner les covalences ou électrovalences selon les différences d’électronégativité.</li>
+</ul>
+<div class="Exercise">
+<p>Dessinez la formule développée à l’aide du schéma fourni pour les composés <span class="math inline">\(KNO_2\)</span> et <span class="math inline">\(CaCO_3\)</span></p>
+<div class="multicols">
+<p><img src="images/molecules-formule-developpee.png" class="img-fluid"></p>
+<p><img src="images/molecules-formule-developpee.png" class="img-fluid"></p>
+</div>
+</div>
+</section>
+<section id="la-liaison-métallique-métal---métal" class="level3" data-number="7.3.7">
+<h3 data-number="7.3.7" class="anchored" data-anchor-id="la-liaison-métallique-métal---métal"><span class="header-section-number">7.3.7</span> La liaison métallique | métal - métal</h3>
+<div class="tcolorbox">
+<p><strong>Liaison métallique</strong><br>
+Liaison chimique dans laquelle les électrons mobiles sont partagés entre plusieurs noyaux.</p>
+</div>
+<div id="fig-metallic-bonding" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-metallic-bonding-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/metallic-bonding.png" class="img-fluid figure-img" style="width:40.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-metallic-bonding-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;7.9: Modèle de la liaison métallique
+</figcaption>
+</figure>
+</div>
+<p>Les métaux ne réagissent pas vraiment avec d’autres métaux pour former des composés. Les métaux se combinent pour former des <strong>alliages</strong>, c’est-à-dire un <strong>mélange homogène</strong> d’un métal dans un autre.</p>
+<p>Le modèle de la <strong>liaison métallique</strong> propose que tous les atomes du métal partagent leurs électrons de valence pour former un “océan” d’électrons. Les électrons externes sont libres de se déplacer dans tout l’échantillon. Les noyaux sont positionnés dans cet océan de manière ordonnée à des endroits précis. La forme de l’échantillon est maintenue par l’attraction électrostatique entre les cations métalliques (charge positive) et les électrons de valence mobiles (charge négative).</p>
+<p>La capacité qu’ont les électrons de valence de se déplacer dans tout l’échantillon donne au métal ses propriétés physiques.</p>
+<ul>
+<li>Les solides métalliques sont de bons <strong>conducteurs de l’électricité et de la chaleur</strong>.</li>
+<li>Ils sont <strong>malléables</strong> (Ils peuvent être martelé en feuilles très minces).</li>
+<li>Ils sont <strong>ductiles</strong> (Ils peuvent être étirés en fils très fins).</li>
+</ul>
+</section>
+<section id="les-alliages" class="level3" data-number="7.3.8">
+<h3 data-number="7.3.8" class="anchored" data-anchor-id="les-alliages"><span class="header-section-number">7.3.8</span> Les alliages</h3>
+<p>Un alliage est un mélange homogène entre un métal de base et un ou plusieurs autres éléments, qui peuvent être des métaux ou non-métaux. L’alliage de métaux est l’un des principaux moyens de modifier les propriétés des éléments métalliques purs. Par exemple, l’or pur est trop mou pour être utilisé en orfèvrerie, mais les alliages d’or sont plus adaptés.</p>
+<div id="tbl-exemples-alliages-communs" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-exemples-alliages-communs-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;7.1: Exemples d’alliages communs.
+</figcaption>
+<div aria-describedby="tbl-exemples-alliages-communs-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 67%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">métal</th>
+<th style="text-align: left;">composition</th>
+<th style="text-align: left;">alliages</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">fer</td>
+<td style="text-align: left;">fer + carbone (moins de 2% en masse de carbone)</td>
+<td style="text-align: left;">fonte</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"></td>
+<td style="text-align: left;">fer + carbone (2% à 7% en masse de carbone)</td>
+<td style="text-align: left;">acier</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"></td>
+<td style="text-align: left;">fer + carbone + nickel + chrome</td>
+<td style="text-align: left;">acier inoxydable</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">cuivre</td>
+<td style="text-align: left;">cuivre + étain</td>
+<td style="text-align: left;">bronze</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"></td>
+<td style="text-align: left;">cuivre + zinc</td>
+<td style="text-align: left;">laiton</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">or</td>
+<td style="text-align: left;">or + argent + cuivre</td>
+<td style="text-align: left;">or jaune</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"></td>
+<td style="text-align: left;">or + nickel + recouvert d’une fine couche de rhodium</td>
+<td style="text-align: left;">or blanc</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+</section>
+<section id="résumé" class="level2" data-number="7.4">
+<h2 data-number="7.4" class="anchored" data-anchor-id="résumé"><span class="header-section-number">7.4</span> Résumé</h2>
+<ul>
+<li>Une liaison chimique est la force qui maintient les atomes ensemble dans une molécule ; les atomes se lient car l’énergie du système lié est plus basse que celle des atomes isolés. Seuls les gaz rares restent isolés.</li>
+<li>On distingue trois familles de liaisons : ionique, covalente et métallique.</li>
+<li>L’électronégativité mesure la capacité d’un atome à attirer les électrons de liaison. La différence d’électronégativité <span class="math inline">\(\Delta E\)</span> entre deux atomes détermine le type de liaison.</li>
+<li>La formule brute indique le nombre d’atomes de chaque élément ; dans un composé ionique, elle traduit la neutralité électrique. Un ion polyatomique est un groupe d’atomes liés portant une charge globale.</li>
+<li>La formule développée montre comment les atomes sont liés — liaisons simples, doubles, triples ou covalence de coordination — en respectant la règle de l’octet.</li>
+<li>La masse molaire moléculaire (g/mol) est la somme des masses molaires atomiques de tous les atomes de la formule.</li>
+<li>On relie la masse et la quantité de matière par <span class="math inline">\(n = \dfrac{m}{M}\)</span>, et le nombre de molécules (ou de motifs) par <span class="math inline">\(N = n \cdot N_A\)</span>.</li>
+</ul>
+</section>
+<section id="exercices-supplémentaires" class="level2" data-number="7.5">
+<h2 data-number="7.5" class="anchored" data-anchor-id="exercices-supplémentaires"><span class="header-section-number">7.5</span> Exercices supplémentaires</h2>
+<div class="Exercise-container">
+<div class="Exercise">
+<p>Pour chacun des composés suivants, indiquez l’électronégativité de chaque atome (<span class="math inline">\(E_1\)</span>, <span class="math inline">\(E_2\)</span>), la différence d’électronégativité (<span class="math inline">\(\Delta E\)</span>) et le type de liaison formée.</p>
+</div>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;"></th>
+<th style="text-align: left;">composé</th>
+<th style="text-align: center;"><span class="math inline">\(E_1\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(E_2\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(\Delta E\)</span></th>
+<th style="text-align: center;">type de liaison</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">a</td>
+<td style="text-align: left;"><span class="math inline">\(CaCl_2\)</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">b</td>
+<td style="text-align: left;"><span class="math inline">\(H_2O\)</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">c</td>
+<td style="text-align: left;"><span class="math inline">\(LiBr\)</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">d</td>
+<td style="text-align: left;"><span class="math inline">\(N_2\)</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">e</td>
+<td style="text-align: left;"><span class="math inline">\(CH_4\)</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="Answer">
+<ol type="a">
+<li><p><span class="math inline">\(CaCl_2\)</span> : 1.0 / 3.1 / 2.1 / électrovalence</p></li>
+<li><p><span class="math inline">\(H_2O\)</span> : 2.2 / 3.4 / 1.2 / covalence polaire</p></li>
+<li><p><span class="math inline">\(LiBr\)</span> : 1.0 / 3.0 / 2 / électrovalence</p></li>
+<li><p><span class="math inline">\(N_2\)</span> : 2.9 / 2.9 / 0 / covalence pure</p></li>
+<li><p><span class="math inline">\(CH_4\)</span> : 2.5 / 2.2 / 0.3 / covalence polaire</p></li>
+</ol>
+</div>
+<div class="Exercise">
+<p>À l’aide de la représentation de Lewis montrez les pertes et gains d’électrons qui mènent à la formation des composés ci-dessous.</p>
+<div class="multicols">
+<p><span class="math inline">\(MgO\)</span></p>
+<p><span class="math inline">\(Na_2O\)</span></p>
+<p><span class="math inline">\(CaCl_2\)</span></p>
+<p><span class="math inline">\(AlBr_3\)</span></p>
+</div>
+</div>
+<div class="Exercise">
+<p>Prédire la formule brute des composés ioniques formés avec les paires d’éléments suivants :</p>
+<div class="multicols">
+<p>Aluminium et Fluor</p>
+<p>Potassium et Soufre</p>
+<p>Sodium et Oxygène</p>
+<p>Magnésium et azote</p>
+</div>
+</div>
+<div class="Answer">
+<div class="multicols">
+<p><span class="math inline">\(AlF_3\)</span></p>
+<p><span class="math inline">\(K_2S\)</span></p>
+<p><span class="math inline">\(Na_2O\)</span></p>
+<p><span class="math inline">\(Mg_3N_2\)</span></p>
+</div>
+</div>
+<div class="Exercise-container">
+<div class="Exercise">
+<p>Complétez le tableau suivant selon l’exemple donné en première ligne:</p>
+</div>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;"></th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">cation</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">anion</th>
+<th style="text-align: center;">molécule formée</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">a</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;"><span class="math inline">\(Mg^{2+}\)</span></td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"><span class="math inline">\(Br^-\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(MgBr_2\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">b</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><span class="math inline">\(AlF_3\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">c</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><span class="math inline">\(Ca^{2+}\)</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><span class="math inline">\(Ca_3P_2\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">d</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"><span class="math inline">\(Na^+\)</span></td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="Answer">
+<ol type="a">
+<li><p>1 <span class="math inline">\(Mg^{2+}\)</span> / 2 <span class="math inline">\(Br^{-}\)</span> / <span class="math inline">\(MgBr_2\)</span></p></li>
+<li><p>1 <span class="math inline">\(Al^{3+}\)</span> / 3 <span class="math inline">\(F^-\)</span> / <span class="math inline">\(AlF_3\)</span></p></li>
+<li><p>3 <span class="math inline">\(Ca^{2+}\)</span> / 2 <span class="math inline">\(P^{3-}\)</span> / <span class="math inline">\(Ca_3P_2\)</span></p></li>
+<li><p>3 <span class="math inline">\(Na^+\)</span> / 1 <span class="math inline">\(P^{3-}\)</span> / <span class="math inline">\(Na_3P\)</span></p></li>
+</ol>
+</div>
+<div class="Exercise-container">
+<div class="Exercise">
+<p>Indiquez le type de liaison qui forment les composés suivants:</p>
+</div>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;"></th>
+<th style="text-align: left;">composé</th>
+<th style="text-align: center;">formule</th>
+<th style="text-align: center;">type de liaison</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">a</td>
+<td style="text-align: left;">le fer</td>
+<td style="text-align: center;"><span class="math inline">\(Fe\)</span></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">b</td>
+<td style="text-align: left;">le chlorure de sodium</td>
+<td style="text-align: center;"><span class="math inline">\(NaCl\)</span></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">c</td>
+<td style="text-align: left;">l’eau</td>
+<td style="text-align: center;"><span class="math inline">\(H_2O\)</span></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">d</td>
+<td style="text-align: left;">l’oxygène</td>
+<td style="text-align: center;"><span class="math inline">\(O_2\)</span></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">e</td>
+<td style="text-align: left;">l’argon</td>
+<td style="text-align: center;"><span class="math inline">\(Ar\)</span></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="Answer">
+<ol type="a">
+<li>liaison métallique</li>
+<li>électrovalence</li>
+<li>covalence polaire</li>
+<li>covalence pure</li>
+<li>pas de liaison (gaz rare)</li>
+</ol>
+</div>
+<div class="Exercise">
+<p>Pour chaque liaison représentée ci-dessous :</p>
+<ul>
+<li>Indiquez quel est le type de liaisons.</li>
+<li>Indiquez quel est l’atome le plus électronégatif.</li>
+</ul>
+<div class="multicols">
+<p><span class="math inline">\(B—F\)</span></p>
+<p><span class="math inline">\(Cl—Cl\)</span></p>
+<p><span class="math inline">\(Se—O\)</span></p>
+<p><span class="math inline">\(H—I\)</span></p>
+</div>
+</div>
+<div class="Answer">
+<div class="multicols">
+<p><span class="math inline">\(B—F\)</span><br>
+<span class="math inline">\(\Delta E = 4 - 2 = 2\)</span><br>
+électrovalence (F)</p>
+<p><span class="math inline">\(Cl—Cl\)</span><br>
+<span class="math inline">\(\Delta E = 0\)</span><br>
+covalence pure (-)</p>
+<p><span class="math inline">\(Se—O\)</span><br>
+<span class="math inline">\(\Delta E = 3.4 - 2.6 = 0.8\)</span><br>
+covalence polaire (O)</p>
+<p><span class="math inline">\(H—I\)</span><br>
+<span class="math inline">\(\Delta E = 2.7 - 2.2 = 0.5\)</span><br>
+covalence polaire (I)</p>
+</div>
+</div>
+<div class="Exercise-container">
+<div class="Exercise">
+<p>Calculez la masse molaire moléculaire des composés suivants.</p>
+</div>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">formule</th>
+<th style="text-align: center;">masse molaire</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><span class="math inline">\(SrCl_2\)</span></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span class="math inline">\(KNO_3\)</span></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span class="math inline">\(NH_4Cl\)</span></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span class="math inline">\(Ca_3(PO_4)_2\)</span></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span class="math inline">\(Mg(NO_2)_2\)</span></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span class="math inline">\(CH_3COOH\)</span></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="Answer">
+<div class="multicols">
+<p><span class="math inline">\(SrCl_2\)</span> : 158.52 g/mol</p>
+<p><span class="math inline">\(KNO_3\)</span> : 101.10 g/mol</p>
+<p><span class="math inline">\(NH_4Cl\)</span> : 53.49 g/mol</p>
+<p><span class="math inline">\(Ca_3(PO_4)_2\)</span> : 310.17 g/mol</p>
+<p><span class="math inline">\(Mg(NO_2)_2\)</span> : 116.32 g/mol</p>
+<p><span class="math inline">\(CH_3COOH\)</span> : 60.05 g/mol</p>
+</div>
+</div>
+<div class="Exercise-container">
+<div class="Exercise">
+<p>Indiquez le nombre d’atomes de chaque élément présent dans les formules ci-dessous:</p>
+</div>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">formule</th>
+<th style="text-align: center;">éléments</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><span class="math inline">\(SrCl_2\)</span></td>
+<td style="text-align: center;"><img src="images/1px.png" class="img-fluid"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span class="math inline">\(KNO_3\)</span></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span class="math inline">\(NH_4Cl\)</span></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span class="math inline">\(Ca_3(PO_4)_2\)</span></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span class="math inline">\(Mg(NO_2)_2\)</span></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span class="math inline">\(Al_2(SO_4)_3\)</span></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span class="math inline">\(CH_3COOH\)</span></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="Answer">
+<div class="multicols">
+<p><span class="math inline">\(SrCl_2\)</span> : 1xSr / 2xCl</p>
+<p><span class="math inline">\(KNO_3\)</span> : 1xK / 1xN / 3xO</p>
+<p><span class="math inline">\(NH_4Cl\)</span> : 1xN / 4xH / 1xCl</p>
+<p><span class="math inline">\(Ca_3(PO_4)_2\)</span> : 3xCa / 2xP / 8xO</p>
+<p><span class="math inline">\(Mg(NO_2)_2\)</span> : 1xMg / 2xN / 4xO</p>
+<p><span class="math inline">\(Al_2(SO_4)_3\)</span> : 2xAl / 3xS / 12xO</p>
+<p><span class="math inline">\(CH_3COOH\)</span> : 2xC / 4xH / 2xO</p>
+</div>
+</div>
+<div class="Exercise-container">
+<div class="Exercise">
+<p>Complétez le tableau en indiquant quel cation et quel anion forment les molécules ci-dessous ainsi que leur nombre:</p>
+</div>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 19%">
+<col style="width: 12%">
+<col style="width: 19%">
+<col style="width: 19%">
+<col style="width: 14%">
+<col style="width: 15%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">formule</th>
+<th style="text-align: center;">cation</th>
+<th style="text-align: center;">anion</th>
+<th style="text-align: left;">formule</th>
+<th style="text-align: center;">cation</th>
+<th style="text-align: center;">anion</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><span class="math inline">\(Fe(OH)_2\)</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"><span class="math inline">\(K_2SO_3\)</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span class="math inline">\(Ca(MnO_4)_2\)</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: center;"><span class="math inline">\(Fe^{3+}\)</span></td>
+<td style="text-align: center;">3 <span class="math inline">\(NO_3^–\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: center;">3 <span class="math inline">\(Li^+\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(PO_4^{3–}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(CH_3COONH_4\)</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="Answer">
+<div class="multicols">
+<p><span class="math inline">\(Fe(OH)_2\)</span> : <span class="math inline">\(Fe^{2+}\)</span> / 2 <span class="math inline">\(OH^–\)</span></p>
+<p><span class="math inline">\(K_2SO_3\)</span> : 2 <span class="math inline">\(K^+\)</span> / <span class="math inline">\(SO_3^{2–}\)</span></p>
+<p><span class="math inline">\(Ca(MnO_4)_2\)</span> : <span class="math inline">\(Ca^{2+}\)</span> / 2 <span class="math inline">\(MnO_4^–\)</span></p>
+<p><span class="math inline">\(Fe(NO_3)_3\)</span> : <span class="math inline">\(Fe^{3+}\)</span> / 3 <span class="math inline">\(NO_3^–\)</span></p>
+<p><span class="math inline">\(Li_3PO_4\)</span> : 3 <span class="math inline">\(Li^+\)</span> / <span class="math inline">\(PO_4^{3–}\)</span></p>
+<p><span class="math inline">\(CH_3COONH_4\)</span> : <span class="math inline">\(NH_4^+\)</span> / <span class="math inline">\(CH_3COO^–\)</span></p>
+</div>
+</div>
+<div class="Exercise-container">
+<div class="Exercise">
+<p>Complétez le tableau ci dessous, calculant la masse molaire du composé en g/mol et le nombre de moles contenues dans 3.5g de ce composé.</p>
+</div>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 4%">
+<col style="width: 21%">
+<col style="width: 34%">
+<col style="width: 39%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;"></th>
+<th style="text-align: left;">substance</th>
+<th style="text-align: center;">masse molaire en g/mol</th>
+<th style="text-align: center;">moles contenues dans 3.5g</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: left;"><span class="math inline">\(NaOH\)</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: left;"><span class="math inline">\(H_2O\)</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: left;"><span class="math inline">\(MgCl_2\)</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: left;"><span class="math inline">\(H_3PO_4\)</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: left;"><span class="math inline">\(Al_2(SO_4)_3\)</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: left;"><span class="math inline">\((NH_4)_2SO_4\)</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="Answer">
+<div class="multicols">
+<ol type="1">
+<li><span class="math inline">\(NaOH\)</span></li>
+</ol>
+<p><span class="math inline">\(22.99 + 15.999 + 1.008 = 40.00 \text{ g/mol}\)</span></p>
+<p><span class="math inline">\(3.5 \text{ g} / 40.00 \text{ g/mol} = 0.09 \text{ mol}\)</span></p>
+<ol start="2" type="1">
+<li><span class="math inline">\(H_2O\)</span></li>
+</ol>
+<p><span class="math inline">\(2 \cdot 1.008 + 15.999 = 18.02 \text{ g/mol}\)</span></p>
+<p><span class="math inline">\(3.5 \text{ g} / 18.02 \text{ g/mol} = 0.19 \text{ mol}\)</span></p>
+<ol start="3" type="1">
+<li><span class="math inline">\(MgCl_2\)</span></li>
+</ol>
+<p><span class="math inline">\(24.305 + 2 \cdot 35.45 = 95.21 \text{ g/mol}\)</span></p>
+<p><span class="math inline">\(3.5 \text{ g} / 95.21 \text{ g/mol} = 0.04 \text{ mol}\)</span></p>
+<ol start="4" type="1">
+<li><span class="math inline">\(H_3PO_4\)</span></li>
+</ol>
+<p><span class="math inline">\(3 \cdot 1.008 + 30.974 + 4 \cdot 15.999 = 97.99 \text{ g/mol}\)</span></p>
+<p><span class="math inline">\(3.5 \text{ g} / 97.99 \text{ g/mol} = 0.04 \text{ mol}\)</span></p>
+<ol start="5" type="1">
+<li><span class="math inline">\(Al_2(SO_4)_3\)</span></li>
+</ol>
+<p><span class="math inline">\(2 \cdot 26.982 + 3 \cdot 32.06 + 12 \cdot 15.999 = 342.13 \text{ g/mol}\)</span></p>
+<p><span class="math inline">\(3.5 \text{ g} / 342.13 \text{ g/mol} = 0.010 \text{ mol}\)</span></p>
+<ol start="6" type="1">
+<li><span class="math inline">\((NH_4)_2SO_4\)</span></li>
+</ol>
+<p><span class="math inline">\(2 \cdot 14.007 + 8 \cdot 1.008 + 32.06 + 4 \cdot 15.999 = 132.13 \text{ g/mol}\)</span></p>
+<p><span class="math inline">\(3.5 \text{ g} / 132.13 \text{ g/mol} = 0.03 \text{ mol}\)</span></p>
+</div>
+</div>
+<div class="Exercise">
+<p>Dessinez la formule développée des composés ci-dessous.</p>
+<div class="multicols">
+<p><span class="math inline">\(Ca(NO_3)_2\)</span></p>
+<p><span class="math inline">\(NaH_2PO_4\)</span></p>
+</div>
+</div>
+<div class="Exercise">
+<ol type="1">
+<li><p>Quelle est la masse molaire du saccharose, <span class="math inline">\(\ce{C12H22O11}\)</span> ? </p></li>
+<li><p>Un morceau de sucre contient 5g de saccharose. Combien de moles de saccharose sont contenues dans un morceau de sucre ? </p></li>
+<li><p>Combien de molécules et d’atomes au total sont contenus dans un morceau de sucre ? </p></li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><p><span class="math display">\[ \begin{split}
+  MM_{C_{12}H_{22}O_{11}} &amp;= 12 \cdot MM_C + 22 \cdot MM_H + 11 \cdot MM_O \\
+  &amp;= 12 \cdot 12.011 + 22 \cdot 1.008 + 11 \cdot 15.999 \\
+  &amp;= 342.30 \text{ g/mol}
+  \end{split} \]</span></p></li>
+<li><p><span class="math display">\[  \begin{split}
+1 \text{ mol de saccharose } &amp; \longrightarrow 342.30 \text{ g}\\
+n \text{ mol de saccharose } &amp; \longrightarrow 5 \text{ g}
+\end{split} \]</span></p>
+<p><span class="math display">\[  \begin{split}
+n &amp;= \frac{5\text{ g} \cdot 1\text{ mol}}{342.30\text{ g}} = 1.46 \cdot 10^{-2} \text{ mol} \\
+&amp; \text{1 morceau de sucre contient 0.0146 mol de saccharose}
+\end{split} \]</span></p></li>
+<li><p><span class="math display">\[  \begin{split}
+1 \text{ mol de saccharose } &amp; \longrightarrow 6.022 \cdot 10^{23} \text{ molécules de saccharose} \\
+0.0146 \text{ mol de saccharose } &amp; \longrightarrow \text{ N molécules de saccharose}
+\end{split} \]</span></p>
+<p><span class="math display">\[  \begin{split}
+N &amp;= \frac{0.0146 \text{ mol} \cdot 6.022\cdot 10^{23} \text{ molécules}}{1 \text{ mol}} = 8.8\cdot 10^{21} \text{ molécules}\\
+&amp; \text{1 morceau de sucre contient } 8.8\cdot 10^{21} \text{ molécules de saccharose.}
+\end{split} \]</span></p>
+<p><span class="math display">\[  \begin{split}
+1 \text{ molécule de saccharose } &amp; \longrightarrow 45 \text{ atomes} \\
+8.8\cdot 10^{21} \text{ molécules de saccharose } &amp; \longrightarrow N_{tot} \text{ atomes}
+\end{split} \]</span></p>
+<p><span class="math display">\[  \begin{split}
+N_{tot} &amp;= \frac{8.8 \cdot 10^{21} \text{ molécules} \cdot 45 \text{ atomes}}{1 \text{ molécule}} = 3.96 \cdot 10^{23} \text{ atomes} \\
+&amp; \text{1 morceau de sucre contient } 3.96 \cdot 10^{23} \text{ atomes en tout.}
+\end{split} \]</span></p></li>
+</ol>
+</div>
+<div class="Exercise">
+<p>Si un échantillon de propane, <span class="math inline">\(C_3H_8\)</span>, contient un total de <span class="math inline">\(6.0 \cdot 10^{23}\)</span> atomes de carbone, combien de molécules de propane sont présentes dans l’échantillon?</p>
+</div>
+<div class="Answer">
+<p><span class="math display">\[ \begin{split}
+  1 \text{ molecule} \text{ de } C_3H_8 &amp; \longrightarrow 3 \text{ atome} \text{ de }  C \\
+  n \text{ molecule} \text{ de } C_3H_8 &amp; \longrightarrow 6.0 \cdot 10^{23} \text{ atome} \text{ de } C
+  \end{split} \]</span></p>
+<p><span class="math display">\[ n = \frac{6.0 \cdot 10^{23} \text{ atome} \cdot 1 \text{ molecule}}{3 \text{ atome}} = 2.0 \cdot 10^{23} \text{ molecule} \]</span></p>
+</div>
+<div class="Exercise">
+<p>Pour chacun des composés suivants, dessinez la formule développée (notation de Lewis) du composé et indiquez le type de liaison impliqué.</p>
+<div class="multicols">
+<p><span class="math inline">\(NaCl\)</span></p>
+<p><span class="math inline">\(MgCl_2\)</span></p>
+<p><span class="math inline">\(Br_2\)</span></p>
+<p><span class="math inline">\(N_2\)</span></p>
+</div>
+<div class="multicols">
+<p><span class="math inline">\(HCl\)</span></p>
+<p><span class="math inline">\(H_2O\)</span></p>
+<p><span class="math inline">\(LiBr\)</span></p>
+<p>&nbsp;</p>
+</div>
+</div>
+<div class="Exercise">
+<p>Dessinez la formule développée des composés ci-dessous.</p>
+<div class="multicols">
+<p><span class="math inline">\(Na_2SO_4\)</span></p>
+<p><span class="math inline">\(LiClO_4\)</span></p>
+</div>
+</div>
+<div class="Exercise">
+<p>On fait réagir du magnésium avec du chlore. Électronégativités : Mg = 1.3, Cl = 3.1. Masses molaires : Mg = 24.305, Cl = 35.45 g/mol.</p>
+<ol type="1">
+<li>Quels ions le magnésium et le chlore forment-ils ? Justifiez par la règle de l’octet. </li>
+<li>Écrivez la formule brute du composé et donnez son nom. </li>
+<li>À l’aide de <span class="math inline">\(\Delta E\)</span>, indiquez le type de liaison. </li>
+<li>Calculez la masse molaire du composé. </li>
+<li>Combien de moles et combien de motifs (unités formulaires) y a-t-il dans 19.0 g de ce composé ? </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>Le magnésium (groupe II) perd 2 électrons pour compléter son octet : <span class="math inline">\(Mg^{2+}\)</span>. Le chlore (groupe VII) gagne 1 électron : <span class="math inline">\(Cl^{-}\)</span>.</li>
+<li>Pour être neutre, il faut 2 anions <span class="math inline">\(Cl^{-}\)</span> par cation <span class="math inline">\(Mg^{2+}\)</span> : la formule brute est <span class="math inline">\(MgCl_2\)</span>, le <strong>chlorure de magnésium</strong>.</li>
+<li><span class="math inline">\(\Delta E = 3.1 - 1.3 = 1.8\)</span> : liaison <strong>ionique</strong> (électrovalence).</li>
+<li><span class="math display">\[
+M(MgCl_2) = 24.305 + 2 \cdot 35.45 = 95.21 \text{ g/mol}
+\]</span></li>
+<li><span class="math display">\[
+n = \frac{m}{M} = \frac{19.0}{95.21} = 0.200 \text{ mol}
+\]</span> <span class="math display">\[
+N = n \cdot N_A = 0.200 \cdot 6.022\cdot10^{23} = 1.20\cdot10^{23} \text{ motifs}
+\]</span></li>
+</ol>
+</div>
+<div class="Exercise">
+<p>On considère plusieurs liaisons. Électronégativités : Na = 0.9, H = 2.2, C = 2.5, Cl = 3.1, O = 3.4.</p>
+<ol type="1">
+<li>Pour chaque liaison, calculez <span class="math inline">\(\Delta E\)</span> : Cl–Cl, C–O, H–Cl, Na–Cl. </li>
+<li>Classez ces liaisons de la moins polaire à la plus ionique. </li>
+<li>Parmi elles, laquelle est purement covalente ? Laquelle est ionique ? </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>Différences d’électronégativité :
+<ul>
+<li>Cl–Cl : <span class="math inline">\(\Delta E = 3.1 - 3.1 = 0\)</span></li>
+<li>C–O : <span class="math inline">\(\Delta E = 3.4 - 2.5 = 0.9\)</span></li>
+<li>H–Cl : <span class="math inline">\(\Delta E = 3.1 - 2.2 = 0.9\)</span></li>
+<li>Na–Cl : <span class="math inline">\(\Delta E = 3.1 - 0.9 = 2.2\)</span></li>
+</ul></li>
+<li>De la moins polaire à la plus ionique : <span class="math display">\[
+\text{Cl–Cl} \;(0) &lt; \text{C–O} \approx \text{H–Cl} \;(0.9) &lt; \text{Na–Cl} \;(2.2)
+\]</span></li>
+<li><strong>Cl–Cl</strong> est purement covalente (<span class="math inline">\(\Delta E = 0\)</span>) ; <strong>Na–Cl</strong> est ionique (<span class="math inline">\(\Delta E = 2.2\)</span>, la plus grande différence).</li>
+</ol>
+</div>
+<div class="Exercise">
+<p>Le carbonate de calcium a pour formule <span class="math inline">\(CaCO_3\)</span>. Masses molaires : Ca = 40.078, C = 12.011, O = 15.999 g/mol.</p>
+<ol type="1">
+<li>Quel cation et quel anion composent ce composé ? </li>
+<li>Calculez sa masse molaire. </li>
+<li>Combien de moles de <span class="math inline">\(CaCO_3\)</span> y a-t-il dans 25.0 g ? </li>
+<li>Combien d’ions carbonate et combien d’atomes d’oxygène cet échantillon contient-il ? </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>Le cation calcium <span class="math inline">\(Ca^{2+}\)</span> et l’anion carbonate <span class="math inline">\(CO_3^{2-}\)</span>.</li>
+<li><span class="math display">\[
+M(CaCO_3) = 40.078 + 12.011 + 3 \cdot 15.999 = 100.09 \text{ g/mol}
+\]</span></li>
+<li><span class="math display">\[
+n = \frac{m}{M} = \frac{25.0}{100.09} = 0.250 \text{ mol}
+\]</span></li>
+<li>Chaque motif contient 1 ion carbonate et 3 atomes d’oxygène. <span class="math display">\[
+N(CO_3^{2-}) = 0.250 \cdot 6.022\cdot10^{23} = 1.51\cdot10^{23} \text{ ions}
+\]</span> <span class="math display">\[
+N(O) = 3 \cdot 1.51\cdot10^{23} = 4.52\cdot10^{23} \text{ atomes}
+\]</span></li>
+</ol>
+</div>
+<div class="Exercise">
+<p>On considère la molécule de dioxyde de carbone, <span class="math inline">\(O=C=O\)</span>. Masses molaires : C = 12.011, O = 15.999 g/mol.</p>
+<ol type="1">
+<li>Cette molécule est formée entre des non-métaux : quel type de liaison relie les atomes ? </li>
+<li>Combien de liaisons covalentes y a-t-il entre le carbone et chaque oxygène ? Comment appelle-t-on ce type de liaison ? </li>
+<li>Le carbone possède 4 électrons de valence et chaque oxygène en possède 6. Vérifiez que chaque atome respecte la règle de l’octet dans cette molécule. </li>
+<li>Calculez la masse molaire du <span class="math inline">\(CO_2\)</span>. </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>Une liaison <strong>covalente</strong> (deux non-métaux qui partagent des électrons).</li>
+<li>Deux liaisons entre le carbone et chaque oxygène : c’est une <strong>liaison double</strong>.</li>
+<li>Le carbone partage 4 paires d’électrons (une double liaison avec chaque oxygène) : il s’entoure de 8 électrons (octet). Chaque oxygène partage 2 paires avec le carbone (4 électrons) et porte 2 doublets non liants (4 électrons) : il s’entoure lui aussi de 8 électrons (octet).</li>
+<li><span class="math display">\[
+M(CO_2) = 12.011 + 2 \cdot 15.999 = 44.01 \text{ g/mol}
+\]</span></li>
+</ol>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script src="html/vendor/jquery-3.7.1.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+
+    var exeContainerClass = 'Exercise-container';
+    var exeClass = 'Exercise';
+    var ansClass = 'Answer';
+
+    $('.' + exeContainerClass).each(function(i, el) {
+      let child = $(el).children('.' + exeClass);
+      child.replaceWith(child.html());
+      $(el).removeClass(exeContainerClass).addClass(exeClass);
+    });
+
+    var chapterNum = $('.quarto-page-breadcrumbs .chapter-number').first().text().trim();
+
+    $('.' + exeClass).each(function(i, el) {
+      var num = chapterNum + '.' + (i + 1);
+      var title = $('<div>Exercice ' + num + '</div>');
+      title.addClass('Label');
+      $(el).prepend(title);
+    });
+
+    $('.' + ansClass).each(function(i, el) {
+      $(el).click(function() {
+        $(el).slideToggle();
+      });
+      var button = $('<button>Solution</button>');
+      button.attr('type', 'button');
+      button.addClass('Answer-button');
+      button.click(function() {
+        $(el).slideToggle();
+      });
+      button.insertBefore(el);
+    });
+
+  });
+</script>
+<script type="text/javascript">
+  $(document).ready(function () {
+    $("main.content table, main.content .math.display").each(function (i, el) {
+      let parent = $("<div>").attr("style", "overflow-x:auto");
+      $(el).wrap(parent);
+    });
+  });
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copié");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copié");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./60-tableau-periodique.html" class="pagination-link" aria-label="Le tableau périodique">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Le tableau périodique</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./80-molecules.html" class="pagination-link" aria-label="Géométrie moléculaire et polarité">
+        <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Géométrie moléculaire et polarité</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

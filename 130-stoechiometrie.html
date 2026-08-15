@@ -1,0 +1,1590 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Support du cours de chimie générale | Maturité gymnasiale">
+
+<title>13&nbsp; Calculs stœchiométriques – Cours de chimie générale</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./140-gaz-parfaits.html" rel="next">
+<link href="./120-types-reactions.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-05ad7de8ae34bb1016f06e23b5e9a5a9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Pas de résultats",
+    "search-matching-documents-text": "documents trouvés",
+    "search-copy-link-title": "Copier le lien vers la recherche",
+    "search-hide-matches-text": "Cacher les correspondances additionnelles",
+    "search-more-match-text": "correspondance de plus dans ce document",
+    "search-more-matches-text": "correspondances de plus dans ce document",
+    "search-clear-button-title": "Effacer",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Annuler",
+    "search-submit-button-title": "Envoyer",
+    "search-label": "Recherche"
+  }
+}</script>
+<script>
+window.MathJax = {
+  loader: { load: ['[tex]/mhchem', '[tex]/cancel'] },
+  tex: { packages: { '[+]': ['mhchem', 'cancel'] } }
+};
+</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="nav-sidebar docked quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./130-stoechiometrie.html"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Calculs stœchiométriques</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Recherche" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Cours de chimie générale</a> 
+        <div class="sidebar-tools-main">
+    <a href="./chimie-generale.pdf" title="Télécharger le PDF" class="quarto-navigation-tool px-1" aria-label="Télécharger le PDF" target="_blank"><i class="bi bi-file-earmark-pdf"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Recherche"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Préambule</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./10-introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./20-etats-de-la-matiere.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Les états de la matière</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./30-melanges-corps-purs.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Mélanges et corps purs</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./40-historique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Historique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./50-atome.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">L’atome</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./60-tableau-periodique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Le tableau périodique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./70-liaisons.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Molécules et liaisons chimiques</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./80-molecules.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Géométrie moléculaire et polarité</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./90-nomenclature.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Nomenclature</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./100-solutions-electrolytes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Solutions et électrolytes</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./110-reactions-chimiques.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Réactions chimiques</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./120-types-reactions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Types de réactions</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./130-stoechiometrie.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Calculs stœchiométriques</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./140-gaz-parfaits.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Les gaz parfaits</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./150-cinetique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Cinétique chimique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./160-equilibres.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">L’équilibre chimique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./170-acides-bases.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Les acides et les bases</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./180-ph-potentiel-hydrogene.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Le pH ou potentiel hydrogène</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./190-produit-solubilite.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Le produit de solubilité</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./200-oxydoreductions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Les réactions d’oxydoréduction</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./210-electrochimie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Électrochimie</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./220-thermochimie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Thermochimie</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./230-thermodynamique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Thermodynamique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./00-references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bibliographie</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table des matières</h2>
+   
+  <ul>
+  <li><a href="#la-stœchiométrie" id="toc-la-stœchiométrie" class="nav-link active" data-scroll-target="#la-stœchiométrie"><span class="header-section-number">13.1</span> La stœchiométrie</a></li>
+  <li><a href="#conditions-stœchiométriques-et-réactif-limitant" id="toc-conditions-stœchiométriques-et-réactif-limitant" class="nav-link" data-scroll-target="#conditions-stœchiométriques-et-réactif-limitant"><span class="header-section-number">13.2</span> Conditions stœchiométriques et réactif limitant</a></li>
+  <li><a href="#le-rendement-dune-réaction" id="toc-le-rendement-dune-réaction" class="nav-link" data-scroll-target="#le-rendement-dune-réaction"><span class="header-section-number">13.3</span> Le rendement d’une réaction</a></li>
+  <li><a href="#résumé" id="toc-résumé" class="nav-link" data-scroll-target="#résumé"><span class="header-section-number">13.4</span> Résumé</a></li>
+  <li><a href="#exercices-supplémentaires" id="toc-exercices-supplémentaires" class="nav-link" data-scroll-target="#exercices-supplémentaires"><span class="header-section-number">13.5</span> Exercices supplémentaires</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Calculs stœchiométriques</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="objectives">
+<ul>
+<li>Déterminer les quantités de matière de réactifs et de produits impliqués dans une réaction par des calculs stœchiométriques.</li>
+<li>Déterminer le réactif limitant et le réactif en excès pour une réaction et des quantités de réactifs données.</li>
+<li>Déterminer le rendement d’une réaction.</li>
+<li>Effectuer des calculs stœchiométriques en tenant compte du rendement de la réaction.</li>
+</ul>
+</div>
+<section id="la-stœchiométrie" class="level2" data-number="13.1">
+<h2 data-number="13.1" class="anchored" data-anchor-id="la-stœchiométrie"><span class="header-section-number">13.1</span> La stœchiométrie</h2>
+<p>Il est possible de tirer des renseignements <strong>quantitatifs</strong> d’une équation chimique et de déterminer les masses de substances qui participent à une réaction. Ces calculs sont basés sur la loi de conservation de la masse et portent le nom de <strong>calculs stœchiométriques</strong>. Le terme stœchiométrie dérive de deux mots grecs : stoikheîon (élément) et métron (mesure). La stœchiométrie exprime donc les relations entre les quantités des réactifs et des produits.</p>
+<p>L’équation chimique équilibrée de la réaction entre le sodium métallique et le chlore gazeux, est la suivante :</p>
+<p><span class="math display">\[ \ce{ 2 Na{}_{(s)} + Cl2{}_{(g)} -&gt; 2 NaCl{}_{(s)} } \]</span></p>
+<p>Cette équation nous indique que deux atomes de sodium réagissent avec une molécule de dichlore gazeux pour donner deux molécules de chlorure de sodium. Comme les chimistes ne parlent généralement pas des réactions chimiques en termes d’atomes ou de molécules individuels, il est beaucoup plus courant de décrire la stœchiométrie d’une réaction en termes de moles.</p>
+<p>Nous choisissons arbitrairement de faire réagir totalement une mole de dichlore dans cette réaction. De combien de sodium allons-nous avoir besoin ? Et combien de chlorure de sodium pouvons-nous espérer produire ?</p>
+<p>Une mole de dichlore pèse 70.9 g, nous savons donc qu’il nous faudra préparer 70.9 g de chlore gazeux.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 18%">
+<col style="width: 6%">
+<col style="width: 8%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 16%">
+<col style="width: 20%">
+<col style="width: 6%">
+<col style="width: 12%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">2</th>
+<th style="text-align: center;"><span class="math inline">\(Na\)</span></th>
+<th style="text-align: center;">+</th>
+<th style="text-align: center;">1</th>
+<th style="text-align: center;"><span class="math inline">\(Cl_2\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(\ce{-&gt;}\)</span></th>
+<th style="text-align: center;">2</th>
+<th style="text-align: center;"><span class="math inline">\(NaCl\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>n mol</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>1</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td>M g/mol</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>70.9</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td>m g</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>70.9</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<p>En prenant une mole de dichlore, il faudra deux moles de sodium métallique pour que la réaction soit totale. La masse molaire du sodium étant de 23 g/mol, il nous faudra préparer 46 g de sodium métallique.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 17%">
+<col style="width: 5%">
+<col style="width: 17%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 11%">
+<col style="width: 19%">
+<col style="width: 5%">
+<col style="width: 11%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">2</th>
+<th style="text-align: center;"><span class="math inline">\(Na\)</span></th>
+<th style="text-align: center;">+</th>
+<th style="text-align: center;">1</th>
+<th style="text-align: center;"><span class="math inline">\(Cl_2\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(\ce{-&gt;}\)</span></th>
+<th style="text-align: center;">2</th>
+<th style="text-align: center;"><span class="math inline">\(NaCl\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>n mol</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>2</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td>M g/mol</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>23.00</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">70.9</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td>m g</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>46.00</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">70.9</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<p>Dans le cas d’une réaction totale, en faisant réagir une mole de dichlore et deux moles de sodium, on obtient 2 moles de chlorure de sodium. La masse molaire du chlorure de sodium étant de 58.45 g/mol, il faudra nous attendre à former 116.9 g de chlorure de sodium.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 17%">
+<col style="width: 5%">
+<col style="width: 9%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 11%">
+<col style="width: 19%">
+<col style="width: 5%">
+<col style="width: 17%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">2</th>
+<th style="text-align: center;"><span class="math inline">\(Na\)</span></th>
+<th style="text-align: center;">+</th>
+<th style="text-align: center;">1</th>
+<th style="text-align: center;"><span class="math inline">\(Cl_2\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(\ce{-&gt;}\)</span></th>
+<th style="text-align: center;">2</th>
+<th style="text-align: center;"><span class="math inline">\(NaCl\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>n mol</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>2</strong></td>
+</tr>
+<tr class="even">
+<td>M g/mol</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">23.00</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">70.9</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>58.45</strong></td>
+</tr>
+<tr class="odd">
+<td>m g</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">46.00</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">70.9</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>116.9</strong></td>
+</tr>
+</tbody>
+</table>
+<p>La quantité de matière avant la réaction est égale à la quantité de matière après la réaction (46 g + 70.9 g = 116.9 g). La loi de conservation de la masse est respectée (ouf!).</p>
+<div class="Exercise">
+<p>Pour cette même réaction, imaginons que nous voulions faire réagir complètement 18 g de sodium. De quelle masse de dichlore avons-nous besoin ? Et combien de chlorure de sodium pouvons-nous espérer produire ?</p>
+</div>
+<div class="Answer">
+<p><span class="math display">\[ \ce{2 Na + Cl2 -&gt; 2 NaCl} \]</span></p>
+<ol type="1">
+<li><p><span class="math display">\[ \begin{split}
+  n_{Na} &amp;= \frac{m_{Na}}{M_{Na}} \\
+  &amp;= \frac{18\ \text{ g}}{23\ \text{ g/mol}} \\
+  &amp;= 0.78\ \text{ mol}
+  \end{split}
+  \qquad
+  \begin{split}
+  2\ \text{ mol}\ Na &amp;\rightarrow\ 1\ \text{ mol}\ Cl_2 \\
+  0.78\ \text{ mol}\ Na &amp;\rightarrow\ x\ \text{ mol}\ Cl_2 \\
+  x &amp;= 0.39\ \text{ mol}
+  \end{split}
+  \qquad
+  \begin{split}
+  m_{Cl_{2}} &amp;= n_{Cl_{2}} \cdot M_{Cl_{2}} \\
+  &amp;= 0.39\ \text{ mol} \cdot 70.9\ \text{ g/mol} \\
+  &amp;= 27.65\ \text{ g} \text{ de } Cl_2
+  \end{split} \]</span></p></li>
+<li><p><span class="math display">\[ \begin{split}
+  2\ \text{ mol}\ Na &amp;\rightarrow\ 2\ \text{ mol}\ NaCl \\
+  0.78\ \text{ mol}\ Na &amp;\rightarrow\ x\ \text{ mol}\ NaCl \\
+  x &amp;= 0.78\ \text{ mol}
+  \end{split}
+  \qquad
+  \begin{split}
+  m_{NaCl} &amp;= n_{NaCl} \cdot M_{NaCl} \\
+  &amp;= 0.78\ \text{ mol} \cdot 58.45\ \text{ g/mol} \\
+  &amp;= 45.59\ \text{ g} \text{ de } NaCl
+  \end{split} \]</span></p></li>
+</ol>
+</div>
+<div class="Exercise">
+<p>L’électrolyse de l’eau est un procédé électrochimique qui décompose l’eau en dioxygène et dihydrogène gazeux grâce à un courant électrique.</p>
+<ol type="1">
+<li>Quelle masse d’eau est nécessaire pour produire 12 g de dihydrogène par électrolyse ?</li>
+</ol>
+<ol start="2" type="1">
+<li>Quelle masse de dioxygène sera alors produite ?</li>
+</ol>
+</div>
+<div class="Answer">
+<p><span class="math display">\[ \ce{2 H2O -&gt; 2 H2 + O2} \]</span></p>
+<ol type="1">
+<li><p><span class="math display">\[ \begin{split}
+  n_{H_{2}} &amp;= \frac{m_{H_{2}}}{M_{H_{2}}} \\
+  &amp;= \frac{12\ \text{ g}}{2.02\ \text{ g/mol}} \\
+  &amp;= 5.94\ \text{ mol}
+  \end{split}
+  \qquad
+  \begin{split}
+  2\ \text{ mol}\ H_2O &amp;\rightarrow\ 2\ \text{ mol}\ H_2 \\
+  x\ \text{ mol}\ H_2O &amp;\rightarrow\ 5.94\ \text{ mol}\ H_2 \\
+  x &amp;= 5.94\ \text{ mol}
+  \end{split}
+  \qquad
+  \begin{split}
+  m_{H_2O} &amp;= n_{H_2O} \cdot M_{H_2O} \\
+  &amp;= 5.94\ \text{ mol} \cdot 18.02\ \text{ g/mol} \\
+  &amp;= 107\ \text{ g} \text{ d'} H_2O
+  \end{split} \]</span></p></li>
+<li><p><span class="math display">\[ \begin{split}
+  2\ \text{ mol}\ H_2 &amp;\rightarrow\ 1\ \text{ mol}\ O_2 \\
+  5.94\ \text{ mol}\ H_2 &amp;\rightarrow\ x\ \text{ mol}\ O_2 \\
+  x &amp;= 2.97\ \text{ mol}
+  \end{split}
+  \qquad
+  \begin{split}
+  m_{O_2} &amp;= n_{O_2} \cdot M_{O_2} \\
+  &amp;= 2.97\ \text{ mol} \cdot 32\ \text{ g/mol} \\
+  &amp;= 95\ \text{ g} \text{ de } O_2
+  \end{split} \]</span></p></li>
+</ol>
+</div>
+</section>
+<section id="conditions-stœchiométriques-et-réactif-limitant" class="level2" data-number="13.2">
+<h2 data-number="13.2" class="anchored" data-anchor-id="conditions-stœchiométriques-et-réactif-limitant"><span class="header-section-number">13.2</span> Conditions stœchiométriques et réactif limitant</h2>
+<p>Dans des conditions qui consistent à mélanger les réactifs en respectant les proportions de l’équation équilibrée, on dit que la réaction a lieu dans les <strong>conditions stœchiométriques</strong>.</p>
+<p>Dans la pratique, on choisit généralement de mettre un excès d’un des réactifs pour s’assurer que la réaction soit complète et que la réaction directe soit favorisée. Une réaction se termine lorsqu’un des réactifs est complètement consommé. Le reste de l’autre (ou des autres) réactif(s) n’a plus rien pour réagir, il en reste donc une partie :</p>
+<ul>
+<li>Le réactif qui est entièrement consommé est appelé <strong>réactif limitant</strong>. Il fixe une limite à la quantité de produits qui peuvent se former.</li>
+<li>Le réactif qui n’est pas entièrement consommé est appelé <strong>réactif en excès</strong>.</li>
+</ul>
+<p>Les quantités de produits formés lors d’une réaction dépendent de la quantité du réactif limitant. Plus aucun produit ne peut se former lorsque le réactif limitant est épuisé.</p>
+<p>L’équation chimique équilibrée de la réaction entre l’aluminium métallique et le brome gazeux, est la suivante :</p>
+<p><span class="math display">\[ \ce{ 2 Al{}_{(s)} + 3 Br2{}_{(g)} -&gt; 2 AlBr3{}_{(s)} } \]</span></p>
+<p>Imaginons de faire réagir 2 moles d’aluminium avec 6 moles de dibrome dans cette réaction.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 18%">
+<col style="width: 4%">
+<col style="width: 14%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 15%">
+<col style="width: 14%">
+<col style="width: 4%">
+<col style="width: 18%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">2</th>
+<th style="text-align: center;"><span class="math inline">\(\ce{Al}\)</span></th>
+<th style="text-align: center;">+</th>
+<th style="text-align: center;">3</th>
+<th style="text-align: center;"><span class="math inline">\(\ce{Br2}\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(\ce{-&gt;}\)</span></th>
+<th style="text-align: center;">2</th>
+<th style="text-align: center;"><span class="math inline">\(\ce{AlBr3}\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>n mol avant</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td>n mol réagi</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td>n mol après</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>3</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Le réactif limitant est l’aluminium.</li>
+<li>Le réactif en excès sera le dibrome et il en restera 3 moles qui n’auront pas réagit.</li>
+<li>La réaction formera 2 moles de bromure d’aluminium dû à la quantité de réactif limitant.</li>
+</ul>
+<p>Imaginons maintenant de faire réagir 5 moles d’aluminium avec 3 moles de dibrome dans cette réaction.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 18%">
+<col style="width: 4%">
+<col style="width: 14%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 15%">
+<col style="width: 14%">
+<col style="width: 4%">
+<col style="width: 18%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">2</th>
+<th style="text-align: center;"><span class="math inline">\(\ce{Al}\)</span></th>
+<th style="text-align: center;">+</th>
+<th style="text-align: center;">3</th>
+<th style="text-align: center;"><span class="math inline">\(\ce{Br2}\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(\ce{-&gt;}\)</span></th>
+<th style="text-align: center;">2</th>
+<th style="text-align: center;"><span class="math inline">\(\ce{AlBr3}\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>n mol avant</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td>n mol réagi</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td>n mol après</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>3</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Le réactif limitant est le dibrome.</li>
+<li>Le réactif en excès sera l’aluminium et il en restera 3 moles qui n’auront pas réagit.</li>
+<li>La réaction formera 2 moles de bromure d’aluminium dû à la quantité de réactif limitant.</li>
+</ul>
+<div class="Exercise">
+<p>L’ammoniac réagit avec le dioxygène pour former du monoxyde d’azote et de l’eau selon la réaction :</p>
+<p><span class="math display">\[ \ce{NH3} \quad + \quad \ce{O2} \quad \ce{-&gt;} \quad \ce{NO} \quad + \quad \ce{H2O} \]</span></p>
+<ol type="1">
+<li><p>Équilibrez la réaction.</p></li>
+<li><p>On fait réagir 0.2 mol de <span class="math inline">\(\ce{NH3}\)</span> avec 0.1 mol de <span class="math inline">\(\ce{O2}\)</span>.</p>
+<ol type="a">
+<li>Quel est le réactif limitant ?</li>
+</ol>
+<p></p>
+<ol start="2" type="a">
+<li>Quelle masse de sera formée ?</li>
+</ol>
+<p></p>
+<ol start="3" type="a">
+<li>Quelle masse du réactif en excès restera-t-il après la réaction ?</li>
+</ol>
+<p></p></li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><span class="math display">\[ \ce{4 NH3 + 5 O2 -&gt; 4 NO + 6 H2O} \]</span></li>
+</ol>
+<ol type="a">
+<li><p><span class="math display">\[ \begin{split}
+         \text{cond. stœchio. : }\frac{n_{\ce{NH3}}}{n_{\ce{O2}}} = \frac{4}{5} = 0.8
+     \end{split}
+     \qquad
+     \begin{split}
+         \text{réaction : }\frac{n_{\ce{NH3}}}{n_{\ce{O2}}} = \frac{0.2}{0.1} = 2
+     \end{split}
+     \qquad
+     \begin{split}
+         \ce{O2} \Rightarrow\text{ limitant}
+     \end{split} \]</span></p></li>
+<li><p><span class="math display">\[ \begin{split}
+         n_{\ce{NO}} = \frac{0.1 \cdot 4}{5} = 0.08\:\text{ mol}
+     \end{split}
+     \qquad
+     \begin{split}
+         m_{\ce{NO}} &amp;= n_{\ce{NO}} \cdot M_{\ce{NO}} \\
+         &amp;= 0.08\:\text{ mol} \cdot 30.01\:\text{ g/mol} \\
+         &amp;= 2.4\:\text{ g}
+     \end{split} \]</span></p></li>
+<li><p><span class="math display">\[ \begin{split}
+         n_{\ce{NH3}} &amp;= \frac{0.1 \cdot 4}{5} = 0.08\:\text{ mol} \text{ (consommé)} \\
+         n_{\ce{NH3}} &amp;= 0.2 - 0.08 = 0.12\:\text{ mol} \text{ (excès)}
+     \end{split}
+     \qquad
+     \begin{split}
+         m_{\ce{NH3}} &amp;= n_{\ce{NH3}} \cdot M_{\ce{NH3}} \\
+         &amp;= 0.12\:\text{ mol} \cdot 17.034\:\text{ g/mol} \\
+         &amp;= 2.04\:\text{ g}
+     \end{split} \]</span></p></li>
+</ol>
+</div>
+</section>
+<section id="le-rendement-dune-réaction" class="level2" data-number="13.3">
+<h2 data-number="13.3" class="anchored" data-anchor-id="le-rendement-dune-réaction"><span class="header-section-number">13.3</span> Le rendement d’une réaction</h2>
+<p>Lorsque nous utilisons les calculs stœchiométriques pour prédire les quantités dans une réaction, nos résultats sont basés sur l’hypothèse que tout se passe dans la réalité exactement comme décrit par l’équation chimique. Malheureusement, ce n’est pas toujours le cas. Il existe différents facteurs qui entraînent une perte dans les quantités de produits obtenus. Ces facteurs peuvent être non seulement humains, mais aussi chimiques ou techniques.</p>
+<p>On définit donc le rendement d’une réaction comme le rapport entre la quantité de produit réellement obtenue et la quantité de produit calculée.</p>
+<p><span class="math display">\[ \eta = \frac{\text{quantité de produit obtenue}}{\text{quantité de produit calculée}} \]</span></p>
+<p><span class="math inline">\(\eta\)</span> : exprimé en pourcentage massique ou molaire %</p>
+<div class="Exercise">
+<p>Soit l’équation équilibrée de la réaction ci-dessous :</p>
+<p><span class="math display">\[ \ce{C6H6 + Br2 -&gt; C6H5Br + HBr} \]</span></p>
+<ol type="1">
+<li>En considérant un rendement de 100%, quelle masse de C<sub>6</sub>H<sub>5</sub>Br peut-on obtenir si on fait réagir 42.1 g de C<sub>6</sub>H<sub>6</sub> avec 73 g de dibrome ?</li>
+</ol>
+<ol start="2" type="1">
+<li>On réalise cette réaction en laboratoire et on obtient 63.6 g de C<sub>6</sub>H<sub>5</sub>Br. Quel est alors le rendement de la réaction ?</li>
+</ol>
+</div>
+<div class="Answer">
+<p><span class="math display">\[ \ce{C6H6 + Br2 -&gt; C6H5Br + HBr} \]</span></p>
+<p>Calcul des quantités de matière :</p>
+<p><span class="math display">\[ \begin{split}
+        M_{\ce{C6H6}} &amp;= 78.108\:\text{ g/mol} \\
+        M_{\ce{Br2}} &amp;= 159.8\:\text{ g/mol} \\
+        M_{\ce{C6H5Br}} &amp;= 157\:\text{ g/mol}
+    \end{split}
+    \qquad
+    \begin{split}
+        n_{\ce{C6H6}} &amp;= \frac{m_{\ce{C6H6}}}{M_{\ce{C6H6}}} = \frac{42.1\:\text{ g}}{78.108\:\text{ g/mol}} = 0.539\:\text{ mol} \\
+        n_{\ce{Br2}} &amp;= \frac{m_{\ce{Br2}}}{M_{\ce{Br2}}} = \frac{73\:\text{ g}}{159.8\:\text{ g/mol}} = 0.457\:\text{ mol}
+    \end{split} \]</span></p>
+<p>Calcul du réactif limitant :</p>
+<p><span class="math display">\[ \begin{split}
+            \text{cond. stœchio. : }\frac{n_{\ce{C6H6}}}{n_{\ce{Br2}}} = \frac{1}{1} = 1
+        \end{split}
+        \qquad
+        \begin{split}
+            \text{réaction : }\frac{n_{\ce{C6H6}}}{n_{\ce{Br2}}} = \frac{0.539}{0.457} = 1.18
+        \end{split}
+        \qquad
+        \begin{split}
+            \ce{Br2} \Rightarrow\text{ limitant}
+        \end{split} \]</span></p>
+<p>Calcul de la masse de formée :</p>
+<p><span class="math display">\[ \begin{split}
+            n_{\ce{C6H5Br}} = n_{\ce{Br2}} = 0.457\:\text{ mol}
+        \end{split}
+        \qquad
+        \begin{split}
+            m_{\ce{C6H5Br}} &amp;= n_{\ce{C6H5Br}} \cdot M_{\ce{C6H5Br}} \\
+            &amp;= 0.457\:\text{ mol} \cdot 157\:\text{ g/mol}\\
+            &amp;= 71.75\:\text{ g}
+        \end{split} \]</span></p>
+<p><span class="math display">\[ \eta = \frac{\text{quantité de produit obtenue}}{\text{quantité de produit calculée}} = \frac{63.6\:\text{ g}}{71.75\:\text{ g}} = 0.886 = 88.6\:\text{ \%} \]</span></p>
+</div>
+<div class="Exercise">
+<p>La combustion du carbone forme du dioxyde de carbone selon <span class="math inline">\(\ce{C + O2 -&gt; CO2}\)</span>. On brûle 6.0 g de carbone. Masses molaires : C = 12.01, CO₂ = 44.01 g/mol.</p>
+<ol type="1">
+<li>Calculez la masse de <span class="math inline">\(\ce{CO2}\)</span> que l’on obtiendrait avec un rendement de 100 % (masse théorique). </li>
+<li>En réalité, le rendement de la réaction n’est que de 80 %. Quelle masse de <span class="math inline">\(\ce{CO2}\)</span> obtient-on réellement ? </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><span class="math display">\[
+n_{\ce{C}} = \frac{m}{M} = \frac{6.0}{12.01} = 0.50 \text{ mol}
+\]</span> La réaction se fait dans le rapport 1:1, donc <span class="math inline">\(n_{\ce{CO2}} = 0.50\)</span> mol. <span class="math display">\[
+m_{\text{théorique}} = n \cdot M = 0.50 \cdot 44.01 = 22.0 \text{ g}
+\]</span></li>
+<li><span class="math display">\[
+m_{\text{réelle}} = \eta \cdot m_{\text{théorique}} = 0.80 \cdot 22.0 = 17.6 \text{ g}
+\]</span></li>
+</ol>
+</div>
+</section>
+<section id="résumé" class="level2" data-number="13.4">
+<h2 data-number="13.4" class="anchored" data-anchor-id="résumé"><span class="header-section-number">13.4</span> Résumé</h2>
+<ul>
+<li>Les calculs stœchiométriques utilisent les coefficients d’une équation équilibrée et la loi de conservation de la masse.</li>
+<li>On passe des masses aux moles par <span class="math inline">\(n = \dfrac{m}{M}\)</span>, on applique le rapport stœchiométrique, puis on revient aux masses par <span class="math inline">\(m = n \cdot M\)</span>.</li>
+<li>En conditions stœchiométriques, les réactifs sont mélangés exactement dans les proportions de l’équation. Sinon, le réactif limitant fixe la quantité de produits ; le réactif en excès n’est pas totalement consommé. On identifie le limitant en comparant le rapport des quantités introduites au rapport stœchiométrique.</li>
+<li>Le rendement <span class="math inline">\(\eta\)</span> est le rapport entre la quantité de produit réellement obtenue et la quantité théorique (calculée) exprimé en pourcentage.</li>
+</ul>
+</section>
+<section id="exercices-supplémentaires" class="level2" data-number="13.5">
+<h2 data-number="13.5" class="anchored" data-anchor-id="exercices-supplémentaires"><span class="header-section-number">13.5</span> Exercices supplémentaires</h2>
+<div class="Exercise">
+<p>Soit l’équation chimique équilibrée de la réaction suivante :</p>
+<p><span class="math display">\[ \ce{ 2\:HgO{}_{(s)} -&gt; 2\:Hg{}_{(l)} + O2{}_{(g)} } \]</span></p>
+<p>Combien de grammes de chaque produit seront formées lors de la réaction de 255.59 grammes d’oxyde de mercure (II).</p>
+</div>
+<div class="Answer">
+<p><span class="math display">\[ \begin{split}
+    n_{HgO} &amp;= \frac{m_{HgO}}{M_{HgO}} \\
+    &amp;= \frac{255.59\ \text{ g}}{216.6\ \text{ g/mol}} \\
+    &amp;= 1.18\ \text{ mol}
+    \end{split} \]</span></p>
+<p><span class="math display">\[ \begin{split}
+  2\ \text{ mol}\ HgO &amp;\rightarrow\ 2\ \text{ mol}\ Hg \\
+  1.18\ \text{ mol}\ HgO &amp;\rightarrow\ x\ \text{ mol}\ Hg \\
+  x &amp;= 1.18\ \text{ mol}
+  \end{split}
+    \qquad
+    \begin{split}
+    m_{Hg} &amp;= n_{Hg} \cdot M_{Hg} \\
+  &amp;= 1.18\ \text{ mol} \cdot 200.6\ \text{ g/mol} \\
+  &amp;= 236.71\ \text{ g} \text{ d'} Hg
+  \end{split} \]</span></p>
+<p><span class="math display">\[ \begin{split}
+  2\ \text{ mol}\ HgO &amp;\rightarrow\ 1\ \text{ mol}\ O_2 \\
+  1.18\ \text{ mol}\ HgO &amp;\rightarrow\ x\ \text{ mol}\ O_2 \\
+  x &amp;= 0.59\ \text{ mol}
+  \end{split}
+    \qquad
+    \begin{split}
+    m_{O_{2}} &amp;= n_{O_{2}} \cdot M_{O_{2}} \\
+  &amp;= 0.59\ \text{ mol} \cdot 32\ \text{ g/mol} \\
+  &amp;= 18.88\ \text{ g} \text{ d'} O_{2}
+  \end{split} \]</span></p>
+</div>
+<div class="Exercise">
+<p>Soit l’équation chimique équilibrée de la réaction suivante :</p>
+<p><span class="math display">\[ \ce{ 2\:S{}_{(s)} + 3\:O2{}_{(g)} -&gt; 2\:SO3{}_{(g)} } \]</span></p>
+<p>Calculez les quantités de réactifs (en grammes) nécessaires à la formation de 92.07 grammes de trioxyde de soufre.</p>
+</div>
+<div class="Answer">
+<p><span class="math display">\[ \begin{split}
+    n_{SO_{3}} &amp;= \frac{m_{SO_{3}}}{M_{SO_{3}}} \\
+    &amp;= \frac{92.07\ \text{ g}}{80.06\ \text{ g/mol}} \\
+    &amp;= 1.15\ \text{ mol}
+    \end{split} \]</span></p>
+<p><span class="math display">\[ \begin{split}
+  2\ \text{ mol}\ S &amp;\rightarrow\ 2\ \text{ mol}\ SO_{3} \\
+  x\ \text{ mol}\ S &amp;\rightarrow\ 1.15\ \text{ mol}\ SO_{3} \\
+  x &amp;= 1.15\ \text{ mol}
+  \end{split}
+    \qquad
+    \begin{split}
+    m_{S} &amp;= n_{S} \cdot M_{S} \\
+  &amp;= 1.15\ \text{ mol} \cdot 32.06\ \text{ g/mol} \\
+  &amp;= 36.87\ \text{ g} \text{ de} S
+  \end{split} \]</span></p>
+<p><span class="math display">\[ \begin{split}
+    3\ \text{ mol}\ O_2 &amp;\rightarrow\ 2\ \text{ mol}\ SO_{3} \\
+    x\ \text{ mol}\ O_2 &amp;\rightarrow\ 1.15\ \text{ mol}\ SO_{3} \\
+    x &amp;= 1.73\ \text{ mol}
+    \end{split}
+    \qquad
+    \begin{split}
+    m_{O_{2}} &amp;= n_{O_{2}} \cdot M_{O_{2}} \\
+    &amp;= 1.73\ \text{ mol} \cdot 32\ \text{ g/mol} \\
+    &amp;= 55.36\ \text{ g} \text{ de} O_{2}
+  \end{split} \]</span></p>
+</div>
+<div class="Exercise">
+<p>Soit l’équation chimique équilibrée de la réaction suivante :</p>
+<p><span class="math display">\[ \ce{ 4\:MgS{}_{(aq)} + 2\:SnBr4{}_{(aq)} -&gt; 4\:MgBr2{}_{(aq)} + Sn2S4{}_{(s)} v } \]</span></p>
+<p>Calculez les quantités de réactifs (en grammes) nécessaires à la formation de 84.1 grammes de sulfure d’étain (IV).</p>
+</div>
+<div class="Answer">
+<p><span class="math display">\[ \begin{split}
+    n_{Sn_2S_4} &amp;= \frac{m_{Sn_2S_4}}{M_{Sn_2S_4}} \\
+    &amp;= \frac{84.1\ \text{ g}}{365.64\ \text{ g/mol}} \\
+    &amp;= 0.23\ \text{ mol}
+    \end{split} \]</span></p>
+<p><span class="math display">\[ \begin{split}
+  4\ \text{ mol}\ MgS &amp;\rightarrow\ 1\ \text{ mol}\ Sn_2S_4 \\
+  x\ \text{ mol}\ MgS &amp;\rightarrow\ 0.23\ \text{ mol}\ Sn_2S_4 \\
+  x &amp;= 0.92\ \text{ mol}
+  \end{split}
+    \qquad
+    \begin{split}
+    m_{MgS} &amp;= n_{MgS} \cdot M_{MgS} \\
+  &amp;= 0.92\ \text{ mol} \cdot 56.37\ \text{ g/mol} \\
+  &amp;= 51.86\ \text{ g} \text{ de} MgS
+  \end{split} \]</span></p>
+<p><span class="math display">\[ \begin{split}
+    2\ \text{ mol}\ SnBr_4 &amp;\rightarrow\ 1\ \text{ mol}\ Sn_2S_4 \\
+    x\ \text{ mol}\ SnBr_4 &amp;\rightarrow\ 0.23\ \text{ mol}\ Sn_2S_4 \\
+    x &amp;= 0.46\ \text{ mol}
+    \end{split}
+    \qquad
+    \begin{split}
+    m_{SnBr_4} &amp;= n_{SnBr_4} \cdot M_{SnBr_4} \\
+    &amp;= 0.46\ \text{ mol} \cdot 438.3\ \text{ g/mol} \\
+    &amp;= 201.62\ \text{ g} \text{ de} SnBr_4
+  \end{split} \]</span></p>
+</div>
+<div class="Exercise">
+<p>Soit la réaction chimique non équilibrée ci-dessous :</p>
+<p><span class="math display">\[ \underline{\hspace{1em}}\ \ce{Al} {}_{(s)} +  \underline{\hspace{1em}}\ \ce{Br2} {}_{(g)} \ce{-&gt;}  \underline{\hspace{1em}}\ \ce{AlBr3} {}_{(s)} \]</span></p>
+<ol type="1">
+<li>Équilibrez l’équation de la réaction.</li>
+<li>Déterminez le réactif limitant de la réaction sachant que l’on fait réagir 0.85 moles d’aluminium et 1.92 moles de dibrome.</li>
+</ol>
+</div>
+<div class="Answer">
+<p><span class="math display">\[ 2\: \ce{Al} {}_{(s)} + 3\: \ce{Br2} {}_{(g)} \ce{-&gt;} 2\: \ce{AlBr3} {}_{(s)} \]</span></p>
+<ol start="2" type="1">
+<li><span class="math display">\[ \begin{split}
+     &amp;\text{conditions stœchiométriques: }\\
+     &amp;\frac{n_{\ce{Al}}}{n_{\ce{Br2}}} = \frac{2}{3} = 0.67
+\end{split}
+\qquad
+\begin{split}
+     &amp;\text{conditions réactionnelles: }\\
+     &amp;\frac{n_{\ce{Al}}}{n_{\ce{Br2}}} = \frac{0.85}{1.92} = 0.44
+\end{split}
+\qquad
+\begin{split}
+     \Rightarrow \ &amp;\ce{Al} \text{ limitant} \\
+     &amp;\ce{Br2} \text{ excès} \\
+\end{split} \]</span></li>
+</ol>
+</div>
+<div class="Exercise">
+<p>On fait réagir 5.00 g de dihydrogène avec 30.0 g de diazote pour synthétiser de l’ammoniac selon <span class="math inline">\(\ce{N2 + 3H2 -&gt; 2NH3}\)</span>. Masses molaires : H₂ = 2.016, N₂ = 28.014, NH₃ = 17.03 g/mol.</p>
+<ol type="1">
+<li>Déterminez le réactif limitant. </li>
+<li>Quelle masse d’ammoniac peut-on obtenir avec un rendement de 100 % ? </li>
+<li>En pratique, on obtient 20.0 g d’ammoniac. Quel est le rendement de la réaction ? </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><span class="math display">\[
+n_{\ce{H2}} = \frac{5.00}{2.016} = 2.48 \text{ mol}
+\qquad
+n_{\ce{N2}} = \frac{30.0}{28.014} = 1.07 \text{ mol}
+\]</span> <span class="math display">\[
+\text{stœchio : } \frac{n_{\ce{N2}}}{n_{\ce{H2}}} = \frac{1}{3} = 0.33
+\qquad
+\text{réaction : } \frac{n_{\ce{N2}}}{n_{\ce{H2}}} = \frac{1.07}{2.48} = 0.43 &gt; 0.33
+\]</span> <span class="math display">\[
+\Rightarrow \ce{H2} \text{ limitant}
+\]</span></li>
+<li><span class="math display">\[
+n_{\ce{NH3}} = \frac{2}{3} \cdot n_{\ce{H2}} = \frac{2}{3} \cdot 2.48 = 1.65 \text{ mol}
+\qquad
+m_{\text{théorique}} = 1.65 \cdot 17.03 = 28.2 \text{ g}
+\]</span></li>
+<li><span class="math display">\[
+\eta = \frac{20.0}{28.2} = 0.710 = 71.0 \text{ \%}
+\]</span></li>
+</ol>
+</div>
+<div class="Exercise">
+<p>On veut produire 100 g de chaux vive (oxyde de calcium, <span class="math inline">\(\ce{CaO}\)</span>) par décomposition du carbonate de calcium selon <span class="math inline">\(\ce{CaCO3 -&gt; CaO + CO2}\)</span>. Le rendement de cette réaction est de 90 %. Masses molaires : CaCO₃ = 100.09, CaO = 56.08 g/mol.</p>
+<ol type="1">
+<li>Quelle masse théorique de <span class="math inline">\(\ce{CaO}\)</span> faut-il viser pour en obtenir réellement 100 g ? </li>
+<li>Quelle masse de carbonate de calcium faut-il alors faire réagir ? </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>Comme <span class="math inline">\(m_{\text{réelle}} = \eta \cdot m_{\text{théorique}}\)</span>, on a : <span class="math display">\[
+m_{\text{théorique}} = \frac{m_{\text{réelle}}}{\eta} = \frac{100}{0.90} = 111 \text{ g de } \ce{CaO}
+\]</span></li>
+<li><span class="math display">\[
+n_{\ce{CaO}} = \frac{111}{56.08} = 1.98 \text{ mol}
+\]</span> La réaction se fait dans le rapport 1:1, donc <span class="math inline">\(n_{\ce{CaCO3}} = 1.98\)</span> mol. <span class="math display">\[
+m_{\ce{CaCO3}} = n \cdot M = 1.98 \cdot 100.09 = 198 \text{ g}
+\]</span></li>
+</ol>
+</div>
+<div class="Exercise">
+<p>On fait réagir 5.40 g d’aluminium avec 40.0 g de dichlore selon <span class="math inline">\(\ce{2Al + 3Cl2 -&gt; 2AlCl3}\)</span>. Le rendement de la réaction est de 85 %. Masses molaires : Al = 26.98, Cl₂ = 70.90, AlCl₃ = 133.33 g/mol.</p>
+<ol type="1">
+<li>Déterminez le réactif limitant. </li>
+<li>Calculez la masse d’<span class="math inline">\(\ce{AlCl3}\)</span> réellement obtenue (en tenant compte du rendement). </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><span class="math display">\[
+n_{\ce{Al}} = \frac{5.40}{26.98} = 0.200 \text{ mol}
+\qquad
+n_{\ce{Cl2}} = \frac{40.0}{70.90} = 0.564 \text{ mol}
+\]</span> <span class="math display">\[
+\text{stœchio : } \frac{n_{\ce{Al}}}{n_{\ce{Cl2}}} = \frac{2}{3} = 0.67
+\qquad
+\text{réaction : } \frac{n_{\ce{Al}}}{n_{\ce{Cl2}}} = \frac{0.200}{0.564} = 0.35 &lt; 0.67
+\]</span> <span class="math display">\[
+\Rightarrow \ce{Al} \text{ limitant}
+\]</span></li>
+<li><span class="math display">\[
+n_{\ce{AlCl3}} = n_{\ce{Al}} = 0.200 \text{ mol (rapport 2:2)}
+\qquad
+m_{\text{théorique}} = 0.200 \cdot 133.33 = 26.7 \text{ g}
+\]</span> <span class="math display">\[
+m_{\text{réelle}} = \eta \cdot m_{\text{théorique}} = 0.85 \cdot 26.7 = 22.7 \text{ g}
+\]</span></li>
+</ol>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script src="html/vendor/jquery-3.7.1.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+
+    var exeContainerClass = 'Exercise-container';
+    var exeClass = 'Exercise';
+    var ansClass = 'Answer';
+
+    $('.' + exeContainerClass).each(function(i, el) {
+      let child = $(el).children('.' + exeClass);
+      child.replaceWith(child.html());
+      $(el).removeClass(exeContainerClass).addClass(exeClass);
+    });
+
+    var chapterNum = $('.quarto-page-breadcrumbs .chapter-number').first().text().trim();
+
+    $('.' + exeClass).each(function(i, el) {
+      var num = chapterNum + '.' + (i + 1);
+      var title = $('<div>Exercice ' + num + '</div>');
+      title.addClass('Label');
+      $(el).prepend(title);
+    });
+
+    $('.' + ansClass).each(function(i, el) {
+      $(el).click(function() {
+        $(el).slideToggle();
+      });
+      var button = $('<button>Solution</button>');
+      button.attr('type', 'button');
+      button.addClass('Answer-button');
+      button.click(function() {
+        $(el).slideToggle();
+      });
+      button.insertBefore(el);
+    });
+
+  });
+</script>
+<script type="text/javascript">
+  $(document).ready(function () {
+    $("main.content table, main.content .math.display").each(function (i, el) {
+      let parent = $("<div>").attr("style", "overflow-x:auto");
+      $(el).wrap(parent);
+    });
+  });
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copié");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copié");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./120-types-reactions.html" class="pagination-link" aria-label="Types de réactions">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Types de réactions</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./140-gaz-parfaits.html" class="pagination-link" aria-label="Les gaz parfaits">
+        <span class="nav-page-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Les gaz parfaits</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

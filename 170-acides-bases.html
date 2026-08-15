@@ -1,0 +1,1421 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Support du cours de chimie générale | Maturité gymnasiale">
+
+<title>17&nbsp; Les acides et les bases – Cours de chimie générale</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./180-ph-potentiel-hydrogene.html" rel="next">
+<link href="./160-equilibres.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-05ad7de8ae34bb1016f06e23b5e9a5a9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Pas de résultats",
+    "search-matching-documents-text": "documents trouvés",
+    "search-copy-link-title": "Copier le lien vers la recherche",
+    "search-hide-matches-text": "Cacher les correspondances additionnelles",
+    "search-more-match-text": "correspondance de plus dans ce document",
+    "search-more-matches-text": "correspondances de plus dans ce document",
+    "search-clear-button-title": "Effacer",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Annuler",
+    "search-submit-button-title": "Envoyer",
+    "search-label": "Recherche"
+  }
+}</script>
+<script>
+window.MathJax = {
+  loader: { load: ['[tex]/mhchem', '[tex]/cancel'] },
+  tex: { packages: { '[+]': ['mhchem', 'cancel'] } }
+};
+</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="nav-sidebar docked quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./170-acides-bases.html"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Les acides et les bases</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Recherche" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Cours de chimie générale</a> 
+        <div class="sidebar-tools-main">
+    <a href="./chimie-generale.pdf" title="Télécharger le PDF" class="quarto-navigation-tool px-1" aria-label="Télécharger le PDF" target="_blank"><i class="bi bi-file-earmark-pdf"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Recherche"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Préambule</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./10-introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./20-etats-de-la-matiere.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Les états de la matière</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./30-melanges-corps-purs.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Mélanges et corps purs</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./40-historique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Historique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./50-atome.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">L’atome</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./60-tableau-periodique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Le tableau périodique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./70-liaisons.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Molécules et liaisons chimiques</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./80-molecules.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Géométrie moléculaire et polarité</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./90-nomenclature.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Nomenclature</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./100-solutions-electrolytes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Solutions et électrolytes</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./110-reactions-chimiques.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Réactions chimiques</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./120-types-reactions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Types de réactions</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./130-stoechiometrie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Calculs stœchiométriques</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./140-gaz-parfaits.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Les gaz parfaits</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./150-cinetique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Cinétique chimique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./160-equilibres.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">L’équilibre chimique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./170-acides-bases.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Les acides et les bases</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./180-ph-potentiel-hydrogene.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Le pH ou potentiel hydrogène</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./190-produit-solubilite.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Le produit de solubilité</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./200-oxydoreductions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Les réactions d’oxydoréduction</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./210-electrochimie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Électrochimie</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./220-thermochimie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Thermochimie</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./230-thermodynamique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Thermodynamique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./00-references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bibliographie</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table des matières</h2>
+   
+  <ul>
+  <li><a href="#définitions" id="toc-définitions" class="nav-link active" data-scroll-target="#définitions"><span class="header-section-number">17.1</span> Définitions</a></li>
+  <li><a href="#couples-acide-base" id="toc-couples-acide-base" class="nav-link" data-scroll-target="#couples-acide-base"><span class="header-section-number">17.2</span> Couples acide-base</a></li>
+  <li><a href="#les-ampholytes" id="toc-les-ampholytes" class="nav-link" data-scroll-target="#les-ampholytes"><span class="header-section-number">17.3</span> Les ampholytes</a></li>
+  <li><a href="#forces-des-acides-et-des-bases" id="toc-forces-des-acides-et-des-bases" class="nav-link" data-scroll-target="#forces-des-acides-et-des-bases"><span class="header-section-number">17.4</span> Forces des acides et des bases</a></li>
+  <li><a href="#acides-et-bases-fortes" id="toc-acides-et-bases-fortes" class="nav-link" data-scroll-target="#acides-et-bases-fortes"><span class="header-section-number">17.5</span> Acides et bases fort(e)s</a></li>
+  <li><a href="#acides-et-bases-faibles" id="toc-acides-et-bases-faibles" class="nav-link" data-scroll-target="#acides-et-bases-faibles"><span class="header-section-number">17.6</span> Acides et bases faibles</a></li>
+  <li><a href="#constante-dacidité-ka-et-constante-de-basicité-kb" id="toc-constante-dacidité-ka-et-constante-de-basicité-kb" class="nav-link" data-scroll-target="#constante-dacidité-ka-et-constante-de-basicité-kb"><span class="header-section-number">17.7</span> Constante d’acidité K<sub>a</sub> et constante de basicité K<sub>b</sub></a></li>
+  <li><a href="#autoprotolyse-de-leau" id="toc-autoprotolyse-de-leau" class="nav-link" data-scroll-target="#autoprotolyse-de-leau"><span class="header-section-number">17.8</span> Autoprotolyse de l’eau</a></li>
+  <li><a href="#résumé" id="toc-résumé" class="nav-link" data-scroll-target="#résumé"><span class="header-section-number">17.9</span> Résumé</a></li>
+  <li><a href="#exercices-supplémentaires" id="toc-exercices-supplémentaires" class="nav-link" data-scroll-target="#exercices-supplémentaires"><span class="header-section-number">17.10</span> Exercices supplémentaires</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Les acides et les bases</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="objectives">
+<ul>
+<li>Définir les termes acide et base selon Arrhénius, Brønsted-Lowry et Lewis.</li>
+<li>Définir le concept d’acides, bases et leurs conjugués.</li>
+<li>Expliquer la notion de forces des acides et des bases en termes de dissociation.</li>
+<li>Définir la constante d’acidité K<sub>a</sub> et de basicité K<sub>b</sub>.</li>
+<li>Expliquer la notion d’autoprotolyse de l’eau et la relation entre |H<sub>3</sub>O<sup>+</sup>| et |OH<sup>-</sup>|.</li>
+</ul>
+</div>
+<p>Autour de nous, des substances présentent des propriétés acides ou basiques. Le citron, le vinaigre, le jus d’agrumes sont acides, tandis que le savon, le bicarbonate de soude, et de nombreux produits de nettoyage sont basiques. Ces propriétés, qui affectent la façon dont une substance interagit avec d’autres, sont déterminées par la présence des ions <span class="math inline">\(\ce{H}^{+}\)</span> et <span class="math inline">\(\ce{OH}^{-}\)</span> dans une solution aqueuse.</p>
+<p>Dans ce chapitre, nous allons explorer les concepts d’acides et de bases, leurs définitions selon différentes théories, ainsi que la force de ces substances en solution.</p>
+<section id="définitions" class="level2" data-number="17.1">
+<h2 data-number="17.1" class="anchored" data-anchor-id="définitions"><span class="header-section-number">17.1</span> Définitions</h2>
+<div id="tbl-acides-bases-definitions" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-acides-bases-definitions-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;17.1: Définitions des acides et des bases.
+</figcaption>
+<div aria-describedby="tbl-acides-bases-definitions-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 19%">
+<col style="width: 39%">
+<col style="width: 40%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Définition selon</th>
+<th style="text-align: center;">ACIDE</th>
+<th style="text-align: center;">BASE</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Arrhénius</td>
+<td style="text-align: center;">libère des ions H<sup>+</sup> en solution</td>
+<td style="text-align: center;">libère des ions OH<sup>-</sup> en solution</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Brønsted-Lowry</td>
+<td style="text-align: center;">donneur de H<sup>+</sup></td>
+<td style="text-align: center;">accepteur de H<sup>+</sup></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Lewis</td>
+<td style="text-align: center;">accepteur d’une paire libre</td>
+<td style="text-align: center;">donneur d’une paire libre</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<div id="tbl-acides-bases-examples" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-acides-bases-examples-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;17.2: Exemples d’acides et de bases correspondant à chaque définition.
+</figcaption>
+<div aria-describedby="tbl-acides-bases-examples-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Arrhénius</th>
+<th style="text-align: center;">Brønsted-Lowry</th>
+<th style="text-align: center;">Lewis</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><span class="math inline">\(\ce{HA -&gt; H+ + A-}\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(\ce{HCl + NH3 -&gt; NH4+ + Cl-}\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(\ce{BF3 +}\)</span>|<span class="math inline">\(\ce{NH3 -&gt; BF3\bond{&lt;-}NH3}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">acide</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><span class="math inline">\(\ce{BOH -&gt; OH- + B+}\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(\ce{HCl}\)</span> : acide</td>
+<td style="text-align: center;"><span class="math inline">\(\ce{BF3}\)</span> : acide</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">base</td>
+<td style="text-align: center;"><span class="math inline">\(\ce{NH3}\)</span> : base</td>
+<td style="text-align: center;"><span class="math inline">\(\ce{NH3}\)</span> : base</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<div class="Exercise">
+<p>On considère la réaction <span class="math inline">\(\ce{HCl + NH3 -&gt; NH4+ + Cl-}\)</span>.</p>
+<ol type="1">
+<li>Selon Brønsted-Lowry, identifiez l’acide et la base. Justifiez (donneur ou accepteur de proton). </li>
+<li>Selon Arrhénius, pourquoi <span class="math inline">\(\ce{HCl}\)</span> est-il un acide ? </li>
+<li>Selon Lewis, une base est un donneur de paire libre. Dans <span class="math inline">\(\ce{NH3}\)</span>, quel atome porte la paire libre qui agit comme base ? </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><span class="math inline">\(\ce{HCl}\)</span> est l’acide (il donne un proton <span class="math inline">\(\ce{H}^{+}\)</span>) ; <span class="math inline">\(\ce{NH3}\)</span> est la base (elle accepte ce proton).</li>
+<li>Selon Arrhénius, <span class="math inline">\(\ce{HCl}\)</span> est un acide car il libère des ions <span class="math inline">\(\ce{H}^{+}\)</span> (sous forme de <span class="math inline">\(\ce{H3O}^{+}\)</span>) en solution aqueuse.</li>
+<li>L’atome d’azote de <span class="math inline">\(\ce{NH3}\)</span> porte la paire libre (doublet non liant) : selon Lewis, <span class="math inline">\(\ce{NH3}\)</span> donne cette paire libre pour capter le proton, c’est donc une base.</li>
+</ol>
+</div>
+</section>
+<section id="couples-acide-base" class="level2" data-number="17.2">
+<h2 data-number="17.2" class="anchored" data-anchor-id="couples-acide-base"><span class="header-section-number">17.2</span> Couples acide-base</h2>
+<p>Un couple acide-base désigne deux espèces chimiques liées par un simple transfert de proton (<span class="math inline">\(\ce{H}^{+}\)</span>). Ces espèces, l’<strong>acide et sa base conjuguée</strong>, diffèrent uniquement par la présence ou l’absence de ce proton.</p>
+<p>Lors de la réaction entre l’acide chlorhydrique et l’ammoniac :</p>
+<p><span class="math display">\[
+\ce{HCl_{(aq)} + NH3_{(aq)} &lt;=&gt; NH4^{+}_{(aq)} + Cl^{-}_{(aq)}}
+\]</span></p>
+<ul>
+<li><span class="math inline">\(\ce{HCl}\)</span> agit comme un <strong>acide</strong> en donnant un proton à <span class="math inline">\(\ce{NH3}\)</span>,</li>
+<li><span class="math inline">\(\ce{NH3}\)</span> agit comme une une <strong>base</strong> en acceptant un proton de <span class="math inline">\(\ce{HCl}\)</span>.</li>
+<li><span class="math inline">\(\ce{HCl}\)</span> est l’<strong>acide</strong> et <span class="math inline">\(\ce{Cl}^{-}\)</span> est sa <strong>base conjuguée</strong>.</li>
+<li><span class="math inline">\(\ce{NH3}\)</span> est la <strong>base</strong> et <span class="math inline">\(\ce{NH4}^{+}\)</span> est son <strong>acide conjugué</strong>.</li>
+</ul>
+<div class="Exercise">
+<p>Pour chaque réaction déterminez l’acide, la base, l’acide conjugué et la base conjuguée (selon la définition de Brønsted-Lowry).</p>
+<ol type="a">
+<li><span class="math inline">\(\ce{NH3_{(aq)} + H2O_{(l)} &lt;=&gt; NH4^+_{(aq)} + OH^{-}_{(aq)}}\)</span> </li>
+<li><span class="math inline">\(\ce{HSO4^{-}_{(aq)} + H2O_{(l)} &lt;=&gt; SO4^{2-}_{(aq)} + H3O^+_{(aq)}}\)</span> </li>
+<li><span class="math inline">\(\ce{HF_{(aq)} + H2O_{(l)} &lt;=&gt; F^{-}_{(aq)} + H3O^+_{(aq)}}\)</span> </li>
+<li><span class="math inline">\(\ce{PO4^{3-}_{(aq)} + H2O_{(l)} &lt;=&gt; HPO4^{2-}_{(aq)} + OH^{-}_{(aq)}}\)</span> &lt;!–e. <span class="math inline">\(\ce{HClO_{(aq)} + H2O_{(l)} &lt;=&gt; ClO^{-}_{(aq)} + H3O^+_{(aq)}}\)</span> </li>
+<li><span class="math inline">\(\ce{CH3COO^{-}_{(aq)} + H2O_{(l)} &lt;=&gt; CH3COOH_{(aq)} + OH^{-}_{(aq)}}\)</span> –&gt;</li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="a">
+<li><span class="math display">\[ \ce{$\underset{\text{base}}{\ce{NH3_{(aq)}}}$ + $\underset{\text{acide}}{\ce{H2O_{(l)}}}$ &lt;=&gt; $\underset{\text{acide conjugué}}{\ce{NH4^+_{(aq)}}}$ + $\underset{\text{base conjuguée}}{\ce{OH^{-}_{(aq)}}}$} \]</span></li>
+<li><span class="math display">\[ \ce{$\underset{\text{acide}}{\ce{HSO4^{-}_{(aq)}}}$ + $\underset{\text{base}}{\ce{H2O_{(l)}}}$ &lt;=&gt; $\underset{\text{base conjuguée}}{\ce{SO4^{2-}_{(aq)}}}$ + $\underset{\text{acide conjugué}}{\ce{H3O^+_{(aq)}}}$} \]</span></li>
+<li><span class="math display">\[ \ce{$\underset{\text{acide}}{\ce{HF_{(aq)}}}$ + $\underset{\text{base}}{\ce{H2O_{(l)}}}$ &lt;=&gt; $\underset{\text{base conjuguée}}{\ce{F^{-}_{(aq)}}}$ + $\underset{\text{acide conjugué}}{\ce{H3O^+_{(aq)}}}$} \]</span></li>
+<li><span class="math display">\[ \ce{$\underset{\text{base}}{\ce{PO4^{3-}_{(aq)}}}$ + $\underset{\text{acide}}{\ce{H2O_{(l)}}}$ &lt;=&gt; $\underset{\text{acide conjugué}}{\ce{HPO4^{2-}_{(aq)}}}$ + $\underset{\text{base conjuguée}}{\ce{OH^{-}_{(aq)}}}$} \]</span> &lt;!–e. <span class="math display">\[ \ce{$\underset{\text{acide}}{\ce{HClO_{(aq)}}}$ + $\underset{\text{base}}{\ce{H2O_{(l)}}}$ &lt;=&gt; $\underset{\text{base conjuguée}}{\ce{ClO^{-}_{(aq)}}}$ + $\underset{\text{acide conjugué}}{\ce{H3O^+_{(aq)}}}$} \]</span></li>
+<li><span class="math display">\[ \ce{$\underset{\text{base}}{\ce{CH3COO^{-}_{(aq)}}}$ + $\underset{\text{acide}}{\ce{H2O_{(l)}}}$ &lt;=&gt; $\underset{\text{acide conjugué}}{\ce{CH3COOH_{(aq)}}}$ + $\underset{\text{base conjuguée}}{\ce{OH^{-}_{(aq)}}}$} \]</span>–&gt;</li>
+</ol>
+</div>
+<div class="Exercise">
+<p>Pour chaque espèce chimique suivante, écrivez la formule de son acide ou de sa base conjuguée, selon le cas.</p>
+<ol type="a">
+<li>Base conjuguée de <span class="math inline">\(\ce{HCN}\)</span><br>
+</li>
+<li>Acide conjugué de <span class="math inline">\(\ce{SO3}^{2-}\)</span><br>
+</li>
+<li>Base conjuguée de <span class="math inline">\(\ce{H3PO4}\)</span><br>
+</li>
+<li>Acide conjugué de <span class="math inline">\(\ce{C2H5NH2}\)</span><br>
+</li>
+<li>Base conjuguée de <span class="math inline">\(\ce{HNO2}\)</span><br>
+</li>
+<li>Acide conjugué de <span class="math inline">\(\ce{Br}^{-}\)</span></li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="a">
+<li><span class="math inline">\(\ce{CN}^{-}\)</span><br>
+</li>
+<li><span class="math inline">\(\ce{HSO3}^{-}\)</span><br>
+</li>
+<li><span class="math inline">\(\ce{H2PO4}^{-}\)</span><br>
+</li>
+<li><span class="math inline">\(\ce{C2H5NH3}^{+}\)</span><br>
+</li>
+<li><span class="math inline">\(\ce{NO2}^{-}\)</span><br>
+</li>
+<li><span class="math inline">\(\ce{HBr}\)</span></li>
+</ol>
+</div>
+</section>
+<section id="les-ampholytes" class="level2" data-number="17.3">
+<h2 data-number="17.3" class="anchored" data-anchor-id="les-ampholytes"><span class="header-section-number">17.3</span> Les ampholytes</h2>
+<p>Un <strong>ampholyte</strong>, ou une <strong>espèce amphotère</strong>, est une molécule ou un ion capable de réagir à la fois comme un acide et comme une base (donner ou accepter un proton), selon les conditions du milieu réactionnel. L’eau est l’exemple le plus courant et le plus accessible pour illustrer ce concept.</p>
+<p>En présence d’un acide plus fort, l’eau agit comme une base, acceptant un proton pour former l’ion hydronium (<span class="math inline">\(\ce{H3O}^{+}\)</span>).</p>
+<p><span class="math display">\[
+\ce{H2O_{(l)} + HCl_{(aq)} &lt;=&gt; H3O^{+}_{(aq)} + Cl^{-}_{(aq)}}
+\]</span></p>
+<p>Inversement, en présence d’une base plus forte, l’eau agit comme un acide, cédant un proton pour former l’ion hydroxyde (<span class="math inline">\(\ce{OH}^{-}\)</span>).</p>
+<p><span class="math display">\[
+\ce{H2O_{(l)} + NH3_{(aq)} &lt;=&gt; OH^{-}_{(aq)} + NH4^{+}_{(aq)}}
+\]</span></p>
+<div class="Exercise">
+<p>Donnez les équations montrant la nature acide et la nature basique de l’ion hydrogénosulfate (<span class="math inline">\(\ce{HSO4}^{-}\)</span>).</p>
+</div>
+<div class="Answer">
+<p><span class="math display">\[
+\begin{split}
+  \ce{$\underset{\text{acide}}{\ce{HSO4}^{-}}$ + H2O &lt;=&gt; SO4^{2-} + H3O+} \\
+  \ce{$\underset{\text{base}}{\ce{HSO4}^{-}}$ + H2O &lt;=&gt; H2SO4 + OH-} \\
+\end{split}
+\]</span></p>
+</div>
+<div class="Exercise">
+<p>Écrivez l’équation de la réaction d’autoprotolyse de l’eau, où une molécule d’eau réagit avec une autre.</p>
+</div>
+<div class="Answer">
+<p><span class="math display">\[
+\ce{2 H2O_{(l)} &lt;=&gt; H3O^{+}_{(aq)} + OH^{-}_{(aq)}}
+\]</span></p>
+<p>Dans cette réaction, une molécule d’eau cède un proton (agissant comme un acide de Brønsted-Lowry) et l’autre accepte ce proton (agissant comme une base de Brønsted-Lowry).</p>
+</div>
+</section>
+<section id="forces-des-acides-et-des-bases" class="level2" data-number="17.4">
+<h2 data-number="17.4" class="anchored" data-anchor-id="forces-des-acides-et-des-bases"><span class="header-section-number">17.4</span> Forces des acides et des bases</h2>
+<ul>
+<li>Un acide ou une base sera <strong>fort(e)</strong> s’il s’ionise (se dissocie) <strong>complètement</strong>.</li>
+<li>Un acide ou une base sera <strong>faible</strong> s’il ne s’ionise (se dissocie) que <strong>partiellement</strong>.</li>
+</ul>
+</section>
+<section id="acides-et-bases-fortes" class="level2" data-number="17.5">
+<h2 data-number="17.5" class="anchored" data-anchor-id="acides-et-bases-fortes"><span class="header-section-number">17.5</span> Acides et bases fort(e)s</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 49%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">ACIDE FORT</th>
+<th style="text-align: center;">BASE FORTE</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><span class="math inline">\(\ce{HA_{(aq)} + H2O_{(l)} -&gt; H3O^{+}_{(aq)} + A^{-}_{(aq)}}\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(\ce{B_{(aq)} + H2O_{(l)} -&gt; BH^{+}_{(aq)} + OH^{-}_{(aq)}}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><img src="images/acides-forts-1.png" class="img-fluid" style="width:40.0%"></td>
+<td style="text-align: center;"><img src="images/bases-fortes-1.png" class="img-fluid" style="width:40.0%"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">|H<sub>3</sub>O<sup>+</sup>| = |HA|</td>
+<td style="text-align: center;">|OH<sup>-</sup>| = |B|</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="acides-et-bases-faibles" class="level2" data-number="17.6">
+<h2 data-number="17.6" class="anchored" data-anchor-id="acides-et-bases-faibles"><span class="header-section-number">17.6</span> Acides et bases faibles</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 49%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">ACIDE FAIBLE</th>
+<th style="text-align: center;">BASE FAIBLE</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><span class="math inline">\(\ce{HA_{(aq)} + H2O_{(l)} &lt;=&gt; H3O^{+}_{(aq)} + A^{-}_{(aq)}}\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(\ce{B_{(aq)} + H2O_{(l)} &lt;=&gt; BH^{+}_{(aq)} + OH^{-}_{(aq)}}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><img src="images/acides-faibles-1.png" class="img-fluid" style="width:40.0%"></td>
+<td style="text-align: center;"><img src="images/bases-faibles-1.png" class="img-fluid" style="width:40.0%"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">|H<sub>3</sub>O<sup>+</sup>| <span class="math inline">\(\lll\)</span> |HA|</td>
+<td style="text-align: center;">|OH<sup>-</sup>| <span class="math inline">\(\lll\)</span> |B|</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Plus un acide est fort, plus sa base conjuguée sera faible</strong> et vice versa.</p>
+<p>Dans le cas d’un acide fort, complètement dissocié, sa base conjuguée est dite <strong>inerte</strong>, elle ne modifiera pas le pH.</p>
+<p>De nombreuses bases faibles contiennent un atome d’azote puisque la paire libre peut agir comme un accepteur de proton.</p>
+<div id="fig-acides-bases-3" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-acides-bases-3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/acides-bases-3.png" class="img-fluid figure-img" style="width:50.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-acides-bases-3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;17.1: Exemple de base faible azotée.
+</figcaption>
+</figure>
+</div>
+<div id="tbl-acides-bases-amines" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-acides-bases-amines-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;17.3: Exemples de bases azotées faibles.
+</figcaption>
+<div aria-describedby="tbl-acides-bases-amines-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 17%">
+<col style="width: 24%">
+<col style="width: 28%">
+<col style="width: 28%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Nom</th>
+<th style="text-align: right;">Amine</th>
+<th style="text-align: right;">Forme protonnée</th>
+<th style="text-align: right;">Exemple de sel</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">ammoniac</td>
+<td style="text-align: right;"><span class="math inline">\(\ce{NH3}\)</span></td>
+<td style="text-align: right;"><span class="math inline">\(\ce{NH4^+}\)</span></td>
+<td style="text-align: right;"><span class="math inline">\(\ce{NH4Cl}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">méthylamine</td>
+<td style="text-align: right;"><span class="math inline">\(\ce{CH3NH2}\)</span></td>
+<td style="text-align: right;"><span class="math inline">\(\ce{CH3NH3^+}\)</span></td>
+<td style="text-align: right;"><span class="math inline">\(\ce{CH3NH3Cl}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">éthylamine</td>
+<td style="text-align: right;"><span class="math inline">\(\ce{CH3CH2NH2}\)</span></td>
+<td style="text-align: right;"><span class="math inline">\(\ce{CH3CH2NH3^+}\)</span></td>
+<td style="text-align: right;"><span class="math inline">\(\ce{CH3CH2NH3Cl}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">phénylamine</td>
+<td style="text-align: right;"><span class="math inline">\(\ce{C6H5NH2}\)</span></td>
+<td style="text-align: right;"><span class="math inline">\(\ce{C6H5NH3^+}\)</span></td>
+<td style="text-align: right;"><span class="math inline">\(\ce{C6H5NH3Cl}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">diméthylamine</td>
+<td style="text-align: right;"><span class="math inline">\(\ce{(CH3)2NH}\)</span></td>
+<td style="text-align: right;"><span class="math inline">\(\ce{(CH3)2NH2^+}\)</span></td>
+<td style="text-align: right;"><span class="math inline">\(\ce{(CH3)2NH2Cl}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">diéthylamine</td>
+<td style="text-align: right;"><span class="math inline">\(\ce{(CH3CH2)2NH}\)</span></td>
+<td style="text-align: right;"><span class="math inline">\(\ce{(CH3CH2)2NH2^+}\)</span></td>
+<td style="text-align: right;"><span class="math inline">\(\ce{(CH3CH2)2NH2Cl}\)</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+<section id="constante-dacidité-ka-et-constante-de-basicité-kb" class="level2" data-number="17.7">
+<h2 data-number="17.7" class="anchored" data-anchor-id="constante-dacidité-ka-et-constante-de-basicité-kb"><span class="header-section-number">17.7</span> Constante d’acidité K<sub>a</sub> et constante de basicité K<sub>b</sub></h2>
+<p>Considérons l’équation générique d’ionisation d’un acide faible&nbsp;:</p>
+<p><span class="math display">\[
+\ce{HA_{(aq)} + H2O_{(l)} &lt;=&gt; H3O^{+}_{(aq)} + A^{-}_{(aq)}}
+\]</span></p>
+<p>La constante d’équilibre de cette réaction s’exprime par la relation suivante&nbsp;:</p>
+<p><span class="math display">\[
+K_a = \frac{|\ce{H3O}^{+}| \cdot |\ce{A}^{-}|}{|\ce{HA}|} =  \frac{|\ce{H}^{+}| \cdot |\ce{A}^{-}|}{|\ce{HA}|}
+\]</span></p>
+<p>Dans le cas des acides faibles, cette constante est appelée <strong>constante d’acidité (K<sub>a</sub>)</strong> et donne une valeur à la force de ces acides.</p>
+<p>Plus la constante est <strong>petite</strong>, plus l’équilibre est déplacé vers la <strong>gauche</strong> et plus l’acide est <strong>faible</strong>.</p>
+<p>Considérons l’équation générique d’ionisation d’une <strong>base faible</strong>&nbsp;:</p>
+<p><span class="math display">\[
+\ce{B_{(aq)} + H2O_{(l)} &lt;=&gt; BH^{+}_{(aq)} + OH^{-}_{(aq)}}
+\]</span></p>
+<p>La constante d’équilibre de cette réaction s’exprime par la relation suivante&nbsp;:</p>
+<p><span class="math display">\[
+K_b = \frac{|\ce{BH}^{+}| \cdot |\ce{OH}^{-}|}{|\ce{B}|}
+\]</span></p>
+<p>Cette constante est appelée <strong>constante de basicité (K<sub>b</sub>)</strong> et donne une valeur à la force des bases faibles.</p>
+<p>Plus la constante est <strong>petite</strong>, plus l’équilibre est déplacé vers la <strong>gauche</strong> et plus la base est <strong>faible</strong>.</p>
+<p>Les valeurs numériques des constantes d’acidité (K<sub>a</sub>) et de basicité (K<sub>b</sub>) pour de nombreux acides et bases courants sont généralement compilées et présentées dans des tables de données de référence.</p>
+<div class="Exercise">
+<p>Déterminez si chacun des composés ci-dessous est un acide ou une base fort(e) ou faible. Pour les acides ou les bases faibles, donnez également l’expression de la constante d’acidité (K<sub>a</sub>) ou de basicité (K<sub>b</sub>) :</p>
+<ol type="a">
+<li><span class="math inline">\(\ce{HI}\)</span> </li>
+<li><span class="math inline">\(\ce{NaOH}\)</span> </li>
+<li><span class="math inline">\(\ce{HF}\)</span> </li>
+<li><span class="math inline">\(\ce{NH3}\)</span> </li>
+<li><span class="math inline">\(\ce{H2SO4}\)</span> </li>
+<li><span class="math inline">\(\ce{HSO4}^{-}\)</span> </li>
+<li><span class="math inline">\(\ce{C5H5N}\)</span> (pyridine) </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="a">
+<li><span class="math inline">\(\ce{HI}\)</span> : acide fort</li>
+<li><span class="math inline">\(\ce{NaOH}\)</span> : base forte</li>
+<li><span class="math inline">\(\ce{HF}\)</span> : acide faible ; <span class="math inline">\(K_a = \frac{|\ce{F}^{-}| \cdot |\ce{H3O}^{+}|}{|\ce{HF}|}\)</span></li>
+<li><span class="math inline">\(\ce{NH3}\)</span> : base faible ; <span class="math inline">\(K_b = \frac{|\ce{NH4}^{+}| \cdot |\ce{OH}^{-}|}{|\ce{NH3}|}\)</span></li>
+<li><span class="math inline">\(\ce{H2SO4}\)</span> : acide fort (pour la première déprotonation)</li>
+<li><span class="math inline">\(\ce{HSO4}^{-}\)</span> : acide faible ; <span class="math inline">\(K_a = \frac{|\ce{SO4}^{2-}| \cdot |\ce{H3O}^{+}|}{|\ce{HSO4}^{-}|}\)</span></li>
+<li><span class="math inline">\(\ce{C5H5N}\)</span> : base faible ; <span class="math inline">\(K_b = \frac{|\ce{C5H5NH}^{+}| \cdot |\ce{OH}^{-}|}{|\ce{C5H5N}|}\)</span></li>
+</ol>
+</div>
+<!--{{< include exe/acides-bases/50.qmd >}}-->
+<div class="Exercise">
+<p>En vous basant sur la force relative des acides, classez les solutions suivantes par ordre de force d’acidité croissante.</p>
+<ol type="a">
+<li>Acide nitrique 0.1 M<br>
+</li>
+<li>Acide fluorhydrique 0.1 M<br>
+</li>
+<li>Acide formique 0.1 M<br>
+</li>
+<li>Acide hypochloreux 0.1 M</li>
+</ol>
+</div>
+<div class="Answer">
+<ul>
+<li>Acide hypochloreux (<span class="math inline">\(\ce{HClO}\)</span>) : <span class="math inline">\(K_a = 3.63 \cdot 10^{-8}\)</span><br>
+</li>
+<li>Acide formique (<span class="math inline">\(\ce{HCOOH}\)</span>) : <span class="math inline">\(K_a = 1.78 \cdot 10^{-4}\)</span><br>
+</li>
+<li>Acide fluorhydrique (<span class="math inline">\(\ce{HF}\)</span>) : <span class="math inline">\(K_a = 6.76 \cdot 10^{-4}\)</span><br>
+</li>
+<li>Acide nitrique (<span class="math inline">\(\ce{HNO3}\)</span>) : Acide fort (K<sub>a</sub> &gt;&gt; 1)</li>
+</ul>
+<p><span class="math display">\[\ce{HClO} &lt; \ce{HCOOH} &lt; \ce{HF} &lt; \ce{HNO3}\]</span></p>
+</div>
+<div class="Exercise">
+<p>En vous basant sur la force des acides conjugués, déterminez quelle est la base la plus forte dans chacune des paires suivantes :</p>
+<ol type="a">
+<li><span class="math inline">\(\ce{CH3COO}^{-}\)</span> et <span class="math inline">\(\ce{HCOO}^{-}\)</span><br>
+</li>
+<li><span class="math inline">\(\ce{SO4}^{2-}\)</span> et <span class="math inline">\(\ce{ClO4}^{-}\)</span><br>
+</li>
+<li><span class="math inline">\(\ce{PO4}^{3-}\)</span> et <span class="math inline">\(\ce{CO3}^{2-}\)</span><br>
+</li>
+<li><span class="math inline">\(\ce{I}^{-}\)</span> et <span class="math inline">\(\ce{Cl}^{-}\)</span></li>
+</ol>
+</div>
+<div class="Answer">
+<p>Rappel : plus l’acide conjugué est faible, plus la base est forte.</p>
+<ol type="a">
+<li><span class="math inline">\(\ce{CH3COO}^{-}\)</span> et <span class="math inline">\(\ce{HCOO}^{-}\)</span> : <span class="math inline">\(\ce{CH3COO}^{-}\)</span> est la base la plus forte (<span class="math inline">\(K_a(\ce{CH3COOH}) &lt; K_a(\ce{HCOOH})\)</span>).</li>
+<li><span class="math inline">\(\ce{SO4}^{2-}\)</span> et <span class="math inline">\(\ce{ClO4}^{-}\)</span> : <span class="math inline">\(\ce{SO4}^{2-}\)</span> est la base la plus forte (<span class="math inline">\(\ce{ClO4}^{-}\)</span> est la base conjuguée d’un acide fort, elle est donc inerte).</li>
+<li><span class="math inline">\(\ce{PO4}^{3-}\)</span> et <span class="math inline">\(\ce{CO3}^{2-}\)</span> : <span class="math inline">\(\ce{PO4}^{3-}\)</span> est la base la plus forte (<span class="math inline">\(K_a(\ce{HPO4}^{2-}) &lt; K_a(\ce{HCO3}^{-})\)</span>).</li>
+<li><span class="math inline">\(\ce{I}^{-}\)</span> et <span class="math inline">\(\ce{Cl}^{-}\)</span> : les deux sont des bases inertes (spectateurs), car leurs acides conjugués <span class="math inline">\(\ce{HI}\)</span> et <span class="math inline">\(\ce{HCl}\)</span> sont des acides forts.</li>
+</ol>
+</div>
+<!--{{< include exe/acides-bases/90.qmd >}}-->
+</section>
+<section id="autoprotolyse-de-leau" class="level2" data-number="17.8">
+<h2 data-number="17.8" class="anchored" data-anchor-id="autoprotolyse-de-leau"><span class="header-section-number">17.8</span> Autoprotolyse de l’eau</h2>
+<p>L’eau est une molécule amphotère, elle peut jouer à la fois le rôle d’acide et de base. Dans de l’eau pure, deux molécules d’eau peuvent réagir entre-elles, l’une agissant comme un acide et l’autre comme une base&nbsp;:</p>
+<p><span class="math display">\[
+\ce{H2O_{(l)} + H2O_{(l)} &lt;=&gt; H3O+_{(aq)} + OH^{-}_{(aq)}}
+\]</span></p>
+<p>Cette réaction est appelée <strong>autoprotolyse</strong>. C’est réaction est réversible, on peut en exprimer la constante d’équilibre K<sub>e</sub>, appelée <strong>produit ionique de l’eau</strong> :</p>
+<p><span class="math display">\[
+K_e = |\ce{H3O}^{+}| \cdot |\ce{OH}^{-}| = 10^{-14} \quad \text{(valeur à 25°C)}
+\]</span></p>
+<p>Cette relation relie les concentrations des ions H<sub>3</sub>O<sup>+</sup> et OH<sup>-</sup> dans toutes les solutions aqueuses. Elle permet également de calculer la concentration des ions H<sub>3</sub>O<sup>+</sup> dans une solution basique, car&nbsp;:</p>
+<p><span class="math display">\[
+|\ce{H3O}^{+}| = \frac{10^{-14}}{|\ce{OH}^{-}|}
+\]</span></p>
+<p>En résumé&nbsp;:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 47%">
+<col style="width: 52%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Dans de l’eau pure</td>
+<td style="text-align: center;">|<span class="math inline">\(\ce{H3O}^{+}\)</span>| = |<span class="math inline">\(\ce{OH}^{-}\)</span>| = <span class="math inline">\(10^{-7} M\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Dans une solution acide</td>
+<td style="text-align: center;">|<span class="math inline">\(\ce{H3O}^{+}\)</span>| &gt; |<span class="math inline">\(\ce{OH}^{-}\)</span>|</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Dans une solution basique</td>
+<td style="text-align: center;">|<span class="math inline">\(\ce{H3O}^{+}\)</span>| &lt; |<span class="math inline">\(\ce{OH}^{-}\)</span>|</td>
+</tr>
+</tbody>
+</table>
+<div class="Exercise">
+<ol type="a">
+<li>Quelle est la concentration en ions <span class="math inline">\(\ce{H3O}^{+}\)</span> dans une solution d’acide perchlorique (<span class="math inline">\(\ce{HClO4}\)</span>) de 0.025 mol/L ? </li>
+<li>Comment cette concentration varie-t-elle dans une solution d’acide hypochloreux (<span class="math inline">\(\ce{HClO}\)</span>) de 0.025 mol/L ? <em>(une réponse qualitative est attendue)</em> </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="a">
+<li>L’acide perchlorique (<span class="math inline">\(\ce{HClO4}\)</span>) est un acide fort. Il se dissocie donc complètement en solution. La concentration en ions <span class="math inline">\(\ce{H3O}^{+}\)</span> est égale à la concentration initiale de l’acide. <span class="math display">\[ |\ce{H3O}^{+}| = 0.025\text{ M} \]</span><br>
+</li>
+<li>L’acide hypochloreux (<span class="math inline">\(\ce{HClO}\)</span>) est un acide faible. Il ne se dissocie que partiellement. Par conséquent, la concentration en ions <span class="math inline">\(\ce{H3O}^{+}\)</span> sera inférieure à la concentration initiale de l’acide. <span class="math display">\[ |\ce{H3O}^{+}| &lt; 0.025\text{ M} \]</span></li>
+</ol>
+</div>
+<div class="Exercise">
+<p>En considérant que les deux protons de l’acide sulfurique sont entièrement dissociés, quelle est la concentration des H<sub>3</sub>O<sup>+</sup> et de OH<sup>-</sup> dans une solution d’acide sulfurique 0.005 M. </p>
+</div>
+<div class="Answer">
+<p><span class="math display">\[
+\begin{split}
+\ce{H2SO4 + 2 H2O &lt;=&gt; 2 H3O+ + SO4^{2-}}
+\end{split}
+\qquad
+\begin{split}
+C_{initial}^{\ce{H2SO4}} &amp;= 0.005\ M \\[1em]
+C_{final}^{\ce{H2SO4}} &amp;= 0\ M
+\end{split}
+\qquad
+\begin{split}
+C_{initial}^{\ce{H3O}^{+}} &amp;= 0\ M \\[1em]
+C_{final}^{\ce{H3O}^{+}} &amp;= 0.010\ M
+\end{split}
+\]</span> <span class="math display">\[
+\begin{split}
+|\ce{H3O}^{+}| = 10^{-2}\ M
+\end{split}
+\quad \text{et} \quad
+\begin{split}
+|\ce{OH}^{-}| = \frac{10^{-14}}{10^{-2}} = 10^{-12}\ M
+\end{split}
+\]</span></p>
+</div>
+<div class="Exercise">
+<p>Calculez la concentration des ions H<sub>3</sub>O<sup>+</sup> dans une solution de LiOH 0.025 M. </p>
+</div>
+<div class="Answer">
+<p><span class="math display">\[
+\begin{split}
+&amp;|\ce{OH}^{-}| = 0.025\ M \\
+&amp;\text{LiOH est une base forte.}
+\end{split}
+\qquad
+\begin{split}
+|\ce{H3O}^{+}| = \frac{K_e}{|\ce{OH}^{-}|} = \frac{10^{-14}}{0.025} = 4 \cdot 10^{-13} M
+\end{split}
+\]</span></p>
+</div>
+</section>
+<section id="résumé" class="level2" data-number="17.9">
+<h2 data-number="17.9" class="anchored" data-anchor-id="résumé"><span class="header-section-number">17.9</span> Résumé</h2>
+<ul>
+<li>Trois définitions des acides et des bases. Selon Arrhénius : un acide libère des ions <span class="math inline">\(\ce{H}^{+}\)</span>, une base des ions <span class="math inline">\(\ce{OH}^{-}\)</span> en solution. Selon Brønsted-Lowry : un acide est un donneur de proton, une base un accepteur de proton. Selon Lewis : un acide est un accepteur de paire libre, une base un donneur de paire libre.</li>
+<li>Un couple acide-base est formé d’un acide et de sa base conjuguée, qui ne diffèrent que d’un proton <span class="math inline">\(\ce{H}^{+}\)</span>. Une espèce amphotère (ampholyte), comme l’eau, peut se comporter en acide ou en base selon le milieu.</li>
+<li>Un acide (ou une base) est fort s’il se dissocie complètement, faible s’il ne se dissocie que partiellement. Plus un acide est fort, plus sa base conjuguée est faible ; la base conjuguée d’un acide fort est inerte.</li>
+<li>La force d’un acide faible se mesure par la constante d’acidité <span class="math inline">\(K_a\)</span>, celle d’une base faible par la constante de basicité <span class="math inline">\(K_b\)</span>. Plus la constante est petite, plus l’acide (ou la base) est faible.</li>
+<li>L’eau subit une autoprotolyse : <span class="math inline">\(\ce{2 H2O &lt;=&gt; H3O+ + OH-}\)</span>, de constante <span class="math inline">\(K_e = |\ce{H3O}^{+}| \cdot |\ce{OH}^{-}| = 10^{-14}\)</span> à 25°C. Dans l’eau pure <span class="math inline">\(|\ce{H3O}^{+}| = |\ce{OH}^{-}| = 10^{-7}\)</span> M.</li>
+</ul>
+</section>
+<section id="exercices-supplémentaires" class="level2" data-number="17.10">
+<h2 data-number="17.10" class="anchored" data-anchor-id="exercices-supplémentaires"><span class="header-section-number">17.10</span> Exercices supplémentaires</h2>
+<div class="Exercise">
+<p>L’ion dihydrogénophosphate <span class="math inline">\(\ce{H2PO4}^{-}\)</span> est amphotère.</p>
+<ol type="1">
+<li>Écrivez l’équation où <span class="math inline">\(\ce{H2PO4}^{-}\)</span> se comporte comme un acide (avec l’eau) et donnez sa base conjuguée. </li>
+<li>Écrivez l’équation où <span class="math inline">\(\ce{H2PO4}^{-}\)</span> se comporte comme une base (avec l’eau) et donnez son acide conjugué. </li>
+<li>Donnez l’expression de la constante d’acidité <span class="math inline">\(K_a\)</span> et de la constante de basicité <span class="math inline">\(K_b\)</span> correspondant à ces deux réactions. </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>Comme acide : <span class="math inline">\(\ce{H2PO4- + H2O &lt;=&gt; HPO4^{2-} + H3O+}\)</span>. Base conjuguée : <span class="math inline">\(\ce{HPO4}^{2-}\)</span>.</li>
+<li>Comme base : <span class="math inline">\(\ce{H2PO4- + H2O &lt;=&gt; H3PO4 + OH-}\)</span>. Acide conjugué : <span class="math inline">\(\ce{H3PO4}\)</span>.</li>
+<li><span class="math display">\[
+K_a = \frac{|\ce{HPO4}^{2-}| \cdot |\ce{H3O}^{+}|}{|\ce{H2PO4}^{-}|}
+\qquad
+K_b = \frac{|\ce{H3PO4}| \cdot |\ce{OH}^{-}|}{|\ce{H2PO4}^{-}|}
+\]</span></li>
+</ol>
+</div>
+<div class="Exercise">
+<p>On donne les constantes d’acidité : acide acétique <span class="math inline">\(\ce{CH3COOH}\)</span> (<span class="math inline">\(K_a = 1.8\cdot10^{-5}\)</span>), acide fluorhydrique <span class="math inline">\(\ce{HF}\)</span> (<span class="math inline">\(K_a = 6.8\cdot10^{-4}\)</span>), acide cyanhydrique <span class="math inline">\(\ce{HCN}\)</span> (<span class="math inline">\(K_a = 6.2\cdot10^{-10}\)</span>).</p>
+<ol type="1">
+<li>Classez ces trois acides du plus faible au plus fort. </li>
+<li>Classez leurs bases conjuguées de la plus faible à la plus forte. </li>
+<li>Parmi ces acides, lequel se dissocie le plus en solution ? Justifiez. </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>Plus <span class="math inline">\(K_a\)</span> est petit, plus l’acide est faible : <span class="math display">\[
+\ce{HCN} &lt; \ce{CH3COOH} &lt; \ce{HF}
+\]</span></li>
+<li>Plus un acide est fort, plus sa base conjuguée est faible. Des bases conjuguées de la plus faible à la plus forte : <span class="math display">\[
+\ce{F}^{-} &lt; \ce{CH3COO}^{-} &lt; \ce{CN}^{-}
+\]</span></li>
+<li>L’acide fluorhydrique <span class="math inline">\(\ce{HF}\)</span> : il possède le plus grand <span class="math inline">\(K_a\)</span>, son équilibre de dissociation est le plus déplacé vers la droite, il se dissocie donc le plus.</li>
+</ol>
+</div>
+<div class="Exercise">
+<p>On rappelle qu’à 25°C, <span class="math inline">\(|\ce{H3O}^{+}| \cdot |\ce{OH}^{-}| = 10^{-14}\)</span>. Pour chacune des solutions suivantes, calculez la concentration manquante (<span class="math inline">\(|\ce{H3O}^{+}|\)</span> ou <span class="math inline">\(|\ce{OH}^{-}|\)</span>) et indiquez si la solution est acide, neutre ou basique.</p>
+<ol type="a">
+<li><span class="math inline">\(|\ce{H3O}^{+}| = 10^{-3}\)</span> M </li>
+<li><span class="math inline">\(|\ce{OH}^{-}| = 10^{-5}\)</span> M </li>
+<li><span class="math inline">\(|\ce{H3O}^{+}| = 10^{-7}\)</span> M </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="a">
+<li><span class="math inline">\(|\ce{OH}^{-}| = \dfrac{10^{-14}}{10^{-3}} = 10^{-11}\)</span> M. Comme <span class="math inline">\(|\ce{H3O}^{+}| &gt; |\ce{OH}^{-}|\)</span>, la solution est acide.</li>
+<li><span class="math inline">\(|\ce{H3O}^{+}| = \dfrac{10^{-14}}{10^{-5}} = 10^{-9}\)</span> M. Comme <span class="math inline">\(|\ce{H3O}^{+}| &lt; |\ce{OH}^{-}|\)</span>, la solution est basique.</li>
+<li><span class="math inline">\(|\ce{OH}^{-}| = \dfrac{10^{-14}}{10^{-7}} = 10^{-7}\)</span> M. Comme <span class="math inline">\(|\ce{H3O}^{+}| = |\ce{OH}^{-}|\)</span>, la solution est neutre.</li>
+</ol>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script src="html/vendor/jquery-3.7.1.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+
+    var exeContainerClass = 'Exercise-container';
+    var exeClass = 'Exercise';
+    var ansClass = 'Answer';
+
+    $('.' + exeContainerClass).each(function(i, el) {
+      let child = $(el).children('.' + exeClass);
+      child.replaceWith(child.html());
+      $(el).removeClass(exeContainerClass).addClass(exeClass);
+    });
+
+    var chapterNum = $('.quarto-page-breadcrumbs .chapter-number').first().text().trim();
+
+    $('.' + exeClass).each(function(i, el) {
+      var num = chapterNum + '.' + (i + 1);
+      var title = $('<div>Exercice ' + num + '</div>');
+      title.addClass('Label');
+      $(el).prepend(title);
+    });
+
+    $('.' + ansClass).each(function(i, el) {
+      $(el).click(function() {
+        $(el).slideToggle();
+      });
+      var button = $('<button>Solution</button>');
+      button.attr('type', 'button');
+      button.addClass('Answer-button');
+      button.click(function() {
+        $(el).slideToggle();
+      });
+      button.insertBefore(el);
+    });
+
+  });
+</script>
+<script type="text/javascript">
+  $(document).ready(function () {
+    $("main.content table, main.content .math.display").each(function (i, el) {
+      let parent = $("<div>").attr("style", "overflow-x:auto");
+      $(el).wrap(parent);
+    });
+  });
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copié");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copié");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./160-equilibres.html" class="pagination-link" aria-label="L'équilibre chimique">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">L’équilibre chimique</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./180-ph-potentiel-hydrogene.html" class="pagination-link" aria-label="Le pH ou potentiel hydrogène">
+        <span class="nav-page-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Le pH ou potentiel hydrogène</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

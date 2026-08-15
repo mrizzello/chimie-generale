@@ -1,0 +1,1663 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Support du cours de chimie générale | Maturité gymnasiale">
+
+<title>22&nbsp; Thermochimie – Cours de chimie générale</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./230-thermodynamique.html" rel="next">
+<link href="./210-electrochimie.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-05ad7de8ae34bb1016f06e23b5e9a5a9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Pas de résultats",
+    "search-matching-documents-text": "documents trouvés",
+    "search-copy-link-title": "Copier le lien vers la recherche",
+    "search-hide-matches-text": "Cacher les correspondances additionnelles",
+    "search-more-match-text": "correspondance de plus dans ce document",
+    "search-more-matches-text": "correspondances de plus dans ce document",
+    "search-clear-button-title": "Effacer",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Annuler",
+    "search-submit-button-title": "Envoyer",
+    "search-label": "Recherche"
+  }
+}</script>
+<script>
+window.MathJax = {
+  loader: { load: ['[tex]/mhchem', '[tex]/cancel'] },
+  tex: { packages: { '[+]': ['mhchem', 'cancel'] } }
+};
+</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="nav-sidebar docked quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./220-thermochimie.html"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Thermochimie</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Recherche" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Cours de chimie générale</a> 
+        <div class="sidebar-tools-main">
+    <a href="./chimie-generale.pdf" title="Télécharger le PDF" class="quarto-navigation-tool px-1" aria-label="Télécharger le PDF" target="_blank"><i class="bi bi-file-earmark-pdf"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Recherche"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Préambule</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./10-introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./20-etats-de-la-matiere.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Les états de la matière</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./30-melanges-corps-purs.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Mélanges et corps purs</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./40-historique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Historique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./50-atome.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">L’atome</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./60-tableau-periodique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Le tableau périodique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./70-liaisons.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Molécules et liaisons chimiques</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./80-molecules.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Géométrie moléculaire et polarité</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./90-nomenclature.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Nomenclature</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./100-solutions-electrolytes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Solutions et électrolytes</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./110-reactions-chimiques.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Réactions chimiques</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./120-types-reactions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Types de réactions</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./130-stoechiometrie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Calculs stœchiométriques</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./140-gaz-parfaits.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Les gaz parfaits</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./150-cinetique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Cinétique chimique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./160-equilibres.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">L’équilibre chimique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./170-acides-bases.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Les acides et les bases</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./180-ph-potentiel-hydrogene.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Le pH ou potentiel hydrogène</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./190-produit-solubilite.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Le produit de solubilité</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./200-oxydoreductions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Les réactions d’oxydoréduction</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./210-electrochimie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Électrochimie</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./220-thermochimie.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Thermochimie</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./230-thermodynamique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Thermodynamique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./00-references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bibliographie</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table des matières</h2>
+   
+  <ul>
+  <li><a href="#énergie" id="toc-énergie" class="nav-link active" data-scroll-target="#énergie"><span class="header-section-number">22.1</span> Énergie</a></li>
+  <li><a href="#système-et-environnement" id="toc-système-et-environnement" class="nav-link" data-scroll-target="#système-et-environnement"><span class="header-section-number">22.2</span> Système et environnement</a></li>
+  <li><a href="#première-loi-de-la-thermodynamique" id="toc-première-loi-de-la-thermodynamique" class="nav-link" data-scroll-target="#première-loi-de-la-thermodynamique"><span class="header-section-number">22.3</span> Première loi de la thermodynamique</a></li>
+  <li><a href="#calorimétrie" id="toc-calorimétrie" class="nav-link" data-scroll-target="#calorimétrie"><span class="header-section-number">22.4</span> Calorimétrie</a>
+  <ul class="collapse">
+  <li><a href="#le-calorimètre" id="toc-le-calorimètre" class="nav-link" data-scroll-target="#le-calorimètre"><span class="header-section-number">22.4.1</span> Le calorimètre</a></li>
+  </ul></li>
+  <li><a href="#réactions-exothermiques-et-endothermiques" id="toc-réactions-exothermiques-et-endothermiques" class="nav-link" data-scroll-target="#réactions-exothermiques-et-endothermiques"><span class="header-section-number">22.5</span> Réactions exothermiques et endothermiques</a></li>
+  <li><a href="#lenthalpie-h-et-la-variation-denthalpie-delta-h" id="toc-lenthalpie-h-et-la-variation-denthalpie-delta-h" class="nav-link" data-scroll-target="#lenthalpie-h-et-la-variation-denthalpie-delta-h"><span class="header-section-number">22.6</span> L’enthalpie (<span class="math inline">\(H\)</span>) et la variation d’enthalpie (<span class="math inline">\(\Delta H\)</span>)</a></li>
+  <li><a href="#échanges-de-chaleur-et-réactions-chimiques" id="toc-échanges-de-chaleur-et-réactions-chimiques" class="nav-link" data-scroll-target="#échanges-de-chaleur-et-réactions-chimiques"><span class="header-section-number">22.7</span> Échanges de chaleur et réactions chimiques</a>
+  <ul class="collapse">
+  <li><a href="#bilan-énergétique-dune-réaction" id="toc-bilan-énergétique-dune-réaction" class="nav-link" data-scroll-target="#bilan-énergétique-dune-réaction"><span class="header-section-number">22.7.1</span> Bilan énergétique d’une réaction</a></li>
+  </ul></li>
+  <li><a href="#la-variation-denthalpie-standard-delta-ho" id="toc-la-variation-denthalpie-standard-delta-ho" class="nav-link" data-scroll-target="#la-variation-denthalpie-standard-delta-ho"><span class="header-section-number">22.8</span> La variation d’enthalpie standard (<span class="math inline">\(\Delta H^o\)</span>)</a></li>
+  <li><a href="#la-loi-de-hess" id="toc-la-loi-de-hess" class="nav-link" data-scroll-target="#la-loi-de-hess"><span class="header-section-number">22.9</span> La loi de Hess</a>
+  <ul class="collapse">
+  <li><a href="#enthalpie-de-formation-et-enthalpies-de-réaction" id="toc-enthalpie-de-formation-et-enthalpies-de-réaction" class="nav-link" data-scroll-target="#enthalpie-de-formation-et-enthalpies-de-réaction"><span class="header-section-number">22.9.1</span> Enthalpie de formation et enthalpies de réaction</a></li>
+  </ul></li>
+  <li><a href="#résumé" id="toc-résumé" class="nav-link" data-scroll-target="#résumé"><span class="header-section-number">22.10</span> Résumé</a></li>
+  <li><a href="#exercices-supplémentaires" id="toc-exercices-supplémentaires" class="nav-link" data-scroll-target="#exercices-supplémentaires"><span class="header-section-number">22.11</span> Exercices supplémentaires</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Thermochimie</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="objectives">
+<ul>
+<li>Définir les notions d’énergie, de travail et de chaleur.</li>
+<li>Énoncer la loi de la conservation de l’énergie ainsi que la première loi de la thermodynamique.</li>
+<li>Utilisez la capacité thermique pour calculer des pertes ou des gains de chaleur.</li>
+<li>Décrire le fonctionnement d’un calorimètre.</li>
+<li>Définir les notions d’enthalpie et de variation d’enthalpie.</li>
+<li>Décrire comment la quantité de chaleur d’une réaction est reliée aux quantités de substances.</li>
+<li>Décrire comment l’enthaplie de réaction est reliée à l’exo/endo-thermie.</li>
+<li>Calculer les variations d’enthalpie en utilisant les énergies de liaison.</li>
+<li>Utiliser la loi de Hess pour déduire la valeur d’une enthalpie inconnue.</li>
+</ul>
+</div>
+<p>L’énergie est à l’origine de toute transformation physique ou chimique. Aussi bien dans la transformation d’énergie lumineuse en énergie chimique lors de la photosynthèse, ou encore la libération d’énergie sous forme de lumière et de chaleur lors de la combustion d’une bûche, l’énergie rend la vie possible.</p>
+<p>La thermodynamique est l’étude de l’énergie et de ses transformations. Dans ce chapitre, nous allons nous concentrer sur la thermochimie, c’est-à-dire les transferts d’énergie, et en particulier de chaleur, au cours des réactions chimiques.</p>
+<section id="énergie" class="level2" data-number="22.1">
+<h2 data-number="22.1" class="anchored" data-anchor-id="énergie"><span class="header-section-number">22.1</span> Énergie</h2>
+<div class="tcolorbox">
+<p><strong>Énergie</strong><br>
+Capacité à fournir un travail ou à transférer de la chaleur.</p>
+</div>
+<p>Contrairement à la matière, l’énergie n’a pas de masse et ne peut être tenue dans nos mains, mais ses effets peuvent être observés et mesurés. L’énergie est une grandeur physique qui caractérise l’état d’un système et qui, de manière globale, est conservée au cours des transformations. <strong>Le travail</strong> est l’énergie utilisée pour déplacer un objet contre une force et <strong>la chaleur</strong> est l’énergie utilisée pour faire augmenter la température d’un objet.</p>
+<p>En chimie, le travail est défini comme une transfert d’énergie, résultant d’une transformation.</p>
+<p>Un objet peut posséder de l’énergie sous différentes formes :</p>
+<ul>
+<li>l’énergie cinétique, qui est l’énergie due au mouvement de l’objet,</li>
+<li>l’énergie potentielle, qui est l’énergie qu’un objet possède en vertu de sa position par rapport à d’autres objets,</li>
+<li>L’énergie de radiation, qui est l’énergie des ondes électromagnétiques,</li>
+<li>L’énergie thermique, associée au mouvement aléatoire des atomes et des molécules,</li>
+<li>L’énergie chimique, stockée dans les liaisons des composés chimiques.</li>
+</ul>
+<p>L’unité du Système International de l’énergie est le joule (J) : <span class="math inline">\(1 \text{ J} = 1 \mathrm{kg \cdot m^2 / s^2} = 1 \text{ N/m}\)</span>. Une autre unité d’énergie courante est la calorie (cal), définie comme la quantité d’énergie nécessaire pour augmenter de 1°C la température de 1 gramme d’eau : <strong>1 cal = 4.184 J</strong>.</p>
+</section>
+<section id="système-et-environnement" class="level2" data-number="22.2">
+<h2 data-number="22.2" class="anchored" data-anchor-id="système-et-environnement"><span class="header-section-number">22.2</span> Système et environnement</h2>
+<p>Lorsque nous étudions les transferts d’énergie, nous devons nous concentrer sur une partie limitée et bien définie de l’univers. La partie isolée pour être étudiée est appelée <strong>le système</strong>, tout le reste est appelé <strong>l’environnement</strong>. Lorsque l’on étudie les transferts d’énergie qui accompagnent une réaction chimique, les réactifs et les produits constituent le système. Le récipient et tout ce qui se trouve au-delà sont considérés comme l’environnement.</p>
+<p>Un système peut être ouvert, fermé ou isolé.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 26%">
+<col style="width: 73%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Un système est <strong>ouvert</strong></td>
+<td style="text-align: left;">S’il permet des échanges d’énergie et de matière avec l’environnement.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Un système est <strong>fermé</strong></td>
+<td style="text-align: left;">S’il peut échanger de l’énergie mais pas de matière avec l’environnement</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Un système est <strong>isolé</strong></td>
+<td style="text-align: left;">s’il ne peut échanger ni matière, ni énergie avec l’environnement</td>
+</tr>
+</tbody>
+</table>
+<p>L’énergie peut être transférée entre le système et l’environnement sous forme de travail ou de chaleur.</p>
+<ul>
+<li>Le <strong>travail</strong> est l’action d’une force qui agit sur un objet à distance pour le déplacer.</li>
+<li>La <strong>chaleur</strong> est l’énergie qui est transférée d’un objet plus chaud à un objet plus froid.</li>
+</ul>
+<p>Presque toutes les réactions chimiques absorbent ou libèrent de l’énergie, généralement sous forme de chaleur.</p>
+<ul>
+<li>La chaleur peut être transmise,<br>
+<em>(d’une substance qui est chaude vers une substance qui est froide.)</em></li>
+<li>La chaleur peut être absorbée.</li>
+<li>La chaleur peut être libérée.</li>
+</ul>
+<p>La température et la chaleur ne sont pas la même chose :</p>
+<ul>
+<li>La <strong>température</strong> est une mesure du degré d’agitation moyen des particules d’une substance.</li>
+<li>La <strong>chaleur</strong> est la quantité d’énergie qui est transferée lors d’une transformation.</li>
+</ul>
+</section>
+<section id="première-loi-de-la-thermodynamique" class="level2" data-number="22.3">
+<h2 data-number="22.3" class="anchored" data-anchor-id="première-loi-de-la-thermodynamique"><span class="header-section-number">22.3</span> Première loi de la thermodynamique</h2>
+<div class="tcolorbox">
+<p><strong>Loi de la conservation de l’énergie</strong><br>
+Lors d’un changement physique ou chimique, il n’y a pas de création ou de destruction d’énergie.</p>
+</div>
+<p>La loi de la conservation de l’énergie stipule que l’énergie totale d’un système isolé est constante. Cela signifie qu’à l’intérieur d’un système isolé, l’énergie peut être modifiée ou transformée, mais qu’elle ne peut pas être créée ou détruite. La quantité totale d’énergie reste invariable.</p>
+<div class="Exercise">
+<p>Répondez aux questions suivantes.</p>
+<ol type="1">
+<li>Quelle est la différence entre la chaleur et la température ? </li>
+<li>Qu’appelle-t-on un système « isolé » ? Peut-il échanger de la matière ? de l’énergie ? </li>
+<li>Énoncez la loi de conservation de l’énergie. </li>
+<li>Que représente la variation d’enthalpie <span class="math inline">\(\Delta H\)</span> d’une réaction, et que signifie son signe ? </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>La température mesure le degré d’agitation moyen des particules ; la chaleur est la quantité d’énergie transférée d’un corps chaud vers un corps froid lors d’une transformation.</li>
+<li>Un système isolé n’échange ni matière ni énergie avec l’environnement. (Un système fermé échange de l’énergie mais pas de matière ; un système ouvert échange les deux.)</li>
+<li>Lors d’un changement physique ou chimique, l’énergie n’est ni créée ni détruite : l’énergie totale d’un système isolé reste constante.</li>
+<li><span class="math inline">\(\Delta H = H_{produits} - H_{réactifs}\)</span> est la chaleur échangée à pression constante. <span class="math inline">\(\Delta H &lt; 0\)</span> : réaction exothermique (le système libère de la chaleur) ; <span class="math inline">\(\Delta H &gt; 0\)</span> : réaction endothermique (le système absorbe de la chaleur).</li>
+</ol>
+</div>
+</section>
+<section id="calorimétrie" class="level2" data-number="22.4">
+<h2 data-number="22.4" class="anchored" data-anchor-id="calorimétrie"><span class="header-section-number">22.4</span> Calorimétrie</h2>
+<p>La quantité de chaleur transférée entre le système et son environnement est mesurée par <strong>calorimétrie</strong>.</p>
+<p>La <strong>capacité thermique</strong>, ou <strong>chaleur spécifique</strong>, d’une substance (C) indique la capacité de cette substance d’absorber ou de dégager de la chaleur. C’est la quantité de chaleur qu’un gramme d’une substance doit absorber pour élever sa température d’un degré Celsius. Cette grandeur est exprimée en <span class="math inline">\(\mathrm{J/(K \cdot g)}\)</span>. Chaque substance a une capacité thermique qui lui est propre, celle de l’eau est de 4.184 <span class="math inline">\(\mathrm{J/(K \cdot g)}\)</span>.</p>
+<p>Plus la capacité thermique d’une substance est élevée, plus il faut la chauffer pour augmenter sa température. Une substance ayant une faible capacité thermique se réchauffe rapidement, mais se refroidit aussi rapidement.</p>
+<p>La quantité de chaleur, <span class="math inline">\(q\)</span>, absorbée par une substance est le produit de sa chaleur spécifique, <span class="math inline">\(C\)</span>, de sa masse et de la variation de température :</p>
+<p><span class="math display">\[
+\begin{split}
+q = m \cdot C_p \cdot \Delta T
+\end{split}
+\qquad
+\begin{split}
+q &amp; \text{: quantité de chaleur}\ \text{ J} \\
+m &amp; \text{: masse}\ \text{ g} \\
+C_p &amp; \text{: capacité thermique}\ \mathrm{J/(K \cdot g)} \\
+\Delta T &amp; \text{: différence de température}\ \text{ K}
+\end{split}
+\]</span></p>
+<div class="Exercise">
+<p>800 g d’eau sont chauffés d’une température de 21°C à 85°C . Quelle quantité de chaleur l’eau a-t-elle absorbée ?</p>
+</div>
+<div class="Answer">
+<p><span class="math display">\[
+\begin{split}
+q_{\ce{H2O}} &amp;= m_{\ce{H2O}} \cdot C_{p\ \ce{H2O}} \cdot \Delta T_{\ce{H2O}} \\
+&amp;= 800\ \text{ g} \cdot 4.184 \mathrm{J/(K \cdot g)} \cdot (85-21) \\
+&amp;= 214221\ \text{ J} =  214.2\ \text{ kJ}
+\end{split}
+\]</span></p>
+</div>
+<div class="Exercise">
+<p>Un morceau de métal inconnu pèse 348 g. Lorsque le morceau de métal absorbe 6.64 kJ de chaleur, sa température passe de 22.4°C à 43.6°C. Déterminez la chaleur spécifique de ce métal et déterminez de quel métal il s’agit.</p>
+</div>
+<div class="Answer">
+<p><span class="math display">\[
+\begin{split}
+q_{\ce{m}} &amp;= m_{\ce{m}} \cdot C_{p\ \ce{m}} \cdot \Delta T_{\ce{m}}
+\end{split}
+\qquad \Rightarrow \qquad
+\begin{split}
+C_{p\ \ce{m}} &amp;= \frac{q_{\ce{m}}}{m_{\ce{m}} \cdot \Delta T_{\ce{m}}} \\
+&amp;= \frac{6.64 \cdot 10^3\ \text{ J}}{348\ \text{ g} \cdot (43.6 - 22.4)} \\
+&amp;= 0.900\ \mathrm{J/(K \cdot g)} \\
+\end{split}
+\]</span></p>
+<p>Le métal pourrait être de l’aluminium <span class="math inline">\(C_{p\ \ce{Al}} = 0.897\ \mathrm{J/(K \cdot g)}\)</span>.</p>
+</div>
+<div class="Exercise">
+<p>On mélange 25 mL d’eau à 23°C avec 35 mL d’eau à 80°C. Quelle sera la température finale du mélange, si aucune chaleur n’est transférée à l’environnement ?</p>
+</div>
+<div class="Answer">
+<p>Le système n’échange pas de chaleur avec l’environnement :</p>
+<p><span class="math display">\[
+\begin{split}
+q_{\text{dégagée}} &amp;+ q_{\text{absorbée}} = 0 \\
+q_{\text{dégagée}} &amp;= - q_{\text{absorbée}}
+\end{split}
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+q_{\text{dégagée}} &amp;= m_1 \cdot C_{p\ 1} \cdot \Delta T_1 \\
+  &amp;= 35\ \text{ g} \cdot 4.184\ \mathrm{J/(K \cdot g)} \cdot (T_f - 80) \\
+  &amp;= 146.44 \cdot T_f - 11715.2 \\
+\end{split}
+\qquad
+\begin{split}
+q_{\text{absorbée}} &amp;= m_2 \cdot C_{p\ 2} \cdot \Delta T_2 \\
+  &amp;= 25\ \text{ g} \cdot 4.184\ \mathrm{J/(K \cdot g)} \cdot (T_f - 23) \\
+  &amp;= 104.6 \cdot T_f - 2405.8 \\
+\end{split}
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+q_{\text{dégagée}} &amp;= - q_{\text{absorbée}} \\
+146.44 \cdot T_f - 11715.2 &amp;= - 104.6 \cdot T_f + 2405.8 \\
+146.44 \cdot T_f + 104.6 \cdot T_f &amp;= 11715.2 + 2405.8 \\
+T_f \cdot (146.44 + 104.6) &amp;= 11715.2 + 2405.8 \\
+T_f &amp;= \frac{11715.2 + 2405.8}{146.44+104.6} = 56.25\ \text{°C}
+\end{split}
+\]</span></p>
+</div>
+<section id="le-calorimètre" class="level3" data-number="22.4.1">
+<h3 data-number="22.4.1" class="anchored" data-anchor-id="le-calorimètre"><span class="header-section-number">22.4.1</span> Le calorimètre</h3>
+<p>Pour mesurer la quantité de chaleur libérée ou absorbée au cours d’une réaction chimique. On utilise un récipient spécial dans un système fermé appelé <strong>calorimètre</strong>.</p>
+<p>Le transfert d’énergie thermique accompagnant une réaction chimique est responsable du changement de température qui a lieu dans un calorimètre. Si la réaction libère de la chaleur, la chaleur est absorbée par le calorimètre et sa température augmente. Inversement, si la réaction absorbe de la chaleur, alors la chaleur est transférée du calorimètre au système et la température du calorimètre diminue.</p>
+<p>La quantité de chaleur absorbée ou libérée par le calorimètre est égale et de signe opposé à la quantité de chaleur produite ou consommée par la réaction.</p>
+</section>
+</section>
+<section id="réactions-exothermiques-et-endothermiques" class="level2" data-number="22.5">
+<h2 data-number="22.5" class="anchored" data-anchor-id="réactions-exothermiques-et-endothermiques"><span class="header-section-number">22.5</span> Réactions exothermiques et endothermiques</h2>
+<p>Certaines transformations chimiques dégagent de l’énergie alors que d’autres absorbent l’énergie. On parlera alors de réaction exothermique et endothermique.</p>
+<p>Lorsqu’un processus se produit au cours duquel le système libère de la chaleur, le processus est dit <strong>exothermique</strong>. La chaleur est transférée du système à l’environnement.</p>
+<p>Un processus dans lequel le système absorbe de la chaleur est dit <strong>endothermique</strong>. La chaleur est transférée au système par l’environnement.</p>
+<p>En tenant compte de l’énergie échangée dans une équation chimique, on peut les écrire de la façon suivante :</p>
+<p><span class="math display">\[
+\begin{split}
+  \text{Réactifs} &amp; \rightarrow \text{Produits} + \text{Chaleur} \\
+  \text{Chaleur} + \text{Réactifs} &amp; \rightarrow \text{Produits}
+\end{split}
+\quad
+\begin{split}
+  &amp;\text{Réaction exothermique} \\
+  &amp;\text{Réaction endothermique}
+\end{split}
+\]</span></p>
+</section>
+<section id="lenthalpie-h-et-la-variation-denthalpie-delta-h" class="level2" data-number="22.6">
+<h2 data-number="22.6" class="anchored" data-anchor-id="lenthalpie-h-et-la-variation-denthalpie-delta-h"><span class="header-section-number">22.6</span> L’enthalpie (<span class="math inline">\(H\)</span>) et la variation d’enthalpie (<span class="math inline">\(\Delta H\)</span>)</h2>
+<p>Il existe deux types fondamentaux d’énergie : l’<strong>énergie potentielle</strong> et l’<strong>énergie cinétique</strong>. L’énergie potentielle est une énergie stockée qui attend d’être libérée. L’énergie cinétique, en revanche, est l’énergie transformée en mouvement. Lorsque l’eau tombe d’un barrage et fait tourner une turbine, l’énergie potentielle de l’eau est convertie en énergie cinétique. Une fois que toute l’énergie potentielle a été convertie, il ne se passe plus rien. L’eau au fond du barrage n’a plus d’énergie potentielle et ne subit plus de changement.</p>
+<p>Dans les composés chimiques, l’énergie potentielle est contenue dans les forces d’attraction entre les ions ou les atomes qui forment les liaisons et la rupture de ces liaisons nécessite un apport d’énergie. Dans les réactions chimiques, certaines liaisons chimiques des réactifs sont rompues (apport d’énergie) pour que de nouvelles liaisons puissent se former dans les produits (libération d’énergie).</p>
+<p>Si les produits de la réaction ont moins d’énergie potentielle que les réactifs, on dit que les produits sont plus stables que les réactifs. Le terme stable est utilisé en chimie pour décrire une substance dont l’énergie potentielle est faible et qui, par conséquent, aura peu tendance à subir d’autres transformations. Le fait qu’une réaction se produise, et la quantité d’énergie ou de chaleur associée à la réaction, dépendent de la différence de quantité d’énergie potentielle contenue dans les réactifs et les produits.</p>
+<p>La somme des énergies cinétique et potentielle correspond à l’enthalpie de la substance, <span class="math inline">\(H\)</span>.</p>
+<div class="tcolorbox">
+<p><strong>Enthalpie - <span class="math inline">\(H\)</span></strong><br>
+Énergie totale d’un système à pression constante. (Exprimée en joules J).</p>
+</div>
+<p>Cependant, il est difficile de déterminer expérimentalement l’énergie interne d’une substance. Mesurer des différences d’énergie par la chaleur absorbée ou dégagée lors de transformations est une grandeur plus facilement accessible.</p>
+<div class="tcolorbox">
+<p><strong>Variation d’enthalpie - <span class="math inline">\(\Delta H\)</span></strong><br>
+Variation de l’énergie totale du système lors d’une transformation, à pression constante.</p>
+</div>
+<p>La chaleur, dégagée ou absorbée, qui est mesurée lorsqu’une réaction est maintenue à pression constante est représentées par le symbole <span class="math inline">\(\Delta H\)</span>. Ainsi, la valeur de <span class="math inline">\(\Delta H\)</span> représente le changement d’enthalpie qui se produit au cours d’une réaction. Les termes <strong>enthalpie de réaction</strong> et <strong>chaleur de réaction</strong> sont utilisés pour dénommer cette valeur.</p>
+<p>De manière générale, pour déterminer la variation d’enthalpie, on effectue la différence entre l’enthalpie des produits et celle des réactifs.</p>
+<p><span class="math display">\[
+\Delta H = H _{\text{produits}} − H _{\text{réactifs}}
+\]</span></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Réaction exothermique</th>
+<th style="text-align: center;">Réaction endothermique</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><span class="math inline">\(\Delta H\)</span> négatif</td>
+<td style="text-align: center;"><span class="math inline">\(\Delta H\)</span> positif</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><img src="images/enthalpie-1-exo.png" class="img-fluid" style="width:30.0%"></td>
+<td style="text-align: center;"><img src="images/enthalpie-1-endo.png" class="img-fluid" style="width:30.0%"></td>
+</tr>
+</tbody>
+</table>
+<p>Si la valeur est positive, la réaction est endothermique alors que si la valeur obtenue est négative, la réaction est exothermique.</p>
+<p>Lorsque l’on donne une valeur numérique de chaleur de réaction, il faut spécifier la réaction étudiée. Par exemple, lorsque 2 moles de dihydrogène brûlent pour former 2 moles d’eau à pression constante, le système système libère 483.6 kJ.</p>
+<p><span class="math display">\[
+\ce{2 H2(g) + O2(g) -&gt; 2 H2O(g) } \qquad \Delta H = -483.6\ \text{ kJ}
+\]</span></p>
+<p>Le signe négatif de <span class="math inline">\(\Delta H\)</span> indique que la réaction est exothermique. Le <span class="math inline">\(\Delta H\)</span> est écrit à la fin de l’équation équilibrée, sans spécifier les quantités de produits chimiques impliqués.</p>
+</section>
+<section id="échanges-de-chaleur-et-réactions-chimiques" class="level2" data-number="22.7">
+<h2 data-number="22.7" class="anchored" data-anchor-id="échanges-de-chaleur-et-réactions-chimiques"><span class="header-section-number">22.7</span> Échanges de chaleur et réactions chimiques</h2>
+<p>Pourquoi le chlore réagit-il fortement avec de nombreux éléments et composés, mais pas l’azote ? Quelle est la différence entre les molécules de Cl<sub>2</sub> et les molécules de N<sub>2</sub> qui explique cette différence de réactivité ? La réponse est que la triple liaison azote-azote est beaucoup plus forte que la liaison simple chlore-chlore et qu’elle ne peut pas être rompue aussi facilement dans les réactions chimiques.</p>
+<div class="tcolorbox">
+<p><strong>Énergie de liaison</strong><br>
+Quantité d’énergie qui doit être fournie pour rompre une liaison et séparer les atomes d’une mole de molécules à l’état gazeux.</p>
+</div>
+<p>Plus l’énergie de liaison est élevée, plus la liaison entre les atomes ou les ions est stable. La triple liaison du diazote, par exemple, a une énergie de liaison de 946 kJ/mol, alors que la liaison simple dans le dichlore a une énergie de liaison de 243 kJ/mol. La plus grande stabilité de la triple liaison dans N<sub>2</sub> explique pourquoi les molécules de diazote sont moins réactives que les molécules de Cl<sub>2</sub>.</p>
+<p><span class="math display">\[
+\begin{split}
+\ce{N#N -&gt; N + N} \quad \Delta H = +946\ \text{ kJ/mol} \\
+\ce{Cl-Cl -&gt; Cl + Cl} \quad \Delta H = +246\ \text{ kJ/mol}
+\end{split}
+\]</span></p>
+<div id="tbl-tab-energie-liaison" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-tab-energie-liaison-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;22.1: Énergies de liaison moyennes de liaisons communes
+</figcaption>
+<div aria-describedby="tbl-tab-energie-liaison-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 6%">
+<col style="width: 9%">
+<col style="width: 6%">
+<col style="width: 9%">
+<col style="width: 58%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">liaison</th>
+<th style="text-align: center;">kJ/mol</th>
+<th style="text-align: center;">liaison</th>
+<th style="text-align: center;">kJ/mol</th>
+<th style="text-align: center;">liaison</th>
+<th style="text-align: center;">kJ/mol</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><span class="math inline">\(\ce{C-H}\)</span></td>
+<td style="text-align: center;">413</td>
+<td style="text-align: center;"><span class="math inline">\(\ce{N-H}\)</span></td>
+<td style="text-align: center;">391</td>
+<td style="text-align: center;"><span class="math inline">\(\ce{C=C}\)</span></td>
+<td style="text-align: center;">614</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><span class="math inline">\(\ce{C-C}\)</span></td>
+<td style="text-align: center;">347</td>
+<td style="text-align: center;"><span class="math inline">\(\ce{N-N}\)</span></td>
+<td style="text-align: center;">160</td>
+<td style="text-align: center;"><span class="math inline">\(\ce{C#C}\)</span></td>
+<td style="text-align: center;">839</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><span class="math inline">\(\ce{C-N}\)</span></td>
+<td style="text-align: center;">305</td>
+<td style="text-align: center;"><span class="math inline">\(\ce{N-Cl}\)</span></td>
+<td style="text-align: center;">200</td>
+<td style="text-align: center;"><span class="math inline">\(\ce{C=O}\)</span></td>
+<td style="text-align: center;">745<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><span class="math inline">\(\ce{C-O}\)</span></td>
+<td style="text-align: center;">358</td>
+<td style="text-align: center;"><span class="math inline">\(\ce{N-O}\)</span></td>
+<td style="text-align: center;">201</td>
+<td style="text-align: center;"><span class="math inline">\(\ce{O=O}\)</span></td>
+<td style="text-align: center;">498</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><span class="math inline">\(\ce{C-Cl}\)</span></td>
+<td style="text-align: center;">339</td>
+<td style="text-align: center;"><span class="math inline">\(\ce{H-H}\)</span></td>
+<td style="text-align: center;">432</td>
+<td style="text-align: center;"><span class="math inline">\(\ce{N=O}\)</span></td>
+<td style="text-align: center;">607</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><span class="math inline">\(\ce{Cl-Cl}\)</span></td>
+<td style="text-align: center;">243</td>
+<td style="text-align: center;"><span class="math inline">\(\ce{O-H}\)</span></td>
+<td style="text-align: center;">467</td>
+<td style="text-align: center;"><span class="math inline">\(\ce{O#N}\)</span></td>
+<td style="text-align: center;">891</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><span class="math inline">\(\ce{H-Cl}\)</span></td>
+<td style="text-align: center;">427</td>
+<td style="text-align: center;"><span class="math inline">\(\ce{O-Cl}\)</span></td>
+<td style="text-align: center;">203</td>
+<td style="text-align: center;"><span class="math inline">\(\ce{N#N}\)</span></td>
+<td style="text-align: center;">946</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<ul>
+<li>La rupture de liaisons, un processus qui absorbe de la chaleur, est endothermique.</li>
+<li>La formation d’une liaison, un processus qui libère de la chaleur, est exothermique.</li>
+</ul>
+<p>La quantité d’énergie libérée lors de la formation d’une liaison est égale à la quantié d’énergie abosrbée lors de la rupture de cette liaison. La quantité de chaleur transférée lors d’un changement dans un sens est égale à la quantité de chaleur transférée dans le sens opposé.</p>
+<p><span class="math display">\[
+\begin{split}
+\ce{N + N -&gt; N#N} \quad \Delta H = -946\ \text{ kJ/mol} \\
+\ce{Cl + Cl -&gt; Cl-Cl} \quad \Delta H = -246\ \text{ kJ/mol}
+\end{split}
+\]</span></p>
+<p>Dans toute réaction chimique, certaines liaisons des réactifs sont rompues et de nouvelles liaisons sont formées dans les produits. La différence entre l’énergie thermique absorbée lors de la rupture des liaisons et l’énergie thermique libérée lors de la formation des liaisons est la chaleur de réaction.</p>
+<section id="bilan-énergétique-dune-réaction" class="level3" data-number="22.7.1">
+<h3 data-number="22.7.1" class="anchored" data-anchor-id="bilan-énergétique-dune-réaction"><span class="header-section-number">22.7.1</span> Bilan énergétique d’une réaction</h3>
+<p>Lorsque l’énergie totale des liaisons formées dans les produits <strong>est supérieure</strong> à l’énergie totale des liaisons rompues dans les réactifs, il en résulte que de l’énergie est libérée et la réaction est exothermique. Prenons par exemple la combustion d’une mole de méthane.</p>
+<p><span class="math display">\[
+\ce{CH4(g) + 2 O2(g) -&gt; CO2(g) + 2 H2O(l)}
+\]</span></p>
+<p>Calculons le <span class="math inline">\(\Delta H\)</span> de la réaction :</p>
+<p><span class="math display">\[
+\begin{split}
+  \text{Réactifs}&amp; \\[0.1em]
+  (\ce{C-H}) \times 4 = -413 \cdot 4 &amp;= -1652\ \text{ kJ} \\[0.1em]
+  (\ce{O=O}) \times 2 = -498 \cdot 2 &amp;= -996\ \text{ kJ} \\[0.1em]
+  \hline\\[-1.2em]
+  total &amp;= -2648\ \text{ kJ}
+\end{split}
+\qquad
+\begin{split}
+  \text{Produits}&amp; \\
+  (\ce{C=O}) \times 2 = -799 \cdot 2 &amp;= -1598\ \text{ kJ} \\[0.1em]
+  (\ce{H-O}) \times 4 = -467 \cdot 4 &amp;= -1868\ \text{ kJ} \\[0.1em]
+  \hline\\[-1.2em]
+  total &amp;= -3466\ \text{ kJ}
+\end{split}
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+\Delta H &amp;= H _{\text{produits}} − H _{\text{réactifs}} \\
+  &amp;= -3466 -(-2648) = -818\ \text{ kJ}\ \text{(valeur estimée)}
+\end{split}
+\]</span></p>
+<p>La valeur mesurée de la variation d’enthalpie pour la combustion d’une mole de méthane est de 891 kJ.</p>
+<p>Les énergies données dans la table <a href="#tbl-tab-energie-liaison" class="quarto-xref">Table&nbsp;<span>22.1</span></a> sont des énergies moyennes et peuvent varier en fonction de l’environnement chimique dans lequel se trouve la liaison. Le <span class="math inline">\(\Delta H\)</span> calculé pour une réaction en utilisant les énergies de liaison moyennes peut différer légèrement de la valeur obtenue expérimentalement.</p>
+<p><span class="math display">\[
+\ce{CH4(g) + 2 O2(g) -&gt; CO2(g) + 2 H2O(l)} \qquad \Delta H = -891\ \text{ kJ}
+\]</span></p>
+<p>Il est correct de dire :</p>
+<ul>
+<li>La combustion de 1 mole de méthane s’accompagne d’une perte de 891 kJ.</li>
+<li>La réaction de 2 moles de dioxygène avec le méthane s’accompagne d’une perte de 891 kJ.</li>
+<li>La réaction de 1 mole de dioxygène avec le méthane s’accompagne d’une perte de 446 kJ.</li>
+<li>La formation de 1 mole de gaz carbonique par combustion du méthane s’accompagne d’une perte de 891 kJ.</li>
+<li>La formation de 1 mole d’eau gazeuse par combustion du méthane s’accompagne d’une perte de 446 kJ.</li>
+</ul>
+<p>On a donc le choix de la substance de référence, mais il faut le mentionner dans l’unité.</p>
+<div class="Exercise">
+<p>Estimer le <span class="math inline">\(\Delta H\)</span>, en kJ, de la réaction entre le dihydrogène et le dioxygène pour former de l’eau et indiquez si la réaction est endo- ou exothermique.</p>
+</div>
+<div class="Answer">
+<p><span class="math display">\[
+\ce{2 H2(g) + O2(g) -&gt; 2 H2O}
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+  \text{Réactifs}&amp; \\
+  (\ce{H-H}) \times 2 = -432 \cdot 2 &amp;= -864\ \text{ kJ} \\
+  (\ce{O=O}) \times 1 = -498 \cdot 1 &amp;= -498\ \text{ kJ} \\
+  \hline
+  total &amp;= -1362\ \text{ kJ}
+\end{split}
+\qquad
+\begin{split}
+  \text{Produits}&amp; \\
+  (\ce{H-O}) \times 4 = -467 \cdot 4 &amp;= -1868\ \text{ kJ} \\
+  \hline
+  total &amp;= -1868\ \text{ kJ}
+\end{split}
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+\Delta H &amp;= \Sigma\ E^{liaison}_{\text{produits}} - \Sigma\ E^{liaison}_{\text{réactifs}} \\
+  &amp;= -1868-(-1362) = -506\ \text{ kJ}
+\end{split}
+\]</span></p>
+<p><span class="math inline">\(\Delta H\)</span> négatif, donc réaction exothermique.</p>
+</div>
+<div class="Exercise">
+<p>Calculez la quantité de chaleur libérée lors de la combustion de 7.50 g de méthane.</p>
+</div>
+<div class="Answer">
+<p><span class="math display">\[
+\begin{split}
+\ce{CH4(g) + 2 O2(g) -&gt; CO2(g) + 2 H2O(l)}
+\end{split}
+\qquad
+\begin{split}
+M_{\ce{CH4}} &amp;= 1 \cdot 12 + 4 \cdot 1.008 \\
+&amp;= 16.032\ \text{ g/mol}
+\end{split}
+\]</span></p>
+<p><span class="math display">\[
+n_{\ce{CH4}} = \frac{m_{\ce{CH4}}}{M_{\ce{CH4}}} = \frac{7.50\ \text{ g}}{16.032\ \text{ g/mol}} = 0.468\ \text{ mol}
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+\Delta H = -891\ \text{ kJ/mol}
+\end{split}
+\qquad
+\begin{split}
+q &amp;= -891\ \text{ kJ/mol} \cdot 0.468\ \text{ mol} \\
+&amp;= -417\ \text{ kJ}
+\end{split}
+\]</span></p>
+<p>La valeur négative indique que la chaleur est dégagée (réaction exothermique).</p>
+</div>
+<div class="Exercise">
+<p>Durant la photosynthèse, les plantes convertissent le dioxyde de carbone et l’eau en glucose (<span class="math inline">\(\ce{C6H12O6}\)</span>) selon l’équation équilibrée suivante:</p>
+<p><span class="math display">\[
+\ce{6 CO2(g) + 6 H2O(l) -&gt; C6H12O6 + 6 O2(g)}
+\]</span></p>
+<p>Estimez le <span class="math inline">\(\Delta H\)</span> de la réaction en utilisant les énergies de liaisons et indiquez si la réaction est endo- ou exothermique.</p>
+</div>
+<div class="Answer">
+<p><img src="images/glucose.png" class="img-fluid" style="width:30.0%"></p>
+<p><span class="math display">\[
+\ce{6 CO2(g) + 6 H2O(l) -&gt; C6H12O6 + 6 O2(g)}
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+  \text{Réactifs}&amp; \\
+  (\ce{C=O}) \times 12 = -799 \cdot 12 &amp;= -9588\ \text{ kJ} \\
+  (\ce{O-H}) \times 12 = -467 \cdot 12 &amp;= -5604\ \text{ kJ} \\
+  \hline
+  total &amp;= -15192\ \text{ kJ}
+\end{split}
+\qquad
+\begin{split}
+  \text{Produits}&amp; \\
+  (\ce{C-C}) \times 5 = -347 \cdot 5 &amp;= -1735\ \text{ kJ} \\
+  (\ce{C-H}) \times 7 = -413 \cdot 7 &amp;= -2891\ \text{ kJ} \\
+  (\ce{C-O}) \times 7 = -358 \cdot 7 &amp;= -2506\ \text{ kJ} \\
+  (\ce{O-H}) \times 5 = -467 \cdot 5 &amp;= -2335\ \text{ kJ} \\
+  (\ce{O=O}) \times 6 = -498 \cdot 6 &amp;= -2988\ \text{ kJ} \\
+  \hline
+  total &amp;= -12455\ \text{ kJ}
+\end{split}
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+\Delta H &amp;= \Sigma\ E^{liaison}_{\text{produits}} - \Sigma\ E^{liaison}_{\text{réactifs}} \\
+  &amp;= -12455 - (-15192) = +2737\ \text{ kJ}
+\end{split}
+\]</span></p>
+<p>La production d’une mole de glucose par photosynthèse absorbe 2737 kJ.</p>
+<p>La valeur positive indique que la réaction est endothermique.</p>
+</div>
+</section>
+</section>
+<section id="la-variation-denthalpie-standard-delta-ho" class="level2" data-number="22.8">
+<h2 data-number="22.8" class="anchored" data-anchor-id="la-variation-denthalpie-standard-delta-ho"><span class="header-section-number">22.8</span> La variation d’enthalpie standard (<span class="math inline">\(\Delta H^o\)</span>)</h2>
+<p>Les réactions pouvant se dérouler dans des conditions de température et de pression très variables, on défini une référence commune en utilisant les conditions standard. On considérera que les réactifs et les produits se trouvent dans leur état aux conditions standard.</p>
+<ul>
+<li>température : 298 K (25°C)</li>
+<li>pression : 1 bar (100 kPa)</li>
+<li>concentration : 1 mol/l dans le cas de solutions</li>
+</ul>
+<p>De cette manière, on peut définir la variation d’enthalpie standard de toute réaction à l’aide des variations d’enthalpies standard de formation des réactifs et des produits.</p>
+<p><span class="math display">\[
+\Delta H^o = \sum n_p \cdot \Delta H^{o}_f(produits) - \sum n_r \cdot \Delta H^{o}_f(reactifs)
+\]</span></p>
+<p><span class="math inline">\(n_p\)</span> et <span class="math inline">\(n_r\)</span> sont les coéfficients stoechiométriques des réactifs et produits de la réaction étudiée.</p>
+<div class="Exercise">
+<p>À l’aide de la table d’enthalpie de formation ci-dessous, calculez la différence d’enthalpie des réactions suivantes :</p>
+<ol type="1">
+<li><span class="math inline">\(\ce{3H2_{(g)} + O3_{(g)} -&gt; 3H2O_{(g)}}\)</span> </li>
+<li><span class="math inline">\(\ce{2NO_{(g)} + O2_{(g)} -&gt; 2NO2_{(g)}}\)</span> </li>
+<li><span class="math inline">\(\ce{N2O_{(g)} + NO2_{(g)} -&gt; 3NO_{(g)}}\)</span> </li>
+</ol>
+</div>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 30%">
+<col style="width: 20%">
+<col style="width: 30%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Substance</th>
+<th style="text-align: center;"><span class="math inline">\(\Delta H^o_f\ \text{ kJ/mol}\)</span></th>
+<th style="text-align: left;">Substance</th>
+<th style="text-align: center;"><span class="math inline">\(\Delta H^o_f\ \text{ kJ/mol}\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><span class="math inline">\(\ce{H2_{(g)}}\)</span></td>
+<td style="text-align: center;">0</td>
+<td style="text-align: left;"><span class="math inline">\(\ce{N2_{(g)}}\)</span></td>
+<td style="text-align: center;">0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span class="math inline">\(\ce{O2_{(g)}}\)</span></td>
+<td style="text-align: center;">0</td>
+<td style="text-align: left;"><span class="math inline">\(\ce{N_{(g)}}\)</span></td>
+<td style="text-align: center;">472.704</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span class="math inline">\(\ce{O3_{(g)}}\)</span></td>
+<td style="text-align: center;">142.7</td>
+<td style="text-align: left;"><span class="math inline">\(\ce{NO_{(g)}}\)</span></td>
+<td style="text-align: center;">90.25</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span class="math inline">\(\ce{H2O_{(g)}}\)</span></td>
+<td style="text-align: center;">-241.82</td>
+<td style="text-align: left;"><span class="math inline">\(\ce{NO2_{(g)}}\)</span></td>
+<td style="text-align: center;">33.2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span class="math inline">\(\ce{H2O_{(l)}}\)</span></td>
+<td style="text-align: center;">-285.83</td>
+<td style="text-align: left;"><span class="math inline">\(\ce{N2O_{(g)}}\)</span></td>
+<td style="text-align: center;">81.6</td>
+</tr>
+</tbody>
+</table>
+<div class="Answer">
+<ol type="1">
+<li><span class="math display">\[
+\begin{split}
+\Delta H^o &amp;= [3 \cdot (-241.82)] - [3 \cdot 0 + 1 \cdot 142.7] \\
+&amp;= -868\ \text{ kJ/mol}
+\end{split}
+\]</span></li>
+<li><span class="math display">\[
+\begin{split}
+\Delta H^o &amp;= [2 \cdot 33.2] - [2 \cdot 90.25 + 1 \cdot 0] \\
+&amp;= -114\ \text{ kJ/mol}
+\end{split}
+\]</span></li>
+<li><span class="math display">\[
+\begin{split}
+\Delta H^o &amp;= [3 \cdot 90.25] - [1 \cdot 81.6 + 1 \cdot 33.2] \\
+&amp;= 156\ \text{ kJ/mol}
+\end{split}
+\]</span></li>
+</ol>
+</div>
+</section>
+<section id="la-loi-de-hess" class="level2" data-number="22.9">
+<h2 data-number="22.9" class="anchored" data-anchor-id="la-loi-de-hess"><span class="header-section-number">22.9</span> La loi de Hess</h2>
+<p>On représente généralement une réaction chimique par une équation équilibrée avec des réactifs qui se transforment en produits. Cette représentation est une représentations simplifiée. Dans la majorité des réactions chimiques, les réactifs forment un ou plusieurs intermédiaires qui mènent aux produits. Ainsi, on peut décomposer une réaction en une succession de réactions intermédiaires. C’est ce qu’on appelle un mécanisme réactionnel.</p>
+<p>Par exemple, la formation du dioxyde d’azote à partir d’oxyde d’azote et de dioxygène est une réaction qui comporte deux étapes intermédiaires.</p>
+<p><span class="math display">\[
+\begin{split}
+\ce{2 NO(g) -&gt; N2O2(g)} \\[0.1em]
+\ce{N2O2(g) + O2 -&gt; 2NO2(g)} \\[0.1em]
+\hline\\[-1.2em]
+\ce{2 NO(g) + O2 -&gt; 2NO2(g)}
+\end{split}
+\]</span></p>
+<p>La variation d’enthalpie lors d’une réaction ne dépend que de l’état initial des réactifs et de l’état final des produits si la transformation s’effectue soit à volume constant, soit à pression constante.</p>
+<div class="tcolorbox">
+<p><strong>Loi de Hess</strong><br>
+Si une réaction se déroule en plusieurs étapes, la variation d’enthalpie de la réaction est égale à la somme des variations d’enthalpie des différentes étapes.</p>
+</div>
+<p>L’échange de chaleur lors d’une transformation chimique ne dépend pas du chemin parcouru pour aller de l’état initial à l’état final.</p>
+<p><span class="math display">\[
+\begin{split}
+\ce{CH4(g) + 2 O2(g) -&gt; CO2(g) + 2 H2O(g)} \qquad \Delta H &amp;= -802\ kJ \\[0.1em]
+\ce{2 H2O(g) -&gt; 2 H2O(l)} \qquad \Delta H &amp;= -88\ kJ \\[0.1em]
+\hline\\[-1.2em]
+\ce{CH4(g) + 2 O2(g) -&gt; CO2(g) + 2 H2O(l)} \qquad \Delta H &amp;= -891\ kJ
+\end{split}
+\]</span></p>
+<p><img src="images/Enthalpie-2.png" id="fig-enthalpie-2" class="img-fluid" style="width:67.0%" alt="Diagramme d’enthalpie de la combustion du méthane."> </p>
+<p>Pour déterminer la chaleur d’une réaction par la loi de Hess, on doit suivre certaines règles.</p>
+<ul>
+<li>Les termes identiques situés du même côté de l’équation s’additionnent.</li>
+<li>Les termes identiques situés de part et d’autre de l’équation se soustraient.</li>
+<li>Si on inverse une équation, on doit aussi inverser le signe du <span class="math inline">\(\Delta H\)</span>.</li>
+<li>Si on modifie les coefficients d’une équation chimique en les multipliant ou en les divisant par un facteur commun, on doit aussi multiplier ou diviser la valeur du <span class="math inline">\(\Delta H\)</span> par ce même facteur.</li>
+</ul>
+<section id="enthalpie-de-formation-et-enthalpies-de-réaction" class="level3" data-number="22.9.1">
+<h3 data-number="22.9.1" class="anchored" data-anchor-id="enthalpie-de-formation-et-enthalpies-de-réaction"><span class="header-section-number">22.9.1</span> Enthalpie de formation et enthalpies de réaction</h3>
+<p>Nous pouvons utiliser la loi de Hess pour calculer les variations d’enthalpie pour un grand nombre de réactions à partir de valeurs référencées dans des tables. Il existe des tableaux de chaleurs de <strong>vaporisation</strong>, de <strong>fusion</strong>, de <strong>combustion</strong>, etc..</p>
+<p>Une transformation importante utilisée en thermochimie est la <strong>chaleur de formation</strong> ou <strong>enthalpie de formation</strong>. Elle est représentée par le symboles <span class="math inline">\(\Delta H^{0}_{f}\)</span>. L’indice “f” indique la réaction de formation du composé et l’indice “0”, indique que cette valeur est mesurée aux conditions standard de température et pression. On parlera de l’<strong>enthalpie standard de formation</strong> d’un composé.</p>
+<p>L’<strong>enthalpie de formation</strong> est importante dans la mesure où elle nous permet de calculer une <strong>enthalpie de réaction</strong>.</p>
+<p>Prenons, par exemple, la combustion du propane aux conditions standards :</p>
+<p><span class="math display">\[
+\ce{C3H8(g) + 5 O2(g) -&gt; 3 CO2(g) + 4 H2O(l)}
+\]</span></p>
+<p>Nous pouvons écrire cette équation comme la somme de trois équations associées aux enthalpies standards de formation :</p>
+<p><span class="math display">\[
+\begin{split}
+\ce{C3H8(g) -&gt; 3 C(s) + 4 H2(g)} \qquad \Delta H_1 &amp;= -\Delta H^{0}_{f}(\ce{C3H8(g)}) \\[0.1em]
+\ce{3 C(s) + 3 O2(g) -&gt; 3 CO2(g)} \qquad \Delta H_2 &amp;= 3\cdot\Delta H^{0}_{f}(\ce{CO2(g)}) \\[0.1em]
+\ce{4 H2(g) + 2 O2(g) -&gt; 4 H2O(l)} \qquad \Delta H_3 &amp;= 4\cdot\Delta H^{0}_{f}(\ce{H2O(l)}) \\[0.1em]
+\hline\\[-1.2em]
+\ce{C3H8(g) + 5 O2(g) -&gt; 3 CO2(g) + 4 H2O(l)} \qquad \Delta H^{0} &amp;= \Delta H_1 + \Delta H_2 + \Delta H_3
+\end{split}
+\]</span></p>
+<p>En remplaçant les enthalpies de formation par les valeurs contenues dans les tables :</p>
+<p><span class="math display">\[
+\begin{split}
+\Delta H^{0} &amp;= \Delta H_1 + \Delta H_2 + \Delta H_3 \\
+&amp;= -\Delta H^{0}_{f}(\ce{C3H8(g)}) + 3\cdot\Delta H^{0}_{f}(\ce{CO2(g)}) + 4\cdot\Delta H^{0}_{f}(\ce{H2O(l)}) \\
+&amp;= - (−104.6\ \text{ kJ}) + 3 \cdot (−393.5\ \text{ kJ}) + 4 \cdot (−285.8\ \text{ kJ}) \\
+&amp;= -2219\ \text{ kJ} \\
+\end{split}
+\]</span></p>
+<div id="fig-enthalpie-3" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-enthalpie-3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/Enthalpie-3.png" class="img-fluid figure-img" style="width:67.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-enthalpie-3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;22.1: Diagramme d’enthalpie de la combustion du propane.
+</figcaption>
+</figure>
+</div>
+<div class="Exercise">
+<p>En utilisant les deux équations ci-dessous, déterminez l’enthalpie de formation (<span class="math inline">\(\Delta H^0_f\)</span>) du monoxyde d’azote, <span class="math inline">\(\ce{NO}\)</span>.</p>
+<p><span class="math display">\[
+\begin{split}
+  \ce{4NH3_{(g)} + 5O2_{(g)}} &amp; \ce{ -&gt; 4NO_{(g)} + 6H2O_{(l)}} \quad \Delta H^0_1 = -1170\ kJ \\[0.5em]
+  \ce{4NH3_{(g)} + 3O2_{(g)}} &amp; \ce{-&gt; 2N2_{(g)} + 6H2O_{(l)}} \quad \Delta H^0_2 = -1530\ kJ
+\end{split}
+\]</span></p>
+</div>
+<div class="Answer">
+<p>On cherche une enthalpie de <strong>formation</strong>. L’équation chimique que l’on cherche sera de la forme.</p>
+<p><span class="math display">\[
+  \ce{1/2 N2_{(g)} + 1/2 O2_{(g)} -&gt; NO_{(g)} }
+\]</span></p>
+<p>On inverse la seconde équation et on inverse également le signe de <span class="math inline">\(\Delta H^0_2\)</span>.</p>
+<p><span class="math display">\[
+\begin{split}
+  \ce{4NH3_{(g)} + 5O2_{(g)}} &amp; \ce{ -&gt; 4NO_{(g)} + 6H2O_{(l)}} \quad \Delta H^0 = -1170\ kJ \\
+  \ce{2N2_{(g)} + 6H2O_{(l)}} &amp; \ce{-&gt; 4NH3_{(g)} + 3O2_{(g)}} \quad \Delta H^0 = +1530\ kJ
+\end{split}
+\]</span></p>
+<p>On fait le bilan pour obtenir une équation globale :</p>
+<p><span class="math display">\[
+\begin{aligned}
+  \ce{\cancel{\ce{4NH3{(g)}}} + 5O2_{(g)}} &amp; \ce{-&gt; 4NO_{(g)} + \cancel{\ce{6H2O_{(l)}}}} \quad &amp;\Delta H^0 = -1170\ kJ \\
+  \ce{2N2_{(g)} + \cancel{\ce{6H2O_{(l)}}}} &amp; \ce{-&gt; \cancel{\ce{4NH3_{(g)}}} + 3O2_{(g)}} \quad &amp;\Delta H^0 = +1530\ kJ \\[0.5em]
+  \hline\\[-1.2em]
+  \ce{2N2_{(g)} + 2O2_{(g)}} &amp; \ce{-&gt; 4NO_{(g)}} \quad &amp;\Delta H^0 = +360\ kJ
+\end{aligned}
+\]</span></p>
+<p>Une réaction d’enthalpie de formation est exprimée pour une mole de formé. Par conséquent, on divise tous les termes de l’équation par 4, y compris <span class="math inline">\(\Delta H^0\)</span>.</p>
+<p><span class="math display">\[
+  \ce{1/2 N2_{(g)} + 1/2 O2_{(g)} -&gt; NO_{(g)}} \quad \Delta H^0 = +90\ kJ
+\]</span></p>
+</div>
+</section>
+</section>
+<section id="résumé" class="level2" data-number="22.10">
+<h2 data-number="22.10" class="anchored" data-anchor-id="résumé"><span class="header-section-number">22.10</span> Résumé</h2>
+<ul>
+<li>L’énergie est la capacité à fournir un travail ou à transférer de la chaleur. Le travail déplace un objet contre une force ; la chaleur est l’énergie transférée d’un corps chaud vers un corps froid. La température et la chaleur sont des grandeurs distinctes</li>
+<li>Unité : le joule (1 cal = 4.184 J).</li>
+<li>L’énergie ne peut être ni créée ni détruite ; l’énergie totale d’un système isolé est constante.</li>
+<li>Un système est ouvert, fermé ou isolé selon qu’il échange matière et/ou énergie avec l’environnement.</li>
+<li>L’enthalpie <span class="math inline">\(H\)</span> est l’énergie totale d’un système à pression constante ; la variation d’enthalpie est la chaleur de réaction (à pression constante).</li>
+<li><span class="math inline">\(\Delta H &lt; 0\)</span> : réaction exothermique ; <span class="math inline">\(\Delta H &gt; 0\)</span> : réaction endothermique. La valeur de <span class="math inline">\(\Delta H\)</span> est proportionnelle aux quantités de matière : il faut préciser la substance de référence.</li>
+<li>L’énergie de liaison est l’énergie nécessaire pour rompre une mole de liaisons à l’état gazeux. Rompre une liaison est endothermique, en former une est exothermique.</li>
+<li>La variation d’enthalpie standard (<span class="math inline">\(\Delta H^0\)</span>) se calcule à partir des enthalpies standard de formation.</li>
+<li><span class="math inline">\(\Delta H\)</span> ne dépend que des états initial et final, pas du chemin suivi.</li>
+<li>On peut combiner des réactions pour obtenir l’enthalpie d’une réaction inconnue.</li>
+</ul>
+</section>
+<section id="exercices-supplémentaires" class="level2" data-number="22.11">
+<h2 data-number="22.11" class="anchored" data-anchor-id="exercices-supplémentaires"><span class="header-section-number">22.11</span> Exercices supplémentaires</h2>
+<div class="Exercise">
+<p>Un calorimètre à glace permet de mesurer des quantités de chaleur en déterminant la quantité de glace fondue. Combien de grammes de glace peut-on faire fondre grâce à la chaleur libérée par la combustion de 875 mL de CH<sub>4</sub> gazeux, mesurés à 25°C et à 99.7 kPa ?</p>
+<p><span class="math display">\[
+\begin{split}
+\ce{CH4(g) + 2 O2(g) -&gt; CO2(g) + 2 H2O(l)} \qquad &amp; \Delta H = - 890.3\ \text{ kJ} \\
+\ce{H2O(s) -&gt; H2O(l)} \qquad &amp; \Delta H_{fusion} = 6.01\ \text{ kJ}
+\end{split}
+\]</span></p>
+</div>
+<div class="Answer">
+<p><span class="math display">\[
+\ce{CH4(g) + 2 O2(g) -&gt; CO2(g) + 2 H2O(l)} \qquad \Delta H = - 890.3\ \text{ kJ}
+\]</span></p>
+<p>Calcul de la quantité de <span class="math inline">\(\ce{CH4}\)</span> brûlée :</p>
+<p><span class="math display">\[
+\begin{split}
+p \cdot V = n \cdot R \cdot T
+\end{split}
+\qquad
+\begin{split}
+\Rightarrow n &amp;= \frac{p \cdot V}{R \cdot T} = \frac{99.7 \cdot 10^{3}\ \text{ Pa} \cdot 8.75 \cdot 10^{-4}\ \mathrm{m^3}}{8.314\ \mathrm{\frac{J}{K \cdot mol}} \cdot 298.15\ \text{ K}} \\
+&amp;= 0.0352\ \text{ mol} \text{ de \ce{CH4}}
+\end{split}
+\]</span></p>
+<ul>
+<li><p>La combustion de 1 mole de <span class="math inline">\(\ce{CH4}\)</span> va libérer 890.3 kJ donc,</p></li>
+<li><p>La combustion de 0.0352 mole de <span class="math inline">\(\ce{CH4}\)</span> va libérer <span class="math inline">\(0.0352\ \text{ mol} \cdot 890.3 \mathrm{\frac{kJ}{mol}} = 31.34\ \text{ kJ}\)</span>.</p></li>
+<li><p>6.01 kJ feront fondre 18.016 grammes d’eau donc,</p></li>
+<li><p>31.34 kJ feront fondre <em>93.9</em> grammes d’eau.</p></li>
+</ul>
+</div>
+<div class="Exercise">
+<p>On plonge un morceau de fer de 150 g, chauffé à 95°C, dans 200 g d’eau à 20°C, dans un calorimètre parfaitement isolé. Capacités thermiques : <span class="math inline">\(C_p(\ce{Fe}) = 0.449\)</span> J/(K·g), <span class="math inline">\(C_p(\ce{H2O}) = 4.184\)</span> J/(K·g). Calculez la température finale du système.</p>
+</div>
+<div class="Answer">
+<p>Dans un calorimètre isolé, la chaleur cédée par le fer est absorbée par l’eau : <span class="math inline">\(q_{\ce{Fe}} + q_{\ce{H2O}} = 0\)</span>.</p>
+<p><span class="math display">\[
+150 \cdot 0.449 \cdot (T_f - 95) + 200 \cdot 4.184 \cdot (T_f - 20) = 0
+\]</span> <span class="math display">\[
+67.35 \cdot (T_f - 95) + 836.8 \cdot (T_f - 20) = 0
+\]</span> <span class="math display">\[
+(67.35 + 836.8) \cdot T_f = 67.35 \cdot 95 + 836.8 \cdot 20 = 23134
+\]</span> <span class="math display">\[
+T_f = \frac{23134}{904.15} = 25.6 \text{ °C}
+\]</span></p>
+</div>
+<div class="Exercise">
+<p>Déterminez l’enthalpie de la réaction <span class="math inline">\(\ce{C(s) + 1/2 O2(g) -&gt; CO(g)}\)</span> à partir des données suivantes :</p>
+<ul>
+<li><span class="math inline">\(\ce{C(s) + O2(g) -&gt; CO2(g)}\)</span>, <span class="math inline">\(\Delta H_1 = -393.5\)</span> kJ</li>
+<li><span class="math inline">\(\ce{CO(g) + 1/2 O2(g) -&gt; CO2(g)}\)</span>, <span class="math inline">\(\Delta H_2 = -283.0\)</span> kJ</li>
+</ul>
+</div>
+<div class="Answer">
+<p>On conserve la première équation et on inverse la seconde (en changeant le signe de son <span class="math inline">\(\Delta H\)</span>) :</p>
+<p><span class="math display">\[
+\begin{aligned}
+\ce{C(s) + O2(g)} &amp;\ce{-&gt; CO2(g)} \qquad &amp;\Delta H_1 &amp;= -393.5 \text{ kJ} \\
+\ce{CO2(g)} &amp;\ce{-&gt; CO(g) + 1/2 O2(g)} \qquad &amp;-\Delta H_2 &amp;= +283.0 \text{ kJ}
+\end{aligned}
+\]</span></p>
+<p>En additionnant, <span class="math inline">\(\ce{CO2}\)</span> et une partie du <span class="math inline">\(\ce{O2}\)</span> se simplifient :</p>
+<p><span class="math display">\[
+\ce{C(s) + 1/2 O2(g) -&gt; CO(g)} \qquad \Delta H = -393.5 + 283.0 = -110.5 \text{ kJ}
+\]</span></p>
+</div>
+<div class="Exercise">
+<p>Estimez, à l’aide des énergies de liaison, la variation d’enthalpie de la synthèse de l’ammoniac :</p>
+<p><span class="math display">\[
+\ce{N2(g) + 3 H2(g) -&gt; 2 NH3(g)}
+\]</span></p>
+<p>La réaction est-elle exo- ou endothermique ? Énergies de liaison : <span class="math inline">\(\ce{N#N}\)</span> = 946, <span class="math inline">\(\ce{H-H}\)</span> = 432, <span class="math inline">\(\ce{N-H}\)</span> = 391 kJ/mol.</p>
+</div>
+<div class="Answer">
+<p><span class="math display">\[
+\begin{split}
+  \text{Réactifs}&amp; \\
+  (\ce{N#N}) \times 1 &amp;= -946\ \text{kJ} \\
+  (\ce{H-H}) \times 3 = -432 \cdot 3 &amp;= -1296\ \text{kJ} \\
+  \hline
+  total &amp;= -2242\ \text{kJ}
+\end{split}
+\qquad
+\begin{split}
+  \text{Produits}&amp; \\
+  (\ce{N-H}) \times 6 = -391 \cdot 6 &amp;= -2346\ \text{kJ} \\
+  \hline
+  total &amp;= -2346\ \text{kJ}
+\end{split}
+\]</span></p>
+<p><span class="math display">\[
+\Delta H = \Sigma\ E^{liaison}_{\text{produits}} - \Sigma\ E^{liaison}_{\text{réactifs}} = -2346 - (-2242) = -104\ \text{kJ}
+\]</span></p>
+<p><span class="math inline">\(\Delta H &lt; 0\)</span> : la réaction est exothermique. (Chaque molécule <span class="math inline">\(\ce{NH3}\)</span> comporte 3 liaisons <span class="math inline">\(\ce{N-H}\)</span>, soit 6 pour 2 molécules.)</p>
+</div>
+
+
+</section>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p>Énergie de la liaison <span class="math inline">\(\ce{C=O}\)</span> dans <span class="math inline">\(\ce{CO2}\)</span> est de 799 kJ/mol.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+
+</main> <!-- /main -->
+<script src="html/vendor/jquery-3.7.1.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+
+    var exeContainerClass = 'Exercise-container';
+    var exeClass = 'Exercise';
+    var ansClass = 'Answer';
+
+    $('.' + exeContainerClass).each(function(i, el) {
+      let child = $(el).children('.' + exeClass);
+      child.replaceWith(child.html());
+      $(el).removeClass(exeContainerClass).addClass(exeClass);
+    });
+
+    var chapterNum = $('.quarto-page-breadcrumbs .chapter-number').first().text().trim();
+
+    $('.' + exeClass).each(function(i, el) {
+      var num = chapterNum + '.' + (i + 1);
+      var title = $('<div>Exercice ' + num + '</div>');
+      title.addClass('Label');
+      $(el).prepend(title);
+    });
+
+    $('.' + ansClass).each(function(i, el) {
+      $(el).click(function() {
+        $(el).slideToggle();
+      });
+      var button = $('<button>Solution</button>');
+      button.attr('type', 'button');
+      button.addClass('Answer-button');
+      button.click(function() {
+        $(el).slideToggle();
+      });
+      button.insertBefore(el);
+    });
+
+  });
+</script>
+<script type="text/javascript">
+  $(document).ready(function () {
+    $("main.content table, main.content .math.display").each(function (i, el) {
+      let parent = $("<div>").attr("style", "overflow-x:auto");
+      $(el).wrap(parent);
+    });
+  });
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copié");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copié");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./210-electrochimie.html" class="pagination-link" aria-label="Électrochimie">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Électrochimie</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./230-thermodynamique.html" class="pagination-link" aria-label="Thermodynamique">
+        <span class="nav-page-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Thermodynamique</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

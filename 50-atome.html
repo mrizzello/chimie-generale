@@ -1,0 +1,1948 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Support du cours de chimie générale | Maturité gymnasiale">
+
+<title>5&nbsp; L’atome – Cours de chimie générale</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./60-tableau-periodique.html" rel="next">
+<link href="./40-historique.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-05ad7de8ae34bb1016f06e23b5e9a5a9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Pas de résultats",
+    "search-matching-documents-text": "documents trouvés",
+    "search-copy-link-title": "Copier le lien vers la recherche",
+    "search-hide-matches-text": "Cacher les correspondances additionnelles",
+    "search-more-match-text": "correspondance de plus dans ce document",
+    "search-more-matches-text": "correspondances de plus dans ce document",
+    "search-clear-button-title": "Effacer",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Annuler",
+    "search-submit-button-title": "Envoyer",
+    "search-label": "Recherche"
+  }
+}</script>
+<script>
+window.MathJax = {
+  loader: { load: ['[tex]/mhchem', '[tex]/cancel'] },
+  tex: { packages: { '[+]': ['mhchem', 'cancel'] } }
+};
+</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="nav-sidebar docked quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./50-atome.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">L’atome</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Recherche" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Cours de chimie générale</a> 
+        <div class="sidebar-tools-main">
+    <a href="./chimie-generale.pdf" title="Télécharger le PDF" class="quarto-navigation-tool px-1" aria-label="Télécharger le PDF" target="_blank"><i class="bi bi-file-earmark-pdf"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Recherche"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Préambule</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./10-introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./20-etats-de-la-matiere.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Les états de la matière</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./30-melanges-corps-purs.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Mélanges et corps purs</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./40-historique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Historique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./50-atome.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">L’atome</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./60-tableau-periodique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Le tableau périodique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./70-liaisons.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Molécules et liaisons chimiques</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./80-molecules.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Géométrie moléculaire et polarité</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./90-nomenclature.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Nomenclature</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./100-solutions-electrolytes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Solutions et électrolytes</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./110-reactions-chimiques.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Réactions chimiques</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./120-types-reactions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Types de réactions</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./130-stoechiometrie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Calculs stœchiométriques</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./140-gaz-parfaits.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Les gaz parfaits</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./150-cinetique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Cinétique chimique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./160-equilibres.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">L’équilibre chimique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./170-acides-bases.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Les acides et les bases</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./180-ph-potentiel-hydrogene.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Le pH ou potentiel hydrogène</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./190-produit-solubilite.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Le produit de solubilité</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./200-oxydoreductions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Les réactions d’oxydoréduction</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./210-electrochimie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Électrochimie</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./220-thermochimie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Thermochimie</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./230-thermodynamique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Thermodynamique</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./00-references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bibliographie</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table des matières</h2>
+   
+  <ul>
+  <li><a href="#particules-subatomiques" id="toc-particules-subatomiques" class="nav-link active" data-scroll-target="#particules-subatomiques"><span class="header-section-number">5.1</span> Particules subatomiques</a></li>
+  <li><a href="#les-éléments" id="toc-les-éléments" class="nav-link" data-scroll-target="#les-éléments"><span class="header-section-number">5.2</span> Les éléments</a>
+  <ul class="collapse">
+  <li><a href="#les-symboles-et-les-noms" id="toc-les-symboles-et-les-noms" class="nav-link" data-scroll-target="#les-symboles-et-les-noms"><span class="header-section-number">5.2.1</span> Les symboles et les noms</a></li>
+  </ul></li>
+  <li><a href="#les-isotopes" id="toc-les-isotopes" class="nav-link" data-scroll-target="#les-isotopes"><span class="header-section-number">5.3</span> Les isotopes</a></li>
+  <li><a href="#lunité-de-masse-atomique" id="toc-lunité-de-masse-atomique" class="nav-link" data-scroll-target="#lunité-de-masse-atomique"><span class="header-section-number">5.4</span> L’unité de masse atomique</a>
+  <ul class="collapse">
+  <li><a href="#le-défaut-de-masse" id="toc-le-défaut-de-masse" class="nav-link" data-scroll-target="#le-défaut-de-masse"><span class="header-section-number">5.4.1</span> Le défaut de masse</a></li>
+  </ul></li>
+  <li><a href="#la-masse-atomique" id="toc-la-masse-atomique" class="nav-link" data-scroll-target="#la-masse-atomique"><span class="header-section-number">5.5</span> La masse atomique</a></li>
+  <li><a href="#la-mole-et-le-nombre-davogadro" id="toc-la-mole-et-le-nombre-davogadro" class="nav-link" data-scroll-target="#la-mole-et-le-nombre-davogadro"><span class="header-section-number">5.6</span> La mole et le nombre d’Avogadro</a></li>
+  <li><a href="#la-masse-molaire-atomique" id="toc-la-masse-molaire-atomique" class="nav-link" data-scroll-target="#la-masse-molaire-atomique"><span class="header-section-number">5.7</span> La masse molaire atomique</a></li>
+  <li><a href="#résumé" id="toc-résumé" class="nav-link" data-scroll-target="#résumé"><span class="header-section-number">5.8</span> Résumé</a></li>
+  <li><a href="#exercices-supplémentaires" id="toc-exercices-supplémentaires" class="nav-link" data-scroll-target="#exercices-supplémentaires"><span class="header-section-number">5.9</span> Exercices supplémentaires</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">L’atome</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="objectives">
+<ul>
+<li>Décrire la structure de l’atome en termes de protons, de neutrons et d’électrons.</li>
+<li>Décrire les charges électriques et les masses relatives des protons, des neutrons et des électrons.</li>
+<li>Calculez la masse d’un atome à partir de sa composition subatomique.</li>
+<li>Utiliser les symboles chimiques ainsi que le numéro atomique et le nombre de masse pour exprimer la composition subatomique des isotopes.</li>
+<li>Définir l’unité de masse atomique.</li>
+<li>Décrire et calculer le défaut de masse.</li>
+<li>Calculez la masse d’un atome à partir de sa composition subatomique.</li>
+<li>Calculer la masse atomique d’un élément, en uma ou en g/mol, à partir des masses de ses isotopes et de leurs abondances naturelles.</li>
+<li>Convertir une quantité en moles et vice versa en utilisant le nombre d’Avogadro.</li>
+</ul>
+</div>
+<div class="tcolorbox">
+<p><strong>Atome</strong><br>
+Un atome est la plus petite particule d’un élément qui conserve encore les propriétés de cet élément.</p>
+</div>
+<p>L’atome est formé d’un nuage d’électrons gravitant autour d’un petit noyau extrêmement dense. Le noyau atomique contient les protons qui sont chargés positivement et les neutrons qui ne sont pas chargés. Les électrons, qui sont chargés négativement, se déplacent autour du noyau sur des trajectoires complexes, qui forment le nuage électronique.</p>
+<p><strong>Un atome est principalement constitué de vide</strong>. Plus de 99% de la masse de l’atome se trouve dans le noyau.</p>
+<p>Imaginons que l’on agrandisse un atome à la taille d’un stade. Le noyau se trouverait sur le rond central du terrain et il aurait la taille d’une tête d’épingle. Les électrons seraient alors à la place des spectateurs et chacun aurait la taille d’un grain de poussière !</p>
+<div id="fig-ordre-grandeur-atome" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ordre-grandeur-atome-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/ordre-grandeur-atome.png" class="img-fluid figure-img" style="width:33.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ordre-grandeur-atome-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5.1: Taille et structure de l’atome
+</figcaption>
+</figure>
+</div>
+<section id="particules-subatomiques" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="particules-subatomiques"><span class="header-section-number">5.1</span> Particules subatomiques</h2>
+<p>La matière est formée d’atomes et les atomes sont formés de particules subatomiques, les <strong>protons</strong>, les <strong>neutrons</strong> et les <strong>électrons</strong>.</p>
+<p>Les mêmes particules subatomiques constituent tous les atomes. La seule chose qui varie d’un élément à l’autre est le nombre des particules subatomiques.</p>
+<div id="tbl-particules-subatomiques" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-particules-subatomiques-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;5.1: Les particules subatomiques.
+</figcaption>
+<div aria-describedby="tbl-particules-subatomiques-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 8%">
+<col style="width: 22%">
+<col style="width: 17%">
+<col style="width: 23%">
+<col style="width: 18%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>particule</th>
+<th style="text-align: center;">symbole</th>
+<th style="text-align: center;">charge Coulomb</th>
+<th style="text-align: center;">charge relative</th>
+<th style="text-align: center;">masse kg</th>
+<th style="text-align: center;">masse relative</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>proton</td>
+<td style="text-align: center;"><span class="math inline">\(p^{+}\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(+1.602\cdot10^{-19}\)</span></td>
+<td style="text-align: center;">+1</td>
+<td style="text-align: center;"><span class="math inline">\(1.672\cdot10^{-27}\)</span></td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr class="even">
+<td>neutron</td>
+<td style="text-align: center;"><span class="math inline">\(n^{}\)</span></td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;"><span class="math inline">\(1.674\cdot10^{-27}\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(\approx\)</span> 1</td>
+</tr>
+<tr class="odd">
+<td>électron</td>
+<td style="text-align: center;"><span class="math inline">\(e^{-}\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(-1.602\cdot10^{-19}\)</span></td>
+<td style="text-align: center;">-1</td>
+<td style="text-align: center;"><span class="math inline">\(9.109\cdot10^{-31}\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(\frac{1}{1836}\)</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>Le proton porte une unité de charge positive, l’électron porte une unité de charge négative, et le neutron n’est pas chargé, il est électriquement neutre.</p>
+<p>Un électron est 1836 fois plus léger qu’un proton, mais son influence est très grande car il porte une charge électrique équivalente à celle d’un proton.</p>
+<p><strong>L’atome est électriquement neutre.</strong> Comment un atome peut-il être neutre si il contient des protons chargés positivement et des électrons chargés négativement? La réponse est qu’<strong>il y a un nombre égal de protons et d’électrons</strong> de sorte que les charges positives et négatives s’annulent.</p>
+<div class="Exercise">
+<p>Répondez aux questions suivantes concernant les particules subatomiques.</p>
+<ol type="1">
+<li>Quelles particules constituent le noyau de l’atome ? Où se trouvent les électrons ? </li>
+<li>Donnez la charge relative du proton, du neutron et de l’électron. </li>
+<li>Classez ces trois particules de la plus légère à la plus lourde. </li>
+<li>Un atome possède 17 protons. Combien d’électrons possède-t-il ? Justifiez. </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>Le noyau contient les <strong>protons</strong> et les <strong>neutrons</strong>. Les <strong>électrons</strong> se déplacent autour du noyau et forment le nuage électronique.</li>
+<li>proton : +1 ; neutron : 0 ; électron : -1.</li>
+<li>électron (environ 1836 fois plus léger que le proton) <span class="math inline">\(&lt;\)</span> proton <span class="math inline">\(\approx\)</span> neutron (le neutron est très légèrement plus lourd que le proton).</li>
+<li>17 électrons. L’atome est électriquement neutre : il contient donc autant d’électrons (charges négatives) que de protons (charges positives).</li>
+</ol>
+</div>
+<div class="Exercise">
+<p>Le diamètre d’un atome de carbone est de 1.54 angström (1 angström = <span class="math inline">\(10^{-10}\)</span> m).</p>
+<ol type="1">
+<li>Exprimer ce diamètre en picomètres, en nanomètres. </li>
+<li>Combien d’atomes de carbone pourraient être alignés côte à côte sur la largeur d’un trait de crayon de 0.20 mm de large ? </li>
+</ol>
+</div>
+<div class="Answer">
+<p>1.54 angström = <span class="math inline">\(1.54\cdot10^{-10}\)</span> m</p>
+<p><span class="math display">\[ 1.54\cdot10^{-10} \text{ m } \cdot \frac{ 10^{12}\text{ pm }}{1\text{ m }} = 1.54\cdot10^{2} \text{ pm } = 154 \text{ pm } \]</span></p>
+<p><span class="math display">\[ 1.54\cdot10^{-10} \text{ m } \cdot \frac{ 10^{9}\text{ nm }}{1\text{ m }} = 1.54\cdot10^{-1} \text{ nm } = 0.154 \text{ nm } \]</span></p>
+<p><span class="math display">\[ \frac{0.2\cdot10^{-3} \text{ m }}{1.54\cdot10^{-10} \text{ m/atome }} = 1.3\cdot10^6 \text{ atome } \]</span></p>
+</div>
+<div class="Exercise">
+<ol type="1">
+<li>Calculez, en gramme, la masse d’une molécule d’eau, en considérant que chaque atome d’hydrogène possède 1 proton et 1 électron (mais aucun neutron) et que le noyau d’un atome d’oxygène comporte 8 protons, 8 neutrons et 8 électrons. </li>
+<li>Combien y a-t-il de molécules d’eau dans 1 mL d’eau (1 mL d’eau = 1 g d’eau) ? </li>
+</ol>
+</div>
+<div class="Answer">
+<p><span class="math display">\[ \begin{split}
+    m_{H} &amp;= 1 \cdot m_{p} + 1 \cdot m_{e}\\
+          &amp;= 1.672\cdot10^{-27}\text{ kg } + 9.109\cdot10^{-31}\text{ kg }\\
+          &amp;= 1.672\cdot10^{-27}\text{ kg }\\
+    m_{O} &amp;= 8 \cdot m_{p} + 8 \cdot m_{n} + 8 \cdot m_{e}\\
+          &amp;= 8 \cdot 1.672\cdot10^{-27}\text{ kg } + 8 \cdot 1.674\cdot10^{-27}\text{ kg } + 8 \cdot 9.109\cdot10^{-31}\text{ kg }\\
+          &amp;= 2.678\cdot10^{-26}\text{ kg }\\
+    m_{H_{2}O} &amp;= 2 \cdot m_{H} + 1 \cdot m_{O}\\
+          &amp;= 2 \cdot 1.672\cdot10^{-27}\text{ kg } + 2.678\cdot10^{-26}\text{ kg }\\
+          &amp;= 3.012\cdot10^{-26}\text{ kg } = 3.012\cdot10^{-23} \text{ g pour une molécule}
+\end{split} \]</span></p>
+<p>1 mL d’eau = 1 g d’eau</p>
+<p><span class="math display">\[ \begin{split}
+    &amp; \text{en utilisant la règle de trois : } \\
+    1 \text{ molécule} &amp;\rightarrow 3.012\cdot10^{-23} \text{ g }\\
+    n \text{ molécules} &amp;\rightarrow 1 \text{ g }\\
+    n &amp;= \frac{1}{3.012\cdot10^{-23}}\\
+      &amp;= 3.320\cdot10^{22} \text{ molécules}
+\end{split}
+\qquad
+\begin{split}
+    &amp; \text{en utilisant une division simple : } \\
+    n &amp;= \frac{1\text{ g }}{ 3.012\cdot10^{-23} \text{ g/molécule } } \\
+    &amp;= 3.320\cdot10^{22} \text{ molécules}
+\end{split} \]</span></p>
+</div>
+</section>
+<section id="les-éléments" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="les-éléments"><span class="header-section-number">5.2</span> Les éléments</h2>
+<div class="tcolorbox">
+<p><strong>Élément</strong><br>
+Un élément regroupe tous les atomes qui ont le même nombre de protons.</p>
+</div>
+<p>On connaît actuellement 118 éléments différents. Ils sont classés dans le tableau périodique des éléments. Ce sont les briques de base de tous les <strong>corps purs simples</strong> et les <strong>corps purs composés</strong>.</p>
+<p>Quelle est la différence entre deux atomes de deux éléments différents? Leur nombre de protons.</p>
+<ul>
+<li>Tous les atomes contenant <strong>un proton</strong> dans leur noyau sont des atomes d’<strong>hydrogène</strong>.</li>
+<li>Tous les atomes contenant <strong>deux protons</strong> dans leur noyau sont des atomes d’<strong>hélium</strong>.</li>
+<li>Tous les atomes contenant <strong>trois protons</strong> dans leur noyau sont des atomes de <strong>lithium</strong>.</li>
+<li>…</li>
+</ul>
+<section id="les-symboles-et-les-noms" class="level3" data-number="5.2.1">
+<h3 data-number="5.2.1" class="anchored" data-anchor-id="les-symboles-et-les-noms"><span class="header-section-number">5.2.1</span> Les symboles et les noms</h3>
+<p>Dans le but de simplifier l’écriture, on représente les éléments chimiques par des symboles qui sont une lettre majuscule correspondant à l’initiale du nom de l’élément. Dans de nombreux cas, l’initiale seule ne suffit pas. On utilise alors une seconde lettre minuscule.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">symbole</th>
+<th>nom</th>
+<th>origine</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">H</td>
+<td>hydrogène</td>
+<td>qui forme de l’eau</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">He</td>
+<td>hélium</td>
+<td>de Hélios, dieu grec du soleil</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Li</td>
+<td>lithium</td>
+<td>de Lithos, pierre en grec</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Be</td>
+<td>béryllium</td>
+<td>de béryl, un minerai</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">B</td>
+<td>bore</td>
+<td>de borax, un minerai</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">C</td>
+<td>carbone</td>
+<td>de Carbonis, charbon en grec</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">N</td>
+<td>azote</td>
+<td>qui n’entretient pas la vie</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">O</td>
+<td>oxygène</td>
+<td>qui forme des acides</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">F</td>
+<td>fluor</td>
+<td>de fluere, s’écouler en latin</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Ne</td>
+<td>néon</td>
+<td>de Neos, nouveau en grec</td>
+</tr>
+</tbody>
+</table>
+<p>Lorsque l’on représente un atome d’un élément chimique, il est souvent pratique également d’indiquer son numéro atomique <strong>Z</strong>. On écrit ce nombre en index en bas et à gauche du symbole.</p>
+<p><span class="math display">\[ _{1}H \quad _{17}Cl \quad _{82}Pb \]</span></p>
+</section>
+</section>
+<section id="les-isotopes" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="les-isotopes"><span class="header-section-number">5.3</span> Les isotopes</h2>
+<div class="tcolorbox">
+<p><strong>Isotopes</strong><br>
+Atomes qui ont le même nombre de protons mais un nombre différent de neutrons.</p>
+</div>
+<p>Les noyaux de tous les atomes contiennent des protons et des neutrons. Les neutrons qui accompagnent les protons d’un noyau rendent celui-ci plus ou moins lourd sans changer la charge de l’ensemble de l’atome. Le rôle des neutrons est d’assurer la stabilité du noyau atomique.</p>
+<p><strong>Tous les atomes d’un même élément ont le même nombre de protons mais leur nombre de neutrons peut varier</strong>. En effet, pour un même élément, il existe des atomes qui possèdent un nombre variable de neutrons.</p>
+<p>Il existe des tables qui indiquent la liste des isotopes naturels stables et radioactifs pour chaque élément.</p>
+<div id="fig-isotopes-table" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-isotopes-table-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/isotopes-table.png" class="img-fluid figure-img" style="width:80.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-isotopes-table-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5.2: Table des isotopes simplifiée
+</figcaption>
+</figure>
+</div>
+<div class="Exercise-container">
+<div class="Exercise">
+<p>Dans les deux tableaux suivants, indiquez quelles espèces sont des isotopes d’un même élément. De quels éléments s’agit-il?</p>
+</div>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">espèce</th>
+<th style="text-align: center;">électrons</th>
+<th style="text-align: center;">protons</th>
+<th style="text-align: center;">neutrons</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">A</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">6</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">B</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">6</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">C</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">7</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">D</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">E</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">8</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">espèce</th>
+<th style="text-align: center;">électrons</th>
+<th style="text-align: center;">protons</th>
+<th style="text-align: center;">neutrons</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">F</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">6</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">G</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">6</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">H</td>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">7</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">I</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">J</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">8</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="Answer">
+<p>tableau 1 : A, C, E - 6 protons = Carbone.</p>
+<p>tableau 2 : F, I, J - 7 protons = Azote.</p>
+</div>
+<p>Dans la notation chimique, pour désigner un isotope, on indiquera le nombre de masse A de l’atome en exposant en haut et à gauche du symbol.</p>
+<p><span class="math display">\[ \begin{split}
+  _{Z}^{A}X
+  \end{split}
+  \qquad
+  \begin{split}
+  &amp; \text{X : symbole de l'élément} \\
+    &amp; \text{A : nombre de masse de l'atome $\rightarrow$ protons + neutrons} \\
+    &amp; \text{Z : numéro atomique de l'élément $\rightarrow$ protons}
+  \end{split} \]</span></p>
+<p><span class="math inline">\(_{6}^{12}C\)</span> et <span class="math inline">\(_{6}^{13}C\)</span> sont deux isotopes de l’élément carbone.On les nomme carbone 12 et carbone 13.</p>
+<p><span class="math inline">\(_{92}^{234}U\)</span>, <span class="math inline">\(_{92}^{235}U\)</span> et <span class="math inline">\(_{92}^{238}U\)</span> sont les isotopes naturels de l’élément uranium.</p>
+<div class="Exercise-container">
+<div class="Exercise">
+<p>Complétez le tableau ci dessous pour chaque isotope considéré.</p>
+</div>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 21%">
+<col style="width: 5%">
+<col style="width: 12%">
+<col style="width: 14%">
+<col style="width: 16%">
+<col style="width: 29%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">symbole</th>
+<th style="text-align: center;">A</th>
+<th style="text-align: center;">protons</th>
+<th style="text-align: center;">neutrons</th>
+<th style="text-align: center;">électrons</th>
+<th style="text-align: center;">nom de l’isotope</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><span class="math inline">\(_{6}^{14}C\)</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><span class="math inline">\(_{3}^{7}Li\)</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><span class="math inline">\(_{9}^{19}F\)</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="Answer">
+<p><span class="math inline">\(_{6}^{14}C\)</span> : 14 / 6 / 8 / 6 / carbone 14</p>
+<p><span class="math inline">\(_{3}^{7}Li\)</span> : 7 / 3 / 4 / 3 / lithium 7</p>
+<p><span class="math inline">\(_{9}^{19}F\)</span> : 19 / 9 / 10 / 9 / fluor 19</p>
+</div>
+</section>
+<section id="lunité-de-masse-atomique" class="level2" data-number="5.4">
+<h2 data-number="5.4" class="anchored" data-anchor-id="lunité-de-masse-atomique"><span class="header-section-number">5.4</span> L’unité de masse atomique</h2>
+<p>Les masses du protons et du neutrons sont d’environ <span class="math inline">\(1.672\cdot10^{-27}\)</span> kg et la masse de l’électron est 1836 fois plus petite. Parce qu’il est peu pratique de travailler avec ces très petites masses exprimées en notation scientifique, les chimistes ont développé leur propre système de mesure de la masse d’un atome.</p>
+<p>L’<strong>unité de masse atomique (uma)</strong> est une unité de mesure standard, utilisée pour mesurer la masse des atomes. Par convention, un atome de carbone 12, qui contient six protons et six neutrons a une masse de 12 uma exactement. Une unité de masse atomique est définie comme <span class="math inline">\(\frac{1}{12}\)</span> de la masse cet atome.</p>
+<p><span class="math display">\[ 1 \text{ uma} \simeq 1.660 \cdot 10^{-27} \text{ kg} \]</span></p>
+<div class="Exercise-container">
+<div class="Exercise">
+<p>Calculez la masse du proton, du neutron et de l’électron en unité de masse atomique uma.</p>
+</div>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">particule</th>
+<th style="text-align: center;">masse en kg</th>
+<th style="text-align: center;">masse en uma</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">proton</td>
+<td style="text-align: center;"><span class="math inline">\(1.672\cdot10^{-27}\)</span></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">neutron</td>
+<td style="text-align: center;"><span class="math inline">\(1.674\cdot10^{-27}\)</span></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">électron</td>
+<td style="text-align: center;"><span class="math inline">\(9.109\cdot10^{-31}\)</span></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="Answer">
+<p>Exemple pour le proton :</p>
+<p><span class="math display">\[ \begin{split}
+  1~\text{ uma} &amp;\rightarrow 1.661\cdot10^{-27}~\text{ kg} \\
+  x~\text{ uma} &amp;\rightarrow 1.672\cdot10^{-27}~\text{ kg} \\
+  x &amp;= \frac{1.672\cdot10^{-27}}{1.661\cdot10^{-27}} = 1.007
+  \end{split} \]</span></p>
+<ul>
+<li>proton : 1.007</li>
+<li>neutron : 1.008</li>
+<li>électron : <span class="math inline">\(5.484\cdot10^{-4}\)</span></li>
+</ul>
+</div>
+<section id="le-défaut-de-masse" class="level3" data-number="5.4.1">
+<h3 data-number="5.4.1" class="anchored" data-anchor-id="le-défaut-de-masse"><span class="header-section-number">5.4.1</span> Le défaut de masse</h3>
+<p>On sait que des charges électriques semblables se repoussent entre-elles. Comment se fait-il que le noyau de l’atome, composé entre autres de protons chargé positivement, n’éclate-t-il pas sous l’effet des forces des répulsions électriques ? Ce sont les neutrons qui maintiennent la cohésion du noyau en exerçant une force d’attraction qui permet de lier fortement les nucléons (protons et neutrons) entre eux. Cette force est appelée <strong>force nucléaire forte</strong> et assure la stabilité du noyau atomique.</p>
+<p>En mesurant la masse d’un noyau stable et en calculant la masse des nucléons qui forment ce noyau, on remarque que ces masses sont différentes. <strong>La masse du noyau est plus petite que la somme des masses des nucléons</strong>. C’est ce qu’on appelle <strong>le défaut de masse</strong>. Cette différence de masse est transformée en énergie de cohésion pour maintenir les nucléons ensemble. Maintenir un noyau stable n’est donc pas “gratuit”.</p>
+<p>Le défaut de masse est défini de la manière suivante :</p>
+<p><span class="math display">\[
+\Delta m = m_{\text{nucléons}} - m_{\text{noyau}}
+\]</span></p>
+<p>avec :</p>
+<ul>
+<li><span class="math inline">\(\Delta m\)</span> : défaut de masse en uma<br>
+</li>
+<li><span class="math inline">\(m_{\text{nucléons}}\)</span> : somme des masses des nucléons (<span class="math inline">\(m_p + m_n\)</span>) en uma<br>
+</li>
+<li><span class="math inline">\(m_{\text{noyau}}\)</span> : masse mesurée du noyau en uma</li>
+</ul>
+<p>Depuis le début du 20<sup>e</sup> siècle, nous savons que, sous certaines conditions, une masse <span class="math inline">\(m\)</span> peut se transformer en énergie <span class="math inline">\(E\)</span>, et vice versa. C’est le célèbre <span class="math inline">\(E = m \cdot c^2\)</span> d’Albert Einstein.</p>
+<p><span class="math display">\[
+E = m \cdot c^2 \qquad \text{ou} \qquad \Delta E = \Delta m \cdot c^2 \qquad \text{donc} \qquad \Delta m = \frac{\Delta E}{c^2}
+\]</span></p>
+<p>avec :</p>
+<ul>
+<li><span class="math inline">\(\Delta E\)</span> : Énergie de cohésion en J<br>
+</li>
+<li><span class="math inline">\(\Delta m\)</span> : défaut de masse en kg<br>
+</li>
+<li><span class="math inline">\(c\)</span> : vitesse de la lumière en m/s (<span class="math inline">\(299\ 792\ 458\)</span> m/s <span class="math inline">\(\approx 3 \cdot 10^8\)</span> m/s )</li>
+</ul>
+<div class="Exercise">
+<ol type="1">
+<li>Quelle est la masse en kg d’un noyau d’hélium-4 ?<br>
+</li>
+<li>La masse mesurée d’un noyau d’hélium-4 est de 4.002602 uma. Calculez la différence entre la masse mesurée et la masse obtenue par la somme des masses des particules subatomiques. </li>
+<li>Si il existe une différence, êtes-vous en mesure de l’expliquer ? </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><p><span class="math display">\[
+\begin{split}
+m_{\text{calculée}} &amp;= 2 \cdot m_{p+} + 2 \cdot m_{n} \\
+&amp;= 2 \cdot 1.672 \cdot 10^{-27} \:\text{ kg} + 2 \cdot 1.674 \cdot 10^{-27} \:\text{ kg} \\
+&amp;= 6.692 \cdot 10^{-27} \:\text{ kg}
+\end{split}
+\]</span></p></li>
+<li><p><span class="math display">\[   
+\begin{split}
+1\:\text{ uma} &amp;\rightarrow 1.660 \cdot 10^{-27} \:\text{ kg} \\
+4.002602\:\text{ uma} &amp;\rightarrow x \:\text{ kg}
+\end{split}
+\qquad
+\begin{split}
+m_{\text{mesurée}} &amp;= 4.002602\:\text{ uma} \cdot 1.660 \cdot 10^{-27} \:\text{ kg/uma} \\
+     &amp;= 6.644 \cdot 10^{-27} \:\text{ kg}
+\end{split}
+\]</span> <span class="math display">\[
+\begin{split}
+m_{\text{calculée}} - m_{\text{mesurée}} &amp;= 6.692 \cdot 10^{-27} \:\text{ kg} - 6.644 \cdot 10^{-27} \:\text{ kg} \\
+&amp;= 0.048 \cdot 10^{-27} \:\text{ kg}
+\end{split}
+\]</span></p></li>
+<li><p>La masse du noyau est inférieure à la somme des masses de chacun des protons et neutrons qui le composent. Une partie de la masse est donc transformée en énergie qui sert à la cohésion des particules du noyau.</p></li>
+</ol>
+<p>On peut faire le lien avec le célèbre <span class="math inline">\(E=m \cdot c^{2}\)</span> exprimé par Albert Einstein (équivalence entre masse énergie).</p>
+</div>
+</section>
+</section>
+<section id="la-masse-atomique" class="level2" data-number="5.5">
+<h2 data-number="5.5" class="anchored" data-anchor-id="la-masse-atomique"><span class="header-section-number">5.5</span> La masse atomique</h2>
+<div class="tcolorbox">
+<p><strong>Masse atomique</strong><br>
+La masse atomique d’un élément est la moyenne des masses de ses isotopes pondérée par leur abondance relative.</p>
+</div>
+<p>La plupart des éléments sont présents dans la nature sous forme d’un mélange d’isotopes. On appelle <strong>abondance isotopique</strong> le pourcentage de chacun des isotopes présents dans l’élément considéré.</p>
+<p>On peut déterminer la masse atomique d’un élément, en additionnant les masses de ses isotopes multipliées par leurs abondances relatives.</p>
+<div class="Exercise-container">
+<div class="Exercise">
+<p>Calculer la masse atomique du chlore à l’aide des données suivantes :</p>
+</div>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">isotope</th>
+<th style="text-align: right;">masse atomique</th>
+<th style="text-align: right;">abondance</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><span class="math inline">\(_{17}^{35}Cl\)</span></td>
+<td style="text-align: right;">34.969 uma</td>
+<td style="text-align: right;">75.77%</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><span class="math inline">\(_{17}^{37}Cl\)</span></td>
+<td style="text-align: right;">36.966 uma</td>
+<td style="text-align: right;">24.23%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="Answer">
+<p><span class="math display">\[ \begin{split}
+    MA_{Cl} &amp;=  MA_{Cl^{35}} \cdot Abd_{Cl^{35}} + MA_{Cl^{37}} \cdot Abd_{Cl^{37}}\\
+        &amp;= 34.969~\text{ uma} \cdot 0.7577 + 36.966~\text{ uma} \cdot 0.2423\\
+        &amp;= 35.45 \text{ uma}
+    \end{split} \]</span></p>
+</div>
+</section>
+<section id="la-mole-et-le-nombre-davogadro" class="level2" data-number="5.6">
+<h2 data-number="5.6" class="anchored" data-anchor-id="la-mole-et-le-nombre-davogadro"><span class="header-section-number">5.6</span> La mole et le nombre d’Avogadro</h2>
+<p>Même les plus petits échantillons que nous traitons dans un laboratoire contiennent de gigantesques quantités d’atomes. Ne pouvant pas prendre les atomes, ou molécules, un par un avec des pincettes, les chimistes ont donc mis au point un système d’unité de comptage.</p>
+<p>Dans la vie quotidienne, nous sommes familiers avec des unités de comptage comme la dizaine, la douzaine, la vingtaine, etc. En chimie, l’unité de comptage est la <strong>mole</strong>.</p>
+<div class="tcolorbox">
+<p><strong>La mole</strong><br>
+Une mole contient exactement <span class="math inline">\(6.02214076\cdot10^{23}\)</span> entités élémentaires.</p>
+</div>
+<p>Des techniques telles que la spectrométrie de masse, qui permettent de compter très précisément les atomes, ont été utilisées pour déterminer ce nombre. Ce nombre, noté <span class="math inline">\(N_A\)</span>, est appelé <strong>nombre d’Avogadro</strong> et dans le cadre de ce cours nous allons arrondir ce nombre à <span class="math inline">\(6.022\:\cdot\:10^{23}\)</span>.</p>
+<div id="tbl-unites-de-comptage" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-unites-de-comptage-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;5.2: Unités de comptage.
+</figcaption>
+<div aria-describedby="tbl-unites-de-comptage-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 13%">
+<col style="width: 40%">
+<col style="width: 45%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">unité</th>
+<th style="text-align: center;">nombre d’entités</th>
+<th style="text-align: left;">exemple</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">paire</td>
+<td style="text-align: center;">2 entités</td>
+<td style="text-align: left;">une paire de chaussures</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">dizaine</td>
+<td style="text-align: center;">10 entités</td>
+<td style="text-align: left;">une dizaine de pommes</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">douzaine</td>
+<td style="text-align: center;">12 entités</td>
+<td style="text-align: left;">une douzaine d’oranges</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">vingtaine</td>
+<td style="text-align: center;">20 entités</td>
+<td style="text-align: left;">une vingtaine de personnes</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">mole</td>
+<td style="text-align: center;"><span class="math inline">\(6.022\cdot10^{23}\)</span> entités</td>
+<td style="text-align: left;">une mole d’atomes de potassium</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>Une mole d’atomes, une mole de molécules, ou une mole de quoi que ce soit contiennent toutes <span class="math inline">\(6.022\cdot10^{23}\)</span> objets.</p>
+<div class="Exercise">
+<p>De par la définition de l’unité de masse atomique, un seul atome de carbone 12 a une masse de 12 uma. Calculez la masse en grammes d’une mole d’atomes de carbone 12.</p>
+</div>
+<div class="Answer">
+<p><span class="math display">\[ \begin{split}
+    \text{1 atome de } ^{12}C &amp;\\
+    1 \text{ uma} &amp;\longrightarrow 1.661\cdot10^{-24} \text{ g}\\
+    12 \text{ uma} &amp;\longrightarrow m \text{ g}
+    \end{split}
+    \qquad\qquad
+    \begin{split}
+        m &amp;= \dfrac{12 \text{ uma} \cdot 1.661 \cdot 10^{-24} \text{ g}}{1 \text{ uma}}\\
+        &amp;= 1.9932\cdot 10^{-23} \text{ g}       
+    \end{split} \]</span></p>
+<p><span class="math display">\[ \begin{split}
+        \text{1 mole d'atomes de }^{12}C &amp;\\
+        \text{1 atome de }^{12}C &amp;\longrightarrow 1.9932\cdot 10^{-23} \text{ g}\\
+        \quad 6.022\cdot 10^{23} \text{ atome} &amp;\longrightarrow M \text{ g}\\
+    \end{split}
+    \qquad\qquad
+    \begin{split}
+    M &amp;= \dfrac{6.022\cdot 10^{23} \cdot 1.9932\cdot 10^{-23} \text{ g}}{1 \text{ atome}}\\
+    &amp;= 12 \text{ g}
+    \end{split} \]</span></p>
+<p>Une mole d’atomes de carbone 12 a une masse de 12 g.</p>
+</div>
+<div class="Exercise">
+<p>Un seul atome d’oxygène 16 a une masse de 15.9949 uma. Calculez la masse en grammes d’une mole d’atomes d’oxygène 16.</p>
+</div>
+<div class="Answer">
+<p><span class="math display">\[ \begin{split}
+    \text{1 atome de }^{16}O &amp;\\
+    1 \text{ uma} &amp;\longrightarrow 1.661\cdot10^{-24} \text{ g}\\
+    16 \text{ uma} &amp;\longrightarrow m \text{ g}\\
+    \end{split}
+    \qquad\qquad
+    \begin{split}
+        m &amp;= \dfrac{16 \text{ uma} \cdot 1.661 \cdot 10^{-24} \text{ g}}{1 \text{ uma}}\\
+        &amp;= 2.657\cdot 10^{-23} \text{ g}
+    \end{split} \]</span></p>
+<p><span class="math display">\[ \begin{split}
+    \text{1 mole d'atomes de }^{16}O &amp;\\
+    \text{1 atome de } ^{16}O &amp;\longrightarrow 2.657\cdot 10^{-23} \text{ g}\\
+    6.022\cdot 10^{23} \text{ atome} &amp;\longrightarrow M \text{ g}\\
+    \end{split}
+    \qquad\qquad
+    \begin{split}
+    M &amp;= \dfrac{6.022\cdot 10^{23} \cdot 2.657\cdot 10^{-23} \text{ g}}{1 \text{ atome}}\\
+    &amp;= 16 \text{ g}
+    \end{split} \]</span></p>
+<p>Une mole d’atomes d’oxygène 16 a une masse de 16 g.</p>
+</div>
+<div class="Exercise">
+<p>Sur la base des résultats des deux exercices ci-dessus, identifiez la relation entre les valeurs numériques de la masse d’un atome en uma et la masse d’une mole d’atomes en g/mol.</p>
+</div>
+<div class="Answer">
+<p>La masse en grammes par mole d’une substance est numériquement égale à son poids en unités de masse atomique.</p>
+<p><span class="math display">\[ \underbrace{\{masse\;atomique\}}_\text{uma}\;=\;\underbrace{\{masse\;molaire\}}_\text{g/mol} \]</span></p>
+</div>
+</section>
+<section id="la-masse-molaire-atomique" class="level2" data-number="5.7">
+<h2 data-number="5.7" class="anchored" data-anchor-id="la-masse-molaire-atomique"><span class="header-section-number">5.7</span> La masse molaire atomique</h2>
+<div id="fig-uma-masse-molaire" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-uma-masse-molaire-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/uma-masse-molaire.png" class="img-fluid figure-img" style="width:67.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-uma-masse-molaire-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5.3: Relation entre unité de masse atomique et masse molaire.
+</figcaption>
+</figure>
+</div>
+<div class="tcolorbox">
+<p><strong>Masse molaire atomique</strong><br>
+La masse molaire atomique d’un élément est la masse en grammes d’une mole d’atomes de l’élément.</p>
+</div>
+<p>La définition de la masse molaire nous permet d’exprimer la relation suivante:</p>
+<p><span class="math display">\[ \begin{split}
+  \text{M} = \frac{\text{m}}{\text{n}}
+\end{split}
+\qquad
+\begin{split}
+    &amp;\text{m : masse de substance en g}\\
+    &amp;\text{n : quantité de matière en mol}\\
+    &amp;\text{M : masse molaire en g/mol}
+\end{split} \]</span></p>
+<p><span class="math display">\[ M = \frac{m}{n} \qquad \text{ ou } \qquad n = \frac{m}{M} \qquad \text{ ou } \qquad m = n \cdot M \]</span></p>
+<div class="Exercise-container">
+<div class="Exercise">
+<p>Complétez le tableau ci dessous, indiquant la masse molaire du composé en g/mol et le nombre de moles contenues dans 1g de cet élément.</p>
+</div>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">substance</th>
+<th style="text-align: center;">masse molaire en g/mol</th>
+<th style="text-align: center;">moles contenues dans 1g</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Fe</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Pb</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Mg</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="Answer">
+<p>Fe - 55.85 g/mol - 1g / 55.85g/mol = 0.018 mol</p>
+<p>Pb - 207.2 g/mol - 1g / 207.2g/mol = 0.005 mol</p>
+<p>Mg - 24.31 g/mol - 1g / 24.31g/mol = 0.041 mol</p>
+</div>
+</section>
+<section id="résumé" class="level2" data-number="5.8">
+<h2 data-number="5.8" class="anchored" data-anchor-id="résumé"><span class="header-section-number">5.8</span> Résumé</h2>
+<ul>
+<li>L’atome est constitué d’un noyau (protons et neutrons) autour duquel gravitent les électrons ; il est essentiellement constitué de vide et plus de 99 % de sa masse est concentrée dans le noyau.</li>
+<li>Le proton porte une charge relative +1, l’électron une charge -1 et le neutron est neutre. Proton et neutron ont une masse voisine ; l’électron est environ 1836 fois plus léger.</li>
+<li>Un atome est électriquement neutre : il compte autant d’électrons que de protons.</li>
+<li>Un élément regroupe tous les atomes ayant le même nombre de protons, appelé numéro atomique <span class="math inline">\(Z\)</span>.</li>
+<li>Le nombre de masse <span class="math inline">\(A\)</span> est le nombre de nucléons (protons + neutrons). La notation <span class="math inline">\(_{Z}^{A}X\)</span> résume la composition d’un atome.</li>
+<li>Les isotopes d’un élément ont le même <span class="math inline">\(Z\)</span> mais un nombre de neutrons (donc un <span class="math inline">\(A\)</span>) différent.</li>
+<li>L’unité de masse atomique (uma) vaut <span class="math inline">\(\frac{1}{12}\)</span> de la masse d’un atome de carbone 12, soit environ <span class="math inline">\(1.660\cdot10^{-27}\)</span> kg.</li>
+<li>La masse d’un noyau est inférieure à la somme des masses de ses nucléons : c’est le défaut de masse <span class="math inline">\(\Delta m\)</span>, converti en énergie de cohésion selon <span class="math inline">\(\Delta E = \Delta m \cdot c^{2}\)</span>.</li>
+<li>La masse atomique d’un élément est la moyenne des masses de ses isotopes, pondérée par leurs abondances naturelles.</li>
+<li>Une mole contient <span class="math inline">\(N_A = 6.022\cdot10^{23}\)</span> entités (nombre d’Avogadro).</li>
+<li>La masse molaire <span class="math inline">\(M\)</span> (en g/mol) est la masse d’une mole d’atomes ; elle est numériquement égale à la masse atomique en uma. On relie masse et quantité de matière par <span class="math inline">\(n = \dfrac{m}{M}\)</span>.</li>
+</ul>
+</section>
+<section id="exercices-supplémentaires" class="level2" data-number="5.9">
+<h2 data-number="5.9" class="anchored" data-anchor-id="exercices-supplémentaires"><span class="header-section-number">5.9</span> Exercices supplémentaires</h2>
+<div class="Exercise">
+<p>Combien de protons, de neutrons et d’électrons sont contenus dans un atome de:</p>
+<ol type="1">
+<li><span class="math inline">\(^{197}\text{Au}\)</span><br>
+</li>
+<li>strontium 90<br>
+</li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>Z de l’or = 79<br>
+Un atome de <span class="math inline">\(^{197}Au\)</span> a 79 protons, 79 électrons, et 197-79 = 118 neutrons.<br>
+</li>
+<li>Z du strontium = 38<br>
+L’isotope strontium 90 a 38 protons, 38 électrons et 90-38 = 52 neutrons.</li>
+</ol>
+</div>
+<div class="Exercise">
+<p>Le magnésium a trois isotopes dont les nombres de masse sont 24, 25 et 26.</p>
+<ol type="1">
+<li>Donnez le symbole chimique complet (exposant et indice) pour chaque isotope.<br>
+</li>
+<li>Combien de neutrons sont contenus dans un atome de chaque isotope ?<br>
+</li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><span class="math inline">\(_{12}^{24}Mg\)</span>, <span class="math inline">\(_{12}^{25}Mg\)</span> et <span class="math inline">\(_{12}^{26}Mg\)</span><br>
+</li>
+<li>12 neutrons, 13 neutrons et 14 neutrons</li>
+</ol>
+</div>
+<div class="Exercise-container">
+<div class="Exercise">
+<p>Complétez le tableau suivant pour retrouver l’isotope considéré à chaque ligne.</p>
+</div>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">symbole</th>
+<th style="text-align: center;">A</th>
+<th style="text-align: center;">protons</th>
+<th style="text-align: center;">neutrons</th>
+<th style="text-align: center;">nom de l’isotope</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"></td>
+<td style="text-align: center;">16</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"></td>
+<td style="text-align: center;">17</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"></td>
+<td style="text-align: center;">15</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="Answer">
+<p><span class="math inline">\(_{7}^{13}N\)</span> | 13 | 7 | 6 | azote 13</p>
+<p><span class="math inline">\(_{8}^{16}O\)</span> | 16 | 8 | 8 | oxygène 16</p>
+<p><span class="math inline">\(_{8}^{17}O\)</span> | 17 | 8 | 9 | oxygène 17</p>
+<p><span class="math inline">\(_{7}^{15}N\)</span> | 15 | 7 | 8 | azote 15</p>
+</div>
+<div class="Exercise">
+<p>Donnez le symbole chimique complet de l’atome dont le nombre de masse est de 112 et le numéro atomique égal à 48.</p>
+<p>Donnez le nombre de chacune des particules qui le composent.</p>
+</div>
+<div class="Answer">
+<p><span class="math inline">\(_{48}^{112}Cd\)</span></p>
+<p>48 protons, 64 neutrons et 48 électrons</p>
+</div>
+<div class="Exercise">
+<p>Soit un atome de sodium 23. Qu’obtiendrait-on …</p>
+<ol type="1">
+<li>si on pouvait lui ajouter un proton ?<br>
+</li>
+<li>si on pouvait lui ajouter un neutron ?<br>
+</li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>du magnésium 24.</li>
+<li>un autre isotope du sodium</li>
+</ol>
+</div>
+<div class="Exercise">
+<p>Chacun des symboles chimiques ci-dessous représente un élément différent. Identifiez l’élément représenté et donnez le nombre de protons, de neutrons et d’électrons de chacun:</p>
+<ol type="1">
+<li><span class="math inline">\(^{74}_{33}X\)</span><br>
+</li>
+<li><span class="math inline">\(^{127}_{53}X\)</span><br>
+</li>
+<li><span class="math inline">\(^{152}_{63}X\)</span><br>
+</li>
+<li><span class="math inline">\(^{209}_{83}X\)</span></li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><span class="math inline">\(^{74}_{33}As\)</span> : 33 <span class="math inline">\(p^+\)</span>, 41 <span class="math inline">\(n\)</span>, 33 <span class="math inline">\(e^-\)</span><br>
+</li>
+<li><span class="math inline">\(^{127}_{53}I\)</span> : 53 <span class="math inline">\(p^+\)</span>, 74 <span class="math inline">\(n\)</span>, 53 <span class="math inline">\(e^-\)</span><br>
+</li>
+<li><span class="math inline">\(^{152}_{63}Eu\)</span> : 63 <span class="math inline">\(p^+\)</span>, 89 <span class="math inline">\(n\)</span>, 63 <span class="math inline">\(e^-\)</span><br>
+</li>
+<li><span class="math inline">\(^{209}_{83}Bi\)</span> : 83 <span class="math inline">\(p^+\)</span>, 126 <span class="math inline">\(n\)</span>, 83 <span class="math inline">\(e^-\)</span></li>
+</ol>
+</div>
+<div class="Exercise">
+<p>Quelle serait la masse atomique d’un l’élément si cet élément était composé de trois isotopes avec les abondances relatives suivantes?</p>
+<ul>
+<li>30.00 % à 37.00 uma</li>
+<li>50.00 % à 38.00 uma</li>
+<li>20.00 % à 40.00 uma</li>
+</ul>
+</div>
+<div class="Answer">
+<p><span class="math display">\[ \begin{split}
+        m_a &amp; = 0.3 \cdot 37.00 \text{ uma} + 0.5 \cdot 38.00 \text{ uma} + 0.2 \cdot 40.00 \text{ uma}\\
+        &amp;= 38.1 \text{ uma}
+\end{split} \]</span></p>
+</div>
+<div class="Exercise">
+<p>Vous portez à votre doigt un anneau d’or pur qui pèse 31.6 g.</p>
+<ol type="1">
+<li>Combien de moles d’atomes d’or sont contenues dans cet anneau?<br>
+</li>
+<li>Combien d’atomes d’or sont contenus dans cet anneau?<br>
+</li>
+<li>Combien de protons sont contenus dans cet anneau?<br>
+</li>
+</ol>
+</div>
+<div class="Answer">
+<p><span class="math display">\[ \begin{split}
+    1 \text{ mol} \text{ d 'Au } &amp;\longrightarrow 196.97 \text{ g}\\
+    n \text{ mol} \text{ d 'Au } &amp;\longrightarrow 31.6 \text{ g}\\
+    n &amp;= \dfrac{31.6 \text{ g} \cdot 1 \text{ mol}}{196.97 \text{ g}} = 0.16 \text{ mol}
+\end{split} \]</span></p>
+<p><strong>31.6 g d’or contiennent 0.16 mol d’atomes d’or.</strong></p>
+<p><span class="math display">\[ \begin{split}
+    1 \text{ mol} \text{ d'Au } &amp;\longrightarrow 6.022\cdot 10^{23} \text{ atome} \text{ d'Au}\\
+    0.16 \text{ mol} \text{ d'Au } &amp;\longrightarrow N_a \text{ atome} \text{ d'Au}\\
+    N_a = \dfrac{0.16 \text{ mol} \cdot 6.022\cdot 10^{23} \text{ atome}}{1 \text{ mol}} &amp;= 9.66\cdot 10^{22} \text{ atome}
+\end{split} \]</span></p>
+<p><strong>31.6 g d’or contiennent <span class="math inline">\(9.66\cdot 10^{22}\)</span> atomes d’or.</strong></p>
+<p><span class="math display">\[ \begin{split}
+    1 \text{ atome} \text{ d'Au } &amp;\longrightarrow 79 \text{ proton}\\
+    9.66\cdot 10^{22} \text{ atome} \text{ d'Au } &amp;\longrightarrow N_{p} \text{ proton}\\
+    N_p = \dfrac{9.66\cdot 10^{22} \text{ atome} \cdot 79 \text{ proton}}{1 \text{ atome}} &amp;= 7.63\cdot 10^{24} \text{ proton}\\
+\end{split} \]</span></p>
+<p><strong>31.6 g d’or contiennent <span class="math inline">\(7.63\cdot 10^{24}\)</span> protons.</strong></p>
+</div>
+<div class="Exercise">
+<p>Calculer le nombre d’atomes de magnésium contenus dans 35.2 g de magnésium.</p>
+<p>Quelle est la masse de 2.2 <span class="math inline">\(\cdot 10^{23}\)</span> atomes de Pt?</p>
+<p>Combien de grammes de calcium (Ca) faut-il pour obtenir 3.40 moles de calcium?</p>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><p><span class="math display">\[ \begin{split}
+     n &amp;= \dfrac{m}{M} = \dfrac{35.2~\text{ g}}{24.31~\text{ g/mol}} = 1.45~\text{ mol} \\
+     N &amp;= n \cdot N_{A} = 1.45~\text{ mol} \cdot 6.022\cdot10^{23} = 8.73\cdot10^{23}~\text{ atomes}
+     \end{split} \]</span></p></li>
+<li><p><span class="math display">\[ \begin{split}
+     n &amp;= \dfrac{N}{N_{A}} = \dfrac{2.2\cdot10^{23}}{6.022\cdot10^{23}} = 0.37~\text{ mol} \\
+     m &amp;= n \cdot M = 0.37\text{ mol} \cdot 195.08\text{ g/mol} = 72\text{ g}
+     \end{split} \]</span></p></li>
+<li><p><span class="math display">\[ \begin{split}
+     m &amp;= n \cdot M = 3.4\text{ mol} \cdot 40.08\text{ g/mol} = 136\text{ g}
+     \end{split} \]</span></p></li>
+</ol>
+</div>
+<div class="Exercise">
+<p>Combien de mole d’atomes de carbone contiennent 6 g de carbone 12?</p>
+<p>Combien d’atomes sont contenus dans 97.6 g de platine?</p>
+<p>Combien d’atomes contient un échantillon de chrome ayant une masse de 13 g?</p>
+<p>Combien de moles d’argent représentent 9.02 <span class="math inline">\(\cdot 10^{23}\)</span> atomes d’argent?</p>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><p><span class="math display">\[ \begin{split}
+         1 \text{ mol de C } &amp;\longrightarrow 12 \text{ g}\\
+         n \text{ mol de C } &amp;\longrightarrow 6 \text{ g}\\
+         n = \dfrac{6 \text{ g} \cdot 1 \text{ mol}}{12 \text{ g}} &amp;= 0.5 \text{ mol}
+     \end{split}
+     \qquad
+     \begin{split}
+     n = \dfrac{m}{M} = \dfrac{6\text{ g}}{12\text{ g/mol}} = 0.5 \text{ mol}
+\end{split} \]</span></p></li>
+<li><p><span class="math display">\[ \begin{split}
+         1 \text{ mol de Pt } &amp;\longrightarrow 195 \text{ g}\\
+         n \text{ mol de Pt } &amp;\longrightarrow 97.6 \text{ g}\\
+         n = \dfrac{97.6 \text{ g} \cdot 1 \text{ mol}}{195 \text{ g}} &amp;= 0.5 \text{ mol}
+     \end{split}
+     \qquad
+     \begin{split}
+     n = \dfrac{m}{M} = \dfrac{97.6\text{ g}}{195\text{ g/mol}} = 0.5 \text{ mol}
+\end{split} \]</span></p></li>
+</ol>
+<p><span class="math display">\[ \begin{split}
+  1 \text{ mol de Pt } &amp;\longrightarrow 6.022\cdot10^{23} \text{ atome}\\
+  0.5 \text{ mol de Pt } &amp;\longrightarrow n \text{ atome}\\
+  n = \dfrac{0.5 \text{ mol} \cdot 6.022\cdot10^{23} \text{ atome}}{1 \text{ mol}} &amp;= 3.011\cdot10^{23} \text{ atome}
+  \end{split} \]</span></p>
+<ol start="3" type="1">
+<li><span class="math display">\[ \begin{split}
+     1 \text{ mol de Cr } &amp;\longrightarrow 52 \text{ g}\\
+     n \text{ mol de Cr } &amp;\longrightarrow 13 \text{ g}\\
+     n = \dfrac{13 \text{ g} \cdot 1 \text{ mol}}{52 \text{ g}} &amp;= 0.25 \text{ mol}
+     \end{split}
+     \qquad
+     \begin{split}
+     n = \dfrac{m}{M} = \dfrac{13\text{ g}}{52\text{ g/mol}} &amp;= 0.25 \text{ mol}
+\end{split} \]</span></li>
+</ol>
+<p><span class="math display">\[ \begin{split}
+  1 \text{ mol de Cr } &amp;\longrightarrow 6.022\cdot10^{23} \text{ atome}\\
+  0.25 \text{ mol de Cr } &amp;\longrightarrow n \text{ atome}\\
+  n = \dfrac{0.25 \text{ mol} \cdot 6.022\cdot10^{23} \text{ atome}}{1 \text{ mol}} &amp;= 1.51\cdot10^{23} \text{ atome}
+  \end{split} \]</span></p>
+<ol start="4" type="1">
+<li><span class="math display">\[ \begin{split}
+     1 \text{ mol de Ag } &amp;\longrightarrow 6.022\cdot10^{23} \text{ atome}\\
+     n \text{ mol de Ag } &amp;\longrightarrow 9.02\cdot10^{23} \text{ atome}\\
+     n &amp;= \dfrac{9.02\cdot10^{23} \text{ atome} \cdot 1\text{ mol}}{6.022\cdot10^{23} \text{ atome}} = 1.51 \text{ mol}
+\end{split} \]</span></li>
+</ol>
+</div>
+<div class="Exercise">
+<p>Le bore naturel est composé de deux isotopes : le bore 10 (masse 10.013 uma) et le bore 11 (masse 11.009 uma). La masse atomique du bore vaut 10.81 uma.</p>
+<ol type="1">
+<li>Déterminez l’abondance naturelle (en %) de chacun des deux isotopes. </li>
+<li>Donnez la composition (protons, neutrons, électrons) d’un atome de bore 11. </li>
+<li>Combien d’atomes de bore contient un échantillon de 5.00 g de bore ? </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>Soit <span class="math inline">\(x\)</span> l’abondance du bore 10 (exprimée en fraction) ; celle du bore 11 est <span class="math inline">\(1-x\)</span>. <span class="math display">\[
+10.013 \cdot x + 11.009 \cdot (1-x) = 10.81
+\]</span> <span class="math display">\[
+11.009 - 0.996 \cdot x = 10.81 \quad\Rightarrow\quad x = \frac{0.199}{0.996} = 0.200
+\]</span> Le bore contient environ <strong>20.0 % de bore 10</strong> et <strong>80.0 % de bore 11</strong>.</li>
+<li>Le bore a <span class="math inline">\(Z = 5\)</span>. Le bore 11 possède donc 5 protons, <span class="math inline">\(11 - 5 = 6\)</span> neutrons et 5 électrons.</li>
+<li><span class="math display">\[
+n = \frac{m}{M} = \frac{5.00}{10.81} = 0.4625 \text{ mol}
+\]</span> <span class="math display">\[
+N = n \cdot N_A = 0.4625 \cdot 6.022\cdot10^{23} = 2.79\cdot10^{23} \text{ atomes}
+\]</span></li>
+</ol>
+</div>
+<div class="Exercise">
+<p>Le noyau de lithium 7 (<span class="math inline">\(_{3}^{7}Li\)</span>) a une masse mesurée de 7.016 uma. On rappelle : <span class="math inline">\(m_p = 1.672\cdot10^{-27}\)</span> kg, <span class="math inline">\(m_n = 1.674\cdot10^{-27}\)</span> kg, 1 uma <span class="math inline">\(= 1.660\cdot10^{-27}\)</span> kg et <span class="math inline">\(c = 3\cdot10^{8}\)</span> m/s.</p>
+<ol type="1">
+<li>Calculez la masse totale des nucléons du noyau (en kg). </li>
+<li>Exprimez la masse mesurée du noyau en kg, puis déterminez le défaut de masse <span class="math inline">\(\Delta m\)</span>. </li>
+<li>Calculez l’énergie de cohésion <span class="math inline">\(\Delta E\)</span> du noyau (en J). </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>Le lithium 7 possède 3 protons et <span class="math inline">\(7 - 3 = 4\)</span> neutrons. <span class="math display">\[
+m_{\text{nucléons}} = 3 \cdot 1.672\cdot10^{-27} + 4 \cdot 1.674\cdot10^{-27} = 1.1712\cdot10^{-26} \text{ kg}
+\]</span></li>
+<li><span class="math display">\[
+m_{\text{noyau}} = 7.016 \cdot 1.660\cdot10^{-27} = 1.1647\cdot10^{-26} \text{ kg}
+\]</span> <span class="math display">\[
+\Delta m = m_{\text{nucléons}} - m_{\text{noyau}} = 1.1712\cdot10^{-26} - 1.1647\cdot10^{-26} = 6.5\cdot10^{-29} \text{ kg}
+\]</span></li>
+<li><span class="math display">\[
+\Delta E = \Delta m \cdot c^{2} = 6.5\cdot10^{-29} \cdot (3\cdot10^{8})^{2} = 5.9\cdot10^{-12} \text{ J}
+\]</span></li>
+</ol>
+</div>
+<div class="Exercise">
+<p>L’aluminium ne possède qu’un seul isotope stable, <span class="math inline">\(_{13}^{27}Al\)</span>. On considère un échantillon de 2.00 g d’aluminium (M = 26.982 g/mol).</p>
+<ol type="1">
+<li>Combien de moles d’atomes d’aluminium contient l’échantillon ? </li>
+<li>Combien d’atomes d’aluminium contient-il ? </li>
+<li>Combien de protons, de neutrons et d’électrons l’échantillon contient-il au total ? </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li><span class="math display">\[
+n = \frac{m}{M} = \frac{2.00}{26.982} = 0.0741 \text{ mol}
+\]</span></li>
+<li><span class="math display">\[
+N = n \cdot N_A = 0.0741 \cdot 6.022\cdot10^{23} = 4.46\cdot10^{22} \text{ atomes}
+\]</span></li>
+<li>Un atome de <span class="math inline">\(_{13}^{27}Al\)</span> contient 13 protons, <span class="math inline">\(27 - 13 = 14\)</span> neutrons et 13 électrons. Pour l’échantillon entier : <span class="math display">\[
+\text{protons} = 13 \cdot 4.46\cdot10^{22} = 5.80\cdot10^{23}
+\]</span> <span class="math display">\[
+\text{neutrons} = 14 \cdot 4.46\cdot10^{22} = 6.25\cdot10^{23}
+\]</span> <span class="math display">\[
+\text{électrons} = 13 \cdot 4.46\cdot10^{22} = 5.80\cdot10^{23}
+\]</span></li>
+</ol>
+</div>
+<div class="Exercise">
+<p>On souhaite estimer la masse d’un atome de fer 56 (<span class="math inline">\(_{26}^{56}Fe\)</span>). Données : <span class="math inline">\(m_p = 1.672\cdot10^{-27}\)</span> kg, <span class="math inline">\(m_n = 1.674\cdot10^{-27}\)</span> kg, <span class="math inline">\(m_e = 9.109\cdot10^{-31}\)</span> kg, 1 uma <span class="math inline">\(= 1.660\cdot10^{-27}\)</span> kg.</p>
+<ol type="1">
+<li>Calculez la masse d’un atome de fer 56 en additionnant les masses de toutes ses particules subatomiques (en kg). </li>
+<li>Convertissez cette masse en uma. </li>
+<li>La masse atomique du fer donnée par le tableau périodique est de 55.845 uma. Comment expliquer que la valeur calculée soit légèrement supérieure ? </li>
+</ol>
+</div>
+<div class="Answer">
+<ol type="1">
+<li>Le fer 56 possède 26 protons, <span class="math inline">\(56 - 26 = 30\)</span> neutrons et 26 électrons. <span class="math display">\[
+m = 26 \cdot 1.672\cdot10^{-27} + 30 \cdot 1.674\cdot10^{-27} + 26 \cdot 9.109\cdot10^{-31}
+\]</span> <span class="math display">\[
+m = 4.347\cdot10^{-26} + 5.022\cdot10^{-26} + 2.368\cdot10^{-29} = 9.372\cdot10^{-26} \text{ kg}
+\]</span></li>
+<li><span class="math display">\[
+m = \frac{9.372\cdot10^{-26}}{1.660\cdot10^{-27}} = 56.5 \text{ uma}
+\]</span></li>
+<li>La valeur calculée additionne les masses des particules <strong>libres</strong>. Dans le noyau, une partie de la masse est convertie en énergie de cohésion : c’est le <strong>défaut de masse</strong>. La masse réelle de l’atome est donc plus petite que la somme des masses de ses particules. De plus, la masse atomique du tableau (55.845 uma) est une <strong>moyenne</strong> pondérée sur tous les isotopes du fer, pas uniquement le fer 56.</li>
+</ol>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script src="html/vendor/jquery-3.7.1.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+
+    var exeContainerClass = 'Exercise-container';
+    var exeClass = 'Exercise';
+    var ansClass = 'Answer';
+
+    $('.' + exeContainerClass).each(function(i, el) {
+      let child = $(el).children('.' + exeClass);
+      child.replaceWith(child.html());
+      $(el).removeClass(exeContainerClass).addClass(exeClass);
+    });
+
+    var chapterNum = $('.quarto-page-breadcrumbs .chapter-number').first().text().trim();
+
+    $('.' + exeClass).each(function(i, el) {
+      var num = chapterNum + '.' + (i + 1);
+      var title = $('<div>Exercice ' + num + '</div>');
+      title.addClass('Label');
+      $(el).prepend(title);
+    });
+
+    $('.' + ansClass).each(function(i, el) {
+      $(el).click(function() {
+        $(el).slideToggle();
+      });
+      var button = $('<button>Solution</button>');
+      button.attr('type', 'button');
+      button.addClass('Answer-button');
+      button.click(function() {
+        $(el).slideToggle();
+      });
+      button.insertBefore(el);
+    });
+
+  });
+</script>
+<script type="text/javascript">
+  $(document).ready(function () {
+    $("main.content table, main.content .math.display").each(function (i, el) {
+      let parent = $("<div>").attr("style", "overflow-x:auto");
+      $(el).wrap(parent);
+    });
+  });
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copié");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copié");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./40-historique.html" class="pagination-link" aria-label="Historique">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Historique</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./60-tableau-periodique.html" class="pagination-link" aria-label="Le tableau périodique">
+        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Le tableau périodique</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
