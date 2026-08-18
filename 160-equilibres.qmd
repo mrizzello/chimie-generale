@@ -85,7 +85,7 @@ $$
   Q_{r}(t) = \frac{|C|_{(t)}^{c} \cdot |D|_{(t)}^{d}}{|A|_{(t)}^{a} \cdot |B|_{(t)}^{b}}
 $$
 
-Les concentrations des espèces dissoutes sont exprimées en mole par litre (mol/l).
+Les concentrations des espèces dissoutes sont exprimées en mole par litre (mol/L).
 
 ## La constante d'équilibre
 
