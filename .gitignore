@@ -12,3 +12,6 @@ chimie-generale_files
 /chimie-generale.tex
 /chimie-generale.log
 /site_libs/
+
+/.venv/
+/slides/
