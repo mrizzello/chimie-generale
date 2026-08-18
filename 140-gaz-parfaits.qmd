@@ -107,15 +107,15 @@ Avec cette relation, nous pouvons convertir le volume d'un gaz en quantité de m
 
 #### Le volume
 
-L'unité SI de volume est le mètre cube $m^3$. Depuis 1964, le mot "litre" $\text{ l}$ peut être utilisé \textbf{comme un nom spécial donné au décimètre cube}. Bien qu’en dehors du système international (SI) d’unités, le litre est couramment utilisé pour caractériser un volume.
+L'unité SI de volume est le mètre cube $m^3$. Depuis 1964, le mot "litre" $\text{ L}$ peut être utilisé \textbf{comme un nom spécial donné au décimètre cube}. Bien qu’en dehors du système international (SI) d’unités, le litre est couramment utilisé pour caractériser un volume.
 
 $$
 \begin{split}
-  1\ \mathrm{m^3} = 1000\ \mathrm{dm^3} = 1000\ \mathrm{l}
+  1\ \mathrm{m^3} = 1000\ \mathrm{dm^3} = 1000\ \mathrm{L}
 \end{split}
 \qquad\qquad
 \begin{split}
-	1\ \mathrm{l} = 1\ \mathrm{dm^3} = 10^{-3}\ \mathrm{m^3}
+	1\ \mathrm{L} = 1\ \mathrm{dm^3} = 10^{-3}\ \mathrm{m^3}
 \end{split}
 $$
 

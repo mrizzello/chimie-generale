@@ -159,7 +159,7 @@ Pour exprimer la constante d'équilibre :
 
 ## Équilibres chimiques et stœchiométrie
 
-En cherchant à mesurer la constante d'équilibre de la décomposition de l'iodure d'hydrogène, on remplit un ballon sous vide de 2 l avec 0.2 mol de $HI$ gazeux et on laisse la réaction se dérouler à 453°C.
+En cherchant à mesurer la constante d'équilibre de la décomposition de l'iodure d'hydrogène, on remplit un ballon sous vide de 2 L avec 0.2 mol de $HI$ gazeux et on laisse la réaction se dérouler à 453°C.
 
 $$
   2\ HI\ _{(g)} \leftrightharpoons H_2\ _{(g)} + I_2\ _{(g)}
@@ -170,7 +170,7 @@ $$
 On commence par calculer la concentration initiale en iodure d'hydrogène, $|HI|_{0}$.
 
 $$
-  |HI|_0 = \frac{0.2\ \text{ mol}}{2\ \text{ l}} = 0.1\ M
+  |HI|_0 = \frac{0.2\ \text{ mol}}{2\ \text{ L}} = 0.1\ M
 $$
 
 On peut ensuite établir un tableau des variations :

@@ -4,7 +4,7 @@ Calculez la molarité des solutions suivantes :
 
 1. 1.2 g d’hydroxyde de sodium dans 25 mL de solution
 \vspace{\stretch{1}}
-2. 3.43 g d’hydroxyde de barium dans 2.5 l de solution
+2. 3.43 g d’hydroxyde de barium dans 2.5 L de solution
 \vspace{\stretch{1}}
 3. 1.47 g d’acide phosphorique dans 40 mL de solution
 \vspace{\stretch{1}}
@@ -22,7 +22,7 @@ Calculez la molarité des solutions suivantes :
 \qquad
 \begin{split}
   C_{NaOH} &= \frac{n_{NaOH}}{V_{sol}} \\
-  &= \frac{3 \cdot 10^{-2}\ \text{ mol}}{25 \cdot 10^{-3}\ \text{ l}} \\
+  &= \frac{3 \cdot 10^{-2}\ \text{ mol}}{25 \cdot 10^{-3}\ \text{ L}} \\
   &= 1.2\ \text{ mol/L} \text{ ou } M
 \end{split}
 $$
@@ -35,7 +35,7 @@ $$
 \qquad
 \begin{split}
   C_{Ba(OH)_2} &= \frac{n_{Ba(OH)_2}}{V_{sol}} \\
-  &= \frac{2 \cdot 10^{-2}\ \text{ mol}}{2.5\ \text{ l}} \\
+  &= \frac{2 \cdot 10^{-2}\ \text{ mol}}{2.5\ \text{ L}} \\
   &= 8 \cdot 10^{-3}\ \text{ mol/L} \text{ ou } M
 \end{split}
 $$
@@ -48,7 +48,7 @@ $$
 \qquad
 \begin{split}
   C_{H_3PO_4} &= \frac{n_{H_3PO_4}}{V_{sol}} \\
-  &= \frac{1.5 \cdot 10^{-2}\ \text{ mol}}{40 \cdot 10^{-3}\ \text{ l}} \\
+  &= \frac{1.5 \cdot 10^{-2}\ \text{ mol}}{40 \cdot 10^{-3}\ \text{ L}} \\
   &= 0.375\ \text{ mol/L} \text{ ou } M
 \end{split}
 $$
