@@ -15,7 +15,7 @@ n_{\ce{Zn}} = \frac{m}{M} = \frac{6.54}{65.38} = 0.100 \text{ mol}
 $$
 La réaction se fait dans le rapport $\ce{Zn} : \ce{H2} = 1:1$, donc $n_{\ce{H2}} = 0.100$ mol.
 $$
-V = \frac{n \cdot R \cdot T}{P} = \frac{0.100 \cdot 8.314 \cdot 298.15}{1.0\cdot10^5} = 2.48\cdot10^{-3} \text{ m}^3 = 2.48 \text{ l}
+V = \frac{n \cdot R \cdot T}{P} = \frac{0.100 \cdot 8.314 \cdot 298.15}{1.0\cdot10^5} = 2.48\cdot10^{-3} \text{ m}^3 = 2.48 \text{ L}
 $$
 
 :::

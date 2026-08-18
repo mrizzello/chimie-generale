@@ -1,6 +1,6 @@
 ::: {.Exercise data-latex=""}
 
-On remplit un ballon-sonde météorologique avec 500 l d'hélium à 25° C et une pression de 120 kPa. Le ballon s'élève à une altitude de 1850 m, où la pression est de 80 kPa et la température de 0° C. Quel sera le volume du ballon par rapport à son volume initial?
+On remplit un ballon-sonde météorologique avec 500 L d'hélium à 25° C et une pression de 120 kPa. Le ballon s'élève à une altitude de 1850 m, où la pression est de 80 kPa et la température de 0° C. Quel sera le volume du ballon par rapport à son volume initial?
 
 \vspace{\stretch{1}}
 
@@ -15,14 +15,14 @@ $$
 $$
 \begin{split}
 	P_1 &= 120\ \text{ kPa}\\
-	V_1 &= 500\ \text{ l}\\
+	V_1 &= 500\ \text{ L}\\
 	T_1 &= 298\ \text{ K}\\
 	n_1 &= n_2
 \end{split}
 \qquad
 \begin{split}
 	P_2 &= 80\ \text{ kPa}\\
-	V_2 &=\ ?\ \text{ l}\\
+	V_2 &=\ ?\ \text{ L}\\
 	T_2 &= 273\ \text{ K}\\
 	n_2 &= n_1
 \end{split}
@@ -31,8 +31,8 @@ $$
 $$
 \begin{split}
 	V_2 &= \frac{P_1 \cdot V_1 \cdot T_2}{T_1 \cdot P_2} \\
-	&= \frac{120\ \text{ kPa} \cdot 500\ \text{ l} \cdot 273\ \text{ K}}{298\ \text{ K} \cdot 80\ \text{ kPa}} \\
-	&= 687\ \text{ l}
+	&= \frac{120\ \text{ kPa} \cdot 500\ \text{ L} \cdot 273\ \text{ K}}{298\ \text{ K} \cdot 80\ \text{ kPa}} \\
+	&= 687\ \text{ L}
 \end{split}
 $$
 

@@ -13,7 +13,7 @@ On dispose d'une solution stock d'acide chlorhydrique (HCl) de concentration 2.0
 
 1. La quantité de soluté est conservée : $C_i \cdot V_i = C_f \cdot V_f$.
 $$
-V_i = \frac{C_f \cdot V_f}{C_i} = \frac{0.50 \cdot 0.100}{2.0} = 0.025 \text{ l} = 25 \text{ mL}
+V_i = \frac{C_f \cdot V_f}{C_i} = \frac{0.50 \cdot 0.100}{2.0} = 0.025 \text{ L} = 25 \text{ mL}
 $$
 2. Prélever 25 mL de solution stock ; les verser dans une fiole jaugée de 100 mL contenant déjà un peu d'eau distillée ; compléter jusqu'au trait de jauge avec de l'eau distillée.
 

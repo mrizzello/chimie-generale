@@ -37,7 +37,7 @@ Mesurer la vitesse d'une réaction c'est mesurer les changements de quantité de
 - la **masse** - la vitesse sera alors exprimée en g/s ou g/min (p. ex.),
 - le **volume** - la vitesse sera alors exprimée en cm^3^/s ou cm^3^/min (p. ex.),
 - la **quantité de matière** - la vitesse sera alors exprimée en mol/s ou mol/min (p. ex.),
-- la **concentration** - la vitesse sera alors exprimée en mol&middot;l^-1^&middot;s^-1^ ou mol&middot;l^-1^&middot;min^-1^ (p. ex.).
+- la **concentration** - la vitesse sera alors exprimée en mol&middot;L^-1^&middot;s^-1^ ou mol&middot;L^-1^&middot;min^-1^ (p. ex.).
 
 ![Variation des quantités de substances en fonction du temps](images/vitesse-reaction-1-a.png){#fig-vitesse-reaction-1-a width="45%"}
 
@@ -131,9 +131,9 @@ v = k \cdot |A|^m \cdot |B|^n
 \end{split}
 \qquad\qquad
 \begin{split}
-v &\text{ : vitesse de la réaction en } \mathrm{mol \cdot l^{-1} \cdot s^{-1}} \\
+v &\text{ : vitesse de la réaction en } \mathrm{mol \cdot L^{-1} \cdot s^{-1}} \\
 k &\text{ : constante de vitesse} \\
-|A|, |B| &\text{ : concentration des réactifs en } \mathrm{mol \cdot l^{-1}} \\
+|A|, |B| &\text{ : concentration des réactifs en } \mathrm{mol \cdot L^{-1}} \\
 m, n &\text{ : ordres partiels de la réaction} \\
 m+n &\text{ : ordre global de la réaction}
 \end{split}

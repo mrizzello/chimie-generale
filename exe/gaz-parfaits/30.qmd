@@ -24,7 +24,7 @@
 \begin{split}
 	\Rightarrow V &= \frac{n \cdot R \cdot T}{P} \\
 	&= \frac{1\ \text{ mol} \cdot 8.314 \ \mathrm{\frac{J}{mol \cdot K}} \cdot 273\ \text{ K}}{1.013 \cdot 10^{5}\ \text{ Pa}} \\
-	&= 0.0224\ \text{ m}^3 = 22.4\ \text{ l}
+	&= 0.0224\ \text{ m}^3 = 22.4\ \text{ L}
 \end{split}
 $$
 
@@ -32,7 +32,7 @@ $$
 \begin{split}
 	\Rightarrow V &= \frac{n \cdot R \cdot T}{P}
 	= \frac{1\ \text{ mol} \cdot 8.314 \ \mathrm{\frac{J}{mol \cdot K}} \cdot 292\ \text{ K}}{1.013 \cdot 10^{5}\ \text{ Pa}} \\
-	&= 0.0239\ \text{ m}^3 = 23.9\ \text{ l}
+	&= 0.0239\ \text{ m}^3 = 23.9\ \text{ L}
 \end{split}
 $$
 

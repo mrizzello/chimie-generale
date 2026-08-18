@@ -15,7 +15,7 @@ n_{\ce{CH4}} = \frac{m}{M} = \frac{16.0}{16.04} = 1.00 \text{ mol}
 $$
 La réaction se fait dans le rapport $\ce{CH4} : \ce{O2} = 1:2$, donc $n_{\ce{O2}} = 2.00$ mol.
 $$
-V = \frac{n \cdot R \cdot T}{P} = \frac{2.00 \cdot 8.314 \cdot 298.15}{1.0\cdot10^5} = 4.96\cdot10^{-2} \text{ m}^3 = 49.6 \text{ l}
+V = \frac{n \cdot R \cdot T}{P} = \frac{2.00 \cdot 8.314 \cdot 298.15}{1.0\cdot10^5} = 4.96\cdot10^{-2} \text{ m}^3 = 49.6 \text{ L}
 $$
 
 :::

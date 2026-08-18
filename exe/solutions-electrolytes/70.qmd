@@ -4,7 +4,7 @@ Calculer le titre et la molarité des solutions suivantes:
 
 a. 1.2 g d'hydroxyde de sodium dans 25 mL de solution  
 \vspace{\stretch{1}}
-b. 3.43 g d'hydroxyde de barium dans 2.5 l de solution  
+b. 3.43 g d'hydroxyde de barium dans 2.5 L de solution  
 \vspace{\stretch{1}}
 c. 1.47 g d'acide phosphorique dans 40 mL de solution  
 \vspace{\stretch{1}}
@@ -15,31 +15,31 @@ c. 1.47 g d'acide phosphorique dans 40 mL de solution
 
 a. $$
 \begin{split}
-  T_{NaOH} &= \frac{m_{NaOH}}{V_{sol}} = \frac{1.2\ \text{ g}}{25 \cdot 10^{-3}\ \text{ l}} \\
+  T_{NaOH} &= \frac{m_{NaOH}}{V_{sol}} = \frac{1.2\ \text{ g}}{25 \cdot 10^{-3}\ \text{ L}} \\
   &= 48\ \text{g/L} \\
   n_{NaOH} &= \frac{m_{NaOH}}{M_{NaOH}} = \frac{1.2\ \text{ g}}{40.008\ \text{ g/mol}} \\
   &= 3 \cdot 10^{-2}\ \text{ mol} \\
-  C_{NaOH} &= \frac{n_{NaOH}}{V_{sol}} = \frac{3 \cdot 10^{-2}\ \text{ mol}}{25 \cdot 10^{-3}\ \text{ l}} \\
+  C_{NaOH} &= \frac{n_{NaOH}}{V_{sol}} = \frac{3 \cdot 10^{-2}\ \text{ mol}}{25 \cdot 10^{-3}\ \text{ L}} \\
   &= 1.2\ M
 \end{split}
 $$
 b. $$
 \begin{split}
-  T_{Ba(OH)2} &= \frac{m_{Ba(OH)2}}{V_{sol}} = \frac{3.43\ \text{ g}}{2.5\ \text{ l}} \\
+  T_{Ba(OH)2} &= \frac{m_{Ba(OH)2}}{V_{sol}} = \frac{3.43\ \text{ g}}{2.5\ \text{ L}} \\
   &= 1.372\ \text{g/L} \\
   n_{Ba(OH)2} &= \frac{m_{Ba(OH)2}}{M_{Ba(OH)2}} = \frac{3.43\ \text{ g}}{171.316\ \text{ g/mol}} \\
   &= 2 \cdot 10^{-2}\ \text{ mol} \\
-  C_{Ba(OH)2} &= \frac{n_{Ba(OH)2}}{V_{sol}} = \frac{2 \cdot 10^{-2}\ \text{ mol}}{2.5\ \text{ l}} \\
+  C_{Ba(OH)2} &= \frac{n_{Ba(OH)2}}{V_{sol}} = \frac{2 \cdot 10^{-2}\ \text{ mol}}{2.5\ \text{ L}} \\
   &= 8 \cdot 10^{-3}\ M \\
 \end{split}
 $$
 c. $$
 \begin{split}
-  T_{H_3PO_4} &= \frac{m_{H_3PO_4}}{V_{sol}} = \frac{1.47\ \text{ g}}{40 \cdot 10^{-3}\ \text{ l}} \\
+  T_{H_3PO_4} &= \frac{m_{H_3PO_4}}{V_{sol}} = \frac{1.47\ \text{ g}}{40 \cdot 10^{-3}\ \text{ L}} \\
   &= 36.75\ \text{g/L} \\
   n_{H_3PO_4} &= \frac{m_{H_3PO_4}}{M_{H_3PO_4}} = \frac{1.47\ \text{ g}}{97.994\ \text{ g/mol}} \\
   &= 1.5 \cdot 10^{-2}\ \text{ mol} \\
-  C_{H_3PO_4} &= \frac{n_{H_3PO_4}}{V_{sol}} = \frac{1.5 \cdot 10^{-2}\ \text{ mol}}{40 \cdot 10^{-3}\ \text{ l}} \\
+  C_{H_3PO_4} &= \frac{n_{H_3PO_4}}{V_{sol}} = \frac{1.5 \cdot 10^{-2}\ \text{ mol}}{40 \cdot 10^{-3}\ \text{ L}} \\
   &= 0.375\ M \\
 \end{split}
 $$
