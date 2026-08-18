@@ -3,7 +3,7 @@
 On suit la concentration d'un réactif A au cours d'une réaction. On mesure :
 
 - temps (s) : 0, 10, 20, 30, 40
-- |A| (mol/l) : 1.00, 0.60, 0.38, 0.25, 0.20
+- |A| (mol/L) : 1.00, 0.60, 0.38, 0.25, 0.20
 
 1. La concentration de A augmente-t-elle ou diminue-t-elle ? Décrivez l'allure de la courbe |A| en fonction du temps.
 \vspace{\stretch{1}}
@@ -16,10 +16,10 @@ On suit la concentration d'un réactif A au cours d'une réaction. On mesure :
 
 ::: {.Answer data-latex=""}
 
-1. La concentration de A diminue au cours du temps (A est consommé). La courbe part de 1.00 mol/l et décroît de plus en plus lentement : elle s'aplatit progressivement.
+1. La concentration de A diminue au cours du temps (A est consommé). La courbe part de 1.00 mol/L et décroît de plus en plus lentement : elle s'aplatit progressivement.
 2. $$
 v_{moy} = - \frac{\Delta |A|}{\Delta t} = - \frac{0.38 - 1.00}{20 - 0} = \frac{0.62}{20} = 0.031 \ \mathrm{mol\cdot l^{-1}\cdot s^{-1}}
 $$
-3. Plus grande au début : entre 0 et 10 s, |A| chute de 0.40 mol/l, alors qu'entre 30 et 40 s elle ne chute que de 0.05 mol/l. La pente (la vitesse) diminue à mesure que A est consommé ; la vitesse est maximale au début (vitesse initiale).
+3. Plus grande au début : entre 0 et 10 s, |A| chute de 0.40 mol/L, alors qu'entre 30 et 40 s elle ne chute que de 0.05 mol/L. La pente (la vitesse) diminue à mesure que A est consommé ; la vitesse est maximale au début (vitesse initiale).
 
 :::

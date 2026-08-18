@@ -8,7 +8,7 @@ Une réaction $2A + B \rightarrow$ produits obéit à la loi de vitesse $v = k \
 \vspace{\stretch{1}}
 3. Par quel facteur la vitesse change-t-elle si l'on triple $|A|$ et que l'on divise $|B|$ par deux simultanément ?
 \vspace{\stretch{1}}
-4. Déterminez l'unité de la constante de vitesse $k$ (temps en secondes, concentrations en mol/l).
+4. Déterminez l'unité de la constante de vitesse $k$ (temps en secondes, concentrations en mol/L).
 \vspace{\stretch{1}}
 
 :::

@@ -315,7 +315,7 @@ Les réactions pouvant se dérouler dans des conditions de température et de pr
 
 - température : 298 K (25°C)
 - pression : 1 bar (100 kPa)
-- concentration : 1 mol/l dans le cas de solutions
+- concentration : 1 mol/L dans le cas de solutions
 
 De cette manière, on peut définir la variation d'enthalpie standard de toute réaction à l'aide des variations d'enthalpies standard de formation des réactifs et des produits.
 

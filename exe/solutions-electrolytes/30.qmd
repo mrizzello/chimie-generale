@@ -23,7 +23,7 @@ Calculez la molarité des solutions suivantes :
 \begin{split}
   C_{NaOH} &= \frac{n_{NaOH}}{V_{sol}} \\
   &= \frac{3 \cdot 10^{-2}\ \text{ mol}}{25 \cdot 10^{-3}\ \text{ l}} \\
-  &= 1.2\ \text{ mol/l} \text{ ou } M
+  &= 1.2\ \text{ mol/L} \text{ ou } M
 \end{split}
 $$
 2. $$
@@ -36,7 +36,7 @@ $$
 \begin{split}
   C_{Ba(OH)_2} &= \frac{n_{Ba(OH)_2}}{V_{sol}} \\
   &= \frac{2 \cdot 10^{-2}\ \text{ mol}}{2.5\ \text{ l}} \\
-  &= 8 \cdot 10^{-3}\ \text{ mol/l} \text{ ou } M
+  &= 8 \cdot 10^{-3}\ \text{ mol/L} \text{ ou } M
 \end{split}
 $$
 3. $$
@@ -49,7 +49,7 @@ $$
 \begin{split}
   C_{H_3PO_4} &= \frac{n_{H_3PO_4}}{V_{sol}} \\
   &= \frac{1.5 \cdot 10^{-2}\ \text{ mol}}{40 \cdot 10^{-3}\ \text{ l}} \\
-  &= 0.375\ \text{ mol/l} \text{ ou } M
+  &= 0.375\ \text{ mol/L} \text{ ou } M
 \end{split}
 $$
 

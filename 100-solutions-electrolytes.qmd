@@ -246,13 +246,13 @@ $$
 \begin{split}
   n &\text{ : Nombre de moles de soluté en mol} \\
   V &\text{ : Volume de solution en l} \\
-  C &\text{ : Concentration du soluté en mol/l ou M}
+  C &\text{ : Concentration du soluté en mol/L ou M}
 \end{split}
 $$
 
-En chimie, la concentration molaire d'une espèce A est notée entre deux barres verticales, **|A|**. Par exemple, une concentration en acide sulfurique (H~2~SO~4~) de 0.5 mol/l sera notée:
+En chimie, la concentration molaire d'une espèce A est notée entre deux barres verticales, **|A|**. Par exemple, une concentration en acide sulfurique (H~2~SO~4~) de 0.5 mol/L sera notée:
 
-$$ |H_2SO_4| = 0.5\ M \text{ ou } \text{ mol/l} $$
+$$ |H_2SO_4| = 0.5\ M \text{ ou } \text{ mol/L} $$
 
 {{< include exe/solutions-electrolytes/30.qmd >}}
 
@@ -269,8 +269,8 @@ $$
 \qquad
 \begin{split}
   m &\text{ : Masse de soluté en g} \\
-  V &\text{ : Volume de solution en l} \\
-  T &\text{ : Titre du soluté en g/l}
+  V &\text{ : Volume de solution en L} \\
+  T &\text{ : Titre du soluté en g/L}
 \end{split}
 $$
 
@@ -282,8 +282,8 @@ $$
 \end{split}
 \qquad
 \begin{split}
-  T &\text{ : Titre du soluté en g/l} \\
-  C &\text{ : Concentration de la solution en mol/l} \\
+  T &\text{ : Titre du soluté en g/L} \\
+  C &\text{ : Concentration de la solution en mol/L} \\
   M &\text{ : Masse molaire du soluté g/mol}
 \end{split}
 $$
@@ -349,7 +349,7 @@ $$
 - Une solution est non saturée, saturée ou sursaturée. La cristallisation est l'inverse de la dissolution.
 - Un électrolyte est une substance qui se dissocie en ions en solution et rend la solution conductrice. Les composés ioniques solubles et les acides sont des électrolytes ; les molécules qui ne se dissocient pas ne le sont pas.
 - L'équation de dissociation d'un composé ionique soluble s'écrit $\ce{C_nA_m ->C[H2O] n\,C^{m+} + m\,A^{n-}}$ ; un composé insoluble est noté avec une flèche vers le bas.
-- La molarité : $C = \dfrac{n}{V}$ en mol/l (ou M), notée $|A|$. Le titre : $T = \dfrac{m}{V}$ en g/l. On passe de l'un à l'autre par $T = C \cdot M$.
+- La molarité : $C = \dfrac{n}{V}$ en mol/L (ou M), notée $|A|$. Le titre : $T = \dfrac{m}{V}$ en g/L. On passe de l'un à l'autre par $T = C \cdot M$.
 - On prépare une solution par dissolution ou par dilution d'une solution stock.
 
 ## Exercices supplémentaires
