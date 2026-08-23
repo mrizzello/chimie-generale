@@ -96,7 +96,23 @@ Imaginons maintenant de faire réagir 5 moles d'aluminium avec 3 moles de dibrom
 - Le réactif en excès sera l'aluminium et il en restera 3 moles qui n'auront pas réagit.
 - La réaction formera 2 moles de bromure d'aluminium dû à la quantité de réactif limitant.
 
+\newpage
+
+### Déterminer le réactif limitant (méthode du quotient molaire)
+
+Pour une réaction équilibrée du type :
+
+$$a\,A + b\,B \rightarrow c\,C + d\,D$$
+
+on calcule, pour chaque réactif, le rapport entre le nombre de moles disponibles et son coefficient stœchiométrique :
+
+$$Q_A = \frac{n_A}{a} \qquad Q_B = \frac{n_B}{b}$$
+
+**Le réactif dont le rapport est le plus petit est le réactif limitant.**
+
 {{< include exe/stoechiometrie/30.qmd >}}
+
+\newpage
 
 ## Le rendement d'une réaction
 
@@ -107,8 +123,6 @@ On définit donc le rendement d'une réaction comme le rapport entre la quantit�
 $$ \eta = \frac{\text{quantité de produit obtenue}}{\text{quantité de produit calculée}} $$
 
 $\eta$ : exprimé en pourcentage massique ou molaire %
-
-\newpage
 
 {{< include exe/stoechiometrie/40.qmd >}}
 

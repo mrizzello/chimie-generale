@@ -19,12 +19,12 @@ n_{\ce{H2}} = \frac{5.00}{2.016} = 2.48 \text{ mol}
 n_{\ce{N2}} = \frac{30.0}{28.014} = 1.07 \text{ mol}
 $$
 $$
-\text{stœchio : } \frac{n_{\ce{N2}}}{n_{\ce{H2}}} = \frac{1}{3} = 0.33
+Q_{\ce{N2}} = \frac{n_{\ce{N2}}}{1} = \frac{1.07}{1} = 1.07
 \qquad
-\text{réaction : } \frac{n_{\ce{N2}}}{n_{\ce{H2}}} = \frac{1.07}{2.48} = 0.43 > 0.33
+Q_{\ce{H2}} = \frac{n_{\ce{H2}}}{3} = \frac{2.48}{3} = 0.827
 $$
 $$
-\Rightarrow \ce{H2} \text{ limitant}
+Q_{\ce{H2}} < Q_{\ce{N2}} \Rightarrow \ce{H2} \text{ limitant}
 $$
 2. $$
 n_{\ce{NH3}} = \frac{2}{3} \cdot n_{\ce{H2}} = \frac{2}{3} \cdot 2.48 = 1.65 \text{ mol}

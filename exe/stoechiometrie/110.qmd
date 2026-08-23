@@ -17,12 +17,12 @@ n_{\ce{Al}} = \frac{5.40}{26.98} = 0.200 \text{ mol}
 n_{\ce{Cl2}} = \frac{40.0}{70.90} = 0.564 \text{ mol}
 $$
 $$
-\text{stœchio : } \frac{n_{\ce{Al}}}{n_{\ce{Cl2}}} = \frac{2}{3} = 0.67
+Q_{\ce{Al}} = \frac{n_{\ce{Al}}}{2} = \frac{0.200}{2} = 0.100
 \qquad
-\text{réaction : } \frac{n_{\ce{Al}}}{n_{\ce{Cl2}}} = \frac{0.200}{0.564} = 0.35 < 0.67
+Q_{\ce{Cl2}} = \frac{n_{\ce{Cl2}}}{3} = \frac{0.564}{3} = 0.188
 $$
 $$
-\Rightarrow \ce{Al} \text{ limitant}
+Q_{\ce{Al}} < Q_{\ce{Cl2}} \Rightarrow \ce{Al} \text{ limitant}
 $$
 2. $$
 n_{\ce{AlCl3}} = n_{\ce{Al}} = 0.200 \text{ mol (rapport 2:2)}

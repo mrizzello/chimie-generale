@@ -16,17 +16,15 @@ $$ \underline{\hspace{1em}}\ \ce{Al} {}_{(s)} +  \underline{\hspace{1em}}\ \ce{B
 $$ 2\: \ce{Al} {}_{(s)} + 3\: \ce{Br2} {}_{(g)} \ce{->} 2\: \ce{AlBr3} {}_{(s)} $$
 
 2. $$ \begin{split}
-  		&\text{conditions stœchiométriques: }\\
-  		&\frac{n_{\ce{Al}}}{n_{\ce{Br2}}} = \frac{2}{3} = 0.67
+  		Q_{\ce{Al}} = \frac{n_{\ce{Al}}}{2} = \frac{0.85}{2} = 0.425
   	\end{split}
   	\qquad
   	\begin{split}
-  		&\text{conditions réactionnelles: }\\
-  		&\frac{n_{\ce{Al}}}{n_{\ce{Br2}}} = \frac{0.85}{1.92} = 0.44
+  		Q_{\ce{Br2}} = \frac{n_{\ce{Br2}}}{3} = \frac{1.92}{3} = 0.64
   	\end{split}
     \qquad
   	\begin{split}
-  		\Rightarrow \ &\ce{Al} \text{ limitant} \\
+  		Q_{\ce{Al}} < Q_{\ce{Br2}} \Rightarrow\ &\ce{Al} \text{ limitant} \\
   		&\ce{Br2} \text{ excès} \\
   	\end{split} $$
 

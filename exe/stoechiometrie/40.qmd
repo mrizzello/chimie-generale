@@ -34,15 +34,15 @@ $$ \begin{split}
 Calcul du réactif limitant :
 
 $$ \begin{split}
-			\text{cond. stœchio. : }\frac{n_{\ce{C6H6}}}{n_{\ce{Br2}}} = \frac{1}{1} = 1
+			Q_{\ce{C6H6}} = \frac{n_{\ce{C6H6}}}{1} = \frac{0.539}{1} = 0.539
 		\end{split}
 		\qquad
 		\begin{split}
-			\text{réaction : }\frac{n_{\ce{C6H6}}}{n_{\ce{Br2}}} = \frac{0.539}{0.457} = 1.18
+			Q_{\ce{Br2}} = \frac{n_{\ce{Br2}}}{1} = \frac{0.457}{1} = 0.457
 		\end{split}
 		\qquad
 		\begin{split}
-			\ce{Br2} \Rightarrow\text{ limitant}
+			Q_{\ce{Br2}} < Q_{\ce{C6H6}} \Rightarrow\ \ce{Br2} \text{ limitant}
 		\end{split} $$
 
 Calcul de la masse de \ce{C6H5Br} formée :

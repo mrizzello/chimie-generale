@@ -25,15 +25,15 @@ $$ \ce{NH3} \quad + \quad \ce{O2} \quad \ce{->} \quad \ce{NO} \quad + \quad \ce{
 1. $$ \ce{4 NH3 + 5 O2 -> 4 NO + 6 H2O} $$
 
 a. $$ \begin{split}
-			\text{cond. stœchio. : }\frac{n_{\ce{NH3}}}{n_{\ce{O2}}} = \frac{4}{5} = 0.8
+			Q_{\ce{NH3}} = \frac{n_{\ce{NH3}}}{4} = \frac{0.2}{4} = 0.05
 		\end{split}
 		\qquad
 		\begin{split}
-			\text{réaction : }\frac{n_{\ce{NH3}}}{n_{\ce{O2}}} = \frac{0.2}{0.1} = 2
+			Q_{\ce{O2}} = \frac{n_{\ce{O2}}}{5} = \frac{0.1}{5} = 0.02
 		\end{split}
 		\qquad
 		\begin{split}
-			\ce{O2} \Rightarrow\text{ limitant}
+			Q_{\ce{O2}} < Q_{\ce{NH3}} \Rightarrow\ \ce{O2} \text{ limitant}
 		\end{split} $$
 
 b. $$ \begin{split}

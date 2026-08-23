@@ -1,10 +1,10 @@
 ::: {.Exercise data-latex=""}
 
-La combustion du carbone forme du dioxyde de carbone selon $\ce{C + O2 -> CO2}$. On brûle 6.0 g de carbone. Masses molaires : C = 12.01, CO₂ = 44.01 g/mol.
+La combustion du carbone forme du dioxyde de carbone selon $\ce{C + O2 -> CO2}$. On brûle 6.0 g de carbone.
 
 1. Calculez la masse de $\ce{CO2}$ que l'on obtiendrait avec un rendement de 100 % (masse théorique).
 \vspace{\stretch{1}}
-2. En réalité, le rendement de la réaction n'est que de 80 %. Quelle masse de $\ce{CO2}$ obtient-on réellement ?
+1. En réalité, le rendement de la réaction n'est que de 80 %. Quelle masse de $\ce{CO2}$ obtient-on réellement ?
 \vspace{\stretch{1}}
 
 :::
