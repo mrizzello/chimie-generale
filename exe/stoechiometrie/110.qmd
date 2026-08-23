@@ -1,10 +1,10 @@
 ::: {.Exercise data-latex=""}
 
-On fait réagir 5.40 g d'aluminium avec 40.0 g de dichlore selon $\ce{2Al + 3Cl2 -> 2AlCl3}$. Le rendement de la réaction est de 85 %. Masses molaires : Al = 26.98, Cl₂ = 70.90, AlCl₃ = 133.33 g/mol.
+On fait réagir 5.40 g d'aluminium avec 40.0 g de dichlore selon $\ce{2Al + 3Cl2 -> 2AlCl3}$. Le rendement de la réaction est de 85 %.
 
 1. Déterminez le réactif limitant.
 \vspace{\stretch{1}}
-2. Calculez la masse d'$\ce{AlCl3}$ réellement obtenue (en tenant compte du rendement).
+1. Calculez la masse d'$\ce{AlCl3}$ réellement obtenue (en tenant compte du rendement).
 \vspace{\stretch{1}}
 
 :::

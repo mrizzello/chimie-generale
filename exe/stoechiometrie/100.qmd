@@ -1,10 +1,10 @@
 ::: {.Exercise data-latex=""}
 
-On veut produire 100 g de chaux vive (oxyde de calcium, $\ce{CaO}$) par décomposition du carbonate de calcium selon $\ce{CaCO3 -> CaO + CO2}$. Le rendement de cette réaction est de 90 %. Masses molaires : CaCO₃ = 100.09, CaO = 56.08 g/mol.
+On veut produire 100 g de chaux vive (oxyde de calcium, $\ce{CaO}$) par décomposition du carbonate de calcium selon $\ce{CaCO3 -> CaO + CO2}$. Le rendement de cette réaction est de 90 %.
 
 1. Quelle masse théorique de $\ce{CaO}$ faut-il viser pour en obtenir réellement 100 g ?
 \vspace{\stretch{1}}
-2. Quelle masse de carbonate de calcium faut-il alors faire réagir ?
+1. Quelle masse de carbonate de calcium faut-il alors faire réagir ?
 \vspace{\stretch{1}}
 
 :::
