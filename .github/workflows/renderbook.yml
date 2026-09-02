@@ -14,9 +14,9 @@ jobs:
         with:
           version: '1.10.18'
           tinytex: true
-      - name: Pin tlmgr to the same TeX Live snapshot as local (2026-08-05)
+      - name: Pin tlmgr to the same TeX Live snapshot as local (2026-09-02)
         run: |
-          tlmgr option repository https://www.texlive.info/tlnet-archive/2026/08/05/tlnet
+          tlmgr option repository https://www.texlive.info/tlnet-archive/2026/09/02/tlnet
           tlmgr update --self --all
       - name: Install latex packages
         run: tlmgr install tcolorbox tabto-ltx booktabs amscls cancel was gensymb mhchem siunitx exercise needspace fancyhdr tools
