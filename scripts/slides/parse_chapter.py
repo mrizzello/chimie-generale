@@ -63,6 +63,16 @@ def walk(blocks, depth=0):
             caption = node["c"][1]
             cap_text = inline_text(caption[1][0]["c"]) if caption and caption[1] else ""
             print(f"{pad}[TABLE] {cap_text}")
+        elif t == "Figure":
+            (ident, _, _), caption, body = node["c"]
+            cap_text = inline_text(caption[1][0]["c"]) if caption and caption[1] else ""
+            src = ""
+            for block in body:
+                if block.get("t") == "Plain":
+                    for inline in block["c"]:
+                        if inline.get("t") == "Image":
+                            src = inline["c"][2][0]
+            print(f"{pad}[FIGURE {ident}] {src} — {cap_text}")
         elif t in ("BulletList", "OrderedList"):
             items = node["c"] if t == "BulletList" else node["c"][1]
             print(f"{pad}[LIST]")

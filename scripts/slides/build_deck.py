@@ -74,6 +74,8 @@ def set_bullets(placeholder, items):
 
 def render_snippet(item, cache_dir):
     kind = item.get("kind", "math")
+    if kind == "image":
+        return REPO_ROOT / item["path"]
     if kind == "table":
         tex = item["tex"]
     else:
@@ -85,13 +87,24 @@ def render_snippet(item, cache_dir):
     return render_tex(tex, kind, cache_dir, dpi=RENDER_DPI)
 
 
-def add_image_fit(slide, img_path, top, max_width, max_height):
+def add_image_fit(slide, img_path, top, max_width, max_height, allow_upscale=False):
     with Image.open(img_path) as im:
         px_w, px_h = im.size
-    w_in = px_w / RENDER_DPI
-    h_in = px_h / RENDER_DPI
-    scale = min((max_width / Inches(1)) / w_in, (max_height / Inches(1)) / h_in, 1.0)
-    w, h = Inches(w_in * scale), Inches(h_in * scale)
+    if allow_upscale:
+        # Chapter illustrations are arbitrary web-resolution rasters, not
+        # DPI-calibrated renders: fit them to the box by aspect ratio alone
+        # (upscaling as needed) instead of capping at a native px/DPI size.
+        aspect = px_w / px_h
+        box_aspect = (max_width / Inches(1)) / (max_height / Inches(1))
+        if aspect > box_aspect:
+            w, h = max_width, Inches((max_width / Inches(1)) / aspect)
+        else:
+            h, w = max_height, Inches((max_height / Inches(1)) * aspect)
+    else:
+        w_in = px_w / RENDER_DPI
+        h_in = px_h / RENDER_DPI
+        scale = min((max_width / Inches(1)) / w_in, (max_height / Inches(1)) / h_in, 1.0)
+        w, h = Inches(w_in * scale), Inches(h_in * scale)
     left = MARGIN + (max_width - w) / 2
     slide.shapes.add_picture(str(img_path), left, top, width=w, height=h)
     return h
@@ -104,7 +117,8 @@ def place_renders(slide, renders, cache_dir, top, bottom_limit):
     per_slot = remaining_h / len(renders)
     for item in renders:
         png = render_snippet(item, cache_dir)
-        add_image_fit(slide, png, top, SLIDE_W - 2 * MARGIN, per_slot - GAP)
+        allow_upscale = item.get("kind") == "image"
+        add_image_fit(slide, png, top, SLIDE_W - 2 * MARGIN, per_slot - GAP, allow_upscale)
         top += per_slot
 
 
