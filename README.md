@@ -35,3 +35,13 @@ Le contenu est rédigé sur la base de [Quarto](https://quarto.org/), un systèm
    ```sh
    quarto preview
    ```
+
+### Champ d'évaluation
+
+Le script `scripts/evaluations/champ_evaluation.py` génère le « champ d'évaluation » d'un ou plusieurs chapitres à partir de leur bloc d'objectifs (`::: {.objectives data-latex=""}`).
+
+```sh
+python3 scripts/evaluations/champ_evaluation.py 130 140
+```
+
+Chaque argument identifie un chapitre par son numéro de préfixe (ex. `130`), son slug (ex. `stoechiometrie`) ou une sous-chaîne unique du nom de fichier. Le document généré est écrit dans `fields/` (dossier gitignoré).
