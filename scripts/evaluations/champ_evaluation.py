@@ -6,6 +6,7 @@ Extrait le bloc `::: {.objectives data-latex=""}` de chaque chapitre demandé et
 """
 import re
 import sys
+from datetime import date
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
@@ -90,7 +91,7 @@ def build_section(path):
     if objectives is None:
         sys.exit(f"erreur: {path.name} n'a pas de bloc objectifs.")
     heading = f"#### Chapitre {chapter_num} — {title}"
-    return prefix, "\n".join([heading, "", *objectives])
+    return chapter_num, "\n".join([heading, "", *objectives])
 
 
 def main():
@@ -105,18 +106,20 @@ def main():
             seen.add(path)
             resolved.append(path)
 
-    prefixes = []
+    chapter_nums = []
     sections = []
     for path in resolved:
-        prefix, section = build_section(path)
-        prefixes.append(prefix)
+        chapter_num, section = build_section(path)
+        chapter_nums.append(chapter_num)
         sections.append(section)
 
     doc = "\n\n".join(["### Champ d'évaluation", *sections, FOOTER]) + "\n"
 
     out_dir = REPO_ROOT / "fields"
     out_dir.mkdir(parents=True, exist_ok=True)
-    out_path = out_dir / f"{'-'.join(prefixes)}.md"
+    stamp = date.today().strftime("%Y%m%d")
+    chapters = "-".join(str(n) for n in chapter_nums)
+    out_path = out_dir / f"champ-evaluation-{chapters}-{stamp}.md"
     out_path.write_text(doc)
     print(out_path.relative_to(REPO_ROOT))
 
