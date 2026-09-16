@@ -10,8 +10,19 @@ from PIL import Image, ImageChops, ImageOps
 
 TRIM_MARGIN_PX = 10
 
+# Bump this whenever MATH_TEMPLATE/TABLE_TEMPLATE change: it's folded into the
+# render cache key so stale (e.g. previously truncated) cached PNGs are
+# automatically invalidated instead of being silently reused.
+TEMPLATE_VERSION = 2
+
+# `varwidth` given bare (no value) falls back to `\linewidth`, i.e. the base
+# `article` class's default `\textwidth` (~345pt) — a wide single-line display
+# formula (several `\qquad`-joined equations) that exceeds it gets silently
+# clipped to that width instead of growing to fit. An explicit generous bound
+# fixes this; short formulas still render at their natural (small) size, so
+# there's no cost to a large ceiling.
 MATH_TEMPLATE = r"""
-\documentclass[preview,border=3pt,varwidth]{standalone}
+\documentclass[preview,border=3pt,varwidth=100cm]{standalone}
 \usepackage{amsmath,amssymb}
 \usepackage[T1]{fontenc}
 \usepackage[version=4]{mhchem}
@@ -21,8 +32,12 @@ MATH_TEMPLATE = r"""
 \end{document}
 """
 
+# `preview` imposes the same kind of paragraph-width ceiling on wide tabular
+# content, regardless of any `varwidth` setting. Dropping it falls back to
+# standalone's native crop, which wraps content in a plain `\hbox` with no
+# maximum width, so a wide table can never be clipped.
 TABLE_TEMPLATE = r"""
-\documentclass[preview,border=6pt]{standalone}
+\documentclass[border=6pt]{standalone}
 \usepackage{amsmath,amssymb}
 \usepackage[T1]{fontenc}
 \usepackage{booktabs}
@@ -56,7 +71,7 @@ def render_tex(tex_body: str, kind: str, cache_dir: Path, dpi: int = 400) -> Pat
     cache_dir = Path(cache_dir)
     cache_dir.mkdir(parents=True, exist_ok=True)
     template = TEMPLATES[kind]
-    key = _hash(f"{kind}::{dpi}::{tex_body}")
+    key = _hash(f"{kind}::{dpi}::{TEMPLATE_VERSION}::{tex_body}")
     png_path = cache_dir / f"{key}.png"
     if png_path.exists():
         return png_path
