@@ -10,7 +10,7 @@ $$ \ce{NH3} \quad + \quad \ce{O2} \quad \ce{->} \quad \ce{NO} \quad + \quad \ce{
 
     \vspace{\stretch{1}}
 
-    b. Quelle masse de \ce{NO} sera formée ?
+    b. Quelle masse de $\ce{NO}$ sera formée ?
 
     \vspace{\stretch{1}}
 
