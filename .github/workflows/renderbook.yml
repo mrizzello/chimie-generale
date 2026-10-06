@@ -16,10 +16,11 @@ jobs:
         with:
           version: '1.10.18'
           tinytex: true
-      - name: Pin tlmgr to the same TeX Live snapshot as local (2026-09-02)
+      - name: Update TeX Live to latest (same as local)
         run: |
-          tlmgr option repository https://www.texlive.info/tlnet-archive/2026/09/02/tlnet
           tlmgr update --self --all
+          tlmgr --version
+          tlmgr info --only-installed texlive-scripts | grep -i revision
       - name: Install latex packages
         run: tlmgr install tcolorbox tabto-ltx booktabs amscls cancel was gensymb mhchem siunitx exercise needspace fancyhdr tools
       - name: Render book with Quarto
