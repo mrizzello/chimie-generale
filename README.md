@@ -36,6 +36,19 @@ Le contenu est rédigé sur la base de [Quarto](https://quarto.org/), un systèm
    quarto preview
    ```
 
+### Version de TeX Live (local et GitHub Actions)
+
+Le workflow `.github/workflows/renderbook.yml` installe la dernière TinyTeX puis la met à jour depuis CTAN (`tlmgr update --self --all`). Aucune version n'est figée : un snapshot figé finit toujours par être plus ancien que la TinyTeX publiée chaque mois, et `tlmgr` refuse alors de revenir en arrière, ce qui fait échouer le build.
+
+Pour que le rendu local corresponde à celui du serveur, mettre à jour TeX Live en local avant de pousser :
+
+```sh
+sudo tlmgr update --self --all
+tlmgr info --only-installed texlive-scripts | grep -i revision
+```
+
+La révision affichée doit correspondre (à un jour près) à celle imprimée dans le log du step « Update TeX Live to latest (same as local) » du workflow.
+
 ### Champ d'évaluation
 
 Le script `scripts/evaluations/champ_evaluation.py` génère le « champ d'évaluation » d'un ou plusieurs chapitres à partir de leur bloc d'objectifs (`::: {.objectives data-latex=""}`).
