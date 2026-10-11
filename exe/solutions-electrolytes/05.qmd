@@ -6,7 +6,7 @@ Répondez aux questions suivantes sur les solutions.
 \vspace{\stretch{1}}
 2. Dans une solution de sel dans l'eau, lequel est le soluté ? Lequel est le solvant ?
 \vspace{\stretch{1}}
-3. Parmi les mélanges suivants, lesquels sont des solutions ? l'eau salée, l'eau boueuse, l'air, l'eau gazeuse, l'huile dans l'eau.
+3. Parmi les mélanges suivants, lesquels sont des solutions ? l'eau salée, l'eau boueuse, l'air, l'eau gazeuse (bouteille ouverte), l'eau gazeuse (bouteille fermée), l'huile dans l'eau.
 \vspace{\stretch{1}}
 
 :::
@@ -15,6 +15,6 @@ Répondez aux questions suivantes sur les solutions.
 
 1. Le **soluté** est le composé le moins abondant, dissous dans le solvant ; le **solvant** est le composé le plus abondant.
 2. Le sel est le soluté, l'eau est le solvant.
-3. Sont des solutions (mélanges homogènes) : l'eau salée, l'air et l'eau gazeuse. Ne sont pas des solutions : l'eau boueuse et l'huile dans l'eau (mélanges hétérogènes).
+3. Sont des solutions (mélanges homogènes) : l'eau salée, l'air et l'eau gazeuse (bouteille fermée). Ne sont pas des solutions : l'eau boueuse, l'eau gazeuse (bouteille ouverte) et l'huile dans l'eau (mélanges hétérogènes).
 
 :::
