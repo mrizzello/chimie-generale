@@ -16,3 +16,4 @@ chimie-generale_files
 /.venv/
 /slides/
 /fields/
+__pycache__/
