@@ -23,6 +23,8 @@ jobs:
           tlmgr info --only-installed texlive-scripts | grep -i revision
       - name: Install latex packages
         run: tlmgr install tcolorbox tabto-ltx booktabs amscls cancel was gensymb mhchem siunitx exercise needspace fancyhdr tools
+      - name: Install rsvg-convert (SVG figures → PDF)
+        run: brew install librsvg
       - name: Render book with Quarto
         run: quarto render
       - uses: actions/upload-artifact@v4

@@ -27,7 +27,7 @@ Le processus par lequel des éléments chimiques sont créés est appelé **nucl
 
 \newpage
 
-![Chronologie du cosmos](images/timeline-cosmos.png){#fig-timeline-cosmos width="80%"}
+![Chronologie du cosmos](images/timeline-cosmos.svg){#fig-timeline-cosmos width="100%"}
 
 {{< include exe/historique/10.qmd >}}
 

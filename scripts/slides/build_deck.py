@@ -10,6 +10,8 @@ exactly the "hierarchy" a freeform textbox can't participate in.
 
 Usage: build_deck.py slides/content/introduction.yml
 """
+import hashlib
+import subprocess
 import sys
 from pathlib import Path
 
@@ -72,10 +74,26 @@ def set_bullets(placeholder, items):
         p.level = level
 
 
+def svg_to_png(svg_path, cache_dir, width_px=2400):
+    # Pillow (used by add_image_fit) can't read SVG: rasterize it once with
+    # rsvg-convert (the same tool Quarto uses for the PDF), cached by content.
+    cache_dir = Path(cache_dir)
+    cache_dir.mkdir(parents=True, exist_ok=True)
+    key = hashlib.sha1(svg_path.read_bytes() + str(width_px).encode()).hexdigest()[:16]
+    png_path = cache_dir / f"{svg_path.stem}-{key}.png"
+    if not png_path.exists():
+        subprocess.run(
+            ["rsvg-convert", "-w", str(width_px), str(svg_path), "-o", str(png_path)],
+            check=True,
+        )
+    return png_path
+
+
 def render_snippet(item, cache_dir):
     kind = item.get("kind", "math")
     if kind == "image":
-        return REPO_ROOT / item["path"]
+        path = REPO_ROOT / item["path"]
+        return svg_to_png(path, cache_dir) if path.suffix.lower() == ".svg" else path
     if kind == "table":
         tex = item["tex"]
     else:
