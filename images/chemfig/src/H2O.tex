@@ -1,0 +1,10 @@
+\documentclass[border=20pt]{standalone}
+\usepackage{chemfig}
+\begin{document}
+% H2O : covalence polaire (ΔE = 1.24), même géométrie que dans le cours
+\chemfig{
+    \charge{45=\|,315=\|,60:5pt[anchor=south west]=$2\delta-$}{O}
+    (-[:155,1.4]\charge{135:1pt[anchor=south east]=$\delta+$}{H})
+    (-[:205,1.4]\charge{135:1pt[anchor=south east]=$\delta+$}{H})
+}
+\end{document}

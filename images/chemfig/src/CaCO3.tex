@@ -1,0 +1,11 @@
+\documentclass[border=20pt]{standalone}
+\usepackage{chemfig}
+\begin{document}
+% CaCO3 : Ca–O ionique, C–O polaires (ΔE = 0.89) ; Ca à mi-hauteur entre ses deux O
+\chemfig{
+    \charge{90:3pt[anchor=south]=$4\delta+$}{C}
+    (-[3,1.5]\charge{90=\|,180=\|,270=\|,135:1pt[anchor=south east]=$\ominus$,45:1pt[anchor=south west]=$\delta-$}{O}-[:215.3,1.84,,,draw=none]\charge{45:1pt[anchor=south west]=$\oplus$,315:1pt[anchor=north west]=$\oplus$}{Ca})
+    (-[5,1.5]\charge{90=\|,180=\|,270=\|,135:1pt[anchor=south east]=$\ominus$,315:1pt[anchor=north west]=$\delta-$}{O})
+    (=[0,1.5]\charge{45=\|,315=\|,135:1pt[anchor=south east]=$2\delta-$}{O})
+}
+\end{document}

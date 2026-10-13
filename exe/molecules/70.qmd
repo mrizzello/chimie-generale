@@ -13,3 +13,17 @@ $NaH_2PO_4$
 \vspace{\stretch{1}}
 
 ::::::
+
+:::::: {.Answer data-latex=""}
+
+::: {.multicols data-latex="{2}"}
+
+![](images/chemfig/CaNO32.svg)  
+$Ca(NO_3)_2$
+
+![](images/chemfig/NaH2PO4.svg)  
+$NaH_2PO_4$
+
+:::
+
+::::::

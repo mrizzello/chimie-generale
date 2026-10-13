@@ -1,0 +1,10 @@
+\documentclass[border=20pt]{standalone}
+\usepackage{chemfig}
+\begin{document}
+% Ca(NO3)2 : deux motifs nitrate empilés, Ca à mi-hauteur ; N–O pures (ΔE = 0.40)
+\chemfig{
+    \charge{45:1pt[anchor=south west]=$\oplus$,315:1pt[anchor=north west]=$\oplus$}{Ca}
+    (-[:48.6,2.27,,,draw=none]\charge{90=\|,180=\|,270=\|,135:1pt[anchor=south east]=$\ominus$}{O}-[0,1.5]N(=[1,1.5]\charge{90=\|,0=\|}{O})-[7,1.5,,,->]\charge{0=\|,270=\|,315=\|}{O})
+    (-[:-48.6,2.27,,,draw=none]\charge{90=\|,180=\|,270=\|,135:1pt[anchor=south east]=$\ominus$}{O}-[0,1.5]N(=[1,1.5]\charge{90=\|,0=\|}{O})-[7,1.5,,,->]\charge{0=\|,270=\|,315=\|}{O})
+}
+\end{document}

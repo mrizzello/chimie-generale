@@ -1,0 +1,10 @@
+\documentclass[border=20pt]{standalone}
+\usepackage{chemfig}
+\begin{document}
+% MgO : Mg cède 2 électrons à O
+\schemestart
+\chemfig{\charge{0=\:}{Mg}-[0,1.2,,,draw=none]\charge{180=\.,270=\.,90=\|,0=\|}{O}}
+\arrow
+\chemfig{\charge{45:1pt[anchor=south west]=$\oplus$,315:1pt[anchor=north west]=$\oplus$}{Mg}-[0,1.5,,,draw=none]\charge{90=\|,180=\|,270=\|,0=\|,135:1pt[anchor=south east]=$\ominus$,225:1pt[anchor=north east]=$\ominus$}{O}}
+\schemestop
+\end{document}

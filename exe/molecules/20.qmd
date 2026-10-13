@@ -11,3 +11,17 @@ Dessinez la formule développée à l'aide du schéma fourni pour les composés 
 :::
 
 ::::::
+
+:::::: {.Answer data-latex=""}
+
+::: {.multicols data-latex="{2}"}
+
+![](images/chemfig/KNO2.svg)  
+$KNO_2$
+
+![](images/chemfig/CaCO3.svg)  
+$CaCO_3$
+
+:::
+
+::::::

@@ -1,0 +1,10 @@
+\documentclass[border=20pt]{standalone}
+\usepackage{chemfig}
+\begin{document}
+% AlBr3 : Al cède 1 électron à chaque Br
+\schemestart
+\chemfig{\charge{25=\.,0=\.,-25=\.}{Al}(-[:40,1.9,,,draw=none]\charge{180=\.,90=\|,270=\|,0=\|}{Br})(-[0,1.5,,,draw=none]\charge{180=\.,90=\|,270=\|,0=\|}{Br})(-[:-40,1.9,,,draw=none]\charge{180=\.,90=\|,270=\|,0=\|}{Br})}
+\arrow
+\chemfig{\charge{45:1pt[anchor=south west]=$\oplus$,0:1pt[anchor=west]=$\oplus$,315:1pt[anchor=north west]=$\oplus$}{Al}(-[:40,2.3,,,draw=none]\charge{90=\|,180=\|,270=\|,0=\|,135:1pt[anchor=south east]=$\ominus$}{Br})(-[0,1.8,,,draw=none]\charge{90=\|,180=\|,270=\|,0=\|,135:1pt[anchor=south east]=$\ominus$}{Br})(-[:-40,2.3,,,draw=none]\charge{90=\|,180=\|,270=\|,0=\|,135:1pt[anchor=south east]=$\ominus$}{Br})}
+\schemestop
+\end{document}

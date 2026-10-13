@@ -1,0 +1,10 @@
+\documentclass[border=20pt]{standalone}
+\usepackage{chemfig}
+\begin{document}
+% MgCl2 : électrovalence (ΔE = 1.85)
+\chemfig{
+    \charge{45:1pt[anchor=south west]=$\oplus$,315:1pt[anchor=north west]=$\oplus$}{Mg}
+    (-[:35,1.7,,,draw=none]\charge{90=\|,180=\|,270=\|,0=\|,135:1pt[anchor=south east]=$\ominus$}{Cl})
+    (-[:-35,1.7,,,draw=none]\charge{90=\|,180=\|,270=\|,0=\|,135:1pt[anchor=south east]=$\ominus$}{Cl})
+}
+\end{document}

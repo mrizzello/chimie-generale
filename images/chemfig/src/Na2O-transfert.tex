@@ -1,0 +1,10 @@
+\documentclass[border=20pt]{standalone}
+\usepackage{chemfig}
+\begin{document}
+% Na2O : chaque Na cède 1 électron à O
+\schemestart
+\chemfig{\charge{135=\.,225=\.,45=\|,315=\|}{O}(-[:145,1.6,,,draw=none]\charge{0=\.}{Na})(-[:215,1.6,,,draw=none]\charge{0=\.}{Na})}
+\arrow
+\chemfig{\charge{90=\|,180=\|,270=\|,0=\|,135:1pt[anchor=south east]=$\ominus$,225:1pt[anchor=north east]=$\ominus$}{O}(-[:145,1.9,,,draw=none]\charge{0:1pt[anchor=west]=$\oplus$}{Na})(-[:215,1.9,,,draw=none]\charge{0:1pt[anchor=west]=$\oplus$}{Na})}
+\schemestop
+\end{document}

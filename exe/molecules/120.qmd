@@ -13,3 +13,17 @@ $LiClO_4$
 \vspace{\stretch{1}}
 
 ::::::
+
+:::::: {.Answer data-latex=""}
+
+::: {.multicols data-latex="{2}"}
+
+![](images/chemfig/Na2SO4.svg)  
+$Na_2SO_4$
+
+![](images/chemfig/LiClO4.svg)  
+$LiClO_4$
+
+:::
+
+::::::

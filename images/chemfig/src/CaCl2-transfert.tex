@@ -1,0 +1,10 @@
+\documentclass[border=20pt]{standalone}
+\usepackage{chemfig}
+\begin{document}
+% CaCl2 : Ca cède 1 électron à chaque Cl
+\schemestart
+\chemfig{\charge{0=\:}{Ca}(-[:35,1.6,,,draw=none]\charge{180=\.,90=\|,270=\|,0=\|}{Cl})(-[:-35,1.6,,,draw=none]\charge{180=\.,90=\|,270=\|,0=\|}{Cl})}
+\arrow
+\chemfig{\charge{45:1pt[anchor=south west]=$\oplus$,315:1pt[anchor=north west]=$\oplus$}{Ca}(-[:35,1.7,,,draw=none]\charge{90=\|,180=\|,270=\|,0=\|,135:1pt[anchor=south east]=$\ominus$}{Cl})(-[:-35,1.7,,,draw=none]\charge{90=\|,180=\|,270=\|,0=\|,135:1pt[anchor=south east]=$\ominus$}{Cl})}
+\schemestop
+\end{document}

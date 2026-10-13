@@ -78,3 +78,13 @@ Exemple (NaHSO4) :
     (-[7,1.5,,,->]\charge{0=\|,270=\|,315=\|,90:1pt[anchor=south west]=$2\delta-$}{O})
 }
 ```
+
+## 5. Dessins de molécules dans le livre (chemfig → SVG)
+
+Le livre n'utilise pas chemfig directement : chaque dessin est compilé une fois en SVG, puis inclus comme une image. Le même fichier sert au HTML, au PDF (via `rsvg-convert`) et aux diapositives.
+
+- Source : `images/chemfig/src/<nom>.tex`, un dessin par fichier, en `\documentclass[border=20pt]{standalone}` + `\usepackage{chemfig}`. La large marge est nécessaire, car les charges placées avec `\charge` débordent de la boîte englobante ; le script recadre ensuite sur l'encre.
+- Compilation : `scripts/chemfig/build.sh` (tous les dessins) ou `scripts/chemfig/build.sh KNO2 CaCO3`. Le script enchaîne `pdflatex`, `pdfcrop` et `pdftocairo -svg`, puis écrit `images/chemfig/<nom>.svg`. Le texte y est vectorisé.
+- Intégration dans un corrigé : `![](images/chemfig/<nom>.svg)` suivi de la formule, sans `height` ni `width`. Chaque dessin s'affiche ainsi à sa taille naturelle, à la même échelle que les autres. Dans un `multicols`, séparer les composés par `` `\columnbreak`{=latex} `` et ajouter `` `\interlinepenalty=10000`{=latex} `` en tête du bloc pour qu'une légende ne soit pas coupée entre deux colonnes.
+- Contrôle visuel : `rsvg-convert -b white -z 3 images/chemfig/<nom>.svg -o /tmp/apercu.png`.
+- Ne jamais placer deux éléments de `\charge` au même angle (par exemple une paire et une charge à 45°) : ils se superposent.

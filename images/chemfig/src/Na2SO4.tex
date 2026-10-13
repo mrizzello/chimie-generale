@@ -1,0 +1,11 @@
+\documentclass[border=20pt]{standalone}
+\usepackage{chemfig}
+\begin{document}
+\chemfig{
+    \charge{90:3pt[anchor=south]=$6\delta+$}{S}
+    (-[3,1.5]\charge{90=\|,180=\|,270=\|,135:1pt[anchor=south east]=$\ominus$,45:1pt[anchor=south west]=$\delta-$}{O}-[4,1.5,,,draw=none]\charge{0:1pt[anchor=west]=$\oplus$}{Na})
+    (-[5,1.5]\charge{90=\|,180=\|,270=\|,135:1pt[anchor=south east]=$\ominus$,315:1pt[anchor=north west]=$\delta-$}{O}-[4,1.5,,,draw=none]\charge{0:1pt[anchor=west]=$\oplus$}{Na})
+    (-[1,1.5,,,->]\charge{90=\|,0=\|,45=\|,135:1pt[anchor=south east]=$2\delta-$}{O})
+    (-[7,1.5,,,->]\charge{0=\|,270=\|,315=\|,90:1pt[anchor=south west]=$2\delta-$}{O})
+}
+\end{document}

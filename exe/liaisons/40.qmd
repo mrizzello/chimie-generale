@@ -17,3 +17,23 @@ $AlBr_3$
 \vspace{\stretch{1}}
 
 ::::::
+
+:::::: {.Answer data-latex=""}
+
+::: {.multicols data-latex="{2}"}
+
+![](images/chemfig/MgO-transfert.svg)  
+$MgO$ : $Mg$ cède 2 électrons à $O$.
+
+![](images/chemfig/Na2O-transfert.svg)  
+$Na_2O$ : chaque $Na$ cède 1 électron à $O$.
+
+![](images/chemfig/CaCl2-transfert.svg)  
+$CaCl_2$ : $Ca$ cède 1 électron à chaque $Cl$.
+
+![](images/chemfig/AlBr3-transfert.svg)  
+$AlBr_3$ : $Al$ cède 1 électron à chaque $Br$.
+
+:::
+
+::::::
