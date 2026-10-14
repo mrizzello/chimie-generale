@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="axe" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#222"/>
+    </marker>
+    <marker id="fleche-bleue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1f5fa8"/>
+    </marker>
+    <marker id="fleche-rouge" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#c0392b"/>
+    </marker>
+  </defs>
+
+  <rect width="900" height="300" fill="#ffffff"/>
+
+  <!-- Axe non gradué, orienté vers la droite -->
+  <line x1="50" y1="150" x2="860" y2="150" stroke="#222" stroke-width="2.5" marker-end="url(#axe)"/>
+
+  <!-- K -->
+  <line x1="450" y1="128" x2="450" y2="172" stroke="#222" stroke-width="3"/>
+  <text x="450" y="205" text-anchor="middle" font-size="34" font-weight="bold" font-style="italic" fill="#222">K</text>
+
+  <!-- Cas 1 : Q(t) < K → sens direct -->
+  <line x1="200" y1="150" x2="428" y2="150" stroke="#1f5fa8" stroke-width="6" marker-end="url(#fleche-bleue)"/>
+  <circle cx="190" cy="150" r="9" fill="#1f5fa8"/>
+  <text x="190" y="118" text-anchor="middle" font-size="26" font-style="italic" fill="#1f5fa8">Q(t)</text>
+  <text x="190" y="248" text-anchor="middle" font-size="24" font-weight="bold" font-style="italic" fill="#1f5fa8">Q(t) &lt; K</text>
+  <text x="190" y="278" text-anchor="middle" font-size="22" fill="#1f5fa8">sens direct</text>
+
+  <!-- Cas 2 : Q(t) = K → équilibre -->
+  <circle cx="450" cy="150" r="9" fill="#2e7d32"/>
+  <text x="450" y="118" text-anchor="middle" font-size="26" font-style="italic" fill="#2e7d32">Q(t)</text>
+  <text x="450" y="248" text-anchor="middle" font-size="24" font-weight="bold" font-style="italic" fill="#2e7d32">Q(t) = K</text>
+  <text x="450" y="278" text-anchor="middle" font-size="22" fill="#2e7d32">équilibre</text>
+
+  <!-- Cas 3 : Q(t) > K → sens indirect -->
+  <line x1="700" y1="150" x2="472" y2="150" stroke="#c0392b" stroke-width="6" marker-end="url(#fleche-rouge)"/>
+  <circle cx="710" cy="150" r="9" fill="#c0392b"/>
+  <text x="710" y="118" text-anchor="middle" font-size="26" font-style="italic" fill="#c0392b">Q(t)</text>
+  <text x="710" y="248" text-anchor="middle" font-size="24" font-weight="bold" font-style="italic" fill="#c0392b">Q(t) &gt; K</text>
+  <text x="710" y="278" text-anchor="middle" font-size="22" fill="#c0392b">sens indirect</text>
+</svg>

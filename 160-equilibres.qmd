@@ -312,6 +312,8 @@ Pour déterminer dans quel sens une réaction va évoluer pour atteindre l'équi
 - Si **$Q_r > K$** : Le système n'est pas à l'équilibre. Le numérateur (les produits) doit diminuer et le dénominateur (les réactifs) doit augmenter. La réaction évolue dans le **sens indirect** (vers la gauche).
 - Si **$Q_r = K$** : Le système est à l'**équilibre chimique**. Les concentrations des réactifs et des produits ne varient plus au cours du temps.
 
+![Sens d'évolution d'un système selon la valeur du quotient de réaction par rapport à la constante d'équilibre](images/sens_reaction_Q_K.svg){#fig-sens-reaction-Q-K width="75%"}
+
 Cette comparaison est particulièrement utile pour prévoir l'évolution d'un système lorsque les concentrations initiales sont connues mais que le système n'a pas encore atteint son état d'équilibre.
 
 ### Effet d'un catalyseur sur un équilibre chimique
