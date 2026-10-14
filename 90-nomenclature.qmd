@@ -130,7 +130,7 @@ Les composés binaires renferment des atomes de deux éléments différents dans
 
 Table: Table des préfixes numériques grecs. {#tbl-prefixes-numeriques-grecs}
 
-L'élément le plus électronégatif est nommé en premier. Les proportions des constituants s'expriment par les préfixes "**di**", "**tri**", "**tetra**", "**penta**". Le préfixe "**mono**" n'est utilisé que pour éviter toute ambiguïté, comme pour le monoxyde de carbone, par exemple. On ajoute les préfixes aux constituants sans espaces ni tirets.
+L'élément le plus électronégatif est nommé en premier (il est écrit en second dans la formule). Les proportions des constituants s'expriment par les préfixes "**di**", "**tri**", "**tetra**", "**penta**". Le préfixe "**mono**" n'est utilisé que pour éviter toute ambiguïté, comme pour le monoxyde de carbone, par exemple. On ajoute les préfixes aux constituants sans espaces ni tirets.
 
 |          |                               |          |                                  |
 | :------: | ----------------------------- | :------: | -------------------------------- |
@@ -273,7 +273,7 @@ Les sels acides sont des sels qui contiennent le cation $H^+$ en plus d'un catio
 - Cations monoatomiques&nbsp;:&nbsp;nom du métal ; on précise le nombre d'oxydation en chiffres romains lorsque le métal peut former plusieurs cations.
 - Ions polyatomiques&nbsp;:&nbsp;à connaître d'après la table.
 - Corps simples&nbsp;:&nbsp;nom de l'élément ; les molécules diatomiques homonucléaires prennent le préfixe "di".
-- Composés binaires covalents&nbsp;:&nbsp;préfixes grecs, l'élément le plus électronégatif nommé en second avec le suffixe -ure (ou oxyde).
+- Composés binaires covalents&nbsp;:&nbsp;préfixes grecs ; l'élément le plus électronégatif, écrit en second dans la formule, est nommé en premier avec le suffixe -ure (ou oxyde).
 - Composés binaires ioniques&nbsp;:&nbsp;anion en -ure (ou oxyde) + « de » + métal ; chiffre romain si nécessaire.
 - Acides binaires (hydracides)&nbsp;:&nbsp;$H$ + non-métal ; en solution aqueuse, racine de l'élément + suffixe -hydrique.
 - Composés ternaires&nbsp;:&nbsp;les hydroxydes, les oxacides ($H^+$ + anion polyatomique ; anion -ite → acide -eux, anion -ate → acide -ique, préfixes hypo-/per-), et les sels (ions monoatomiques et/ou polyatomiques, lus de droite à gauche).
