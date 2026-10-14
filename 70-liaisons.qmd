@@ -141,7 +141,7 @@ Le nombre relatif de cations et d'anions n'est pas toujours le même. Prenons pa
 
 ![](images/CaF2-crystal.png){#fig-CaF2 width="50%"}
 
-Réseaux ioniques formés par $NaCl$ et $CaF_2$.
+Réseaux ioniques formés par $NaCl$ ($Na^+$ en bleu, $Cl^-$ en vert) et $CaF_2$ ($Ca^{2+}$ en gris, $F^-$ en jaune).
 :::
 
 {{< include exe/liaisons/20.qmd >}}
