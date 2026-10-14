@@ -324,8 +324,6 @@ Un catalyseur accélère une réaction en abaissant l'énergie d'activation de l
 
 Si un catalyseur est ajouté à un mélange réactionnel qui n'est pas à l'équilibre le mélange atteindra l'équilibre plus rapidement.
 
-\newpage
-
 {{< include exe/equilibres/30.qmd >}}
 
 {{< include exe/equilibres/40.qmd >}}
