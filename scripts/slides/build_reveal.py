@@ -186,6 +186,8 @@ def tabular_to_html(tex):
     m = re.search(r"\\begin\{tabular\}\{([^}]*)\}(.*?)\\end\{tabular\}", tex, re.S)
     if not m:
         raise TableError("pas d'environnement tabular")
+    if tex.count("\\begin{tabular}") > 1:
+        raise TableError("plusieurs tabular dans un même bloc, seul le premier serait converti")
     spec, body = m.group(1).replace("|", "").replace(" ", ""), m.group(2)
     if re.search(r"[^lcr]", spec):
         raise TableError(f"spécification de colonnes « {m.group(1)} » non gérée")
@@ -359,12 +361,13 @@ TEMPLATE = """<!doctype html>
     .reveal ul ul {{ font-size: 0.95em; }}
     .reveal li {{ margin: 0.2em 0; }}
     .reveal .renders {{ flex: 1 1 auto; min-height: 0; display: flex; flex-direction: column;
-                        justify-content: space-evenly; align-items: center; }}
+                        justify-content: flex-start; gap: 0.6em; align-items: center; }}
     .reveal .renders img {{ flex: 1 1 0; min-height: 120px; max-width: 100%;
                             object-fit: contain; margin: 0.2em 0; }}
     .reveal .renders .math {{ width: 100%; flex: none; }}
     .reveal mjx-container[display="true"] {{ overflow: hidden; margin: 0.3em 0; }}
     .reveal table {{ font-size: 0.8em; }}
+    .reveal .renders > table {{ margin: 0 auto; }}  /* top-aligned, not centered */
     .reveal .nb {{ white-space: nowrap; }}
   </style>
 </head>
