@@ -318,13 +318,20 @@ def build_sections(content):
             comment = title if stype in ("exercise", "answer") else None
             if spec.get("label"):
                 title = f"{title} — {spec['label']}"
-            lines = section(stype, "h2", title, content_body(spec, slug, where, fade=stype not in ("exercise", "answer")),
-                            comment)
             if stype in ("exercise", "answer"):
                 # Exercise on top, its answer(s) below it (down arrow).
-                stack.append(lines)
+                stack.append(section(stype, "h2", title,
+                                     content_body(spec, slug, where, fade=False), comment))
                 continue
-            out += lines
+            if spec.get("items") and spec.get("renders"):
+                # Course slide with text and a figure/table/formula: the text
+                # and the renders go on two consecutive slides, same title.
+                parts = [{"items": spec["items"]}, {"renders": spec["renders"]}]
+            else:
+                parts = [spec]
+            for k, part in enumerate(parts):
+                out += ([""] if k else []) + section(stype, "h2", title,
+                                                     content_body(part, slug, where))
         out.append("")
     flush()
     return out
