@@ -1,0 +1,33 @@
+::: {.Exercise data-latex=""}
+
+La décomposition du pentoxyde de diazote : $2\ N_2O_5 \rightarrow 4\ NO_2 + O_2$
+
+possède une énergie d'activation $E_a = 103$ kJ/mol et un facteur $A = 4.94 \cdot 10^{13}\ \mathrm{s^{-1}}$.
+
+Données : $R = 8.314\ \mathrm{J \cdot mol^{-1} \cdot K^{-1}}$
+
+1. Calculez la constante de vitesse $k$ à 25°C.
+\vspace{\stretch{1}}
+2. Calculez la constante de vitesse $k$ à 35°C.
+\vspace{\stretch{1}}
+3. Calculez le rapport $\frac{k_{35}}{k_{25}}$. Comparez ce résultat à la règle empirique selon laquelle une augmentation de 10°C double la vitesse de réaction.
+\vspace{\stretch{1}}
+
+:::
+
+::: {.Answer data-latex=""}
+
+1. On convertit en unités SI : $E_a = 103\,000$ J/mol et $T = 25 + 273 = 298$ K.
+$$
+k = A \cdot e^{\frac{-E_a}{R \cdot T}} = 4.94 \cdot 10^{13} \cdot e^{\frac{-103\,000}{8.314 \cdot 298}} = 4.94 \cdot 10^{13} \cdot e^{-41.57} = 4.35 \cdot 10^{-5}\ \mathrm{s^{-1}}
+$$
+2. $T = 35 + 273 = 308$ K.
+$$
+k = 4.94 \cdot 10^{13} \cdot e^{\frac{-103\,000}{8.314 \cdot 308}} = 4.94 \cdot 10^{13} \cdot e^{-40.22} = 1.68 \cdot 10^{-4}\ \mathrm{s^{-1}}
+$$
+3. $$
+\frac{k_{35}}{k_{25}} = \frac{1.68 \cdot 10^{-4}}{4.35 \cdot 10^{-5}} = 3.9
+$$
+La constante de vitesse (donc la vitesse, à concentrations égales) est multipliée par environ 4, et non par 2. La règle empirique ne donne qu'un ordre de grandeur : l'effet réel de la température dépend de l'énergie d'activation. Plus $E_a$ est élevée, plus la vitesse est sensible à la température.
+
+:::

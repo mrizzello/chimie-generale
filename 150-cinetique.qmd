@@ -166,6 +166,8 @@ T &\text{ : température en } \text{ K}
 \end{split}
 $$
 
+{{< include exe/cinetique/32.qmd >}}
+
 \newpage
 
 ### Les catalyseurs
@@ -229,6 +231,8 @@ Table: Exemples de procédés catalytiques et leurs catalyseurs {#tbl-tab-cataly
 {{< include exe/cinetique/60.qmd >}}
 
 {{< include exe/cinetique/70.qmd >}}
+
+{{< include exe/cinetique/80.qmd >}}
 
 \newpage
 
