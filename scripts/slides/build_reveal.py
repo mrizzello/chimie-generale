@@ -23,6 +23,7 @@ from pathlib import Path
 
 import yaml
 
+from build_index import write_index
 from check_notation import find_problems, split_math
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
@@ -481,6 +482,7 @@ def main():
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     out_path.write_text(TEMPLATE.format(title=esc(content["chapter"]), sections=sections))
     print(f"Wrote {out_path}")
+    write_index(OUT_DIR)
 
 
 if __name__ == "__main__":
