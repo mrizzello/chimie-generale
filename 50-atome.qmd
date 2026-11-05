@@ -151,6 +151,8 @@ $$ 1 \text{ uma} \simeq 1.660 \cdot 10^{-27} \text{ kg} $$
 
 On sait que des charges électriques semblables se repoussent entre-elles. Comment se fait-il que le noyau de l'atome, composé entre autres de protons chargé positivement, n'éclate-t-il pas sous l'effet des forces des répulsions électriques ? Ce sont les neutrons qui maintiennent la cohésion du noyau en exerçant une force d'attraction qui permet de lier fortement les nucléons (protons et neutrons) entre eux. Cette force est appelée **force nucléaire forte** et assure la stabilité du noyau atomique.
 
+![Somme des masses des nucléons et masse du noyau](images/defaut-masse.svg){#fig-defaut-masse width="50%"}
+
 En mesurant la masse d'un noyau stable et en calculant la masse des nucléons qui forment ce noyau, on remarque que ces masses sont différentes. **La masse du noyau est plus petite que la somme des masses des nucléons**. C'est ce qu'on appelle **le défaut de masse**. Cette différence de masse est transformée en énergie de cohésion pour maintenir les nucléons ensemble. Maintenir un noyau stable n'est donc pas "gratuit".
 
 Le défaut de masse est défini de la manière suivante :
