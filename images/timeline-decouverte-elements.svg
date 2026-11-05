@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="915" viewBox="0 90 1920 915" role="img" aria-label="Frise chronologique de la découverte des 118 éléments chimiques">
+<title>Découverte des éléments chimiques</title>
+<rect y="90" width="1920" height="915" fill="#fff"/>
+<g stroke="#13202B" stroke-width="1.5" fill="none">
+  <line x1="16" y1="730" x2="126" y2="730"/>
+  <line x1="138" y1="730" x2="1900" y2="730"/>
+  <line x1="124" y1="737" x2="134" y2="723"/>
+  <line x1="130" y1="737" x2="140" y2="723"/>
+  <line x1="168" y1="730" x2="168" y2="738"/>
+  <line x1="402.1" y1="730" x2="402.1" y2="738"/>
+  <line x1="636.1" y1="730" x2="636.1" y2="738"/>
+  <line x1="870.2" y1="730" x2="870.2" y2="738"/>
+  <line x1="1104.2" y1="730" x2="1104.2" y2="738"/>
+  <line x1="1338.3" y1="730" x2="1338.3" y2="738"/>
+  <line x1="1572.3" y1="730" x2="1572.3" y2="738"/>
+  <line x1="1806.4" y1="730" x2="1806.4" y2="738"/>
+  <line x1="16" y1="776" x2="126" y2="776"/>
+  <line x1="138" y1="776" x2="1900" y2="776"/>
+  <line x1="124" y1="783" x2="134" y2="769"/>
+  <line x1="130" y1="783" x2="140" y2="769"/>
+  <line x1="168" y1="776" x2="168" y2="768"/>
+  <line x1="402.1" y1="776" x2="402.1" y2="768"/>
+  <line x1="636.1" y1="776" x2="636.1" y2="768"/>
+  <line x1="870.2" y1="776" x2="870.2" y2="768"/>
+  <line x1="1104.2" y1="776" x2="1104.2" y2="768"/>
+  <line x1="1338.3" y1="776" x2="1338.3" y2="768"/>
+  <line x1="1572.3" y1="776" x2="1572.3" y2="768"/>
+  <line x1="1806.4" y1="776" x2="1806.4" y2="768"/>
+</g>
+<g font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#13202B">
+  <line x1="28" y1="776" x2="28" y2="827" stroke="#C8302C" stroke-width="1.5"/><circle cx="28" cy="776" r="4" fill="#C8302C"/><text x="36" y="822" text-anchor="start">Aristote (Démocrite)</text>
+  <line x1="884.2" y1="776" x2="884.2" y2="893" stroke="#C8302C" stroke-width="1.5"/><circle cx="884.2" cy="776" r="4" fill="#C8302C"/><text x="892.2" y="868" text-anchor="start"><tspan font-weight="700" fill="#C8302C">1803</tspan><tspan x="892.2" dy="20">Hypothèses de Dalton</tspan></text>
+  <line x1="1324.2" y1="776" x2="1324.2" y2="847" stroke="#C8302C" stroke-width="1.5"/><circle cx="1324.2" cy="776" r="4" fill="#C8302C"/><text x="1316.2" y="822" text-anchor="end"><tspan font-weight="700" fill="#C8302C">1897</tspan><tspan x="1316.2" dy="20">J. J. Thomson découvre l’électron</tspan></text>
+  <line x1="1357" y1="776" x2="1357" y2="893" stroke="#C8302C" stroke-width="1.5"/><circle cx="1357" cy="776" r="4" fill="#C8302C"/><text x="1349" y="868" text-anchor="end"><tspan font-weight="700" fill="#C8302C">1904</tspan><tspan x="1349" dy="20">Modèle de Thomson</tspan></text>
+  <line x1="1389.8" y1="776" x2="1389.8" y2="939" stroke="#C8302C" stroke-width="1.5"/><circle cx="1389.8" cy="776" r="4" fill="#C8302C"/><text x="1381.8" y="914" text-anchor="end"><tspan font-weight="700" fill="#C8302C">1911</tspan><tspan x="1381.8" dy="20">Rutherford : le noyau et le vide</tspan></text>
+  <line x1="1399.1" y1="776" x2="1399.1" y2="985" stroke="#C8302C" stroke-width="1.5"/><circle cx="1399.1" cy="776" r="4" fill="#C8302C"/><text x="1407.1" y="960" text-anchor="start"><tspan font-weight="700" fill="#C8302C">1913</tspan><tspan x="1407.1" dy="20">Modèle de Bohr</tspan></text>
+  <line x1="1460" y1="776" x2="1460" y2="939" stroke="#C8302C" stroke-width="1.5"/><circle cx="1460" cy="776" r="4" fill="#C8302C"/><text x="1468" y="914" text-anchor="start"><tspan font-weight="700" fill="#C8302C">1926</tspan><tspan x="1468" dy="20">Modèle de Schrödinger</tspan></text>
+  <line x1="1488.1" y1="776" x2="1488.1" y2="893" stroke="#C8302C" stroke-width="1.5"/><circle cx="1488.1" cy="776" r="4" fill="#C8302C"/><text x="1496.1" y="868" text-anchor="start"><tspan font-weight="700" fill="#C8302C">1932</tspan><tspan x="1496.1" dy="20">James Chadwick découvre le neutron</tspan></text>
+  <line x1="1689.4" y1="776" x2="1689.4" y2="847" stroke="#C8302C" stroke-width="1.5"/><circle cx="1689.4" cy="776" r="4" fill="#C8302C"/><text x="1697.4" y="822" text-anchor="start"><tspan font-weight="700" fill="#C8302C">années 1970</tspan><tspan x="1697.4" dy="20">Modèle standard</tspan></text>
+</g>
+<g font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#13202B" text-anchor="middle" stroke="#fff" stroke-width="6" stroke-linejoin="round" paint-order="stroke">
+  <text x="168" y="760">1650</text>
+  <text x="402.1" y="760">1700</text>
+  <text x="636.1" y="760">1750</text>
+  <text x="870.2" y="760">1800</text>
+  <text x="1104.2" y="760">1850</text>
+  <text x="1338.3" y="760">1900</text>
+  <text x="1572.3" y="760">1950</text>
+  <text x="1806.4" y="760">2000</text>
+  <text x="64" y="760">Antiquité</text>
+</g>
+<g font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#13202B" text-anchor="middle">
+  <g><title>Phosphore (P) – 1669</title><rect x="218.2" y="682" width="40" height="40" rx="5" fill="rgb(255,212,161)" stroke="rgb(230,125,0)" stroke-width="1"/><text x="238.2" y="708.5">P</text></g>
+  <g><title>Cobalt (Co) – 1735</title><rect x="545.9" y="682" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="565.9" y="708.5">Co</text></g>
+  <g><title>Platine (Pt) – 1735</title><rect x="545.9" y="638" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="565.9" y="664.5">Pt</text></g>
+  <g><title>Zinc (Zn) – 1746</title><rect x="592.7" y="682" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="612.7" y="708.5">Zn</text></g>
+  <g><title>Nickel (Ni) – 1751</title><rect x="639.5" y="682" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="659.5" y="708.5">Ni</text></g>
+  <g><title>Bismuth (Bi) – 1753</title><rect x="639.5" y="638" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="659.5" y="664.5">Bi</text></g>
+  <g><title>Hydrogène (H) – 1766</title><rect x="686.3" y="682" width="40" height="40" rx="5" fill="rgb(255,212,161)" stroke="rgb(230,125,0)" stroke-width="1"/><text x="706.3" y="708.5">H</text></g>
+  <g><title>Azote (N) – 1772</title><rect x="733.1" y="682" width="40" height="40" rx="5" fill="rgb(255,212,161)" stroke="rgb(230,125,0)" stroke-width="1"/><text x="753.1" y="708.5">N</text></g>
+  <g><title>Oxygène (O) – 1774</title><rect x="733.1" y="638" width="40" height="40" rx="5" fill="rgb(255,212,161)" stroke="rgb(230,125,0)" stroke-width="1"/><text x="753.1" y="664.5">O</text></g>
+  <g><title>Chlore (Cl) – 1774</title><rect x="733.1" y="594" width="40" height="40" rx="5" fill="rgb(255,212,161)" stroke="rgb(230,125,0)" stroke-width="1"/><text x="753.1" y="620.5">Cl</text></g>
+  <g><title>Manganèse (Mn) – 1774</title><rect x="733.1" y="550" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="753.1" y="576.5">Mn</text></g>
+  <g><title>Molybdène (Mo) – 1778</title><rect x="733.1" y="506" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="753.1" y="532.5">Mo</text></g>
+  <g><title>Tellure (Te) – 1782</title><rect x="779.9" y="682" width="40" height="40" rx="5" fill="rgb(219,193,229)" stroke="rgb(136,68,162)" stroke-width="1"/><text x="799.9" y="708.5">Te</text></g>
+  <g><title>Tungstène (W) – 1783</title><rect x="779.9" y="638" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="799.9" y="664.5">W</text></g>
+  <g><title>Zirconium (Zr) – 1789</title><rect x="779.9" y="594" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="799.9" y="620.5">Zr</text></g>
+  <g><title>Uranium (U) – 1789</title><rect x="779.9" y="550" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="799.9" y="576.5">U</text></g>
+  <g><title>Strontium (Sr) – 1790</title><rect x="826.8" y="682" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="846.8" y="708.5">Sr</text></g>
+  <g><title>Titane (Ti) – 1791</title><rect x="826.8" y="638" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="846.8" y="664.5">Ti</text></g>
+  <g><title>Yttrium (Y) – 1794</title><rect x="826.8" y="594" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="846.8" y="620.5">Y</text></g>
+  <g><title>Chrome (Cr) – 1797</title><rect x="826.8" y="550" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="846.8" y="576.5">Cr</text></g>
+  <g><title>Béryllium (Be) – 1798</title><rect x="826.8" y="506" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="846.8" y="532.5">Be</text></g>
+  <g><title>Vanadium (V) – 1801</title><rect x="873.6" y="682" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="893.6" y="708.5">V</text></g>
+  <g><title>Niobium (Nb) – 1801</title><rect x="873.6" y="638" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="893.6" y="664.5">Nb</text></g>
+  <g><title>Tantale (Ta) – 1802</title><rect x="873.6" y="594" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="893.6" y="620.5">Ta</text></g>
+  <g><title>Rhodium (Rh) – 1803</title><rect x="873.6" y="550" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="893.6" y="576.5">Rh</text></g>
+  <g><title>Palladium (Pd) – 1803</title><rect x="873.6" y="506" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="893.6" y="532.5">Pd</text></g>
+  <g><title>Cérium (Ce) – 1803</title><rect x="873.6" y="462" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="893.6" y="488.5">Ce</text></g>
+  <g><title>Osmium (Os) – 1803</title><rect x="873.6" y="418" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="893.6" y="444.5">Os</text></g>
+  <g><title>Iridium (Ir) – 1803</title><rect x="873.6" y="374" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="893.6" y="400.5">Ir</text></g>
+  <g><title>Sodium (Na) – 1807</title><rect x="873.6" y="330" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="893.6" y="356.5">Na</text></g>
+  <g><title>Potassium (K) – 1807</title><rect x="873.6" y="286" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="893.6" y="312.5">K</text></g>
+  <g><title>Bore (B) – 1808</title><rect x="873.6" y="242" width="40" height="40" rx="5" fill="rgb(219,193,229)" stroke="rgb(136,68,162)" stroke-width="1"/><text x="893.6" y="268.5">B</text></g>
+  <g><title>Magnésium (Mg) – 1808</title><rect x="873.6" y="198" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="893.6" y="224.5">Mg</text></g>
+  <g><title>Calcium (Ca) – 1808</title><rect x="873.6" y="154" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="893.6" y="180.5">Ca</text></g>
+  <g><title>Baryum (Ba) – 1808</title><rect x="873.6" y="110" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="893.6" y="136.5">Ba</text></g>
+  <g><title>Iode (I) – 1811</title><rect x="920.4" y="682" width="40" height="40" rx="5" fill="rgb(255,212,161)" stroke="rgb(230,125,0)" stroke-width="1"/><text x="940.4" y="708.5">I</text></g>
+  <g><title>Lithium (Li) – 1817</title><rect x="920.4" y="638" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="940.4" y="664.5">Li</text></g>
+  <g><title>Sélénium (Se) – 1817</title><rect x="920.4" y="594" width="40" height="40" rx="5" fill="rgb(255,212,161)" stroke="rgb(230,125,0)" stroke-width="1"/><text x="940.4" y="620.5">Se</text></g>
+  <g><title>Cadmium (Cd) – 1817</title><rect x="920.4" y="550" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="940.4" y="576.5">Cd</text></g>
+  <g><title>Aluminium (Al) – 1825</title><rect x="967.2" y="682" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="987.2" y="708.5">Al</text></g>
+  <g><title>Brome (Br) – 1826</title><rect x="967.2" y="638" width="40" height="40" rx="5" fill="rgb(255,212,161)" stroke="rgb(230,125,0)" stroke-width="1"/><text x="987.2" y="664.5">Br</text></g>
+  <g><title>Ruthénium (Ru) – 1827</title><rect x="967.2" y="594" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="987.2" y="620.5">Ru</text></g>
+  <g><title>Thorium (Th) – 1828</title><rect x="967.2" y="550" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="987.2" y="576.5">Th</text></g>
+  <g><title>Lanthane (La) – 1839</title><rect x="1014" y="682" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1034" y="708.5">La</text></g>
+  <g><title>Terbium (Tb) – 1843</title><rect x="1060.8" y="682" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1080.8" y="708.5">Tb</text></g>
+  <g><title>Erbium (Er) – 1843</title><rect x="1060.8" y="638" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1080.8" y="664.5">Er</text></g>
+  <g><title>Silicium (Si) – 1854</title><rect x="1107.6" y="682" width="40" height="40" rx="5" fill="rgb(219,193,229)" stroke="rgb(136,68,162)" stroke-width="1"/><text x="1127.6" y="708.5">Si</text></g>
+  <g><title>Césium (Cs) – 1860</title><rect x="1154.4" y="682" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1174.4" y="708.5">Cs</text></g>
+  <g><title>Rubidium (Rb) – 1861</title><rect x="1154.4" y="638" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1174.4" y="664.5">Rb</text></g>
+  <g><title>Thallium (Tl) – 1861</title><rect x="1154.4" y="594" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1174.4" y="620.5">Tl</text></g>
+  <g><title>Indium (In) – 1863</title><rect x="1154.4" y="550" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1174.4" y="576.5">In</text></g>
+  <g><title>Hélium (He) – 1868</title><rect x="1154.4" y="506" width="40" height="40" rx="5" fill="rgb(208,240,192)" stroke="rgb(91,185,44)" stroke-width="1"/><text x="1174.4" y="532.5">He</text></g>
+  <g><title>Gallium (Ga) – 1875</title><rect x="1201.2" y="682" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1221.2" y="708.5">Ga</text></g>
+  <g><title>Holmium (Ho) – 1878</title><rect x="1201.2" y="638" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1221.2" y="664.5">Ho</text></g>
+  <g><title>Ytterbium (Yb) – 1878</title><rect x="1201.2" y="594" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1221.2" y="620.5">Yb</text></g>
+  <g><title>Scandium (Sc) – 1879</title><rect x="1201.2" y="550" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1221.2" y="576.5">Sc</text></g>
+  <g><title>Samarium (Sm) – 1879</title><rect x="1201.2" y="506" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1221.2" y="532.5">Sm</text></g>
+  <g><title>Thulium (Tm) – 1879</title><rect x="1201.2" y="462" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1221.2" y="488.5">Tm</text></g>
+  <g><title>Gadolinium (Gd) – 1880</title><rect x="1248.1" y="682" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1268.1" y="708.5">Gd</text></g>
+  <g><title>Praséodyme (Pr) – 1885</title><rect x="1248.1" y="638" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1268.1" y="664.5">Pr</text></g>
+  <g><title>Néodyme (Nd) – 1885</title><rect x="1248.1" y="594" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1268.1" y="620.5">Nd</text></g>
+  <g><title>Fluor (F) – 1886</title><rect x="1248.1" y="550" width="40" height="40" rx="5" fill="rgb(255,212,161)" stroke="rgb(230,125,0)" stroke-width="1"/><text x="1268.1" y="576.5">F</text></g>
+  <g><title>Germanium (Ge) – 1886</title><rect x="1248.1" y="506" width="40" height="40" rx="5" fill="rgb(219,193,229)" stroke="rgb(136,68,162)" stroke-width="1"/><text x="1268.1" y="532.5">Ge</text></g>
+  <g><title>Dysprosium (Dy) – 1886</title><rect x="1248.1" y="462" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1268.1" y="488.5">Dy</text></g>
+  <g><title>Argon (Ar) – 1894</title><rect x="1294.9" y="682" width="40" height="40" rx="5" fill="rgb(208,240,192)" stroke="rgb(91,185,44)" stroke-width="1"/><text x="1314.9" y="708.5">Ar</text></g>
+  <g><title>Néon (Ne) – 1898</title><rect x="1294.9" y="638" width="40" height="40" rx="5" fill="rgb(208,240,192)" stroke="rgb(91,185,44)" stroke-width="1"/><text x="1314.9" y="664.5">Ne</text></g>
+  <g><title>Krypton (Kr) – 1898</title><rect x="1294.9" y="594" width="40" height="40" rx="5" fill="rgb(208,240,192)" stroke="rgb(91,185,44)" stroke-width="1"/><text x="1314.9" y="620.5">Kr</text></g>
+  <g><title>Xénon (Xe) – 1898</title><rect x="1294.9" y="550" width="40" height="40" rx="5" fill="rgb(208,240,192)" stroke="rgb(91,185,44)" stroke-width="1"/><text x="1314.9" y="576.5">Xe</text></g>
+  <g><title>Polonium (Po) – 1898</title><rect x="1294.9" y="506" width="40" height="40" rx="5" fill="rgb(219,193,229)" stroke="rgb(136,68,162)" stroke-width="1"/><text x="1314.9" y="532.5">Po</text></g>
+  <g><title>Radium (Ra) – 1898</title><rect x="1294.9" y="462" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1314.9" y="488.5">Ra</text></g>
+  <g><title>Actinium (Ac) – 1899</title><rect x="1294.9" y="418" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1314.9" y="444.5">Ac</text></g>
+  <g><title>Radon (Rn) – 1900</title><rect x="1341.7" y="682" width="40" height="40" rx="5" fill="rgb(208,240,192)" stroke="rgb(91,185,44)" stroke-width="1"/><text x="1361.7" y="708.5">Rn</text></g>
+  <g><title>Europium (Eu) – 1901</title><rect x="1341.7" y="638" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1361.7" y="664.5">Eu</text></g>
+  <g><title>Lutécium (Lu) – 1907</title><rect x="1341.7" y="594" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1361.7" y="620.5">Lu</text></g>
+  <g><title>Protactinium (Pa) – 1913</title><rect x="1388.5" y="682" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1408.5" y="708.5">Pa</text></g>
+  <g><title>Hafnium (Hf) – 1923</title><rect x="1435.3" y="682" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1455.3" y="708.5">Hf</text></g>
+  <g><title>Rhénium (Re) – 1925</title><rect x="1435.3" y="638" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1455.3" y="664.5">Re</text></g>
+  <g><title>Technétium (Tc) – 1937</title><rect x="1482.1" y="682" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1502.1" y="708.5">Tc</text></g>
+  <g><title>Francium (Fr) – 1939</title><rect x="1482.1" y="638" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1502.1" y="664.5">Fr</text></g>
+  <g><title>Astate (At) – 1940</title><rect x="1528.9" y="682" width="40" height="40" rx="5" fill="rgb(255,212,161)" stroke="rgb(230,125,0)" stroke-width="1"/><text x="1548.9" y="708.5">At</text></g>
+  <g><title>Neptunium (Np) – 1940</title><rect x="1528.9" y="638" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1548.9" y="664.5">Np</text></g>
+  <g><title>Plutonium (Pu) – 1940</title><rect x="1528.9" y="594" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1548.9" y="620.5">Pu</text></g>
+  <g><title>Américium (Am) – 1944</title><rect x="1528.9" y="550" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1548.9" y="576.5">Am</text></g>
+  <g><title>Curium (Cm) – 1944</title><rect x="1528.9" y="506" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1548.9" y="532.5">Cm</text></g>
+  <g><title>Prométhium (Pm) – 1945</title><rect x="1528.9" y="462" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1548.9" y="488.5">Pm</text></g>
+  <g><title>Berkélium (Bk) – 1949</title><rect x="1528.9" y="418" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1548.9" y="444.5">Bk</text></g>
+  <g><title>Californium (Cf) – 1950</title><rect x="1575.7" y="682" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1595.7" y="708.5">Cf</text></g>
+  <g><title>Einsteinium (Es) – 1952</title><rect x="1575.7" y="638" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1595.7" y="664.5">Es</text></g>
+  <g><title>Fermium (Fm) – 1952</title><rect x="1575.7" y="594" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1595.7" y="620.5">Fm</text></g>
+  <g><title>Mendélévium (Md) – 1955</title><rect x="1575.7" y="550" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1595.7" y="576.5">Md</text></g>
+  <g><title>Nobélium (No) – 1957</title><rect x="1575.7" y="506" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1595.7" y="532.5">No</text></g>
+  <g><title>Lawrencium (Lr) – 1961</title><rect x="1622.5" y="682" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1642.5" y="708.5">Lr</text></g>
+  <g><title>Rutherfordium (Rf) – 1964</title><rect x="1622.5" y="638" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1642.5" y="664.5">Rf</text></g>
+  <g><title>Dubnium (Db) – 1967</title><rect x="1622.5" y="594" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1642.5" y="620.5">Db</text></g>
+  <g><title>Seaborgium (Sg) – 1974</title><rect x="1669.4" y="682" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1689.4" y="708.5">Sg</text></g>
+  <g><title>Bohrium (Bh) – 1976</title><rect x="1669.4" y="638" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1689.4" y="664.5">Bh</text></g>
+  <g><title>Meitnérium (Mt) – 1982</title><rect x="1716.2" y="682" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1736.2" y="708.5">Mt</text></g>
+  <g><title>Hassium (Hs) – 1984</title><rect x="1716.2" y="638" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1736.2" y="664.5">Hs</text></g>
+  <g><title>Darmstadtium (Ds) – 1994</title><rect x="1763" y="682" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1783" y="708.5">Ds</text></g>
+  <g><title>Roentgenium (Rg) – 1994</title><rect x="1763" y="638" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1783" y="664.5">Rg</text></g>
+  <g><title>Copernicium (Cn) – 1996</title><rect x="1763" y="594" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1783" y="620.5">Cn</text></g>
+  <g><title>Flérovium (Fl) – 1998</title><rect x="1763" y="550" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1783" y="576.5">Fl</text></g>
+  <g><title>Livermorium (Lv) – 2000</title><rect x="1809.8" y="682" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1829.8" y="708.5">Lv</text></g>
+  <g><title>Moscovium (Mc) – 2003</title><rect x="1809.8" y="638" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1829.8" y="664.5">Mc</text></g>
+  <g><title>Nihonium (Nh) – 2004</title><rect x="1809.8" y="594" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="1829.8" y="620.5">Nh</text></g>
+  <g><title>Oganesson (Og) – 2006</title><rect x="1809.8" y="550" width="40" height="40" rx="5" fill="rgb(208,240,192)" stroke="rgb(91,185,44)" stroke-width="1"/><text x="1829.8" y="576.5">Og</text></g>
+  <g><title>Tennesse (Ts) – 2010</title><rect x="1856.6" y="682" width="40" height="40" rx="5" fill="rgb(255,212,161)" stroke="rgb(230,125,0)" stroke-width="1"/><text x="1876.6" y="708.5">Ts</text></g>
+  <g><title>Carbone (C) – Antiquité</title><rect x="22" y="682" width="40" height="40" rx="5" fill="rgb(255,212,161)" stroke="rgb(230,125,0)" stroke-width="1"/><text x="42" y="708.5">C</text></g>
+  <g><title>Soufre (S) – Antiquité</title><rect x="66" y="682" width="40" height="40" rx="5" fill="rgb(255,212,161)" stroke="rgb(230,125,0)" stroke-width="1"/><text x="86" y="708.5">S</text></g>
+  <g><title>Fer (Fe) – Antiquité</title><rect x="22" y="638" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="42" y="664.5">Fe</text></g>
+  <g><title>Cuivre (Cu) – Antiquité</title><rect x="66" y="638" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="86" y="664.5">Cu</text></g>
+  <g><title>Arsenic (As) – Antiquité</title><rect x="22" y="594" width="40" height="40" rx="5" fill="rgb(219,193,229)" stroke="rgb(136,68,162)" stroke-width="1"/><text x="42" y="620.5">As</text></g>
+  <g><title>Argent (Ag) – Antiquité</title><rect x="66" y="594" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="86" y="620.5">Ag</text></g>
+  <g><title>Étain (Sn) – Antiquité</title><rect x="22" y="550" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="42" y="576.5">Sn</text></g>
+  <g><title>Antimoine (Sb) – Antiquité</title><rect x="66" y="550" width="40" height="40" rx="5" fill="rgb(219,193,229)" stroke="rgb(136,68,162)" stroke-width="1"/><text x="86" y="576.5">Sb</text></g>
+  <g><title>Or (Au) – Antiquité</title><rect x="22" y="506" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="42" y="532.5">Au</text></g>
+  <g><title>Mercure (Hg) – Antiquité</title><rect x="66" y="506" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="86" y="532.5">Hg</text></g>
+  <g><title>Plomb (Pb) – Antiquité</title><rect x="22" y="462" width="40" height="40" rx="5" fill="rgb(198,223,237)" stroke="rgb(55,132,174)" stroke-width="1"/><text x="42" y="488.5">Pb</text></g>
+</g>
+</svg>

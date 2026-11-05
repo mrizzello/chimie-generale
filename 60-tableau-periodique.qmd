@@ -18,6 +18,10 @@
 
 A la fin du 18ème siècle, Lavoisier a compilé une liste des 23 éléments connus à l'époque. En 1870, on en connaissait 65, et 88 en 1925. Aujourd'hui, on en dénombre 118.
 
+\newpage
+
+![Années de découverte des éléments](images/timeline-decouverte-elements.svg){#fig-timeline-decouverte-elements width="100%"}
+
 Les chimistes ont regroupé les éléments de sorte à ce qu'ils n'aient pas à mémoriser individuellement les propriétés de chaque élément. Dans leurs tentatives de classification, plusieurs chercheurs ont remarqué des récurrences, ou périodes, dans leur classification.
 
 ## La classification périodique
@@ -25,8 +29,6 @@ Les chimistes ont regroupé les éléments de sorte à ce qu'ils n'aient pas à 
 En 1871, le chimiste russe **Dmitri Mendeleev** (1836-1907) a présenté le premier **tableau périodique**. Il a classé les éléments par masse atomique croissante et il a ensuite organisé les éléments avec des propriétés chimiques similaires dans la même colonne.
 
 Plus tard, le tableau périodique moderne a été introduit. Il classe les éléments par numéro atomique et non par masse atomique, mais le principe est le même que le classement de Mendeleev.
-
-\newpage
 
 Chaque case du tableau représente un élément différent et contient au moins trois informations:
 
@@ -58,7 +60,7 @@ Les éléments B, Si, Ge, As, Sb, Te, Po et At sont appelés **métalloïdes**. 
 
 Le reste des éléments, à droite des métalloïdes, sont appelés **non-métaux**. Les non-métaux ont des propriétés qui sont souvent opposées à celles des métaux. Certains sont des gaz, ils sont de mauvais conducteurs de la chaleur et de l'électricité, ils ne sont ni malléables, ni ductiles.
 
-![Le vocabulaire du tableau périodique](images/tpe-empty.png){#fig-tpe-empty width="45%"}
+![Le vocabulaire du tableau périodique](images/tpe-empty.png){#fig-tpe-empty width="67%"}
 
 \newpage
 
@@ -77,8 +79,6 @@ Les **colonnes** du tableau périodique sont appelées **familles**. Le tableau 
 Il y a au total 18 familles et il existe différentes manières de les numéroter. Dans votre tableau périodique, les familles du **groupe principal** sont désignées avec un chiffre romain de I à VIII. Vous verrez peut-être d'autres numérotations, l'Union Internationale de Chimie Pure et Appliquée (UICPA) a décidé que le système officiel de numérotation des groupes serait de 1 à 18, de gauche à droite.  De nombreux tableaux périodiques présentent plusieurs systèmes simultanément.
 
 <!-- Les familles qui sont désigné avec un A sont appelés les **éléments de groupe principal**, les familles qui sont désigné avec un B sont appelés les **éléments de transition**. -->
-
-\newpage
 
 | Groupe | nom                           | éléments               |
 | :----: | :---------------------------- | :--------------------- |
@@ -172,7 +172,7 @@ Des ondes électromagnétiques peuvent être absorbées par un électron augment
 
 Un électron qui se trouve dans un état d'énergie supérieure à celle de l'état fondamental va avoir tendance à évoluer vers un état d'énergie plus faible avec l'émission d'une onde électromagnétique. L'électron va donc perdre de l'énergie en éjectant un photon qui possède exactement la différence d'énergie entre les deux états.
 
-![Différence entre spectres d'absorption et d'émission](images/absorption-emission.png){#fig-absorption-emission width="50%"}
+![Différence entre spectres d'absorption et d'émission](images/absorption-emission.png){#fig-absorption-emission width="67%"}
 
 L'électron absorbe de l'énergie tout en restant au sein de l'atome et finira
 toujours par la réémettre sous forme d'une onde électromagnétique. La mesure de ces quantités de lumière émises ou absorbées forment le principe de base de la spectroscopie.
