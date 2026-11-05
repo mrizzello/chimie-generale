@@ -172,6 +172,15 @@ def cell_to_html(cell):
                 end = match_brace(seg, i + 7)
                 out += esc(plain) + "<strong>" + cell_to_html(seg[i + 8:end - 1]) + "</strong>"
                 plain, i = "", end
+            elif seg.startswith("\\hspace{", i):
+                end = match_brace(seg, i + 7)
+                n, unit = re.fullmatch(r"\s*([\d.]+)\s*(em|cm|mm|pt)\s*", seg[i + 8:end - 1]).groups()
+                width = float(n) * {"em": 1, "cm": 2.4, "mm": 0.24, "pt": 0.083}[unit]
+                out += esc(plain) + f'<span style="display:inline-block;width:{width:g}em"></span>'
+                plain, i = "", end
+            elif seg[i:i + 2] in ("\\%", "\\&", "\\_", "\\#", "\\ ", "\\,"):
+                plain += {"\\ ": " ", "\\,": "\u202f"}.get(seg[i:i + 2], seg[i + 1])
+                i += 2
             elif seg[i] == "\\":
                 m = re.match(r"\\([A-Za-z]+|.)", seg[i:])
                 raise TableError(f"commande « {m.group(0)} » non gérée dans « {cell} »")
@@ -198,6 +207,8 @@ def tabular_to_html(tex):
     align = {"l": "left", "c": "center", "r": "right"}
     body = re.sub(r"\\(toprule|bottomrule|hline)\b", "", body)
     head_tex, _, rows_tex = body.partition("\\midrule") if "\\midrule" in body else ("", "", body)
+    # rules between body rows: reveal's theme already draws a line under each row
+    rows_tex = rows_tex.replace("\\midrule", "")
 
     def rows(chunk):
         result = []
@@ -370,6 +381,9 @@ TEMPLATE = """<!doctype html>
     .reveal table {{ font-size: 0.8em; }}
     .reveal .renders > table {{ margin: 0 auto; }}  /* top-aligned, not centered */
     .reveal .nb {{ white-space: nowrap; }}
+    /* reveal.css animates fragments with `transition: all`: fitSlide() would
+       measure an in-between font-size. Only the fade is animated. */
+    .reveal .body.fragment {{ transition-property: opacity, visibility; }}
   </style>
 </head>
 <body>
