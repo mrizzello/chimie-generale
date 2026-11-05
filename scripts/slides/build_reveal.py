@@ -25,6 +25,7 @@ import yaml
 
 from build_index import write_index
 from check_notation import find_problems, split_math
+from manual_slides import validate as validate_manual
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 OUT_DIR = REPO_ROOT / "slides" / "revealjs"
@@ -479,6 +480,12 @@ def main():
             print(f"{where}: {prob}", file=sys.stderr)
         sys.exit(f"{len(problems)} problème(s) de notation : corriger le .yml "
                  f"(voir check_notation.py).")
+    errors = validate_manual(content)
+    if errors:
+        for e in errors:
+            print(e, file=sys.stderr)
+        sys.exit(f"{len(errors)} problème(s) d'id ou de slide manuelle : corriger le .yml "
+                 f"(voir manual_slides.py).")
 
     out_path = OUT_DIR / f"{content.get('number', '')}-{content['slug']}.html"
     if out_path.exists() and not args.force:
