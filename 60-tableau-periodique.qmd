@@ -263,7 +263,7 @@ La configuration électronique du niveau de plus basse énergie est appelée **�
 \newpage
 
 ::: {#fig-energy-level-5 layout-ncol=2}
-![](images/energy-level-5.png)
+![](images/energy-level-5.svg)
 
 ![](images/tpe-orbitals.png)
 
