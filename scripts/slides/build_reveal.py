@@ -270,7 +270,8 @@ def render_to_html(item, slug, where):
 def section(classes, title_tag, title, body_lines, comment=None):
     lines = [f"<!-- {comment} -->"] if comment else []
     lines.append(f'<section class="{classes}">')
-    lines.append(f"  <{title_tag}>{fmt(title)}</{title_tag}>")
+    if title:  # `title: ""` in the yml: slide without heading
+        lines.append(f"  <{title_tag}>{fmt(title)}</{title_tag}>")
     lines += indent(body_lines, 2)
     lines.append("</section>")
     return lines
@@ -327,6 +328,8 @@ def build_sections(content):
                 title = f"Corrigé {chapter_num}.{exercise_counter}"
             elif stype == "objectives":
                 title = "Objectifs"
+            elif "title" in spec and not spec["title"]:
+                title = ""  # explicitly untitled: no heading, body shown at once
             else:
                 title = spec.get("title") or stype.capitalize()
             comment = title if stype in ("exercise", "answer") else None
@@ -345,7 +348,8 @@ def build_sections(content):
                 parts = [spec]
             for k, part in enumerate(parts):
                 out += ([""] if k else []) + section(stype, "h2", title,
-                                                     content_body(part, slug, where))
+                                                     content_body(part, slug, where,
+                                                                  fade=bool(title)))
         out.append("")
     flush()
     return out
