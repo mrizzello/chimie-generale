@@ -2,15 +2,15 @@
 
 Pour chacune des phrases suivantes:
 
-- Ecrire l'équation chimique décrite par la phrase.
+- Écrire l'équation chimique décrite par la phrase.
 - Indiquer si l'équation obtenue est équilibrée.
 - Équilibrez les équations qui ne sont pas équilibrées.
 
-1. L'acide chlorhydrique réagit avec l'hydroxyde de sodium pour former du chlorure de sodium et de l'eau.
+1. L'acide chlorhydrique ($\ce{HCl}$) réagit avec l'hydroxyde de sodium ($\ce{NaOH}$) pour former du chlorure de sodium ($\ce{NaCl}$) et de l'eau.
 \vspace{\stretch{1}}
-2. En faisant réagir de l'oxyde de fer (III) avec de l'acide nitrique, on obtient du nitrate de fer (III) et de l'eau.
+2. En faisant réagir de l'oxyde de fer(III) ($\ce{Fe2O3}$) avec de l'acide nitrique ($\ce{HNO3}$), on obtient du nitrate de fer(III) ($\ce{Fe(NO3)3}$) et de l'eau.
 \vspace{\stretch{1}}
-3. Le silicium est obtenu par la réaction du dioxyde de silicium avec le carbone, formant également du monoxyde de carbone.
+3. Le silicium ($\ce{Si}$) est obtenu par la réaction du dioxyde de silicium ($\ce{SiO2}$) avec le carbone ($\ce{C}$), formant également du monoxyde de carbone ($\ce{CO}$).
 \vspace{\stretch{1}}
 
 :::

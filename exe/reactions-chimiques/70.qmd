@@ -2,11 +2,11 @@
 
 Pour chaque réaction, écrivez l'équation équilibrée en indiquant l'état physique de chaque espèce (s, l, g ou aq).
 
-1. Le carbonate de calcium solide se décompose en oxyde de calcium solide et en dioxyde de carbone gazeux.
+1. Le carbonate de calcium ($\ce{CaCO3}$) solide se décompose en oxyde de calcium ($\ce{CaO}$) solide et en dioxyde de carbone ($\ce{CO2}$) gazeux.
 \vspace{\stretch{1}}
-2. Le zinc solide réagit avec une solution aqueuse d'acide chlorhydrique pour former du chlorure de zinc en solution et du dihydrogène gazeux.
+2. Le zinc ($\ce{Zn}$) solide réagit avec une solution aqueuse d'acide chlorhydrique ($\ce{HCl}$) pour former du chlorure de zinc ($\ce{ZnCl2}$) en solution et du dihydrogène ($\ce{H2}$) gazeux.
 \vspace{\stretch{1}}
-3. Le méthane gazeux brûle dans le dioxygène gazeux pour former du dioxyde de carbone gazeux et de l'eau liquide.
+3. Le méthane ($\ce{CH4}$) gazeux brûle dans le dioxygène ($\ce{O2}$) gazeux pour former du dioxyde de carbone ($\ce{CO2}$) gazeux et de l'eau liquide.
 \vspace{\stretch{1}}
 
 :::

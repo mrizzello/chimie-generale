@@ -1,6 +1,6 @@
 ::: {.Exercise data-latex=""}
 
-Lors de la combustion complète du méthane, on observe que 16 g de méthane ($\ce{CH4}$) réagissent avec du dioxygène pour former 44 g de dioxyde de carbone et 36 g d'eau.
+Lors de la combustion complète du méthane, on observe que 16 g de méthane ($\ce{CH4}$) réagissent avec du dioxygène ($\ce{O2}$) pour former 44 g de dioxyde de carbone ($\ce{CO2}$) et 36 g d'eau.
 
 1. Écrivez et équilibrez l'équation de la réaction.
 \vspace{\stretch{1}}

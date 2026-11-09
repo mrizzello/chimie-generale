@@ -2,11 +2,11 @@
 
 Pour chacune des phrases suivantes, écrire l'équation chimique décrite par la phrase et équilibrer l'équation obtenue.
 
-1. L'hydroxyde de calcium et l'acide phosphorique réagissent ensemble pour former du phosphate de calcium et de l'eau.
+1. L'hydroxyde de calcium ($\ce{Ca(OH)2}$) et l'acide phosphorique ($\ce{H3PO4}$) réagissent ensemble pour former du phosphate de calcium ($\ce{Ca3(PO4)2}$) et de l'eau.
 \vspace{\stretch{1}}
-2. On obtient du chlorure d'aluminium et de l'eau lors de la réaction de l'hydroxyde d'aluminium avec de l'acide chlorhydrique.
+2. On obtient du chlorure d'aluminium ($\ce{AlCl3}$) et de l'eau lors de la réaction de l'hydroxyde d'aluminium ($\ce{Al(OH)3}$) avec de l'acide chlorhydrique ($\ce{HCl}$).
 \vspace{\stretch{1}}
-3. Le chlorate de potassium se décompose en chlorure de potassium et en dioxygène lorsqu'il est chauffé.
+3. Le chlorate de potassium ($\ce{KClO3}$) se décompose en chlorure de potassium ($\ce{KCl}$) et en dioxygène ($\ce{O2}$) lorsqu'il est chauffé.
 \vspace{\stretch{1}}
 
 :::
